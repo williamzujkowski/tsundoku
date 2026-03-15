@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  const categoryMap = new Map<string, { name: string; books: typeof books }>();
+
+  for (const book of books) {
+    const cat = book.data.category;
+    const slug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    if (!categoryMap.has(slug)) {
+      categoryMap.set(slug, { name: cat, books: [] });
+    }
+    categoryMap.get(slug)!.books.push(book);
+  }
+
+  return [...categoryMap.entries()].map(([slug, { name, books }]) => ({
+    params: { slug },
+    props: {
+      categoryName: name,
+      books: books.sort((a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title)),
+    },
+  }));
+}
+
+const { categoryName, books } = Astro.props;
+---
+
+<Layout title={categoryName}>
+  <div class="mb-6">
+    <a href="/categories" class="text-sm text-gray-500 hover:text-purple-400 transition-colors">&larr; All Categories</a>
+  </div>
+  <h1 class="text-3xl font-bold text-white mb-2">{categoryName}</h1>
+  <p class="text-gray-400 mb-8">{books.length} {books.length === 1 ? 'book' : 'books'}</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {books.map((book: { data: { priority: number; category: string; title: string; author: string } }) => (
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800 transition-colors">
+        <div class="flex items-start justify-between mb-2">
+          <span class={`text-xs px-2 py-0.5 rounded-full ${book.data.priority === 1 ? 'bg-purple-900 text-purple-300' : book.data.priority === 2 ? 'bg-gray-800 text-gray-400' : 'bg-gray-800 text-gray-500'}`}>
+            P{book.data.priority}
+          </span>
+        </div>
+        <h3 class="text-white font-medium text-sm mb-1 line-clamp-2">{book.data.title}</h3>
+        <p class="text-gray-500 text-xs">{book.data.author}</p>
+      </div>
+    ))}
+  </div>
+</Layout>
