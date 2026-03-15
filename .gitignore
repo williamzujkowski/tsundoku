@@ -20,6 +20,11 @@ pnpm-debug.log*
 .vscode/
 *.swp
 
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
 # Data artifacts (working files, not source of truth)
 data/view-source*.html
 data/merge-report.json
