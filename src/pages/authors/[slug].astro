@@ -1,0 +1,122 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allAuthors = await getCollection('authors');
+  const allBooks = await getCollection('books');
+
+  return allAuthors.map(author => {
+    const authorBooks = allBooks
+      .filter(b => b.data.author === author.data.name)
+      .sort((a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title));
+
+    return {
+      params: { slug: author.data.slug },
+      props: { author: author.data, books: authorBooks },
+    };
+  });
+}
+
+const { author, books } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+function priorityLabel(p: number): string {
+  if (p === 1) return 'Must-Read';
+  if (p === 2) return 'Recommended';
+  return 'Supplementary';
+}
+
+const lifespan = author.birth_year
+  ? author.death_year
+    ? `${author.birth_year}–${author.death_year}`
+    : `b. ${author.birth_year}`
+  : null;
+---
+
+<Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`}>
+  <nav class="mb-6 text-sm text-gray-500">
+    <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
+    <span class="mx-1">/</span>
+    <a href={`${base}authors/`} class="hover:text-white transition-colors">Authors</a>
+    <span class="mx-1">/</span>
+    <span class="text-gray-400">{author.name}</span>
+  </nav>
+
+  <!-- Author header -->
+  <div class="flex flex-col sm:flex-row gap-6 mb-8">
+    {author.photo_url ? (
+      <img
+        src={author.photo_url}
+        alt={author.name}
+        class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl object-cover border border-gray-700 shrink-0"
+        loading="eager"
+      />
+    ) : (
+      <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl bg-gradient-to-br from-purple-900/40 to-gray-800 border border-gray-700 shrink-0 flex items-center justify-center text-gray-600 text-4xl">
+        <svg class="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
+      </div>
+    )}
+
+    <div class="flex-1 min-w-0">
+      <h1 class="text-2xl sm:text-3xl font-bold text-white mb-1">{author.name}</h1>
+
+      {lifespan && (
+        <p class="text-gray-400 text-sm mb-3">{lifespan}</p>
+      )}
+
+      {author.bio && (
+        <p class="text-gray-300 text-sm leading-relaxed mb-4 max-w-3xl">{author.bio}</p>
+      )}
+
+      <div class="flex flex-wrap gap-3">
+        {author.wikipedia_url && (
+          <a href={author.wikipedia_url} target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors border border-gray-700">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.931-1.532.029-1.406-3.321-4.293-9.144-5.651-12.409-.251-.601-.441-.987-.619-1.139-.181-.15-.554-.24-1.122-.271C.103 5.033 0 4.982 0 4.898v-.455l.052-.045c.924-.005 5.401 0 5.401 0l.051.045v.434c0 .119-.075.176-.225.176l-.564.031c-.485.029-.727.164-.727.436 0 .135.053.33.166.601 1.082 2.646 4.818 10.521 4.818 10.521l2.681-5.249-2.12-4.015c-.466-.88-.727-1.36-.727-1.36-.28-.451-.49-.693-.608-.71-.131-.021-.327-.029-.589-.029H7.36c-.149 0-.224-.06-.224-.176v-.434l.051-.045c.924-.005 4.532 0 4.532 0l.051.045v.434c0 .119-.075.176-.224.176-.584.016-.876.104-.876.27 0 .104.063.27.166.502l1.756 3.343 1.728-3.349c.104-.24.166-.406.166-.502 0-.166-.291-.254-.876-.27-.149 0-.224-.06-.224-.176v-.434l.051-.045c.924-.005 3.556 0 3.556 0l.052.045v.434c0 .119-.075.176-.224.176-.391 0-.735.086-1.032.256-.301.166-.541.393-.736.68l-2.515 4.797 2.68 5.202s3.637-7.724 4.669-10.207c.113-.27.166-.465.166-.601 0-.271-.24-.407-.72-.436l-.563-.031c-.149 0-.224-.06-.224-.176v-.434l.051-.045s4.476-.005 5.401 0l.051.045v.455c0 .084-.104.135-.312.158-.567.031-.949.121-1.13.271-.18.152-.371.538-.621 1.139-1.358 3.265-4.245 9.088-5.651 12.409-.405.902-.916 1.045-1.532-.029-.636-1.18-1.917-3.796-2.853-5.728z"/></svg>
+            Wikipedia
+          </a>
+        )}
+        {author.open_library_url && (
+          <a href={author.open_library_url} target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors border border-gray-700">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L19.82 7 12 9.82 4.18 7 12 4.18zM3 8.27l8 4v9.46l-8-4V8.27zm10 13.46V12.27l8-4v9.46l-8 4z"/></svg>
+            Open Library
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <!-- Books by this author -->
+  <h2 class="text-lg font-bold text-white mb-4">{books.length} {books.length === 1 ? 'book' : 'books'} in collection</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+    {books.map(book => (
+      <a href={`${base}books/${book.data.slug}/`}
+         class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group flex gap-3">
+        {book.data.cover_url ? (
+          <img src={book.data.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+        ) : (
+          <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
+          </div>
+        )}
+        <div class="min-w-0 flex-1">
+          <div class="flex items-start justify-between gap-1 mb-1">
+            <span class={`text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${book.data.priority === 1 ? 'bg-purple-900/60 text-purple-300 border border-purple-700/30' : 'bg-gray-800 text-gray-500'}`}>
+              {priorityLabel(book.data.priority)}
+            </span>
+            {book.data.first_published && (
+              <span class="text-[10px] text-gray-600">{book.data.first_published}</span>
+            )}
+          </div>
+          <h3 class="text-white font-medium text-sm mb-0.5 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.data.title}</h3>
+          <p class="text-gray-500 text-xs truncate">{book.data.category}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</Layout>

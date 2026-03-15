@@ -3,6 +3,18 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 const books = await getCollection('books');
+const enrichedAuthors = await getCollection('authors');
+const base = import.meta.env.BASE_URL;
+
+// Build a map of enriched author data by name
+const enrichedMap = new Map<string, { slug: string; photo_url?: string }>();
+for (const a of enrichedAuthors) {
+  enrichedMap.set(a.data.name, {
+    slug: a.data.slug,
+    photo_url: a.data.photo_url,
+  });
+}
+
 const authorMap = new Map<string, number>();
 
 for (const book of books) {
@@ -12,7 +24,16 @@ for (const book of books) {
 
 const authors = [...authorMap.entries()]
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([name, count]) => ({ name, count }));
+  .map(([name, count]) => {
+    const enriched = enrichedMap.get(name);
+    return {
+      name,
+      count,
+      slug: enriched?.slug ?? name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+      photo_url: enriched?.photo_url,
+      hasDetailPage: enrichedMap.has(name),
+    };
+  });
 
 const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
 ---
@@ -37,12 +58,34 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
       <section id={letter} class="mb-6 sm:mb-8">
         <h2 class="text-lg font-bold text-purple-400 mb-3 sticky top-[3.5rem] bg-[#1C1B1F] py-2 z-10 border-b border-gray-800/50">{letter}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
-          {letterAuthors.map(author => (
-            <div class="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 flex justify-between items-center hover:border-purple-800/40 transition-colors">
-              <span class="text-white text-sm">{author.name}</span>
-              <span class="text-gray-500 text-xs ml-2 shrink-0">{author.count} {author.count === 1 ? 'book' : 'books'}</span>
-            </div>
-          ))}
+          {letterAuthors.map(author => {
+            const inner = (
+              <>
+                {author.photo_url ? (
+                  <img src={author.photo_url} alt="" class="w-8 h-8 rounded-full object-cover shrink-0" loading="lazy" />
+                ) : (
+                  <div class="w-8 h-8 rounded-full bg-gray-800 shrink-0 flex items-center justify-center text-gray-600 text-xs">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                  </div>
+                )}
+                <span class="text-white text-sm truncate">{author.name}</span>
+                <span class="text-gray-500 text-xs ml-auto shrink-0">{author.count} {author.count === 1 ? 'book' : 'books'}</span>
+              </>
+            );
+
+            return author.hasDetailPage ? (
+              <a href={`${base}authors/${author.slug}/`}
+                 class="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 flex items-center gap-3 hover:border-purple-800/40 transition-colors">
+                {inner}
+              </a>
+            ) : (
+              <div class="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 flex items-center gap-3">
+                {inner}
+              </div>
+            );
+          })}
         </div>
       </section>
     );

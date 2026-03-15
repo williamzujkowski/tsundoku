@@ -21,7 +21,26 @@ const books = defineCollection({
     pages: z.number().optional(),
     language: z.string().optional(),
     google_books_url: z.string().optional(),
+    // Gutenberg fields (populated by scripts/enrich-gutenberg.py)
+    gutenberg_id: z.number().optional(),
+    gutenberg_url: z.string().optional(),
+    gutenberg_read_url: z.string().optional(),
   }),
 });
 
-export const collections = { books };
+const authors = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/authors' }),
+  schema: z.object({
+    name: z.string(),
+    slug: z.string(),
+    bio: z.string().optional(),
+    photo_url: z.string().optional(),
+    wikipedia_url: z.string().optional(),
+    open_library_url: z.string().optional(),
+    birth_year: z.number().optional(),
+    death_year: z.number().optional(),
+    book_count: z.number(),
+  }),
+});
+
+export const collections = { books, authors };
