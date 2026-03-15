@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "unix-style-or-cat-v-considered-harmful",
-  "tags": []
+  "tags": [],
+  "description": "An industry insider explains why there is so much bad software—and why academia doesn't teach programmers what industry wants them to know. Why is software so prone to bugs? So vulnerable to viruses? Why are software products so often delayed, or even canceled? Is software development really hard, or are software developers just not that good at it? In The Problem with Software, Adam Barr examines the proliferation of bad software, explains what causes it, and offers some suggestions on how to i...",
+  "cover_url": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780262348218",
+  "first_published": 2018,
+  "pages": 317,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=BxdxDwAAQBAJ&source=gbs_api"
 }
