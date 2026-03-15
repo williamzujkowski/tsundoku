@@ -26,9 +26,17 @@ CATEGORY_MERGES = {
     "Systems": "Complex Systems",
     "Complexity Science": "Complex Systems",
     "Decision Theory": "Mathematics",
-    "Political Economy": "Politics",
+    "Political Economy": "Economics",
     "Information Theory": "Mathematics",
-    "Strategy": "Politics",
+    "Strategy": "Political Theory",
+    "Psychology": "Science",
+    "Politics": "Political Theory",
+    "Literary Theory": "Literary Criticism",
+}
+
+# Per-book overrides (slug → new category) for specific reassignments
+BOOK_OVERRIDES = {
+    "capital-vol-1": "Economics",
 }
 
 # Keyword → category assignments (checked against title and subjects)
@@ -47,6 +55,12 @@ KEYWORD_CATEGORIES = {
 
 def should_recategorize(book: dict) -> str | None:
     """Check if a book should be moved to a different category based on merges."""
+    slug = book.get("slug", "")
+
+    # Per-book override takes priority
+    if slug in BOOK_OVERRIDES:
+        return BOOK_OVERRIDES[slug]
+
     current = book.get("category", "")
 
     # Direct merge

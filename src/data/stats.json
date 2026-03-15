@@ -1,6 +1,6 @@
 {
   "total_books": 3524,
-  "total_categories": 32,
+  "total_categories": 29,
   "total_authors": 1668,
   "priorities": {
     "must_read": 1684,
@@ -155,16 +155,16 @@
       "count": 55
     },
     {
+      "name": "Political Theory",
+      "count": 48
+    },
+    {
       "name": "Non-Western Literature",
       "count": 47
     },
     {
-      "name": "Political Theory",
-      "count": 45
-    },
-    {
       "name": "Science",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Mathematics",
@@ -172,7 +172,7 @@
     },
     {
       "name": "Literary Criticism",
-      "count": 32
+      "count": 36
     },
     {
       "name": "Non-Western Philosophy",
@@ -217,18 +217,6 @@
     {
       "name": "Medieval Philosophy & Theology",
       "count": 12
-    },
-    {
-      "name": "Literary Theory",
-      "count": 4
-    },
-    {
-      "name": "Politics",
-      "count": 3
-    },
-    {
-      "name": "Psychology",
-      "count": 1
     }
   ],
   "year_distribution": {
@@ -252,5 +240,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T19:47:05.412900"
+  "generated_at": "2026-03-15T19:48:48.729168"
 }
