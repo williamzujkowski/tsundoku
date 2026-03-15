@@ -4,5 +4,15 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-c-programming-language",
-  "tags": []
+  "tags": [],
+  "description": "Software -- Programming Languages.",
+  "cover_url": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "first_published": 1988,
+  "pages": 300,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=HHhGAAAAYAAJ&dq=The+C+Programming+Language+Brian+W.+Kernighan+and+Dennis+M.+Ritchie&hl=&source=gbs_api"
 }

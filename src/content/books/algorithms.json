@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "algorithms",
-  "tags": []
+  "tags": [],
+  "description": "The leading introduction to computer algorithms in use today, including fifty algorithms every programmer should know Princeton Computer Science professors, Robert Sedgewick and Kevin Wayne, survey the most important computer algorithms in use and of interest to anyone working in science, mathematics, and engineering, and those who use computation in the liberal arts. They provide a full treatment of data structures and algorithms for key areas that enable you to confidently implement, debug, an...",
+  "cover_url": "https://books.google.com/books/content?id=idUdqdDXqnAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=idUdqdDXqnAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780132762564",
+  "first_published": 2011,
+  "pages": 971,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=idUdqdDXqnAC&source=gbs_api"
 }

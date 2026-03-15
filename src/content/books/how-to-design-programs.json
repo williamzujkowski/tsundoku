@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "how-to-design-programs",
-  "tags": []
+  "tags": [],
+  "description": "Processing simple forms of data - Processing arbitrarily large data - More on processing arbitrarily large data - Abstracting designs - Generative recursion - Changing the state of variables - Changing compound values.",
+  "cover_url": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "0262062186",
+  "first_published": 2001,
+  "pages": 728,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=Eg1Tu9Ds8ugC&dq=How+to+Design+Programs+Matthias+Felleisen+et+al.&hl=&source=gbs_api"
 }

@@ -4,5 +4,16 @@
   "category": "Security",
   "priority": 2,
   "slug": "owasp-asvs",
-  "tags": []
+  "tags": [],
+  "description": "Networking & Security",
+  "cover_url": "https://books.google.com/books/content?id=jro7ubrpfNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=jro7ubrpfNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9781449638597",
+  "first_published": 2012,
+  "pages": 133,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=jro7ubrpfNkC&dq=OWASP+ASVS+OWASP+Foundation&hl=&source=gbs_api"
 }
