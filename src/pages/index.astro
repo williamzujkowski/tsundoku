@@ -10,47 +10,47 @@ const priority1Count = books.filter(b => b.data.priority === 1).length;
 ---
 
 <Layout title="Home">
-  <section class="text-center py-16 sm:py-24">
-    <h1 class="text-5xl sm:text-6xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
+  <section class="text-center py-12 sm:py-20">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
       積ん読
     </h1>
-    <p class="text-xl text-purple-400 mb-2">Tsundoku</p>
-    <p class="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-      A curated collection of {books.length} essential works across {categories.length} categories from {authors.length} authors.
+    <p class="text-lg sm:text-xl text-purple-400 mb-2">Tsundoku</p>
+    <p class="text-gray-400 text-base sm:text-lg mb-8 max-w-xl mx-auto px-4">
+      A curated collection of {books.length.toLocaleString()} essential works across {categories.length} categories from {authors.length.toLocaleString()} authors.
     </p>
-    <div class="flex flex-wrap justify-center gap-6 mb-12">
-      <div class="text-center">
-        <p class="text-3xl font-bold text-white">{books.length}</p>
-        <p class="text-sm text-gray-500">Books</p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-6 max-w-lg sm:max-w-2xl mx-auto mb-10">
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
+        <p class="text-2xl sm:text-3xl font-bold text-white">{books.length.toLocaleString()}</p>
+        <p class="text-xs sm:text-sm text-gray-500">Books</p>
       </div>
-      <div class="text-center">
-        <p class="text-3xl font-bold text-white">{categories.length}</p>
-        <p class="text-sm text-gray-500">Categories</p>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
+        <p class="text-2xl sm:text-3xl font-bold text-white">{categories.length}</p>
+        <p class="text-xs sm:text-sm text-gray-500">Categories</p>
       </div>
-      <div class="text-center">
-        <p class="text-3xl font-bold text-white">{authors.length}</p>
-        <p class="text-sm text-gray-500">Authors</p>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
+        <p class="text-2xl sm:text-3xl font-bold text-white">{authors.length.toLocaleString()}</p>
+        <p class="text-xs sm:text-sm text-gray-500">Authors</p>
       </div>
-      <div class="text-center">
-        <p class="text-3xl font-bold text-purple-400">{priority1Count}</p>
-        <p class="text-sm text-gray-500">Must-Reads</p>
+      <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-3 sm:p-4">
+        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{priority1Count.toLocaleString()}</p>
+        <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
       </div>
     </div>
-    <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-8 py-3 transition-colors">
+    <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 sm:px-8 py-3 transition-colors shadow-lg shadow-purple-900/30">
       Browse the Collection
     </a>
   </section>
 
-  <section class="py-12">
-    <h2 class="text-2xl font-bold text-white mb-6">Categories</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+  <section class="py-8 sm:py-12">
+    <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Categories</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2 sm:gap-3">
       {categories.map(cat => {
         const count = books.filter(b => b.data.category === cat).length;
         return (
           <a href={`${base}categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`}
-             class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800 transition-colors text-center">
-            <p class="text-white font-medium text-sm">{cat}</p>
-            <p class="text-gray-500 text-xs mt-1">{count} books</p>
+             class="flex items-center justify-between sm:flex-col sm:text-center rounded-xl border border-gray-800 bg-gray-900 px-4 py-3 sm:p-4 hover:border-purple-800 transition-colors group">
+            <p class="text-white font-medium text-sm group-hover:text-purple-300 transition-colors">{cat}</p>
+            <p class="text-gray-500 text-xs sm:mt-1">{count} books</p>
           </a>
         );
       })}

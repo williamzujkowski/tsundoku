@@ -27,31 +27,62 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <title>{title} — Tsundoku</title>
   </head>
   <body class="min-h-screen flex flex-col">
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-3 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold">
       Skip to content
     </a>
     <nav aria-label="Main navigation" class="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-14">
           <a href={`${base}`} class="text-lg font-semibold tracking-tight text-white hover:text-purple-400 transition-colors">
-            積ん読 Tsundoku
+            積ん読 <span class="hidden sm:inline">Tsundoku</span>
           </a>
-          <div class="flex items-center gap-4">
+          <!-- Desktop nav -->
+          <div class="hidden sm:flex items-center gap-4">
             <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
             <a href={`${base}categories/`} class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
             <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>
           </div>
+          <!-- Mobile hamburger -->
+          <button
+            id="mobile-menu-btn"
+            class="sm:hidden p-2 text-gray-400 hover:text-white transition-colors"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden sm:hidden pb-3 border-t border-gray-800 mt-2 pt-3">
+          <div class="flex flex-col gap-2">
+            <a href={`${base}browse/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Browse</a>
+            <a href={`${base}categories/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Categories</a>
+            <a href={`${base}authors/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Authors</a>
+          </div>
         </div>
       </div>
     </nav>
-    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1">
+    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 flex-1">
       <slot />
     </main>
     <footer class="border-t border-gray-800 py-6 mt-auto">
       <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
-        <p>3,526 essential works across 42 categories — because buying books and not reading them is a lifestyle.</p>
-        <a href="https://github.com/williamzujkowski/tsundoku" class="text-gray-400 hover:text-white transition-colors mt-2 inline-block">Source on GitHub</a>
+        <p>3,526 essential works across 42 categories.</p>
+        <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors mt-2 inline-block">Source on GitHub</a>
       </div>
     </footer>
+    <script is:inline>
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          menu.classList.toggle('hidden');
+        });
+      }
+    </script>
   </body>
 </html>
