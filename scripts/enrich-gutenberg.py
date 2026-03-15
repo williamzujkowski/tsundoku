@@ -18,6 +18,8 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.parse import quote_plus
 
+from matching import author_last_name, titles_match
+
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
 RATE_LIMIT = 0.5  # Gutendex is generous but be nice
@@ -41,41 +43,28 @@ def search_gutenberg(title: str, author: str) -> dict | None:
             if not results:
                 return None
 
-            author_last = author.split()[-1].lower() if author else ""
-            title_lower = title.lower()
+            last_name = author_last_name(author)
 
             for result in results[:5]:
-                result_title = result.get("title", "").lower()
+                result_title = result.get("title", "")
                 # REQUIRE author match
                 author_matched = False
                 for a in result.get("authors", []):
                     name = a.get("name", "").lower()
-                    if author_last and author_last in name:
+                    if last_name and last_name in name:
                         author_matched = True
                         break
 
                 if not author_matched:
                     continue
 
-                # REQUIRE title similarity (not just any book by that author)
-                if (title_lower in result_title or
-                    result_title in title_lower or
-                    _title_similarity(title_lower, result_title) > 0.6):
+                # REQUIRE title similarity
+                if titles_match(title, result_title):
                     return result
 
     except Exception as e:
         print(f"  ⚠ Gutenberg error: {e}")
     return None
-
-
-def _title_similarity(a: str, b: str) -> float:
-    """Simple word overlap ratio between two titles."""
-    words_a = set(a.split())
-    words_b = set(b.split())
-    if not words_a or not words_b:
-        return 0.0
-    overlap = words_a & words_b
-    return len(overlap) / max(len(words_a), len(words_b))
 
 
 def enrich_book(book_path: Path) -> bool:

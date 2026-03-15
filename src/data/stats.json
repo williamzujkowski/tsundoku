@@ -1,6 +1,6 @@
 {
   "total_books": 3524,
-  "total_categories": 42,
+  "total_categories": 32,
   "total_authors": 1668,
   "priorities": {
     "must_read": 1684,
@@ -116,7 +116,7 @@
     },
     {
       "name": "Computer Science",
-      "count": 192
+      "count": 193
     },
     {
       "name": "Fantasy",
@@ -135,16 +135,16 @@
       "count": 86
     },
     {
+      "name": "Security",
+      "count": 78
+    },
+    {
       "name": "Mystery",
       "count": 71
     },
     {
       "name": "Economics",
       "count": 63
-    },
-    {
-      "name": "Security",
-      "count": 60
     },
     {
       "name": "Horror",
@@ -168,7 +168,7 @@
     },
     {
       "name": "Mathematics",
-      "count": 40
+      "count": 43
     },
     {
       "name": "Literary Criticism",
@@ -184,6 +184,10 @@
     },
     {
       "name": "Contemporary Speculative Fiction",
+      "count": 23
+    },
+    {
+      "name": "Complex Systems",
       "count": 23
     },
     {
@@ -211,60 +215,16 @@
       "count": 12
     },
     {
-      "name": "Complex Systems",
-      "count": 12
-    },
-    {
       "name": "Medieval Philosophy & Theology",
       "count": 12
-    },
-    {
-      "name": "Intelligence Studies",
-      "count": 8
-    },
-    {
-      "name": "Complexity Science",
-      "count": 8
-    },
-    {
-      "name": "Security & Governance",
-      "count": 7
     },
     {
       "name": "Literary Theory",
       "count": 4
     },
     {
-      "name": "Security & Intelligence",
+      "name": "Politics",
       "count": 3
-    },
-    {
-      "name": "Decision Theory",
-      "count": 2
-    },
-    {
-      "name": "Strategy",
-      "count": 2
-    },
-    {
-      "name": "Cybernetics",
-      "count": 2
-    },
-    {
-      "name": "AI",
-      "count": 1
-    },
-    {
-      "name": "Political Economy",
-      "count": 1
-    },
-    {
-      "name": "Information Theory",
-      "count": 1
-    },
-    {
-      "name": "Systems",
-      "count": 1
     },
     {
       "name": "Psychology",
@@ -292,5 +252,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T19:35:15.270899"
+  "generated_at": "2026-03-15T19:47:05.412900"
 }
