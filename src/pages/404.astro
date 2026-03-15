@@ -1,15 +1,39 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import stats from '../data/stats.json';
+import { toSlug } from '../utils/formatting';
+
 const base = import.meta.env.BASE_URL;
+const books = await getCollection('books');
+const categories = [...new Set(books.map(b => b.data.category))].sort();
+const topCategories = categories.slice(0, 8);
 ---
 
 <Layout title="Not Found">
-  <div class="text-center py-24">
+  <div class="text-center py-16 sm:py-24">
     <p class="text-7xl font-bold text-gray-800 mb-4">404</p>
     <h1 class="text-2xl font-bold text-white mb-3">Page not found</h1>
-    <p class="text-gray-400 mb-8">This book isn't on the shelf.</p>
-    <a href={base} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 py-2.5 text-sm transition-colors">
-      Go home
-    </a>
+    <p class="text-gray-400 mb-8">This book isn't on the shelf — but we have {stats.total_books.toLocaleString()} others.</p>
+    <div class="flex flex-wrap justify-center gap-3 mb-8">
+      <a href={base} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 py-2.5 text-sm transition-colors shadow-lg shadow-purple-900/30">
+        Go home
+      </a>
+      <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg border border-gray-700 hover:border-purple-700 text-gray-300 hover:text-white font-semibold px-6 py-2.5 text-sm transition-colors">
+        Browse all books
+      </a>
+    </div>
+
+    <div class="max-w-2xl mx-auto">
+      <p class="text-sm text-gray-500 mb-3">Or explore a category:</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        {topCategories.map(cat => (
+          <a href={`${base}categories/${toSlug(cat)}/`}
+             class="text-xs px-3 py-1.5 rounded-full bg-gray-800 text-gray-400 hover:bg-purple-900/40 hover:text-purple-300 border border-gray-700 hover:border-purple-700/50 transition-colors">
+            {cat}
+          </a>
+        ))}
+      </div>
+    </div>
   </div>
 </Layout>
