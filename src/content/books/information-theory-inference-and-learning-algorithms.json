@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "information-theory-inference-and-learning-algorithms",
-  "tags": []
+  "tags": [],
+  "description": "Information theory and inference, taught together in this exciting textbook, lie at the heart of many important areas of modern technology - communication, signal processing, data mining, machine learning, pattern recognition, computational neuroscience, bioinformatics and cryptography. The book introduces theory in tandem with applications. Information theory is taught alongside practical communication systems such as arithmetic coding for data compression and sparse-graph codes for error-corre...",
+  "cover_url": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "0521642981",
+  "first_published": 2003,
+  "pages": 694,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=AKuMj4PN_EMC&dq=Information+Theory,+Inference,+and+Learning+Algorithms+David+MacKay&hl=&source=gbs_api"
 }

@@ -4,5 +4,16 @@
   "category": "Mathematics",
   "priority": 1,
   "slug": "introduction-to-algorithms-3",
-  "tags": []
+  "tags": [],
+  "description": "An extensively revised edition of a mathematically rigorous yet accessible introduction to algorithms.",
+  "cover_url": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "0262032937",
+  "first_published": 2001,
+  "pages": 1216,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=NLngYyWFl_YC&dq=Introduction+to+Algorithms+Cormen+et+al.&hl=&source=gbs_api"
 }

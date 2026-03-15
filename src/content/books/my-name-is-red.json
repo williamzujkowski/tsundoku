@@ -4,5 +4,15 @@
   "category": "Literature",
   "priority": 1,
   "slug": "my-name-is-red",
-  "tags": []
+  "tags": [],
+  "cover_url": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "isbn": "096504341X",
+  "first_published": 2001,
+  "pages": 468,
+  "subjects": [
+    "Illumination of books and manuscripts"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=fElQlIT6k50C&dq=My+Name+Is+Red+Orhan+Pamuk&hl=&source=gbs_api"
 }
