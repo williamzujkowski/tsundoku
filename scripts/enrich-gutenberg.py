@@ -24,8 +24,13 @@ RATE_LIMIT = 0.5  # Gutendex is generous but be nice
 
 
 def search_gutenberg(title: str, author: str) -> dict | None:
-    """Search Gutendex for a book by title."""
-    query = quote_plus(title)
+    """Search Gutendex for a book by title AND author.
+
+    Requires both title similarity AND author match to prevent
+    false positives (e.g., matching an unrelated book with the
+    same title by a different author).
+    """
+    query = quote_plus(f"{title} {author}")
     url = f"https://gutendex.com/books/?search={query}"
 
     req = Request(url, headers={"User-Agent": USER_AGENT})
@@ -36,26 +41,41 @@ def search_gutenberg(title: str, author: str) -> dict | None:
             if not results:
                 return None
 
-            # Find best match — check if any author name matches
-            author_lower = author.lower()
             author_last = author.split()[-1].lower() if author else ""
+            title_lower = title.lower()
 
             for result in results[:5]:
-                # Check author match
+                result_title = result.get("title", "").lower()
+                # REQUIRE author match
+                author_matched = False
                 for a in result.get("authors", []):
                     name = a.get("name", "").lower()
-                    if author_last in name or author_lower in name:
-                        return result
+                    if author_last and author_last in name:
+                        author_matched = True
+                        break
 
-            # If no author match, return first result if title matches closely
-            first = results[0]
-            first_title = first.get("title", "").lower()
-            if title.lower() in first_title or first_title in title.lower():
-                return first
+                if not author_matched:
+                    continue
+
+                # REQUIRE title similarity (not just any book by that author)
+                if (title_lower in result_title or
+                    result_title in title_lower or
+                    _title_similarity(title_lower, result_title) > 0.6):
+                    return result
 
     except Exception as e:
         print(f"  ⚠ Gutenberg error: {e}")
     return None
+
+
+def _title_similarity(a: str, b: str) -> float:
+    """Simple word overlap ratio between two titles."""
+    words_a = set(a.split())
+    words_b = set(b.split())
+    if not words_a or not words_b:
+        return 0.0
+    overlap = words_a & words_b
+    return len(overlap) / max(len(words_a), len(words_b))
 
 
 def enrich_book(book_path: Path) -> bool:
