@@ -55,6 +55,14 @@
   function loadMore() {
     showCount += 100;
   }
+
+  function thumbnailUrl(url: string): string {
+    // Use smaller Open Library images for 48px thumbnails
+    if (url.includes('covers.openlibrary.org') && url.includes('-M.jpg')) {
+      return url.replace('-M.jpg', '-S.jpg');
+    }
+    return url;
+  }
 </script>
 
 <div class="space-y-4 sm:space-y-6">
@@ -135,7 +143,7 @@
            class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group block">
           <div class="flex gap-3">
             {#if book.cover_url}
-              <img src={book.cover_url} alt="" width="48" height="72" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+              <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
             {:else}
               <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg" aria-hidden="true">📖</div>
             {/if}

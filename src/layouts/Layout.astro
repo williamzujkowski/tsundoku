@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
 import SearchModal from '../components/SearchModal.svelte';
 import RandomBook from '../components/RandomBook.svelte';
 import stats from '../data/stats.json';
@@ -30,6 +31,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     {siteUrl && <link rel="canonical" href={siteUrl} />}
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{title} — Tsundoku</title>
+    <ClientRouter />
   </head>
   <body class="min-h-screen flex flex-col">
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-3 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold">

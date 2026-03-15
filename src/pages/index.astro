@@ -36,6 +36,17 @@ const categories = [...new Set(books.map(b => b.data.category))].sort();
         <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
       </div>
     </div>
+    {stats.reading_progress.read > 0 && (
+      <div class="max-w-md mx-auto mb-8 px-4">
+        <div class="flex h-2 rounded-full overflow-hidden bg-gray-800">
+          <div class="bg-green-500" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`}></div>
+          <div class="bg-amber-500" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">
+          {stats.reading_progress.read} read · {stats.reading_progress.reading} reading · {stats.bookshelf.total_pages.toLocaleString()} pages across the collection
+        </p>
+      </div>
+    )}
     <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 sm:px-8 py-3 transition-colors shadow-lg shadow-purple-900/30">
       Browse the Collection
     </a>

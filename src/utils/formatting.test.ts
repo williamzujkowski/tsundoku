@@ -10,6 +10,7 @@ import {
   statusIcon,
   pluralize,
   seededShuffle,
+  thumbnailUrl,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -132,6 +133,27 @@ describe('pluralize', () => {
 
   it('uses custom plural form when provided', () => {
     expect(pluralize(2, 'category', 'categories')).toBe('categories');
+  });
+});
+
+describe('thumbnailUrl', () => {
+  it('converts Open Library -M.jpg to -S.jpg', () => {
+    expect(thumbnailUrl('https://covers.openlibrary.org/b/id/123-M.jpg'))
+      .toBe('https://covers.openlibrary.org/b/id/123-S.jpg');
+  });
+
+  it('leaves non-Open Library URLs unchanged', () => {
+    const url = 'https://books.google.com/books/content?id=abc';
+    expect(thumbnailUrl(url)).toBe(url);
+  });
+
+  it('leaves -L.jpg URLs unchanged', () => {
+    expect(thumbnailUrl('https://covers.openlibrary.org/b/id/123-L.jpg'))
+      .toBe('https://covers.openlibrary.org/b/id/123-L.jpg');
+  });
+
+  it('handles empty string', () => {
+    expect(thumbnailUrl('')).toBe('');
   });
 });
 

@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, pluralize } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const allAuthors = await getCollection('authors');
@@ -103,7 +103,7 @@ const lifespan = author.birth_year
       <a href={`${base}books/${book.data.slug}/`}
          class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group flex gap-3">
         {book.data.cover_url ? (
-          <img src={book.data.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
         ) : (
           <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg" aria-hidden="true">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>

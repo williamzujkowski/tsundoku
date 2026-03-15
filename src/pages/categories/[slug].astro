@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, toSlug, pluralize } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, toSlug, pluralize, thumbnailUrl } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -46,7 +46,7 @@ const base = import.meta.env.BASE_URL;
       <a href={`${base}books/${book.data.slug}/`}
          class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group flex gap-3">
         {book.data.cover_url ? (
-          <img src={book.data.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
         ) : (
           <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg">📖</div>
         )}

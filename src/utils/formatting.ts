@@ -74,6 +74,17 @@ export function seededShuffle<T>(items: T[], seed?: number): T[] {
   return result;
 }
 
+/**
+ * Convert an Open Library cover URL to its small variant for thumbnails.
+ * -M.jpg (medium, ~180px) → -S.jpg (small, ~60px)
+ */
+export function thumbnailUrl(url: string): string {
+  if (url.includes('covers.openlibrary.org') && url.includes('-M.jpg')) {
+    return url.replace('-M.jpg', '-S.jpg');
+  }
+  return url;
+}
+
 function dayOfYear(): number {
   const now = new Date();
   const start = new Date(now.getFullYear(), 0, 0);

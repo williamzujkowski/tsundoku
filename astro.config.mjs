@@ -10,6 +10,10 @@ export default defineConfig({
   site: 'https://williamzujkowski.github.io',
   base: '/tsundoku/',
   integrations: [svelte(), sitemap()],
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'hover',
+  },
 
   vite: {
     plugins: [tailwindcss()]
