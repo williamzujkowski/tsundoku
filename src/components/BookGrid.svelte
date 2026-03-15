@@ -7,6 +7,7 @@
     slug: string;
     cover_url?: string;
     first_published?: number;
+    reading_status?: 'want' | 'reading' | 'read';
   }
 
   let { books = [], categories = [], baseUrl = '/' }: { books: Book[]; categories: string[]; baseUrl?: string } = $props();
@@ -14,6 +15,7 @@
   let search = $state('');
   let selectedCategory = $state('');
   let selectedPriority = $state(0);
+  let selectedStatus = $state('');
   let showCount = $state(100);
 
   let filtered = $derived(
@@ -24,7 +26,8 @@
         b.author.toLowerCase().includes(q);
       const matchesCategory = selectedCategory === '' || b.category === selectedCategory;
       const matchesPriority = selectedPriority === 0 || b.priority === selectedPriority;
-      return matchesSearch && matchesCategory && matchesPriority;
+      const matchesStatus = selectedStatus === '' || b.reading_status === selectedStatus;
+      return matchesSearch && matchesCategory && matchesPriority && matchesStatus;
     })
   );
 
@@ -46,6 +49,7 @@
     search = '';
     selectedCategory = '';
     selectedPriority = 0;
+    selectedStatus = '';
   }
 
   function loadMore() {
@@ -85,6 +89,14 @@
         <option value={2}>Recommended</option>
         <option value={3}>Supplementary</option>
       </select>
+      <select bind:value={selectedStatus}
+        aria-label="Filter by reading status"
+        class="flex-1 sm:flex-none rounded-lg bg-gray-800 border border-gray-700 text-white px-3 py-2.5 text-sm focus:outline-none focus:border-purple-500">
+        <option value="">All Status</option>
+        <option value="read">✓ Read</option>
+        <option value="reading">📖 Reading</option>
+        <option value="want">📋 Want to Read</option>
+      </select>
     </div>
   </div>
 
@@ -97,7 +109,7 @@
         {sortedBooks.length.toLocaleString()} of {books.length.toLocaleString()} books
       {/if}
     </p>
-    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0}
+    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== ''}
       <button onclick={clearFilters}
         class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
         Clear filters
@@ -138,7 +150,14 @@
               </div>
               <h3 class="text-white font-medium text-sm mb-0.5 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.title}</h3>
               <p class="text-gray-500 text-xs truncate">{book.author}</p>
-              <p class="text-[10px] text-gray-600 mt-0.5 truncate">{book.category}</p>
+              <div class="flex items-center gap-1 mt-0.5">
+                <p class="text-[10px] text-gray-600 truncate">{book.category}</p>
+                {#if book.reading_status}
+                  <span class="text-[10px] shrink-0 {book.reading_status === 'read' ? 'text-green-500' : book.reading_status === 'reading' ? 'text-amber-500' : 'text-blue-500'}">
+                    {book.reading_status === 'read' ? '✓' : book.reading_status === 'reading' ? '📖' : '📋'}
+                  </span>
+                {/if}
+              </div>
             </div>
           </div>
         </a>

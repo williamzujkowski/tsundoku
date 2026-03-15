@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "stats": "python3 scripts/generate-stats.py",
-    "build": "python3 scripts/generate-stats.py && astro build",
+    "build": "python3 scripts/apply-reading-status.py && python3 scripts/generate-stats.py && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

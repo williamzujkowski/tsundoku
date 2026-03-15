@@ -28,6 +28,45 @@ const base = import.meta.env.BASE_URL;
     </div>
   </div>
 
+  <!-- Reading progress -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">Reading Progress</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+      <div class="rounded-xl border border-green-800/40 bg-green-950/20 p-4 text-center">
+        <p class="text-2xl font-bold text-green-400">{stats.reading_progress.read}</p>
+        <p class="text-xs text-gray-500">Read</p>
+      </div>
+      <div class="rounded-xl border border-amber-800/40 bg-amber-950/20 p-4 text-center">
+        <p class="text-2xl font-bold text-amber-400">{stats.reading_progress.reading}</p>
+        <p class="text-xs text-gray-500">Reading</p>
+      </div>
+      <div class="rounded-xl border border-blue-800/40 bg-blue-950/20 p-4 text-center">
+        <p class="text-2xl font-bold text-blue-400">{stats.reading_progress.want}</p>
+        <p class="text-xs text-gray-500">Want to Read</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+        <p class="text-2xl font-bold text-gray-500">{stats.reading_progress.unread}</p>
+        <p class="text-xs text-gray-500">Not Started</p>
+      </div>
+    </div>
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4">
+      <div class="flex h-3 rounded-full overflow-hidden bg-gray-800">
+        {stats.reading_progress.read > 0 && (
+          <div class="bg-green-500" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
+        )}
+        {stats.reading_progress.reading > 0 && (
+          <div class="bg-amber-500" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`} title={`Reading: ${stats.reading_progress.reading}`}></div>
+        )}
+        {stats.reading_progress.want > 0 && (
+          <div class="bg-blue-500" style={`width: ${100 * stats.reading_progress.want / stats.total_books}%`} title={`Want: ${stats.reading_progress.want}`}></div>
+        )}
+      </div>
+      <p class="text-xs text-gray-600 mt-2 text-center">
+        {stats.reading_progress.read} of {stats.total_books} books read ({Math.round(100 * stats.reading_progress.read / stats.total_books)}%)
+      </p>
+    </div>
+  </section>
+
   <!-- Priority breakdown -->
   <section class="mb-8">
     <h2 class="text-lg font-bold text-white mb-4">Priority Breakdown</h2>

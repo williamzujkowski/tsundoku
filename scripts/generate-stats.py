@@ -64,6 +64,12 @@ def generate_stats() -> dict:
     oldest = min(years) if years else None
     newest = max(years) if years else None
 
+    # Reading status
+    reading_statuses = Counter(b.get("reading_status", "") for b in books)
+    read_count = reading_statuses.get("read", 0)
+    reading_count = reading_statuses.get("reading", 0)
+    want_count = reading_statuses.get("want", 0)
+
     stats = {
         "total_books": total,
         "total_categories": len(categories),
@@ -88,6 +94,12 @@ def generate_stats() -> dict:
         "top_authors": top_authors,
         "categories": category_stats,
         "year_distribution": year_ranges,
+        "reading_progress": {
+            "read": read_count,
+            "reading": reading_count,
+            "want": want_count,
+            "unread": total - read_count - reading_count - want_count,
+        },
         "oldest_year": oldest,
         "newest_year": newest,
         "generated_at": __import__("datetime").datetime.now().isoformat(),
