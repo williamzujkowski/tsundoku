@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import ReadingStatus from '../../components/ReadingStatus.svelte';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -72,7 +73,11 @@ const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
           {priorityLabel(book.priority)}
         </span>
         <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
-        <p class="text-lg text-gray-400 mb-4">by <a href={`${base}authors/${book.author.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a></p>
+        <p class="text-lg text-gray-400 mb-3">by <a href={`${base}authors/${book.author.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a></p>
+
+        <div class="mb-4">
+          <ReadingStatus client:load slug={book.slug} />
+        </div>
 
         {book.description && (
           <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-4">{book.description}</p>
