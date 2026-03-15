@@ -9,5 +9,9 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/8434671-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19293745W",
   "first_published": 2017,
-  "language": "chi"
+  "language": "chi",
+  "description": "Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords? In this practical and comprehensive guide, author Martin Kleppman...",
+  "isbn": "9781491903100",
+  "pages": 662,
+  "google_books_url": "http://books.google.com/books?id=p1heDgAAQBAJ&dq=Designing+Data-Intensive+Applications+Martin+Kleppmann&hl=&source=gbs_api"
 }

@@ -9,5 +9,9 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/715228-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1915631W",
   "first_published": 1992,
-  "language": "eng"
+  "language": "eng",
+  "description": "This anthology of essays from Donald Knuth, the inventor of literate programming includes early essays on related topics such as structured programming, as well as The Computer Journal article that launched literate programming itself. Many examples are given, including excerpts from the programs for TeX and METAFONT. The final essay is an example of CWEB, a system for literate programming in C and related languages.Knuth feels that computer programs and books about computer programming should b...",
+  "isbn": "0937073814",
+  "pages": 368,
+  "google_books_url": "http://books.google.com/books?id=vovpQgAACAAJ&dq=Literate+Programming+Donald+E.+Knuth&hl=&source=gbs_api"
 }
