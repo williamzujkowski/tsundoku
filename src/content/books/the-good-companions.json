@@ -10,5 +10,12 @@
   "reading_status": "read",
   "first_published": 1954,
   "google_books_url": "http://books.google.com/books?id=8_V8nQEACAAJ&dq=intitle:The+Good+Companions&hl=&source=gbs_api",
-  "language": "eng"
+  "language": "eng",
+  "cover_url": "https://covers.openlibrary.org/b/id/8765939-M.jpg",
+  "cover_url_large": "https://covers.openlibrary.org/b/id/8765939-L.jpg",
+  "open_library_url": "https://openlibrary.org/works/OL20105109W",
+  "pages": 78,
+  "subjects": [
+    "Musical revues, comedies, etc"
+  ]
 }

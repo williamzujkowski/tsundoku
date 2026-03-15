@@ -10,5 +10,12 @@
   "reading_status": "read",
   "first_published": 1962,
   "google_books_url": "http://books.google.com/books?id=PDZn0QEACAAJ&dq=intitle:In+Search+of+the+Castaways&hl=&source=gbs_api",
-  "language": "eng"
+  "language": "eng",
+  "open_library_url": "https://openlibrary.org/works/OL40369915W",
+  "cover_url": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "pages": 636,
+  "subjects": [
+    "Adventure stories"
+  ]
 }

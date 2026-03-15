@@ -8,16 +8,16 @@
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3343,
-    "covers_pct": 94.9,
-    "descriptions": 2967,
-    "descriptions_pct": 84.2,
-    "isbns": 2663,
-    "isbns_pct": 75.6,
-    "pages": 3072,
-    "pages_pct": 87.2,
-    "years": 3438,
-    "subjects": 417
+    "covers": 3471,
+    "covers_pct": 98.5,
+    "descriptions": 3022,
+    "descriptions_pct": 85.8,
+    "isbns": 2706,
+    "isbns_pct": 76.8,
+    "pages": 3139,
+    "pages_pct": 89.1,
+    "years": 3491,
+    "subjects": 497
   },
   "top_authors": [
     {
@@ -273,10 +273,10 @@
   ],
   "year_distribution": {
     "before_1800": 154,
-    "1800_1899": 255,
-    "1900_1949": 443,
-    "1950_1999": 1140,
-    "2000_plus": 1446
+    "1800_1899": 259,
+    "1900_1949": 453,
+    "1950_1999": 1145,
+    "2000_plus": 1480
   },
   "reading_progress": {
     "read": 1014,
@@ -286,5 +286,5 @@
   },
   "oldest_year": 1467,
   "newest_year": 2030,
-  "generated_at": "2026-03-15T15:19:06.796461"
+  "generated_at": "2026-03-15T15:27:00.499121"
 }
