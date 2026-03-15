@@ -171,8 +171,8 @@ def enrich_book(book_path: Path, force: bool = False) -> bool:
     with open(book_path) as f:
         book = json.load(f)
 
-    # Skip if already enriched (has cover_url) unless force
-    if not force and book.get("cover_url"):
+    # Skip if fully enriched (has cover AND description) unless force
+    if not force and book.get("cover_url") and book.get("description"):
         return False
 
     title = book["title"]
@@ -184,8 +184,8 @@ def enrich_book(book_path: Path, force: bool = False) -> bool:
     doc = search_open_library(title, author)
     metadata = extract_metadata(doc) if doc else {}
 
-    # Fallback to Google Books if Open Library missed key data
-    if not metadata.get("cover_url"):
+    # Always try Google Books for descriptions and missing data
+    if not metadata.get("cover_url") or not metadata.get("description"):
         time.sleep(0.5)  # Brief pause between APIs
         gvol = search_google_books(title, author)
         if gvol:

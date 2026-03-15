@@ -26,26 +26,48 @@ export async function getStaticPaths() {
 
 const { categoryName, books } = Astro.props;
 const base = import.meta.env.BASE_URL;
+
+function priorityLabel(p: number): string {
+  if (p === 1) return 'Must-Read';
+  if (p === 2) return 'Recommended';
+  return 'Supplementary';
+}
 ---
 
-<Layout title={categoryName}>
-  <div class="mb-6">
-    <a href={`${base}categories/`} class="text-sm text-gray-500 hover:text-purple-400 transition-colors">&larr; All Categories</a>
-  </div>
-  <h1 class="text-3xl font-bold text-white mb-2">{categoryName}</h1>
-  <p class="text-gray-400 mb-8">{books.length} {books.length === 1 ? 'book' : 'books'}</p>
+<Layout title={categoryName} description={`${books.length} ${categoryName} books in the tsundoku collection`}>
+  <nav class="mb-6 text-sm text-gray-500">
+    <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
+    <span class="mx-1">/</span>
+    <a href={`${base}categories/`} class="hover:text-white transition-colors">Categories</a>
+    <span class="mx-1">/</span>
+    <span class="text-gray-400">{categoryName}</span>
+  </nav>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-    {books.map((book: { data: { priority: number; category: string; title: string; author: string } }) => (
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800 transition-colors">
-        <div class="flex items-start justify-between mb-2">
-          <span class={`text-xs px-2 py-0.5 rounded-full ${book.data.priority === 1 ? 'bg-purple-900 text-purple-300' : book.data.priority === 2 ? 'bg-gray-800 text-gray-400' : 'bg-gray-800 text-gray-500'}`}>
-            P{book.data.priority}
-          </span>
+  <h1 class="text-2xl sm:text-3xl font-bold text-white mb-2">{categoryName}</h1>
+  <p class="text-gray-400 text-sm sm:text-base mb-6 sm:mb-8">{books.length} {books.length === 1 ? 'book' : 'books'}</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+    {books.map(book => (
+      <a href={`${base}books/${book.data.slug}/`}
+         class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group flex gap-3">
+        {book.data.cover_url ? (
+          <img src={book.data.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+        ) : (
+          <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg">📖</div>
+        )}
+        <div class="min-w-0 flex-1">
+          <div class="flex items-start justify-between gap-1 mb-1">
+            <span class={`text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${book.data.priority === 1 ? 'bg-purple-900/60 text-purple-300 border border-purple-700/30' : 'bg-gray-800 text-gray-500'}`}>
+              {priorityLabel(book.data.priority)}
+            </span>
+            {book.data.first_published && (
+              <span class="text-[10px] text-gray-600">{book.data.first_published}</span>
+            )}
+          </div>
+          <h3 class="text-white font-medium text-sm mb-0.5 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.data.title}</h3>
+          <p class="text-gray-500 text-xs truncate">{book.data.author}</p>
         </div>
-        <h3 class="text-white font-medium text-sm mb-1 line-clamp-2">{book.data.title}</h3>
-        <p class="text-gray-500 text-xs">{book.data.author}</p>
-      </div>
+      </a>
     ))}
   </div>
 </Layout>

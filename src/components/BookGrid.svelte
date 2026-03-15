@@ -5,6 +5,8 @@
     category: string;
     priority: number;
     slug: string;
+    cover_url?: string;
+    first_published?: number;
   }
 
   let { books = [], categories = [], baseUrl = '/' }: { books: Book[]; categories: string[]; baseUrl?: string } = $props();
@@ -118,15 +120,27 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
       {#each sortedBooks.slice(0, showCount) as book (book.slug)}
         <a href="{baseUrl}books/{book.slug}/"
-           class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors group block">
-          <div class="flex items-start justify-between mb-2 gap-2">
-            <span class="text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap {priorityClass(book.priority)}">
-              {priorityLabel(book.priority)}
-            </span>
-            <span class="text-[11px] text-gray-600 truncate">{book.category}</span>
+           class="rounded-xl border border-gray-800 bg-gray-900 p-3 hover:border-purple-800/60 hover:shadow-lg hover:shadow-purple-900/20 transition-all duration-200 group block">
+          <div class="flex gap-3">
+            {#if book.cover_url}
+              <img src={book.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+            {:else}
+              <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg">📖</div>
+            {/if}
+            <div class="min-w-0 flex-1">
+              <div class="flex items-start justify-between gap-1 mb-1">
+                <span class="text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap {priorityClass(book.priority)}">
+                  {priorityLabel(book.priority)}
+                </span>
+                {#if book.first_published}
+                  <span class="text-[10px] text-gray-600">{book.first_published}</span>
+                {/if}
+              </div>
+              <h3 class="text-white font-medium text-sm mb-0.5 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.title}</h3>
+              <p class="text-gray-500 text-xs truncate">{book.author}</p>
+              <p class="text-[10px] text-gray-600 mt-0.5 truncate">{book.category}</p>
+            </div>
           </div>
-          <h3 class="text-white font-medium text-sm mb-1 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.title}</h3>
-          <p class="text-gray-500 text-xs">{book.author}</p>
         </a>
       {/each}
     </div>

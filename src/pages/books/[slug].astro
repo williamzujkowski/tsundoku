@@ -136,14 +136,33 @@ const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         </div>
       )}
 
-      {book.open_library_url && (
-        <div class="mt-4 pt-4 border-t border-gray-800">
+      {/* External links */}
+      <div class="mt-4 pt-4 border-t border-gray-800 flex flex-wrap gap-3">
+        {book.open_library_url && (
           <a href={book.open_library_url} target="_blank" rel="noopener noreferrer"
              class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
-            View on Open Library →
+            Open Library
           </a>
-        </div>
-      )}
+        )}
+        {book.google_books_url && (
+          <a href={book.google_books_url} target="_blank" rel="noopener noreferrer"
+             class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+            Google Books
+          </a>
+        )}
+        <a href={`https://www.goodreads.com/search?q=${encodeURIComponent(book.title + ' ' + book.author)}`}
+           target="_blank" rel="noopener noreferrer"
+           class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+          Goodreads
+        </a>
+        {book.isbn && (
+          <a href={`https://www.worldcat.org/isbn/${book.isbn}`}
+             target="_blank" rel="noopener noreferrer"
+             class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+            WorldCat
+          </a>
+        )}
+      </div>
     </div>
 
     <!-- More by author -->

@@ -41,6 +41,31 @@ const priority1Count = books.filter(b => b.data.priority === 1).length;
     </a>
   </section>
 
+  {/* Featured Must-Reads */}
+  {(() => {
+    const featured = books
+      .filter(b => b.data.priority === 1 && b.data.cover_url)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 8);
+    return featured.length > 0 ? (
+      <section class="py-8 sm:py-12">
+        <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Featured Must-Reads</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 sm:gap-4">
+          {featured.map(b => (
+            <a href={`${base}books/${b.data.slug}/`} class="group text-center">
+              <div class="overflow-hidden rounded-lg mb-2 border border-gray-800 group-hover:border-purple-700/50 transition-all duration-200 group-hover:shadow-lg group-hover:shadow-purple-900/30">
+                <img src={b.data.cover_url_large || b.data.cover_url} alt={b.data.title}
+                  class="w-full aspect-[2/3] object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+              <p class="text-white text-xs font-medium line-clamp-2 group-hover:text-purple-200 transition-colors">{b.data.title}</p>
+              <p class="text-gray-500 text-[10px] truncate">{b.data.author}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ) : null;
+  })()}
+
   <section class="py-8 sm:py-12">
     <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Categories</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2 sm:gap-3">
