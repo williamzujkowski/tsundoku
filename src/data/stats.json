@@ -10,12 +10,12 @@
   "enrichment": {
     "covers": 2499,
     "covers_pct": 98.9,
-    "descriptions": 2036,
-    "descriptions_pct": 80.6,
-    "isbns": 1832,
-    "isbns_pct": 72.5,
-    "pages": 2007,
-    "pages_pct": 79.5,
+    "descriptions": 2234,
+    "descriptions_pct": 88.4,
+    "isbns": 2012,
+    "isbns_pct": 79.7,
+    "pages": 2192,
+    "pages_pct": 86.8,
     "years": 2515,
     "subjects": 417
   },
@@ -280,5 +280,5 @@
   },
   "oldest_year": 1467,
   "newest_year": 2025,
-  "generated_at": "2026-03-15T10:38:02.325783"
+  "generated_at": "2026-03-15T10:42:02.042286"
 }
