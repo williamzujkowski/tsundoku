@@ -3,9 +3,12 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
+  description?: string;
 }
 
-const { title } = Astro.props;
+const { title, description = 'A curated bookshelf of 3,526 essential works across 42 categories' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
 ---
 
 <!doctype html>
@@ -13,26 +16,35 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Tsundoku — a curated bookshelf of 3,526 essential works" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} — Tsundoku`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {siteUrl && <meta property="og:url" content={siteUrl} />}
+    <meta name="twitter:card" content="summary" />
+    {siteUrl && <link rel="canonical" href={siteUrl} />}
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{title} — Tsundoku</title>
   </head>
-  <body class="min-h-screen">
-    <nav class="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+  <body class="min-h-screen flex flex-col">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm">
+      Skip to content
+    </a>
+    <nav aria-label="Main navigation" class="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-14">
-          <a href="/" class="text-lg font-semibold tracking-tight text-white hover:text-purple-400 transition-colors">
+          <a href={`${base}`} class="text-lg font-semibold tracking-tight text-white hover:text-purple-400 transition-colors">
             積ん読 Tsundoku
           </a>
           <div class="flex items-center gap-4">
-            <a href="/browse" class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
-            <a href="/categories" class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
-            <a href="/authors" class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>
+            <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
+            <a href={`${base}categories/`} class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
+            <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>
           </div>
         </div>
       </div>
     </nav>
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1">
       <slot />
     </main>
     <footer class="border-t border-gray-800 py-6 mt-auto">

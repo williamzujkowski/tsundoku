@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
+const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
 const categories = [...new Set(books.map(b => b.data.category))].sort();
 const authors = [...new Set(books.map(b => b.data.author))];
@@ -35,7 +36,7 @@ const priority1Count = books.filter(b => b.data.priority === 1).length;
         <p class="text-sm text-gray-500">Must-Reads</p>
       </div>
     </div>
-    <a href="/browse" class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-8 py-3 transition-colors">
+    <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-8 py-3 transition-colors">
       Browse the Collection
     </a>
   </section>
@@ -46,7 +47,7 @@ const priority1Count = books.filter(b => b.data.priority === 1).length;
       {categories.map(cat => {
         const count = books.filter(b => b.data.category === cat).length;
         return (
-          <a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+          <a href={`${base}categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`}
              class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800 transition-colors text-center">
             <p class="text-white font-medium text-sm">{cat}</p>
             <p class="text-gray-500 text-xs mt-1">{count} books</p>
