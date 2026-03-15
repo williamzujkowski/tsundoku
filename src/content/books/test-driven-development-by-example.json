@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "test-driven-development-by-example",
-  "tags": []
+  "tags": [],
+  "description": "Quite simply, test-driven development is meant to eliminate fear in application development. While some fear is healthy (often viewed as a conscience that tells programmers to \"be careful!\"), the author believes that byproducts of fear include tentative, grumpy, and uncommunicative programmers who are unable to absorb constructive criticism. When programming teams buy into TDD, they immediately see positive results. They eliminate the fear involved in their jobs, and are better equipped to tackl...",
+  "cover_url": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780137585236",
+  "first_published": 2022,
+  "pages": 241,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=zNnPEAAAQBAJ&source=gbs_api"
 }

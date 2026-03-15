@@ -4,5 +4,17 @@
   "category": "Computer Science",
   "priority": 3,
   "slug": "program-development-in-java",
-  "tags": []
+  "tags": [],
+  "open_library_url": "https://openlibrary.org/works/OL26305453W",
+  "first_published": 2000,
+  "language": "eng",
+  "description": "Written by a world-renowned expert on programming methodology, and the winner of the 2008 Turing Award, this book shows how to build production-quality programs--programs that are reliable, easy to maintain, and quick to modify. Its emphasis is on modular program construction: how to get the modules right and how to organize a program as a collection of modules. The book presents a methodology effective for either an individual programmer, who may be writing a small program or a single module in...",
+  "cover_url": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780768684964",
+  "pages": 467,
+  "subjects": [
+    "Computers"
+  ],
+  "google_books_url": "http://books.google.com/books?id=I0xnnSTMyjwC&dq=Program+Development+in+Java+Barbara+Liskov&hl=&source=gbs_api"
 }

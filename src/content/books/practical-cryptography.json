@@ -4,5 +4,16 @@
   "category": "Security",
   "priority": 2,
   "slug": "practical-cryptography",
-  "tags": []
+  "tags": [],
+  "description": "Security is the number one concern for businesses worldwide. The gold standard for attaining security is cryptography because it provides the most reliable tools for storing or transmitting digital information. Written by Niels Ferguson, lead cryptographer for Counterpane, Bruce Schneier's security company, and Bruce Schneier himself, this is the much anticipated follow-up book to Schneier's seminal encyclopedic reference, Applied Cryptography, Second Edition (0-471-11709-9), which has sold more...",
+  "cover_url": "https://books.google.com/books/content?id=7SiKtxPrrRMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=7SiKtxPrrRMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "isbn": "0471223573",
+  "first_published": 2003,
+  "pages": 356,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=7SiKtxPrrRMC&dq=Practical+Cryptography+Niels+Ferguson+and+Bruce+Schneier&hl=&source=gbs_api"
 }

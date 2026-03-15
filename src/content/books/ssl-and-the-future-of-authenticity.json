@@ -4,5 +4,16 @@
   "category": "Security",
   "priority": 2,
   "slug": "ssl-and-the-future-of-authenticity",
-  "tags": []
+  "tags": [],
+  "description": "This book describes the essential components of the SCION secure Internet architecture, the first architecture designed foremost for strong security and high availability. Among its core features, SCION also provides route control, explicit trust information, multipath communication, scalable quality-of-service guarantees, and efficient forwarding. The book includes functional specifications of the network elements, communication protocols among these elements, data structures, and configuration...",
+  "cover_url": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9783319670805",
+  "first_published": 2017,
+  "pages": 438,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=Ce85DwAAQBAJ&source=gbs_api"
 }

@@ -4,5 +4,17 @@
   "category": "Security",
   "priority": 1,
   "slug": "the-practice-of-network-security-monitoring",
-  "tags": []
+  "tags": [],
+  "open_library_url": "https://openlibrary.org/works/OL41909800W",
+  "first_published": 2013,
+  "language": "eng",
+  "description": "Network security is not simply about building impenetrable walls—determined attackers will eventually overcome traditional defenses. The most effective computer security strategies integrate network security monitoring (NSM): the collection and analysis of data to help you detect and respond to intrusions. In The Practice of Network Security Monitoring, Mandiant CSO Richard Bejtlich shows you how to use NSM to add a robust layer of protection around your networks—no prior experience required. To...",
+  "cover_url": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9781593275341",
+  "pages": 436,
+  "subjects": [
+    "Computers"
+  ],
+  "google_books_url": "https://play.google.com/store/books/details?id=VgYvDwAAQBAJ&source=gbs_api"
 }
