@@ -1,38 +1,16 @@
 ---
 import '../styles/global.css';
-import { getCollection } from 'astro:content';
 import SearchModal from '../components/SearchModal.svelte';
+import stats from '../data/stats.json';
 
 interface Props {
   title: string;
   description?: string;
 }
 
-const { title, description = 'A curated bookshelf of 3,526 essential works across 42 categories' } = Astro.props;
+const { title, description = `A curated bookshelf of ${stats.total_books.toLocaleString()} essential works across ${stats.total_categories} categories` } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
-
-// Build search index for global search modal
-const allBooks = await getCollection('books');
-let allAuthors: Awaited<ReturnType<typeof getCollection>> = [];
-try { allAuthors = await getCollection('authors'); } catch {}
-
-const searchItems = [
-  ...allBooks.map(b => ({
-    title: b.data.title,
-    subtitle: `${b.data.author} — ${b.data.category}`,
-    url: `${base}books/${b.data.slug}/`,
-    type: 'book' as const,
-    cover_url: b.data.cover_url,
-  })),
-  ...allAuthors.map(a => ({
-    title: a.data.name,
-    subtitle: `${a.data.book_count} books`,
-    url: `${base}authors/${a.data.slug}/`,
-    type: 'author' as const,
-    cover_url: a.data.photo_url,
-  })),
-];
 ---
 
 <!doctype html>
@@ -62,7 +40,7 @@ const searchItems = [
           </a>
           <!-- Desktop nav -->
           <div class="hidden sm:flex items-center gap-4">
-            <SearchModal client:load items={searchItems} baseUrl={base} />
+            <SearchModal client:idle baseUrl={base} />
             <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
             <a href={`${base}categories/`} class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
             <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>

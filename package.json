@@ -8,7 +8,10 @@
   "scripts": {
     "dev": "astro dev",
     "stats": "python3 scripts/generate-stats.py",
-    "build": "python3 scripts/apply-reading-status.py && python3 scripts/generate-stats.py && astro build",
+    "prebuild": "python3 scripts/apply-reading-status.py && python3 scripts/generate-stats.py && python3 scripts/generate-search-index.py",
+    "build": "astro build",
+    "typecheck": "astro check",
+    "lint": "astro check",
     "preview": "astro preview",
     "astro": "astro"
   },
