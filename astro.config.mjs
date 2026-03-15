@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://williamzujkowski.github.io',
-  base: '/tsundoku',
+  base: '/tsundoku/',
   integrations: [svelte()],
 
   vite: {
