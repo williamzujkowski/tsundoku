@@ -163,6 +163,17 @@ def extract_metadata(doc: dict) -> dict:
     if languages:
         result["language"] = languages[0]
 
+    # OCLC number (for WorldCat/HathiTrust linking)
+    oclc_ids = doc.get("oclc", [])
+    if oclc_ids:
+        result["oclc_id"] = str(oclc_ids[0])
+        result["worldcat_url"] = f"https://www.worldcat.org/oclc/{oclc_ids[0]}"
+
+    # Library of Congress Control Number
+    lccn = doc.get("lccn", [])
+    if lccn:
+        result["lccn"] = lccn[0]
+
     return result
 
 

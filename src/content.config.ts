@@ -25,6 +25,12 @@ const books = defineCollection({
     gutenberg_id: z.number().optional(),
     gutenberg_url: z.string().optional(),
     gutenberg_read_url: z.string().optional(),
+    // Library identifiers (from BookReconciler-style enrichment)
+    oclc_id: z.string().optional(),
+    lccn: z.string().optional(),
+    worldcat_url: z.string().optional(),
+    hathitrust_url: z.string().optional(),
+    hathitrust_rights: z.string().optional(),
     // Reading status (from data/reading-status.csv — owner's reading progress)
     reading_status: z.enum(['want', 'reading', 'read']).optional(),
     status_date: z.string().optional(),
