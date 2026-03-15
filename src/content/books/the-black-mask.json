@@ -1,6 +1,6 @@
 {
   "title": "The Black Mask",
-  "author": "Unknown",
+  "author": "E. W. Hornung",
   "category": "Literature",
   "priority": 2,
   "slug": "the-black-mask",
@@ -8,5 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "language": "eng"
+  "language": "eng",
+  "cover_url": "https://covers.openlibrary.org/b/id/10557056-M.jpg",
+  "first_published": 1975
 }

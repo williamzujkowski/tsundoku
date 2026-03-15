@@ -1,6 +1,6 @@
 {
   "title": "Legends of Vancouver",
-  "author": "Unknown",
+  "author": "E. Pauline Johnson",
   "category": "Literature",
   "priority": 2,
   "slug": "legends-of-vancouver",
@@ -8,5 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "language": "eng"
+  "language": "eng",
+  "cover_url": "https://covers.openlibrary.org/b/id/5306442-M.jpg",
+  "first_published": 1911
 }

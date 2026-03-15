@@ -1,29 +1,25 @@
 {
   "total_books": 3524,
   "total_categories": 42,
-  "total_authors": 1633,
+  "total_authors": 1668,
   "priorities": {
     "must_read": 1684,
     "recommended": 1805,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3471,
-    "covers_pct": 98.5,
+    "covers": 3482,
+    "covers_pct": 98.8,
     "descriptions": 3022,
     "descriptions_pct": 85.8,
     "isbns": 2706,
     "isbns_pct": 76.8,
     "pages": 3139,
     "pages_pct": 89.1,
-    "years": 3491,
+    "years": 3500,
     "subjects": 497
   },
   "top_authors": [
-    {
-      "name": "Unknown",
-      "count": 79
-    },
     {
       "name": "William Shakespeare",
       "count": 29
@@ -41,23 +37,31 @@
       "count": 17
     },
     {
+      "name": "Jules Verne",
+      "count": 16
+    },
+    {
       "name": "Isaac Asimov",
       "count": 16
+    },
+    {
+      "name": "Charles Dickens",
+      "count": 15
     },
     {
       "name": "Ursula K. Le Guin",
       "count": 15
     },
     {
-      "name": "Jules Verne",
+      "name": "Unknown",
       "count": 15
     },
     {
-      "name": "Charles Dickens",
+      "name": "C.S. Lewis",
       "count": 14
     },
     {
-      "name": "C.S. Lewis",
+      "name": "Agatha Christie",
       "count": 14
     },
     {
@@ -67,10 +71,6 @@
     {
       "name": "Aristotle",
       "count": 14
-    },
-    {
-      "name": "Agatha Christie",
-      "count": 13
     },
     {
       "name": "Honoré de Balzac",
@@ -89,15 +89,15 @@
       "count": 11
     },
     {
+      "name": "Robert A. Heinlein",
+      "count": 11
+    },
+    {
       "name": "Bertrand Russell",
       "count": 10
     },
     {
       "name": "Roger Zelazny",
-      "count": 10
-    },
-    {
-      "name": "Arthur Conan Doyle",
       "count": 10
     }
   ],
@@ -274,9 +274,9 @@
   "year_distribution": {
     "before_1800": 154,
     "1800_1899": 259,
-    "1900_1949": 453,
-    "1950_1999": 1145,
-    "2000_plus": 1480
+    "1900_1949": 457,
+    "1950_1999": 1146,
+    "2000_plus": 1484
   },
   "reading_progress": {
     "read": 1014,
@@ -286,5 +286,5 @@
   },
   "oldest_year": 1467,
   "newest_year": 2030,
-  "generated_at": "2026-03-15T15:53:53.313124"
+  "generated_at": "2026-03-15T16:26:25.702629"
 }

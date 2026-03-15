@@ -1,6 +1,6 @@
 {
   "title": "Riceyman Steps",
-  "author": "Unknown",
+  "author": "Arnold Bennett",
   "category": "Literature",
   "priority": 2,
   "slug": "riceyman-steps",
@@ -8,5 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "language": "eng"
+  "language": "eng",
+  "cover_url": "https://covers.openlibrary.org/b/id/696629-M.jpg",
+  "first_published": 1923
 }
