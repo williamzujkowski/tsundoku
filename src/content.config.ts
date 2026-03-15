@@ -20,6 +20,7 @@ const books = defineCollection({
     subjects: z.array(z.string()).optional(),
     pages: z.number().optional(),
     language: z.string().optional(),
+    google_books_url: z.string().optional(),
   }),
 });
 

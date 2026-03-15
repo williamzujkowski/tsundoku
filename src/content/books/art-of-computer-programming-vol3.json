@@ -4,5 +4,14 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "art-of-computer-programming-vol3",
-  "tags": []
+  "tags": [],
+  "cover_url": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "first_published": 1973,
+  "pages": 750,
+  "subjects": [
+    "Computer algorithms"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=SoRQAAAAMAAJ&dq=Art+of+Computer+Programming+Vol3+Knuth&hl=&source=gbs_api"
 }

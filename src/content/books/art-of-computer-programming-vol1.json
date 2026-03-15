@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "art-of-computer-programming-vol1",
-  "tags": []
+  "tags": [],
+  "description": "&>The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming. —Byte, September 1995 I can't begin to tell you how many pleasurable hours of study and recreation they have afforded me! I have pored over them in cars, restaurants, at work, at home... and even at a Little League game when my son wasn't in the line-up. —Charles Long If you think you're a really good programmer... read [Knuth's] Art of Compute...",
+  "cover_url": "https://books.google.com/books/content?id=x9AsAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=x9AsAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780321635747",
+  "first_published": 1997,
+  "pages": 987,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=x9AsAwAAQBAJ&source=gbs_api"
 }

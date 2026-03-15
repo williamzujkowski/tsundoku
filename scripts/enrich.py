@@ -22,7 +22,81 @@ from urllib.parse import quote_plus
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
-RATE_LIMIT_SECONDS = 1.0  # Be nice to Open Library
+RATE_LIMIT_SECONDS = 1.0  # Be nice to APIs
+
+
+def search_google_books(title: str, author: str) -> dict | None:
+    """Fallback: search Google Books API (free, no key required for basic use)."""
+    query = quote_plus(f"{title} {author}")
+    url = f"https://www.googleapis.com/books/v1/volumes?q={query}&maxResults=1"
+
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+            items = data.get("items", [])
+            if items:
+                return items[0].get("volumeInfo", {})
+    except (URLError, TimeoutError, json.JSONDecodeError) as e:
+        print(f"  ⚠ Google Books error: {e}")
+    return None
+
+
+def extract_google_metadata(vol: dict) -> dict:
+    """Extract metadata from a Google Books volume info."""
+    result = {}
+
+    desc = vol.get("description", "")
+    if desc:
+        # Truncate long descriptions
+        result["description"] = desc[:500] + ("..." if len(desc) > 500 else "")
+
+    # Cover image
+    images = vol.get("imageLinks", {})
+    thumb = images.get("thumbnail", "")
+    if thumb:
+        # Google returns http:// URLs — upgrade to https
+        thumb = thumb.replace("http://", "https://")
+        result["cover_url"] = thumb
+        # Try to get larger image
+        large = images.get("medium") or images.get("small") or thumb
+        result["cover_url_large"] = large.replace("http://", "https://")
+
+    # ISBN
+    for identifier in vol.get("industryIdentifiers", []):
+        if identifier.get("type") in ("ISBN_13", "ISBN_10"):
+            result["isbn"] = identifier["identifier"]
+            break
+
+    # Published date
+    pub_date = vol.get("publishedDate", "")
+    if pub_date:
+        try:
+            result["first_published"] = int(pub_date[:4])
+        except ValueError:
+            pass
+
+    # Pages
+    pages = vol.get("pageCount")
+    if pages:
+        result["pages"] = pages
+
+    # Categories as subjects
+    cats = vol.get("categories", [])
+    if cats:
+        result["subjects"] = cats[:5]
+
+    # Language
+    lang = vol.get("language")
+    if lang:
+        result["language"] = lang
+
+    # Google Books link
+    info_link = vol.get("infoLink")
+    if info_link:
+        result["google_books_url"] = info_link
+
+    return result
 
 
 def search_open_library(title: str, author: str) -> dict | None:
@@ -106,14 +180,23 @@ def enrich_book(book_path: Path, force: bool = False) -> bool:
 
     print(f"  📖 {title} by {author}...", end=" ", flush=True)
 
+    # Try Open Library first
     doc = search_open_library(title, author)
-    if not doc:
-        print("not found")
-        return False
+    metadata = extract_metadata(doc) if doc else {}
 
-    metadata = extract_metadata(doc)
+    # Fallback to Google Books if Open Library missed key data
+    if not metadata.get("cover_url"):
+        time.sleep(0.5)  # Brief pause between APIs
+        gvol = search_google_books(title, author)
+        if gvol:
+            gmeta = extract_google_metadata(gvol)
+            # Merge: Google fills gaps, doesn't overwrite Open Library data
+            for key, value in gmeta.items():
+                if key not in metadata:
+                    metadata[key] = value
+
     if not metadata:
-        print("no metadata")
+        print("not found (both APIs)")
         return False
 
     # Merge metadata into book (don't overwrite existing fields)

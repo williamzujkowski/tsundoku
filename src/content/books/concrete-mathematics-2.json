@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "concrete-mathematics-2",
-  "tags": []
+  "tags": [],
+  "description": "This book introduces the mathematics that supports advanced computer programming and the analysis of algorithms. The primary aim of its well-known authors is to provide a solid and relevant base of mathematical skills - the skills needed to solve complex problems, to evaluate horrendous sums, and to discover subtle patterns in data. It is an indispensable text and reference not only for computer scientists - the authors themselves rely heavily on it! - but for serious users of mathematics in vir...",
+  "cover_url": "https://books.google.com/books/content?id=ctnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=ctnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9780134389981",
+  "first_published": 1994,
+  "pages": 811,
+  "subjects": [
+    "Computers"
+  ],
+  "language": "en",
+  "google_books_url": "https://play.google.com/store/books/details?id=ctnPEAAAQBAJ&source=gbs_api"
 }

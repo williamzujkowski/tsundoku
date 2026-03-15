@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "artificial-intelligence-a-modern-approach",
-  "tags": []
+  "tags": [],
+  "description": "A highly accessible, up-to-date professional reference for programmers, software engineers, system administrators, or technical managers, this book integrates state-of-the-art AI techniques into intelligent agent designs using examples and exercises to lead the reader from simple reactive agents to full knowledge-based agents with natural language capabilities.",
+  "cover_url": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "isbn": "0131038052",
+  "first_published": 1995,
+  "pages": 932,
+  "subjects": [
+    "Artificial intelligence"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=CUVeMwAACAAJ&dq=Artificial+Intelligence:+A+Modern+Approach+Stuart+Russell+and+Peter+Norvig&hl=&source=gbs_api"
 }

@@ -4,5 +4,16 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "algorithm-design",
-  "tags": []
+  "tags": [],
+  "description": "Algorithm Design introduces algorithms by looking at the real-world problems that motivate them. The book teaches students a range of design and analysis techniques for problems that arise in computing applications. The text encourages an understanding of the algorithm design process and an appreciation of the role of algorithms in the broader field of computer science. August 6, 2009 Author, Jon Kleinberg, was recently cited in the New York Times for his statistical analysis research in the Int...",
+  "cover_url": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "isbn": "0321372913",
+  "first_published": 2006,
+  "pages": 838,
+  "subjects": [
+    "Computer algorithms"
+  ],
+  "language": "en",
+  "google_books_url": "http://books.google.com/books?id=c57CQgAACAAJ&dq=Algorithm+Design+Jon+Kleinberg+and+%C3%89va+Tardos&hl=&source=gbs_api"
 }
