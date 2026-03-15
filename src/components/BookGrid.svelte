@@ -7,7 +7,7 @@
     slug: string;
   }
 
-  let { books = [], categories = [] }: { books: Book[]; categories: string[] } = $props();
+  let { books = [], categories = [], baseUrl = '/' }: { books: Book[]; categories: string[]; baseUrl?: string } = $props();
 
   let search = $state('');
   let selectedCategory = $state('');
@@ -117,7 +117,8 @@
     <!-- Book grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
       {#each sortedBooks.slice(0, showCount) as book (book.slug)}
-        <article class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors group">
+        <a href="{baseUrl}books/{book.slug}/"
+           class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors group block">
           <div class="flex items-start justify-between mb-2 gap-2">
             <span class="text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap {priorityClass(book.priority)}">
               {priorityLabel(book.priority)}
@@ -126,7 +127,7 @@
           </div>
           <h3 class="text-white font-medium text-sm mb-1 line-clamp-2 group-hover:text-purple-200 transition-colors">{book.title}</h3>
           <p class="text-gray-500 text-xs">{book.author}</p>
-        </article>
+        </a>
       {/each}
     </div>
 

@@ -1,0 +1,138 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books.map(book => ({
+    params: { slug: book.data.slug },
+    props: { book: book.data },
+  }));
+}
+
+const base = import.meta.env.BASE_URL;
+const { book } = Astro.props;
+
+// Find other books by same author
+const allBooks = await getCollection('books');
+const sameAuthor = allBooks
+  .filter(b => b.data.author === book.author && b.data.slug !== book.slug)
+  .map(b => b.data)
+  .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title));
+
+// Find other books in same category
+const sameCategory = allBooks
+  .filter(b => b.data.category === book.category && b.data.slug !== book.slug)
+  .map(b => b.data)
+  .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title))
+  .slice(0, 12);
+
+function priorityLabel(p: number): string {
+  if (p === 1) return 'Must-Read';
+  if (p === 2) return 'Recommended';
+  return 'Supplementary';
+}
+
+function priorityClass(p: number): string {
+  if (p === 1) return 'bg-purple-900/60 text-purple-300 border border-purple-700/30';
+  if (p === 2) return 'bg-gray-800 text-gray-400 border border-gray-700';
+  return 'bg-gray-800/50 text-gray-500 border border-gray-700/50';
+}
+
+const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+---
+
+<Layout title={book.title} description={`${book.title} by ${book.author} — ${book.category}`}>
+  <nav class="mb-6 text-sm text-gray-500">
+    <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
+    <span class="mx-1">/</span>
+    <a href={`${base}categories/${categorySlug}/`} class="hover:text-white transition-colors">{book.category}</a>
+    <span class="mx-1">/</span>
+    <span class="text-gray-400">{book.title}</span>
+  </nav>
+
+  <article class="max-w-3xl">
+    <div class="mb-6">
+      <span class={`inline-block text-xs px-3 py-1 rounded-full mb-3 ${priorityClass(book.priority)}`}>
+        {priorityLabel(book.priority)}
+      </span>
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
+      <p class="text-lg text-gray-400">by <span class="text-purple-400">{book.author}</span></p>
+    </div>
+
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-5 sm:p-6 mb-8">
+      <dl class="grid grid-cols-2 gap-4 text-sm">
+        <div>
+          <dt class="text-gray-500 mb-1">Category</dt>
+          <dd>
+            <a href={`${base}categories/${categorySlug}/`} class="text-white hover:text-purple-400 transition-colors">
+              {book.category}
+            </a>
+          </dd>
+        </div>
+        <div>
+          <dt class="text-gray-500 mb-1">Priority</dt>
+          <dd class="text-white">{priorityLabel(book.priority)}</dd>
+        </div>
+        <div>
+          <dt class="text-gray-500 mb-1">Author</dt>
+          <dd class="text-white">{book.author}</dd>
+        </div>
+        <div>
+          <dt class="text-gray-500 mb-1">Other works by author</dt>
+          <dd class="text-white">{sameAuthor.length}</dd>
+        </div>
+      </dl>
+    </div>
+
+    {sameAuthor.length > 0 && (
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-white mb-4">More by {book.author}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {sameAuthor.slice(0, 6).map(b => (
+            <a href={`${base}books/${b.slug}/`}
+               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors block">
+              <div class="flex items-start justify-between mb-1 gap-2">
+                <span class={`text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap ${priorityClass(b.priority)}`}>
+                  {priorityLabel(b.priority)}
+                </span>
+              </div>
+              <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {sameCategory.length > 0 && (
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-white mb-4">More in {book.category}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {sameCategory.slice(0, 6).map(b => (
+            <a href={`${base}books/${b.slug}/`}
+               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors block">
+              <div class="flex items-start justify-between mb-1 gap-2">
+                <span class={`text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap ${priorityClass(b.priority)}`}>
+                  {priorityLabel(b.priority)}
+                </span>
+              </div>
+              <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
+              <p class="text-gray-500 text-xs mt-1">{b.author}</p>
+            </a>
+          ))}
+        </div>
+        <div class="mt-3">
+          <a href={`${base}categories/${categorySlug}/`} class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+            View all {book.category} books →
+          </a>
+        </div>
+      </section>
+    )}
+  </article>
+
+  <div class="mt-8 pt-6 border-t border-gray-800">
+    <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">
+      ← Back to browse
+    </a>
+  </div>
+</Layout>
