@@ -13,14 +13,12 @@ export async function getStaticPaths() {
 const base = import.meta.env.BASE_URL;
 const { book } = Astro.props;
 
-// Find other books by same author
 const allBooks = await getCollection('books');
 const sameAuthor = allBooks
   .filter(b => b.data.author === book.author && b.data.slug !== book.slug)
   .map(b => b.data)
   .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title));
 
-// Find other books in same category
 const sameCategory = allBooks
   .filter(b => b.data.category === book.category && b.data.slug !== book.slug)
   .map(b => b.data)
@@ -42,26 +40,67 @@ function priorityClass(p: number): string {
 const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 ---
 
-<Layout title={book.title} description={`${book.title} by ${book.author} — ${book.category}`}>
+<Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`}>
   <nav class="mb-6 text-sm text-gray-500">
     <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
     <span class="mx-1">/</span>
     <a href={`${base}categories/${categorySlug}/`} class="hover:text-white transition-colors">{book.category}</a>
     <span class="mx-1">/</span>
-    <span class="text-gray-400">{book.title}</span>
+    <span class="text-gray-400 truncate">{book.title}</span>
   </nav>
 
-  <article class="max-w-3xl">
-    <div class="mb-6">
-      <span class={`inline-block text-xs px-3 py-1 rounded-full mb-3 ${priorityClass(book.priority)}`}>
-        {priorityLabel(book.priority)}
-      </span>
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
-      <p class="text-lg text-gray-400">by <span class="text-purple-400">{book.author}</span></p>
+  <article class="max-w-4xl">
+    <!-- Hero: cover + title -->
+    <div class="flex flex-col sm:flex-row gap-6 sm:gap-8 mb-8">
+      {book.cover_url ? (
+        <div class="shrink-0">
+          <img
+            src={book.cover_url_large || book.cover_url}
+            alt={`Cover of ${book.title}`}
+            class="w-36 sm:w-48 rounded-lg shadow-lg shadow-black/40 border border-gray-800"
+            loading="eager"
+          />
+        </div>
+      ) : (
+        <div class="shrink-0 w-36 sm:w-48 h-52 sm:h-72 rounded-lg bg-gradient-to-br from-purple-900/40 to-gray-900 border border-gray-800 flex items-center justify-center">
+          <span class="text-4xl text-gray-700">📖</span>
+        </div>
+      )}
+
+      <div class="flex-1 min-w-0">
+        <span class={`inline-block text-xs px-3 py-1 rounded-full mb-3 ${priorityClass(book.priority)}`}>
+          {priorityLabel(book.priority)}
+        </span>
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
+        <p class="text-lg text-gray-400 mb-4">by <span class="text-purple-400">{book.author}</span></p>
+
+        {book.description && (
+          <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-4">{book.description}</p>
+        )}
+
+        <div class="flex flex-wrap gap-2 text-xs">
+          {book.first_published && (
+            <span class="px-2 py-1 rounded bg-gray-800 text-gray-400">
+              First published: {book.first_published}
+            </span>
+          )}
+          {book.pages && (
+            <span class="px-2 py-1 rounded bg-gray-800 text-gray-400">
+              {book.pages} pages
+            </span>
+          )}
+          {book.isbn && (
+            <span class="px-2 py-1 rounded bg-gray-800 text-gray-400">
+              ISBN: {book.isbn}
+            </span>
+          )}
+        </div>
+      </div>
     </div>
 
+    <!-- Metadata card -->
     <div class="rounded-xl border border-gray-800 bg-gray-900 p-5 sm:p-6 mb-8">
-      <dl class="grid grid-cols-2 gap-4 text-sm">
+      <dl class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
         <div>
           <dt class="text-gray-500 mb-1">Category</dt>
           <dd>
@@ -75,49 +114,80 @@ const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
           <dd class="text-white">{priorityLabel(book.priority)}</dd>
         </div>
         <div>
-          <dt class="text-gray-500 mb-1">Author</dt>
-          <dd class="text-white">{book.author}</dd>
+          <dt class="text-gray-500 mb-1">Author works</dt>
+          <dd class="text-white">{sameAuthor.length + 1}</dd>
         </div>
-        <div>
-          <dt class="text-gray-500 mb-1">Other works by author</dt>
-          <dd class="text-white">{sameAuthor.length}</dd>
-        </div>
+        {book.language && (
+          <div>
+            <dt class="text-gray-500 mb-1">Language</dt>
+            <dd class="text-white">{book.language}</dd>
+          </div>
+        )}
       </dl>
+
+      {book.subjects && book.subjects.length > 0 && (
+        <div class="mt-4 pt-4 border-t border-gray-800">
+          <dt class="text-gray-500 text-sm mb-2">Subjects</dt>
+          <div class="flex flex-wrap gap-1.5">
+            {book.subjects.map(s => (
+              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-400">{s}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {book.open_library_url && (
+        <div class="mt-4 pt-4 border-t border-gray-800">
+          <a href={book.open_library_url} target="_blank" rel="noopener noreferrer"
+             class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+            View on Open Library →
+          </a>
+        </div>
+      )}
     </div>
 
+    <!-- More by author -->
     {sameAuthor.length > 0 && (
       <section class="mb-8">
         <h2 class="text-lg font-bold text-white mb-4">More by {book.author}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`}
-               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors block">
-              <div class="flex items-start justify-between mb-1 gap-2">
-                <span class={`text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap ${priorityClass(b.priority)}`}>
+               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors flex gap-3 items-start">
+              {b.cover_url ? (
+                <img src={b.cover_url} alt="" class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
+              ) : (
+                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs">📖</div>
+              )}
+              <div class="min-w-0">
+                <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
+                <span class={`text-[11px] ${b.priority === 1 ? 'text-purple-400' : 'text-gray-500'}`}>
                   {priorityLabel(b.priority)}
                 </span>
               </div>
-              <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
             </a>
           ))}
         </div>
       </section>
     )}
 
+    <!-- More in category -->
     {sameCategory.length > 0 && (
       <section class="mb-8">
         <h2 class="text-lg font-bold text-white mb-4">More in {book.category}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`}
-               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors block">
-              <div class="flex items-start justify-between mb-1 gap-2">
-                <span class={`text-[11px] px-2 py-0.5 rounded-full whitespace-nowrap ${priorityClass(b.priority)}`}>
-                  {priorityLabel(b.priority)}
-                </span>
+               class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors flex gap-3 items-start">
+              {b.cover_url ? (
+                <img src={b.cover_url} alt="" class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
+              ) : (
+                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs">📖</div>
+              )}
+              <div class="min-w-0">
+                <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
+                <p class="text-gray-500 text-xs">{b.author}</p>
               </div>
-              <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
-              <p class="text-gray-500 text-xs mt-1">{b.author}</p>
             </a>
           ))}
         </div>
