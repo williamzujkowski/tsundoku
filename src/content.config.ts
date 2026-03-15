@@ -31,6 +31,12 @@ const books = defineCollection({
     worldcat_url: z.string().optional(),
     hathitrust_url: z.string().optional(),
     hathitrust_rights: z.string().optional(),
+    // LibriVox (populated by scripts/enrich-librivox.py)
+    librivox_url: z.string().optional(),
+    // Standard Ebooks (populated by scripts/enrich-standardebooks.py)
+    standardebooks_url: z.string().optional(),
+    // Internet Archive
+    archive_url: z.string().optional(),
     // Reading status (from data/reading-status.csv — owner's reading progress)
     reading_status: z.enum(['want', 'reading', 'read']).optional(),
     status_date: z.string().optional(),

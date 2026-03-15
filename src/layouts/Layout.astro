@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import SearchModal from '../components/SearchModal.svelte';
+import RandomBook from '../components/RandomBook.svelte';
 import stats from '../data/stats.json';
 
 interface Props {
@@ -43,6 +44,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
           <!-- Desktop nav -->
           <div class="hidden sm:flex items-center gap-4">
             <SearchModal client:idle baseUrl={base} />
+            <RandomBook client:idle baseUrl={base} />
             <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
             <a href={`${base}categories/`} class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
             <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>

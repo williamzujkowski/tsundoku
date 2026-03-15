@@ -14,3 +14,13 @@ body {
   color: #E6E1E5;
   font-family: system-ui, sans-serif;
 }
+
+/* Keyboard focus indicators */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #9f7aea;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
