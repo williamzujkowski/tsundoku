@@ -1,0 +1,18 @@
+{
+  "title": "THE ART OF DEBUGGING WITH GDB, DDD, AND ECLIPSE",
+  "author": "Norman S. Matloff, Peter Jay Salzman",
+  "category": "Computer Science",
+  "priority": 2,
+  "slug": "the-art-of-debugging-with-gdb-ddd-and-eclipse",
+  "tags": [
+    "google-play-library"
+  ],
+  "reading_status": "read",
+  "description": "Provides information on using three debugging tools on the Linux/Unix platforms, covering such topics as inspecting variables and data structures, understanding segmentation faults and core dumps, using catchpoints and artificial arrays, and avoiding debu",
+  "cover_url": "https://books.google.com/books/content?id=nGuP31sQHoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "isbn": "9781593271749",
+  "first_published": 2008,
+  "pages": 280,
+  "google_books_url": "http://books.google.com/books?id=nGuP31sQHoYC&dq=intitle:THE+ART+OF+DEBUGGING+WITH+GDB,+DDD,+AND+ECLIPSE&hl=&source=gbs_api",
+  "language": "eng"
+}

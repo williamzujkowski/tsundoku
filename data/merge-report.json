@@ -1,1003 +1,1493 @@
 {
   "added": [
     {
-      "title": "1001 Arabian Nights",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "A Bid for Fortune",
-      "author": "Guy Newell 1867-1905 Boothby",
-      "category": "History"
-    },
-    {
-      "title": "A Bug Hunter's Diary",
-      "author": "Tobias Klein",
-      "category": "Computer Science"
-    },
-    {
-      "title": "A Confession",
-      "author": "Frances Hunter",
-      "category": "Literature"
-    },
-    {
-      "title": "A Connecticut Yankee in King Arthur's Court",
-      "author": "Mark Twain",
-      "category": "Literature"
-    },
-    {
-      "title": "A Country Gentleman and His Family",
-      "author": "Margaret Oliphant",
-      "category": "Literature"
-    },
-    {
-      "title": "A Cycle of the West",
-      "author": "John Gneisenau Neihardt",
-      "category": "Poetry"
-    },
-    {
-      "title": "A Damsel in Distress",
-      "author": "P. G. Wodehouse",
-      "category": "Literature"
-    },
-    {
-      "title": "A Daughter of Eve",
-      "author": "Goldie Lieberman",
-      "category": "Poetry"
-    },
-    {
-      "title": "A Daughter of the Samurai",
-      "author": "Etsu Inagaki Sugimoto",
-      "category": "Literature"
-    },
-    {
-      "title": "A General History of the Pirates",
-      "author": "Daniel Defoe",
-      "category": "History"
-    },
-    {
-      "title": "A General View of Positivism",
-      "author": "Auguste Comte",
-      "category": "Literature"
-    },
-    {
-      "title": "A Gentleman of Leisure",
-      "author": "P. G. Wodehouse",
-      "category": "Literature"
-    },
-    {
-      "title": "A Hazard of New Fortunes",
-      "author": "William Dean Howells",
-      "category": "Literature"
-    },
-    {
-      "title": "A Little Princess",
-      "author": "Frances Hodgson Burnett",
-      "category": "Literature"
-    },
-    {
-      "title": "A Man Could Stand Up—",
-      "author": "Ford Ford",
-      "category": "Literature"
-    },
-    {
-      "title": "A Marriage Settlement",
-      "author": "Francis Whitmarsh",
-      "category": "Literature"
-    },
-    {
-      "title": "A Pair of Blue Eyes",
-      "author": "Thomas Hardy",
-      "category": "Literature"
-    },
-    {
-      "title": "A Personal Record",
-      "author": "Joseph Conrad",
-      "category": "Literature"
-    },
-    {
-      "title": "A Popular Schoolgirl",
-      "author": "Angela Brazil",
-      "category": "Literature"
-    },
-    {
-      "title": "A Prefect's Uncle",
-      "author": "Pelham Grenville Wodehouse",
-      "category": "Literature"
-    },
-    {
-      "title": "A Princess of Mars",
-      "author": "Edgar Rice Burroughs",
-      "category": "Literature"
-    },
-    {
-      "title": "A Sicilian Romance",
-      "author": "Ann Ward Radcliffe",
-      "category": "Literature"
-    },
-    {
-      "title": "A Start in Life",
-      "author": "Honoré de Balzac",
-      "category": "Literature"
-    },
-    {
-      "title": "A Strange Disappearance",
-      "author": "Anna Katharine Green, Sheba Blake",
-      "category": "Literature"
-    },
-    {
-      "title": "A Tangled Tale",
-      "author": "Lewis Carroll",
-      "category": "Literature"
-    },
-    {
-      "title": "A Thief in the Night",
-      "author": "E. W. Hornung",
-      "category": "Literature"
-    },
-    {
-      "title": "A Vindication of the Rights of Woman",
-      "author": "Mary Wollstonecraft",
-      "category": "Science"
-    },
-    {
-      "title": "A Visit From St",
-      "author": "Clement Clarke Moore",
-      "category": "Poetry"
-    },
-    {
-      "title": "A Visit from the Greys",
-      "author": "Drac Von Stoller",
-      "category": "Literature"
-    },
-    {
-      "title": "A Voice from the South",
-      "author": "Anna Julia Cooper",
-      "category": "Philosophy"
-    },
-    {
-      "title": "A Voyage to Arcturus",
-      "author": "David Lindsay",
-      "category": "Literature"
-    },
-    {
-      "title": "A Week on the Concord and Merrimack Rivers",
-      "author": "Henry David Thoreau",
-      "category": "Literature"
-    },
-    {
-      "title": "A Woman of No Importance",
-      "author": "Sonia Purnell",
-      "category": "Literature"
-    },
-    {
-      "title": "A Woman of Thirty",
-      "author": "Honore de Balzac",
-      "category": "Literature"
-    },
-    {
-      "title": "A Yankee in the Trenches",
-      "author": "R. Derby Holmes",
-      "category": "Literature"
-    },
-    {
-      "title": "A.I",
-      "author": "Anjanava Biswas, Wrick Talukdar",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Abandon",
-      "author": "Meg Cabot",
-      "category": "Literature"
-    },
-    {
-      "title": "Absolute OpenBSD",
-      "author": "Michael W. Lucas",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Advances in Cryptology – CRYPTO 2019",
-      "author": "Alexandra Boldyreva, Daniele Micciancio",
-      "category": "Computer Science"
-    },
-    {
-      "title": "After London",
-      "author": "Richard Jefferies",
-      "category": "Literature"
-    },
-    {
-      "title": "After the Divorce",
-      "author": "Grazia Deledda",
-      "category": "Literature"
-    },
-    {
-      "title": "Against the Grain",
-      "author": "Richard Manning",
-      "category": "Literature"
-    },
-    {
-      "title": "Agency",
-      "author": "Roderick Munday",
-      "category": "Literature"
-    },
-    {
-      "title": "Albert Savarus",
-      "author": "Honoré de Balzac, Sheba Blake",
-      "category": "Literature"
-    },
-    {
-      "title": "Alice Adams",
-      "author": "Booth Tarkington",
-      "category": "Literature"
-    },
-    {
-      "title": "Alice's Adventures in Wonderland",
-      "author": "Lewis Carroll",
-      "category": "Literature"
-    },
-    {
-      "title": "All Quiet on the Western Front",
-      "author": "Erich Maria Remarque",
-      "category": "Literature"
-    },
-    {
-      "title": "Allan Quatermain",
-      "author": "Henry Rider Haggard",
-      "category": "Literature"
-    },
-    {
-      "title": "Allan Quatermain Stories",
-      "author": "H. Rider Haggard",
-      "category": "Literature"
-    },
-    {
-      "title": "Almond",
-      "author": "R. H. Taylor",
-      "category": "History"
-    },
-    {
-      "title": "Amaryllis at the Fair",
-      "author": "Richard Jefferies",
-      "category": "Literature"
-    },
-    {
-      "title": "American Indian Stories",
-      "author": "Zitkala-Sa",
-      "category": "Literature"
-    },
-    {
-      "title": "An American Tragedy",
-      "author": "Theodore Dreiser",
-      "category": "Literature"
-    },
-    {
-      "title": "An Antarctic Mystery",
-      "author": "Jules Verne",
-      "category": "Literature"
-    },
-    {
-      "title": "An Autobiography",
-      "author": "Ellen Glasgow, Ellen Anderson Gholson Glasgow",
-      "category": "Literature"
-    },
-    {
-      "title": "An Enemy of the People ; The Wild Duck",
-      "author": "H. Ibsen",
-      "category": "Literature"
-    },
-    {
-      "title": "An Inquiry Into the Accordancy of War with the Principles of Christianity",
-      "author": "Jonathan Dymond",
-      "category": "History"
-    },
-    {
-      "title": "An Outback Marriage",
-      "author": "Andrew Barton Paterson",
-      "category": "Literature"
-    },
-    {
-      "title": "Android Security Internals: An In-Depth Guide to Android's Security Architecture",
-      "author": "Nikolay Elenkov",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Anne of Avonlea",
-      "author": "Lucy Maud Montgomery",
-      "category": "Literature"
-    },
-    {
-      "title": "Anne of Green Gables",
-      "author": "L. M. Montgomery",
-      "category": "Literature"
-    },
-    {
-      "title": "Anne of the Island",
-      "author": "L. M. Montgomery",
-      "category": "Literature"
-    },
-    {
-      "title": "Antic Hay",
-      "author": "Aldous Huxley",
-      "category": "Literature"
-    },
-    {
-      "title": "Arduino Project Handbook",
-      "author": "Mark Geddes",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Arms and the Man",
-      "author": "George Bernard Shaw",
-      "category": "Drama"
-    },
-    {
-      "title": "Arsène Lupin Versus Herlock Sholmes",
-      "author": "Maurice le Blanc, Sheba Blake",
-      "category": "Literature"
-    },
-    {
-      "title": "Articulating Design Decisions",
-      "author": "Tom Greever",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Artificial Intelligence with Python",
-      "author": "Alberto Artasanchez, Prateek Joshi",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Ashenden",
-      "author": "W. Somerset Maugham",
-      "category": "Literature"
-    },
-    {
-      "title": "At the Back of the North Wind",
-      "author": "George MacDonald",
-      "category": "Literature"
-    },
-    {
-      "title": "Attacking Network Protocols",
-      "author": "James Forshaw",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Aurora Floyd",
-      "author": "Mary Elizabeth Braddon",
-      "category": "Literature"
-    },
-    {
-      "title": "Automate the Boring Stuff with Python: Practical Programming for Total Beginners",
-      "author": "Al Sweigart",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Automated Machine Learning",
-      "author": "Frank Hutter, Lars Kotthoff, Joaquin Vanschoren",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Avogadro Corp",
-      "author": "William Hertling",
-      "category": "Literature"
-    },
-    {
-      "title": "Backwater",
-      "author": "Rodney E. Southard",
-      "category": "Literature"
-    },
-    {
-      "title": "Bambi",
-      "author": "Felix Salten",
-      "category": "Literature"
-    },
-    {
-      "title": "Barriers Burned Away",
-      "author": "Edward Payson Roe",
-      "category": "Literature"
-    },
-    {
-      "title": "Bartleby and Benito Cereno",
-      "author": "Herman Melville",
-      "category": "Literature"
-    },
-    {
-      "title": "Bashan and I",
-      "author": "Thomas Mann",
-      "category": "Literature"
-    },
-    {
-      "title": "Bearing an Hourglass",
-      "author": "Piers Anthony",
-      "category": "Literature"
-    },
-    {
-      "title": "Beastie Boys Book",
-      "author": "Michael Diamond, Adam Horovitz",
-      "category": "Literature"
-    },
-    {
-      "title": "Before Adam",
-      "author": "Jack London",
-      "category": "Literature"
-    },
-    {
-      "title": "Behind That Curtain",
-      "author": "Earl Biggers",
-      "category": "Literature"
-    },
-    {
-      "title": "Behind a Mask",
-      "author": "Louisa May Alcott",
-      "category": "Literature"
-    },
-    {
-      "title": "Being a Green Mother",
-      "author": "Piers Anthony",
-      "category": "Literature"
-    },
-    {
-      "title": "Bellarion the Fortunate",
-      "author": "Raphael Sabatini",
-      "category": "Literature"
-    },
-    {
-      "title": "Ben Hur",
-      "author": "Lew Wallace",
-      "category": "Literature"
-    },
-    {
-      "title": "Beowulf",
-      "author": "Edwin Morgan",
-      "category": "Literature"
-    },
-    {
-      "title": "Bertram Cope's Year",
-      "author": "Henry Blake Fuller",
-      "category": "Literature"
-    },
-    {
-      "title": "Bertrand Russell - In Praise of Idleness",
-      "author": "Bertrand Russell",
-      "category": "Literature"
-    },
-    {
-      "title": "Betty Zane",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Beyond Thirty",
-      "author": "Edgar Rice Burroughs",
-      "category": "Science Fiction"
-    },
-    {
-      "title": "Biscuit in the Garden",
-      "author": "Alyssa Satin Capucilli",
-      "category": "Literature"
-    },
-    {
-      "title": "Bitter Root #1",
-      "author": "David F. Walker, Chuck Brown",
-      "category": "Literature"
-    },
-    {
-      "title": "Black Beauty",
-      "author": "Anna Sewell",
-      "category": "Literature"
-    },
-    {
-      "title": "Black Hat Go: Go Programming for Hackers and Pentesters",
-      "author": "Tom Steele, Chris Patten, Dan Kottmann",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Black Hat Python",
-      "author": "Justin Seitz, Tim Arnold",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Black Hat Python: Python Programming for Hackers and Pentesters",
-      "author": "Unknown",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Blackbirds",
-      "author": "Arthur Cleveland Bent",
-      "category": "Literature"
-    },
-    {
-      "title": "Blake Pierce: Mystery Bundle",
-      "author": "Blake Pierce",
-      "category": "Literature"
-    },
-    {
-      "title": "Blue Hand",
+      "title": "The Law of the Four Just Men",
       "author": "Edgar Wallace",
       "category": "Literature"
     },
     {
-      "title": "Bolshevism",
-      "author": "Alan Woods",
+      "title": "The League of the Scarlet Pimpernel",
+      "author": "Emmauska Orczy",
       "category": "Literature"
     },
     {
-      "title": "Book of Vile Darkness",
-      "author": "Robert J. Schwalb",
+      "title": "The Leavenworth Case",
+      "author": "Anna Katharine Green",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lerouge Case",
+      "author": "Emile Gaboriau",
+      "category": "Literature"
+    },
+    {
+      "title": "The Life Engineered",
+      "author": "JF Dubeau",
+      "category": "Literature"
+    },
+    {
+      "title": "The Life and Adventures of Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "category": "Literature"
+    },
+    {
+      "title": "The Life of Buffalo Bill",
+      "author": "William F. Cody",
+      "category": "Literature"
+    },
+    {
+      "title": "The Light Fantastic",
+      "author": "Terry Pratchett",
+      "category": "Literature"
+    },
+    {
+      "title": "The Linux Command Line",
+      "author": "William E. Shotts, Jr.",
+      "category": "Computer Science"
+    },
+    {
+      "title": "The Linux Programming Interface",
+      "author": "Michael Kerrisk",
+      "category": "Computer Science"
+    },
+    {
+      "title": "The Little Demon",
+      "author": "Fyodor Sologub",
+      "category": "Literature"
+    },
+    {
+      "title": "The Little White Bird",
+      "author": "J. M. Barrie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lives and Opinions of Eminent Philosophers",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lives of the Caesars",
+      "author": "Suetonius",
+      "category": "History"
+    },
+    {
+      "title": "The Lodger",
+      "author": "Marie Belloc Lowndes",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lost Continent",
+      "author": "Charles John Cutcliffe Wright Hyne",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lost Girl",
+      "author": "Anne Ursu",
+      "category": "Literature"
+    },
+    {
+      "title": "The Lost World",
+      "author": "Michael Crichton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Luck of Barry Lyndon",
+      "author": "William Makepeace Thackeray",
+      "category": "Literature"
+    },
+    {
+      "title": "The Luzumiyat",
+      "author": "Abu al-ʻAlaʼ al-Maʻarri",
+      "category": "Literature"
+    },
+    {
+      "title": "The Magic City",
+      "author": "E. Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "The Magician",
+      "author": "Sol Stein",
       "category": "Fantasy"
     },
     {
-      "title": "Brewster's Millions",
-      "author": "George Barr McCutcheon",
+      "title": "The Magnificent Ambersons",
+      "author": "V.F. Perkins",
       "category": "Literature"
     },
     {
-      "title": "Brood of the Witch-Queen",
-      "author": "Sax Rohmer",
+      "title": "The Maid of Sker",
+      "author": "R D (Richard Doddridge) Blackmore",
       "category": "Literature"
     },
     {
-      "title": "Brown on Resolution",
-      "author": "C. S. Forester",
+      "title": "The Man Who Knew",
+      "author": "Edgar Wallace",
       "category": "Literature"
     },
     {
-      "title": "Building Products for the Enterprise",
+      "title": "The Man Who Was Thursday",
+      "author": "Gilbert Keith Chesterton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Man Within",
       "author": "Unknown",
       "category": "Literature"
     },
     {
-      "title": "Bulfinch's Mythology",
-      "author": "Unknown",
+      "title": "The Man in the Brown Suit",
+      "author": "Agatha Christie",
       "category": "Literature"
     },
     {
-      "title": "Bulldog Drummond",
-      "author": "Sapper",
+      "title": "The Man in the Queue",
+      "author": "Josephine Tey",
       "category": "Literature"
     },
     {
-      "title": "Béatrix",
-      "author": "Honoré de Balzac",
+      "title": "The Man of Destiny",
+      "author": "George Bernard Shaw",
       "category": "Literature"
     },
     {
-      "title": "CEH™ Certified Ethical Hacker",
-      "author": "Unknown",
+      "title": "The Maracot Deep",
+      "author": "Arthur Conan Doyle",
       "category": "Literature"
     },
     {
-      "title": "CSS: The Definitive Guide",
-      "author": "Eric Meyer, Estelle Weyl",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Call Mr",
-      "author": "Unknown",
+      "title": "The Mark of Zorro",
+      "author": "Johnston McCulley",
       "category": "Literature"
     },
     {
-      "title": "Calvary",
-      "author": "Calvary Episcopal Church (Pittsburgh, Pa.)",
+      "title": "The Marrow of Tradition",
+      "author": "Charles W. Chesnutt",
       "category": "Literature"
     },
     {
-      "title": "Capitalism without Capital",
-      "author": "Jonathan Haskel, Stian Westlake",
-      "category": "Economics"
-    },
-    {
-      "title": "Captain Blood",
-      "author": "Rafael Sabatini",
-      "category": "Literature"
-    },
-    {
-      "title": "Captain Jinks, Hero",
-      "author": "Ernest Crosby",
-      "category": "Literature"
-    },
-    {
-      "title": "Castle Rackrent",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Catching Fire (Hunger Games, Book Two)",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Catriona",
-      "author": "Robert Louis Stevenson, R. L. Stevenson",
-      "category": "Literature"
-    },
-    {
-      "title": "Celestial Bodies",
-      "author": "Samuel Kazlow",
-      "category": "Literature"
-    },
-    {
-      "title": "Change Agent",
-      "author": "Lyle E. Schaller",
-      "category": "Economics"
-    },
-    {
-      "title": "Charlotte Temple",
-      "author": "Mrs. Rowson",
-      "category": "Literature"
-    },
-    {
-      "title": "Cherbin",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Children of Memory",
-      "author": "James Fenton",
-      "category": "Poetry"
-    },
-    {
-      "title": "Children of the Mind",
-      "author": "BookCaps Study Guides Staff",
-      "category": "Literature"
-    },
-    {
-      "title": "Children's Stories",
-      "author": "Anne Carus WILSON",
-      "category": "Literature"
-    },
-    {
-      "title": "Chivalry",
-      "author": "Maurice Hugh Keen",
-      "category": "History"
-    },
-    {
-      "title": "Chrome Yellow",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Chronicle Books for Cooks",
-      "author": "Robin Asbell, Susie Middleton, Karen Morgan, Joseph Shuldiner, Melissa's / World Variety Produce, Inc.",
-      "category": "Literature"
-    },
-    {
-      "title": "Cleopatra",
-      "author": "Duane W. Roller",
-      "category": "Literature"
-    },
-    {
-      "title": "Clotel",
-      "author": "William Wells Brown",
-      "category": "Literature"
-    },
-    {
-      "title": "Cloud Native Python",
-      "author": "Manish Sethi",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Clouds of Witness",
-      "author": "Dorothy L. Sayers",
-      "category": "Literature"
-    },
-    {
-      "title": "Commentaries on the Gallic War",
-      "author": "Julius Caesar",
-      "category": "History"
-    },
-    {
-      "title": "Confessions of an English Opium-Eater",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Conversations with Friends",
-      "author": "Sally Rooney",
-      "category": "Literature"
-    },
-    {
-      "title": "Cornelli",
-      "author": "Johanna Spyri",
-      "category": "Literature"
-    },
-    {
-      "title": "Cory_Doctorow_-_Homeland",
-      "author": "Cory Doctorow",
-      "category": "Literature"
-    },
-    {
-      "title": "Cousin Henry",
-      "author": "Anthony Trollope",
-      "category": "Literature"
-    },
-    {
-      "title": "Critical Mass",
-      "author": "Philip Ball",
-      "category": "Philosophy"
-    },
-    {
-      "title": "Crypto",
-      "author": "Zeke Faux",
-      "category": "Economics"
-    },
-    {
-      "title": "Crypto Dictionary",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Cryptography Engineering: Design Principles and Practical Applications",
-      "author": "Niels Ferguson, Bruce Schneier, Tadayoshi Kohno",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Cup of Gold",
-      "author": "John Steinbeck",
-      "category": "Literature"
-    },
-    {
-      "title": "Cyberjutsu",
-      "author": "Ben McCarty",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Cybersecurity: Attack and Defense Strategies",
-      "author": "Yuri Diogenes, Dr. Erdal Ozkaya",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Daemon",
-      "author": "Ben Counter",
-      "category": "Literature"
-    },
-    {
-      "title": "Dangerous Ages",
-      "author": "Rose Macaulay",
-      "category": "Literature"
-    },
-    {
-      "title": "Dangerous Liaisons",
-      "author": "Pierre Choderlos de Laclos",
-      "category": "Literature"
-    },
-    {
-      "title": "Darby O'Gill and the Good People",
-      "author": "Herminie T. Kavanagh",
-      "category": "Literature"
-    },
-    {
-      "title": "Dark Psychology",
-      "author": "Amy Brown",
-      "category": "Literature"
-    },
-    {
-      "title": "Darkwater",
-      "author": "W. E. B. Du Bois",
-      "category": "Science"
-    },
-    {
-      "title": "Data Science at the Command Line",
-      "author": "Jeroen Janssens",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Data Visualization with Python and JavaScript",
-      "author": "Kyran Dale",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Daughter of the Moon Goddess",
-      "author": "Sue Lynn Tan",
-      "category": "Literature"
-    },
-    {
-      "title": "David Harum",
-      "author": "Edward Noyes Westcott",
-      "category": "Literature"
-    },
-    {
-      "title": "Dead Drop",
-      "author": "Ross05/ McKenrick",
-      "category": "Literature"
-    },
-    {
-      "title": "Decline and Fall",
-      "author": "Evelyn Waugh",
-      "category": "Literature"
-    },
-    {
-      "title": "Delta-v",
-      "author": "Daniel Suarez",
-      "category": "Literature"
-    },
-    {
-      "title": "Democracy",
-      "author": "Alexis de Tocqueville",
-      "category": "Literature"
-    },
-    {
-      "title": "Democracy and Education",
-      "author": "John Dewey",
-      "category": "Literature"
-    },
-    {
-      "title": "Democracy and Social Ethics",
-      "author": "Jane Addams",
-      "category": "Philosophy"
-    },
-    {
-      "title": "Design Sprint: A Practical Guidebook for Building Great Digital Products",
-      "author": "Richard Banfield, C. Todd Lombardo, Trace Wax",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Designing Across Senses",
-      "author": "Christine W. Park, John Alderman",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Designing BSD Rootkits",
-      "author": "Joseph Kong",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Designing Bots: Creating Conversational Experiences",
-      "author": "Amir Shevat",
-      "category": "Economics"
-    },
-    {
-      "title": "Designing Products People Love: How Great Designers Create Successful Products",
-      "author": "Scott Hurff",
-      "category": "Literature"
-    },
-    {
-      "title": "Designing Voice User Interfaces: Principles of Conversational Experiences",
-      "author": "Cathy Pearl",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Designing Web APIs",
-      "author": "Unknown",
-      "category": "Literature"
-    },
-    {
-      "title": "Designing with Data",
-      "author": "Rochelle King, Elizabeth F Churchill, Caitlin Tan",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Detective Comics (1937-2011) #27",
-      "author": "Bill Finger",
-      "category": "Mystery"
-    },
-    {
-      "title": "Dialogues",
-      "author": "Walter Savage Landor",
-      "category": "Literature"
-    },
-    {
-      "title": "Dick Sands, the Boy Captain",
-      "author": "Jules Verne",
-      "category": "Literature"
-    },
-    {
-      "title": "Digital Forensics and Incident Response",
-      "author": "Gerard Johansen",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Disenchantment",
-      "author": "Jason A. Josephson-Storm",
-      "category": "Literature"
-    },
-    {
-      "title": "Diverging Roads",
-      "author": "Rose Wilder Lane",
-      "category": "History"
-    },
-    {
-      "title": "Doctor Syn",
-      "author": "Russell Thorndike",
-      "category": "Literature"
-    },
-    {
-      "title": "Dodsworth",
-      "author": "Sinclair Lewis",
-      "category": "Literature"
-    },
-    {
-      "title": "Doing Data Science",
-      "author": "Rachel Schutt, Cathy O'Neil",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Doing Math with Python",
-      "author": "Amit Saha",
-      "category": "Computer Science"
-    },
-    {
-      "title": "Domnei",
-      "author": "James Branch Cabell",
-      "category": "Literature"
-    },
-    {
-      "title": "Dorothy and the Wizard in Oz",
+      "title": "The Marvelous Land of Oz",
       "author": "L. Frank Baum",
       "category": "Literature"
     },
     {
-      "title": "Down and Out in the Magic Kingdom",
-      "author": "Unknown",
-      "category": "Fantasy"
+      "title": "The Masqueraders",
+      "author": "Georgette Heyer",
+      "category": "Literature"
     },
     {
-      "title": "Downstream",
-      "author": "National Research Council, Division on Earth and Life Studies, Commission on Geosciences, Environment and Resources, Committee on Grand Canyon Monitoring and Research",
+      "title": "The Master of Ballantrae",
+      "author": "Robert Louis Stevenson",
+      "category": "Literature"
+    },
+    {
+      "title": "The Melody of Death",
+      "author": "Edgar Wallace",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mercy of Allah",
+      "author": "Hilaire Belloc",
+      "category": "Economics"
+    },
+    {
+      "title": "The Messy Alphabet Book",
+      "author": "Sesame Workshop",
+      "category": "Literature"
+    },
+    {
+      "title": "The Middle Five",
+      "author": "Francis La Flesche",
+      "category": "Literature"
+    },
+    {
+      "title": "The Middle Temple Murder",
+      "author": "Joseph Smith Fletcher",
+      "category": "Literature"
+    },
+    {
+      "title": "The Middle of Things",
+      "author": "J.S. Fletcher",
+      "category": "Literature"
+    },
+    {
+      "title": "The Midnight Guest",
+      "author": "Fred Merrick White",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mind of Mr. J. G",
+      "author": "Edgar Wallace",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mirror of the Sea",
+      "author": "Joseph Conrad",
+      "category": "Literature"
+    },
+    {
+      "title": "The Missing Chums",
+      "author": "Franklin W. Dixon",
+      "category": "Literature"
+    },
+    {
+      "title": "The Monk",
+      "author": "Matthew Lewis",
+      "category": "Literature"
+    },
+    {
+      "title": "The Monster",
+      "author": "Edgar Saltus",
+      "category": "Literature"
+    },
+    {
+      "title": "The Moon and Sixpence",
+      "author": "W. Somerset Maugham",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mother",
+      "author": "Grazia Deledda",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mucker",
+      "author": "Edgar Rice Burroughs",
+      "category": "Literature"
+    },
+    {
+      "title": "The Murder on the Links",
+      "author": "Agatha Christie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mysteries of Udolpho",
+      "author": "Ann Radcliffe",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mysterious Affair at Styles",
+      "author": "Agatha Christie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mystery of Cabin Island",
+      "author": "Franklin W. Dixon",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mystery of Orcival",
+      "author": "Emile Gaboriau",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mystery of a Hansom Cab",
+      "author": "F.W. Hume",
+      "category": "History"
+    },
+    {
+      "title": "The Mystery of the Blue Train",
+      "author": "Agatha Christie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Mystery of the Yellow Room",
+      "author": "Gaston LeRoux",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Napoleon of Notting Hill",
+      "author": "Gilbert Keith Chesterton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Narrative of Arthur Gordon Pym of Nantucket",
+      "author": "Edgar Allan Poe",
+      "category": "Literature"
+    },
+    {
+      "title": "The National Being",
+      "author": "George William Russell",
+      "category": "Literature"
+    },
+    {
+      "title": "The Nebuly Coat",
+      "author": "J. Meade Falkner",
+      "category": "Literature"
+    },
+    {
+      "title": "The New 52: Futures End FCBD Special Edition #0",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The New State",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Nibelungenlied",
+      "author": "Edward Haymes",
+      "category": "History"
+    },
+    {
+      "title": "The Old Curiosity Shop",
+      "author": "Charles Dickens",
+      "category": "Literature"
+    },
+    {
+      "title": "The Old Man in the Corner",
+      "author": "Emmuska Orczy",
+      "category": "Literature"
+    },
+    {
+      "title": "The Old Wives' Tale",
+      "author": "Arnold Bennett",
+      "category": "Literature"
+    },
+    {
+      "title": "The Oresteia of Aeschylus",
+      "author": "Aeschylus",
+      "category": "Literature"
+    },
+    {
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "category": "Literature"
+    },
+    {
+      "title": "The Path to Rome",
+      "author": "Hilaire Belloc",
+      "category": "History"
+    },
+    {
+      "title": "The Perpetual Curate",
+      "author": "Margaret Oliphant",
+      "category": "Literature"
+    },
+    {
+      "title": "The Phantom of the Opera",
+      "author": "Gaston Leroux",
+      "category": "Literature"
+    },
+    {
+      "title": "The Phoenix and the Carpet",
+      "author": "E. Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "The Pickwick Papers",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "category": "Literature"
+    },
+    {
+      "title": "The Pilgrim Kamanita",
+      "author": "Karl Gjellerup",
+      "category": "Literature"
+    },
+    {
+      "title": "The Pit-Prop Syndicate",
+      "author": "Freeman Wills Crofts",
+      "category": "Literature"
+    },
+    {
+      "title": "The Plastic Age",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Poisoned Chocolates Case",
+      "author": "Anthony Berkeley",
+      "category": "Literature"
+    },
+    {
+      "title": "The Portrait of a Lady",
+      "author": "Henry James",
+      "category": "Literature"
+    },
+    {
+      "title": "The Pothunters",
+      "author": "Pelham Grenville Wodehouse",
+      "category": "Literature"
+    },
+    {
+      "title": "The Practice and Theory of Bolshevism",
+      "author": "Bertrand Russell",
+      "category": "History"
+    },
+    {
+      "title": "The Prime Minister",
+      "author": "Anthony Trollope",
+      "category": "Literature"
+    },
+    {
+      "title": "The Prince and the Pauper",
+      "author": "Mark Twain",
+      "category": "Literature"
+    },
+    {
+      "title": "The Princess and the Goblin",
+      "author": "George MacDonald",
+      "category": "Literature"
+    },
+    {
+      "title": "The Prisoner of Zenda",
+      "author": "Anthony Hope",
+      "category": "Literature"
+    },
+    {
+      "title": "The Private Memoirs and Confessions of a Justified Sinner",
+      "author": "James Hogg",
+      "category": "Literature"
+    },
+    {
+      "title": "The Private Papers of Henry Ryecroft",
+      "author": "George George Gissing",
+      "category": "Literature"
+    },
+    {
+      "title": "The Public and Its Problems",
+      "author": "John Dewey",
+      "category": "Philosophy"
+    },
+    {
+      "title": "The Purple Land",
+      "author": "W. Hudson",
+      "category": "Literature"
+    },
+    {
+      "title": "The Railway Children",
+      "author": "E. Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "The Rapture of the Nerds",
+      "author": "Cory Doctorow, Charles Stross",
+      "category": "Literature"
+    },
+    {
+      "title": "The Rector and The Doctor's Family",
+      "author": "Mrs. Oliphant (Margaret)",
+      "category": "Literature"
+    },
+    {
+      "title": "The Red Badge of Courage",
+      "author": "Stephen Crane",
+      "category": "Literature"
+    },
+    {
+      "title": "The Red House Mystery",
+      "author": "A.A. Milne",
+      "category": "Literature"
+    },
+    {
+      "title": "The Red Room",
+      "author": "H. G. Wells",
+      "category": "Literature"
+    },
+    {
+      "title": "The Religion of Nature Delineated",
+      "author": "William Wollaston",
+      "category": "Literature"
+    },
+    {
+      "title": "The Return",
+      "author": "Canada. Parliament. House of Commons",
+      "category": "Literature"
+    },
+    {
+      "title": "The Return of Tarzan",
+      "author": "Edgar Rice Burroughs",
+      "category": "Literature"
+    },
+    {
+      "title": "The Revolution in Tanner's Lane",
+      "author": "Mark Rutherford",
+      "category": "Literature"
+    },
+    {
+      "title": "The Riddle of the Sands",
+      "author": "Erskine Childers",
+      "category": "Literature"
+    },
+    {
+      "title": "The Rise of Silas Lapham",
+      "author": "William Dean Howells",
+      "category": "Literature"
+    },
+    {
+      "title": "The Rough Riders",
+      "author": "Theodore Roosevelt",
+      "category": "History"
+    },
+    {
+      "title": "The Rubáiyát of Omar Khayyám",
+      "author": "Unknown",
+      "category": "Poetry"
+    },
+    {
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne, Halsted Welles",
+      "category": "Drama"
+    },
+    {
+      "title": "The Scarlet Pimpernel",
+      "author": "Baroness Orczy",
+      "category": "Literature"
+    },
+    {
+      "title": "The School for Scandal",
+      "author": "Richard B. Sheridan",
+      "category": "Literature"
+    },
+    {
+      "title": "The Sea Hawk",
+      "author": "Rafael Sabatini",
+      "category": "Literature"
+    },
+    {
+      "title": "The Sea Mystery",
+      "author": "Freeman Wills Crofts",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Sea-Wolf",
+      "author": "Jack London",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret Adversary",
+      "author": "Agatha Christie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret City",
+      "author": "Chuck Kelly",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret Garden Complete Text",
+      "author": "Frances Hodgson Burnett",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret Glory",
+      "author": "Arthur Machen",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret House",
+      "author": "David Bodanis",
       "category": "Science"
     },
     {
-      "title": "Early Autumn",
-      "author": "Louis Bromfield",
+      "title": "The Secret Tomb",
+      "author": "Maurice le Blanc",
       "category": "Literature"
     },
     {
-      "title": "Eastern Standard Tribe",
-      "author": "Cory Doctorow",
+      "title": "The Secret of Chimneys",
+      "author": "AGATHA CHRISTIE",
       "category": "Literature"
     },
     {
-      "title": "El Dorado",
+      "title": "The Secret of Father Brown",
+      "author": "Gilbert Keith Chesterton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret of Sarek",
+      "author": "Maurice Leblanc",
+      "category": "Literature"
+    },
+    {
+      "title": "The Secret of the Caves",
+      "author": "Franklin W. Dixon",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Secret of the Old Mill",
+      "author": "Enid Blyton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Sense of Style",
+      "author": "Steven Pinker",
+      "category": "Literature"
+    },
+    {
+      "title": "The Seven Dials Mystery",
+      "author": "Agatha Christie",
+      "category": "Literature"
+    },
+    {
+      "title": "The Shaving of Shagpat",
+      "author": "George Meredith",
+      "category": "Literature"
+    },
+    {
+      "title": "The Shellcoder's Handbook, Second Edition: Discovering and Exploiting Security Holes",
+      "author": "Chris Anley, John Heasman, Felix Lindner, Gerardo Richarte",
+      "category": "Computer Science"
+    },
+    {
+      "title": "The Shore Road Mystery",
+      "author": "Franklin W. Dixon",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Sign of the Four",
+      "author": "Arthur Conan Doyle",
+      "category": "Drama"
+    },
+    {
+      "title": "The Sketchbook of Geoffrey Crayon, Gent",
+      "author": "Washington Irving",
+      "category": "Literature"
+    },
+    {
+      "title": "The Slaves of Paris",
+      "author": "Émile Gaboriau",
+      "category": "Literature"
+    },
+    {
+      "title": "The Small House at Allington",
+      "author": "Anthony Trollope",
+      "category": "Literature"
+    },
+    {
+      "title": "The Son of Tarzan",
+      "author": "Edgar Rice Burroughs",
+      "category": "Literature"
+    },
+    {
+      "title": "The Son of the Wolf",
+      "author": "Jack London",
+      "category": "Literature"
+    },
+    {
+      "title": "The Song of the Lark",
+      "author": "Willa Willa Cather",
+      "category": "Literature"
+    },
+    {
+      "title": "The Special Correspondent",
+      "author": "Dilīpa Avasthī",
+      "category": "Literature"
+    },
+    {
+      "title": "The Splendid Fairing",
+      "author": "Constance Holme",
+      "category": "Literature"
+    },
+    {
+      "title": "The Splendid Spur",
+      "author": "T. Quiller Art Couch",
+      "category": "Literature"
+    },
+    {
+      "title": "The Sport of the Gods",
+      "author": "Paul Laurence Dunbar",
+      "category": "Literature"
+    },
+    {
+      "title": "The Square Emerald",
+      "author": "Edgar Wallace",
+      "category": "Literature"
+    },
+    {
+      "title": "The Starvel Hollow Tragedy",
+      "author": "Freeman Wills Crofts",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of Gösta Berling",
+      "author": "Selma Lagerlöf",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of Ivy",
+      "author": "Marie Belloc Lowndes",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of My Experiments with Truth",
+      "author": "Mahatma Gandhi",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of My Life",
+      "author": "James Marion Sims",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of Utopias",
+      "author": "Lewis Mumford",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of the Amulet",
+      "author": "Edith Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "The Story of the Treasure Seekers",
+      "author": "E. Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "The Surprising Adventures of Baron Munchausen",
       "author": "Unknown",
       "category": "Literature"
     },
     {
-      "title": "El Filibusterismo",
-      "author": "José Rizal",
+      "title": "The Survivors of the Chancellor",
+      "author": "Jules Verne",
       "category": "Literature"
     },
     {
-      "title": "Elizabeth and Her German Garden",
-      "author": "Elisabeth von Arnim",
+      "title": "The Swiss Family Robinson",
+      "author": "Johann D. Wyss",
       "category": "Literature"
     },
     {
-      "title": "Embedded Firmware Solutions",
-      "author": "Vincent Zimmer, Jiming Sun, Marc Jones, Stefan Reinauer",
+      "title": "The Talleyrand Maxim",
+      "author": "J. S. Fletcher",
+      "category": "Literature"
+    },
+    {
+      "title": "The Tangled Web",
+      "author": "Tracy Sinclair",
+      "category": "Literature"
+    },
+    {
+      "title": "The Teeth of the Tiger",
+      "author": "Tom Clancy",
+      "category": "Literature"
+    },
+    {
+      "title": "The Thirty-Nine Steps",
+      "author": "John Buchan",
+      "category": "Literature"
+    },
+    {
+      "title": "The Three Hostages",
+      "author": "John Buchan",
+      "category": "Literature"
+    },
+    {
+      "title": "The Three Impostors",
+      "author": "Arthur Machen",
+      "category": "Literature"
+    },
+    {
+      "title": "The Three Just Men",
+      "author": "Edgar Wallace",
+      "category": "Literature"
+    },
+    {
+      "title": "The Three Taps",
+      "author": "Ronald Knox",
+      "category": "Literature"
+    },
+    {
+      "title": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "category": "Literature"
+    },
+    {
+      "title": "The Titan",
+      "author": "Theodore Dreiser",
+      "category": "Literature"
+    },
+    {
+      "title": "The Tour",
+      "author": "David Ely",
+      "category": "Literature"
+    },
+    {
+      "title": "The Tower Treasure",
+      "author": "Franklin W. Dixon",
+      "category": "Literature"
+    },
+    {
+      "title": "The Transformation of Philip Jettan",
+      "author": "Georgette Heyer",
+      "category": "Literature"
+    },
+    {
+      "title": "The Triumph of the Scarlet Pimpernel",
+      "author": "Emmuska Orczy",
+      "category": "Literature"
+    },
+    {
+      "title": "The Truth About Tristrem Varick",
+      "author": "Edgar Saltus",
+      "category": "Literature"
+    },
+    {
+      "title": "The Tunnel",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Turing Exception",
+      "author": "William Hertling",
+      "category": "Literature"
+    },
+    {
+      "title": "The Turmoil",
+      "author": "Booth Tarkington",
+      "category": "Literature"
+    },
+    {
+      "title": "The Turn of the Screw",
+      "author": "Henry James",
+      "category": "Literature"
+    },
+    {
+      "title": "The Ultimate Guide to Beer Cocktails",
+      "author": "Jon Yeager, Lindsay Yeager",
+      "category": "Literature"
+    },
+    {
+      "title": "The Uncalled",
+      "author": "Paul Laurence Dunbar",
+      "category": "Literature"
+    },
+    {
+      "title": "The Unpleasantness at the Bellona Club",
+      "author": "Dorothy L. Sayers",
+      "category": "Literature"
+    },
+    {
+      "title": "The Valley of Fear",
+      "author": "Sir Arthur Conan Doyle",
+      "category": "Literature"
+    },
+    {
+      "title": "The Viaduct Murder",
+      "author": "Ronald A. Knox",
+      "category": "Literature"
+    },
+    {
+      "title": "The Vicar of Wakefield",
+      "author": "Oliver Goldsmith",
+      "category": "Literature"
+    },
+    {
+      "title": "The Vicomte de Bragelonne",
+      "author": "Alexandre Dumas",
+      "category": "Literature"
+    },
+    {
+      "title": "The Virginian",
+      "author": "Owen Wister",
+      "category": "Literature"
+    },
+    {
+      "title": "The Vital Abyss",
+      "author": "James S. A. Corey",
+      "category": "Literature"
+    },
+    {
+      "title": "The Voyage Out",
+      "author": "Virginia Woolf",
+      "category": "Literature"
+    },
+    {
+      "title": "The Voyages of Doctor Dolittle",
+      "author": "Hugh Lofting",
+      "category": "Literature"
+    },
+    {
+      "title": "The Warden",
+      "author": "Kevin Hardman",
+      "category": "Literature"
+    },
+    {
+      "title": "The Warlord of Mars",
+      "author": "Edgar Rice Burroughs",
+      "category": "History"
+    },
+    {
+      "title": "The Water of the Wondrous Isles",
+      "author": "William Morris",
+      "category": "Literature"
+    },
+    {
+      "title": "The Water-Babies",
+      "author": "Charles Kingsley",
+      "category": "Literature"
+    },
+    {
+      "title": "The Way of All Flesh",
+      "author": "Samuel Butler",
+      "category": "Literature"
+    },
+    {
+      "title": "The Way of the World",
+      "author": "Alphonsus Joseph-Mary Augustus Montague SUMMERS",
+      "category": "Literature"
+    },
+    {
+      "title": "The Well at the World's End",
+      "author": "William Morris",
+      "category": "Literature"
+    },
+    {
+      "title": "The Well of Loneliness",
+      "author": "Radclyffe Hall",
+      "category": "Literature"
+    },
+    {
+      "title": "The White Feather",
+      "author": "Andrew Wharton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wind in the Willows",
+      "author": "Kenneth Grahame",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wings of the Dove",
+      "author": "Henry James",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wisdom of Father Brown",
+      "author": "Gilbert Keith Chesterton",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wonderful Adventures of Nils",
+      "author": "Selma Lagerlöf",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wonderful Visit",
+      "author": "H. G. Wells",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wonderful Wizard of Oz",
+      "author": "L. Frank Baum",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wood Beyond the World",
+      "author": "William Morris",
+      "category": "Literature"
+    },
+    {
+      "title": "The Woodlanders",
+      "author": "Thomas Hardy",
+      "category": "Literature"
+    },
+    {
+      "title": "The Worst Journey in the World",
+      "author": "Apsley Cherry-Garrard",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wrong Letter",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "The Wyvern Mystery",
+      "author": "J. Sheridan Le Fanu",
+      "category": "Literature"
+    },
+    {
+      "title": "The X-Files: Season 10 #1",
+      "author": "Joe Harris",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Young Visiters",
+      "author": "Daisy Ashford",
+      "category": "Literature"
+    },
+    {
+      "title": "Theodore Savage",
+      "author": "Hamilton Cicely",
+      "category": "Literature"
+    },
+    {
+      "title": "These Old Shades",
+      "author": "Georgette Heyer",
+      "category": "Literature"
+    },
+    {
+      "title": "They're Not Like Us #1",
+      "author": "Eric Stephenson",
+      "category": "Literature"
+    },
+    {
+      "title": "Thieves' World® Volume One",
+      "author": "Robert Lynn Asprin, Lynn Abbey",
+      "category": "Literature"
+    },
+    {
+      "title": "Thieves' World® Volume Two",
+      "author": "Robert Lynn Asprin, Lynn Abbey",
+      "category": "Literature"
+    },
+    {
+      "title": "Think Bayes",
+      "author": "Allen B. Downey",
       "category": "Computer Science"
     },
     {
-      "title": "Emily of New Moon",
-      "author": "L M Montgomery",
-      "category": "Literature"
-    },
-    {
-      "title": "Eminent Victorians",
-      "author": "Lytton Strachey",
-      "category": "Literature"
-    },
-    {
-      "title": "Emotionally Intelligent Design",
-      "author": "Pamela Pavliscak",
+      "title": "Think Like a Programmer",
+      "author": "V. Anton Spraul",
       "category": "Computer Science"
     },
     {
-      "title": "Ender in Exile",
+      "title": "Think Stats",
+      "author": "Allen Downey",
+      "category": "Literature"
+    },
+    {
+      "title": "Think Tank #1",
+      "author": "Matt Hawkins",
+      "category": "Literature"
+    },
+    {
+      "title": "Those Barren Leaves",
+      "author": "Aldous Huxley",
+      "category": "Literature"
+    },
+    {
+      "title": "Three Lives",
+      "author": "Debbie Denise",
+      "category": "Literature"
+    },
+    {
+      "title": "Three Men in a Boat",
+      "author": "Jerome K. Jerome",
+      "category": "Literature"
+    },
+    {
+      "title": "Through the Brazilian Wilderness",
+      "author": "Theodore Roosevelt",
+      "category": "Literature"
+    },
+    {
+      "title": "Through the Looking-Glass",
+      "author": "Lewis Carroll",
+      "category": "Literature"
+    },
+    {
+      "title": "Thuvia, Maid of Mars",
+      "author": "Edgar Rice Burroughs",
+      "category": "Literature"
+    },
+    {
+      "title": "Tiamat's Wrath",
+      "author": "James S. A. Corey",
+      "category": "Literature"
+    },
+    {
+      "title": "Ticket No",
+      "author": "Jules Verne",
+      "category": "Literature"
+    },
+    {
+      "title": "Tiffany Aching Complete 5-Book Collection",
+      "author": "Terry Pratchett",
+      "category": "Literature"
+    },
+    {
+      "title": "Time Series Databases",
+      "author": "Ted Dunning. Ellen Friedman",
+      "category": "Literature"
+    },
+    {
+      "title": "To Build a Fire",
+      "author": "Jack London",
+      "category": "Literature"
+    },
+    {
+      "title": "Tom Brown's School Days",
+      "author": "Thomas Hughes",
+      "category": "Literature"
+    },
+    {
+      "title": "Tombstone",
+      "author": "John Farkis",
+      "category": "Literature"
+    },
+    {
+      "title": "Tono-Bungay",
+      "author": "H. G. Wells",
+      "category": "Literature"
+    },
+    {
+      "title": "TouchDevelop",
+      "author": "R. Nigel Horspool, Nikolai Tillmann",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Tracks in the Snow",
+      "author": "Wong Herbert Yee",
+      "category": "Literature"
+    },
+    {
+      "title": "Trafalgar",
+      "author": "Roy Adkins",
+      "category": "History"
+    },
+    {
+      "title": "Tragic Design: The Impact of Bad Product Design and How to Fix It",
+      "author": "Jonathan Shariat, Cynthia Savard Saucier",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Transformers: Robots in Disguise #1",
+      "author": "John Barber",
+      "category": "Literature"
+    },
+    {
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "category": "Literature"
+    },
+    {
+      "title": "Trent's Last Case",
+      "author": "E. C. Bentley",
+      "category": "Literature"
+    },
+    {
+      "title": "Trilby",
+      "author": "George Du Maurier",
+      "category": "Literature"
+    },
+    {
+      "title": "Turned (Book #1 in the Vampire Journals)",
+      "author": "Morgan Rice",
+      "category": "Literature"
+    },
+    {
+      "title": "Tusculan Disputations",
+      "author": "Marcus Tullius Cicero",
+      "category": "Literature"
+    },
+    {
+      "title": "Twelve Years a Slave",
+      "author": "Solomon Northup",
+      "category": "Literature"
+    },
+    {
+      "title": "Twenty Years at Hull House",
+      "author": "Jane Addams",
+      "category": "Literature"
+    },
+    {
+      "title": "Typee",
+      "author": "Melville H.",
+      "category": "Literature"
+    },
+    {
+      "title": "Ukridge Stories",
+      "author": "Pelham Grenville Wodehouse",
+      "category": "Literature"
+    },
+    {
+      "title": "Unauthorised Access",
+      "author": "Wil Allsopp",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Uncle Silas",
+      "author": "Sheridan Le Fanu",
+      "category": "Literature"
+    },
+    {
+      "title": "Uncle Tom's Cabin",
+      "author": "Harriet Beecher Stowe",
+      "category": "Literature"
+    },
+    {
+      "title": "Under The Light of a Full Moon",
+      "author": "D.A. McGrath",
+      "category": "Literature"
+    },
+    {
+      "title": "Understanding Industrial Design: Principles for UX and Interaction Design",
+      "author": "Simon King, Kuen Chang",
+      "category": "Literature"
+    },
+    {
+      "title": "Understood Betsy",
+      "author": "Dorothy Canfield Fisher",
+      "category": "Literature"
+    },
+    {
+      "title": "Uneasy Money",
+      "author": "P. G. Wodehouse",
+      "category": "Literature"
+    },
+    {
+      "title": "Unnatural Death",
+      "author": "Dorothy L. Sayers",
+      "category": "Literature"
+    },
+    {
+      "title": "Unspoken Sermons",
+      "author": "George MacDonald",
+      "category": "Literature"
+    },
+    {
+      "title": "Unto This Last",
+      "author": "John Ruskin",
+      "category": "Philosophy"
+    },
+    {
+      "title": "Up from Slavery",
+      "author": "Booker T. Washington",
+      "category": "Literature"
+    },
+    {
+      "title": "Upgrade",
+      "author": "Tommy Rosen",
+      "category": "Literature"
+    },
+    {
+      "title": "Ursule Mirouët",
+      "author": "Clara Bell, Honore De Balzac",
+      "category": "History"
+    },
+    {
+      "title": "Using SVG with CSS3 and HTML5",
+      "author": "Amelia Bellamy-Royds, Kurt Cagle, Dudley Storey",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Vathek",
+      "author": "William Beckford",
+      "category": "Literature"
+    },
+    {
+      "title": "Velvet #1",
+      "author": "Stefano Mazzotti, Vincenzo Silvestroni",
+      "category": "Literature"
+    },
+    {
+      "title": "Verses on Various Occasions",
+      "author": "Anonymous",
+      "category": "History"
+    },
+    {
+      "title": "Vigilant",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "Vikram and the Vampire",
+      "author": "Richard F. Burton",
+      "category": "Literature"
+    },
+    {
+      "title": "Vue",
+      "author": "Ajdin Imsirovic",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Washington Square",
+      "author": "Luther S. Harris",
+      "category": "History"
+    },
+    {
+      "title": "Web Penetration Testing with Kali Linux - Third Edition",
+      "author": "Gilberto Najera-Gutierrez, Juned Ahmed Ansari",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Wet Magic",
+      "author": "Edith Nesbit",
+      "category": "Literature"
+    },
+    {
+      "title": "What's Wrong with the World",
+      "author": "G. K. Chesterton",
+      "category": "Literature"
+    },
+    {
+      "title": "When God Laughs",
+      "author": "Jack London",
+      "category": "Literature"
+    },
+    {
+      "title": "When the World Shook",
+      "author": "H. Rider Haggard",
+      "category": "Literature"
+    },
+    {
+      "title": "Where Angels Fear to Tread",
+      "author": "E. M. Forster",
+      "category": "Literature"
+    },
+    {
+      "title": "White Fang",
+      "author": "Jack London",
+      "category": "Literature"
+    },
+    {
+      "title": "Whose Body?",
+      "author": "Dorothy Leigh Sayers",
+      "category": "Literature"
+    },
+    {
+      "title": "Wicked Cool Shell Scripts",
+      "author": "Dave Taylor, Brandon Perry",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Wielding a Red Sword",
+      "author": "Piers Anthony",
+      "category": "Literature"
+    },
+    {
+      "title": "William—An Englishman",
+      "author": "Cicely Hamilton",
+      "category": "Literature"
+    },
+    {
+      "title": "Windows Internals, Part 1: System architecture, processes, threads, memory management, and more, Seventh Edition (William Zujkowski's Library)",
+      "author": "Unknown",
+      "category": "Computer Science"
+    },
+    {
+      "title": "Winesburg, Ohio",
+      "author": "Sherwood Anderson",
+      "category": "Literature"
+    },
+    {
+      "title": "Winnie-the-Pooh",
+      "author": "A. A. Milne",
+      "category": "Literature"
+    },
+    {
+      "title": "Wired Love",
+      "author": "Ella Cheever Thayer",
+      "category": "Literature"
+    },
+    {
+      "title": "With Fire and Sword",
+      "author": "Henryk Sienkiewicz",
+      "category": "Literature"
+    },
+    {
+      "title": "With a Tangled Skein",
+      "author": "Piers Anthony",
+      "category": "Literature"
+    },
+    {
+      "title": "Women and Economics",
+      "author": "Charlotte Perkins Gilman",
+      "category": "Science"
+    },
+    {
+      "title": "Wonderful Adventures of Mrs",
+      "author": "Mary Seacole",
+      "category": "Literature"
+    },
+    {
+      "title": "Wool",
+      "author": "Hugh Howey",
+      "category": "Literature"
+    },
+    {
+      "title": "World's End",
+      "author": "Edmond Hamilton",
+      "category": "Literature"
+    },
+    {
+      "title": "Xenocide",
       "author": "Orson Scott Card",
       "category": "Literature"
     },
     {
-      "title": "Ender's Game",
+      "title": "Yama",
+      "author": "Aleksandr Ivanovich Kuprin",
+      "category": "Literature"
+    },
+    {
+      "title": "Yashka",
+      "author": "Marii︠a︡ Bochkareva",
+      "category": "Literature"
+    },
+    {
+      "title": "You Can't Win",
+      "author": "Jack Black",
+      "category": "Literature"
+    },
+    {
+      "title": "You Don't Know JS: ES6 &amp; Beyond",
+      "author": "Kyle Simpson",
+      "category": "Computer Science"
+    },
+    {
+      "title": "You Don't Know JS: Up & Going",
+      "author": "Kyle Simpson",
+      "category": "Computer Science"
+    },
+    {
+      "title": "You Never Can Tell",
+      "author": "Bernard Shaw",
+      "category": "Drama"
+    },
+    {
+      "title": "Zaphod Beeblebrox's Brain and the 59th row of Pascal's Triangle",
       "author": "Unknown",
       "category": "Literature"
     },
     {
-      "title": "English as She Is Spoke",
-      "author": "Jose de Fonseca, Pedro Carolino",
+      "title": "Zuleika Dobson",
+      "author": "Sir Max Beerbohm",
       "category": "Literature"
     },
     {
-      "title": "Equal Rites",
-      "author": "Terry Pratchett",
+      "title": "Zuni Folktales",
+      "author": "Frank Cushing",
+      "category": "Literature"
+    },
+    {
+      "title": "aumf_02112015",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "iOS Application Security",
+      "author": "David Thiel",
+      "category": "Computer Science"
+    },
+    {
+      "title": "jules-verne_topsy-turvy",
+      "author": "Unknown",
+      "category": "Literature"
+    },
+    {
+      "title": "sinclair-lewis_arrowsmith_advanced",
+      "author": "Unknown",
       "category": "Literature"
     }
   ],
@@ -1066,86 +1556,75 @@
   ],
   "errors": [
     {
-      "title": "1001 Arabian Nights",
+      "title": "The Lives and Opinions of Eminent Philosophers",
       "reason": "no author"
     },
     {
-      "title": "Betty Zane",
+      "title": "The Man Within",
       "reason": "no author"
     },
     {
-      "title": "Black Hat Python: Python Programming for Hackers and Pentesters",
+      "title": "The New 52: Futures End FCBD Special Edition #0",
       "reason": "no author"
     },
     {
-      "title": "Building Products for the Enterprise",
+      "title": "The New State",
       "reason": "no author"
     },
     {
-      "title": "Bulfinch's Mythology",
+      "title": "The Pickwick Papers",
       "reason": "no author"
     },
     {
-      "title": "CEH™ Certified Ethical Hacker",
+      "title": "The Plastic Age",
       "reason": "no author"
     },
     {
-      "title": "Call Mr",
+      "title": "The Rubáiyát of Omar Khayyám",
       "reason": "no author"
     },
     {
-      "title": "Castle Rackrent",
+      "title": "The Surprising Adventures of Baron Munchausen",
       "reason": "no author"
     },
     {
-      "title": "Catching Fire (Hunger Games, Book Two)",
+      "title": "The Tunnel",
       "reason": "no author"
     },
     {
-      "title": "Cherbin",
+      "title": "The Wrong Letter",
       "reason": "no author"
     },
     {
-      "title": "Chrome Yellow",
+      "title": "Vigilant",
       "reason": "no author"
     },
     {
-      "title": "Confessions of an English Opium-Eater",
+      "title": "Windows Internals, Part 1: System architecture, processes, threads, memory management, and more, Seventh Edition (William Zujkowski's Library)",
       "reason": "no author"
     },
     {
-      "title": "Crypto Dictionary",
+      "title": "Zaphod Beeblebrox's Brain and the 59th row of Pascal's Triangle",
       "reason": "no author"
     },
     {
-      "title": "Designing Web APIs",
+      "title": "aumf_02112015",
       "reason": "no author"
     },
     {
-      "title": "Down and Out in the Magic Kingdom",
+      "title": "jules-verne_topsy-turvy",
       "reason": "no author"
     },
     {
-      "title": "El Dorado",
-      "reason": "no author"
-    },
-    {
-      "title": "Ender's Game",
+      "title": "sinclair-lewis_arrowsmith_advanced",
       "reason": "no author"
     }
   ],
   "skipped": [
-    "Betty Zane",
-    "Black Hat Python: Python Programming for Hackers and Pentesters",
-    "Bulfinch's Mythology",
-    "Castle Rackrent",
-    "Catching Fire (Hunger Games, Book Two)",
-    "Cherbin",
-    "Chrome Yellow",
-    "Confessions of an English Opium-Eater",
-    "Crypto Dictionary",
-    "Down and Out in the Magic Kingdom",
-    "El Dorado",
-    "Ender's Game"
+    "The Pickwick Papers",
+    "Zaphod Beeblebrox's Brain and the 59th row of Pascal's Triangle",
+    "aumf_02112015",
+    "jules-verne_topsy-turvy",
+    "sinclair-lewis_arrowsmith_advanced"
   ]
 }

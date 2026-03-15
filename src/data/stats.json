@@ -1,32 +1,44 @@
 {
-  "total_books": 2526,
+  "total_books": 3524,
   "total_categories": 42,
-  "total_authors": 1038,
+  "total_authors": 1633,
   "priorities": {
     "must_read": 1684,
-    "recommended": 807,
+    "recommended": 1805,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 2499,
-    "covers_pct": 98.9,
-    "descriptions": 2241,
-    "descriptions_pct": 88.7,
-    "isbns": 2018,
-    "isbns_pct": 79.9,
-    "pages": 2197,
-    "pages_pct": 87.0,
-    "years": 2515,
+    "covers": 3343,
+    "covers_pct": 94.9,
+    "descriptions": 2967,
+    "descriptions_pct": 84.2,
+    "isbns": 2663,
+    "isbns_pct": 75.6,
+    "pages": 3072,
+    "pages_pct": 87.2,
+    "years": 3438,
     "subjects": 417
   },
   "top_authors": [
     {
+      "name": "Unknown",
+      "count": 79
+    },
+    {
       "name": "William Shakespeare",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Plato",
       "count": 21
+    },
+    {
+      "name": "Anthony Trollope",
+      "count": 19
+    },
+    {
+      "name": "Edgar Rice Burroughs",
+      "count": 17
     },
     {
       "name": "Isaac Asimov",
@@ -37,7 +49,19 @@
       "count": 15
     },
     {
+      "name": "Jules Verne",
+      "count": 15
+    },
+    {
+      "name": "Charles Dickens",
+      "count": 14
+    },
+    {
       "name": "C.S. Lewis",
+      "count": 14
+    },
+    {
+      "name": "Edgar Wallace",
       "count": 14
     },
     {
@@ -45,7 +69,19 @@
       "count": 14
     },
     {
-      "name": "Charles Dickens",
+      "name": "Agatha Christie",
+      "count": 13
+    },
+    {
+      "name": "Honoré de Balzac",
+      "count": 12
+    },
+    {
+      "name": "Aeschylus",
+      "count": 12
+    },
+    {
+      "name": "Terry Pratchett",
       "count": 12
     },
     {
@@ -53,106 +89,70 @@
       "count": 11
     },
     {
+      "name": "Bertrand Russell",
+      "count": 10
+    },
+    {
       "name": "Roger Zelazny",
       "count": 10
     },
     {
-      "name": "Aeschylus",
+      "name": "Arthur Conan Doyle",
       "count": 10
-    },
-    {
-      "name": "J.R.R. Tolkien",
-      "count": 10
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "count": 10
-    },
-    {
-      "name": "Gene Wolfe",
-      "count": 10
-    },
-    {
-      "name": "Robert A. Heinlein",
-      "count": 10
-    },
-    {
-      "name": "Fyodor Dostoevsky",
-      "count": 10
-    },
-    {
-      "name": "Euripides",
-      "count": 9
-    },
-    {
-      "name": "Cormac McCarthy",
-      "count": 9
-    },
-    {
-      "name": "Stephen King",
-      "count": 9
-    },
-    {
-      "name": "Frank Herbert",
-      "count": 9
-    },
-    {
-      "name": "Iain M. Banks",
-      "count": 9
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 654
+      "count": 1475
     },
     {
       "name": "Philosophy",
-      "count": 294
+      "count": 301
     },
     {
       "name": "Science Fiction",
-      "count": 280
-    },
-    {
-      "name": "Fantasy",
-      "count": 179
-    },
-    {
-      "name": "Poetry",
-      "count": 139
+      "count": 281
     },
     {
       "name": "Computer Science",
-      "count": 108
+      "count": 192
+    },
+    {
+      "name": "Fantasy",
+      "count": 184
+    },
+    {
+      "name": "Poetry",
+      "count": 151
     },
     {
       "name": "Drama",
-      "count": 102
-    },
-    {
-      "name": "Mystery",
-      "count": 63
+      "count": 107
     },
     {
       "name": "History",
-      "count": 59
+      "count": 86
+    },
+    {
+      "name": "Mystery",
+      "count": 71
+    },
+    {
+      "name": "Economics",
+      "count": 63
     },
     {
       "name": "Security",
-      "count": 57
+      "count": 60
     },
     {
       "name": "Horror",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Classics",
       "count": 55
-    },
-    {
-      "name": "Economics",
-      "count": 50
     },
     {
       "name": "Non-Western Literature",
@@ -163,12 +163,12 @@
       "count": 45
     },
     {
-      "name": "Mathematics",
-      "count": 40
+      "name": "Science",
+      "count": 43
     },
     {
-      "name": "Science",
-      "count": 32
+      "name": "Mathematics",
+      "count": 40
     },
     {
       "name": "Literary Criticism",
@@ -272,19 +272,19 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 150,
-    "1800_1899": 196,
-    "1900_1949": 330,
-    "1950_1999": 1050,
-    "2000_plus": 789
+    "before_1800": 154,
+    "1800_1899": 255,
+    "1900_1949": 443,
+    "1950_1999": 1140,
+    "2000_plus": 1446
   },
   "reading_progress": {
-    "read": 16,
+    "read": 1014,
     "reading": 0,
     "want": 2510,
     "unread": 0
   },
   "oldest_year": 1467,
-  "newest_year": 2025,
-  "generated_at": "2026-03-15T14:01:03.292532"
+  "newest_year": 2030,
+  "generated_at": "2026-03-15T15:19:06.796461"
 }
