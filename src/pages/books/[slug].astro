@@ -74,7 +74,11 @@ const categorySlug = toSlug(book.category);
           {priorityLabel(book.priority)}
         </span>
         <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
-        <p class="text-lg text-gray-400 mb-3">by <a href={`${base}authors/${toSlug(book.author)}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a></p>
+        <p class="text-lg text-gray-400 mb-3">by {book.author === 'Unknown' ? (
+          <span class="text-gray-500">{book.author}</span>
+        ) : (
+          <a href={`${base}authors/${toSlug(book.author)}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a>
+        )}</p>
 
         {book.reading_status && (
           <div class="mb-3 inline-flex items-center gap-2">
