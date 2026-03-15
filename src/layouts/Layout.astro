@@ -74,7 +74,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     </main>
     <footer class="border-t border-gray-800 py-6 mt-auto">
       <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
-        <p>3,526 essential works across 42 categories.</p>
+        <p>{stats.total_books.toLocaleString()} essential works across {stats.total_categories} categories.</p>
         <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors mt-2 inline-block">Source on GitHub</a>
       </div>
     </footer>

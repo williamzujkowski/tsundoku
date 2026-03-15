@@ -12,15 +12,21 @@
     "build": "astro build",
     "typecheck": "astro check",
     "lint": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.7",
     "@astrojs/svelte": "^8.0.0",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.4",
     "svelte": "^5.53.12",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.0"
   }
 }

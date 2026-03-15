@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -25,19 +26,7 @@ const sameCategory = allBooks
   .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title))
   .slice(0, 12);
 
-function priorityLabel(p: number): string {
-  if (p === 1) return 'Must-Read';
-  if (p === 2) return 'Recommended';
-  return 'Supplementary';
-}
-
-function priorityClass(p: number): string {
-  if (p === 1) return 'bg-purple-900/60 text-purple-300 border border-purple-700/30';
-  if (p === 2) return 'bg-gray-800 text-gray-400 border border-gray-700';
-  return 'bg-gray-800/50 text-gray-500 border border-gray-700/50';
-}
-
-const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const categorySlug = toSlug(book.category);
 ---
 
 <Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`}>
@@ -72,18 +61,12 @@ const categorySlug = book.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
           {priorityLabel(book.priority)}
         </span>
         <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{book.title}</h1>
-        <p class="text-lg text-gray-400 mb-3">by <a href={`${base}authors/${book.author.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a></p>
+        <p class="text-lg text-gray-400 mb-3">by <a href={`${base}authors/${toSlug(book.author)}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a></p>
 
         {book.reading_status && (
           <div class="mb-3 inline-flex items-center gap-2">
-            <span class={`text-xs px-2.5 py-1 rounded-lg border ${
-              book.reading_status === 'read' ? 'bg-green-900/40 border-green-700/50 text-green-300' :
-              book.reading_status === 'reading' ? 'bg-amber-900/40 border-amber-700/50 text-amber-300' :
-              'bg-blue-900/40 border-blue-700/50 text-blue-300'
-            }`}>
-              {book.reading_status === 'read' ? '✓ Read' :
-               book.reading_status === 'reading' ? '📖 Currently Reading' :
-               '📋 Want to Read'}
+            <span class={`text-xs px-2.5 py-1 rounded-lg border ${statusClass(book.reading_status)}`}>
+              {statusLabel(book.reading_status)}
             </span>
             {book.status_notes && (
               <span class="text-xs text-gray-500 italic">{book.status_notes}</span>

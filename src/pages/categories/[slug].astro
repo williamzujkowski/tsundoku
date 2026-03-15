@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { priorityLabel, priorityBadgeClass, toSlug, pluralize } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -8,7 +9,7 @@ export async function getStaticPaths() {
 
   for (const book of books) {
     const cat = book.data.category;
-    const slug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const slug = toSlug(cat);
     if (!categoryMap.has(slug)) {
       categoryMap.set(slug, { name: cat, books: [] });
     }
@@ -26,12 +27,6 @@ export async function getStaticPaths() {
 
 const { categoryName, books } = Astro.props;
 const base = import.meta.env.BASE_URL;
-
-function priorityLabel(p: number): string {
-  if (p === 1) return 'Must-Read';
-  if (p === 2) return 'Recommended';
-  return 'Supplementary';
-}
 ---
 
 <Layout title={categoryName} description={`${books.length} ${categoryName} books in the tsundoku collection`}>
@@ -44,7 +39,7 @@ function priorityLabel(p: number): string {
   </nav>
 
   <h1 class="text-2xl sm:text-3xl font-bold text-white mb-2">{categoryName}</h1>
-  <p class="text-gray-400 text-sm sm:text-base mb-6 sm:mb-8">{books.length} {books.length === 1 ? 'book' : 'books'}</p>
+  <p class="text-gray-400 text-sm sm:text-base mb-6 sm:mb-8">{books.length} {pluralize(books.length, 'book')}</p>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
     {books.map(book => (
@@ -57,7 +52,7 @@ function priorityLabel(p: number): string {
         )}
         <div class="min-w-0 flex-1">
           <div class="flex items-start justify-between gap-1 mb-1">
-            <span class={`text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${book.data.priority === 1 ? 'bg-purple-900/60 text-purple-300 border border-purple-700/30' : 'bg-gray-800 text-gray-500'}`}>
+            <span class={`text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${priorityBadgeClass(book.data.priority)}`}>
               {priorityLabel(book.data.priority)}
             </span>
             {book.data.first_published && (

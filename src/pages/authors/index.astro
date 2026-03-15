@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { toSlug, pluralize } from '../../utils/formatting';
 
 const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');
@@ -29,7 +30,7 @@ const authors = [...authorMap.entries()]
     return {
       name,
       count,
-      slug: enriched?.slug ?? name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+      slug: enriched?.slug ?? toSlug(name),
       photo_url: enriched?.photo_url,
       hasDetailPage: enrichedMap.has(name),
     };
@@ -71,7 +72,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
                   </div>
                 )}
                 <span class="text-white text-sm truncate">{author.name}</span>
-                <span class="text-gray-500 text-xs ml-auto shrink-0">{author.count} {author.count === 1 ? 'book' : 'books'}</span>
+                <span class="text-gray-500 text-xs ml-auto shrink-0">{author.count} {pluralize(author.count, 'book')}</span>
               </>
             );
 
