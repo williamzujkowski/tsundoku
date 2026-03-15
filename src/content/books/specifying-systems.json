@@ -9,5 +9,8 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/1176091-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3950712W",
   "first_published": 2002,
-  "language": "eng"
+  "language": "eng",
+  "description": "Both a tutorial on specifying systems and a complete reference to TLA, this is the distillation of 25 years of work by a renowned computer scientist. Divided into four parts, the first part contains all that most programmers and engineers need to know about writing specifications. The second part has advanced material for more sophisticated readers. The third and fourth parts comprise a reference manual for TLA+--both the language itself as well as its tools.",
+  "pages": 392,
+  "google_books_url": "http://books.google.com/books?id=SeRQAAAAMAAJ&dq=Specifying+Systems+Leslie+Lamport&hl=&source=gbs_api"
 }

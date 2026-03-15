@@ -9,5 +9,9 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/1984290-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16948657W",
   "first_published": 2007,
-  "language": "eng"
+  "language": "eng",
+  "description": "Provides information on ways to use Wireshark to capture and analyze packets, covering such topics as building customized capture and display filters, graphing traffic patterns, and building statistics and reports.",
+  "isbn": "9781593271497",
+  "pages": 194,
+  "google_books_url": "http://books.google.com/books?id=VEwFPc2HtuQC&dq=Practical+Packet+Analysis+Chris+Sanders&hl=&source=gbs_api"
 }
