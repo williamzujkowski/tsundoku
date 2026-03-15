@@ -1,50 +1,70 @@
 # 積ん読 Tsundoku
 
-A curated bookshelf of 3,526 essential works across 42 categories. Built with Astro, Svelte 5, and Tailwind CSS 4.
+A curated bookshelf with reading tracker — because buying books and not reading them is a lifestyle.
 
-**Tsundoku** (積ん読) is the Japanese word for acquiring books and letting them pile up without reading them. This app turns that habit into a browsable, searchable collection.
+**Tsundoku** (積ん読) is the Japanese word for acquiring books and letting them pile up without reading them.
+
+**Live site:** [williamzujkowski.github.io/tsundoku](https://williamzujkowski.github.io/tsundoku/)
 
 ## Features
 
-- Browse 3,526 books across 42 categories
-- Search by title or author
-- Filter by category and priority level (P1 Must-Read, P2 Recommended, P3 Supplementary)
-- Category and author index pages
-- Dark theme with Material Design 3 color tokens
-- Static site generation — no server required
+- Browse books with cover art, descriptions, and metadata
+- Global search (⌘K) across books and authors
+- Filter by category, priority, and reading status
+- Individual book pages with covers, descriptions, ISBNs, page counts
+- Author pages with Wikipedia bios and photos
+- Reading progress tracker (want to read / reading / read)
+- "Read free" links to Project Gutenberg for public domain works
+- External links: Goodreads, Google Books, Open Library, WorldCat
+- Stats dashboard with enrichment coverage and reading progress
+- Static site — no server, no database, deploys to GitHub Pages
 
 ## Tech Stack
 
-- [Astro 6](https://astro.build) — static site framework
-- [Svelte 5](https://svelte.dev) — interactive islands (search/filter)
+- [Astro](https://astro.build) — static site framework with content collections
+- [Svelte 5](https://svelte.dev) — interactive islands (search, book grid)
 - [Tailwind CSS 4](https://tailwindcss.com) — utility-first styling
-- Content Collections with JSON loader
+- Zod schema validation on all content
+
+## Data Sources
+
+| Source | What it provides |
+|--------|-----------------|
+| Open Library | Covers, first published year, author data |
+| Google Books | Descriptions, ISBNs, page counts, categories |
+| Wikipedia | Author bios and photos |
+| Gutendex | Project Gutenberg free reading links |
 
 ## Development
 
 ```bash
-# Install dependencies
 npm install
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+npm run dev        # Start dev server
+npm run build      # Generate stats + search index + build
+npm run typecheck  # Type check
 ```
 
-## Data
+## Reading Status
 
-The book data lives in `src/content/books/` as individual JSON files, generated from `data/seed.csv` via:
+Edit `data/reading-status.csv` to track your reading progress:
+
+```csv
+slug,status,date_updated,notes
+dune,read,2024-06-15,Classic sci-fi
+neuromancer,reading,,Currently on chapter 3
+```
+
+Status values: `want` | `reading` | `read`
+
+## Enrichment Scripts
 
 ```bash
-python3 scripts/import-csv.py
+python3 scripts/enrich.py --limit 100           # Book covers + descriptions
+python3 scripts/enrich-authors.py --limit 100    # Author bios + photos
+python3 scripts/enrich-gutenberg.py --limit 500  # Gutenberg free reading links
+python3 scripts/generate-stats.py                # Regenerate stats
+python3 scripts/generate-search-index.py         # Regenerate search index
 ```
-
-Each book has: title, author, category, priority (1-3), slug, and tags.
 
 ## License
 

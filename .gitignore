@@ -23,6 +23,7 @@ pnpm-debug.log*
 # Data artifacts (working files, not source of truth)
 data/view-source*.html
 data/merge-report.json
+data/dirtylist.csv
 
 # Generated at build time
 public/search-index.json
