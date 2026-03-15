@@ -1,12 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import stats from '../data/stats.json';
 
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
 const categories = [...new Set(books.map(b => b.data.category))].sort();
-const authors = [...new Set(books.map(b => b.data.author))];
-const priority1Count = books.filter(b => b.data.priority === 1).length;
 ---
 
 <Layout title="Home">
@@ -16,23 +15,23 @@ const priority1Count = books.filter(b => b.data.priority === 1).length;
     </h1>
     <p class="text-lg sm:text-xl text-purple-400 mb-2">Tsundoku</p>
     <p class="text-gray-400 text-base sm:text-lg mb-8 max-w-xl mx-auto px-4">
-      A curated collection of {books.length.toLocaleString()} essential works across {categories.length} categories from {authors.length.toLocaleString()} authors.
+      A curated collection of {stats.total_books.toLocaleString()} essential works across {stats.total_categories} categories from {stats.total_authors.toLocaleString()} authors.
     </p>
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-6 max-w-lg sm:max-w-2xl mx-auto mb-10">
       <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{books.length.toLocaleString()}</p>
+        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_books.toLocaleString()}</p>
         <p class="text-xs sm:text-sm text-gray-500">Books</p>
       </div>
       <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{categories.length}</p>
+        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_categories}</p>
         <p class="text-xs sm:text-sm text-gray-500">Categories</p>
       </div>
       <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{authors.length.toLocaleString()}</p>
+        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_authors.toLocaleString()}</p>
         <p class="text-xs sm:text-sm text-gray-500">Authors</p>
       </div>
       <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{priority1Count.toLocaleString()}</p>
+        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.priorities.must_read.toLocaleString()}</p>
         <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
       </div>
     </div>

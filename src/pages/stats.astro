@@ -1,0 +1,137 @@
+---
+import Layout from '../layouts/Layout.astro';
+import stats from '../data/stats.json';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Stats" description="Collection statistics for the tsundoku bookshelf">
+  <h1 class="text-2xl sm:text-3xl font-bold text-white mb-6">Collection Stats</h1>
+
+  <!-- Overview cards -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_books.toLocaleString()}</p>
+      <p class="text-xs sm:text-sm text-gray-500">Books</p>
+    </div>
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_categories}</p>
+      <p class="text-xs sm:text-sm text-gray-500">Categories</p>
+    </div>
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_authors.toLocaleString()}</p>
+      <p class="text-xs sm:text-sm text-gray-500">Authors</p>
+    </div>
+    <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-4 text-center">
+      <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.priorities.must_read.toLocaleString()}</p>
+      <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
+    </div>
+  </div>
+
+  <!-- Priority breakdown -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">Priority Breakdown</h2>
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-5">
+      {[
+        { label: 'Must-Read (P1)', count: stats.priorities.must_read, color: 'bg-purple-500' },
+        { label: 'Recommended (P2)', count: stats.priorities.recommended, color: 'bg-gray-500' },
+        { label: 'Supplementary (P3)', count: stats.priorities.supplementary, color: 'bg-gray-700' },
+      ].map(p => (
+        <div class="mb-3 last:mb-0">
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-gray-300">{p.label}</span>
+            <span class="text-gray-500">{p.count} ({Math.round(100 * p.count / stats.total_books)}%)</span>
+          </div>
+          <div class="w-full bg-gray-800 rounded-full h-2">
+            <div class={`${p.color} h-2 rounded-full`} style={`width: ${100 * p.count / stats.total_books}%`}></div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Enrichment coverage -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">Data Coverage</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      {[
+        { label: 'Cover Art', pct: stats.enrichment.covers_pct, count: stats.enrichment.covers },
+        { label: 'Descriptions', pct: stats.enrichment.descriptions_pct, count: stats.enrichment.descriptions },
+        { label: 'ISBNs', pct: stats.enrichment.isbns_pct, count: stats.enrichment.isbns },
+        { label: 'Page Counts', pct: stats.enrichment.pages_pct, count: stats.enrichment.pages },
+        { label: 'Pub. Years', pct: Math.round(100 * stats.enrichment.years / stats.total_books), count: stats.enrichment.years },
+        { label: 'Subjects', pct: Math.round(100 * stats.enrichment.subjects / stats.total_books), count: stats.enrichment.subjects },
+      ].map(e => (
+        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4">
+          <div class="flex items-end justify-between mb-2">
+            <span class="text-sm text-gray-300">{e.label}</span>
+            <span class="text-lg font-bold text-white">{e.pct}%</span>
+          </div>
+          <div class="w-full bg-gray-800 rounded-full h-1.5">
+            <div class="bg-purple-500 h-1.5 rounded-full" style={`width: ${e.pct}%`}></div>
+          </div>
+          <p class="text-[10px] text-gray-600 mt-1">{e.count.toLocaleString()} of {stats.total_books.toLocaleString()}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Year distribution -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">Publication Era</h2>
+    <div class="rounded-xl border border-gray-800 bg-gray-900 p-5">
+      <p class="text-sm text-gray-400 mb-4">Spanning from {stats.oldest_year} to {stats.newest_year}</p>
+      {[
+        { label: 'Before 1800', count: stats.year_distribution.before_1800 },
+        { label: '1800–1899', count: stats.year_distribution['1800_1899'] },
+        { label: '1900–1949', count: stats.year_distribution['1900_1949'] },
+        { label: '1950–1999', count: stats.year_distribution['1950_1999'] },
+        { label: '2000+', count: stats.year_distribution['2000_plus'] },
+      ].map(era => (
+        <div class="mb-2 last:mb-0">
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-gray-300">{era.label}</span>
+            <span class="text-gray-500">{era.count}</span>
+          </div>
+          <div class="w-full bg-gray-800 rounded-full h-1.5">
+            <div class="bg-purple-500/70 h-1.5 rounded-full" style={`width: ${100 * era.count / stats.total_books}%`}></div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Top authors -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">Top Authors</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+      {stats.top_authors.map((a: {name: string; count: number}, i: number) => (
+        <div class="flex items-center justify-between rounded-lg border border-gray-800 bg-gray-900 px-4 py-2.5">
+          <div class="flex items-center gap-3">
+            <span class="text-xs text-gray-600 w-5 text-right">{i + 1}</span>
+            <span class="text-sm text-white">{a.name}</span>
+          </div>
+          <span class="text-xs text-gray-500">{a.count} books</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Categories table -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">All Categories</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+      {stats.categories.map((c: {name: string; count: number}) => (
+        <a href={`${base}categories/${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`}
+           class="flex items-center justify-between rounded-lg border border-gray-800 bg-gray-900 px-4 py-2.5 hover:border-purple-800/60 transition-colors">
+          <span class="text-sm text-white">{c.name}</span>
+          <span class="text-xs text-gray-500">{c.count}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <p class="text-xs text-gray-600 text-center mt-8">
+    Stats auto-generated at build time. Last updated: {new Date(stats.generated_at).toLocaleDateString()}.
+  </p>
+</Layout>

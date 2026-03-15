@@ -1,0 +1,284 @@
+{
+  "total_books": 2526,
+  "total_categories": 42,
+  "total_authors": 1038,
+  "priorities": {
+    "must_read": 1684,
+    "recommended": 807,
+    "supplementary": 35
+  },
+  "enrichment": {
+    "covers": 2499,
+    "covers_pct": 98.9,
+    "descriptions": 2036,
+    "descriptions_pct": 80.6,
+    "isbns": 1832,
+    "isbns_pct": 72.5,
+    "pages": 2007,
+    "pages_pct": 79.5,
+    "years": 2515,
+    "subjects": 417
+  },
+  "top_authors": [
+    {
+      "name": "William Shakespeare",
+      "count": 28
+    },
+    {
+      "name": "Plato",
+      "count": 21
+    },
+    {
+      "name": "Isaac Asimov",
+      "count": 16
+    },
+    {
+      "name": "Ursula K. Le Guin",
+      "count": 15
+    },
+    {
+      "name": "C.S. Lewis",
+      "count": 14
+    },
+    {
+      "name": "Aristotle",
+      "count": 14
+    },
+    {
+      "name": "Charles Dickens",
+      "count": 12
+    },
+    {
+      "name": "Octavia E. Butler",
+      "count": 11
+    },
+    {
+      "name": "Roger Zelazny",
+      "count": 10
+    },
+    {
+      "name": "Aeschylus",
+      "count": 10
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "count": 10
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "count": 10
+    },
+    {
+      "name": "Gene Wolfe",
+      "count": 10
+    },
+    {
+      "name": "Robert A. Heinlein",
+      "count": 10
+    },
+    {
+      "name": "Fyodor Dostoevsky",
+      "count": 10
+    },
+    {
+      "name": "Euripides",
+      "count": 9
+    },
+    {
+      "name": "Cormac McCarthy",
+      "count": 9
+    },
+    {
+      "name": "Stephen King",
+      "count": 9
+    },
+    {
+      "name": "Frank Herbert",
+      "count": 9
+    },
+    {
+      "name": "Iain M. Banks",
+      "count": 9
+    }
+  ],
+  "categories": [
+    {
+      "name": "Literature",
+      "count": 654
+    },
+    {
+      "name": "Philosophy",
+      "count": 294
+    },
+    {
+      "name": "Science Fiction",
+      "count": 280
+    },
+    {
+      "name": "Fantasy",
+      "count": 179
+    },
+    {
+      "name": "Poetry",
+      "count": 139
+    },
+    {
+      "name": "Computer Science",
+      "count": 108
+    },
+    {
+      "name": "Drama",
+      "count": 102
+    },
+    {
+      "name": "Mystery",
+      "count": 63
+    },
+    {
+      "name": "History",
+      "count": 59
+    },
+    {
+      "name": "Security",
+      "count": 57
+    },
+    {
+      "name": "Horror",
+      "count": 55
+    },
+    {
+      "name": "Classics",
+      "count": 55
+    },
+    {
+      "name": "Economics",
+      "count": 50
+    },
+    {
+      "name": "Non-Western Literature",
+      "count": 47
+    },
+    {
+      "name": "Political Theory",
+      "count": 45
+    },
+    {
+      "name": "Mathematics",
+      "count": 40
+    },
+    {
+      "name": "Science",
+      "count": 32
+    },
+    {
+      "name": "Literary Criticism",
+      "count": 32
+    },
+    {
+      "name": "Non-Western Philosophy",
+      "count": 30
+    },
+    {
+      "name": "Speculative Fiction",
+      "count": 26
+    },
+    {
+      "name": "Contemporary Speculative Fiction",
+      "count": 23
+    },
+    {
+      "name": "Essays",
+      "count": 22
+    },
+    {
+      "name": "Religion",
+      "count": 18
+    },
+    {
+      "name": "Biography/Memoir",
+      "count": 14
+    },
+    {
+      "name": "Governance",
+      "count": 13
+    },
+    {
+      "name": "Global History",
+      "count": 12
+    },
+    {
+      "name": "Non‑Western History",
+      "count": 12
+    },
+    {
+      "name": "Complex Systems",
+      "count": 12
+    },
+    {
+      "name": "Medieval Philosophy & Theology",
+      "count": 12
+    },
+    {
+      "name": "Intelligence Studies",
+      "count": 8
+    },
+    {
+      "name": "Complexity Science",
+      "count": 8
+    },
+    {
+      "name": "Security & Governance",
+      "count": 7
+    },
+    {
+      "name": "Literary Theory",
+      "count": 4
+    },
+    {
+      "name": "Security & Intelligence",
+      "count": 3
+    },
+    {
+      "name": "Decision Theory",
+      "count": 2
+    },
+    {
+      "name": "Strategy",
+      "count": 2
+    },
+    {
+      "name": "Cybernetics",
+      "count": 2
+    },
+    {
+      "name": "AI",
+      "count": 1
+    },
+    {
+      "name": "Political Economy",
+      "count": 1
+    },
+    {
+      "name": "Information Theory",
+      "count": 1
+    },
+    {
+      "name": "Systems",
+      "count": 1
+    },
+    {
+      "name": "Psychology",
+      "count": 1
+    }
+  ],
+  "year_distribution": {
+    "before_1800": 150,
+    "1800_1899": 196,
+    "1900_1949": 330,
+    "1950_1999": 1050,
+    "2000_plus": 789
+  },
+  "oldest_year": 1467,
+  "newest_year": 2025,
+  "generated_at": "2026-03-15T10:38:02.325783"
+}
