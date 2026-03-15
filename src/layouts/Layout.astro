@@ -6,9 +6,10 @@ import stats from '../data/stats.json';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
 }
 
-const { title, description = `A curated bookshelf of ${stats.total_books.toLocaleString()} essential works across ${stats.total_categories} categories` } = Astro.props;
+const { title, description = `A curated bookshelf of ${stats.total_books.toLocaleString()} essential works across ${stats.total_categories} categories`, image } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
 ---
@@ -23,7 +24,8 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     {siteUrl && <meta property="og:url" content={siteUrl} />}
-    <meta name="twitter:card" content="summary" />
+    {image && <meta property="og:image" content={image} />}
+    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
     {siteUrl && <link rel="canonical" href={siteUrl} />}
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{title} — Tsundoku</title>

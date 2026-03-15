@@ -29,7 +29,19 @@ const sameCategory = allBooks
 const categorySlug = toSlug(book.category);
 ---
 
-<Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`}>
+<Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={book.cover_url_large || book.cover_url}>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": book.title,
+    "author": { "@type": "Person", "name": book.author },
+    ...(book.description ? { "description": book.description } : {}),
+    ...(book.isbn ? { "isbn": book.isbn } : {}),
+    ...(book.cover_url ? { "image": book.cover_url_large || book.cover_url } : {}),
+    ...(book.first_published ? { "datePublished": String(book.first_published) } : {}),
+    ...(book.pages ? { "numberOfPages": book.pages } : {}),
+    ...(book.language ? { "inLanguage": book.language } : {}),
+  })} />
   <nav class="mb-6 text-sm text-gray-500">
     <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
     <span class="mx-1">/</span>
@@ -216,9 +228,9 @@ const categorySlug = toSlug(book.category);
             <a href={`${base}books/${b.slug}/`}
                class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors flex gap-3 items-start">
               {b.cover_url ? (
-                <img src={b.cover_url} alt="" class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
               ) : (
-                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs">📖</div>
+                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs" aria-hidden="true">📖</div>
               )}
               <div class="min-w-0">
                 <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>
@@ -241,9 +253,9 @@ const categorySlug = toSlug(book.category);
             <a href={`${base}books/${b.slug}/`}
                class="rounded-xl border border-gray-800 bg-gray-900 p-4 hover:border-purple-800/60 transition-colors flex gap-3 items-start">
               {b.cover_url ? (
-                <img src={b.cover_url} alt="" class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="w-10 h-14 rounded object-cover shrink-0" loading="lazy" />
               ) : (
-                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs">📖</div>
+                <div class="w-10 h-14 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs" aria-hidden="true">📖</div>
               )}
               <div class="min-w-0">
                 <h3 class="text-white text-sm font-medium line-clamp-2">{b.title}</h3>

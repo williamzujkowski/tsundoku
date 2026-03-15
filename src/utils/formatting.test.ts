@@ -9,6 +9,7 @@ import {
   statusColor,
   statusIcon,
   pluralize,
+  seededShuffle,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -131,5 +132,44 @@ describe('pluralize', () => {
 
   it('uses custom plural form when provided', () => {
     expect(pluralize(2, 'category', 'categories')).toBe('categories');
+  });
+});
+
+describe('seededShuffle', () => {
+  const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  it('returns same length array', () => {
+    expect(seededShuffle(items, 42)).toHaveLength(items.length);
+  });
+
+  it('contains all original items', () => {
+    const result = seededShuffle(items, 42);
+    expect(result.sort((a, b) => a - b)).toEqual(items);
+  });
+
+  it('is deterministic with same seed', () => {
+    const a = seededShuffle(items, 42);
+    const b = seededShuffle(items, 42);
+    expect(a).toEqual(b);
+  });
+
+  it('produces different order with different seeds', () => {
+    const a = seededShuffle(items, 1);
+    const b = seededShuffle(items, 2);
+    expect(a).not.toEqual(b);
+  });
+
+  it('does not mutate original array', () => {
+    const original = [...items];
+    seededShuffle(items, 42);
+    expect(items).toEqual(original);
+  });
+
+  it('handles empty array', () => {
+    expect(seededShuffle([], 42)).toEqual([]);
+  });
+
+  it('handles single-element array', () => {
+    expect(seededShuffle([1], 42)).toEqual([1]);
   });
 });

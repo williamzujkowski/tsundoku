@@ -29,7 +29,17 @@ const lifespan = author.birth_year
   : null;
 ---
 
-<Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`}>
+<Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={author.photo_url}>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": author.name,
+    ...(author.bio ? { "description": author.bio } : {}),
+    ...(author.photo_url ? { "image": author.photo_url } : {}),
+    ...(author.wikipedia_url ? { "sameAs": [author.wikipedia_url] } : {}),
+    ...(author.birth_year ? { "birthDate": String(author.birth_year) } : {}),
+    ...(author.death_year ? { "deathDate": String(author.death_year) } : {}),
+  })} />
   <nav class="mb-6 text-sm text-gray-500">
     <a href={`${base}`} class="hover:text-white transition-colors">Home</a>
     <span class="mx-1">/</span>
@@ -48,7 +58,7 @@ const lifespan = author.birth_year
         loading="eager"
       />
     ) : (
-      <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl bg-gradient-to-br from-purple-900/40 to-gray-800 border border-gray-700 shrink-0 flex items-center justify-center text-gray-600 text-4xl">
+      <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl bg-gradient-to-br from-purple-900/40 to-gray-800 border border-gray-700 shrink-0 flex items-center justify-center text-gray-600 text-4xl" aria-hidden="true">
         <svg class="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
         </svg>
@@ -95,7 +105,7 @@ const lifespan = author.birth_year
         {book.data.cover_url ? (
           <img src={book.data.cover_url} alt="" class="w-12 h-[4.5rem] rounded object-cover shrink-0 group-hover:scale-105 transition-transform duration-200" loading="lazy" />
         ) : (
-          <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg">
+          <div class="w-12 h-[4.5rem] rounded bg-gradient-to-br from-purple-900/30 to-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-lg" aria-hidden="true">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
           </div>
         )}

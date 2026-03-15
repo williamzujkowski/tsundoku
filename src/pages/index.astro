@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
-import { toSlug } from '../utils/formatting';
+import { toSlug, seededShuffle } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
@@ -43,10 +43,8 @@ const categories = [...new Set(books.map(b => b.data.category))].sort();
 
   {/* Featured Must-Reads */}
   {(() => {
-    const featured = books
-      .filter(b => b.data.priority === 1 && b.data.cover_url)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 8);
+    const mustReads = books.filter(b => b.data.priority === 1 && b.data.cover_url);
+    const featured = seededShuffle(mustReads).slice(0, 8);
     return featured.length > 0 ? (
       <section class="py-8 sm:py-12">
         <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Featured Must-Reads</h2>

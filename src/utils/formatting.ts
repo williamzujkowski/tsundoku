@@ -56,3 +56,26 @@ export function statusIcon(status: ReadingStatus): string {
 export function pluralize(count: number, singular: string, plural?: string): string {
   return count === 1 ? singular : (plural ?? singular + 's');
 }
+
+/**
+ * Simple seeded PRNG for deterministic shuffling.
+ * Uses a linear congruential generator seeded by day-of-year,
+ * so featured sections change daily but are stable within a day.
+ */
+export function seededShuffle<T>(items: T[], seed?: number): T[] {
+  const s = seed ?? dayOfYear();
+  const result = [...items];
+  let state = s;
+  for (let i = result.length - 1; i > 0; i--) {
+    state = (state * 1664525 + 1013904223) & 0x7fffffff;
+    const j = state % (i + 1);
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function dayOfYear(): number {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  return Math.floor((now.getTime() - start.getTime()) / 86400000);
+}
