@@ -50,25 +50,29 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
             <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>
             <a href={`${base}stats/`} class="text-sm text-gray-400 hover:text-white transition-colors">Stats</a>
           </div>
-          <!-- Mobile hamburger -->
-          <button
-            id="mobile-menu-btn"
-            class="sm:hidden p-2 text-gray-400 hover:text-white transition-colors"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
+          <!-- Mobile: search + random + hamburger -->
+          <div class="sm:hidden flex items-center gap-1">
+            <SearchModal client:idle baseUrl={base} />
+            <RandomBook client:idle baseUrl={base} />
+            <button
+              id="mobile-menu-btn"
+              class="p-2 text-gray-400 hover:text-white transition-colors"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+            >
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
         </div>
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden sm:hidden pb-3 border-t border-gray-800 mt-2 pt-3">
           <div class="flex flex-col gap-2">
-            <a href={`${base}browse/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Browse</a>
-            <a href={`${base}categories/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Categories</a>
-            <a href={`${base}authors/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Authors</a>
-            <a href={`${base}stats/`} class="block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Stats</a>
+            <a href={`${base}browse/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Browse</a>
+            <a href={`${base}categories/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Categories</a>
+            <a href={`${base}authors/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Authors</a>
+            <a href={`${base}stats/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Stats</a>
           </div>
         </div>
       </div>
@@ -90,6 +94,13 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
           const expanded = btn.getAttribute('aria-expanded') === 'true';
           btn.setAttribute('aria-expanded', String(!expanded));
           menu.classList.toggle('hidden');
+        });
+        // Close menu when a nav link is clicked
+        menu.querySelectorAll('.mobile-nav-link').forEach(link => {
+          link.addEventListener('click', () => {
+            menu.classList.add('hidden');
+            btn.setAttribute('aria-expanded', 'false');
+          });
         });
       }
     </script>

@@ -286,5 +286,11 @@
   },
   "oldest_year": 1467,
   "newest_year": 2030,
-  "generated_at": "2026-03-15T18:11:25.305441"
+  "bookshelf": {
+    "total_pages": 1177488,
+    "estimated_reading_hours": 19625,
+    "shelf_meters": 88.1,
+    "books_with_pages": 3139
+  },
+  "generated_at": "2026-03-15T19:08:33.694297"
 }

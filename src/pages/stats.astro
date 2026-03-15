@@ -29,6 +29,29 @@ const base = import.meta.env.BASE_URL;
     </div>
   </div>
 
+  <!-- Bookshelf fun stats -->
+  <section class="mb-8">
+    <h2 class="text-lg font-bold text-white mb-4">By the Numbers</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+        <p class="text-2xl font-bold text-white">{stats.bookshelf.total_pages.toLocaleString()}</p>
+        <p class="text-xs text-gray-500">Total pages</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+        <p class="text-2xl font-bold text-white">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</p>
+        <p class="text-xs text-gray-500">Hours to read all</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+        <p class="text-2xl font-bold text-white">{stats.bookshelf.shelf_meters}m</p>
+        <p class="text-xs text-gray-500">Of shelf space</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
+        <p class="text-2xl font-bold text-white">{Math.round(stats.bookshelf.estimated_reading_hours / 24 / 365 * 10) / 10}</p>
+        <p class="text-xs text-gray-500">Years nonstop reading</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Reading progress -->
   <section class="mb-8">
     <h2 class="text-lg font-bold text-white mb-4">Reading Progress</h2>

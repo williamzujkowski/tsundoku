@@ -1,14 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --md-sys-color-primary: #6750A4;
-  --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-surface: #1C1B1F;
-  --md-sys-color-on-surface: #E6E1E5;
-  --md-sys-color-surface-variant: #49454F;
-  --md-sys-color-outline: #938F99;
-}
-
 body {
   background-color: #1C1B1F;
   color: #E6E1E5;

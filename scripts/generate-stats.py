@@ -64,6 +64,14 @@ def generate_stats() -> dict:
     oldest = min(years) if years else None
     newest = max(years) if years else None
 
+    # Fun bookshelf metrics
+    page_counts = [b["pages"] for b in books if b.get("pages")]
+    total_pages = sum(page_counts)
+    # Average reading speed: 250 words per page, 250 words per minute
+    estimated_reading_hours = round(total_pages * 250 / 250 / 60)
+    # Average book spine: ~2.5cm
+    shelf_meters = round(total * 0.025, 1)
+
     # Reading status
     reading_statuses = Counter(b.get("reading_status", "") for b in books)
     read_count = reading_statuses.get("read", 0)
@@ -102,6 +110,12 @@ def generate_stats() -> dict:
         },
         "oldest_year": oldest,
         "newest_year": newest,
+        "bookshelf": {
+            "total_pages": total_pages,
+            "estimated_reading_hours": estimated_reading_hours,
+            "shelf_meters": shelf_meters,
+            "books_with_pages": len(page_counts),
+        },
         "generated_at": __import__("datetime").datetime.now().isoformat(),
     }
 

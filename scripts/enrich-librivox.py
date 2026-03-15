@@ -18,6 +18,8 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.parse import quote_plus
 
+from matching import strip_article, author_last_name, titles_match
+
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
 RATE_LIMIT = 1.0  # Be polite to LibriVox
@@ -28,23 +30,16 @@ def search_librivox(title: str, author: str) -> dict | None:
 
     Requires both title AND author match to prevent false positives.
     """
-    # LibriVox requires reasonable title length for search
     if len(title) < 3:
         return None
-    # Strip leading articles — LibriVox search doesn't handle them well
-    search_title = title
-    for article in ("A ", "An ", "The "):
-        if search_title.startswith(article):
-            search_title = search_title[len(article):]
-            break
-    query = quote_plus(search_title.lower())
+    search_title = strip_article(title).lower()
+    query = quote_plus(search_title)
     url = f"https://librivox.org/api/feed/audiobooks?title={query}&format=json"
 
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=15) as resp:
             text = resp.read().decode("utf-8")
-            # LibriVox returns {"error": "..."} on no results
             if '"error"' in text[:50]:
                 return None
             data = json.loads(text)
@@ -52,36 +47,20 @@ def search_librivox(title: str, author: str) -> dict | None:
             if not books:
                 return None
 
-            author_last = author.split()[-1].lower() if author else ""
-            title_lower = title.lower()
+            last_name = author_last_name(author)
 
             for book in books[:10]:
-                result_title = book.get("title", "").lower()
+                result_title = book.get("title", "")
                 # REQUIRE author match
-                authors_text = ""
                 for a in book.get("authors", []):
                     name = f"{a.get('first_name', '')} {a.get('last_name', '')}".lower().strip()
-                    authors_text += name + " "
-                    if author_last and author_last in name:
-                        # REQUIRE title similarity
-                        if (title_lower in result_title or
-                            result_title in title_lower or
-                            _title_similarity(title_lower, result_title) > 0.6):
+                    if last_name and last_name in name:
+                        if titles_match(title, result_title):
                             return book
 
     except Exception as e:
         print(f"  ⚠ LibriVox error: {e}")
     return None
-
-
-def _title_similarity(a: str, b: str) -> float:
-    """Simple word overlap ratio between two titles."""
-    words_a = set(a.split())
-    words_b = set(b.split())
-    if not words_a or not words_b:
-        return 0.0
-    overlap = words_a & words_b
-    return len(overlap) / max(len(words_a), len(words_b))
 
 
 def enrich_book(book_path: Path) -> bool:

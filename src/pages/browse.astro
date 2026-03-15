@@ -6,7 +6,17 @@ import BookGrid from '../components/BookGrid.svelte';
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
 const categories = [...new Set(books.map(b => b.data.category))].sort();
-const bookData = books.map(b => b.data);
+// Only pass fields needed by BookGrid to minimize client payload
+const bookData = books.map(b => ({
+  title: b.data.title,
+  author: b.data.author,
+  category: b.data.category,
+  priority: b.data.priority,
+  slug: b.data.slug,
+  cover_url: b.data.cover_url,
+  first_published: b.data.first_published,
+  reading_status: b.data.reading_status,
+}));
 ---
 
 <Layout title="Browse">
