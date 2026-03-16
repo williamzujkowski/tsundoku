@@ -30,6 +30,7 @@ data/view-source*.html
 data/merge-report.json
 data/dirtylist.csv
 data/enrichment-state.json
+data/enrichment-errors.jsonl
 
 # Generated at build time
 public/search-index.json
