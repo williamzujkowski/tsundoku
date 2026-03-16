@@ -13,5 +13,8 @@
   "description": "This is the first textbook on pattern recognition to present the Bayesian viewpoint. The book presents approximate inference algorithms that permit fast approximate answers in situations where exact answers are not feasible. It uses graphical models to describe probability distributions when no other books apply graphical models to machine learning. No previous knowledge of pattern recognition or machine learning concepts is assumed. Familiarity with multivariate calculus and basic linear algebr...",
   "isbn": "1493938436",
   "google_books_url": "http://books.google.com/books?id=kOXDtAEACAAJ&dq=Pattern+Recognition+and+Machine+Learning+Christopher+Bishop&hl=&source=gbs_api",
-  "reading_status": "want"
+  "reading_status": "want",
+  "subjects": [
+    "Science"
+  ]
 }
