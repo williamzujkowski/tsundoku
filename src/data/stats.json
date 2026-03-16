@@ -1,21 +1,21 @@
 {
-  "total_books": 3501,
-  "total_categories": 29,
-  "total_authors": 1667,
+  "total_books": 3537,
+  "total_categories": 31,
+  "total_authors": 1685,
   "priorities": {
     "must_read": 1664,
-    "recommended": 1802,
+    "recommended": 1838,
     "supplementary": 35
   },
   "enrichment": {
     "covers": 3459,
-    "covers_pct": 98.8,
+    "covers_pct": 97.8,
     "descriptions": 3002,
-    "descriptions_pct": 85.7,
+    "descriptions_pct": 84.9,
     "isbns": 2689,
-    "isbns_pct": 76.8,
+    "isbns_pct": 76.0,
     "pages": 3117,
-    "pages_pct": 89.0,
+    "pages_pct": 88.1,
     "years": 3477,
     "subjects": 3044
   },
@@ -108,7 +108,7 @@
     },
     {
       "name": "Science Fiction",
-      "count": 308
+      "count": 326
     },
     {
       "name": "Philosophy",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Fantasy",
-      "count": 235
+      "count": 250
     },
     {
       "name": "Computer Science",
@@ -217,6 +217,14 @@
     {
       "name": "Non‑Western History",
       "count": 11
+    },
+    {
+      "name": "AI/Hard Sci-Fi",
+      "count": 2
+    },
+    {
+      "name": "Sci-Fi/Fantasy",
+      "count": 1
     }
   ],
   "year_distribution": {
@@ -227,9 +235,9 @@
     "2000_plus": 1474
   },
   "reading_progress": {
-    "read": 1442,
+    "read": 1513,
     "reading": 0,
-    "want": 2059,
+    "want": 2024,
     "unread": 0
   },
   "oldest_year": 1467,
@@ -237,8 +245,8 @@
   "bookshelf": {
     "total_pages": 1168792,
     "estimated_reading_hours": 19480,
-    "shelf_meters": 87.5,
+    "shelf_meters": 88.4,
     "books_with_pages": 3117
   },
-  "generated_at": "2026-03-16T00:33:41.336005"
+  "generated_at": "2026-03-16T00:43:13.235974"
 }
