@@ -1,10 +1,12 @@
 {
   "title": "The Magic City",
   "author": "E. Nesbit",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-magic-city",
   "tags": [
+    "children",
+    "fantasy",
     "google-play-library"
   ],
   "reading_status": "read",
@@ -15,7 +17,7 @@
   "pages": 230,
   "google_books_url": "http://books.google.com/books?id=MzgcoedNP_wC&dq=intitle:The+Magic+City&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Fantasy",
     "Cities and towns",
@@ -26,7 +28,5 @@
     "Fiction, fantasy, general",
     "Magic, fiction"
   ],
-  "gutenberg_id": 20606,
-  "gutenberg_url": "https://www.gutenberg.org/ebooks/20606",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/20606.html.images"
+  "librivox_url": "https://librivox.org/the-magic-city-by-e-nesbit/"
 }

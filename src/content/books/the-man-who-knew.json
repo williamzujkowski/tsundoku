@@ -1,11 +1,14 @@
 {
   "title": "The Man Who Knew",
   "author": "Edgar Wallace",
-  "category": "Literature",
+  "category": "Mystery",
   "priority": 2,
   "slug": "the-man-who-knew",
   "tags": [
-    "google-play-library"
+    "adventure",
+    "google-play-library",
+    "mystery",
+    "thriller"
   ],
   "reading_status": "read",
   "description": "The Man Who Knew by Edgar Wallace: In this mystery novel, Wallace tells the story of a man who suddenly becomes wealthy after inheriting a fortune from a long-lost relative. But when he begins to investigate the circumstances of his inheritance, he discovers some unsettling facts that lead him into a world of danger and intrigue. Key Aspects of the Book \"The Man Who Knew\": Mystery and Intrigue: Wallace's novel is a classic mystery, full of twists and turns that keep readers guessing. Unreliable ",
@@ -14,14 +17,12 @@
   "pages": 152,
   "google_books_url": "https://play.google.com/store/books/details?id=V4qODwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Detective and mystery stories",
     "Suspense fiction",
     "Adventure",
     "Fiction"
   ],
-  "gutenberg_id": 24933,
-  "gutenberg_url": "https://www.gutenberg.org/ebooks/24933",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/24933.html.images"
+  "librivox_url": "https://librivox.org/man-who-knew-by-edgar-wallace/"
 }

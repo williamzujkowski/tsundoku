@@ -4,7 +4,10 @@
   "category": "Classics",
   "priority": 2,
   "slug": "satyricon",
-  "tags": [],
+  "tags": [
+    "humor",
+    "satire"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6060585-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6060585-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL503861W",

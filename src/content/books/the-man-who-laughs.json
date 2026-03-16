@@ -1,10 +1,12 @@
 {
   "title": "The Man Who Laughs",
   "author": "Victor Hugo",
-  "category": "Literature",
+  "category": "History",
   "priority": 1,
   "slug": "the-man-who-laughs",
-  "tags": [],
+  "tags": [
+    "historical-fiction"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/7204845-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7204845-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15438672W",
@@ -25,7 +27,5 @@
     "Fiction, historical, general",
     "Romans, nouvelles"
   ],
-  "gutenberg_id": 12587,
-  "gutenberg_url": "https://www.gutenberg.org/ebooks/12587",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/12587.html.images"
+  "librivox_url": "https://librivox.org/the-man-who-laughs-by-victor-hugo/"
 }
