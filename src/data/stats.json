@@ -104,11 +104,11 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1212
+      "count": 1186
     },
     {
       "name": "Science Fiction",
-      "count": 307
+      "count": 310
     },
     {
       "name": "Philosophy",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Fantasy",
-      "count": 231
+      "count": 233
     },
     {
       "name": "Computer Science",
@@ -124,11 +124,11 @@
     },
     {
       "name": "History",
-      "count": 180
+      "count": 187
     },
     {
       "name": "Mystery",
-      "count": 156
+      "count": 169
     },
     {
       "name": "Poetry",
@@ -144,7 +144,7 @@
     },
     {
       "name": "Horror",
-      "count": 65
+      "count": 66
     },
     {
       "name": "Economics",
@@ -240,5 +240,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T23:11:22.510167"
+  "generated_at": "2026-03-15T23:11:38.270396"
 }
