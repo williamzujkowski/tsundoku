@@ -4,8 +4,20 @@
   "category": "Mystery",
   "priority": 2,
   "slug": "we-are-anonymous",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Anonymous (Group)",
+    "Computer crimes",
+    "Computer hackers",
+    "Computer security",
+    "Crime",
+    "Hackers",
+    "Hacktivism",
+    "Lulzsec (Group)"
+  ]
 }

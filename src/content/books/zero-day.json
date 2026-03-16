@@ -4,8 +4,22 @@
   "category": "Mystery",
   "priority": 2,
   "slug": "zero-day",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "thriller"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Cyberterrorism",
+    "FICTION / Men's Adventure",
+    "FICTION / Technological",
+    "FICTION / Thrillers",
+    "Fiction",
+    "Fiction, technological",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, technological",
+    "Terrorism, fiction"
+  ]
 }

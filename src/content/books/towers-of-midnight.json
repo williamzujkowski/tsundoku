@@ -4,8 +4,22 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "towers-of-midnight",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Good and evil",
+    "Imaginary wars and battles",
+    "New York Times bestseller",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction",
+    "nyt:e-book-fiction=2011-02-20",
+    "nyt:mass-market-paperback=2011-10-23",
+    "nyt:mass_market_paperback=2011-10-01"
+  ]
 }

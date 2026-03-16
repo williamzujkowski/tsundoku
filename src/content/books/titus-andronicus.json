@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 1,
   "slug": "titus-andronicus",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9020748-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9020748-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362675W",
@@ -16,5 +18,19 @@
   "google_books_url": "https://play.google.com/store/books/details?id=-pUJCAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/titus-andronicus-by-william-shakespeare/"
+  "librivox_url": "https://librivox.org/titus-andronicus-by-william-shakespeare/",
+  "subjects": [
+    "Andronicus, Titus (Legendary character) -- Drama",
+    "Category: British Literature",
+    "Category: Classics of Literature",
+    "Category: Plays/Films/Dramas",
+    "Generals -- Drama",
+    "Goths -- Drama",
+    "Historical drama",
+    "Rome -- History -- Germanic invasions, 3rd-6th centuries -- Drama",
+    "Tragedies (Drama)"
+  ],
+  "gutenberg_id": 1106,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/1106",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1106.html.images"
 }

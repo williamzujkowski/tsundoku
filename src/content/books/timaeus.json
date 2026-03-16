@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "timaeus",
-  "tags": [],
+  "tags": [
+    "astronomy",
+    "philosophy"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL40211013W",
   "first_published": 2018,
   "language": "eng",
@@ -14,10 +17,17 @@
   "isbn": "9783566047283",
   "pages": 282,
   "subjects": [
+    "Category: Classics of Literature",
+    "Category: Philosophy & Ethics",
+    "Classical literature",
+    "Cosmology -- Early works to 1800",
     "Fiction"
   ],
   "google_books_url": "http://books.google.com/books?id=geaWEQAAQBAJ&dq=Timaeus+Plato&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/timaeus-by-plato/"
+  "librivox_url": "https://librivox.org/timaeus-by-plato/",
+  "gutenberg_id": 1572,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/1572",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1572.html.images"
 }

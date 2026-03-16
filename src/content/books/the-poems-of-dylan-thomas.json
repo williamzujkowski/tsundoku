@@ -4,8 +4,15 @@
   "category": "Poetry",
   "priority": 2,
   "slug": "the-poems-of-dylan-thomas",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "English poetry",
+    "Poetry",
+    "Welsh authors"
+  ]
 }

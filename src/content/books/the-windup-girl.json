@@ -4,8 +4,24 @@
   "category": "Science Fiction",
   "priority": 2,
   "slug": "the-windup-girl",
-  "tags": [],
+  "tags": [
+    "dystopian",
+    "sci-fi",
+    "thriller"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Bioterrorism",
+    "Bioterrorisme",
+    "Dystopian",
+    "Fiction",
+    "Fiction, thrillers, general",
+    "Hugo Award Winner",
+    "Science Fiction",
+    "award:hugo_award=2010",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ]
 }

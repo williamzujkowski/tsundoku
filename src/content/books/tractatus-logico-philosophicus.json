@@ -5,6 +5,7 @@
   "priority": 1,
   "slug": "tractatus-logico-philosophicus",
   "tags": [
+    "math",
     "philosophy"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/5415771-M.jpg",
@@ -19,15 +20,22 @@
   "copyright_status": "public_domain",
   "subjects": [
     "Analysis (Philosophy)",
+    "DE Sachbuch",
     "Language",
     "Language and languages",
+    "Language and languages -- Philosophy",
     "Language and logic",
     "Languages",
     "Logic",
+    "Logic, Symbolic and mathematical",
+    "Logic, symbolic and mathematical",
+    "Mathematics",
+    "Nobel Prizes in Literature",
     "Philosophy",
     "Semantics (Philosophy)",
-    "Symbolic and mathematical Logic",
-    "Logic, symbolic and mathematical"
+    "Symbolic and mathematical Logic"
   ],
-  "librivox_url": "https://librivox.org/tractatus-logico-philosophicus-by-ludwig-wittgenstein/"
+  "librivox_url": "https://librivox.org/tractatus-logico-philosophicus-by-ludwig-wittgenstein/",
+  "gutenberg_id": 5740,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/5740"
 }

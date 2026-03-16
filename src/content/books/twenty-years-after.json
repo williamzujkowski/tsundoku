@@ -4,7 +4,10 @@
   "category": "Literature",
   "priority": 1,
   "slug": "twenty-years-after",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "historical-fiction"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL41027428W",
   "first_published": 1900,
   "language": "eng",
@@ -13,10 +16,21 @@
   "cover_url_large": "https://books.google.com/books/content?id=5OsRDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "pages": 693,
   "subjects": [
-    "Fiction"
+    "Adventure",
+    "Category: Adventure",
+    "Category: French Literature",
+    "Category: Historical Novels",
+    "Category: Novels",
+    "Fiction",
+    "France -- History -- Louis XIV, 1643-1715 -- Fiction",
+    "Historical Fiction",
+    "Movie Books"
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=5OsRDgAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/twenty-years-after-by-alexandre-dumas/"
+  "librivox_url": "https://librivox.org/twenty-years-after-by-alexandre-dumas/",
+  "gutenberg_id": 1259,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/1259",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1259.html.images"
 }

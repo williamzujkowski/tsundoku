@@ -4,7 +4,11 @@
   "category": "Science Fiction",
   "priority": 2,
   "slug": "twenty-thousand-leagues-under-the-seas",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "fantasy",
+    "sci-fi"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL26674157W",
   "first_published": 2021,
   "language": "eng",
@@ -14,9 +18,22 @@
   "isbn": "9781416500209",
   "pages": 484,
   "subjects": [
-    "Fiction"
+    "Adventure stories",
+    "Category: Adventure",
+    "Category: Classics of Literature",
+    "Category: French Literature",
+    "Category: Science-Fiction & Fantasy",
+    "Fiction",
+    "Science Fiction",
+    "Science fiction",
+    "Sea stories",
+    "Submarines (Ships) -- Fiction",
+    "Underwater exploration -- Fiction"
   ],
   "google_books_url": "http://books.google.com/books?id=w6AFp-xfjP0C&dq=Twenty+Thousand+Leagues+Under+the+Seas+Jules+Verne&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "gutenberg_id": 164,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/164",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/164.html.images"
 }
