@@ -37,6 +37,8 @@ const books = defineCollection({
     standardebooks_url: z.string().optional(),
     // Internet Archive
     archive_url: z.string().optional(),
+    // Copyright status (computed by scripts/enrich-copyright.py from existing metadata)
+    copyright_status: z.enum(['public_domain', 'likely_public_domain', 'in_copyright', 'undetermined']).optional(),
     // Reading status (from data/reading-status.csv — owner's reading progress)
     reading_status: z.enum(['want', 'reading', 'read']).optional(),
     status_date: z.string().optional(),

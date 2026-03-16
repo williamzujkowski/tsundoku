@@ -18,5 +18,6 @@
   "description": "Time series data is of growing importance, especially with the rapid expansion of the Internet of Things. This concise guide shows you effective ways to collect, persist, and access large-scale time series data for analysis. You'll explore the theory behind time series databases and learn practical methods for implementing them. Authors Ted Dunning and Ellen Friedman provide a detailed examination of open source tools such as OpenTSDB and new modifications that greatly speed up data ingestion. Y...",
   "subjects": [
     "Computers"
-  ]
+  ],
+  "copyright_status": "in_copyright"
 }

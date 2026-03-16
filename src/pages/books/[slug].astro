@@ -80,16 +80,26 @@ const categorySlug = toSlug(book.category);
           <a href={`${base}authors/${toSlug(book.author)}/`} class="text-purple-400 hover:text-purple-300 transition-colors">{book.author}</a>
         )}</p>
 
-        {book.reading_status && (
-          <div class="mb-3 inline-flex items-center gap-2">
+        <div class="mb-3 flex flex-wrap items-center gap-2">
+          {book.reading_status && (
             <span class={`text-xs px-2.5 py-1 rounded-lg border ${statusClass(book.reading_status)}`}>
               {statusLabel(book.reading_status)}
             </span>
-            {book.status_notes && (
-              <span class="text-xs text-gray-500 italic">{book.status_notes}</span>
-            )}
-          </div>
-        )}
+          )}
+          {book.copyright_status === 'public_domain' && (
+            <span class="text-xs px-2.5 py-1 rounded-lg border bg-emerald-900/30 border-emerald-700/40 text-emerald-300">
+              Public Domain
+            </span>
+          )}
+          {book.copyright_status === 'likely_public_domain' && (
+            <span class="text-xs px-2.5 py-1 rounded-lg border bg-teal-900/30 border-teal-700/40 text-teal-300">
+              Likely Public Domain
+            </span>
+          )}
+          {book.status_notes && (
+            <span class="text-xs text-gray-500 italic">{book.status_notes}</span>
+          )}
+        </div>
 
         {book.description && (
           <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-4">{book.description}</p>

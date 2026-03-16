@@ -78,6 +78,25 @@ class EnrichmentState:
         STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
         STATE_PATH.write_text(json.dumps(self._all_state, indent=2))
 
+    @property
+    def is_complete(self) -> bool:
+        """True if today's scan has processed all books."""
+        if not self.is_todays_scan:
+            return False
+        total = self._state.get("total_books", 0)
+        scanned = self._state.get("total_scanned", 0)
+        return total > 0 and scanned >= total
+
+    @staticmethod
+    def load_all() -> dict:
+        """Load the full state file for all sources."""
+        if STATE_PATH.exists():
+            try:
+                return json.loads(STATE_PATH.read_text())
+            except (json.JSONDecodeError, OSError):
+                return {}
+        return {}
+
     def summary(self) -> str:
         s = self._state
         return (
