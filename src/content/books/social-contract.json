@@ -1,11 +1,12 @@
 {
   "title": "Social Contract",
-  "author": "Rousseau",
+  "author": "Jean-Jacques Rousseau",
   "category": "Political Theory",
   "priority": 1,
   "slug": "social-contract",
   "tags": [
     "economics",
+    "philosophy",
     "politics"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/2292601-M.jpg",
@@ -20,6 +21,8 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/46333",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46333.html.images",
   "subjects": [
+    "Category: Philosophy & Ethics",
+    "Category: Politics",
     "Ciencias políticas",
     "Civilization",
     "Early works to 1800",
@@ -27,6 +30,7 @@
     "Fiction",
     "Peace",
     "Political science",
+    "Political science -- Early works to 1800",
     "Science politique",
     "Social contract",
     "The State"

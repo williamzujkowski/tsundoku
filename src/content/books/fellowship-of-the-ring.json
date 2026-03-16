@@ -1,10 +1,11 @@
 {
   "title": "Fellowship of the Ring",
-  "author": "Tolkien",
+  "author": "J.R.R. Tolkien",
   "category": "Fantasy",
   "priority": 1,
   "slug": "fellowship-of-the-ring",
   "tags": [
+    "fantasy",
     "young-adult"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
@@ -18,16 +19,23 @@
   "google_books_url": "http://books.google.com/books?id=7iS1CCpHrJgC&dq=Fellowship+of+the+Ring+Tolkien&hl=&source=gbs_api",
   "reading_status": "read",
   "subjects": [
-    "Elves",
     "Dwarves",
+    "Elves",
+    "English Fantasy fiction",
+    "Fantastic fiction",
+    "Fantasy fiction",
+    "Ficción",
+    "Ficción fantástica inglesa",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "Open Library Staff Picks",
+    "The Lord of the Rings",
     "evil",
     "fear",
     "hope",
-    "young adult fiction",
-    "Ficción",
-    "Ficción fantástica inglesa",
-    "Fantastic fiction",
-    "The Lord of the Rings"
+    "young adult fiction"
   ],
   "copyright_status": "likely_public_domain"
 }

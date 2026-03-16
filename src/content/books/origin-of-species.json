@@ -1,11 +1,12 @@
 {
   "title": "Origin of Species",
-  "author": "Darwin",
+  "author": "Charles Darwin",
   "category": "Science",
   "priority": 1,
   "slug": "origin-of-species",
   "tags": [
-    "biology"
+    "biology",
+    "google-play-library"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/7153600-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7153600-L.jpg",
@@ -17,16 +18,20 @@
   "google_books_url": "https://play.google.com/store/books/details?id=YY4EAAAAYAAJ&source=gbs_api",
   "reading_status": "want",
   "subjects": [
+    "Banned Books from Anne Haight's list",
+    "Biology",
+    "Category: Science - Biology",
+    "Classic Literature",
+    "Evolución",
     "Evolution",
     "Evolution (Biology)",
-    "Evolución",
-    "great_books_of_the_western_world",
+    "Harvard Classics",
+    "Heredity",
     "Natural selection",
     "Nonfiction",
-    "Classic Literature",
-    "open_syllabus_project",
     "Origin",
-    "Heredity"
+    "great_books_of_the_western_world",
+    "open_syllabus_project"
   ],
   "copyright_status": "public_domain",
   "gutenberg_id": 1228,

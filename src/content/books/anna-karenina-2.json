@@ -1,6 +1,6 @@
 {
   "title": "Anna Karenina",
-  "author": "Tolstoy",
+  "author": "Leo Tolstoy",
   "category": "Literature",
   "priority": 1,
   "slug": "anna-karenina-2",
@@ -16,7 +16,8 @@
   "isbn": "9783736817296",
   "pages": 2255,
   "subjects": [
-    "Drama"
+    "Drama",
+    "Fiction"
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=MjLBAwAAQBAJ&source=gbs_api",
   "reading_status": "want",

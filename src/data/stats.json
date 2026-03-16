@@ -1,23 +1,23 @@
 {
-  "total_books": 3591,
+  "total_books": 3534,
   "total_categories": 29,
-  "total_authors": 1708,
+  "total_authors": 1634,
   "priorities": {
-    "must_read": 1696,
-    "recommended": 1861,
+    "must_read": 1640,
+    "recommended": 1860,
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3524,
+    "covers": 3467,
     "covers_pct": 98.1,
-    "descriptions": 3547,
+    "descriptions": 3490,
     "descriptions_pct": 98.8,
-    "isbns": 2669,
+    "isbns": 2625,
     "isbns_pct": 74.3,
-    "pages": 3073,
+    "pages": 3025,
     "pages_pct": 85.6,
-    "years": 3430,
-    "subjects": 3107
+    "years": 3372,
+    "subjects": 3056
   },
   "top_authors": [
     {
@@ -34,6 +34,10 @@
     },
     {
       "name": "Edgar Rice Burroughs",
+      "count": 18
+    },
+    {
+      "name": "Ursula K. Le Guin",
       "count": 17
     },
     {
@@ -49,15 +53,15 @@
       "count": 15
     },
     {
-      "name": "Ursula K. Le Guin",
+      "name": "Agatha Christie",
       "count": 15
     },
     {
-      "name": "C.S. Lewis",
+      "name": "Honoré de Balzac",
       "count": 14
     },
     {
-      "name": "Agatha Christie",
+      "name": "C.S. Lewis",
       "count": 14
     },
     {
@@ -73,7 +77,7 @@
       "count": 12
     },
     {
-      "name": "Honoré de Balzac",
+      "name": "Donald E. Knuth",
       "count": 12
     },
     {
@@ -81,50 +85,46 @@
       "count": 12
     },
     {
+      "name": "Arthur Conan Doyle",
+      "count": 11
+    },
+    {
       "name": "Octavia E. Butler",
+      "count": 11
+    },
+    {
+      "name": "Friedrich Nietzsche",
       "count": 11
     },
     {
       "name": "Robert A. Heinlein",
       "count": 11
-    },
-    {
-      "name": "Roger Zelazny",
-      "count": 10
-    },
-    {
-      "name": "Arthur Conan Doyle",
-      "count": 10
-    },
-    {
-      "name": "Aeschylus",
-      "count": 10
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 1126
+      "count": 1093
     },
     {
       "name": "Science Fiction",
-      "count": 328
+      "count": 330
     },
     {
       "name": "Philosophy",
-      "count": 299
+      "count": 278
     },
     {
       "name": "Fantasy",
-      "count": 267
+      "count": 276
     },
     {
       "name": "History",
-      "count": 212
+      "count": 209
     },
     {
       "name": "Mystery",
-      "count": 198
+      "count": 197
     },
     {
       "name": "Computer Science",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Security",
-      "count": 74
+      "count": 73
     },
     {
       "name": "Classics",
@@ -152,7 +152,7 @@
     },
     {
       "name": "Economics",
-      "count": 62
+      "count": 61
     },
     {
       "name": "Non-Western Literature",
@@ -160,15 +160,15 @@
     },
     {
       "name": "Political Theory",
-      "count": 48
-    },
-    {
-      "name": "Mathematics",
-      "count": 43
+      "count": 45
     },
     {
       "name": "Science",
-      "count": 42
+      "count": 41
+    },
+    {
+      "name": "Mathematics",
+      "count": 41
     },
     {
       "name": "Literary Criticism",
@@ -184,7 +184,7 @@
     },
     {
       "name": "Speculative Fiction",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Contemporary Speculative Fiction",
@@ -220,25 +220,25 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 153,
-    "1800_1899": 253,
-    "1900_1949": 444,
-    "1950_1999": 1133,
-    "2000_plus": 1447
+    "before_1800": 148,
+    "1800_1899": 250,
+    "1900_1949": 432,
+    "1950_1999": 1107,
+    "2000_plus": 1435
   },
   "reading_progress": {
-    "read": 1602,
+    "read": 1594,
     "reading": 0,
-    "want": 1989,
+    "want": 1940,
     "unread": 0
   },
   "oldest_year": 1467,
-  "newest_year": 2030,
+  "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1155355,
-    "estimated_reading_hours": 19256,
-    "shelf_meters": 89.8,
-    "books_with_pages": 3073
+    "total_pages": 1129957,
+    "estimated_reading_hours": 18833,
+    "shelf_meters": 88.4,
+    "books_with_pages": 3025
   },
-  "generated_at": "2026-03-16T10:03:57.517750"
+  "generated_at": "2026-03-16T11:05:41.219147"
 }

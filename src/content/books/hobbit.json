@@ -1,6 +1,6 @@
 {
   "title": "Hobbit",
-  "author": "Tolkien",
+  "author": "J.R.R. Tolkien",
   "category": "Fantasy",
   "priority": 1,
   "slug": "hobbit",
@@ -18,16 +18,17 @@
   "google_books_url": "https://play.google.com/store/books/details?id=OlCHcjX0RT4C&source=gbs_api",
   "reading_status": "want",
   "subjects": [
-    "Fantasy",
     "Arkenstone",
     "Battle of Five Armies",
-    "invisibility",
-    "thrushes",
+    "Fantasy",
+    "Hobbit (Tolkien, J.R.R.)",
+    "dragons",
+    "dwarves",
     "eagles",
     "hobbits",
-    "wizards",
-    "dragons",
-    "dwarves"
+    "invisibility",
+    "thrushes",
+    "wizards"
   ],
   "copyright_status": "likely_public_domain"
 }

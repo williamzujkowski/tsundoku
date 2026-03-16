@@ -5,7 +5,9 @@
   "priority": 1,
   "slug": "antifragile-2",
   "tags": [
-    "economics"
+    "economics",
+    "philosophy",
+    "psychology"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/9180157-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9180157-L.jpg",
@@ -21,8 +23,18 @@
   "worldcat_url": "https://www.worldcat.org/oclc/909039584",
   "lccn": "2013431100",
   "subjects": [
+    "BUSINESS & ECONOMICS / General",
     "Business",
-    "Economics"
+    "Complexity (Philosophy)",
+    "Economics",
+    "Forecasting",
+    "Long Now Manual for Civilization",
+    "PSYCHOLOGY / General",
+    "Psychological Adaptation",
+    "Psychological Resilience",
+    "Resilience (Personality trait)",
+    "Social aspects",
+    "Uncertainty (Information theory)"
   ],
   "copyright_status": "in_copyright"
 }
