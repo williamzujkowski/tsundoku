@@ -91,22 +91,24 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
       </div>
     </footer>
     <script is:inline>
-      const btn = document.getElementById('mobile-menu-btn');
-      const menu = document.getElementById('mobile-menu');
-      if (btn && menu) {
-        btn.addEventListener('click', () => {
-          const expanded = btn.getAttribute('aria-expanded') === 'true';
-          btn.setAttribute('aria-expanded', String(!expanded));
-          menu.classList.toggle('hidden');
-        });
-        // Close menu when a nav link is clicked
-        menu.querySelectorAll('.mobile-nav-link').forEach(link => {
-          link.addEventListener('click', () => {
-            menu.classList.add('hidden');
-            btn.setAttribute('aria-expanded', 'false');
+      // Re-attach on every navigation (View Transitions swap DOM)
+      document.addEventListener('astro:page-load', () => {
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        if (btn && menu) {
+          btn.addEventListener('click', () => {
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', String(!expanded));
+            menu.classList.toggle('hidden');
           });
-        });
-      }
+          menu.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+              menu.classList.add('hidden');
+              btn.setAttribute('aria-expanded', 'false');
+            });
+          });
+        }
+      });
     </script>
   </body>
 </html>
