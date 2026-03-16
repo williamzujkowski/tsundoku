@@ -12,5 +12,17 @@
   "isbn": "9351103188",
   "first_published": 2016,
   "google_books_url": "http://books.google.com/books?id=RgkXjwEACAAJ&dq=intitle:Doing+Data+Science&hl=&source=gbs_api",
-  "language": "eng"
+  "language": "eng",
+  "subjects": [
+    "Information science",
+    "Cyberinfrastructure",
+    "Big data",
+    "Database management",
+    "Data mining",
+    "Data structures (Computer science)",
+    "Time series",
+    "Data processing",
+    "Bayesian analysis",
+    "Regression analysis"
+  ]
 }

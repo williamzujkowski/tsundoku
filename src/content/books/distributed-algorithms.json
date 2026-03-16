@@ -14,5 +14,16 @@
   "isbn": "9780080504704",
   "pages": 899,
   "google_books_url": "https://play.google.com/store/books/details?id=2wsrLg-xBGgC&source=gbs_api",
-  "reading_status": "want"
+  "reading_status": "want",
+  "subjects": [
+    "Computer algorithms",
+    "Electronic data processing",
+    "Distributed processing",
+    "General",
+    "Storage & retrieval",
+    "Professional, career & trade -> computer science -> programming languages (jr/sr)",
+    "Professional, career & trade -> computer science -> database management",
+    "Professional, career & trade -> computer science -> system administration",
+    "Algorithms"
+  ]
 }
