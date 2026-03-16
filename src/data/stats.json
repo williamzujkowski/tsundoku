@@ -1,21 +1,21 @@
 {
-  "total_books": 3612,
+  "total_books": 3644,
   "total_categories": 31,
-  "total_authors": 1722,
+  "total_authors": 1743,
   "priorities": {
-    "must_read": 1664,
+    "must_read": 1696,
     "recommended": 1913,
     "supplementary": 35
   },
   "enrichment": {
     "covers": 3459,
-    "covers_pct": 95.8,
+    "covers_pct": 94.9,
     "descriptions": 3002,
-    "descriptions_pct": 83.1,
+    "descriptions_pct": 82.4,
     "isbns": 2689,
-    "isbns_pct": 74.4,
+    "isbns_pct": 73.8,
     "pages": 3117,
-    "pages_pct": 86.3,
+    "pages_pct": 85.5,
     "years": 3477,
     "subjects": 3044
   },
@@ -112,7 +112,7 @@
     },
     {
       "name": "Philosophy",
-      "count": 297
+      "count": 299
     },
     {
       "name": "Fantasy",
@@ -120,7 +120,7 @@
     },
     {
       "name": "History",
-      "count": 210
+      "count": 212
     },
     {
       "name": "Mystery",
@@ -132,15 +132,19 @@
     },
     {
       "name": "Poetry",
-      "count": 154
+      "count": 158
     },
     {
       "name": "Drama",
-      "count": 105
+      "count": 106
     },
     {
       "name": "Security",
       "count": 77
+    },
+    {
+      "name": "Classics",
+      "count": 69
     },
     {
       "name": "Horror",
@@ -151,16 +155,12 @@
       "count": 62
     },
     {
-      "name": "Classics",
-      "count": 53
+      "name": "Non-Western Literature",
+      "count": 52
     },
     {
       "name": "Political Theory",
       "count": 48
-    },
-    {
-      "name": "Non-Western Literature",
-      "count": 47
     },
     {
       "name": "Mathematics",
@@ -176,7 +176,7 @@
     },
     {
       "name": "Non-Western Philosophy",
-      "count": 30
+      "count": 32
     },
     {
       "name": "Essays",
@@ -235,9 +235,9 @@
     "2000_plus": 1474
   },
   "reading_progress": {
-    "read": 1606,
+    "read": 1653,
     "reading": 0,
-    "want": 2006,
+    "want": 1991,
     "unread": 0
   },
   "oldest_year": 1467,
@@ -245,8 +245,8 @@
   "bookshelf": {
     "total_pages": 1168792,
     "estimated_reading_hours": 19480,
-    "shelf_meters": 90.3,
+    "shelf_meters": 91.1,
     "books_with_pages": 3117
   },
-  "generated_at": "2026-03-16T00:51:03.044883"
+  "generated_at": "2026-03-16T00:56:10.655322"
 }
