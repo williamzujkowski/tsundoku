@@ -5,6 +5,7 @@
   "priority": 1,
   "slug": "utopia",
   "tags": [
+    "philosophy",
     "utopian"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/7222976-M.jpg",
@@ -19,15 +20,23 @@
   "reading_status": "want",
   "copyright_status": "public_domain",
   "subjects": [
-    "Utopias",
-    "Proverbs",
     "Bibliography",
-    "Utopías",
-    "Fiction",
-    "Miniature books",
-    "Early works to 1800",
-    "Nonfiction",
+    "Category: British Literature",
+    "Category: Classics of Literature",
+    "Category: Philosophy & Ethics",
     "Consolation",
-    "Politics"
-  ]
+    "Early works to 1800",
+    "Fiction",
+    "Harvard Classics",
+    "Miniature books",
+    "Nonfiction",
+    "Politics",
+    "Proverbs",
+    "Utopias",
+    "Utopias -- Early works to 1800",
+    "Utopías"
+  ],
+  "gutenberg_id": 2130,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/2130",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2130.html.images"
 }

@@ -5,6 +5,7 @@
   "priority": 2,
   "slug": "vikram-and-the-vampire",
   "tags": [
+    "adventure",
     "fantasy",
     "google-play-library",
     "historical-fiction"
@@ -16,17 +17,26 @@
   "pages": 200,
   "google_books_url": "http://books.google.com/books?id=c3pFSAAACAAJ&dq=intitle:Vikram+and+the+Vampire&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
+    "Category: Adventure",
+    "Category: Mythology, Legends & Folklore",
+    "Classic Literature",
     "Fantasy",
     "Fiction",
-    "Historical Fiction",
-    "Classic Literature",
-    "Hinduism",
-    "Tales",
-    "Tales, india",
-    "Hindu Tales",
     "Hindu Legends",
-    "Vampires"
-  ]
+    "Hindu Tales",
+    "Hinduism",
+    "Hindus -- Folklore",
+    "Historical Fiction",
+    "India",
+    "Tales",
+    "Tales -- India",
+    "Tales, india",
+    "Vampires",
+    "Vampires -- India -- Folklore"
+  ],
+  "gutenberg_id": 2400,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/2400",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2400.html.images"
 }

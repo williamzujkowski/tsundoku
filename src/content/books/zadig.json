@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "zadig",
-  "tags": [],
+  "tags": [
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/3072291-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/3072291-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL100665W",
@@ -15,5 +17,16 @@
   "pages": 160,
   "google_books_url": "http://books.google.com/books?id=EqJiswEACAAJ&dq=Zadig+Voltaire&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "subjects": [
+    "Category: French Literature",
+    "Category: Novels",
+    "Category: Philosophy & Ethics",
+    "French literature -- 18th century",
+    "Manners and customs -- Fiction",
+    "Political fiction, French"
+  ],
+  "gutenberg_id": 18972,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/18972",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/18972.html.images"
 }

@@ -4,7 +4,10 @@
   "category": "Literature",
   "priority": 2,
   "slug": "vanity-fair",
-  "tags": [],
+  "tags": [
+    "historical-fiction",
+    "satire"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/417329-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/417329-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16313W",
@@ -12,5 +15,22 @@
   "language": "eng",
   "reading_status": "want",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/vanity-fair-by-william-makepeace-thackeray/"
+  "librivox_url": "https://librivox.org/vanity-fair-by-william-makepeace-thackeray/",
+  "subjects": [
+    "British -- Europe -- Fiction",
+    "Category: British Literature",
+    "Category: Classics of Literature",
+    "Category: Novels",
+    "England -- Fiction",
+    "Female friendship -- Fiction",
+    "Harvard Classics",
+    "Historical Fiction",
+    "Married women -- Fiction",
+    "Satire",
+    "Social classes -- Fiction",
+    "Waterloo, Battle of, Waterloo, Belgium, 1815 -- Fiction"
+  ],
+  "gutenberg_id": 599,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/599",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/599.html.images"
 }
