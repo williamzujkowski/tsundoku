@@ -4,7 +4,10 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "the-sign-of-four",
-  "tags": [],
+  "tags": [
+    "mystery",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9247987-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9247987-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL262438W",
