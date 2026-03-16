@@ -16,5 +16,17 @@
   "google_books_url": "https://play.google.com/store/books/details?id=oTU0DwAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "oclc_id": "1033693095",
-  "worldcat_url": "https://www.worldcat.org/oclc/1033693095"
+  "worldcat_url": "https://www.worldcat.org/oclc/1033693095",
+  "subjects": [
+    "franchise:The Murderbot Diaries",
+    "series:The Murderbot Diaries",
+    "form:novella",
+    "genre:science fiction",
+    "Human-computer interaction",
+    "Life on other planets",
+    "Artificial intelligence",
+    "Androids",
+    "Robots",
+    "Interplanetary voyages"
+  ]
 }

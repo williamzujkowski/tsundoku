@@ -31,10 +31,10 @@ KEYWORD_RULES: list[tuple[list[str], str]] = [
     (["cryptography", "cybersecurity", "information security", "malware",
       "penetration testing", "network security", "encryption"], "Security"),
 
-    # Physics / Chemistry / Biology → Science
+    # Physics / Chemistry / Biology → Science (avoid fiction triggers)
     (["quantum mechanics", "quantum physics", "thermodynamics", "relativity",
-      "evolution", "genetics", "molecular biology", "chemistry",
-      "astrophysics", "cosmology"], "Science"),
+      "genetics", "molecular biology", "chemistry",
+      "astrophysics", "cosmology", "evolutionary biology"], "Science"),
 
     # Economics
     (["economics", "macroeconomics", "microeconomics", "fiscal",
