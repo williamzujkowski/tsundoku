@@ -37,8 +37,10 @@ def load_all_books() -> list[tuple[Path, dict]]:
 
 
 def save_book(path: Path, book: dict) -> None:
-    """Write book JSON with consistent formatting."""
-    path.write_text(json.dumps(book, indent=2, ensure_ascii=False))
+    """Write book JSON with consistent formatting. Strips null values
+    to avoid Zod .optional() validation failures (expects absent, not null)."""
+    cleaned = {k: v for k, v in book.items() if v is not None}
+    path.write_text(json.dumps(cleaned, indent=2, ensure_ascii=False))
 
 
 # API base URLs
