@@ -34,7 +34,7 @@ jobs:
       - name: Run JS tests
         run: npm test
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -55,7 +55,7 @@ jobs:
           node-version: '22'
           cache: npm
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
