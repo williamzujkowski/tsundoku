@@ -4,7 +4,10 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "animal-farm",
-  "tags": [],
+  "tags": [
+    "drama",
+    "satire"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/11261770-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11261770-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1168007W",

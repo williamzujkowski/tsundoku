@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "selected-poems",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/4689844-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4689844-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL847188W",

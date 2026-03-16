@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 1,
   "slug": "handbook-of-applied-cryptography",
-  "tags": [],
+  "tags": [
+    "math"
+  ],
   "description": "Cryptography, in particular public-key cryptography, has emerged in the last 20 years as an important discipline that is not only the subject of an enormous amount of research, but provides the foundation for information security in many applications. Standards are emerging to meet the demands for cryptographic protection in most areas of data communications. Public-key cryptographic techniques are now in widespread use, especially in the financial services industry, in the public sector, and by...",
   "cover_url": "https://books.google.com/books/content?id=MhvcBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=MhvcBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

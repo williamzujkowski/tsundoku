@@ -4,7 +4,10 @@
   "category": "Security",
   "priority": 1,
   "slug": "applied-cryptography",
-  "tags": [],
+  "tags": [
+    "computing",
+    "security"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/3930979-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/3930979-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2905639W",

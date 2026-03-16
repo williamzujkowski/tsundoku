@@ -4,7 +4,10 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems-10",
-  "tags": [],
+  "tags": [
+    "philosophy",
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/10721557-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10721557-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15120217W",

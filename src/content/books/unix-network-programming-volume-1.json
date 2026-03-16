@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "unix-network-programming-volume-1",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "To build today's highly distributed, networked applications and services, you need deep mastery of sockets and other key networking APIs. One book delivers comprehensive, start-to-finish guidance for building robust, high-performance networked systems in any environment: UNIX Network Programming, Volume 1, Third Edition.",
   "cover_url": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

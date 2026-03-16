@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-art-of-multiprocessor-programming",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "The Art of Multiprocessor Programming, Second Edition, provides users with an authoritative guide to multicore programming. This updated edition introduces higher level software development skills relative to those needed for efficient single-core programming, and includes comprehensive coverage of the new principles, algorithms, and tools necessary for effective multiprocessor programming. The book is an ideal resource for students and professionals alike who will benefit from its thorough cove...",
   "cover_url": "https://books.google.com/books/content?id=7MqcBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=7MqcBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

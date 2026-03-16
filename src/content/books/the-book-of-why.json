@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-book-of-why",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8179733-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8179733-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17872278W",

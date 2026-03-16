@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "introduction-to-algorithms-2",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "An extensively revised edition of a mathematically rigorous yet accessible introduction to algorithms.",
   "cover_url": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

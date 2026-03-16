@@ -4,7 +4,11 @@
   "category": "Science",
   "priority": 1,
   "slug": "the-double-helix",
-  "tags": [],
+  "tags": [
+    "biography",
+    "biology",
+    "chemistry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/4613920-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4613920-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2125469W",

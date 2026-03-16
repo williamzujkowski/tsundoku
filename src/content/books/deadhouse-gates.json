@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "deadhouse-gates",
-  "tags": [],
+  "tags": [
+    "fantasy",
+    "sci-fi"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/525197-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/525197-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5734770W",

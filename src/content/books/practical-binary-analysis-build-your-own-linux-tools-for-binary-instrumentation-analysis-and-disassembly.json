@@ -5,7 +5,9 @@
   "priority": 2,
   "slug": "practical-binary-analysis-build-your-own-linux-tools-for-binary-instrumentation-analysis-and-disassembly",
   "tags": [
-    "google-play-library"
+    "computing",
+    "google-play-library",
+    "math"
   ],
   "reading_status": "read",
   "description": "Stop manually analyzing binary! Practical Binary Analysis is the first book of its kind to present advanced binary analysis topics, such as binary instrumentation, dynamic taint analysis, and symbolic execution, in an accessible way. As malware increasingly obfuscates itself and applies anti-analysis techniques to thwart our analysis, we need more sophisticated methods that allow us to raise that dark curtain designed to keep us out--binary analysis can help. The goal of all binary analysis is t",

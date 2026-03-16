@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 1,
   "slug": "cat-on-a-hot-tin-roof",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/10178336-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10178336-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30292W",

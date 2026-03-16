@@ -4,7 +4,9 @@
   "category": "Science",
   "priority": 1,
   "slug": "the-elegant-universe",
-  "tags": [],
+  "tags": [
+    "astronomy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/1007630-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1007630-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7920347W",

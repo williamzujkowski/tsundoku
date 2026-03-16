@@ -4,7 +4,9 @@
   "category": "Mathematics",
   "priority": 1,
   "slug": "a-course-in-arithmetic",
-  "tags": [],
+  "tags": [
+    "math"
+  ],
   "description": "A modern introduction to three areas of number theory: quadratic forms, Dirichlet's density theorem and modular forms. \"... Accessible to graduate or even undergraduate students, yet even the advanced mathematician will enjoy reading it.\" - American Scientist.",
   "cover_url": "https://books.google.com/books/content?id=UcFaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=UcFaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

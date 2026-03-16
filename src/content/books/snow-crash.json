@@ -4,7 +4,12 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "snow-crash",
-  "tags": [],
+  "tags": [
+    "drama",
+    "humor",
+    "sci-fi",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/392508-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/392508-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38501W",

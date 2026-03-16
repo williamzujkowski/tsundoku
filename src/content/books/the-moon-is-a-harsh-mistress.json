@@ -4,7 +4,10 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "the-moon-is-a-harsh-mistress",
-  "tags": [],
+  "tags": [
+    "biology",
+    "sci-fi"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14631258-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14631258-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59704W",

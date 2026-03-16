@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "philosophical-dictionary",
-  "tags": [],
+  "tags": [
+    "satire"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6573828-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6573828-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL100630W",

@@ -4,7 +4,10 @@
   "category": "Literary Criticism",
   "priority": 1,
   "slug": "lives-of-the-poets",
-  "tags": [],
+  "tags": [
+    "biography",
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5904516-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5904516-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14862669W",

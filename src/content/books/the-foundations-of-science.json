@@ -4,7 +4,10 @@
   "category": "Mathematics",
   "priority": 1,
   "slug": "the-foundations-of-science",
-  "tags": [],
+  "tags": [
+    "math",
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8503644-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8503644-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL708902W",
@@ -26,5 +29,8 @@
     "Methods",
     "English language",
     "Study and teaching (Elementary)"
-  ]
+  ],
+  "gutenberg_id": 39713,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/39713",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/39713.html.images"
 }

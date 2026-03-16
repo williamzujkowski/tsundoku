@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "artificial-intelligence-a-modern-approach",
-  "tags": [],
+  "tags": [
+    "ai"
+  ],
   "description": "A highly accessible, up-to-date professional reference for programmers, software engineers, system administrators, or technical managers, this book integrates state-of-the-art AI techniques into intelligent agent designs using examples and exercises to lead the reader from simple reactive agents to full knowledge-based agents with natural language capabilities.",
   "cover_url": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

@@ -4,7 +4,11 @@
   "category": "Science Fiction",
   "priority": 2,
   "slug": "attack-surface",
-  "tags": [],
+  "tags": [
+    "sci-fi",
+    "security",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/10129079-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10129079-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20825335W",

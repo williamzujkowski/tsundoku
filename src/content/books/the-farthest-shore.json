@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "the-farthest-shore",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6498990-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6498990-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59855W",

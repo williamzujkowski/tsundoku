@@ -4,7 +4,12 @@
   "category": "Literature",
   "priority": 2,
   "slug": "dear-life",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "children",
+    "drama",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8330037-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8330037-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16813370W",

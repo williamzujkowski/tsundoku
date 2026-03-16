@@ -4,7 +4,9 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "five-little-pigs",
-  "tags": [],
+  "tags": [
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14578138-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14578138-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL471666W",

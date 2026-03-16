@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "notes-on-programming-in-c",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Unlock the secrets of Linux system programming and take your coding skills to the next level Do you use Linux, but not really understand it? Have you ever wondered how ls -l knows everything it does? Could you explain to a coworker why ls and find can be external commands but cd and umask must be built into the shell? The answers to these questions, and more, are in Linux Application Development by Example, Second Edition! This book tells you exactly what you need to know--no more and no less--a...",
   "cover_url": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

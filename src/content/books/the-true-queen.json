@@ -4,7 +4,12 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "the-true-queen",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "children",
+    "drama",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8809381-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8809381-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20163324W",

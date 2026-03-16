@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-c-programming-language",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Software -- Programming Languages.",
   "cover_url": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

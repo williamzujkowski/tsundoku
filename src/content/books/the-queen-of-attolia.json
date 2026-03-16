@@ -4,7 +4,11 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "the-queen-of-attolia",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "children",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/432882-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/432882-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14872531W",

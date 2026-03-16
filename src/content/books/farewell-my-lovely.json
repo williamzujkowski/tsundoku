@@ -4,7 +4,9 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "farewell-my-lovely",
-  "tags": [],
+  "tags": [
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6460991-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6460991-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3295514W",

@@ -4,7 +4,12 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "the-illustrated-man",
-  "tags": [],
+  "tags": [
+    "fantasy",
+    "horror",
+    "sci-fi",
+    "short-stories"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9345484-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9345484-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL103128W",

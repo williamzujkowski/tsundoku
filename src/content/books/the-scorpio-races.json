@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 3,
   "slug": "the-scorpio-races",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6955308-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6955308-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16221923W",

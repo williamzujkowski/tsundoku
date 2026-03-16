@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 2,
   "slug": "the-hardware-hacking-handbook",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "The Hardware Hacking Handbook takes you deep inside embedded devices to show how different kinds of attacks work, then guides you through each hack on real hardware. Embedded devices are chip-size microcomputers small enough to be included in the structure of the object they control, and they’re everywhere—in phones, cars, credit cards, laptops, medical equipment, even critical infrastructure. This means understanding their security is critical. The Hardware Hacking Handbook takes you deep insid...",
   "cover_url": "https://books.google.com/books/content?id=nURBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=nURBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

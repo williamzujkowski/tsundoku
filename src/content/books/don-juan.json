@@ -4,7 +4,9 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "don-juan",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5587060-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5587060-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1092579W",

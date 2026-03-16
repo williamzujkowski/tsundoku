@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 2,
   "slug": "top-girls",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/261388-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/261388-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL485225W",

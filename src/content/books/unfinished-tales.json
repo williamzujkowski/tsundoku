@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "unfinished-tales",
-  "tags": [],
+  "tags": [
+    "fantasy",
+    "short-stories"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9293458-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9293458-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27466W",

@@ -4,7 +4,11 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "abhorsen",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy",
+    "sci-fi"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/31567-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/31567-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2628772W",

@@ -4,7 +4,12 @@
   "category": "Non-Western Literature",
   "priority": 2,
   "slug": "frontier",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy",
+    "utopian",
+    "young-adult"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9255274-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9255274-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20639284W",

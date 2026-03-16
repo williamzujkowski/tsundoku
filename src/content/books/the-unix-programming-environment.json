@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-unix-programming-environment",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "This book describes the UNIX? programming environment and philosophy.",
   "cover_url": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

@@ -4,7 +4,9 @@
   "category": "Horror",
   "priority": 2,
   "slug": "ghost-summer",
-  "tags": [],
+  "tags": [
+    "horror"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8576725-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8576725-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19702123W",

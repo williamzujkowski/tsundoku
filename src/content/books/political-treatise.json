@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "political-treatise",
-  "tags": [],
+  "tags": [
+    "philosophy",
+    "politics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/662400-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/662400-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14905827W",

@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 2,
   "slug": "six-characters-in-search-of-an-author",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/10641485-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10641485-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24201762W",

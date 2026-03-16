@@ -4,7 +4,9 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "tigana",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/477417-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/477417-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1988290W",

@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "programming-with-posix-threads",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL26342717W",
   "language": "eng",
   "description": "With this practical book, you will attain a solid understanding of threads and will discover how to put this powerful mode of programming to work in real-world applications. The primary advantage of threaded programming is that it enables your applications to accomplish more than one task at the same time by using the number-crunching power of multiprocessor parallelism and by automatically exploiting I/O concurrency in your code, even on a single processor machine. The result: applications that...",

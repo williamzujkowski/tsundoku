@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 2,
   "slug": "owasp-asvs",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Networking & Security",
   "cover_url": "https://books.google.com/books/content?id=jro7ubrpfNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=jro7ubrpfNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

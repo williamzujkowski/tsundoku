@@ -4,7 +4,9 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "gaudy-night",
-  "tags": [],
+  "tags": [
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5343404-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5343404-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2234851W",

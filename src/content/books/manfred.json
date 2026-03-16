@@ -4,7 +4,10 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "manfred",
-  "tags": [],
+  "tags": [
+    "biography",
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/7232412-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7232412-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1092574W",

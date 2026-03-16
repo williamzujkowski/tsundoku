@@ -4,7 +4,9 @@
   "category": "Literary Criticism",
   "priority": 1,
   "slug": "theory-of-literature",
-  "tags": [],
+  "tags": [
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/15077582-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/15077582-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL33777444W",

@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 1,
   "slug": "a-raisin-in-the-sun",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6796839-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6796839-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2916090W",

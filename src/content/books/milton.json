@@ -4,7 +4,10 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "milton",
-  "tags": [],
+  "tags": [
+    "children",
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5907198-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5907198-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL575435W",

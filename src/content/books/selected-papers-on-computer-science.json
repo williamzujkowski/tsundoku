@@ -4,7 +4,10 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "selected-papers-on-computer-science",
-  "tags": [],
+  "tags": [
+    "computing",
+    "math"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/927862-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/927862-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14941587W",

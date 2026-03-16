@@ -4,7 +4,9 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "philosophical-investigations",
-  "tags": [],
+  "tags": [
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9319038-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9319038-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1410375W",

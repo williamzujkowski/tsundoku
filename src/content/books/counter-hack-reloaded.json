@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 2,
   "slug": "counter-hack-reloaded",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "This guide empowers network and system administrators to defend their information and computing assets--whether or not they have security experience. Skoudis presents comprehensive, insider's explanations of today's most destructive hacker tools and tactics, and specific, proven countermeasures for both UNIX and Windows environments.",
   "cover_url": "https://books.google.com/books/content?id=nulSAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=nulSAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

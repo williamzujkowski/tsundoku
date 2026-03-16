@@ -4,7 +4,9 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "the-eternal-champion",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/910948-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/910948-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2697419W",

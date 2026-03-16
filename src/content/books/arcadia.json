@@ -4,7 +4,11 @@
   "category": "Drama",
   "priority": 2,
   "slug": "arcadia",
-  "tags": [],
+  "tags": [
+    "drama",
+    "math",
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5408983-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5408983-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL804974W",

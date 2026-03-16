@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "a-stranger-in-olondria",
-  "tags": [],
+  "tags": [
+    "fantasy",
+    "horror"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9987319-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9987319-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16654685W",

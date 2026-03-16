@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 1,
   "slug": "writing-secure-code",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Keep black-hat hackers at bay with the tips and techniques in this entertaining, eye-opening book! Developers will learn how to padlock their applications throughout the entire development process—from designing secure applications to writing robust code that can withstand repeated attacks to testing applications for security flaws. Easily digested chapters reveal proven principles, strategies, and coding techniques. The authors—two battle-scarred veterans who have solved some of the industry’s ...",
   "cover_url": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-art-of-computer-programming-vol-4b",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "The Art of Computer Programming is Knuth's multivolume analysis of algorithms. With the addition of this new volume, it continues to be the definitive description of classical computer science. Volume 4B, the sequel to Volume 4A, extends Knuth's exploration of combinatorial algorithms. These algorithms are of keen interest to software designers because \". . . a single good idea can save years or even centuries of computer time.\" The book begins with coverage of Backtrack Programming, together wi...",
   "cover_url": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

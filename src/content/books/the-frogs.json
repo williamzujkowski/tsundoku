@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 1,
   "slug": "the-frogs",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/104385-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/104385-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20200W",
@@ -23,5 +25,8 @@
     "Voyages to the otherworld",
     "Playwriting",
     "Voyages to the otherworld in literature"
-  ]
+  ],
+  "gutenberg_id": 7998,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/7998",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7998.html.images"
 }

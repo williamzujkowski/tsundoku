@@ -4,7 +4,9 @@
   "category": "Horror",
   "priority": 2,
   "slug": "collected-ghost-stories",
-  "tags": [],
+  "tags": [
+    "horror"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9054272-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9054272-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL707919W",

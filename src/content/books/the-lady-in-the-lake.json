@@ -4,7 +4,9 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "the-lady-in-the-lake",
-  "tags": [],
+  "tags": [
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/254507-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/254507-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3295516W",

@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "song-for-the-basilisk",
-  "tags": [],
+  "tags": [
+    "biology",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/283638-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/283638-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL92473W",

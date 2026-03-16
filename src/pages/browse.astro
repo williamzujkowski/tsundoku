@@ -16,10 +16,15 @@ const bookData = books.map(b => ({
   cover_url: b.data.cover_url,
   first_published: b.data.first_published,
   reading_status: b.data.reading_status,
+  tags: b.data.tags,
 }));
+// Extract unique genre tags sorted by frequency
+const tagCounts = new Map<string, number>();
+bookData.forEach(b => b.tags?.forEach(t => tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)));
+const allTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).map(([t]) => t);
 ---
 
 <Layout title="Browse">
   <h1 class="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Browse Books</h1>
-  <BookGrid client:load books={bookData} categories={categories} baseUrl={base} />
+  <BookGrid client:load books={bookData} categories={categories} tags={allTags} baseUrl={base} />
 </Layout>

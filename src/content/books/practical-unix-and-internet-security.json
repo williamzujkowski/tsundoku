@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 2,
   "slug": "practical-unix-and-internet-security",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "The definitive book on UNIX security, this volume covers every aspect of computer security on UNIX machines and the Internet.",
   "cover_url": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

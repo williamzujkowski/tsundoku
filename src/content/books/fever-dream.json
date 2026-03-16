@@ -4,7 +4,10 @@
   "category": "Literature",
   "priority": 2,
   "slug": "fever-dream",
-  "tags": [],
+  "tags": [
+    "horror",
+    "romance"
+  ],
   "cover_url": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1786072386",

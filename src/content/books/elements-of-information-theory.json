@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "elements-of-information-theory",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "The latest edition of this classic is updated with new problem sets and material The Second Edition of this fundamental textbook maintains the book's tradition of clear, thought-provoking instruction. Readers are provided once again with an instructive mix of mathematics, physics, statistics, and information theory. All the essential topics in information theory are covered in detail, including entropy, data compression, channel capacity, rate distortion, network information theory, and hypothes...",
   "cover_url": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

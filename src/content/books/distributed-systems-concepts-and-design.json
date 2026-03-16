@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "distributed-systems-concepts-and-design",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Up-to-date coverage of the latest development in this fast moving area, including the debate between components and web services as the way for the industry to go, increased emphasis on security and the arrival of ubiquitous computing in the form of, among other things, The Grid.",
   "cover_url": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

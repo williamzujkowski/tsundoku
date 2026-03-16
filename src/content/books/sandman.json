@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "sandman",
-  "tags": [],
+  "tags": [
+    "horror",
+    "humor"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9150699-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9150699-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21213336W",

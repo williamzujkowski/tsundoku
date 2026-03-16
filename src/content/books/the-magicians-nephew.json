@@ -4,7 +4,12 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "the-magicians-nephew",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy",
+    "humor",
+    "romance"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/11756428-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11756428-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24867882W",

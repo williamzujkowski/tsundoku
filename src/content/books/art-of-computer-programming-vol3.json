@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "art-of-computer-programming-vol3",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "cover_url": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "first_published": 1973,

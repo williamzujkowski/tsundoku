@@ -4,7 +4,9 @@
   "category": "Poetry",
   "priority": 2,
   "slug": "selected-poems-15",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/38974-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/38974-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2008346W",

@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "the-republic",
-  "tags": [],
+  "tags": [
+    "politics",
+    "utopian"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14377522-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14377522-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL380265W",

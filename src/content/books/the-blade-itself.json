@@ -4,7 +4,9 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "the-blade-itself",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14543422-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14543422-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8400950W",

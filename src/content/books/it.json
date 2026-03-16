@@ -4,7 +4,10 @@
   "category": "Horror",
   "priority": 1,
   "slug": "it",
-  "tags": [],
+  "tags": [
+    "horror",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8569284-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8569284-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81613W",

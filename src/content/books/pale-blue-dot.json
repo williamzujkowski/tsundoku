@@ -4,7 +4,9 @@
   "category": "Science",
   "priority": 1,
   "slug": "pale-blue-dot",
-  "tags": [],
+  "tags": [
+    "astronomy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14417175-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14417175-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2950948W",

@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 3,
   "slug": "data-abstraction-and-hierarchy",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "SOLID principles are an essential part of object-oriented software development and have proven to be valuable tools for developing clean, maintainable and extensible code. In industrial automation engineering, especially in programming controllers with IEC 61131-3, it is of particular importance to develop robust and reliable systems. In this book, SOLID principles are presented in detail and explained with examples in IEC 61131-3. It also illustrates how the application of these principles impr...",
   "cover_url": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

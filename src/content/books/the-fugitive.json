@@ -4,7 +4,10 @@
   "category": "Literature",
   "priority": 1,
   "slug": "the-fugitive",
-  "tags": [],
+  "tags": [
+    "humor",
+    "romance"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/417795-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/417795-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1190278W",

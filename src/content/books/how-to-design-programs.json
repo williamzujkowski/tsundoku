@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 2,
   "slug": "how-to-design-programs",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "description": "Processing simple forms of data - Processing arbitrarily large data - More on processing arbitrarily large data - Abstracting designs - Generative recursion - Changing the state of variables - Changing compound values.",
   "cover_url": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

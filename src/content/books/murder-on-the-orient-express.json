@@ -4,7 +4,10 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "murder-on-the-orient-express",
-  "tags": [],
+  "tags": [
+    "children",
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/11100465-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11100465-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL471576W",

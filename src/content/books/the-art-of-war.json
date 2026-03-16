@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "the-art-of-war",
-  "tags": [],
+  "tags": [
+    "politics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/741720-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/741720-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1089254W",

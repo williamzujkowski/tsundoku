@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "categories",
-  "tags": [],
+  "tags": [
+    "astronomy",
+    "physics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/2761903-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2761903-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL9261353W",

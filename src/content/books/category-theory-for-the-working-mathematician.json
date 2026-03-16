@@ -4,7 +4,9 @@
   "category": "Mathematics",
   "priority": 1,
   "slug": "category-theory-for-the-working-mathematician",
-  "tags": [],
+  "tags": [
+    "math"
+  ],
   "description": "Category Theory has developed rapidly. This book aims to present those ideas and methods which can now be effectively used by Mathe maticians working in a variety of other fields of Mathematical research. This occurs at several levels. On the first level, categories provide a convenient conceptual language, based on the notions of category, functor, natural transformation, contravariance, and functor category. These notions are presented, with appropriate examples, in Chapters I and II. Next com...",
   "cover_url": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

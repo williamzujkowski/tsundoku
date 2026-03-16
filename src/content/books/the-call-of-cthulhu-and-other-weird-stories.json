@@ -4,7 +4,10 @@
   "category": "Horror",
   "priority": 1,
   "slug": "the-call-of-cthulhu-and-other-weird-stories",
-  "tags": [],
+  "tags": [
+    "horror",
+    "short-stories"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/107777-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/107777-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15330916W",

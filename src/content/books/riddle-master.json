@@ -4,7 +4,10 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "riddle-master",
-  "tags": [],
+  "tags": [
+    "children",
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/10104099-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10104099-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL92495W",

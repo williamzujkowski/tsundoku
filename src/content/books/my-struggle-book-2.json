@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "my-struggle-book-2",
-  "tags": [],
+  "tags": [
+    "biography"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL27443177W",
   "first_published": 2013,
   "language": "eng",

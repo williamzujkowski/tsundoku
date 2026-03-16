@@ -5,7 +5,8 @@
   "priority": 2,
   "slug": "the-duke-s-children",
   "tags": [
-    "google-play-library"
+    "google-play-library",
+    "romance"
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=ErsnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -25,5 +26,8 @@
     "Conflict of generations",
     "Family relationships",
     "Prime ministers"
-  ]
+  ],
+  "gutenberg_id": 3622,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/3622",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3622.html.images"
 }

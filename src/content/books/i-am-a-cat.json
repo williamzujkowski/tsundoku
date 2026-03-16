@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "i-am-a-cat",
-  "tags": [],
+  "tags": [
+    "humor"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL42419857W",
   "first_published": 2025,
   "language": "eng",

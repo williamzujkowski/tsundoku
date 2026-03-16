@@ -4,7 +4,11 @@
   "category": "Horror",
   "priority": 3,
   "slug": "lost-souls",
-  "tags": [],
+  "tags": [
+    "fantasy",
+    "horror",
+    "psychology"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9109799-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9109799-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20443949W",

@@ -4,7 +4,10 @@
   "category": "Horror",
   "priority": 2,
   "slug": "a-head-full-of-ghosts",
-  "tags": [],
+  "tags": [
+    "horror",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/12170125-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12170125-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20005408W",

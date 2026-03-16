@@ -4,7 +4,11 @@
   "category": "Horror",
   "priority": 2,
   "slug": "the-vampire-lestat",
-  "tags": [],
+  "tags": [
+    "horror",
+    "romance",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8579529-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8579529-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL77813W",

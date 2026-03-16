@@ -4,7 +4,9 @@
   "category": "Security",
   "priority": 2,
   "slug": "cryptography-and-network-security",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/14561629-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14561629-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21381347W",

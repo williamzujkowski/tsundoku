@@ -8,14 +8,16 @@
     cover_url?: string;
     first_published?: number;
     reading_status?: 'want' | 'reading' | 'read';
+    tags?: string[];
   }
 
-  let { books = [], categories = [], baseUrl = '/' }: { books: Book[]; categories: string[]; baseUrl?: string } = $props();
+  let { books = [], categories = [], tags = [], baseUrl = '/' }: { books: Book[]; categories: string[]; tags?: string[]; baseUrl?: string } = $props();
 
   let search = $state('');
   let selectedCategory = $state('');
   let selectedPriority = $state(0);
   let selectedStatus = $state('');
+  let selectedTag = $state('');
   let showCount = $state(100);
 
   let filtered = $derived(
@@ -27,7 +29,8 @@
       const matchesCategory = selectedCategory === '' || b.category === selectedCategory;
       const matchesPriority = selectedPriority === 0 || b.priority === selectedPriority;
       const matchesStatus = selectedStatus === '' || b.reading_status === selectedStatus;
-      return matchesSearch && matchesCategory && matchesPriority && matchesStatus;
+      const matchesTag = selectedTag === '' || (b.tags && b.tags.includes(selectedTag));
+      return matchesSearch && matchesCategory && matchesPriority && matchesStatus && matchesTag;
     })
   );
 
@@ -50,6 +53,7 @@
     selectedCategory = '';
     selectedPriority = 0;
     selectedStatus = '';
+    selectedTag = '';
   }
 
   function loadMore() {
@@ -105,6 +109,16 @@
         <option value="reading">📖 Reading</option>
         <option value="want">📋 Want to Read</option>
       </select>
+      {#if tags.length > 0}
+        <select bind:value={selectedTag}
+          aria-label="Filter by genre tag"
+          class="flex-1 sm:flex-none rounded-lg bg-gray-800 border border-gray-700 text-white px-3 py-2.5 text-sm focus:outline-none focus:border-purple-500">
+          <option value="">All Genres</option>
+          {#each tags as tag}
+            <option value={tag}>{tag}</option>
+          {/each}
+        </select>
+      {/if}
     </div>
   </div>
 
@@ -117,7 +131,7 @@
         {sortedBooks.length.toLocaleString()} of {books.length.toLocaleString()} books
       {/if}
     </p>
-    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== ''}
+    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== '' || selectedTag !== ''}
       <button onclick={clearFilters}
         class="text-sm text-purple-400 hover:text-purple-300 transition-colors">
         Clear filters

@@ -4,7 +4,9 @@
   "category": "Literary Criticism",
   "priority": 2,
   "slug": "all-about-love",
-  "tags": [],
+  "tags": [
+    "psychology"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/42317-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/42317-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL31111W",

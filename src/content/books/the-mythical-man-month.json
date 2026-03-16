@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 1,
   "slug": "the-mythical-man-month",
-  "tags": [],
+  "tags": [
+    "economics"
+  ],
   "description": "On software project management",
   "cover_url": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",

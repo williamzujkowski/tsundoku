@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 3,
   "slug": "game-programming-in-c",
-  "tags": [],
+  "tags": [
+    "computing"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL26337403W",
   "first_published": 2021,
   "language": "eng",

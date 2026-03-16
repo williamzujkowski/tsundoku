@@ -4,7 +4,9 @@
   "category": "Computer Science",
   "priority": 3,
   "slug": "functional-differential-geometry",
-  "tags": [],
+  "tags": [
+    "math"
+  ],
   "description": "An explanation of the mathematics needed as a foundation for a deep understanding of general relativity or quantum field theory. Physics is naturally expressed in mathematical language. Students new to the subject must simultaneously learn an idiomatic mathematical language and the content that is expressed in that language. It is as if they were asked to read Les Misérables while struggling with French grammar. This book offers an innovative way to learn the differential geometry needed as a fo...",
   "cover_url": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

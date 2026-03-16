@@ -4,7 +4,10 @@
   "category": "Mystery",
   "priority": 2,
   "slug": "the-black-dahlia",
-  "tags": [],
+  "tags": [
+    "mystery",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/1474254-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1474254-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL553754W",

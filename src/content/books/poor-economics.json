@@ -4,7 +4,9 @@
   "category": "Economics",
   "priority": 2,
   "slug": "poor-economics",
-  "tags": [],
+  "tags": [
+    "economics"
+  ],
   "description": "From the award-winning founders of the Abdul Latif Jameel Poverty Action Lab at MIT: A transformative reappraisal of the world of the extreme poor, their lives, desires, and frustrations.",
   "cover_url": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",

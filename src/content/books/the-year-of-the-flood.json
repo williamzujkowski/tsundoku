@@ -4,7 +4,11 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "the-year-of-the-flood",
-  "tags": [],
+  "tags": [
+    "dystopian",
+    "fantasy",
+    "sci-fi"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/12816870-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12816870-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL675774W",

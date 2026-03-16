@@ -4,7 +4,9 @@
   "category": "Fantasy",
   "priority": 1,
   "slug": "titus-alone",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6900268-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6900268-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2917009W",

@@ -5,7 +5,10 @@
   "priority": 2,
   "slug": "the-giant-raft",
   "tags": [
-    "google-play-library"
+    "adventure",
+    "google-play-library",
+    "humor",
+    "sci-fi"
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=BNYZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -25,5 +28,8 @@
     "Adventure and adventurers",
     "Adventure and adventurers in fiction",
     "French Science fiction"
-  ]
+  ],
+  "gutenberg_id": 3091,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/3091",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3091.html.images"
 }

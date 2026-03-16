@@ -4,7 +4,9 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "the-dain-curse",
-  "tags": [],
+  "tags": [
+    "mystery"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/419809-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/419809-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL47286W",
