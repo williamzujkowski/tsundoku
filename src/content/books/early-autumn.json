@@ -15,7 +15,11 @@
   "pages": 363,
   "google_books_url": "https://play.google.com/store/books/details?id=7dAsEQAAQBAJ&source=gbs_api",
   "language": "eng",
-  "gutenberg_id": 72406,
-  "gutenberg_url": "https://www.gutenberg.org/ebooks/72406",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72406.html.images"
+  "subjects": [
+    "Pulitzer Prize Winner",
+    "Fiction",
+    "award:pulitzer_prize=1927",
+    "award:pulitzer_prize=fiction",
+    "Women"
+  ]
 }
