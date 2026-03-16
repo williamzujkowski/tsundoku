@@ -18,8 +18,12 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `enrich-hathitrust.py` | HathiTrust | Digitized text links (via OCLC/ISBN lookup) |
 | `enrich-authors.py` | Wikipedia + Open Library | Author bios, photos, birth/death years |
 | `enrich-gaps.py` | Open Library + Google Books | Multi-source gap filler — fills missing fields with fallback |
-| `enrich-categories.py` | Internal (subjects) | Suggests category changes based on subject keywords |
+| `enrich-categories.py` | Internal (subjects+tags) | Suggests category changes based on subject keywords and genre tags |
 | `enrich-copyright.py` | Internal (metadata) | Computes copyright_status from existing fields (no API calls) |
+| `enrich-tags.py` | Internal (subjects) | Maps Open Library subjects to normalized genre tags (35 genres) |
+| `enrich-wikipedia-books.py` | Wikipedia | Descriptions + covers for books missing them |
+| `enrich-descriptions-fallback.py` | OL Works API | Last-resort descriptions via editions endpoint |
+| `enrich-descriptions-lastmile.py` | Gutenberg text + OL + Google | Gutenberg first-paragraph + OL editions + Google ISBN |
 
 ## Build Pipeline (run automatically by `npm run build`)
 
@@ -37,6 +41,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `import-csv.py` | Initial import of books from `data/seed.csv` to JSON |
 | `merge-google-library.py` | Merge Google Play Books library export into collection |
 | `dedupe-books.py` | Find and merge duplicate books (article/edition variants) |
+| `update-readme-stats.py` | Inject current stats from stats.json into README.md |
 
 ## Shared Modules
 

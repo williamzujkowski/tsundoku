@@ -80,6 +80,32 @@ class TestBookIntegrity:
             assert b["slug"], f"{Path(f).name} has empty slug"
 
 
+class TestStatsIntegrity:
+    def test_stats_has_required_keys(self):
+        stats_path = Path(__file__).parent.parent / "src" / "data" / "stats.json"
+        if not stats_path.exists():
+            pytest.skip("stats.json not generated yet")
+        stats = json.loads(stats_path.read_text())
+        required = [
+            "total_books", "total_categories", "total_authors",
+            "priorities", "enrichment", "links", "bookshelf",
+            "reading_progress", "top_authors", "categories",
+            "year_distribution", "generated_at",
+        ]
+        for key in required:
+            assert key in stats, f"stats.json missing key: {key}"
+
+    def test_stats_links_section(self):
+        stats_path = Path(__file__).parent.parent / "src" / "data" / "stats.json"
+        if not stats_path.exists():
+            pytest.skip("stats.json not generated yet")
+        stats = json.loads(stats_path.read_text())
+        links = stats.get("links", {})
+        for source in ["gutenberg", "librivox", "hathitrust", "worldcat"]:
+            assert source in links, f"stats.links missing: {source}"
+            assert links[source] >= 0, f"stats.links.{source} is negative"
+
+
 class TestAuthorIntegrity:
     def test_every_book_author_has_page(self):
         book_authors = set()
