@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
-Enrich book categories based on subjects, title keywords, and existing data.
+Enrich book categories based on subjects, tags, and title keywords.
 
-Books with generic categories (like "Literature") may belong in more specific
-categories based on their subjects. This script suggests recategorizations
-based on keyword matching.
+Two recategorization strategies (both from generic categories only):
+1. Subject/title keywords → non-fiction categories (CS, Security, Science, etc.)
+2. Genre tags → fiction categories (Sci-Fi, Fantasy, Mystery, etc.)
+
+Only moves books from generic buckets (Literature, Classics).
+Requires exactly 1 strong genre signal to avoid ambiguous moves.
 
 Usage:
   python scripts/enrich-categories.py                # dry run
@@ -12,63 +15,59 @@ Usage:
   python scripts/enrich-categories.py --report       # show category stats
 """
 
-import json
 import re
 from collections import Counter
-from pathlib import Path
 
-BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
+from enrichment_config import load_all_books, save_book
 
-# Subject/title keywords → suggested category
-# Only triggers if current category is a "generic" bucket
+# Subject/title keywords → non-fiction category (word boundary matching)
 KEYWORD_RULES: list[tuple[list[str], str]] = [
-    # AI / ML → Computer Science
     (["artificial intelligence", "machine learning", "deep learning",
       "neural network", "natural language processing", "reinforcement learning",
       "computer vision", "large language model"], "Computer Science"),
-
-    # Cryptography / Cybersecurity → Security
     (["cryptography", "cybersecurity", "information security", "malware",
       "penetration testing", "network security", "encryption"], "Security"),
-
-    # Physics / Chemistry / Biology → Science (avoid fiction triggers)
     (["quantum mechanics", "quantum physics", "thermodynamics", "relativity",
       "genetics", "molecular biology", "chemistry",
       "astrophysics", "cosmology", "evolutionary biology"], "Science"),
-
-    # Economics
     (["economics", "macroeconomics", "microeconomics", "fiscal",
       "monetary policy", "game theory", "behavioral economics"], "Economics"),
-
-    # Mathematics
     (["algebra", "calculus", "topology", "number theory", "combinatorics",
       "probability", "statistics", "mathematical analysis"], "Mathematics"),
 ]
 
-# Categories considered "generic" (books might be better placed elsewhere)
-GENERIC_CATEGORIES = {
-    "Literature",  # Very broad — 1,475 books
-    "Classics",    # Often overlaps with other categories
+# Genre tags → fiction category (requires exactly 1 strong match)
+TAG_TO_CATEGORY = {
+    "sci-fi": "Science Fiction",
+    "fantasy": "Fantasy",
+    "mystery": "Mystery",
+    "horror": "Horror",
+    "historical-fiction": "History",
 }
+
+# Categories considered "generic" (books might be better placed)
+GENERIC_CATEGORIES = {"Literature", "Classics"}
 
 
 def suggest_recategorization(book: dict) -> str | None:
-    """Suggest a better category based on subjects and title."""
+    """Suggest a better category based on subjects, tags, and title."""
     current = book.get("category", "")
-
-    # Only recategorize from generic buckets
     if current not in GENERIC_CATEGORIES:
         return None
 
-    # Build searchable text from subjects + title
+    # Strategy 1: Subject/title keyword matching (non-fiction)
     subjects = book.get("subjects", [])
     search_text = " ".join(subjects).lower() + " " + book.get("title", "").lower()
-
-    for keywords, target_category in KEYWORD_RULES:
+    for keywords, target in KEYWORD_RULES:
         for kw in keywords:
-            # Require word boundary match to avoid "revolution" matching "evolution"
             if re.search(r'\b' + re.escape(kw) + r'\b', search_text):
-                return target_category
+                return target
+
+    # Strategy 2: Genre tag matching (fiction — require exactly 1 strong signal)
+    tags = set(book.get("tags", []))
+    strong_matches = [(t, c) for t, c in TAG_TO_CATEGORY.items() if t in tags]
+    if len(strong_matches) == 1:
+        return strong_matches[0][1]
 
     return None
 
@@ -76,8 +75,7 @@ def suggest_recategorization(book: dict) -> str | None:
 def category_report() -> None:
     """Print current category distribution."""
     cats: Counter[str] = Counter()
-    for bp in BOOKS_DIR.glob("*.json"):
-        book = json.loads(bp.read_text())
+    for _, book in load_all_books():
         cats[book["category"]] += 1
 
     print(f"\n{'Category':<35} {'Count':>5}")
@@ -89,7 +87,7 @@ def category_report() -> None:
 
 def main() -> None:
     import argparse
-    parser = argparse.ArgumentParser(description="Enrich book categories from subjects")
+    parser = argparse.ArgumentParser(description="Enrich book categories")
     parser.add_argument("--apply", action="store_true", help="Apply changes")
     parser.add_argument("--report", action="store_true", help="Show category stats")
     args = parser.parse_args()
@@ -98,36 +96,29 @@ def main() -> None:
         category_report()
         return
 
-    changes = []
-    for bp in sorted(BOOKS_DIR.glob("*.json")):
-        book = json.loads(bp.read_text())
+    changes: list[dict] = []
+    for bp, book in load_all_books():
         new_cat = suggest_recategorization(book)
         if new_cat and new_cat != book["category"]:
-            changes.append({
-                "path": bp,
-                "title": book["title"],
-                "old": book["category"],
-                "new": new_cat,
-                "reason": "subject/title keyword match",
-            })
+            changes.append({"path": bp, "title": book["title"],
+                            "old": book["category"], "new": new_cat})
             if args.apply:
                 book["category"] = new_cat
-                bp.write_text(json.dumps(book, indent=2, ensure_ascii=False))
+                save_book(bp, book)
 
     if not changes:
         print("No recategorizations suggested.")
-        print("Tip: Run enrich-gaps.py --field subjects first to populate subjects.")
         return
 
-    print(f"{'Applied' if args.apply else 'Would change'} {len(changes)} books:\n")
+    action = "Applied" if args.apply else "Would change"
+    print(f"{action} {len(changes)} books:\n")
     by_change: dict[str, list[str]] = {}
     for c in changes:
         key = f"{c['old']} → {c['new']}"
         by_change.setdefault(key, []).append(c["title"])
-
     for change, titles in sorted(by_change.items()):
         print(f"  {change} ({len(titles)} books)")
-        for t in titles[:5]:
+        for t in sorted(titles)[:5]:
             print(f"    - {t}")
         if len(titles) > 5:
             print(f"    ... and {len(titles) - 5} more")

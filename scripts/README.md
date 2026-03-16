@@ -36,7 +36,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 |---|---|
 | `import-csv.py` | Initial import of books from `data/seed.csv` to JSON |
 | `merge-google-library.py` | Merge Google Play Books library export into collection |
-| `fix-categories.py` | Consolidate thin categories via merge rules + per-book overrides |
+| `dedupe-books.py` | Find and merge duplicate books (article/edition variants) |
 
 ## Shared Modules
 
@@ -57,20 +57,26 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 ## Usage
 
 ```bash
-# Full enrichment scan (auto-resume, all sources)
+# Full automated pipeline (API scans + post-enrichment + stats)
 python3 scripts/run-all-enrichments.py
 
 # Check enrichment status
 python3 scripts/run-all-enrichments.py --status
 
+# The runner automatically executes this full pipeline:
+# Phase 1 (API): subjects → gutenberg → librivox → hathitrust
+# Phase 2 (post): tags → copyright → categories → dedupe → stubs → stats → index
+```
+
+### Manual operations
+
+```bash
 # Fill specific gaps
-python3 scripts/enrich-gaps.py --report           # show what's missing
+python3 scripts/enrich-gaps.py --report
 python3 scripts/enrich-gaps.py --limit 500 --field subjects
 
-# Recompute copyright after new enrichments
+# Recompute copyright/tags/categories independently
 python3 scripts/enrich-copyright.py --apply
-
-# Rebuild stats and search index
-python3 scripts/generate-stats.py
-python3 scripts/generate-search-index.py
+python3 scripts/enrich-tags.py --apply
+python3 scripts/enrich-categories.py --apply
 ```

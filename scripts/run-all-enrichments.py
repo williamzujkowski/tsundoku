@@ -135,6 +135,26 @@ def main() -> None:
     else:
         print(f"\n⚠ Reached max iterations ({MAX_ITERATIONS}). Some sources may be incomplete.")
 
+    # Phase 2: Post-enrichment pipeline (no API calls, fast)
+    print("\n--- Post-enrichment pipeline ---")
+    post_scripts = [
+        ("enrich-tags.py", ["--apply"], "Populate genre tags from subjects"),
+        ("enrich-copyright.py", ["--apply"], "Compute copyright status"),
+        ("enrich-categories.py", ["--apply"], "Recategorize by genre/subject"),
+        ("dedupe-books.py", ["--apply"], "Merge duplicate books"),
+        ("generate-author-stubs.py", [], "Generate missing author pages"),
+        ("generate-stats.py", [], "Regenerate collection stats"),
+        ("generate-search-index.py", [], "Regenerate search index"),
+    ]
+
+    for script_name, script_args, desc in post_scripts:
+        script = SCRIPTS_DIR / script_name
+        if not script.exists():
+            continue
+        print(f"  [{script_name}] {desc}...")
+        cmd = [sys.executable, str(script)] + script_args
+        subprocess.run(cmd, cwd=str(SCRIPTS_DIR.parent))
+
     print("\nFinal status:")
     show_status()
 

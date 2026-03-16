@@ -18,11 +18,9 @@ Usage:
   python scripts/enrich-copyright.py --report  # show status distribution
 """
 
-import json
 from collections import Counter
-from pathlib import Path
 
-BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
+from enrichment_config import load_all_books, save_book
 
 # Year threshold for safe US public domain determination
 # As of 2026: works published <= 1930 are public domain
@@ -64,8 +62,7 @@ def compute_copyright_status(book: dict) -> str:
 def copyright_report() -> None:
     """Print distribution of copyright statuses."""
     statuses: Counter[str] = Counter()
-    for bp in sorted(BOOKS_DIR.glob("*.json")):
-        book = json.loads(bp.read_text())
+    for bp, book in load_all_books():
         status = compute_copyright_status(book)
         statuses[status] += 1
 
@@ -92,8 +89,7 @@ def main() -> None:
 
     changes = 0
     unchanged = 0
-    for bp in sorted(BOOKS_DIR.glob("*.json")):
-        book = json.loads(bp.read_text())
+    for bp, book in load_all_books():
         status = compute_copyright_status(book)
         current = book.get("copyright_status")
 
@@ -104,7 +100,7 @@ def main() -> None:
         changes += 1
         if args.apply:
             book["copyright_status"] = status
-            bp.write_text(json.dumps(book, indent=2, ensure_ascii=False))
+            save_book(bp, book)
 
     action = "Updated" if args.apply else "Would update"
     print(f"{action} {changes} books ({unchanged} already correct)")

@@ -12,12 +12,9 @@ Usage:
   python scripts/enrich-tags.py --report  # show tag distribution
 """
 
-import json
-import re
 from collections import Counter
-from pathlib import Path
 
-BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
+from enrichment_config import load_all_books, save_book
 
 # Subject keyword → normalized tag
 # Order matters: first match wins for overlapping patterns
@@ -99,8 +96,7 @@ def tag_report() -> None:
     books_with_tags = 0
     total = 0
 
-    for bp in sorted(BOOKS_DIR.glob("*.json")):
-        book = json.loads(bp.read_text())
+    for bp, book in load_all_books():
         total += 1
         subjects = book.get("subjects", [])
         if subjects:
@@ -130,8 +126,7 @@ def main() -> None:
 
     updated = 0
     unchanged = 0
-    for bp in sorted(BOOKS_DIR.glob("*.json")):
-        book = json.loads(bp.read_text())
+    for bp, book in load_all_books():
         subjects = book.get("subjects", [])
         if not subjects:
             continue
@@ -147,7 +142,7 @@ def main() -> None:
         updated += 1
         if args.apply:
             book["tags"] = merged
-            bp.write_text(json.dumps(book, indent=2, ensure_ascii=False))
+            save_book(bp, book)
 
     action = "Updated" if args.apply else "Would update"
     print(f"{action} {updated} books ({unchanged} already have these tags)")

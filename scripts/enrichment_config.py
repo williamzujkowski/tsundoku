@@ -1,9 +1,11 @@
 """
-Centralized configuration for all enrichment scripts.
+Centralized configuration and shared utilities for all enrichment scripts.
 
-Single source of truth for rate limits, API URLs, timeouts, and user agent.
+Single source of truth for rate limits, API URLs, timeouts, user agent,
+and common book-loading patterns.
 """
 
+import json
 from pathlib import Path
 
 # Directories
@@ -25,6 +27,19 @@ RATE_LIMITS = {
     "hathitrust": 0.5,
     "wikipedia": 1.0,
 }
+
+def load_all_books() -> list[tuple[Path, dict]]:
+    """Load all book JSON files sorted by path."""
+    return [
+        (bp, json.loads(bp.read_text()))
+        for bp in sorted(BOOKS_DIR.glob("*.json"))
+    ]
+
+
+def save_book(path: Path, book: dict) -> None:
+    """Write book JSON with consistent formatting."""
+    path.write_text(json.dumps(book, indent=2, ensure_ascii=False))
+
 
 # API base URLs
 API_URLS = {
