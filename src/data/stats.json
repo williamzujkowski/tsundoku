@@ -1,23 +1,23 @@
 {
-  "total_books": 3611,
+  "total_books": 3591,
   "total_categories": 29,
-  "total_authors": 1725,
+  "total_authors": 1708,
   "priorities": {
     "must_read": 1696,
-    "recommended": 1880,
-    "supplementary": 35
+    "recommended": 1861,
+    "supplementary": 34
   },
   "enrichment": {
-    "covers": 3541,
+    "covers": 3524,
     "covers_pct": 98.1,
     "descriptions": 3532,
-    "descriptions_pct": 97.8,
-    "isbns": 2673,
-    "isbns_pct": 74.0,
-    "pages": 3090,
+    "descriptions_pct": 98.4,
+    "isbns": 2669,
+    "isbns_pct": 74.3,
+    "pages": 3073,
     "pages_pct": 85.6,
-    "years": 3448,
-    "subjects": 3118
+    "years": 3430,
+    "subjects": 3107
   },
   "top_authors": [
     {
@@ -104,11 +104,11 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1141
+      "count": 1126
     },
     {
       "name": "Science Fiction",
-      "count": 329
+      "count": 328
     },
     {
       "name": "Philosophy",
@@ -120,7 +120,7 @@
     },
     {
       "name": "History",
-      "count": 214
+      "count": 212
     },
     {
       "name": "Mystery",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Security",
-      "count": 76
+      "count": 74
     },
     {
       "name": "Classics",
@@ -221,24 +221,24 @@
   ],
   "year_distribution": {
     "before_1800": 153,
-    "1800_1899": 256,
-    "1900_1949": 453,
-    "1950_1999": 1136,
-    "2000_plus": 1450
+    "1800_1899": 253,
+    "1900_1949": 444,
+    "1950_1999": 1133,
+    "2000_plus": 1447
   },
   "reading_progress": {
-    "read": 1620,
+    "read": 1602,
     "reading": 0,
-    "want": 1991,
+    "want": 1989,
     "unread": 0
   },
   "oldest_year": 1467,
   "newest_year": 2030,
   "bookshelf": {
-    "total_pages": 1161665,
-    "estimated_reading_hours": 19361,
-    "shelf_meters": 90.3,
-    "books_with_pages": 3090
+    "total_pages": 1155355,
+    "estimated_reading_hours": 19256,
+    "shelf_meters": 89.8,
+    "books_with_pages": 3073
   },
-  "generated_at": "2026-03-16T09:28:55.275373"
+  "generated_at": "2026-03-16T09:48:06.970687"
 }
