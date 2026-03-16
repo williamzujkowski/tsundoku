@@ -137,6 +137,43 @@ Computed from existing metadata (no API calls):
 - View transitions + prefetch enabled for smooth navigation
 - Thumbnail optimization: `-S.jpg` for grid covers, `-M.jpg`/`-L.jpg` for detail
 
+## Canonical Paths
+
+| Concern | Path |
+|---|---|
+| **Book data** | `src/content/books/*.json` |
+| **Author data** | `src/content/authors/*.json` |
+| **Content schema** | `src/content.config.ts` |
+| **Reading status** | `data/reading-status.csv` |
+| **Build stats** | `src/data/stats.json` |
+| **Search index** | `public/search-index.json` |
+| **Shared formatting** | `src/utils/formatting.ts` |
+| **Enrichment base** | `scripts/enrichment_base.py` |
+| **Enrichment config** | `scripts/enrichment_config.py` |
+| **Enrichment state** | `scripts/enrichment_state.py` (+ `data/enrichment-state.json`) |
+| **Title matching** | `scripts/matching.py` |
+| **Enrichment runner** | `scripts/run-all-enrichments.py` |
+| **Data integrity tests** | `scripts/test_data_integrity.py` |
+| **CI workflow** | `.github/workflows/deploy.yml` |
+| **Script inventory** | `scripts/README.md` |
+
+## Error Handling (Enrichment)
+
+Enrichment scripts classify errors via `enrichment_base.py`:
+
+| Error Type | HTTP Code | Action | Retry? |
+|---|---|---|---|
+| `not_found` | 404 | Skip permanently | No |
+| `rate_limited` | 429 | Log + skip batch | Next day |
+| `connection_error` | timeout/DNS | Log + continue | Yes |
+| `parse_error` | — | Log malformed response | No |
+| `search_error` | — | Log + continue | Yes |
+
+Errors logged to `data/enrichment-errors.jsonl` (gitignored). Review with:
+```bash
+cat data/enrichment-errors.jsonl | python3 -m json.tool
+```
+
 ## Build Pipeline
 
 ```
