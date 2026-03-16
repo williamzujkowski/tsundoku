@@ -1,11 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
 
 const base = import.meta.env.BASE_URL;
 const readPct = Math.round(100 * stats.reading_progress.read / stats.total_books);
 const wantPct = 100 - readPct;
 const yearsToFinish = Math.round(stats.bookshelf.estimated_reading_hours / 8 / 365 * 10) / 10;
+
+// Compute link counts from actual data (never hardcode)
+const books = await getCollection('books');
+const gutenbergCount = books.filter(b => b.data.gutenberg_url).length;
+const librivoxCount = books.filter(b => b.data.librivox_url).length;
+const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
 ---
 
 <Layout title="About" description="What is tsundoku? The Japanese art of acquiring books and letting them pile up.">
@@ -64,17 +71,17 @@ const yearsToFinish = Math.round(stats.bookshelf.estimated_reading_hours / 8 / 3
       </p>
       <ul class="space-y-2 text-gray-300 text-sm">
         <li class="flex items-center gap-2">
-          <span class="text-green-400 font-bold">1,003</span> books linked to
+          <span class="text-green-400 font-bold">{gutenbergCount.toLocaleString()}</span> books linked to
           <a href="https://www.gutenberg.org" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:text-purple-300 transition-colors">Project Gutenberg</a>
           for free reading
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-amber-400 font-bold">717</span> books linked to
+          <span class="text-amber-400 font-bold">{librivoxCount.toLocaleString()}</span> books linked to
           <a href="https://librivox.org" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:text-purple-300 transition-colors">LibriVox</a>
           for free audiobooks
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-blue-400 font-bold">134</span> books linked to
+          <span class="text-blue-400 font-bold">{hathitrustCount.toLocaleString()}</span> books linked to
           <a href="https://www.hathitrust.org" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:text-purple-300 transition-colors">HathiTrust Digital Library</a>
         </li>
       </ul>

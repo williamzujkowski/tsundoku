@@ -72,6 +72,12 @@ def generate_stats() -> dict:
     # Average book spine: ~2.5cm
     shelf_meters = round(total * 0.025, 1)
 
+    # Free reading/listening links
+    has_gutenberg = sum(1 for b in books if b.get("gutenberg_url"))
+    has_librivox = sum(1 for b in books if b.get("librivox_url"))
+    has_hathitrust = sum(1 for b in books if b.get("hathitrust_url"))
+    has_worldcat = sum(1 for b in books if b.get("worldcat_url"))
+
     # Reading status
     reading_statuses = Counter(b.get("reading_status", "") for b in books)
     read_count = reading_statuses.get("read", 0)
@@ -107,6 +113,12 @@ def generate_stats() -> dict:
             "reading": reading_count,
             "want": want_count,
             "unread": total - read_count - reading_count - want_count,
+        },
+        "links": {
+            "gutenberg": has_gutenberg,
+            "librivox": has_librivox,
+            "hathitrust": has_hathitrust,
+            "worldcat": has_worldcat,
         },
         "oldest_year": oldest,
         "newest_year": newest,

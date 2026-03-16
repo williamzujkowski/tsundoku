@@ -8,14 +8,14 @@ A curated bookshelf with reading tracker — because buying books and not readin
 
 ## Features
 
-- **3,534 books** across **29 categories** from **1,616 authors**
+- **3,534 books** across **29 categories** from **1,615 authors**
 - Browse with cover art, descriptions, and metadata
 - Global search (⌘K) with keyboard navigation across books and authors
 - Filter by category, priority, reading status, and genre tags (35 genres)
 - Individual book pages with JSON-LD structured data, og:image social previews
 - Author pages with Wikipedia bios, photos, and book listings
 - Reading progress tracker (want to read / reading / read)
-- Free reading/listening links: 1,003 Project Gutenberg, 717 LibriVox audiobooks, 134 HathiTrust
+- Free reading/listening links: 977 Project Gutenberg, 705 LibriVox audiobooks, 129 HathiTrust
 - External links: Goodreads, Google Books, Open Library, WorldCat
 - Copyright status badges (public domain / likely public domain / in copyright)
 - Stats dashboard with bookshelf metrics (total pages, reading hours, shelf space)

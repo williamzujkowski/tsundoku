@@ -150,6 +150,7 @@ def main() -> None:
         ("generate-author-stubs.py", [], "Generate missing author pages"),
         ("generate-stats.py", [], "Regenerate collection stats"),
         ("generate-search-index.py", [], "Regenerate search index"),
+        ("update-readme-stats.py", [], "Update README with current stats"),
     ]
 
     for script_name, script_args, desc in post_scripts:

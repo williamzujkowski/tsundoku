@@ -232,6 +232,12 @@
     "want": 979,
     "unread": 0
   },
+  "links": {
+    "gutenberg": 977,
+    "librivox": 705,
+    "hathitrust": 129,
+    "worldcat": 480
+  },
   "oldest_year": 1467,
   "newest_year": 2026,
   "bookshelf": {
@@ -240,5 +246,5 @@
     "shelf_meters": 88.4,
     "books_with_pages": 3025
   },
-  "generated_at": "2026-03-16T14:36:15.449656"
+  "generated_at": "2026-03-16T15:01:24.310625"
 }
