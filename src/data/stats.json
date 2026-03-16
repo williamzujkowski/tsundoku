@@ -1,7 +1,7 @@
 {
   "total_books": 3534,
   "total_categories": 29,
-  "total_authors": 1616,
+  "total_authors": 1615,
   "priorities": {
     "must_read": 1640,
     "recommended": 1860,
@@ -227,9 +227,9 @@
     "2000_plus": 1435
   },
   "reading_progress": {
-    "read": 1594,
+    "read": 2555,
     "reading": 0,
-    "want": 1940,
+    "want": 979,
     "unread": 0
   },
   "oldest_year": 1467,
@@ -240,5 +240,5 @@
     "shelf_meters": 88.4,
     "books_with_pages": 3025
   },
-  "generated_at": "2026-03-16T11:42:35.835318"
+  "generated_at": "2026-03-16T12:05:22.908053"
 }
