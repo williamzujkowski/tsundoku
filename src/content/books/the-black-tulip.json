@@ -1,10 +1,12 @@
 {
   "title": "The Black Tulip",
   "author": "Alexandre Dumas",
-  "category": "Literature",
+  "category": "History",
   "priority": 1,
   "slug": "the-black-tulip",
-  "tags": [],
+  "tags": [
+    "historical-fiction"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL42468391W",
   "first_published": 1891,
   "language": "eng",

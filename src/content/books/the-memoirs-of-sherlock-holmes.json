@@ -4,7 +4,11 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "the-memoirs-of-sherlock-holmes",
-  "tags": [],
+  "tags": [
+    "mystery",
+    "short-stories",
+    "thriller"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8349161-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8349161-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1518150W",

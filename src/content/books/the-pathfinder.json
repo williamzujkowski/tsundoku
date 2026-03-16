@@ -1,10 +1,14 @@
 {
   "title": "The Pathfinder",
   "author": "James Fenimore Cooper",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "the-pathfinder",
-  "tags": [],
+  "tags": [
+    "adventure",
+    "historical-fiction",
+    "war"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8980913-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8980913-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL78009W",

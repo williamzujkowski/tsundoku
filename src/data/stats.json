@@ -104,7 +104,7 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1182
+      "count": 1168
     },
     {
       "name": "Science Fiction",
@@ -116,19 +116,19 @@
     },
     {
       "name": "Fantasy",
-      "count": 233
+      "count": 235
     },
     {
       "name": "Computer Science",
-      "count": 193
+      "count": 194
     },
     {
       "name": "History",
-      "count": 187
+      "count": 192
     },
     {
       "name": "Mystery",
-      "count": 169
+      "count": 174
     },
     {
       "name": "Poetry",
@@ -144,7 +144,7 @@
     },
     {
       "name": "Horror",
-      "count": 66
+      "count": 68
     },
     {
       "name": "Economics",
@@ -152,7 +152,7 @@
     },
     {
       "name": "Classics",
-      "count": 54
+      "count": 53
     },
     {
       "name": "Political Theory",
@@ -240,5 +240,5 @@
     "shelf_meters": 87.5,
     "books_with_pages": 3118
   },
-  "generated_at": "2026-03-15T23:44:12.887570"
+  "generated_at": "2026-03-15T23:45:08.997260"
 }
