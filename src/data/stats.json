@@ -1,7 +1,7 @@
 {
   "total_books": 3534,
   "total_categories": 29,
-  "total_authors": 1634,
+  "total_authors": 1616,
   "priorities": {
     "must_read": 1640,
     "recommended": 1860,
@@ -73,6 +73,10 @@
       "count": 14
     },
     {
+      "name": "H.G. Wells",
+      "count": 13
+    },
+    {
       "name": "Robert Jordan",
       "count": 12
     },
@@ -94,10 +98,6 @@
     },
     {
       "name": "Friedrich Nietzsche",
-      "count": 11
-    },
-    {
-      "name": "Robert A. Heinlein",
       "count": 11
     }
   ],
@@ -240,5 +240,5 @@
     "shelf_meters": 88.4,
     "books_with_pages": 3025
   },
-  "generated_at": "2026-03-16T11:17:00.266306"
+  "generated_at": "2026-03-16T11:42:35.835318"
 }
