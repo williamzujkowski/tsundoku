@@ -4,8 +4,16 @@
   "category": "Fantasy",
   "priority": 2,
   "slug": "the-gathering-storm",
-  "tags": [],
+  "tags": [
+    "fantasy"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction"
+  ]
 }

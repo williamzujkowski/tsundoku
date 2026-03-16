@@ -4,8 +4,14 @@
   "category": "Poetry",
   "priority": 2,
   "slug": "revolutionary-letters",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ]
 }

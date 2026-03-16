@@ -5,9 +5,11 @@
   "priority": 2,
   "slug": "the-voyages-of-doctor-dolittle",
   "tags": [
+    "adventure",
     "children",
     "fantasy",
-    "google-play-library"
+    "google-play-library",
+    "young-adult"
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=OYqq-V_MAHcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -19,15 +21,26 @@
   "copyright_status": "public_domain",
   "subjects": [
     "Animals",
-    "Classic Literature",
+    "Animals -- Juvenile fiction",
+    "Category: Adventure",
+    "Category: Children & Young Adult Reading",
+    "Category: Novels",
+    "Children's Literature",
     "Children's stories",
+    "Classic Literature",
+    "Doctor Dolittle (Fictitious character)",
+    "Fairy tales",
+    "Fantasy",
+    "Fantasy literature",
     "Fiction",
+    "Human-animal communication -- Juvenile fiction",
+    "Imaginary Voyages",
     "Juvenile fiction",
     "Voyages and travels",
-    "Fantasy",
-    "Doctor Dolittle (Fictitious character)",
-    "Imaginary Voyages",
-    "Fairy tales"
+    "Voyages and travels -- Juvenile fiction"
   ],
-  "librivox_url": "https://librivox.org/the-voyages-of-doctor-dolittle-by-hugh-lofting/"
+  "librivox_url": "https://librivox.org/the-voyages-of-doctor-dolittle-by-hugh-lofting/",
+  "gutenberg_id": 1154,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/1154",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1154.html.images"
 }

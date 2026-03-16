@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "the-way-we-live-now",
-  "tags": [],
+  "tags": [
+    "satire"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8246152-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8246152-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL109871W",
@@ -17,16 +19,26 @@
   "reading_status": "want",
   "copyright_status": "public_domain",
   "subjects": [
-    "Fiction",
-    "Capitalists and financiers in fiction",
-    "Commercial crimes in fiction",
-    "Capitalists and financiers",
-    "Commercial crimes",
-    "Social life and customs",
-    "England in fiction",
-    "Classic Literature",
     "British and irish fiction (fictional works by one author)",
-    "England, fiction"
+    "Capitalists and financiers",
+    "Capitalists and financiers -- Fiction",
+    "Capitalists and financiers in fiction",
+    "Category: British Literature",
+    "Category: Novels",
+    "Classic Literature",
+    "Commercial crimes",
+    "Commercial crimes -- Fiction",
+    "Commercial crimes in fiction",
+    "England in fiction",
+    "England, fiction",
+    "Fiction",
+    "London (England) -- Fiction",
+    "Mate selection -- Fiction",
+    "Satire",
+    "Social life and customs"
   ],
-  "librivox_url": "https://librivox.org/the-way-we-live-now-by-anthony-trollope/"
+  "librivox_url": "https://librivox.org/the-way-we-live-now-by-anthony-trollope/",
+  "gutenberg_id": 5231,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/5231",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5231.html.images"
 }

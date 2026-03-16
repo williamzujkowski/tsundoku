@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "the-will-to-believe",
-  "tags": [],
+  "tags": [
+    "essays",
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/308488-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/308488-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1502061W",
@@ -17,15 +20,24 @@
   "reading_status": "want",
   "copyright_status": "public_domain",
   "subjects": [
-    "Early works to 1800",
-    "Christian life",
-    "Devotional literature",
-    "Example",
-    "Meditations",
-    "Spiritual life, catholic church",
+    "Belief and doubt",
+    "Category: Essays, Letters & Speeches",
+    "Category: Philosophy & Ethics",
+    "Category: Religion/Spirituality",
     "Catholic church, doctrines",
-    "Meditation",
+    "Christian life",
     "Devotional Meditations",
-    "Méditations"
-  ]
+    "Devotional literature",
+    "Early works to 1800",
+    "Essays",
+    "Example",
+    "Meditation",
+    "Meditations",
+    "Méditations",
+    "Philosophy",
+    "Spiritual life, catholic church"
+  ],
+  "gutenberg_id": 26659,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/26659",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/26659.html.images"
 }

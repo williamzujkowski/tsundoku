@@ -8,7 +8,8 @@
     "adventure",
     "children",
     "fantasy",
-    "google-play-library"
+    "google-play-library",
+    "young-adult"
   ],
   "reading_status": "read",
   "description": "Enchanting tale about a boy who can understand the speech of animals, imparting information about nature, geography, and native folklore.",
@@ -20,16 +21,29 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "subjects": [
-    "Fairy tales",
-    "Fiction",
-    "Classic Literature",
-    "Fantasy fiction",
-    "Geese, fiction",
-    "Sweden, fiction",
+    "Adventure and adventurers",
+    "Boys -- Juvenile fiction",
+    "Category: Adventure",
+    "Category: Children & Young Adult Reading",
+    "Category: Novels",
     "Children's fiction",
+    "Classic Literature",
+    "Conduct of life -- Juvenile fiction",
     "Conduct of life, fiction",
+    "Fairy tales",
+    "Fantasy fiction",
+    "Fantasy literature",
+    "Fiction",
+    "Geese -- Juvenile fiction",
+    "Geese, fiction",
+    "Kindness -- Juvenile fiction",
     "Magic",
-    "Adventure and adventurers"
+    "Nobel Prizes in Literature",
+    "Sweden -- Juvenile fiction",
+    "Sweden, fiction"
   ],
-  "librivox_url": "https://librivox.org/the-wonderful-adventures-of-nils-by-selma-lagerloef/"
+  "librivox_url": "https://librivox.org/the-wonderful-adventures-of-nils-by-selma-lagerloef/",
+  "gutenberg_id": 10935,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/10935",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10935.html.images"
 }

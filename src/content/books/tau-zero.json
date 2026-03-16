@@ -4,8 +4,18 @@
   "category": "Science Fiction",
   "priority": 2,
   "slug": "tau-zero",
-  "tags": [],
+  "tags": [
+    "sci-fi"
+  ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "subjects": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Interstellar travel",
+    "Literature",
+    "Science fiction"
+  ]
 }
