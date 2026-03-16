@@ -8,14 +8,14 @@ A curated bookshelf with reading tracker — because buying books and not readin
 
 ## Features
 
-- **3,524 books** across **29 categories** from **1,644 authors**
+- **3,644 books** across **29 categories** from **1,743 authors**
 - Browse with cover art, descriptions, and metadata
 - Global search (⌘K) with keyboard navigation across books and authors
-- Filter by category, priority, and reading status
+- Filter by category, priority, reading status, and genre tags (35 genres)
 - Individual book pages with JSON-LD structured data, og:image social previews
 - Author pages with Wikipedia bios, photos, and book listings
 - Reading progress tracker (want to read / reading / read)
-- Free reading/listening links: Project Gutenberg, LibriVox audiobooks, HathiTrust
+- Free reading/listening links: 1,003 Project Gutenberg, 717 LibriVox audiobooks, 134 HathiTrust
 - External links: Goodreads, Google Books, Open Library, WorldCat
 - Copyright status badges (public domain / likely public domain / in copyright)
 - Stats dashboard with bookshelf metrics (total pages, reading hours, shelf space)
@@ -31,6 +31,7 @@ A curated bookshelf with reading tracker — because buying books and not readin
 - [Tailwind CSS 4](https://tailwindcss.com) — utility-first styling
 - [Vitest](https://vitest.dev) — JavaScript testing (35 tests)
 - [pytest](https://pytest.org) — Python testing (35 tests)
+- 70 total tests across both languages, gated in CI
 - Zod schema validation on all content
 
 ## Data Sources
