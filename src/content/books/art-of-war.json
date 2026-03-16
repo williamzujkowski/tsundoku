@@ -4,7 +4,9 @@
   "category": "Political Theory",
   "priority": 1,
   "slug": "art-of-war",
-  "tags": [],
+  "tags": [
+    "philosophy"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/4849549-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4849549-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL244537W",
@@ -19,5 +21,17 @@
   "worldcat_url": "https://www.worldcat.org/oclc/957021328",
   "lccn": "82019939",
   "librivox_url": "https://librivox.org/the-art-of-war-by-sun-tzu/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "subjects": [
+    "Open Library Staff Picks",
+    "Early works to 1800",
+    "Military art and science",
+    "great_books_of_the_western_world",
+    "Business",
+    "Self-Improvement",
+    "Philosophy",
+    "open_syllabus_project",
+    "Fiction",
+    "Nonfiction"
+  ]
 }

@@ -1,23 +1,23 @@
 {
-  "total_books": 3524,
+  "total_books": 3501,
   "total_categories": 29,
   "total_authors": 1668,
   "priorities": {
-    "must_read": 1684,
-    "recommended": 1805,
+    "must_read": 1664,
+    "recommended": 1802,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3483,
+    "covers": 3460,
     "covers_pct": 98.8,
-    "descriptions": 3022,
-    "descriptions_pct": 85.8,
-    "isbns": 2707,
+    "descriptions": 3002,
+    "descriptions_pct": 85.7,
+    "isbns": 2689,
     "isbns_pct": 76.8,
-    "pages": 3139,
+    "pages": 3118,
     "pages_pct": 89.1,
-    "years": 3500,
-    "subjects": 3045
+    "years": 3477,
+    "subjects": 3027
   },
   "top_authors": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "Plato",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Anthony Trollope",
@@ -77,10 +77,6 @@
       "count": 12
     },
     {
-      "name": "Aeschylus",
-      "count": 12
-    },
-    {
       "name": "Terry Pratchett",
       "count": 12
     },
@@ -93,26 +89,30 @@
       "count": 11
     },
     {
-      "name": "Bertrand Russell",
+      "name": "Roger Zelazny",
       "count": 10
     },
     {
-      "name": "Roger Zelazny",
+      "name": "Arthur Conan Doyle",
+      "count": 10
+    },
+    {
+      "name": "Aeschylus",
       "count": 10
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 1186
+      "count": 1182
     },
     {
       "name": "Science Fiction",
-      "count": 310
+      "count": 308
     },
     {
       "name": "Philosophy",
-      "count": 301
+      "count": 297
     },
     {
       "name": "Fantasy",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Computer Science",
-      "count": 194
+      "count": 193
     },
     {
       "name": "History",
@@ -132,15 +132,15 @@
     },
     {
       "name": "Poetry",
-      "count": 151
+      "count": 148
     },
     {
       "name": "Drama",
-      "count": 107
+      "count": 105
     },
     {
       "name": "Security",
-      "count": 79
+      "count": 77
     },
     {
       "name": "Horror",
@@ -148,11 +148,11 @@
     },
     {
       "name": "Economics",
-      "count": 63
+      "count": 62
     },
     {
       "name": "Classics",
-      "count": 55
+      "count": 54
     },
     {
       "name": "Political Theory",
@@ -163,12 +163,12 @@
       "count": 47
     },
     {
-      "name": "Science",
-      "count": 44
-    },
-    {
       "name": "Mathematics",
       "count": 43
+    },
+    {
+      "name": "Science",
+      "count": 42
     },
     {
       "name": "Literary Criticism",
@@ -211,34 +211,34 @@
       "count": 12
     },
     {
-      "name": "Non‑Western History",
+      "name": "Medieval Philosophy & Theology",
       "count": 12
     },
     {
-      "name": "Medieval Philosophy & Theology",
-      "count": 12
+      "name": "Non‑Western History",
+      "count": 11
     }
   ],
   "year_distribution": {
-    "before_1800": 154,
-    "1800_1899": 259,
-    "1900_1949": 457,
-    "1950_1999": 1146,
-    "2000_plus": 1484
+    "before_1800": 153,
+    "1800_1899": 257,
+    "1900_1949": 453,
+    "1950_1999": 1140,
+    "2000_plus": 1474
   },
   "reading_progress": {
-    "read": 1014,
+    "read": 1012,
     "reading": 0,
-    "want": 2510,
+    "want": 2489,
     "unread": 0
   },
   "oldest_year": 1467,
   "newest_year": 2030,
   "bookshelf": {
-    "total_pages": 1177488,
-    "estimated_reading_hours": 19625,
-    "shelf_meters": 88.1,
-    "books_with_pages": 3139
+    "total_pages": 1169182,
+    "estimated_reading_hours": 19486,
+    "shelf_meters": 87.5,
+    "books_with_pages": 3118
   },
-  "generated_at": "2026-03-15T23:11:38.270396"
+  "generated_at": "2026-03-15T23:17:18.093840"
 }
