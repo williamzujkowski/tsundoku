@@ -15,5 +15,12 @@
   "pages": 220,
   "google_books_url": "http://books.google.com/books?id=43jomY21hIEC&dq=intitle:The+Book+of+PF:+A+No-Nonsense+Guide+to+the+OpenBSD+Firewall&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "subjects": [
+    "Firewalls (Computer security)",
+    "OpenBSD (Electronic resource)",
+    "TCP/IP (Computer network protocol)",
+    "Tcp/ip (computer network protocol)",
+    "Computer security"
+  ]
 }
