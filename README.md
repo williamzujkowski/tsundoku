@@ -8,41 +8,72 @@ A curated bookshelf with reading tracker — because buying books and not readin
 
 ## Features
 
-- Browse books with cover art, descriptions, and metadata
-- Global search (⌘K) across books and authors
+- **3,524 books** across **29 categories** from **1,644 authors**
+- Browse with cover art, descriptions, and metadata
+- Global search (⌘K) with keyboard navigation across books and authors
 - Filter by category, priority, and reading status
-- Individual book pages with covers, descriptions, ISBNs, page counts
-- Author pages with Wikipedia bios and photos
+- Individual book pages with JSON-LD structured data, og:image social previews
+- Author pages with Wikipedia bios, photos, and book listings
 - Reading progress tracker (want to read / reading / read)
-- "Read free" links to Project Gutenberg for public domain works
+- Free reading/listening links: Project Gutenberg, LibriVox audiobooks, HathiTrust
 - External links: Goodreads, Google Books, Open Library, WorldCat
-- Stats dashboard with enrichment coverage and reading progress
+- Copyright status badges (public domain / likely public domain / in copyright)
+- Stats dashboard with bookshelf metrics (total pages, reading hours, shelf space)
+- Random book discovery button, Web Share API sharing
+- View transitions + prefetch for instant navigation
+- Sitemap with 5,000+ URLs for SEO
 - Static site — no server, no database, deploys to GitHub Pages
 
 ## Tech Stack
 
-- [Astro](https://astro.build) — static site framework with content collections
-- [Svelte 5](https://svelte.dev) — interactive islands (search, book grid)
+- [Astro 6](https://astro.build) — static site framework with content collections
+- [Svelte 5](https://svelte.dev) — interactive islands (search, book grid, random, share)
 - [Tailwind CSS 4](https://tailwindcss.com) — utility-first styling
+- [Vitest](https://vitest.dev) — JavaScript testing (35 tests)
+- [pytest](https://pytest.org) — Python testing (35 tests)
 - Zod schema validation on all content
 
 ## Data Sources
 
 | Source | What it provides |
 |--------|-----------------|
-| Open Library | Covers, first published year, author data |
-| Google Books | Descriptions, ISBNs, page counts, categories |
+| Open Library | Covers, subjects, page counts, ISBNs, OCLC IDs |
+| Google Books | Descriptions, ISBNs, categories |
 | Wikipedia | Author bios and photos |
-| Gutendex | Project Gutenberg free reading links |
+| Project Gutenberg | Free reading links (public domain) |
+| LibriVox | Free audiobook links (public domain) |
+| HathiTrust | Digitized full texts + rights metadata |
+| WorldCat | Library catalog links |
 
 ## Development
 
 ```bash
 npm install
 npm run dev        # Start dev server
-npm run build      # Generate stats + search index + build
+npm run build      # Full build (prebuild + astro build)
 npm run typecheck  # Type check
+npm test           # Run JS tests
 ```
+
+## Enrichment
+
+Multi-source enrichment pipeline with state tracking and auto-resume:
+
+```bash
+# Full automated scan (all sources, resumes from last position)
+python3 scripts/run-all-enrichments.py
+
+# Check scan progress
+python3 scripts/run-all-enrichments.py --status
+
+# Show data gaps
+python3 scripts/enrich-gaps.py --report
+
+# After enrichment, recompute copyright status
+python3 scripts/enrich-copyright.py --apply
+```
+
+See [scripts/README.md](scripts/README.md) for the complete script inventory.
 
 ## Reading Status
 
@@ -55,16 +86,6 @@ neuromancer,reading,,Currently on chapter 3
 ```
 
 Status values: `want` | `reading` | `read`
-
-## Enrichment Scripts
-
-```bash
-python3 scripts/enrich.py --limit 100           # Book covers + descriptions
-python3 scripts/enrich-authors.py --limit 100    # Author bios + photos
-python3 scripts/enrich-gutenberg.py --limit 500  # Gutenberg free reading links
-python3 scripts/generate-stats.py                # Regenerate stats
-python3 scripts/generate-search-index.py         # Regenerate search index
-```
 
 ## License
 
