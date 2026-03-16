@@ -17,7 +17,7 @@
     "pages": 3139,
     "pages_pct": 89.1,
     "years": 3500,
-    "subjects": 2586
+    "subjects": 2584
   },
   "top_authors": [
     {
@@ -104,7 +104,7 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1475
+      "count": 1473
     },
     {
       "name": "Philosophy",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Computer Science",
-      "count": 193
+      "count": 194
     },
     {
       "name": "Fantasy",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Security",
-      "count": 78
+      "count": 79
     },
     {
       "name": "Mystery",
@@ -240,5 +240,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T22:16:14.754309"
+  "generated_at": "2026-03-15T22:21:52.650533"
 }
