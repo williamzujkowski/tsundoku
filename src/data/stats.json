@@ -1,21 +1,21 @@
 {
   "total_books": 3501,
   "total_categories": 29,
-  "total_authors": 1668,
+  "total_authors": 1667,
   "priorities": {
     "must_read": 1664,
     "recommended": 1802,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3460,
+    "covers": 3459,
     "covers_pct": 98.8,
     "descriptions": 3002,
     "descriptions_pct": 85.7,
     "isbns": 2689,
     "isbns_pct": 76.8,
-    "pages": 3118,
-    "pages_pct": 89.1,
+    "pages": 3117,
+    "pages_pct": 89.0,
     "years": 3477,
     "subjects": 3038
   },
@@ -222,8 +222,8 @@
   "year_distribution": {
     "before_1800": 153,
     "1800_1899": 257,
-    "1900_1949": 453,
-    "1950_1999": 1140,
+    "1900_1949": 454,
+    "1950_1999": 1139,
     "2000_plus": 1474
   },
   "reading_progress": {
@@ -235,10 +235,10 @@
   "oldest_year": 1467,
   "newest_year": 2030,
   "bookshelf": {
-    "total_pages": 1169182,
-    "estimated_reading_hours": 19486,
+    "total_pages": 1168792,
+    "estimated_reading_hours": 19480,
     "shelf_meters": 87.5,
-    "books_with_pages": 3118
+    "books_with_pages": 3117
   },
-  "generated_at": "2026-03-15T23:50:40.528136"
+  "generated_at": "2026-03-16T00:15:29.602383"
 }
