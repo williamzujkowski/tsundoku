@@ -1,23 +1,23 @@
 {
-  "total_books": 3625,
+  "total_books": 3611,
   "total_categories": 29,
-  "total_authors": 1726,
+  "total_authors": 1725,
   "priorities": {
     "must_read": 1696,
-    "recommended": 1894,
+    "recommended": 1880,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3442,
+    "covers": 3432,
     "covers_pct": 95.0,
-    "descriptions": 2986,
-    "descriptions_pct": 82.4,
-    "isbns": 2682,
+    "descriptions": 2979,
+    "descriptions_pct": 82.5,
+    "isbns": 2673,
     "isbns_pct": 74.0,
-    "pages": 3102,
+    "pages": 3090,
     "pages_pct": 85.6,
-    "years": 3459,
-    "subjects": 3128
+    "years": 3448,
+    "subjects": 3118
   },
   "top_authors": [
     {
@@ -61,10 +61,6 @@
       "count": 14
     },
     {
-      "name": "Unknown",
-      "count": 14
-    },
-    {
       "name": "Edgar Wallace",
       "count": 14
     },
@@ -99,12 +95,16 @@
     {
       "name": "Arthur Conan Doyle",
       "count": 10
+    },
+    {
+      "name": "Aeschylus",
+      "count": 10
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 1151
+      "count": 1141
     },
     {
       "name": "Science Fiction",
@@ -124,11 +124,11 @@
     },
     {
       "name": "Mystery",
-      "count": 199
+      "count": 198
     },
     {
       "name": "Computer Science",
-      "count": 194
+      "count": 192
     },
     {
       "name": "Poetry",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Security",
-      "count": 77
+      "count": 76
     },
     {
       "name": "Classics",
@@ -221,13 +221,13 @@
   ],
   "year_distribution": {
     "before_1800": 153,
-    "1800_1899": 257,
-    "1900_1949": 454,
-    "1950_1999": 1137,
-    "2000_plus": 1458
+    "1800_1899": 256,
+    "1900_1949": 453,
+    "1950_1999": 1136,
+    "2000_plus": 1450
   },
   "reading_progress": {
-    "read": 1634,
+    "read": 1620,
     "reading": 0,
     "want": 1991,
     "unread": 0
@@ -235,10 +235,10 @@
   "oldest_year": 1467,
   "newest_year": 2030,
   "bookshelf": {
-    "total_pages": 1167470,
-    "estimated_reading_hours": 19458,
-    "shelf_meters": 90.6,
-    "books_with_pages": 3102
+    "total_pages": 1161665,
+    "estimated_reading_hours": 19361,
+    "shelf_meters": 90.3,
+    "books_with_pages": 3090
   },
-  "generated_at": "2026-03-16T08:12:01.322160"
+  "generated_at": "2026-03-16T08:13:44.114032"
 }
