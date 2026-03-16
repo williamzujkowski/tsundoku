@@ -48,6 +48,10 @@ def main() -> None:
             skipped_unknown += count
             continue
 
+        # Skip authors whose names produce empty slugs (e.g., Cyrillic-only names)
+        if not slug:
+            continue
+
         # Skip if page already exists
         if slug in existing_slugs:
             continue
