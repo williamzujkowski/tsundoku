@@ -5,8 +5,7 @@
   "priority": 2,
   "slug": "the-leavenworth-case",
   "tags": [
-    "google-play-library",
-    "mystery"
+    "google-play-library"
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=Z2vI4RlT_MYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -27,5 +26,8 @@
     "Murder",
     "Lawyers",
     "Sisters"
-  ]
+  ],
+  "gutenberg_id": 4047,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/4047",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4047.html.images"
 }

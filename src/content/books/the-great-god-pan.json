@@ -4,7 +4,9 @@
   "category": "Horror",
   "priority": 2,
   "slug": "the-great-god-pan",
-  "tags": [],
+  "tags": [
+    "horror"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/921610-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/921610-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3388961W",

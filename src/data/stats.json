@@ -104,23 +104,31 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1473
+      "count": 1207
+    },
+    {
+      "name": "Science Fiction",
+      "count": 307
     },
     {
       "name": "Philosophy",
       "count": 301
     },
     {
-      "name": "Science Fiction",
-      "count": 281
+      "name": "Fantasy",
+      "count": 231
     },
     {
       "name": "Computer Science",
       "count": 194
     },
     {
-      "name": "Fantasy",
-      "count": 184
+      "name": "History",
+      "count": 180
+    },
+    {
+      "name": "Mystery",
+      "count": 161
     },
     {
       "name": "Poetry",
@@ -131,24 +139,16 @@
       "count": 107
     },
     {
-      "name": "History",
-      "count": 86
-    },
-    {
       "name": "Security",
       "count": 79
     },
     {
-      "name": "Mystery",
-      "count": 71
+      "name": "Horror",
+      "count": 65
     },
     {
       "name": "Economics",
       "count": 63
-    },
-    {
-      "name": "Horror",
-      "count": 56
     },
     {
       "name": "Classics",
@@ -240,5 +240,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T22:51:52.450335"
+  "generated_at": "2026-03-15T23:00:03.531288"
 }

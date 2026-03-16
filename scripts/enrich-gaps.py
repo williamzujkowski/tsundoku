@@ -165,7 +165,15 @@ def fill_gaps(book: dict, gaps: list[str]) -> dict:
             # Check if this source has the field
             data = source_cache.get(source, {})
             if field in data:
-                filled[field] = data[field]
+                if field == "subjects":
+                    # Merge subjects from multiple sources rather than replacing
+                    existing = set(book.get("subjects") or [])
+                    new_subjects = set(data[field])
+                    merged = sorted(existing | new_subjects)
+                    if merged != sorted(existing):
+                        filled[field] = merged
+                else:
+                    filled[field] = data[field]
                 # Also grab cover_url_large if we got cover_url from OL
                 if field == "cover_url" and "cover_url_large" in data:
                     filled["cover_url_large"] = data["cover_url_large"]

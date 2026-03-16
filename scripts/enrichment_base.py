@@ -85,8 +85,21 @@ class EnrichmentScript(ABC):
             return None
 
     def save_book(self, book_path: Path, book: dict, new_fields: dict) -> bool:
-        """Update book JSON with new fields. Only fills missing/empty fields."""
+        """Update book JSON with new fields. Only fills missing/empty fields.
+
+        Special handling for _gutenberg_subjects: merges into subjects array.
+        """
         changed = False
+
+        # Handle special merge fields
+        gutenberg_subjects = new_fields.pop("_gutenberg_subjects", None)
+        if gutenberg_subjects:
+            existing_subjects = set(book.get("subjects") or [])
+            merged = sorted(existing_subjects | set(gutenberg_subjects))
+            if merged != sorted(existing_subjects):
+                book["subjects"] = merged
+                changed = True
+
         for key, val in new_fields.items():
             existing = book.get(key)
             if existing is None or existing == "" or existing == []:

@@ -50,7 +50,7 @@ class GutenbergEnricher(EnrichmentScript):
                 if not gid:
                     continue
 
-                fields = {
+                fields: dict = {
                     "gutenberg_id": gid,
                     "gutenberg_url": f"https://www.gutenberg.org/ebooks/{gid}",
                 }
@@ -61,6 +61,14 @@ class GutenbergEnricher(EnrichmentScript):
                     if mime in formats:
                         fields["gutenberg_read_url"] = formats[mime]
                         break
+
+                # Extract subjects and bookshelves (LC subject headings)
+                gutenberg_subjects = result.get("subjects", [])
+                bookshelves = result.get("bookshelves", [])
+                if gutenberg_subjects or bookshelves:
+                    # Merge into existing subjects if book has none
+                    combined = gutenberg_subjects + bookshelves
+                    fields["_gutenberg_subjects"] = [s for s in combined if len(s) < 100]
 
                 return fields
 
