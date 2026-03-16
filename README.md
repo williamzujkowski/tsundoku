@@ -8,7 +8,7 @@ A curated bookshelf with reading tracker — because buying books and not readin
 
 ## Features
 
-- **3,644 books** across **29 categories** from **1,743 authors**
+- **3,534 books** across **29 categories** from **1,616 authors**
 - Browse with cover art, descriptions, and metadata
 - Global search (⌘K) with keyboard navigation across books and authors
 - Filter by category, priority, reading status, and genre tags (35 genres)

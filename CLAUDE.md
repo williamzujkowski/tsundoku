@@ -192,9 +192,9 @@ apply-reading-status.py → generate-author-stubs.py → generate-stats.py → g
 **Books**: title, author, category, priority (1-3), slug, tags,
 description?, cover_url?, cover_url_large?, isbn?, first_published?,
 subjects?, pages?, language?, gutenberg_url?, gutenberg_id?,
-gutenberg_read_url?, librivox_url?, standardebooks_url?, archive_url?,
+gutenberg_read_url?, librivox_url?,
 oclc_id?, lccn?, worldcat_url?, hathitrust_url?, hathitrust_rights?,
-copyright_status?, reading_status?, status_date?, status_notes?
+copyright_status?, reading_status?
 
 **Authors**: name, slug, bio?, photo_url?, wikipedia_url?,
 open_library_url?, birth_year?, death_year?, book_count
