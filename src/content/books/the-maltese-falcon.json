@@ -4,9 +4,7 @@
   "category": "Mystery",
   "priority": 1,
   "slug": "the-maltese-falcon",
-  "tags": [
-    "mystery"
-  ],
+  "tags": [],
   "cover_url": "https://covers.openlibrary.org/b/id/998587-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/998587-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL47266W",
@@ -29,5 +27,8 @@
     "Hard-boiled detectives",
     "Investigadores privados",
     "Novela de misterio"
-  ]
+  ],
+  "gutenberg_id": 77600,
+  "gutenberg_url": "https://www.gutenberg.org/ebooks/77600",
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/77600.html.images"
 }

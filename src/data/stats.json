@@ -17,7 +17,7 @@
     "pages": 3139,
     "pages_pct": 89.1,
     "years": 3500,
-    "subjects": 3005
+    "subjects": 3045
   },
   "top_authors": [
     {
@@ -104,7 +104,7 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1207
+      "count": 1213
     },
     {
       "name": "Science Fiction",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Fantasy",
-      "count": 231
+      "count": 230
     },
     {
       "name": "Computer Science",
@@ -124,11 +124,11 @@
     },
     {
       "name": "History",
-      "count": 180
+      "count": 178
     },
     {
       "name": "Mystery",
-      "count": 161
+      "count": 158
     },
     {
       "name": "Poetry",
@@ -240,5 +240,5 @@
     "shelf_meters": 88.1,
     "books_with_pages": 3139
   },
-  "generated_at": "2026-03-15T23:00:03.531288"
+  "generated_at": "2026-03-15T23:06:04.290382"
 }
