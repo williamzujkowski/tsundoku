@@ -29,6 +29,7 @@ __pycache__/
 data/view-source*.html
 data/merge-report.json
 data/dirtylist.csv
+data/enrichment-state.json
 
 # Generated at build time
 public/search-index.json

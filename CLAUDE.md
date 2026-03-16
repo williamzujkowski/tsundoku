@@ -8,10 +8,13 @@ npm run build        # Generate stats + search index + build
 npm run typecheck    # Type check Astro/TypeScript
 npm test             # Run unit tests (vitest)
 npm run test:watch   # Run tests in watch mode
-python3 scripts/enrich.py --limit 100          # Enrich books (Open Library + Google Books)
-python3 scripts/enrich-authors.py --limit 100  # Enrich authors (Wikipedia)
-python3 scripts/enrich-gutenberg.py --limit 500 # Link to Project Gutenberg
-python3 scripts/enrich-librivox.py --limit 500  # Link to LibriVox audiobooks
+python3 scripts/enrich-gaps.py --report         # Show data gap report
+python3 scripts/enrich-gaps.py --limit 200      # Fill gaps (subjects, descriptions, etc.)
+python3 scripts/enrich-categories.py             # Suggest category changes from subjects
+python3 scripts/enrich.py --limit 100           # Enrich books (Open Library + Google Books)
+python3 scripts/enrich-authors.py --limit 100   # Enrich authors (Wikipedia)
+python3 scripts/enrich-gutenberg.py --limit 500  # Link to Project Gutenberg
+python3 scripts/enrich-librivox.py --limit 500   # Link to LibriVox audiobooks
 ```
 
 ## Architecture
