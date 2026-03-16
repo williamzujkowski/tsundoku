@@ -44,6 +44,11 @@ ENRICHMENT_SOURCES = {
         "args": [],
         "description": "HathiTrust digitized texts",
     },
+    "wikipedia_books": {
+        "script": "enrich-wikipedia-books.py",
+        "args": [],
+        "description": "Wikipedia descriptions for books missing them",
+    },
 }
 
 # Safety limits

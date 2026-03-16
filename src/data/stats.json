@@ -8,10 +8,10 @@
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3432,
-    "covers_pct": 95.0,
-    "descriptions": 2979,
-    "descriptions_pct": 82.5,
+    "covers": 3461,
+    "covers_pct": 95.8,
+    "descriptions": 3100,
+    "descriptions_pct": 85.8,
     "isbns": 2673,
     "isbns_pct": 74.0,
     "pages": 3090,
@@ -240,5 +240,5 @@
     "shelf_meters": 90.3,
     "books_with_pages": 3090
   },
-  "generated_at": "2026-03-16T08:13:44.114032"
+  "generated_at": "2026-03-16T08:23:47.103535"
 }
