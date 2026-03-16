@@ -58,18 +58,29 @@ class EnrichmentState:
         return self.scan_date == date.today().isoformat()
 
     def should_scan(self, slug: str) -> bool:
-        """Check if a book should be scanned (not yet reached in today's scan)."""
-        if not self.is_todays_scan:
-            return True  # New day — rescan everything
+        """Check if a book should be scanned (not yet reached in current scan).
+
+        Always resumes from last_scanned_slug regardless of date.
+        This prevents re-scanning already-processed books across sessions.
+        """
+        if not self.last_scanned_slug:
+            return True  # Never scanned — start from beginning
         return slug > self.last_scanned_slug
 
     def record_scan(self, slug: str, matched: bool = False) -> None:
         """Record that a book was scanned."""
         self._state["last_scanned_slug"] = slug
-        self._state["scan_date"] = date.today().isoformat()
+        today = date.today().isoformat()
+        # Reset daily counters on new day, but preserve last_scanned_slug
+        if self._state.get("scan_date") != today:
+            self._state["daily_scanned"] = 0
+            self._state["daily_matched"] = 0
+        self._state["scan_date"] = today
         self._state["total_scanned"] = self._state.get("total_scanned", 0) + 1
+        self._state["daily_scanned"] = self._state.get("daily_scanned", 0) + 1
         if matched:
             self._state["total_matched"] = self._state.get("total_matched", 0) + 1
+            self._state["daily_matched"] = self._state.get("daily_matched", 0) + 1
 
     def set_total_books(self, count: int) -> None:
         self._state["total_books"] = count
@@ -80,12 +91,18 @@ class EnrichmentState:
 
     @property
     def is_complete(self) -> bool:
-        """True if today's scan has processed all books."""
-        if not self.is_todays_scan:
-            return False
+        """True if scan has processed all books (across all sessions)."""
         total = self._state.get("total_books", 0)
         scanned = self._state.get("total_scanned", 0)
         return total > 0 and scanned >= total
+
+    def reset(self) -> None:
+        """Reset scan to start from the beginning (e.g., after new books added)."""
+        self._state["last_scanned_slug"] = ""
+        self._state["total_scanned"] = 0
+        self._state["total_matched"] = 0
+        self._state["daily_scanned"] = 0
+        self._state["daily_matched"] = 0
 
     @staticmethod
     def load_all() -> dict:
@@ -99,9 +116,10 @@ class EnrichmentState:
 
     def summary(self) -> str:
         s = self._state
+        daily = f" (today: +{s.get('daily_scanned', 0)}/+{s.get('daily_matched', 0)})" if s.get('daily_scanned') else ""
         return (
             f"{self.source}: scanned={s['total_scanned']}, "
-            f"matched={s['total_matched']}, "
+            f"matched={s['total_matched']}{daily}, "
             f"date={s['scan_date']}, "
             f"last={s['last_scanned_slug'][:30]}"
         )
