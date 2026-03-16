@@ -1,23 +1,23 @@
 {
-  "total_books": 3644,
+  "total_books": 3625,
   "total_categories": 29,
-  "total_authors": 1743,
+  "total_authors": 1726,
   "priorities": {
     "must_read": 1696,
-    "recommended": 1913,
+    "recommended": 1894,
     "supplementary": 35
   },
   "enrichment": {
-    "covers": 3459,
-    "covers_pct": 94.9,
-    "descriptions": 3002,
+    "covers": 3442,
+    "covers_pct": 95.0,
+    "descriptions": 2986,
     "descriptions_pct": 82.4,
-    "isbns": 2689,
-    "isbns_pct": 73.8,
-    "pages": 3117,
-    "pages_pct": 85.5,
-    "years": 3477,
-    "subjects": 3130
+    "isbns": 2682,
+    "isbns_pct": 74.0,
+    "pages": 3102,
+    "pages_pct": 85.6,
+    "years": 3459,
+    "subjects": 3128
   },
   "top_authors": [
     {
@@ -53,15 +53,15 @@
       "count": 15
     },
     {
-      "name": "Unknown",
-      "count": 15
-    },
-    {
       "name": "C.S. Lewis",
       "count": 14
     },
     {
       "name": "Agatha Christie",
+      "count": 14
+    },
+    {
+      "name": "Unknown",
       "count": 14
     },
     {
@@ -104,7 +104,7 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1168
+      "count": 1151
     },
     {
       "name": "Science Fiction",
@@ -124,7 +124,7 @@
     },
     {
       "name": "Mystery",
-      "count": 201
+      "count": 199
     },
     {
       "name": "Computer Science",
@@ -223,11 +223,11 @@
     "before_1800": 153,
     "1800_1899": 257,
     "1900_1949": 454,
-    "1950_1999": 1139,
-    "2000_plus": 1474
+    "1950_1999": 1137,
+    "2000_plus": 1458
   },
   "reading_progress": {
-    "read": 1653,
+    "read": 1634,
     "reading": 0,
     "want": 1991,
     "unread": 0
@@ -235,10 +235,10 @@
   "oldest_year": 1467,
   "newest_year": 2030,
   "bookshelf": {
-    "total_pages": 1168792,
-    "estimated_reading_hours": 19480,
-    "shelf_meters": 91.1,
-    "books_with_pages": 3117
+    "total_pages": 1167470,
+    "estimated_reading_hours": 19458,
+    "shelf_meters": 90.6,
+    "books_with_pages": 3102
   },
-  "generated_at": "2026-03-16T05:57:25.483352"
+  "generated_at": "2026-03-16T08:12:01.322160"
 }
