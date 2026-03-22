@@ -17,12 +17,13 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
 
 <Layout title="About" description="What is tsundoku? The Japanese art of acquiring books and letting them pile up.">
   <article class="prose-container">
-    <h1 class="heading-lg mb-6">About</h1>
+    <h1 class="heading-xl mb-8">About</h1>
 
+    <!-- What is Tsundoku -->
     <section class="mb-8">
-      <h2 class="heading-md mb-4 section-heading">&#x7A4D;&#x3093;&#x8AAD; — Tsundoku</h2>
-      <p class="text-muted prose-text">
-        <strong>Tsundoku</strong> (&#x7A4D;&#x3093;&#x8AAD;) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
+      <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
+      <p class="prose-text" style="color: var(--text);">
+        <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
       </p>
       <p class="text-muted prose-text">
         It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
@@ -32,110 +33,130 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
       </p>
     </section>
 
+    <!-- The Numbers — stat badges instead of flat card -->
+    <hr class="section-divider" />
     <section class="mb-8">
-      <h2 class="heading-md mb-4 section-heading">The Numbers</h2>
-      <div class="card card-padded-lg">
-        <dl class="grid grid-2 md-grid-3 gap-4 text-sm">
-          <div>
-            <dt class="text-dim">Books cataloged</dt>
-            <dd class="stat-number">{stats.total_books.toLocaleString()}</dd>
-          </div>
-          <div>
-            <dt class="text-dim">Actually read</dt>
-            <dd class="stat-number stat-number-green">{readPct}%</dd>
-          </div>
-          <div>
-            <dt class="text-dim">Still "planning to"</dt>
-            <dd class="stat-number stat-number-blue">{wantPct}%</dd>
-          </div>
-          <div>
-            <dt class="text-dim">Total pages</dt>
-            <dd class="stat-number">{stats.bookshelf.total_pages.toLocaleString()}</dd>
-          </div>
-          <div>
-            <dt class="text-dim">Shelf space needed</dt>
-            <dd class="stat-number">{stats.bookshelf.shelf_meters}m</dd>
-          </div>
-          <div>
-            <dt class="text-dim">Hours to read all</dt>
-            <dd class="stat-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</dd>
-          </div>
-        </dl>
+      <h2 class="heading-lg mb-6 section-heading">The Numbers</h2>
+      <div class="grid grid-2 md-grid-3 gap-4">
+        <div class="stat-badge">
+          <div class="stat-badge-number">{stats.total_books.toLocaleString()}</div>
+          <div class="stat-badge-label">Books cataloged</div>
+        </div>
+        <div class="stat-badge stat-badge-green">
+          <div class="stat-badge-number">{readPct}%</div>
+          <div class="stat-badge-label">Actually read</div>
+        </div>
+        <div class="stat-badge stat-badge-blue">
+          <div class="stat-badge-number">{wantPct}%</div>
+          <div class="stat-badge-label">Still "planning to"</div>
+        </div>
+        <div class="stat-badge">
+          <div class="stat-badge-number">{(stats.bookshelf.total_pages / 1000).toFixed(0)}K</div>
+          <div class="stat-badge-label">Total pages</div>
+        </div>
+        <div class="stat-badge">
+          <div class="stat-badge-number">{stats.bookshelf.shelf_meters}m</div>
+          <div class="stat-badge-label">Shelf space</div>
+        </div>
+        <div class="stat-badge stat-badge-pop">
+          <div class="stat-badge-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</div>
+          <div class="stat-badge-label">Hours to read all</div>
+        </div>
       </div>
     </section>
 
+    <!-- Free Reading -->
+    <hr class="section-divider" />
     <section class="mb-8">
-      <h2 class="heading-md mb-4 section-heading">Free Reading</h2>
+      <h2 class="heading-lg mb-6 section-heading">Free Reading</h2>
       <p class="text-muted prose-text">
         Many books in this collection are in the public domain. We've linked to free reading and listening sources wherever available:
       </p>
-      <ul class="resource-list">
-        <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold stat-number-green">{gutenbergCount.toLocaleString()}</span> books linked to
-          <a href="https://www.gutenberg.org" target="_blank" rel="noopener noreferrer" class="ext-link">Project Gutenberg</a>
-          for free reading
-        </li>
-        <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold stat-number-yellow">{librivoxCount.toLocaleString()}</span> books linked to
-          <a href="https://librivox.org" target="_blank" rel="noopener noreferrer" class="ext-link">LibriVox</a>
-          for free audiobooks
-        </li>
-        <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold stat-number-blue">{hathitrustCount.toLocaleString()}</span> books linked to
-          <a href="https://www.hathitrust.org" target="_blank" rel="noopener noreferrer" class="ext-link">HathiTrust Digital Library</a>
-        </li>
-      </ul>
+      <div class="grid md-grid-3 gap-3">
+        <a href="https://www.gutenberg.org" target="_blank" rel="noopener noreferrer" class="card card-padded" style="text-decoration: none; color: var(--text); border-left: 4px solid var(--pop-green);">
+          <div class="stat-badge-number" style="font-size: 1.5rem; color: var(--pop-green);">{gutenbergCount.toLocaleString()}</div>
+          <div class="stat-badge-label">Project Gutenberg</div>
+          <div class="stat-badge-sub">Free reading</div>
+        </a>
+        <a href="https://librivox.org" target="_blank" rel="noopener noreferrer" class="card card-padded" style="text-decoration: none; color: var(--text); border-left: 4px solid var(--pop-yellow);">
+          <div class="stat-badge-number" style="font-size: 1.5rem; color: var(--pop-yellow);">{librivoxCount.toLocaleString()}</div>
+          <div class="stat-badge-label">LibriVox</div>
+          <div class="stat-badge-sub">Free audiobooks</div>
+        </a>
+        <a href="https://www.hathitrust.org" target="_blank" rel="noopener noreferrer" class="card card-padded" style="text-decoration: none; color: var(--text); border-left: 4px solid var(--pop-blue);">
+          <div class="stat-badge-number" style="font-size: 1.5rem; color: var(--pop-blue);">{hathitrustCount.toLocaleString()}</div>
+          <div class="stat-badge-label">HathiTrust</div>
+          <div class="stat-badge-sub">Digital library</div>
+        </a>
+      </div>
     </section>
 
+    <!-- How It's Built -->
+    <hr class="section-divider" />
     <section class="mb-8">
-      <h2 class="heading-md mb-4 section-heading">How It's Built</h2>
+      <h2 class="heading-lg mb-6 section-heading">How It's Built</h2>
       <p class="text-muted prose-text">
         This is a fully static site — no server, no database, no JavaScript frameworks fighting for your CPU. Just HTML, CSS, and a few Svelte islands for search and filtering.
       </p>
-      <div class="grid grid-2 md-grid-3 gap-3 text-sm">
-        <div class="card card-padded-sm">
+      <div class="grid grid-2 md-grid-3 gap-3">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-cyan);">
           <span class="font-bold">Astro</span>
           <span class="text-dim text-xs block">Static site generator</span>
         </div>
-        <div class="card card-padded-sm">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-orange);">
           <span class="font-bold">Svelte 5</span>
           <span class="text-dim text-xs block">Interactive islands</span>
         </div>
-        <div class="card card-padded-sm">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-pink);">
           <span class="font-bold">Custom CSS</span>
           <span class="text-dim text-xs block">Neo-brutalist design</span>
         </div>
-        <div class="card card-padded-sm">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-green);">
           <span class="font-bold">Open Library</span>
-          <span class="text-dim text-xs block">Covers & metadata</span>
+          <span class="text-dim text-xs block">Covers &amp; metadata</span>
         </div>
-        <div class="card card-padded-sm">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-purple);">
           <span class="font-bold">Wikipedia</span>
-          <span class="text-dim text-xs block">Descriptions & bios</span>
+          <span class="text-dim text-xs block">Descriptions &amp; bios</span>
         </div>
-        <div class="card card-padded-sm">
+        <div class="card card-padded" style="border-top: 3px solid var(--pop-blue);">
           <span class="font-bold">GitHub Pages</span>
           <span class="text-dim text-xs block">Hosting</span>
         </div>
       </div>
     </section>
 
+    <!-- Stages of Tsundoku -->
+    <hr class="section-divider" />
     <section class="mb-8">
-      <h2 class="heading-md mb-4 section-heading">Stages of Tsundoku</h2>
-      <ol class="prose-ol text-muted text-sm">
-        <li><strong>Denial</strong> — "I don't have a problem. I just appreciate good literature."</li>
-        <li><strong>Bargaining</strong> — "If I read two books a week, I'll finish by... 2029."</li>
-        <li><strong>Cataloging</strong> — "I should organize these into a database. With enrichment pipelines."</li>
-        <li><strong>Acceptance</strong> — "I built a website for my unread books. This is who I am now."</li>
-        <li><strong>Relapse</strong> — "Oh, that looks interesting..." <em>*adds 50 more books*</em></li>
-      </ol>
+      <h2 class="heading-lg mb-6 section-heading">Stages of Tsundoku</h2>
+      <div class="grid gap-3">
+        <div class="list-item" style="border-left: 4px solid var(--pop-green);">
+          <span class="stat-badge-number text-mono" style="font-size: 1.25rem; width: 1.5rem; flex-shrink: 0;">1</span>
+          <span class="text-muted text-sm"><strong style="color: var(--text);">Denial</strong> — "I don't have a problem. I just appreciate good literature."</span>
+        </div>
+        <div class="list-item" style="border-left: 4px solid var(--pop-yellow);">
+          <span class="stat-badge-number text-mono" style="font-size: 1.25rem; width: 1.5rem; flex-shrink: 0;">2</span>
+          <span class="text-muted text-sm"><strong style="color: var(--text);">Bargaining</strong> — "If I read two books a week, I'll finish by... 2029."</span>
+        </div>
+        <div class="list-item" style="border-left: 4px solid var(--pop-blue);">
+          <span class="stat-badge-number text-mono" style="font-size: 1.25rem; width: 1.5rem; flex-shrink: 0;">3</span>
+          <span class="text-muted text-sm"><strong style="color: var(--text);">Cataloging</strong> — "I should organize these into a database. With enrichment pipelines."</span>
+        </div>
+        <div class="list-item" style="border-left: 4px solid var(--pop-purple);">
+          <span class="stat-badge-number text-mono" style="font-size: 1.25rem; width: 1.5rem; flex-shrink: 0;">4</span>
+          <span class="text-muted text-sm"><strong style="color: var(--text);">Acceptance</strong> — "I built a website for my unread books. This is who I am now."</span>
+        </div>
+        <div class="list-item" style="border-left: 4px solid var(--pop-pink);">
+          <span class="stat-badge-number text-mono" style="font-size: 1.25rem; width: 1.5rem; flex-shrink: 0;">5</span>
+          <span class="text-muted text-sm"><strong style="color: var(--text);">Relapse</strong> — "Oh, that looks interesting..." <em>*adds 50 more books*</em></span>
+        </div>
+      </div>
     </section>
 
     <hr class="section-divider" />
     <div class="text-center">
-      <a href={`${base}`} class="ext-link text-sm">
-        &#x2190; Back to the pile
-      </a>
+      <a href={`${base}`} class="btn btn-outline">Back to the pile</a>
     </div>
   </article>
 </Layout>
