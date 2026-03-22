@@ -1,23 +1,23 @@
 {
-  "total_books": 3534,
-  "total_categories": 29,
-  "total_authors": 1615,
+  "total_books": 3644,
+  "total_categories": 30,
+  "total_authors": 1695,
   "priorities": {
-    "must_read": 1640,
+    "must_read": 1750,
     "recommended": 1860,
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3467,
-    "covers_pct": 98.1,
+    "covers": 3494,
+    "covers_pct": 95.9,
     "descriptions": 3490,
-    "descriptions_pct": 98.8,
+    "descriptions_pct": 95.8,
     "isbns": 2625,
-    "isbns_pct": 74.3,
+    "isbns_pct": 72.0,
     "pages": 3025,
-    "pages_pct": 85.6,
-    "years": 3372,
-    "subjects": 3056
+    "pages_pct": 83.0,
+    "years": 3514,
+    "subjects": 3166
   },
   "top_authors": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "Plato",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Anthony Trollope",
@@ -37,12 +37,12 @@
       "count": 18
     },
     {
-      "name": "Ursula K. Le Guin",
+      "name": "Jules Verne",
       "count": 17
     },
     {
-      "name": "Jules Verne",
-      "count": 16
+      "name": "Ursula K. Le Guin",
+      "count": 17
     },
     {
       "name": "Isaac Asimov",
@@ -85,6 +85,10 @@
       "count": 12
     },
     {
+      "name": "Friedrich Nietzsche",
+      "count": 12
+    },
+    {
       "name": "Terry Pratchett",
       "count": 12
     },
@@ -95,16 +99,12 @@
     {
       "name": "Octavia E. Butler",
       "count": 11
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "count": 11
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 1093
+      "count": 1140
     },
     {
       "name": "Science Fiction",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Philosophy",
-      "count": 278
+      "count": 308
     },
     {
       "name": "Fantasy",
@@ -175,6 +175,10 @@
       "count": 36
     },
     {
+      "name": "Science Fiction & Fantasy",
+      "count": 33
+    },
+    {
       "name": "Non-Western Philosophy",
       "count": 32
     },
@@ -220,16 +224,16 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 148,
-    "1800_1899": 250,
-    "1900_1949": 432,
-    "1950_1999": 1107,
-    "2000_plus": 1435
+    "before_1800": 158,
+    "1800_1899": 256,
+    "1900_1949": 466,
+    "1950_1999": 1169,
+    "2000_plus": 1465
   },
   "reading_progress": {
-    "read": 2555,
+    "read": 3234,
     "reading": 0,
-    "want": 979,
+    "want": 410,
     "unread": 0
   },
   "links": {
@@ -238,13 +242,13 @@
     "hathitrust": 129,
     "worldcat": 480
   },
-  "oldest_year": 1467,
+  "oldest_year": -400,
   "newest_year": 2026,
   "bookshelf": {
     "total_pages": 1129957,
     "estimated_reading_hours": 18833,
-    "shelf_meters": 88.4,
+    "shelf_meters": 91.1,
     "books_with_pages": 3025
   },
-  "generated_at": "2026-03-16T15:01:24.310625"
+  "generated_at": "2026-03-21T23:07:52.693970"
 }

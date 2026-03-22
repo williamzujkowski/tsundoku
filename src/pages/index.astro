@@ -7,6 +7,10 @@ import { toSlug, seededShuffle } from '../utils/formatting';
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
 const categories = [...new Set(books.map(b => b.data.category))].sort();
+
+const readPct = Math.round(100 * stats.reading_progress.read / stats.total_books);
+const yearsToFinish = Math.round(stats.bookshelf.estimated_reading_hours / 8 / 365 * 10) / 10;
+const yearSpan = stats.newest_year - stats.oldest_year;
 ---
 
 <Layout title="Home">
@@ -15,9 +19,15 @@ const categories = [...new Set(books.map(b => b.data.category))].sort();
       積ん読
     </h1>
     <p class="text-lg sm:text-xl text-purple-400 mb-2">Tsundoku</p>
-    <p class="text-gray-400 text-base sm:text-lg mb-8 max-w-xl mx-auto px-4">
-      A curated collection of {stats.total_books.toLocaleString()} essential works across {stats.total_categories} categories from {stats.total_authors.toLocaleString()} authors.
+    <p class="text-gray-400 text-base sm:text-lg mb-3 max-w-xl mx-auto px-4">
+      Everything I've read or want to read. Not meticulously curated — just a lifelong habit of
+      accumulating books faster than I can finish them.
     </p>
+    <p class="text-gray-500 text-sm mb-8 max-w-md mx-auto px-4">
+      {stats.total_books.toLocaleString()} books. {stats.total_authors.toLocaleString()} authors.
+      {yearSpan.toLocaleString()} years of human thought. One shelf that will never be long enough.
+    </p>
+
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-6 max-w-lg sm:max-w-2xl mx-auto mb-10">
       <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
         <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_books.toLocaleString()}</p>
@@ -32,24 +42,52 @@ const categories = [...new Set(books.map(b => b.data.category))].sort();
         <p class="text-xs sm:text-sm text-gray-500">Authors</p>
       </div>
       <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.priorities.must_read.toLocaleString()}</p>
-        <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
+        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.reading_progress.read.toLocaleString()}</p>
+        <p class="text-xs sm:text-sm text-gray-500">Read</p>
       </div>
     </div>
     {stats.reading_progress.read > 0 && (
       <div class="max-w-md mx-auto mb-8 px-4">
         <div class="flex h-2 rounded-full overflow-hidden bg-gray-800">
-          <div class="bg-green-500" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`}></div>
+          <div class="bg-green-500" style={`width: ${readPct}%`}></div>
           <div class="bg-amber-500" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
         </div>
         <p class="text-xs text-gray-500 mt-2">
-          {stats.reading_progress.read} read · {stats.reading_progress.reading} reading · {stats.bookshelf.total_pages.toLocaleString()} pages across the collection
+          {readPct}% read · {stats.reading_progress.want} still on the pile ·
+          at this pace I'll finish in {yearsToFinish} years
         </p>
       </div>
     )}
     <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 sm:px-8 py-3 transition-colors shadow-lg shadow-purple-900/30">
       Browse the Collection
     </a>
+  </section>
+
+  {/* By the Numbers */}
+  <section class="py-8 sm:py-12 border-t border-gray-800">
+    <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">By the Numbers</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
+        <p class="text-xl sm:text-2xl font-bold text-white">{(stats.bookshelf.total_pages / 1000000).toFixed(1)}M</p>
+        <p class="text-xs text-gray-500">Total Pages</p>
+        <p class="text-[10px] text-gray-600 mt-1">That's roughly {Math.round(stats.bookshelf.shelf_meters)} meters of shelf</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
+        <p class="text-xl sm:text-2xl font-bold text-white">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</p>
+        <p class="text-xs text-gray-500">Reading Hours</p>
+        <p class="text-[10px] text-gray-600 mt-1">Or {(stats.bookshelf.estimated_reading_hours / 24 / 365).toFixed(1)} years of nonstop reading</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
+        <p class="text-xl sm:text-2xl font-bold text-white">{Math.abs(stats.oldest_year)} BC</p>
+        <p class="text-xs text-gray-500">Oldest Work</p>
+        <p class="text-[10px] text-gray-600 mt-1">To {stats.newest_year} — {yearSpan.toLocaleString()} years of range</p>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
+        <p class="text-xl sm:text-2xl font-bold text-white">{stats.reading_progress.want}</p>
+        <p class="text-xs text-gray-500">Want to Read</p>
+        <p class="text-[10px] text-gray-600 mt-1">The pile grows</p>
+      </div>
+    </div>
   </section>
 
   {/* Featured Must-Reads */}
