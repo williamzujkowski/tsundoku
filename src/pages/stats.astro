@@ -52,41 +52,25 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  <!-- Reading progress -->
+  <!-- Reading progress — binary: read or not -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">Reading Progress</h2>
-    <div class="grid grid-2 sm-grid-4 gap-3 mb-4">
+    <div class="grid grid-2 gap-3 mb-4" style="max-width: 36rem;">
       <div class="stat-badge stat-badge-green">
-        <p class="stat-badge-number">{stats.reading_progress.read}</p>
+        <p class="stat-badge-number">{stats.reading_progress.read.toLocaleString()}</p>
         <p class="stat-badge-label">Read</p>
       </div>
-      <div class="stat-badge stat-badge-yellow">
-        <p class="stat-badge-number">{stats.reading_progress.reading}</p>
-        <p class="stat-badge-label">Reading</p>
-      </div>
-      <div class="stat-badge stat-badge-blue">
-        <p class="stat-badge-number">{stats.reading_progress.want}</p>
-        <p class="stat-badge-label">Want to Read</p>
-      </div>
-      <div class="stat-badge stat-badge-dim">
-        <p class="stat-badge-number">{stats.reading_progress.unread}</p>
-        <p class="stat-badge-label">Not Started</p>
+      <div class="stat-badge stat-badge-pop">
+        <p class="stat-badge-number">{(stats.total_books - stats.reading_progress.read).toLocaleString()}</p>
+        <p class="stat-badge-label">Not yet</p>
       </div>
     </div>
     <div class="card card-padded">
       <div class="progress-bar">
-        {stats.reading_progress.read > 0 && (
-          <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
-        )}
-        {stats.reading_progress.reading > 0 && (
-          <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`} title={`Reading: ${stats.reading_progress.reading}`}></div>
-        )}
-        {stats.reading_progress.want > 0 && (
-          <div style={`width: ${100 * stats.reading_progress.want / stats.total_books}%; background: var(--pop-blue);`} title={`Want: ${stats.reading_progress.want}`}></div>
-        )}
+        <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
       </div>
-      <p class="text-xs text-dim mt-2 text-center">
-        {stats.reading_progress.read} of {stats.total_books} books read ({Math.round(100 * stats.reading_progress.read / stats.total_books)}%)
+      <p class="text-xs text-dim mt-2">
+        {stats.reading_progress.read.toLocaleString()} of {stats.total_books.toLocaleString()} read ({Math.round(100 * stats.reading_progress.read / stats.total_books)}%). The time spent tracking the other {(stats.total_books - stats.reading_progress.read).toLocaleString()} could have been spent reading them.
       </p>
     </div>
   </section>
