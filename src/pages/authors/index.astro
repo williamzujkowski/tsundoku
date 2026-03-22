@@ -62,16 +62,16 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
             const inner = (
               <>
                 {author.photo_url ? (
-                  <img src={author.photo_url} alt="" style="width: 2rem; height: 2rem; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border);" loading="lazy" />
+                  <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" />
                 ) : (
-                  <div style="width: 2rem; height: 2rem; background: var(--bg-elevated); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim);" class="text-xs">
-                    <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <div class="author-avatar-placeholder">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                     </svg>
                   </div>
                 )}
                 <span class="text-sm truncate">{author.name}</span>
-                <span class="text-xs text-dim text-mono" style="margin-left: auto; flex-shrink: 0;">{author.count} {pluralize(author.count, 'book')}</span>
+                <span class="text-xs text-dim text-mono" style="margin-left: auto; flex-shrink: 0;">{author.count}</span>
               </>
             );
 
@@ -80,7 +80,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
                 {inner}
               </a>
             ) : (
-              <div class="list-item" style="cursor: default;">
+              <div class="list-item">
                 {inner}
               </div>
             );

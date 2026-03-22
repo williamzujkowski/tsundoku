@@ -40,6 +40,7 @@ const lifespan = author.birth_year
     ...(author.birth_year ? { "birthDate": String(author.birth_year) } : {}),
     ...(author.death_year ? { "deathDate": String(author.death_year) } : {}),
   })} />
+
   <nav class="breadcrumb">
     <a href={`${base}`}>Home</a>
     <span class="breadcrumb-sep">/</span>
@@ -49,80 +50,74 @@ const lifespan = author.birth_year
   </nav>
 
   <!-- Author header -->
-  <div class="flex flex-col gap-6 mb-8">
-    <div class="flex flex-col gap-6">
-      <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
-        {author.photo_url ? (
-          <img
-            src={author.photo_url}
-            alt={author.name}
-            style="width: 10rem; height: 10rem; object-fit: cover; border: var(--border-width) solid var(--border); box-shadow: var(--shadow); flex-shrink: 0;"
-            loading="eager"
-          />
-        ) : (
-          <div style="width: 10rem; height: 10rem; background: var(--bg-elevated); border: var(--border-width) solid var(--border); box-shadow: var(--shadow); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim);" aria-hidden="true">
-            <svg style="width: 4rem; height: 4rem;" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-            </svg>
-          </div>
+  <div class="author-header">
+    {author.photo_url ? (
+      <img
+        src={author.photo_url}
+        alt={author.name}
+        class="author-photo"
+        loading="eager"
+      />
+    ) : (
+      <div class="author-photo-placeholder" aria-hidden="true">
+        <svg width="64" height="64" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
+      </div>
+    )}
+
+    <div class="author-info">
+      <h1 class="heading-lg mb-2">{author.name}</h1>
+
+      {lifespan && (
+        <p class="text-muted text-sm mb-4">{lifespan}</p>
+      )}
+
+      {author.bio && (
+        <p class="text-muted text-sm mb-4 author-bio">{author.bio}</p>
+      )}
+
+      <div class="flex flex-wrap gap-2">
+        {author.wikipedia_url && (
+          <a href={author.wikipedia_url} target="_blank" rel="noopener noreferrer" class="meta-tag">
+            Wikipedia
+          </a>
         )}
-
-        <div style="flex: 1; min-width: 0;">
-          <h1 class="heading-lg mb-2">{author.name}</h1>
-
-          {lifespan && (
-            <p class="text-muted text-sm mb-4">{lifespan}</p>
-          )}
-
-          {author.bio && (
-            <p class="text-muted text-sm mb-4 prose-container" style="line-height: 1.7;">{author.bio}</p>
-          )}
-
-          <div class="flex flex-wrap gap-2">
-            {author.wikipedia_url && (
-              <a href={author.wikipedia_url} target="_blank" rel="noopener noreferrer"
-                 class="meta-tag flex items-center gap-2" style="text-decoration: none;">
-                <svg style="width: 0.875rem; height: 0.875rem;" viewBox="0 0 24 24" fill="currentColor"><path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.931-1.532.029-1.406-3.321-4.293-9.144-5.651-12.409-.251-.601-.441-.987-.619-1.139-.181-.15-.554-.24-1.122-.271C.103 5.033 0 4.982 0 4.898v-.455l.052-.045c.924-.005 5.401 0 5.401 0l.051.045v.434c0 .119-.075.176-.225.176l-.564.031c-.485.029-.727.164-.727.436 0 .135.053.33.166.601 1.082 2.646 4.818 10.521 4.818 10.521l2.681-5.249-2.12-4.015c-.466-.88-.727-1.36-.727-1.36-.28-.451-.49-.693-.608-.71-.131-.021-.327-.029-.589-.029H7.36c-.149 0-.224-.06-.224-.176v-.434l.051-.045c.924-.005 4.532 0 4.532 0l.051.045v.434c0 .119-.075.176-.224.176-.584.016-.876.104-.876.27 0 .104.063.27.166.502l1.756 3.343 1.728-3.349c.104-.24.166-.406.166-.502 0-.166-.291-.254-.876-.27-.149 0-.224-.06-.224-.176v-.434l.051-.045c.924-.005 3.556 0 3.556 0l.052.045v.434c0 .119-.075.176-.224.176-.391 0-.735.086-1.032.256-.301.166-.541.393-.736.68l-2.515 4.797 2.68 5.202s3.637-7.724 4.669-10.207c.113-.27.166-.465.166-.601 0-.271-.24-.407-.72-.436l-.563-.031c-.149 0-.224-.06-.224-.176v-.434l.051-.045s4.476-.005 5.401 0l.051.045v.455c0 .084-.104.135-.312.158-.567.031-.949.121-1.13.271-.18.152-.371.538-.621 1.139-1.358 3.265-4.245 9.088-5.651 12.409-.405.902-.916 1.045-1.532-.029-.636-1.18-1.917-3.796-2.853-5.728z"/></svg>
-                Wikipedia
-              </a>
-            )}
-            {author.open_library_url && (
-              <a href={author.open_library_url} target="_blank" rel="noopener noreferrer"
-                 class="meta-tag flex items-center gap-2" style="text-decoration: none;">
-                <svg style="width: 0.875rem; height: 0.875rem;" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L19.82 7 12 9.82 4.18 7 12 4.18zM3 8.27l8 4v9.46l-8-4V8.27zm10 13.46V12.27l8-4v9.46l-8 4z"/></svg>
-                Open Library
-              </a>
-            )}
-          </div>
-        </div>
+        {author.open_library_url && (
+          <a href={author.open_library_url} target="_blank" rel="noopener noreferrer" class="meta-tag">
+            Open Library
+          </a>
+        )}
       </div>
     </div>
   </div>
 
   <!-- Books by this author -->
+  <hr class="section-divider" />
   <h2 class="heading-md mb-4">{books.length} {pluralize(books.length, 'book')} in collection</h2>
 
   <div class="grid sm-grid-2 lg-grid-4 gap-3">
     {books.map(book => (
-      <a href={`${base}books/${book.data.slug}/`}
-         class="card book-cover-group" style="padding: 0.75rem; display: flex; gap: 0.75rem; text-decoration: none; color: var(--text);">
+      <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
         {book.data.cover_url ? (
-          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover" style="width: 3rem; height: 4.5rem; flex-shrink: 0;" loading="lazy" />
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" />
         ) : (
-          <div style="width: 3rem; height: 4.5rem; background: var(--bg-elevated); border: var(--border-width) solid var(--border); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim);" aria-hidden="true">
-            <svg style="width: 1.5rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
+          <div class="book-thumb-placeholder" aria-hidden="true">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
           </div>
         )}
-        <div style="min-width: 0; flex: 1;">
+        <div class="book-card-body">
           <div class="flex items-center justify-between gap-1 mb-2">
-            <span class={priorityBadgeClass(book.data.priority)} style="white-space: nowrap;">
+            <span class={priorityBadgeClass(book.data.priority)}>
               {priorityLabel(book.data.priority)}
             </span>
             {book.data.first_published && (
               <span class="text-xs text-dim">{book.data.first_published}</span>
             )}
           </div>
-          <h3 class="text-sm font-bold line-clamp-2" style="margin-bottom: 0.125rem;">{book.data.title}</h3>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
           <p class="text-xs text-dim truncate">{book.data.category}</p>
         </div>
       </a>

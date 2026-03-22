@@ -43,25 +43,26 @@ const base = import.meta.env.BASE_URL;
 
   <div class="grid sm-grid-2 lg-grid-4 gap-3">
     {books.map(book => (
-      <a href={`${base}books/${book.data.slug}/`}
-         class="card book-cover-group" style="padding: 0.75rem; display: flex; gap: 0.75rem; text-decoration: none; color: var(--text);">
+      <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
         {book.data.cover_url ? (
-          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover" style="width: 3rem; height: 4.5rem; flex-shrink: 0;" loading="lazy" />
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" />
         ) : (
-          <div style="width: 3rem; height: 4.5rem; background: var(--bg-elevated); border: var(--border-width) solid var(--border); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim);" aria-hidden="true">
-            <svg style="width: 1.5rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
+          <div class="book-thumb-placeholder" aria-hidden="true">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
           </div>
         )}
-        <div style="min-width: 0; flex: 1;">
+        <div class="book-card-body">
           <div class="flex items-center justify-between gap-1 mb-2">
-            <span class={priorityBadgeClass(book.data.priority)} style="white-space: nowrap;">
+            <span class={priorityBadgeClass(book.data.priority)}>
               {priorityLabel(book.data.priority)}
             </span>
             {book.data.first_published && (
               <span class="text-xs text-dim">{book.data.first_published}</span>
             )}
           </div>
-          <h3 class="text-sm font-bold line-clamp-2" style="margin-bottom: 0.125rem;">{book.data.title}</h3>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
           <p class="text-xs text-dim truncate">{book.data.author}</p>
         </div>
       </a>
