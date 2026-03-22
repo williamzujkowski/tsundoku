@@ -57,7 +57,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
     return (
       <section id={letter} class="mb-8">
         <h2 class="sticky-letter heading-md mb-4">{letter}</h2>
-        <div class="grid sm-grid-2 lg-grid-4 gap-2">
+        <div class="grid sm-grid-2 md-grid-3 gap-2">
           {letterAuthors.map(author => {
             const inner = (
               <>

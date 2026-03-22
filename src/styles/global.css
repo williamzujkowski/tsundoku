@@ -162,6 +162,7 @@ a:hover { color: var(--pop-pink); }
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1.5rem var(--gutter) 2rem;
+  overflow-x: hidden;
 }
 
 .site-footer {
@@ -448,6 +449,8 @@ a:hover { color: var(--pop-pink); }
   text-decoration: none;
   color: var(--text);
   transition: border-color 80ms ease;
+  min-width: 0;
+  overflow: hidden;
 }
 .list-item:hover {
   border-color: var(--pop-pink);
