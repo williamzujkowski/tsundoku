@@ -51,7 +51,7 @@ const categorySlug = toSlug(book.category);
     <span class="breadcrumb-current truncate">{book.title}</span>
   </nav>
 
-  <article class="max-w-3xl">
+  <article class="prose-container">
     <!-- Hero: cover + title -->
     <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem;">
       {book.cover_url ? (
@@ -291,10 +291,10 @@ const categorySlug = toSlug(book.category);
         </div>
       </section>
     )}
-  </article>
 
-  <hr class="section-divider" />
-  <a href={`${base}browse/`} class="ext-link text-sm text-muted">
-    &#x2190; Back to browse
-  </a>
+    <hr class="section-divider" />
+    <a href={`${base}browse/`} class="ext-link text-sm text-muted">
+      &#x2190; Back to browse
+    </a>
+  </article>
 </Layout>

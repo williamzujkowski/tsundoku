@@ -535,6 +535,27 @@ a:hover { color: var(--pop-pink); }
   margin-block: 2rem;
 }
 
+/* ===== Prose Container ===== */
+.prose-container { max-width: 48rem; }
+
+/* ===== Stat Badge Sub-text ===== */
+.stat-badge-sub {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  margin-top: 0.25rem;
+}
+
+/* ===== Sticky Letter Heading ===== */
+.sticky-letter {
+  position: sticky;
+  top: 3.5rem;
+  background: var(--bg);
+  padding-block: 0.5rem;
+  z-index: 10;
+  border-bottom: var(--border-width) solid var(--border);
+  color: var(--pop-pink);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 640px) {
   .heading-xl { font-size: 2.5rem; }
