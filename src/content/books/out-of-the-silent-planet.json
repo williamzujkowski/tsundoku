@@ -4,7 +4,9 @@
   "category": "Science Fiction",
   "priority": 1,
   "slug": "out-of-the-silent-planet",
-  "tags": [],
+  "tags": [
+    "npr-top-100-sff"
+  ],
   "open_library_url": "https://openlibrary.org/works/OL26548721W",
   "first_published": 2012,
   "language": "eng",
@@ -17,6 +19,6 @@
     "Fiction"
   ],
   "google_books_url": "http://books.google.com/books?id=0KoY9664480C&dq=Out+of+the+Silent+Planet+C.S.+Lewis&hl=&source=gbs_api",
-  "reading_status": "want",
+  "reading_status": "read",
   "copyright_status": "in_copyright"
 }
