@@ -1,5 +1,10 @@
 {
   "name": "Thomas Paine",
   "slug": "thomas-paine",
-  "book_count": 1
+  "book_count": 1,
+  "bio": "Thomas Paine was an English-born American Founding Father, French Revolutionary, inventor, political philosopher, and statesman. His pamphlets Common Sense (1776) and The American Crisis (1776–1783) framed the Patriot argument for independence from Great Britain at the outset of the American Revolution. Paine advanced Enlightenment-era arguments for human rights that shaped revolutionary discourse on both sides of the Atlantic.",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg/400px-Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Paine",
+  "birth_year": 1776,
+  "death_year": 1783
 }
