@@ -1,7 +1,7 @@
 {
   "total_books": 3644,
   "total_categories": 30,
-  "total_authors": 1695,
+  "total_authors": 1671,
   "priorities": {
     "must_read": 1750,
     "recommended": 1860,
@@ -29,12 +29,12 @@
       "count": 21
     },
     {
-      "name": "Anthony Trollope",
+      "name": "Edgar Rice Burroughs",
       "count": 19
     },
     {
-      "name": "Edgar Rice Burroughs",
-      "count": 18
+      "name": "Anthony Trollope",
+      "count": 19
     },
     {
       "name": "Jules Verne",
@@ -250,5 +250,5 @@
     "shelf_meters": 91.1,
     "books_with_pages": 3267
   },
-  "generated_at": "2026-03-22T08:57:11.316342"
+  "generated_at": "2026-03-22T10:33:23.583615"
 }
