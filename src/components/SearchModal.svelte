@@ -88,31 +88,31 @@
 
 <button
   onclick={toggle}
-  class="p-2 text-gray-400 hover:text-white transition-colors"
+  class="search-toggle"
   aria-label="Search (⌘K)"
   title="Search (⌘K)"
 >
-  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+  <svg class="search-toggle-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
   </svg>
 </button>
 
 {#if open}
   <div
-    class="fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm"
+    class="overlay"
     onclick={close}
     onkeydown={(e) => e.key === 'Escape' && close()}
     role="presentation"
   >
     <div
-      class="max-w-lg mx-auto mt-[15vh] bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden"
+      class="modal"
       onclick={(e) => e.stopPropagation()}
       role="dialog"
       aria-modal="true"
       aria-label="Search books and authors"
     >
-      <div class="flex items-center gap-3 px-4 border-b border-gray-800">
-        <svg class="w-5 h-5 text-gray-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+      <div class="modal-search-bar">
+        <svg class="modal-search-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
         </svg>
         <input
@@ -120,62 +120,265 @@
           bind:value={query}
           type="search"
           placeholder="Search books and authors..."
-          class="w-full bg-transparent text-white py-3 text-base outline-none placeholder:text-gray-600"
+          class="modal-search-input"
           aria-label="Search query"
           aria-controls="search-results"
           aria-activedescendant={activeIndex >= 0 ? `search-result-${activeIndex}` : undefined}
           onkeydown={handleResultKeydown}
         />
-        <kbd class="hidden sm:inline text-[10px] text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded border border-gray-700">ESC</kbd>
+        <kbd class="kbd-hint">ESC</kbd>
       </div>
 
-      <div id="search-results" class="max-h-[50vh] overflow-y-auto" role="listbox">
+      <div id="search-results" class="results-list" role="listbox">
         {#if loadError}
-          <div class="px-4 py-8 text-center text-sm text-red-400">Failed to load search index. Try refreshing the page.</div>
+          <div class="results-message results-error">Failed to load search index. Try refreshing the page.</div>
         {:else if !loaded}
-          <div class="px-4 py-8 text-center text-sm text-gray-600">Loading search index...</div>
+          <div class="results-message">Loading search index...</div>
         {:else if query.length < 2}
-          <div class="px-4 py-8 text-center text-sm text-gray-600">Type at least 2 characters...</div>
+          <div class="results-message">Type at least 2 characters...</div>
         {:else if results().length === 0}
-          <div class="px-4 py-8 text-center text-sm text-gray-500">No results for "{query}"</div>
+          <div class="results-message results-empty">No results for "{query}"</div>
         {:else}
           {#each results() as item, i}
             <a
               id="search-result-{i}"
               href="{baseUrl}{item.u}"
-              class="flex items-center gap-3 px-4 py-2.5 transition-colors {i === activeIndex ? 'bg-purple-900/40 border-l-2 border-purple-500' : 'hover:bg-gray-800/60 border-l-2 border-transparent'}"
+              class="result-item"
+              class:result-active={i === activeIndex}
               role="option"
               aria-selected={i === activeIndex}
               onclick={close}
               onmouseenter={() => activeIndex = i}
             >
               {#if item.c}
-                <img src={item.c} alt="" class="w-8 h-11 rounded object-cover shrink-0" loading="lazy" />
+                <img src={item.c} alt="" class="result-thumb" loading="lazy" />
               {:else}
-                <div class="w-8 h-11 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-700 text-xs" aria-hidden="true">
+                <div class="result-thumb-placeholder" aria-hidden="true">
                   {item.y === 'book' ? '📖' : '👤'}
                 </div>
               {/if}
-              <div class="min-w-0 flex-1">
-                <p class="text-sm text-white truncate">{item.t}</p>
-                <p class="text-xs text-gray-500 truncate">{item.s}</p>
+              <div class="result-text">
+                <p class="result-title">{item.t}</p>
+                <p class="result-subtitle">{item.s}</p>
               </div>
-              <span class="text-[10px] text-gray-600 uppercase shrink-0">{item.y}</span>
+              <span class="result-type">{item.y}</span>
             </a>
           {/each}
         {/if}
       </div>
 
-      <div class="px-4 py-2 border-t border-gray-800 flex items-center justify-between">
-        <div class="text-[10px] text-gray-600 flex gap-4">
-          <span><kbd class="bg-gray-800 px-1 rounded">↑↓</kbd> navigate</span>
-          <span><kbd class="bg-gray-800 px-1 rounded">↵</kbd> select</span>
-          <span><kbd class="bg-gray-800 px-1 rounded">esc</kbd> close</span>
+      <div class="modal-footer">
+        <div class="keyboard-hints">
+          <span><kbd class="kbd">↑↓</kbd> navigate</span>
+          <span><kbd class="kbd">↵</kbd> select</span>
+          <span><kbd class="kbd">esc</kbd> close</span>
         </div>
         {#if loaded && query.length >= 2}
-          <span class="text-[10px] text-gray-600" aria-live="polite">{results().length} {results().length === 1 ? 'result' : 'results'}</span>
+          <span class="results-count" aria-live="polite">{results().length} {results().length === 1 ? 'result' : 'results'}</span>
         {/if}
       </div>
     </div>
   </div>
 {/if}
+
+<style>
+  .search-toggle {
+    padding: 0.5rem;
+    color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-toggle:hover {
+    color: var(--text);
+  }
+
+  .search-toggle-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  /* --- Overlay --- */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+  }
+
+  /* --- Modal --- */
+  .modal {
+    max-width: 32rem;
+    margin: 15vh auto 0;
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--border);
+    box-shadow: 8px 8px 0 #000;
+    overflow: hidden;
+  }
+
+  /* --- Search bar inside modal --- */
+  .modal-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0 1rem;
+    border-bottom: var(--border-width) solid var(--border);
+  }
+
+  .modal-search-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+  }
+
+  .modal-search-input {
+    width: 100%;
+    background: transparent;
+    color: var(--text);
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    border: none;
+    outline: none;
+  }
+
+  .modal-search-input::placeholder {
+    color: var(--text-dim);
+  }
+
+  .kbd-hint {
+    display: none;
+    font-size: 0.625rem;
+    color: var(--text-dim);
+    background: var(--bg-elevated);
+    padding: 0.125rem 0.375rem;
+    border: var(--border-width) solid var(--border);
+    font-family: var(--font-mono);
+  }
+
+  @media (min-width: 640px) {
+    .kbd-hint {
+      display: inline;
+    }
+  }
+
+  /* --- Results list --- */
+  .results-list {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  .results-message {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--text-dim);
+  }
+
+  .results-error {
+    color: var(--pop-red);
+  }
+
+  .results-empty {
+    color: var(--text-dim);
+  }
+
+  /* --- Individual result --- */
+  .result-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 1rem;
+    text-decoration: none;
+    color: var(--text);
+    border-left: 3px solid transparent;
+    transition: border-color 80ms ease, background 80ms ease;
+  }
+
+  .result-item:hover,
+  .result-item.result-active {
+    background: var(--bg-elevated);
+    border-left-color: var(--pop-pink);
+    color: var(--text);
+  }
+
+  .result-thumb {
+    width: 2rem;
+    height: 2.75rem;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+
+  .result-thumb-placeholder {
+    width: 2rem;
+    height: 2.75rem;
+    background: var(--bg-elevated);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    border: 1px solid var(--border);
+  }
+
+  .result-text {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .result-title {
+    font-size: 0.875rem;
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .result-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .result-type {
+    font-size: 0.625rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  /* --- Modal footer --- */
+  .modal-footer {
+    padding: 0.5rem 1rem;
+    border-top: var(--border-width) solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .keyboard-hints {
+    font-size: 0.625rem;
+    color: var(--text-dim);
+    display: flex;
+    gap: 1rem;
+  }
+
+  .kbd {
+    background: var(--bg-elevated);
+    padding: 0 0.25rem;
+    border: 1px solid var(--border);
+    font-family: var(--font-mono);
+  }
+
+  .results-count {
+    font-size: 0.625rem;
+    color: var(--text-dim);
+  }
+</style>
