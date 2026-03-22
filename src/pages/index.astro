@@ -14,115 +14,120 @@ const yearSpan = stats.newest_year - stats.oldest_year;
 ---
 
 <Layout title="Home">
-  <section class="text-center py-12 sm:py-20">
-    <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
-      積ん読
-    </h1>
-    <p class="text-lg sm:text-xl text-purple-400 mb-2">Tsundoku</p>
-    <p class="text-gray-400 text-base sm:text-lg mb-3 max-w-xl mx-auto px-4">
+  <!-- Hero -->
+  <section class="py-12 text-center">
+    <h1 class="heading-xl mb-2">積ん読</h1>
+    <p class="text-mono" style="color: var(--pop-pink); font-size: 1.25rem; margin-bottom: 0.75rem;">TSUNDOKU</p>
+    <p class="text-muted mb-4 max-w-xl mx-auto">
       Everything I've read or want to read. Not meticulously curated — just a lifelong habit of
       accumulating books faster than I can finish them.
     </p>
-    <p class="text-gray-500 text-sm mb-8 max-w-md mx-auto px-4">
-      {stats.total_books.toLocaleString()} books. {stats.total_authors.toLocaleString()} authors.
-      {yearSpan.toLocaleString()} years of human thought. One shelf that will never be long enough.
+    <p class="text-dim text-xs text-mono mb-8 max-w-xl mx-auto">
+      {stats.total_books.toLocaleString()} books · {stats.total_authors.toLocaleString()} authors ·
+      {yearSpan.toLocaleString()} years of human thought
     </p>
 
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-6 max-w-lg sm:max-w-2xl mx-auto mb-10">
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_books.toLocaleString()}</p>
-        <p class="text-xs sm:text-sm text-gray-500">Books</p>
+    <!-- Stat Badges -->
+    <div class="grid grid-2 sm-grid-4 gap-4 max-w-2xl mx-auto mb-8">
+      <div class="stat-badge">
+        <div class="stat-badge-number">{stats.total_books.toLocaleString()}</div>
+        <div class="stat-badge-label">Books</div>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_categories}</p>
-        <p class="text-xs sm:text-sm text-gray-500">Categories</p>
+      <div class="stat-badge">
+        <div class="stat-badge-number">{stats.total_categories}</div>
+        <div class="stat-badge-label">Categories</div>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_authors.toLocaleString()}</p>
-        <p class="text-xs sm:text-sm text-gray-500">Authors</p>
+      <div class="stat-badge">
+        <div class="stat-badge-number">{stats.total_authors.toLocaleString()}</div>
+        <div class="stat-badge-label">Authors</div>
       </div>
-      <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-3 sm:p-4">
-        <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.reading_progress.read.toLocaleString()}</p>
-        <p class="text-xs sm:text-sm text-gray-500">Read</p>
+      <div class="stat-badge stat-badge-pop">
+        <div class="stat-badge-number">{stats.reading_progress.read.toLocaleString()}</div>
+        <div class="stat-badge-label">Read</div>
       </div>
     </div>
+
+    <!-- Progress -->
     {stats.reading_progress.read > 0 && (
-      <div class="max-w-md mx-auto mb-8 px-4">
-        <div class="flex h-2 rounded-full overflow-hidden bg-gray-800">
-          <div class="bg-green-500" style={`width: ${readPct}%`}></div>
-          <div class="bg-amber-500" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
+      <div class="max-w-xl mx-auto mb-8">
+        <div class="progress-bar">
+          <div class="progress-fill-read" style={`width: ${readPct}%`}></div>
+          <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
         </div>
-        <p class="text-xs text-gray-500 mt-2">
-          {readPct}% read · {stats.reading_progress.want} still on the pile ·
-          at this pace I'll finish in {yearsToFinish} years
+        <p class="text-xs text-dim text-mono mt-2">
+          {readPct}% read · {stats.reading_progress.want} on the pile ·
+          {yearsToFinish} years to finish at this pace
         </p>
       </div>
     )}
-    <a href={`${base}browse/`} class="inline-flex items-center justify-center rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 sm:px-8 py-3 transition-colors shadow-lg shadow-purple-900/30">
-      Browse the Collection
-    </a>
+
+    <a href={`${base}browse/`} class="btn">Browse the Collection</a>
   </section>
 
-  {/* By the Numbers */}
-  <section class="py-8 sm:py-12 border-t border-gray-800">
-    <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">By the Numbers</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
-      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
-        <p class="text-xl sm:text-2xl font-bold text-white">{(stats.bookshelf.total_pages / 1000000).toFixed(1)}M</p>
-        <p class="text-xs text-gray-500">Total Pages</p>
-        <p class="text-[10px] text-gray-600 mt-1">That's roughly {Math.round(stats.bookshelf.shelf_meters)} meters of shelf</p>
+  <!-- By the Numbers -->
+  <hr class="section-divider" />
+  <section class="py-8">
+    <h2 class="heading-md mb-6">By the Numbers</h2>
+    <div class="grid grid-2 sm-grid-4 gap-4">
+      <div class="stat-badge">
+        <div class="stat-badge-number">{(stats.bookshelf.total_pages / 1000000).toFixed(1)}M</div>
+        <div class="stat-badge-label">Total Pages</div>
+        <div class="text-dim" style="font-size: 0.6rem; margin-top: 0.25rem;">{Math.round(stats.bookshelf.shelf_meters)}m of shelf</div>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
-        <p class="text-xl sm:text-2xl font-bold text-white">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</p>
-        <p class="text-xs text-gray-500">Reading Hours</p>
-        <p class="text-[10px] text-gray-600 mt-1">Or {(stats.bookshelf.estimated_reading_hours / 24 / 365).toFixed(1)} years of nonstop reading</p>
+      <div class="stat-badge">
+        <div class="stat-badge-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</div>
+        <div class="stat-badge-label">Reading Hours</div>
+        <div class="text-dim" style="font-size: 0.6rem; margin-top: 0.25rem;">{(stats.bookshelf.estimated_reading_hours / 24 / 365).toFixed(1)} years nonstop</div>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
-        <p class="text-xl sm:text-2xl font-bold text-white">{Math.abs(stats.oldest_year)} BC</p>
-        <p class="text-xs text-gray-500">Oldest Work</p>
-        <p class="text-[10px] text-gray-600 mt-1">To {stats.newest_year} — {yearSpan.toLocaleString()} years of range</p>
+      <div class="stat-badge">
+        <div class="stat-badge-number">{Math.abs(stats.oldest_year)} BC</div>
+        <div class="stat-badge-label">Oldest Work</div>
+        <div class="text-dim" style="font-size: 0.6rem; margin-top: 0.25rem;">{yearSpan.toLocaleString()} year range</div>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center">
-        <p class="text-xl sm:text-2xl font-bold text-white">{stats.reading_progress.want}</p>
-        <p class="text-xs text-gray-500">Want to Read</p>
-        <p class="text-[10px] text-gray-600 mt-1">The pile grows</p>
+      <div class="stat-badge stat-badge-pop">
+        <div class="stat-badge-number">{stats.reading_progress.want}</div>
+        <div class="stat-badge-label">Want to Read</div>
+        <div class="text-dim" style="font-size: 0.6rem; margin-top: 0.25rem;">the pile grows</div>
       </div>
     </div>
   </section>
 
-  {/* Featured Must-Reads */}
+  <!-- Featured Must-Reads -->
   {(() => {
     const mustReads = books.filter(b => b.data.priority === 1 && b.data.cover_url);
     const featured = seededShuffle(mustReads).slice(0, 8);
     return featured.length > 0 ? (
-      <section class="py-8 sm:py-12">
-        <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Featured Must-Reads</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 sm:gap-4">
-          {featured.map(b => (
-            <a href={`${base}books/${b.data.slug}/`} class="group text-center">
-              <div class="overflow-hidden rounded-lg mb-2 border border-gray-800 group-hover:border-purple-700/50 transition-all duration-200 group-hover:shadow-lg group-hover:shadow-purple-900/30">
+      <>
+        <hr class="section-divider" />
+        <section class="py-8">
+          <h2 class="heading-md mb-6">Featured Must-Reads</h2>
+          <div class="grid grid-2 sm-grid-4 lg-grid-8 gap-4">
+            {featured.map(b => (
+              <a href={`${base}books/${b.data.slug}/`} class="book-cover-group" style="text-decoration: none;">
                 <img src={b.data.cover_url_large || b.data.cover_url} alt={b.data.title}
-                  class="w-full aspect-[2/3] object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-              </div>
-              <p class="text-white text-xs font-medium line-clamp-2 group-hover:text-purple-200 transition-colors">{b.data.title}</p>
-              <p class="text-gray-500 text-[10px] truncate">{b.data.author}</p>
-            </a>
-          ))}
-        </div>
-      </section>
+                  class="book-cover" loading="lazy" />
+                <p class="line-clamp-2" style="font-size: 0.75rem; font-weight: 600; margin-top: 0.5rem; color: var(--text);">{b.data.title}</p>
+                <p class="truncate text-dim" style="font-size: 0.65rem;">{b.data.author}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      </>
     ) : null;
   })()}
 
-  <section class="py-8 sm:py-12">
-    <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Categories</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2 sm:gap-3">
+  <!-- Categories -->
+  <hr class="section-divider" />
+  <section class="py-8">
+    <h2 class="heading-md mb-6">Categories</h2>
+    <div class="grid sm-grid-2 md-grid-3 lg-grid-6 gap-3">
       {categories.map(cat => {
         const count = books.filter(b => b.data.category === cat).length;
+        const catClass = `cat-${toSlug(cat)}`;
         return (
-          <a href={`${base}categories/${toSlug(cat)}/`}
-             class="flex items-center justify-between sm:flex-col sm:text-center rounded-xl border border-gray-800 bg-gray-900 px-4 py-3 sm:p-4 hover:border-purple-800 transition-colors group">
-            <p class="text-white font-medium text-sm group-hover:text-purple-300 transition-colors">{cat}</p>
-            <p class="text-gray-500 text-xs sm:mt-1">{count} books</p>
+          <a href={`${base}categories/${toSlug(cat)}/`} class={`cat-tile ${catClass}`}>
+            <span>{cat}</span>
+            <span class="cat-tile-count">{count}</span>
           </a>
         );
       })}

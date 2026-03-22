@@ -17,14 +17,14 @@ export function priorityLabel(p: number): string {
 }
 
 export function priorityClass(p: number): string {
-  if (p === 1) return 'bg-purple-900/60 text-purple-300 border border-purple-700/30';
-  if (p === 2) return 'bg-gray-800 text-gray-400 border border-gray-700';
-  return 'bg-gray-800/50 text-gray-500 border border-gray-700/50';
+  if (p === 1) return 'priority-badge priority-must-read';
+  if (p === 2) return 'priority-badge priority-recommended';
+  return 'priority-badge priority-supplementary';
 }
 
 export function priorityBadgeClass(p: number): string {
-  if (p === 1) return 'bg-purple-900/60 text-purple-300 border border-purple-700/30';
-  return 'bg-gray-800 text-gray-500';
+  if (p === 1) return 'priority-badge priority-must-read';
+  return 'priority-badge priority-supplementary';
 }
 
 export type ReadingStatus = 'want' | 'reading' | 'read';
@@ -36,15 +36,15 @@ export function statusLabel(status: ReadingStatus): string {
 }
 
 export function statusClass(status: ReadingStatus): string {
-  if (status === 'read') return 'bg-green-900/40 border-green-700/50 text-green-300';
-  if (status === 'reading') return 'bg-amber-900/40 border-amber-700/50 text-amber-300';
-  return 'bg-blue-900/40 border-blue-700/50 text-blue-300';
+  if (status === 'read') return 'status-badge status-read';
+  if (status === 'reading') return 'status-badge status-reading';
+  return 'status-badge status-want';
 }
 
 export function statusColor(status: ReadingStatus): string {
-  if (status === 'read') return 'text-green-500';
-  if (status === 'reading') return 'text-amber-500';
-  return 'text-blue-500';
+  if (status === 'read') return 'status-read';
+  if (status === 'reading') return 'status-reading';
+  return 'status-want';
 }
 
 export function statusIcon(status: ReadingStatus): string {

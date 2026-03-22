@@ -7,85 +7,85 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title="Stats" description="Collection statistics for the tsundoku bookshelf">
-  <h1 class="text-2xl sm:text-3xl font-bold text-white mb-6">Collection Stats</h1>
+  <h1 class="heading-lg mb-6">Collection Stats</h1>
 
   <!-- Overview cards -->
-  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_books.toLocaleString()}</p>
-      <p class="text-xs sm:text-sm text-gray-500">Books</p>
+  <div class="grid grid-2 sm-grid-4 gap-3 mb-8">
+    <div class="stat-badge">
+      <p class="stat-badge-number">{stats.total_books.toLocaleString()}</p>
+      <p class="stat-badge-label">Books</p>
     </div>
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_categories}</p>
-      <p class="text-xs sm:text-sm text-gray-500">Categories</p>
+    <div class="stat-badge">
+      <p class="stat-badge-number">{stats.total_categories}</p>
+      <p class="stat-badge-label">Categories</p>
     </div>
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-      <p class="text-2xl sm:text-3xl font-bold text-white">{stats.total_authors.toLocaleString()}</p>
-      <p class="text-xs sm:text-sm text-gray-500">Authors</p>
+    <div class="stat-badge">
+      <p class="stat-badge-number">{stats.total_authors.toLocaleString()}</p>
+      <p class="stat-badge-label">Authors</p>
     </div>
-    <div class="rounded-xl border border-purple-800/50 bg-purple-950/20 p-4 text-center">
-      <p class="text-2xl sm:text-3xl font-bold text-purple-400">{stats.priorities.must_read.toLocaleString()}</p>
-      <p class="text-xs sm:text-sm text-gray-500">Must-Reads</p>
+    <div class="stat-badge stat-badge-pop">
+      <p class="stat-badge-number">{stats.priorities.must_read.toLocaleString()}</p>
+      <p class="stat-badge-label">Must-Reads</p>
     </div>
   </div>
 
   <!-- Bookshelf fun stats -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">By the Numbers</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-        <p class="text-2xl font-bold text-white">{stats.bookshelf.total_pages.toLocaleString()}</p>
-        <p class="text-xs text-gray-500">Total pages</p>
+    <h2 class="heading-md mb-4">By the Numbers</h2>
+    <div class="grid grid-2 sm-grid-4 gap-3">
+      <div class="stat-badge">
+        <p class="stat-badge-number">{stats.bookshelf.total_pages.toLocaleString()}</p>
+        <p class="stat-badge-label">Total pages</p>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-        <p class="text-2xl font-bold text-white">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</p>
-        <p class="text-xs text-gray-500">Hours to read all</p>
+      <div class="stat-badge">
+        <p class="stat-badge-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</p>
+        <p class="stat-badge-label">Hours to read all</p>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-        <p class="text-2xl font-bold text-white">{stats.bookshelf.shelf_meters}m</p>
-        <p class="text-xs text-gray-500">Of shelf space</p>
+      <div class="stat-badge">
+        <p class="stat-badge-number">{stats.bookshelf.shelf_meters}m</p>
+        <p class="stat-badge-label">Of shelf space</p>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-        <p class="text-2xl font-bold text-white">{Math.round(stats.bookshelf.estimated_reading_hours / 24 / 365 * 10) / 10}</p>
-        <p class="text-xs text-gray-500">Years nonstop reading</p>
+      <div class="stat-badge">
+        <p class="stat-badge-number">{Math.round(stats.bookshelf.estimated_reading_hours / 24 / 365 * 10) / 10}</p>
+        <p class="stat-badge-label">Years nonstop reading</p>
       </div>
     </div>
   </section>
 
   <!-- Reading progress -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">Reading Progress</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
-      <div class="rounded-xl border border-green-800/40 bg-green-950/20 p-4 text-center">
-        <p class="text-2xl font-bold text-green-400">{stats.reading_progress.read}</p>
-        <p class="text-xs text-gray-500">Read</p>
+    <h2 class="heading-md mb-4">Reading Progress</h2>
+    <div class="grid grid-2 sm-grid-4 gap-3 mb-4">
+      <div class="stat-badge" style="border-color: var(--pop-green);">
+        <p class="stat-badge-number" style="color: var(--pop-green);">{stats.reading_progress.read}</p>
+        <p class="stat-badge-label">Read</p>
       </div>
-      <div class="rounded-xl border border-amber-800/40 bg-amber-950/20 p-4 text-center">
-        <p class="text-2xl font-bold text-amber-400">{stats.reading_progress.reading}</p>
-        <p class="text-xs text-gray-500">Reading</p>
+      <div class="stat-badge" style="border-color: var(--pop-yellow);">
+        <p class="stat-badge-number" style="color: var(--pop-yellow);">{stats.reading_progress.reading}</p>
+        <p class="stat-badge-label">Reading</p>
       </div>
-      <div class="rounded-xl border border-blue-800/40 bg-blue-950/20 p-4 text-center">
-        <p class="text-2xl font-bold text-blue-400">{stats.reading_progress.want}</p>
-        <p class="text-xs text-gray-500">Want to Read</p>
+      <div class="stat-badge" style="border-color: var(--pop-blue);">
+        <p class="stat-badge-number" style="color: var(--pop-blue);">{stats.reading_progress.want}</p>
+        <p class="stat-badge-label">Want to Read</p>
       </div>
-      <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-center">
-        <p class="text-2xl font-bold text-gray-500">{stats.reading_progress.unread}</p>
-        <p class="text-xs text-gray-500">Not Started</p>
+      <div class="stat-badge">
+        <p class="stat-badge-number" style="color: var(--text-dim);">{stats.reading_progress.unread}</p>
+        <p class="stat-badge-label">Not Started</p>
       </div>
     </div>
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-4">
-      <div class="flex h-3 rounded-full overflow-hidden bg-gray-800">
+    <div class="card" style="padding: 1rem;">
+      <div class="progress-bar">
         {stats.reading_progress.read > 0 && (
-          <div class="bg-green-500" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
+          <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
         )}
         {stats.reading_progress.reading > 0 && (
-          <div class="bg-amber-500" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`} title={`Reading: ${stats.reading_progress.reading}`}></div>
+          <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`} title={`Reading: ${stats.reading_progress.reading}`}></div>
         )}
         {stats.reading_progress.want > 0 && (
-          <div class="bg-blue-500" style={`width: ${100 * stats.reading_progress.want / stats.total_books}%`} title={`Want: ${stats.reading_progress.want}`}></div>
+          <div style={`width: ${100 * stats.reading_progress.want / stats.total_books}%; background: var(--pop-blue);`} title={`Want: ${stats.reading_progress.want}`}></div>
         )}
       </div>
-      <p class="text-xs text-gray-600 mt-2 text-center">
+      <p class="text-xs text-dim mt-2 text-center">
         {stats.reading_progress.read} of {stats.total_books} books read ({Math.round(100 * stats.reading_progress.read / stats.total_books)}%)
       </p>
     </div>
@@ -93,20 +93,20 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Priority breakdown -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">Priority Breakdown</h2>
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-5">
+    <h2 class="heading-md mb-4">Priority Breakdown</h2>
+    <div class="card" style="padding: 1.25rem;">
       {[
-        { label: 'Must-Read (P1)', count: stats.priorities.must_read, color: 'bg-purple-500' },
-        { label: 'Recommended (P2)', count: stats.priorities.recommended, color: 'bg-gray-500' },
-        { label: 'Supplementary (P3)', count: stats.priorities.supplementary, color: 'bg-gray-700' },
+        { label: 'Must-Read (P1)', count: stats.priorities.must_read, color: 'var(--pop-pink)' },
+        { label: 'Recommended (P2)', count: stats.priorities.recommended, color: 'var(--text-muted)' },
+        { label: 'Supplementary (P3)', count: stats.priorities.supplementary, color: 'var(--text-dim)' },
       ].map(p => (
-        <div class="mb-3 last:mb-0">
-          <div class="flex justify-between text-sm mb-1">
-            <span class="text-gray-300">{p.label}</span>
-            <span class="text-gray-500">{p.count} ({Math.round(100 * p.count / stats.total_books)}%)</span>
+        <div style="margin-bottom: 0.75rem;">
+          <div class="flex justify-between text-sm mb-2">
+            <span class="text-muted">{p.label}</span>
+            <span class="text-dim">{p.count} ({Math.round(100 * p.count / stats.total_books)}%)</span>
           </div>
-          <div class="w-full bg-gray-800 rounded-full h-2">
-            <div class={`${p.color} h-2 rounded-full`} style={`width: ${100 * p.count / stats.total_books}%`}></div>
+          <div class="progress-bar">
+            <div style={`width: ${100 * p.count / stats.total_books}%; background: ${p.color};`}></div>
           </div>
         </div>
       ))}
@@ -115,8 +115,8 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Enrichment coverage -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">Data Coverage</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+    <h2 class="heading-md mb-4">Data Coverage</h2>
+    <div class="grid grid-2 md-grid-3 gap-3">
       {[
         { label: 'Cover Art', pct: stats.enrichment.covers_pct, count: stats.enrichment.covers },
         { label: 'Descriptions', pct: stats.enrichment.descriptions_pct, count: stats.enrichment.descriptions },
@@ -125,15 +125,15 @@ const base = import.meta.env.BASE_URL;
         { label: 'Pub. Years', pct: Math.round(100 * stats.enrichment.years / stats.total_books), count: stats.enrichment.years },
         { label: 'Subjects', pct: Math.round(100 * stats.enrichment.subjects / stats.total_books), count: stats.enrichment.subjects },
       ].map(e => (
-        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4">
-          <div class="flex items-end justify-between mb-2">
-            <span class="text-sm text-gray-300">{e.label}</span>
-            <span class="text-lg font-bold text-white">{e.pct}%</span>
+        <div class="card" style="padding: 1rem;">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-muted">{e.label}</span>
+            <span class="font-bold" style="font-size: 1.1rem;">{e.pct}%</span>
           </div>
-          <div class="w-full bg-gray-800 rounded-full h-1.5">
-            <div class="bg-purple-500 h-1.5 rounded-full" style={`width: ${e.pct}%`}></div>
+          <div class="progress-bar">
+            <div style={`width: ${e.pct}%; background: var(--pop-pink);`}></div>
           </div>
-          <p class="text-[10px] text-gray-600 mt-1">{e.count.toLocaleString()} of {stats.total_books.toLocaleString()}</p>
+          <p class="text-xs text-dim mt-2">{e.count.toLocaleString()} of {stats.total_books.toLocaleString()}</p>
         </div>
       ))}
     </div>
@@ -141,23 +141,23 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Year distribution -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">Publication Era</h2>
-    <div class="rounded-xl border border-gray-800 bg-gray-900 p-5">
-      <p class="text-sm text-gray-400 mb-4">Spanning from {stats.oldest_year} to {stats.newest_year}</p>
+    <h2 class="heading-md mb-4">Publication Era</h2>
+    <div class="card" style="padding: 1.25rem;">
+      <p class="text-sm text-muted mb-4">Spanning from {stats.oldest_year} to {stats.newest_year}</p>
       {[
         { label: 'Before 1800', count: stats.year_distribution.before_1800 },
-        { label: '1800–1899', count: stats.year_distribution['1800_1899'] },
-        { label: '1900–1949', count: stats.year_distribution['1900_1949'] },
-        { label: '1950–1999', count: stats.year_distribution['1950_1999'] },
+        { label: '1800\u20131899', count: stats.year_distribution['1800_1899'] },
+        { label: '1900\u20131949', count: stats.year_distribution['1900_1949'] },
+        { label: '1950\u20131999', count: stats.year_distribution['1950_1999'] },
         { label: '2000+', count: stats.year_distribution['2000_plus'] },
       ].map(era => (
-        <div class="mb-2 last:mb-0">
-          <div class="flex justify-between text-sm mb-1">
-            <span class="text-gray-300">{era.label}</span>
-            <span class="text-gray-500">{era.count}</span>
+        <div style="margin-bottom: 0.5rem;">
+          <div class="flex justify-between text-sm mb-2">
+            <span class="text-muted">{era.label}</span>
+            <span class="text-dim">{era.count}</span>
           </div>
-          <div class="w-full bg-gray-800 rounded-full h-1.5">
-            <div class="bg-purple-500/70 h-1.5 rounded-full" style={`width: ${100 * era.count / stats.total_books}%`}></div>
+          <div class="progress-bar">
+            <div style={`width: ${100 * era.count / stats.total_books}%; background: var(--pop-purple);`}></div>
           </div>
         </div>
       ))}
@@ -166,16 +166,14 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Top authors -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">Top Authors</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+    <h2 class="heading-md mb-4">Top Authors</h2>
+    <div class="grid sm-grid-2 gap-2">
       {stats.top_authors.map((a: {name: string; count: number}, i: number) => (
         <a href={`${base}authors/${toSlug(a.name)}/`}
-           class="flex items-center justify-between rounded-lg border border-gray-800 bg-gray-900 px-4 py-2.5 hover:border-purple-800/40 transition-colors">
-          <div class="flex items-center gap-3">
-            <span class="text-xs text-gray-600 w-5 text-right">{i + 1}</span>
-            <span class="text-sm text-white">{a.name}</span>
-          </div>
-          <span class="text-xs text-gray-500">{a.count} books</span>
+           class="list-item">
+          <span class="text-xs text-dim" style="width: 1.25rem; text-align: right;">{i + 1}</span>
+          <span class="text-sm">{a.name}</span>
+          <span class="text-xs text-dim text-mono" style="margin-left: auto;">{a.count} books</span>
         </a>
       ))}
     </div>
@@ -183,19 +181,19 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Categories table -->
   <section class="mb-8">
-    <h2 class="text-lg font-bold text-white mb-4">All Categories</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+    <h2 class="heading-md mb-4">All Categories</h2>
+    <div class="grid sm-grid-2 md-grid-3 gap-2">
       {stats.categories.map((c: {name: string; count: number}) => (
         <a href={`${base}categories/${toSlug(c.name)}/`}
-           class="flex items-center justify-between rounded-lg border border-gray-800 bg-gray-900 px-4 py-2.5 hover:border-purple-800/60 transition-colors">
-          <span class="text-sm text-white">{c.name}</span>
-          <span class="text-xs text-gray-500">{c.count}</span>
+           class="cat-tile cat-${toSlug(c.name)}">
+          <span>{c.name}</span>
+          <span class="cat-tile-count">{c.count}</span>
         </a>
       ))}
     </div>
   </section>
 
-  <p class="text-xs text-gray-600 text-center mt-8">
+  <p class="text-xs text-dim text-center" style="margin-top: 2rem;">
     Stats auto-generated at build time. Last updated: {new Date(stats.generated_at).toLocaleDateString()}.
   </p>
 </Layout>

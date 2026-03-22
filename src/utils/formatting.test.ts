@@ -59,27 +59,27 @@ describe('priorityLabel', () => {
 });
 
 describe('priorityClass', () => {
-  it('returns purple classes for priority 1', () => {
-    expect(priorityClass(1)).toContain('purple');
+  it('returns must-read class for priority 1', () => {
+    expect(priorityClass(1)).toContain('priority-must-read');
   });
 
-  it('returns gray classes for priority 2', () => {
-    expect(priorityClass(2)).toContain('gray');
+  it('returns recommended class for priority 2', () => {
+    expect(priorityClass(2)).toContain('priority-recommended');
   });
 
-  it('returns dim gray classes for priority 3', () => {
-    expect(priorityClass(3)).toContain('gray');
+  it('returns supplementary class for priority 3', () => {
+    expect(priorityClass(3)).toContain('priority-supplementary');
   });
 });
 
 describe('priorityBadgeClass', () => {
-  it('returns purple for priority 1', () => {
-    expect(priorityBadgeClass(1)).toContain('purple');
+  it('returns must-read for priority 1', () => {
+    expect(priorityBadgeClass(1)).toContain('priority-must-read');
   });
 
-  it('returns gray for other priorities', () => {
-    expect(priorityBadgeClass(2)).toContain('gray');
-    expect(priorityBadgeClass(3)).toContain('gray');
+  it('returns supplementary for other priorities', () => {
+    expect(priorityBadgeClass(2)).toContain('priority-supplementary');
+    expect(priorityBadgeClass(3)).toContain('priority-supplementary');
   });
 });
 
@@ -92,24 +92,24 @@ describe('statusLabel', () => {
 });
 
 describe('statusClass', () => {
-  it('returns green for read', () => {
-    expect(statusClass('read')).toContain('green');
+  it('returns read class for read', () => {
+    expect(statusClass('read')).toContain('status-read');
   });
 
-  it('returns amber for reading', () => {
-    expect(statusClass('reading')).toContain('amber');
+  it('returns reading class for reading', () => {
+    expect(statusClass('reading')).toContain('status-reading');
   });
 
-  it('returns blue for want', () => {
-    expect(statusClass('want')).toContain('blue');
+  it('returns want class for want', () => {
+    expect(statusClass('want')).toContain('status-want');
   });
 });
 
 describe('statusColor', () => {
-  it('maps status to text color', () => {
-    expect(statusColor('read')).toBe('text-green-500');
-    expect(statusColor('reading')).toBe('text-amber-500');
-    expect(statusColor('want')).toBe('text-blue-500');
+  it('maps status to CSS class', () => {
+    expect(statusColor('read')).toBe('status-read');
+    expect(statusColor('reading')).toBe('status-reading');
+    expect(statusColor('want')).toBe('status-want');
   });
 });
 

@@ -21,10 +21,8 @@
     "@astrojs/check": "^0.9.7",
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/svelte": "^8.0.0",
-    "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.4",
     "svelte": "^5.53.12",
-    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   },
   "devDependencies": {

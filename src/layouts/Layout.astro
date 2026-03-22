@@ -11,13 +11,13 @@ interface Props {
   image?: string;
 }
 
-const { title, description = `A curated bookshelf of ${stats.total_books.toLocaleString()} essential works across ${stats.total_categories} categories`, image } = Astro.props;
+const { title, description = `${stats.total_books.toLocaleString()} books across ${stats.total_categories} categories — a lifelong reading list`, image } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
 ---
 
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,65 +33,59 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <title>{title} — Tsundoku</title>
     <ClientRouter />
   </head>
-  <body class="min-h-screen flex flex-col">
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-3 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold">
-      Skip to content
-    </a>
-    <nav aria-label="Main navigation" class="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-14">
-          <a href={`${base}`} class="text-lg font-semibold tracking-tight text-white hover:text-purple-400 transition-colors">
-            積ん読 <span class="hidden sm:inline">Tsundoku</span>
-          </a>
-          <!-- Desktop nav -->
-          <div class="hidden sm:flex items-center gap-4">
-            <SearchModal client:idle baseUrl={base} />
-            <RandomBook client:idle baseUrl={base} />
-            <a href={`${base}browse/`} class="text-sm text-gray-400 hover:text-white transition-colors">Browse</a>
-            <a href={`${base}categories/`} class="text-sm text-gray-400 hover:text-white transition-colors">Categories</a>
-            <a href={`${base}authors/`} class="text-sm text-gray-400 hover:text-white transition-colors">Authors</a>
-            <a href={`${base}stats/`} class="text-sm text-gray-400 hover:text-white transition-colors">Stats</a>
-            <a href={`${base}about/`} class="text-sm text-gray-400 hover:text-white transition-colors">About</a>
-          </div>
-          <!-- Mobile: search + random + hamburger -->
-          <div class="sm:hidden flex items-center gap-1">
-            <SearchModal client:idle baseUrl={base} />
-            <RandomBook client:idle baseUrl={base} />
-            <button
-              id="mobile-menu-btn"
-              class="p-2 text-gray-400 hover:text-white transition-colors"
-              aria-label="Toggle menu"
-              aria-expanded="false"
-            >
-              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-            </button>
-          </div>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <nav aria-label="Main navigation" class="site-nav">
+      <div class="nav-inner">
+        <a href={`${base}`} class="nav-brand">
+          積ん読 <span>Tsundoku</span>
+        </a>
+        <div class="nav-links">
+          <SearchModal client:idle baseUrl={base} />
+          <RandomBook client:idle baseUrl={base} />
+          <a href={`${base}browse/`} class="nav-link">Browse</a>
+          <a href={`${base}categories/`} class="nav-link">Categories</a>
+          <a href={`${base}authors/`} class="nav-link">Authors</a>
+          <a href={`${base}stats/`} class="nav-link">Stats</a>
+          <a href={`${base}about/`} class="nav-link">About</a>
         </div>
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="hidden sm:hidden pb-3 border-t border-gray-800 mt-2 pt-3">
-          <div class="flex flex-col gap-2">
-            <a href={`${base}browse/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Browse</a>
-            <a href={`${base}categories/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Categories</a>
-            <a href={`${base}authors/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Authors</a>
-            <a href={`${base}stats/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">Stats</a>
-            <a href={`${base}about/`} class="mobile-nav-link block px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors">About</a>
-          </div>
+        <div class="mobile-controls">
+          <SearchModal client:idle baseUrl={base} />
+          <RandomBook client:idle baseUrl={base} />
+          <button
+            id="mobile-menu-btn"
+            class="mobile-toggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
         </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href={`${base}browse/`} class="mobile-nav-link">Browse</a>
+        <a href={`${base}categories/`} class="mobile-nav-link">Categories</a>
+        <a href={`${base}authors/`} class="mobile-nav-link">Authors</a>
+        <a href={`${base}stats/`} class="mobile-nav-link">Stats</a>
+        <a href={`${base}about/`} class="mobile-nav-link">About</a>
       </div>
     </nav>
-    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 flex-1">
+
+    <main id="main-content" class="site-main">
       <slot />
     </main>
-    <footer class="border-t border-gray-800 py-6 mt-auto">
-      <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
-        <p>{stats.total_books.toLocaleString()} essential works across {stats.total_categories} categories.</p>
-        <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors mt-2 inline-block">Source on GitHub</a>
-      </div>
+
+    <footer class="site-footer">
+      <p>{stats.total_books.toLocaleString()} books across {stats.total_categories} categories.</p>
+      <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer">
+        Source on GitHub
+      </a>
     </footer>
+
     <script is:inline>
-      // Re-attach on every navigation (View Transitions swap DOM)
       document.addEventListener('astro:page-load', () => {
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
@@ -99,11 +93,11 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
           btn.addEventListener('click', () => {
             const expanded = btn.getAttribute('aria-expanded') === 'true';
             btn.setAttribute('aria-expanded', String(!expanded));
-            menu.classList.toggle('hidden');
+            menu.classList.toggle('open');
           });
           menu.querySelectorAll('.mobile-nav-link').forEach(link => {
             link.addEventListener('click', () => {
-              menu.classList.add('hidden');
+              menu.classList.remove('open');
               btn.setAttribute('aria-expanded', 'false');
             });
           });
