@@ -203,7 +203,7 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Neo-Brutalist Cards ===== */
 .card {
-  border: var(--border-width) solid var(--border);
+  border: 3px solid #555;
   background: var(--bg-surface);
   box-shadow: var(--shadow);
   transition: transform 100ms ease, box-shadow 100ms ease;
@@ -211,6 +211,7 @@ a:hover { color: var(--pop-pink); }
 .card:hover {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px 0 #000;
+  border-color: var(--pop-pink);
 }
 
 .card-accent {
@@ -330,6 +331,7 @@ a:hover { color: var(--pop-pink); }
   display: flex; align-items: center; justify-content: space-between;
   padding: 0.75rem 1rem;
   border: var(--border-width) solid var(--border);
+  border-left: 4px solid var(--cat-accent, var(--pop-pink));
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
@@ -338,20 +340,23 @@ a:hover { color: var(--pop-pink); }
   transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease;
 }
 .cat-tile:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0 #000;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 #000;
   border-color: var(--cat-accent, var(--pop-pink));
   color: var(--cat-accent, var(--pop-pink));
 }
 .cat-tile-count {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: var(--cat-accent, var(--text-muted));
 }
 @media (min-width: 640px) {
   .cat-tile {
     flex-direction: column; text-align: center;
     padding: 1rem;
+    border-left: var(--border-width) solid var(--border);
+    border-top: 4px solid var(--cat-accent, var(--pop-pink));
   }
   .cat-tile-count { margin-top: 0.25rem; }
 }
@@ -457,11 +462,14 @@ a:hover { color: var(--pop-pink); }
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
-  transition: border-color 80ms ease;
+  box-shadow: var(--shadow-sm);
+  transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease;
   min-width: 0;
   overflow: hidden;
 }
 .list-item:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #000;
   border-color: var(--pop-pink);
   color: var(--text);
 }
@@ -470,10 +478,16 @@ a:hover { color: var(--pop-pink); }
 .meta-tag {
   display: inline-block;
   font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  border: 1px solid var(--border);
+  font-weight: 600;
+  padding: 0.25rem 0.625rem;
+  border: 2px solid var(--border);
   background: var(--bg-elevated);
   color: var(--text-muted);
+  text-decoration: none;
+}
+.meta-tag:hover {
+  border-color: var(--pop-pink);
+  color: var(--pop-pink);
 }
 
 /* ===== External Link ===== */
