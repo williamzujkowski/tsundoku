@@ -179,20 +179,6 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  <!-- Categories table -->
-  <section class="mb-8">
-    <h2 class="heading-md mb-4">All Categories</h2>
-    <div class="grid sm-grid-2 md-grid-3 gap-2">
-      {stats.categories.map((c: {name: string; count: number}) => (
-        <a href={`${base}categories/${toSlug(c.name)}/`}
-           class="cat-tile cat-${toSlug(c.name)}">
-          <span>{c.name}</span>
-          <span class="cat-tile-count">{c.count}</span>
-        </a>
-      ))}
-    </div>
-  </section>
-
   <p class="text-xs text-dim mt-2">
     Stats auto-generated at build time. Last updated: {new Date(stats.generated_at).toLocaleDateString()}.
   </p>

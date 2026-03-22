@@ -6,7 +6,6 @@ import { toSlug, seededShuffle } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
-const categories = [...new Set(books.map(b => b.data.category))].sort();
 
 const readPct = Math.round(100 * stats.reading_progress.read / stats.total_books);
 const yearsToFinish = Math.round(stats.bookshelf.estimated_reading_hours / 8 / 365 * 10) / 10;
@@ -116,21 +115,9 @@ const yearSpan = stats.newest_year - stats.oldest_year;
     ) : null;
   })()}
 
-  <!-- Categories -->
+  <!-- Quick links -->
   <hr class="section-divider" />
-  <section class="py-8">
-    <h2 class="heading-md mb-6">Categories</h2>
-    <div class="grid sm-grid-2 md-grid-3 lg-grid-6 gap-3">
-      {categories.map(cat => {
-        const count = books.filter(b => b.data.category === cat).length;
-        const catClass = `cat-${toSlug(cat)}`;
-        return (
-          <a href={`${base}categories/${toSlug(cat)}/`} class={`cat-tile ${catClass}`}>
-            <span>{cat}</span>
-            <span class="cat-tile-count">{count}</span>
-          </a>
-        );
-      })}
-    </div>
+  <section class="py-8 text-center">
+    <a href={`${base}categories/`} class="btn btn-outline">Explore Categories</a>
   </section>
 </Layout>

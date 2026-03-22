@@ -8,7 +8,7 @@
   --bg-elevated: #242424;
   --text: #f0f0f0;
   --text-muted: #999;
-  --text-dim: #666;
+  --text-dim: #888;
 
   /* Brutalist structure */
   --border: #333;
@@ -576,23 +576,27 @@ a:hover { color: var(--pop-pink); }
   position: sticky;
   top: 3.5rem;
   background: var(--bg);
-  padding-block: 0.5rem;
+  padding-block: 0.75rem;
   z-index: 10;
-  border-bottom: var(--border-width) solid var(--border);
+  border-bottom: 3px solid var(--pop-pink);
   color: var(--pop-pink);
+  font-family: var(--font-mono);
 }
 
 /* ===== Author Pages ===== */
 .author-avatar {
   width: 2.5rem; height: 2.5rem;
   object-fit: cover; flex-shrink: 0;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
+  box-shadow: 2px 2px 0 #000;
 }
 .author-avatar-placeholder {
   width: 2.5rem; height: 2.5rem;
   background: var(--bg-elevated); flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
   color: var(--text-dim);
+  border: 2px solid var(--border);
+  box-shadow: 2px 2px 0 #000;
 }
 .author-header {
   display: flex; gap: 1.5rem; flex-wrap: wrap;
