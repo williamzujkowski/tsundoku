@@ -16,11 +16,11 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
 ---
 
 <Layout title="About" description="What is tsundoku? The Japanese art of acquiring books and letting them pile up.">
-  <article class="prose-container">
+  <article>
     <h1 class="heading-xl mb-8">About</h1>
 
     <!-- What is Tsundoku -->
-    <section class="mb-8">
+    <section class="mb-8 prose-container">
       <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
       <p class="prose-text" style="color: var(--text);">
         <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
@@ -69,7 +69,7 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
     <hr class="section-divider" />
     <section class="mb-8">
       <h2 class="heading-lg mb-6 section-heading">Free Reading</h2>
-      <p class="text-muted prose-text">
+      <p class="text-muted prose-text prose-container">
         Many books in this collection are in the public domain. We've linked to free reading and listening sources wherever available:
       </p>
       <div class="grid md-grid-3 gap-3">
@@ -95,7 +95,7 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
     <hr class="section-divider" />
     <section class="mb-8">
       <h2 class="heading-lg mb-6 section-heading">How It's Built</h2>
-      <p class="text-muted prose-text">
+      <p class="text-muted prose-text prose-container">
         This is a fully static site — no server, no database, no JavaScript frameworks fighting for your CPU. Just HTML, CSS, and a few Svelte islands for search and filtering.
       </p>
       <div class="grid grid-2 md-grid-3 gap-3">
