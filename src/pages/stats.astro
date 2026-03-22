@@ -6,8 +6,8 @@ import { toSlug } from '../utils/formatting';
 const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Stats" description="Collection statistics for the tsundoku bookshelf">
-  <h1 class="heading-lg mb-6">Collection Stats</h1>
+<Layout title="Stats" description="How deep does the pile go? Numbers on the unread backlog.">
+  <h1 class="heading-lg mb-6">The Damage</h1>
 
   <!-- Overview cards -->
   <div class="grid grid-2 sm-grid-4 gap-3 mb-8">
@@ -96,9 +96,9 @@ const base = import.meta.env.BASE_URL;
     <h2 class="heading-md mb-4">Priority Breakdown</h2>
     <div class="card card-padded-lg">
       {[
-        { label: 'Must-Read (P1)', count: stats.priorities.must_read, color: 'var(--pop-pink)' },
-        { label: 'Recommended (P2)', count: stats.priorities.recommended, color: 'var(--text-muted)' },
-        { label: 'Supplementary (P3)', count: stats.priorities.supplementary, color: 'var(--text-dim)' },
+        { label: 'Must-Read', count: stats.priorities.must_read, color: 'var(--pop-pink)' },
+        { label: 'Recommended', count: stats.priorities.recommended, color: 'var(--text-muted)' },
+        { label: 'Eventually', count: stats.priorities.supplementary, color: 'var(--text-dim)' },
       ].map(p => (
         <div class="mb-4">
           <div class="flex justify-between text-sm mb-2">
@@ -180,6 +180,6 @@ const base = import.meta.env.BASE_URL;
   </section>
 
   <p class="text-xs text-dim mt-2">
-    Stats auto-generated at build time. Last updated: {new Date(stats.generated_at).toLocaleDateString()}.
+    Snapshot as of {new Date(stats.generated_at).toLocaleDateString()}. The pile has probably grown since then.
   </p>
 </Layout>

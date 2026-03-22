@@ -11,7 +11,7 @@ interface Props {
   image?: string;
 }
 
-const { title, description = `${stats.total_books.toLocaleString()} books across ${stats.total_categories} categories — a lifelong reading list`, image } = Astro.props;
+const { title, description = `${stats.total_books.toLocaleString()} books cataloged, ${Math.round(100 * stats.reading_progress.read / stats.total_books)}% actually read — the rest are aspirational`, image } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
 ---
@@ -79,7 +79,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     </main>
 
     <footer class="site-footer">
-      <p>{stats.total_books.toLocaleString()} books across {stats.total_categories} categories.</p>
+      <p>{stats.total_books.toLocaleString()} books. {stats.reading_progress.want} of them patiently waiting.</p>
       <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer">
         Source on GitHub
       </a>
