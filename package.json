@@ -22,7 +22,7 @@
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/svelte": "^8.0.0",
     "astro": "^6.0.4",
-    "svelte": "^5.53.12",
+    "svelte": "^5.54.1",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
