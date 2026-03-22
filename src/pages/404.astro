@@ -11,25 +11,20 @@ const topCategories = categories.slice(0, 8);
 ---
 
 <Layout title="Not Found">
-  <div class="text-center" style="padding-block: 4rem;">
-    <p class="heading-xl" style="color: var(--text-dim); margin-bottom: 1rem;">404</p>
+  <div class="text-center py-12">
+    <p class="heading-xl text-dim mb-4">404</p>
     <h1 class="heading-lg mb-4">Page not found</h1>
     <p class="text-muted mb-8">This book isn't on the shelf — but we have {stats.total_books.toLocaleString()} others.</p>
     <div class="flex flex-wrap justify-center gap-3 mb-8">
-      <a href={base} class="btn">
-        Go home
-      </a>
-      <a href={`${base}browse/`} class="btn" style="background: transparent; color: var(--text); border-color: var(--border);">
-        Browse all books
-      </a>
+      <a href={base} class="btn">Go home</a>
+      <a href={`${base}browse/`} class="btn btn-outline">Browse all books</a>
     </div>
 
     <div class="max-w-2xl mx-auto">
       <p class="text-sm text-dim mb-4">Or explore a category:</p>
       <div class="flex flex-wrap justify-center gap-2">
         {topCategories.map(cat => (
-          <a href={`${base}categories/${toSlug(cat)}/`}
-             class="meta-tag" style="text-decoration: none;">
+          <a href={`${base}categories/${toSlug(cat)}/`} class="meta-tag">
             {cat}
           </a>
         ))}

@@ -53,28 +53,26 @@ const categorySlug = toSlug(book.category);
 
   <article class="prose-container">
     <!-- Hero: cover + title -->
-    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem;">
+    <div class="book-detail-layout">
       {book.cover_url ? (
-        <div style="flex-shrink: 0;">
+        <div>
           <img
             src={book.cover_url_large || book.cover_url}
             alt={`Cover of ${book.title}`}
-            style="width: 9rem; border: var(--border-width) solid var(--border); box-shadow: var(--shadow);"
+            class="book-detail-cover"
             loading="eager"
           />
         </div>
       ) : (
-        <div style="flex-shrink: 0; width: 9rem; height: 13.5rem; background: var(--bg-elevated); border: var(--border-width) solid var(--border); box-shadow: var(--shadow); display: flex; align-items: center; justify-content: center;">
-          <span style="font-size: 2.5rem; color: var(--text-dim);">&#x1F4D6;</span>
-        </div>
+        <div class="book-detail-cover-placeholder">📖</div>
       )}
 
-      <div style="flex: 1; min-width: 0;">
-        <span class={priorityClass(book.priority)} style="margin-bottom: 0.75rem;">
+      <div class="book-detail-info">
+        <span class={`${priorityClass(book.priority)} mb-4 block`}>
           {priorityLabel(book.priority)}
         </span>
         <h1 class="heading-lg mb-2">{book.title}</h1>
-        <p style="font-size: 1.1rem; margin-bottom: 0.75rem;" class="text-muted">by {book.author === 'Unknown' ? (
+        <p class="text-muted mb-4">by {book.author === 'Unknown' ? (
           <span class="text-dim">{book.author}</span>
         ) : (
           <a href={`${base}authors/${toSlug(book.author)}/`} class="ext-link">{book.author}</a>
@@ -87,51 +85,37 @@ const categorySlug = toSlug(book.category);
             </span>
           )}
           {book.copyright_status === 'public_domain' && (
-            <span class="status-badge" style="border-color: var(--pop-green); color: var(--pop-green);">
-              Public Domain
-            </span>
+            <span class="status-badge status-read">Public Domain</span>
           )}
           {book.copyright_status === 'likely_public_domain' && (
-            <span class="status-badge" style="border-color: var(--pop-cyan); color: var(--pop-cyan);">
-              Likely Public Domain
-            </span>
+            <span class="status-badge stat-badge-blue">Likely Public Domain</span>
           )}
         </div>
 
         {book.description && (
-          <p class="text-muted text-sm mb-4" style="line-height: 1.7;">{book.description}</p>
+          <p class="text-muted text-sm mb-4 prose-text">{book.description}</p>
         )}
 
         <div class="flex flex-wrap gap-2">
           {book.first_published && (
-            <span class="meta-tag">
-              First published: {book.first_published}
-            </span>
+            <span class="meta-tag">First published: {book.first_published}</span>
           )}
           {book.pages && (
-            <span class="meta-tag">
-              {book.pages} pages
-            </span>
+            <span class="meta-tag">{book.pages} pages</span>
           )}
           {book.isbn && (
-            <span class="meta-tag text-mono">
-              ISBN: {book.isbn}
-            </span>
+            <span class="meta-tag text-mono">ISBN: {book.isbn}</span>
           )}
         </div>
       </div>
     </div>
 
     <!-- Metadata card -->
-    <div class="card mb-8" style="padding: 1.25rem;">
+    <div class="card card-padded-lg mb-8">
       <dl class="grid grid-2 md-grid-3 gap-4 text-sm">
         <div>
           <dt class="text-dim mb-2">Category</dt>
-          <dd>
-            <a href={`${base}categories/${categorySlug}/`} class="ext-link">
-              {book.category}
-            </a>
-          </dd>
+          <dd><a href={`${base}categories/${categorySlug}/`} class="ext-link">{book.category}</a></dd>
         </div>
         <div>
           <dt class="text-dim mb-2">Priority</dt>
@@ -150,7 +134,7 @@ const categorySlug = toSlug(book.category);
       </dl>
 
       {book.subjects && book.subjects.length > 0 && (
-        <div style="margin-top: 1rem; padding-top: 1rem; border-top: var(--border-width) solid var(--border);">
+        <div class="detail-section">
           <dt class="text-dim text-sm mb-2">Subjects</dt>
           <div class="flex flex-wrap gap-2">
             {book.subjects.map(s => (
@@ -160,13 +144,12 @@ const categorySlug = toSlug(book.category);
         </div>
       )}
 
-      {/* Free reading/listening links */}
       {(book.gutenberg_url || book.hathitrust_url || book.librivox_url) && (
-        <div style="margin-top: 1rem; padding-top: 1rem; border-top: var(--border-width) solid var(--border);" class="flex flex-wrap gap-2">
+        <div class="detail-section flex flex-wrap gap-2">
           {book.gutenberg_url && (
             <a href={book.gutenberg_read_url || book.gutenberg_url} target="_blank" rel="noopener noreferrer"
                class="resource-btn resource-btn-gutenberg">
-              <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <svg class="icon-sm" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
               </svg>
               Read on Gutenberg
@@ -175,7 +158,7 @@ const categorySlug = toSlug(book.category);
           {book.hathitrust_url && (
             <a href={book.hathitrust_url} target="_blank" rel="noopener noreferrer"
                class="resource-btn resource-btn-hathitrust">
-              <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <svg class="icon-sm" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21" />
               </svg>
               Read on HathiTrust
@@ -184,7 +167,7 @@ const categorySlug = toSlug(book.category);
           {book.librivox_url && (
             <a href={book.librivox_url} target="_blank" rel="noopener noreferrer"
                class="resource-btn resource-btn-librivox">
-              <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <svg class="icon-sm" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
               </svg>
               Listen on LibriVox
@@ -193,49 +176,16 @@ const categorySlug = toSlug(book.category);
         </div>
       )}
 
-      {/* Share + External links */}
-      <div style="margin-top: 1rem; padding-top: 1rem; border-top: var(--border-width) solid var(--border);" class="flex flex-wrap gap-3 items-center">
+      <div class="detail-section flex flex-wrap gap-3 items-center">
         <ShareButton client:idle title={`${book.title} by ${book.author}`} url={Astro.site ? new URL(`${base}books/${book.slug}/`, Astro.site).href : ''} />
-        {book.gutenberg_url && (
-          <a href={book.gutenberg_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            Project Gutenberg
-          </a>
-        )}
-        {book.open_library_url && (
-          <a href={book.open_library_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            Open Library
-          </a>
-        )}
-        {book.google_books_url && (
-          <a href={book.google_books_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            Google Books
-          </a>
-        )}
-        <a href={`https://www.goodreads.com/search?q=${encodeURIComponent(book.title + ' ' + book.author)}`}
-           target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-          Goodreads
-        </a>
-        {book.worldcat_url && (
-          <a href={book.worldcat_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            WorldCat
-          </a>
-        )}
-        {!book.worldcat_url && book.isbn && (
-          <a href={`https://www.worldcat.org/isbn/${book.isbn}`}
-             target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            WorldCat
-          </a>
-        )}
-        {book.hathitrust_url && (
-          <a href={book.hathitrust_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            HathiTrust
-          </a>
-        )}
-        {book.librivox_url && (
-          <a href={book.librivox_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">
-            LibriVox
-          </a>
-        )}
+        {book.gutenberg_url && <a href={book.gutenberg_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Project Gutenberg</a>}
+        {book.open_library_url && <a href={book.open_library_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Open Library</a>}
+        {book.google_books_url && <a href={book.google_books_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Google Books</a>}
+        <a href={`https://www.goodreads.com/search?q=${encodeURIComponent(book.title + ' ' + book.author)}`} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Goodreads</a>
+        {book.worldcat_url && <a href={book.worldcat_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">WorldCat</a>}
+        {!book.worldcat_url && book.isbn && <a href={`https://www.worldcat.org/isbn/${book.isbn}`} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">WorldCat</a>}
+        {book.hathitrust_url && <a href={book.hathitrust_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">HathiTrust</a>}
+        {book.librivox_url && <a href={book.librivox_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">LibriVox</a>}
       </div>
     </div>
 
@@ -245,16 +195,15 @@ const categorySlug = toSlug(book.category);
         <h2 class="heading-md mb-4">More by {book.author}</h2>
         <div class="grid sm-grid-2 md-grid-3 gap-3">
           {sameAuthor.slice(0, 6).map(b => (
-            <a href={`${base}books/${b.slug}/`}
-               class="card" style="padding: 1rem; display: flex; gap: 0.75rem; align-items: flex-start; text-decoration: none; color: var(--text);">
+            <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} style="width: 2.5rem; height: 3.5rem; object-fit: cover; border: 1px solid var(--border); flex-shrink: 0;" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" />
               ) : (
-                <div style="width: 2.5rem; height: 3.5rem; background: var(--bg-elevated); border: 1px solid var(--border); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim); font-size: 0.75rem;" aria-hidden="true">&#x1F4D6;</div>
+                <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
-              <div style="min-width: 0;">
+              <div class="book-card-body">
                 <h3 class="text-sm font-bold line-clamp-2">{b.title}</h3>
-                <span class="text-xs" style={`color: ${b.priority === 1 ? 'var(--pop-pink)' : 'var(--text-dim)'};`}>
+                <span class={`text-xs ${b.priority === 1 ? 'stat-number-pink' : 'text-dim'}`}>
                   {priorityLabel(b.priority)}
                 </span>
               </div>
@@ -270,14 +219,13 @@ const categorySlug = toSlug(book.category);
         <h2 class="heading-md mb-4">More in {book.category}</h2>
         <div class="grid sm-grid-2 md-grid-3 gap-3">
           {sameCategory.slice(0, 6).map(b => (
-            <a href={`${base}books/${b.slug}/`}
-               class="card" style="padding: 1rem; display: flex; gap: 0.75rem; align-items: flex-start; text-decoration: none; color: var(--text);">
+            <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} style="width: 2.5rem; height: 3.5rem; object-fit: cover; border: 1px solid var(--border); flex-shrink: 0;" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" />
               ) : (
-                <div style="width: 2.5rem; height: 3.5rem; background: var(--bg-elevated); border: 1px solid var(--border); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-dim); font-size: 0.75rem;" aria-hidden="true">&#x1F4D6;</div>
+                <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
-              <div style="min-width: 0;">
+              <div class="book-card-body">
                 <h3 class="text-sm font-bold line-clamp-2">{b.title}</h3>
                 <p class="text-xs text-dim">{b.author}</p>
               </div>
@@ -286,15 +234,13 @@ const categorySlug = toSlug(book.category);
         </div>
         <div class="mt-2">
           <a href={`${base}categories/${categorySlug}/`} class="ext-link text-sm">
-            View all {book.category} books &#x2192;
+            View all {book.category} books →
           </a>
         </div>
       </section>
     )}
 
     <hr class="section-divider" />
-    <a href={`${base}browse/`} class="ext-link text-sm text-muted">
-      &#x2190; Back to browse
-    </a>
+    <a href={`${base}browse/`} class="ext-link text-sm text-muted">← Back to browse</a>
   </article>
 </Layout>

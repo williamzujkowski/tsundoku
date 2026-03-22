@@ -20,114 +20,114 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
     <h1 class="heading-lg mb-6">About</h1>
 
     <section class="mb-8">
-      <h2 class="heading-md mb-4" style="color: var(--pop-pink);">&#x7A4D;&#x3093;&#x8AAD; — Tsundoku</h2>
-      <p class="text-muted" style="line-height: 1.7; margin-bottom: 1rem;">
-        <strong style="color: var(--text);">Tsundoku</strong> (&#x7A4D;&#x3093;&#x8AAD;) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
+      <h2 class="heading-md mb-4 section-heading">&#x7A4D;&#x3093;&#x8AAD; — Tsundoku</h2>
+      <p class="text-muted prose-text">
+        <strong>Tsundoku</strong> (&#x7A4D;&#x3093;&#x8AAD;) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
       </p>
-      <p class="text-muted" style="line-height: 1.7; margin-bottom: 1rem;">
+      <p class="text-muted prose-text">
         It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
       </p>
-      <p class="text-muted" style="line-height: 1.7;">
+      <p class="text-muted prose-text">
         This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
       </p>
     </section>
 
     <section class="mb-8">
-      <h2 class="heading-md mb-4" style="color: var(--pop-pink);">The Numbers</h2>
-      <div class="card" style="padding: 1.5rem;">
+      <h2 class="heading-md mb-4 section-heading">The Numbers</h2>
+      <div class="card card-padded-lg">
         <dl class="grid grid-2 md-grid-3 gap-4 text-sm">
           <div>
             <dt class="text-dim">Books cataloged</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900;">{stats.total_books.toLocaleString()}</dd>
+            <dd class="stat-number">{stats.total_books.toLocaleString()}</dd>
           </div>
           <div>
             <dt class="text-dim">Actually read</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900; color: var(--pop-green);">{readPct}%</dd>
+            <dd class="stat-number stat-number-green">{readPct}%</dd>
           </div>
           <div>
             <dt class="text-dim">Still "planning to"</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900; color: var(--pop-blue);">{wantPct}%</dd>
+            <dd class="stat-number stat-number-blue">{wantPct}%</dd>
           </div>
           <div>
             <dt class="text-dim">Total pages</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900;">{stats.bookshelf.total_pages.toLocaleString()}</dd>
+            <dd class="stat-number">{stats.bookshelf.total_pages.toLocaleString()}</dd>
           </div>
           <div>
             <dt class="text-dim">Shelf space needed</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900;">{stats.bookshelf.shelf_meters}m</dd>
+            <dd class="stat-number">{stats.bookshelf.shelf_meters}m</dd>
           </div>
           <div>
             <dt class="text-dim">Hours to read all</dt>
-            <dd style="font-size: 1.5rem; font-weight: 900;">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</dd>
+            <dd class="stat-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</dd>
           </div>
         </dl>
       </div>
     </section>
 
     <section class="mb-8">
-      <h2 class="heading-md mb-4" style="color: var(--pop-pink);">Free Reading</h2>
-      <p class="text-muted" style="line-height: 1.7; margin-bottom: 1rem;">
+      <h2 class="heading-md mb-4 section-heading">Free Reading</h2>
+      <p class="text-muted prose-text">
         Many books in this collection are in the public domain. We've linked to free reading and listening sources wherever available:
       </p>
-      <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+      <ul class="resource-list">
         <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold" style="color: var(--pop-green);">{gutenbergCount.toLocaleString()}</span> books linked to
+          <span class="font-bold stat-number-green">{gutenbergCount.toLocaleString()}</span> books linked to
           <a href="https://www.gutenberg.org" target="_blank" rel="noopener noreferrer" class="ext-link">Project Gutenberg</a>
           for free reading
         </li>
         <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold" style="color: var(--pop-yellow);">{librivoxCount.toLocaleString()}</span> books linked to
+          <span class="font-bold stat-number-yellow">{librivoxCount.toLocaleString()}</span> books linked to
           <a href="https://librivox.org" target="_blank" rel="noopener noreferrer" class="ext-link">LibriVox</a>
           for free audiobooks
         </li>
         <li class="flex items-center gap-2 text-sm text-muted">
-          <span class="font-bold" style="color: var(--pop-blue);">{hathitrustCount.toLocaleString()}</span> books linked to
+          <span class="font-bold stat-number-blue">{hathitrustCount.toLocaleString()}</span> books linked to
           <a href="https://www.hathitrust.org" target="_blank" rel="noopener noreferrer" class="ext-link">HathiTrust Digital Library</a>
         </li>
       </ul>
     </section>
 
     <section class="mb-8">
-      <h2 class="heading-md mb-4" style="color: var(--pop-pink);">How It's Built</h2>
-      <p class="text-muted" style="line-height: 1.7; margin-bottom: 1rem;">
+      <h2 class="heading-md mb-4 section-heading">How It's Built</h2>
+      <p class="text-muted prose-text">
         This is a fully static site — no server, no database, no JavaScript frameworks fighting for your CPU. Just HTML, CSS, and a few Svelte islands for search and filtering.
       </p>
       <div class="grid grid-2 md-grid-3 gap-3 text-sm">
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">Astro</span>
-          <span class="text-dim text-xs" style="display: block;">Static site generator</span>
+          <span class="text-dim text-xs block">Static site generator</span>
         </div>
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">Svelte 5</span>
-          <span class="text-dim text-xs" style="display: block;">Interactive islands</span>
+          <span class="text-dim text-xs block">Interactive islands</span>
         </div>
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">Custom CSS</span>
-          <span class="text-dim text-xs" style="display: block;">Neo-brutalist design</span>
+          <span class="text-dim text-xs block">Neo-brutalist design</span>
         </div>
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">Open Library</span>
-          <span class="text-dim text-xs" style="display: block;">Covers & metadata</span>
+          <span class="text-dim text-xs block">Covers & metadata</span>
         </div>
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">Wikipedia</span>
-          <span class="text-dim text-xs" style="display: block;">Descriptions & bios</span>
+          <span class="text-dim text-xs block">Descriptions & bios</span>
         </div>
-        <div class="card" style="padding: 0.625rem 0.75rem;">
+        <div class="card card-padded-sm">
           <span class="font-bold">GitHub Pages</span>
-          <span class="text-dim text-xs" style="display: block;">Hosting</span>
+          <span class="text-dim text-xs block">Hosting</span>
         </div>
       </div>
     </section>
 
     <section class="mb-8">
-      <h2 class="heading-md mb-4" style="color: var(--pop-pink);">Stages of Tsundoku</h2>
-      <ol style="list-style: decimal inside; display: flex; flex-direction: column; gap: 0.75rem;" class="text-muted text-sm">
-        <li><strong style="color: var(--text);">Denial</strong> — "I don't have a problem. I just appreciate good literature."</li>
-        <li><strong style="color: var(--text);">Bargaining</strong> — "If I read two books a week, I'll finish by... 2029."</li>
-        <li><strong style="color: var(--text);">Cataloging</strong> — "I should organize these into a database. With enrichment pipelines."</li>
-        <li><strong style="color: var(--text);">Acceptance</strong> — "I built a website for my unread books. This is who I am now."</li>
-        <li><strong style="color: var(--text);">Relapse</strong> — "Oh, that looks interesting..." <em>*adds 50 more books*</em></li>
+      <h2 class="heading-md mb-4 section-heading">Stages of Tsundoku</h2>
+      <ol class="prose-ol text-muted text-sm">
+        <li><strong>Denial</strong> — "I don't have a problem. I just appreciate good literature."</li>
+        <li><strong>Bargaining</strong> — "If I read two books a week, I'll finish by... 2029."</li>
+        <li><strong>Cataloging</strong> — "I should organize these into a database. With enrichment pipelines."</li>
+        <li><strong>Acceptance</strong> — "I built a website for my unread books. This is who I am now."</li>
+        <li><strong>Relapse</strong> — "Oh, that looks interesting..." <em>*adds 50 more books*</em></li>
       </ol>
     </section>
 

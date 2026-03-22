@@ -56,24 +56,24 @@ const base = import.meta.env.BASE_URL;
   <section class="mb-8">
     <h2 class="heading-md mb-4">Reading Progress</h2>
     <div class="grid grid-2 sm-grid-4 gap-3 mb-4">
-      <div class="stat-badge" style="border-color: var(--pop-green);">
-        <p class="stat-badge-number" style="color: var(--pop-green);">{stats.reading_progress.read}</p>
+      <div class="stat-badge stat-badge-green">
+        <p class="stat-badge-number">{stats.reading_progress.read}</p>
         <p class="stat-badge-label">Read</p>
       </div>
-      <div class="stat-badge" style="border-color: var(--pop-yellow);">
-        <p class="stat-badge-number" style="color: var(--pop-yellow);">{stats.reading_progress.reading}</p>
+      <div class="stat-badge stat-badge-yellow">
+        <p class="stat-badge-number">{stats.reading_progress.reading}</p>
         <p class="stat-badge-label">Reading</p>
       </div>
-      <div class="stat-badge" style="border-color: var(--pop-blue);">
-        <p class="stat-badge-number" style="color: var(--pop-blue);">{stats.reading_progress.want}</p>
+      <div class="stat-badge stat-badge-blue">
+        <p class="stat-badge-number">{stats.reading_progress.want}</p>
         <p class="stat-badge-label">Want to Read</p>
       </div>
-      <div class="stat-badge">
-        <p class="stat-badge-number" style="color: var(--text-dim);">{stats.reading_progress.unread}</p>
+      <div class="stat-badge stat-badge-dim">
+        <p class="stat-badge-number">{stats.reading_progress.unread}</p>
         <p class="stat-badge-label">Not Started</p>
       </div>
     </div>
-    <div class="card" style="padding: 1rem;">
+    <div class="card card-padded">
       <div class="progress-bar">
         {stats.reading_progress.read > 0 && (
           <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
@@ -94,13 +94,13 @@ const base = import.meta.env.BASE_URL;
   <!-- Priority breakdown -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">Priority Breakdown</h2>
-    <div class="card" style="padding: 1.25rem;">
+    <div class="card card-padded-lg">
       {[
         { label: 'Must-Read (P1)', count: stats.priorities.must_read, color: 'var(--pop-pink)' },
         { label: 'Recommended (P2)', count: stats.priorities.recommended, color: 'var(--text-muted)' },
         { label: 'Supplementary (P3)', count: stats.priorities.supplementary, color: 'var(--text-dim)' },
       ].map(p => (
-        <div style="margin-bottom: 0.75rem;">
+        <div class="mb-4">
           <div class="flex justify-between text-sm mb-2">
             <span class="text-muted">{p.label}</span>
             <span class="text-dim">{p.count} ({Math.round(100 * p.count / stats.total_books)}%)</span>
@@ -125,10 +125,10 @@ const base = import.meta.env.BASE_URL;
         { label: 'Pub. Years', pct: Math.round(100 * stats.enrichment.years / stats.total_books), count: stats.enrichment.years },
         { label: 'Subjects', pct: Math.round(100 * stats.enrichment.subjects / stats.total_books), count: stats.enrichment.subjects },
       ].map(e => (
-        <div class="card" style="padding: 1rem;">
+        <div class="card card-padded">
           <div class="flex items-center justify-between mb-2">
             <span class="text-sm text-muted">{e.label}</span>
-            <span class="font-bold" style="font-size: 1.1rem;">{e.pct}%</span>
+            <span class="font-bold heading-md">{e.pct}%</span>
           </div>
           <div class="progress-bar">
             <div style={`width: ${e.pct}%; background: var(--pop-pink);`}></div>
@@ -142,7 +142,7 @@ const base = import.meta.env.BASE_URL;
   <!-- Year distribution -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">Publication Era</h2>
-    <div class="card" style="padding: 1.25rem;">
+    <div class="card card-padded-lg">
       <p class="text-sm text-muted mb-4">Spanning from {stats.oldest_year} to {stats.newest_year}</p>
       {[
         { label: 'Before 1800', count: stats.year_distribution.before_1800 },
@@ -151,7 +151,7 @@ const base = import.meta.env.BASE_URL;
         { label: '1950\u20131999', count: stats.year_distribution['1950_1999'] },
         { label: '2000+', count: stats.year_distribution['2000_plus'] },
       ].map(era => (
-        <div style="margin-bottom: 0.5rem;">
+        <div class="mb-2">
           <div class="flex justify-between text-sm mb-2">
             <span class="text-muted">{era.label}</span>
             <span class="text-dim">{era.count}</span>
@@ -171,9 +171,9 @@ const base = import.meta.env.BASE_URL;
       {stats.top_authors.map((a: {name: string; count: number}, i: number) => (
         <a href={`${base}authors/${toSlug(a.name)}/`}
            class="list-item">
-          <span class="text-xs text-dim" style="width: 1.25rem; text-align: right;">{i + 1}</span>
+          <span class="rank-number text-xs text-dim">{i + 1}</span>
           <span class="text-sm">{a.name}</span>
-          <span class="text-xs text-dim text-mono" style="margin-left: auto;">{a.count} books</span>
+          <span class="text-xs text-dim text-mono ml-auto">{a.count} books</span>
         </a>
       ))}
     </div>
@@ -193,7 +193,7 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  <p class="text-xs text-dim" style="margin-top: 2rem;">
+  <p class="text-xs text-dim mt-2">
     Stats auto-generated at build time. Last updated: {new Date(stats.generated_at).toLocaleDateString()}.
   </p>
 </Layout>
