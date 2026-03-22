@@ -228,11 +228,13 @@
   .search-input {
     width: 100%;
     background: var(--bg-surface);
-    border: var(--border-width) solid var(--border);
+    border: 3px solid #555;
     color: var(--text);
     padding: 0.625rem 1rem 0.625rem 2.5rem;
     font-size: 1rem;
-    font-family: var(--font-body);
+    font-family: var(--font-mono);
+    font-weight: 600;
+    box-shadow: var(--shadow-sm);
   }
 
   @media (min-width: 640px) {
@@ -265,14 +267,16 @@
   .filter-select {
     flex: 1;
     background: var(--bg-surface);
-    border: var(--border-width) solid var(--border);
+    border: 3px solid #555;
     color: var(--text);
     padding: 0.625rem 0.75rem;
     font-size: 0.875rem;
     font-family: var(--font-body);
+    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    box-shadow: var(--shadow-sm);
   }
 
   @media (min-width: 640px) {
@@ -295,20 +299,28 @@
 
   .results-count {
     font-size: 0.875rem;
-    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--text-muted);
   }
 
   .clear-filters-link {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     color: var(--pop-pink);
     background: none;
-    border: none;
+    border: 2px solid var(--pop-pink);
+    padding: 0.25rem 0.75rem;
     cursor: pointer;
     font-family: var(--font-body);
+    transition: background 80ms ease, color 80ms ease;
   }
 
   .clear-filters-link:hover {
-    color: var(--text);
+    background: var(--pop-pink);
+    color: #000;
   }
 
   /* --- Empty state --- */
@@ -394,7 +406,7 @@
   /* --- Book card --- */
   .book-card {
     display: block;
-    border: var(--border-width) solid var(--border);
+    border: 3px solid #555;
     background: var(--bg-surface);
     padding: 0.75rem;
     box-shadow: var(--shadow);
@@ -460,7 +472,7 @@
 
   .book-title {
     color: var(--text);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 0.875rem;
     margin-bottom: 0.125rem;
     display: -webkit-box;
@@ -523,10 +535,12 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: var(--border-width) solid var(--border);
+    border: 3px solid #555;
     background: transparent;
     color: var(--text-muted);
-    font-weight: 600;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     padding: 0.625rem 1.5rem;
     font-size: 0.875rem;
     cursor: pointer;
