@@ -194,6 +194,7 @@ a:hover { color: var(--pop-pink); }
   font-family: var(--font-mono); font-size: 0.85em;
 }
 .text-muted { color: var(--text-muted); }
+.text-muted strong { color: var(--text); }
 .text-dim { color: var(--text-dim); }
 .text-sm { font-size: 0.85rem; }
 .text-xs { font-size: 0.75rem; }
@@ -331,6 +332,7 @@ a:hover { color: var(--pop-pink); }
   object-fit: cover;
   border: var(--border-width) solid var(--border);
 }
+.book-cover-group { text-decoration: none; }
 .book-cover-group:hover .book-cover {
   border-color: var(--pop-pink);
 }
@@ -734,6 +736,17 @@ a:hover { color: var(--pop-pink); }
 
 /* Stat number color variants (text-only, no border) */
 .stat-number-pink { color: var(--pop-pink); }
+
+/* Featured book grid */
+.featured-title {
+  font-size: 0.75rem; font-weight: 600;
+  margin-top: 0.5rem; color: var(--text);
+  display: -webkit-box; -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; overflow: hidden;
+}
+.featured-author {
+  font-size: 0.65rem;
+}
 
 /* ===== Responsive ===== */
 @media (max-width: 640px) {

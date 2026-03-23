@@ -40,7 +40,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
 ---
 
 <Layout title="Authors" description={`${authors.length} authors — read, unread, and somewhere in between`}>
-  <h1 class="heading-lg mb-2">Authors</h1>
+  <h1 class="heading-xl mb-2">Authors</h1>
   <p class="text-muted text-sm mb-6">{authors.length.toLocaleString()} authors — read, unread, and somewhere in between.</p>
 
   <!-- Letter navigation -->
