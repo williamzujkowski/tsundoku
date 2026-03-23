@@ -23,8 +23,8 @@
   --pop-green: oklch(75% 0.2 145);
   --pop-yellow: oklch(85% 0.18 90);
   --pop-orange: oklch(75% 0.2 55);
-  --pop-purple: oklch(65% 0.2 300);
-  --pop-red: oklch(65% 0.22 25);
+  --pop-purple: oklch(72% 0.18 300);
+  --pop-red: oklch(70% 0.2 25);
   --pop-cyan: oklch(75% 0.15 200);
 
   /* Typography */
@@ -206,6 +206,8 @@ a:hover { color: var(--pop-pink); }
   border: 3px solid #555;
   background: var(--bg-surface);
   box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--text);
   transition: transform 100ms ease, box-shadow 100ms ease;
 }
 .card:hover {
@@ -217,6 +219,24 @@ a:hover { color: var(--pop-pink); }
 .card-accent {
   border-color: var(--cat-accent, var(--border));
   border-left-width: 4px;
+}
+.card-accent-left { border-left: 4px solid var(--accent-color, var(--pop-pink)); }
+.card-accent-top { border-top: 3px solid var(--accent-color, var(--pop-pink)); }
+
+/* ===== Stage / Step Number ===== */
+.step-number {
+  font-family: var(--font-mono);
+  font-size: 1.25rem; font-weight: 900;
+  width: 1.5rem; flex-shrink: 0;
+  line-height: 1;
+}
+
+/* ===== Hero Subtitle ===== */
+.hero-subtitle {
+  font-family: var(--font-mono);
+  color: var(--pop-pink);
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 /* ===== Neo-Brutalist Stat Badges ===== */
@@ -525,15 +545,6 @@ a:hover { color: var(--pop-pink); }
 .resource-btn-librivox { border-color: var(--pop-yellow); }
 .resource-btn-librivox:hover { color: var(--pop-yellow); }
 
-/* ===== Progress Bar (Stats) ===== */
-.progress-bar-brutalist {
-  height: 0.5rem;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  display: flex;
-}
-
 /* ===== Letter Nav ===== */
 .letter-nav-link {
   width: 2.25rem;
@@ -661,8 +672,6 @@ a:hover { color: var(--pop-pink); }
 /* Stat badge color variants */
 .stat-badge-green { border-color: var(--pop-green); }
 .stat-badge-green .stat-badge-number { color: var(--pop-green); }
-.stat-badge-yellow { border-color: var(--pop-yellow); }
-.stat-badge-yellow .stat-badge-number { color: var(--pop-yellow); }
 .stat-badge-blue { border-color: var(--pop-blue); }
 .stat-badge-blue .stat-badge-number { color: var(--pop-blue); }
 .stat-badge-dim .stat-badge-number { color: var(--text-dim); }
@@ -671,8 +680,6 @@ a:hover { color: var(--pop-pink); }
 .stat-number {
   font-size: 1.5rem; font-weight: 900;
 }
-.stat-number-green { color: var(--pop-green); }
-.stat-number-blue { color: var(--pop-blue); }
 
 /* Detail section divider (within cards) */
 .detail-section {
@@ -700,11 +707,6 @@ a:hover { color: var(--pop-pink); }
 }
 .book-detail-info { flex: 1; min-width: 0; }
 
-/* Free resource list */
-.resource-list {
-  list-style: none; display: flex; flex-direction: column; gap: 0.5rem;
-}
-
 /* Inline icon sizing */
 .icon-sm { width: 1rem; height: 1rem; }
 
@@ -724,25 +726,14 @@ a:hover { color: var(--pop-pink); }
   width: 1.25rem; text-align: right; flex-shrink: 0;
 }
 
-/* Small card padding (tech stack tiles) */
-.card-padded-sm { padding: 0.625rem 0.75rem; }
-
 /* Display block utility */
 .block { display: block; }
 
 /* Margin-left auto (push right) */
-.ml-auto { margin-left: auto; }
-
-/* Ordered list for prose (stages) */
-.prose-ol {
-  list-style: decimal inside;
-  display: flex; flex-direction: column; gap: 0.75rem;
-}
+.ml-auto { margin-left: auto; flex-shrink: 0; }
 
 /* Stat number color variants (text-only, no border) */
 .stat-number-pink { color: var(--pop-pink); }
-.stat-number-yellow { color: var(--pop-yellow); }
-.stat-number-dim { color: var(--text-dim); }
 
 /* ===== Responsive ===== */
 @media (max-width: 640px) {

@@ -6,8 +6,6 @@ import {
   priorityBadgeClass,
   statusLabel,
   statusClass,
-  statusColor,
-  statusIcon,
   pluralize,
   seededShuffle,
   thumbnailUrl,
@@ -102,22 +100,6 @@ describe('statusClass', () => {
 
   it('returns want class for want', () => {
     expect(statusClass('want')).toContain('status-want');
-  });
-});
-
-describe('statusColor', () => {
-  it('maps status to CSS class', () => {
-    expect(statusColor('read')).toBe('status-read');
-    expect(statusColor('reading')).toBe('status-reading');
-    expect(statusColor('want')).toBe('status-want');
-  });
-});
-
-describe('statusIcon', () => {
-  it('maps status to icon', () => {
-    expect(statusIcon('read')).toBe('✓');
-    expect(statusIcon('reading')).toBe('📖');
-    expect(statusIcon('want')).toBe('📋');
   });
 });
 

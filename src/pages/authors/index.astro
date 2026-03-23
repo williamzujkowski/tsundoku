@@ -71,7 +71,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
                   </div>
                 )}
                 <span class="text-sm truncate">{author.name}</span>
-                <span class="text-xs text-dim text-mono" style="margin-left: auto; flex-shrink: 0;">{author.count}</span>
+                <span class="ml-auto text-xs text-dim text-mono">{author.count}</span>
               </>
             );
 

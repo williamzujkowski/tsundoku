@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { thumbnailUrl } from '../utils/formatting';
+
   interface Book {
     title: string;
     author: string;
@@ -58,13 +60,6 @@
 
   function loadMore() {
     showCount += 100;
-  }
-
-  function thumbnailUrl(url: string): string {
-    if (url.includes('covers.openlibrary.org') && url.includes('-M.jpg')) {
-      return url.replace('-M.jpg', '-S.jpg');
-    }
-    return url;
   }
 </script>
 

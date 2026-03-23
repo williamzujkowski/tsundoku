@@ -41,18 +41,6 @@ export function statusClass(status: ReadingStatus): string {
   return 'status-badge status-want';
 }
 
-export function statusColor(status: ReadingStatus): string {
-  if (status === 'read') return 'status-read';
-  if (status === 'reading') return 'status-reading';
-  return 'status-want';
-}
-
-export function statusIcon(status: ReadingStatus): string {
-  if (status === 'read') return '✓';
-  if (status === 'reading') return '📖';
-  return '📋';
-}
-
 export function pluralize(count: number, singular: string, plural?: string): string {
   return count === 1 ? singular : (plural ?? singular + 's');
 }
