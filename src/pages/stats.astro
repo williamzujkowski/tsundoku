@@ -55,7 +55,7 @@ const base = import.meta.env.BASE_URL;
   <!-- Reading progress — binary: read or not -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">Reading Progress</h2>
-    <div class="grid grid-2 gap-3 mb-4" style="max-width: 36rem;">
+    <div class="grid grid-2 gap-3 mb-4 max-w-xl">
       <div class="stat-badge stat-badge-green">
         <p class="stat-badge-number">{stats.reading_progress.read.toLocaleString()}</p>
         <p class="stat-badge-label">Read</p>
@@ -150,16 +150,20 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Top authors -->
   <section class="mb-8">
-    <h2 class="heading-md mb-4">Top Authors</h2>
+    <h2 class="heading-md mb-4">Most Represented Authors</h2>
     <div class="grid sm-grid-2 gap-2">
-      {stats.top_authors.map((a: {name: string; count: number}, i: number) => (
-        <a href={`${base}authors/${toSlug(a.name)}/`}
-           class="list-item">
-          <span class="rank-number text-xs text-dim">{i + 1}</span>
-          <span class="text-sm">{a.name}</span>
-          <span class="text-xs text-dim text-mono ml-auto">{a.count} books</span>
-        </a>
-      ))}
+      {stats.top_authors.map((a: {name: string; count: number}, i: number) => {
+        const colors = ['var(--pop-pink)', 'var(--pop-blue)', 'var(--pop-green)', 'var(--pop-orange)', 'var(--pop-purple)', 'var(--pop-cyan)', 'var(--pop-yellow)', 'var(--pop-red)'];
+        const color = colors[i % colors.length];
+        return (
+          <a href={`${base}authors/${toSlug(a.name)}/`}
+             class="list-item card-accent-left" style={`--accent-color: ${color};`}>
+            <span class="step-number" style={`color: ${color};`}>{i + 1}</span>
+            <span class="text-sm font-bold">{a.name}</span>
+            <span class="text-xs text-mono ml-auto" style={`color: ${color};`}>{a.count}</span>
+          </a>
+        );
+      })}
     </div>
   </section>
 
