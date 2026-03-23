@@ -575,7 +575,7 @@ a:hover { color: var(--pop-pink); }
 }
 
 /* ===== Prose Container ===== */
-.prose-container { max-width: 48rem; }
+.prose-container { max-width: 48rem; margin-inline: auto; }
 
 /* ===== Stat Badge Sub-text ===== */
 .stat-badge-sub {
