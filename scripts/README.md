@@ -51,6 +51,14 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `enrichment_config.py` | Centralized rate limits, API URLs, timeouts |
 | `enrichment_state.py` | State tracking — resume, daily resets, completion detection |
 | `matching.py` | Shared title/author matching logic (word overlap, article stripping) |
+| `json_merge.py` | Additive JSON merge — never overwrites non-empty fields (issue #90) |
+| `http_cache.py` | SQLite-backed HTTP response cache; per-source TTLs + negative caching (issue #91) |
+
+## Maintenance
+
+| Script | Purpose |
+|---|---|
+| `validate-photo-urls.py` | HEAD-probe `photo_url` / `cover_url` and clear confirmed-dead ones (issue #93). Default is dry-run; pass `--apply` to actually clear. |
 
 ## Tests
 
@@ -58,6 +66,9 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 |---|---|
 | `test_matching.py` | 27 tests for title similarity, slug generation, author matching |
 | `test_enrichment.py` | 8 tests for state tracking, config validation |
+| `test_json_merge.py` | 18 tests for additive merge invariants |
+| `test_http_cache.py` | 12 tests for hit/miss/expire/negative-cache/persistence |
+| `test_validate_photo_urls.py` | 7 tests for HEAD-probe classification + apply mode |
 
 ## Usage
 
