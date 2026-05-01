@@ -53,6 +53,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `matching.py` | Shared title/author matching logic (word overlap, article stripping) |
 | `json_merge.py` | Additive JSON merge — never overwrites non-empty fields (issue #90) |
 | `http_cache.py` | SQLite-backed HTTP response cache; per-source TTLs + negative caching (issue #91) |
+| `author_sources.py` | Per-source enrichment functions (Open Library author page, Wikidata) + name-variant generator (issue #105) |
 
 ## Maintenance
 
@@ -60,6 +61,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 |---|---|
 | `validate-photo-urls.py` | HEAD-probe `photo_url` / `cover_url` and clear confirmed-dead ones (issue #93). Default is dry-run; pass `--apply` to actually clear. |
 | `cache-photos.py` | Download author photos / book covers to `public/cached/` and rewrite source JSON URLs to local paths. Originals preserved in `*_source` fields (issue #94). |
+| `enrich-authors-gaps.py` | Fill missing bio / photo on existing authors via multi-source fallback (Open Library author page → Wikidata). Additive — never overwrites (issue #105). |
 
 ## Tests
 
@@ -71,6 +73,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `test_http_cache.py` | 12 tests for hit/miss/expire/negative-cache/persistence |
 | `test_validate_photo_urls.py` | 7 tests for HEAD-probe classification + apply mode |
 | `test_cache_photos.py` | 19 tests for content-type → ext, idempotency, JSON rewrite |
+| `test_author_sources.py` | 20 tests for Open Library author page + Wikidata + name variants |
 
 ## Usage
 
