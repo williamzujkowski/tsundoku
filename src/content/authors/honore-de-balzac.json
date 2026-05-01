@@ -1,5 +1,10 @@
 {
   "name": "Honore De Balzac",
   "slug": "honore-de-balzac",
-  "book_count": 1
+  "book_count": 1,
+  "bio": "Honoré de Balzac was a French novelist and playwright. His magnum opus was a sequence of almost 100 novels and plays collectively entitled La Comédie humaine, which presents a panorama of French life in the years after the fall of Napoléon Bonaparte in 1815. ([Source][1].)\r\n\r\n[1]:https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac",
+  "photo_url": "https://covers.openlibrary.org/a/id/15213231-M.jpg",
+  "open_library_url": "https://openlibrary.org/authors/OL29097A",
+  "birth_year": 1799,
+  "death_year": 1850
 }
