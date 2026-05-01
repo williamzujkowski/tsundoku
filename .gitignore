@@ -34,4 +34,5 @@ data/enrichment-errors.jsonl
 
 # Generated at build time
 public/search-index.json
+public/browse-data.json
 data/.~lock.*
