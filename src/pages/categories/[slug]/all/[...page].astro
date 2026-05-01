@@ -1,0 +1,134 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { priorityLabel, priorityBadgeClass, toSlug, thumbnailUrl } from '../../../../utils/formatting';
+import type { GetStaticPathsOptions } from 'astro';
+
+const PAGE_SIZE = 100;
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  // Mirror the limit in [slug].astro — only categories above this threshold get paginated /all/ pages.
+  const TOP_LIMIT = 60;
+  const PAGE_SIZE_LOCAL = 100;
+  const books = await getCollection('books');
+  const categoryMap = new Map<string, { name: string; books: typeof books }>();
+
+  for (const book of books) {
+    const cat = book.data.category;
+    const slug = toSlug(cat);
+    if (!categoryMap.has(slug)) {
+      categoryMap.set(slug, { name: cat, books: [] });
+    }
+    categoryMap.get(slug)!.books.push(book);
+  }
+
+  // Only generate /all/ pages for categories with overflow.
+  return [...categoryMap.entries()]
+    .filter(([_slug, { books }]) => books.length > TOP_LIMIT)
+    .flatMap(([slug, { name, books }]) => {
+      const sorted = books.sort(
+        (a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title)
+      );
+      return paginate(sorted, {
+        params: { slug },
+        props: { categoryName: name },
+        pageSize: PAGE_SIZE_LOCAL,
+      });
+    });
+}
+
+const { page } = Astro.props;
+const { categoryName } = Astro.props as { categoryName: string };
+const base = import.meta.env.BASE_URL;
+const slug = Astro.params.slug;
+
+const startIdx = (page.currentPage - 1) * PAGE_SIZE + 1;
+const endIdx = Math.min(page.currentPage * PAGE_SIZE, page.total);
+---
+
+<Layout
+  title={`${categoryName} — All books, page ${page.currentPage} of ${page.lastPage}`}
+  description={`All ${page.total} ${categoryName} books, page ${page.currentPage} of ${page.lastPage}`}
+>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}categories/`}>Categories</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}categories/${slug}/`}>{categoryName}</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">All books · page {page.currentPage}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">All {categoryName} Books</h1>
+  <p class="text-muted text-sm mb-8">
+    Books {startIdx.toLocaleString()}–{endIdx.toLocaleString()} of {page.total.toLocaleString()} · page {page.currentPage} of {page.lastPage}
+  </p>
+
+  {page.lastPage > 1 && (
+    <nav aria-label="Pagination" class="pagination-nav mb-6">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="btn btn-outline" rel="prev">← Prev</a>
+      ) : (
+        <span class="btn btn-outline pagination-disabled" aria-disabled="true">← Prev</span>
+      )}
+      <span class="pagination-pages">
+        Page {page.currentPage} of {page.lastPage}
+      </span>
+      {page.url.next ? (
+        <a href={page.url.next} class="btn btn-outline" rel="next">Next →</a>
+      ) : (
+        <span class="btn btn-outline pagination-disabled" aria-disabled="true">Next →</span>
+      )}
+    </nav>
+  )}
+
+  <div class="grid sm-grid-2 lg-grid-4 gap-3">
+    {page.data.map(book => (
+      <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
+        {book.data.cover_url ? (
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
+        ) : (
+          <div class="book-thumb-placeholder" aria-hidden="true">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+          </div>
+        )}
+        <div class="book-card-body">
+          <div class="flex items-center justify-between gap-1 mb-2">
+            <span class={priorityBadgeClass(book.data.priority)}>
+              {priorityLabel(book.data.priority)}
+            </span>
+            {book.data.first_published && (
+              <span class="text-xs text-dim">{book.data.first_published}</span>
+            )}
+          </div>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
+          <p class="text-xs text-dim truncate">{book.data.author}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  {page.lastPage > 1 && (
+    <nav aria-label="Pagination" class="pagination-nav mt-6">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="btn btn-outline" rel="prev">← Prev</a>
+      ) : (
+        <span class="btn btn-outline pagination-disabled" aria-disabled="true">← Prev</span>
+      )}
+      <span class="pagination-pages">
+        Page {page.currentPage} of {page.lastPage}
+      </span>
+      {page.url.next ? (
+        <a href={page.url.next} class="btn btn-outline" rel="next">Next →</a>
+      ) : (
+        <span class="btn btn-outline pagination-disabled" aria-disabled="true">Next →</span>
+      )}
+    </nav>
+  )}
+
+  <hr class="section-divider" />
+  <a href={`${base}categories/${slug}/`} class="ext-link text-sm">← Back to {categoryName}</a>
+</Layout>
