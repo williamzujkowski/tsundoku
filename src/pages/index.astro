@@ -49,7 +49,7 @@ const yearSpan = stats.newest_year - stats.oldest_year;
     <!-- Progress -->
     {stats.reading_progress.read > 0 && (
       <div class="max-w-xl mx-auto mb-8">
-        <div class="progress-bar">
+        <div class="progress-bar" role="progressbar" aria-valuenow={readPct} aria-valuemin="0" aria-valuemax="100" aria-label={`${readPct}% of books read`}>
           <div class="progress-fill-read" style={`width: ${readPct}%`}></div>
           <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
         </div>
@@ -103,7 +103,7 @@ const yearSpan = stats.newest_year - stats.oldest_year;
           <div class="grid grid-2 sm-grid-4 lg-grid-8 gap-4">
             {featured.map(b => (
               <a href={`${base}books/${b.data.slug}/`} class="book-cover-group">
-                <img src={b.data.cover_url_large || b.data.cover_url} alt={b.data.title}
+                <img src={b.data.cover_url_large || b.data.cover_url} alt={`Cover of ${b.data.title}`}
                   class="book-cover" loading="lazy" />
                 <p class="featured-title">{b.data.title}</p>
                 <p class="featured-author truncate text-dim">{b.data.author}</p>

@@ -118,7 +118,7 @@
 
   <!-- Results bar -->
   <div class="results-bar">
-    <p class="results-count">
+    <p class="results-count" aria-live="polite" aria-atomic="true">
       {#if sortedBooks.length === books.length}
         {books.length.toLocaleString()} books
       {:else}
