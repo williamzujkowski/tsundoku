@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { toSlug, pluralize } from '../../utils/formatting';
+import { toSlug } from '../../utils/formatting';
 
 const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');

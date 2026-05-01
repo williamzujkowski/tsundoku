@@ -30,7 +30,7 @@ const lifespan = author.birth_year
 ---
 
 <Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={author.photo_url}>
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Person",
     "name": author.name,

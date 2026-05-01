@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
-import { toSlug, seededShuffle } from '../utils/formatting';
+import { seededShuffle } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');

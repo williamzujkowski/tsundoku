@@ -59,30 +59,30 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
         <a href={`${base}`} class="nav-brand">
           積ん読 <span>Tsundoku</span>
         </a>
-        <div class="nav-links">
-          <SearchModal client:idle baseUrl={base} />
-          <RandomBook client:idle baseUrl={base} />
-          <ThemeToggle client:idle />
-          <a href={`${base}browse/`} class="nav-link">Browse</a>
-          <a href={`${base}categories/`} class="nav-link">Categories</a>
-          <a href={`${base}authors/`} class="nav-link">Authors</a>
-          <a href={`${base}stats/`} class="nav-link">Stats</a>
-          <a href={`${base}about/`} class="nav-link">About</a>
-        </div>
-        <div class="mobile-controls">
-          <SearchModal client:idle baseUrl={base} />
-          <RandomBook client:idle baseUrl={base} />
-          <ThemeToggle client:idle />
-          <button
-            id="mobile-menu-btn"
-            class="mobile-toggle"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href={`${base}browse/`} class="nav-link">Browse</a>
+            <a href={`${base}categories/`} class="nav-link">Categories</a>
+            <a href={`${base}authors/`} class="nav-link">Authors</a>
+            <a href={`${base}stats/`} class="nav-link">Stats</a>
+            <a href={`${base}about/`} class="nav-link">About</a>
+          </div>
+          <div class="nav-utility">
+            <SearchModal client:idle baseUrl={base} />
+            <RandomBook client:idle baseUrl={base} />
+            <ThemeToggle client:idle />
+            <button
+              id="mobile-menu-btn"
+              class="mobile-toggle"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
       <div id="mobile-menu" class="mobile-menu">
