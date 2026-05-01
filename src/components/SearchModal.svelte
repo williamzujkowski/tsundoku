@@ -15,7 +15,27 @@
   let loaded = $state(false);
   let loadError = $state(false);
   let inputEl: HTMLInputElement;
+  let modalEl: HTMLDivElement;
+  let triggerEl: HTMLButtonElement | null = null;
   let activeIndex = $state(-1);
+
+  function trapTab(e: KeyboardEvent) {
+    if (e.key !== 'Tab' || !modalEl) return;
+    const focusable = modalEl.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    );
+    if (focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+    if (e.shiftKey && active === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && active === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
 
   let results = $derived(() => {
     if (query.length < 2 || !loaded) return [];
@@ -41,9 +61,10 @@
     }
   }
 
-  function toggle() {
+  function toggle(e?: Event) {
     open = !open;
     if (open) {
+      triggerEl = (e?.currentTarget as HTMLButtonElement) ?? document.activeElement as HTMLButtonElement | null;
       query = '';
       activeIndex = -1;
       void loadIndex();
@@ -55,6 +76,8 @@
     open = false;
     query = '';
     activeIndex = -1;
+    // Restore focus to whatever opened the modal so screen-reader and keyboard users land back at the trigger.
+    triggerEl?.focus();
   }
 
   function handleKeydown(e: KeyboardEvent) {
@@ -65,6 +88,7 @@
     if (e.key === 'Escape' && open) {
       close();
     }
+    if (open) trapTab(e);
   }
 
   function handleResultKeydown(e: KeyboardEvent) {
@@ -106,6 +130,7 @@
   >
     <div
       class="modal"
+      bind:this={modalEl}
       onclick={(e) => e.stopPropagation()}
       role="dialog"
       aria-modal="true"

@@ -66,8 +66,8 @@ const base = import.meta.env.BASE_URL;
       </div>
     </div>
     <div class="card card-padded">
-      <div class="progress-bar">
-        <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`} title={`Read: ${stats.reading_progress.read}`}></div>
+      <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * stats.reading_progress.read / stats.total_books)} aria-valuemin="0" aria-valuemax="100" aria-label={`${Math.round(100 * stats.reading_progress.read / stats.total_books)}% of books read`}>
+        <div class="progress-fill-read" style={`width: ${100 * stats.reading_progress.read / stats.total_books}%`}></div>
       </div>
       <p class="text-xs text-dim mt-2">
         {stats.reading_progress.read.toLocaleString()} of {stats.total_books.toLocaleString()} read ({Math.round(100 * stats.reading_progress.read / stats.total_books)}%). The time spent tracking the other {(stats.total_books - stats.reading_progress.read).toLocaleString()} could have been spent reading them.
@@ -89,7 +89,7 @@ const base = import.meta.env.BASE_URL;
             <span class="text-muted">{p.label}</span>
             <span class="text-dim">{p.count} ({Math.round(100 * p.count / stats.total_books)}%)</span>
           </div>
-          <div class="progress-bar">
+          <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * p.count / stats.total_books)} aria-valuemin="0" aria-valuemax="100" aria-label={`${p.label}: ${p.count} books`}>
             <div style={`width: ${100 * p.count / stats.total_books}%; background: ${p.color};`}></div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const base = import.meta.env.BASE_URL;
             <span class="text-sm text-muted">{e.label}</span>
             <span class="font-bold heading-md">{e.pct}%</span>
           </div>
-          <div class="progress-bar">
+          <div class="progress-bar" role="progressbar" aria-valuenow={e.pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${e.pct}%`}>
             <div style={`width: ${e.pct}%; background: var(--pop-pink);`}></div>
           </div>
           <p class="text-xs text-dim mt-2">{e.count.toLocaleString()} of {stats.total_books.toLocaleString()}</p>
@@ -140,7 +140,7 @@ const base = import.meta.env.BASE_URL;
             <span class="text-muted">{era.label}</span>
             <span class="text-dim">{era.count}</span>
           </div>
-          <div class="progress-bar">
+          <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * era.count / stats.total_books)} aria-valuemin="0" aria-valuemax="100" aria-label={`${era.label}: ${era.count} books`}>
             <div style={`width: ${100 * era.count / stats.total_books}%; background: var(--pop-purple);`}></div>
           </div>
         </div>
