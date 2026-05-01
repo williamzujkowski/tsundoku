@@ -45,7 +45,7 @@ const base = import.meta.env.BASE_URL;
     {books.map(book => (
       <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
         {book.data.cover_url ? (
-          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" />
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
         ) : (
           <div class="book-thumb-placeholder" aria-hidden="true">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

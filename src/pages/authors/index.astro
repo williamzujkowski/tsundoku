@@ -62,7 +62,7 @@ const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
             const inner = (
               <>
                 {author.photo_url ? (
-                  <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" />
+                  <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" transition:name={`author-${author.slug}`} />
                 ) : (
                   <div class="author-avatar-placeholder">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

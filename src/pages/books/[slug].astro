@@ -21,8 +21,9 @@ const sameAuthor = allBooks
   .map(b => b.data)
   .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title));
 
+const sameAuthorSlugs = new Set(sameAuthor.map(b => b.slug));
 const sameCategory = allBooks
-  .filter(b => b.data.category === book.category && b.data.slug !== book.slug)
+  .filter(b => b.data.category === book.category && b.data.slug !== book.slug && !sameAuthorSlugs.has(b.data.slug))
   .map(b => b.data)
   .sort((a, b) => a.priority - b.priority || a.title.localeCompare(b.title))
   .slice(0, 12);
@@ -61,6 +62,7 @@ const categorySlug = toSlug(book.category);
             alt={`Cover of ${book.title}`}
             class="book-detail-cover"
             loading="eager"
+            transition:name={`cover-${book.slug}`}
           />
         </div>
       ) : (
@@ -197,7 +199,7 @@ const categorySlug = toSlug(book.category);
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -221,7 +223,7 @@ const categorySlug = toSlug(book.category);
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" />
+                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}

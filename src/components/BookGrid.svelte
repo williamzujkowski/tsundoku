@@ -148,7 +148,7 @@
         <a href="{baseUrl}books/{book.slug}/" class="book-card">
           <div class="book-card-inner">
             {#if book.cover_url}
-              <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" />
+              <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" style:view-transition-name={`cover-${book.slug}`} />
             {:else}
               <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
             {/if}
