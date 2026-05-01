@@ -25,6 +25,7 @@ from urllib.request import urlopen, Request
 
 from enrichment_config import BOOKS_DIR, USER_AGENT, DEFAULT_TIMEOUT, RATE_LIMITS, ERROR_LOG
 from enrichment_state import EnrichmentState
+from http_cache import cached_fetch
 
 
 class EnrichmentScript(ABC):
@@ -62,8 +63,20 @@ class EnrichmentScript(ABC):
         """Filter to books missing the enrichment field."""
         return [(bp, b) for bp, b in books if not b.get(self.enrichment_field)]
 
-    def safe_request(self, url: str) -> dict | None:
-        """Make an HTTP request with error classification."""
+    def safe_request(self, url: str, *, cache_key: str | None = None) -> dict | None:
+        """Make an HTTP request with error classification.
+
+        Goes through the on-disk cache (data/http-cache.sqlite) keyed on
+        (source_name, cache_key). Caller may pass a logical cache_key (e.g.
+        an ISBN, OCLC id, or normalized title); falls back to the URL when
+        omitted, which is the conservative default for callers that haven't
+        been migrated yet.
+        """
+        key = cache_key if cache_key is not None else url
+        return cached_fetch(self.source_name, key, lambda: self._raw_request(url), url=url)
+
+    def _raw_request(self, url: str) -> dict | None:
+        """Underlying HTTP+JSON fetch. Same error semantics as before."""
         req = Request(url, headers={"User-Agent": USER_AGENT})
         try:
             with urlopen(req, timeout=DEFAULT_TIMEOUT) as resp:
