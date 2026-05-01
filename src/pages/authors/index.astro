@@ -7,7 +7,6 @@ const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');
 const base = import.meta.env.BASE_URL;
 
-// Build a map of enriched author data by name
 const enrichedMap = new Map<string, { slug: string; photo_url?: string }>();
 for (const a of enrichedAuthors) {
   enrichedMap.set(a.data.name, {
@@ -17,76 +16,85 @@ for (const a of enrichedAuthors) {
 }
 
 const authorMap = new Map<string, number>();
-
 for (const book of books) {
   const author = book.data.author;
   authorMap.set(author, (authorMap.get(author) ?? 0) + 1);
 }
 
-const authors = [...authorMap.entries()]
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([name, count]) => {
-    const enriched = enrichedMap.get(name);
-    return {
-      name,
-      count,
-      slug: enriched?.slug ?? toSlug(name),
-      photo_url: enriched?.photo_url,
-      hasDetailPage: enrichedMap.has(name),
-    };
-  });
+const allAuthors = [...authorMap.entries()].map(([name, count]) => {
+  const enriched = enrichedMap.get(name);
+  return {
+    name,
+    count,
+    slug: enriched?.slug ?? toSlug(name),
+    photo_url: enriched?.photo_url,
+    hasDetailPage: enrichedMap.has(name),
+  };
+});
 
-const letters = [...new Set(authors.map(a => a.name[0].toUpperCase()))].sort();
+function letterKey(c: string): string {
+  const lc = c.toLowerCase();
+  return /[a-z]/.test(lc) ? lc : 'other';
+}
+
+const letterCounts = new Map<string, number>();
+for (const a of allAuthors) {
+  const key = letterKey(a.name[0]);
+  letterCounts.set(key, (letterCounts.get(key) ?? 0) + 1);
+}
+
+const letterEntries = [...letterCounts.entries()].sort(([a], [b]) => a.localeCompare(b));
+
+const mostProlific = [...allAuthors]
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  .slice(0, 12);
 ---
 
-<Layout title="Authors" description={`${authors.length} authors — read, unread, and somewhere in between`}>
+<Layout title="Authors" description={`${allAuthors.length} authors — read, unread, and somewhere in between`}>
   <h1 class="heading-xl mb-2">Authors</h1>
-  <p class="text-muted text-sm mb-6">{authors.length.toLocaleString()} authors — read, unread, and somewhere in between.</p>
+  <p class="text-muted text-sm mb-6">
+    {allAuthors.length.toLocaleString()} authors — pick a letter to browse, or follow the trail of the most prolific.
+  </p>
 
-  <!-- Letter navigation -->
-  <nav aria-label="Jump to letter" class="flex flex-wrap gap-2 mb-8">
-    {letters.map(letter => (
-      <a href={`#${letter}`} class="letter-nav-link">
-        {letter}
+  <!-- Letter index -->
+  <nav aria-label="Browse authors by letter" class="letter-tile-grid mb-8">
+    {letterEntries.map(([key, count]) => (
+      <a href={`${base}authors/${key}/`} class="letter-tile">
+        <span class="letter-tile-letter">{key === 'other' ? '#' : key.toUpperCase()}</span>
+        <span class="letter-tile-count">{count}</span>
       </a>
     ))}
   </nav>
 
-  {letters.map(letter => {
-    const letterAuthors = authors.filter(a => a.name[0].toUpperCase() === letter);
-    return (
-      <section id={letter} class="mb-8">
-        <h2 class="sticky-letter heading-md mb-4">{letter}</h2>
-        <div class="grid sm-grid-2 md-grid-3 gap-2">
-          {letterAuthors.map(author => {
-            const inner = (
-              <>
-                {author.photo_url ? (
-                  <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" transition:name={`author-${author.slug}`} />
-                ) : (
-                  <div class="author-avatar-placeholder">
-                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                    </svg>
-                  </div>
-                )}
-                <span class="text-sm truncate">{author.name}</span>
-                <span class="ml-auto text-xs text-dim text-mono">{author.count}</span>
-              </>
-            );
+  <hr class="section-divider" />
 
-            return author.hasDetailPage ? (
-              <a href={`${base}authors/${author.slug}/`} class="list-item">
-                {inner}
-              </a>
+  <!-- Most prolific -->
+  <section class="mb-8">
+    <h2 class="heading-md mb-4">Most Prolific</h2>
+    <p class="text-muted text-sm mb-4">Whoever has the most space on the shelf.</p>
+    <div class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-3">
+      {mostProlific.map(author => {
+        const inner = (
+          <>
+            {author.photo_url ? (
+              <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" />
             ) : (
-              <div class="list-item">
-                {inner}
+              <div class="author-avatar-placeholder" aria-hidden="true">
+                <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
               </div>
-            );
-          })}
-        </div>
-      </section>
-    );
-  })}
+            )}
+            <span class="text-sm truncate">{author.name}</span>
+            <span class="ml-auto text-xs text-dim text-mono">{author.count}</span>
+          </>
+        );
+        return author.hasDetailPage ? (
+          <a href={`${base}authors/${author.slug}/`} class="list-item">{inner}</a>
+        ) : (
+          <div class="list-item">{inner}</div>
+        );
+      })}
+    </div>
+  </section>
 </Layout>
