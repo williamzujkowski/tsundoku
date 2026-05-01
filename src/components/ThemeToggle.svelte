@@ -60,6 +60,9 @@
     background: none;
     border: none;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .theme-toggle:hover {
@@ -69,5 +72,16 @@
   .theme-icon {
     width: 1.25rem;
     height: 1.25rem;
+    animation: theme-pop 220ms cubic-bezier(0.2, 0.85, 0.3, 1.05);
+  }
+
+  @keyframes theme-pop {
+    0%   { opacity: 0; transform: rotate(-45deg) scale(0.6); }
+    60%  { opacity: 1; transform: rotate(8deg) scale(1.08); }
+    100% { transform: rotate(0) scale(1); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .theme-icon { animation: none; }
   }
 </style>

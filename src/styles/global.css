@@ -35,7 +35,7 @@
 
   /* Typography */
   --font-body: system-ui, -apple-system, sans-serif;
-  --font-display: system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
   --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 
   /* Spacing */
@@ -167,8 +167,10 @@ a:hover { color: var(--pop-pink); }
 }
 
 .nav-brand {
-  font-size: 1.15rem; font-weight: 800;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-size: 1.2rem; font-weight: 700;
+  letter-spacing: -0.01em;
   color: var(--text);
   text-decoration: none;
 }
@@ -231,14 +233,20 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Typography ===== */
 .heading-xl {
-  font-size: clamp(2.5rem, 8vw, 4rem);
-  font-weight: 900; letter-spacing: -0.03em; line-height: 1;
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-size: clamp(2.5rem, 8vw, 4.25rem);
+  font-weight: 800; letter-spacing: -0.025em; line-height: 0.98;
 }
 .heading-lg {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
   font-size: clamp(1.5rem, 4vw, 2.25rem);
-  font-weight: 800; letter-spacing: -0.02em; line-height: 1.1;
+  font-weight: 700; letter-spacing: -0.015em; line-height: 1.1;
 }
 .heading-md {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
   font-size: clamp(1.1rem, 2.5vw, 1.5rem);
   font-weight: 700; line-height: 1.2;
 }
@@ -712,9 +720,6 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Content Components ===== */
 
-/* Section heading with pop-art color accent */
-.section-heading { color: var(--pop-pink); }
-
 /* Prose text blocks (about page, descriptions) */
 .prose-text { line-height: 1.7; margin-bottom: 1rem; }
 .prose-text strong { color: var(--text); }
@@ -806,10 +811,73 @@ a:hover { color: var(--pop-pink); }
   .book-detail-layout { flex-direction: column; align-items: flex-start; }
 }
 
+/* ===== Section Heading (display variant) ===== */
+.section-heading {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--pop-pink);
+}
+
+/* ===== Brutalist micro-details ===== */
+
+/* Pop selection — text selection feels stamped, not subtle */
+::selection {
+  background: var(--pop-pink);
+  color: var(--on-accent);
+  text-shadow: none;
+}
+
+/* Subtle paper grain — fixed overlay across the whole viewport. ~3% strength.
+   The blend mode makes it darken light surfaces and lighten dark ones, reading
+   as paper texture in light mode and as soft static in dark mode. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 200;
+  opacity: 0.04;
+  mix-blend-mode: difference;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+/* ===== Stagger Reveal (grids) =====
+   Snappy slide-up + fade for the first ~12 items in a list. Anything past
+   that just animates without delay so users don't wait on long pages.
+   Honors prefers-reduced-motion via the global override below. */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translate(0, 6px); }
+  to   { opacity: 1; transform: translate(0, 0); }
+}
+
+.book-cards-grid > a,
+.cat-tile,
+.list-item,
+.book-cover-group,
+.author-card {
+  animation: reveal-up 320ms cubic-bezier(0.2, 0.85, 0.3, 1.05) backwards;
+}
+
+.book-cards-grid > a:nth-child(1),  .cat-tile:nth-child(1),  .list-item:nth-child(1)  { animation-delay: 0ms; }
+.book-cards-grid > a:nth-child(2),  .cat-tile:nth-child(2),  .list-item:nth-child(2)  { animation-delay: 25ms; }
+.book-cards-grid > a:nth-child(3),  .cat-tile:nth-child(3),  .list-item:nth-child(3)  { animation-delay: 50ms; }
+.book-cards-grid > a:nth-child(4),  .cat-tile:nth-child(4),  .list-item:nth-child(4)  { animation-delay: 75ms; }
+.book-cards-grid > a:nth-child(5),  .cat-tile:nth-child(5),  .list-item:nth-child(5)  { animation-delay: 100ms; }
+.book-cards-grid > a:nth-child(6),  .cat-tile:nth-child(6),  .list-item:nth-child(6)  { animation-delay: 125ms; }
+.book-cards-grid > a:nth-child(7),  .cat-tile:nth-child(7),  .list-item:nth-child(7)  { animation-delay: 150ms; }
+.book-cards-grid > a:nth-child(8),  .cat-tile:nth-child(8),  .list-item:nth-child(8)  { animation-delay: 175ms; }
+.book-cards-grid > a:nth-child(9),  .cat-tile:nth-child(9),  .list-item:nth-child(9)  { animation-delay: 200ms; }
+.book-cards-grid > a:nth-child(10), .cat-tile:nth-child(10), .list-item:nth-child(10) { animation-delay: 225ms; }
+.book-cards-grid > a:nth-child(11), .cat-tile:nth-child(11), .list-item:nth-child(11) { animation-delay: 250ms; }
+.book-cards-grid > a:nth-child(12), .cat-tile:nth-child(12), .list-item:nth-child(12) { animation-delay: 275ms; }
+
 /* ===== Reduced Motion ===== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
   }
 }
