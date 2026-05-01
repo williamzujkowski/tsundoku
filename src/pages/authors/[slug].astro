@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const allAuthors = await getCollection('authors');
@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 
   return allAuthors.map(author => {
     const authorBooks = allBooks
-      .filter(b => b.data.author === author.data.name)
+      .filter(b => authorMatches(b.data.author, author.data.name))
       .sort((a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title));
 
     return {

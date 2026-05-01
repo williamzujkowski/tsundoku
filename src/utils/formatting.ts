@@ -78,3 +78,52 @@ function dayOfYear(): number {
   const start = new Date(now.getFullYear(), 0, 0);
   return Math.floor((now.getTime() - start.getTime()) / 86400000);
 }
+
+/**
+ * Split a multi-author byline ("Robert Jordan & Brandon Sanderson") into
+ * its component author names. Handles `&`, ` and `, ` with `, `, `, `/`.
+ *
+ * Each part must be at least two whitespace-separated tokens — this avoids
+ * splitting initials like "L., M.", or single-name pen names with commas.
+ *
+ * Returns `parts: [originalString]` and `isJoint: false` when no split applies,
+ * so callers can iterate `parts` uniformly.
+ */
+export interface AuthorParts {
+  original: string;
+  parts: string[];
+  isJoint: boolean;
+}
+
+// Strong separators always indicate joint authorship — split unconditionally.
+const STRONG_SEPARATORS = /\s*(?:&| and | with |\/)\s*/i;
+// Comma is ambiguous: "Smith, John" is "Last, First" notation, not joint authors.
+// Only treat comma as a separator when each part has 2+ whitespace-separated tokens.
+const COMMA_SEPARATOR = /\s*,\s*/;
+
+export function parseAuthors(name: string): AuthorParts {
+  const strong = name.split(STRONG_SEPARATORS).map((p) => p.trim()).filter((p) => p.length > 0);
+  if (strong.length >= 2) {
+    return { original: name, parts: strong, isJoint: true };
+  }
+  const commaSplit = name
+    .split(COMMA_SEPARATOR)
+    .map((p) => p.trim())
+    .filter((p) => p.length > 0 && p.split(/\s+/).length >= 2);
+  if (commaSplit.length >= 2) {
+    return { original: name, parts: commaSplit, isJoint: true };
+  }
+  return { original: name, parts: [name], isJoint: false };
+}
+
+/**
+ * True when an author detail page (for `authorName`) should claim the given
+ * book. Matches both an exact match against the book's full author string
+ * (which includes the existing joint-string records like
+ * "Robert Jordan & Brandon Sanderson") and component-name matches (so the
+ * "Robert Jordan" page also picks up the same book).
+ */
+export function authorMatches(bookAuthor: string, authorName: string): boolean {
+  if (bookAuthor === authorName) return true;
+  return parseAuthors(bookAuthor).parts.includes(authorName);
+}
