@@ -14,8 +14,8 @@
   let items = $state<SearchItem[]>([]);
   let loaded = $state(false);
   let loadError = $state(false);
-  let inputEl: HTMLInputElement;
-  let modalEl: HTMLDivElement;
+  let inputEl = $state<HTMLInputElement | undefined>();
+  let modalEl = $state<HTMLDivElement | undefined>();
   let triggerEl: HTMLButtonElement | null = null;
   let activeIndex = $state(-1);
 
