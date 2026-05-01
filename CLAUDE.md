@@ -153,6 +153,7 @@ Computed from existing metadata (no API calls):
 | **Enrichment state** | `scripts/enrichment_state.py` (+ `data/enrichment-state.json`) |
 | **Title matching** | `scripts/matching.py` |
 | **Additive JSON merge** | `scripts/json_merge.py` (never overwrites non-empty fields — see #90) |
+| **HTTP response cache** | `scripts/http_cache.py` + `data/http-cache.sqlite` (gitignored — see #91) |
 | **Enrichment runner** | `scripts/run-all-enrichments.py` |
 | **Data integrity tests** | `scripts/test_data_integrity.py` |
 | **CI workflow** | `.github/workflows/deploy.yml` |

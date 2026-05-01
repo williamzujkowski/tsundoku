@@ -36,3 +36,8 @@ data/enrichment-errors.jsonl
 public/search-index.json
 public/browse-data.json
 data/.~lock.*
+
+# HTTP response cache (per-developer, regenerable)
+data/http-cache.sqlite
+data/http-cache.sqlite-wal
+data/http-cache.sqlite-shm

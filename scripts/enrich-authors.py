@@ -22,6 +22,7 @@ from urllib.error import URLError, HTTPError
 from urllib.parse import quote
 
 from json_merge import additive_merge, load_existing, save_json
+from http_cache import cached_fetch
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
@@ -83,7 +84,7 @@ def fetch_wikipedia(author_name: str) -> dict:
     # Try the name as-is first, then with underscores
     encoded = quote(author_name.replace(" ", "_"), safe="")
     url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
-    data = fetch_json(url)
+    data = cached_fetch("wikipedia", author_name, lambda: fetch_json(url), url=url)
 
     if not data or data.get("type") == "disambiguation":
         return result
@@ -136,7 +137,7 @@ def fetch_open_library(author_name: str) -> dict:
     result = {}
     encoded = quote(author_name, safe="")
     url = f"https://openlibrary.org/search/authors.json?q={encoded}"
-    data = fetch_json(url)
+    data = cached_fetch("open_library", author_name, lambda: fetch_json(url), url=url)
 
     if not data or not data.get("docs"):
         return result
