@@ -38,6 +38,12 @@ const books = defineCollection({
     copyright_status: z.enum(['public_domain', 'likely_public_domain', 'in_copyright', 'undetermined']).optional(),
     // Reading status (from data/reading-status.csv — owner's reading progress)
     reading_status: z.enum(['want', 'reading', 'read']).optional(),
+    // Local cover cache (populated by scripts/cache-photos.py — see #94)
+    // When set, cover_url / cover_url_large point to a local /cached/ path
+    // and the *_source fields preserve the original upstream URL for attribution.
+    cover_url_source: z.string().optional(),
+    cover_url_large_source: z.string().optional(),
+    cover_cached_at: z.string().optional(),
   }),
 });
 
@@ -53,6 +59,9 @@ const authors = defineCollection({
     birth_year: z.number().optional(),
     death_year: z.number().optional(),
     book_count: z.number(),
+    // Local photo cache (populated by scripts/cache-photos.py — see #94)
+    photo_url_source: z.string().optional(),
+    photo_cached_at: z.string().optional(),
   }),
 });
 

@@ -59,6 +59,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | Script | Purpose |
 |---|---|
 | `validate-photo-urls.py` | HEAD-probe `photo_url` / `cover_url` and clear confirmed-dead ones (issue #93). Default is dry-run; pass `--apply` to actually clear. |
+| `cache-photos.py` | Download author photos / book covers to `public/cached/` and rewrite source JSON URLs to local paths. Originals preserved in `*_source` fields (issue #94). |
 
 ## Tests
 
@@ -69,6 +70,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `test_json_merge.py` | 18 tests for additive merge invariants |
 | `test_http_cache.py` | 12 tests for hit/miss/expire/negative-cache/persistence |
 | `test_validate_photo_urls.py` | 7 tests for HEAD-probe classification + apply mode |
+| `test_cache_photos.py` | 19 tests for content-type → ext, idempotency, JSON rewrite |
 
 ## Usage
 
