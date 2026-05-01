@@ -178,6 +178,7 @@ a:hover { color: var(--pop-pink); }
 .nav-brand span { display: none; }
 @media (min-width: 640px) { .nav-brand span { display: inline; } }
 
+.nav-right { display: flex; align-items: center; gap: 1.25rem; }
 .nav-links { display: none; align-items: center; gap: 1.25rem; }
 @media (min-width: 640px) { .nav-links { display: flex; } }
 
@@ -188,15 +189,16 @@ a:hover { color: var(--pop-pink); }
 }
 .nav-link:hover { color: var(--text); }
 
-/* Mobile nav */
-.mobile-controls { display: flex; align-items: center; gap: 0.25rem; }
-@media (min-width: 640px) { .mobile-controls { display: none; } }
+/* Utility cluster (search, random, theme, mobile toggle) — single instance, visible at all breakpoints */
+.nav-utility { display: flex; align-items: center; gap: 0.25rem; }
 
 .mobile-toggle {
   padding: 0.5rem; background: none; border: none;
   color: var(--text-muted); cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
 }
 .mobile-toggle:hover { color: var(--text); }
+@media (min-width: 640px) { .mobile-toggle { display: none; } }
 
 .mobile-menu {
   display: none; padding-bottom: 0.75rem;
@@ -264,7 +266,7 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Neo-Brutalist Cards ===== */
 .card {
-  border: 3px solid #555;
+  border: 3px solid var(--border);
   background: var(--bg-surface);
   box-shadow: var(--shadow);
   text-decoration: none;
