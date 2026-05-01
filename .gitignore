@@ -41,3 +41,6 @@ data/.~lock.*
 data/http-cache.sqlite
 data/http-cache.sqlite-wal
 data/http-cache.sqlite-shm
+
+# Photo / cover cache (build-time download; persisted across CI runs via actions/cache)
+public/cached/

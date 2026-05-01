@@ -62,8 +62,35 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Restore the photo / cover cache from the previous successful run so we
+      # don't re-download every Wikimedia thumb on every build. See #94.
+      - name: Restore photo cache
+        id: photo-cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: public/cached
+          key: photo-cache-v1-${{ github.run_id }}
+          restore-keys: |
+            photo-cache-v1-
+
+      - name: Download missing photos
+        run: python3 scripts/cache-photos.py
+        # cache-photos.py is fault-tolerant — failures leave upstream URLs in
+        # place, and the runtime broken-image fallback handles any that 404.
+        continue-on-error: true
+
       - name: Build Astro site
         run: npm run build
+
+      # Save the (possibly enlarged) cache for the next run. Splitting restore
+      # and save lets us "always save" — the default cache action only saves on
+      # cache miss for the exact key.
+      - name: Save photo cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: public/cached
+          key: photo-cache-v1-${{ github.run_id }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
