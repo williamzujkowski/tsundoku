@@ -21,6 +21,8 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 from urllib.parse import quote
 
+from json_merge import additive_merge, load_existing, save_json
+
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
@@ -222,6 +224,12 @@ def main():
     parser.add_argument(
         "--limit", type=int, default=0, help="Max number of authors to process (0=all)"
     )
+    parser.add_argument(
+        "--refresh-existing",
+        action="store_true",
+        help="Re-fetch authors that already have a JSON file (additive merge — no field is ever wiped). "
+             "Without this flag, existing files are skipped for speed.",
+    )
     args = parser.parse_args()
 
     AUTHORS_DIR.mkdir(parents=True, exist_ok=True)
@@ -233,37 +241,55 @@ def main():
         authors = authors[: args.limit]
         print(f"Processing top {len(authors)} authors (most books first).")
 
-    enriched = 0
+    enriched_new = 0
+    enriched_updated = 0
     skipped = 0
     failed = 0
+    no_change = 0
 
     for i, author_info in enumerate(authors):
         name = author_info["name"]
         slug = slugify(name)
         output_file = AUTHORS_DIR / f"{slug}.json"
+        already_exists = output_file.exists()
 
-        if output_file.exists():
+        if already_exists and not args.refresh_existing:
             skipped += 1
             continue
 
         print(f"\n[{i + 1}/{len(authors)}] {name} ({author_info['book_count']} books)")
 
         try:
-            data = enrich_author(name, author_info["book_count"])
-
-            with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-                f.write("\n")
-
-            enriched += 1
-            fields = [k for k in ("bio", "photo_url", "wikipedia_url", "open_library_url", "birth_year") if k in data]
-            print(f"  Saved: {output_file.name} ({', '.join(fields) if fields else 'basic only'})")
+            new_data = enrich_author(name, author_info["book_count"])
+            existing = load_existing(output_file)
+            # book_count comes from the book corpus, not the API — keep it fresh.
+            if "book_count" in new_data:
+                existing["book_count"] = new_data["book_count"]
+            # name and slug are identity, not enriched fields — set if missing.
+            for k in ("name", "slug"):
+                if k in new_data and not existing.get(k):
+                    existing[k] = new_data[k]
+            changed = additive_merge(existing, new_data)
+            if changed or not already_exists:
+                save_json(output_file, existing)
+                if already_exists:
+                    enriched_updated += 1
+                else:
+                    enriched_new += 1
+                fields = [k for k in ("bio", "photo_url", "wikipedia_url", "open_library_url", "birth_year") if k in existing]
+                print(f"  Saved: {output_file.name} ({', '.join(fields) if fields else 'basic only'})")
+            else:
+                no_change += 1
+                print("  No new fields — existing record unchanged.")
 
         except Exception as e:
             print(f"  FAILED: {e}")
             failed += 1
 
-    print(f"\nDone: {enriched} enriched, {skipped} skipped (existing), {failed} failed.")
+    print(
+        f"\nDone: {enriched_new} new, {enriched_updated} updated additively, "
+        f"{no_change} no-change, {skipped} skipped (existing), {failed} failed."
+    )
 
 
 if __name__ == "__main__":
