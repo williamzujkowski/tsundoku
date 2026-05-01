@@ -125,7 +125,6 @@
   <div
     class="overlay"
     onclick={close}
-    onkeydown={(e) => e.key === 'Escape' && close()}
     role="presentation"
   >
     <div

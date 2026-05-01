@@ -223,7 +223,7 @@
   .search-input {
     width: 100%;
     background: var(--bg-surface);
-    border: 3px solid #555;
+    border: 3px solid var(--border);
     color: var(--text);
     padding: 0.625rem 1rem 0.625rem 2.5rem;
     font-size: 1rem;
@@ -262,7 +262,7 @@
   .filter-select {
     flex: 1;
     background: var(--bg-surface);
-    border: 3px solid #555;
+    border: 3px solid var(--border);
     color: var(--text);
     padding: 0.625rem 0.75rem;
     font-size: 0.875rem;
@@ -401,7 +401,7 @@
   /* --- Book card --- */
   .book-card {
     display: block;
-    border: 3px solid #555;
+    border: 3px solid var(--border);
     background: var(--bg-surface);
     padding: 0.75rem;
     box-shadow: var(--shadow);
@@ -530,7 +530,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #555;
+    border: 3px solid var(--border);
     background: transparent;
     color: var(--text-muted);
     font-weight: 800;

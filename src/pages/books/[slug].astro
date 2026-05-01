@@ -32,7 +32,7 @@ const categorySlug = toSlug(book.category);
 ---
 
 <Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={book.cover_url_large || book.cover_url}>
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Book",
     "name": book.title,
@@ -136,14 +136,14 @@ const categorySlug = toSlug(book.category);
       </dl>
 
       {book.subjects && book.subjects.length > 0 && (
-        <div class="detail-section">
+        <dl class="detail-section">
           <dt class="text-dim text-sm mb-2">Subjects</dt>
-          <div class="flex flex-wrap gap-2">
+          <dd class="flex flex-wrap gap-2">
             {book.subjects.map(s => (
               <span class="meta-tag">{s}</span>
             ))}
-          </div>
-        </div>
+          </dd>
+        </dl>
       )}
 
       {(book.gutenberg_url || book.hathitrust_url || book.librivox_url) && (
@@ -199,7 +199,7 @@ const categorySlug = toSlug(book.category);
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -223,7 +223,7 @@ const categorySlug = toSlug(book.category);
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={b.title} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
