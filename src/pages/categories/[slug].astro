@@ -3,7 +3,10 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityBadgeClass, toSlug, pluralize, thumbnailUrl } from '../../utils/formatting';
 
+// Astro hoists getStaticPaths into an isolated scope — module-level consts aren't visible inside.
+// Keep the limit inside getStaticPaths and surface it via props for the template.
 export async function getStaticPaths() {
+  const TOP_LIMIT = 60;
   const books = await getCollection('books');
   const categoryMap = new Map<string, { name: string; books: typeof books }>();
 
@@ -16,20 +19,27 @@ export async function getStaticPaths() {
     categoryMap.get(slug)!.books.push(book);
   }
 
-  return [...categoryMap.entries()].map(([slug, { name, books }]) => ({
-    params: { slug },
-    props: {
-      categoryName: name,
-      books: books.sort((a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title)),
-    },
-  }));
+  return [...categoryMap.entries()].map(([slug, { name, books }]) => {
+    const sorted = books.sort((a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title));
+    return {
+      params: { slug },
+      props: {
+        categoryName: name,
+        topBooks: sorted.slice(0, TOP_LIMIT),
+        totalCount: sorted.length,
+        topLimit: TOP_LIMIT,
+      },
+    };
+  });
 }
 
-const { categoryName, books } = Astro.props;
+const { categoryName, topBooks, totalCount, topLimit } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const slug = Astro.params.slug;
+const hasOverflow = totalCount > topLimit;
 ---
 
-<Layout title={categoryName} description={`${books.length} ${categoryName} books in the tsundoku collection`}>
+<Layout title={categoryName} description={`${totalCount} ${categoryName} books in the tsundoku collection`}>
   <nav class="breadcrumb">
     <a href={`${base}`}>Home</a>
     <span class="breadcrumb-sep">/</span>
@@ -39,10 +49,15 @@ const base = import.meta.env.BASE_URL;
   </nav>
 
   <h1 class="heading-xl mb-2">{categoryName}</h1>
-  <p class="text-muted text-sm mb-8">{books.length} {pluralize(books.length, 'book')}</p>
+  <p class="text-muted text-sm mb-8">
+    {totalCount.toLocaleString()} {pluralize(totalCount, 'book')}{hasOverflow && (
+      <> · showing top {topLimit}
+      </>
+    )}
+  </p>
 
   <div class="grid sm-grid-2 lg-grid-4 gap-3">
-    {books.map(book => (
+    {topBooks.map(book => (
       <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
         {book.data.cover_url ? (
           <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
@@ -68,4 +83,12 @@ const base = import.meta.env.BASE_URL;
       </a>
     ))}
   </div>
+
+  {hasOverflow && (
+    <div class="mt-2 text-center">
+      <a href={`${base}categories/${slug}/all/`} class="btn btn-outline">
+        View all {totalCount.toLocaleString()} {pluralize(totalCount, 'book')} →
+      </a>
+    </div>
+  )}
 </Layout>

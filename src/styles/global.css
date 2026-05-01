@@ -634,6 +634,25 @@ a:hover { color: var(--pop-pink); }
   background: var(--bg-elevated);
 }
 
+/* ===== Pagination Nav (category overflow pages) ===== */
+.pagination-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.pagination-pages {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.pagination-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 /* ===== Letter Tiles (authors index landing) ===== */
 .letter-tile-grid {
   display: grid;
