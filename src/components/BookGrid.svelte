@@ -315,7 +315,7 @@
 
   .clear-filters-link:hover {
     background: var(--pop-pink);
-    color: #000;
+    color: var(--on-accent);
   }
 
   /* --- Empty state --- */
@@ -350,7 +350,7 @@
     align-items: center;
     justify-content: center;
     background: var(--pop-pink);
-    color: #000;
+    color: var(--on-accent);
     font-weight: 700;
     padding: 0.625rem 1.5rem;
     font-size: 0.875rem;
@@ -365,12 +365,12 @@
 
   .btn-clear-all:hover {
     transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 var(--shadow-color);
   }
 
   .btn-clear-all:active {
     transform: translate(0, 0);
-    box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 var(--shadow-color);
   }
 
   /* --- Book card grid --- */
@@ -412,7 +412,7 @@
 
   .book-card:hover {
     transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 #000;
+    box-shadow: 6px 6px 0 var(--shadow-color);
     border-color: var(--pop-pink);
     color: var(--text);
   }
@@ -548,11 +548,11 @@
     border-color: var(--pop-pink);
     color: var(--text);
     transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 #000;
+    box-shadow: 3px 3px 0 var(--shadow-color);
   }
 
   .btn-load-more:active {
     transform: translate(0, 0);
-    box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 var(--shadow-color);
   }
 </style>

@@ -63,12 +63,12 @@
     border-color: var(--pop-pink);
     color: var(--text);
     transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 #000;
+    box-shadow: 3px 3px 0 var(--shadow-color);
   }
 
   .share-btn:active {
     transform: translate(0, 0);
-    box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 var(--shadow-color);
   }
 
   .share-icon {

@@ -214,7 +214,7 @@
     margin: 15vh auto 0;
     background: var(--bg-surface);
     border: var(--border-width) solid var(--border);
-    box-shadow: 8px 8px 0 #000;
+    box-shadow: 8px 8px 0 var(--shadow-color);
     overflow: hidden;
   }
 

@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { ClientRouter } from 'astro:transitions';
 import SearchModal from '../components/SearchModal.svelte';
 import RandomBook from '../components/RandomBook.svelte';
+import ThemeToggle from '../components/ThemeToggle.svelte';
 import stats from '../data/stats.json';
 
 interface Props {
@@ -31,6 +32,19 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     {siteUrl && <link rel="canonical" href={siteUrl} />}
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{title} — Tsundoku</title>
+    {/* Pre-paint theme application: read stored choice, fall back to system preference. Runs before body to prevent FOUC. */}
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          if (stored === 'light' || stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', stored);
+          }
+        } catch (e) {
+          // localStorage unavailable — system preference handles it via @media
+        }
+      })();
+    </script>
     <ClientRouter />
   </head>
   <body>
@@ -44,6 +58,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
         <div class="nav-links">
           <SearchModal client:idle baseUrl={base} />
           <RandomBook client:idle baseUrl={base} />
+          <ThemeToggle client:idle />
           <a href={`${base}browse/`} class="nav-link">Browse</a>
           <a href={`${base}categories/`} class="nav-link">Categories</a>
           <a href={`${base}authors/`} class="nav-link">Authors</a>
@@ -53,6 +68,7 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
         <div class="mobile-controls">
           <SearchModal client:idle baseUrl={base} />
           <RandomBook client:idle baseUrl={base} />
+          <ThemeToggle client:idle />
           <button
             id="mobile-menu-btn"
             class="mobile-toggle"

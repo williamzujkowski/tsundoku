@@ -1,7 +1,9 @@
 /* ===== Neo-Brutalist Pop Art Design System ===== */
 
-/* ===== Design Tokens ===== */
+/* ===== Design Tokens — Dark (default) ===== */
 :root {
+  color-scheme: dark;
+
   /* Base palette */
   --bg: #0f0f0f;
   --bg-surface: #1a1a1a;
@@ -14,8 +16,12 @@
   --border: #333;
   --border-strong: #f0f0f0;
   --border-width: 2px;
-  --shadow: 4px 4px 0 #000;
-  --shadow-sm: 2px 2px 0 #000;
+  --shadow-color: #000;
+  --shadow: 4px 4px 0 var(--shadow-color);
+  --shadow-sm: 2px 2px 0 var(--shadow-color);
+
+  /* Color used for text on filled accent backgrounds (e.g. .btn on pop-pink) */
+  --on-accent: #000;
 
   /* Pop Art accent palette — CMYK-inspired, high saturation */
   --pop-pink: oklch(70% 0.22 350);
@@ -35,6 +41,52 @@
   /* Spacing */
   --max-width: 80rem;
   --gutter: clamp(1rem, 3vw, 2rem);
+}
+
+/* ===== Design Tokens — Light ===== */
+/* Applied either by system preference (when user has not chosen) or explicit data-theme="light". */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg: #f5f3ee;
+    --bg-surface: #ffffff;
+    --bg-elevated: #ebe7df;
+    --text: #0f0f0f;
+    --text-muted: #4a4a4a;
+    --text-dim: #5e5e5e;
+    --border: #1a1a1a;
+    --border-strong: #0f0f0f;
+    --shadow-color: #0f0f0f;
+    /* Slightly darker pop colors for sufficient contrast on light surfaces */
+    --pop-pink: oklch(55% 0.22 350);
+    --pop-blue: oklch(48% 0.2 250);
+    --pop-green: oklch(48% 0.18 145);
+    --pop-yellow: oklch(60% 0.18 90);
+    --pop-orange: oklch(58% 0.2 55);
+    --pop-purple: oklch(50% 0.2 300);
+    --pop-red: oklch(50% 0.22 25);
+    --pop-cyan: oklch(55% 0.15 200);
+  }
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f3ee;
+  --bg-surface: #ffffff;
+  --bg-elevated: #ebe7df;
+  --text: #0f0f0f;
+  --text-muted: #4a4a4a;
+  --text-dim: #5e5e5e;
+  --border: #1a1a1a;
+  --border-strong: #0f0f0f;
+  --shadow-color: #0f0f0f;
+  --pop-pink: oklch(55% 0.22 350);
+  --pop-blue: oklch(48% 0.2 250);
+  --pop-green: oklch(48% 0.18 145);
+  --pop-yellow: oklch(60% 0.18 90);
+  --pop-orange: oklch(58% 0.2 55);
+  --pop-purple: oklch(50% 0.2 300);
+  --pop-red: oklch(50% 0.22 25);
+  --pop-cyan: oklch(55% 0.15 200);
 }
 
 /* ===== Category Colors (static allowlist — 30 categories) ===== */
@@ -92,7 +144,7 @@ a:hover { color: var(--pop-pink); }
 /* ===== Skip Link ===== */
 .skip-link {
   position: absolute; left: -9999px; z-index: 999;
-  padding: 0.75rem 1rem; background: var(--pop-yellow); color: #000;
+  padding: 0.75rem 1rem; background: var(--pop-yellow); color: var(--on-accent);
   font-weight: 700; text-decoration: none;
 }
 .skip-link:focus { left: 0.5rem; top: 0.5rem; }
@@ -213,7 +265,7 @@ a:hover { color: var(--pop-pink); }
 }
 .card:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 #000;
+  box-shadow: 6px 6px 0 var(--shadow-color);
   border-color: var(--pop-pink);
 }
 
@@ -363,7 +415,7 @@ a:hover { color: var(--pop-pink); }
 }
 .cat-tile:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow-color);
   border-color: var(--cat-accent, var(--pop-pink));
   color: var(--cat-accent, var(--pop-pink));
 }
@@ -392,19 +444,19 @@ a:hover { color: var(--pop-pink); }
   text-decoration: none;
   border: 3px solid var(--text);
   background: var(--pop-pink);
-  color: #000;
+  color: var(--on-accent);
   box-shadow: var(--shadow);
   cursor: pointer;
   transition: transform 80ms ease, box-shadow 80ms ease;
 }
 .btn:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 #000;
-  color: #000;
+  box-shadow: 6px 6px 0 var(--shadow-color);
+  color: var(--on-accent);
 }
 .btn:active {
   transform: translate(0, 0);
-  box-shadow: 0 0 0 #000;
+  box-shadow: 0 0 0 var(--shadow-color);
 }
 .btn-outline {
   background: transparent;
@@ -491,7 +543,7 @@ a:hover { color: var(--pop-pink); }
 }
 .list-item:hover {
   transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow-color);
   border-color: var(--pop-pink);
   color: var(--text);
 }
@@ -537,7 +589,7 @@ a:hover { color: var(--pop-pink); }
 }
 .resource-btn:hover {
   transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow-color);
   color: var(--text);
 }
 .resource-btn-gutenberg { border-color: var(--pop-green); }
@@ -601,7 +653,7 @@ a:hover { color: var(--pop-pink); }
   width: 2.5rem; height: 2.5rem;
   object-fit: cover; flex-shrink: 0;
   border: 2px solid var(--border);
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 2px 2px 0 var(--shadow-color);
 }
 .author-avatar-placeholder {
   width: 2.5rem; height: 2.5rem;
@@ -609,7 +661,7 @@ a:hover { color: var(--pop-pink); }
   display: flex; align-items: center; justify-content: center;
   color: var(--text-dim);
   border: 2px solid var(--border);
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 2px 2px 0 var(--shadow-color);
 }
 .author-header {
   display: flex; gap: 1.5rem; flex-wrap: wrap;
