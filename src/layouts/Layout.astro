@@ -123,6 +123,42 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
           });
         }
       });
+
+      // Replace broken images with their existing placeholder pattern.
+      // Wikipedia/Wikimedia thumbnail URLs go stale silently; without this,
+      // every dead URL renders as a broken-image icon.
+      (function () {
+        var classToTag = {
+          'author-avatar': 'author-avatar-placeholder',
+          'author-photo': 'author-photo-placeholder',
+          'book-thumb': 'book-thumb-placeholder',
+          'book-cover': 'book-thumb-placeholder',
+          'related-book-cover': 'book-thumb-placeholder',
+          'book-detail-cover': 'book-detail-cover-placeholder',
+          'result-thumb': 'result-thumb-placeholder',
+        };
+        var glyph = {
+          'author-avatar-placeholder': '<svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/></svg>',
+          'author-photo-placeholder': '<svg width="64" height="64" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/></svg>',
+          'book-thumb-placeholder': '\u{1F4D6}',
+          'book-detail-cover-placeholder': '\u{1F4D6}',
+          'result-thumb-placeholder': '\u{1F4D6}',
+        };
+        document.addEventListener('error', function (e) {
+          var t = e.target;
+          if (!t || t.tagName !== 'IMG') return;
+          var cls = null;
+          for (var c in classToTag) {
+            if (t.classList.contains(c)) { cls = classToTag[c]; break; }
+          }
+          if (!cls) return;
+          var div = document.createElement('div');
+          div.className = cls;
+          div.setAttribute('aria-hidden', 'true');
+          div.innerHTML = glyph[cls] || '';
+          t.replaceWith(div);
+        }, true);
+      })();
     </script>
   </body>
 </html>
