@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { thumbnailUrl } from '../utils/formatting';
 
   interface Book {
@@ -13,7 +14,20 @@
     tags?: string[];
   }
 
-  let { books = [], categories = [], tags = [], baseUrl = '/' }: { books: Book[]; categories: string[]; tags?: string[]; baseUrl?: string } = $props();
+  // Compact wire format from /browse-data.json — keep keys short to shrink payload.
+  interface WireBook {
+    t: string; a: string; s: string; p: number; cat: string;
+    co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[];
+  }
+  interface BrowseData { books: WireBook[]; categories: string[]; tags: string[]; }
+
+  let { baseUrl = '/' }: { baseUrl?: string } = $props();
+
+  let books = $state<Book[]>([]);
+  let categories = $state<string[]>([]);
+  let tags = $state<string[]>([]);
+  let loaded = $state(false);
+  let loadError = $state(false);
 
   let search = $state('');
   let selectedCategory = $state('');
@@ -21,6 +35,30 @@
   let selectedStatus = $state('');
   let selectedTag = $state('');
   let showCount = $state(100);
+
+  onMount(async () => {
+    try {
+      const res = await fetch(`${baseUrl}browse-data.json`);
+      if (!res.ok) { loadError = true; return; }
+      const data: BrowseData = await res.json();
+      books = data.books.map(b => ({
+        title: b.t,
+        author: b.a,
+        category: b.cat,
+        priority: b.p,
+        slug: b.s,
+        cover_url: b.co,
+        first_published: b.y,
+        reading_status: b.rs,
+        tags: b.g,
+      }));
+      categories = data.categories;
+      tags = data.tags;
+      loaded = true;
+    } catch {
+      loadError = true;
+    }
+  });
 
   let filtered = $derived(
     books.filter(b => {
@@ -119,7 +157,9 @@
   <!-- Results bar -->
   <div class="results-bar">
     <p class="results-count" aria-live="polite" aria-atomic="true">
-      {#if sortedBooks.length === books.length}
+      {#if !loaded && !loadError}
+        Loading…
+      {:else if sortedBooks.length === books.length}
         {books.length.toLocaleString()} books
       {:else}
         {sortedBooks.length.toLocaleString()} of {books.length.toLocaleString()} books
@@ -132,8 +172,20 @@
     {/if}
   </div>
 
-  <!-- Empty state -->
-  {#if sortedBooks.length === 0}
+  {#if loadError}
+    <div class="empty-state">
+      <p class="empty-title">Couldn't load the book list</p>
+      <p class="empty-subtitle">Something went wrong loading <code>browse-data.json</code>. Try refreshing.</p>
+    </div>
+  {:else if !loaded}
+    <!-- Loading skeleton — empty placeholder boxes that fade out when data arrives -->
+    <div class="book-cards-grid" aria-hidden="true">
+      {#each Array(12) as _}
+        <div class="book-card book-card-skeleton"></div>
+      {/each}
+    </div>
+  {:else if sortedBooks.length === 0}
+    <!-- Empty state -->
     <div class="empty-state">
       <p class="empty-title">No books found</p>
       <p class="empty-subtitle">Try adjusting your search or filters.</p>
@@ -415,6 +467,23 @@
     box-shadow: 6px 6px 0 var(--shadow-color);
     border-color: var(--pop-pink);
     color: var(--text);
+  }
+
+  /* Skeleton placeholder while browse-data.json is loading. Same dimensions as a
+     real card so the layout doesn't shift when data arrives. */
+  .book-card-skeleton {
+    height: 6rem;
+    background: var(--bg-elevated);
+    opacity: 0.5;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .book-card-skeleton {
+      animation: skeleton-pulse 1.4s ease-in-out infinite;
+    }
+  }
+  @keyframes skeleton-pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.7; }
   }
 
   .book-card-inner {
