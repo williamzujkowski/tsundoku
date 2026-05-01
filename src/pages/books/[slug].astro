@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass } from '../../utils/formatting';
+import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors } from '../../utils/formatting';
 import ShareButton from '../../components/ShareButton.svelte';
 
 export async function getStaticPaths() {
@@ -76,9 +76,18 @@ const categorySlug = toSlug(book.category);
         <h1 class="heading-xl mb-2">{book.title}</h1>
         <p class="text-muted mb-4">by {book.author === 'Unknown' ? (
           <span class="text-dim">{book.author}</span>
-        ) : (
-          <a href={`${base}authors/${toSlug(book.author)}/`} class="ext-link">{book.author}</a>
-        )}</p>
+        ) : (() => {
+          const parsed = parseAuthors(book.author);
+          if (!parsed.isJoint) {
+            return <a href={`${base}authors/${toSlug(book.author)}/`} class="ext-link">{book.author}</a>;
+          }
+          return parsed.parts.map((part, i) => (
+            <>
+              {i > 0 && <span class="text-dim"> · </span>}
+              <a href={`${base}authors/${toSlug(part)}/`} class="ext-link">{part}</a>
+            </>
+          ));
+        })()}</p>
 
         <div class="flex flex-wrap items-center gap-2 mb-4">
           {book.reading_status && (

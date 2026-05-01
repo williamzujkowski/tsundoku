@@ -9,6 +9,8 @@ import {
   pluralize,
   seededShuffle,
   thumbnailUrl,
+  parseAuthors,
+  authorMatches,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -175,5 +177,96 @@ describe('seededShuffle', () => {
 
   it('handles single-element array', () => {
     expect(seededShuffle([1], 42)).toEqual([1]);
+  });
+});
+
+describe('parseAuthors', () => {
+  it('returns single part for plain name', () => {
+    const r = parseAuthors('Plato');
+    expect(r.isJoint).toBe(false);
+    expect(r.parts).toEqual(['Plato']);
+  });
+
+  it('splits on ampersand', () => {
+    const r = parseAuthors('Robert Jordan & Brandon Sanderson');
+    expect(r.isJoint).toBe(true);
+    expect(r.parts).toEqual(['Robert Jordan', 'Brandon Sanderson']);
+  });
+
+  it('splits on " and "', () => {
+    const r = parseAuthors('Brian W. Kernighan and Rob Pike');
+    expect(r.isJoint).toBe(true);
+    expect(r.parts).toEqual(['Brian W. Kernighan', 'Rob Pike']);
+  });
+
+  it('splits on comma when each part is multi-word', () => {
+    const r = parseAuthors('Niccolò Machiavelli, Stephen Brennan');
+    expect(r.isJoint).toBe(true);
+    expect(r.parts).toEqual(['Niccolò Machiavelli', 'Stephen Brennan']);
+  });
+
+  it('does NOT split when parts would be single-word', () => {
+    // Initials with commas like "L., M." should NOT split
+    const r = parseAuthors('A.A. Milne');
+    expect(r.isJoint).toBe(false);
+    expect(r.parts).toEqual(['A.A. Milne']);
+  });
+
+  it('preserves the original string', () => {
+    expect(parseAuthors('Karl Marx and Friedrich Engels').original).toBe(
+      'Karl Marx and Friedrich Engels',
+    );
+  });
+
+  it('handles three-author entries', () => {
+    const r = parseAuthors('Abraham Silberschatz, Peter Galvin, Greg Gagne');
+    expect(r.parts.length).toBe(3);
+  });
+
+  it('splits single-word last names joined by ampersand', () => {
+    const r = parseAuthors('Marx & Engels');
+    expect(r.isJoint).toBe(true);
+    expect(r.parts).toEqual(['Marx', 'Engels']);
+  });
+
+  it('does not split "Last, First" notation', () => {
+    // "Smith, John" is library-catalog notation, not two authors.
+    const r = parseAuthors('Smith, John');
+    expect(r.isJoint).toBe(false);
+    expect(r.parts).toEqual(['Smith, John']);
+  });
+});
+
+describe('authorMatches', () => {
+  it('matches exact full string', () => {
+    expect(authorMatches('Plato', 'Plato')).toBe(true);
+  });
+
+  it('matches the joint string against its own page', () => {
+    // The joint-string author detail page (which exists historically) still works.
+    expect(
+      authorMatches(
+        'Robert Jordan & Brandon Sanderson',
+        'Robert Jordan & Brandon Sanderson',
+      ),
+    ).toBe(true);
+  });
+
+  it('matches a component name', () => {
+    expect(
+      authorMatches('Robert Jordan & Brandon Sanderson', 'Robert Jordan'),
+    ).toBe(true);
+    expect(
+      authorMatches('Robert Jordan & Brandon Sanderson', 'Brandon Sanderson'),
+    ).toBe(true);
+  });
+
+  it('does not match unrelated names', () => {
+    expect(authorMatches('Plato', 'Aristotle')).toBe(false);
+  });
+
+  it('does not match a substring (e.g. last name)', () => {
+    // We want exact part match, not substring.
+    expect(authorMatches('Robert Jordan & Brandon Sanderson', 'Jordan')).toBe(false);
   });
 });
