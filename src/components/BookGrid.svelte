@@ -13,12 +13,15 @@
     reading_status?: 'want' | 'reading' | 'read';
     tags?: string[];
     lcc?: string;
+    original_language?: string;
+    nationality?: string;
   }
 
   // Compact wire format from /browse-data.json — keep keys short to shrink payload.
   interface WireBook {
     t: string; a: string; s: string; p: number; cat: string;
     co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; lc?: string;
+    ol?: string; n?: string;
   }
 
   function lccDisplay(lcc: string): string {
@@ -28,13 +31,47 @@
       .replace(/\s+/g, ' ')
       .trim();
   }
-  interface BrowseData { books: WireBook[]; categories: string[]; tags: string[]; }
+  interface BrowseData {
+    books: WireBook[];
+    categories: string[];
+    tags: string[];
+    decades?: number[];
+    languages?: string[];
+    nationalities?: string[];
+  }
+
+  // Display labels for the new facet dropdowns.
+  const COUNTRY_NAMES: Record<string, string> = {
+    GB: 'British', US: 'American', CA: 'Canadian', AU: 'Australian', NZ: 'New Zealander',
+    IE: 'Irish', FR: 'French', DE: 'German', IT: 'Italian', ES: 'Spanish', PT: 'Portuguese',
+    NL: 'Dutch', BE: 'Belgian', CH: 'Swiss', AT: 'Austrian', SE: 'Swedish', NO: 'Norwegian',
+    DK: 'Danish', FI: 'Finnish', IS: 'Icelandic', RU: 'Russian', PL: 'Polish', CZ: 'Czech',
+    HU: 'Hungarian', GR: 'Greek', RO: 'Romanian', BG: 'Bulgarian', HR: 'Croatian',
+    RS: 'Serbian', UA: 'Ukrainian', TR: 'Turkish', JP: 'Japanese', CN: 'Chinese',
+    KR: 'Korean', IN: 'Indian', IL: 'Israeli', IR: 'Iranian', EG: 'Egyptian',
+    ZA: 'South African', NG: 'Nigerian', BR: 'Brazilian', AR: 'Argentine', CL: 'Chilean',
+    MX: 'Mexican', CO: 'Colombian', PE: 'Peruvian',
+  };
+  const LANG_NAMES: Record<string, string> = {
+    eng: 'English', fre: 'French', fra: 'French', ger: 'German', deu: 'German',
+    spa: 'Spanish', ita: 'Italian', por: 'Portuguese', rus: 'Russian', jpn: 'Japanese',
+    chi: 'Chinese', zho: 'Chinese', kor: 'Korean', ara: 'Arabic', heb: 'Hebrew',
+    lat: 'Latin', grc: 'Ancient Greek', gre: 'Greek', ell: 'Greek', pol: 'Polish',
+    swe: 'Swedish', nor: 'Norwegian', dan: 'Danish', fin: 'Finnish', dut: 'Dutch',
+    nld: 'Dutch', cze: 'Czech', ces: 'Czech', hun: 'Hungarian', tur: 'Turkish',
+    hin: 'Hindi', san: 'Sanskrit', per: 'Persian', fas: 'Persian',
+  };
+  function natLabel(c: string): string { return COUNTRY_NAMES[c] ?? c; }
+  function langLabel(c: string): string { return LANG_NAMES[c] ?? c.toUpperCase(); }
 
   let { baseUrl = '/' }: { baseUrl?: string } = $props();
 
   let books = $state<Book[]>([]);
   let categories = $state<string[]>([]);
   let tags = $state<string[]>([]);
+  let decades = $state<number[]>([]);
+  let languages = $state<string[]>([]);
+  let nationalities = $state<string[]>([]);
   let loaded = $state(false);
   let loadError = $state(false);
 
@@ -43,6 +80,9 @@
   let selectedPriority = $state(0);
   let selectedStatus = $state('');
   let selectedTag = $state('');
+  let selectedDecade = $state(-1); // -1 = any
+  let selectedLanguage = $state(''); // original_language
+  let selectedNationality = $state(''); // author primary nationality
   let showCount = $state(100);
 
   onMount(async () => {
@@ -61,9 +101,14 @@
         reading_status: b.rs,
         tags: b.g,
         lcc: b.lc,
+        original_language: b.ol,
+        nationality: b.n,
       }));
       categories = data.categories;
       tags = data.tags;
+      decades = data.decades ?? [];
+      languages = data.languages ?? [];
+      nationalities = data.nationalities ?? [];
       loaded = true;
     } catch {
       loadError = true;
@@ -80,7 +125,12 @@
       const matchesPriority = selectedPriority === 0 || b.priority === selectedPriority;
       const matchesStatus = selectedStatus === '' || b.reading_status === selectedStatus;
       const matchesTag = selectedTag === '' || (b.tags && b.tags.includes(selectedTag));
-      return matchesSearch && matchesCategory && matchesPriority && matchesStatus && matchesTag;
+      const matchesDecade = selectedDecade === -1
+        || (b.first_published !== undefined && Math.floor(b.first_published / 10) * 10 === selectedDecade);
+      const matchesLanguage = selectedLanguage === '' || b.original_language === selectedLanguage;
+      const matchesNationality = selectedNationality === '' || b.nationality === selectedNationality;
+      return matchesSearch && matchesCategory && matchesPriority && matchesStatus
+        && matchesTag && matchesDecade && matchesLanguage && matchesNationality;
     })
   );
 
@@ -104,6 +154,9 @@
     selectedPriority = 0;
     selectedStatus = '';
     selectedTag = '';
+    selectedDecade = -1;
+    selectedLanguage = '';
+    selectedNationality = '';
   }
 
   function loadMore() {
@@ -161,6 +214,36 @@
           {/each}
         </select>
       {/if}
+      {#if decades.length > 0}
+        <select bind:value={selectedDecade}
+          aria-label="Filter by decade"
+          class="filter-select">
+          <option value={-1}>All Decades</option>
+          {#each decades as d}
+            <option value={d}>{d < 0 ? `${Math.abs(d)}s BCE` : `${d}s`}</option>
+          {/each}
+        </select>
+      {/if}
+      {#if nationalities.length > 0}
+        <select bind:value={selectedNationality}
+          aria-label="Filter by author nationality"
+          class="filter-select">
+          <option value="">All Nationalities</option>
+          {#each nationalities as code}
+            <option value={code}>{natLabel(code)}</option>
+          {/each}
+        </select>
+      {/if}
+      {#if languages.length > 0}
+        <select bind:value={selectedLanguage}
+          aria-label="Filter by original language"
+          class="filter-select">
+          <option value="">All Languages</option>
+          {#each languages as code}
+            <option value={code}>{langLabel(code)}</option>
+          {/each}
+        </select>
+      {/if}
     </div>
   </div>
 
@@ -175,7 +258,7 @@
         {sortedBooks.length.toLocaleString()} of {books.length.toLocaleString()} books
       {/if}
     </p>
-    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== '' || selectedTag !== ''}
+    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== '' || selectedTag !== '' || selectedDecade !== -1 || selectedLanguage !== '' || selectedNationality !== ''}
       <button onclick={clearFilters} class="clear-filters-link">
         Clear filters
       </button>
@@ -273,17 +356,10 @@
     gap: 0.5rem;
   }
 
-  @media (min-width: 640px) {
-    .filters-bar {
-      flex-direction: row;
-      gap: 0.75rem;
-    }
-  }
-
-  .search-wrapper {
-    position: relative;
-    flex: 1;
-  }
+  /* search-wrapper is now always full-width above the wrapping filters
+     row — it's the most-used input and deserves to be the first thing.
+     The dropdowns wrap below into as many rows as needed. */
+  .search-wrapper { position: relative; }
 
   .search-input {
     width: 100%;
@@ -321,27 +397,29 @@
 
   .filter-selects {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
   }
 
   .filter-select {
-    flex: 1;
+    flex: 1 1 8rem;
+    min-width: 8rem;
     background: var(--bg-surface);
-    border: 3px solid var(--border);
+    border: 2px solid var(--border);
     color: var(--text);
-    padding: 0.625rem 0.75rem;
+    padding: 0.5rem 0.625rem;
     font-size: 0.875rem;
     font-family: var(--font-body);
     font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-1);
   }
 
   @media (min-width: 640px) {
     .filter-select {
-      flex: none;
+      flex: 0 1 9rem;
     }
   }
 
