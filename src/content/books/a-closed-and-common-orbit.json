@@ -34,11 +34,22 @@
   "ol_work_key": "/works/OL17897265W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL35948166M"
+  "representative_edition_key": "/books/OL35948166M",
+  "wikidata_qid": "Q43625060",
+  "original_title": "A Closed and Common Orbit",
+  "original_language": "eng",
+  "series": {
+    "name": "Wayfarers series",
+    "position": 2
+  }
 }

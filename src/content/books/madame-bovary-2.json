@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12993424-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12993424-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL893707W",
-  "first_published": 1856,
+  "first_published": 1857,
   "language": "eng",
   "description": "Beautiful Emma Bovary dreams of love and riches but her marriage to Charles, a dull country doctor, is far from satisfying. In an attempt to escape the narrow confines of her life, she embarks on a series of passionate affairs, hoping to find the romantic ideal she always dreamed about in the arms of other men, but it soon becomes clear that she is hurtling towards tragedy . . . Gustave Flaubert’s daring portrait of adultery caused a national scandal when Madame Bovary was first published, and t...",
   "isbn": "9781509847686",
@@ -298,15 +298,19 @@
   "ol_work_key": "/works/OL893707W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "fre",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56832033M"
+  "representative_edition_key": "/books/OL56832033M",
+  "wikidata_qid": "Q193417",
+  "original_title": "Madame Bovary"
 }

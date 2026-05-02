@@ -72,11 +72,52 @@
   "ol_work_key": "/works/OL17417W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 60,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL10685173M"
+  "representative_edition_key": "/books/OL10685173M",
+  "wikidata_qid": "Q741222",
+  "original_title": "Rendezvous with Rama",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1974
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1974
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1974
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1973
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1980
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1974
+    }
+  ],
+  "series": {
+    "name": "Rama",
+    "position": 1
+  }
 }

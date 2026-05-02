@@ -52,15 +52,21 @@
   "ol_work_key": "/works/OL1375089W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "original_language": "fre",
   "first_edition_isbn": "2020005859",
-  "representative_edition_key": "/books/OL9444500M"
+  "representative_edition_key": "/books/OL9444500M",
+  "wikidata_qid": "Q1396027",
+  "original_title": "Mythologies",
+  "original_publisher": "Éditions du Seuil"
 }

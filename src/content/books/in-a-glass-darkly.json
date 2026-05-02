@@ -71,13 +71,19 @@
   "ol_work_key": "/works/OL2895538W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 41,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL26790747M"
+  "representative_edition_key": "/books/OL26790747M",
+  "wikidata_qid": "Q6011356",
+  "original_title": "In a Glass Darkly",
+  "original_language": "eng"
 }

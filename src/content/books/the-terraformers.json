@@ -6,7 +6,7 @@
   "slug": "the-terraformers",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL31112951W",
-  "first_published": 2022,
+  "first_published": 2023,
   "language": "eng",
   "description": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future. Destry's life is dedicated to terraforming Sask-E. As part of the Environmental Rescue Team, she cares for the planet and its burgeoning eco-systems as her parents and their parents did before her. But the bright, clean future they're building comes under threat when Destry discovers a city full of people that shouldn’t exist, hidden inside a massive volcano. A...",
   "cover_url": "https://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -25,11 +25,17 @@
   "ol_work_key": "/works/OL27893218W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL38122769M"
+  "representative_edition_key": "/books/OL38122769M",
+  "wikidata_qid": "Q116814638",
+  "original_title": "The Terraformers",
+  "original_language": "eng"
 }

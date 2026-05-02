@@ -51,11 +51,22 @@
   "ol_work_key": "/works/OL5724837W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25410364M"
+  "representative_edition_key": "/books/OL25410364M",
+  "wikidata_qid": "Q1759977",
+  "original_title": "Revelation Space",
+  "original_language": "eng",
+  "series": {
+    "name": "Inhibitor Cycle",
+    "position": 1
+  }
 }

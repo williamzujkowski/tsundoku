@@ -96,11 +96,33 @@
   "ol_work_key": "/works/OL5734718W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 29,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24764889M"
+  "representative_edition_key": "/books/OL24764889M",
+  "wikidata_qid": "Q1865620",
+  "original_title": "Little Brother",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Prometheus Award",
+      "year": 2009
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2009
+    }
+  ],
+  "series": {
+    "name": "Little Brother",
+    "position": 1
+  }
 }

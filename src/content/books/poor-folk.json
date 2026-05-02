@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/2822355-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2822355-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26575653W",
-  "first_published": 1894,
+  "first_published": 1846,
   "language": "eng",
   "description": "Presented as a series of letters between the humble copying-clerk Devushkin and a distant relative of his, the young Varenka, Poor People brings to the fore the destitute of St Petersburg, who live at the margins of society in the most appalling conditions and abject poverty.",
   "isbn": "1843910233",
@@ -52,12 +52,18 @@
   "ol_work_key": "/works/OL16444720W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 145,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL17072262M"
+  "representative_edition_key": "/books/OL17072262M",
+  "wikidata_qid": "Q117293",
+  "original_title": "Бедные люди",
+  "original_language": "rus"
 }

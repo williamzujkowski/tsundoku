@@ -69,11 +69,47 @@
   "ol_work_key": "/works/OL1963268W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 26,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26837844M"
+  "representative_edition_key": "/books/OL26837844M",
+  "wikidata_qid": "Q1798059",
+  "original_title": "Hyperion",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1990
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1990
+    },
+    {
+      "name": "Ignotus Award for Best Novel",
+      "year": 1991
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1998
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1995
+    }
+  ],
+  "series": {
+    "name": "Hyperion Cantos",
+    "position": 1
+  }
 }

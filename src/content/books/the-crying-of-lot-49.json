@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/39754-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/39754-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636665W",
-  "first_published": 1965,
+  "first_published": 1966,
   "language": "eng",
   "description": "Quite unexpectedly, Mrs. Oedipa Maas finds herself the executor of the estate of Pierce Inverarity, a man she used to know in a more-or-less intimate fashion. Oedipa leaves her home and her husband and heads to Southern California to sort through Pierce's affairs. Pierce, however, did not intend for the job to be an easy one for Oedipa, and soon she becomes ensared in a surreal, hilarious, and puzzling world-wide conspiracy centered around Pierce's strange business partners and dealings.",
   "pages": 192,
@@ -79,13 +79,19 @@
   "ol_work_key": "/works/OL2636665W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 55,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40220585M"
+  "representative_edition_key": "/books/OL40220585M",
+  "wikidata_qid": "Q2344707",
+  "original_title": "The Crying of Lot 49",
+  "original_language": "eng"
 }

@@ -46,13 +46,37 @@
   "ol_work_key": "/works/OL15406914W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780553807677",
-  "representative_edition_key": "/books/OL24377251M"
+  "representative_edition_key": "/books/OL24377251M",
+  "wikidata_qid": "Q11681262",
+  "original_title": "All Clear",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2011
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2011
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2011
+    }
+  ],
+  "series": {
+    "name": "Blackout/All Clear",
+    "position": 2
+  }
 }

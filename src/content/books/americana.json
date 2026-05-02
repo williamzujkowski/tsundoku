@@ -50,13 +50,21 @@
   "ol_work_key": "/works/OL1921186W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
   "first_edition_isbn": "0395120942",
-  "representative_edition_key": "/books/OL28471524M"
+  "representative_edition_key": "/books/OL28471524M",
+  "wikidata_qid": "Q3614114",
+  "original_title": "Americana",
+  "original_language": "eng",
+  "original_publisher": "Houghton Mifflin Harcourt"
 }

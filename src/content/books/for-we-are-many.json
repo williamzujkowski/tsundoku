@@ -29,11 +29,22 @@
   "pages": 351,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32705617M"
+  "representative_edition_key": "/books/OL32705617M",
+  "wikidata_qid": "Q30612289",
+  "original_title": "For We Are Many",
+  "original_language": "eng",
+  "series": {
+    "name": "Bobiverse",
+    "position": 2
+  }
 }

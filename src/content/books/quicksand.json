@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/314762-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/314762-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2645473W",
-  "first_published": 1928,
+  "first_published": 1929,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -121,13 +121,19 @@
   "ol_work_key": "/works/OL2645476W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 74,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57569549M"
+  "representative_edition_key": "/books/OL57569549M",
+  "wikidata_qid": "Q15052495",
+  "original_title": "Passing",
+  "original_language": "eng"
 }

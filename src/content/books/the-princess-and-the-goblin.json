@@ -118,11 +118,19 @@
   "ol_work_key": "/works/OL15449W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34360898M"
+  "representative_edition_key": "/books/OL34360898M",
+  "wikidata_qid": "Q466505",
+  "original_title": "The Princess and the Goblin",
+  "original_language": "eng",
+  "first_published_circa": false
 }

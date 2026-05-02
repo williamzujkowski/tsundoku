@@ -35,11 +35,22 @@
   "ol_work_key": "/works/OL20789805W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29806198M"
+  "representative_edition_key": "/books/OL29806198M",
+  "wikidata_qid": "Q113659535",
+  "original_title": "The Empire of Gold",
+  "original_language": "eng",
+  "series": {
+    "name": "The Daevabad Trilogy",
+    "position": 3
+  }
 }

@@ -72,11 +72,17 @@
   "ol_work_key": "/works/OL98488W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 26,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7439307M"
+  "representative_edition_key": "/books/OL7439307M",
+  "wikidata_qid": "Q788777",
+  "original_title": "Breakfast of Champions",
+  "original_publisher": "Dell Publishing"
 }

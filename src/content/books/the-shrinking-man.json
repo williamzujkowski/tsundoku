@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/5541413-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5541413-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL64219W",
-  "first_published": 1962,
+  "first_published": 1956,
   "language": "eng",
   "description": "A collection of writings by Richard Matheson, including the novel \"The Incredible Shrinking Man.\"",
   "isbn": "0312856644",
@@ -59,13 +59,21 @@
   "ol_work_key": "/works/OL64219W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 24,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9850827M"
+  "representative_edition_key": "/books/OL9850827M",
+  "wikidata_qid": "Q1219445",
+  "original_title": "The Shrinking Man",
+  "original_language": "eng",
+  "original_publisher": "Gold Medal Books"
 }

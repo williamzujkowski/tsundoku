@@ -142,13 +142,38 @@
   "ol_work_key": "/works/OL1168007W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57547604M"
+  "representative_edition_key": "/books/OL57547604M",
+  "wikidata_qid": "Q1396889",
+  "original_title": "Animal Farm",
+  "original_language": "eng",
+  "original_publisher": "Harvill Secker",
+  "awards": [
+    {
+      "name": "Retro Hugo Award for Best Novella",
+      "year": 1996
+    },
+    {
+      "name": "Modern Library 100 Best Novels"
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 2011
+    }
+  ]
 }

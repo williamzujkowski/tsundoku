@@ -10,14 +10,14 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6996990-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6996990-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL279806W",
-  "first_published": 1965,
+  "first_published": 1963,
   "language": "eng",
   "description": "Acclaimed entertainer Hans Schneir collapses when his beloved Marie leaves him because he won’t marry her within the Catholic Church. The desertion triggers a searing re-examination of his life—the loss of his sister during the war, the demands of his millionaire father and the hypocrisies of his mother, who first fought to “save” Germany from the Jews, then worked for “reconciliation” afterwards. Heinrich Böll’s gripping consideration of how to overcome guilt and live up to idealism—how to find...",
   "isbn": "9781935554851",
   "pages": 258,
   "google_books_url": "http://books.google.com/books?id=1VgEAQAAQBAJ&dq=The+Clown+Heinrich+B%C3%B6ll&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Fiction",
     "Pantomimes",
@@ -48,13 +48,20 @@
   "ol_work_key": "/works/OL279806W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11762710M"
+  "representative_edition_key": "/books/OL11762710M",
+  "wikidata_qid": "Q514002",
+  "original_title": "The clown",
+  "original_language": "ger",
+  "original_publisher": "Kiepenheuer & Witsch"
 }

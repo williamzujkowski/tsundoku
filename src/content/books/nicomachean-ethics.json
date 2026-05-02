@@ -239,12 +239,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Aristotelis De moribus ad nicomachum libri decem",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46094427M"
+  "representative_edition_key": "/books/OL46094427M",
+  "wikidata_qid": "Q474537"
 }

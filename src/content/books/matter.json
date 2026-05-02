@@ -1,7 +1,7 @@
 {
   "title": "Matter",
   "author": "Iain M. Banks",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "matter",
   "tags": [
@@ -52,11 +52,22 @@
   "ol_work_key": "/works/OL100768W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24274905M"
+  "representative_edition_key": "/books/OL24274905M",
+  "wikidata_qid": "Q684818",
+  "original_title": "Matter",
+  "original_language": "eng",
+  "series": {
+    "name": "Culture series",
+    "position": 8
+  }
 }

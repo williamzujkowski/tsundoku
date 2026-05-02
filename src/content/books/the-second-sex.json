@@ -87,17 +87,21 @@
   "ol_work_key": "/works/OL767941W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 90,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Le deuxième sexe",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33533593M"
+  "representative_edition_key": "/books/OL33533593M",
+  "wikidata_qid": "Q470098",
+  "original_publisher": "Éditions Gallimard"
 }

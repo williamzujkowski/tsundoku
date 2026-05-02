@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/11100465-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11100465-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL471576W",
-  "first_published": 1933,
+  "first_published": 1934,
   "language": "eng",
   "description": "Just after midnight, a snowdrift stops the famous Orient Express in its tracks as it travels through the mountainous Balkans. The luxurious train is surprisingly full for the time of the year but, by the morning, it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside. One of the passengers is none other than detective Hercule Poirot. On vacation. Isolated and with a killer on board, Poirot must identify the murderer—in c...",
   "pages": 230,
@@ -130,13 +130,25 @@
   "ol_work_key": "/works/OL471576W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 247,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9811752M"
+  "representative_edition_key": "/books/OL9811752M",
+  "wikidata_qid": "Q845889",
+  "original_title": "Murder on the Orient Express",
+  "original_language": "eng",
+  "original_publisher": "Collins Crime Club",
+  "series": {
+    "name": "canon of Hercule Poirot"
+  }
 }

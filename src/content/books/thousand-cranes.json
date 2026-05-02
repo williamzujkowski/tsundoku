@@ -10,14 +10,14 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6803898-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6803898-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15840436W",
-  "first_published": 1968,
+  "first_published": 1952,
   "language": "eng",
   "description": "A luminous story of desire, regret, and the almost sensual nostalgia that binds the living to the dead—from the acclaimed Nobel Prize winner and author of Snow Country. \"A stunning economy, delicacy of feeling, and a painter’s sensitivity to the visible world.” —The Atlantic While attending a traditional tea ceremony in the aftermath of his parents’ deaths, Kikuji encounters his father’s former mistress, Mrs. Ota. At first Kikuji is appalled by her indelicate nature, but it is not long before he...",
   "isbn": "9780307833662",
   "pages": 160,
   "google_books_url": "https://play.google.com/store/books/details?id=Y74SRp_C0rcC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Fiction",
     "Fiction, general",
@@ -35,13 +35,19 @@
   "ol_work_key": "/works/OL15840436W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780425028698",
-  "representative_edition_key": "/books/OL24750156M"
+  "representative_edition_key": "/books/OL24750156M",
+  "wikidata_qid": "Q1132230",
+  "original_title": "千羽鶴",
+  "original_language": "jpn"
 }

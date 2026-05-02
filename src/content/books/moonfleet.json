@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=jX9BAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1909,
+  "first_published": 1898,
   "pages": 302,
   "google_books_url": "https://play.google.com/store/books/details?id=jX9BAQAAMAAJ&source=gbs_api",
   "language": "eng",
@@ -93,11 +93,21 @@
   "ol_work_key": "/works/OL1352097W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46751783M"
+  "representative_edition_key": "/books/OL46751783M",
+  "wikidata_qid": "Q1795631",
+  "original_title": "Moonfleet",
+  "original_language": "eng",
+  "first_published_circa": false,
+  "original_publisher": "Edward Arnold Publishers"
 }

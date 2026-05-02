@@ -77,13 +77,21 @@
   "ol_work_key": "/works/OL407476W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781545158470",
-  "representative_edition_key": "/books/OL54683358M"
+  "representative_edition_key": "/books/OL54683358M",
+  "wikidata_qid": "Q7766831",
+  "original_title": "The Story of the Amulet",
+  "original_language": "eng",
+  "original_publisher": "T. Fisher Unwin"
 }

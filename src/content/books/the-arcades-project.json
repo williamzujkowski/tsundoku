@@ -9,7 +9,7 @@
   "cover_url": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "067404326X",
-  "first_published": 1999,
+  "first_published": 1939,
   "pages": 1100,
   "subjects": [
     "History"
@@ -17,7 +17,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=tdM9Hn7pzrsC&dq=The+Arcades+Project+Walter+Benjamin&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "944.361081"
   ],
@@ -56,13 +56,19 @@
   "ol_work_key": "/works/OL156207W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "067404326X",
-  "representative_edition_key": "/books/OL38951M"
+  "representative_edition_key": "/books/OL38951M",
+  "wikidata_qid": "Q4785097",
+  "original_title": "The arcades project",
+  "original_language": "ger"
 }

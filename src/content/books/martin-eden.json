@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=UbYxAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1908,
+  "first_published": 1909,
   "pages": 428,
   "google_books_url": "https://play.google.com/store/books/details?id=UbYxAQAAMAAJ&source=gbs_api",
   "language": "eng",
@@ -89,13 +89,27 @@
   "ol_work_key": "/works/OL144822W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 168,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35604195M"
+  "representative_edition_key": "/books/OL35604195M",
+  "wikidata_qid": "Q1317839",
+  "original_title": "Martin Eden",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Inc.",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

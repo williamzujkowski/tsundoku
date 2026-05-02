@@ -9,7 +9,7 @@
   "cover_url": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780060932145",
-  "first_published": 1980,
+  "first_published": 1979,
   "pages": 324,
   "subjects": [
     "Fiction"
@@ -62,11 +62,15 @@
   "ol_work_key": "/works/OL10402330W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 43,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9239792M"
+  "representative_edition_key": "/books/OL9239792M",
+  "wikidata_qid": "Q2723517",
+  "original_language": "cze"
 }

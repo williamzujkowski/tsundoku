@@ -13,7 +13,7 @@
   "description": "The Enchanted Castle is a fantasy book by Edith Nesbit about three children, who, while playing in the forest, discover a secret passageway into the garden of a castle. They make believe that it is enchanted, and wake a young girl sleeping there, who they pretend is a princess.",
   "cover_url": "https://books.google.com/books/content?id=uVpdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783987440939",
-  "first_published": 1933,
+  "first_published": 1907,
   "pages": 320,
   "google_books_url": "https://play.google.com/store/books/details?id=uVpdEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -87,13 +87,21 @@
   "ol_work_key": "/works/OL99541W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51099851M"
+  "representative_edition_key": "/books/OL51099851M",
+  "wikidata_qid": "Q2920166",
+  "original_title": "The Enchanted Castle",
+  "original_language": "eng",
+  "original_publisher": "George Allen & Unwin Limited"
 }

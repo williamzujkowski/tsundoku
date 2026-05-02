@@ -74,11 +74,26 @@
   "ol_work_key": "/works/OL17635834W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 21,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28917366M"
+  "representative_edition_key": "/books/OL28917366M",
+  "wikidata_qid": "Q28841909",
+  "original_title": "Lincoln in the Bardo",
+  "original_language": "eng",
+  "original_publisher": "Random House",
+  "awards": [
+    {
+      "name": "Booker Prize",
+      "year": 2017
+    }
+  ]
 }

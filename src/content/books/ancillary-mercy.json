@@ -52,11 +52,31 @@
   "ol_work_key": "/works/OL17358701W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL39821391M"
+  "representative_edition_key": "/books/OL39821391M",
+  "wikidata_qid": "Q18003141",
+  "original_title": "Ancillary Mercy",
+  "original_language": "eng",
+  "original_publisher": "Orbit",
+  "awards": [
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2016
+    }
+  ],
+  "series": {
+    "name": "Imperial Radch",
+    "position": 3
+  }
 }

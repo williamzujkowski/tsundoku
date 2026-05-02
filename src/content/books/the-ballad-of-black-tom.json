@@ -48,13 +48,30 @@
   "ol_work_key": "/works/OL17868258W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9780765386618",
-  "representative_edition_key": "/books/OL27102979M"
+  "representative_edition_key": "/books/OL27102979M",
+  "wikidata_qid": "Q42851480",
+  "original_title": "The Ballad of Black Tom",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "British Fantasy Award for Best Novella",
+      "year": 2017
+    },
+    {
+      "name": "Shirley Jackson Award for Novella",
+      "year": 2017
+    }
+  ]
 }

@@ -228,9 +228,27 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34337521M"
+  "representative_edition_key": "/books/OL34337521M",
+  "wikidata_qid": "Q45192",
+  "original_title": "The Hound of the Baskervilles",
+  "original_language": "eng",
+  "original_publisher": "George Newnes Ltd",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ],
+  "series": {
+    "name": "Sherlock Holmes novels"
+  }
 }

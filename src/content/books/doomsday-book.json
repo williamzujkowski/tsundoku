@@ -59,11 +59,50 @@
   "ol_work_key": "/works/OL14858406W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24959048M"
+  "representative_edition_key": "/books/OL24959048M",
+  "wikidata_qid": "Q2603313",
+  "original_title": "Doomsday Book",
+  "original_language": "eng",
+  "original_publisher": "Bantam Spectra",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1993
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1993
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1995
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 1994
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1993
+    }
+  ],
+  "series": {
+    "name": "Oxford time-traveling historians",
+    "position": 1
+  }
 }

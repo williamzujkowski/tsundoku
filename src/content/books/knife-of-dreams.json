@@ -38,11 +38,24 @@
   "pages": 832,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 30,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9556810M"
+  "representative_edition_key": "/books/OL9556810M",
+  "wikidata_qid": "Q2619164",
+  "original_title": "Knife of Dreams",
+  "original_language": "eng",
+  "original_publisher": "Tor Books",
+  "series": {
+    "name": "The Wheel of Time",
+    "position": 11
+  }
 }

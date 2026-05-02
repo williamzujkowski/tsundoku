@@ -99,12 +99,18 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 167,
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Platons Protagoras",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11671875M"
+  "representative_edition_key": "/books/OL11671875M",
+  "wikidata_qid": "Q520328",
+  "series": {
+    "name": "Platonic dialogue"
+  }
 }

@@ -169,11 +169,19 @@
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 351,
   "first_published_circa": false,
   "original_language": "lat",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38895404M"
+  "representative_edition_key": "/books/OL38895404M",
+  "wikidata_qid": "Q486727",
+  "original_title": "Συμπόσιον",
+  "series": {
+    "name": "Platonic dialogue"
+  }
 }

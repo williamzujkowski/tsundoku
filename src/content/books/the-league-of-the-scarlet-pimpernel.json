@@ -14,7 +14,7 @@
   "description": "Baroness Emma Magdolna Rozália Mária Jozefa Borbála \"Emmuska\" Orczy de Orczi (23 September 1865 - 12 November 1947) was a Hungarian-born British novelist, playwright and artist of noble origin. She is most known for her series of novels featuring the Scarlet Pimpernel. This is one of her novels.",
   "cover_url": "https://books.google.com/books/content?id=dLqXDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781609777623",
-  "first_published": 1967,
+  "first_published": 1919,
   "pages": 257,
   "google_books_url": "https://play.google.com/store/books/details?id=dLqXDAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -63,13 +63,23 @@
   "ol_work_key": "/works/OL286350W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 210,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36789586M"
+  "representative_edition_key": "/books/OL36789586M",
+  "wikidata_qid": "Q16159264",
+  "original_language": "eng",
+  "original_publisher": "Cassell & Co",
+  "series": {
+    "name": "The Scarlet Pimpernel"
+  }
 }

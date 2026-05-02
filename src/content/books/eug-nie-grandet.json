@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8237025-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8237025-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL85243W",
-  "first_published": 1868,
+  "first_published": 1833,
   "language": "eng",
   "description": "In a gloomy house in provincial Saumur lives the miser Grandet with his wife and daughter, Eugénie, whose lives are stifled and overshadowed by his obsession with gold. Guarding his piles of glittering treasures and his only child equally closely, he will let no one near them. But when the arrival of her handsome cousin, Charles, awakens Eugénie’s own desires, her passion brings her into a violent collision with her father that results in tragedy for all. Eugénie Grandet is one of the earliest a...",
   "isbn": "9780140440508",
@@ -102,13 +102,23 @@
   "ol_work_key": "/works/OL85243W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 261,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7355062M"
+  "representative_edition_key": "/books/OL7355062M",
+  "wikidata_qid": "Q1373644",
+  "original_title": "Eugénie Grandet",
+  "original_language": "fre",
+  "series": {
+    "name": "The Human Comedy"
+  }
 }

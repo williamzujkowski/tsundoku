@@ -1,7 +1,7 @@
 {
   "title": "Dogsbody",
   "author": "Diana Wynne Jones",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "dogsbody",
   "tags": [
@@ -62,11 +62,17 @@
   "ol_work_key": "/works/OL60144W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9246625M"
+  "representative_edition_key": "/books/OL9246625M",
+  "wikidata_qid": "Q5288460",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Publishers"
 }

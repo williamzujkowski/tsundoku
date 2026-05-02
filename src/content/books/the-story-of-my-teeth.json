@@ -9,7 +9,7 @@
   "cover_url": "https://books.google.com/books/content?id=1ZYoCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=1ZYoCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781566894104",
-  "first_published": 2015,
+  "first_published": 2013,
   "pages": 217,
   "subjects": [
     "Fiction"
@@ -50,11 +50,17 @@
   "ol_work_key": "/works/OL16821474W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL49536148M"
+  "representative_edition_key": "/books/OL49536148M",
+  "wikidata_qid": "Q65065998",
+  "original_title": "La historia de mis dientes",
+  "original_language": "spa"
 }

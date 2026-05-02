@@ -109,12 +109,20 @@
   "ol_work_key": "/works/OL134333W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 203,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33522968M"
+  "representative_edition_key": "/books/OL33522968M",
+  "wikidata_qid": "Q209788",
+  "original_title": "The Second World War",
+  "original_language": "eng",
+  "original_publisher": "Houghton Mifflin Harcourt"
 }

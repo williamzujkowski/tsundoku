@@ -86,11 +86,28 @@
   "ol_work_key": "/works/OL16086740W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27466168M"
+  "representative_edition_key": "/books/OL27466168M",
+  "wikidata_qid": "Q24037621",
+  "original_title": "Salvage the Bones",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "The New Vanguard",
+      "year": 2018
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 2011
+    }
+  ]
 }

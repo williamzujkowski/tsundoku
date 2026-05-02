@@ -60,11 +60,22 @@
   "ol_work_key": "/works/OL453852W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 40,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24275227M"
+  "representative_edition_key": "/books/OL24275227M",
+  "wikidata_qid": "Q2383911",
+  "original_title": "Thud!",
+  "original_language": "eng",
+  "series": {
+    "name": "Discworld",
+    "position": 34
+  }
 }

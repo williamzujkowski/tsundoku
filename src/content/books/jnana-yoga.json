@@ -8,13 +8,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/1859014-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1859014-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8399095W",
-  "first_published": 1972,
+  "first_published": 1899,
   "language": "eng",
   "description": "Jnana Yoga(Part II) (The yoga of knowledge) by Swami Vivekananda. based on Seven lectures on this topic delivered in New York in the beginning of 1896.",
   "pages": 91,
   "google_books_url": "https://play.google.com/store/books/details?id=lm_hDAAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "isbn": "9788185301983",
   "ol_work_key": "/works/OL8399095W",
   "lcc": [
@@ -26,11 +26,17 @@
   ],
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9701173M"
+  "representative_edition_key": "/books/OL9701173M",
+  "wikidata_qid": "Q6203929",
+  "original_title": "Jnana Yoga",
+  "original_language": "eng"
 }

@@ -71,9 +71,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 35,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL20298389M"
+  "representative_edition_key": "/books/OL20298389M",
+  "wikidata_qid": "Q1581581",
+  "original_title": "Red Storm Rising",
+  "original_publisher": "G. P. Putnam's Sons"
 }

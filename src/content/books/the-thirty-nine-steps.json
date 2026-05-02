@@ -15,7 +15,7 @@
   "description": "A Shocking Adventure Novel “I believe everything out of the common. The only thing to distrust is the normal.” ― John Buchan, The 39 Steps John Buchan's The Thirty-Nine Steps is a fast-paced adventure novel featuring Richard Hannay, a Scottish hero with a knack for getting himself into and out of trouble. The Thirty Nine Steps has been adapted many times, most notably by Alfred Hitchcock. This Xist Classics edition has been professionally formatted for e-readers with a linked table of contents. ",
   "cover_url": "https://books.google.com/books/content?id=CdcmCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781623959913",
-  "first_published": 1943,
+  "first_published": 1915,
   "pages": 110,
   "google_books_url": "https://play.google.com/store/books/details?id=CdcmCwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -145,13 +145,25 @@
   "ol_work_key": "/works/OL76524W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46096420M"
+  "representative_edition_key": "/books/OL46096420M",
+  "wikidata_qid": "Q2609365",
+  "original_title": "The Thirty-nine Steps",
+  "original_language": "eng",
+  "original_publisher": "Blackwood & Sons",
+  "series": {
+    "name": "Richard Hannay"
+  }
 }

@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12818862-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21177W",
-  "first_published": 1846,
+  "first_published": 1847,
   "language": "eng",
   "description": "Published in 1847, Emily Bronte's only novel Wuthering Heights is an evergreen classic. A passionate tale of love between Catherine Earnshaw and Heathcliff, the novel challenged Victorian ideals of morality, class, religion and gender inequality. Heathcliff, an orphan, brought to Wuthering Heights by Mr. Earnshaw, represents the quintessential Byronic herobrooding and enigmatic, whose social status is foregrounded by his lack of a first name. Spurned by Catherine and humiliated by her brother, H...",
   "isbn": "9783985511372",
@@ -359,11 +359,17 @@
   "ol_work_key": "/works/OL21177W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57525429M"
+  "representative_edition_key": "/books/OL57525429M",
+  "wikidata_qid": "Q202975",
+  "original_title": "Wuthering Heights",
+  "first_published_circa": false
 }

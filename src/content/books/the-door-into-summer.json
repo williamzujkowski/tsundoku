@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10118264-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10118264-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59733W",
-  "first_published": 1957,
+  "first_published": 1956,
   "language": "eng",
   "description": "With several Hollywood Heinlein adaptations about to be launched (including \"Starship Troopers\" by the director of \"Total Recall\"), this SF superstar is shining brighter than ever. To celebrate his success, Del Rey is reissuing the author's classic works back into the forefront, beginning with \"The Door into Summer\", the story of a modern-day--and future-time--Rip Van Winkle. Copyright © Libri GmbH. All rights reserved.",
   "pages": 200,
@@ -69,13 +69,21 @@
   "ol_work_key": "/works/OL59733W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 49,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44202274M"
+  "representative_edition_key": "/books/OL44202274M",
+  "wikidata_qid": "Q427331",
+  "original_title": "The Door into Summer",
+  "original_language": "eng",
+  "original_publisher": "Doubleday"
 }

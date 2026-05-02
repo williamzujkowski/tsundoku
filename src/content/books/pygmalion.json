@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9267223-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9267223-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1066524W",
-  "first_published": 1912,
+  "first_published": 1913,
   "language": "eng",
   "description": "This Prestwick House Literary Touchstone Edition? includes a glossary and reader?s notes to help the modern reader appreciate Shaw?s wit and cynicism.In this delightful romance about the man too self-centered to fall in love and the woman too unsure of herself to want more out of life than the little she already has, George Bernard Shaw shakes the dust off the Cinderella story and tells it as only he can. Eliza Doolittle, the Cockney flower girl who wants to work in a flower shop, and Henry Higg...",
   "isbn": "1580493998",
@@ -85,13 +85,19 @@
   "ol_work_key": "/works/OL1066524W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 142,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8779920M"
+  "representative_edition_key": "/books/OL8779920M",
+  "wikidata_qid": "Q637200",
+  "original_title": "Pygmalion",
+  "original_language": "eng"
 }

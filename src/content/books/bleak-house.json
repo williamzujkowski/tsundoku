@@ -160,10 +160,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": true,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL25297050M"
+  "representative_edition_key": "/books/OL25297050M",
+  "wikidata_qid": "Q883305",
+  "original_title": "Bleak House",
+  "original_language": "eng",
+  "original_publisher": "Chapman and Hall"
 }

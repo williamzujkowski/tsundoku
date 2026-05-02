@@ -85,11 +85,48 @@
   "ol_work_key": "/works/OL59863W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 75,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8102246M"
+  "representative_edition_key": "/books/OL8102246M",
+  "wikidata_qid": "Q467720",
+  "original_title": "The Dispossessed",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1975
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1975
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 1993
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Premio Gigamesh",
+      "year": 1984
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1975
+    }
+  ],
+  "series": {
+    "name": "Hainish Cycle",
+    "position": 5
+  }
 }

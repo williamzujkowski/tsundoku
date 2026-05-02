@@ -66,9 +66,11 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24948824M"
+  "representative_edition_key": "/books/OL24948824M",
+  "wikidata_qid": "Q42186284"
 }

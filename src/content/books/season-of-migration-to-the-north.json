@@ -6,7 +6,7 @@
   "slug": "season-of-migration-to-the-north",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL8114694W",
-  "first_published": 1969,
+  "first_published": 1966,
   "language": "eng",
   "description": "After years of study in Europe, the young narrator of Season of Migration to the North returns to his village along the Nile in the Sudan. It is the 1960s, and he is eager to make a contribution to the new postcolonial life of his country. Back home, he discovers a stranger among the familiar faces of childhood—the enigmatic Mustafa Sa’eed. Mustafa takes the young man into his confidence, telling him the story of his own years in London, of his brilliant career as an economist, and of the series...",
   "cover_url": "https://books.google.com/books/content?id=_hZjaWrQtmcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -63,13 +63,27 @@
   "ol_work_key": "/works/OL2970107W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 31,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22551981M"
+  "representative_edition_key": "/books/OL22551981M",
+  "wikidata_qid": "Q921128",
+  "original_title": "موسم الهجرة إلى الشمال",
+  "original_language": "ara",
+  "original_publisher": "al-Tayyib Salih",
+  "awards": [
+    {
+      "name": "Bokklubben World Library"
+    }
+  ]
 }

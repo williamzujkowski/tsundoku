@@ -77,11 +77,26 @@
   "ol_work_key": "/works/OL3336954W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL5441312M"
+  "representative_edition_key": "/books/OL5441312M",
+  "wikidata_qid": "Q486385",
+  "original_title": "Anarchy, State, and Utopia",
+  "original_language": "eng",
+  "original_publisher": "Basic Books",
+  "awards": [
+    {
+      "name": "National Book Award",
+      "year": 1975
+    }
+  ]
 }

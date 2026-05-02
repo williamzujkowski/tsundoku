@@ -41,9 +41,21 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32794767M"
+  "representative_edition_key": "/books/OL32794767M",
+  "wikidata_qid": "Q3772120",
+  "original_title": "The Interpreters",
+  "original_language": "eng",
+  "original_publisher": "Heinemann",
+  "series": {
+    "name": "African literature"
+  }
 }

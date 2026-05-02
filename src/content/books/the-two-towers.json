@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14627564-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14627564-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27479W",
-  "first_published": 1954,
+  "first_published": 1955,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
@@ -134,15 +134,28 @@
   "ol_work_key": "/works/OL27479W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 278,
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL26447422M",
-  "translator": "Agustin Otsoa Eribeko"
+  "translator": "Agustin Otsoa Eribeko",
+  "wikidata_qid": "Q332581",
+  "original_title": "The Return of the King",
+  "original_language": "eng",
+  "original_publisher": "George Allen & Unwin Limited",
+  "series": {
+    "name": "The Lord of the Rings",
+    "position": 3
+  }
 }

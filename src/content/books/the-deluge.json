@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "An historical novel of Poland, Sweden, and Russia. A sequel to \"With fire and sword.\"",
   "cover_url": "https://books.google.com/books/content?id=i6diAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "first_published": 1891,
+  "first_published": 1886,
   "pages": 872,
   "google_books_url": "http://books.google.com/books?id=i6diAAAAMAAJ&dq=intitle:The+Deluge&hl=&source=gbs_api",
   "language": "eng",
@@ -71,13 +71,24 @@
   "ol_work_key": "/works/OL503366W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 149,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39049064M"
+  "representative_edition_key": "/books/OL39049064M",
+  "wikidata_qid": "Q2635106",
+  "original_title": "Potop",
+  "original_language": "pol",
+  "series": {
+    "name": "The Trilogy",
+    "position": 2
+  }
 }

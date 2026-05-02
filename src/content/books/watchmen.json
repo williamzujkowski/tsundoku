@@ -15,7 +15,7 @@
   "google_books_url": "",
   "isbn": "9788467473261",
   "pages": 0,
-  "first_published": 1987,
+  "first_published": 1986,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
@@ -73,12 +73,30 @@
   "ol_work_key": "/works/OL2897798W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL47315773M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q128444",
+  "original_title": "Watchmen",
+  "original_language": "eng",
+  "original_publisher": "DC Comics",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Eisner Award for Best Limited Series",
+      "year": 1988
+    }
+  ]
 }
