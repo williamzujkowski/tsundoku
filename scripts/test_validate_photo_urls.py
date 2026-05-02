@@ -60,6 +60,37 @@ class TestHeadProbeClassification:
         result = validator.head_probe("https://example.com/slow.jpg")
         assert result is None
 
+    def test_handles_429_rate_limit_returns_none(self, monkeypatch):
+        """429 is rate-limit, not 'URL is dead'. Must not get cleared."""
+        from urllib.error import HTTPError
+
+        def fake_urlopen(*args, **kwargs):
+            raise HTTPError("u", 429, "Too Many Requests", {}, None)
+
+        monkeypatch.setattr(validator, "urlopen", fake_urlopen)
+        assert validator.head_probe("https://example.com/x.jpg") is None
+
+    def test_handles_503_server_error_returns_none(self, monkeypatch):
+        """5xx is transient, not definitive."""
+        from urllib.error import HTTPError
+
+        def fake_urlopen(*args, **kwargs):
+            raise HTTPError("u", 503, "Service Unavailable", {}, None)
+
+        monkeypatch.setattr(validator, "urlopen", fake_urlopen)
+        assert validator.head_probe("https://example.com/x.jpg") is None
+
+    def test_410_gone_is_definitive_dead(self, monkeypatch):
+        """410 is the same as 404 for our purposes — definitively dead."""
+        from urllib.error import HTTPError
+
+        def fake_urlopen(*args, **kwargs):
+            raise HTTPError("u", 410, "Gone", {}, None)
+
+        monkeypatch.setattr(validator, "urlopen", fake_urlopen)
+        result = validator.head_probe("https://example.com/x.jpg")
+        assert result == {"status": 410, "ok": False}
+
 
 class TestProbeCacheBehavior:
     """The cache layer should make repeat probes cheap."""

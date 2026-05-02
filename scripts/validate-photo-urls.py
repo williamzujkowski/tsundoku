@@ -33,22 +33,37 @@ HEAD_TIMEOUT = 10  # seconds — should be plenty for a HEAD
 
 def head_probe(url: str) -> dict | None:
     """Single HEAD request. Returns:
-      {'status': int, 'ok': bool}  for any HTTP response (200, 404, etc.)
-      None                          for network errors / timeouts
+      {'status': int, 'ok': bool}  for definitive HTTP responses
+      None                          for transient errors (429 rate limit,
+                                    5xx, network blip, timeout) — caller
+                                    treats as unknown and retries later
+
+    Definitive 4xx (404, 410, 401, 403) → ok=False (clear the URL).
+    Transient (429, 5xx) → None (don't draw any conclusion).
     """
     req = Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=HEAD_TIMEOUT) as resp:
             return {"status": resp.status, "ok": resp.status < 400}
     except HTTPError as e:
-        # 4xx is a real answer — cache it as a (cached) negative
+        # 429 = rate limited; 5xx = server hiccup. Both are NOT proof the URL
+        # is dead — treat as unknown so we don't wrongly clear good URLs when
+        # the upstream is just having a moment.
+        if e.code == 429 or 500 <= e.code < 600:
+            return None
+        # Genuine 4xx (404, 410, 401, 403) — cache as confirmed dead.
         return {"status": e.code, "ok": False}
     except (URLError, TimeoutError, OSError):
         return None  # Network blip — don't cache; retry next run
 
 
-def probe(url: str, source: str = "photo-validator") -> dict | None:
-    """Cache-aware HEAD probe. Cache key is the URL itself."""
+def probe(url: str, source: str = "photo-validator-v2") -> dict | None:
+    """Cache-aware HEAD probe. Cache key is the URL itself.
+
+    Source name bumped to v2 when we changed head_probe to return None for
+    429/5xx — old cache entries had ok=False for 429, which would still
+    misclassify rate-limited URLs as dead.
+    """
     return cached_fetch(source, url, lambda: head_probe(url), url=url)
 
 
