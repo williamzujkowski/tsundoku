@@ -28,8 +28,8 @@ EMPTY_SENTINELS = (None, "", [], {})
 # so any tagged source above 0 can correct them on the next pass.
 SOURCE_RANK = {
     "manual": 100,                  # user-curated, never overwrite
+    "wikidata_v1": 85,              # curated structured KB (Phase B target)
     "ol_firstedition_v1": 80,       # /works/{key}/editions.json
-    "wikidata_v1": 70,              # curated structured KB
     "ol_classification_v2": 60,     # search.json work-level
     "ol_search_v1": 40,             # legacy enrich.py output
     "google_books_v1": 35,

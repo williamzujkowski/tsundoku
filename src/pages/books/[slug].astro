@@ -36,19 +36,20 @@ const categorySlug = toSlug(book.category);
     "@context": "https://schema.org",
     "@type": "Book",
     "name": book.title,
-    ...(book.original_title ? { "alternateName": book.original_title } : {}),
     "author": { "@type": "Person", "name": book.author },
     ...(book.description ? { "description": book.description } : {}),
     ...(book.cover_url ? { "image": book.cover_url_large || book.cover_url } : {}),
-    ...(book.first_published !== undefined ? { "datePublished": String(book.first_published) } : {}),
-    ...(book.original_language ? { "inLanguage": book.original_language } : {}),
+    ...(book.isbn ? { "isbn": book.isbn } : {}),
+    ...(book.pages ? { "numberOfPages": book.pages } : {}),
+    ...(book.language ? { "inLanguage": book.language } : {}),
     ...(book.translator ? { "translator": { "@type": "Person", "name": book.translator } } : {}),
-    ...(book.isbn || book.pages || book.language ? {
-      "workExample": {
+    ...(book.first_published !== undefined || book.original_title || book.original_language ? {
+      "exampleOfWork": {
         "@type": "Book",
-        ...(book.isbn ? { "isbn": book.isbn } : {}),
-        ...(book.pages ? { "numberOfPages": book.pages } : {}),
-        ...(book.language ? { "inLanguage": book.language } : {}),
+        ...(book.original_title ? { "name": book.original_title } : { "name": book.title }),
+        "author": { "@type": "Person", "name": book.author },
+        ...(book.first_published !== undefined ? { "datePublished": String(book.first_published) } : {}),
+        ...(book.original_language ? { "inLanguage": book.original_language } : {}),
       }
     } : {}),
   })} />
@@ -111,9 +112,9 @@ const categorySlug = toSlug(book.category);
           )}
         </div>
 
-        {book.original_title && (
-          <p class="text-dim text-sm mb-3" style="font-style: italic">
-            Originally <span style="font-style: normal">{book.original_title}</span>
+        {book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase() && (
+          <p class="text-dim text-sm mb-3">
+            Originally <i lang={book.original_language || undefined}>{book.original_title}</i>
             {book.original_language && book.original_language !== 'eng' && (
               <span> · {languageLabel(book.original_language)}</span>
             )}
@@ -129,9 +130,6 @@ const categorySlug = toSlug(book.category);
             <span class="meta-tag">
               First published {formatYear(book.first_published, book.first_published_circa)}
             </span>
-          )}
-          {book.original_language && book.original_language !== 'eng' && book.translator && (
-            <span class="meta-tag">Translated by {book.translator}</span>
           )}
           {book.pages && (
             <span class="meta-tag">{book.pages} pages</span>
@@ -181,10 +179,9 @@ const categorySlug = toSlug(book.category);
         </div>
       )}
 
-      {/* This edition — what the user is actually reading.  Distinct from
-          the work-level metadata above (year, original title, original
-          language).  Uses book.isbn, book.pages, book.language. */}
-      {(book.isbn || book.language || book.translator || book.first_edition_isbn !== undefined) && (
+      {/* This edition — what the user is actually reading. Distinct from
+          the work-level metadata above (year, original title). */}
+      {(book.isbn || book.language || book.translator || (book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn)) && (
         <div class="detail-section">
           <dt class="text-dim text-sm mb-2">This edition</dt>
           <dd class="flex flex-wrap gap-3 text-xs items-center">
@@ -199,9 +196,6 @@ const categorySlug = toSlug(book.category);
             )}
             {book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn && (
               <span class="text-dim text-mono">First-edition ISBN: {book.first_edition_isbn}</span>
-            )}
-            {book.first_edition_isbn === null && (
-              <span class="text-dim">First edition pre-dates ISBNs</span>
             )}
           </dd>
         </div>
