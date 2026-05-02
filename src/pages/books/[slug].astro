@@ -294,6 +294,15 @@ if (currentLcc) {
         </div>
       )}
 
+      {book.reading_status && (
+        <div class="library-pocket" aria-label="Reading status — library card pocket">
+          <span class="library-pocket-label">FROM THE STACKS</span>
+          <span class="library-pocket-status">
+            {book.reading_status === 'read' ? 'Returned · Read' : book.reading_status === 'reading' ? 'Currently checked out' : 'On hold · waiting'}
+          </span>
+        </div>
+      )}
+
 
       {(book.gutenberg_url || book.hathitrust_url || book.librivox_url) && (
         <div class="detail-section flex flex-wrap gap-2">

@@ -1,0 +1,69 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const DDC_MAIN_CLASSES: Array<{ code: string; name: string; description: string }> = [
+  { code: '000', name: 'General works', description: 'Computer science, information, libraries, journalism' },
+  { code: '100', name: 'Philosophy & psychology', description: 'Logic, ethics, metaphysics, the mind' },
+  { code: '200', name: 'Religion', description: 'Christianity, comparative religion, mythology' },
+  { code: '300', name: 'Social sciences', description: 'Sociology, politics, economics, law, education' },
+  { code: '400', name: 'Language', description: 'Linguistics, languages of the world' },
+  { code: '500', name: 'Pure science', description: 'Mathematics, physics, biology, earth sciences' },
+  { code: '600', name: 'Technology & applied sciences', description: 'Medicine, engineering, agriculture' },
+  { code: '700', name: 'Arts & recreation', description: 'Fine arts, music, sports, performing arts' },
+  { code: '800', name: 'Literature', description: 'Fiction, poetry, drama, essays — by language' },
+  { code: '900', name: 'History & geography', description: 'World history, biography, travel' },
+];
+
+const books = await getCollection('books');
+
+// Bucket each book by the first digit of its first DDC entry. Books
+// without DDC don't appear here — they're still reachable via /browse/
+// and /categories/.
+function ddcClassOf(ddcs: string[] | undefined): string | null {
+  if (!ddcs || ddcs.length === 0) return null;
+  const first = ddcs[0];
+  for (const ch of first) {
+    if (ch >= '0' && ch <= '9') return ch + '00';
+  }
+  return null;
+}
+
+const counts = new Map<string, number>();
+for (const b of books) {
+  const cls = ddcClassOf(b.data.ddc);
+  if (cls) counts.set(cls, (counts.get(cls) ?? 0) + 1);
+}
+
+const totalWithDdc = [...counts.values()].reduce((a, b) => a + b, 0);
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="The Stacks" description="Browse the catalog by Dewey Decimal main class — 000 to 900.">
+  <h1 class="heading-xl mb-2">The Stacks</h1>
+  <p class="text-muted text-sm mb-2">
+    Browse by Library of Congress / Dewey Decimal main class. {totalWithDdc.toLocaleString()} of {books.length.toLocaleString()} books are classified.
+  </p>
+  <p class="text-dim text-sm mb-8">
+    Looking for a topical bucket instead? <a href={`${base}categories/`} class="ext-link" style="text-decoration: underline">Browse by category →</a>
+  </p>
+
+  <div class="grid sm-grid-2 gap-3">
+    {DDC_MAIN_CLASSES.map(c => {
+      const count = counts.get(c.code) ?? 0;
+      return (
+        <a href={count > 0 ? `${base}stacks/${c.code}/` : undefined}
+           class={count > 0 ? 'card card-padded ddc-stack' : 'card card-padded ddc-stack ddc-stack-empty'}
+           aria-disabled={count === 0}>
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-mono text-sm text-dim">{c.code}</span>
+            <span class="text-xs text-mono text-dim">{count}</span>
+          </div>
+          <h3 class="font-bold mb-1">{c.name}</h3>
+          <p class="text-sm text-dim">{c.description}</p>
+        </a>
+      );
+    })}
+  </div>
+</Layout>
