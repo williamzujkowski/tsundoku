@@ -1,7 +1,7 @@
 {
   "title": "Festus",
   "author": "Philip James Bailey",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "festus",
   "tags": [
@@ -25,5 +25,38 @@
     "temptation"
   ],
   "copyright_status": "public_domain",
-  "description": "An extended poem detailing the story of a man who sold his soul to the Devil. The poem doesn't have a definitive structure and is disorganized.  It is seen as a parallel to Goethe's *Faust*. Some of Bailey's later works, including *The Angel World*, and *The Mystic* weren't as successful as Festus and were subsequently integrated into the continuing versions of Festus."
+  "description": "An extended poem detailing the story of a man who sold his soul to the Devil. The poem doesn't have a definitive structure and is disorganized.  It is seen as a parallel to Goethe's *Faust*. Some of Bailey's later works, including *The Angel World*, and *The Mystic* weren't as successful as Festus and were subsequently integrated into the continuing versions of Festus.",
+  "isbn": "9781344733380",
+  "ddc": [
+    "821.89",
+    "821"
+  ],
+  "lcc": [
+    "PR-4052.00000000.F4 1850",
+    "PR-4052.00000000.F4 1865",
+    "PR-4052.00000000.F4 1877",
+    "PR-4052.00000000.F4 1849",
+    "PR-4052.00000000.F4 1893",
+    "PR-4052.00000000.F4 1852",
+    "PR-4052.00000000.F4 1845",
+    "PR-4052.00000000 F4 1853",
+    "PR-4052.00000000.F4 1862",
+    "PR-4052.00000000.F4 1853",
+    "PR-4052.00000000.F4 1847",
+    "PR-4052.00000000.F4 1800zx",
+    "PR-6052.00000000.F4 1849",
+    "PR-4052.00000000.F4 1851x",
+    "PR-4052.00000000.F4 1854"
+  ],
+  "subject_facet": [
+    "Epigrams",
+    "Maxims",
+    "Poetry",
+    "Victorian",
+    "external power",
+    "humanitarian spirit",
+    "morality",
+    "temptation"
+  ],
+  "ol_work_key": "/works/OL7419442W"
 }

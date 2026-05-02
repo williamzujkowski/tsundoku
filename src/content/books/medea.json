@@ -1,7 +1,7 @@
 {
   "title": "Medea",
   "author": "Euripides",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "medea",
   "tags": [
@@ -33,5 +33,18 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 35451,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/35451",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35451.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35451.html.images",
+  "lcc": [
+    "PR-6053.00000000.U825",
+    "PA-3973.00000000.M4"
+  ],
+  "subject_facet": [
+    "Drama",
+    "Euripides",
+    "Euripides, criticism, textual",
+    "Medea (Greek mythology)",
+    "Medea (greek mythology)",
+    "Pr6053.u825 m43 2015"
+  ],
+  "ol_work_key": "/works/OL25043299W"
 }

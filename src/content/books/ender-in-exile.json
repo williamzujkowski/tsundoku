@@ -1,7 +1,7 @@
 {
   "title": "Ender in Exile",
   "author": "Orson Scott Card",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "ender-in-exile",
   "tags": [
@@ -29,5 +29,35 @@
     "Gifted children",
     "Space colonies"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.A655 E498 2013",
+    "PS-3553.00000000.A655 E498 2008",
+    "PS-3553.00000000.A655E498 2009",
+    "PS-3553.00000000.A655E498 2008"
+  ],
+  "subject_facet": [
+    "Brothers and sisters",
+    "Children and war",
+    "Comic books, strips",
+    "Comics & graphic novels, science fiction",
+    "Ender Wiggin (Fictional character)",
+    "Ender Wiggin (Fictitious character)",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Gifted children",
+    "Interstellar Colonies",
+    "Interstellar Travel",
+    "New York Times bestseller",
+    "Science Fiction",
+    "Space colonies",
+    "Space flight",
+    "Telepathy",
+    "Wiggin, ender (fictitious character), fiction",
+    "nyt:hardcover-fiction=2008-11-30"
+  ],
+  "ol_work_key": "/works/OL49485W"
 }

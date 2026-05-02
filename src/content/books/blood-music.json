@@ -1,7 +1,7 @@
 {
   "title": "Blood Music",
   "author": "Greg Bear",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "blood-music",
   "tags": [
@@ -27,5 +27,23 @@
     "Fiction, science fiction, general",
     "Self-experimentation in medicine"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.E157B58 1985",
+    "PS-3552.00000000.E157 B46 2002",
+    "PS-3552.00000000.E157",
+    "PS-3552.00000000.E157 B58 1985",
+    "PS-3552.00000000.E157 B58 2008"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Holistic nursing",
+    "Science Fiction",
+    "Self-experimentation in medicine"
+  ],
+  "ol_work_key": "/works/OL16513W"
 }

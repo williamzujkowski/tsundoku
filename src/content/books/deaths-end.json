@@ -1,7 +1,7 @@
 {
   "title": "Death's End",
   "author": "Liu Cixin",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "deaths-end",
   "tags": [
@@ -33,5 +33,31 @@
     "Extraterrestrial beings",
     "Hard Science Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1352",
+    "813.4"
+  ],
+  "lcc": [
+    "PL-2947.00000000.C59 S37 2010",
+    "PL-2947.00000000.C59",
+    "PL-2947.00000000.C59 D4313 2016",
+    "PL-2947.00000000.C59D4313 2016"
+  ],
+  "subject_facet": [
+    "Alien Contact",
+    "Chinese Science fiction",
+    "Extraterrestrial beings",
+    "FICTION / Science Fiction / Alien Contact",
+    "FICTION / Science Fiction / Hard Science Fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Hard Science Fiction",
+    "Human-alien encounters",
+    "Imaginary wars and battles",
+    "Science Fiction",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL17610507W"
 }

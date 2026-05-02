@@ -1,7 +1,7 @@
 {
   "title": "Essays",
   "author": "George Orwell",
-  "category": "Essays",
+  "category": "Literature",
   "priority": 1,
   "slug": "essays",
   "tags": [],
@@ -26,5 +26,20 @@
     "Outer Party",
     "resistance movements"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "824.912",
+    "828.91208"
+  ],
+  "lcc": [
+    "PR-6029.00000000.R8 A16 1994",
+    "PR-6029.00000000.R8 A6 2000"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "English essays",
+    "Fiction, short stories (single author)",
+    "Literature, history and criticism"
+  ],
+  "ol_work_key": "/works/OL20333079W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Neverwhere",
   "author": "Neil Gaiman",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "neverwhere",
   "tags": [
@@ -31,5 +31,57 @@
     "Fiction, fantasy, contemporary",
     "Fiction, horror"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "891.735",
+    "823.914"
+  ],
+  "lcc": [
+    "PS-3557.00000000.A3519N48 2003",
+    "PR-6057.00000000.A319N48 2017",
+    "PR-6057.00000000.A319 N4817 2009",
+    "PS-3557.00000000.A3519 N48 1998",
+    "PR-6057.00000000.A319N4 2016",
+    "PR-6057.00000000.A319N48 2009",
+    "PR-6057.00000000.A319 N4818 2015",
+    "PR-6057.00000000.A319 N48 2003",
+    "PR-6057.00000000.A319",
+    "PR-6057.00000000.A319 N48 1997",
+    "PR-6057.00000000.A319 N48 2009",
+    "PR-6057.00000000.A319 N48 2005",
+    "PS-3557.00000000.A3519 N48 2016",
+    "PS-3557.00000000.A3519N48 1997"
+  ],
+  "subject_facet": [
+    "Businessmen",
+    "English Authors",
+    "FICTION / Fantasy / Contemporary",
+    "FICTION / Fantasy / Urban Life",
+    "FICTION / Literary",
+    "Fantasy",
+    "Fantasy fiction",
+    "Ferrocarriles subterráneos",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Hommes d'affaires",
+    "London (england), fiction",
+    "London Below",
+    "Métros",
+    "Negociantes",
+    "New York Times bestseller",
+    "Novela",
+    "Personas desamparadas",
+    "Rats",
+    "Romans, nouvelles",
+    "Subways",
+    "Underground areas",
+    "Underground homeless persons",
+    "Zones souterraines",
+    "nyt:e-book-fiction=2012-03-04",
+    "Áreas subterráneas"
+  ],
+  "ol_work_key": "/works/OL679333W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Legends of Vancouver",
   "author": "E. Pauline Johnson",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "legends-of-vancouver",
   "tags": [
@@ -27,5 +27,35 @@
   "gutenberg_id": 28483,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28483",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28483.html.images",
-  "description": "YOU can see them as you look towards the north and the west, where the dream-hills swim into the sky amid their ever-drifting clouds of pearl and grey."
+  "description": "YOU can see them as you look towards the north and the west, where the dream-hills swim into the sky amid their ever-drifting clouds of pearl and grey.",
+  "isbn": "9780344990953",
+  "ddc": [
+    "398.20899794071133",
+    "398.2089979071131",
+    "971.133"
+  ],
+  "lcc": [
+    "F--1089.00000000.V3 J8 1920",
+    "PS-8469.00000000 O3 L4 1961",
+    "PS-8469.00000000 O3 L4 1936",
+    "PS-8469.00000000 O3 L4 1911A",
+    "E--0099.00000000.S7 J64 1991",
+    "PS-8469.00000000 O3 L4 1911"
+  ],
+  "subject_facet": [
+    "British Columbia Vancouver",
+    "Folklore",
+    "Indian mythology",
+    "Indians of North America",
+    "Indiens",
+    "Legends",
+    "Legends -- British Columbia -- Vancouver",
+    "Légendes",
+    "Squamish (Indiens)",
+    "Squamish Indians (B.C.)",
+    "Squawmish Indians",
+    "Vancouver Island",
+    "Vancouver, British Columbia"
+  ],
+  "ol_work_key": "/works/OL1878133W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Deep Learning",
   "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
-  "category": "Computer Science",
+  "category": "Science",
   "priority": 1,
   "slug": "deep-learning",
   "tags": [
@@ -32,5 +32,22 @@
     "Kunstmatige intelligentie",
     "Computer science"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "Q--0325.50000000.G66 2016",
+    "Q--0325.50000000.G66",
+    "Q--0325.50000000.G66 2017"
+  ],
+  "subject_facet": [
+    "Apprentissage automatique",
+    "COMPUTERS / Artificial Intelligence / General",
+    "Computer science",
+    "Computers and IT",
+    "Deep learning (Machine learning)",
+    "Electronic books",
+    "Kunstmatige intelligentie",
+    "Machine learning",
+    "Maschinelles Lernen"
+  ],
+  "ol_work_key": "/works/OL17801809W"
 }

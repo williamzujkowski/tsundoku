@@ -1,7 +1,7 @@
 {
   "title": "Black Swan",
   "author": "Nassim Nicholas Taleb",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "black-swan",
   "tags": [
@@ -34,5 +34,44 @@
     "Teoria da informação (aspectos sociais)",
     "Prognose"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "003.54"
+  ],
+  "lcc": [
+    "Q--0000.00000000",
+    "Q--0375.00000000.T35 2008",
+    "Q--0375.00000000.T35 2010",
+    "Q--0375.00000000",
+    "Q--0375.00000000.T35 2007"
+  ],
+  "subject_facet": [
+    "003/.54",
+    "Aspect social",
+    "Business",
+    "Ereignis",
+    "Forecasting",
+    "Incertitude (Théorie de l'information)",
+    "Incertitude (théorie de l'information)--aspect social",
+    "Informationsteori",
+    "Informationstheorie",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Nonfiction",
+    "Philosophy",
+    "Probability",
+    "Prognose",
+    "Prévision",
+    "Q375 .t35 2010",
+    "Social aspects",
+    "Social aspects of Uncertainty (Information theory)",
+    "Sozialpsychologie",
+    "Teoria da informação (aspectos sociais)",
+    "Uncertainty (Information theory)",
+    "Uncertainty (information theory)--social aspects",
+    "Ungewissheit",
+    "Wahrscheinlichkeit",
+    "nyt:paperback_nonfiction=2010-05-09"
+  ],
+  "ol_work_key": "/works/OL3295030W"
 }

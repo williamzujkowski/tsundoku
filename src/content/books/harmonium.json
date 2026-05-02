@@ -1,7 +1,7 @@
 {
   "title": "Harmonium",
   "author": "Wallace Stevens",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "harmonium",
   "tags": [
@@ -23,5 +23,25 @@
     "American poetry, history and criticism, 19th century"
   ],
   "librivox_url": "https://librivox.org/harmonium-by-wallace-stevens/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9780141181547",
+  "ddc": [
+    "811.5",
+    "811.52",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3537.00000000.T4753 H3 1931",
+    "PS-3537.00000000.T4753 H3 1923",
+    "PS-3537.00000000.T4753 H3 1999",
+    "PS-3537.00000000.T4753 H3 1975",
+    "PS-3537.00000000 T4753 H3 1953",
+    "PS-3537.00000000.T4753H3 1999"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Fiction, general",
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL464013W"
 }

@@ -19,5 +19,31 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=MhvcBQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.82"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25 M463 1997eb",
+    "QA-0076.90000000.A25M463 1997",
+    "QA-0076.90000000.A25 M463 1997"
+  ],
+  "subject_facet": [
+    "005.8/2",
+    "Access control",
+    "Accès",
+    "Computers",
+    "Computers--access control--handbooks, manuals, etc",
+    "Contrôle",
+    "Cryptographie",
+    "Cryptography",
+    "Cryptography--handbooks, manuals, etc",
+    "Guides, manuels",
+    "Handbooks, manuals",
+    "Long Now Manual for Civilization",
+    "Ordinateurs",
+    "Qa76.9.a25 m463 1997",
+    "Security"
+  ],
+  "ol_work_key": "/works/OL8058935W"
 }

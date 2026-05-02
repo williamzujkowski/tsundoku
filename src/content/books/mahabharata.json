@@ -1,7 +1,7 @@
 {
   "title": "Mahabharata",
   "author": "Vyasa",
-  "category": "Non-Western Philosophy",
+  "category": "Religion",
   "priority": 1,
   "slug": "mahabharata",
   "tags": [],
@@ -22,5 +22,16 @@
     "Hindu literature",
     "Religion"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9788173010453",
+  "lcc": [
+    "BL-1138.25000000.B43 1990"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Legends",
+    "Mahābhārata",
+    "Tales"
+  ],
+  "ol_work_key": "/works/OL20983747W"
 }

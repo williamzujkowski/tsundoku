@@ -1,7 +1,7 @@
 {
   "title": "Critique of Dialectical Reason",
   "author": "Jean-Paul Sartre",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "critique-of-dialectical-reason",
   "tags": [],
@@ -15,5 +15,18 @@
   "pages": 504,
   "google_books_url": "http://books.google.com/books?id=PFvDC9tJ1YwC&dq=Critique+of+Dialectical+Reason+Jean-Paul+Sartre&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PQ-2637.00000000.A82",
+    "B--2430.00000000.S33 C713 2006"
+  ],
+  "subject_facet": [
+    "Dialectical materialism",
+    "Existentialism",
+    "History",
+    "History, philosophy",
+    "Philosophy",
+    "Philosophy, marxist"
+  ],
+  "ol_work_key": "/works/OL4488945W"
 }

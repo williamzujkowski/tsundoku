@@ -1,7 +1,7 @@
 {
   "title": "Myth Conceptions",
   "author": "Robert Asprin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "myth-conceptions",
   "tags": [],
@@ -12,5 +12,26 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6874870-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6874870-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16028419W",
-  "first_published": 1980
+  "first_published": 1980,
+  "isbn": "9780099627609",
+  "ddc": [
+    "813.54",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.A84123 My",
+    "PS-3551.00000000.S6 My",
+    "PS-3551.00000000.S6 M89 1985",
+    "PS-3551.00000000.S6 M89 2001"
+  ],
+  "subject_facet": [
+    "Fantasy fiction",
+    "Fiction, fantasy, general",
+    "Large type books",
+    "Possiltum (imaginary place), fiction",
+    "Science fiction",
+    "Skeeve (fictitious character), fiction",
+    "Young adult fiction"
+  ],
+  "ol_work_key": "/works/OL16028419W"
 }

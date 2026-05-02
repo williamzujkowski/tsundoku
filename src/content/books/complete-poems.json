@@ -1,7 +1,7 @@
 {
   "title": "Complete Poems",
   "author": "Marianne Moore",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "complete-poems",
   "tags": [],
@@ -29,5 +29,21 @@
     "Aesop's fables",
     "English Fables"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-9272.90000000.W3",
+    "PS-3525.00000000.O5616 A17 1982"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "American poetry--20th century",
+    "Fiction",
+    "Modern Poetry",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poetry, modern",
+    "Poetry, modern--20th century",
+    "Ps3525.o5616 a17 1982"
+  ],
+  "ol_work_key": "/works/OL3357081W"
 }

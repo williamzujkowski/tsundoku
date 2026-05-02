@@ -1,7 +1,7 @@
 {
   "title": "The Liberal Imagination",
   "author": "Lionel Trilling",
-  "category": "Literary Criticism",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-liberal-imagination",
   "tags": [],
@@ -17,5 +17,31 @@
   "copyright_status": "likely_public_domain",
   "subjects": [
     "Literary Criticism"
-  ]
+  ],
+  "isbn": "9780192122186",
+  "ddc": [
+    "809",
+    "814.52",
+    "804"
+  ],
+  "lcc": [
+    "PS-3539.00000000.R56",
+    "PN-0085.00000000.T74 1950",
+    "PN-0523.00000000",
+    "PS-3539.00000000.R56L5 2008",
+    "PS-3539.00000000.R56 L5 2008",
+    "PS-3539.00000000.R56 L5 1950",
+    "PS-3539.00000000.R56 L5 1976",
+    "PS-3539.00000000.R56 L5 1979",
+    "PS-3539.00000000.R56 L5 1953"
+  ],
+  "subject_facet": [
+    "Addresses, essays, lectures",
+    "History and criticism",
+    "Libéralisme dans la littérature",
+    "Literature",
+    "Literature and society",
+    "Littérature et société"
+  ],
+  "ol_work_key": "/works/OL76871W"
 }

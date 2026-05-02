@@ -1,7 +1,7 @@
 {
   "title": "Cryptography Engineering: Design Principles and Practical Applications",
   "author": "Niels Ferguson, Bruce Schneier, Tadayoshi Kohno",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "cryptography-engineering-design-principles-and-practical-applications",
   "tags": [
@@ -29,5 +29,26 @@
     "Kryptering",
     "IT-säkerhet"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25",
+    "QA-0076.90000000.A25 F466 2010",
+    "QA-0076.90000000.A25 F466 2010eb"
+  ],
+  "subject_facet": [
+    "COMPUTERS",
+    "Computer security",
+    "Computersicherheit",
+    "Cryptography",
+    "General",
+    "IT-säkerhet",
+    "Kryptering",
+    "Kryptologi",
+    "Kryptologie",
+    "Long Now Manual for Civilization",
+    "Methoden und Technik",
+    "Professional, career & trade -> computer science -> security",
+    "Security"
+  ],
+  "ol_work_key": "/works/OL16596906W"
 }

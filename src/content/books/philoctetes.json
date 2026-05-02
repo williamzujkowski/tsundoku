@@ -30,5 +30,48 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/77548",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/77548.html.images",
   "librivox_url": "https://librivox.org/philoctetes-by-sophocles/",
-  "description": "At length, my noble friend, thou bravest son"
+  "description": "At length, my noble friend, thou bravest son",
+  "isbn": "9781870491129",
+  "ddc": [
+    "882.01",
+    "082.01",
+    "488.642"
+  ],
+  "lcc": [
+    "PA-4414.00000000.P5 D48 2000",
+    "PA-4413.00000000.P5 1893a",
+    "PA-4413.00000000 P5 1965",
+    "PA-4415.00000000.F8 P5 1985",
+    "PA-4414.00000000.P5 F73 1999",
+    "PA-4415.00000000.H8 1972",
+    "PA-4414.00000000.P5M38 1990",
+    "PA-4414.00000000.P5 C3",
+    "PA-4414.00000000.P5 S34 2003",
+    "PA-4413.00000000 P5 1932A",
+    "PA-4414.00000000.P5 M38 1990",
+    "PA-4414.00000000.P5S34 2003",
+    "PA-4414.00000000.P5 S5 1980",
+    "PA-4413.00000000.P5 1870",
+    "PA-4414.00000000.P5 M38 1986",
+    "PA-4413.00000000.P5 1970"
+  ],
+  "subject_facet": [
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Greek drama",
+    "Greek drama (Tragedy)",
+    "Guerre de Troie",
+    "Literatura grega clássica",
+    "Philoctetes (Greek mythology)",
+    "Philoctète (Mythologie grecque)",
+    "Poesia dramática",
+    "Sophocles",
+    "Teatro (literatura)",
+    "Textual Criticism",
+    "Théâtre",
+    "Translations into English",
+    "Trojan War",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL43856W"
 }

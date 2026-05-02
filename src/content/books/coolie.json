@@ -1,7 +1,7 @@
 {
   "title": "Coolie",
   "author": "Mulk Raj Anand",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "coolie",
   "tags": [],
@@ -21,5 +21,19 @@
   "oclc_id": "39133191",
   "worldcat_url": "https://www.worldcat.org/oclc/39133191",
   "lccn": "95104776",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-9499.30000000.A5 C6 1994",
+    "PR-9499.30000000.A5 Co5",
+    "PZ-0003.00000000.A535 Co5",
+    "PR-9499.30000000.A5C6 1994"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL354741W"
 }

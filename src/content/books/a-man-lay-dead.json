@@ -1,7 +1,7 @@
 {
   "title": "A Man Lay Dead",
   "author": "Ngaio Marsh",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-man-lay-dead",
   "tags": [
@@ -31,5 +31,33 @@
     "Fiction, mystery & detective, police procedural",
     "England, fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-9639.30000000.M27 Man6",
+    "PR-9639.30000000.M27",
+    "PR-9639.30000000.M27 M36 2011",
+    "PR-9639.30000000.M27 M36 2012",
+    "PZ-0003.00000000.M3539 Man",
+    "PR-9639.30000000.M27 Man",
+    "PZ-0003.00000000.M3539 Man6",
+    "PZ-0003.00000000.M3539 Man 1967",
+    "PR-9639.30000000.M27M36 2012"
+  ],
+  "subject_facet": [
+    "Alleyn, roderick (fictitious character), fiction",
+    "Country-house Mystery",
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, police procedural",
+    "Large type books",
+    "Police",
+    "Roderick Alleyn (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL460783W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Odd John",
   "author": "Olaf Stapledon",
-  "category": "Science Fiction",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "odd-john",
   "tags": [
@@ -20,5 +20,25 @@
   "subjects": [
     "Philosophy"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "100",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6037.00000000.T18",
+    "PR-6037.00000000.T18 Od2",
+    "PR-6037.00000000.T18 Od",
+    "PR-6037.00000000.T18 O3 1959",
+    "PZ-0003.00000000.S7944 Od7",
+    "PZ-0003.00000000.S7944 Od",
+    "PZ-0003.00000000.S7944 Od2",
+    "PR-6037.00000000.T18 Od7",
+    "PZ-0002.50000000.S737 O33 1951",
+    "B--0074.00000000.S8"
+  ],
+  "subject_facet": [
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL3290749W"
 }

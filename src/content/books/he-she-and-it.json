@@ -1,7 +1,7 @@
 {
   "title": "He, She and It",
   "author": "Marge Piercy",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "he-she-and-it",
   "tags": [
@@ -29,5 +29,25 @@
     "collection:otherwise_tiptree_award=honor",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.I4 H4 1991",
+    "PS-3566.00000000.I4"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Cyborgs",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Jewish women",
+    "Jews",
+    "Man-woman relationships",
+    "collection:otherwise_tiptree_award=honor",
+    "science fiction"
+  ],
+  "ol_work_key": "/works/OL87980W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Clean Architecture",
   "author": "Robert C. Martin",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "clean-architecture",
   "tags": [
@@ -25,5 +25,17 @@
     "History",
     "Computer architecture"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.75400000"
+  ],
+  "subject_facet": [
+    "Computer architecture",
+    "Computer programming",
+    "Computer software",
+    "Development",
+    "History",
+    "Software architecture"
+  ],
+  "ol_work_key": "/works/OL19809141W"
 }

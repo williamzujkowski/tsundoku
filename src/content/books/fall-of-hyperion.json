@@ -1,7 +1,7 @@
 {
   "title": "Fall of Hyperion",
   "author": "Dan Simmons",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "fall-of-hyperion",
   "tags": [
@@ -25,5 +25,23 @@
     "Fiction, science fiction, action & adventure",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.I47292 F35 1990",
+    "PS-3569.00000000.I47292 F35 1991",
+    "PS-3569.00000000.I47292F35",
+    "PS-3569.00000000.I47292"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Littérature américaine",
+    "Science-fiction",
+    "Science-fiction américaine"
+  ],
+  "ol_work_key": "/works/OL1963251W"
 }

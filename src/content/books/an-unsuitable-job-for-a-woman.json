@@ -1,7 +1,7 @@
 {
   "title": "An Unsuitable Job for a Woman",
   "author": "P.D. James",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "an-unsuitable-job-for-a-woman",
   "tags": [],
@@ -19,5 +19,50 @@
   "reading_status": "read",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015016887757",
   "hathitrust_rights": "Limited (search-only)",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-9639.30000000.M27 P5 1981",
+    "PR-6060.00000000.A467 U678 2010",
+    "PZ-0004.00000000.J2847 Up",
+    "PR-6060.00000000.A467 U54",
+    "PR-6060.00000000.A467 Up3",
+    "PR-6060.00000000.A467 U58 1972",
+    "PZ-0004.00000000.J2847 Up3",
+    "PR-6060.00000000.A467 U54 1980",
+    "PR-6060.00000000.A557 U5 1972b",
+    "PR-6060.00000000.A467 Up",
+    "PR-6060.00000000.A467 U54 2001",
+    "PR-6060.00000000.A467"
+  ],
+  "subject_facet": [
+    "Cordelia Gray (Fictitious character)",
+    "Detective and mystery stories",
+    "England, fiction",
+    "English literature",
+    "FICTION / Mystery & Detective / Police Procedural",
+    "FICTION / Mystery & Detective / Traditional British",
+    "FICTION / Thrillers",
+    "Fiction",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, mystery & detective, women sleuths",
+    "Gray, cordelia (fictitious character), fiction",
+    "Investigation",
+    "Large type books",
+    "London (england), fiction",
+    "Murder",
+    "Mystery",
+    "Mystery fiction",
+    "Open Library Staff Picks",
+    "Police",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Roderick Alleyn (Fictitious character)",
+    "Thriller / Suspense",
+    "Women detectives",
+    "Women private investigators"
+  ],
+  "ol_work_key": "/works/OL510865W"
 }

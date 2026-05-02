@@ -1,7 +1,7 @@
 {
   "title": "The Bourne Identity",
   "author": "Robert Ludlum",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-bourne-identity",
   "tags": [],
@@ -9,5 +9,33 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "The Bourne Identity is a 1980 spy fiction thriller novel by Robert Ludlum that tells the story of Jason Bourne, a man with remarkable survival abilities who has retrograde amnesia, and must seek to discover his true identity. In the process, he must also determine why several shadowy groups, a professional assassin, and the CIA want him dead. It is the first novel of the original Bourne Trilogy, which also includes The Bourne Supremacy and The Bourne Ultimatum.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ludlum_-_The_Bourne_Identity_Coverart.png/120px-Ludlum_-_The_Bourne_Identity_Coverart.png"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ludlum_-_The_Bourne_Identity_Coverart.png/120px-Ludlum_-_The_Bourne_Identity_Coverart.png",
+  "isbn": "9780553260113",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.U26 B66 2001",
+    "PZ-0004.00000000.L9455Bo",
+    "PS-3562.00000000.U26 B617 2005",
+    "PS-3562.00000000.U26 B685 1990",
+    "PS-3562.00000000.U26 Bo",
+    "PZ-0004.00000000.L9455 Bo",
+    "PS-3562.00000000.U26"
+  ],
+  "subject_facet": [
+    "Amnesia, fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, thrillers, espionage",
+    "Jason Bourne (Fictitious character)",
+    "Terrorists",
+    "Terrorists, fiction",
+    "Undercover operations, fiction",
+    "United States Central Intelligence Agency, fiction",
+    "United States Intelligence officers, fiction",
+    "United States, fiction",
+    "United States. Central Intelligence Agency"
+  ],
+  "ol_work_key": "/works/OL2664916W"
 }

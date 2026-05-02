@@ -1,7 +1,7 @@
 {
   "title": "1493",
   "author": "Charles C. Mann",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "1493",
   "tags": [
@@ -35,5 +35,58 @@
     "Modern History",
     "Influence"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "909.08"
+  ],
+  "lcc": [
+    "D--0228.00000000.M35 2015",
+    "D--0228.00000000.M36 2011",
+    "D--0231.00000000",
+    "D--0228.00000000.M36 2012",
+    "D--0228.00000000.M35 2014"
+  ],
+  "subject_facet": [
+    "Agriculture",
+    "Agriculture, history",
+    "Agriculture, juvenile literature",
+    "America, discovery and exploration",
+    "Columbus, christopher, 1451-1506",
+    "Columbus, christopher, 1451-1506, juvenile literature",
+    "Commerce",
+    "Commerce, history",
+    "Commerce, juvenile literature",
+    "Discovery and exploration",
+    "Ecology",
+    "Economic aspects",
+    "Economic history",
+    "Economics, juvenile literature",
+    "Environmental aspects",
+    "Globalization",
+    "HISTORY / Americas (North, Central, South, West Indies)",
+    "HISTORY / Expeditions & Discoveries",
+    "HISTORY / United States / Colonial Period (1600-1775)",
+    "History",
+    "History, modern",
+    "History, modern, juvenile literature",
+    "Industrial revolution",
+    "Industries, history",
+    "Influence",
+    "JUVENILE NONFICTION / History / Central & South America",
+    "JUVENILE NONFICTION / History / Exploration & Discovery",
+    "JUVENILE NONFICTION / Social Science / Customs, Traditions, Anthropology",
+    "Juvenile literature",
+    "Long now manual for civilization",
+    "Modern History",
+    "New York Times bestseller",
+    "Sheng wu di li xue",
+    "Shi jie shi",
+    "Slave trade",
+    "Tong su du wu",
+    "Ying xiang",
+    "Zhong shi ji shi",
+    "nyt:hardcover_political_books=2011-10-29",
+    "nyt:paperback-nonfiction=2012-08-12"
+  ],
+  "ol_work_key": "/works/OL16084255W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Ancillary Sword",
   "author": "Ann Leckie",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "ancillary-sword",
   "tags": [
@@ -33,5 +33,27 @@
     "FICTION / Action & Adventure",
     "Large type books"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3612.00000000.E3353A84 2014",
+    "PS-3612.00000000.E3353 A84 2015",
+    "PS-3612.00000000.E3353",
+    "PS-3612.00000000.E3353 A84 2014"
+  ],
+  "subject_facet": [
+    "FICTION / Action & Adventure",
+    "FICTION / Science Fiction / Adventure",
+    "FICTION / Science Fiction / Space Opera",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, space opera",
+    "Large type books",
+    "Quests (Expeditions)",
+    "Revenge",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL17062642W"
 }

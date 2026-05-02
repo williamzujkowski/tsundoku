@@ -1,7 +1,7 @@
 {
   "title": "On the Art of Reading",
   "author": "Thomas Sheridan",
-  "category": "Literature",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "on-the-art-of-reading",
   "tags": [
@@ -28,5 +28,30 @@
     "Literatura picaresca"
   ],
   "copyright_status": "public_domain",
-  "description": "Leisurely reader: you don't need me to swear that I longed for this book, born out of my own brain, to be the handsomest child imaginable, the most elegant, the most sensible."
+  "description": "Leisurely reader: you don't need me to swear that I longed for this book, born out of my own brain, to be the handsomest child imaginable, the most elegant, the most sensible.",
+  "isbn": "9780342373710",
+  "ddc": [
+    "808.5"
+  ],
+  "lcc": [
+    "PN-4105.00000000.S5 1796",
+    "PN-4105.00000000.S5 1968",
+    "PN-4105.00000000.S5 1991"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "Elocution",
+    "Eloquence",
+    "English language",
+    "Oral interpretation",
+    "Oral interpretation of poetry",
+    "Oral reading",
+    "Oratory",
+    "Oratory -- Early works to 1800",
+    "Pronunciation",
+    "Reading",
+    "Rhetoric",
+    "Textbooks"
+  ],
+  "ol_work_key": "/works/OL4091184W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Good Omens",
   "author": "Terry Pratchett & Neil Gaiman",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "good-omens",
   "tags": [],
@@ -9,5 +9,52 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch is a 1990 novel written by the English authors Terry Pratchett and Neil Gaiman.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Goodomenscover.jpg/250px-Goodomenscover.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Goodomenscover.jpg/250px-Goodomenscover.jpg",
+  "isbn": "9788479048778",
+  "ddc": [
+    "813.54",
+    "823.914"
+  ],
+  "lcc": [
+    "PS-3557.00000000.A3519 G6 1990",
+    "PR-6057.00000000.A319 G6 2006",
+    "PS-3557.00000000.A3519 G6 2001",
+    "PR-6066.00000000.R34",
+    "PR-6057.00000000.A319 G6 2001",
+    "PS-3557.00000000.A3519G6 1990",
+    "PR-6057.00000000.A319 G6 1990",
+    "PS-3557.00000000.A3519G6 2001",
+    "PR-6057.00000000.A319G6 2006"
+  ],
+  "subject_facet": [
+    "Angels",
+    "Antichrist",
+    "Apocalypse",
+    "End of the world",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fin du monde",
+    "Humorous",
+    "Humorous fiction",
+    "Large print books",
+    "Large type books",
+    "Livres en gros caractères",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Occult fiction",
+    "Prophecies",
+    "Prophéties",
+    "Roman",
+    "Romans, nouvelles",
+    "Sorcières",
+    "Witches",
+    "fantasy",
+    "humor",
+    "nyt:trade-fiction-paperback=2019-06-23"
+  ],
+  "ol_work_key": "/works/OL453936W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Flow My Tears, the Policeman Said",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "flow-my-tears-the-policeman-said",
   "tags": [
@@ -30,5 +30,34 @@
     "General",
     "Literary"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3 F56 2012",
+    "PZ-0004.00000000.D547 Fl",
+    "PS-3554.00000000.I3 F56 1993",
+    "PS-3554.00000000.I3 F55x 1975",
+    "PS-3554.00000000.I53 Fl",
+    "PS-3554.00000000.I3",
+    "PS-3554.00000000.I3 F56 2002",
+    "PS-3554.00000000.I3F56 2012"
+  ],
+  "subject_facet": [
+    "Amerikanisches Englisch",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "General",
+    "Identity (Psychology)",
+    "Large type books",
+    "Literary",
+    "Roman",
+    "Science Fiction",
+    "Television personalities"
+  ],
+  "ol_work_key": "/works/OL2172518W"
 }

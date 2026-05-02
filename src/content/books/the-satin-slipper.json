@@ -13,11 +13,23 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780865273979",
   "pages": 0,
   "first_published": 1929,
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "842.91"
+  ],
+  "lcc": [
+    "PQ-2605.00000000.L2 S62 1931",
+    "PQ-2605.00000000.L2S62 1931",
+    "PQ-2605.00000000.L2 S62 1945"
+  ],
+  "subject_facet": [
+    "French poetry"
+  ],
+  "ol_work_key": "/works/OL1099151W"
 }

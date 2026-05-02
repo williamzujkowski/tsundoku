@@ -1,7 +1,7 @@
 {
   "title": "Advanced Programming in the UNIX Environment",
   "author": "W. Richard Stevens",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "advanced-programming-in-the-unix-environment",
   "tags": [],
@@ -15,5 +15,31 @@
   "worldcat_url": "https://www.worldcat.org/oclc/50529978",
   "lccn": "2005007943",
   "copyright_status": "in_copyright",
-  "description": "Advanced Programming in the Unix Environment is a computer programming book by W. Richard Stevens describing the application programming interface of the UNIX family of operating systems. The book illustrates UNIX application programming in the C programming language."
+  "description": "Advanced Programming in the Unix Environment is a computer programming book by W. Richard Stevens describing the application programming interface of the UNIX family of operating systems. The book illustrates UNIX application programming in the C programming language.",
+  "isbn": "9780201455717",
+  "ddc": [
+    "005.432",
+    "005.43"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63S754 2008",
+    "QA-0076.76000000.O63S754 2013",
+    "QA-0076.76000000.O63S754 2005",
+    "QA-0076.76000000.O63 S754 2005",
+    "QA-0076.76000000.O63 S754 1992",
+    "QA-0076.76000000.O63.S754",
+    "QA-0076.76000000.O63 S754 2000",
+    "QA-0076.76000000.O63 S754 2013"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Computers",
+    "Operating systems",
+    "Operating systems (Computers)",
+    "Systèmes d'exploitation (Ordinateurs)",
+    "UNIX (Computer file)",
+    "Unix (computer operating system)",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2705899W"
 }

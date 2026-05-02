@@ -1,7 +1,7 @@
 {
   "title": "A Dream Play",
   "author": "August Strindberg",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-dream-play",
   "tags": [
@@ -34,5 +34,27 @@
     "Drama, collections",
     "Sewdish"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781559362702",
+  "ddc": [
+    "839.726"
+  ],
+  "lcc": [
+    "PM-8400.00000000.Z77 S7716 1992",
+    "PT-9812.00000000.D7 E52",
+    "PT-9817.00000000.D7E/",
+    "PR-6053.00000000.H786 D74 2005b",
+    "PR-6053.00000000.H786 D74 2005",
+    "PT-9812.00000000.D7E56 1974",
+    "PT-9812.00000000.D7 A35"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Drama (dramatic works by one author)",
+    "Interlingua (International Auxiliary Language Association)",
+    "Production and direction",
+    "Texts",
+    "Theater"
+  ],
+  "ol_work_key": "/works/OL789879W"
 }

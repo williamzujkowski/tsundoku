@@ -1,7 +1,7 @@
 {
   "title": "Ma Rainey's Black Bottom",
   "author": "August Wilson",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "ma-raineys-black-bottom",
   "tags": [
@@ -29,5 +29,50 @@
     "Musicals",
     "American Blues singers"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "ML-0050.00000000.Z99 H34 1986",
+    "PS-3573.00000000.I45677M3 1985",
+    "PS-3573.00000000.I45677 M3 1985c",
+    "PS-3573.00000000.I45677 M3 1985",
+    "PS-3573.00000000.I45677",
+    "PS-3573.00000000.I45677M3 2007",
+    "ML-0050.00000000.Z99H34 1986",
+    "PS-3573.00000000.I45677 A97 2007 v.3"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "African Americans",
+    "African american women singers",
+    "African american women singers--illinois--chicago--drama",
+    "American Blues singers",
+    "American drama",
+    "American drama (dramatic works by one author)",
+    "Blues (Music)",
+    "Blues musicians",
+    "Blues musicians--illinois--chicago--drama",
+    "Drama",
+    "History",
+    "Librettos",
+    "Musicals",
+    "Musicians",
+    "Nineteen twenties",
+    "Nineteen twenties--drama",
+    "Ps3573.i45677 m3 1985c",
+    "Race relations",
+    "Racism",
+    "Rainey, ma , 1886-1939",
+    "Recording and reproducing",
+    "Sound",
+    "Sound recording industry",
+    "Sound recording industry--united states--drama",
+    "Sound studios",
+    "Sound studios--illinois--chicago--drama",
+    "Sound--recording and reproducing",
+    "Sound--recording and reproducing--illinois--chicago--drama"
+  ],
+  "ol_work_key": "/works/OL2983762W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Network Science",
   "author": "Albert‑László Barabási",
-  "category": "Complex Systems",
+  "category": "Computer Science",
   "priority": 1,
   "slug": "network-science",
   "tags": [
@@ -31,5 +31,13 @@
     "Компьютеры",
     "Сети"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "TK-5105.50000000"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Information networks"
+  ],
+  "ol_work_key": "/works/OL25047365W"
 }

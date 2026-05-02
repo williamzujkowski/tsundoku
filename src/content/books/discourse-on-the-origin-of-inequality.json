@@ -1,7 +1,7 @@
 {
   "title": "Discourse on the Origin of Inequality",
   "author": "Jean-Jacques Rousseau",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "discourse-on-the-origin-of-inequality",
   "tags": [
@@ -31,5 +31,58 @@
     "Ciencias políticas",
     "Political science"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "320.011",
+    "323.41",
+    "194",
+    "320.01"
+  ],
+  "lcc": [
+    "JC-0179.00000000.R8x 1983",
+    "JC-0179.00000000.R8 1998",
+    "JC-0179.00000000.R8 1993",
+    "JC-0179.00000000.R814",
+    "JC-0179.00000000.R8 1973b",
+    "JC-0179.00000000.R8 1965",
+    "JC-0179.00000000 R8 1984",
+    "JC-0179.00000000.R8 1968",
+    "JC-0179.00000000.R814 1992",
+    "JC-0179.00000000.R8 1941",
+    "JC-0179.00000000.R8 1990b",
+    "JC-0179.00000000 R8 1947",
+    "JC-0179.00000000.R814 2004",
+    "JC-0179.00000000 R8 1954",
+    "JC-0179.00000000.R814 1994",
+    "JC-0179.00000000 R8 1971"
+  ],
+  "subject_facet": [
+    "3,6",
+    "320/.01/1",
+    "71.12",
+    "Biographie",
+    "Criticism and interpretation",
+    "Critique et interprétation",
+    "Droit naturel",
+    "Early works to 1800",
+    "Equality",
+    "Fiction, short stories (single author)",
+    "Histoire",
+    "Inégalité",
+    "Inégalité sociale",
+    "Jc179 .r814 1994",
+    "Natural law",
+    "Naturzustand",
+    "Pensée politique et sociale",
+    "Philosophie française",
+    "Philosophy, modern, 18th century",
+    "Political science",
+    "Politicsphilosophy",
+    "Science politique",
+    "Sociale ongelijkheid",
+    "Ungleichheit",
+    "Égalité",
+    "Égalité (Sociologie)"
+  ],
+  "ol_work_key": "/works/OL80737W"
 }

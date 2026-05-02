@@ -1,7 +1,7 @@
 {
   "title": "Annie Allen",
   "author": "Gwendolyn Brooks",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "annie-allen",
   "tags": [],
@@ -22,5 +22,20 @@
   "lccn": "78138207",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015004040344",
   "hathitrust_rights": "Limited (search-only)",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780837155616",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3503.00000000.R7244 A7 1971",
+    "PS-3503.00000000.R7244 A7",
+    "PS-3503.00000000.R7244.A7 1971"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "American poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL2008348W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Maelstrom",
   "author": "Peter Watts",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "maelstrom",
   "tags": [
@@ -23,5 +23,24 @@
     "Tsunamis"
   ],
   "copyright_status": "in_copyright",
-  "description": "THE Pacific Ocean stood on her back."
+  "description": "THE Pacific Ocean stood on her back.",
+  "isbn": "9780312878061",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W386 M34 2001",
+    "PR-9199.30000000.W386M34",
+    "PR-9199.30000000.W386"
+  ],
+  "subject_facet": [
+    "Communicable diseases",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "New York Times reviewed",
+    "Revenge",
+    "Tsunamis",
+    "Underwater exploration"
+  ],
+  "ol_work_key": "/works/OL8514685W"
 }

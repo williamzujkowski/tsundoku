@@ -1,7 +1,7 @@
 {
   "title": "Manfred",
   "author": "Lord Byron",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "manfred",
   "tags": [
@@ -28,5 +28,18 @@
   ],
   "librivox_url": "https://librivox.org/manfred-by-george-gordon-lord-byron/",
   "copyright_status": "public_domain",
-  "description": "She walks in Beauty, like the night"
+  "description": "She walks in Beauty, like the night",
+  "lcc": [
+    "PR-4365.00000000.A1 1815",
+    "PR-4365.00000000.A1 1817",
+    "PR-4365.00000000.A1 1969",
+    "PR-4361.00000000.A1 1815",
+    "PR-4365.00000000.A1 1817e",
+    "PR-4365.00000000 A45"
+  ],
+  "subject_facet": [
+    "English drama",
+    "English poetry"
+  ],
+  "ol_work_key": "/works/OL1092574W"
 }

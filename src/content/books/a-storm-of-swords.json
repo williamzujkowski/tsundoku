@@ -1,7 +1,7 @@
 {
   "title": "A Storm of Swords",
   "author": "George R.R. Martin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-storm-of-swords",
   "tags": [
@@ -34,5 +34,56 @@
     "Reading Level-Grade 8",
     "Reading Level-Grade 11"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A7239S7 2000",
+    "PS-3563.00000000.A7239",
+    "PS-3563.00000000.A7239 S718 2012",
+    "PS-3563.00000000.A7239 S7 2000",
+    "PS-3563.00000000.A7239 S7 2013",
+    "PS-3563.00000000.A7239S7 2020",
+    "PS-3563.00000000.A7239 S7 2011"
+  ],
+  "subject_facet": [
+    "Accessible book",
+    "Alliances",
+    "American literature",
+    "Courts and courtiers",
+    "Dragons",
+    "Fantasy",
+    "Fantasy fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Imaginary places",
+    "Imaginary wars and battles",
+    "Kings and rulers",
+    "Lugares imaginarios",
+    "Magia",
+    "Magic",
+    "Monarchy",
+    "New York Times bestseller",
+    "Novela",
+    "Paranormal fiction",
+    "Protected DAISY",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Seven Kingdoms (Imaginary place)",
+    "Seven kingdoms (imaginary place), fiction",
+    "Spanish language materials",
+    "Supernatural",
+    "Winter",
+    "nyt:mass_market_paperback=2011-06-04",
+    "series:A Song of Ice and Fire"
+  ],
+  "ol_work_key": "/works/OL257914W"
 }

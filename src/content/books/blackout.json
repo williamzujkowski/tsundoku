@@ -1,7 +1,7 @@
 {
   "title": "Blackout",
   "author": "Connie Willis",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "blackout",
   "tags": [
@@ -34,5 +34,36 @@
     "World war, 1939-1945, fiction",
     "award:nebula_award=novel"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45652",
+    "PS-3573.00000000.I45652 B53 2011",
+    "PS-3573.00000000.I45652 B53 2010"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Science fiction",
+    "England, fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, historical, general",
+    "Fiction, suspense",
+    "Historians",
+    "Historical Fiction",
+    "Hugo Award Winner",
+    "Research",
+    "Science Fiction",
+    "Time travel",
+    "World War (1939-1945) cct",
+    "World War, 1939-1945",
+    "World war, 1939-1945, fiction",
+    "award:hugo_award=2011",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL14914265W"
 }

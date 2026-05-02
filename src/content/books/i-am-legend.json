@@ -1,7 +1,7 @@
 {
   "title": "I Am Legend",
   "author": "Richard Matheson",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "i-am-legend",
   "tags": [
@@ -17,5 +17,30 @@
   "pages": 161,
   "google_books_url": "http://books.google.com/books?id=eTNgPwAACAAJ&dq=I+Am+Legend+Richard+Matheson&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A8355 I2 1979",
+    "PS-3563.00000000.A8355 I",
+    "PS-3563.00000000.A8355 O43 1971",
+    "PZ-0004.00000000.M429 I PS3563.A8355",
+    "PZ-0004.00000000.M429 I",
+    "PS-3563.00000000.A8355"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Epidemics",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Human experimentation in medicine",
+    "Romans, nouvelles",
+    "Vampires",
+    "Vampires, fiction",
+    "Zombies"
+  ],
+  "ol_work_key": "/works/OL11374287W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Jerusalem",
   "author": "William Blake",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "jerusalem",
   "tags": [
@@ -29,5 +29,30 @@
   ],
   "librivox_url": "https://librivox.org/jerusalem-by-william-blake/",
   "copyright_status": "public_domain",
-  "description": "\"And did those feet in ancient time\" is a poem by William Blake from the preface to his epic Milton: A Poem in Two Books, one of a collection of writings known as the Prophetic Books. The date of 1804 on the title page is probably when the plates were begun, but the poem was printed c. 1808. Today it is best known as the hymn \"Jerusalem\", with music written by Sir Hubert Parry in 1916. The famous orchestration was written by Sir Edward Elgar."
+  "description": "\"And did those feet in ancient time\" is a poem by William Blake from the preface to his epic Milton: A Poem in Two Books, one of a collection of writings known as the Prophetic Books. The date of 1804 on the title page is probably when the plates were begun, but the poem was printed c. 1808. Today it is best known as the hymn \"Jerusalem\", with music written by Sir Hubert Parry in 1916. The famous orchestration was written by Sir Edward Elgar.",
+  "isbn": "9781854370662",
+  "ddc": [
+    "821.7",
+    "821.79"
+  ],
+  "lcc": [
+    "PR-4144.00000000.J4 1832",
+    "PR-4144.00000000.J4 1951a",
+    "PR-4144.00000000.J4 1964",
+    "PR-4141.00000000.M2",
+    "PR-4144.00000000.J4 1955a",
+    "PR-4144.00000000.J4 1952",
+    "PR-4144.00000000 J4 1904",
+    "PR-4144.00000000.J4 1991",
+    "PR-4144.00000000.J4 1951",
+    "PR-4144.00000000.J4 I8"
+  ],
+  "subject_facet": [
+    "English Illumination of books and manuscripts",
+    "English Manuscripts",
+    "Facsimiles",
+    "Manuscripts",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL575437W"
 }

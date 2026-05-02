@@ -1,7 +1,7 @@
 {
   "title": "Complexity: The Emerging Science at the Edge of Order and Chaos",
   "author": "Mitchell Waldrop",
-  "category": "Complex Systems",
+  "category": "Science",
   "priority": 1,
   "slug": "complexity-the-emerging-science-at-the-edge-of-order-and-chaos",
   "tags": [],
@@ -17,5 +17,44 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=m0yqDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "501"
+  ],
+  "lcc": [
+    "Q--0175.00000000.W258 1993",
+    "Q--0175.00000000.W258 1992"
+  ],
+  "subject_facet": [
+    "Chaos",
+    "Chaos (théorie des systèmes)",
+    "Chaostheorie",
+    "Chaotic behavior in systems",
+    "Complexity (Philosophy)",
+    "Complexité",
+    "Complexité (Philosophie)",
+    "Filosofia da ciencia",
+    "Filosofia da ciência",
+    "Filozófia",
+    "Hasard",
+    "Holismus",
+    "Intelligence artificielle",
+    "Komplexes System",
+    "Komplexitás",
+    "Komplexität",
+    "Komplexitätstheorie",
+    "Order",
+    "Philosophie",
+    "Philosophie et sciences",
+    "Philosophy",
+    "Réseau neuronal",
+    "Science",
+    "Sciences",
+    "Théorie complexité",
+    "Tudományfilozófia",
+    "Wissenschaft",
+    "Wissenschaftstheorie",
+    "Écologie"
+  ],
+  "ol_work_key": "/works/OL4300551W"
 }

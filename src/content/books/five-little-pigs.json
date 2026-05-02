@@ -1,7 +1,7 @@
 {
   "title": "Five Little Pigs",
   "author": "Agatha Christie",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "five-little-pigs",
   "tags": [
@@ -29,5 +29,38 @@
     "Investigation",
     "False imprisonment"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6005.00000000.H66 F58 2011",
+    "PZ-0003.00000000.C4637 Mo",
+    "PR-6005.00000000.H66 F58 2007",
+    "PR-6005.00000000.H66 M972 1984",
+    "PR-6005.00000000.H66 Mo",
+    "PR-6005.00000000.H66"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "England, fiction",
+    "English literature",
+    "False imprisonment",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, mystery & detective, women sleuths",
+    "Hercule Poirot (Fictitious character)",
+    "Investigation",
+    "Large type books",
+    "Mothers and daughters",
+    "Murder",
+    "Mystery",
+    "Open Library Staff Picks",
+    "Poirot, hercule (fictitious character), fiction",
+    "Private investigators",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL471666W"
 }

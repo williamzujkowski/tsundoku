@@ -1,7 +1,7 @@
 {
   "title": "A Stranger in Olondria",
   "author": "Sofia Samatar",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-stranger-in-olondria",
   "tags": [
@@ -28,5 +28,21 @@
     "Mystics",
     "Ghost stories"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3619.00000000.A4496S77 2012",
+    "PS-3619.00000000.A4496 S77 2013",
+    "PS-3619.00000000.A4496 S77 2012"
+  ],
+  "subject_facet": [
+    "Books and reading",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Ghost stories",
+    "Mystics"
+  ],
+  "ol_work_key": "/works/OL16654685W"
 }

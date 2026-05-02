@@ -1,7 +1,7 @@
 {
   "title": "Imagined Communities",
   "author": "Benedict Anderson",
-  "category": "History",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "imagined-communities",
   "tags": [],
@@ -27,5 +27,37 @@
     "Nation",
     "Politics and Government"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "320.54",
+    "320.5409"
+  ],
+  "lcc": [
+    "JC-0311.00000000.A53 2016",
+    "JC-0311.00000000.A656 2016",
+    "JC-0311.00000000.A656 2006",
+    "JC-0311.00000000.A656 1991",
+    "JC-0311.00000000",
+    "JC-0311.00000000.A656 1983"
+  ],
+  "subject_facet": [
+    "320.5/4",
+    "320.54",
+    "Histoire",
+    "History",
+    "Imperialismo",
+    "Jc311 .a53 2016",
+    "Jc311 .a656 1991",
+    "Jc311 .a656 2006",
+    "Nacionalismo",
+    "Nation",
+    "Nationalbewusstsein",
+    "Nationalism",
+    "Nationalism--history",
+    "Nationalisme",
+    "Nationalismhistory",
+    "Nationalismus",
+    "Politics and Government"
+  ],
+  "ol_work_key": "/works/OL1702855W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Guards! Guards!",
   "author": "Terry Pratchett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "guards-guards",
   "tags": [
@@ -29,5 +29,31 @@
     "Fiction, fantasy, general",
     "Discworld (imaginary place), fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34 G93 1991",
+    "PR-6066.00000000.R34",
+    "PR-6066.00000000.R34 G82 2001",
+    "PR-6066.00000000.R34 G83 1989"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Carrot (fictitious character : pratchett), fiction",
+    "Discworld (Imaginary Place)",
+    "Discworld (imaginary place), fiction",
+    "English fiction",
+    "English literature",
+    "Fantasy",
+    "Fiction",
+    "Fiction in Spanish",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Guards troops",
+    "Samuel Vimes (Fictitious character)",
+    "Translations into Italian"
+  ],
+  "ol_work_key": "/works/OL453735W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Masnavi",
   "author": "Rumi",
-  "category": "Non-Western Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "masnavi",
   "tags": [
@@ -30,5 +30,18 @@
     "Religion / Sufism"
   ],
   "copyright_status": "public_domain",
-  "description": "Classical didactic poetry by Maulana Jalāl al-Dīn Rūmī, 1207-1273; includes commentary, an index of the glossary of verses, seven sermons by Maulana at his congregational meetings."
+  "description": "Classical didactic poetry by Maulana Jalāl al-Dīn Rūmī, 1207-1273; includes commentary, an index of the glossary of verses, seven sermons by Maulana at his congregational meetings.",
+  "ddc": [
+    "891.5511"
+  ],
+  "lcc": [
+    "PK-6481.00000000.M6",
+    "PK-6481.00000000.M8 E5 2004",
+    "PK-6481.00000000.M8 E5213 2004"
+  ],
+  "subject_facet": [
+    "Persian Sufi poetry",
+    "Sufi poetry"
+  ],
+  "ol_work_key": "/works/OL15120167W"
 }

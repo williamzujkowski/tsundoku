@@ -1,7 +1,7 @@
 {
   "title": "Birthday Letters",
   "author": "Ted Hughes",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "birthday-letters",
   "tags": [
@@ -32,5 +32,33 @@
     "Poésie",
     "Poetry (poetic works by one author)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "821.914"
+  ],
+  "lcc": [
+    "PR-6058.00000000.U37 B57 1998",
+    "PR-6068.00000000.U37",
+    "PR-6058.00000000.U37 B57 1998x",
+    "PR-6058.00000000.U37 B57 1998b",
+    "PR-6058.00000000.U37B57 1998b",
+    "PR-6068.00000000.U37 B57 1998b"
+  ],
+  "subject_facet": [
+    "Anthologies",
+    "Autobiograph",
+    "English poetry",
+    "Large type books",
+    "Lyrik",
+    "Marriage",
+    "Marriage, poetry",
+    "Married people",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poets",
+    "Poésie",
+    "Poésie anglaise",
+    "Sylvia Plath"
+  ],
+  "ol_work_key": "/works/OL16468873W"
 }

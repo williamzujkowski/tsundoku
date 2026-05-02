@@ -1,7 +1,7 @@
 {
   "title": "Effective C++",
   "author": "Scott Meyers",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "effective-c",
   "tags": [
@@ -29,5 +29,23 @@
     "Diseases",
     "Greek Mythology"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780321334879",
+  "ddc": [
+    "005.133"
+  ],
+  "lcc": [
+    "QA-0076.73000000.C153 M48 1992",
+    "QA-0076.73000000",
+    "QA-0076.73000000.C153 M48 2005",
+    "QA-0076.73000000.C153M48 1998",
+    "QA-0076.73000000.C153 M48 1998"
+  ],
+  "subject_facet": [
+    "C plus plus (computer program language)",
+    "C++ (Computer program language)",
+    "Object-oriented programming (Computer science)",
+    "Qa76.73.c153 m48 2005"
+  ],
+  "ol_work_key": "/works/OL2685843W"
 }

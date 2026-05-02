@@ -1,7 +1,7 @@
 {
   "title": "Hyperion",
   "author": "Dan Simmons",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "hyperion-2",
   "tags": [
@@ -31,5 +31,40 @@
     "Pilgrims and pilgrimages",
     "Interplanetary voyages"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.I47292 H97 1990",
+    "PS-3569.00000000.I47292 H97 1989",
+    "PS-3569.00000000.I47292",
+    "PS-3569.00000000.I47292H97",
+    "PS-3569.00000000.I47292.H99 1991"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Ciencia-ficcio n.",
+    "Drama",
+    "Extraterrestrial beings",
+    "Fantasy",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Future life",
+    "Good and evil",
+    "Hugo Award Winner",
+    "Imaginary places, fiction",
+    "Interplanetary voyages",
+    "Jesuits",
+    "Life on other planets",
+    "Littérature américaine",
+    "Long Now Manual for Civilization",
+    "Pilgrims and pilgrimages",
+    "Science-fiction américaine",
+    "Space colonies",
+    "award:hugo_award=1990",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL1963268W"
 }

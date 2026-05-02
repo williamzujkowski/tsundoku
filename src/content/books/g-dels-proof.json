@@ -1,7 +1,7 @@
 {
   "title": "Gödel's Proof",
   "author": "Nagel & Newman",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "g-dels-proof",
   "tags": [
@@ -30,5 +30,50 @@
     "Théorème de Gödel",
     "Philosophy"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "510.924",
+    "511.3",
+    "510.1"
+  ],
+  "lcc": [
+    "QA-0009.65000000.N34",
+    "QA-0009.65000000.N34 2002",
+    "QA-0009.00000000.N318",
+    "QA-0009.00000000.N3 1959",
+    "QA-0009.65000000",
+    "QA-0009.65000000.N34 2005",
+    "QA-0009.65000000.N34 1958",
+    "QA-0009.00000000 N3 1971",
+    "QA-0009.00000000.N3",
+    "QA-0009.65000000.N34 2001",
+    "QA-0009.00000000",
+    "QA-0009.00000000 N3"
+  ],
+  "subject_facet": [
+    "Decidability (Mathematical logic)",
+    "Décidabilité",
+    "Décidabilité (Logique mathématique)",
+    "General",
+    "Goedel's theorem",
+    "Gödel's theorem",
+    "Gödel, Théorème de",
+    "Lo gica simbo lica y matema tica",
+    "Logic",
+    "Logique mathématique",
+    "Logique symbolique et mathématique",
+    "Mathematics",
+    "Mathématiques",
+    "Metamathematics",
+    "Philosophie",
+    "Philosophy",
+    "Philosophy (General)",
+    "Spanish: Adult Nonfiction",
+    "Symbolic and mathematical Logic",
+    "Teorema de Go del",
+    "Théorie nombre",
+    "Théorème Gödel",
+    "Théorème de Gödel"
+  ],
+  "ol_work_key": "/works/OL5567662W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Golden Fool",
   "author": "Robin Hobb",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "golden-fool",
   "tags": [
@@ -23,5 +23,20 @@
     "Human-animal communication",
     "Fiction, fantasy, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.O33636",
+    "PS-3558.00000000.O33636 G65 2003",
+    "PS-3558.00000000.O33636 G65 2003b"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Human-animal communication"
+  ],
+  "ol_work_key": "/works/OL2707197W"
 }

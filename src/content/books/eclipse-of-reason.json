@@ -20,5 +20,32 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=G4kHEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "193",
+    "149.7"
+  ],
+  "lcc": [
+    "B--3279.00000000.H8473 E3 1974",
+    "B--3279.00000000.H8473.E3 1985",
+    "B--3279.00000000.H8473E3 2004",
+    "B--3279.00000000.H8473 E3 1985",
+    "B--3279.00000000.H8473",
+    "BC-0177.00000000",
+    "B--3279.00000000.H8473 E3",
+    "B--3279.00000000.H8473 E3 2004",
+    "B--3279.00000000.H8473.E3 2013",
+    "B--3279.00000000.H8473 E3 2013"
+  ],
+  "subject_facet": [
+    "193",
+    "B3279.h8473 e3 2004",
+    "Civilisation",
+    "Civilization",
+    "Critical theory",
+    "Raison",
+    "Reason",
+    "Sociology, philosophy"
+  ],
+  "ol_work_key": "/works/OL1267977W"
 }

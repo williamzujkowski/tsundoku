@@ -1,7 +1,7 @@
 {
   "title": "Foundation",
   "author": "Isaac Asimov",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "foundation-2",
   "tags": [
@@ -30,5 +30,43 @@
     "Robots",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5 Fo",
+    "PS-3501.00000000.S56 F6 2008",
+    "PS-3551.00000000.S5 F5917 1988x",
+    "PS-3551.00000000.S5 E2718 1990",
+    "PS-3551.00000000.S5 .F6",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 .F612 2010",
+    "PS-3551.00000000.S5 F59 2004",
+    "PS-3551.00000000.S5 F59 1979",
+    "PS-3551.00000000.S5 F59 1983",
+    "PZ-0003.00000000.A8316 Fo"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Science fiction",
+    "American literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hari Seldon (Fictitious character)",
+    "Historians",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Open Library Staff Picks",
+    "Prophecy",
+    "Psychohistoire",
+    "Psychohistory",
+    "Psychological fiction",
+    "Robots",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Vie extraterrestre"
+  ],
+  "ol_work_key": "/works/OL46125W"
 }

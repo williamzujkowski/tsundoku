@@ -1,7 +1,7 @@
 {
   "title": "Iron Council",
   "author": "China Miéville",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "iron-council",
   "tags": [
@@ -29,5 +29,26 @@
     "Fiction, fantasy, general",
     "Science fiction, fantasy, horror"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.I265I76 2004",
+    "PR-6063.00000000.I265",
+    "PR-6063.00000000",
+    "PR-6063.00000000.I265 I76 2004",
+    "PR-6063.00000000.I265 I76 2004b"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Imaginary wars and battles",
+    "New Crobuzon (Imaginary place)",
+    "Science Fiction",
+    "Science fiction, fantasy, horror"
+  ],
+  "ol_work_key": "/works/OL25051471W"
 }

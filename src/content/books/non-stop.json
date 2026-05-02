@@ -1,7 +1,7 @@
 {
   "title": "Non-Stop",
   "author": "Brian Aldiss",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "non-stop",
   "tags": [
@@ -25,5 +25,25 @@
     "Science fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6051.00000000.L3",
+    "PR-6051.00000000.L3 N66 2005",
+    "PR-6051.00000000.L3 No",
+    "PR-6051.00000000.L3N66 2005",
+    "PZ-0004.00000000.A363 No"
+  ],
+  "subject_facet": [
+    "Discoveries in geography",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Science fiction",
+    "Space ships"
+  ],
+  "ol_work_key": "/works/OL892520W"
 }

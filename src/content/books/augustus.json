@@ -1,7 +1,7 @@
 {
   "title": "Augustus",
   "author": "John Williams",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "augustus",
   "tags": [
@@ -34,5 +34,39 @@
     "Drama",
     "Youth"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780670141128",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I5286 A94 2014",
+    "PS-3545.00000000.I5286 A94 1995",
+    "PR-6073.00000000",
+    "PS-3545.00000000.I5286 Au 1979",
+    "PS-3545.00000000.I5286A94 2004",
+    "PS-3545.00000000.I5286A94 1995",
+    "PS-3545.00000000.I5286 A94 2004",
+    "PS-3545.00000000.I5286 Au",
+    "PS-3545.00000000.I5286A94 2014",
+    "PZ-0003.00000000.W6744 Au 1979",
+    "PS-3545.00000000.I5286 A94 2003",
+    "PZ-0003.00000000.W6744 Au"
+  ],
+  "subject_facet": [
+    "Biographical",
+    "Emperors",
+    "FICTION / Biographical",
+    "FICTION / Historical",
+    "FICTION / Literary",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Historical",
+    "History",
+    "Literary",
+    "Rome, fiction"
+  ],
+  "ol_work_key": "/works/OL3511458W"
 }

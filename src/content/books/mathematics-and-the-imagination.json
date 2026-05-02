@@ -1,7 +1,7 @@
 {
   "title": "Mathematics and the Imagination",
   "author": "Kasner & Newman",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "mathematics-and-the-imagination",
   "tags": [
@@ -23,5 +23,25 @@
     "Mathematics, philosophy"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Mathematics and the Imagination is a book published in New York by Simon & Schuster in 1940. The authors are Edward Kasner and James R. Newman. The illustrator Rufus Isaacs provided 169 figures. It rapidly became a best-seller and received several glowing reviews. Special publicity has been awarded it since it introduced the term googol for 10100, and googolplex for 10googol. The book includes nine chapters, an annotated bibliography of 45 titles, and an index in its 380 pages."
+  "description": "Mathematics and the Imagination is a book published in New York by Simon & Schuster in 1940. The authors are Edward Kasner and James R. Newman. The illustrator Rufus Isaacs provided 169 figures. It rapidly became a best-seller and received several glowing reviews. Special publicity has been awarded it since it introduced the term googol for 10100, and googolplex for 10googol. The book includes nine chapters, an annotated bibliography of 45 titles, and an index in its 380 pages.",
+  "isbn": "9780671208554",
+  "ddc": [
+    "510"
+  ],
+  "lcc": [
+    "QA-0037.20000000",
+    "QA-0093.00000000.K3 1989",
+    "QA-0093.00000000.K3",
+    "QA-0093.00000000",
+    "QA-0093.00000000.K3 2001"
+  ],
+  "subject_facet": [
+    "Jeux mathématiques",
+    "Mathematical recreations",
+    "Mathematics",
+    "Mathematics, philosophy",
+    "Mathématiques",
+    "Wiskunde"
+  ],
+  "ol_work_key": "/works/OL4972652W"
 }

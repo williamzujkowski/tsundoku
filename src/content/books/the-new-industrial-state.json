@@ -13,5 +13,37 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nThe New Industrial State is a 1967 book by John Kenneth Galbraith. Three revised editions appeared in 1972, 1978 and 1985.",
-  "pages": 454
+  "pages": 454,
+  "isbn": "9788434420007",
+  "ddc": [
+    "338",
+    "330.973",
+    "338.0973"
+  ],
+  "lcc": [
+    "HD-0021.00000000",
+    "HC-0106.50000000.G33",
+    "HC-0106.50000000 G33 1978",
+    "HC-0106.50000000.G33 1967b",
+    "HC-0106.60000000.G35 1971",
+    "HC-0106.60000000.G35 1985",
+    "HC-0106.60000000.G35 1978"
+  ],
+  "subject_facet": [
+    "Corporations",
+    "Economic conditions",
+    "Industria y estado",
+    "Industrial policy",
+    "Industrias (Desenvolvimento)",
+    "Industries",
+    "Industries and industrialization",
+    "Industries, united states",
+    "Industry and state",
+    "Labor and laborers",
+    "Politique industrielle",
+    "Technology and technological change",
+    "United States",
+    "Wirtschaftsordnung"
+  ],
+  "ol_work_key": "/works/OL12580W"
 }

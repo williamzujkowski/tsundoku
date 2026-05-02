@@ -1,7 +1,7 @@
 {
   "title": "How Linux Works: What Every Superuser Should Know",
   "author": "Brian Ward",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "how-linux-works-what-every-superuser-should-know",
   "tags": [
@@ -27,5 +27,25 @@
     "Mathematics",
     "Open source software"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.432"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63W3654",
+    "QA-0076.76000000.O63 W3654 2015",
+    "QA-0076.77400000.L46",
+    "QA-0076.76000000.O63 W3654 2004"
+  ],
+  "subject_facet": [
+    "Computers",
+    "Guide",
+    "Linux",
+    "Linux (computer operating system)",
+    "Mathematics",
+    "Open source software",
+    "Operating systems (Computers)",
+    "Technology"
+  ],
+  "ol_work_key": "/works/OL2725099W"
 }

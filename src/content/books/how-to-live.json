@@ -1,7 +1,7 @@
 {
   "title": "How to Live",
   "author": "Sarah Bakewell",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "how-to-live",
   "tags": [
@@ -13,11 +13,25 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780701178925",
   "pages": 0,
   "first_published": 2010,
   "language": "eng",
   "subjects": [
     "r/philosophy Reading List"
-  ]
+  ],
+  "lcc": [
+    "PQ-1643.00000000",
+    "PQ-1643.00000000.B34 2010",
+    "PQ-1643.00000000.B35 2010"
+  ],
+  "subject_facet": [
+    "Authors, biography",
+    "Biography",
+    "Conduct of life",
+    "French Authors",
+    "Montaigne, michel de, 1533-1592",
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL19367738W"
 }

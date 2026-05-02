@@ -1,7 +1,7 @@
 {
   "title": "Malice",
   "author": "Keigo Higashino",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "malice",
   "tags": [
@@ -22,5 +22,14 @@
     "Fiction, mystery & detective, police procedural",
     "Japan, fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PL-0871.00000000"
+  ],
+  "subject_facet": [
+    "Fiction, crime",
+    "Fiction, mystery & detective, police procedural",
+    "Japan, fiction"
+  ],
+  "ol_work_key": "/works/OL25150268W"
 }

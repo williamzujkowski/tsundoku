@@ -1,7 +1,7 @@
 {
   "title": "A Scanner Darkly",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-scanner-darkly",
   "tags": [
@@ -36,5 +36,42 @@
     "Multiple personality",
     "Comics & graphic novels, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813",
+    "813.54",
+    "741.5973"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3S28 2011",
+    "PS-3554.00000000.I3S2814",
+    "PS-3554.00000000.I3 Sc",
+    "PS-3554.00000000.I3 S28 1991",
+    "PS-3554.00000000",
+    "PS-3554.00000000.I3 S28 2011",
+    "PZ-0004.00000000.D547 Sc",
+    "PS-3554.00000000.I3 S28 1977",
+    "PS-3554.00000000.I3S28 1991",
+    "PS-3554.00000000.I3 S2814 2000",
+    "PS-3554.00000000.I3",
+    "PN-6727.00000000.D53 S33 2006"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "California, fiction",
+    "Comics & graphic novels, general",
+    "Detective and mystery stories",
+    "Drug abuse",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Impostors and imposture",
+    "Multiple personality",
+    "Narcotic habit",
+    "Pasadena (calif.), fiction",
+    "Police",
+    "Science Fiction",
+    "Stories without words"
+  ],
+  "ol_work_key": "/works/OL2172433W"
 }

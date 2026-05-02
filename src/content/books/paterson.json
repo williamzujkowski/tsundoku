@@ -1,7 +1,7 @@
 {
   "title": "Paterson",
   "author": "William Carlos Williams",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "paterson",
   "tags": [],
@@ -15,5 +15,32 @@
     "Criticism and interpretation"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Paterson is an epic poem by American poet William Carlos Williams published, in five volumes, from 1946 to 1958. The origin of the poem was an eighty-five line long poem written in 1926, after Williams had read and been influenced by James Joyce's novel Ulysses. As he continued writing lyric poetry, Williams spent increasing amounts of time on Paterson, honing his approach to it both in terms of style and structure."
+  "description": "Paterson is an epic poem by American poet William Carlos Williams published, in five volumes, from 1946 to 1958. The origin of the poem was an eighty-five line long poem written in 1926, after Williams had read and been influenced by James Joyce's novel Ulysses. As he continued writing lyric poetry, Williams spent increasing amounts of time on Paterson, honing his approach to it both in terms of style and structure.",
+  "isbn": "9781857540253",
+  "ddc": [
+    "811.52",
+    "811.5"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I544 P3 1995",
+    "PS-3531.00000000.O82",
+    "PS-3545.00000000.I544P3 1992",
+    "PS-3545.00000000.I544 P32",
+    "PS-3545.00000000.I544 P3",
+    "PS-3545.00000000.I544 P3 1992",
+    "PS-3545.00000000.I544 P3 1963"
+  ],
+  "subject_facet": [
+    "City and town life",
+    "Description",
+    "Description and travel",
+    "In literature",
+    "Paterson (N.J.)",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poetry of places",
+    "Travel",
+    "United states, poetry"
+  ],
+  "ol_work_key": "/works/OL1836051W"
 }

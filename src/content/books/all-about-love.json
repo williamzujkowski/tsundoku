@@ -1,7 +1,7 @@
 {
   "title": "All About Love",
   "author": "bell hooks",
-  "category": "Literary Criticism",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "all-about-love",
   "tags": [
@@ -32,5 +32,31 @@
     "nyt:paperback-nonfiction=2021-03-14",
     "New York Times bestseller"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "306.7"
+  ],
+  "lcc": [
+    "BF-0575.00000000.L8 H655 2000",
+    "BF-0575.00000000.L8 H655 2018",
+    "BF-0575.00000000.L8H655 2000",
+    "BF-0575.00000000 L8 H655 2000"
+  ],
+  "subject_facet": [
+    "African American Studies",
+    "Culture",
+    "Ethnic Studies",
+    "Feminist ethics",
+    "Forgiveness",
+    "Honesty",
+    "Interpersonal Relations",
+    "Love",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "PSYCHOLOGY",
+    "Popular Culture",
+    "SOCIAL SCIENCE",
+    "nyt:paperback-nonfiction=2021-03-14"
+  ],
+  "ol_work_key": "/works/OL31111W"
 }

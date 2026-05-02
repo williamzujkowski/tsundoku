@@ -1,7 +1,7 @@
 {
   "title": "Faceless Killers",
   "author": "Henning Mankell",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "faceless-killers",
   "tags": [],
@@ -18,5 +18,48 @@
   ],
   "google_books_url": "http://books.google.com/books?id=cjZOt_eGm3kC&dq=Faceless+Killers+Henning+Mankell&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "839.7374"
+  ],
+  "lcc": [
+    "PT-9876.23000000.A49",
+    "PT-9876.23000000.A49 M6713 1997",
+    "PT-0000.00000000",
+    "PT-9876.23000000.A49M6713",
+    "PT-9876.23000000.A49 M6713 2003",
+    "PT-9876.23000000.A49 M6713 2000"
+  ],
+  "subject_facet": [
+    "839.7/374",
+    "Belletristische Darstellung",
+    "Crime & mystery",
+    "FICTION / Crime",
+    "FICTION / Mystery & Detective / General",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, mystery & detective, police procedural",
+    "Germanic literature",
+    "Investigation",
+    "Kurt Wallander (Fictitious character)",
+    "Literature",
+    "Mord",
+    "Murder",
+    "Murder--investigation",
+    "Murder--investigation--sweden--fiction",
+    "Mystery",
+    "Police",
+    "Police--sweden--fiction",
+    "Pt9876.23.a49 m6713 2003",
+    "Race relations",
+    "Sweden, fiction",
+    "Wallander, kurt (fictitious character)",
+    "Wallander, kurt (fictitious character), fiction",
+    "Wallander, kurt (fictitious character)--fiction",
+    "crime mysteries",
+    "suspense & thriller"
+  ],
+  "ol_work_key": "/works/OL158674W"
 }

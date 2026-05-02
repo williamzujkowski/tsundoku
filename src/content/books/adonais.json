@@ -1,7 +1,7 @@
 {
   "title": "Adonais",
   "author": "Percy Bysshe Shelley",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "adonais",
   "tags": [],
@@ -18,5 +18,27 @@
   "worldcat_url": "https://www.worldcat.org/oclc/2112923",
   "lccn": "34017727",
   "copyright_status": "public_domain",
-  "description": "Adonais: An Elegy on the Death of John Keats, Author of Endymion, Hyperion, etc. is a pastoral elegy written by Percy Bysshe Shelley for John Keats in 1821, and widely regarded as one of Shelley's best and best-known works. The poem, which is in 495 lines in 55 Spenserian stanzas, was composed in the spring of 1821 immediately after 11 April, when Shelley heard of Keats's death. It is a pastoral elegy, in the English tradition of John Milton's Lycidas."
+  "description": "Adonais: An Elegy on the Death of John Keats, Author of Endymion, Hyperion, etc. is a pastoral elegy written by Percy Bysshe Shelley for John Keats in 1821, and widely regarded as one of Shelley's best and best-known works. The poem, which is in 495 lines in 55 Spenserian stanzas, was composed in the spring of 1821 immediately after 11 April, when Shelley heard of Keats's death. It is a pastoral elegy, in the English tradition of John Milton's Lycidas.",
+  "isbn": "9781406903188",
+  "ddc": [
+    "821.7",
+    "828",
+    "821.77",
+    "821.7 s"
+  ],
+  "lcc": [
+    "PR-5406.00000000.L6 1975, 2d ser., no. 1",
+    "PR-5406.00000000 A1 1891",
+    "PR-5428.00000000.L6 1975, 2d ser., no. 1",
+    "PR-5406.00000000 A1 1903",
+    "PR-5406.00000000.A1 1891",
+    "PR-5428.00000000.L6 2d ser., no. 1",
+    "PR-5406.00000000.A1 1821a"
+  ],
+  "subject_facet": [
+    "In literature",
+    "Poetry",
+    "Poets"
+  ],
+  "ol_work_key": "/works/OL14853461W"
 }

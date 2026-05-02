@@ -1,7 +1,7 @@
 {
   "title": "Look to Windward",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "look-to-windward",
   "tags": [
@@ -29,5 +29,28 @@
     "Protected DAISY",
     "Conspiracy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485 L6 2000",
+    "PR-6052.00000000.A485 L66 2010",
+    "PR-6052.00000000.A485 L66 2002",
+    "PR-6052.00000000.A485 L66 2001",
+    "PR-6052.00000000.A485 L6617 2003x"
+  ],
+  "subject_facet": [
+    "Conspiracy",
+    "Fiction",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Protected DAISY",
+    "Science-fiction",
+    "Space warfare",
+    "Utopias",
+    "Utopies",
+    "Vie extraterrestre"
+  ],
+  "ol_work_key": "/works/OL100773W"
 }

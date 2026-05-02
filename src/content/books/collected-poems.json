@@ -1,7 +1,7 @@
 {
   "title": "Collected Poems",
   "author": "Sylvia Plath",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "collected-poems",
   "tags": [
@@ -28,5 +28,27 @@
     "Poetry (poetic works by one author)",
     "Long Now Manual for Civilization"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "isbn": "9780060133696",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.L27 A17 2008",
+    "PS-3566.00000000.L27 A17 1981",
+    "PS-3566.00000000.L27",
+    "PS-3566.00000000.L27 A17 1981b",
+    "PS-3566.00000000.A/",
+    "PS-3566.00000000.L27.A17 1981"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "English poetry",
+    "Long Now Manual for Civilization",
+    "Poema",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL1865541W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Lord Peter Views the Body",
   "author": "Dorothy L. Sayers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "lord-peter-views-the-body",
   "tags": [
@@ -32,5 +32,46 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 73295,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73295",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73295.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73295.html.images",
+  "ddc": [
+    "823.914",
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6037.00000000.A95 L67 1992x",
+    "PR-6037.00000000.A95L67 2024",
+    "PR-6037.00000000.A95 L67 1986",
+    "PR-6037.00000000.A95L67 1986",
+    "PR-6037.00000000.A95 L64 1969",
+    "PR-6037.00000000.A95 Lo9",
+    "PR-6037.00000000.A95 L67 1929",
+    "PZ-0003.00000000.S2738 Lo9",
+    "PR-6037.00000000.A95",
+    "PR-6037.00000000.A95 Lo",
+    "PZ-0003.00000000.S2738 Lo"
+  ],
+  "subject_facet": [
+    "Anthology",
+    "Detective and mystery stories",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "English Short stories",
+    "English literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, short stories (single author)",
+    "Lord Peter Wimsey (Fictitious character)",
+    "Lord Wimsey, Peter (Fictitious character)",
+    "Murder -- Investigation -- Fiction",
+    "Mystery",
+    "Private investigators",
+    "Private investigators -- England -- Fiction",
+    "Shorts",
+    "Wimsey, Peter, Lord (Fictitious character), 1890- -- Fiction",
+    "Wimsey, peter, lord (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL2234926W"
 }

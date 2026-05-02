@@ -1,7 +1,7 @@
 {
   "title": "Designing the User Interface",
   "author": "Ben Shneiderman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "designing-the-user-interface",
   "tags": [
@@ -34,5 +34,56 @@
   ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015048293875",
-  "hathitrust_rights": "Limited (search-only)"
+  "hathitrust_rights": "Limited (search-only)",
+  "ddc": [
+    "004.019",
+    "004.6"
+  ],
+  "lcc": [
+    "QA-0076.90000000.H85 S54 2017",
+    "QA-0076.90000000.H85S54 2016",
+    "QA-0076.90000000.H85 S54 1998",
+    "QA-0076.90000000.H85 S54 2005",
+    "QA-0076.90000000.H85S54 2004",
+    "QA-0076.90000000.I58 S47 1992",
+    "QA-0076.90000000.I58 S47 1987",
+    "QA-0076.90000000.U83S5 2017",
+    "QA-0076.90000000.H85 S54 2004"
+  ],
+  "subject_facet": [
+    "004/.01/9",
+    "Benutzeroberfläche",
+    "Ciência da computação",
+    "Computer Books: Languages",
+    "Computer software",
+    "Computers",
+    "Computers - Languages / Programming",
+    "Computers / Programming / Software Development",
+    "Dialogsystem",
+    "Ergonomie",
+    "Gebruikersinterfaces",
+    "Graphische Benutzeroberfläche",
+    "Human factors",
+    "Human--computer interaction",
+    "Human-computer interaction",
+    "Interaction homme-machine (Informatique)",
+    "Interactive computer systems",
+    "Interface homem-computador",
+    "Interfaces utilisateurs (Informatique)",
+    "Mensch-Maschine-Kommunikation",
+    "Operating systems & graphical user interfaces (GUIs)",
+    "Processamento eletrônico de dados",
+    "Programming - Software Development",
+    "Qa 76.9 .h85 s558d 1998",
+    "Qa76.9.h85 s54 1998",
+    "Software design",
+    "Software engineering",
+    "Softwareentwicklung",
+    "Softwareergonomie",
+    "System design",
+    "User interfaces (Computer syst",
+    "User interfaces (Computer systems)",
+    "User-computer interface"
+  ],
+  "ol_work_key": "/works/OL15842384W"
 }

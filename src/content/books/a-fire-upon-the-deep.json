@@ -1,7 +1,7 @@
 {
   "title": "A Fire Upon the Deep",
   "author": "Vernor Vinge",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-fire-upon-the-deep",
   "tags": [
@@ -33,5 +33,31 @@
     "Life on other planets -- Fiction.",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.I534F57 2011",
+    "PS-3572.00000000.I534 F57 1992",
+    "PS-3572.00000000.I534 F57 2011",
+    "PS-3572.00000000.I534"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Hugo Award Winner",
+    "Intellect",
+    "Life on other planets",
+    "Life on other planets -- Fiction.",
+    "Long Now Manual for Civilization",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Vie extraterrestre",
+    "award:hugo_award=1993",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL1975714W"
 }

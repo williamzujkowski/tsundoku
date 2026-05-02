@@ -1,7 +1,7 @@
 {
   "title": "Born in Blood and Fire",
   "author": "John Chasteen",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "born-in-blood-and-fire",
   "tags": [],
@@ -28,5 +28,22 @@
     "F1410 .c4397 2006",
     "980"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "980"
+  ],
+  "lcc": [
+    "F--1410.00000000.C4397 2001",
+    "F--1410.00000000.C4397 2006",
+    "F--1410.00000000.C4397 2005"
+  ],
+  "subject_facet": [
+    "980",
+    "F1410 .c4397 2006",
+    "Geschichte",
+    "Histoire",
+    "History",
+    "Latin america, history"
+  ],
+  "ol_work_key": "/works/OL3483104W"
 }

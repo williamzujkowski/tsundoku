@@ -1,7 +1,7 @@
 {
   "title": "Bring Up the Bodies",
   "author": "Hilary Mantel",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "bring-up-the-bodies",
   "tags": [
@@ -32,5 +32,48 @@
     "Literary",
     "Englisch"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.A438B75 2015",
+    "PR-6063.00000000.A438B75 2024",
+    "PR-6063.00000000.A438B75 2012",
+    "PR-6063.00000000.A438 B75 2012b",
+    "PR-6063.00000000.A438 B75 2013",
+    "PR-6063.00000000.A438B75 2013",
+    "PR-6063.00000000.A438",
+    "PR-6063.00000000.A438 B75 2012"
+  ],
+  "subject_facet": [
+    "Anne Boleyn, Queen, consort of Henry VIII, King of England, 1507-1536 - Fiction",
+    "Booker Prize Winner",
+    "Englisch",
+    "FICTION / Historical",
+    "Fiction",
+    "Fiction / Literary",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fictional Works",
+    "Great Britain - History - Henry VIII, 1509-1547 - Fiction",
+    "Great britain, fiction",
+    "Henry VIII, King of England, 1491-1547 - Fiction",
+    "Histoire",
+    "Historical",
+    "Historischer Roman",
+    "History",
+    "Large type books",
+    "Literary",
+    "Man Booker Prize Winner",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Romans, nouvelles",
+    "award:man_booker_prize=2012",
+    "historical fiction",
+    "literary fiction",
+    "nyt:combined-print-and-e-book-fiction=2012-05-27"
+  ],
+  "ol_work_key": "/works/OL16547664W"
 }

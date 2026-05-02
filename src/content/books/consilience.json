@@ -1,7 +1,7 @@
 {
   "title": "Consilience",
   "author": "E.O. Wilson",
-  "category": "Science",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "consilience",
   "tags": [],
@@ -17,5 +17,30 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=-YsWNfTXU7oC&dq=Consilience+E.O.+Wilson&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "B--0072.00000000.W54 1998",
+    "B--0072.00000000.W54 1999"
+  ],
+  "subject_facet": [
+    "Družbene vede",
+    "Enlightenment",
+    "Filozofija",
+    "Intellect",
+    "Interdisciplinarity approach",
+    "Interdisciplinarnost",
+    "Knowledge",
+    "Knowledge, theory of",
+    "Naravoslovne vede",
+    "Natural sciences",
+    "Order (Philosophy)",
+    "Philosophie",
+    "Philosophy",
+    "Philosophy and science",
+    "Science",
+    "Social sciences",
+    "Wissenschaft",
+    "Znanost"
+  ],
+  "ol_work_key": "/works/OL1378168W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Moon Witch, Spider King",
   "author": "Marlon James",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "moon-witch-spider-king",
   "tags": [
@@ -29,5 +29,35 @@
     "Sorcières",
     "Romans, nouvelles"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-9265.90000000.J358 M66 2022",
+    "PR-9265.90000000.J358"
+  ],
+  "subject_facet": [
+    "Adventure fiction",
+    "Courts and courtiers",
+    "Enfants disparus",
+    "FICTION / African American & Black / General",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Historical",
+    "Fiction",
+    "Hunters",
+    "Mercenary soldiers",
+    "Missing children",
+    "New York Times bestseller",
+    "Pistage",
+    "Quests (Expeditions)",
+    "Quête",
+    "Romans, nouvelles",
+    "Secrecy",
+    "Shapeshifting",
+    "Sorcières",
+    "Tracking and trailing",
+    "Truthfulness and falsehood",
+    "Vendetta",
+    "Witches",
+    "nyt:hardcover-fiction=2022-03-06"
+  ],
+  "ol_work_key": "/works/OL24801712W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "A Cycle of the West",
   "author": "John Gneisenau Neihardt",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-cycle-of-the-west",
   "tags": [
@@ -30,5 +30,17 @@
     "Poetry (poetic works by one author)",
     "West (u.s.), poetry"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3527.00000000.E35A6 2018"
+  ],
+  "subject_facet": [
+    "Fur trade",
+    "History",
+    "Indians of North America",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Wars"
+  ],
+  "ol_work_key": "/works/OL8271530W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Captain Jinks, Hero",
   "author": "Ernest Crosby",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "captain-jinks-hero",
   "tags": [
@@ -36,5 +36,28 @@
     "Juvenile fiction",
     "Propaganda"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781426476969",
+  "ddc": [
+    "813.4"
+  ],
+  "lcc": [
+    "PS-3505.00000000.R88 Cap5",
+    "PZ-0003.00000000.C8792 C",
+    "PZ-0003.00000000.C8792C",
+    "PS-3505.00000000.R88 C",
+    "PZ-0003.00000000.C8792 Cap5"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical, general",
+    "Juvenile fiction",
+    "Militarism",
+    "Propaganda",
+    "Social conditions",
+    "Social problems",
+    "Social problems in fiction"
+  ],
+  "ol_work_key": "/works/OL3219242W"
 }

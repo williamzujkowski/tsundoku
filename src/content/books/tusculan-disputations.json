@@ -1,7 +1,7 @@
 {
   "title": "Tusculan Disputations",
   "author": "Marcus Tullius Cicero",
-  "category": "Philosophy",
+  "category": "Classics",
   "priority": 2,
   "slug": "tusculan-disputations",
   "tags": [
@@ -31,5 +31,11 @@
   "gutenberg_id": 14988,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/14988",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/14988.html.images",
-  "description": "The Tusculanae Disputationes is a series of five books written by Cicero, around 45 BC, attempting to popularise Greek philosophy in ancient Rome, including Stoicism. It is so called as it was reportedly written at his villa in Tusculum. His daughter had recently died and in mourning Cicero devoted himself to philosophical studies."
+  "description": "The Tusculanae Disputationes is a series of five books written by Cicero, around 45 BC, attempting to popularise Greek philosophy in ancient Rome, including Stoicism. It is so called as it was reportedly written at his villa in Tusculum. His daughter had recently died and in mourning Cicero devoted himself to philosophical studies.",
+  "isbn": "9781086371956",
+  "lcc": [
+    "PA-6295.00000000.A3 1890",
+    "PA-6304.00000000.T71"
+  ],
+  "ol_work_key": "/works/OL26427624W"
 }

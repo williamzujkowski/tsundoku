@@ -1,7 +1,7 @@
 {
   "title": "Molloy",
   "author": "Samuel Beckett",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "molloy",
   "tags": [],
@@ -27,5 +27,34 @@
     "Murder",
     "Investigation"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "843.91",
+    "843.914",
+    "823.912"
+  ],
+  "lcc": [
+    "PQ-2603.00000000 E378 M63",
+    "PQ-2603.00000000.E378 A6 1997",
+    "PZ-0003.00000000.B38868 Mo2",
+    "PR-6003.00000000.E282",
+    "PQ-2603.00000000.E378 M6",
+    "PR-6003.00000000.E282 B43",
+    "PQ-2603.00000000.E378A6 1997",
+    "PQ-2603.00000000.B396 M727 1982",
+    "PQ-2603.00000000.E378 Mo2"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "French fiction",
+    "French language materials",
+    "Investigation",
+    "Murder",
+    "Private investigators",
+    "Roman français",
+    "Tramps"
+  ],
+  "ol_work_key": "/works/OL15210983W"
 }

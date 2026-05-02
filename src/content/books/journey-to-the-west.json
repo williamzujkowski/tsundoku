@@ -1,7 +1,7 @@
 {
   "title": "Journey to the West",
   "author": "Wu Cheng'en",
-  "category": "Non-Western History",
+  "category": "Literature",
   "priority": 1,
   "slug": "journey-to-the-west",
   "tags": [
@@ -29,5 +29,13 @@
     "Church and social problems",
     "Catholic Church"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PL-2697.00000000"
+  ],
+  "subject_facet": [
+    "China, fiction",
+    "Fiction, historical, general"
+  ],
+  "ol_work_key": "/works/OL25685975W"
 }

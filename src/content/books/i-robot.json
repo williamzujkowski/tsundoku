@@ -1,7 +1,7 @@
 {
   "title": "I, Robot",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "i-robot",
   "tags": [
@@ -30,5 +30,62 @@
     "space stations",
     "space-based solar power"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.A8316 I",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 I",
+    "PS-3551.00000000.S5 I13 2004",
+    "PZ-0003.00000000",
+    "PS-3551.00000000.S5 I13 1956",
+    "PS-3551.00000000.S5 I76 1991",
+    "PE-1121.00000000"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American Short stories",
+    "American literature",
+    "Artificial intelligence",
+    "Children's fiction",
+    "Fiction",
+    "Fiction, science fiction, collections & anthologies",
+    "Fiction, science fiction, short stories",
+    "Frankenstein complex",
+    "High tech and hard science fiction",
+    "Long Now Manual for Civilization",
+    "Readers",
+    "Readers (Secondary)",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Robots in fiction",
+    "Roman",
+    "Science fiction",
+    "Science fiction, American",
+    "Shahada",
+    "Short stories",
+    "Thriller",
+    "asteroids",
+    "cognitive dissonance",
+    "computers",
+    "heisenbugs",
+    "human-robot relations",
+    "hyperspace",
+    "morality",
+    "positronic brains",
+    "robopsychology",
+    "robotics",
+    "robots",
+    "selenium",
+    "smear campaigns",
+    "space stations",
+    "space-based solar power",
+    "supercomputers",
+    "three laws of robotics"
+  ],
+  "ol_work_key": "/works/OL46241W"
 }

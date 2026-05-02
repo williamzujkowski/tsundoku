@@ -1,7 +1,7 @@
 {
   "title": "More Than Human",
   "author": "Theodore Sturgeon",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "more-than-human",
   "tags": [
@@ -22,5 +22,28 @@
     "American Science fiction",
     "Large type books"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T875M67 1999",
+    "PS-3569.00000000.T875 M67 1993",
+    "PS-3569.00000000.T875",
+    "PS-3569.00000000.T875; Mo",
+    "PS-3569.00000000.T875 Mo",
+    "PS-3569.00000000.T875 M6166 1998",
+    "PS-3569.00000000.T875 Mo 1975",
+    "PR-6045.00000000 A265 M6",
+    "PZ-0003.00000000.S93562 Mo",
+    "PZ-0003.00000000.S93562 Mo 1975",
+    "PS-3569.00000000.T875 M67 1999"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction, science fiction, general",
+    "Large type books"
+  ],
+  "ol_work_key": "/works/OL14868264W"
 }

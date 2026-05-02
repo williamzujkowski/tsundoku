@@ -1,7 +1,7 @@
 {
   "title": "Culture and Imperialism",
   "author": "Edward Said",
-  "category": "Non-Western Philosophy",
+  "category": "Literary Criticism",
   "priority": 1,
   "slug": "culture-and-imperialism",
   "tags": [],
@@ -32,5 +32,45 @@
   ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015055835592",
-  "hathitrust_rights": "Limited (search-only)"
+  "hathitrust_rights": "Limited (search-only)",
+  "ddc": [
+    "809.894",
+    "325",
+    "306.4",
+    "809.93358"
+  ],
+  "lcc": [
+    "PN-0761.00000000.S28 1993",
+    "PN-0761.00000000.S28 1994"
+  ],
+  "subject_facet": [
+    "809/.93358",
+    "Arts of empire",
+    "Colonies",
+    "Colonies in literature",
+    "Colonization",
+    "Culture of empire",
+    "European colonialism",
+    "European imperialism",
+    "European literature",
+    "European literature--history and criticism--philosophy",
+    "European literature--history and criticism--theory, etc",
+    "Government administration",
+    "History and criticism",
+    "Imperialism",
+    "Imperialism in literature",
+    "Literature",
+    "Literature, history and criticism",
+    "Literature--history and criticism--theory, etc",
+    "Philosophy",
+    "Pn761 .s28 1993",
+    "Politics and culture",
+    "Production of empire",
+    "Representation",
+    "Theory",
+    "Theory of empire",
+    "Translations into French",
+    "etc Theory"
+  ],
+  "ol_work_key": "/works/OL27391W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Dao De Jing",
   "author": "Laozi",
-  "category": "Philosophy",
+  "category": "Religion",
   "priority": 1,
   "slug": "dao-de-jing",
   "tags": [
@@ -13,11 +13,28 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9787212019259",
   "pages": 0,
   "first_published": -400,
   "language": "eng",
   "subjects": [
     "r/philosophy Reading List"
-  ]
+  ],
+  "lcc": [
+    "BL-1900.00000000.L26 E5 2016",
+    "BL-1900.00000000.L26",
+    "BL-1900.00000000.L26 E5 2016b"
+  ],
+  "subject_facet": [
+    "Chinese Philosophy",
+    "Dao de jing (Laozi)",
+    "Early works to 1800",
+    "Philosophy",
+    "Religious life",
+    "Sacred books",
+    "Taoism",
+    "Taoist philosophy",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL25202530W"
 }

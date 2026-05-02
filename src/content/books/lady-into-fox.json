@@ -1,7 +1,7 @@
 {
   "title": "Lady Into Fox",
   "author": "David Garnett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "lady-into-fox",
   "tags": [
@@ -29,5 +29,32 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 10337,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/10337",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10337.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10337.html.images",
+  "isbn": "9781406527834",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6013.00000000.A66 L3 1923",
+    "PZ-0003.00000000.G1863 Lad3",
+    "PZ-0003.00000000.G1863 La",
+    "PR-6013.00000000.A66 La",
+    "PR-6013.00000000 A66 L3",
+    "PR-6013.00000000.A66 L3 2008",
+    "PR-6013.00000000.A66 L3 2013",
+    "PR-6013.00000000.A66L3 2014",
+    "PR-6013.00000000.A66 Lad3",
+    "PR-6013.00000000.A66 L3 1922",
+    "PR-6013.00000000.A66"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Foxes",
+    "Metamorphosis"
+  ],
+  "ol_work_key": "/works/OL3042137W"
 }

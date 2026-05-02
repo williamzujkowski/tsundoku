@@ -1,7 +1,7 @@
 {
   "title": "Devotions upon Emergent Occasions",
   "author": "John Donne",
-  "category": "Poetry",
+  "category": "Religion",
   "priority": 1,
   "slug": "devotions-upon-emergent-occasions",
   "tags": [],
@@ -19,5 +19,41 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/23772.html.images",
   "librivox_url": "https://librivox.org/devotions-upon-emergent-occasions-by-john-donne/",
   "copyright_status": "public_domain",
-  "description": "Devotions Upon Emergent Occasions, and severall steps in my Sicknes is a prose work by the English metaphysical poet and cleric in the Church of England, John Donne, published in 1624. It covers death, rebirth and the early modern concept of sickness as a visit from God, reflecting internal sinfulness. The Devotions were written in December 1623 as Donne recovered from a serious but unknown illness – believed to be relapsing fever or typhus."
+  "description": "Devotions Upon Emergent Occasions, and severall steps in my Sicknes is a prose work by the English metaphysical poet and cleric in the Church of England, John Donne, published in 1624. It covers death, rebirth and the early modern concept of sickness as a visit from God, reflecting internal sinfulness. The Devotions were written in December 1623 as Donne recovered from a serious but unknown illness – believed to be relapsing fever or typhus.",
+  "isbn": "9780849206580",
+  "ddc": [
+    "242"
+  ],
+  "lcc": [
+    "BV-4831.00000000",
+    "BV-4831.00000000.D6 1978",
+    "BV-4831.00000000.D6 1923",
+    "BV-4831.00000000.D6 1926",
+    "BV-4831.00000000.D6 1986",
+    "BV-4831.00000000.D6 1975b",
+    "BV-4831.00000000.D6 1987",
+    "BV-4831.00000000.D6",
+    "BV-4831.00000000.D6 1959",
+    "BV-4831.00000000.D6 1975",
+    "BV-4831.00000000 D6 1923",
+    "BV-4831.00000000.D6 1977"
+  ],
+  "subject_facet": [
+    "Christianity",
+    "Devotional literature",
+    "Diseases",
+    "English",
+    "Meditations",
+    "Patients",
+    "Prayer-books and devotions",
+    "Prayers",
+    "Prayers and devotions",
+    "Relapsing fever",
+    "Religious aspects",
+    "Religious aspects of Diseases",
+    "Religious life",
+    "Sick",
+    "Sick, prayers and devotions"
+  ],
+  "ol_work_key": "/works/OL1222879W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Authority",
   "author": "Jeff VanderMeer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "authority",
   "tags": [
@@ -32,5 +32,43 @@
     "Psychic ability",
     "Scientists"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.A4284 A93 2015",
+    "PS-3572.00000000.A4284 A93 2014",
+    "PS-3572.00000000.A4284 A87 2014",
+    "PS-3572.00000000.A4284A93 2014",
+    "PS-3572.00000000.A4284 A93 2014ab",
+    "PS-3572.00000000.A4284"
+  ],
+  "subject_facet": [
+    "Body horror",
+    "Discoveries in geography",
+    "FICTION",
+    "FICTION / Fantasy / General",
+    "FICTION / Literary",
+    "Fantasy",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, suspense",
+    "Fiction, thrillers, suspense",
+    "General",
+    "Horror",
+    "Intelligence officers",
+    "Literary",
+    "New York Times bestseller",
+    "Psychic ability",
+    "Quests (Expeditions)",
+    "Science fiction",
+    "Scientific expeditions",
+    "Scientists",
+    "Scientists, fiction",
+    "Secrecy",
+    "nyt:trade-fiction-paperback=2014-05-25"
+  ],
+  "ol_work_key": "/works/OL17453058W"
 }

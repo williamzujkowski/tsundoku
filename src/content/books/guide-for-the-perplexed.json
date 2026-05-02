@@ -1,7 +1,7 @@
 {
   "title": "Guide for the Perplexed",
   "author": "Maimonides",
-  "category": "Medieval Philosophy & Theology",
+  "category": "Religion",
   "priority": 1,
   "slug": "guide-for-the-perplexed",
   "tags": [
@@ -29,5 +29,20 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73584",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73584.html.images",
   "copyright_status": "public_domain",
-  "description": "The Guide for the Perplexed is a work of Jewish theology by Maimonides. It seeks to reconcile Aristotelianism with Rabbinical Jewish theology by finding rational explanations for many events in the text."
+  "description": "The Guide for the Perplexed is a work of Jewish theology by Maimonides. It seeks to reconcile Aristotelianism with Rabbinical Jewish theology by finding rational explanations for many events in the text.",
+  "isbn": "9781411428645",
+  "lcc": [
+    "BM-0545.00000000.D3 2006",
+    "BM-0545.00000000"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "Jewish philosophy",
+    "Judaism",
+    "Judaism, works to 1900",
+    "Medieval Philosophy",
+    "Philosophy, medieval",
+    "Works to 1900"
+  ],
+  "ol_work_key": "/works/OL21230656W"
 }

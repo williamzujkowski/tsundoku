@@ -1,7 +1,7 @@
 {
   "title": "Artists in Crime",
   "author": "Ngaio Marsh",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "artists-in-crime",
   "tags": [
@@ -32,5 +32,36 @@
     "Fiction, mystery & detective, general",
     "Alleyn, roderick (fictitious character), fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.912",
+    "823",
+    "823.2"
+  ],
+  "lcc": [
+    "PR-9639.30000000.M27A78",
+    "PR-9639.30000000.M27 A78 1980",
+    "PZ-0003.00000000.M3539 Ar 1979",
+    "PR-9639.30000000.M27 Ar 1979",
+    "PZ-0003.00000000.M3539Ar 1979",
+    "PZ-0003.00000000.M3539 Ar",
+    "PR-9639.30000000.M27 Ar",
+    "PR-9639.30000000.M27 A78 2012"
+  ],
+  "subject_facet": [
+    "Alleyn, roderick (fictitious character), fiction",
+    "Crime, fiction",
+    "Drug abuse",
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, police procedural",
+    "Investigation",
+    "Large type books",
+    "Mistresses",
+    "Murder",
+    "Police",
+    "Roderick Alleyn (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL460670W"
 }

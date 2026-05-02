@@ -1,7 +1,7 @@
 {
   "title": "Art of Not Being Governed",
   "author": "James C Scott",
-  "category": "Political Theory",
+  "category": "History",
   "priority": 2,
   "slug": "art-of-not-being-governed",
   "tags": [
@@ -32,5 +32,45 @@
     "Fiction",
     "Nonfiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "305.800959"
+  ],
+  "lcc": [
+    "DS-0523.30000000.S36 2010",
+    "DS-0523.30000000.S36 2009"
+  ],
+  "subject_facet": [
+    "15.75",
+    "305.800959",
+    "Anarchism",
+    "Anthropology",
+    "Bergbewohner",
+    "Discrimination & Race Relations",
+    "Ds523.3 .s36 2009",
+    "Ethnology",
+    "Ethnology, asia",
+    "Ethnology--southeast asia",
+    "Government relations",
+    "Indigenous peoples",
+    "Indigenous peoples--government relations",
+    "Indigenous peoples--southeast asia--government relations",
+    "Minority Studies",
+    "Peasantry",
+    "Peasants",
+    "Peasants, asia",
+    "Peasants--political activity",
+    "Peasants--political activity--southeast asia",
+    "Platteland",
+    "Plattelandsbevolking",
+    "Political activity",
+    "Politics and government",
+    "Politieke macht",
+    "Rural conditions",
+    "Southeast asia, politics and government",
+    "Southeast asia, social conditions",
+    "Southern states, rural conditions",
+    "Staat"
+  ],
+  "ol_work_key": "/works/OL2692034W"
 }

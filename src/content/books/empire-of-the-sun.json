@@ -1,7 +1,7 @@
 {
   "title": "Empire of the Sun",
   "author": "J.G. Ballard",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "empire-of-the-sun",
   "tags": [],
@@ -17,5 +17,37 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=Nn16PW04GEIC&dq=Empire+of+the+Sun+J.G.+Ballard&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A46 E45 1984",
+    "PR-6015.00000000.I3",
+    "PR-6052.00000000 B189 E55 1985 F",
+    "PR-6052.00000000.A46E45 1984",
+    "PR-6052.00000000.A46",
+    "PR-6052.00000000.A46 E45x 1984b",
+    "PR-6052.00000000.A46 E45 2005"
+  ],
+  "subject_facet": [
+    "Bildungsromans",
+    "Boys",
+    "British",
+    "Chang pian xiao shuo",
+    "China, fiction",
+    "Engels",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, media tie-in",
+    "Fiction, war & military",
+    "Garçons",
+    "History",
+    "Romans, nouvelles",
+    "Shanghai (china), fiction",
+    "World War (1939-1945) fast (OCoLC)fst01180924",
+    "World War, 1939-1945",
+    "World war, 1939-1945, fiction"
+  ],
+  "ol_work_key": "/works/OL261889W"
 }

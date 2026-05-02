@@ -1,7 +1,7 @@
 {
   "title": "Betty Zane",
   "author": "Zane Grey",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "betty-zane",
   "tags": [
@@ -36,5 +36,63 @@
     "Open Library Staff Picks",
     "Wars"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3513.00000000.R6545 B",
+    "PS-3513.00000000.R6545 B3",
+    "PS-3513.00000000.R6545B4 1995",
+    "PZ-0003.00000000.G87 B",
+    "PZ-0003.00000000.G87 B3",
+    "PZ-0003.00000000.G87 B9",
+    "PS-3513.00000000.R6545 B4 2003",
+    "PS-3513.00000000.R6545 F68 2004eb",
+    "PS-3513.00000000.R6545B4 2008e",
+    "PS-3513.00000000.R6545 B4 1995",
+    "PS-3513.00000000.R6545 B4 1980",
+    "PS-3513.00000000.R6545B4 2007"
+  ],
+  "subject_facet": [
+    "American Biographical fiction",
+    "American Historical fiction",
+    "American Revolution (1775-1783) fast (OCoLC)fst01351668",
+    "Biographical fiction",
+    "Classic Literature",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Fiction, romance, general",
+    "Fiction, westerns",
+    "Fort Henry (W. Va.) -- Fiction",
+    "Frontier and pioneer life",
+    "Frontier and pioneer life -- Fiction",
+    "Frontier and pioneer life, fiction",
+    "Historical fiction",
+    "History",
+    "Indians of North America",
+    "Indians of North America -- Wars -- 1750-1815 -- Fiction",
+    "Indians of north america, fiction",
+    "Large type books",
+    "Ohio River Valley -- Fiction",
+    "Ohio, fiction",
+    "Open Library Staff Picks",
+    "Pionnières",
+    "Romans, nouvelles",
+    "Scouting (Reconnaissance)",
+    "United states, history",
+    "Wars",
+    "West virginia, fiction",
+    "Western",
+    "Westerns",
+    "Wetzel, Lewis, 1763-1808 -- Fiction",
+    "Women pioneers",
+    "Women pioneers -- Fiction",
+    "Zane, Betty -- Fiction",
+    "Éclairage (Reconnaissance)"
+  ],
+  "ol_work_key": "/works/OL485406W"
 }

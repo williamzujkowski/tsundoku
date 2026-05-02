@@ -1,7 +1,7 @@
 {
   "title": "Man's Search for Meaning",
   "author": "Viktor E. Frankl",
-  "category": "Biography/Memoir",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "mans-search-for-meaning",
   "tags": [
@@ -29,5 +29,29 @@
     "war and conflict",
     "autobiography"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9781446490549",
+  "ddc": [
+    "616.8917",
+    "150.195"
+  ],
+  "lcc": [
+    "RC-0489.00000000.E93",
+    "RC-0455.40000000.R4 F7 1997",
+    "RC-0455.40000000.R4F7 1997",
+    "RC-0455.40000000.R4 F7 2000",
+    "RC-0455.40000000"
+  ],
+  "subject_facet": [
+    "Existential psychotherapy",
+    "Frankl, Viktor E. (Viktor Emil), 1905-",
+    "Logotherapy",
+    "Logothérapie",
+    "Maturation (Psychologie)",
+    "Meaning (psychology)",
+    "Psychiatry and religion",
+    "Psychology and religion",
+    "Psychotherapy"
+  ],
+  "ol_work_key": "/works/OL8257090W"
 }

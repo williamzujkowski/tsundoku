@@ -1,7 +1,7 @@
 {
   "title": "NPCs (Spells Swords & Stealth)",
   "author": "Drew Hayes",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "npcs-spells-swords-stealth",
   "tags": [],
@@ -16,5 +16,12 @@
   "subjects": [
     "Adventure stories"
   ],
-  "google_books_url": "http://books.google.com/books?id=X_24oAEACAAJ&dq=NPCs+(Spells+Swords+%26+Stealth)+Drew+Hayes&hl=&source=gbs_api"
+  "google_books_url": "http://books.google.com/books?id=X_24oAEACAAJ&dq=NPCs+(Spells+Swords+%26+Stealth)+Drew+Hayes&hl=&source=gbs_api",
+  "lcc": [
+    "PS-3608.00000000"
+  ],
+  "subject_facet": [
+    "American literature"
+  ],
+  "ol_work_key": "/works/OL19325353W"
 }

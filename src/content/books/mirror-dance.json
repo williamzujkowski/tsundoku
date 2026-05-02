@@ -1,7 +1,7 @@
 {
   "title": "Mirror Dance",
   "author": "Lois McMaster Bujold",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "mirror-dance",
   "tags": [],
@@ -27,5 +27,32 @@
     "Men with disabilities",
     "Cryonics"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U397 M57 1994",
+    "PS-3552.00000000.U397",
+    "PS-3552.00000000.U397 M57 1995"
+  ],
+  "subject_facet": [
+    "Cloning",
+    "Cryonics",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Hugo Award Winner",
+    "Inheritance and succession",
+    "Inheritanceand succession",
+    "Life on other planets",
+    "Men with disabilities",
+    "Miles Vorkosigan (Fictitious character)",
+    "Nobility",
+    "Science fiction",
+    "Vorkosigan, miles (fictitious character), fiction",
+    "award:hugo_award=1995",
+    "award:hugo_award=novel",
+    "series:vorkosigan_saga"
+  ],
+  "ol_work_key": "/works/OL56890W"
 }

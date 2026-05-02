@@ -1,7 +1,7 @@
 {
   "title": "Anabasis",
   "author": "Xenophon",
-  "category": "Classics",
+  "category": "History",
   "priority": 1,
   "slug": "anabasis",
   "tags": [],
@@ -31,5 +31,14 @@
     "Iran",
     "Greek language"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "938"
+  ],
+  "subject_facet": [
+    "Cyrus, the younger, approximately 423 b.c.-approximately 401 b.c.",
+    "Greece, history, to 146 b.c.",
+    "Iran, history, to 640"
+  ],
+  "ol_work_key": "/works/OL8791378W"
 }

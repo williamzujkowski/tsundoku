@@ -1,7 +1,7 @@
 {
   "title": "Pawn of Prophecy",
   "author": "David Eddings",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "pawn-of-prophecy",
   "tags": [
@@ -13,11 +13,35 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780712602303",
   "pages": 0,
   "first_published": 1982,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3555.00000000.D38 P3 1983",
+    "PS-3555.00000000.D38P3 2012",
+    "PS-3555.00000000.D38 P39 2004"
+  ],
+  "subject_facet": [
+    "Buildungsroman",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Garion (fictitious character), fiction",
+    "Good and evil",
+    "Heroes",
+    "High fantasy",
+    "Juvenile fiction",
+    "Literature",
+    "Magic"
+  ],
+  "ol_work_key": "/works/OL1922990W"
 }

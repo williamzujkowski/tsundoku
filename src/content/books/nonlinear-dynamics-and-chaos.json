@@ -1,7 +1,7 @@
 {
   "title": "Nonlinear Dynamics and Chaos",
   "author": "Steven Strogatz",
-  "category": "Complex Systems",
+  "category": "Science",
   "priority": 1,
   "slug": "nonlinear-dynamics-and-chaos",
   "tags": [
@@ -29,5 +29,38 @@
     "Chaos (théorie des systèmes)",
     "Systèmes dynamiques"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "501.185"
+  ],
+  "lcc": [
+    "Q--0172.50000000.C45 S767 2000",
+    "Q--0172.50000000.C45 S767 1994",
+    "Q--0172.50000000.C45S767 2015",
+    "Q--0172.50000000.C45 S767 2018",
+    "Q--0172.50000000.C45",
+    "Q--0172.50000000.C45 S767 2015",
+    "Q--0172.50000000.C45 S767 1994b",
+    "Q--0172.50000000.C45S767 2024",
+    "Q--0172.50000000.C45S7 2024",
+    "Q--0172.50000000.C45.S767 1994",
+    "QA-0845.00000000"
+  ],
+  "subject_facet": [
+    "501/.1/85",
+    "Chaos",
+    "Chaos (théorie des systèmes)",
+    "Chaotic behavior in systems",
+    "Chemistry",
+    "Dynamics",
+    "Dynamique",
+    "Nonlinear systems",
+    "Nonlinear theories",
+    "Q172.5.c45 s767 1994",
+    "Science",
+    "Systèmes dynamiques",
+    "Théories non linèaires",
+    "Théories non linéaires"
+  ],
+  "ol_work_key": "/works/OL3907581W"
 }

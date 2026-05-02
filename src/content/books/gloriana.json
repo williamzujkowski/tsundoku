@@ -1,7 +1,7 @@
 {
   "title": "Gloriana",
   "author": "Michael Moorcock",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "gloriana",
   "tags": [],
@@ -22,5 +22,35 @@
     "Queens"
   ],
   "copyright_status": "in_copyright",
-  "description": "Gloriana, Op. 53, is an opera in three acts by Benjamin Britten to an English libretto by William Plomer, based on Lytton Strachey's 1928 Elizabeth and Essex: A Tragic History.\nThe first performance was presented at the Royal Opera House, London, in 1953 during the celebrations of the coronation of Queen Elizabeth II. Gloriana was the name given by the 16th-century poet Edmund Spenser to his character representing Queen Elizabeth I in his poem The Faerie Queene."
+  "description": "Gloriana, Op. 53, is an opera in three acts by Benjamin Britten to an English libretto by William Plomer, based on Lytton Strachey's 1928 Elizabeth and Essex: A Tragic History.\nThe first performance was presented at the Royal Opera House, London, in 1953 during the celebrations of the coronation of Queen Elizabeth II. Gloriana was the name given by the 16th-century poet Edmund Spenser to his character representing Queen Elizabeth I in his poem The Faerie Queene.",
+  "isbn": "9780380429868",
+  "ddc": [
+    "823.91",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.O59 G58 2004",
+    "PR-6063.00000000.O59 Gl 1978",
+    "PR-6063.00000000.O59G58 2004",
+    "PR-6063.00000000.O59; Gl 1978",
+    "PZ-0004.00000000.M8185 Gl 1978"
+  ],
+  "subject_facet": [
+    "Courts and courtiers",
+    "Elizabeth i, queen of england, 1533-1603, fiction",
+    "England, fiction",
+    "English Love stories",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fiction, political",
+    "Frustration",
+    "Kings and rulers",
+    "Political corruption",
+    "Queens",
+    "Seduction",
+    "Succession"
+  ],
+  "ol_work_key": "/works/OL2697649W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "A Voice from the South",
   "author": "Anna Julia Cooper",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 2,
   "slug": "a-voice-from-the-south",
   "tags": [
@@ -22,5 +22,37 @@
   "gutenberg_id": 61741,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/61741",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/61741.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781513208374",
+  "ddc": [
+    "975.00496073",
+    "917.5097496"
+  ],
+  "lcc": [
+    "E--0185.86000000.C587 1988",
+    "E--0185.86000000.C587 2021",
+    "E--0185.60000000.C77 1892",
+    "E--0185.00000000",
+    "E--0185.86000000.C587 2017",
+    "E--0185.86000000.C587 2016",
+    "E--0185.60000000.C77 1969"
+  ],
+  "subject_facet": [
+    "African American women",
+    "African Americans",
+    "Afro-Americans",
+    "American literature, african american authors",
+    "American literature, women authors",
+    "Blacks",
+    "Feminism",
+    "History",
+    "Portraits",
+    "Race relations",
+    "Southern states, race relations",
+    "Southern states, social conditions",
+    "United states, race relations",
+    "Women",
+    "Women, united states"
+  ],
+  "ol_work_key": "/works/OL2721707W"
 }

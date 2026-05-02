@@ -1,7 +1,7 @@
 {
   "title": "Children of Dune",
   "author": "Frank Herbert",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "children-of-dune",
   "tags": [
@@ -33,5 +33,37 @@
     "Reading Level-Grade 7",
     "Reading Level-Grade 9"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3558.00000000.E63 C49 1976",
+    "PS-3558.00000000.E63C48 1978",
+    "PS-3558.00000000.E63 C49 2008",
+    "PS-3558.00000000.E63C48 2003",
+    "PS-3558.00000000.E63",
+    "PS-3558.00000000.E63 Ch3",
+    "PS-3558.00000000.E63 C444 1977",
+    "PZ-0004.00000000.H5356 Ch3",
+    "PZ-0002.50000000.H47 C45 1977"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Dune (Imaginary place)",
+    "Dune (imaginary place), fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL893516W"
 }

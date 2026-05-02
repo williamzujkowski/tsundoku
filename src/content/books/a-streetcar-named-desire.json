@@ -1,7 +1,7 @@
 {
   "title": "A Streetcar Named Desire",
   "author": "Tennessee Williams",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-streetcar-named-desire",
   "tags": [
@@ -32,5 +32,61 @@
     "Social classes",
     "Theater"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "812.54",
+    "812.5",
+    "812"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I5365 S8 1947",
+    "PS-3545.00000000.I5365S8 2004",
+    "PS-3545.00000000.I5365 S8 1982",
+    "PS-3545.00000000.I5365S8 1975",
+    "PS-3545.00000000.I5365 S8 1949",
+    "PS-3545.00000000.I5365 S8",
+    "PS-3545.00000000.I5365 S8 2004b",
+    "PS-3545.00000000.I5365 S8 2009",
+    "PS-3545.00000000.I5365 S8 1972",
+    "PS-3545.00000000.I5365 S8 1953",
+    "PS-3545.00000000.I5365 S8 1981",
+    "PS-3545.00000000.I5365 S8*",
+    "PS-3545.00000000.I5365",
+    "PS-3545.00000000.I5365 S87 1990",
+    "PS-3545.00000000.I5365 S8 1975",
+    "PS-3545.00000000 I285 S8 1947a",
+    "PS-3545.00000000.I5365 S8 2004"
+  ],
+  "subject_facet": [
+    "American drama",
+    "American drama (dramatic works by one author)",
+    "American drama, 20th century",
+    "CHR 1980",
+    "Children's plays",
+    "Domestic drama",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Manners and customs",
+    "Married people",
+    "PRO Gotham Book Mart (former owner) (Gotham Book Mart Collection copies 1-3)",
+    "Plays",
+    "Polish Americans",
+    "Rape",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Sisters",
+    "Social classes",
+    "Social life and customs",
+    "Theater",
+    "Widows",
+    "Women",
+    "Women teachers",
+    "fiction",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL30294W"
 }

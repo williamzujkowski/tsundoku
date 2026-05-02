@@ -1,7 +1,7 @@
 {
   "title": "Libra",
   "author": "Don DeLillo",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "libra",
   "tags": [
@@ -29,5 +29,41 @@
     "Romans, nouvelles",
     "Fiction, historical"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.E4425 L5317 2005",
+    "PS-3554.00000000.E4425L53 1989",
+    "PS-3554.00000000.E4425 L53 1989",
+    "PS-3554.00000000.E4425 L53 1988",
+    "PS-3554.00000000.E4425 L63 1989b",
+    "PS-3554.00000000.E4425L53 1988",
+    "PS-3554.00000000.E4425",
+    "PS-3554.00000000.E4425 L53 2006"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "American literature",
+    "Assassinat",
+    "Assassination",
+    "Assassinationkennedy, john f. (john fitzgerald) , 1917-1963",
+    "Assassins",
+    "Fiction",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fiction, historical",
+    "Large type books",
+    "Literature",
+    "Oswald, lee harvey",
+    "Presidents",
+    "Presidents, united states, fiction",
+    "Présidents",
+    "Ps3554.e4425 l53 2006",
+    "Roman",
+    "Roman américain",
+    "Romans, nouvelles"
+  ],
+  "ol_work_key": "/works/OL1921198W"
 }

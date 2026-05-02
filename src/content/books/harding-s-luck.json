@@ -1,7 +1,7 @@
 {
   "title": "Harding's Luck",
   "author": "E. Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "harding-s-luck",
   "tags": [
@@ -22,5 +22,16 @@
   "gutenberg_id": 28725,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28725",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28725.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781697441420",
+  "ddc": [
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.B61 Ha"
+  ],
+  "subject_facet": [
+    "Fantasy fiction"
+  ],
+  "ol_work_key": "/works/OL7984876W"
 }

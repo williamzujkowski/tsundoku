@@ -1,7 +1,7 @@
 {
   "title": "Malgudi Days",
   "author": "R.K. Narayan",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 1,
   "slug": "malgudi-days",
   "tags": [],
@@ -17,5 +17,35 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=dqRETZRkGCcC&dq=Malgudi+Days+R.K.+Narayan&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-9499.30000000.N3 M34 1984",
+    "PK-5502.00000000.N37 M35",
+    "PR-9499.30000000.N3 M34 1982",
+    "PR-9499.30000000.N3M34 2006",
+    "PR-9499.30000000.N3 M34 2006",
+    "PR-9499.30000000.N3 M34 1982b"
+  ],
+  "subject_facet": [
+    "823/.912",
+    "City and town life",
+    "City and town life--fiction",
+    "Fiction, general",
+    "Hindi Short stories",
+    "India",
+    "India, fiction",
+    "Indian Literature",
+    "Malgudi (India : Imaginary place)",
+    "Malgudi (india : imaginary place)--fiction",
+    "Pr9499.3.n3 m34 2006",
+    "Shot stories",
+    "Social life and customs",
+    "classics",
+    "fiction"
+  ],
+  "ol_work_key": "/works/OL1057177W"
 }

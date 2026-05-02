@@ -1,7 +1,7 @@
 {
   "title": "Nationalism",
   "author": "Rabindranath Tagore",
-  "category": "Non-Western Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "nationalism",
   "tags": [],
@@ -17,5 +17,25 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 40766,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/40766",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/40766.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/40766.html.images",
+  "isbn": "9780333231142",
+  "ddc": [
+    "320.54"
+  ],
+  "lcc": [
+    "JC-0311.00000000.T2624 1918",
+    "JC-0311.00000000.R33 1917",
+    "JC-0311.00000000 T315",
+    "JC-0311.00000000 T3 1921",
+    "JC-0311.00000000.T26",
+    "JC-0311.00000000",
+    "JC-0311.00000000.T26 1973"
+  ],
+  "subject_facet": [
+    "Ethnic groups",
+    "Nationalism",
+    "Nationalism and nationality",
+    "Principle of Nationalities"
+  ],
+  "ol_work_key": "/works/OL308663W"
 }

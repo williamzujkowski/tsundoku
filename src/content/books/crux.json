@@ -1,7 +1,7 @@
 {
   "title": "Crux",
   "author": "Ramez Naam",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "crux",
   "tags": [],
@@ -12,5 +12,25 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7261360-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7261360-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16806526W",
-  "first_published": 2013
+  "first_published": 2013,
+  "isbn": "9780857665515",
+  "lcc": [
+    "PS-3614.00000000.A15 C78 2013"
+  ],
+  "subject_facet": [
+    "Disruptive technologies",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Human body and technology",
+    "Long Now Manual for Civilization",
+    "Scientists",
+    "Shanghai (china), fiction",
+    "Technology",
+    "Terrorists",
+    "Thailand, fiction",
+    "Vietnam, fiction",
+    "Washington (d.c.), fiction",
+    "science-fiction"
+  ],
+  "ol_work_key": "/works/OL16806526W"
 }

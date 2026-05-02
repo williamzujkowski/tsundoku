@@ -1,7 +1,7 @@
 {
   "title": "Her Smoke Rose Up Forever",
   "author": "James Tiptree Jr.",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "her-smoke-rose-up-forever",
   "tags": [
@@ -28,5 +28,26 @@
     "American fiction",
     "Women authors"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3570.00000000.I66 A6 2004",
+    "PS-3570.00000000.I66",
+    "PS-3570.00000000.I66 A6 1990",
+    "PS-3570.00000000.I66A6 2004"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "American Science fiction",
+    "American fiction",
+    "American fiction--women authors",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Ps3570.i66 a6 2004",
+    "Science fiction, american",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL7910223W"
 }

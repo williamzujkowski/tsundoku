@@ -1,7 +1,7 @@
 {
   "title": "American Pastoral",
   "author": "Philip Roth",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "american-pastoral",
   "tags": [
@@ -33,5 +33,41 @@
     "Literary Fiction",
     "Suspense & Thriller"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O855 A77 1997",
+    "PS-3568.00000000.O855A77 1998",
+    "PS-3568.00000000.O855 A77 1998",
+    "PS-3568.00000000.O855 A44 2016",
+    "PS-3568.00000000.O855",
+    "PS-3568.00000000.O855 A63 2007",
+    "PS-3568.00000000.O855A77 1997"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Anglo-American literature",
+    "Bombings",
+    "Fathers and daughters",
+    "Fiction, general",
+    "Historical fiction",
+    "History",
+    "Jewish Americans",
+    "Jewish businesspeople",
+    "Literary Fiction",
+    "Marines",
+    "Pastoral fiction",
+    "Suspense & Thriller",
+    "Vietnam War",
+    "domestic fiction",
+    "facelift surgery",
+    "family relations",
+    "fiction",
+    "open_syllabus_project",
+    "social conditions",
+    "social life and customs"
+  ],
+  "ol_work_key": "/works/OL74666W"
 }

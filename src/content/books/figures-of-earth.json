@@ -1,7 +1,7 @@
 {
   "title": "Figures of Earth",
   "author": "James Branch Cabell",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "figures-of-earth",
   "tags": [
@@ -31,5 +31,35 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/11639",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/11639.html.images",
   "copyright_status": "public_domain",
-  "description": "Figures of Earth: A Comedy of Appearances (1921) is a fantasy novel or ironic romance by James Branch Cabell, set in the imaginary French province of Poictesme during the first half of the 13th century. The book follows the earthly career of Dom Manuel the Redeemer from his origins as a swineherd, through his elevation to the rank of Count of Poictesme, to his death. It forms the second volume of Cabell's gigantic Biography of the Life of Manuel."
+  "description": "Figures of Earth: A Comedy of Appearances (1921) is a fantasy novel or ironic romance by James Branch Cabell, set in the imaginary French province of Poictesme during the first half of the 13th century. The book follows the earthly career of Dom Manuel the Redeemer from his origins as a swineherd, through his elevation to the rank of Count of Poictesme, to his death. It forms the second volume of Cabell's gigantic Biography of the Life of Manuel.",
+  "isbn": "9781494414764",
+  "ddc": [
+    "823.91",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3505.00000000.A153 F5 1926",
+    "PS-3505.00000000.A153",
+    "PS-3505.00000000.C10 Fi",
+    "PS-3505.00000000.A153F5 1921 Fi",
+    "PS-3505.00000000 A153 F5 1925",
+    "PS-3505.00000000 A153 F5 1926",
+    "PS-3505.00000000.A153 Fi",
+    "PZ-0003.00000000.C107 Fi",
+    "PS-3505.00000000.A153 A1 1927 v.2"
+  ],
+  "subject_facet": [
+    "American",
+    "Comedy",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Heroes",
+    "Humor, general",
+    "Medieval Civilization",
+    "Poictesme (imaginary place), fiction",
+    "Wit and humor"
+  ],
+  "ol_work_key": "/works/OL6585787W"
 }

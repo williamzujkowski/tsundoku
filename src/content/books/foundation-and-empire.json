@@ -1,7 +1,7 @@
 {
   "title": "Foundation and Empire",
   "author": "Isaac Asimov",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "foundation-and-empire",
   "tags": [
@@ -29,5 +29,37 @@
     "Vie extraterrestre",
     "Romans, nouvelles"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5 F64x",
+    "PS-3551.00000000.S5 F596 2004",
+    "PZ-0003.00000000.A8316 F686 1983",
+    "PS-3551.00000000.S5F771f",
+    "PS-3551.00000000.S5 Fq 1979",
+    "PS-3551.00000000.S5",
+    "PZ-0003.00000000.A8316 Fq 1979",
+    "PZ-0003.00000000.A8316 Fo",
+    "PS-3551.00000000.S5 F596 1991"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hari Seldon (Fictitious character)",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Psychohistoire",
+    "Psychohistory",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Trantorian empire (imaginary place), fiction",
+    "Vie extraterrestre",
+    "award:retro_hugo"
+  ],
+  "ol_work_key": "/works/OL46224W"
 }

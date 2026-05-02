@@ -1,7 +1,7 @@
 {
   "title": "Bulfinch's Mythology",
   "author": "Thomas Bulfinch",
-  "category": "Literature",
+  "category": "Religion",
   "priority": 2,
   "slug": "bulfinch-s-mythology",
   "tags": [
@@ -24,5 +24,47 @@
   "worldcat_url": "https://www.worldcat.org/oclc/40185742",
   "lccn": "69011314",
   "copyright_status": "public_domain",
-  "description": "ANCIENT mythologies have much to do with modern literature."
+  "description": "ANCIENT mythologies have much to do with modern literature.",
+  "isbn": "9781514719039",
+  "ddc": [
+    "398.2",
+    "291",
+    "292",
+    "291.13",
+    "290"
+  ],
+  "lcc": [
+    "BL-0310.00000000.B76 1913",
+    "BL-0310.00000000.B82 1970",
+    "BL-0310.00000000.B76 1934",
+    "BL-0310.00000000.B76 1900b",
+    "BL-0310.00000000.B82 1968b",
+    "BL-0310.00000000.B82 1992",
+    "BL-0310.00000000.B82 1991"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Celtic Mythology",
+    "Charlemagne (Romances, etc.)",
+    "Charlemagne, Emperor, 742-814 -- Romances -- Adaptations",
+    "Charlemagne, emperor, 742-814",
+    "Chivalry",
+    "Classical Mythology",
+    "Folklore",
+    "Folklore -- Europe",
+    "Folklore, europe",
+    "Hindu mythology",
+    "Large print books",
+    "Large type books",
+    "Livres en gros caractères",
+    "Long Now Manual for Civilization",
+    "Mythologie ancienne",
+    "Mythologie celtique",
+    "Mythologie hindoue",
+    "Mythologie nordique",
+    "Mythology",
+    "Norse Mythology",
+    "Romances"
+  ],
+  "ol_work_key": "/works/OL77565W"
 }

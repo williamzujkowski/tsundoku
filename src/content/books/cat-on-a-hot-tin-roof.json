@@ -1,7 +1,7 @@
 {
   "title": "Cat on a Hot Tin Roof",
   "author": "Tennessee Williams",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "cat-on-a-hot-tin-roof",
   "tags": [
@@ -34,5 +34,52 @@
     "Families",
     "Fathers and sons -- Drama"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "812.5",
+    "812",
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I5365C37 2004",
+    "PS-3545.00000000.I5365 C37 1956",
+    "PS-3545.00000000.I5365 C37 2004",
+    "PS-3545.00000000.I5365 C37 1958",
+    "PS-3545.00000000.I5365C37 1975",
+    "PS-3545.00000000.I5365 C37 2010",
+    "PS-3545.00000000.I5365 C37",
+    "PS-3545.00000000.I5365",
+    "PS-3545.00000000.I5365 C37 1975",
+    "PS-3545.00000000.I5365C37 2010",
+    "PS-3545.00000000 I5365 C3",
+    "PS-3545.00000000.I5365 C37 1955b",
+    "PS-3545.00000000.I 5365C37"
+  ],
+  "subject_facet": [
+    "American",
+    "American Domestic drama",
+    "American drama",
+    "American drama (dramatic works by one author)",
+    "Domestic drama",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Families",
+    "Family",
+    "Father-son relationship",
+    "Fathers and sons",
+    "Fathers and sons -- Drama",
+    "Inheritance and succession",
+    "Inheritance and succession -- Drama",
+    "Mississippi -- Drama",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Terminally ill",
+    "Terminally ill -- Drama",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL30292W"
 }

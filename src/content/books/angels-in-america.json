@@ -1,7 +1,7 @@
 {
   "title": "Angels in America",
   "author": "Tony Kushner",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "angels-in-america",
   "tags": [
@@ -32,5 +32,21 @@
     "American drama (dramatic works by one author)",
     "Passing (Identity)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "812.54",
+    "812.6"
+  ],
+  "lcc": [
+    "PS-3561.00000000.U778 A8537 2008",
+    "PS-3561.00000000.U778A8537 200",
+    "PS-3561.00000000.U778"
+  ],
+  "subject_facet": [
+    "American drama, history and criticism, 20th century",
+    "American drama, history and criticism, 21st century",
+    "Criticism and interpretation",
+    "LGBTQ plays"
+  ],
+  "ol_work_key": "/works/OL13766770W"
 }

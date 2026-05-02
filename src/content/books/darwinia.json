@@ -1,7 +1,7 @@
 {
   "title": "Darwinia",
   "author": "Robert Charles Wilson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "darwinia",
   "tags": [
@@ -29,5 +29,22 @@
     "Fiction, alternative history",
     "Utopias"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W4987D37",
+    "PR-9199.30000000.W4987 D37 1998",
+    "PS-8595.00000000.I587 D37 1998"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, alternative history",
+    "Fiction, science fiction, general",
+    "Imaginary histories",
+    "Science fiction",
+    "Utopias"
+  ],
+  "ol_work_key": "/works/OL8339326W"
 }

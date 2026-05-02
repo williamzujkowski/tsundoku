@@ -1,7 +1,7 @@
 {
   "title": "Causality",
   "author": "Judea Pearl",
-  "category": "Computer Science",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "causality",
   "tags": [
@@ -32,5 +32,33 @@
     "Vernunft",
     "Kausalmodell"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "122"
+  ],
+  "lcc": [
+    "BD-0541.00000000.P43 2013",
+    "BD-0541.00000000.P43 2009",
+    "BD-0541.00000000.P43 2000"
+  ],
+  "subject_facet": [
+    "122",
+    "Bd541 .p43 2000",
+    "Causality",
+    "Causality (physics)",
+    "Causation",
+    "Kausalität",
+    "Kausalitätswahrnehmung",
+    "Kausalmodell",
+    "Mathematik",
+    "Methode",
+    "Philosophy",
+    "Probabilities",
+    "Probability",
+    "Science",
+    "Vernunft",
+    "Wahrscheinlichkeitsrechnung",
+    "Wissenschaft"
+  ],
+  "ol_work_key": "/works/OL4624596W"
 }

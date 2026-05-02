@@ -1,7 +1,7 @@
 {
   "title": "Deadhouse Gates",
   "author": "Steven Erikson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "deadhouse-gates",
   "tags": [
@@ -30,5 +30,25 @@
     "Prophets",
     "Imaginary wars and battles"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3605.00000000.R55D43 2004",
+    "PR-9199.30000000",
+    "PR-9199.40000000.E745 D43 2004",
+    "PR-9199.30000000.E755 D43 2006"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, space opera",
+    "Imaginary wars and battles",
+    "Prophets"
+  ],
+  "ol_work_key": "/works/OL5734770W"
 }

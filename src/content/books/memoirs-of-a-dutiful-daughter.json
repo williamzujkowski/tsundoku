@@ -1,7 +1,7 @@
 {
   "title": "Memoirs of a Dutiful Daughter",
   "author": "Simone de Beauvoir",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "memoirs-of-a-dutiful-daughter",
   "tags": [
@@ -29,5 +29,43 @@
     "Ensaio Frances",
     "Écrivaines françaises"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "848.91409",
+    "843.914",
+    "843.912",
+    "843"
+  ],
+  "lcc": [
+    "PQ-2603.00000000.E362 Z526 1958",
+    "PQ-2603.00000000 E362 Z526 1966",
+    "PQ-2603.00000000 E362 Z5263",
+    "PQ-2603.00000000.E362 Z523",
+    "PQ-2603.00000000.E362",
+    "PQ-2603.00000000.E362 Z523 2005",
+    "PQ-2603.00000000.E362 Z523 1963",
+    "PQ-2603.00000000.E362 Z52",
+    "PQ-2603.00000000.E362Z/",
+    "PQ-2603.00000000.E362 Z523 1974"
+  ],
+  "subject_facet": [
+    "Authors, biography",
+    "Beauvoir, simone de, 1908-1986",
+    "Biographies",
+    "Biography",
+    "Childhood and youth",
+    "Ecrivains franais",
+    "Ecrivains français. 20e siècle. Biographies",
+    "Ensaio Frances",
+    "Feminists",
+    "French Authors",
+    "French Women authors",
+    "Intellectual life",
+    "Interpersonal relations",
+    "Philosophers, france",
+    "Women authors",
+    "Écrivaines françaises",
+    "Écrivains français"
+  ],
+  "ol_work_key": "/works/OL260382W"
 }

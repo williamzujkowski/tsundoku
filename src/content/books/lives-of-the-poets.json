@@ -1,7 +1,7 @@
 {
   "title": "Lives of the Poets",
   "author": "Samuel Johnson",
-  "category": "Literary Criticism",
+  "category": "Poetry",
   "priority": 1,
   "slug": "lives-of-the-poets",
   "tags": [
@@ -30,5 +30,52 @@
   "gutenberg_id": 24218,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/24218",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/24218.html.images",
-  "description": "Lives of the Most Eminent English Poets (1779–81), alternatively known by the shorter title Lives of the Poets, is a work by Samuel Johnson comprising short biographies and critical appraisals of 52 poets, most of whom lived during the eighteenth century. These were arranged, approximately, by date of death."
+  "description": "Lives of the Most Eminent English Poets (1779–81), alternatively known by the shorter title Lives of the Poets, is a work by Samuel Johnson comprising short biographies and critical appraisals of 52 poets, most of whom lived during the eighteenth century. These were arranged, approximately, by date of death.",
+  "isbn": "9780300123142",
+  "ddc": [
+    "821.009",
+    "821.00922",
+    "928.2"
+  ],
+  "lcc": [
+    "PR-0553.00000000 J725 1901",
+    "AC-0001.00000000.E8 no. 770-771",
+    "PR-0553.00000000.J8 1955",
+    "PR-3521.00000000.Y3",
+    "PR-0553.00000000 J7 1906",
+    "PR-0553.00000000.J",
+    "PR-3521.00000000.Y3 1958 v.21, etc.",
+    "PR-0553.00000000 J7 1896",
+    "PR-0553.00000000 J7 1905",
+    "PR-0553.00000000.J7 2010",
+    "PR-0553.00000000.J7 1825",
+    "PR-3581.00000000 J6 1906",
+    "PR-0553.00000000.J7 1967",
+    "PR-0553.00000000",
+    "PR-0553.00000000.J7 1905",
+    "PR-0553.00000000.J7 1968",
+    "PR-0553.00000000.J7 1955",
+    "PR-0553.00000000.J8 1975",
+    "PR-0553.00000000.J7 1929",
+    "PR-0553.00000000 J7 1890"
+  ],
+  "subject_facet": [
+    "Biographies",
+    "Biography",
+    "Dichters",
+    "Early modern",
+    "Early works to 1800",
+    "English Poets",
+    "English poetry",
+    "English poetry, history and criticism",
+    "English poetry, history and criticism, early modern, 1500-1700",
+    "Histoire et critique",
+    "History and criticism",
+    "Johnson, samuel, 1709-1784",
+    "Poets, English",
+    "Poets, biography",
+    "Poètes anglais",
+    "Poésie anglaise"
+  ],
+  "ol_work_key": "/works/OL15291070W"
 }

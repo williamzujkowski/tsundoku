@@ -1,7 +1,7 @@
 {
   "title": "A Mercy",
   "author": "Toni Morrison",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-mercy",
   "tags": [
@@ -32,5 +32,59 @@
     "Girls",
     "Slavery"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000 M882 M557 2009 F",
+    "PS-3563.00000000.O8749M47 2008",
+    "PS-3563.00000000.O8749 M47 2008eb",
+    "PS-3563.00000000.O8749 M47 2008b",
+    "PS-3563.00000000.O8749M47 2009",
+    "PS-3563.00000000.O8749",
+    "PS-3563.00000000.O8749 M47 2009",
+    "PS-3563.00000000.O8749 M47 2008"
+  ],
+  "subject_facet": [
+    "Adoption interraciale",
+    "African American girls",
+    "African Americans",
+    "African americans, fiction",
+    "American fiction (fictional works by one author)",
+    "Child slaves",
+    "Commerce",
+    "Esclavage",
+    "Esclaves",
+    "Farm life",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Filles noires am?ricaines",
+    "Filles noires américaines",
+    "General",
+    "Girls",
+    "Grief",
+    "Historical Fiction",
+    "History",
+    "Interracial adoption",
+    "Large type books",
+    "Literary",
+    "Literature",
+    "Littérature américaine",
+    "Mothers and daughters",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Prejudices",
+    "Racism",
+    "Racisme",
+    "Roman",
+    "Romans, nouvelles",
+    "Slave trade",
+    "Slavery",
+    "Slaves, fiction",
+    "Social conditions",
+    "nyt:hardcover-fiction=2008-11-30"
+  ],
+  "ol_work_key": "/works/OL50560W"
 }

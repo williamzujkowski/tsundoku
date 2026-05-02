@@ -1,7 +1,7 @@
 {
   "title": "Designing BSD Rootkits",
   "author": "Joseph Kong",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "designing-bsd-rootkits",
   "tags": [
@@ -29,5 +29,18 @@
   ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015069341249",
-  "hathitrust_rights": "Limited (search-only)"
+  "hathitrust_rights": "Limited (search-only)",
+  "lcc": [
+    "QA-0076.76000000.O63K649 2007",
+    "QA-0076.76000000.O63 K649 2007"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Computer security",
+    "Free computer software",
+    "FreeBSD",
+    "Operating systems (Computers)",
+    "Rootkits (Computer software)"
+  ],
+  "ol_work_key": "/works/OL8989113W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Jade Legacy",
   "author": "Fonda Lee",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "jade-legacy",
   "tags": [],
@@ -18,5 +18,12 @@
   "subjects": [
     "American literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3612.00000000.E34285J37"
+  ],
+  "subject_facet": [
+    "American literature"
+  ],
+  "ol_work_key": "/works/OL24340549W"
 }

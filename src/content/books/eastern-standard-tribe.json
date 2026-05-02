@@ -1,7 +1,7 @@
 {
   "title": "Eastern Standard Tribe",
   "author": "Cory Doctorow",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "eastern-standard-tribe",
   "tags": [
@@ -31,5 +31,30 @@
   "gutenberg_id": 17028,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/17028",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/17028.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]",
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3604.00000000.O27 E23 2004",
+    "PS-3604.00000000.O27E23 2004",
+    "PS-3604.00000000.O27",
+    "PS-3604.00000000.O27 E23 2018",
+    "PS-3604.00000000.O27 E23 2005"
+  ],
+  "subject_facet": [
+    "Americans",
+    "Business consultants",
+    "Conspiracies",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science fiction",
+    "Secret societies",
+    "Sleep-wake cycle",
+    "Systems and standards",
+    "Time",
+    "Young men"
+  ],
+  "ol_work_key": "/works/OL5734713W"
 }

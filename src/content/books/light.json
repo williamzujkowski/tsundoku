@@ -1,7 +1,7 @@
 {
   "title": "Light",
   "author": "M. John Harrison",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "light",
   "tags": [
@@ -29,5 +29,26 @@
     "Cree (Langue)",
     "Christian life"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6058.00000000.A6942 H54 2004",
+    "PR-6058.00000000.A6942H54 2019",
+    "PR-6058.00000000.A6942",
+    "PR-6058.00000000.A6942 L54 2002",
+    "PR-6058.00000000.A6942 L54 2004"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "LGBTQ gender identity",
+    "LGBTQ science fiction & fantasy",
+    "Science Fiction",
+    "Serial murderers",
+    "Space and time",
+    "collection:otherwise_tiptree_award=winner"
+  ],
+  "ol_work_key": "/works/OL2643429W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Doing Math with Python",
   "author": "Amit Saha",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "doing-math-with-python",
   "tags": [
@@ -27,5 +27,23 @@
     "Mathematics, data processing",
     "Python (computer program language)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "510.2855133"
+  ],
+  "lcc": [
+    "QA-0076.73000000.P98S24 2015",
+    "QA-0020.00000000.C65 S24 2015"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Data processing",
+    "Mathematics",
+    "Mathematics, data processing",
+    "Mathematics, study and teaching",
+    "Python (Computer program language)",
+    "Python (computer program language)",
+    "Study and teaching"
+  ],
+  "ol_work_key": "/works/OL19998769W"
 }

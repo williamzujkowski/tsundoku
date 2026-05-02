@@ -1,7 +1,7 @@
 {
   "title": "Equal Rites",
   "author": "Terry Pratchett",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "equal-rites",
   "tags": [
@@ -29,5 +29,39 @@
     "Discworld (imaginary place), fiction",
     "Fiction, fantasy, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34.E67.S7 2002",
+    "PR-6066.00000000.R34",
+    "PR-6066.00000000.R34 E68 1988",
+    "PR-6066.00000000.R34E69 2005",
+    "PR-6066.00000000.R34 E69 2005"
+  ],
+  "subject_facet": [
+    "Discworld (Imaginary place)",
+    "Discworld (imaginary place), fiction",
+    "English Fantasy fiction",
+    "English literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, satire",
+    "Fiction, science fiction, general",
+    "Granny weatherwax (fictitious character), fiction",
+    "Literature and fiction, fantasy",
+    "Margaret A. Edwards Award",
+    "Samuel Vimes (Fictitious character)",
+    "Science fiction",
+    "Spanish Fantasy fiction",
+    "Translations from English",
+    "Translations into Spanish",
+    "Wizards"
+  ],
+  "ol_work_key": "/works/OL453670W"
 }

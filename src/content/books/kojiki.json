@@ -1,7 +1,7 @@
 {
   "title": "Kojiki",
   "author": "O no Yasumaro",
-  "category": "Classics",
+  "category": "History",
   "priority": 1,
   "slug": "kojiki",
   "tags": [],
@@ -17,5 +17,39 @@
   "subjects": [
     "Japan"
   ],
-  "google_books_url": "http://books.google.com/books?id=QbqEMgEACAAJ&dq=Kojiki+O+no+Yasumaro&hl=&source=gbs_api"
+  "google_books_url": "http://books.google.com/books?id=QbqEMgEACAAJ&dq=Kojiki+O+no+Yasumaro&hl=&source=gbs_api",
+  "ddc": [
+    "952.01",
+    "068.52"
+  ],
+  "lcc": [
+    "DS-0851.00000000.A2 K64 2000",
+    "DS-0855.00000000.K624 1948",
+    "DS-0855.00000000 K6213 2014",
+    "DS-0855.00000000.K62 2014b",
+    "DS-0855.00000000.K62 1979",
+    "AS-0552.00000000.Y8 vol. 10",
+    "DS-0855.00000000.K6 1882g",
+    "DS-0855.00000000.K6213 2014",
+    "DS-0855.00000000.K62127 2001",
+    "BL-2217.20000000.K613",
+    "DS-0855.00000000.K62 1687",
+    "DS-0855.00000000.K62127 2018",
+    "BL-2200.00000000.Y3 1932"
+  ],
+  "subject_facet": [
+    "English literature",
+    "History",
+    "Japan, history",
+    "Japan, kings and rulers",
+    "Japanese Mythology",
+    "Japanese literature",
+    "Japanese literature, translations into english",
+    "Kings and rulers",
+    "Mythology, Japanese",
+    "Shinto",
+    "Sources",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL1148493W"
 }

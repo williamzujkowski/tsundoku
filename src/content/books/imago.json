@@ -1,7 +1,7 @@
 {
   "title": "Imago",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "imago",
   "tags": [
@@ -21,5 +21,25 @@
     "American Science fiction",
     "Fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827I44 1989",
+    "PS-3568.00000000.O243",
+    "PS-3552.00000000.U827 I44 1989",
+    "PS-3552.00000000.U827 I44 1990",
+    "PS-3552.00000000.U827 I44 1997"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Genetic engineering",
+    "Genetisch materiaal",
+    "Menselijk lichaam",
+    "Persoonlijke integriteit",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL35613W"
 }

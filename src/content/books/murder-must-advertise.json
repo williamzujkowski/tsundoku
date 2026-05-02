@@ -1,7 +1,7 @@
 {
   "title": "Murder Must Advertise",
   "author": "Dorothy L. Sayers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "murder-must-advertise",
   "tags": [
@@ -28,5 +28,42 @@
     "England, fiction",
     "Fiction, mystery & detective, traditional"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "isbn": "9781453262412",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S2738 Mu6",
+    "PR-6037.00000000.A95",
+    "PR-6037.00000000.A95 M8 1986",
+    "PR-6037.00000000.A95 Mu3",
+    "PZ-0003.00000000.S2738Mu6",
+    "PZ-0003.00000000.S2738 Mu3",
+    "PR-6037.00000000.A95 M8 1933",
+    "PR-6037.00000000.A95 Mu6",
+    "PR-6037.00000000.A95 M87",
+    "PR-6037.00000000.A95M8 1986",
+    "PR-6037.00000000.A95 M8 1980"
+  ],
+  "subject_facet": [
+    "Chang pian xiao shuo",
+    "Detective and mystery stories",
+    "Détectives",
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, historical",
+    "Fiction, mystery & detective, traditional",
+    "Large type books",
+    "Lord Wimsey, Peter (Fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Romans, nouvelles",
+    "Wimsey, peter, lord (fictitious character), fiction",
+    "Zhen tan xiao shuo",
+    "Zhen tan xiao shuo ."
+  ],
+  "ol_work_key": "/works/OL2235005W"
 }

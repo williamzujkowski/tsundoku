@@ -1,7 +1,7 @@
 {
   "title": "Binti",
   "author": "Nnedi Okorafor",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "binti",
   "tags": [
@@ -33,5 +33,23 @@
     "general",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3615.00000000.K67 B55 2018",
+    "PS-3615.00000000.K67",
+    "PS-3615.00000000.K67B55 2018"
+  ],
+  "subject_facet": [
+    "Afro-futurism",
+    "College stories",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Human-alien encounters",
+    "Interstellar travel",
+    "fantasy",
+    "general",
+    "science fiction"
+  ],
+  "ol_work_key": "/works/OL19330487W"
 }

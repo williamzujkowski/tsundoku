@@ -1,7 +1,7 @@
 {
   "title": "Fever Dream",
   "author": "Samanta Schweblin",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "fever-dream",
   "tags": [
@@ -29,5 +29,28 @@
     "Spanish"
   ],
   "copyright_status": "in_copyright",
-  "description": "Fever Dream is a 2014 novel by Samanta Schweblin. An English translation by Megan McDowell was published in 2017 through Riverhead Books. The novel has elements of psychological fiction and takes inspiration from the environmental problems in Argentina."
+  "description": "Fever Dream is a 2014 novel by Samanta Schweblin. An English translation by Megan McDowell was published in 2017 through Riverhead Books. The novel has elements of psychological fiction and takes inspiration from the environmental problems in Argentina.",
+  "ddc": [
+    "863.64"
+  ],
+  "lcc": [
+    "PQ-7798.29000000.C5388 N8313 2017",
+    "PQ-7798.29000000.C5388D57",
+    "PQ-7798.29000000.C5388",
+    "PQ-7798.29000000.C5388N8313",
+    "PQ-7798.29000000.C5388 D57 2014"
+  ],
+  "subject_facet": [
+    "FICTION / Horror",
+    "FICTION / Literary",
+    "FICTION / Psychological",
+    "Families",
+    "Fiction",
+    "Fiction, family life",
+    "Fiction, family life, general",
+    "Fiction, psychological",
+    "Romance literature",
+    "Spanish"
+  ],
+  "ol_work_key": "/works/OL17317216W"
 }

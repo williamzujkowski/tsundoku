@@ -1,7 +1,7 @@
 {
   "title": "Lincoln in the Bardo",
   "author": "George Saunders",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "lincoln-in-the-bardo",
   "tags": [
@@ -29,5 +29,47 @@
     "Fiction, biographical",
     "Fiction, historical"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.A7897L56 2017",
+    "PS-3569.00000000.A7897",
+    "PS-3569.00000000.A7897 L56 2017b",
+    "PS-3569.00000000.A7897 L56 2017",
+    "PS-3569.00000000.A7897 L56 2017eb"
+  ],
+  "subject_facet": [
+    "18.06 Anglo-American literature",
+    "American Civil War",
+    "Bereavement",
+    "Biographical fiction",
+    "FICTION / Ghost",
+    "FICTION / Historical",
+    "FICTION / Literary",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "General",
+    "Ghost",
+    "Grief",
+    "Grief - Fiction",
+    "Historical",
+    "Historical fiction",
+    "LGBTQ historical fiction",
+    "Large type books",
+    "Lincoln, Abraham, 1809-1865 - Fiction",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Presidents",
+    "Presidents - United States - Fiction",
+    "Presidents, united states, fiction",
+    "Purgatory",
+    "Slavery",
+    "nyt:combined-print-and-e-book-fiction=2017-03-05"
+  ],
+  "ol_work_key": "/works/OL17635834W"
 }

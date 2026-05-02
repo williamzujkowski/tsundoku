@@ -1,7 +1,7 @@
 {
   "title": "Kushiel's Dart",
   "author": "Jacqueline Carey",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "kushiels-dart",
   "tags": [
@@ -13,11 +13,33 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780312872380",
   "pages": 0,
   "first_published": 2001,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3603.00000000",
+    "PS-3603.00000000.A74K8 2001",
+    "PS-3603.00000000.A74",
+    "PS-3603.00000000.A74 K8 2001",
+    "PS-3603.00000000.A74:k8"
+  ],
+  "subject_facet": [
+    "Courts and courtiers",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Indentured servants",
+    "Pháedre nâo Delaunay (Fictitious character)",
+    "Phèdre nó Delaunay (Fictitious character)",
+    "Women domestics",
+    "Women household employees"
+  ],
+  "ol_work_key": "/works/OL2719901W"
 }

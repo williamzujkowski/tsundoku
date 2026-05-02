@@ -1,7 +1,7 @@
 {
   "title": "A Night in the Lonesome October",
   "author": "Roger Zelazny",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-night-in-the-lonesome-october",
   "tags": [
@@ -34,5 +34,27 @@
     "Fiction, science fiction, general",
     "American literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3576.00000000.E43",
+    "PS-3576.00000000.E43N5 1993",
+    "PS-3576.00000000.E43 N5 1993"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fantasy fiction",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Horror tales",
+    "Humorous stories",
+    "Parodies, imitations",
+    "atypical heros",
+    "dogs",
+    "magic"
+  ],
+  "ol_work_key": "/works/OL13956W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Black Beauty",
   "author": "Anna Sewell",
-  "category": "Literature",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "black-beauty",
   "tags": [
@@ -21,5 +21,27 @@
   "oclc_id": "31174106",
   "worldcat_url": "https://www.worldcat.org/oclc/31174106",
   "lccn": "81016038",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "J--0000.00000000",
+    "PZ-0010.30000000.S38 Bl 1994",
+    "PZ-0010.30000000.S38"
+  ],
+  "subject_facet": [
+    "Animals",
+    "Children's fiction",
+    "Children's stories, English",
+    "England, fiction",
+    "English fiction",
+    "Fiction",
+    "Horses",
+    "Horses, fiction",
+    "Juvenile fiction",
+    "Reading Level-Grade 4",
+    "Reading Level-Grade 5",
+    "Reading Level-Grade 6",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8"
+  ],
+  "ol_work_key": "/works/OL40245W"
 }

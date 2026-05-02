@@ -1,7 +1,7 @@
 {
   "title": "Crossroads of Twilight",
   "author": "Robert Jordan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "crossroads-of-twilight",
   "tags": [],
@@ -9,5 +9,34 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Crossroads of Twilight is a fantasy novel by American author Robert Jordan, the tenth book of his The Wheel of Time series. It was published by Tor Books and released on January 7, 2003. Upon its release, it immediately rose to the #1 position on The New York Times best seller list for hardcover fiction, making it the third Wheel of Time book to reach the #1 position on that list. It remained on the list for the next three months.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/WoT10_CrossroadsOfTwilight.jpg/120px-WoT10_CrossroadsOfTwilight.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/WoT10_CrossroadsOfTwilight.jpg/120px-WoT10_CrossroadsOfTwilight.jpg",
+  "isbn": "9780765337818",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617C75 2003",
+    "PS-3560.07617000",
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617 .C76 2003 cn",
+    "PS-3560.00000000.O7617 C7617 2005",
+    "PS-3560.00000000.O7617 C75 2003"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Good and evil",
+    "Heroes",
+    "Imaginary wars and battles",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction",
+    "Russian language edition"
+  ],
+  "ol_work_key": "/works/OL7924099W"
 }

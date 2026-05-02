@@ -1,7 +1,7 @@
 {
   "title": "Beggars in Spain",
   "author": "Nancy Kress",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "beggars-in-spain",
   "tags": [
@@ -29,5 +29,24 @@
     "Women lawyers",
     "Science Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3561.00000000.R46 B4 1991",
+    "PS-3561.00000000.R46 B4 2004",
+    "PS-3561.00000000.R46B4 1993",
+    "PS-3561.00000000.R46 B4 1993"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Genetic engineering",
+    "Science Fiction",
+    "Women lawyers",
+    "Women lawyers, fiction"
+  ],
+  "ol_work_key": "/works/OL1847172W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Nine Princes in Amber",
   "author": "Roger Zelazny",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "nine-princes-in-amber",
   "tags": [
@@ -14,5 +14,31 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "description": "Nine Princes in Amber is a fantasy novel by American writer Roger Zelazny, the first in the Chronicles of Amber series. It was first published in 1970, and it later spawned a computer game with the same name. The first edition of the novel is unusually rare; the publisher pulped a significant part of the original print run in error when an order was issued to destroy the remaining copies of Zelazny's older book Creatures of Light and Darkness."
+  "description": "Nine Princes in Amber is a fantasy novel by American writer Roger Zelazny, the first in the Chronicles of Amber series. It was first published in 1970, and it later spawned a computer game with the same name. The first edition of the novel is unusually rare; the publisher pulped a significant part of the original print run in error when an order was issued to destroy the remaining copies of Zelazny's older book Creatures of Light and Darkness.",
+  "isbn": "9780571097821",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.Z456 Ni 1979",
+    "PS-3576.00000000.E43 Ni",
+    "PZ-0004.00000000.Z456 Ni",
+    "PS-3576.00000000.E43 N5 1972",
+    "PS-3576.00000000.E43 N55 1998",
+    "PS-3576.00000000.E43 Ni 1979"
+  ],
+  "subject_facet": [
+    "Amber (Imaginary place)",
+    "Amber (imaginary place), fiction",
+    "Corwin (fictitious character : zelazny), fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Large type books",
+    "Parallel Worlds",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12"
+  ],
+  "ol_work_key": "/works/OL13977W"
 }

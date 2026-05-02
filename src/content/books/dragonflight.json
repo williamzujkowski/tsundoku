@@ -1,7 +1,7 @@
 {
   "title": "Dragonflight",
   "author": "Anne McCaffrey",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "dragonflight",
   "tags": [
@@ -13,11 +13,62 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9781560600756",
   "pages": 0,
   "first_published": 1968,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.6",
+    "741.5973",
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A255 D74 1978",
+    "PS-3563.00000000.A255 D74 2005",
+    "PS-3563.00000000.A255 Dr",
+    "PS-3563.00000000.A255 Dr3",
+    "PZ-0004.00000000.M1195 Dr",
+    "PS-3563.00000000.A255 D7 1978a",
+    "PZ-0004.00000000.M1195 Dr 1968",
+    "PZ-0004.00000000.M1195 Dr3",
+    "PS-3563.00000000.A255 D72 2005",
+    "PS-3563.00000000.A255 Dr 1978",
+    "PS-3563.00000000.A255 D7418 2009",
+    "PS-3563.00000000.A255; Dr 1978",
+    "PS-3563.00000000.A255D7 2025",
+    "PZ-0004.00000000.M1195 Dr 1978",
+    "PS-3568.00000000.O243"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Civilization",
+    "Comics & graphic novels, general",
+    "Dragons",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, epic",
+    "Juvenile fiction",
+    "Life on other planets",
+    "Pern",
+    "Pern (Imaginary place)",
+    "Pern (imaginary place), fiction",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading materials",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Space colonies",
+    "Spanish language",
+    "Spanish language materials",
+    "Time travel"
+  ],
+  "ol_work_key": "/works/OL73387W"
 }

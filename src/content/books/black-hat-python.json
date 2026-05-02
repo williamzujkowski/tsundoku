@@ -1,7 +1,7 @@
 {
   "title": "Black Hat Python",
   "author": "Justin Seitz, Tim Arnold",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "black-hat-python",
   "tags": [
@@ -28,5 +28,19 @@
     "Kontrola",
     "Komputery"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25",
+    "QA-0076.90000000.A25 S456 2015"
+  ],
+  "subject_facet": [
+    "Computer security",
+    "Dostęp",
+    "Komputery",
+    "Kontrola",
+    "Python (Computer program language)",
+    "Python (język programowania)",
+    "Sieci komputerowe"
+  ],
+  "ol_work_key": "/works/OL19547345W"
 }

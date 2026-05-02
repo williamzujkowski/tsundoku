@@ -1,7 +1,7 @@
 {
   "title": "Blindsight",
   "author": "Peter Watts",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "blindsight",
   "tags": [
@@ -31,5 +31,25 @@
     "Linguists",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W386B58",
+    "PR-9199.30000000.W386 B58 2006",
+    "PR-9199.30000000.W386 B58127 2021"
+  ],
+  "subject_facet": [
+    "Artifical Hibernation",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Human-alien encounters",
+    "Life on other planets",
+    "Linguists",
+    "Neurology",
+    "Science Fiction",
+    "Vampires"
+  ],
+  "ol_work_key": "/works/OL8514692W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Fifty-One Tales",
   "author": "Lord Dunsany",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "fifty-one-tales",
   "tags": [
@@ -33,5 +33,33 @@
   "gutenberg_id": 7838,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7838",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7838.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9798725664942",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6F4 1915a",
+    "PR-6007.00000000.U6 Fm3",
+    "PR-6007.00000000.U6 F4",
+    "PR-6007.00000000.U6 F4 1915",
+    "PR-6007.00000000.U6 F4 1980",
+    "PZ-0003.00000000.D9248 Fm3",
+    "PR-6007.00000000.U6F4 1980",
+    "PZ-0003.00000000.D9248Fm3",
+    "PR-6007.00000000.U6 F4 1916"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fantasy",
+    "Fantasy fiction, English",
+    "Fiction",
+    "Fiction, fantasy, collections & anthologies",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, short stories",
+    "London (england), fiction",
+    "Science Fiction & Fantasy",
+    "Shorts"
+  ],
+  "ol_work_key": "/works/OL83881W"
 }

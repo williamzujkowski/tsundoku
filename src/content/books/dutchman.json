@@ -1,7 +1,7 @@
 {
   "title": "Dutchman",
   "author": "Amiri Baraka",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "dutchman",
   "tags": [
@@ -17,5 +17,16 @@
     "Drama"
   ],
   "copyright_status": "in_copyright",
-  "description": "Dutchman is a play written by playwright Amiri Baraka, then known as LeRoi Jones. Dutchman was first presented at the Cherry Lane Theatre in Greenwich Village, New York City, in March 1964 co-produced by Rita Fredricks. The play won an Obie Award; it shared this distinction with Adrienne Kennedy's Funnyhouse of a Negro. Baraka's stage play was made into a film in 1967, starring Shirley Knight and Al Freeman Jr. Dutchman was the last play produced by Baraka under his birth name, LeRoi Jones."
+  "description": "Dutchman is a play written by playwright Amiri Baraka, then known as LeRoi Jones. Dutchman was first presented at the Cherry Lane Theatre in Greenwich Village, New York City, in March 1964 co-produced by Rita Fredricks. The play won an Obie Award; it shared this distinction with Adrienne Kennedy's Funnyhouse of a Negro. Baraka's stage play was made into a film in 1967, starring Shirley Knight and Al Freeman Jr. Dutchman was the last play produced by Baraka under his birth name, LeRoi Jones.",
+  "isbn": "9780688210847",
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.A583 D8 1964"
+  ],
+  "subject_facet": [
+    "Drama"
+  ],
+  "ol_work_key": "/works/OL8316206W"
 }

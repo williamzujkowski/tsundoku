@@ -17,5 +17,34 @@
   "gutenberg_id": 372,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/372",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/372.html.images",
-  "description": "Prince Otto: A Romance is a novel written by Robert Louis Stevenson, first published in 1885."
+  "description": "Prince Otto: A Romance is a novel written by Robert Louis Stevenson, first published in 1885.",
+  "isbn": "9781404325296",
+  "ddc": [
+    "823.8",
+    "823.89"
+  ],
+  "lcc": [
+    "PR-5480.00000000.F05 vol. 19",
+    "PR-5484.00000000 P7 1910",
+    "PR-5484.00000000.P7 1885",
+    "PR-5484.00000000.P7 Pr17",
+    "PZ-0003.00000000.S848 Pr10",
+    "PR-5484.00000000.P7 Pr8",
+    "PR-5484.00000000.P7 Pr21",
+    "PZ-0003.00000000.S848 Pr21",
+    "PZ-0003.00000000.S848 Pr8",
+    "PR-5484.00000000 P7 1928",
+    "PR-5484.00000000.P7 Pr10",
+    "PZ-0003.00000000.S848 Pr17"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical, general",
+    "Fiction, romance, general",
+    "Man-woman relationships -- Fiction",
+    "Nobility -- Fiction"
+  ],
+  "ol_work_key": "/works/OL24149W"
 }

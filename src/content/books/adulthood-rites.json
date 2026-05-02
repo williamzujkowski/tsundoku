@@ -1,7 +1,7 @@
 {
   "title": "Adulthood Rites",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "adulthood-rites",
   "tags": [],
@@ -18,5 +18,29 @@
   "oclc_id": "36935014",
   "worldcat_url": "https://www.worldcat.org/oclc/36935014",
   "lccn": "87034620",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827A65 1988",
+    "PS-3568.00000000.O243",
+    "PS-3552.00000000.U827 A65 1988",
+    "PS-3552.00000000.U827 A65 1997"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, dystopian",
+    "Fiction, fantasy, epic",
+    "Fiction, science fiction, alien contact",
+    "Fiction, science fiction, apocalyptic & post-apocalyptic",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, genetic engineering",
+    "Genetic engineering",
+    "Genetisch materiaal",
+    "Human-alien encounters",
+    "Menselijk lichaam",
+    "Persoonlijke integriteit"
+  ],
+  "ol_work_key": "/works/OL35625W"
 }

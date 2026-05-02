@@ -1,7 +1,7 @@
 {
   "title": "Code Complete",
   "author": "Steve McConnell",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "code-complete",
   "tags": [
@@ -34,5 +34,42 @@
     "Manuales",
     "Computer Technology"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.76000000.D47 M39 1993",
+    "QA-0076.76000000.D47 M39 2004",
+    "QA-0076.76000000.D47M39 2004"
+  ],
+  "subject_facet": [
+    "005.1",
+    "Computer Technology",
+    "Computer software",
+    "Computer software, development",
+    "Computer software--development",
+    "Computer software--development--handbooks, manuals, etc",
+    "Desarrollo",
+    "Development",
+    "Développement",
+    "Guides, manuels",
+    "Handbooks, manuals",
+    "Handbooks, manuals, etc",
+    "Logiciels",
+    "Long Now Manual for Civilization",
+    "Manuales",
+    "Manuels",
+    "Nonfiction",
+    "Ontwikkeling (proces)",
+    "Ordinateurs",
+    "Programmation",
+    "Programmatuurtechniek",
+    "Programmeren (computers)",
+    "Qa76.76.d47 m39 1993",
+    "Software",
+    "Software para computadora",
+    "Softwaredevelopment"
+  ],
+  "ol_work_key": "/works/OL2722063W"
 }

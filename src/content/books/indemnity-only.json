@@ -1,7 +1,7 @@
 {
   "title": "Indemnity Only",
   "author": "Sara Paretsky",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 3,
   "slug": "indemnity-only",
   "tags": [
@@ -26,5 +26,32 @@
     "Warshawski, v. i. (fictitious character), fiction"
   ],
   "copyright_status": "in_copyright",
-  "description": "Indemnity Only is a mystery novel written by Sara Paretsky."
+  "description": "Indemnity Only is a mystery novel written by Sara Paretsky.",
+  "isbn": "9780816154555",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.A647 I5",
+    "PS-3566.00000000.A647 I5 1982b",
+    "PS-3566.00000000.A647 I5 1991",
+    "PS-3566.00000000.A/"
+  ],
+  "subject_facet": [
+    "Chicago (ill.), fiction",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, women sleuths",
+    "Illinois, fiction",
+    "Large type books",
+    "Mystery",
+    "Private investigators",
+    "Private investigators, fiction",
+    "V. I. Warshawski (Fictitious character)",
+    "V.I. Warshawski (Fictitious character)",
+    "Warshawski, v. i. (fictitious character), fiction",
+    "Women detectives",
+    "Women private investigators"
+  ],
+  "ol_work_key": "/works/OL18044W"
 }

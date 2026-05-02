@@ -1,7 +1,7 @@
 {
   "title": "All My Sons",
   "author": "Arthur Miller",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "all-my-sons",
   "tags": [
@@ -32,5 +32,39 @@
     "Drama",
     "Selling"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "812.52",
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3525.00000000.I5156A7 2000",
+    "PS-3525.00000000.I5156 A7 1974",
+    "PS-3525.00000000.I5156 A7 2000",
+    "PS-3525.00000000.I5156A7 2016",
+    "PS-3525.00000000.I515 A74 1971",
+    "PS-3525.00000000.I5156",
+    "PS-3525.00000000.I5156 A7"
+  ],
+  "subject_facet": [
+    "Aircraft industry",
+    "American drama",
+    "American drama (dramatic works by one author)",
+    "American drama, history and criticism, 21st century",
+    "American literature",
+    "Commercial crimes",
+    "Corrupt practices",
+    "Drama",
+    "Family life",
+    "Fathers and sons",
+    "Friendship",
+    "Guilt",
+    "Military aspects",
+    "Military aspects of Aircraft industry",
+    "Miller, arthur, 1915-2005",
+    "Play",
+    "Plays",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL66338W"
 }

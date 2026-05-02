@@ -1,7 +1,7 @@
 {
   "title": "Hadoop: The Definitive Guide",
   "author": "Tom White",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "hadoop-the-definitive-guide",
   "tags": [
@@ -28,5 +28,43 @@
     "Data processing",
     "COMPUTERS"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.74"
+  ],
+  "lcc": [
+    "QA-0076.90000000.D5",
+    "QA-0076.90000000.F5",
+    "QA-0076.90000000.D5 W47 2012",
+    "QA-0076.90000000.D5 W54 2012eb",
+    "QA-0076.90000000.D5 W47 2009",
+    "QA-0076.90000000.D5 W47 2015"
+  ],
+  "subject_facet": [
+    "Apache (computer program)",
+    "Apache Hadoop",
+    "Apache Hadoop (Computer file)",
+    "COMPUTERS",
+    "Cloud computing",
+    "Com051220",
+    "Computer software",
+    "Cs.cmp_sc.app_sw",
+    "Cs.cmp_sc.prog_lang",
+    "Data processing",
+    "Database Management",
+    "Databases",
+    "Desktop Applications",
+    "Distributed processing",
+    "Electronic data processing",
+    "File organization (Computer science)",
+    "Games",
+    "General",
+    "Hadoop",
+    "Java",
+    "Open source",
+    "Parallel",
+    "Storage & Retrieval",
+    "System Administration"
+  ],
+  "ol_work_key": "/works/OL15167391W"
 }

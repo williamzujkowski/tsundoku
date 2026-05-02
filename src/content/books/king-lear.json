@@ -1,7 +1,7 @@
 {
   "title": "King Lear",
   "author": "William Shakespeare",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "king-lear",
   "tags": [],
@@ -19,5 +19,16 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1532",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1532.html.images",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/king-lear-by-william-shakespeare/"
+  "librivox_url": "https://librivox.org/king-lear-by-william-shakespeare/",
+  "lcc": [
+    "PR-2819.00000000.A2 S6 1908",
+    "PR-2819.00000000.A2 D36 1824",
+    "PR-3091.00000000.S36x Reel 33"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Promptbooks",
+    "Stage history"
+  ],
+  "ol_work_key": "/works/OL25065796W"
 }

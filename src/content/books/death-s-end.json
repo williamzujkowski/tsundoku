@@ -1,7 +1,7 @@
 {
   "title": "Death's End",
   "author": "Cixin Liu",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "death-s-end",
   "tags": [],
@@ -9,5 +9,32 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Death's End is a science fiction novel by the Chinese writer Liu Cixin. It is the third novel in the trilogy titled Remembrance of Earth's Past, following the Hugo Award-winning novel The Three-Body Problem and its sequel, The Dark Forest. The original Chinese version was published in 2010. Ken Liu translated the English edition in 2016. It was a finalist for the 2017 Hugo Award for Best Novel and winner of the 2017 Locus Award for Best Science Fiction Novel.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Death%27s_End_-_bookcover.jpg/250px-Death%27s_End_-_bookcover.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Death%27s_End_-_bookcover.jpg/250px-Death%27s_End_-_bookcover.jpg",
+  "isbn": "9780765386632",
+  "ddc": [
+    "895.1352",
+    "813.4"
+  ],
+  "lcc": [
+    "PL-2947.00000000.C59 S37 2010",
+    "PL-2947.00000000.C59",
+    "PL-2947.00000000.C59 D4313 2016",
+    "PL-2947.00000000.C59D4313 2016"
+  ],
+  "subject_facet": [
+    "Alien Contact",
+    "Chinese Science fiction",
+    "Extraterrestrial beings",
+    "FICTION / Science Fiction / Alien Contact",
+    "FICTION / Science Fiction / Hard Science Fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Hard Science Fiction",
+    "Human-alien encounters",
+    "Imaginary wars and battles",
+    "Science Fiction",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL17610507W"
 }

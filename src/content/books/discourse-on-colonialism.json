@@ -1,7 +1,7 @@
 {
   "title": "Discourse on Colonialism",
   "author": "Aimé Césaire",
-  "category": "Non-Western Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "discourse-on-colonialism",
   "tags": [],
@@ -27,5 +27,32 @@
     "Antikolonialismus",
     "Imperialism"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "325.3"
+  ],
+  "lcc": [
+    "JV-0051.00000000",
+    "JV-0051.00000000.C413",
+    "JV-0051.00000000.C413 2000"
+  ],
+  "subject_facet": [
+    "325/.3",
+    "Antikolonialismus",
+    "Blacks",
+    "Colonialisme (idée politique)",
+    "Colonies",
+    "Diskurs",
+    "Entkolonialisierung",
+    "Imperialism",
+    "Jv51 .c413",
+    "Kolonialismus",
+    "Literary collections",
+    "Negritude (Literary movement)",
+    "Pensée politique et sociale",
+    "Postcolonialism",
+    "Postkolonialismus",
+    "Race identity"
+  ],
+  "ol_work_key": "/works/OL16025665W"
 }

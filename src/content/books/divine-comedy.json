@@ -22,5 +22,22 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8800",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8800.html.images",
   "librivox_url": "https://librivox.org/the-divine-comedy-by-dante-alighieri/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PQ-4315.00000000.E45 2019",
+    "PQ-4315.00000000",
+    "PQ-4302.00000000"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction, general",
+    "Heaven",
+    "Hell",
+    "Italian poetry, translations into english",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Purgatory",
+    "Romance literature"
+  ],
+  "ol_work_key": "/works/OL21195136W"
 }

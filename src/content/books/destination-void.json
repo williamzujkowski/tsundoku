@@ -1,7 +1,7 @@
 {
   "title": "Destination: Void",
   "author": "Frank Herbert",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "destination-void",
   "tags": [
@@ -24,5 +24,18 @@
     "American Science fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.E72 D414 1986",
+    "PS-3558.00000000.E63 D4 1981"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL893514W"
 }

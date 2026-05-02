@@ -1,7 +1,7 @@
 {
   "title": "Long Walk to Freedom",
   "author": "Nelson Mandela",
-  "category": "Biography/Memoir",
+  "category": "History",
   "priority": 1,
   "slug": "long-walk-to-freedom",
   "tags": [
@@ -29,5 +29,63 @@
     "Apartheid",
     "Guerilla Warfare"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "968.065",
+    "968.06092",
+    "968.065092",
+    "323.11968",
+    "968.064092"
+  ],
+  "lcc": [
+    "DT-1949.00000000.M35 A3 2001",
+    "DT-1949.00000000.M35 A3 2013ab",
+    "DT-1949.00000000.M35 A3 1995",
+    "DT-1949.00000000.M35 A3 2013",
+    "DT-1949.00000000.M35",
+    "DT-1949.00000000.M35A3 2000",
+    "DT-1949.00000000.M35 A3 2000",
+    "DT-1949.00000000.M35 A3123 2014",
+    "DT-1974.00000000.A3 2009",
+    "DT-1949.00000000.M35A3",
+    "DT-1949.00000000.M35 A3 1994",
+    "DT-1949.00000000.M35A3 2013",
+    "DT-1949.00000000.M35A3 1994",
+    "DT-1949.00000000.M35 A3 1998",
+    "DT-1974.00000000",
+    "DT-1949.00000000.M35A3 2014"
+  ],
+  "subject_facet": [
+    "African National Congress",
+    "Anti-apartheid movement",
+    "Anti-apartheid movements",
+    "Apartheid",
+    "Biografía",
+    "Biographies",
+    "Biography",
+    "Civil rights workers",
+    "Gobierno",
+    "Guerilla Warfare",
+    "History and criticism",
+    "Human rights",
+    "Mandela, Nelson, 1918-",
+    "Mandela, nelson, 1918-2013",
+    "New York Times bestseller",
+    "Political prisoners",
+    "Politics and government",
+    "Politique et gouvernement",
+    "Presidentes",
+    "Presidents",
+    "Présidents",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "South africa, history",
+    "South africa, politics and government",
+    "Statesmen",
+    "Widerstand",
+    "Zheng zhi jia",
+    "Zi zhuan",
+    "nyt:e-book-nonfiction=2013-12-15"
+  ],
+  "ol_work_key": "/works/OL1783377W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Introduction to Automata Theory, Languages, and Computation",
   "author": "John Hopcroft, Rajeev Motwani, Jeffrey Ullman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "introduction-to-automata-theory-languages-and-computation",
   "tags": [
@@ -28,5 +28,59 @@
     "Langage formel",
     "Formele talen"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780321455369",
+  "ddc": [
+    "511.3",
+    "629.8312"
+  ],
+  "lcc": [
+    "QA-0267.00000000.H56 2006",
+    "QA-0267.00000000.H56",
+    "QA-0267.00000000",
+    "QA-0267.00000000.H56 2007",
+    "QA-0267.00000000.H56 2001",
+    "A--0267.00000000.H56"
+  ],
+  "subject_facet": [
+    "511.3/5",
+    "Artificial intelligence",
+    "Automate mathématique",
+    "Automatentheorie",
+    "Automates mathématiques, Théorie des",
+    "Cellulaire automaten",
+    "Complexité algorithmique",
+    "Complexité de calcul (Informatique)",
+    "Computational complexity",
+    "Computer Books: General",
+    "Computer Science",
+    "Computer mathematics",
+    "Computers",
+    "Computers - General Information",
+    "Computers / Computer Science",
+    "Dat 500f",
+    "Dat 517f",
+    "Dat 550f",
+    "Dat 555f",
+    "Formal languages",
+    "Formale sprache",
+    "Formele talen",
+    "Komplexitätstheorie",
+    "Langage formel",
+    "Langages formels",
+    "Lenguajes formales",
+    "Logic",
+    "Machine theory",
+    "Mathematical programming & operations research",
+    "Mathematical theory of computation",
+    "Nonfiction",
+    "Programmeren (computers)",
+    "Programming languages (electronic computers)",
+    "Qa267 .h56 2007",
+    "St 130",
+    "St 136",
+    "Teoría de las máquinas",
+    "Théorie des automates"
+  ],
+  "ol_work_key": "/works/OL6816375W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Midnight Tides",
   "author": "Steven Erikson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "midnight-tides",
   "tags": [
@@ -23,5 +23,22 @@
     "Fiction",
     "Fantasy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3555.00000000",
+    "PR-9199.40000000.E745 M53 2007",
+    "PR-9199.40000000.E745 M53 2006",
+    "PR-9199.40000000.E745M53"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Malazan (Imaginary place)"
+  ],
+  "ol_work_key": "/works/OL5734765W"
 }

@@ -30,5 +30,52 @@
     "award:national_book_award=fiction",
     "National Book Critics Circle Award Winner"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.C337 A79 1993d",
+    "PS-3563.00000000.C337 A79 1992",
+    "PS-3563.00000000.C337 A79 1992b",
+    "PS-3563.00000000.C337 A718 1992",
+    "PS-3563.00000000.C337 A79 1993",
+    "PS-3563.00000000.C337",
+    "PS-3563.00000000.C337A79 1993",
+    "PS-3563.00000000.C337 A6417 2011"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "American, Mexico-Fiction",
+    "Americans",
+    "Coming of age",
+    "Cowboys",
+    "Cowboys-Western Stories",
+    "Fiction",
+    "Fiction, coming of age",
+    "Fiction, romance, general",
+    "Fiction, westerns",
+    "Fictional Works Publication Type",
+    "Horsemen and horsewomen",
+    "Large type books",
+    "Mexican-American Border Region",
+    "Mexico",
+    "Mexico, fiction",
+    "National Book Award Winner",
+    "National Book Critics Circle Award Winner",
+    "Prisoners",
+    "Prisoners-Fiction",
+    "Ranch life",
+    "Readers",
+    "Romance Norte Americano",
+    "Spanish language",
+    "Texas, fiction",
+    "Travel",
+    "Western stories",
+    "award:national_book_award=1992",
+    "award:national_book_award=fiction",
+    "award:national_book_critics_circle_award=1992",
+    "award:national_book_critics_circle_award=fiction"
+  ],
+  "ol_work_key": "/works/OL40882W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Another Fine Myth",
   "author": "Robert Asprin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "another-fine-myth",
   "tags": [],
@@ -9,5 +9,25 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Another Fine Myth is a 1978 fantasy novel by American writer Robert Asprin, the first book in the Myth Adventures series.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Another_Fine_Myth.jpg/250px-Another_Fine_Myth.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Another_Fine_Myth.jpg/250px-Another_Fine_Myth.jpg",
+  "isbn": "9780898653830",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S6 A83 1985",
+    "PS-3551.00000000.S6 An",
+    "PS-3551.00000000.S6 A83 2001b",
+    "PZ-0004.00000000.A84123 An"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Fantasy",
+    "Fiction, fantasy, general",
+    "Large type books",
+    "Possiltum (imaginary place), fiction",
+    "Skeeve (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL2485613W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Mother Night",
   "author": "Kurt Vonnegut",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "mother-night",
   "tags": [
@@ -31,5 +31,33 @@
     "World War, 1939-1945",
     "War crime trials"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "438.6421",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.V948 Mo4",
+    "PZ-0004.00000000.V948 Mx Mo",
+    "PS-3572.00000000.O5 Mo4",
+    "PS-3572.00000000.O5 Mx Mo",
+    "PS-3568.00000000.O243",
+    "PZ-0004.00000000.V948 Mo",
+    "PS-3572.00000000.O5 Mo",
+    "PS-3572.00000000.O5 M68 2006"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Black humor (Literature)",
+    "Fiction",
+    "National socialism",
+    "Prisoners",
+    "Science fiction",
+    "Spy stories",
+    "Trials",
+    "War crime trials",
+    "War criminals",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL98487W"
 }

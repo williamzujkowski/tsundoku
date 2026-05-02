@@ -1,7 +1,7 @@
 {
   "title": "Henry IV",
   "author": "Luigi Pirandello",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "henry-iv",
   "tags": [],
@@ -15,5 +15,21 @@
   "pages": 84,
   "google_books_url": "http://books.google.com/books?id=kfw5qflnPyEC&dq=Henry+IV+Luigi+Pirandello&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6069.00000000.T6 P57 2004",
+    "PR-6069.00000000.T6P57 2005",
+    "PR-6069.00000000.T6 P58 2004"
+  ],
+  "subject_facet": [
+    "Aristocracy (Social class)",
+    "Drama",
+    "Henry iv, king of england, 1367-1413",
+    "Nobility",
+    "Psychotherapist and patient"
+  ],
+  "ol_work_key": "/works/OL804926W"
 }

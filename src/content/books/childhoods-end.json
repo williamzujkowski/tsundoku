@@ -1,7 +1,7 @@
 {
   "title": "Childhood's End",
   "author": "Arthur C. Clarke",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "childhoods-end",
   "tags": [
@@ -36,5 +36,42 @@
     "Reading Level-Grade 9",
     "Reading Level-Grade 8"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6005.00000000.L36 Ch10",
+    "PR-6005.00000000.L36C53",
+    "PZ-0003.00000000.C551205 Ch10",
+    "PR-6005.00000000.L36 C55 1953b",
+    "PR-6005.00000000.L36 C55 1954",
+    "PR-6005.00000000.L36 C55 2001",
+    "PR-6005.00000000.L36C55 2001",
+    "PR-6005.00000000.L36 Ch",
+    "PR-6005.00000000 L3118 C5",
+    "PN-0001.00000000.B34 no.33",
+    "PR-6005.00000000.L36 C45 1974",
+    "PR-6005.00000000.L36",
+    "PZ-0003.00000000.C551205 Ch"
+  ],
+  "subject_facet": [
+    "English Science fiction",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Human evolution",
+    "Human-Alien encounter",
+    "Human-alien encounters",
+    "Long Now Manual for Civilization",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL17415W"
 }

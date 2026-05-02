@@ -1,7 +1,7 @@
 {
   "title": "A Theory of Justice",
   "author": "John Rawls",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "a-theory-of-justice",
   "tags": [
@@ -34,5 +34,12 @@
     "Rechtsphilosophie",
     "Theorie"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "JC-0578.00000000.R38 1999"
+  ],
+  "subject_facet": [
+    "Justice"
+  ],
+  "ol_work_key": "/works/OL21734641W"
 }

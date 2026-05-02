@@ -1,7 +1,7 @@
 {
   "title": "City of Illusions",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "city-of-illusions",
   "tags": [
@@ -24,5 +24,24 @@
     "Fiction, science fiction, general",
     "Nevada, fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.91",
+    "813.54",
+    "813.087"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.L518 Ci5",
+    "PZ-0004.00000000.L518 Ci 1978",
+    "PS-3562.00000000.E42",
+    "PS-3562.00000000.E42 Ci5",
+    "PS-3511.00000000.I744C5 2001",
+    "PS-3562.00000000.E42 Ci 1978",
+    "PZ-0004.00000000.L518Ci 1978"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Nevada, fiction"
+  ],
+  "ol_work_key": "/works/OL36745884W"
 }

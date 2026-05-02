@@ -1,7 +1,7 @@
 {
   "title": "A Civil Campaign",
   "author": "Lois McMaster Bujold",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-civil-campaign",
   "tags": [
@@ -34,5 +34,26 @@
     "Fiction, science fiction, general",
     "Fiction, romance, fantasy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U397 C58 1999",
+    "PS-3552.00000000.U397C58 1999"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, romance, fantasy",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Miles Vorkosigan (Fictitious character)",
+    "Science Fiction",
+    "comedy of manners",
+    "romance",
+    "series:vorkosigan_saga",
+    "space opera"
+  ],
+  "ol_work_key": "/works/OL56902W"
 }

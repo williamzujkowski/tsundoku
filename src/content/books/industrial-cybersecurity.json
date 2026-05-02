@@ -1,7 +1,7 @@
 {
   "title": "Industrial Cybersecurity",
   "author": "Pascal Ackerman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "industrial-cybersecurity",
   "tags": [
@@ -18,5 +18,14 @@
   "subjects": [
     "Commerce"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25 A254 2021",
+    "HF-5548.37000000",
+    "TK-5105.59000000.A254 2017"
+  ],
+  "subject_facet": [
+    "Commerce"
+  ],
+  "ol_work_key": "/works/OL25815315W"
 }

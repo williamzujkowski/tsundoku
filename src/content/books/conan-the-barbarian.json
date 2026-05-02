@@ -1,7 +1,7 @@
 {
   "title": "Conan the Barbarian",
   "author": "Robert E. Howard",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "conan-the-barbarian",
   "tags": [
@@ -13,11 +13,24 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9798514559527",
   "pages": 0,
   "first_published": 1932,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "lcc": [
+    "PS-3515.00000000.O842",
+    "PS-3515.00000000.O842 A6 2010b"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Conan (fictitious character), fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, short stories",
+    "Science fiction, fantasy, horror"
+  ],
+  "ol_work_key": "/works/OL19624419W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "A Psalm for the Wild-Built",
   "author": "Becky Chambers",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-psalm-for-the-wild-built",
   "tags": [],
@@ -28,5 +28,20 @@
     "Stonewall Book Awards",
     "series:Monk and Robot"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3603.00000000.H347P73 2021",
+    "PS-3603.00000000.H347 P73 2021"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fiction",
+    "Gender-nonconforming people",
+    "Mythology",
+    "Robots",
+    "Self-consciousness (Awareness)",
+    "Stonewall Book Awards",
+    "series:Monk and Robot"
+  ],
+  "ol_work_key": "/works/OL22561871W"
 }

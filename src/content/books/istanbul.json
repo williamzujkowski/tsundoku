@@ -1,7 +1,7 @@
 {
   "title": "Istanbul",
   "author": "Orhan Pamuk",
-  "category": "Literature",
+  "category": "History",
   "priority": 1,
   "slug": "istanbul",
   "tags": [
@@ -29,5 +29,15 @@
     "Islam and art",
     "History"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "DR-0723.00000000.P3613 2017"
+  ],
+  "subject_facet": [
+    "Biography",
+    "Description and travel",
+    "Travel",
+    "Turkish Authors"
+  ],
+  "ol_work_key": "/works/OL27335893W"
 }

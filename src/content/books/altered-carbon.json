@@ -1,7 +1,7 @@
 {
   "title": "Altered Carbon",
   "author": "Richard K. Morgan",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "altered-carbon",
   "tags": [],
@@ -9,5 +9,49 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Altered Carbon is a 2002 British cyberpunk novel by the English writer Richard K. Morgan. Set in a future in which interstellar travel and relative immortality is facilitated by transferring consciousnesses between bodies (\"sleeves\"), it follows the attempt of Takeshi Kovacs, a former U.N. elite soldier turned private investigator, to investigate a rich man's death. It is followed by the sequels Broken Angels and Woken Furies.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Altered_Carbon_cover_1_%28Amazon%29.jpg/120px-Altered_Carbon_cover_1_%28Amazon%29.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Altered_Carbon_cover_1_%28Amazon%29.jpg/120px-Altered_Carbon_cover_1_%28Amazon%29.jpg",
+  "isbn": "9780739432143",
+  "ddc": [
+    "813.6",
+    "823.92"
+  ],
+  "lcc": [
+    "PS-3613.00000000.O748 A78 2003b",
+    "PR-6113.00000000",
+    "PS-3613.00000000.O748A78 2003",
+    "PS-3613.00000000.O748 A78 2003",
+    "PR-6113.00000000.O748 A68 2003eb",
+    "PR-6113.00000000.O748"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "Conspiracy",
+    "Cyberpunk",
+    "Dystopias",
+    "Fiction",
+    "Fiction - Science Fiction",
+    "Fiction / Science Fiction / High Tech",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Fiction, science fiction, steampunk",
+    "General",
+    "Genetic engineering",
+    "Hard Science Fiction",
+    "Immortalism",
+    "Interstellar travel",
+    "Investigation",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Media Tie-In",
+    "Murder",
+    "Nanotechnology",
+    "Private investigators",
+    "Rich people",
+    "Science Fiction",
+    "Science Fiction - High Tech",
+    "Science Fiction And Fantasy",
+    "Soldiers of fortune",
+    "Thriller"
+  ],
+  "ol_work_key": "/works/OL29914687W"
 }

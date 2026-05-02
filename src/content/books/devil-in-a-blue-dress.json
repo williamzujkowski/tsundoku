@@ -1,7 +1,7 @@
 {
   "title": "Devil in a Blue Dress",
   "author": "Walter Mosley",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "devil-in-a-blue-dress",
   "tags": [
@@ -32,5 +32,44 @@
     "Private investigators",
     "Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.O88456 D48 1990",
+    "PS-3563.00000000.O88456",
+    "PS-3563.00000000.O88456 D48 2002",
+    "PS-3563.00000000.O88456D48",
+    "PS-3563.00000000.O88456 D48 1993",
+    "PS-3563.00000000.O8 .D3"
+  ],
+  "subject_facet": [
+    "African American men",
+    "African americans, fiction",
+    "American literature",
+    "California",
+    "California, fiction",
+    "Detective",
+    "Easy Rawlins (Fictitious character)",
+    "Ficción",
+    "Fiction",
+    "Fiction, african american & black, mystery & detective",
+    "Fiction, mystery & detective, general",
+    "Hard-boiled",
+    "Hombres afronorteamericanos",
+    "Investigadores privados",
+    "Kriminalfall",
+    "Large type books",
+    "Los angeles (calif.), fiction",
+    "Mystery",
+    "Mystery and detective stories",
+    "Novela de misterio",
+    "Novela policíaca",
+    "Private investigators",
+    "Rawlins, Easy (Personaje literario)",
+    "Rawlins, easy (fictitious character), fiction",
+    "Schwarze"
+  ],
+  "ol_work_key": "/works/OL115528W"
 }

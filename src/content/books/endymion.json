@@ -1,7 +1,7 @@
 {
   "title": "Endymion",
   "author": "John Keats",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "endymion",
   "tags": [
@@ -31,5 +31,36 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/24280",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/24280.html.images",
   "copyright_status": "public_domain",
-  "description": "Endymion is a poem by John Keats first published in 1818 by Taylor and Hessey of Fleet Street in London. John Keats dedicated this poem to the late poet Thomas Chatterton. The poem begins with the line \"A thing of beauty is a joy for ever\". Endymion is written in rhyming couplets in iambic pentameter. Keats based the poem on the Greek myth of Endymion, the shepherd beloved of the moon goddess Selene. The poem elaborates on the original story and renames Selene \"Cynthia\"."
+  "description": "Endymion is a poem by John Keats first published in 1818 by Taylor and Hessey of Fleet Street in London. John Keats dedicated this poem to the late poet Thomas Chatterton. The poem begins with the line \"A thing of beauty is a joy for ever\". Endymion is written in rhyming couplets in iambic pentameter. Keats based the poem on the Greek myth of Endymion, the shepherd beloved of the moon goddess Selene. The poem elaborates on the original story and renames Selene \"Cynthia\".",
+  "isbn": "9781559212861",
+  "ddc": [
+    "821.7"
+  ],
+  "lcc": [
+    "PR-4834.00000000.E6 2000",
+    "PR-4834.00000000.E6 1991",
+    "PR-4834.00000000 E6 1873",
+    "PR-4834.00000000.E6 1947",
+    "PR-4832.00000000.S73 1984 vol. 2",
+    "PR-4832.00000000.S73 1984",
+    "PR-4834.00000000 E6 1888",
+    "PR-4834.00000000.E6 1902",
+    "PR-4834.00000000.E7 .S73 1984 vol. 2",
+    "PR-4834.00000000 E6 1905",
+    "PR-4834.00000000.E6 1888"
+  ],
+  "subject_facet": [
+    "Endymion (Greek mythology)",
+    "English Manuscripts",
+    "Facsimiles",
+    "Fine books",
+    "Illustrations",
+    "Manuscripts",
+    "Painting",
+    "Pierpont Morgan Library",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Specimens"
+  ],
+  "ol_work_key": "/works/OL1455255W"
 }

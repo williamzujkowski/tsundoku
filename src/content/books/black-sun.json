@@ -1,7 +1,7 @@
 {
   "title": "Black Sun",
   "author": "Rebecca Roanhorse",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "black-sun",
   "tags": [
@@ -32,5 +32,23 @@
     "FICTION / Fantasy / Epic",
     "FICTION / Fantasy / Historical"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3618.00000000.O283B58 2020",
+    "PS-3618.00000000.O283 B58 2020"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Epic Fantasy",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Fantasy / Historical",
+    "FICTION / Native American & Aboriginal",
+    "Fantasy",
+    "Fiction",
+    "Indian mythology",
+    "Prophecy",
+    "Solar eclipses",
+    "Voyages and travels"
+  ],
+  "ol_work_key": "/works/OL20865716W"
 }

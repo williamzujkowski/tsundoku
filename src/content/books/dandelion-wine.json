@@ -1,7 +1,7 @@
 {
   "title": "Dandelion Wine",
   "author": "Ray Bradbury",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "dandelion-wine",
   "tags": [
@@ -33,5 +33,33 @@
     "Bildungsromans",
     "American Fantasy fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3503.00000000.R167 Dan6",
+    "PZ-0003.00000000.B72453 Dan6",
+    "PS-3503.00000000.R167 D26 1988",
+    "PS-3503.00000000.R167 D36 1990",
+    "PZ-0003.00000000.B72453 Dan",
+    "PS-3503.00000000.R167",
+    "PS-3503.00000000.R167 Dan",
+    "PS-3503.00000000.R167 D26 1999",
+    "PS-3503.00000000.R167D26 1999"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Science fiction",
+    "Bildungsromans",
+    "Boys",
+    "City and town life",
+    "English fiction",
+    "Fiction",
+    "Fiction, coming of age",
+    "Illinois, fiction",
+    "Science fiction, American",
+    "Translations into Russian"
+  ],
+  "ol_work_key": "/works/OL103118W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Green Mars",
   "author": "Kim Stanley Robinson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "green-mars",
   "tags": [
@@ -29,5 +29,26 @@
     "trilogy",
     "Science-fiction américaine"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O2893 G7 1994",
+    "PS-3568.00000000.O2893 G73 1995",
+    "PS-3568.00000000.O2893"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "Science-fiction américaine",
+    "award:hugo_award=1994",
+    "award:hugo_award=novel",
+    "terraforming",
+    "trilogy"
+  ],
+  "ol_work_key": "/works/OL81655W"
 }

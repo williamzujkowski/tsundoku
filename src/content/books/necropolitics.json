@@ -1,7 +1,7 @@
 {
   "title": "Necropolitics",
   "author": "Achille Mbembe",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "necropolitics",
   "tags": [],
@@ -23,5 +23,20 @@
     "Postcolonialism",
     "History"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "JC-0328.00000000",
+    "JC-0328.60000000.M3913 2019",
+    "JC-0328.60000000.M39 2016",
+    "JC-0328.60000000.M44 2016"
+  ],
+  "subject_facet": [
+    "Decolonization",
+    "Democracy",
+    "Fanon, frantz, 1925-1961",
+    "History",
+    "Political violence",
+    "Postcolonialism"
+  ],
+  "ol_work_key": "/works/OL20966066W"
 }

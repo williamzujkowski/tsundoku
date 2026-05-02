@@ -1,7 +1,7 @@
 {
   "title": "Milton",
   "author": "William Blake",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "milton",
   "tags": [
@@ -27,5 +27,26 @@
     "Poetry"
   ],
   "copyright_status": "public_domain",
-  "description": "Milton: A Poem in Two Books is an epic poem by William Blake, written and illustrated between 1804 and 1810. Its hero is John Milton, who returns from Heaven and unites with the author to explore the relationship between living writers and their predecessors, and to undergo a mystical journey to correct his own spiritual errors."
+  "description": "Milton: A Poem in Two Books is an epic poem by William Blake, written and illustrated between 1804 and 1810. Its hero is John Milton, who returns from Heaven and unites with the author to explore the relationship between living writers and their predecessors, and to undergo a mystical journey to correct his own spiritual errors.",
+  "isbn": "9780394503004",
+  "ddc": [
+    "769.924",
+    "821.7"
+  ],
+  "lcc": [
+    "PR-4144.00000000.M6 1977",
+    "PR-4144.00000000.M6 1978",
+    "PR-4144.00000000.M6 1815a",
+    "NE-0642.00000000.B5 A4 1967",
+    "PR-4144.00000000.M6 1976",
+    "PR-4144.00000000.M6 1815",
+    "PR-4144.00000000.M6 1978b",
+    "PR-4144.00000000 M5 1907"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "In literature",
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL575435W"
 }

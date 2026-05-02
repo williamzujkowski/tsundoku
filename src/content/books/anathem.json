@@ -1,7 +1,7 @@
 {
   "title": "Anathem",
   "author": "Neal Stephenson",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "anathem",
   "tags": [
@@ -37,5 +37,34 @@
     "Long Now Manual for Civilization",
     "Fiction, historical"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3868 A53 2008",
+    "PS-3569.00000000.T3868A53 2008",
+    "PS-3569.00000000.T3868 A53 2009",
+    "PS-3569.00000000.T3868"
+  ],
+  "subject_facet": [
+    "Disasters",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, religious",
+    "Fiction, science fiction, general",
+    "Fiction, suspense",
+    "Fiction, thrillers, suspense",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Mathematics",
+    "Monasteries",
+    "New York Times bestseller",
+    "Philosophy",
+    "Science Fiction & Fantasy",
+    "Science fiction",
+    "nyt:hardcover-fiction=2008-09-28"
+  ],
+  "ol_work_key": "/works/OL14911626W"
 }

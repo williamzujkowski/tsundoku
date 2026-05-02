@@ -1,7 +1,7 @@
 {
   "title": "Artificial Condition",
   "author": "Martha Wells",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "artificial-condition",
   "tags": [
@@ -33,5 +33,26 @@
     "Robots",
     "Interplanetary voyages"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[E]"
+  ],
+  "lcc": [
+    "PS-3573.00000000.E4932 A89 2018",
+    "PS-3573.00000000.E4932A89 2018"
+  ],
+  "subject_facet": [
+    "Androids",
+    "Artificial intelligence",
+    "Fiction",
+    "Human-computer interaction",
+    "Interplanetary voyages",
+    "Life on other planets",
+    "Robots",
+    "form:novella",
+    "franchise:The Murderbot Diaries",
+    "genre:science fiction",
+    "series:The Murderbot Diaries"
+  ],
+  "ol_work_key": "/works/OL19747311W"
 }

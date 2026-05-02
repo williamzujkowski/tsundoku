@@ -1,7 +1,7 @@
 {
   "title": "Maria Chapdelaine",
   "author": "Louis Hémon",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "maria-chapdelaine",
   "tags": [
@@ -31,5 +31,49 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 4383,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4383",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4383.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4383.html.images",
+  "isbn": "9782895960195",
+  "ddc": [
+    "843.912"
+  ],
+  "lcc": [
+    "PQ-2615.00000000.E35 M3 1974",
+    "PS-9465.00000000.E5 M3 1933",
+    "PQ-2615.00000000 E35 M3 1927",
+    "PS-9465.00000000 E45 M3 1946",
+    "PS-9515.00000000.E56 M37 1951",
+    "PS-9465.00000000 E45 M3 1970",
+    "PS-9465.00000000 E45 M3 1968",
+    "PS-9465.00000000 E45 M319",
+    "PQ-2615.00000000.E35 M3 1983",
+    "PS-9465.00000000 E45 M32 1921",
+    "PQ-2615.00000000.E35 M31938",
+    "PS-9465.00000000 E45 M3 1933",
+    "PS-9465.00000000 E45 M32 1928",
+    "PQ-2615.00000000.E35 M3 1975",
+    "PS-9465.00000000 E45 M32 1938",
+    "PQ-2615.00000000 E35M3 1929",
+    "PQ-2615.00000000 E35M3 1923",
+    "PQ-2615.00000000.E35",
+    "PQ-2615.00000000.E35 M33 2004",
+    "PS-9465.00000000 E45 M32 1965",
+    "PS-9465.00000000.E5 M312 1924"
+  ],
+  "subject_facet": [
+    "Canada, fiction",
+    "Canadians, French-speaking",
+    "Criticism and interpretation",
+    "Critique et interprétation",
+    "Family life",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "French literature",
+    "French-Canadians",
+    "History",
+    "Problèmes et exercices",
+    "Social life and customs",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL15843979W"
 }

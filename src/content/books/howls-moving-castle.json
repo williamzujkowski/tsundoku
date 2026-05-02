@@ -1,7 +1,7 @@
 {
   "title": "Howl's Moving Castle",
   "author": "Diana Wynne Jones",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "howls-moving-castle",
   "tags": [
@@ -28,5 +28,33 @@
     "Sisters",
     "Fantasy fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]",
+    "823.914"
+  ],
+  "lcc": [
+    "PZ-0007.00000000",
+    "PZ-0648.00000000.D5 H69 2008",
+    "PZ-0007.00000000.J684Hp 1986",
+    "PZ-0007.00000000.J684 Hp 1986"
+  ],
+  "subject_facet": [
+    "Blessing and cursing",
+    "Castles",
+    "Children's fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Howl, the magician (fictitious character), fiction",
+    "Juvenile fiction",
+    "Sisters",
+    "Witches",
+    "Wizards",
+    "Wizards, fiction",
+    "Young adults",
+    "deamons",
+    "magic"
+  ],
+  "ol_work_key": "/works/OL60149W"
 }

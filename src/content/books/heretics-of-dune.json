@@ -1,7 +1,7 @@
 {
   "title": "Heretics of Dune",
   "author": "Frank Herbert",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "heretics-of-dune",
   "tags": [
@@ -26,5 +26,32 @@
     "Dune (Lieu imaginaire)"
   ],
   "copyright_status": "in_copyright",
-  "description": "Heretics of Dune is a 1984 science fiction novel by Frank Herbert, the fifth in his Dune series of six novels."
+  "description": "Heretics of Dune is a 1984 science fiction novel by Frank Herbert, the fifth in his Dune series of six novels.",
+  "isbn": "9780613997249",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.E63H542",
+    "PS-3558.00000000.E63H4 1984",
+    "PS-3558.00000000.E63",
+    "PR-3558.00000000.E63",
+    "PS-3558.00000000.E63 H4 1984",
+    "PS-3558.00000000.E63 H4 1986"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Anglais (langue)",
+    "Dune (Imaginary place)",
+    "Dune (Lieu imaginaire)",
+    "Dune (imaginary place), fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Imaginary places",
+    "Roman américain",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Science-fiction américaine"
+  ],
+  "ol_work_key": "/works/OL893502W"
 }

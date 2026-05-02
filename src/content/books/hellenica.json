@@ -15,5 +15,46 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1174",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1174.html.images",
   "copyright_status": "public_domain",
-  "description": "Hellenica simply means writings on Greek (Hellenic) subjects. Several histories of the 4th-century BC Greece have borne the conventional Latin title Hellenica, of which very few survive. The most notable of the surviving histories is the Hellenica of the Ancient Greek writer Xenophon."
+  "description": "Hellenica simply means writings on Greek (Hellenic) subjects. Several histories of the 4th-century BC Greece have borne the conventional Latin title Hellenica, of which very few survive. The most notable of the surviving histories is the Hellenica of the Ancient Greek writer Xenophon.",
+  "isbn": "9788772884349",
+  "ddc": [
+    "938.05",
+    "938.06"
+  ],
+  "lcc": [
+    "PA-3404.00000000.X48 1969",
+    "DF-0231.00000000.X4 1966",
+    "DF-0229.00000000.X413 1978",
+    "PA-4494.00000000.A25 1918",
+    "PA-4494.00000000 H3 1948",
+    "PA-4494.00000000 H3 1906",
+    "PA-3411.00000000.C7 X46",
+    "PA-4496.00000000.P6 H4",
+    "PA-4494.00000000.H3 1979",
+    "PA-4494.00000000 H4 1978",
+    "PA-4494.00000000 H3 1942",
+    "PA-4494.00000000.H3 1942",
+    "DF-0229.00000000.X412 1995",
+    "PA-3411.00000000.C7 X46 1892",
+    "PA-4494.00000000.H4x 1908",
+    "PA-4494.00000000.H412 1978",
+    "PA-4494.00000000.A7X4 2003",
+    "PA-4494.00000000.H3 R8 2000",
+    "PA-3411.00000000.G8 X45 1908",
+    "PA-4494.00000000.H3x 1942",
+    "DF-0231.00000000.X4 1966a",
+    "PA-4494.00000000.H4x 1892",
+    "PA-4496.00000000.F8 H44",
+    "PA-4494.00000000.H3 1853",
+    "PA-3411.00000000.C7 X45 1888"
+  ],
+  "subject_facet": [
+    "Greece Peloponnesian War, 431-404 B.C.",
+    "Greece, history, to 146 b.c.",
+    "Grèce",
+    "Histoire ancienne",
+    "History",
+    "Xenophon"
+  ],
+  "ol_work_key": "/works/OL687222W"
 }

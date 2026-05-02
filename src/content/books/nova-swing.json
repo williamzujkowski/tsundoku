@@ -1,7 +1,7 @@
 {
   "title": "Nova Swing",
   "author": "M. John Harrison",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "nova-swing",
   "tags": [
@@ -22,5 +22,17 @@
     "Science fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-6058.00000000.A6942 N68 2006",
+    "PR-6058.00000000.A6942N68 2007",
+    "PR-6058.00000000.A6942",
+    "PR-6058.00000000.A6942 N68 2007"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL2643418W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Caliban's War",
   "author": "James S.A. Corey",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "calibans-war",
   "tags": [
@@ -23,5 +23,21 @@
   "subjects": [
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3601.00000000.B677 C35 2012",
+    "PS-3601.00000000.B677C35 2012",
+    "PS-3601.00000000.B677"
+  ],
+  "subject_facet": [
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Interplanetary voyages",
+    "Space warfare"
+  ],
+  "ol_work_key": "/works/OL16117275W"
 }

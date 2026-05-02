@@ -1,7 +1,7 @@
 {
   "title": "A Discipline of Programming",
   "author": "Edsger W. Dijkstra",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "a-discipline-of-programming",
   "tags": [],
@@ -19,5 +19,18 @@
   "lccn": "75040478",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015006402856",
   "hathitrust_rights": "Limited (search-only)",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780132158718",
+  "ddc": [
+    "001.642"
+  ],
+  "lcc": [
+    "QA-0076.60000000.D54",
+    "QA-0076.60000000"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Electronic digital computers, programming"
+  ],
+  "ol_work_key": "/works/OL4780088W"
 }

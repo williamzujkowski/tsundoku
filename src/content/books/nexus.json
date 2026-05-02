@@ -1,7 +1,7 @@
 {
   "title": "Nexus",
   "author": "Ramez Naam",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "nexus",
   "tags": [],
@@ -9,5 +9,18 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "The Nexus Trilogy is a postcyberpunk thriller novel trilogy written by American author Ramez Naam and published between 2012-2015. The novel series follows the protagonist Kaden Lane, a scientist who works on an experimental nano-drug, Nexus, which allows the brain to be programmed and networked, connecting human minds together. As he pursues his work, he becomes entangled in government and corporate intrigue. The story takes place in the year 2040.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/The_Nexus_Trilogy.jpg/250px-The_Nexus_Trilogy.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/The_Nexus_Trilogy.jpg/250px-The_Nexus_Trilogy.jpg",
+  "isbn": "9780857662934",
+  "lcc": [
+    "PS-3614.00000000.A15N49 2013",
+    "PS-3614.00000000.A15 N49 2013"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Nanomedicine",
+    "Scientists",
+    "science-fiction"
+  ],
+  "ol_work_key": "/works/OL16806525W"
 }

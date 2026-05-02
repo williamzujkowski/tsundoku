@@ -1,7 +1,7 @@
 {
   "title": "Joseph and His Brothers",
   "author": "Thomas Mann",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "joseph-and-his-brothers",
   "tags": [
@@ -29,5 +29,43 @@
     "Christian fiction",
     "Humanity"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "833.91",
+    "833.912"
+  ],
+  "lcc": [
+    "PT-2625.00000000.A44 J71513 1999",
+    "PT-2625.00000000.A44 J7 1975",
+    "PT-2625.00000000.A44 J7813 2005",
+    "PT-2625.00000000.A44J7813 2004",
+    "PZ-0003.00000000.M3184 Jo5",
+    "PT-2625.00000000.A44J71513",
+    "PT-2625.00000000.A44 J7 1983x",
+    "PT-2625.00000000.A44 J552 1948",
+    "PT-2625.00000000.A44 J76 1959",
+    "PT-2625.00000000.A44 J7 1967",
+    "PT-2625.00000000.A44 J7 1966",
+    "PZ-0003.00000000.M3184",
+    "PT-2625.00000000.A44 G413 1934",
+    "PT-2625.00000000 A44 J7613 1938",
+    "PT-2625.00000000.A44 J7 1948",
+    "PT-2625.00000000.A44 J7 1933",
+    "PT-2625.00000000.A44Jx",
+    "PZ-0003.00000000.M3184 Jo"
+  ],
+  "subject_facet": [
+    "Bible",
+    "Bible, history of biblical events, fiction",
+    "Christian fiction",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, religious",
+    "German language",
+    "History of Biblical events",
+    "Humanity",
+    "Tion"
+  ],
+  "ol_work_key": "/works/OL14867079W"
 }

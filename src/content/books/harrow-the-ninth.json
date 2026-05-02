@@ -1,7 +1,7 @@
 {
   "title": "Harrow the Ninth",
   "author": "Tamsyn Muir",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "harrow-the-ninth",
   "tags": [
@@ -31,5 +31,32 @@
     "Fiction",
     "Magic"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-9639.40000000.M84H37 2020",
+    "PR-9639.40000000.M84 H37 2020"
+  ],
+  "subject_facet": [
+    "FICTION / Gothic",
+    "FICTION / Science Fiction / Action & Adventure",
+    "FICTION / Science Fiction / Space Opera",
+    "Fiction",
+    "Fiction, fantasy, dark fantasy",
+    "Fiction, fantasy, epic",
+    "Fiction, science fiction, action & adventure",
+    "Imaginary wars and battles",
+    "LGBTQ science fiction & fantasy",
+    "Lesbians",
+    "Magic",
+    "New York Times bestseller",
+    "Serie:The_Locked_Tomb",
+    "Sneak Peek",
+    "Swords",
+    "Witches",
+    "Women authors",
+    "necromancy",
+    "nyt:hardcover-fiction=2020-08-23",
+    "paranormal"
+  ],
+  "ol_work_key": "/works/OL20723256W"
 }

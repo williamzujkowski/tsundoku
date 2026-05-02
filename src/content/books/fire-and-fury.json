@@ -1,7 +1,7 @@
 {
   "title": "Fire and Fury",
   "author": "Michael Wolff",
-  "category": "Science",
+  "category": "History",
   "priority": 2,
   "slug": "fire-and-fury",
   "tags": [
@@ -28,5 +28,10 @@
     "POLITICAL SCIENCE / American Government / Executive Branch",
     "POLITICAL SCIENCE / American Government / National"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "E--0912.00000000.W65 2018",
+    "E--0912.00000000"
+  ],
+  "ol_work_key": "/works/OL22706738W"
 }

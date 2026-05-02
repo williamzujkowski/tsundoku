@@ -1,7 +1,7 @@
 {
   "title": "Absolute OpenBSD",
   "author": "Michael W. Lucas",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "absolute-openbsd",
   "tags": [
@@ -18,5 +18,18 @@
   "oclc_id": "855403188",
   "worldcat_url": "https://www.worldcat.org/oclc/855403188",
   "lccn": "2014415567",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.77400000.B47",
+    "QA-0076.76000000.O63 L835 2013",
+    "QA-0076.76000000.O63L835 2003",
+    "QA-0076.76000000.O63 L835 2003"
+  ],
+  "subject_facet": [
+    "OpenBSD (Electronic resource)",
+    "Operating systems (Computers)",
+    "UNIX (Computer file)",
+    "Unix (computer operating system)"
+  ],
+  "ol_work_key": "/works/OL8904490W"
 }

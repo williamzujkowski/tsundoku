@@ -1,7 +1,7 @@
 {
   "title": "Collected Poems",
   "author": "Muriel Spark",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 3,
   "slug": "collected-poems-7",
   "tags": [
@@ -22,5 +22,12 @@
   "oclc_id": "32221764",
   "worldcat_url": "https://www.worldcat.org/oclc/32221764",
   "lccn": "67112897",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-6037.00000000.P29"
+  ],
+  "subject_facet": [
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL28382101W"
 }

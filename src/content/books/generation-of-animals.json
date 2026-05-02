@@ -1,7 +1,7 @@
 {
   "title": "Generation of Animals",
   "author": "Aristotle",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 1,
   "slug": "generation-of-animals",
   "tags": [
@@ -31,5 +31,13 @@
     "Astronomy, early works to 1800"
   ],
   "librivox_url": "https://librivox.org/generation-of-animals-by-aristotle/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "QL-0041.00000000.A75 2022"
+  ],
+  "subject_facet": [
+    "Congresses",
+    "Reproduction"
+  ],
+  "ol_work_key": "/works/OL27086350W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Mistborn",
   "author": "Brandon Sanderson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "mistborn",
   "tags": [
@@ -30,5 +30,24 @@
     "Magic",
     "Thieves"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3619.00000000.A533"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "adventure",
+    "coming-of-age",
+    "epic",
+    "intrigue",
+    "magic",
+    "mystery",
+    "prophecy",
+    "revolution",
+    "science fiction"
+  ],
+  "ol_work_key": "/works/OL16044142W"
 }

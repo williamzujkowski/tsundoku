@@ -1,7 +1,7 @@
 {
   "title": "Foundation's Edge",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "foundations-edge",
   "tags": [
@@ -29,5 +29,30 @@
     "Fiction, science fiction, general",
     "Large type books"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5 F6 1982",
+    "PS-3551.00000000.S5 F6 1982b",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5F6 2016"
+  ],
+  "subject_facet": [
+    "American fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Ke xue huan xiang xiao shuo",
+    "Large type books",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Psychohistory",
+    "Science fiction",
+    "Zhang pian li shi xiao shuo",
+    "award:hugo_award=1983",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL46302W"
 }

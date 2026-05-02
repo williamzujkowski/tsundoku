@@ -1,7 +1,7 @@
 {
   "title": "House of Suns",
   "author": "Alastair Reynolds",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "house-of-suns",
   "tags": [
@@ -24,5 +24,24 @@
     "English literature",
     "Fiction, science fiction, space opera"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6068.00000000.E95 H68 2008",
+    "PR-6068.00000000.E95",
+    "PR-6068.00000000.E95 H68 2009",
+    "PR-6068.00000000.E95H68 2009",
+    "PR-6068.00000000.E95H68 2020"
+  ],
+  "subject_facet": [
+    "English literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Life on other planets"
+  ],
+  "ol_work_key": "/works/OL5724833W"
 }

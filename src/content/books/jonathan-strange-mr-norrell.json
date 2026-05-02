@@ -1,7 +1,7 @@
 {
   "title": "Jonathan Strange & Mr Norrell",
   "author": "Susanna Clarke",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "jonathan-strange-mr-norrell",
   "tags": [
@@ -31,5 +31,44 @@
     "Hugo Award Winner",
     "Fantasy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6103.00000000.L375J65 2009",
+    "PR-6103.00000000.L375J65 2007",
+    "PR-6103.00000000.L375J65 2017",
+    "PR-6103.00000000.L375J65 2024",
+    "PR-6103.00000000.L375 J65 2015",
+    "PR-6103.00000000.L375J65 2004",
+    "PR-6103.00000000.L375J65 2005",
+    "PR-6103.00000000.L375J65 2014",
+    "PR-6103.00000000.L375 J65 2004"
+  ],
+  "subject_facet": [
+    "England, fiction",
+    "English literature",
+    "Fairies",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, historical",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Great britain, fiction",
+    "Historical fiction",
+    "History",
+    "Hugo Award Winner",
+    "Literature",
+    "London (england), fiction",
+    "Magic",
+    "Magicians",
+    "Teacher-student relationship",
+    "Teacher-student relationships",
+    "Teachers, fiction",
+    "award:hugo_award=2005",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL5703422W"
 }

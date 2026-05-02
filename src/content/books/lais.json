@@ -1,7 +1,7 @@
 {
   "title": "Lais",
   "author": "Marie de France",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "lais",
   "tags": [
@@ -30,5 +30,17 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 46234,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/46234",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46234.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46234.html.images",
+  "lcc": [
+    "PQ-1494.00000000.L3 E5 1999eb",
+    "PQ-1494.00000000.L3 E5 1999",
+    "PQ-1494.00000000.L3"
+  ],
+  "subject_facet": [
+    "Lays",
+    "Marie, de france, active 12th century",
+    "POETRY / European / French",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL2831482W"
 }

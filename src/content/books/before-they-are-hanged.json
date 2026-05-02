@@ -1,7 +1,7 @@
 {
   "title": "Before They Are Hanged",
   "author": "Joe Abercrombie",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "before-they-are-hanged",
   "tags": [
@@ -36,5 +36,43 @@
     "Fantasy fiction",
     "Rois et souverains"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6101.00000000.B49 B45 2008",
+    "PR-6101.00000000",
+    "PR-6101.00000000.B49B45 2008",
+    "PR-6101.00000000.B49 B44 2007",
+    "PR-6101.00000000.B49",
+    "PR-6101.00000000.B49B45 2015"
+  ],
+  "subject_facet": [
+    "Adventure fiction",
+    "FICTION / Action & Adventure",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Fantasy / Historical",
+    "FICTION / War & Military",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Fiction, war & military",
+    "Good and evil",
+    "Guerres et batailles imaginaires",
+    "Guerres et batailles imaginaires -- Romans, nouvelles, etc",
+    "Imaginary wars and battles",
+    "Imaginary wars and battles -- Fiction",
+    "Kings and rulers",
+    "Quests (Expeditions)",
+    "Rois et souverains",
+    "Romans, nouvelles",
+    "Voyages -- Romans, nouvelles, etc",
+    "Voyages and travels",
+    "Voyages and travels -- Fiction"
+  ],
+  "ol_work_key": "/works/OL8400946W"
 }

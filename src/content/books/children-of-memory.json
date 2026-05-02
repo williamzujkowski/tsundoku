@@ -1,7 +1,7 @@
 {
   "title": "Children of Memory",
   "author": "James Fenton",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "children-of-memory",
   "tags": [
@@ -27,5 +27,16 @@
     "Commentaries"
   ],
   "copyright_status": "in_copyright",
-  "description": "Children of Memory is a 2023 science fiction novel by author Adrian Tchaikovsky. The novel follows the development of a mysterious colony on a hostile exoplanet, while the human civilization from the previous books encounters a society of intelligent corvids."
+  "description": "Children of Memory is a 2023 science fiction novel by author Adrian Tchaikovsky. The novel follows the development of a mysterious colony on a hostile exoplanet, while the human civilization from the previous books encounters a society of intelligent corvids.",
+  "isbn": "9780140586282",
+  "ddc": [
+    "821.914"
+  ],
+  "lcc": [
+    "PR-6056.00000000.E53 A6 1985"
+  ],
+  "subject_facet": [
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL502511W"
 }

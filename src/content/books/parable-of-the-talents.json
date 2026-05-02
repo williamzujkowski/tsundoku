@@ -1,7 +1,7 @@
 {
   "title": "Parable of the Talents",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "parable-of-the-talents",
   "tags": [
@@ -28,5 +28,45 @@
     "Fiction, science fiction, general"
   ],
   "copyright_status": "in_copyright",
-  "description": "The Parable of the Talents is one of the parables of Jesus. It appears in two of the synoptic, canonical gospels of the New Testament:Matthew 25:14–30\nLuke 19:11–27"
+  "description": "The Parable of the Talents is one of the parables of Jesus. It appears in two of the synoptic, canonical gospels of the New Testament:Matthew 25:14–30\nLuke 19:11–27",
+  "isbn": "9781453265437",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827 P38 1998",
+    "PS-3552.00000000.U827 P38 2016",
+    "PS-3552.00000000.U827P38 2000",
+    "PS-3552.00000000.U827",
+    "PS-3552.00000000.U827 P38 2001c",
+    "PS-3552.00000000.U827 P38 2019",
+    "PS-3568.00000000.O243",
+    "PS-3552.00000000.U827 P38 2000"
+  ],
+  "subject_facet": [
+    "African americans, fiction",
+    "American fiction",
+    "American literature",
+    "Audiobooks",
+    "California, fiction",
+    "Dystopias",
+    "Dystopies",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, political",
+    "Fiction, science fiction, general",
+    "General",
+    "Jeunes femmes",
+    "Literary",
+    "Roman américain",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Twenty-first century",
+    "Vingt et unième siècle",
+    "Young women",
+    "Young women, fiction",
+    "award:nebula_award=novel",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL35618W"
 }

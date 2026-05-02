@@ -1,7 +1,7 @@
 {
   "title": "Magnificent Obsession",
   "author": "Lloyd Cassel Douglas",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "magnificent-obsession",
   "tags": [
@@ -28,5 +28,34 @@
     "Fiction, historical, general",
     "Fiction, religious"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3507.00000000.O7573 Mag4",
+    "PS-3507.00000000.O7573 Mag",
+    "PS-3507.00000000.O7573 M3 1957",
+    "PS-3507.00000000.O7573 M3 1992",
+    "PS-3507.00000000.O7573 M3 1957x",
+    "PS-3507.00000000.O7573 M3 1999",
+    "PZ-0003.00000000.D74637 Mag",
+    "PS-3507.00000000.O7573M3 1999",
+    "PZ-0003.00000000",
+    "PZ-0003.00000000.D74637 Mag4"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, christian, general",
+    "Fiction, historical, general",
+    "Fiction, psychological",
+    "Fiction, religious",
+    "Large type books",
+    "Near death experiences",
+    "Near-death experiences",
+    "Philanthropists",
+    "Physicians",
+    "Surgeons"
+  ],
+  "ol_work_key": "/works/OL12592W"
 }

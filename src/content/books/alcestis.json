@@ -1,7 +1,7 @@
 {
   "title": "Alcestis",
   "author": "Euripides",
-  "category": "Classics",
+  "category": "Drama",
   "priority": 1,
   "slug": "alcestis",
   "tags": [
@@ -38,5 +38,9 @@
     "Continental european drama (dramatic works by one author)",
     "Drama (dramatic works by one author)"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "882.01"
+  ],
+  "ol_work_key": "/works/OL39697922W"
 }

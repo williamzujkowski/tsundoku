@@ -1,7 +1,7 @@
 {
   "title": "Desire in Language",
   "author": "Julia Kristeva",
-  "category": "Philosophy",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "desire-in-language",
   "tags": [],
@@ -27,5 +27,15 @@
     "Desire in literature",
     "Pn98.s46 k7413"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "808.00141"
+  ],
+  "lcc": [
+    "PN-0098.00000000.S46K7413 2024"
+  ],
+  "subject_facet": [
+    "Literature"
+  ],
+  "ol_work_key": "/works/OL39172027W"
 }

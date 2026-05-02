@@ -1,7 +1,7 @@
 {
   "title": "Brothers",
   "author": "Yu Hua",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "brothers",
   "tags": [
@@ -32,5 +32,23 @@
     "Tales",
     "Lectures et morceaux choisis"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1352"
+  ],
+  "lcc": [
+    "PL-2928.00000000.H78 X5613 2009",
+    "PL-2928.00000000.H78X5613 2009"
+  ],
+  "subject_facet": [
+    "Brothers, fiction",
+    "China, fiction",
+    "Fiction",
+    "Fiction, coming of age",
+    "Fiction, historical, general",
+    "Literature",
+    "Romance",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL3240262W"
 }

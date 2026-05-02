@@ -1,7 +1,7 @@
 {
   "title": "Crave",
   "author": "Sarah Kane",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "crave",
   "tags": [
@@ -25,5 +25,20 @@
     "Drama (dramatic works by one author)"
   ],
   "copyright_status": "public_domain",
-  "description": "This Volume is presented to\r\nLieut. Walter Yates.\r\nas a Memento of his having served his King\r\nand Country by joining His Majesty’s Forces\r\nduring the Great War of 1914-1919.\r\nii\r\n1 WHO HAS GENEROUSLY DEFRAYED THE WHOLE COST OF THIS PUBLICATION."
+  "description": "This Volume is presented to\r\nLieut. Walter Yates.\r\nas a Memento of his having served his King\r\nand Country by joining His Majesty’s Forces\r\nduring the Great War of 1914-1919.\r\nii\r\n1 WHO HAS GENEROUSLY DEFRAYED THE WHOLE COST OF THIS PUBLICATION.",
+  "isbn": "9780413728807",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6061.00000000.A59 C7 1998",
+    "PR-6061.00000000.A573 C73 1998",
+    "PR-6061.00000000.A59C7 1998"
+  ],
+  "subject_facet": [
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Mental illness"
+  ],
+  "ol_work_key": "/works/OL6233803W"
 }

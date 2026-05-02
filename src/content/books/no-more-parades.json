@@ -1,7 +1,7 @@
 {
   "title": "No More Parades",
   "author": "Ford Madox Ford",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "no-more-parades",
   "tags": [
@@ -34,5 +34,32 @@
   "gutenberg_id": 67622,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/67622",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/67622.html.images",
-  "librivox_url": "https://librivox.org/no-more-parades-by-ford-madox-ford/"
+  "librivox_url": "https://librivox.org/no-more-parades-by-ford-madox-ford/",
+  "ddc": [
+    "928.2",
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6011.00000000.O53 No",
+    "PR-6011.00000000.O53 N6 1948",
+    "PR-6011.00000000.O53",
+    "PR-6011.00000000.O53 N6 2000",
+    "PR-6011.00000000.O53 N6 1925",
+    "PZ-0003.00000000.F7518 No"
+  ],
+  "subject_facet": [
+    "Adultery -- Fiction",
+    "Fiction",
+    "Fiction, historical, general",
+    "Fiction, war & military",
+    "Great Britain -- History -- George V, 1910-1936 -- Fiction",
+    "Great britain, fiction",
+    "History",
+    "Large type books",
+    "World War, 1914-1918",
+    "World War, 1914-1918 -- Fiction",
+    "World war, 1914-1918, fiction"
+  ],
+  "ol_work_key": "/works/OL510017W"
 }

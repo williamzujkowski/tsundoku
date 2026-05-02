@@ -1,7 +1,7 @@
 {
   "title": "Exhalation",
   "author": "Ted Chiang",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "exhalation",
   "tags": [
@@ -29,5 +29,29 @@
     "Scientists",
     "Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3603.00000000.H53 A6 2019",
+    "PS-3603.00000000.H53A6 2019",
+    "PS-3603.00000000.H53"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American Short stories",
+    "Artificial intelligence",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "FICTION / Short Stories (single author)",
+    "Fiction",
+    "Fiction, science fiction, short stories",
+    "Fiction, short stories (single author)",
+    "Human behavior",
+    "New York Times bestseller",
+    "Science fiction",
+    "Science-Fiction",
+    "Scientists",
+    "Short stories",
+    "nyt:hardcover-fiction=2019-05-26"
+  ],
+  "ol_work_key": "/works/OL20149336W"
 }

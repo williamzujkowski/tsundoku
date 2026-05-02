@@ -1,7 +1,7 @@
 {
   "title": "Cleopatra",
   "author": "Duane W. Roller",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "cleopatra",
   "tags": [
@@ -23,5 +23,16 @@
     "Egypt -- Kings and rulers -- Biography",
     "Egypt -- History -- 332-30 B.C"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "DT-0092.70000000.R65 2012"
+  ],
+  "subject_facet": [
+    "Cleopatra, queen of egypt, -30 b.c.",
+    "Egypt, biography",
+    "Egypt, history",
+    "Egypt, kings and rulers",
+    "Queens"
+  ],
+  "ol_work_key": "/works/OL17397684W"
 }

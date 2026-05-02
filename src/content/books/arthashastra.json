@@ -1,7 +1,7 @@
 {
   "title": "Arthashastra",
   "author": "Kautilya",
-  "category": "Non-Western History",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "arthashastra",
   "tags": [],
@@ -12,5 +12,51 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "description": "Kautilya's Arthashastra is an Ancient Indian Sanskrit treatise on statecraft, politics, economic policy and military strategy. The text is likely the work of several authors over centuries, starting as a compilation of Arthashastras, texts which according to Olivelle date from the 2nd c. BCE to the 1st c. CE."
+  "description": "Kautilya's Arthashastra is an Ancient Indian Sanskrit treatise on statecraft, politics, economic policy and military strategy. The text is likely the work of several authors over centuries, starting as a compilation of Arthashastras, texts which according to Olivelle date from the 2nd c. BCE to the 1st c. CE.",
+  "isbn": "9781530592852",
+  "ddc": [
+    "320.1",
+    "320.0934"
+  ],
+  "lcc": [
+    "JC-0050.00000000.K2814 1983",
+    "JC-0050.00000000.K2816",
+    "JC-0050.00000000.K28 1986 1986",
+    "JA-0084.00000000.I4 K3813 1992",
+    "JC-0050.00000000.K28 1991",
+    "JA-0084.00000000.I4K3813 1992",
+    "LAW0000.00000000",
+    "JC-0050.00000000.K28 1986b",
+    "JC-0050.00000000.K2818 1979",
+    "JA-0084.00000000.I4 K3813 1969",
+    "JA-0084.00000000.I4 K38195 2005",
+    "JA-0084.00000000.I4 K3813 1960",
+    "JA-0084.00000000.I4 K3819 2006",
+    "JA-0084.00000000.I4 K3819 1999",
+    "JA-0084.00000000.I4 K3812 1977",
+    "JA-0084.00000000.I4K3819 2018",
+    "JA-0084.00000000.I4 K38 1984",
+    "JA-0084.00000000.I4 K3813 1951",
+    "KNS0123.00000000.K3815 1977"
+  ],
+  "subject_facet": [
+    "Administrative law",
+    "Early works to 1800",
+    "History",
+    "India, politics and government",
+    "India, social conditions",
+    "Law",
+    "Political science",
+    "Political science, early works to 1800",
+    "Political science, india",
+    "Politics",
+    "Politics and government",
+    "Social conditions",
+    "Social life and customs",
+    "Sources",
+    "State, The",
+    "State, the",
+    "The State"
+  ],
+  "ol_work_key": "/works/OL319529W"
 }

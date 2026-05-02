@@ -1,7 +1,7 @@
 {
   "title": "Glass, Irony and God",
   "author": "Anne Carson",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "glass-irony-and-god",
   "tags": [
@@ -21,5 +21,17 @@
     "Poetry",
     "Poetry (poetic works by one author)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.A7667G53 1995",
+    "PS-3553.00000000.A7667 G53 1995"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL1998431W"
 }

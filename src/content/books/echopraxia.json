@@ -1,7 +1,7 @@
 {
   "title": "Echopraxia",
   "author": "Peter Watts",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "echopraxia",
   "tags": [
@@ -26,5 +26,23 @@
     "Scientists, fiction",
     "FICTION / Science Fiction / General"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W386",
+    "PR-9199.30000000.W386 E24 2014",
+    "PR-9199.30000000.W386E24"
+  ],
+  "subject_facet": [
+    "Biologists",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Imaginary wars and battles",
+    "Interstellar travel",
+    "Scientists, fiction"
+  ],
+  "ol_work_key": "/works/OL19982983W"
 }

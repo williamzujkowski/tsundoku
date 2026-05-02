@@ -1,7 +1,7 @@
 {
   "title": "Averno",
   "author": "Louise Glück",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "averno",
   "tags": [
@@ -27,5 +27,22 @@
     "Women authors",
     "Poetry (poetic works by one author)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-0000.00000000",
+    "PS-3557.00000000.L8 A96 2006",
+    "PS-3557.00000000.L8A96 2006",
+    "PS-3557.00000000.L8"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Persephone (Greek deity)",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL8035191W"
 }

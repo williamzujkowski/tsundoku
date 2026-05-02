@@ -1,7 +1,7 @@
 {
   "title": "Brain of the Firm",
   "author": "Stafford Beer",
-  "category": "Complex Systems",
+  "category": "Economics",
   "priority": 1,
   "slug": "brain-of-the-firm",
   "tags": [],
@@ -23,5 +23,26 @@
     "Business enterprises",
     "Organization and Administration"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780471276876",
+  "ddc": [
+    "658.403 B",
+    "658.4032",
+    "658.4"
+  ],
+  "lcc": [
+    "HD-0038.00000000.B363 1981",
+    "HD-0038.00000000.B363",
+    "HD-0038.00000000.B363 1972"
+  ],
+  "subject_facet": [
+    "Business enterprises",
+    "Cybernetics",
+    "Cybernétique",
+    "Gestion",
+    "Industrial management",
+    "Management",
+    "Organization and Administration"
+  ],
+  "ol_work_key": "/works/OL3054939W"
 }

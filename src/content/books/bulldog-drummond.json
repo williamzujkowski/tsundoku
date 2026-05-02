@@ -1,7 +1,7 @@
 {
   "title": "Bulldog Drummond",
   "author": "Sapper",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "bulldog-drummond",
   "tags": [
@@ -34,5 +34,39 @@
     "Kidnapping",
     "Bulldog Drummond (Fictitious character)"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PQ-6037.00000000.A77 B85 1920",
+    "PR-6025.00000000.A317 B955 2007",
+    "PR-6025.00000000.A317 Bu",
+    "PR-6025.00000000.A317 B78 2007",
+    "PR-6025.00000000.A317 B8 2008",
+    "PR-6025.00000000.A286 B8 2001eb",
+    "PZ-0003.00000000.M2329 Bu",
+    "PR-6025.00000000.A317"
+  ],
+  "subject_facet": [
+    "Bulldog Drummond (Fictitious character)",
+    "Bulldog Drummond (fictional character)",
+    "English Adventure stories",
+    "Extortion",
+    "FICTION",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "General",
+    "Great britain, fiction",
+    "Kidnapping",
+    "Mystery & Detective",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Sapper",
+    "adventure",
+    "adventurer",
+    "suspense"
+  ],
+  "ol_work_key": "/works/OL241909W"
 }

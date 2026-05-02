@@ -1,7 +1,7 @@
 {
   "title": "Lord of Chaos",
   "author": "Robert Jordan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "lord-of-chaos",
   "tags": [],
@@ -9,5 +9,28 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Lord of Chaos is a fantasy novel by American author Robert Jordan, the sixth book of his series The Wheel of Time. It was published by Tor Books and released on October 15, 1994, and was nominated for the Locus Award for Best Fantasy Novel in 1995. Lord of Chaos consists of a prologue, 55 chapters, and an epilogue. It is the first book of the Wheel of Time to have an epilogue.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/WoT06_LordOfChaos.jpg/120px-WoT06_LordOfChaos.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/WoT06_LordOfChaos.jpg/120px-WoT06_LordOfChaos.jpg",
+  "isbn": "9781879371743",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617L67 1994",
+    "PS-3560.00000000.O7617 L67 1994",
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617 L67 2012"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American literature",
+    "Dragons",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL7924208W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Fledgling",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "fledgling",
   "tags": [
@@ -31,5 +31,39 @@
     "Fiction, fantasy, general",
     "Fantasy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827 F47 2007x",
+    "PS-3552.00000000.U827F47 2007",
+    "PS-3552.00000000.U827 F47 2007",
+    "PS-3552.00000000.U827 F47 2005",
+    "PS-3552.00000000.U827F47 2005"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "FICTION / Fantasy / Paranormal",
+    "FICTION / Horror",
+    "FICTION / Science Fiction / Action & Adventure",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, psychological",
+    "Fiction, visionary & metaphysical",
+    "Horror",
+    "Mystery",
+    "Paranormal",
+    "Ps3552.u827 f47 2007",
+    "Science Fiction",
+    "Vampires",
+    "Vampires, fiction",
+    "Vampires--fiction",
+    "Young women",
+    "Young women, fiction",
+    "Young women--fiction"
+  ],
+  "ol_work_key": "/works/OL35611W"
 }

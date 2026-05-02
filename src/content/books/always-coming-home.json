@@ -1,7 +1,7 @@
 {
   "title": "Always Coming Home",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "always-coming-home",
   "tags": [],
@@ -17,5 +17,31 @@
   "oclc_id": "1035459503",
   "worldcat_url": "https://www.worldcat.org/oclc/1035459503",
   "lccn": "85000880",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9788435020824",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 A79 2019",
+    "PS-3562.00000000.E42A79 2019",
+    "RYI0179.00000000",
+    "PS-3562.00000000.E42 A79 2000",
+    "PS-3562.00000000.E42A79 1985",
+    "PS-3562.00000000.E42 A79 1985",
+    "PS-3562.00000000.E42 A79 1985b",
+    "PS-3562.00000000.E42",
+    "PS-3562.00000000.E42 A79 2001"
+  ],
+  "subject_facet": [
+    "Anthropology",
+    "California, fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Human beings",
+    "Imaginary places",
+    "Imaginary places, fiction"
+  ],
+  "ol_work_key": "/works/OL59846W"
 }

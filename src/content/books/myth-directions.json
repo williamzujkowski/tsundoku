@@ -1,7 +1,7 @@
 {
   "title": "Myth Directions",
   "author": "Robert Asprin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "myth-directions",
   "tags": [],
@@ -9,5 +9,24 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Myth Directions is a 1982 fantasy novel by American writer Robert Asprin, the third novel in the MythAdventures series.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MythDirections.jpg/250px-MythDirections.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MythDirections.jpg/250px-MythDirections.jpg",
+  "isbn": "9780099662600",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S6 M9 2002",
+    "PS-3551.00000000.S6 M9 1982",
+    "PS-3551.00000000.S6 M974 1985"
+  ],
+  "subject_facet": [
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Large type books",
+    "Magicians",
+    "Possiltum (imaginary place), fiction",
+    "Skeeve (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL16028434W"
 }

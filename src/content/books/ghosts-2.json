@@ -1,7 +1,7 @@
 {
   "title": "Ghosts",
   "author": "César Aira",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 3,
   "slug": "ghosts-2",
   "tags": [
@@ -25,5 +25,20 @@
     "Fiction, short stories (single author)",
     "Haunted places"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "863.64"
+  ],
+  "lcc": [
+    "PQ-7798.10000000.I7 F8313 2008",
+    "PQ-7798.10000000.I7F8313"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, short stories (single author)",
+    "Foreign workers",
+    "Ghost stories",
+    "Haunted places"
+  ],
+  "ol_work_key": "/works/OL710933W"
 }

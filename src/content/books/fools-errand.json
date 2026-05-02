@@ -1,7 +1,7 @@
 {
   "title": "Fool's Errand",
   "author": "Robin Hobb",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "fools-errand",
   "tags": [
@@ -23,5 +23,21 @@
     "Magic",
     "Fiction, fantasy, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.O33636",
+    "PS-3558.00000000.O33636 F66 2002"
+  ],
+  "subject_facet": [
+    "Arranged marriages",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Magic"
+  ],
+  "ol_work_key": "/works/OL2707194W"
 }
