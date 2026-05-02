@@ -1,7 +1,7 @@
 {
   "title": "Monstrous Regiment",
   "author": "Terry Pratchett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "monstrous-regiment",
   "tags": [
@@ -29,5 +29,30 @@
     "Powies c fantastyczna angielska",
     "English literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "820",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.R4444 M66 2004",
+    "PR-6066.00000000.R34",
+    "B--0000.00000000",
+    "PR-0000.00000000",
+    "PR-6066.00000000.R34 M58 2004",
+    "PR-6066.00000000.R34 M58 2003"
+  ],
+  "subject_facet": [
+    "Discworld (Imaginary place)",
+    "English literature",
+    "Powies c fantastyczna angielska",
+    "T¿umaczenia polskie",
+    "War",
+    "Women soldiers",
+    "form:novel",
+    "franchise:Discworld",
+    "genre:fantasy comedy",
+    "series:Discworld"
+  ],
+  "ol_work_key": "/works/OL453799W"
 }

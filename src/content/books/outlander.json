@@ -1,7 +1,7 @@
 {
   "title": "Outlander",
   "author": "Diana Gabaldon",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "outlander",
   "tags": [
@@ -13,11 +13,59 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780788712982",
   "pages": 0,
   "first_published": 1991,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3557.00000000.A22 O98 2001",
+    "PS-3557.00000000.A22 O98 1991",
+    "PS-3557.00000000.A22O98 2005",
+    "PS-3557.00000000.A22 D7 1992",
+    "PS-3557.00000000.A22O98 1991",
+    "PS-3557.00000000.A22 O98 2005",
+    "PS-3557.00000000.A22 O98 2014"
+  ],
+  "subject_facet": [
+    "Culloden, Battle of (Scotland : 1746) fast (OCoLC)fst00884970",
+    "Culloden, Battle of Scotland, 1746",
+    "Culloden, Battle of, Scotland, 1746",
+    "Culloden, Battle of, Scotland, 1746 in fiction",
+    "Fantastic fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, romance, historical",
+    "Fiction, romance, time travel",
+    "Fraser, claire (fictitious character), fiction",
+    "Fraser, jamie (fictitious character), fiction",
+    "Historical",
+    "Historical fiction",
+    "History",
+    "Jacobite Rebellion (1745-1746) fast (OCoLC)fst00981043",
+    "Jacobite Rebellion, 1745-1746",
+    "Jacobite Rebellion, 1745-1746 in fiction",
+    "Jacobite rebellion, 1745-1746, fiction",
+    "Love stories",
+    "Man-woman relationships in fiction",
+    "Man-woman relationships, fiction",
+    "New York Times bestseller",
+    "Romance",
+    "Scotland in fiction",
+    "Scotland, fiction",
+    "Space and time",
+    "Time travel",
+    "Time travel in fiction",
+    "War stories",
+    "nyt:combined-print-and-e-book-fiction=2014-01-19"
+  ],
+  "ol_work_key": "/works/OL3261155W"
 }

@@ -20,5 +20,20 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=tn6r2bX8l-sC&dq=Faust,+Part+One+Johann+Wolfgang+von+Goethe&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "832.6"
+  ],
+  "lcc": [
+    "PT-2026.00000000.F2K57 2015",
+    "PT-2026.00000000.F2 K57 2015",
+    "PT-2026.00000000.F2 J37 2001",
+    "PT-2026.00000000.F2 H21 1928"
+  ],
+  "subject_facet": [
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Germanic literature"
+  ],
+  "ol_work_key": "/works/OL15726605W"
 }

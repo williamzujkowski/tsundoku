@@ -1,7 +1,7 @@
 {
   "title": "A Judgement in Stone",
   "author": "Ruth Rendell",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-judgement-in-stone",
   "tags": [
@@ -30,5 +30,31 @@
     "Fiction, horror",
     "Fiction, mystery & detective, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6068.00000000.E63 J83 2000",
+    "PR-6068.00000000.E63J83 2000",
+    "PR-6068.00000000.E63 Ju",
+    "PR-6068.00000000.E63 Ju 1978",
+    "PR-6068.00000000.E63 Ju 1978b",
+    "PZ-0004.00000000.R4132 Ju 1978",
+    "PZ-0004.00000000.R4132 Ju",
+    "PR-6068.00000000.E63",
+    "PZ-0004.00000000.R4132Ju",
+    "PR-6068.00000000.E63 J8 1979x",
+    "PZ-0004.00000000.R4132 Ju 1978b"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Large type books",
+    "Mystery"
+  ],
+  "ol_work_key": "/works/OL12128W"
 }

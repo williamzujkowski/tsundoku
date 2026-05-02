@@ -1,7 +1,7 @@
 {
   "title": "Extreme Programming Explained",
   "author": "Kent Beck",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "extreme-programming-explained",
   "tags": [
@@ -29,5 +29,40 @@
     "Software Development",
     "Computers"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.76000000.D47B434 2004",
+    "QA-0076.76000000.D47 B434 2000",
+    "QA-0076.76000000.D47",
+    "QA-0076.76000000.D47 B434 2005",
+    "QA-0076.76000000.D47B434 2000"
+  ],
+  "subject_facet": [
+    "005.1",
+    "Computer Books: General",
+    "Computer Programming",
+    "Computer software",
+    "Computer software, development",
+    "Computer software--development",
+    "Computers",
+    "Computers - General Information",
+    "Computers / Programming / General",
+    "Development",
+    "Développement",
+    "Engenharia de programação",
+    "Extreme programming",
+    "General",
+    "Logiciels",
+    "Métodos ágeis",
+    "Programmation extrême",
+    "Programmatuurtechniek",
+    "Programming - General",
+    "Qa76.76.d47 b434 2000",
+    "Software",
+    "Software Development"
+  ],
+  "ol_work_key": "/works/OL1961693W"
 }

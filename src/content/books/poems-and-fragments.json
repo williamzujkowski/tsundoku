@@ -1,7 +1,7 @@
 {
   "title": "Poems and Fragments",
   "author": "Sappho",
-  "category": "Classics",
+  "category": "Poetry",
   "priority": 2,
   "slug": "poems-and-fragments",
   "tags": [
@@ -28,5 +28,33 @@
     "Women--greece--poetry",
     "Pa4408.e5 l6613 2002"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781852242015",
+  "ddc": [
+    "884.01",
+    "884"
+  ],
+  "lcc": [
+    "PA-4408.00000000 E5 D3",
+    "PA-4408.00000000.E5 B28 1992",
+    "PA-4408.00000000.E5 H3",
+    "PA-4408.00000000.E5 D3",
+    "PA-4408.00000000.E5 L6613 2002",
+    "PA-4408.00000000.E5L6613 2002"
+  ],
+  "subject_facet": [
+    "884/.01",
+    "Greek Love poetry",
+    "Greek poetry",
+    "Lesbian poetry",
+    "Pa4408.e5 l6613 2002",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Sappho",
+    "Translations into English",
+    "Women",
+    "Women authors",
+    "Women--greece--poetry"
+  ],
+  "ol_work_key": "/works/OL997592W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "A Deepness in the Sky",
   "author": "Vernor Vinge",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-deepness-in-the-sky",
   "tags": [
@@ -33,5 +33,27 @@
     "award:hugo_award=novel",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.I534D44 1999",
+    "PS-3572.00000000.I534 D44 1999",
+    "PS-3572.00000000.I534"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Hugo Award Winner",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "award:hugo_award=2000",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL1975705W"
 }

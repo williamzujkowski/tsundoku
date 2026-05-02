@@ -1,7 +1,7 @@
 {
   "title": "Kill the Farm Boy",
   "author": "Kevin Hearne & Delilah S. Dawson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "kill-the-farm-boy",
   "tags": [],
@@ -11,5 +11,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8534040-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8534040-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19613616W",
-  "first_published": 2018
+  "first_published": 2018,
+  "isbn": "9781524797751",
+  "lcc": [
+    "PS-3604.00000000.A97858K55"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, general"
+  ],
+  "ol_work_key": "/works/OL19613616W"
 }

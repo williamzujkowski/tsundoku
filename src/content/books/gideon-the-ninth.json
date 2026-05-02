@@ -1,7 +1,7 @@
 {
   "title": "Gideon the Ninth",
   "author": "Tamsyn Muir",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "gideon-the-ninth",
   "tags": [
@@ -32,5 +32,28 @@
     "Butch Lesbians",
     "horror"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-9639.40000000.M85 G53 2019"
+  ],
+  "subject_facet": [
+    "Butch Lesbians",
+    "Fiction",
+    "Fiction, fantasy, dark fantasy",
+    "Fiction, fantasy, epic",
+    "Fiction, science fiction, action & adventure",
+    "LGBTQ science fiction & fantasy",
+    "Lesbians",
+    "Magic",
+    "Mystery",
+    "Serie:The_Locked_Tomb",
+    "Sneak Peek",
+    "Swordplay",
+    "Swordsmen",
+    "Women authors",
+    "horror",
+    "necromancy",
+    "paranormal"
+  ],
+  "ol_work_key": "/works/OL20128158W"
 }

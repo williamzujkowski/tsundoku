@@ -1,7 +1,7 @@
 {
   "title": "My Brilliant Friend",
   "author": "Elena Ferrante",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "my-brilliant-friend",
   "tags": [
@@ -29,5 +29,59 @@
     "Fiction, historical",
     "Fiction, coming of age"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "853.914",
+    "853.92"
+  ],
+  "lcc": [
+    "PQ-4866.00000000.E6345 A818 2016",
+    "PQ-4866.00000000.E6345 A8113 2016",
+    "PQ-4866.00000000.E6345 A8113",
+    "PQ-4866.00000000.E6345",
+    "PQ-4866.00000000.E6345 A8113 2012",
+    "PQ-4866.00000000.E6345 M9313 2012",
+    "PQ-4866.00000000.E6345 A81 2011",
+    "PQ-4866.00000000.E6345A8113",
+    "PQ-4866.00000000.E6345 M93 2012",
+    "PQ-4866.00000000.E6345 A77 2011"
+  ],
+  "subject_facet": [
+    "Amistad",
+    "Amitié",
+    "Amitié féminine",
+    "Conditions sociales",
+    "Divorced women",
+    "FICTION / Coming of Age",
+    "FICTION / Literary",
+    "FICTION / Media Tie-In",
+    "FICTION / Sagas",
+    "Femmes",
+    "Ficción",
+    "Fiction",
+    "Fiction, coming of age",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, women",
+    "Friendship",
+    "Friendship, fiction",
+    "Italian fiction",
+    "Italy, fiction",
+    "Manners and customs",
+    "Mothers and daughters",
+    "Mœurs et coutumes",
+    "New York Times bestseller",
+    "Nápoles (Italia)",
+    "Romans, nouvelles",
+    "Social conditions",
+    "Social life and customs",
+    "Translations into English",
+    "Women",
+    "female friendship",
+    "historical fiction",
+    "history",
+    "nyt:trade-fiction-paperback=2015-09-20",
+    "poor girls"
+  ],
+  "ol_work_key": "/works/OL16520879W"
 }

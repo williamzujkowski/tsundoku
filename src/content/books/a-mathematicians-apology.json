@@ -1,7 +1,7 @@
 {
   "title": "A Mathematician's Apology",
   "author": "G. H. Hardy",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "a-mathematicians-apology",
   "tags": [
@@ -33,5 +33,27 @@
     "510.1",
     "31.01"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "510",
+    "510.924"
+  ],
+  "lcc": [
+    "QA-0007.00000000.H3",
+    "QA-0007.00000000.H3 2012",
+    "QA-0007.00000000.H3 1992",
+    "QA-0007.00000000.H3 1967"
+  ],
+  "subject_facet": [
+    "31.01",
+    "510.1",
+    "Addresses, essays, lectures",
+    "Matematica",
+    "Mathematics",
+    "Philosophy",
+    "Pure Mathematics",
+    "Qa7 .h3 1992",
+    "Wiskunde"
+  ],
+  "ol_work_key": "/works/OL11373174W"
 }

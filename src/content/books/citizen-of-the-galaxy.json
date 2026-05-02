@@ -1,7 +1,7 @@
 {
   "title": "Citizen of the Galaxy",
   "author": "Robert A. Heinlein",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "citizen-of-the-galaxy",
   "tags": [
@@ -33,5 +33,33 @@
     "Child slaves"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "\"LOT NINETY-SEVEN,\" the auctioneer announced."
+  "description": "\"LOT NINETY-SEVEN,\" the auctioneer announced.",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.H368Ci 1987",
+    "PS-3515.00000000.E288 Ci",
+    "PS-3568.00000000.O243",
+    "PS-3515.00000000.E288",
+    "PZ-0003.00000000.H364 Ci",
+    "PZ-0007.00000000",
+    "PZ-0007.00000000.H368 Ci 1987",
+    "PS-3515.00000000.E288 C5x 1957b"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Beggars",
+    "Child slaves",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Interplanetary voyages",
+    "Science fiction",
+    "Slavery",
+    "Slaves",
+    "Space flight -- Fiction",
+    "Translations into Russian"
+  ],
+  "ol_work_key": "/works/OL59679W"
 }

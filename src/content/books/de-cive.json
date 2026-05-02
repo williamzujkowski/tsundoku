@@ -1,7 +1,7 @@
 {
   "title": "De Cive",
   "author": "Thomas Hobbes",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "de-cive",
   "tags": [
@@ -30,5 +30,36 @@
   ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015010840018",
-  "hathitrust_rights": "Limited (search-only)"
+  "hathitrust_rights": "Limited (search-only)",
+  "isbn": "9780198243854",
+  "ddc": [
+    "320",
+    "320.1"
+  ],
+  "lcc": [
+    "JC-0153.00000000",
+    "JC-0153.00000000.H5213 1983",
+    "JC-0153.00000000.H522515 1988",
+    "JC-0153.00000000.H52 1983",
+    "JC-0153.00000000.H523 1982",
+    "JA-0071.00000000",
+    "JC-0153.00000000.H633"
+  ],
+  "subject_facet": [
+    "Attention",
+    "Authority",
+    "Behavior",
+    "Citizenship",
+    "Consciousness",
+    "Early works to 1700",
+    "Early works to 1800",
+    "Ego",
+    "Latin literature, translations into english",
+    "Liberty",
+    "Natural law",
+    "Philosophy, modern, 17th century",
+    "Political science",
+    "Psychological Models"
+  ],
+  "ol_work_key": "/works/OL654090W"
 }

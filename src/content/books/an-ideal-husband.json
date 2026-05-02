@@ -1,7 +1,7 @@
 {
   "title": "An Ideal Husband",
   "author": "Oscar Wilde",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "an-ideal-husband",
   "tags": [
@@ -24,5 +24,28 @@
   "gutenberg_id": 885,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/885",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/885.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "822.8"
+  ],
+  "lcc": [
+    "PR-5818.00000000.I2 1899",
+    "PR-5818.00000000.I2 1993",
+    "PR-5818.00000000 I2 1993",
+    "PR-5818.00000000.I2 1999",
+    "PR-5818.00000000 I2 19--",
+    "PR-5818.00000000.I2 2000",
+    "BF-1999.00000000.L32"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Classic Literature",
+    "Drama",
+    "English drama",
+    "English literature",
+    "Fiction",
+    "Promptbooks",
+    "Psychology"
+  ],
+  "ol_work_key": "/works/OL14877875W"
 }

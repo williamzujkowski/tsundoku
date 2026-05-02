@@ -1,7 +1,7 @@
 {
   "title": "Absalom, Absalom!",
   "author": "William Faulkner",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "absalom-absalom",
   "tags": [
@@ -32,5 +32,63 @@
     "American fiction",
     "Manuscripts"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.52",
+    "813.52 s"
+  ],
+  "lcc": [
+    "PS-3511.00000000.A86 Ab 1978",
+    "PS-3511.00000000.A86A65 1987",
+    "PS-3511.00000000 A86 A6814 1967",
+    "PS-3511.00000000.A86 A65 1987",
+    "PS-3511.00000000.A86 A65 1936",
+    "PS-3511.00000000.A86 A6 1997",
+    "PZ-0003.00000000.F272 Ab 1978",
+    "PS-3511.00000000.A86 Ab4",
+    "PS-3511.00000000.A86 1986 vol. 13",
+    "PZ-0003.00000000.F272 Ab7",
+    "PS-3511.00000000.A86A6 1997",
+    "PS-3511.00000000.A86",
+    "PS-3511.00000000.A86 A6794 1980",
+    "PS-3511.00000000.A86A65 1990",
+    "PS-3511.00000000.A86A65 2002",
+    "PS-3511.00000000.A86 A65 1985",
+    "PZ-0003.00000000.F272 Ab4",
+    "PZ-0003.00000000.F272 Ab3",
+    "PS-3511.00000000.A86 A65 2002",
+    "PS-3511.00000000.A86 A65 1986",
+    "PS-3511.00000000.A86 A65 1990",
+    "PS-3511.00000000.A86A65 1986",
+    "PS-3511.00000000.A86 A6 1993b",
+    "PS-3511.00000000.A86 Ab7"
+  ],
+  "subject_facet": [
+    "American Historical fiction",
+    "American Manuscripts",
+    "American fiction",
+    "American fiction (fictional works by one author)",
+    "Facsimiles",
+    "Fiction",
+    "Fiction, family life",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fictional works",
+    "Large type books",
+    "Life Style",
+    "Long Now Manual for Civilization",
+    "Manuscripts",
+    "Mississippi -- Fiction",
+    "Mississippi, fiction",
+    "Plantation life",
+    "Plantation life -- Fiction",
+    "Sutpen family (Fictitious character)",
+    "Sutpen family (Fictitious characters)",
+    "Sutpen family (Fictitious characters) -- Fiction",
+    "Sutpen family (fictitious characters), fiction",
+    "Textual Criticism",
+    "Yaknapatawpha County (Imaginary place)",
+    "Yoknapatawpha county (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL82928W"
 }

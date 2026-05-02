@@ -1,7 +1,7 @@
 {
   "title": "Concrete Mathematics",
   "author": "Donald E. Knuth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "concrete-mathematics",
   "tags": [
@@ -35,5 +35,44 @@
     "Programmation",
     "Mathématiques"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "510",
+    "004.015"
+  ],
+  "lcc": [
+    "QA-0039.20000000.G733 1989",
+    "QA-0039.20000000.G733 1994",
+    "QA-0039.20000000.G7314 2003"
+  ],
+  "subject_facet": [
+    "510",
+    "54.10",
+    "Algorithme",
+    "Algorithmes",
+    "Analysis",
+    "Calcul formel",
+    "Ciencias computacionales",
+    "Ciencias computacionales--matemáticas",
+    "Computer science",
+    "Computer science, mathematics",
+    "Computer science--mathematics",
+    "Dat 542f",
+    "Informatique",
+    "Informatique--mathématiques",
+    "Long Now Manual for Civilization",
+    "Mat 100f",
+    "Matemáticas",
+    "Mathematics",
+    "Mathématiques",
+    "Mathématiques pour informatique",
+    "Programmation",
+    "Qa39.2 .g733 1994",
+    "Sk 110",
+    "Software",
+    "St 110",
+    "Wiskundige methoden",
+    "Zahlentheorie"
+  ],
+  "ol_work_key": "/works/OL3951639W"
 }

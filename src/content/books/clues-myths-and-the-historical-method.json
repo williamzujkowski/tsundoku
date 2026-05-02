@@ -17,5 +17,38 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=dSNnAQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "085.1",
+    "907.2"
+  ],
+  "lcc": [
+    "D--0016.00000000.G5213 1989",
+    "BL-0311.00000000",
+    "D--0016.00000000.G5213 2013",
+    "AC-0045.00000000.G55 1986"
+  ],
+  "subject_facet": [
+    "15.01 historiography",
+    "291.1/3",
+    "Bl311",
+    "Filosofía",
+    "Historia",
+    "Historiografia",
+    "Historiography",
+    "History",
+    "History, methodology",
+    "Krytyka i interpretacja",
+    "Linguistics",
+    "Methodology",
+    "Metodologia",
+    "Metodología",
+    "Mit",
+    "Myth",
+    "Mythology",
+    "Symbolism",
+    "Symbolism (Psychology)",
+    "Zabobony"
+  ],
+  "ol_work_key": "/works/OL14872791W"
 }

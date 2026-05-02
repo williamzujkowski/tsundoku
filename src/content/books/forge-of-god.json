@@ -1,7 +1,7 @@
 {
   "title": "Forge of God",
   "author": "Greg Bear",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "forge-of-god",
   "tags": [
@@ -21,5 +21,22 @@
     "Science fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.E157 F6 1988",
+    "PS-3568.00000000.O243",
+    "PS-3552.00000000.E157",
+    "PS-3552.00000000.E316 F67 1987",
+    "PS-3552.00000000.E157F6 1987",
+    "PS-3552.00000000.E157 F6 1987"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL16514W"
 }

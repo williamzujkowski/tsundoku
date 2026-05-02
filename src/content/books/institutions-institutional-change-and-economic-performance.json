@@ -1,7 +1,7 @@
 {
   "title": "Institutions, Institutional Change and Economic Performance",
   "author": "Douglass North",
-  "category": "Governance",
+  "category": "Economics",
   "priority": 1,
   "slug": "institutions-institutional-change-and-economic-performance",
   "tags": [
@@ -29,5 +29,33 @@
     "Planejamento economico",
     "Economia politica"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "302.35"
+  ],
+  "lcc": [
+    "HB-0099.50000000.N67 1990"
+  ],
+  "subject_facet": [
+    "Cambio organizacional",
+    "Changement organisationnel",
+    "Desarrollo económico",
+    "Développement économique",
+    "ECONOMICS",
+    "Economia (teoria)",
+    "Economia politica",
+    "Economic development",
+    "Economische ontwikkeling",
+    "Economía institucional",
+    "INSTITUTION BUILDING",
+    "Institutional economics",
+    "Institutionnalisme",
+    "Organisatieverandering",
+    "Organizational change",
+    "Planejamento economico",
+    "SOCIAL INSTITUTIONS",
+    "SOCIAL STRUCTURE",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2095641W"
 }

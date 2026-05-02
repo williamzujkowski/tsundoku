@@ -1,7 +1,7 @@
 {
   "title": "Fantasia: An Algerian Cavalcade",
   "author": "Assia Djebar",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "fantasia-an-algerian-cavalcade",
   "tags": [
@@ -26,5 +26,29 @@
     "Women--algeria--fiction"
   ],
   "copyright_status": "in_copyright",
-  "description": "In this stunning novel, Assia Djebar intertwines the history of her native Algeria with episodes from the life of a young girl in a story stretching from the French conquest in 1830 to the War of Liberation of the 1950s. The girl, growing up in the old Roman coastal town of Cherchel, sees her life in contrast to that of a neighboring French family, and yearns for more than law and tradition allow her to experience."
+  "description": "In this stunning novel, Assia Djebar intertwines the history of her native Algeria with episodes from the life of a young girl in a story stretching from the French conquest in 1830 to the War of Liberation of the 1950s. The girl, growing up in the old Roman coastal town of Cherchel, sees her life in contrast to that of a neighboring French family, and yearns for more than law and tradition allow her to experience.",
+  "isbn": "9780435086213",
+  "ddc": [
+    "843"
+  ],
+  "lcc": [
+    "PQ-3989.20000000.D57 A813 1993",
+    "PQ-3989.20000000.D57A813"
+  ],
+  "subject_facet": [
+    "843",
+    "Algeria, fiction",
+    "Authors, algerian",
+    "Authors, algerian--20th century",
+    "Fiction",
+    "Fiction, short stories (single author)",
+    "History",
+    "Literature--translations into english",
+    "Pq3989.2.d57 a813 1993",
+    "Women",
+    "Women--algeria--fiction",
+    "Women--algeria--history--fiction",
+    "Women--history"
+  ],
+  "ol_work_key": "/works/OL16336468W"
 }

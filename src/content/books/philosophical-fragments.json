@@ -1,7 +1,7 @@
 {
   "title": "Philosophical Fragments",
   "author": "Søren Kierkegaard",
-  "category": "Philosophy",
+  "category": "Religion",
   "priority": 1,
   "slug": "philosophical-fragments",
   "tags": [
@@ -26,5 +26,22 @@
     "Repentance"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Philosophical Fragments is a philosophical work written by Danish philosopher Søren Kierkegaard in 1844 and the first of three works written under the pseudonym Johannes Climacus."
+  "description": "Philosophical Fragments is a philosophical work written by Danish philosopher Søren Kierkegaard in 1844 and the first of three works written under the pseudonym Johannes Climacus.",
+  "isbn": "9780691019550",
+  "lcc": [
+    "BL-0051.00000000.K487 1962",
+    "B--4373.00000000.P5 E5 1962",
+    "BL-0051.00000000.K48713 1985",
+    "BL-0051.00000000.K487131985",
+    "BL-0051.00000000 K487"
+  ],
+  "subject_facet": [
+    "Bl51 .k48713 1985",
+    "Philosophie",
+    "Philosophy",
+    "Religion",
+    "Religion, philosophy",
+    "Religion--philosophy"
+  ],
+  "ol_work_key": "/works/OL16304857W"
 }

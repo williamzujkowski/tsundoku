@@ -1,7 +1,7 @@
 {
   "title": "Algorithms + Data Structures = Programs",
   "author": "Niklaus Wirth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "algorithms-data-structures-programs",
   "tags": [
@@ -30,5 +30,23 @@
     "Computers",
     "Programming"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780130224187",
+  "ddc": [
+    "001.642"
+  ],
+  "lcc": [
+    "QA-0076.60000000",
+    "QA-0076.60000000.W56"
+  ],
+  "subject_facet": [
+    "Algorithms",
+    "Computer algorithms",
+    "Computer programming",
+    "Computers",
+    "Data structures (Computer science)",
+    "Electronic digital computers",
+    "Programming"
+  ],
+  "ol_work_key": "/works/OL2589587W"
 }

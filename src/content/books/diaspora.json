@@ -1,7 +1,7 @@
 {
   "title": "Diaspora",
   "author": "Greg Egan",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "diaspora",
   "tags": [
@@ -29,5 +29,25 @@
     "Computational intelligence",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-9619.30000000.E35 D53 2015",
+    "PR-9619.30000000.E35 D52 1998",
+    "PR-9619.30000000.E35D52 1998",
+    "PR-9619.30000000.E35"
+  ],
+  "subject_facet": [
+    "Cloning",
+    "Computational intelligence",
+    "Cyberspace",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Orphans",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL115341W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Niels Lyhne",
   "author": "J. P. Jacobsen",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "niels-lyhne",
   "tags": [
@@ -30,5 +30,46 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 55389,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/55389",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/55389.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/55389.html.images",
+  "isbn": "9781420980035",
+  "ddc": [
+    "839.8186",
+    "839.8136",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PT-8140.00000000.N5 E5 1995g",
+    "PT-8140.00000000.N5 E5 1990",
+    "PZ-0003.00000000.J157 Ni",
+    "PT-8140.00000000.N5 G48",
+    "PT-8140.00000000.N5 E5 2006",
+    "PT-8140.00000000.N5 G4 1902",
+    "PT-8140.00000000.N5E5 2006",
+    "PT-8140.00000000.N5 G4",
+    "PT-0000.00000000",
+    "PZ-0003.00000000.J157 Ni3",
+    "PZ-0003.00000000.J157 Ni2",
+    "PC-2109.00000000.O51 1851a",
+    "PT-8140.00000000.N5 1924g",
+    "PT-8140.00000000.N6 1946",
+    "PT-8140.00000000.N5 E5 1995",
+    "PT-8140.00000000.N5 1986"
+  ],
+  "subject_facet": [
+    "Analytic Chemistry",
+    "Analytical chemistry",
+    "Christian life",
+    "Composition and exercises",
+    "Danish fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "French language",
+    "Organic Chemistry",
+    "Poets",
+    "Quantitative",
+    "Translations into English",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL3459530W"
 }

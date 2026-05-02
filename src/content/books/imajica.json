@@ -1,7 +1,7 @@
 {
   "title": "Imajica",
   "author": "Clive Barker",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "imajica",
   "tags": [
@@ -30,5 +30,28 @@
     "Fiction, fantasy, contemporary",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A6475 I47 2002",
+    "PR-6052.00000000.A6475 I47 1991",
+    "PR-6052.00000000.A6475I47 2001",
+    "PR-6052.00000000.A6475",
+    "PR-6052.00000000.A6475I47 1991",
+    "PR-6015.00000000.I3"
+  ],
+  "subject_facet": [
+    "Dominions",
+    "Erotic passion",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL257765W"
 }

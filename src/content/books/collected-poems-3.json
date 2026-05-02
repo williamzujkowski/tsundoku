@@ -1,7 +1,7 @@
 {
   "title": "Collected Poems",
   "author": "Robert Frost",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "collected-poems-3",
   "tags": [
@@ -32,5 +32,52 @@
     "Poetry",
     "Devotional literature"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "811.52",
+    "811.5"
+  ],
+  "lcc": [
+    "PS-3511.00000000.R94 A6 1981",
+    "PS-3511.00000000.R94 A6 1973",
+    "PS-3511.00000000.R94 A6 1936",
+    "PS-3511.00000000.R96 A6 1963",
+    "PS-3511.00000000.R94 1979",
+    "PS-3511.00000000.R94 1969",
+    "PS-3511.00000000.R94A6 1998",
+    "PS-3511.00000000 R94 A17 1951",
+    "PS-3511.00000000.R94 A6 1955",
+    "PS-3511.00000000.R94 1950",
+    "PS-3511.00000000 R94 A6 1963A",
+    "PS-3511.00000000.R94 A6 1928",
+    "PS-3511.00000000.R94 A6 1923",
+    "PS-3511.00000000.R94 A55 1960",
+    "PS-3511.00000000.R94 A6 1963",
+    "PS-3511.00000000 R94 1962",
+    "PS-3511.00000000.R94 1971b",
+    "PS-3511.00000000.R94 1979b",
+    "PS-3511.00000000.R94A17 2002",
+    "PS-3511.00000000.R94 A17 1979",
+    "PS-3511.00000000.R94 A6 1934",
+    "PS-3511.00000000.R94 A17 1981",
+    "PS-3511.00000000.R94 A6 1998",
+    "PS-3511.00000000.R94 1971",
+    "PS-3511.00000000.R94 P6 1980"
+  ],
+  "subject_facet": [
+    "American",
+    "American Poets",
+    "American poetry",
+    "Amerikaans",
+    "Children's poetry",
+    "Gedichten",
+    "General",
+    "Juvenile literature",
+    "Modern Poetry",
+    "Poesia Norte Americana",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poetry as Topic"
+  ],
+  "ol_work_key": "/works/OL1108089W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Interview with the Vampire",
   "author": "Anne Rice",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "interview-with-the-vampire",
   "tags": [
@@ -29,5 +29,50 @@
     "American fiction",
     "Vampiros"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.I265 I58 2004",
+    "PS-3568.00000000.I265 In",
+    "PS-3568.00000000.I265 I5818 2009",
+    "PS-3568.00000000.I265",
+    "PS-3568.00000000.I265 I58 1996",
+    "PS-3568.00000000.I265I58 1996",
+    "PZ-0004.00000000.R494 In",
+    "PZ-0004.00000000.R494",
+    "PS-3568.00000000.I265 I5146 1995",
+    "PS-3568.00000000.I265 I58"
+  ],
+  "subject_facet": [
+    "American fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, ghost",
+    "Fiction, horror",
+    "French fiction",
+    "Horror fiction",
+    "Imaginary interviews",
+    "Italy, fiction",
+    "Lestat (Fictitious character)",
+    "Lestat (fictitious character), fiction",
+    "Novela",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Roman français",
+    "Romans, nouvelles",
+    "Series:The-Vampire-Chronicles",
+    "Spanish fiction",
+    "Spanish imprints",
+    "Translations into Spanish",
+    "Vampires",
+    "Vampires in fiction",
+    "Vampires, fiction",
+    "Vampiros",
+    "gothic horror",
+    "vampire literature"
+  ],
+  "ol_work_key": "/works/OL77826W"
 }

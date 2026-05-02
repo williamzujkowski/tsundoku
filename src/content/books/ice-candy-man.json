@@ -1,7 +1,7 @@
 {
   "title": "Ice-Candy-Man",
   "author": "Bapsi Sidhwa",
-  "category": "History",
+  "category": "Literature",
   "priority": 3,
   "slug": "ice-candy-man",
   "tags": [
@@ -24,5 +24,22 @@
     "18.07 English literature outside Europe and the USA",
     "Roman pakistanais de langue anglaise"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9781907970634",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-9540.90000000.S53 I34 1989",
+    "PR-9540.90000000.S53"
+  ],
+  "subject_facet": [
+    "18.07 English literature outside Europe and the USA",
+    "Fiction",
+    "Fiction, historical, general",
+    "History",
+    "India, fiction",
+    "Roman pakistanais de langue anglaise"
+  ],
+  "ol_work_key": "/works/OL3935997W"
 }

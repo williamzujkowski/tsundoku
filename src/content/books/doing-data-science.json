@@ -1,7 +1,7 @@
 {
   "title": "Doing Data Science",
   "author": "Rachel Schutt, Cathy O'Neil",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "doing-data-science",
   "tags": [
@@ -26,5 +26,32 @@
     "Bayesian analysis",
     "Regression analysis"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.D343 S27 2014",
+    "QA-0076.90000000.D343",
+    "QA-0076.90000000.D343 S27 2013",
+    "QA-0076.90000000.D343S3 2013",
+    "QA-0076.90000000.D343 S374 2013"
+  ],
+  "subject_facet": [
+    "Algorithms",
+    "Bayesian analysis",
+    "Big data",
+    "Com018000",
+    "Cs.cmp_sc.app_sw.db",
+    "Cyberinfrastructure",
+    "Data mining",
+    "Data processing",
+    "Data structures (Computer science)",
+    "Database management",
+    "Databases",
+    "Information science",
+    "Information visualization",
+    "Mathematical & statistical software",
+    "Regression analysis",
+    "Stochastic processes",
+    "Time series"
+  ],
+  "ol_work_key": "/works/OL17581302W"
 }

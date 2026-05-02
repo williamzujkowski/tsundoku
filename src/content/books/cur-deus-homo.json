@@ -1,7 +1,7 @@
 {
   "title": "Cur Deus Homo",
   "author": "Anselm",
-  "category": "Medieval Philosophy & Theology",
+  "category": "Religion",
   "priority": 2,
   "slug": "cur-deus-homo",
   "tags": [],
@@ -17,5 +17,39 @@
   "oclc_id": "61208304",
   "worldcat_url": "https://www.worldcat.org/oclc/61208304",
   "lccn": "87321103",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9780873430258",
+  "ddc": [
+    "232.1",
+    "232"
+  ],
+  "lcc": [
+    "BT-0264.00000000.A63 C6",
+    "BT-0264.00000000 A6 1956",
+    "BT-0264.00000000.A6316 2007",
+    "BT-0265.20000000.A5714 2005",
+    "BT-0264.00000000 A63 1909?",
+    "BR-0060.00000000.S6 no. 91",
+    "BT-0264.00000000.A63 1909",
+    "BT-0264.00000000.A6314 2005"
+  ],
+  "subject_facet": [
+    "Atonement",
+    "Correspondence",
+    "Dieu",
+    "Dogmatika",
+    "Early works to 1800",
+    "History",
+    "Incarnation",
+    "Littérature chrétienne médiévale",
+    "Moyen Âge",
+    "Original Sin",
+    "Rédemption",
+    "Salut",
+    "Theology",
+    "Théologie et philosophie",
+    "Trinity",
+    "Virgin birth"
+  ],
+  "ol_work_key": "/works/OL707175W"
 }

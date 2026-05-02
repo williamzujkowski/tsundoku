@@ -1,7 +1,7 @@
 {
   "title": "Love Medicine",
   "author": "Louise Erdrich",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "love-medicine",
   "tags": [],
@@ -27,5 +27,46 @@
     "Fiction, general",
     "Indians of north america, fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3555.00000000.R42 L6 1998",
+    "PS-3555.00000000.R42L6 2009",
+    "PS-3568.00000000.O243",
+    "PS-3555.00000000.R42 L6 1993",
+    "PS-3555.00000000.R42 L6 1986",
+    "PS-3555.00000000.R42.L6 2013",
+    "PS-3555.00000000.R42",
+    "PS-3555.00000000.R42L6 1984",
+    "PS-3555.00000000.R42 L6 1984",
+    "PS-3555.00000000.R42 L6 2005",
+    "PS-3555.00000000.R42 L6 1985",
+    "PS-3555.00000000.R42 L6 1989",
+    "PS-3555.00000000.R42 L6 2009"
+  ],
+  "subject_facet": [
+    "Families",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Historical fiction",
+    "Indians",
+    "Indians of North America",
+    "Indians of north america, fiction",
+    "Indians of north america--north dakota--fiction",
+    "Interviews",
+    "Large type books",
+    "National Book Critics Circle Award Winner",
+    "North dakota, fiction",
+    "Ojibwa Indians",
+    "Ojibwa indians--fiction",
+    "Ps3555.r42 l6 1993",
+    "award:national_book_critics_circle_award=1984",
+    "award:national_book_critics_circle_award=fiction",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL479009W"
 }

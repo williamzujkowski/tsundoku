@@ -1,7 +1,7 @@
 {
   "title": "Mathematical Theory of Communication",
   "author": "Claude Shannon",
-  "category": "Mathematics",
+  "category": "Computer Science",
   "priority": 1,
   "slug": "mathematical-theory-of-communication",
   "tags": [
@@ -27,5 +27,20 @@
     "Long Now Manual for Civilization",
     "Mathematics, history"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "lcc": [
+    "TK-5101.00000000",
+    "TK-5101.00000000.S45",
+    "TK-5101.00000000.S45 1963",
+    "TK-5101.00000000.S45 1998"
+  ],
+  "subject_facet": [
+    "Automatic Data Processing",
+    "Electronic Data Processing",
+    "Electronics",
+    "Mathematical physics",
+    "Optics and Photonics",
+    "Telecommunication"
+  ],
+  "ol_work_key": "/works/OL19886387W"
 }

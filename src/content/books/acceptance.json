@@ -1,7 +1,7 @@
 {
   "title": "Acceptance",
   "author": "Jeff VanderMeer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "acceptance",
   "tags": [],
@@ -18,5 +18,30 @@
   "oclc_id": "935670393",
   "worldcat_url": "https://www.worldcat.org/oclc/935670393",
   "lccn": "2014016962",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.A4284 A82 2014",
+    "PS-3572.00000000.A4284",
+    "PS-3572.00000000.A4284A82 2014"
+  ],
+  "subject_facet": [
+    "Body horror",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, suspense",
+    "Missing persons",
+    "Missing persons, fiction",
+    "New York Times reviewed",
+    "Psychic ability",
+    "Quarantine",
+    "Scientific expeditions",
+    "Scientists",
+    "Scientists, fiction",
+    "horror"
+  ],
+  "ol_work_key": "/works/OL19330481W"
 }

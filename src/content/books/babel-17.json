@@ -1,7 +1,7 @@
 {
   "title": "Babel-17",
   "author": "Samuel R. Delany",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "babel-17",
   "tags": [
@@ -31,5 +31,45 @@
     "Optical illusions"
   ],
   "copyright_status": "in_copyright",
-  "description": "Babel-17 is a 1966 science fiction novel by American writer Samuel R. Delany in which the Sapir–Whorf hypothesis plays an important part. It was joint winner of the Nebula Award for Best Novel in 1967 and was also nominated for the Hugo Award for Best Novel in 1967."
+  "description": "Babel-17 is a 1966 science fiction novel by American writer Samuel R. Delany in which the Sapir–Whorf hypothesis plays an important part. It was joint winner of the Nebula Award for Best Novel in 1967 and was also nominated for the Hugo Award for Best Novel in 1967.",
+  "isbn": "9780375706691",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PR-6054.00000000.E4",
+    "PR-6054.00000000.E4 Bab B3 1967",
+    "PZ-0004.00000000.D338 Bab5",
+    "PS-3554.00000000.E437 B33 2001",
+    "PS-3554.00000000.E437E47 2001",
+    "PZ-0004.00000000.D338 Bab B3 1967",
+    "PS-3554.00000000.E437 Bab5",
+    "PZ-0004.00000000.D338 Bab",
+    "PS-3554.00000000.E37 B25 1982",
+    "PS-3554.00000000.E437 Bab",
+    "PS-3554.00000000.E437"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American fiction",
+    "Amerikaans Wetenskapfiksie",
+    "Amerikaanse fiksie",
+    "Artificial Languages",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Language",
+    "Language and languages",
+    "Life on other planets",
+    "Linguists",
+    "Optical illusions",
+    "Science fiction",
+    "Specimens",
+    "Upside-down books",
+    "Women linguists",
+    "Women poets",
+    "award:nebula_award=novel",
+    "collection:otherwise_tiptree_award=retrohonor"
+  ],
+  "ol_work_key": "/works/OL56834W"
 }

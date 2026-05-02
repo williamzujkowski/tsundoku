@@ -1,7 +1,7 @@
 {
   "title": "Poems on Various Subjects, Religious and Moral",
   "author": "Phillis Wheatley",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "poems-on-various-subjects-religious-and-moral",
   "tags": [
@@ -24,5 +24,23 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/409",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/409.html.images",
   "librivox_url": "https://librivox.org/poems-on-various-subjects-religious-and-moral-by-phillis-wheatley/",
-  "description": "Poems on Various Subjects, Religious and Moral by Phillis Wheatley, Negro Servant to Mr. John Wheatley, of Boston, in New England is a collection of 39 poems written by Phillis Wheatley, the first professional African-American woman poet in America and the first African-American woman whose writings were published."
+  "description": "Poems on Various Subjects, Religious and Moral by Phillis Wheatley, Negro Servant to Mr. John Wheatley, of Boston, in New England is a collection of 39 poems written by Phillis Wheatley, the first professional African-American woman poet in America and the first African-American woman whose writings were published.",
+  "isbn": "9781021785589",
+  "ddc": [
+    "811.1"
+  ],
+  "lcc": [
+    "PS-0866.00000000.W5 2017"
+  ],
+  "subject_facet": [
+    "African American poets",
+    "African American women poets",
+    "African Americans",
+    "American Poets",
+    "American Religious poetry",
+    "Colonial period",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL21723971W"
 }

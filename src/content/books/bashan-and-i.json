@@ -1,7 +1,7 @@
 {
   "title": "Bashan and I",
   "author": "Thomas Mann",
-  "category": "Literature",
+  "category": "Science",
   "priority": 2,
   "slug": "bashan-and-i",
   "tags": [
@@ -24,5 +24,20 @@
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015022668837",
   "hathitrust_rights": "Full view",
   "librivox_url": "https://librivox.org/bashan-and-i-by-thomas-mann/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "636.7"
+  ],
+  "lcc": [
+    "QL-0795.00000000.D6M3 2002",
+    "QL-0795.00000000.D6 M3 2002"
+  ],
+  "subject_facet": [
+    "Anecdotes",
+    "Dogs",
+    "Dogs -- Anecdotes",
+    "Dogs, anecdotes",
+    "Folklore"
+  ],
+  "ol_work_key": "/works/OL14866649W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Attack Surface",
   "author": "Cory Doctorow",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "attack-surface",
   "tags": [
@@ -31,5 +31,21 @@
     "cybersecurity",
     "American literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3604.00000000.O27"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Hackers",
+    "Politics",
+    "Science Fiction",
+    "Terrorism",
+    "cybersecurity",
+    "privacy",
+    "surveillance",
+    "technology",
+    "technothriller"
+  ],
+  "ol_work_key": "/works/OL20825335W"
 }

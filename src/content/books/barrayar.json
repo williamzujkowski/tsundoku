@@ -1,7 +1,7 @@
 {
   "title": "Barrayar",
   "author": "Lois McMaster Bujold",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "barrayar",
   "tags": [
@@ -28,5 +28,23 @@
     "Fiction, science fiction, action & adventure"
   ],
   "copyright_status": "in_copyright",
-  "description": "Barrayar is a science fiction novel by American writer Lois McMaster Bujold. It was first published as four installments in Analog in July–October 1991, and then published in book form by Baen Books in October 1991. Barrayar won both the Hugo Award for Best Novel and the Locus Award for Best Science Fiction Novel in 1992. It is a part of the Vorkosigan Saga, and is the seventh full-length novel of the series, in publication order."
+  "description": "Barrayar is a science fiction novel by American writer Lois McMaster Bujold. It was first published as four installments in Analog in July–October 1991, and then published in book form by Baen Books in October 1991. Barrayar won both the Hugo Award for Best Novel and the Locus Award for Best Science Fiction Novel in 1992. It is a part of the Vorkosigan Saga, and is the seventh full-length novel of the series, in publication order.",
+  "isbn": "9781433232015",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U397"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Vorkosigan, miles (fictitious character), fiction",
+    "award:hugo_award=1992",
+    "award:hugo_award=novel",
+    "series:vorkosigan_saga"
+  ],
+  "ol_work_key": "/works/OL56905W"
 }

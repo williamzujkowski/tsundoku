@@ -1,7 +1,7 @@
 {
   "title": "Midwinter",
   "author": "Tove Jansson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "midwinter",
   "tags": [
@@ -29,5 +29,33 @@
     "Juvenile fiction",
     "Winter"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0008.00000000.J247 Mn3",
+    "PZ-0008.00000000.J247 M6eb",
+    "PZ-0007.00000000.J247 Mn 1992"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Children's stories",
+    "Fantasy",
+    "Fantasy & magical realism (Children's / Teenage)",
+    "Fantasy fiction",
+    "Fantasy.",
+    "Fiction",
+    "Finnish fiction",
+    "For children",
+    "In English",
+    "Juvenile fiction",
+    "Swedish children's stories",
+    "Winter",
+    "Winter -- Fiction.",
+    "Winter, fiction",
+    "moomin",
+    "moominland"
+  ],
+  "ol_work_key": "/works/OL2196005W"
 }

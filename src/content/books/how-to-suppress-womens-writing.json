@@ -1,7 +1,7 @@
 {
   "title": "How to Suppress Women's Writing",
   "author": "Joanna Russ",
-  "category": "Science Fiction",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "how-to-suppress-womens-writing",
   "tags": [],
@@ -22,5 +22,25 @@
     "Authorship, sex differences",
     "Censorship"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "809.89287"
+  ],
+  "lcc": [
+    "PN-0471.00000000.R87 2018",
+    "PN-0471.00000000",
+    "PN-0471.00000000.R87 1983"
+  ],
+  "subject_facet": [
+    "American Women authors",
+    "Authorship",
+    "Authorship, sex differences",
+    "Censorship",
+    "English Women authors",
+    "History and criticism",
+    "Sex differences",
+    "Women authors",
+    "Women in literature"
+  ],
+  "ol_work_key": "/works/OL3332551W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Cyberjutsu",
   "author": "Ben McCarty",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "cyberjutsu",
   "tags": [
@@ -27,5 +27,19 @@
     "security",
     "Mathematics"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25M4249 2021"
+  ],
+  "subject_facet": [
+    "Mathematics",
+    "cyber",
+    "cybersecurity",
+    "jutsu",
+    "network",
+    "ninja",
+    "security",
+    "shinobi"
+  ],
+  "ol_work_key": "/works/OL21686153W"
 }

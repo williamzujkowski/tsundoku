@@ -9,5 +9,21 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground is a 2011 non-fiction book written by Kevin Poulsen.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Kingpin_%28book%29.jpg/250px-Kingpin_%28book%29.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Kingpin_%28book%29.jpg/250px-Kingpin_%28book%29.jpg",
+  "isbn": "9780307588685",
+  "ddc": [
+    "364.168092"
+  ],
+  "lcc": [
+    "HV-6773.20000000.P68 2011",
+    "HV-6773.20000000.P68 2010"
+  ],
+  "subject_facet": [
+    "Case studies",
+    "Commercial criminals",
+    "Computer crimes",
+    "Computer hackers",
+    "Hackers"
+  ],
+  "ol_work_key": "/works/OL15473897W"
 }

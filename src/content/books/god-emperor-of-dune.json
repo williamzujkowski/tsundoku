@@ -1,7 +1,7 @@
 {
   "title": "God Emperor of Dune",
   "author": "Frank Herbert",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "god-emperor-of-dune",
   "tags": [
@@ -29,5 +29,30 @@
     "Littérature fantastique",
     "Français (langue)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.E63 G6 1981",
+    "PS-3558.00000000.E63G6 2008",
+    "PS-3558.00000000.E63",
+    "PS-0000.00000000",
+    "BZ-0005.00000000 HER",
+    "PS-3558.00000000.E63 G6 2008"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Dune (Imaginary place)",
+    "Dune (imaginary place), fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Français (langue)",
+    "Lectures et morceaux choisis",
+    "Littérature fantastique",
+    "Roman",
+    "Science fiction",
+    "Science-fiction"
+  ],
+  "ol_work_key": "/works/OL893515W"
 }

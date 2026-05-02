@@ -1,7 +1,7 @@
 {
   "title": "Algorithm Design",
   "author": "Jon Kleinberg and Éva Tardos",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "algorithm-design",
   "tags": [
@@ -19,5 +19,22 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=c57CQgAACAAJ&dq=Algorithm+Design+Jon+Kleinberg+and+%C3%89va+Tardos&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A43K54 2006",
+    "QA-0076.90000000.A43 K54 2006"
+  ],
+  "subject_facet": [
+    "54.10 theoretical informatics",
+    "Algorithmes",
+    "Algorithms",
+    "Algorithmus",
+    "Algoritmen",
+    "Algoritmos e estruturas de dados",
+    "Computer algorithms",
+    "Data structures (Computer science)",
+    "Datastructuren",
+    "Structures de données (Informatique)"
+  ],
+  "ol_work_key": "/works/OL27741360W"
 }

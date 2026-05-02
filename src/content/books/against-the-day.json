@@ -1,7 +1,7 @@
 {
   "title": "Against the Day",
   "author": "Thomas Pynchon",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "against-the-day",
   "tags": [
@@ -32,5 +32,21 @@
     "New York Times reviewed",
     "Fiction, historical, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3566.00000000.Y55A73 2006",
+    "PS-3566.00000000.Y55",
+    "PS-3566.00000000.Y55 A73 2006"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Disasters",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Forecasting",
+    "Historical fiction",
+    "New York Times reviewed"
+  ],
+  "ol_work_key": "/works/OL2636670W"
 }

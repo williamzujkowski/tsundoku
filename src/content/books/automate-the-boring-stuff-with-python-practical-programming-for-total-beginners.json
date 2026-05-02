@@ -1,7 +1,7 @@
 {
   "title": "Automate the Boring Stuff with Python: Practical Programming for Total Beginners",
   "author": "Al Sweigart",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "automate-the-boring-stuff-with-python-practical-programming-for-total-beginners",
   "tags": [
@@ -29,5 +29,23 @@
     "python",
     "programming"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.73000000.P98S94 2020",
+    "QA-0076.73000000.P98",
+    "QA-0076.73000000.P98 S94 2015"
+  ],
+  "subject_facet": [
+    "COMPUTERS",
+    "Computer programming",
+    "General",
+    "Mathematics",
+    "Programming Languages",
+    "Python",
+    "Python (Computer program language)",
+    "Python (computer program language)",
+    "programming",
+    "python"
+  ],
+  "ol_work_key": "/works/OL17192141W"
 }

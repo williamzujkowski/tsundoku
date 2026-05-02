@@ -1,7 +1,7 @@
 {
   "title": "Gardens of the Moon",
   "author": "Steven Erikson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "gardens-of-the-moon",
   "tags": [
@@ -31,5 +31,35 @@
     "Science Fiction & Fantasy -- Authors, A-Z -- ( E ) -- Erikson, Steven",
     "Science Fiction & Fantasy -- Fantasy -- Epic"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6",
+    "823.92"
+  ],
+  "lcc": [
+    "PR-9199.40000000.E745 G37 2005",
+    "PR-9199.40000000.E745",
+    "PR-9199.40000000.E745 G37 2004",
+    "PR-6055.00000000.R55G37 2004"
+  ],
+  "subject_facet": [
+    "Battles",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Geographical myths",
+    "Imaginary places",
+    "Literature & Fiction",
+    "Prophets",
+    "Science Fiction & Fantasy -- Authors, A-Z -- ( E ) -- Erikson, Steven",
+    "Science Fiction & Fantasy -- Fantasy -- Epic",
+    "dragons",
+    "empire",
+    "epic",
+    "malazan",
+    "series:Malazan Book of the Fallen",
+    "sorcery"
+  ],
+  "ol_work_key": "/works/OL5734756W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Laughing Boy",
   "author": "Oliver La Farge",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "laughing-boy",
   "tags": [
@@ -28,5 +28,51 @@
     "Navajo (Indiens)",
     "Roman américain"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9781299903173",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3523.00000000.A2663",
+    "PZ-0003.00000000.L129 Lau",
+    "PS-3523.00000000.A2663 Lau8",
+    "PS-3523.00000000.A2663 L3 1976",
+    "PS-3523.00000000.A2663 L38 2004",
+    "PS-3523.00000000.A256 L3 1929b",
+    "PZ-0003.00000000.L129 Lau 1977",
+    "PZ-0003.00000000.L129",
+    "PS-3523.00000000.A2663 Lau",
+    "PZ-0003.00000000.L129 Lau8",
+    "PS-3523.00000000.A2663 L38 1957",
+    "PS-3523.00000000.A2663 L38",
+    "PS-3523.00000000.A2663 L38 1929",
+    "PS-3523.00000000.A2663 Lau 1977",
+    "PZ-0003.00000000.Laf 1957",
+    "PS-3523.00000000.A2663L38 2004",
+    "PS-3523.00000000.A2663 L38 2006"
+  ],
+  "subject_facet": [
+    "Adolescence, fiction",
+    "Ameriška književnost",
+    "Children's fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, romance, historical",
+    "Indians of North America",
+    "Indians of north america, fiction",
+    "Indiens d'Amérique",
+    "Large type books",
+    "Man-woman relationships",
+    "Native Americans",
+    "Navajo",
+    "Navajo (Indiens)",
+    "Navajo Indians",
+    "Roman américain",
+    "Romance fiction",
+    "Romani",
+    "Western stories"
+  ],
+  "ol_work_key": "/works/OL3538188W"
 }

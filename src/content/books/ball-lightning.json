@@ -1,7 +1,7 @@
 {
   "title": "Ball Lightning",
   "author": "Liu Cixin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "ball-lightning",
   "tags": [],
@@ -18,5 +18,25 @@
   ],
   "google_books_url": "http://books.google.com/books?id=rohhDwAAQBAJ&dq=Ball+Lightning+Liu+Cixin&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1352"
+  ],
+  "lcc": [
+    "PL-2947.00000000.C59 Q58 2009",
+    "PL-2947.00000000.C59",
+    "PL-2947.00000000.C59Q25813",
+    "PL-2947.00000000.C59 Q25813 2018"
+  ],
+  "subject_facet": [
+    "Ball lightning",
+    "FICTION / Science Fiction / Hard Science Fiction",
+    "FICTION / Science Fiction / Military",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Imaginary wars and battles",
+    "Military weapons",
+    "Physicists"
+  ],
+  "ol_work_key": "/works/OL19622381W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Drum-Taps",
   "author": "Walt Whitman",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "drum-taps",
   "tags": [
@@ -25,5 +25,29 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8801",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8801.html.images",
   "copyright_status": "public_domain",
-  "description": "Drum-Taps is a collection of poetry composed by American poet Walt Whitman during the American Civil War. The collection was published in May 1865. The first 500 copies of the collection were printed in April 1865, the same month President Abraham Lincoln was assassinated."
+  "description": "Drum-Taps is a collection of poetry composed by American poet Walt Whitman during the American Civil War. The collection was published in May 1865. The first 500 copies of the collection were printed in April 1865, the same month President Abraham Lincoln was assassinated.",
+  "isbn": "9781093844948",
+  "ddc": [
+    "811.3",
+    "811.4"
+  ],
+  "lcc": [
+    "PS-3211.00000000.A1 1915",
+    "PS-3211.00000000.A2 K83 2015",
+    "PS-3211.00000000.A1 1865",
+    "PS-3211.00000000.A1 1919",
+    "PS-3211.00000000.A1 2008",
+    "PS-3242.00000000.W3",
+    "PS-3211.00000000.A2K83 2015",
+    "PS-3211.00000000.A1 1865a",
+    "PS-3211.00000000.A2"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Civil war",
+    "History",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL16420W"
 }

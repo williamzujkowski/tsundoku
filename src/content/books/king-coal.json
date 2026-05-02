@@ -1,7 +1,7 @@
 {
   "title": "King Coal",
   "author": "Upton Sinclair",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "king-coal",
   "tags": [
@@ -31,5 +31,38 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7522",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7522.html.images",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/king-coal-by-upton-sinclair/"
+  "librivox_url": "https://librivox.org/king-coal-by-upton-sinclair/",
+  "isbn": "9780343769987",
+  "ddc": [
+    "813.52",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3537.00000000.I85 K5",
+    "PZ-0003.00000000.S616 Kc",
+    "PS-3537.00000000.I85 Kc 1980",
+    "PS-3537.00000000.I85 K5 1930",
+    "PS-3537.00000000.I85 K5 1921",
+    "PZ-0003.00000000.S616 Kc 1980",
+    "PS-3537.00000000.I85 K517 1981",
+    "PS-3537.00000000.I85 Kc",
+    "PZ-0003.00000000.S616 Ki 2009"
+  ],
+  "subject_facet": [
+    "1913-1914",
+    "American fiction (fictional works by one author)",
+    "Coal Miners' Strike",
+    "Coal miners",
+    "Coal mines and mining",
+    "Colorado",
+    "Colorado, fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Fiction, political",
+    "Labor movement",
+    "Labor unions",
+    "Organizing"
+  ],
+  "ol_work_key": "/works/OL115067W"
 }

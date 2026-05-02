@@ -1,7 +1,7 @@
 {
   "title": "Do Androids Dream of Electric Sheep",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "do-androids-dream-of-electric-sheep",
   "tags": [
@@ -29,5 +29,55 @@
     "Large type books",
     "Movie-TV Tie-In"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3 D57 1969b",
+    "PS-3554.00000000.I3 D57 2001",
+    "PS-3554.00000000.I3 D6 1996",
+    "PS-3554.00000000.I3 Dm",
+    "PS-3554.00000000.I3",
+    "PS-3554.00000000.I3B5 2017",
+    "PS-3554.00000000.I3D6 2017",
+    "PZ-0004.00000000.D547 Dm"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "American Science fiction",
+    "Androids",
+    "Androids -- Fiction",
+    "Androidy",
+    "Artificial life",
+    "Bounty hunters",
+    "CHR 1982",
+    "Control systems",
+    "Deckard, Rick (Fictitious character)",
+    "Deckard, Rick (Fictitious character) -- Fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Films",
+    "Istoty pozaziemskie",
+    "Large type books",
+    "Literary collections",
+    "Long Now Manual for Civilization",
+    "Media Tie-In",
+    "Motion Pictures",
+    "Movie-TV Tie-In",
+    "Movies",
+    "Novelization",
+    "PRO Adams, Mark B. (donor) (Adams Collection copy)",
+    "Rick Deckard (Fictitious character)",
+    "Robotic pets",
+    "Robots",
+    "San Francisco (Stany Zjednoczone)",
+    "San Francisco (Stany Zjednoczone, stan Kalifornia)",
+    "Science Fiction",
+    "Science Fiction & Fantasy",
+    "Twenty-first century",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2172356W"
 }

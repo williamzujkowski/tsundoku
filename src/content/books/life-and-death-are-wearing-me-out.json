@@ -1,7 +1,7 @@
 {
   "title": "Life and Death Are Wearing Me Out",
   "author": "Mo Yan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "life-and-death-are-wearing-me-out",
   "tags": [
@@ -30,5 +30,28 @@
     "Fiction, historical",
     "China, fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1352"
+  ],
+  "lcc": [
+    "PL-2886.00000000.O1684 S436 2006",
+    "PL-2886.00000000.O1684",
+    "PL-2886.00000000.O1684 S5413 2012",
+    "PL-2886.00000000.O195 S496 2006",
+    "PL-2886.00000000.O1684 S5413 2008"
+  ],
+  "subject_facet": [
+    "China, fiction",
+    "Chinese fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, historical",
+    "History",
+    "Land tenure",
+    "Landowners",
+    "Reincarnation",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL5820617W"
 }

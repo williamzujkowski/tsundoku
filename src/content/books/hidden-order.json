@@ -1,7 +1,7 @@
 {
   "title": "Hidden Order",
   "author": "John H. Holland",
-  "category": "Complex Systems",
+  "category": "Computer Science",
   "priority": 1,
   "slug": "hidden-order",
   "tags": [
@@ -22,5 +22,20 @@
     "Adaptation (Biology)",
     "New York Times reviewed"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780201442304",
+  "ddc": [
+    "003.7"
+  ],
+  "lcc": [
+    "TJ-0217.00000000.H64 1995",
+    "TJ-0217.00000000.H64 1996"
+  ],
+  "subject_facet": [
+    "Adaptation (Biology)",
+    "Adaptive control systems",
+    "Mathematical models",
+    "New York Times reviewed"
+  ],
+  "ol_work_key": "/works/OL2679207W"
 }

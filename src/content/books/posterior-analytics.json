@@ -1,7 +1,7 @@
 {
   "title": "Posterior Analytics",
   "author": "Aristotle",
-  "category": "Philosophy",
+  "category": "Classics",
   "priority": 1,
   "slug": "posterior-analytics",
   "tags": [],
@@ -13,5 +13,45 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/posterior-analytics-by-aristotle/",
-  "description": "The Posterior Analytics is a text from Aristotle's Organon that deals with demonstration, definition, and scientific knowledge. The demonstration is distinguished as a syllogism productive of scientific knowledge, while the definition marked as the statement of a thing's nature, ... a statement of the meaning of the name, or of an equivalent nominal formula."
+  "description": "The Posterior Analytics is a text from Aristotle's Organon that deals with demonstration, definition, and scientific knowledge. The demonstration is distinguished as a syllogism productive of scientific knowledge, while the definition marked as the statement of a thing's nature, ... a statement of the meaning of the name, or of an equivalent nominal formula.",
+  "isbn": "9781419142703",
+  "ddc": [
+    "160"
+  ],
+  "lcc": [
+    "PA-3891.00000000.A4 1960a",
+    "B--0441.00000000.A5 B37 1994",
+    "B--0441.00000000.A5 A66 1981",
+    "B--0441.00000000.A5B37 1994",
+    "PA-3891.00000000 A4 1960",
+    "B--0441.00000000.A5 B37 1993eb",
+    "BC-0015.00000000",
+    "B--0441.00000000.A5A66 1981",
+    "PA-3891.00000000.A4 1966",
+    "B--0441.00000000.A5 B37 1993",
+    "B--0441.00000000.A8 I85 2007",
+    "B--0441.00000000.A5 B37"
+  ],
+  "subject_facet": [
+    "Ancient Logic",
+    "Definition (Logic)",
+    "Definition (Philosophy)",
+    "Définition (Philosophie)",
+    "Early works to 1800",
+    "Knowledge, Theory of",
+    "Logic",
+    "Logic, early works to 1800",
+    "Logique",
+    "Methodology",
+    "Ouvrages avant 1800",
+    "PHILOSOPHY",
+    "Philosophy & Religion",
+    "Philosophy, ancient",
+    "Science",
+    "Science, early works to 1800",
+    "Science, methodology",
+    "Theory of Knowledge",
+    "Théorie de la connaissance"
+  ],
+  "ol_work_key": "/works/OL151618W"
 }

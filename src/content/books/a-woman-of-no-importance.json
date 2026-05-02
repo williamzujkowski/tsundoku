@@ -1,7 +1,7 @@
 {
   "title": "A Woman of No Importance",
   "author": "Sonia Purnell",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "a-woman-of-no-importance",
   "tags": [
@@ -31,5 +31,32 @@
     "Women spies",
     "Biography"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "D--0810.00000000.S8",
+    "D--0810.00000000.S8G597 2019",
+    "D--0810.00000000.S8 G597 2019"
+  ],
+  "subject_facet": [
+    "BIOGRAPHY & AUTOBIOGRAPHY / Women",
+    "Biography",
+    "HISTORY / Europe / France",
+    "HISTORY / Women",
+    "Intelligence officers",
+    "Intelligence officers, biography",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Secret service",
+    "Spies",
+    "Underground movements",
+    "War Underground movements",
+    "Women spies",
+    "World War (1939-1945) fast (OCoLC)fst01180924",
+    "World War, 1939-1945",
+    "World war, 1939-1945, secret service, united states",
+    "World war, 1939-1945, underground movements, france",
+    "World war, 1939-1945, women",
+    "nyt:combined-print-and-e-book-nonfiction=2019-05-05"
+  ],
+  "ol_work_key": "/works/OL20084541W"
 }

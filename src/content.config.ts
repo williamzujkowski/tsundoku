@@ -44,6 +44,12 @@ const books = defineCollection({
     cover_url_source: z.string().optional(),
     cover_url_large_source: z.string().optional(),
     cover_cached_at: z.string().optional(),
+    // Open Library classification (populated by scripts/enrich-ol-classification.py)
+    // ddc = Dewey Decimal, lcc = Library of Congress. Used for category suggestions.
+    ddc: z.array(z.string()).optional(),
+    lcc: z.array(z.string()).optional(),
+    subject_facet: z.array(z.string()).optional(),
+    ol_work_key: z.string().optional(),
   }),
 });
 

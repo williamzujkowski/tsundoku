@@ -1,7 +1,7 @@
 {
   "title": "Babel",
   "author": "R.F. Kuang",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "babel",
   "tags": [],
@@ -17,5 +17,25 @@
   "reading_status": "read",
   "oclc_id": "1341231700",
   "worldcat_url": "https://www.worldcat.org/oclc/1341231700",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3611.00000000.U17 B33 2022b"
+  ],
+  "subject_facet": [
+    "Chinese",
+    "Fiction",
+    "Fiction, alternative history",
+    "Fiction, fantasy, dark fantasy",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical",
+    "History",
+    "Imperialism",
+    "Magic",
+    "New York Times bestseller",
+    "Translators",
+    "University of Oxford",
+    "award:nebula_award=novel",
+    "nyt:combined-print-and-e-book-fiction=2022-09-11"
+  ],
+  "ol_work_key": "/works/OL26443093W"
 }

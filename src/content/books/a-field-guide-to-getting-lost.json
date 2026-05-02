@@ -1,7 +1,7 @@
 {
   "title": "A Field Guide to Getting Lost",
   "author": "Rebecca Solnit",
-  "category": "Essays",
+  "category": "History",
   "priority": 2,
   "slug": "a-field-guide-to-getting-lost",
   "tags": [
@@ -33,5 +33,44 @@
     "Arts, philosophy",
     "West (u.s.), description and travel"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "306",
+    "917.90454"
+  ],
+  "lcc": [
+    "E--0169.04000000.S628 2006",
+    "BF-0575.00000000.D35 S65 2006",
+    "E--0169.00000000.Z82 S628 2005",
+    "E--0169.04000000.S628 2017",
+    "E--0169.00000000.Z83 S628 2006",
+    "E--0169.00000000.Z83 S628 2005",
+    "E--0169.04000000 S628 2005"
+  ],
+  "subject_facet": [
+    "American Women authors",
+    "Art",
+    "Arts",
+    "Arts, philosophy",
+    "BIOGRAPHY & AUTOBIOGRAPHY / Artists, Architects, Photographers",
+    "BIOGRAPHY & AUTOBIOGRAPHY / Personal Memoirs",
+    "Biography",
+    "Biography & Autobiography",
+    "Culture",
+    "Description and travel",
+    "LITERARY CRITICISM / Subjects & Themes / Women",
+    "Landscape",
+    "Landscapes",
+    "Loss (Psychology)",
+    "Nonfiction",
+    "Philosophie",
+    "Philosophy",
+    "Travel",
+    "Uncertainty",
+    "United states, description and travel",
+    "Voyages",
+    "Voyages and travels",
+    "West (u.s.), description and travel"
+  ],
+  "ol_work_key": "/works/OL15273770W"
 }

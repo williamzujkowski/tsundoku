@@ -1,7 +1,7 @@
 {
   "title": "Mythologies",
   "author": "Roland Barthes",
-  "category": "Literary Criticism",
+  "category": "Computer Science",
   "priority": 1,
   "slug": "mythologies",
   "tags": [],
@@ -19,5 +19,35 @@
     "Judgment (Logic)",
     "Semantics"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "isbn": "9782020005852",
+  "ddc": [
+    "081",
+    "301.21"
+  ],
+  "lcc": [
+    "AC-0025.00000000.B3132 1972b",
+    "HN-0425.00000000.B273",
+    "AC-0025.00000000.B3",
+    "AC-0025.00000000.B3132 1972"
+  ],
+  "subject_facet": [
+    "301.2/1",
+    "Ac25 .b3132 1972",
+    "Civilisation",
+    "France, social life and customs",
+    "French essays",
+    "Judgment (Logic)",
+    "Jugement (Logique)",
+    "Mythology",
+    "Mœurs et coutumes",
+    "Popular culture",
+    "Semantics",
+    "Semiotics",
+    "Signs and symbols",
+    "Social life and customs",
+    "Sémantique",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL1375089W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "It",
   "author": "Stephen King",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "it",
   "tags": [
@@ -35,5 +35,57 @@
   "gutenberg_id": 7947,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7947",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7947.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "813.54",
+    "813"
+  ],
+  "lcc": [
+    "PS-3561.00000000.I483I8 2016",
+    "PS-3561.00000000.I483I8 1986",
+    "PS-3561.00000000.I483 I8 2016",
+    "PS-3561.00000000.I483 I8 2017",
+    "PS-3561.00000000.I483I8 2017",
+    "PS-3561.00000000.I483 I8 1986b",
+    "PS-3561.00000000.I483",
+    "PS-3561.00000000.I483I8 2019",
+    "PS-3561.00000000.I483 I8 1986"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Clowns",
+    "Fiction",
+    "Fiction, horror",
+    "Good and evil",
+    "Horror fiction",
+    "Literary",
+    "Monsters",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Omniscience",
+    "Open Library Staff Picks",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 9",
+    "Schwinn bicycles",
+    "blood oaths",
+    "catatonia",
+    "clownrewolves",
+    "coming of age",
+    "ghosts",
+    "homosexuality",
+    "horror",
+    "horror stories",
+    "horror tales",
+    "lepers",
+    "mummies",
+    "nonlinear narrative",
+    "nyt:trade-fiction-paperback=2017-09-03",
+    "suspense",
+    "third-person",
+    "thrillers",
+    "we"
+  ],
+  "ol_work_key": "/works/OL81613W"
 }

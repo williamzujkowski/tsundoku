@@ -1,7 +1,7 @@
 {
   "title": "Dune Messiah",
   "author": "Frank Herbert",
-  "category": "Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "dune-messiah",
   "tags": [
@@ -29,5 +29,42 @@
     "Lectures et morceaux choisis",
     "Anglais (langue)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.H5356 Du",
+    "PS-3558.00000000.E63 D85 1975",
+    "PS-3568.00000000.O243",
+    "PS-3558.00000000.E63 D8618 2004",
+    "PS-3558.00000000.E63D82 2017",
+    "PS-3558.00000000.E63D82 1975",
+    "PS-3558.00000000.E63D86 2008",
+    "PS-3558.00000000.E63",
+    "PZ-0004.00000000.H5356",
+    "PS-3558.00000000.E63 D86 2008",
+    "PS-3558.00000000.E63 Du"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Anglais (langue)",
+    "Dune (Imaginary place)",
+    "Dune (Lugar imaginario)",
+    "Dune (imaginary place), fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Imaginary places",
+    "Lectures et morceaux choisis",
+    "Long Now Manual for Civilization",
+    "Novela",
+    "Roman ame ricain",
+    "Roman américain",
+    "Science Fiction",
+    "Science-fiction ame ricaine",
+    "Science-fiction américaine",
+    "Translations into Russian"
+  ],
+  "ol_work_key": "/works/OL893526W"
 }

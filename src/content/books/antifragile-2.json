@@ -1,7 +1,7 @@
 {
   "title": "Antifragile",
   "author": "Nassim Nicholas Taleb",
-  "category": "Security",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "antifragile-2",
   "tags": [
@@ -36,5 +36,52 @@
     "Social aspects",
     "Uncertainty (Information theory)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "155.24"
+  ],
+  "lcc": [
+    "Q--0375.00000000.T348 2014",
+    "Q--0375.00000000.T348 2012",
+    "BF-0698.35000000.R47 T355 2012",
+    "BF-0698.35000000.R47T355",
+    "Q--0375.00000000.T348127 2014",
+    "BF-0698.35000000.R47",
+    "BF-0698.35000000.R47 T35 2012"
+  ],
+  "subject_facet": [
+    "155.2/4",
+    "Adaptability (psychology)",
+    "Adjustment (psychology)",
+    "BUSINESS & ECONOMICS",
+    "BUSINESS & ECONOMICS / General",
+    "Chaotic behavior in systems",
+    "Complexity (Philosophy)",
+    "Developmental",
+    "FAMILY & RELATIONSHIPS",
+    "Forecasting",
+    "General",
+    "Juvenile fiction",
+    "Life Stages",
+    "Lifespan Development",
+    "Long Now Manual for Civilization",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "PSYCHOLOGY",
+    "PSYCHOLOGY & PSYCHIATRY",
+    "PSYCHOLOGY / General",
+    "Popular Psychology",
+    "Popular economics",
+    "Psy000000 bus000000",
+    "Psychological Adaptation",
+    "Psychological Resilience",
+    "Q375 .t348 2012",
+    "Resilience (Personality trait)",
+    "Social aspects",
+    "Uncertainty",
+    "Uncertainty (Information theory)",
+    "Uncertainty (information theory)--social aspects",
+    "nyt:combined-print-and-e-book-nonfiction=2012-12-16"
+  ],
+  "ol_work_key": "/works/OL16726829W"
 }

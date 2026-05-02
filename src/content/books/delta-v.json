@@ -1,7 +1,7 @@
 {
   "title": "Delta-v",
   "author": "Daniel Suarez",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "delta-v",
   "tags": [
@@ -21,5 +21,13 @@
     "Fiction, science fiction, action & adventure",
     "Long now manual for civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3619.00000000.U327D45 2019"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, action & adventure",
+    "Long now manual for civilization"
+  ],
+  "ol_work_key": "/works/OL20845044W"
 }

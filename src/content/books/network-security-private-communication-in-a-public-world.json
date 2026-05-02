@@ -19,5 +19,32 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=wxMqaz4JMb0C&dq=Network+Security:+Private+Communication+in+a+Public+World+Charlie+Kaufman,+Radia+Perlman,+Mike+Speciner&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA-0076.90000000",
+    "TK-5105.59000000",
+    "QA-0076.90000000.A25K345 1995",
+    "QA-0076.90000000.A25 K345 1995",
+    "QA-0076.90000000.A25 K39 2002"
+  ],
+  "subject_facet": [
+    "005.8",
+    "Access control",
+    "Algorithms",
+    "Computer networks",
+    "Computer networks--security measures",
+    "Computer security",
+    "Computers",
+    "Computers--access control",
+    "Electronic data processing departments",
+    "Electronic data processing departments--security measures",
+    "Engineering",
+    "Information technology--general and others",
+    "Qa76.9.a25 k345 1995",
+    "Security measures"
+  ],
+  "ol_work_key": "/works/OL3099646W"
 }

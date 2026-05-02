@@ -1,7 +1,7 @@
 {
   "title": "Lavinia",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "lavinia",
   "tags": [
@@ -30,5 +30,31 @@
     "Marriage, fiction",
     "Fiction, historical, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42",
+    "PS-3562.00000000.E42 L38 2008",
+    "PS-3562.00000000.E42L38 2025",
+    "PS-3562.00000000.E42L38 2008"
+  ],
+  "subject_facet": [
+    "Aeneas (Legendary character)",
+    "American literature",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, historical, general",
+    "History",
+    "Legends",
+    "Marriage",
+    "Marriage, fiction",
+    "Rome (italy), fiction",
+    "Rome, fiction",
+    "collection:Name",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL15855820W"
 }

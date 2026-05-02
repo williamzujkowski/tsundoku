@@ -1,7 +1,7 @@
 {
   "title": "Nova",
   "author": "Samuel R. Delany",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "nova",
   "tags": [
@@ -29,5 +29,34 @@
     "syrinx",
     "cyborg"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.D338 No 1977",
+    "PS-3554.00000000.E437",
+    "PS-3554.00000000 E35 N9 1969",
+    "PS-3554.00000000.E437N68 2002",
+    "PS-3554.00000000.E437 N68 2002",
+    "PS-3554.00000000.E437 No 1977",
+    "PS-3554.00000000.E437 N6 1980",
+    "PZ-0004.00000000.D338 No",
+    "PS-3554.00000000.E437 No"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "American Science fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Illyrion",
+    "Interplanetary voyages",
+    "Nova",
+    "cyborg",
+    "quest",
+    "syrinx"
+  ],
+  "ol_work_key": "/works/OL56833W"
 }

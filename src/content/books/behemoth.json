@@ -1,7 +1,7 @@
 {
   "title": "Behemoth",
   "author": "Thomas Hobbes",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 1,
   "slug": "behemoth",
   "tags": [],
@@ -20,5 +20,28 @@
   "lccn": "63014025",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t6931dj75",
   "hathitrust_rights": "Full view",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "941.06",
+    "942.062"
+  ],
+  "lcc": [
+    "DA-0400.00000000.H6 2009",
+    "DA-0400.00000000.H6 2010",
+    "DA-0400.00000000",
+    "DA-0400.00000000.H6 1990",
+    "DA-0400.00000000.H6 1969"
+  ],
+  "subject_facet": [
+    "Great Britain",
+    "Great Britain. Parliament",
+    "Great britain, history",
+    "Great britain, history, puritan revolution, 1642-1660",
+    "Great britain, parliament",
+    "Great britain, politics and government, 1603-1714",
+    "History",
+    "Hobbes, thomas, 1588-1679",
+    "Politics and government"
+  ],
+  "ol_work_key": "/works/OL654077W"
 }

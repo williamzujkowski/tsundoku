@@ -19,5 +19,36 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=lliTBQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "332"
+  ],
+  "lcc": [
+    "HG-0231.00000000",
+    "HG-3701.00000000.G73 2012",
+    "HG-3701.00000000.G73 2011",
+    "HG-3701.00000000.G73 2014",
+    "HG-3701.00000000.G73 2010"
+  ],
+  "subject_facet": [
+    "332",
+    "Business & Economics",
+    "Debt",
+    "Debt--history",
+    "Economics",
+    "Financial crises",
+    "Financial crises--history",
+    "Financial crisis",
+    "Finanskriser",
+    "Hg3701 .g73 2014",
+    "Historia",
+    "History",
+    "Money",
+    "Money, history",
+    "Money--history",
+    "Nonfiction",
+    "Pengar",
+    "Penningväsen"
+  ],
+  "ol_work_key": "/works/OL14909099W"
 }

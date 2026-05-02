@@ -1,7 +1,7 @@
 {
   "title": "Four Quartets",
   "author": "T.S. Eliot",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "four-quartets",
   "tags": [],
@@ -19,5 +19,30 @@
     "Eliot, t. s. (thomas stearns), 1888-1965",
     "American literature, history and criticism, 19th century"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "821.912",
+    "821"
+  ],
+  "lcc": [
+    "PS-3509.00000000.L43 F6",
+    "PS-3509.00000000.L43 F6 1944",
+    "PS-3509.00000000.L43 F6 1999",
+    "PS-3509.00000000.L43 F6 1943",
+    "PS-3509.00000000.L43 F6 1968",
+    "PS-3509.00000000.L43 F6 1960",
+    "PR-6009.00000000.L7 F6 1944",
+    "PS-3509.00000000 L43 F6 1988a",
+    "PS-3509.00000000.L43 F6 1996",
+    "PS-3509.00000000.L43 F6 1971",
+    "PS-3509.00000000.L43 F615 2002",
+    "PS-3509.00000000 L43 F6 1962"
+  ],
+  "subject_facet": [
+    "18.05 English literature",
+    "English poetry",
+    "Long Now Manual for Civilization",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL1142291W"
 }

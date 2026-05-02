@@ -1,7 +1,7 @@
 {
   "title": "The Temple",
   "author": "George Herbert",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-temple",
   "tags": [],
@@ -17,5 +17,32 @@
   "subjects": [
     "Christian poetry, English"
   ],
-  "pages": 353
+  "pages": 353,
+  "isbn": "9781557252593",
+  "ddc": [
+    "821.38",
+    "821.3"
+  ],
+  "lcc": [
+    "PR-3507.00000000 T45 1876",
+    "AC-0001.00000000.E8 no. 309",
+    "PR-3507.00000000 A1 1850 vol. 2",
+    "PR-3507.00000000 T45 1927",
+    "PR-3507.00000000.A1 1641",
+    "PR-3507.00000000.A1 1633a",
+    "PR-3507.00000000.A1 2001",
+    "PR-3507.00000000 T45 1883",
+    "PR-3507.00000000.A1 1679",
+    "PR-3507.00000000.A1 1848 vol. 2",
+    "PR-3507.00000000 T45 1838",
+    "PR-3507.00000000.A1 1850 vol.2"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "English Christian poetry",
+    "English Religious poetry",
+    "English poetry",
+    "Pastoral theology"
+  ],
+  "ol_work_key": "/works/OL15342308W"
 }

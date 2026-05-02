@@ -1,7 +1,7 @@
 {
   "title": "Lord Foul's Bane",
   "author": "Stephen R. Donaldson",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "lord-fouls-bane",
   "tags": [
@@ -13,11 +13,33 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780345257161",
   "pages": 0,
   "first_published": 1977,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.O469 L6 1996",
+    "PS-3554.00000000.O469 Lo3",
+    "PS-3554.00000000.O469 L6 1977",
+    "PS-3554.00000000.O469",
+    "PS-3554.00000000.O469 C5 2004 v.1",
+    "PZ-0004.00000000.D6768 Lo3"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Covenant, thomas (fictitious character), fiction",
+    "Epic Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, general",
+    "Thomas Covenant (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL11640876W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Designing Data-Intensive Applications",
   "author": "Martin Kleppmann",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "designing-data-intensive-applications",
   "tags": [
@@ -31,5 +31,22 @@
     "Application software--development",
     "Tk5105.888 .q44 2017"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.76000000.A65"
+  ],
+  "subject_facet": [
+    "005.276",
+    "Application software",
+    "Application software--development",
+    "COMPUTERS",
+    "Database management",
+    "Databases",
+    "Desktop Applications",
+    "Development",
+    "Project Management software",
+    "Tk5105.888 .q44 2017",
+    "Web site development"
+  ],
+  "ol_work_key": "/works/OL19293745W"
 }

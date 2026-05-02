@@ -1,7 +1,7 @@
 {
   "title": "A Deadly Education",
   "author": "Naomi Novik",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-deadly-education",
   "tags": [
@@ -29,5 +29,12 @@
     "Fantasy",
     "Magic"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3614.00000000.O93"
+  ],
+  "subject_facet": [
+    "American literature"
+  ],
+  "ol_work_key": "/works/OL24474671W"
 }

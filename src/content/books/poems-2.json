@@ -1,7 +1,7 @@
 {
   "title": "Poems",
   "author": "Andrew Marvell",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "poems-2",
   "tags": [
@@ -27,5 +27,42 @@
     "Fall of man in literature"
   ],
   "copyright_status": "public_domain",
-  "description": "Poetry is a form of literary art that uses aesthetic and often rhythmic qualities of language to evoke meanings in addition to, or in place of, literal or surface-level meanings. Any particular instance of poetry is called a poem and is written by a poet. Poets use a variety of techniques called poetic devices, such as assonance, alliteration, consonance, euphony and cacophony, onomatopoeia, rhythm, rhyme schemes and sound symbolism, to produce musical or other artistic effects."
+  "description": "Poetry is a form of literary art that uses aesthetic and often rhythmic qualities of language to evoke meanings in addition to, or in place of, literal or surface-level meanings. Any particular instance of poetry is called a poem and is written by a poet. Poets use a variety of techniques called poetic devices, such as assonance, alliteration, consonance, euphony and cacophony, onomatopoeia, rhythm, rhyme schemes and sound symbolism, to produce musical or other artistic effects.",
+  "isbn": "9780192813473",
+  "ddc": [
+    "821.49",
+    "821.4",
+    "828.409"
+  ],
+  "lcc": [
+    "PR-3546.00000000.A1 1952",
+    "PR-3546.00000000.A6",
+    "PR-3546.00000000.A6 1990",
+    "PR-3546.00000000",
+    "PR-3546.00000000.A1 2006",
+    "PR-3546.00000000.A6 2003b",
+    "PR-3546.00000000.A1 1969",
+    "PR-3546.00000000.A1 2007",
+    "PR-3546.00000000.A6 2004",
+    "PR-3546.00000000.A1 1942",
+    "PR-3546.00000000.A1 1969b",
+    "PR-3546.00000000.A6 1942",
+    "PR-1173.00000000.A7 M3",
+    "PR-3546.00000000.A2 M3 1963",
+    "PR-3546.00000000.A6 1994",
+    "PR-3546.00000000.A1 1963"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Early modern",
+    "English Poets",
+    "English poetry",
+    "Fiction",
+    "Fiction, coming of age",
+    "Friendship",
+    "Friendship, fiction",
+    "Poetry (poetic works by one author)",
+    "Wales, fiction"
+  ],
+  "ol_work_key": "/works/OL3198074W"
 }

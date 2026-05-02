@@ -1,7 +1,7 @@
 {
   "title": "Eclogues",
   "author": "Virgil",
-  "category": "Classics",
+  "category": "Poetry",
   "priority": 1,
   "slug": "eclogues",
   "tags": [
@@ -35,5 +35,11 @@
   "gutenberg_id": 229,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/229",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/229.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "subject_facet": [
+    "Didactic poetry",
+    "Latin poetry, translations into english",
+    "Pastoral poetry, classical"
+  ],
+  "ol_work_key": "/works/OL16279922W"
 }

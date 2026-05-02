@@ -1,7 +1,7 @@
 {
   "title": "Principia Mathematica",
   "author": "Whitehead & Russell",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "principia-mathematica",
   "tags": [
@@ -24,5 +24,26 @@
     "Mathematics, philosophy"
   ],
   "copyright_status": "public_domain",
-  "description": "\n\nThe Principia Mathematica is a three-volume work on the foundations of mathematics written by the mathematician–philosophers Alfred North Whitehead and Bertrand Russell and published in 1910, 1912, and 1913. In 1925–1927, it appeared in a second edition with an important Introduction to the Second Edition, an Appendix A, and with an additional new Appendix B and Appendix C."
+  "description": "\n\nThe Principia Mathematica is a three-volume work on the foundations of mathematics written by the mathematician–philosophers Alfred North Whitehead and Bertrand Russell and published in 1910, 1912, and 1913. In 1925–1927, it appeared in a second edition with an important Introduction to the Second Edition, an Appendix A, and with an additional new Appendix B and Appendix C.",
+  "isbn": "9780521091879",
+  "ddc": [
+    "510.1"
+  ],
+  "lcc": [
+    "QA-0009.00000000.W5 1950",
+    "QA-0009.00000000.W52",
+    "QA-0009.00000000 W5 1962",
+    "QA-0009.00000000.W5 1925",
+    "QA-0009.00000000 W5 1927"
+  ],
+  "subject_facet": [
+    "Logic, symbolic and mathematical",
+    "Mathematics",
+    "Mathematics, philosophy",
+    "Number theory",
+    "Philosophy",
+    "Philosophy of Mathematics",
+    "Symbolic and mathematical Logic"
+  ],
+  "ol_work_key": "/works/OL1133702W"
 }

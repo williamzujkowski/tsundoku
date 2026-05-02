@@ -1,7 +1,7 @@
 {
   "title": "Helliconia Winter",
   "author": "Brian Aldiss",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "helliconia-winter",
   "tags": [
@@ -31,5 +31,10 @@
     "Fiction, fantasy, epic",
     "Helliconia (imaginary place), fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "subject_facet": [
+    "Fiction, fantasy, epic",
+    "Helliconia (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL32429648W"
 }

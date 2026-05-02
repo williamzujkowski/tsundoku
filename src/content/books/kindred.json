@@ -1,7 +1,7 @@
 {
   "title": "Kindred",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "kindred",
   "tags": [
@@ -29,5 +29,51 @@
     "Historical",
     "Science Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827 Ki",
+    "PS-3552.00000000.U827K5 1998ea",
+    "PS-3552.00000000.U827 K5 2009x",
+    "PZ-0004.00000000.B98674 Ki",
+    "PS-3552.00000000.U827 K5 1988",
+    "PS-3552.00000000.U827K5 2023",
+    "PS-3552.00000000.U827K5 2004",
+    "PS-3552.00000000.U827 K51 2017",
+    "PS-3552.00000000.U827K5 1988",
+    "PS-3552.00000000.U827K5 2018",
+    "PS-3552.00000000.U827",
+    "PS-3552.00000000.U827 K5 2003"
+  ],
+  "subject_facet": [
+    "African American",
+    "African American women",
+    "African americans, fiction",
+    "American literature",
+    "Contemporary Women",
+    "Enslaved persons, fiction",
+    "Fiction",
+    "Fiction subjects",
+    "Fiction, african american & black, general",
+    "Fiction, psychological",
+    "Fiction, science fiction, general",
+    "Fourth dimension",
+    "Historical",
+    "Literature",
+    "Los angeles (calif.), fiction",
+    "Popular reading",
+    "Science Fiction",
+    "Science fiction & fantasy",
+    "Slaveholders",
+    "Slavery",
+    "Slaves",
+    "Slaves, fiction",
+    "Southern states, fiction",
+    "Teen fiction",
+    "Time travel",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL35616W"
 }

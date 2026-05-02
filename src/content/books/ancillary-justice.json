@@ -1,7 +1,7 @@
 {
   "title": "Ancillary Justice",
   "author": "Ann Leckie",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "ancillary-justice",
   "tags": [
@@ -33,5 +33,43 @@
     "Adventure",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3612.00000000.E3353 A83 2013",
+    "PS-3612.00000000.E3353 A83 2014",
+    "PS-3612.00000000.E3353 A83 2014b",
+    "PS-3612.00000000.E3353",
+    "PS-3612.00000000.E3353 A83 2015",
+    "PS-3612.00000000.E3353A83 2013"
+  ],
+  "subject_facet": [
+    "Adult",
+    "Adventure",
+    "Artificial intelligence",
+    "Ebook",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "General",
+    "Hugo Award Winner",
+    "Large type books",
+    "Life on other planets",
+    "Quests (Expeditions)",
+    "Quête",
+    "Revenge",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Space Opera",
+    "Space flight",
+    "Vengeance",
+    "Vie extraterrestre",
+    "Vol spatial",
+    "award:hugo_award=2014",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL17062644W"
 }

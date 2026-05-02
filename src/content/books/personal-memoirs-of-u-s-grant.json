@@ -12,5 +12,46 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8244582-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8244582-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1928237W",
-  "first_published": 1885
+  "first_published": 1885,
+  "isbn": "9781404326125",
+  "ddc": [
+    "973.730924",
+    "973.82092",
+    "923.173"
+  ],
+  "lcc": [
+    "E--0672.00000000.G7619 1969",
+    "E--0672.00000000.G76175",
+    "E--0672.00000000.G76175 1892x",
+    "E--0672.00000000.G7617",
+    "E--0672.00000000 G76",
+    "E--0672.00000000.A3 1991",
+    "E--0672.00000000.G7614"
+  ],
+  "subject_facet": [
+    "American Civil War (1861-1865) fast (OCoLC)fst01351658",
+    "American Personal narratives",
+    "Biography",
+    "Biography & Autobiography",
+    "Campagnes et batailles",
+    "Campaigns",
+    "Dummies (Bookselling)",
+    "Generals",
+    "Grant, ulysses s. (ulysses simpson), 1822-1885",
+    "Histoire",
+    "History",
+    "Mexican War, 1846-1848",
+    "Military campaigns",
+    "Nonfiction",
+    "Personal narratives",
+    "Presidents",
+    "Récits personnels",
+    "Specimens",
+    "United States",
+    "United States Civil War, 1861-1865",
+    "United States. Army",
+    "United states, history, civil war, 1861-1865",
+    "War with Mexico, 1845-1848"
+  ],
+  "ol_work_key": "/works/OL1928237W"
 }

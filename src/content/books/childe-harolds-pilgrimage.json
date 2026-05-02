@@ -1,7 +1,7 @@
 {
   "title": "Childe Harold's Pilgrimage",
   "author": "Lord Byron",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "childe-harolds-pilgrimage",
   "tags": [
@@ -30,5 +30,41 @@
     "Travel"
   ],
   "copyright_status": "public_domain",
-  "description": "Childe Harold's Pilgrimage: A Romaunt is a long narrative poem in four parts written by Lord Byron. The poem was published between 1812 and 1818. Dedicated to \"Ianthe\", it describes the travels and reflections of a young man disillusioned with a life of pleasure and revelry and looking for distraction in foreign lands. In a wider sense, it is an expression of the melancholy and disillusionment felt by a generation weary of the wars of the post-Revolutionary and Napoleonic eras."
+  "description": "Childe Harold's Pilgrimage: A Romaunt is a long narrative poem in four parts written by Lord Byron. The poem was published between 1812 and 1818. Dedicated to \"Ianthe\", it describes the travels and reflections of a young man disillusioned with a life of pleasure and revelry and looking for distraction in foreign lands. In a wider sense, it is an expression of the melancholy and disillusionment felt by a generation weary of the wars of the post-Revolutionary and Napoleonic eras.",
+  "isbn": "9781426412660",
+  "ddc": [
+    "821.7",
+    "821.76"
+  ],
+  "lcc": [
+    "PR-4357.00000000.A1 1902",
+    "PR-4357.00000000.A1 1866",
+    "PR-4357.00000000.A1 1894",
+    "PR-4352.00000000.L48 1985 vol. 6",
+    "PR-4352.00000000 C45 1845",
+    "PR-4357.00000000.A1 1886a",
+    "PR-4357.00000000.A1 1816",
+    "PR-4357.00000000.A1 1856",
+    "PR-4357.00000000.A1 1818",
+    "PR-4357.00000000.L48 1985 vol. 6",
+    "PR-4352.00000000.C45",
+    "PR-4357.00000000.A1 1899",
+    "PR-4357.00000000.A1 1886",
+    "PR-4357.00000000.A1 1886b",
+    "PR-4357.00000000 A1 1860"
+  ],
+  "subject_facet": [
+    "Description and travel",
+    "English Manuscripts",
+    "English literature",
+    "Facsimiles",
+    "Fiction",
+    "Manuscripts",
+    "Modern Greek literature",
+    "Poetry",
+    "Translations",
+    "Translations into English",
+    "Travel"
+  ],
+  "ol_work_key": "/works/OL1092576W"
 }

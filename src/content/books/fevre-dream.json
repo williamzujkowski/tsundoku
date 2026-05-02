@@ -1,7 +1,7 @@
 {
   "title": "Fevre Dream",
   "author": "George R.R. Martin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "fevre-dream",
   "tags": [
@@ -23,5 +23,24 @@
     "Comics",
     "Comics & graphic novels, horror"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A7239F4 2004",
+    "PS-3563.00000000.A7239",
+    "PS-3563.00000000.A7239 F4 1982",
+    "PS-3563.00000000.A7239 F4 2004"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science Fiction",
+    "Vampires",
+    "Vampires, fiction",
+    "Zhang pian xiao shuo"
+  ],
+  "ol_work_key": "/works/OL1955940W"
 }

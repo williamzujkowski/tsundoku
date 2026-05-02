@@ -1,7 +1,7 @@
 {
   "title": "Distributed Systems",
   "author": "Andrew S. Tanenbaum",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "distributed-systems",
   "tags": [
@@ -30,5 +30,36 @@
     "ÇIðsletim sistemleri (Bilgisayarlar",
     "İşletim sistemleri (Bilgisayarlar)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "004.36"
+  ],
+  "lcc": [
+    "QA-0076.90000000.D5T36 2017",
+    "QA-0076.90000000.D5 T36 2007",
+    "QA-0076.90000000.D5",
+    "QA-0076.90000000.D5 T36 2002"
+  ],
+  "subject_facet": [
+    "And supercomputing",
+    "COMPUTER PROGRAMMING",
+    "Computer Science",
+    "Computer engineering. Computer hardware",
+    "DISTRIBUTED PARAMETER SYSTEMS",
+    "Distributed",
+    "Distributed operating systems (Computers)",
+    "Distributed operating systems (computers)",
+    "Distributed processing",
+    "Electronic data processing",
+    "Electronic data processing, distributed processing",
+    "Gedistribueerde gegevensverwerking",
+    "Informatique répartie",
+    "Mathematics",
+    "Operating systems - general & miscellaneous",
+    "Parallel",
+    "Système d'exploitation réparti",
+    "Systèmes d'exploitation répartis",
+    "Traitement réparti"
+  ],
+  "ol_work_key": "/works/OL1970672W"
 }

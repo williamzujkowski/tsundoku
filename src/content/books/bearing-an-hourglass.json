@@ -1,7 +1,7 @@
 {
   "title": "Bearing an Hourglass",
   "author": "Piers Anthony",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "bearing-an-hourglass",
   "tags": [
@@ -24,5 +24,19 @@
     "Fantasy",
     "Fiction, fantasy, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.N73B4",
+    "PS-3551.00000000.N73",
+    "PS-3551.00000000.N73 B4 1984"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction, fantasy, general",
+    "Incarnation of Time"
+  ],
+  "ol_work_key": "/works/OL80847W"
 }

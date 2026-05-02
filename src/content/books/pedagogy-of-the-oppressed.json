@@ -1,7 +1,7 @@
 {
   "title": "Pedagogy of the Oppressed",
   "author": "Paulo Freire",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "pedagogy-of-the-oppressed",
   "tags": [
@@ -13,11 +13,48 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780241301111",
   "pages": 0,
   "first_published": 1968,
   "language": "eng",
   "subjects": [
     "r/philosophy Reading List"
-  ]
+  ],
+  "ddc": [
+    "880",
+    "370.1"
+  ],
+  "lcc": [
+    "LB-0880.00000000.F7313 1970",
+    "LB-0880.00000000.F73",
+    "LB-0880.00000000.F73P4313 2017",
+    "LB-0880.00000000.F73 P4313 2018",
+    "LB-0880.00000000.F7313"
+  ],
+  "subject_facet": [
+    "370.1",
+    "Biographies &amp; autobiographies",
+    "Critical pedagogy",
+    "Education",
+    "Education and state",
+    "Education, philosophy",
+    "Education, social aspects",
+    "Education--philosophy",
+    "Educators",
+    "Elite (social sciences)",
+    "Freedom",
+    "Freire, Paulo, 1921-1997",
+    "Lb880.f73 p4313 2018",
+    "Liberty",
+    "Liberté",
+    "Philosophie",
+    "Philosophy",
+    "Popular education",
+    "Popular education--philosophy",
+    "Pädagogik",
+    "Social classes",
+    "Unterdrückung",
+    "Éducation"
+  ],
+  "ol_work_key": "/works/OL1870518W"
 }

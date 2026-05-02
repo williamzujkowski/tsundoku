@@ -1,7 +1,7 @@
 {
   "title": "Men and Women",
   "author": "Robert Browning",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "men-and-women",
   "tags": [],
@@ -27,5 +27,23 @@
   "gutenberg_id": 17393,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/17393",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/17393.html.images",
-  "description": "\n\nMen and Women is an American play written by David Belasco and Henry Churchill de Mille."
+  "description": "\n\nMen and Women is an American play written by David Belasco and Henry Churchill de Mille.",
+  "isbn": "9780199110193",
+  "ddc": [
+    "821.8"
+  ],
+  "lcc": [
+    "PR-4214.00000000.A1 1879",
+    "PR-4214.00000000.A1 1972",
+    "PR-4214.00000000.A1 1903",
+    "PR-4201.00000000.P6 1898 v. 5"
+  ],
+  "subject_facet": [
+    "Interpersonal relations",
+    "Men",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL634471W"
 }

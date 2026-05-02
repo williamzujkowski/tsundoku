@@ -1,7 +1,7 @@
 {
   "title": "Off to Be the Wizard",
   "author": "Scott Meyer",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "off-to-be-the-wizard",
   "tags": [],
@@ -12,5 +12,23 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10880285-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10880285-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20058930W",
-  "first_published": 2013
+  "first_published": 2013,
+  "isbn": "9781491592199",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3613.00000000.E9767O34 2014",
+    "PS-3613.00000000.E9767 O34 2014"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, humorous, general",
+    "Fiction, science fiction, action & adventure",
+    "Hackers",
+    "Medieval Civilization",
+    "Time travel",
+    "Wizards"
+  ],
+  "ol_work_key": "/works/OL20058930W"
 }

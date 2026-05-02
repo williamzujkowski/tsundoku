@@ -1,7 +1,7 @@
 {
   "title": "Breakfast of Champions",
   "author": "Kurt Vonnegut",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "breakfast-of-champions",
   "tags": [
@@ -35,5 +35,39 @@
     "Kilgore Trout (Fictitious character)",
     "Sexuality"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.O5 Br 1999",
+    "PS-3572.00000000.O5 Br3",
+    "PS-3572.00000000.O5 B7 1973b",
+    "PZ-0004.00000000.V948 Br",
+    "PS-3572.00000000.O5 B7 2011",
+    "PS-3572.00000000.O5 B7 2006",
+    "PZ-0004.00000000.V948 Br3",
+    "PS-3572.00000000.O5 Br",
+    "PS-3572.00000000.O5 B714 1974",
+    "PS-3572.00000000.O5B7 1975",
+    "PS-3572.00000000.O5 B7 1999",
+    "PR-6019.00000000.O9"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Authorship",
+    "Classic Literature",
+    "Drama",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, general",
+    "Humorous stories",
+    "Kilgore Trout (Fictitious character)",
+    "Mental illness",
+    "Satire",
+    "Science fiction",
+    "Sex",
+    "Sexuality"
+  ],
+  "ol_work_key": "/works/OL98488W"
 }

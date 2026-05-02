@@ -1,7 +1,7 @@
 {
   "title": "Catriona",
   "author": "Robert Louis Stevenson",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "catriona",
   "tags": [
@@ -34,5 +34,60 @@
     "Teenage boys",
     "Kidnapping"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.8",
+    "828.8",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S848 Cat5",
+    "PZ-0007.00000000.S8482Ki 1994",
+    "PR-5484.00000000.D3 I7 1933",
+    "PZ-0003.00000000.S848 D12",
+    "PZ-0007.00000000.S8482 Ki 1994",
+    "PZ-0007.00000000.S8482 Cat 1893x",
+    "PR-5484.00000000.D2 1924",
+    "PR-5484.00000000.D3 D3",
+    "PR-5484.00000000.D3 .E95 vol. 6",
+    "PR-5484.00000000.D3",
+    "PR-5484.00000000.D3 1980",
+    "PR-5484.00000000.D3 2008eab",
+    "PR-5484.00000000.D3 Cat5",
+    "PZ-0003.00000000.S848 D",
+    "PR-5484.00000000.D3 1893",
+    "PR-5484.00000000.D3 1909",
+    "PR-5484.00000000.O3 1947",
+    "PZ-0003.00000000.S848 D15",
+    "LC-0000.00000000 94-6961",
+    "PR-5480.00000000.E95 vol. 6",
+    "PZ-0003.00000000.S848 D3",
+    "PR-5484.00000000.D3 1928",
+    "PR-5484.00000000.D3 2006",
+    "PR-5484.00000000.D3 1989"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure and adventurers",
+    "British and irish fiction (fictional works by one author)",
+    "Children’s",
+    "Classic Literature",
+    "David Balfour (Fictitious character)",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical, general",
+    "Histoire",
+    "Historical fiction",
+    "History",
+    "Juvenile fiction",
+    "Kidnapping",
+    "Large type books",
+    "Open Library Staff Picks",
+    "Pirates",
+    "Popular Print Disabled Books",
+    "Romans, nouvelles",
+    "Scotland -- History -- 18th century -- Fiction",
+    "Scotland, fiction"
+  ],
+  "ol_work_key": "/works/OL24163W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Dark Matter",
   "author": "Blake Crouch",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "dark-matter",
   "tags": [],
@@ -12,5 +12,29 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7436634-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7436634-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17358795W",
-  "first_published": 2016
+  "first_published": 2016,
+  "isbn": "9788416858217",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3603.00000000.R68D37 2016",
+    "PS-3603.00000000.R68",
+    "PS-3603.00000000.R68 D37 2016b",
+    "PS-3603.00000000.R68 D37 2016",
+    "PS-3603.00000000.R68D37 2017"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Kidnapping",
+    "Mystery",
+    "New York Times bestseller",
+    "Psychological",
+    "Reality",
+    "Science Fiction",
+    "Suspense",
+    "Technological",
+    "Thrillers"
+  ],
+  "ol_work_key": "/works/OL17358795W"
 }

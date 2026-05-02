@@ -1,7 +1,7 @@
 {
   "title": "Lunch Poems",
   "author": "Frank O'Hara",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "lunch-poems",
   "tags": [],
@@ -9,5 +9,19 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Lunch Poems is a book of poetry by Frank O'Hara published in 1964 by Lawrence Ferlinghetti’s City Lights, number 19 in their Pocket Poets series. The collection was commissioned by Ferlinghetti as early as 1959, but O'Hara delayed in completing it. Ferlinghetti would badger O'Hara with questions like, \"How about lunch? I'm hungry.\" \"Cooking\", O'Hara would reply. O'Hara enlisted the help of Donald Allen who had published O'Hara's poems in New American Poetry in 1960.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/LunchPoems.jpg/250px-LunchPoems.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/LunchPoems.jpg/250px-LunchPoems.jpg",
+  "ddc": [
+    "811.54",
+    "808.8104 s"
+  ],
+  "lcc": [
+    "PS-3529.00000000.H28 .P462 vol. 3, no. 19",
+    "PN-6101.00000000.P462 vol. 3, no. 19",
+    "PS-3529.00000000.H28L8",
+    "PS-3529.00000000.H28 L8"
+  ],
+  "subject_facet": [
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL2565180W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "A Spell for Chameleon",
   "author": "Piers Anthony",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-spell-for-chameleon",
   "tags": [
@@ -11,5 +11,23 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "A Spell for Chameleon is a fantasy novel by British-American writer Piers Anthony, published in 1977 by Ballantine Books/Del Rey Books. It is the first book of the Xanth series.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/PiersAnthony_ASpellForChameleon.jpg/120px-PiersAnthony_ASpellForChameleon.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/PiersAnthony_ASpellForChameleon.jpg/120px-PiersAnthony_ASpellForChameleon.jpg",
+  "isbn": "9780345287663",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.N73 S58 1977",
+    "PZ-0004.00000000.A6294",
+    "PS-3551.00000000.N73S58 2019"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Magic",
+    "Xanth (Imaginary place)",
+    "Xanth (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL80870W"
 }

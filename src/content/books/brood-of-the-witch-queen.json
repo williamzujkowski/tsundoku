@@ -1,7 +1,7 @@
 {
   "title": "Brood of the Witch-Queen",
   "author": "Sax Rohmer",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "brood-of-the-witch-queen",
   "tags": [
@@ -36,5 +36,30 @@
     "Fiction, fantasy, general",
     "Fiction, occult & supernatural"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3545.00000000.A653 B7",
+    "PZ-0003.00000000.W21 Br",
+    "PR-6045.00000000.A37 Br"
+  ],
+  "subject_facet": [
+    "Ancient Egypt",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Fiction, horror",
+    "Fiction, occult & supernatural",
+    "Fiction, thrillers, suspense",
+    "Horror",
+    "Magic",
+    "Paranormal fiction",
+    "Witches",
+    "Witches -- Fiction"
+  ],
+  "ol_work_key": "/works/OL2288676W"
 }

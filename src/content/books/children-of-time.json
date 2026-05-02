@@ -1,7 +1,7 @@
 {
   "title": "Children of Time",
   "author": "Adrian Tchaikovsky",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "children-of-time",
   "tags": [
@@ -33,5 +33,28 @@
     "Survival",
     "Human-alien encounters"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6120.00000000.C53",
+    "PR-6120.00000000.C53 C45 2015",
+    "PR-6120.00000000.C53C48 2018",
+    "PR-6120.00000000.C53 C45 2016"
+  ],
+  "subject_facet": [
+    "Dystopias",
+    "End of the world",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Habitable planets",
+    "Human-alien encounters",
+    "Life on other planets",
+    "Planets",
+    "Science Fiction",
+    "Survival",
+    "speculative evolution"
+  ],
+  "ol_work_key": "/works/OL17373843W"
 }

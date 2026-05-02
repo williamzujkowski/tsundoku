@@ -1,7 +1,7 @@
 {
   "title": "Darwin's Radio",
   "author": "Greg Bear",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "darwins-radio",
   "tags": [
@@ -34,5 +34,35 @@
     "Fiction, thrillers, general",
     "Fiction, medical"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.E157 D43 2003",
+    "PS-3552.00000000.E157D43 2003",
+    "PS-3552.00000000.E157D43 1999",
+    "PS-3552.00000000.E157 D43 1999",
+    "PS-3552.00000000.E157D43 2008e",
+    "PS-3552.00000000.E157 D43 2000"
+  ],
+  "subject_facet": [
+    "DNA viruses",
+    "Evolution",
+    "Evolution (Biology)",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Fiction, medical",
+    "Fiction, science fiction, general",
+    "Fiction, thrillers, general",
+    "Human evolution",
+    "Science Fiction",
+    "Viruses",
+    "Women molecular biologists",
+    "Women scientists, fiction",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL16508W"
 }

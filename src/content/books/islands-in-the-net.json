@@ -1,7 +1,7 @@
 {
   "title": "Islands in the Net",
   "author": "Bruce Sterling",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "islands-in-the-net",
   "tags": [
@@ -29,5 +29,31 @@
     "Short stories",
     "Science fiction, american"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813",
+    "813.54",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3876I8 1988",
+    "PS-3569.00000000.T3876 I8 1988",
+    "PN-6120.95000000.S33 L54 2011",
+    "PZ-0003.00000000.S729 I5",
+    "PS-0000.00000000",
+    "PS-3569.00000000.T3876 I8 1989",
+    "PS-3569.00000000.T3876 I58164 1980"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Cyberpunk fiction",
+    "English Science fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Life on other planets",
+    "Science fiction, american",
+    "Short stories"
+  ],
+  "ol_work_key": "/works/OL1888028W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Persian Letters",
   "author": "Montesquieu",
-  "category": "Political Theory",
+  "category": "Literature",
   "priority": 1,
   "slug": "persian-letters",
   "tags": [],
@@ -12,5 +12,12 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "description": "Persian Letters is a literary work, published in 1721, by Charles de Secondat, baron de Montesquieu, recounting the experiences of two fictional Persian noblemen, Uzbek and Rica, who spend several years in France under Louis XIV and the Regency."
+  "description": "Persian Letters is a literary work, published in 1721, by Charles de Secondat, baron de Montesquieu, recounting the experiences of two fictional Persian noblemen, Uzbek and Rica, who spend several years in France under Louis XIV and the Regency.",
+  "lcc": [
+    "PQ-2011.00000000.L5 E4 1901"
+  ],
+  "subject_facet": [
+    "French Authors"
+  ],
+  "ol_work_key": "/works/OL15291465W"
 }

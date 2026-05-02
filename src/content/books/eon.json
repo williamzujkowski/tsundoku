@@ -1,7 +1,7 @@
 {
   "title": "Eon",
   "author": "Greg Bear",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "eon",
   "tags": [
@@ -30,5 +30,33 @@
     "International relations"
   ],
   "copyright_status": "in_copyright",
-  "description": "On the first leg of the trip, in the passenger cabin of the long-bed shuttle, Patricia Vasquez had watched the Earth's cloud-smeared limb on a video monitor."
+  "description": "On the first leg of the trip, in the passenger cabin of the long-bed shuttle, Patricia Vasquez had watched the Earth's cloud-smeared limb on a video monitor.",
+  "ddc": [
+    "813.54",
+    "810"
+  ],
+  "lcc": [
+    "PS-3552.00000000.E157",
+    "PS-3552.00000000.E157 E55*",
+    "PS-3552.00000000.E157 E55 2015",
+    "PS-3552.00000000.E157 E55 1985",
+    "PS-3552.00000000.E316 E55 1986",
+    "PS-3552.00000000.E157 E55 1986",
+    "PS-3552.00000000.E157E55 1985",
+    "PS-3552.00000000.E157E55 2015"
+  ],
+  "subject_facet": [
+    "Asteroids",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "High Tech",
+    "Imaginary wars and battles",
+    "International relations",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "Unidentified flying objects"
+  ],
+  "ol_work_key": "/works/OL16518W"
 }

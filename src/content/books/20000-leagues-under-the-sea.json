@@ -1,7 +1,7 @@
 {
   "title": "20,000 Leagues Under the Sea",
   "author": "Jules Verne",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "20000-leagues-under-the-sea",
   "tags": [
@@ -13,11 +13,24 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780007351046",
   "pages": 0,
   "first_published": 1870,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "lcc": [
+    "PE-1126.00000000.A4 B533 2015",
+    "PQ-2469.00000000.A2"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Continental european fiction (fictional works by one author)",
+    "Fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, sea stories",
+    "Readers for new literates"
+  ],
+  "ol_work_key": "/works/OL17306195W"
 }

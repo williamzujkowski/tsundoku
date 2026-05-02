@@ -1,7 +1,7 @@
 {
   "title": "Han Feizi",
   "author": "Han Fei",
-  "category": "Non-Western Philosophy",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "han-feizi",
   "tags": [
@@ -25,5 +25,35 @@
     "Philosophie",
     "Philosophy, chinese"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "181.11"
+  ],
+  "lcc": [
+    "B--0128.00000000 H32 E58",
+    "B--0128.00000000.H32 J3512 1976",
+    "B--0128.00000000.H31 T3 1935",
+    "B--0128.00000000.H3 1995",
+    "B--0128.00000000 H3 1875A",
+    "B--0128.00000000 H3 1875",
+    "PL-2662.00000000 H3 A28 1970",
+    "B--0128.00000000.H3 1931",
+    "B--0128.00000000.H336E5 2003",
+    "B--0128.00000000.H336 E5 2003",
+    "B--0128.00000000.H32 J35 1921",
+    "PL-2662.00000000.H3 A28",
+    "B--0128.00000000.H3 1811",
+    "PL-2662.00000000.H3 A28 1966",
+    "PL-2662.00000000.H3 A28 1964",
+    "B--0128.00000000.H3 1875"
+  ],
+  "subject_facet": [
+    "Chinese Philosophy",
+    "Chinese classics",
+    "Early works to 1800",
+    "Philosophie",
+    "Philosophy, chinese",
+    "Politics and government"
+  ],
+  "ol_work_key": "/works/OL125765W"
 }

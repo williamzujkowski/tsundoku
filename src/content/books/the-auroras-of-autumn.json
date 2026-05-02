@@ -1,7 +1,7 @@
 {
   "title": "The Auroras of Autumn",
   "author": "Wallace Stevens",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-auroras-of-autumn",
   "tags": [],
@@ -13,5 +13,10 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Auroras of Autumn is a 1950 book of poetry by Wallace Stevens. The book of poems contains the long poem of 10 cantos by Stevens of the same name.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/TheAurorasOfAutumn.jpg/250px-TheAurorasOfAutumn.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/TheAurorasOfAutumn.jpg/250px-TheAurorasOfAutumn.jpg",
+  "lcc": [
+    "PS-3537.00000000.T4753 A85",
+    "PS-3537.00000000 T4753 A85"
+  ],
+  "ol_work_key": "/works/OL464010W"
 }

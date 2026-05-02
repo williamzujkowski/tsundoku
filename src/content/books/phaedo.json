@@ -1,7 +1,7 @@
 {
   "title": "Phaedo",
   "author": "Plato",
-  "category": "Philosophy",
+  "category": "Classics",
   "priority": 2,
   "slug": "phaedo",
   "tags": [
@@ -31,5 +31,15 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1658",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1658.html.images",
   "librivox_url": "https://librivox.org/phaedo-by-plato/",
-  "description": "Phaedo is a dialogue written by Plato, in which Socrates discusses the immortality of the soul and the nature of the afterlife with his friends in the hours leading up to his death. Socrates explores various arguments for the soul's immortality with the Pythagorean philosophers Simmias and Cebes of Thebes in order to show that there is an afterlife in which the soul will dwell following death."
+  "description": "Phaedo is a dialogue written by Plato, in which Socrates discusses the immortality of the soul and the nature of the afterlife with his friends in the hours leading up to his death. Socrates explores various arguments for the soul's immortality with the Pythagorean philosophers Simmias and Cebes of Thebes in order to show that there is an afterlife in which the soul will dwell following death.",
+  "isbn": "9780343043568",
+  "lcc": [
+    "PA-4279.00000000 A8 C8 1908",
+    "PA-3411.00000000.C7 P72 1908"
+  ],
+  "subject_facet": [
+    "History & Surveys - Ancient & Classical",
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL380162W"
 }

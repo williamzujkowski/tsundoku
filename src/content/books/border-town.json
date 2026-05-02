@@ -1,7 +1,7 @@
 {
   "title": "Border Town",
   "author": "Shen Congwen",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "border-town",
   "tags": [],
@@ -21,5 +21,16 @@
   "oclc_id": "463483249",
   "worldcat_url": "https://www.worldcat.org/oclc/463483249",
   "lccn": "2008056125",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1351"
+  ],
+  "lcc": [
+    "PL-2801.00000000.N18 P513 2009"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Literature"
+  ],
+  "ol_work_key": "/works/OL3088514W"
 }

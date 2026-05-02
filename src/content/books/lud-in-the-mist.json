@@ -1,7 +1,7 @@
 {
   "title": "Lud-in-the-Mist",
   "author": "Hope Mirrlees",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "lud-in-the-mist",
   "tags": [
@@ -28,5 +28,21 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 68061,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/68061",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/68061.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/68061.html.images",
+  "ddc": [
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.M679 Lu2",
+    "PZ-0003.00000000.M679 Lu",
+    "PR-6025.00000000.I79"
+  ],
+  "subject_facet": [
+    "Fairies",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL6945563W"
 }

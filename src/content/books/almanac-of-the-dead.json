@@ -1,7 +1,7 @@
 {
   "title": "Almanac of the Dead",
   "author": "Leslie Marmon Silko",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 1,
   "slug": "almanac-of-the-dead",
   "tags": [],
@@ -23,5 +23,20 @@
     "Criticism and interpretation",
     "History and criticism"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3569.00000000.I44 A79 1991"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Historical fiction",
+    "Indians of Mexico",
+    "Indians of North America",
+    "Indians of mexico, fiction",
+    "Indians of north america, fiction",
+    "West (u.s.), fiction"
+  ],
+  "ol_work_key": "/works/OL7972955W"
 }

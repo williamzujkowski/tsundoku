@@ -1,7 +1,7 @@
 {
   "title": "Lucifer's Hammer",
   "author": "Larry Niven",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "lucifers-hammer",
   "tags": [
@@ -13,11 +13,31 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780708813621",
   "pages": 0,
   "first_published": 1977,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3564.00000000.I9 L57 1998",
+    "PS-3564.00000000.I9",
+    "PZ-0004.00000000.N734 Lu",
+    "PZ-0004.00000000.N734",
+    "PS-3564.00000000.I9 Lu",
+    "PS-3564.00000000.I9 L8 1983"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "End of the world",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL510435W"
 }

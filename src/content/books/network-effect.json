@@ -1,7 +1,7 @@
 {
   "title": "Network Effect",
   "author": "Martha Wells",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "network-effect",
   "tags": [
@@ -29,5 +29,27 @@
     "award:hugo_award=novel",
     "Life on other planets"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3573.00000000.E4932",
+    "PS-3573.00000000.E4932 N48 2020"
+  ],
+  "subject_facet": [
+    "Androids",
+    "Artificial intelligence",
+    "Human-computer interaction",
+    "Interplanetary voyages",
+    "Life on other planets",
+    "New York Times bestseller",
+    "Robots",
+    "award:hugo_award=2021",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel",
+    "form:novel",
+    "franchise:The Murderbot Diaries",
+    "genre:science fiction",
+    "nyt:combined-print-and-e-book-fiction=2020-05-24",
+    "series:The Murderbot Diaries"
+  ],
+  "ol_work_key": "/works/OL20735675W"
 }

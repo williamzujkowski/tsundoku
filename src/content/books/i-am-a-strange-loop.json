@@ -1,7 +1,7 @@
 {
   "title": "I Am a Strange Loop",
   "author": "Douglas Hofstadter",
-  "category": "Computer Science",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "i-am-a-strange-loop",
   "tags": [
@@ -29,5 +29,33 @@
     "Selbsterkenntnis",
     "Künstliche Intelligenz"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "153"
+  ],
+  "lcc": [
+    "BF-0311.00000000.H64 2007",
+    "B--0029.00000000.H578 2007",
+    "BD-0438.50000000.H64 2007",
+    "BF-0311.00000000"
+  ],
+  "subject_facet": [
+    "Bewustzijn",
+    "Consciousness",
+    "Identity (psychology)",
+    "Intellect",
+    "Kognitiver Prozess",
+    "Kèunstliche Intelligenz",
+    "Künstliche Intelligenz",
+    "Medvetandet",
+    "Metamathematik",
+    "Patronen (modellen)",
+    "Selbstbezèuglichkeit",
+    "Selbstbezüglichkeit",
+    "Selbsterkenntnis",
+    "Self (Philosophy)",
+    "Soul",
+    "Symbolen"
+  ],
+  "ol_work_key": "/works/OL8067922W"
 }

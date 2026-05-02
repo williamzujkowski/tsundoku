@@ -1,7 +1,7 @@
 {
   "title": "On Photography",
   "author": "Susan Sontag",
-  "category": "Literary Criticism",
+  "category": "Literature",
   "priority": 1,
   "slug": "on-photography",
   "tags": [
@@ -26,5 +26,48 @@
     "TECHNOLOGY & ENGINEERING"
   ],
   "copyright_status": "in_copyright",
-  "description": "On Photography is a 1977 collection of essays by American writer Susan Sontag. The book originated from a series of essays Sontag published in The New York Review of Books between 1973 and 1977."
+  "description": "On Photography is a 1977 collection of essays by American writer Susan Sontag. The book originated from a series of essays Sontag published in The New York Review of Books between 1973 and 1977.",
+  "isbn": "9788420402123",
+  "ddc": [
+    "770.1"
+  ],
+  "lcc": [
+    "TR-0183.00000000 S65 1977",
+    "TR-0183.00000000.S65 1978",
+    "TR-0183.00000000 S6618.2006",
+    "TR-0183.00000000.S65 2002",
+    "TR-0642.00000000",
+    "TR-0183.00000000.S65 1979",
+    "TR-0183.00000000.S65 1977",
+    "TR-0183.00000000.S65 2025",
+    "TR-0183.00000000.S65 1990",
+    "TR-0183.00000000.S65 2005eb",
+    "TR-0183.00000000.S65 1977b",
+    "PS-3569.00000000.O6547.S65",
+    "TR-0183.00000000.S65 2005"
+  ],
+  "subject_facet": [
+    "770/.1",
+    "Artistic Photography",
+    "Aspectos morales y éticos",
+    "Aspectos sociales",
+    "Filosofische aspecten",
+    "Filosofía",
+    "Fotografia artística",
+    "Fotografie",
+    "Fotografía",
+    "Fotografía artística",
+    "Imaging Systems",
+    "Long Now Manual for Civilization",
+    "Moral and ethical aspects",
+    "Philosophy",
+    "Photographie artistique",
+    "Photography",
+    "Photography, artistic",
+    "Reference",
+    "Social aspects",
+    "TECHNOLOGY & ENGINEERING",
+    "Tr183 .s65 1990"
+  ],
+  "ol_work_key": "/works/OL496476W"
 }

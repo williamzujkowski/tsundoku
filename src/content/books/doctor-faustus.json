@@ -1,7 +1,7 @@
 {
   "title": "Doctor Faustus",
   "author": "Thomas Mann",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "doctor-faustus",
   "tags": [
@@ -26,5 +26,51 @@
     "Fiction, historical"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Doctor Faustus is a German novel written by Thomas Mann, begun in 1943 and published in 1947 as Doktor Faustus: Das Leben des deutschen Tonsetzers Adrian Leverkühn, erzählt von einem Freunde."
+  "description": "Doctor Faustus is a German novel written by Thomas Mann, begun in 1943 and published in 1947 as Doktor Faustus: Das Leben des deutschen Tonsetzers Adrian Leverkühn, erzählt von einem Freunde.",
+  "isbn": "9783100482204",
+  "ddc": [
+    "833.912",
+    "833.91"
+  ],
+  "lcc": [
+    "PT-2621.00000000.A26",
+    "PT-2625.00000000.A44D63 1997",
+    "PT-2625.00000000.A44 D6 1967b",
+    "PT-2625.00000000.A44 D63 1992",
+    "PT-2625.00000000.A44 D6 1980",
+    "PT-2625.00000000.A44 2002",
+    "PT-2625.00000000.A44 D68",
+    "PT-2625.00000000.A44 D63 1992b",
+    "PT-2625.00000000.A44 D67",
+    "PT-2625.00000000.A44 D63 1948",
+    "PT-2625.00000000.A44 D63 1998",
+    "PZ-0003.00000000.M3184 Do3",
+    "PZ-0003.00000000.M3184 Do 3",
+    "PT-2625.00000000.A44 M366 1948",
+    "PT-2625.00000000.A44 D6 1947",
+    "PT-2625.00000000.A44 D63 1992c",
+    "PT-2625.00000000.A44 D6 2007",
+    "PZ-0003.00000000.M3184 Do",
+    "PT-2625.00000000.A44 D6 1948",
+    "PT-2625.00000000.A44 D63 1997"
+  ],
+  "subject_facet": [
+    "Appreciation",
+    "Bibliography",
+    "Composers",
+    "Continental european fiction (fictional works by one author)",
+    "Criticism and interpretation",
+    "Entstehung des Doktor Faustus (Mann, Thomas)",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, political",
+    "German fiction",
+    "German language materials",
+    "German literature",
+    "Germany, fiction",
+    "History",
+    "Political fiction"
+  ],
+  "ol_work_key": "/works/OL14867080W"
 }

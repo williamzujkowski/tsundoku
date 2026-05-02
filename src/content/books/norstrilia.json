@@ -1,7 +1,7 @@
 {
   "title": "Norstrilia",
   "author": "Cordwainer Smith",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "norstrilia",
   "tags": [],
@@ -12,5 +12,16 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "description": "Norstrilia is a science fiction novel by American writer Paul Linebarger, published under the pseudonym Cordwainer Smith. The novel takes place in the universe of Smith's Instrumentality of Mankind. It was heavily influenced by the classic Chinese novel Journey to the West. Norstrilia is in part a sequel to Smith's 1962 short story \"The Ballad of Lost C'Mell\", which features some of the same characters and settings."
+  "description": "Norstrilia is a science fiction novel by American writer Paul Linebarger, published under the pseudonym Cordwainer Smith. The novel takes place in the universe of Smith's Instrumentality of Mankind. It was heavily influenced by the classic Chinese novel Journey to the West. Norstrilia is in part a sequel to Smith's 1962 short story \"The Ballad of Lost C'Mell\", which features some of the same characters and settings.",
+  "isbn": "9780915368617",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3523.00000000.I629 N67 1994"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL3535591W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "At the Mountains of Madness",
   "author": "H.P. Lovecraft",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "at-the-mountains-of-madness",
   "tags": [],
@@ -22,5 +22,33 @@
   "worldcat_url": "https://www.worldcat.org/oclc/9107964",
   "lccn": "2005041555",
   "librivox_url": "https://librivox.org/at-the-mountains-of-madness-by-h-p-lovecraft/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "813.52",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3523.00000000.O833",
+    "PS-3523.00000000.O833 A96 2005",
+    "PS-3523.00000000.O833A96 2005",
+    "PS-3523.00000000.O833 A7 1968"
+  ],
+  "subject_facet": [
+    "American Horror tales",
+    "American literature",
+    "Children's fiction",
+    "Collection and preservation",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "Fiction, science fiction, general",
+    "Fiction, short stories (single author)",
+    "Fossils",
+    "Horror stories",
+    "Scientific expeditions",
+    "Stone carving",
+    "Supernatural",
+    "Supernatural in literature"
+  ],
+  "ol_work_key": "/works/OL152268W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Almond",
   "author": "R. H. Taylor",
-  "category": "History",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "almond",
   "tags": [
@@ -31,5 +31,9 @@
     "Metamorphosis",
     "Die Verwandlung"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "subject_facet": [
+    "Almond"
+  ],
+  "ol_work_key": "/works/OL16549969W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Legacy of Ashes",
   "author": "Tim Weiner",
-  "category": "Security",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "legacy-of-ashes",
   "tags": [],
@@ -27,5 +27,48 @@
     "États-Unis. Central Intelligence Agency",
     "Nonfiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "327.1273",
+    "327.1273009"
+  ],
+  "lcc": [
+    "JK-0468.00000000.I6",
+    "JK-0468.00000000.I6 W44 2007",
+    "JK-0468.00000000.I6 W44 2008",
+    "JK-0468.00000000.I6 W4231 2008",
+    "JK-0468.00000000.I6W44 2008",
+    "JK-0000.00000000"
+  ],
+  "subject_facet": [
+    "Agencia Central de Inteligencia (Estados Unidos)",
+    "CIA",
+    "Central Intelligence Agency",
+    "Central Intelligence Agency (United States)",
+    "Histoire",
+    "Historia",
+    "History",
+    "Intelligence service",
+    "Intelligence service, united states",
+    "Merkezi Haber Alma Teşkilatı",
+    "National Book Award Winner",
+    "Nonfiction",
+    "Politics",
+    "Service des renseignements",
+    "Services secrets",
+    "Servicio de inteligencia",
+    "Tarih",
+    "USA",
+    "USA Central Intelligence Agency",
+    "United States",
+    "United States. Central Intelligence Agency",
+    "United states, central intelligence agency",
+    "United states, history, 1945-",
+    "award:national_book_award=2007",
+    "award:national_book_award=nonfiction",
+    "États-Unis",
+    "États-Unis. Central Intelligence Agency",
+    "İstihbarat Teşkilatı"
+  ],
+  "ol_work_key": "/works/OL3236899W"
 }

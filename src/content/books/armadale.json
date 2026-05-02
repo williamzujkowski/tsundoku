@@ -1,7 +1,7 @@
 {
   "title": "Armadale",
   "author": "Wilkie Collins",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "armadale",
   "tags": [
@@ -33,5 +33,45 @@
     "England, fiction"
   ],
   "copyright_status": "public_domain",
-  "description": "Armadale is a novel by Wilkie Collins, first serialised between November 1864 and June 1866, and then published in book form in 1866. It is the third of his four 'great novels' of the 1860s: after The Woman in White (1860) and No Name (1862), and before The Moonstone (1868)."
+  "description": "Armadale is a novel by Wilkie Collins, first serialised between November 1864 and June 1866, and then published in book form in 1866. It is the third of his four 'great novels' of the 1860s: after The Woman in White (1860) and No Name (1862), and before The Moonstone (1868).",
+  "isbn": "9781976328855",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.C697 Ar13",
+    "PZ-0003.00000000.C697 Ar10",
+    "PR-4494.00000000.A8 1995",
+    "PR-4494.00000000 A7 1897",
+    "PR-4494.00000000.A8 1989",
+    "PR-4494.00000000.A8 Ar10",
+    "PR-4494.00000000.A8 Ar13",
+    "PR-4494.00000000.A8",
+    "PR-4494.00000000",
+    "PR-4494.00000000.A8 2020",
+    "PZ-0003.00000000.C697 Ar2",
+    "PR-4494.00000000.A8 2008",
+    "PR-4494.00000000.A8 1866",
+    "PZ-0004.00000000.S957 Tw",
+    "PT-9876.29000000.U5 Tw",
+    "PZ-0003.00000000.C697 .Ar2",
+    "PR-4494.00000000.A8 Ar2"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Classic Literature",
+    "England, fiction",
+    "Fate and fatalism",
+    "Fathers and sons",
+    "Fathers and sons, fiction",
+    "Fiction",
+    "Fiction, general",
+    "Long Now Manual for Civilization",
+    "Medicine in Literature",
+    "Men",
+    "Mystery",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL176085W"
 }

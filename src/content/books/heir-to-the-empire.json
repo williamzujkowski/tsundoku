@@ -1,7 +1,7 @@
 {
   "title": "Heir to the Empire",
   "author": "Timothy Zahn",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "heir-to-the-empire",
   "tags": [
@@ -13,11 +13,42 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9781529150384",
   "pages": 0,
   "first_published": 1991,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3576.00000000.A33",
+    "PS-3576.00000000.A33H4 2021",
+    "PS-3576.00000000.A33 H45 1991",
+    "PS-3576.00000000.A33H45 2011",
+    "PS-3562.00000000.U234 H45 1991",
+    "PS-3576.00000000.A33 H45 2011"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Calrissian, lando (fictitious character), fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Han Solo (Fictitious character)",
+    "Jade, mara (fictitious character), fiction",
+    "Leia, princess (fictitious character), fiction",
+    "Luke Skywalker (Fictitious character)",
+    "Princess Leia (Fictitious character)",
+    "Science fiction",
+    "Skywalker, luke (fictitious character), fiction",
+    "Solo, han (fictitious character), fiction",
+    "Star Wars fiction",
+    "collectionID:swNRa",
+    "star wars",
+    "the thrawn trilogy",
+    "timothy zahn"
+  ],
+  "ol_work_key": "/works/OL83589W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "An Inquiry Into the Accordancy of War with the Principles of Christianity",
   "author": "Jonathan Dymond",
-  "category": "History",
+  "category": "Religion",
   "priority": 2,
   "slug": "an-inquiry-into-the-accordancy-of-war-with-the-principles-of-christianity",
   "tags": [
@@ -29,5 +29,40 @@
     "Wars"
   ],
   "copyright_status": "public_domain",
-  "description": "IN the attempt to form an accurate estimate of the moral character of human actions and opinions, it is often of importance to inquire how they have been produced."
+  "description": "IN the attempt to form an accurate estimate of the moral character of human actions and opinions, it is often of importance to inquire how they have been produced.",
+  "isbn": "9781430448075",
+  "ddc": [
+    "261.873"
+  ],
+  "lcc": [
+    "BX-7616.00000000.D95 E5 1861",
+    "JX-1949.00000000.D8 1800",
+    "BT-0736.20000000.D8 1834 .D9 1834",
+    "BT-0736.20000000.D9 1834 .D8 1834",
+    "JX-1949.00000000.D8 1834",
+    "JX-1949.00000000.D8 1834 .D9 1834",
+    "JX-1949.00000000.D8 1835",
+    "BX-7616.00000000.D95 E5 1868",
+    "JX-1949.00000000.D8 1873",
+    "BT-0736.20000000.D9 1880"
+  ],
+  "subject_facet": [
+    "Armed conflicts",
+    "Aspect religieux",
+    "Christianity",
+    "Evil, Non-resistance to",
+    "Guerre",
+    "Non-résistance au mal",
+    "Pacifism",
+    "Pacifisme",
+    "Philosophy",
+    "Religious aspects",
+    "Religious aspects of War",
+    "Spirituality",
+    "War",
+    "War -- Religious aspects",
+    "War, religious aspects",
+    "Wars"
+  ],
+  "ol_work_key": "/works/OL6607161W"
 }

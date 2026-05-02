@@ -1,7 +1,7 @@
 {
   "title": "Ancillary Mercy",
   "author": "Ann Leckie",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "ancillary-mercy",
   "tags": [
@@ -29,5 +29,25 @@
     "nyt:trade-fiction-paperback=2015-10-25",
     "New York Times bestseller"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3612.00000000.E3353 A834 2015",
+    "PS-3612.00000000.E3353",
+    "PS-3612.00000000.E3353 A834 2016",
+    "PR-5774.00000000.L435 2015",
+    "PS-3612.00000000.E3353A832"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, space opera",
+    "Imaginary wars and battles",
+    "Life on other planets",
+    "New York Times bestseller",
+    "Science Fiction",
+    "nyt:trade-fiction-paperback=2015-10-25"
+  ],
+  "ol_work_key": "/works/OL17358701W"
 }

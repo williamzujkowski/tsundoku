@@ -1,7 +1,7 @@
 {
   "title": "Planet of Exile",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "planet-of-exile",
   "tags": [
@@ -23,5 +23,26 @@
     "Texts"
   ],
   "copyright_status": "in_copyright",
-  "description": "Planet of Exile is a 1966 science fiction novel by American writer Ursula K. Le Guin, part of her Hainish Cycle. It was first published as an Ace Double novel using the tête-bêche format, paired with Mankind Under the Leash by Thomas M. Disch."
+  "description": "Planet of Exile is a 1966 science fiction novel by American writer Ursula K. Le Guin, part of her Hainish Cycle. It was first published as an Ace Double novel using the tête-bêche format, paired with Mankind Under the Leash by Thomas M. Disch.",
+  "isbn": "9780441669561",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 P5 1978",
+    "PZ-0004.00000000.L518 Pl 1978",
+    "PS-3562.00000000.E42 Pl 1978",
+    "PZ-0004.00000000.L518 Pl4",
+    "PS-3562.00000000.E42 Pl4"
+  ],
+  "subject_facet": [
+    "1945-",
+    "Fiction",
+    "Fiction in English. American writers",
+    "Fiction, science fiction, general",
+    "Life on other planets",
+    "Space colonies",
+    "Texts"
+  ],
+  "ol_work_key": "/works/OL59836W"
 }

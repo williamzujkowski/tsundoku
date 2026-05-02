@@ -1,7 +1,7 @@
 {
   "title": "Last and First Men",
   "author": "Olaf Stapledon",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "last-and-first-men",
   "tags": [
@@ -26,5 +26,39 @@
     "Human beings--fiction"
   ],
   "copyright_status": "public_domain",
-  "description": "Last and First Men: A Story of the Near and Far Future is a \"future history\" science fiction novel written in 1930 by the British author Olaf Stapledon. A work of unprecedented scale in the genre, it describes the history of humanity from the present onwards across two billion years and eighteen distinct human species, of which our own is the first."
+  "description": "Last and First Men: A Story of the Near and Far Future is a \"future history\" science fiction novel written in 1930 by the British author Olaf Stapledon. A work of unprecedented scale in the genre, it describes the history of humanity from the present onwards across two billion years and eighteen distinct human species, of which our own is the first.",
+  "isbn": "9781095554951",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S7944 Las2",
+    "PR-6037.00000000.T18L37 2008",
+    "PR-6037.00000000.T18 L37 2011",
+    "PR-6037.00000000.T18 Las2",
+    "PR-6037.00000000.T18 L37 2008",
+    "PR-6037.00000000.T18 L37 1988",
+    "PZ-0008.00000000.S7944 Las",
+    "PR-6037.00000000.T18",
+    "PR-6037.00000000.T18L37 1988",
+    "PR-6037.00000000.T18L37 2012",
+    "PZ-0003.00000000 S7944 Las2"
+  ],
+  "subject_facet": [
+    "823/.912",
+    "English Science fiction",
+    "English literature",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Human beings",
+    "Human beings--fiction",
+    "Long Now Manual for Civilization",
+    "Pr6037.t18 l37 2008",
+    "Prophecies",
+    "Science fiction",
+    "speculative evolution"
+  ],
+  "ol_work_key": "/works/OL3290731W"
 }

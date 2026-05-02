@@ -13,11 +13,28 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9780394704791",
   "pages": 0,
   "first_published": 1933,
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "843.912",
+    "843.91"
+  ],
+  "lcc": [
+    "PQ-2625.00000000.A716;",
+    "PZ-0003.00000000.M2989 Man5",
+    "PZ-0003.00000000.M2989Man10",
+    "PZ-0003.00000000.M2989",
+    "PQ-2625.00000000 A716 C583 1961",
+    "PZ-0003.00000000.M2989 Man"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "History"
+  ],
+  "ol_work_key": "/works/OL652930W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Contact",
   "author": "Carl Sagan",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "contact",
   "tags": [
@@ -13,11 +13,43 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9788401462238",
   "pages": 0,
   "first_published": 1985,
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.A287 C6 1985",
+    "PS-3569.00000000.A287 C6 1986",
+    "PS-3569.00000000.A287 C6 1985b"
+  ],
+  "subject_facet": [
+    "Astronomers",
+    "Exploration",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction - Science Fiction",
+    "Fiction / Science Fiction / General",
+    "Fiction, science fiction, general",
+    "First Contact",
+    "Human-alien encounters",
+    "Interplanetary voyages",
+    "Interstellar communication",
+    "Large type books",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "New York Times reviewed",
+    "Radio astronomy",
+    "Science Fiction",
+    "Science Fiction - General",
+    "Women scientists",
+    "extraterrestrial life",
+    "political intrigue"
+  ],
+  "ol_work_key": "/works/OL2950903W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Dragon's Egg",
   "author": "Robert L. Forward",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "dragon-s-egg",
   "tags": [],
@@ -9,5 +9,21 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Dragon's Egg is a 1980 hard science fiction novel by American writer Robert L. Forward. In the story, Dragon's Egg is a neutron star with a surface gravity 67 billion times that of Earth, and inhabited by cheela, intelligent creatures the size of sesame seeds who evolve, live, and think a million times faster than humans.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/DragonsEgg.jpg/250px-DragonsEgg.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/DragonsEgg.jpg/250px-DragonsEgg.jpg",
+  "isbn": "9780450051975",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3556.00000000.O754D7 2000",
+    "PS-3556.00000000.O754 D7 2000",
+    "PS-3556.00000000.O754 D7 1980"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Neutron stars"
+  ],
+  "ol_work_key": "/works/OL84296W"
 }

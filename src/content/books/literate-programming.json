@@ -1,7 +1,7 @@
 {
   "title": "Literate Programming",
   "author": "Donald E. Knuth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "literate-programming",
   "tags": [
@@ -23,5 +23,20 @@
     "Programming",
     "Electronic digital computers, programming"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.11"
+  ],
+  "lcc": [
+    "QA-0076.60000000.K644 1991",
+    "QA-0076.60000000",
+    "QA-0076.60000000.K644 1992"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Electronic digital computers",
+    "Electronic digital computers, programming",
+    "Programming"
+  ],
+  "ol_work_key": "/works/OL1915631W"
 }

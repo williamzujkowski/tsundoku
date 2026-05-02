@@ -1,7 +1,7 @@
 {
   "title": "Kai Lung's Golden Hours",
   "author": "Ernest Bramah",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "kai-lung-s-golden-hours",
   "tags": [
@@ -32,5 +32,34 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1267",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1267.html.images",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/kai-lungs-golden-hours-by-ernest-bramah/"
+  "librivox_url": "https://librivox.org/kai-lungs-golden-hours-by-ernest-bramah/",
+  "isbn": "9781710796803",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S64657 Kal5",
+    "PZ-0003.00000000.S64657 Ka6",
+    "PZ-0003.00000000.S64657 Ka2",
+    "PZ-0003.00000000.S64657 Ka",
+    "PR-6037.00000000.M425K35 2009",
+    "PR-6037.00000000.M425 Kal5",
+    "PR-6037.00000000.M425 K35 2009",
+    "PR-6037.00000000.M425 Ka2",
+    "PR-6037.00000000.M425 Ka6"
+  ],
+  "subject_facet": [
+    "China, fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Kai Lung (Fictitious character)",
+    "Kai Lung (Fictitious character) -- Fiction",
+    "Kai lung (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL4634860W"
 }

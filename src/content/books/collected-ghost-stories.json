@@ -1,7 +1,7 @@
 {
   "title": "Collected Ghost Stories",
   "author": "M.R. James",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "collected-ghost-stories",
   "tags": [
@@ -29,5 +29,36 @@
     "Unsetteling"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Collected Ghost Stories is a posthumous collection of stories by author Mary E. Wilkins Freeman (1852–1930). It was released in 1974 by Arkham House in an edition of 4,155 copies. The book is the first collection of all of Freeman's supernatural stories."
+  "description": "Collected Ghost Stories is a posthumous collection of stories by author Mary E. Wilkins Freeman (1852–1930). It was released in 1974 by Arkham House in an edition of 4,155 copies. The book is the first collection of all of Freeman's supernatural stories.",
+  "isbn": "9781840225518",
+  "ddc": [
+    "823.8",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6019.00000000.A565",
+    "PR-6019.00000000.A565 A6 2011",
+    "PR-4821.00000000 J45 A15 1931",
+    "PR-6019.00000000.A55 C6 1992"
+  ],
+  "subject_facet": [
+    "Englisch",
+    "English ghost stories",
+    "Evil",
+    "Fiction, ghost",
+    "Fiction, horror",
+    "Fiction, short stories (single author)",
+    "Gespenstergeschichte",
+    "Ghost stories",
+    "Ghosts",
+    "Horror",
+    "Horror stories",
+    "Hunting",
+    "Kurzgeschichte",
+    "Religious",
+    "Stories",
+    "Unsetteling",
+    "Victorian"
+  ],
+  "ol_work_key": "/works/OL707919W"
 }

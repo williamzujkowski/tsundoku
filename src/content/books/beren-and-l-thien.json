@@ -1,7 +1,7 @@
 {
   "title": "Beren and Lúthien",
   "author": "J.R.R. Tolkien",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "beren-and-l-thien",
   "tags": [
@@ -33,5 +33,24 @@
     "English Fantasy fiction",
     "English literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6039.00000000.O32 B47 2017",
+    "PR-6039.00000000.O32B47 2017",
+    "PR-6039.00000000.O32"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Elves",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "New York Times bestseller",
+    "nyt:hardcover-fiction=2017-06-18"
+  ],
+  "ol_work_key": "/works/OL17755218W"
 }

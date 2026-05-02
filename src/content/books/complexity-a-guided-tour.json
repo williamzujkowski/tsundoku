@@ -1,7 +1,7 @@
 {
   "title": "Complexity: A Guided Tour",
   "author": "Melanie Mitchell",
-  "category": "Complex Systems",
+  "category": "Science",
   "priority": 1,
   "slug": "complexity-a-guided-tour",
   "tags": [
@@ -25,5 +25,12 @@
     "Q175.32.c65 m58 2009",
     "501"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "Q--0175.32000000.C65M58 2009"
+  ],
+  "subject_facet": [
+    "Complexity (philosophy)"
+  ],
+  "ol_work_key": "/works/OL25359557W"
 }

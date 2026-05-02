@@ -1,7 +1,7 @@
 {
   "title": "Frontier",
   "author": "Can Xue",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "frontier",
   "tags": [
@@ -31,5 +31,28 @@
     "Irish",
     "Literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PL-2912.00000000.A5174B5313"
+  ],
+  "subject_facet": [
+    "China",
+    "China -- Fiction",
+    "Civilization",
+    "Civilization -- Fiction",
+    "Culture",
+    "Culture -- Fiction",
+    "FICTION -- Contemporary Women",
+    "FICTION -- Cultural Heritage",
+    "FICTION -- Literary",
+    "FICTION / Contemporary Women",
+    "FICTION / Cultural Heritage",
+    "Fiction",
+    "Fiction, coming of age",
+    "HISTORY -- Asia -- China",
+    "HISTORY -- China. -- Asia",
+    "Spiritual life",
+    "Spiritual life -- Fiction"
+  ],
+  "ol_work_key": "/works/OL20639284W"
 }

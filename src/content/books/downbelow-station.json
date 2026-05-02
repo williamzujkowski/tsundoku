@@ -1,7 +1,7 @@
 {
   "title": "Downbelow Station",
   "author": "C.J. Cherryh",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "downbelow-station",
   "tags": [
@@ -30,5 +30,38 @@
     "Science fiction, American",
     "Fiction, science fiction, space opera"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.H358 D68 2008",
+    "PS-3553.00000000.H358 D68 2015",
+    "PS-3553.00000000.H358",
+    "PS-3553.00000000.H358 D68 2001",
+    "PS-3553.00000000.H358 D68 1981"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction - Science Fiction",
+    "Fiction / General",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Guerre spatiale",
+    "Hugo Award Winner",
+    "Interstellar travel",
+    "Romans, nouvelles",
+    "Science Fiction - General",
+    "Science fiction",
+    "Science fiction, American",
+    "Space stations",
+    "Space warfare",
+    "Stations spatiales",
+    "Voyages interstellaires",
+    "award:hugo_award=1982",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL60590W"
 }

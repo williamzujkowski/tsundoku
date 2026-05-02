@@ -1,7 +1,7 @@
 {
   "title": "Cryptonomicon",
   "author": "Neal Stephenson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "cryptonomicon",
   "tags": [
@@ -35,5 +35,41 @@
     "Code and cipher stories",
     "Fiction, technological"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.S836 Cry 2002",
+    "PS-3569.00000000.T3868 C7 2000",
+    "PS-3569.00000000.T3868 C79 1999",
+    "PS-3569.00000000.T3868 C79 2002",
+    "PS-3569.00000000.T3868",
+    "PS-3569.00000000.T3868C79 1999"
+  ],
+  "subject_facet": [
+    "Code and cipher stories",
+    "Cryptography",
+    "Data encryption (Computer science)",
+    "Fiction",
+    "Fiction, espionage",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Fiction, technological",
+    "Fiction, thrillers",
+    "Fiction, thrillers, espionage",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, technological",
+    "Literature",
+    "Long Now Manual for Civilization",
+    "New York Times reviewed",
+    "Science Fiction",
+    "World War, 1939-1945",
+    "World War, 1939-1945 in fiction",
+    "World war, 1939-1945, fiction"
+  ],
+  "ol_work_key": "/works/OL38494W"
 }

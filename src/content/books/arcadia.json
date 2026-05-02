@@ -1,7 +1,7 @@
 {
   "title": "Arcadia",
   "author": "Tom Stoppard",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "arcadia",
   "tags": [
@@ -34,5 +34,38 @@
     "Plays",
     "Drama"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6069.00000000.T6A84 1993",
+    "PR-6069.00000000.T67",
+    "PR-6069.00000000.T6 A84 1993",
+    "PR-6069.00000000.T6 A84 2017",
+    "PR-6069.00000000.T6 A84 2008",
+    "PR-6069.00000000.T6 A84"
+  ],
+  "subject_facet": [
+    "British Literature",
+    "British and irish drama (dramatic works by one author)",
+    "Classics",
+    "Drama",
+    "English Plays",
+    "English drama",
+    "English drama (Comedy)",
+    "Fiction",
+    "Gardens in literature",
+    "Historical Fiction",
+    "Literature",
+    "Long Now Manual for Civilization",
+    "Mathematics",
+    "Philosophy",
+    "Plays",
+    "Playscript",
+    "School",
+    "Theatre",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL804974W"
 }

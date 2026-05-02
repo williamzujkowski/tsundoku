@@ -1,7 +1,7 @@
 {
   "title": "I Ching",
   "author": "Book of Changes",
-  "category": "Non-Western Philosophy",
+  "category": "Literature",
   "priority": 2,
   "slug": "i-ching",
   "tags": [],
@@ -17,5 +17,39 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=ExU6SjX97EwC&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.1808",
+    "299.51482",
+    "181.095182",
+    "299.51282",
+    "895.18"
+  ],
+  "lcc": [
+    "PL-2478.00000000.D8 1950",
+    "PL-2478.00000000.D8 1968",
+    "PL-2464.00000000",
+    "PL-2997.00000000 I22 1969",
+    "PL-2478.00000000 D8 1970",
+    "PL-2997.00000000 I22 1977",
+    "PL-2464.00000000.Z7",
+    "PL-2997.00000000.I22 1950",
+    "PL-2478.00000000.D8 1961",
+    "PL-2997.00000000 I22 1971",
+    "PL-2997.00000000.I22 1951",
+    "PL-2478.00000000.D8 1967",
+    "PL-2478.00000000.D8 1955"
+  ],
+  "subject_facet": [
+    "Chinese Philosophy",
+    "Confucianism",
+    "Divination",
+    "I Ching",
+    "Language and languages",
+    "Religion",
+    "Taoism",
+    "Yi jing",
+    "Yijing <Werk>"
+  ],
+  "ol_work_key": "/works/OL403974W"
 }

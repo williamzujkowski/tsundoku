@@ -1,7 +1,7 @@
 {
   "title": "Deep Water",
   "author": "Patricia Highsmith",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "deep-water",
   "tags": [
@@ -32,5 +32,29 @@
     "Fiction, mystery & detective, general",
     "Married people, fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.I366",
+    "PZ-0003.00000000.H53985 De",
+    "PZ-0003.00000000.H53985De",
+    "PS-3558.00000000.I366 De",
+    "PS-3558.00000000.I366 D44 2003",
+    "PS-3558.00000000.I366 D43 1961",
+    "PS-3558.00000000.I366D44 2003"
+  ],
+  "subject_facet": [
+    "Adultery",
+    "American literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "Fiction, suspense",
+    "Married people",
+    "Married people, fiction",
+    "Murder"
+  ],
+  "ol_work_key": "/works/OL59432W"
 }

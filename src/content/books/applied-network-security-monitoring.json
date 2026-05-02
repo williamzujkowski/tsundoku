@@ -1,7 +1,7 @@
 {
   "title": "Applied Network Security Monitoring",
   "author": "Chris Sanders",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "applied-network-security-monitoring",
   "tags": [
@@ -21,5 +21,12 @@
   "subjects": [
     "Computer networks, security measures"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25.S268 201"
+  ],
+  "subject_facet": [
+    "Computer networks, security measures"
+  ],
+  "ol_work_key": "/works/OL25734260W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Cloud Nine",
   "author": "Caryl Churchill",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "cloud-nine",
   "tags": [
@@ -30,5 +30,24 @@
     "Drama (dramatic works by one author)",
     "Families"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6053.00000000.H786 C5 1979b",
+    "PR-6053.00000000.H786C5x 1985",
+    "PR-6053.00000000.H786 C5 1981",
+    "PR-6053.00000000.H786 C5 1984",
+    "PR-6053.00000000.H786 C5x 1985"
+  ],
+  "subject_facet": [
+    "British",
+    "Colonial administrators",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "English drama",
+    "Families"
+  ],
+  "ol_work_key": "/works/OL485243W"
 }

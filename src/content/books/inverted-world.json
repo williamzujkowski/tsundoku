@@ -1,7 +1,7 @@
 {
   "title": "Inverted World",
   "author": "Christopher Priest",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "inverted-world",
   "tags": [
@@ -26,5 +26,27 @@
     "Science-fiction",
     "Science fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R55I58 2008",
+    "PR-6066.00000000.R55 Ir3",
+    "PZ-0004.00000000.P9487 Ir",
+    "PZ-0004.00000000.P9487 Ir3",
+    "PR-6066.00000000.R55 I58 2008",
+    "PR-6066.00000000.R55",
+    "PR-6066.00000000.R55 Ir"
+  ],
+  "subject_facet": [
+    "English Science fiction",
+    "Fiction, science fiction, general",
+    "Littérature anglaise",
+    "Roman anglais",
+    "Science fiction",
+    "Science-fiction",
+    "Traductions françaises"
+  ],
+  "ol_work_key": "/works/OL166496W"
 }

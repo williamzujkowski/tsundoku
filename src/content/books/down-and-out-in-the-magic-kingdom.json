@@ -1,7 +1,7 @@
 {
   "title": "Down and Out in the Magic Kingdom",
   "author": "Cory Doctorow",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "down-and-out-in-the-magic-kingdom",
   "tags": [
@@ -22,5 +22,24 @@
   "gutenberg_id": 8086,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8086",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8086.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781976165047",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3604.00000000.O27 D68 2003",
+    "PS-3604.00000000.O38D68 2003",
+    "PS-3604.00000000.O27",
+    "PS-3604.00000000.O38 D68 2003"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Immortalism",
+    "New York Times reviewed",
+    "Science fiction",
+    "Singularity"
+  ],
+  "ol_work_key": "/works/OL5734712W"
 }

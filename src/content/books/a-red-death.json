@@ -1,7 +1,7 @@
 {
   "title": "A Red Death",
   "author": "Walter Mosley",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-red-death",
   "tags": [
@@ -32,5 +32,34 @@
     "Rawlins, easy (fictitious character), fiction",
     "Fiction, mystery & detective, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.O88456 R44 1992",
+    "PS-3563.00000000.O88456 R44 2002",
+    "PS-3563.00000000.O88456 R44 1993",
+    "BLI0000.00000000 991852427698",
+    "PS-3563.00000000.O88456R44",
+    "PS-3563.00000000.O88456 R44 1991",
+    "PS-3563.00000000"
+  ],
+  "subject_facet": [
+    "African American businesspeople",
+    "African American men",
+    "African americans, fiction",
+    "California, fiction",
+    "Easy Rawlins (Fictitious character)",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, thrillers, general",
+    "Large type books",
+    "Literary",
+    "Los angeles (calif.), fiction",
+    "Mystery & Detective",
+    "Private investigators",
+    "Rawlins, easy (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL115566W"
 }

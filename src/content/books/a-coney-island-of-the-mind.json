@@ -1,7 +1,7 @@
 {
   "title": "A Coney Island of the Mind",
   "author": "Lawrence Ferlinghetti",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "a-coney-island-of-the-mind",
   "tags": [
@@ -27,5 +27,26 @@
     "Beats (Persons)",
     "Poetry (poetic works by one author)"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "811.54",
+    "811.5",
+    "818"
+  ],
+  "lcc": [
+    "PS-3511.00000000.E557 C6",
+    "PS-3511.00000000.E557 C6 1968x",
+    "PS-3511.00000000.E7",
+    "PS-3511.00000000.E557 C6 2005",
+    "PS-3511.00000000.E557 C6 2008",
+    "PS-3511.00000000.E557C6 2008"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Arts",
+    "Beats (Persons)",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL964694W"
 }

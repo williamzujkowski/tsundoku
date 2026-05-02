@@ -1,7 +1,7 @@
 {
   "title": "Dorothy and the Wizard in Oz",
   "author": "L. Frank Baum",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "dorothy-and-the-wizard-in-oz",
   "tags": [
@@ -32,5 +32,43 @@
   "librivox_url": "https://librivox.org/dorothy-and-the-wizard-in-oz-by-l-frank-baum/",
   "gutenberg_id": 19450,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/19450",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0008.00000000.B327DO",
+    "PZ-0008.00000000.B327 Do 1970zx",
+    "PZ-0007.00000000.B327 Dm 1990",
+    "PZ-0008.00000000.B327 Do 1984",
+    "PZ-0008.00000000.B372 Do 1908x",
+    "PZ-0008.00000000.B327 Do7",
+    "PZ-0008.00000000.B327 Do",
+    "PZ-0008.00000000.B327 Do17",
+    "PZ-0007.00000000.B327Dm 1990",
+    "PN-6727.00000000"
+  ],
+  "subject_facet": [
+    "California, fiction",
+    "Children's fiction",
+    "Children: Grades 4-6",
+    "Classic Literature",
+    "Comic books, strips",
+    "Comics & graphic novels, fantasy",
+    "Dorothy Gale (Fictitious character)",
+    "Earthquakes, fiction",
+    "Fairy tales",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, action & adventure",
+    "Juvenile fiction",
+    "Literature and fiction, juvenile",
+    "Oz (Imaginary place)",
+    "Oz (imaginary place), fiction",
+    "Wizards, fiction"
+  ],
+  "ol_work_key": "/works/OL18412W"
 }

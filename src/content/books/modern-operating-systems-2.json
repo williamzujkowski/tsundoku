@@ -1,7 +1,7 @@
 {
   "title": "Modern Operating Systems",
   "author": "Andrew S. Tanenbaum",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "modern-operating-systems-2",
   "tags": [
@@ -29,5 +29,50 @@
     "Systèmes d'exploitation (ordinateurs)",
     "Sécurité"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.43"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63T359 2008",
+    "QA-0076.76000000.O63 T359 2008",
+    "QA-0076.76000000.O63 T359 2001",
+    "QA-0076.76000000.O63 T359 1992",
+    "QA-0076.76000000.O63T359 2015",
+    "QA-0076.77000000.T359 2015",
+    "QA-0076.76000000.O63T359 2014",
+    "QA-0076.76000000.O63"
+  ],
+  "subject_facet": [
+    "005.4/3",
+    "005.43",
+    "Besturingssystemen",
+    "Betriebssystem",
+    "Communication inter-processus",
+    "Computers and IT",
+    "Conception système exploitation",
+    "Gestion mémoire",
+    "Logiciels",
+    "Manuel",
+    "Operating systems",
+    "Operating systems & graphical user interfaces (GUIs)",
+    "Operating systems (Computers)",
+    "Ordonnancement système",
+    "Processus",
+    "Qa76.76.o63 t359 2001",
+    "Qa76.77 .t359 2015",
+    "Structure ordinateur",
+    "Structure système exploitation",
+    "Système d'exploitation",
+    "Système d'exploitation réparti",
+    "Système fichier",
+    "Système interblocage",
+    "Système multiprocesseur",
+    "Systèmes d'exploitation (ordinateurs)",
+    "Sécurité",
+    "Verteiltes Betriebssystem",
+    "ÇIðsletim sistemleri (Bilgisayarlar",
+    "İşletim sistemleri (Bilgisayarlar)"
+  ],
+  "ol_work_key": "/works/OL1970688W"
 }

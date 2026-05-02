@@ -1,7 +1,7 @@
 {
   "title": "Algorithms",
   "author": "Robert Sedgewick and Kevin Wayne",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "algorithms",
   "tags": [
@@ -19,5 +19,15 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=idUdqdDXqnAC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.60000000.S435 1988"
+  ],
+  "subject_facet": [
+    "Algorithmes",
+    "Algorithms",
+    "Computer algorithms",
+    "Programming - general & miscellaneous"
+  ],
+  "ol_work_key": "/works/OL12385204W"
 }

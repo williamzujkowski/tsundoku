@@ -1,7 +1,7 @@
 {
   "title": "Idylls of the King",
   "author": "Alfred, Lord Tennyson",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "idylls-of-the-king",
   "tags": [
@@ -27,5 +27,12 @@
     "Examinations",
     "Study guides"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PR-5558.00000000.A1 1891"
+  ],
+  "subject_facet": [
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL27997214W"
 }

@@ -29,5 +29,31 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/14396",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/14396.html.images",
   "copyright_status": "public_domain",
-  "description": "His Family is a novel by Ernest Poole published in 1917 about the life of a New York widower and his three daughters in the 1910s. It received the first Pulitzer Prize for the Novel in 1918."
+  "description": "His Family is a novel by Ernest Poole published in 1917 about the life of a New York widower and his three daughters in the 1910s. It received the first Pulitzer Prize for the Novel in 1918.",
+  "isbn": "9781442921061",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3531.00000000.O53 Hi8",
+    "PS-3531.00000000.O53 Hi",
+    "PZ-0003.00000000.P785 Hi 1979",
+    "PZ-0003.00000000.P785 Hi",
+    "PS-3531.00000000.O53 H5",
+    "PZ-0003.00000000.P785 Hi8",
+    "PS-3531.00000000.O53 H57 2015",
+    "PS-3531.00000000.O53 Hi 1979"
+  ],
+  "subject_facet": [
+    "Families",
+    "Fiction",
+    "Fiction, family life, general",
+    "Fiction, general",
+    "New york (n.y.), fiction",
+    "Pulitzer Prize Winner",
+    "Social conditions",
+    "award:pulitzer_prize=1918",
+    "award:pulitzer_prize=fiction"
+  ],
+  "ol_work_key": "/works/OL6593192W"
 }

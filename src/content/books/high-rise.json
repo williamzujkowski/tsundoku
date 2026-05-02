@@ -1,7 +1,7 @@
 {
   "title": "High-Rise",
   "author": "J.G. Ballard",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "high-rise",
   "tags": [],
@@ -17,5 +17,20 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=Jux6bmo0mNsC&dq=High-Rise+J.G.+Ballard&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A46 H54 2012"
+  ],
+  "subject_facet": [
+    "Apartment dwellers",
+    "Dystopias",
+    "Fiction",
+    "Fiction, general",
+    "High-rise apartment buildings",
+    "Social aspects"
+  ],
+  "ol_work_key": "/works/OL16299320W"
 }

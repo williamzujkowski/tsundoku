@@ -9,5 +9,47 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Crusade in Europe is a book of wartime memoirs by General Dwight D. Eisenhower published by Doubleday in 1948. Maps were provided by Rafael Palacios.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/CrusadeInEurope.jpg/250px-CrusadeInEurope.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/CrusadeInEurope.jpg/250px-CrusadeInEurope.jpg",
+  "isbn": "9780736680776",
+  "ddc": [
+    "940.53",
+    "940.5421",
+    "940.542",
+    "940.541"
+  ],
+  "lcc": [
+    "D--0743.00000000.E35 1989",
+    "D--0743.00000000.E35 1977",
+    "D--0743.00000000.E3516",
+    "D--0743.00000000.E35 1948",
+    "D--0743.00000000.E35 1997",
+    "D--0743.00000000.E35 1990",
+    "D--0743.00000000.E35 1952",
+    "D--0743.00000000.E35 1968",
+    "D--0743.00000000.E35 1979"
+  ],
+  "subject_facet": [
+    "American Personal narratives",
+    "Biographies",
+    "Biography",
+    "Campagnes et batailles",
+    "Campaigns",
+    "Eisenhower, dwight d. (dwight david), 1890-1969",
+    "Guerre mondiale (1939-1945)",
+    "Guerre mondiale, 1939-1945",
+    "Military campaigns",
+    "Personal narratives",
+    "Presidents",
+    "Presidents, united states",
+    "Présidents",
+    "Récits personnels américains",
+    "Világháború, II",
+    "Visszaemlékezés",
+    "World War (1939-1945) fast (OCoLC)fst01180924",
+    "World War, 1939-1945",
+    "World war, 1939-1945, campaigns",
+    "World war, 1939-1945, europe",
+    "World war, 1939-1945, personal narratives"
+  ],
+  "ol_work_key": "/works/OL89595W"
 }

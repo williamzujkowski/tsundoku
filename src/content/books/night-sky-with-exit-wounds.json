@@ -1,7 +1,7 @@
 {
   "title": "Night Sky with Exit Wounds",
   "author": "Ocean Vuong",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "night-sky-with-exit-wounds",
   "tags": [
@@ -28,5 +28,26 @@
     "Asian American",
     "Poesi"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "811.6"
+  ],
+  "lcc": [
+    "PS-3622.00000000.U96 N545 2016eb",
+    "PS-3622.00000000.U96 A6 2016",
+    "PS-3622.00000000.U96A6 2017",
+    "PS-3622.00000000.U96A6 2016"
+  ],
+  "subject_facet": [
+    "American",
+    "American poetry",
+    "Asian American",
+    "LGBTQ poetry",
+    "Poesi",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "collection:thom_gunn_award=winner",
+    "poems"
+  ],
+  "ol_work_key": "/works/OL20027324W"
 }

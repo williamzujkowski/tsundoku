@@ -1,7 +1,7 @@
 {
   "title": "A Crown of Swords",
   "author": "Robert Jordan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-crown-of-swords",
   "tags": [],
@@ -9,5 +9,33 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "A Crown of Swords is a fantasy novel by American author Robert Jordan, the seventh book of The Wheel of Time. It was published by Tor Books and released on May 15, 1996. A Crown of Swords consists of a prologue and 41 chapters.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/WoT07_ACrownOfSwords.jpg/120px-WoT07_ACrownOfSwords.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/WoT07_ACrownOfSwords.jpg/120px-WoT07_ACrownOfSwords.jpg",
+  "isbn": "9781590073971",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617C76 2013",
+    "PS-3560.00000000.O7617 C76 1996",
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617C76 1996",
+    "PS-3560.00000000.O7617 C76 2013"
+  ],
+  "subject_facet": [
+    "American literature",
+    "FICTION / Fantasy / Epic",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Heat waves (Meteorology)",
+    "Kidnapping",
+    "Magic",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction",
+    "Rescues",
+    "Weather"
+  ],
+  "ol_work_key": "/works/OL7924161W"
 }

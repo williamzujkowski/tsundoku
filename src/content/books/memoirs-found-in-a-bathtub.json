@@ -1,7 +1,7 @@
 {
   "title": "Memoirs Found in a Bathtub",
   "author": "Stanisław Lem",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "memoirs-found-in-a-bathtub",
   "tags": [
@@ -22,5 +22,14 @@
     "Continental european fiction (fictional works by one author)",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780156585859",
+  "lcc": [
+    "PG-7158.00000000.L39P313 1986"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL24228205W"
 }

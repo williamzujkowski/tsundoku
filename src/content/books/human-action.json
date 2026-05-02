@@ -1,7 +1,7 @@
 {
   "title": "Human Action",
   "author": "Ludwig von Mises",
-  "category": "Economics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "human-action",
   "tags": [
@@ -25,5 +25,31 @@
     "Comercio"
   ],
   "copyright_status": "likely_public_domain",
-  "description": "Human Action: A Treatise on Economics is a work by the Austrian economist and philosopher Ludwig von Mises. Widely considered Mises' magnum opus, it presents the case for laissez-faire capitalism based on praxeology, his method to understand the structure of human decision-making. Mises rejected positivism within economics, and defended an a priori foundation for praxeology, as well as methodological individualism and laws of self-evident certainty."
+  "description": "Human Action: A Treatise on Economics is a work by the Austrian economist and philosopher Ludwig von Mises. Widely considered Mises' magnum opus, it presents the case for laissez-faire capitalism based on praxeology, his method to understand the structure of human decision-making. Mises rejected positivism within economics, and defended an a priori foundation for praxeology, as well as methodological individualism and laws of self-evident certainty.",
+  "isbn": "9780865976771",
+  "ddc": [
+    "330.162",
+    "330"
+  ],
+  "lcc": [
+    "HB-0171.00000000.V63 1996",
+    "HB-0175.00000000.M57",
+    "HB-0175.00000000.V65 1966",
+    "HB-0175.00000000.V65 1949",
+    "HB-0171.00000000.V63 2006",
+    "HB-0171.00000000.V63 1998",
+    "HB-0175.00000000.M57 1966",
+    "HB-0175.00000000.V65 1963"
+  ],
+  "subject_facet": [
+    "Business & Economics",
+    "Business / Economics / Finance",
+    "Business/Economics",
+    "Comercio",
+    "Commerce",
+    "Economic theory & philosophy",
+    "Economics",
+    "Economics - General"
+  ],
+  "ol_work_key": "/works/OL782867W"
 }

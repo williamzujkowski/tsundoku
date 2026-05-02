@@ -1,7 +1,7 @@
 {
   "title": "Barriers Burned Away",
   "author": "Edward Payson Roe",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "barriers-burned-away",
   "tags": [
@@ -32,5 +32,33 @@
     "Fire, 1871"
   ],
   "copyright_status": "public_domain",
-  "description": "From its long sweep over the unbroken prairie a heavier blast than usual shook the slight frame house."
+  "description": "From its long sweep over the unbroken prairie a heavier blast than usual shook the slight frame house.",
+  "isbn": "9781359691361",
+  "ddc": [
+    "813.4"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.R62Bar16",
+    "PZ-0003.00000000.R62 B4",
+    "PS-2727.00000000 B13",
+    "E--0169.10000000.L4",
+    "PZ-0003.00000000.R62 Bar16",
+    "PS-2727.00000000 B",
+    "PS-2727.00000000 B14",
+    "PZ-0003.00000000.R62 B14",
+    "PS-2727.00000000 Bar16",
+    "PZ-0003.00000000.R62 B13",
+    "PS-2727.00000000 B4",
+    "PZ-0003.00000000.R62 B"
+  ],
+  "subject_facet": [
+    "Chicago (ill.), fiction",
+    "Fiction",
+    "Fiction, historical, general",
+    "Fire, 1871",
+    "Fires",
+    "Great Fire, Chicago, Ill., 1871",
+    "History"
+  ],
+  "ol_work_key": "/works/OL1491774W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Canto General",
   "author": "Pablo Neruda",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "canto-general",
   "tags": [
@@ -31,5 +31,13 @@
     "861",
     "Spanish language books"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PQ-8097.00000000.N4 C1713 2000"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poésie"
+  ],
+  "ol_work_key": "/works/OL979556W"
 }

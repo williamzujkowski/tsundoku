@@ -1,7 +1,7 @@
 {
   "title": "Abhorsen",
   "author": "Garth Nix",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "abhorsen",
   "tags": [
@@ -34,5 +34,29 @@
     "Juvenile Fiction",
     "Magical thinking"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N647 Ab 2014",
+    "PZ-0007.00000000.N647 Ab 2003",
+    "PR-9619.30000000.N59A24 2003",
+    "PZ-0007.00000000.N647 Ab 2004",
+    "PZ-0007.00000000.N647Ab 2020",
+    "PZ-0007.00000000.N647Ab 2003"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Good and evil",
+    "Juvenile Fiction",
+    "Juvenile literature",
+    "Magic",
+    "Science Fiction & Fantasy",
+    "Young adult fiction"
+  ],
+  "ol_work_key": "/works/OL2628772W"
 }

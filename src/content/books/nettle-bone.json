@@ -1,7 +1,7 @@
 {
   "title": "Nettle & Bone",
   "author": "T. Kingfisher",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 3,
   "slug": "nettle-bone",
   "tags": [
@@ -28,5 +28,20 @@
     "award:hugo_award=novel",
     "American literature"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3611.00000000.I597N4 2022",
+    "PS-3611.00000000.I597"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fantasy",
+    "Fiction",
+    "Horror",
+    "Hugo Award Winner",
+    "Magic",
+    "award:hugo_award=2023",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL24510090W"
 }

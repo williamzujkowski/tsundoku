@@ -1,7 +1,7 @@
 {
   "title": "Consider Phlebas",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "consider-phlebas",
   "tags": [
@@ -30,5 +30,24 @@
     "Protected DAISY",
     "Long now manual for civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485 C6 1987",
+    "PR-6052.00000000.A6339 C66 1991",
+    "PR-6052.00000000.A485 C6 2008",
+    "PR-6052.00000000.A485"
+  ],
+  "subject_facet": [
+    "Accessible book",
+    "Fiction",
+    "Imaginary wars and battles",
+    "Long now manual for civilization",
+    "OverDrive",
+    "Protected DAISY",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL8368432W"
 }

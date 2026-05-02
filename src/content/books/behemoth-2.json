@@ -1,7 +1,7 @@
 {
   "title": "Behemoth",
   "author": "Peter Watts",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "behemoth-2",
   "tags": [
@@ -29,5 +29,24 @@
     "Fiction, science fiction, hard science fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W386B44",
+    "PR-9199.30000000.W386 B45 2005",
+    "PR-9199.30000000.W386B45",
+    "PR-9199.30000000.W386 B44 2004"
+  ],
+  "subject_facet": [
+    "Cyborgs",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Marine animals",
+    "Microorganisms",
+    "Underwater exploration"
+  ],
+  "ol_work_key": "/works/OL8514691W"
 }

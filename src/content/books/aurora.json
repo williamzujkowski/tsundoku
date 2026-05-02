@@ -1,7 +1,7 @@
 {
   "title": "Aurora",
   "author": "Kim Stanley Robinson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "aurora",
   "tags": [
@@ -35,5 +35,33 @@
     "adventure and adventurers, fiction",
     "adventure stories"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O2893 A95 2015",
+    "PS-3568.00000000.O2893",
+    "PS-3568.00000000.O2893A95 2015",
+    "PS-3568.00000000.O2893 A95 2016"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "FICTION / Action & Adventure",
+    "FICTION / Science Fiction",
+    "FICTION / Science Fiction / High Tech",
+    "FICTION / Science Fiction / Space Opera",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "High Tech",
+    "Interplanetary voyages",
+    "Science Fiction",
+    "Space Opera",
+    "Space and time",
+    "Space colonies",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL17346803W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Doomsday Book",
   "author": "Connie Willis",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "doomsday-book",
   "tags": [
@@ -31,5 +31,30 @@
     "award:hugo_award=novel",
     "Science fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45652",
+    "PS-3573.00000000.I45652 D66 1994",
+    "PS-3573.00000000.I45652 D66 1992",
+    "PS-3573.00000000.I45652 D66 1993"
+  ],
+  "subject_facet": [
+    "Black Death",
+    "Fantasy",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "History",
+    "Hugo Award Winner",
+    "Middle Ages",
+    "New York Times reviewed",
+    "Science fiction",
+    "Time travel",
+    "award:hugo_award=1993",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL14858406W"
 }

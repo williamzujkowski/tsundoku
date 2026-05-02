@@ -1,7 +1,7 @@
 {
   "title": "Civilization and Capitalism",
   "author": "Fernand Braudel",
-  "category": "History",
+  "category": "Economics",
   "priority": 1,
   "slug": "civilization-and-capitalism",
   "tags": [],
@@ -22,5 +22,35 @@
     "Economic history",
     "Capitalism"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "909.08"
+  ],
+  "lcc": [
+    "HC-0051.00000000.B67413 1992",
+    "HC-0051.00000000",
+    "HC-0051.00000000.B67413 1981",
+    "HC-0045.00000000.B697",
+    "HC-0051.00000000.B713 1981",
+    "HC-0051.00000000.B67413 1982",
+    "HC-0045.00000000 B69713 1982",
+    "HC-0051.00000000.B67413 1982, vol. 3",
+    "HC-0045.00000000.B697153 1995"
+  ],
+  "subject_facet": [
+    "Capitalism",
+    "Civilization, Modern",
+    "Commerce",
+    "E.B. Campbell Dam (Sask.)",
+    "Economic history",
+    "Europe, civilization",
+    "Europe, economic conditions",
+    "History",
+    "Long Now Manual for Civilization",
+    "Modern Civilization",
+    "Social history",
+    "Social history\u001e 0",
+    "Social history, modern, 1500-"
+  ],
+  "ol_work_key": "/works/OL771561W"
 }

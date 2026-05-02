@@ -1,7 +1,7 @@
 {
   "title": "Mother Courage and Her Children",
   "author": "Bertolt Brecht",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "mother-courage-and-her-children",
   "tags": [
@@ -29,5 +29,18 @@
     "Guerre de Trente Ans, 1618-1648",
     "Théâtre"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "832.912"
+  ],
+  "lcc": [
+    "PT-2603.00000000.R397 M82 2009",
+    "PT-2603.00000000.R397"
+  ],
+  "subject_facet": [
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Thirty Years' War, 1618-1648"
+  ],
+  "ol_work_key": "/works/OL18734562W"
 }

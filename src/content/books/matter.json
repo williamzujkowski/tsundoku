@@ -1,7 +1,7 @@
 {
   "title": "Matter",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "matter",
   "tags": [
@@ -29,5 +29,25 @@
     "Science Fiction & Fantasy",
     "Space colonies"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485 M38 2008",
+    "PR-6052.00000000.A485",
+    "PR-6052.00000000.A485 M38 2009"
+  ],
+  "subject_facet": [
+    "Brothers and sisters",
+    "Fiction",
+    "Government investigators",
+    "Life on other planets",
+    "Murder",
+    "OverDrive",
+    "Science Fiction",
+    "Science Fiction & Fantasy",
+    "Space colonies"
+  ],
+  "ol_work_key": "/works/OL100768W"
 }

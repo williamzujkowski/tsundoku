@@ -1,7 +1,7 @@
 {
   "title": "Mulamadhyamakakarika",
   "author": "Nāgārjuna",
-  "category": "Non-Western Philosophy",
+  "category": "Religion",
   "priority": 1,
   "slug": "mulamadhyamakakarika",
   "tags": [],
@@ -19,5 +19,37 @@
     "Mādhyamika (Buddhism)",
     "Early works to 1800"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "294.385",
+    "181.043"
+  ],
+  "lcc": [
+    "BQ-2792.00000000.E5 G37 1995",
+    "BQ-2792.00000000.G7 G45 2010",
+    "BQ-2792.00000000.E5 B38 2000",
+    "BQ-2792.00000000.E5 K35 1986",
+    "BQ-2792.00000000.E5B38 2000",
+    "BQ-2792.00000000.E5 G37 1995eb",
+    "BQ-2792.00000000.E5K35 1986",
+    "BQ-2792.00000000.E5 I5",
+    "BQ-2792.00000000.E5G37 1995"
+  ],
+  "subject_facet": [
+    "294.3/85",
+    "Bq2792.e5 g37 1995",
+    "Bq2792.e5 k35 1986",
+    "Buddhism",
+    "Buddhist literature",
+    "Buddhist philosophy",
+    "Early works to 1800",
+    "Emptiness",
+    "Mahayana",
+    "Mādhyamaka",
+    "Mādhyamika (Buddhism)",
+    "Mādhyamika (buddhism)--early works to 1800",
+    "Mūlamadhyamakakārikā (Nagarjuna)",
+    "Tibetan Buddhism"
+  ],
+  "ol_work_key": "/works/OL396026W"
 }

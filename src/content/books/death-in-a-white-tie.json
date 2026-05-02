@@ -1,7 +1,7 @@
 {
   "title": "Death in a White Tie",
   "author": "Ngaio Marsh",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "death-in-a-white-tie",
   "tags": [
@@ -31,5 +31,32 @@
     "Fiction, mystery & detective, police procedural",
     "England, fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.M3539 Dk 2",
+    "PR-9639.30000000.M27D44 2012",
+    "PR-9639.30000000.M27 D412 1986",
+    "PR-9639.30000000.M27 D44 2012",
+    "PR-9639.30000000.M27 Dk 2",
+    "PR-9639.30000000.M27 D42 1997",
+    "PR-9639.30000000.M27 D44 1981",
+    "PR-9639.30000000.M27D44 1981"
+  ],
+  "subject_facet": [
+    "Alleyn, roderick (fictitious character), fiction",
+    "England, fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, mystery & detective, police procedural",
+    "Mystery",
+    "Police",
+    "Roderick Alleyn (Fictitious character)",
+    "Roman policier"
+  ],
+  "ol_work_key": "/works/OL460795W"
 }

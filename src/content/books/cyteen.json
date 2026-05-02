@@ -1,7 +1,7 @@
 {
   "title": "Cyteen",
   "author": "C.J. Cherryh",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "cyteen",
   "tags": [],
@@ -30,5 +30,31 @@
     "Women",
     "Cultural Literacy and Humanities"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.H358 C98 1988",
+    "PS-3553.00000000.H358 C98 1995",
+    "PS-3553.00000000.H358C98 1988"
+  ],
+  "subject_facet": [
+    "Ariane Emory (Fictitious character)",
+    "Cloning",
+    "Cultural Literacy and Humanities",
+    "Cyteen (Imaginary place)",
+    "Cyteen (imaginary place), fiction",
+    "Emory, Ariane (Fictitious character)",
+    "Emory, ariane (fictitious character), fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Reading Level-Adult",
+    "Women",
+    "award:hugo_award=1989",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL60589W"
 }

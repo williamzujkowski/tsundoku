@@ -1,7 +1,7 @@
 {
   "title": "Poèmes saturniens",
   "author": "Paul Verlaine",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "po-mes-saturniens",
   "tags": [
@@ -27,5 +27,24 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/15112",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/15112.html.images",
   "librivox_url": "https://librivox.org/poemes-saturniens-by-paul-verlaine/",
-  "description": "Poèmes saturniens is the first collection of poetry by Paul Verlaine, first published in 1866."
+  "description": "Poèmes saturniens is the first collection of poetry by Paul Verlaine, first published in 1866.",
+  "isbn": "9782745317360",
+  "ddc": [
+    "841.8"
+  ],
+  "lcc": [
+    "PQ-2463.00000000.P57 1961",
+    "PQ-2463.00000000.P57 2008",
+    "PQ-2463.00000000.P57 1942",
+    "PQ-2463.00000000 P57 1977",
+    "PQ-2463.00000000.P57 1977"
+  ],
+  "subject_facet": [
+    "French Poets",
+    "French poetry",
+    "History and criticism",
+    "Poetry",
+    "Study and teaching"
+  ],
+  "ol_work_key": "/works/OL1276173W"
 }

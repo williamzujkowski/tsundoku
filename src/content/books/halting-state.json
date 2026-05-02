@@ -1,7 +1,7 @@
 {
   "title": "Halting State",
   "author": "Charles Stross",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "halting-state",
   "tags": [],
@@ -9,5 +9,28 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Halting State is a novel by Charles Stross, published in the United States on 2 October 2007 and in the United Kingdom in January 2008. Stross has said that it is \"a thriller set in the software houses that write multiplayer games\". The plot centres on a bank robbery in a virtual world. It features speculative technologies, including Specs and virtual server networks over mobile phones. The book is on its second printing in the United States.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Halting_State%281stEd%29.jpg/250px-Halting_State%281stEd%29.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Halting_State%281stEd%29.jpg/250px-Halting_State%281stEd%29.jpg",
+  "isbn": "9781429547208",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6119.00000000.T79 H36 2007",
+    "PR-6119.00000000.T79",
+    "PR-6119.00000000.T79H36 2007"
+  ],
+  "subject_facet": [
+    "Bank robberies",
+    "Computer games",
+    "Crime, fiction",
+    "Edinburgh (scotland), fiction",
+    "Fiction",
+    "Fiction, mystery & detective, police procedural",
+    "Fiction, science fiction, general",
+    "Fiction, thrillers, general",
+    "Internet, fiction",
+    "Science Fiction",
+    "Virtual reality"
+  ],
+  "ol_work_key": "/works/OL2465684W"
 }

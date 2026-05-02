@@ -1,7 +1,7 @@
 {
   "title": "Critical Mass",
   "author": "Philip Ball",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 2,
   "slug": "critical-mass",
   "tags": [
@@ -31,5 +31,18 @@
     "Courtship",
     "English language"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "Q--0175.00000000.B35 2005",
+    "HM-0585.00000000.B35 2005"
+  ],
+  "subject_facet": [
+    "Human behavior",
+    "Natural law",
+    "Philosophy",
+    "Physics, popular works",
+    "Science",
+    "Sociology"
+  ],
+  "ol_work_key": "/works/OL7918264W"
 }

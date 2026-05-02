@@ -1,7 +1,7 @@
 {
   "title": "Memorabilia",
   "author": "Xenophon",
-  "category": "Classics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "memorabilia",
   "tags": [
@@ -27,5 +27,49 @@
   "gutenberg_id": 1177,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1177",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1177.html.images",
-  "description": "I have often wondered by what arguments those who indicted[1] Socrates could have persuaded the Athenians that his life was justly forfeit to the state."
+  "description": "I have often wondered by what arguments those who indicted[1] Socrates could have persuaded the Athenians that his life was justly forfeit to the state.",
+  "isbn": "9781427799548",
+  "ddc": [
+    "888.01",
+    "888.3",
+    "183.2"
+  ],
+  "lcc": [
+    "PA-4494.00000000.M4 1880",
+    "PA-4494.00000000.M3 1985",
+    "PA-4494.00000000.M4 2011",
+    "PA-4464.00000000.M3 1865",
+    "PA-4494.00000000.M3 1979",
+    "PA-4494.00000000 M3 1946",
+    "PA-4494.00000000.M3 1923",
+    "B--0316.00000000.X2 B66 1994",
+    "PA-4494.00000000 M3 1903",
+    "B--0316.00000000.X2 2009",
+    "PA-4496.00000000.T87 M4 1994",
+    "PA-4494.00000000.M4 1848",
+    "PA-4494.00000000 M3 1879",
+    "PA-4496.00000000.H4 M4",
+    "PA-4494.00000000.M4 1998",
+    "PA-3411.00000000.C7 X47 1903",
+    "B--0316.00000000.X2 K82 1987",
+    "PA-3404.00000000",
+    "PA-4495.00000000.A15 1970z",
+    "B--0316.00000000.X2B66 1994",
+    "PA-4494.00000000 M3 1857",
+    "B--0316.00000000.X45",
+    "PA-4494.00000000.M42011",
+    "PA-4494.00000000",
+    "BX-0316.00000000.X2 B66 1994",
+    "PA-3404.00000000.X49 1969"
+  ],
+  "subject_facet": [
+    "Ancient Philosophers",
+    "Biography",
+    "Early works to 1800",
+    "Philosophers, biography",
+    "Philosophy, ancient",
+    "Socrates",
+    "Trials, litigation"
+  ],
+  "ol_work_key": "/works/OL687223W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Jade City",
   "author": "Fonda Lee",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "jade-city",
   "tags": [
@@ -26,5 +26,22 @@
     "Fiction, fantasy, epic",
     "Fiction, action & adventure"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3612.00000000.E34285 J36 2017",
+    "PS-3612.00000000.E34285J36",
+    "PS-3612.00000000.E34285"
+  ],
+  "subject_facet": [
+    "Families",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic",
+    "Magic",
+    "Vendetta"
+  ],
+  "ol_work_key": "/works/OL19720196W"
 }

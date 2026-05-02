@@ -1,7 +1,7 @@
 {
   "title": "Klara and the Sun",
   "author": "Kazuo Ishiguro",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "klara-and-the-sun",
   "tags": [
@@ -31,5 +31,36 @@
     "Artificial intelligence",
     "Robots"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PR-6059.00000000.S5 K57163 2021",
+    "PR-6059.00000000.S5",
+    "PR-6059.00000000.S5K57 2021",
+    "PR-6059.00000000.S5 K57 2021"
+  ],
+  "subject_facet": [
+    "Amitié",
+    "Artificial intelligence",
+    "British and irish fiction (fictional works by one author)",
+    "Electronic books",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "FICTION / Visionary & Metaphysical",
+    "Fiction",
+    "Fiction, dystopian",
+    "Fiction, science fiction, general",
+    "Friendship",
+    "Intelligence artificielle",
+    "Literary",
+    "Love",
+    "New York Times bestseller",
+    "Paid companions (Household employees)",
+    "Robots",
+    "Romance fiction",
+    "Romans, nouvelles",
+    "The Future",
+    "nyt:combined-print-and-e-book-fiction=2021-03-21",
+    "speculative fiction"
+  ],
+  "ol_work_key": "/works/OL20883297W"
 }

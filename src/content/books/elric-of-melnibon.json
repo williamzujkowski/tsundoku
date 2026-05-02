@@ -1,7 +1,7 @@
 {
   "title": "Elric of Melniboné",
   "author": "Michael Moorcock",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "elric-of-melnibon",
   "tags": [
@@ -26,5 +26,25 @@
     "Fiction, fantasy, epic",
     "Melnibone (imaginary place), fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6063.00000000.O59",
+    "PR-6063.00000000.O59 El",
+    "PR-6063.00000000.O538 E57 1983",
+    "PZ-0004.00000000.M8185 El",
+    "PR-6063.00000000.O59 E43 1992"
+  ],
+  "subject_facet": [
+    "Elric of Melniboné (Fictitious character)",
+    "Elric of melnibone (fictitious character), fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Melnibone (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL2697666W"
 }

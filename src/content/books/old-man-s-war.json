@@ -1,7 +1,7 @@
 {
   "title": "Old Man's War",
   "author": "John Scalzi",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "old-man-s-war",
   "tags": [
@@ -11,5 +11,32 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Old Man's War is a military science fiction novel by American writer John Scalzi, published in 2005. His debut novel was nominated for the Hugo Award for Best Novel in 2006.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e4/OldMansWar%281stEd%29.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e4/OldMansWar%281stEd%29.jpg",
+  "isbn": "9780765315243",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3619.00000000.C256O43 2005",
+    "PS-3619.00000000.C25",
+    "PS-3619.00000000.C256 O43 2005"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, war & military",
+    "Life on other planets",
+    "Life on other planets in fiction",
+    "Long Now Manual for Civilization",
+    "Older men",
+    "Older men in fiction",
+    "Science Fiction",
+    "Soldiers",
+    "Soldiers in fiction",
+    "Space colonies",
+    "Space colonies in fiction",
+    "Space warfare",
+    "Space warfare in fiction"
+  ],
+  "ol_work_key": "/works/OL5734647W"
 }

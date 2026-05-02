@@ -1,7 +1,7 @@
 {
   "title": "Oedipus at Colonus",
   "author": "Sophocles",
-  "category": "Drama",
+  "category": "Classics",
   "priority": 1,
   "slug": "oedipus-at-colonus",
   "tags": [],
@@ -25,5 +25,34 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 31,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/31",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/31.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/31.html.images",
+  "ddc": [
+    "882.2"
+  ],
+  "lcc": [
+    "PA-4414.00000000.A2 R6 1996",
+    "PA-4414.00000000.A2 R6",
+    "PA-4414.00000000.A2 B34 2004",
+    "PA-4414.00000000.A2B34 2004"
+  ],
+  "subject_facet": [
+    "Ancient & classical",
+    "Antigone",
+    "Antigone (Greek mythology)",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "English drama--translations from greek",
+    "Greek drama",
+    "Greek drama--translations into english",
+    "Literary criticism",
+    "Oedipus",
+    "Oedipus (Greek mythology)",
+    "Oedipus (greek mythology)--drama",
+    "Oedipus the King",
+    "Pa4414.a2 r6 1991",
+    "Sophocles",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL43842W"
 }

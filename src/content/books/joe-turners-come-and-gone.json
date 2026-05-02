@@ -1,7 +1,7 @@
 {
   "title": "Joe Turner's Come and Gone",
   "author": "August Wilson",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "joe-turners-come-and-gone",
   "tags": [
@@ -29,5 +29,56 @@
     "African American neighborhoods",
     "Nineteen sixties"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45677 G46 2007",
+    "PS-3573.00000000.I45677 F4 2007",
+    "PS-3573.00000000.I45677J58",
+    "PS-3573.00000000.I45677R33",
+    "PS-3573.00000000.I385 J64 1990",
+    "PS-3573.00000000.I45677 P54 2007",
+    "PS-3573.00000000.I45677 J64 2008",
+    "PS-3573.00000000.I45677 R33 2007",
+    "PS-3573.00000000.I45677 F4 2008",
+    "PS-3573.00000000.I45677J64",
+    "PS-3573.00000000.I45677 R33 2008",
+    "PS-3573.00000000.I45677 J58 2007",
+    "PS-3573.00000000.I45677 T96 2007",
+    "PS-3573.00000000.I45677 J64 2010",
+    "PS-3573.00000000.I45677 M3 2007",
+    "PS-3573.00000000.I45677 J64 1988",
+    "PS-3573.00000000.I45677 J58 2008",
+    "PS-3573.00000000.I45677 A6 2007",
+    "PS-3573.00000000.I45677 S48 2007",
+    "PS-3573.00000000.I45677 J64 2007"
+  ],
+  "subject_facet": [
+    "African American families",
+    "African American neighborhoods",
+    "African Americans",
+    "American drama (dramatic works by one author)",
+    "Blues musicians",
+    "Boardinghouses",
+    "Brothers and sisters",
+    "Drama",
+    "Fathers and sons",
+    "Heirlooms",
+    "Land tenure",
+    "Musicians",
+    "Nineteen fifties",
+    "Nineteen nineties",
+    "Nineteen seventies",
+    "Nineteen sixties",
+    "Nineteen tens",
+    "Nineteen thirties",
+    "Nineteen twenties",
+    "Real estate development",
+    "Sharecroppers",
+    "Siblings",
+    "Taxicab drivers"
+  ],
+  "ol_work_key": "/works/OL2983757W"
 }

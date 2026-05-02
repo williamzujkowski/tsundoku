@@ -1,7 +1,7 @@
 {
   "title": "Écrits",
   "author": "Jacques Lacan",
-  "category": "Literature",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "crits",
   "tags": [
@@ -13,11 +13,42 @@
   "cover_url_large": "",
   "open_library_url": "",
   "google_books_url": "",
-  "isbn": "",
+  "isbn": "9781003059486",
   "pages": 0,
   "first_published": 1966,
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "150.195"
+  ],
+  "lcc": [
+    "BF-0173.00000000.L14213 2002",
+    "BF-0173.00000000",
+    "BF-0173.00000000 L1423",
+    "BF-0173.00000000.L14213 1977",
+    "BF-0173.00000000.L3313 2020",
+    "BF-0173.00000000.L14213 2001",
+    "BF-0173.00000000.L1423",
+    "BF-0173.00000000.L142 2007",
+    "BF-0173.00000000.L14",
+    "BF-0173.00000000.L14213 1977b"
+  ],
+  "subject_facet": [
+    "150.19/5",
+    "2006 c-116",
+    "Addresses, essays, lectures",
+    "Bf173 .l14213 1977",
+    "Bf173 .l14213 2006",
+    "Essays",
+    "Miscel·lànies",
+    "PSYCHOLOGY / General",
+    "Psicoanàlisi",
+    "Psychanalyse",
+    "Psychoanalysis",
+    "Wm 460 l115e 1977",
+    "Wm 460 l129e 2002a"
+  ],
+  "ol_work_key": "/works/OL2127250W"
 }

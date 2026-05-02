@@ -1,7 +1,7 @@
 {
   "title": "Distraction",
   "author": "Bruce Sterling",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "distraction",
   "tags": [],
@@ -21,5 +21,18 @@
     "Fiction",
     "Long Now Manual for Civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3876 D57 1998"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Long Now Manual for Civilization",
+    "Political corruption",
+    "Political corruption in fiction"
+  ],
+  "ol_work_key": "/works/OL1888051W"
 }

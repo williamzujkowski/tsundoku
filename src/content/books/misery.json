@@ -1,7 +1,7 @@
 {
   "title": "Misery",
   "author": "Stephen King",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "misery",
   "tags": [
@@ -29,5 +29,53 @@
     "Suspense fiction",
     "Writers"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "810"
+  ],
+  "lcc": [
+    "PQ-4864.00000000.E236 T43 2002",
+    "PS-3561.00000000.I483 M518 2003",
+    "PS-3561.00000000.I483 M5 1988",
+    "PS-3561.00000000.I483M53 2016",
+    "PS-3561.00000000.I483",
+    "PS-3561.00000000.I483 M47 2016"
+  ],
+  "subject_facet": [
+    "American Horror stories",
+    "American Novelists",
+    "American fiction",
+    "American literature",
+    "Authors, fiction",
+    "Captives",
+    "Fans (Persons)",
+    "Fiction",
+    "Fiction - Horror",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Fiction, thrillers, suspense",
+    "Horror & ghost stories",
+    "Horror - General",
+    "Horror tales",
+    "Literary",
+    "Novelists",
+    "Nurses",
+    "Pepsi",
+    "Prisoners",
+    "Suspense fiction",
+    "Thrillers",
+    "Writers",
+    "Zhang pian xiao shuo",
+    "abuse",
+    "dope",
+    "fear",
+    "horror",
+    "isolation",
+    "pills",
+    "prisoner",
+    "suspense",
+    "thriller"
+  ],
+  "ol_work_key": "/works/OL81634W"
 }

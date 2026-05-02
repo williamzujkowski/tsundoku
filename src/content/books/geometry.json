@@ -1,7 +1,7 @@
 {
   "title": "Geometry",
   "author": "René Descartes",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "geometry",
   "tags": [
@@ -28,5 +28,17 @@
     "Geometry",
     "First philosophy"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9781602066922",
+  "subject_facet": [
+    "Analytic Geometry",
+    "Early works to 1800",
+    "Geometrie",
+    "Geometry",
+    "Geometry, analytic",
+    "Geometry, early works to 1800",
+    "Geometry--early works to 1800",
+    "great_books_of_the_western_world"
+  ],
+  "ol_work_key": "/works/OL7982290W"
 }

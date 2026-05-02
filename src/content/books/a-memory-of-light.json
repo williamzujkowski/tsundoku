@@ -1,7 +1,7 @@
 {
   "title": "A Memory of Light",
   "author": "Robert Jordan & Brandon Sanderson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "a-memory-of-light",
   "tags": [],
@@ -9,5 +9,34 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "A Memory of Light is the 14th and final book of the fantasy series The Wheel of Time, written by American authors Robert Jordan and Brandon Sanderson, and published by Tor Books. Originally expected to have been published around March 2012, the book was delayed several times, and the hardcover edition was eventually released on January 8, 2013. The book reached No. 1 on several bestsellers lists.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/WoT14_AMemoryOfLight.jpg/250px-WoT14_AMemoryOfLight.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/WoT14_AMemoryOfLight.jpg/250px-WoT14_AMemoryOfLight.jpg",
+  "isbn": "9780765325952",
+  "lcc": [
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617 M46 2013",
+    "PS-3560.00000000.O7617M46 2013",
+    "PS-3619.00000000.A533"
+  ],
+  "subject_facet": [
+    "A Memory of Light",
+    "Epic Fantasy",
+    "Fantasie",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Good and evil",
+    "Imaginary wars and battles",
+    "Magic",
+    "Memory of Light",
+    "New York Times bestseller",
+    "Prophecies",
+    "Rand al'Thor (Fictional character)",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction",
+    "Wheel of Time",
+    "nyt:combined-print-and-e-book-fiction=2013-01-27",
+    "nyt:e-book-fiction=2013-04-28"
+  ],
+  "ol_work_key": "/works/OL16799133W"
 }

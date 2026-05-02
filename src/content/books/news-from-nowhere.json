@@ -1,7 +1,7 @@
 {
   "title": "News from Nowhere",
   "author": "William Morris",
-  "category": "Literature",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "news-from-nowhere",
   "tags": [
@@ -24,5 +24,51 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 3261,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3261",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3261.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3261.html.images",
+  "ddc": [
+    "321.07"
+  ],
+  "lcc": [
+    "HX-0811.00000000 1891 .M783",
+    "HX-0811.00000000 1891 M78 1897",
+    "HX-0811.19270000.M6",
+    "HX-0811.18900000.M62",
+    "HX-0811.00000000.M67 2004",
+    "HX-0811.00000000 1891 .M7 1898",
+    "HX-0811.00000000 1893 .M6 (Rare Bk. Coll.)",
+    "HX-0811.00000000 1890 .M62",
+    "HX-0811.00000000.M67 1891",
+    "HX-0811.00000000.M67",
+    "HX-0811.00000000.M67 1995",
+    "HX-0811.00000000.M67 2000",
+    "HX-0811.00000000 1910 M6",
+    "HX-0811.00000000.M67 1896",
+    "HX-0811.00000000 1891 M78 1933",
+    "HX-0811.00000000.M67 1970",
+    "HX-0811.18910000.M7",
+    "HX-0811.00000000 1891 .M7",
+    "HX-0811.00000000 1927 .M6",
+    "HX-0811.18910000.M78",
+    "HX-0811.00000000 1891 M78 1941",
+    "HX-0811.00000000 1893 .M6",
+    "HX-0811.00000000.M67 2003",
+    "HX-0811.00000000 1951 M6"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "English literature, history and criticism",
+    "Fantasy",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, sagas",
+    "Fiction, short stories (single author)",
+    "Great britain, social conditions",
+    "Science fiction",
+    "Socialism",
+    "Utopian literature",
+    "Utopias",
+    "Utopie",
+    "Utopies"
+  ],
+  "ol_work_key": "/works/OL47721W"
 }

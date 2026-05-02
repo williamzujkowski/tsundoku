@@ -1,7 +1,7 @@
 {
   "title": "Crow",
   "author": "Ted Hughes",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "crow",
   "tags": [
@@ -23,5 +23,19 @@
   "oclc_id": "149381",
   "worldcat_url": "https://www.worldcat.org/oclc/149381",
   "lccn": "70125352",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780060119898",
+  "ddc": [
+    "821.914"
+  ],
+  "lcc": [
+    "PR-6058.00000000.U37 C67 1971",
+    "PR-6058.00000000.U37.C67 1971"
+  ],
+  "subject_facet": [
+    "Crows",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL18526365W"
 }

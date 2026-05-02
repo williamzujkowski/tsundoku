@@ -1,7 +1,7 @@
 {
   "title": "Mathematics and Plausible Reasoning",
   "author": "George Pólya",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "mathematics-and-plausible-reasoning",
   "tags": [
@@ -30,5 +30,33 @@
     "Philosophie",
     "Reasoning"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "511.3",
+    "510.1",
+    "510",
+    "511.2",
+    "164"
+  ],
+  "lcc": [
+    "QA-0009.00000000.P57 1968",
+    "QA-0009.00000000.P57",
+    "QA-0009.00000000.P57 1954a",
+    "QA-0009.00000000.P57 1968 V.2",
+    "QA-0009.00000000.P64 1954"
+  ],
+  "subject_facet": [
+    "Logic, Symbolic and mathematical",
+    "Logique symbolique et mathématique",
+    "Mathematics",
+    "Mathematics -- Philosophy",
+    "Mathematics textbooks",
+    "Mathématiques",
+    "Philosophie",
+    "Philosophy",
+    "Reasoning",
+    "Symbolic and mathematical Logic",
+    "Textbooks"
+  ],
+  "ol_work_key": "/works/OL1213680W"
 }

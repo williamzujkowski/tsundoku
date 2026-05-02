@@ -1,7 +1,7 @@
 {
   "title": "Diplomacy",
   "author": "Henry Kissinger",
-  "category": "Security",
+  "category": "History",
   "priority": 1,
   "slug": "diplomacy",
   "tags": [],
@@ -28,5 +28,14 @@
     "Foreign relations",
     "United states, foreign relations administration"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "E--0744.00000000",
+    "JX-1662.00000000.K57"
+  ],
+  "subject_facet": [
+    "Diplomacy",
+    "United states, foreign relations administration"
+  ],
+  "ol_work_key": "/works/OL1967197W"
 }

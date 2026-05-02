@@ -1,7 +1,7 @@
 {
   "title": "A Letter Concerning Toleration",
   "author": "John Locke",
-  "category": "Philosophy",
+  "category": "Religion",
   "priority": 1,
   "slug": "a-letter-concerning-toleration",
   "tags": [
@@ -35,5 +35,20 @@
     "Authority",
     "Nonfiction"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "261.72"
+  ],
+  "lcc": [
+    "BR-1610.00000000.L823 2010"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "History",
+    "Religionsfreiheit",
+    "Religious tolerance",
+    "Religiöse Toleranz",
+    "Toleration"
+  ],
+  "ol_work_key": "/works/OL15288884W"
 }

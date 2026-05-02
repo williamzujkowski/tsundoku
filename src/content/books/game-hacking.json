@@ -1,7 +1,7 @@
 {
   "title": "Game Hacking",
   "author": "Nick Cano",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "game-hacking",
   "tags": [
@@ -20,5 +20,18 @@
     "Computers"
   ],
   "google_books_url": "http://books.google.com/books?id=h4-7DQAAQBAJ&dq=Game+Hacking+Unknown&hl=&source=gbs_api",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.76000000.I58 C36 2016",
+    "QA-0076.76000000.I58C36 2016"
+  ],
+  "subject_facet": [
+    "Computer security",
+    "Hacking",
+    "Intelligent agents (computer software)",
+    "Internet games",
+    "Internet programming",
+    "Programming"
+  ],
+  "ol_work_key": "/works/OL19546684W"
 }

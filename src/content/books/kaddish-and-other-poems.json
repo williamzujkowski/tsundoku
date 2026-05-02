@@ -9,5 +9,28 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Kaddish and Other Poems 1958-1960 (1961) is a book of poems by Allen Ginsberg published by City Lights Bookstore.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/90/KaddishAndOtherPoems.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/90/KaddishAndOtherPoems.jpg",
+  "isbn": "9789992769928",
+  "ddc": [
+    "808.8104 s",
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3513.00000000.I74 .P462 vol. 2, no. 14",
+    "PS-3513.00000000.I74 K3 1978",
+    "PS-3513.00000000.I74 K3",
+    "PS-3513.00000000.I74 K3 2010",
+    "PS-3513.00000000 I74 K3",
+    "PN-6101.00000000.P462 vol. 2, no. 14",
+    "PS-3513.00000000.I74"
+  ],
+  "subject_facet": [
+    "American literature",
+    "American poetry",
+    "Beat generation",
+    "Beats (Persons)",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL102467W"
 }

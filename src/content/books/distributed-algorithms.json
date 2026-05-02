@@ -1,7 +1,7 @@
 {
   "title": "Distributed Algorithms",
   "author": "Nancy A. Lynch",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "distributed-algorithms",
   "tags": [
@@ -28,5 +28,24 @@
     "Professional, career & trade -> computer science -> system administration",
     "Algorithms"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A43 L96 1997",
+    "QA-0076.90000000.A43 L96 1996",
+    "QA-0076.90000000.A43L96 1997",
+    "QA-0076.90000000.D5L96 1996",
+    "QA-0076.90000000.D5"
+  ],
+  "subject_facet": [
+    "Algorithms",
+    "Computer algorithms",
+    "Distributed processing",
+    "Electronic data processing",
+    "General",
+    "Professional, career & trade -> computer science -> database management",
+    "Professional, career & trade -> computer science -> programming languages (jr/sr)",
+    "Professional, career & trade -> computer science -> system administration",
+    "Storage & retrieval"
+  ],
+  "ol_work_key": "/works/OL13538757W"
 }

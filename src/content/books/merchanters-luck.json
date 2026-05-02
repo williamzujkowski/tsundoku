@@ -1,7 +1,7 @@
 {
   "title": "Merchanter's Luck",
   "author": "C.J. Cherryh",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "merchanters-luck",
   "tags": [],
@@ -22,5 +22,21 @@
     "Interplanetary voyages in fiction",
     "Space ships in fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.H358 M47 2002",
+    "PS-3553.00000000.H358 M47 1982"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, general",
+    "Interplanetary voyages",
+    "Interplanetary voyages in fiction",
+    "Space ships",
+    "Space ships in fiction"
+  ],
+  "ol_work_key": "/works/OL60579W"
 }

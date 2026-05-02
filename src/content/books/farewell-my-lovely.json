@@ -1,7 +1,7 @@
 {
   "title": "Farewell, My Lovely",
   "author": "Raymond Chandler",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "farewell-my-lovely",
   "tags": [
@@ -29,5 +29,37 @@
     "Los angeles (calif.), fiction",
     "Marlowe, philip (fictitious character), fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.52",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3505.00000000.H3224F3 1988",
+    "PS-3505.00000000.H3224 Far8",
+    "PS-3505.00000000.H3224 F3 1992",
+    "PZ-0003.00000000.C3639 Far8",
+    "PS-3505.00000000.H3224F3 1994",
+    "PS-3505.00000000.H3224 F37 2002eb",
+    "PS-3505.00000000.H3224 F3 1988",
+    "PS-3505.00000000.H3224",
+    "PS-3505.00000000.H3224 F3 1994",
+    "PZ-0003.00000000.C3639 Far",
+    "PS-3505.00000000.H3224F3 1992"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, hard-boiled",
+    "General",
+    "Hard-Boiled",
+    "Large type books",
+    "Los angeles (calif.), fiction",
+    "Marlowe, philip (fictitious character), fiction",
+    "Mystery",
+    "Philip Marlowe (Fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL3295514W"
 }

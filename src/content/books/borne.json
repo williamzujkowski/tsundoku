@@ -1,7 +1,7 @@
 {
   "title": "Borne",
   "author": "Jeff VanderMeer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "borne",
   "tags": [
@@ -33,5 +33,52 @@
     "Literary",
     "General"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3572.00000000.A4284B67 2018",
+    "PS-3572.00000000.A4284 B67 2017",
+    "PS-3572.00000000.A4284B67 2017",
+    "PS-3572.00000000.A4284",
+    "PS-3572.00000000.A4284 B67 2017ab"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "Biotechnology",
+    "Biotechnology--environmental aspects",
+    "Biotechnology--environmental aspects--fiction",
+    "Drug dealers",
+    "Drug dealers--fiction",
+    "Dystopias",
+    "Environmental aspects",
+    "Environmental aspects of Biotechnology",
+    "FICTION / Fantasy / General",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "Fear",
+    "Fic019000 fic009000",
+    "Fiction",
+    "Fiction / fantasy / general",
+    "Fiction / literary",
+    "Fiction, science fiction, general",
+    "Fiction--fantasy--general",
+    "Fiction--literary",
+    "General",
+    "Genetic engineering",
+    "Interpersonal relations",
+    "Interpersonal relations--fiction",
+    "Literary",
+    "New York Times reviewed",
+    "Ps3572.a4284 b67 2017",
+    "Ragpickers",
+    "Refuse collectors",
+    "Refuse collectors--fiction",
+    "Romans, nouvelles",
+    "Trafiquants de drogues",
+    "fantasy",
+    "science fiction"
+  ],
+  "ol_work_key": "/works/OL17762236W"
 }

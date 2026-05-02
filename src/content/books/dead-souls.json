@@ -19,5 +19,15 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1081",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1081.html.images",
   "librivox_url": "https://librivox.org/dead-souls-by-gogol-trans-hogarth/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PG-3332.00000000",
+    "PG-3333.00000000.M4 1996eb"
+  ],
+  "subject_facet": [
+    "Fiction, historical, general",
+    "Russia (federation), fiction",
+    "Slavic philology"
+  ],
+  "ol_work_key": "/works/OL17396611W"
 }

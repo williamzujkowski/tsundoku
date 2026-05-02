@@ -1,7 +1,7 @@
 {
   "title": "Dune",
   "author": "Frank Herbert",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "dune",
   "tags": [
@@ -30,5 +30,46 @@
     "nyt:mass-market-monthly=2021-11-07",
     "New York Times bestseller"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.E63 D8 1984",
+    "PS-3558.00000000.E63 D8 1965",
+    "PS-3558.00000000.E63 Dt",
+    "PZ-0004.00000000.H5356 Dt",
+    "PS-3558.00000000.E63",
+    "PS-3558.00000000.E63D8 1984",
+    "PZ-0004.00000000.H538 Du",
+    "PS-3558.00000000.E63D8 2005",
+    "PS-3558.00000000.E63 D8 2016",
+    "PS-3558.00000000.E63D8 2016",
+    "PS-3558.00000000.E63 D8 1977",
+    "PS-3558.00000000.E63 D8 1999",
+    "PS-3558.00000000.E63 D8 2005"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Dune (Imaginary place)",
+    "Dune (imaginary place), fiction",
+    "Ecology",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Long Now Manual for Civilization",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Science fiction",
+    "Science-fiction",
+    "award:hugo_award=1966",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel",
+    "nyt:mass-market-monthly=2021-11-07",
+    "nyt:trade-fiction-paperback=2021-11-07"
+  ],
+  "ol_work_key": "/works/OL893415W"
 }

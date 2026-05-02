@@ -1,7 +1,7 @@
 {
   "title": "Image-Music-Text",
   "author": "Roland Barthes",
-  "category": "Literary Criticism",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "image-music-text",
   "tags": [
@@ -26,5 +26,25 @@
     "Collections"
   ],
   "copyright_status": "in_copyright",
-  "description": "Leaving aside the problems involved in any translation, special difficulties arise when (as here) there is (as yet?) no real overlap in theoretical context between the two languages in question."
+  "description": "Leaving aside the problems involved in any translation, special difficulties arise when (as here) there is (as yet?) no real overlap in theoretical context between the two languages in question.",
+  "ddc": [
+    "001.5",
+    "809"
+  ],
+  "lcc": [
+    "PN-0037.00000000.B29 1977b",
+    "PN-0037.00000000.B29 1977",
+    "PN-0037.00000000.B29",
+    "P--0099.00000000"
+  ],
+  "subject_facet": [
+    "Arts, philosophy",
+    "Collections",
+    "Literature",
+    "P99",
+    "Performing arts",
+    "Pn37 .b29 1977b",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL1375081W"
 }

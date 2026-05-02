@@ -1,7 +1,7 @@
 {
   "title": "Network Security Bible",
   "author": "Eric Cole",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "network-security-bible",
   "tags": [
@@ -25,5 +25,19 @@
     "Security measures",
     "Computer networks, security measures"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25C5985 2005",
+    "QA-0076.90000000.A25 C5985 2009",
+    "TK-5105.59000000"
+  ],
+  "subject_facet": [
+    "Computer Technology",
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computer security",
+    "Nonfiction",
+    "Security measures"
+  ],
+  "ol_work_key": "/works/OL15177311W"
 }

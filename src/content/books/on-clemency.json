@@ -1,7 +1,7 @@
 {
   "title": "On Clemency",
   "author": "Seneca",
-  "category": "Philosophy",
+  "category": "Classics",
   "priority": 1,
   "slug": "on-clemency",
   "tags": [],
@@ -17,5 +17,9 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 64576,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/64576",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/64576.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/64576.html.images",
+  "lcc": [
+    "PA-6661.00000000.D8x 1889"
+  ],
+  "ol_work_key": "/works/OL16876962W"
 }

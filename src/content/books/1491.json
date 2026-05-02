@@ -1,7 +1,7 @@
 {
   "title": "1491",
   "author": "Charles C. Mann",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "1491",
   "tags": [],
@@ -32,5 +32,48 @@
     "Long Now Manual for Civilization",
     "Civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "970.011",
+    "970.00497"
+  ],
+  "lcc": [
+    "E--0061.00000000.M26618 2013",
+    "E--0061.00000000.M266 2005",
+    "E--0061.00000000.M266 2006"
+  ],
+  "subject_facet": [
+    "America, antiquities",
+    "Antiguedades",
+    "Antigüedades",
+    "Antiquities",
+    "Antiquités",
+    "Civilization",
+    "Histoire",
+    "Historia",
+    "History",
+    "Indians",
+    "Indians of South America",
+    "Indians, antiquities",
+    "Indians, history",
+    "Indians, origin",
+    "Indiens d'Amérique",
+    "Indios",
+    "Indios de América",
+    "Indígenas",
+    "Inheemse volken",
+    "Long Now Manual for Civilization",
+    "Native Americans",
+    "Native peoples",
+    "Nature",
+    "New York Times bestseller",
+    "Nonfiction",
+    "Origen",
+    "Origin",
+    "Origines",
+    "Orígenes",
+    "Restos arqueológicos",
+    "nyt:paperback_nonfiction=2011-07-23"
+  ],
+  "ol_work_key": "/works/OL3494320W"
 }

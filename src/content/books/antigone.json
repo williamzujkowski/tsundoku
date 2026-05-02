@@ -1,7 +1,7 @@
 {
   "title": "Antigone",
   "author": "Sophocles",
-  "category": "Drama",
+  "category": "Classics",
   "priority": 1,
   "slug": "antigone",
   "tags": [
@@ -38,5 +38,59 @@
     "Greek drama (Tragedy)",
     "Criticism and interpretation"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "882.01",
+    "882.2"
+  ],
+  "lcc": [
+    "PA-4414.00000000.A7G53 2003",
+    "PA-4414.00000000.A7 M8 1941a",
+    "PA-4413.00000000.A7 1835",
+    "PA-4415.00000000.F372 A7 1998",
+    "PA-4415.00000000.G5 A7 1912",
+    "PA-4414.00000000.A7 B7",
+    "PA-4413.00000000 A7 1891",
+    "PA-4413.00000000 A7 1966",
+    "PA-4414.00000000.A7 S76 1978",
+    "PA-4414.00000000.A7 R84 1998",
+    "PA-4413.00000000 A7 1961",
+    "PA-4415.00000000.I8 A7",
+    "PA-4414.00000000.A7 M8 1941",
+    "PA-4414.00000000.A7 G53 2003",
+    "PA-4414.00000000.A7 F3",
+    "PA-3411.00000000.H3 S72 1891",
+    "PA-4414.00000000.A7 H35",
+    "PA-4414.00000000.A7 H3",
+    "PA-4413.00000000 A7 1957",
+    "PA-4413.00000000.A7 1885",
+    "PA-4414.00000000.A7 F5",
+    "PA-4414.00000000.A7 D66 1999",
+    "PS-3563.00000000.A5357 A58 2006",
+    "PA-4413.00000000 A7 1958",
+    "PR-6054.00000000.O515G53 1999",
+    "PA-4414.00000000.A7R84 1998",
+    "PA-4414.00000000.A7 M8 1941b",
+    "PA-4413.00000000.A7 1999",
+    "PA-4414.00000000.A7 L3613 1995"
+  ],
+  "subject_facet": [
+    "Antigone (Greek mythology)",
+    "Antigone (Mythologie grecque)",
+    "Antigone (Personnage légendaire)",
+    "Continental european drama (dramatic works by one author)",
+    "Criticism and interpretation",
+    "Drama",
+    "Electra (Greek mythology)",
+    "Fiction",
+    "Greek drama (Tragedy)",
+    "Greek language",
+    "Oedipus (Greek mythology)",
+    "Readers",
+    "Théâtre",
+    "Translations into English",
+    "Translations into German",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL15902218W"
 }

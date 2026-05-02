@@ -1,7 +1,7 @@
 {
   "title": "Culture and Anarchy",
   "author": "Matthew Arnold",
-  "category": "Literary Criticism",
+  "category": "Literature",
   "priority": 1,
   "slug": "culture-and-anarchy",
   "tags": [],
@@ -30,5 +30,51 @@
     "Education, great britain, history",
     "Knowledge"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "828.8",
+    "941.081",
+    "824.8",
+    "306.0941",
+    "824.85"
+  ],
+  "lcc": [
+    "HN-0389.00000000.A72 1971",
+    "HN-0389.00000000 A72 1894",
+    "HN-0389.00000000.A72 1882",
+    "HN-0389.00000000.A72 1898",
+    "HN-0389.00000000.A72 1960",
+    "HN-0389.00000000.A72 2006",
+    "HN-0389.00000000.A72x 1883",
+    "HN-0389.00000000 A72 1960",
+    "HN-0389.00000000.A72 1993b",
+    "HN-0389.00000000.A72 1932",
+    "HN-0389.00000000 A72 1941",
+    "HN-0389.00000000 A72 1903",
+    "HN-0389.20000000.A72 1924",
+    "HN-0380.00000000.A72 1889",
+    "HN-0389.00000000.A72 1883",
+    "HN-0389.00000000.A72 1933",
+    "PR-4021.00000000.S8 v.5",
+    "HN-0389.00000000.A721 2002",
+    "HN-0389.00000000.A72 1901",
+    "HN-0389.00000000.A72 1994",
+    "HN-0389.00000000.A72",
+    "HN-0389.00000000.A72 1925",
+    "HN-0389.00000000.A72 1938b"
+  ],
+  "subject_facet": [
+    "Conditions sociales",
+    "Culture",
+    "Cultuur",
+    "Great Britain -- Social conditions -- 19th century",
+    "Great britain, social conditions",
+    "Kulturkritik",
+    "Maatschappijkritiek",
+    "Nonfiction",
+    "Philosophy",
+    "Social conditions",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL1336695W"
 }

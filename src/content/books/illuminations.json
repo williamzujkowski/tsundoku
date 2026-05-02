@@ -1,7 +1,7 @@
 {
   "title": "Illuminations",
   "author": "Walter Benjamin",
-  "category": "Philosophy",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "illuminations",
   "tags": [],
@@ -18,5 +18,33 @@
   ],
   "google_books_url": "http://books.google.com/books?id=mV06rdTclagC&dq=Illuminations+Walter+Benjamin&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "809"
+  ],
+  "lcc": [
+    "PN-0037.00000000.B4413 2019",
+    "PT-2603.00000000.E455",
+    "PN-0037.00000000 B4413 1985",
+    "PT-2603.00000000.E455 A6 1961",
+    "PN-0037.00000000.B4413 1986",
+    "PN-0514.00000000",
+    "PN-0514.00000000.B3623",
+    "PN-0514.00000000.B3623 1969",
+    "PT-2603.00000000.E455 A6 1977"
+  ],
+  "subject_facet": [
+    "Addresses, essays, lectures",
+    "Criticism",
+    "German literature",
+    "History and criticism",
+    "Literature",
+    "Literature, history and criticism",
+    "Literature--history and criticism",
+    "PHILOSOPHY",
+    "Philosophy, german",
+    "Pn37 .b4413 1999",
+    "Teoria Literaria"
+  ],
+  "ol_work_key": "/works/OL156213W"
 }

@@ -42,5 +42,28 @@
   "gutenberg_id": 1727,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1727",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1727.html.images",
-  "librivox_url": "https://librivox.org/the-odyssey-by-homer/"
+  "librivox_url": "https://librivox.org/the-odyssey-by-homer/",
+  "ddc": [
+    "883.01"
+  ],
+  "lcc": [
+    "PA-4037.00000000.G735 2001",
+    "PA-4167.00000000.G75 2004",
+    "PA-4167.00000000",
+    "PA-4037.00000000.G735"
+  ],
+  "subject_facet": [
+    "Classical literature, history and criticism",
+    "Criticism and interpretation",
+    "Critique et interprétation",
+    "Epic poetry, Greek",
+    "Greek Epic poetry",
+    "History and criticism",
+    "Homer",
+    "In literature",
+    "Klassieke oudheid",
+    "Literature, study and teaching",
+    "Odysseus (Greek mythology) in literature"
+  ],
+  "ol_work_key": "/works/OL3407753W"
 }

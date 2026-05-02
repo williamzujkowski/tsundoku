@@ -1,7 +1,7 @@
 {
   "title": "Never Let Me Go",
   "author": "Kazuo Ishiguro",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "never-let-me-go",
   "tags": [
@@ -29,5 +29,60 @@
     "Human cloning",
     "Science fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6059.00000000.S5",
+    "PR-6059.00000000.S5N48 2006",
+    "PR-6059.00000000.S5 N48 2006",
+    "PR-6059.00000000.S5 N4 2005",
+    "PR-6017.00000000.S64",
+    "PR-6059.00000000.S5N48 2005",
+    "PR-6059.00000000.S5 N48 2005b",
+    "PR-6059.00000000.S5 .N418 2005",
+    "PR-6059.00000000.S5 N48 2005eb",
+    "PR-6059.00000000.S5 N48 2005",
+    "PR-6059.00000000 S5N44 2006"
+  ],
+  "subject_facet": [
+    "Clonage",
+    "Cloning",
+    "Cloning--fiction",
+    "Donation of organs, tissues",
+    "Donation of organs, tissues, etc",
+    "Donation of organs, tissues, etc--fiction",
+    "Donneurs d'organes",
+    "Dons d'organes, de tissus",
+    "England, fiction",
+    "English literature",
+    "Femmes",
+    "Fic",
+    "Fiction",
+    "Fiction, psychological",
+    "Fiction, science fiction, general",
+    "Friendship",
+    "Human cloning",
+    "Ishiguro, kazuo, 1954-",
+    "Large type books",
+    "Literary",
+    "Literature",
+    "New York Times bestseller",
+    "Novela inglesa",
+    "Organ donors",
+    "Organ donors--fiction",
+    "Powieść angielska",
+    "Pr6059.s5 n48 2006",
+    "Psychological fiction",
+    "Reminiscing",
+    "Romans, nouvelles",
+    "School children",
+    "Science fiction",
+    "Tłumaczenia polskie",
+    "Women",
+    "Women--fiction",
+    "nyt:trade_fiction_paperback=2010-09-05"
+  ],
+  "ol_work_key": "/works/OL59038W"
 }

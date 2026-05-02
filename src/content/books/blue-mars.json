@@ -1,7 +1,7 @@
 {
   "title": "Blue Mars",
   "author": "Kim Stanley Robinson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "blue-mars",
   "tags": [
@@ -31,5 +31,30 @@
     "Mars (Planet) -- Fiction",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O2893 B55 1996",
+    "PS-3568.00000000.O2893 B55 1997x",
+    "PS-3568.00000000.O2893",
+    "PS-3568.00000000.O2893 B584 1996b"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Hugo Award Winner",
+    "Life on other planets",
+    "Life on other planets -- Fiction",
+    "Long Now Manual for Civilization",
+    "Mars (Planet) -- Fiction",
+    "Overpopulation",
+    "Science Fiction",
+    "Science-fiction américaine",
+    "award:hugo_award=1997",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL81649W"
 }

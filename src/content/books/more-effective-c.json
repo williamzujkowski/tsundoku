@@ -1,7 +1,7 @@
 {
   "title": "More Effective C++",
   "author": "Scott Meyers",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "more-effective-c",
   "tags": [
@@ -17,5 +17,18 @@
     "C++ (Computer program language)",
     "C plus plus (computer program language)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780201633719",
+  "ddc": [
+    "005.133"
+  ],
+  "lcc": [
+    "QA-0076.73000000.C153 M495 1996",
+    "QA-0076.73000000.C153M495"
+  ],
+  "subject_facet": [
+    "C plus plus (computer program language)",
+    "C++ (Computer program language)"
+  ],
+  "ol_work_key": "/works/OL2685842W"
 }

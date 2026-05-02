@@ -1,7 +1,7 @@
 {
   "title": "Best Ghost Stories of Algernon Blackwood",
   "author": "Algernon Blackwood",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "best-ghost-stories-of-algernon-blackwood",
   "tags": [
@@ -26,5 +26,19 @@
     "Ghost stories, English",
     "Fiction, science fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6003.00000000.L3.B477 1973",
+    "PZ-0003.00000000.B5683 Be",
+    "PR-6003.00000000.L3 Be"
+  ],
+  "subject_facet": [
+    "English Ghost stories",
+    "Fiction, science fiction, general",
+    "Ghost stories, English"
+  ],
+  "ol_work_key": "/works/OL2700613W"
 }

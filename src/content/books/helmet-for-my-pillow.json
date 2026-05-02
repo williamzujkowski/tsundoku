@@ -9,5 +9,26 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "Helmet for My Pillow is the personal narrative written by World War II United States Marine Corps veteran, author, and military historian Robert Leckie. First published in 1957, the story begins with Leckie's enlisting in the United States Marines shortly after the 1941 attack on Pearl Harbor.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Helmet_for_my_pillow.jpg/250px-Helmet_for_my_pillow.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Helmet_for_my_pillow.jpg/250px-Helmet_for_my_pillow.jpg",
+  "isbn": "9780743479370",
+  "ddc": [
+    "940.548173"
+  ],
+  "lcc": [
+    "D--0811.00000000.L3547",
+    "D--0811.00000000.L3547 2001"
+  ],
+  "subject_facet": [
+    "Campaigns",
+    "History",
+    "Military campaigns",
+    "Naval Military operations",
+    "Naval operations",
+    "Nonfiction",
+    "Personal narratives",
+    "United States",
+    "United States. Marine Corps",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL1930101W"
 }

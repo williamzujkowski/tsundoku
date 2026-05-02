@@ -1,7 +1,7 @@
 {
   "title": "Dhalgren",
   "author": "Samuel R. Delany",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "dhalgren",
   "tags": [
@@ -32,5 +32,29 @@
   ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=ppt.ssfcbz201710000350",
-  "hathitrust_rights": "Limited (search-only)"
+  "hathitrust_rights": "Limited (search-only)",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.E437",
+    "PS-3554.00000000.E437D48 2001",
+    "PS-3554.00000000.E437 Dh 1977",
+    "PS-3554.00000000.E437D48 1996",
+    "PS-3554.00000000.E437 D48 2001",
+    "PZ-2001.00000000.D337 D5 1975",
+    "PZ-0004.00000000.D338 Dh 1977",
+    "PS-3554.00000000.E437 D48 1996"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "City and town life",
+    "City and town life -- Fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "Urban folklore"
+  ],
+  "ol_work_key": "/works/OL56835W"
 }

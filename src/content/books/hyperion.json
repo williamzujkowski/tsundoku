@@ -1,7 +1,7 @@
 {
   "title": "Hyperion",
   "author": "John Keats",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "hyperion",
   "tags": [
@@ -30,5 +30,12 @@
     "Poetry (poetic works by one author)",
     "Keats, john, 1795-1821"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PR-4834.00000000 H8 1899"
+  ],
+  "subject_facet": [
+    "poetry"
+  ],
+  "ol_work_key": "/works/OL1455243W"
 }

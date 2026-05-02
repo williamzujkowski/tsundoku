@@ -1,7 +1,7 @@
 {
   "title": "Antigone",
   "author": "Jean Anouilh",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "antigone-2",
   "tags": [],
@@ -19,5 +19,39 @@
   "subjects": [
     "Manuel"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "isbn": "9780573628191",
+  "ddc": [
+    "848",
+    "842.912",
+    "842.91"
+  ],
+  "lcc": [
+    "PQ-2601.00000000.N67 A72 1947",
+    "PQ-2601.00000000.N67 A7 1977",
+    "PQ-2601.00000000.N67 A7 1954",
+    "PQ-2601.00000000",
+    "PQ-2601.00000000 N67 A7 1945",
+    "PQ-2601.00000000.N67 A",
+    "PQ-2601.00000000.N67 A73",
+    "PQ-2601.00000000.N67 A72",
+    "PQ-2601.00000000 N67 A7 1957",
+    "PQ-2601.00000000.N67 A7 1967",
+    "PQ-2601.00000000.N67 A713 2000",
+    "PQ-2601.00000000.N9 A7 2008",
+    "PQ-2601.00000000.N67 A719 1988",
+    "PQ-2601.00000000.N67 A65 1960"
+  ],
+  "subject_facet": [
+    "Anouilh, Jean, 1910",
+    "Antigone",
+    "Antigone (Greek mythology)",
+    "Continental european drama (dramatic works by one author)",
+    "Critique et interprétation",
+    "Drama",
+    "French drama",
+    "French literature",
+    "Play Collection"
+  ],
+  "ol_work_key": "/works/OL1326949W"
 }

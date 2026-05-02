@@ -1,7 +1,7 @@
 {
   "title": "Political Order in Changing Societies",
   "author": "Samuel P. Huntington",
-  "category": "Governance",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "political-order-in-changing-societies",
   "tags": [
@@ -17,5 +17,16 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nWith his famous book Political Order in Changing Societies, published in 1968, the American political scientist and Harvard professor Samuel P. Huntington is considered to be one of the ”Founding Fathers” of neo-institutionalism, the historical institutionalism. The book is dealing with the role of political institutions in changing political systems.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Political_Order_in_Changing_Societies.jpg/250px-Political_Order_in_Changing_Societies.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Political_Order_in_Changing_Societies.jpg/250px-Political_Order_in_Changing_Societies.jpg",
+  "ddc": [
+    "320"
+  ],
+  "lcc": [
+    "JA-0066.00000000.H795",
+    "JA-0066.00000000.H79512 1981"
+  ],
+  "subject_facet": [
+    "Political science"
+  ],
+  "ol_work_key": "/works/OL3289957W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "An Experiment in Criticism",
   "author": "C.S. Lewis",
-  "category": "Essays",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "an-experiment-in-criticism",
   "tags": [
@@ -35,5 +35,9 @@
     "adventure and adventurers, fiction",
     "adventure stories"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "subject_facet": [
+    "Criticism"
+  ],
+  "ol_work_key": "/works/OL26479380W"
 }

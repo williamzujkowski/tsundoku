@@ -1,7 +1,7 @@
 {
   "title": "Collected Poems",
   "author": "Emily Dickinson",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "collected-poems-2",
   "tags": [
@@ -28,5 +28,19 @@
     "Miniature books"
   ],
   "copyright_status": "in_copyright",
-  "description": "It's all I have to bring to-day"
+  "description": "It's all I have to bring to-day",
+  "isbn": "9781561380459",
+  "ddc": [
+    "811.4"
+  ],
+  "lcc": [
+    "PS-1541.00000000.A6 1991"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Classes 5 and 6.",
+    "Poetry (poetic works by one author)",
+    "Reading List"
+  ],
+  "ol_work_key": "/works/OL15115587W"
 }

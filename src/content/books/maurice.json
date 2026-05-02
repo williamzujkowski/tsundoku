@@ -1,7 +1,7 @@
 {
   "title": "Maurice",
   "author": "E.M. Forster",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "maurice",
   "tags": [
@@ -28,5 +28,40 @@
     "Latin language",
     "Translations into German"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "isbn": "9780848804909",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6011.00000000.O58M3 1971",
+    "PR-6019.00000000.O9",
+    "PR-6011.00000000.O58",
+    "PZ-0003.00000000.F7735 Mau",
+    "PR-6011.00000000.O58 M3 1979",
+    "PZ-0003.00000000.F7735 Mau2",
+    "PR-6011.00000000.O58 M3 1993",
+    "PR-6011.00000000.O58 M3 1971",
+    "PR-6011.00000000.O58 M3 1973",
+    "PR-6011.00000000.O58 M3 1981"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Coming of age",
+    "Criticism and interpretation",
+    "England in fiction",
+    "England, fiction",
+    "English literature",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, gay",
+    "Gay men",
+    "Gay men in fiction",
+    "Gay men, fiction",
+    "Homosexuality",
+    "LGBTQ fiction before Stonewall",
+    "University of Cambridge",
+    "University of Cambridge in fiction"
+  ],
+  "ol_work_key": "/works/OL88877W"
 }
