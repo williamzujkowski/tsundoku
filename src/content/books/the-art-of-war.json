@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/741720-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/741720-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1089254W",
-  "first_published": 1905,
+  "first_published": -500,
   "language": "eng",
   "description": "The Art of War (Dell'arte della guerra), is one of the lesser-read works of Florentine statesman and political philosopher Niccolò Machiavelli. The format of 'The Art of War' was in socratic dialogue. The purpose, declared by Fabrizio (Machiavelli's persona) at the outset, \"To honor and reward virtù, not to have contempt for poverty, to esteem the modes and orders of military discipline, to constrain citizens to love one another, to live without factions, to esteem less the private than the publ...",
   "isbn": "9783730919187",
@@ -37,13 +37,12 @@
   "ol_work_key": "/works/OL1089254W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 10,
-  "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL31813515M"
 }

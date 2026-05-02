@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/4654872-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4654872-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL602616W",
-  "first_published": 1559,
+  "first_published": -700,
   "language": "eng",
   "description": "This new, annotated translation of Hesiod's Works and Days is a collaboration between David W. Tandy, a classicist, and Walter Neale, an economist and economic historian. Hesiod was an ancient Greek poet whose Works and Days discusses agricultural practices and society in general. Classicists and ancient historians have turned to Works and Days for its insights on Greek mythology and religion. The poem also sheds light on economic history and ancient agriculture, and is a good resource for socia...",
   "isbn": "9780520203846",
@@ -65,7 +65,7 @@
   "ol_work_key": "/works/OL602616W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -74,7 +74,6 @@
     "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 23,
-  "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Opera [et] dies",
   "first_edition_isbn": null,

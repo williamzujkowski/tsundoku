@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12474938-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12474938-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26446888W",
-  "first_published": 1946,
+  "first_published": -700,
   "language": "eng",
   "description": "This handy guide to The Odyssey will introduce students to a text, which has been fundamental to literature for nearly 3000 years. Readers will be introduced to the world in that the Odyssey was produced, to the text itself and to its origins in oral poetry. This volume gives a summary of the poem and examines its structure. The unity, values and techniques of the poem are clearly outlined, as are the reasons for its longstanding appeal. This guide delves into the diverse world of the story; tha...",
   "isbn": "0521539781",
@@ -48,7 +48,7 @@
   "ol_work_key": "/works/OL3407753W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },

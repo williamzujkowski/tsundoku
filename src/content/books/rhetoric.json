@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8715387-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8715387-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15710664W",
-  "first_published": 1515,
+  "first_published": -350,
   "language": "eng",
   "description": "Looks at the use of language in persuasive argument, identifying the practical and aesthetic elements of an effective presentation.",
   "isbn": "9780486437934",
@@ -321,7 +321,7 @@
   "ol_work_key": "/works/OL151515W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -330,7 +330,6 @@
     "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 400,
-  "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Contenta.  Continetur hic Aristotelis castigatissime recognitum opus metaphysicum",
   "first_edition_isbn": null,

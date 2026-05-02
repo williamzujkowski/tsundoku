@@ -11,13 +11,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/5296924-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5296924-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL151597W",
-  "first_published": 1935,
+  "first_published": -350,
   "language": "eng",
   "description": "If we have actually sensation of everything of which touch can give us sensation (for all the qualities of the tangible qua tangible are perceived by us through touch); and if absence of a sense necessarily involves absence of a sense-organ; and if all objects that we perceive by immediate contact with them are perceptible by touch, which sense we actually possess, and all objects that we perceive through media, i.e. without immediate contact, are....",
   "pages": 246,
   "google_books_url": "http://books.google.com/books?id=5hsEAQAAIAAJ&dq=On+the+Soul+Aristotle&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain",
+  "copyright_status": "public_domain",
   "isbn": "9780434992881",
   "ddc": [
     "888.5"
@@ -36,7 +36,7 @@
   "ol_work_key": "/works/OL151597W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -44,7 +44,6 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 8,
-  "first_published_circa": false,
   "original_language": "mul",
   "original_title": "On the soul",
   "first_edition_isbn": "0434992887",

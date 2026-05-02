@@ -11,7 +11,7 @@
     "r-philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL40890920W",
-  "first_published": 1850,
+  "first_published": -380,
   "language": "eng",
   "description": "First published in 2000, this translation of one of the great works of Western political thought is based on the assumption that when Plato chose the dialogue form for his writing, he intended these dialogues to sound like conversations - although conversations of a philosophical sort. In addition to a vivid, dignified and accurate rendition of Plato's text, the student and general reader will find many aids to comprehension in this volume: an introduction that assesses the cultural background t...",
   "cover_url": "https://books.google.com/books/content?id=aPwPjVIxbGQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -247,7 +247,7 @@
   "ol_work_key": "/works/OL51831W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -257,7 +257,6 @@
     "series": "wikidata_v1"
   },
   "editions_count": 400,
-  "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Plato's Staat",
   "first_edition_isbn": null,

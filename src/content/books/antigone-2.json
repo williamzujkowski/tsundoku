@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/116843-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/116843-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1326949W",
-  "first_published": 1782,
+  "first_published": -441,
   "language": "eng",
   "description": "The body of Polynices, Antigone's brother, has been ordered to remain unburied by Creon, the new king of Thebes. Antigone defies the law, sealing her fate. Originally produced in Paris during the Nazi occupation, Anouilh's Antigone was seen by the French as theatre of the résistance and by the Germans as an affirmation of authority.",
   "google_books_url": "http://books.google.com/books?id=qcIm0QEACAAJ&dq=Antigone+Jean+Anouilh&hl=&source=gbs_api",
@@ -54,7 +54,7 @@
   "pages": 96,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
@@ -62,7 +62,6 @@
     "original_language": "wikidata_v1"
   },
   "editions_count": 75,
-  "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL28954293M",
   "wikidata_qid": "Q1823045",

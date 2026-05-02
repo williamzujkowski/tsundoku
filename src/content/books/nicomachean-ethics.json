@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12593945-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12593945-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8273964W",
-  "first_published": 1558,
+  "first_published": -350,
   "language": "eng",
   "description": "An excellent new translation and commentary. It will serve newcomers as an informative, accessible introduction to the Nicomachean Ethics and to many issues in Aristotle’s philosophy, but also has much to offer advanced scholars. The commentary is noteworthy for its frequent citations of relevant passages from other works in Aristotle’s corpus, which often shed new light on the texts. Reeve’s translation is meticulous: it hits the virtuous mean--accurate and technical, yet readable--between tran...",
   "isbn": "9781624661198",
@@ -222,7 +222,7 @@
   "ol_work_key": "/works/OL8273964W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -231,7 +231,6 @@
     "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 400,
-  "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Aristotelis De moribus ad nicomachum libri decem",
   "first_edition_isbn": null,

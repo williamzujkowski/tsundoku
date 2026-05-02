@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8238736-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8238736-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL308980W",
-  "first_published": 1823,
+  "first_published": -400,
   "language": "eng",
   "description": "One of India’s greatest epics, the Ramayana pervades the country’s moral and cultural consciousness. For generations it has served as a bedtime story for Indian children, while at the same time engaging the interest of philosophers and theologians. Believed to have been composed by Valmiki sometime between the eighth and sixth centuries BCE, the Ramayana tells the tragic and magical story of Rama, the prince of Ayodhya, an incarnation of Lord Visnu, born to rid the earth of the terrible demon Ra...",
   "isbn": "9781538113691",
@@ -63,7 +63,7 @@
   "ol_work_key": "/works/OL396062W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },
