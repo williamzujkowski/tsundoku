@@ -1,7 +1,7 @@
 {
   "title": "Think Stats",
   "author": "Allen Downey",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "think-stats",
   "tags": [
@@ -31,5 +31,37 @@
     "Programmed instruction",
     "Quantitative research"
   ],
-  "isbn": "9781491907337"
+  "isbn": "9781491907337",
+  "lcc": [
+    "QA-0276.40000000.D69 2014",
+    "QA-0276.40000000.D69 2011",
+    "QA-0276.40000000",
+    "QA-0276.40000000.D69 2015",
+    "QA-0276.45000000"
+  ],
+  "subject_facet": [
+    "Com062000",
+    "Computer programs",
+    "Computer science",
+    "Cs.decis_scs.bus_fcst",
+    "Cs.ecn.forec_econo",
+    "Cs.offc_tch.simul_prjct",
+    "Data modeling & design",
+    "Econometrics",
+    "Forecasting",
+    "General",
+    "MATHEMATICS / Probability & Statistics / General",
+    "Office automation",
+    "Probabilities",
+    "Programmed instruction",
+    "Python",
+    "Quantitative research",
+    "Statistics",
+    "Statistics / Computer programs",
+    "Statistics / Study and teaching",
+    "Statistics, data processing",
+    "Statistics, study and teaching",
+    "Study and teaching"
+  ],
+  "ol_work_key": "/works/OL16223034W"
 }

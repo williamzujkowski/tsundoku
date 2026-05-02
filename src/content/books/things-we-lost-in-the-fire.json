@@ -1,7 +1,7 @@
 {
   "title": "Things We Lost in the Fire",
   "author": "Mariana Enriquez",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "things-we-lost-in-the-fire",
   "tags": [
@@ -30,5 +30,39 @@
     "Argentina, fiction",
     "Fiction, short stories (single author)",
     "FICTION / Literary"
-  ]
+  ],
+  "ddc": [
+    "863.64",
+    "863.7"
+  ],
+  "lcc": [
+    "PQ-7798.15000000.N75 A2 2017",
+    "PQ-7798.15000000.N75C67",
+    "PQ-7798.15000000.N75A2 2017",
+    "PQ-7798.15000000.N75 C67 2016",
+    "PQ-7798.00000000.N75",
+    "PQ-7798.15000000.N75"
+  ],
+  "subject_facet": [
+    "Argentina -- Fiction",
+    "Argentina -- Siglo XXI -- Vida social y costumbres -- Ficcion",
+    "Argentina, fiction",
+    "Argentine Short stories",
+    "Cuentos argentinos",
+    "FICTION / Hispanic & Latino",
+    "FICTION / Literary",
+    "FICTION / Short Stories (single author)",
+    "Ficcion",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, psychological",
+    "Fiction, short stories (single author)",
+    "General",
+    "Horror",
+    "Short Stories",
+    "Short stories, Argentine",
+    "Translations into English",
+    "Vida social y costumbres"
+  ],
+  "ol_work_key": "/works/OL17319533W"
 }

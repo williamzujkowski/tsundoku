@@ -1,7 +1,7 @@
 {
   "title": "The League of the Scarlet Pimpernel",
   "author": "Emmuska Orczy",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-league-of-the-scarlet-pimpernel",
   "tags": [
@@ -31,5 +31,34 @@
     "Blakeney, percy, sir (fictitious character), fiction",
     "France, fiction"
   ],
-  "librivox_url": "https://librivox.org/the-league-of-the-scarlet-pimpernel-by-baroness-orczy/"
+  "librivox_url": "https://librivox.org/the-league-of-the-scarlet-pimpernel-by-baroness-orczy/",
+  "ddc": [
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6029.00000000.R25 Le",
+    "PZ-0003.00000000.O65 Le",
+    "PR-6029.00000000.R25"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Blakeney, Percy, Sir (Fictitious character) -- Fiction",
+    "Blakeney, percy, sir (fictitious character), fiction",
+    "British",
+    "British -- France -- Fiction",
+    "Classic Literature",
+    "English literature",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "France -- History -- Revolution, 1789-1799 -- Fiction",
+    "France, fiction",
+    "France, history, revolution, 1789-1799, fiction",
+    "Historical Fiction",
+    "History",
+    "Sir Blakeney, Percy (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL286350W"
 }

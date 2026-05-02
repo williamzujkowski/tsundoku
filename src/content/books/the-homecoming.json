@@ -1,7 +1,7 @@
 {
   "title": "The Homecoming",
   "author": "Harold Pinter",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-homecoming",
   "tags": [
@@ -27,5 +27,29 @@
     "College teachers",
     "Interpersonal conflict"
   ],
-  "isbn": "9780573015557"
+  "isbn": "9780573015557",
+  "ddc": [
+    "822.91",
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.I532",
+    "PR-6066.00000000.I53 H6 1991b",
+    "PR-6066.00000000.I53 H6 1966",
+    "PR-9387.90000000.S6",
+    "PR-6066.00000000.I53 H6 1968",
+    "PR-6066.00000000 I53 H6 1967",
+    "PR-6066.00000000.I53 H6 1965"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "College teachers",
+    "Drama",
+    "English drama",
+    "Families",
+    "Family life",
+    "Interpersonal conflict",
+    "Married people"
+  ],
+  "ol_work_key": "/works/OL550887W"
 }

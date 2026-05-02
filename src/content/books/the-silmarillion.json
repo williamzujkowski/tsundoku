@@ -1,7 +1,7 @@
 {
   "title": "The Silmarillion",
   "author": "J.R.R. Tolkien",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-silmarillion",
   "tags": [
@@ -20,5 +20,57 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "[Fic]",
+    "823.914",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6039.00000000.O32 Si3",
+    "PR-6039.00000000.O32 S5 1998",
+    "PR-6039.00000000.O32 S5 1983",
+    "PR-6039.00000000.O32; Si3",
+    "PR-6039.00000000.O32 S5 1982",
+    "PR-6039.00000000.O32 Si",
+    "PR-6039.00000000.O32 S5 2001",
+    "PR-6039.00000000.O32",
+    "PR-6039.00000000.O32S537 1998",
+    "PR-6039.00000000.O32 S537 1999",
+    "PR-6039.00000000.O32 S5 2004b",
+    "PR-6039.00000000",
+    "PZ-0003.00000000.T576 Si3",
+    "PR-6039.00000000.O32 S5 1977",
+    "PR-6039.00000000.O32.S5",
+    "PR-6039.00000000.O32 S59 1999",
+    "PR-6039.00000000.O32S537 2001",
+    "PR-6039.00000000.O32 S5 2004",
+    "PZ-0003.00000000.T576 Si",
+    "PR-6039.00000000.O32 S537 1998",
+    "PR-6039.00000000.O32 S51",
+    "PR-6039.00000000.O32 S537 2002",
+    "PR-6039.00000000.O32.S5 2007",
+    "PR-6039.00000000.O32.S5 1999"
+  ],
+  "subject_facet": [
+    "Bilbo Baggins (Fictitious character)",
+    "British and irish fiction (fictional works by one author)",
+    "Elves",
+    "Engelse fiksie",
+    "English Fantasy fiction",
+    "English fiction",
+    "English literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fairy tales, folk tales, legends & mythology",
+    "Fiction, fantasy, action & adventure",
+    "Fiction, fantasy, dragons & mythical creatures",
+    "Fiction, fantasy, epic",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "Short stories",
+    "fantasy",
+    "silmaril"
+  ],
+  "ol_work_key": "/works/OL27495W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Stories of Your Life and Others",
   "author": "Ted Chiang",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "stories-of-your-life-and-others",
   "tags": [
@@ -31,5 +31,57 @@
     "Automation",
     "Human-alien encounters",
     "Adaptability (Psychology)"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3603.00000000.H53S7 2024",
+    "PS-3603.00000000.H53 A6 2016",
+    "PS-3603.00000000.H53 S76 2002b",
+    "PS-3603.00000000.H53 S76 2002",
+    "PS-3603.00000000.H53",
+    "PS-3603.00000000.H53A6 2016b",
+    "PS-3603.00000000.H53S76 2002",
+    "PS-3603.00000000.H53 S76 2010eb",
+    "PS-3553.00000000",
+    "PS-3603.00000000.H53A6 2016",
+    "PS-3603.00000000.H53 S76 2016"
+  ],
+  "subject_facet": [
+    "813/.6",
+    "Adaptability (Psychology)",
+    "Adaptability (psychology)--fiction",
+    "American",
+    "American Science fiction",
+    "American literature",
+    "Automation",
+    "Automation--fiction",
+    "Change (Psychology)",
+    "Change (psychology)--fiction",
+    "Duan pian xiao shuo",
+    "FICTION / Science Fiction / General",
+    "FICTION / Short Stories (single author)",
+    "Fic028000 fic029000",
+    "Fiction",
+    "Fiction, science fiction, collections & anthologies",
+    "Fiction, science fiction, short stories",
+    "Fiction, short stories (single author)",
+    "General",
+    "Human-alien encounters",
+    "Human-alien encounters--fiction",
+    "Life change events",
+    "Life change events--fiction",
+    "New York Times bestseller",
+    "Ps3603.h53 a6 2016",
+    "Ps3603.h53 s76 2002",
+    "Science fiction",
+    "Science fiction, american",
+    "Short Stories (single author)",
+    "Short stories",
+    "Xiao shuo ji",
+    "nyt:trade-fiction-paperback=2016-12-04",
+    "speculative fiction"
+  ],
+  "ol_work_key": "/works/OL6216050W"
 }

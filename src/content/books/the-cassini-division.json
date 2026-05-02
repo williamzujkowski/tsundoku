@@ -1,7 +1,7 @@
 {
   "title": "The Cassini Division",
   "author": "Ken MacLeod",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-cassini-division",
   "tags": [
@@ -29,5 +29,26 @@
     "Virtual reality",
     "Scottish Science fiction",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.A2515",
+    "PR-6063.00000000.A2515C3 1999",
+    "PR-6063.00000000.A2515 C3 1999",
+    "PR-6063.00000000.A2515 C3 1998"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Human-computer interaction",
+    "Life on other planets",
+    "Scottish Science fiction",
+    "Space warfare",
+    "Virtual reality",
+    "Women and the military"
+  ],
+  "ol_work_key": "/works/OL14871187W"
 }

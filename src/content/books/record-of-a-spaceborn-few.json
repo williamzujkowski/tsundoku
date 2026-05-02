@@ -1,7 +1,7 @@
 {
   "title": "Record of a Spaceborn Few",
   "author": "Becky Chambers",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "record-of-a-spaceborn-few",
   "tags": [
@@ -30,5 +30,24 @@
     "Space vehicles",
     "Space Opera",
     "Action & Adventure"
-  ]
+  ],
+  "lcc": [
+    "PS-3603.00000000.H347R43 2018",
+    "PS-3603.00000000.H347",
+    "PS-3603.00000000.H347 R43 2018"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "Alien Contact",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, space opera",
+    "Interplanetary voyages",
+    "Science Fiction",
+    "Space Opera",
+    "Space flight",
+    "Space vehicles"
+  ],
+  "ol_work_key": "/works/OL17933495W"
 }

@@ -15,5 +15,17 @@
   "librivox_url": "https://librivox.org/samson-agonistes-by-john-milton/",
   "description": "Samson Agonistes is a tragic closet drama by John Milton. It appeared with the publication of Milton's  Paradise Regained in 1671, as the title page of that volume states: \"Paradise Regained / A Poem / In IV Books / To Which Is Added / Samson Agonistes\". It is generally thought that Samson Agonistes was begun around the same time as Paradise Regained but was completed after the larger work, possibly very close to the date of publishing, but there is no certainty.",
   "pages": 352,
-  "isbn": "9780415940511"
+  "isbn": "9780415940511",
+  "ddc": [
+    "821.4"
+  ],
+  "lcc": [
+    "PR-3588.00000000.J66 2002",
+    "PR-3588.00000000.J66 2003"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Milton, john, 1608-1674, criticism and interpretation"
+  ],
+  "ol_work_key": "/works/OL18923306W"
 }

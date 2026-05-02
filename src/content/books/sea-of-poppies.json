@@ -1,7 +1,7 @@
 {
   "title": "Sea of Poppies",
   "author": "Amitav Ghosh",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "sea-of-poppies",
   "tags": [],
@@ -27,5 +27,36 @@
     "Social conditions",
     "Social classes",
     "Schooners"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-9499.30000000.G536 S43 2009",
+    "PR-9499.30000000.G536 S43 2008",
+    "PR-9499.30000000.G536",
+    "PR-9499.30000000.G536 S43 2008b",
+    "PR-9499.30000000.G536S43"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "History",
+    "India, fiction",
+    "Literary",
+    "Literature",
+    "New York Times reviewed",
+    "Opium trade",
+    "Sailors",
+    "Schooners",
+    "Slave trade",
+    "Slaves, fiction",
+    "Social classes",
+    "Social conditions",
+    "Social history",
+    "Travelers",
+    "Voyages and travels"
+  ],
+  "ol_work_key": "/works/OL1054101W"
 }

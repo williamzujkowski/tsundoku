@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Czesław Miłosz",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "selected-poems-14",
   "tags": [
@@ -23,5 +23,23 @@
     "Poetry",
     "Polish poetry",
     "Poetry (poetic works by one author)"
-  ]
+  ],
+  "ddc": [
+    "891.8517"
+  ],
+  "lcc": [
+    "PG-0158.00000000.M553 A27 1981",
+    "PG-7158.00000000 M553 A27",
+    "PG-7158.00000000.M553 A27 1980",
+    "PG-7158.00000000.M553 A2 2006",
+    "PG-7158.00000000.M553 A27",
+    "PG-7158.00000000.M553A2 2006b"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Polish poetry",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL136060W"
 }

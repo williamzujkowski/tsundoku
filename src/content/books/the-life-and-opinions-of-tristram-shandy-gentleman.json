@@ -30,5 +30,16 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1079.html.images",
   "description": "The Life and Opinions of Tristram Shandy, Gentleman, also known as Tristram Shandy, is a humorous novel by Laurence Sterne. It was published from 1759 to 1767, in nine volumes across five instalments. The novel purports to be a memoir, but the titular Tristram is an effusive and digressive narrator who begins the story with his conception and doesn't reach a description of his birth until the third volume.",
   "pages": 190,
-  "isbn": "9780312075668"
+  "isbn": "9780312075668",
+  "ddc": [
+    "823.6"
+  ],
+  "lcc": [
+    "PR-3714.00000000.T73L5 1992",
+    "PR-3714.00000000.T73 L5 1992"
+  ],
+  "subject_facet": [
+    "Sterne, laurence, 1713-1768"
+  ],
+  "ol_work_key": "/works/OL5475732W"
 }

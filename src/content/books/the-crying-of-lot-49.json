@@ -1,7 +1,7 @@
 {
   "title": "The Crying of Lot 49",
   "author": "Thomas Pynchon",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-crying-of-lot-49",
   "tags": [
@@ -29,5 +29,52 @@
     "Greek Epic poetry",
     "Odyssea"
   ],
-  "isbn": "9781664456570"
+  "isbn": "9781664456570",
+  "ddc": [
+    "891.7",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.Y55 Cr",
+    "PS-3568.00000000.O243",
+    "PA-4025.00000000.A5 E6 1967",
+    "PS-3566.00000000.Y55 C79 2006",
+    "PZ-0004.00000000.P997 Cr3",
+    "PS-3531.00000000 Y6 C7",
+    "PS-3566.00000000.Y55 C79 1999",
+    "PS-3531.00000000 Y6 C7 1972",
+    "PS-3566.00000000.Y55 C79 1986",
+    "PZ-0004.00000000.P997 Cr",
+    "PS-3566.00000000.Y55C79 1986"
+  ],
+  "subject_facet": [
+    "1960s",
+    "Administration of estates",
+    "Administration successorale",
+    "American fiction (fictional works by one author)",
+    "California, fiction",
+    "E436 .m87",
+    "Femmes mariées",
+    "Fiction",
+    "Fiction in English",
+    "Fictional Works [Publication Type]",
+    "Greek Epic poetry",
+    "Long Now Manual for Civilization",
+    "Married people, fiction",
+    "Married women",
+    "Odyssea",
+    "Odysseus (Greek mythology)",
+    "Open Library Staff Picks",
+    "Poetry",
+    "Politics and government",
+    "Romans, nouvelles",
+    "Translations into English",
+    "Trystero",
+    "United states. congress (36th, 1st session : 1859-1861). house.",
+    "Women",
+    "open_syllabus_project",
+    "posthorn",
+    "psychedelia"
+  ],
+  "ol_work_key": "/works/OL2636665W"
 }

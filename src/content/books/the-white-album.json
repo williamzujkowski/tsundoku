@@ -1,7 +1,7 @@
 {
   "title": "The White Album",
   "author": "Joan Didion",
-  "category": "Essays",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-white-album",
   "tags": [],
@@ -17,5 +17,31 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=Mf0GEQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "814.54",
+    "081"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I33 W4 1990",
+    "PN-6162.00000000",
+    "PS-3554.00000000.I33 W4",
+    "PS-3554.00000000.I33 W4 2009",
+    "PS-3554.00000000.I33"
+  ],
+  "subject_facet": [
+    "814/.5/4",
+    "American essays",
+    "American poetry",
+    "Civilization",
+    "Didion, joan",
+    "Essays (single author)",
+    "Popular culture, united states",
+    "Ps3554.i33 w4",
+    "Ps3554.i33 w4 2009",
+    "Social conditions",
+    "Travel",
+    "Traveldidion, joan"
+  ],
+  "ol_work_key": "/works/OL8262105W"
 }

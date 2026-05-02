@@ -1,7 +1,7 @@
 {
   "title": "The Blue Castle",
   "author": "L. M. Montgomery",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-blue-castle",
   "tags": [
@@ -35,5 +35,30 @@
   "gutenberg_id": 67979,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/67979",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/67979.html.images",
-  "librivox_url": "https://librivox.org/the-blue-castle-by-lucy-maud-montgomery/"
+  "librivox_url": "https://librivox.org/the-blue-castle-by-lucy-maud-montgomery/",
+  "ddc": [
+    "813.52",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.M768 Bl 2014",
+    "PS-8476.00000000.O58 B4 1972",
+    "PR-9199.30000000.M6",
+    "PZ-0007.00000000.M758 Bl 1988"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Choice",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Fiction, romance, general",
+    "Friendship",
+    "History",
+    "Juvenile fiction",
+    "Romance fiction",
+    "Self-actualization (Psychology)",
+    "Single women"
+  ],
+  "ol_work_key": "/works/OL77775W"
 }

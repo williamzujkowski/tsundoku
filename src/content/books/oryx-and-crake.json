@@ -1,7 +1,7 @@
 {
   "title": "Oryx and Crake",
   "author": "Margaret Atwood",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "oryx-and-crake",
   "tags": [],
@@ -15,5 +15,45 @@
   "pages": 402,
   "google_books_url": "https://play.google.com/store/books/details?id=Wl_lvpiO11kC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.2",
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.A8O79 2003b",
+    "PS-8501.00000000.T9 O79 2003",
+    "PS-8501.00000000 T887 079 2003",
+    "PR-9199.30000000.A8 O79 2003",
+    "PS-8000.00000000",
+    "PR-9199.30000000.A8",
+    "PR-9199.30000000.A8 O79 2004",
+    "PR-9199.30000000.A8 O79 2003b",
+    "PR-9199.30000000.A8 O79 2002b"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Canadian fiction (fictional works by one author)",
+    "Fiction, fantasy, general",
+    "Fiction, romance, general",
+    "Fiction, science fiction, general",
+    "Friendship, fiction",
+    "Literary Fiction",
+    "Long Now Manual for Civilization",
+    "Male friendship",
+    "Man-woman relationships, fiction",
+    "New York Times reviewed",
+    "New york (state), fiction",
+    "Open Syllabus Project",
+    "Triangles (Interpersonal relations)",
+    "fantasy",
+    "fiction",
+    "friendship",
+    "genetic engineering",
+    "relationships",
+    "romance",
+    "science fiction",
+    "series:MaddAddam"
+  ],
+  "ol_work_key": "/works/OL675722W"
 }

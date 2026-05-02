@@ -1,7 +1,7 @@
 {
   "title": "The Princess Bride",
   "author": "William Goldman",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-princess-bride",
   "tags": [
@@ -19,5 +19,35 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.G635 Pr",
+    "PS-3557.00000000.O384P75 2007",
+    "PS-3557.00000000.O384 P75 2003",
+    "PS-3557.00000000.O384 Pr",
+    "PS-3557.00000000.O384 P75 2007",
+    "PS-3557.00000000.O384 P7 2000",
+    "PS-3557.00000000.O384 P75 1998",
+    "PS-3557.00000000.O384 P7 1998",
+    "PS-3553.00000000.O384 P75 1999"
+  ],
+  "subject_facet": [
+    "Castles",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, general",
+    "Fiction, romance, fantasy",
+    "Good and evil",
+    "Juvenile fiction",
+    "Pirates",
+    "Princes",
+    "Princesses",
+    "Romance fiction"
+  ],
+  "ol_work_key": "/works/OL486967W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Seven Surrenders",
   "author": "Ada Palmer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "seven-surrenders",
   "tags": [
@@ -25,5 +25,21 @@
     "Fiction, science fiction, general",
     "series:terra_ignota",
     "Utopias -- Fiction"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3616.00000000.A33879S48",
+    "PS-3616.00000000.A33879",
+    "PS-3616.00000000.A33879 S48 2017"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Utopias",
+    "Utopias -- Fiction",
+    "series:terra_ignota"
+  ],
+  "ol_work_key": "/works/OL19213555W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Song for the Basilisk",
   "author": "Patricia A. McKillip",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "song-for-the-basilisk",
   "tags": [
@@ -26,5 +26,21 @@
     "Troubadours",
     "Counterrevolutions",
     "Fiction, fantasy, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.C38S663 1998",
+    "PS-3563.00000000.C38 S663 1998"
+  ],
+  "subject_facet": [
+    "Counterrevolutions",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Music",
+    "Orphans",
+    "Troubadours"
+  ],
+  "ol_work_key": "/works/OL92473W"
 }

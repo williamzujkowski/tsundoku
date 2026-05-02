@@ -1,7 +1,7 @@
 {
   "title": "The Art of Money Getting",
   "author": "P. T. Barnum",
-  "category": "Literature",
+  "category": "Economics",
   "priority": 2,
   "slug": "the-art-of-money-getting",
   "tags": [
@@ -34,5 +34,22 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8581",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8581.html.images",
   "description": "IN THE UNITED STATES, where we have more land than people, it is not at all difficult for persons in good health to make money.",
-  "isbn": "9781619401044"
+  "isbn": "9781619401044",
+  "lcc": [
+    "HF-5386.00000000.B248 2019",
+    "HF-5386.00000000.B248 1999"
+  ],
+  "subject_facet": [
+    "Business",
+    "Commerce",
+    "Finance",
+    "Finance, personal",
+    "Income",
+    "Nonfiction",
+    "Self-Improvement",
+    "Self-help techniques",
+    "Success",
+    "Success in business"
+  ],
+  "ol_work_key": "/works/OL891636W"
 }

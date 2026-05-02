@@ -1,7 +1,7 @@
 {
   "title": "Such a Long Journey",
   "author": "Rohinton Mistry",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "such-a-long-journey",
   "tags": [
@@ -29,5 +29,32 @@
     "India, fiction",
     "18.07 English literature outside Europe and the USA",
     "Familie"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.M494 S84 1992",
+    "PR-9199.30000000.M494S84",
+    "PR-9199.30000000.M494 1992",
+    "PR-9199.30000000.M494 S84 1991",
+    "PR-9199.20000000.M58 S9 1991"
+  ],
+  "subject_facet": [
+    "18.07 English literature outside Europe and the USA",
+    "Familie",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Gsafd",
+    "Historical fiction",
+    "History",
+    "India",
+    "India, fiction",
+    "Literature",
+    "Littérature anglo-indienne",
+    "Men"
+  ],
+  "ol_work_key": "/works/OL2980903W"
 }

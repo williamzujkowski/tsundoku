@@ -1,7 +1,7 @@
 {
   "title": "The Girl Who Played with Fire",
   "author": "Stieg Larsson",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-girl-who-played-with-fire",
   "tags": [
@@ -30,5 +30,62 @@
     "gritty",
     "nyt:combined_print_fiction=2012-03-03",
     "violence"
-  ]
+  ],
+  "ddc": [
+    "839.738"
+  ],
+  "lcc": [
+    "PT-9876.22000000.A6933 F5718 2009",
+    "PT-9876.22000000.A6933 F57168 2009",
+    "PT-9876.22000000.A6933 F5715 2009",
+    "PT-9876.22000000.A6933 M5514 2006 v.2",
+    "PT-9876.22000000.A6933 F5713 2010",
+    "PT-9876.22000000.A6933 F5713 2009b",
+    "PT-9876.22000000.A6933 F5713 2009ab",
+    "PT-9876.22000000.A6933 F5713 2009",
+    "PT-9876.22000000.A6933 F5713 2009c",
+    "PT-9877.22000000",
+    "PT-9877.22000000.A785 F5513 2010",
+    "PT-9876.22000000.A6933F5713"
+  ],
+  "subject_facet": [
+    "Asesinato",
+    "Computadoras",
+    "Computer hackers",
+    "Crime, Thrillers & Mystery",
+    "Crime, fiction",
+    "Editores",
+    "Esclavitud",
+    "Ficción",
+    "Fiction",
+    "Fiction, suspense",
+    "Fiction, thrillers, suspense",
+    "Fictional Works",
+    "Hackers",
+    "Human trafficking",
+    "Investigación",
+    "Investigation",
+    "Italian fiction",
+    "Journalists",
+    "Journalists, fiction",
+    "Lisbeth Salander (Fictitious character)",
+    "Mikael Blomqvist (Fictitious character)",
+    "Murder",
+    "New York Times bestseller",
+    "Periodical editors",
+    "Periodistas",
+    "Stockholm (sweden), fiction",
+    "Suspense fiction",
+    "Translations from Swedish",
+    "Tráfico de seres humanos",
+    "adventure",
+    "crime",
+    "crime fiction",
+    "detectives",
+    "gritty",
+    "mystery and suspense stories",
+    "nyt:combined_print_fiction=2012-03-03",
+    "violence"
+  ],
+  "ol_work_key": "/works/OL5784621W"
 }

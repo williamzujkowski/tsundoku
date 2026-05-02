@@ -1,7 +1,7 @@
 {
   "title": "The Crystal Stopper",
   "author": "Maurice Leblanc",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-crystal-stopper",
   "tags": [
@@ -34,5 +34,27 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1563.html.images",
   "librivox_url": "https://librivox.org/the-crystal-stopper-by-maurice-leblanc/",
   "description": "The Crystal Stopper is a mystery novel by Maurice Leblanc featuring the adventures of the gentleman thief Arsène Lupin. The novel appeared in serial form in the French newspaper Le Journal from September to November 1912 and was subsequently released as a novel in a single volume. Leblanc was inspired by the infamous Panama scandals of 1892 and 1893. The novel borrows from Edgar Allan Poe's short story \"The Purloined Letter\" the idea of hiding an object in plain sight.",
-  "isbn": "9781169730496"
+  "isbn": "9781169730496",
+  "ddc": [
+    "843.912"
+  ],
+  "lcc": [
+    "PQ-2623.00000000.E24 B6 1975",
+    "PQ-2623.00000000.E24 B613",
+    "PQ-2623.00000000.E24 B6 1975b",
+    "PQ-2623.00000000.E24 B6 1973"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers",
+    "Adventure stories",
+    "Ars©·ne Lupin (Fictitious character)",
+    "Arsène Lupin (Fictitious character)",
+    "Burglars",
+    "Burglars -- Fiction",
+    "Detective and mystery stories",
+    "Fiction",
+    "French drama",
+    "Lupin, Arsène (Fictitious character) -- Fiction"
+  ],
+  "ol_work_key": "/works/OL1064292W"
 }

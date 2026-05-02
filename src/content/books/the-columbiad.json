@@ -1,7 +1,7 @@
 {
   "title": "The Columbiad",
   "author": "Joel Barlow",
-  "category": "Poetry",
+  "category": "History",
   "priority": 2,
   "slug": "the-columbiad",
   "tags": [
@@ -23,5 +23,17 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8683",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8683.html.images",
   "description": "The Columbiad (1807) is a philosophical epic poem by the American diplomat and man of letters Joel Barlow. It grew out of Barlow's earlier poem The Vision of Columbus (1787). Intended as a national epic for the United States, it was popular with the reading public and compared with Homer, Virgil and Milton.",
-  "isbn": "9781414224985"
+  "isbn": "9781414224985",
+  "lcc": [
+    "E--0120.00000000.B256",
+    "PS-0704.00000000.C58 2008",
+    "E--0120.00000000.B257",
+    "E--0120.00000000.B258",
+    "E--0120.00000000.B255"
+  ],
+  "subject_facet": [
+    "History",
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL3119354W"
 }

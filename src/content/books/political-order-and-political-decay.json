@@ -1,7 +1,7 @@
 {
   "title": "Political Order and Political Decay",
   "author": "Francis Fukuyama",
-  "category": "Governance",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "political-order-and-political-decay",
   "tags": [],
@@ -27,5 +27,29 @@
     "Democracy, history",
     "Law, history"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "320.1"
+  ],
+  "lcc": [
+    "JC-0011.00000000.F853 2015",
+    "JC-0011.00000000.F853 2014",
+    "JC-0011.00000000"
+  ],
+  "subject_facet": [
+    "Comparative government",
+    "Democracy",
+    "Democracy, history",
+    "Globalization",
+    "HISTORY / World",
+    "History",
+    "Law, history",
+    "New York Times reviewed",
+    "Order",
+    "POLITICAL SCIENCE / History & Theory",
+    "Political aspects",
+    "State, the",
+    "The State"
+  ],
+  "ol_work_key": "/works/OL19986556W"
 }

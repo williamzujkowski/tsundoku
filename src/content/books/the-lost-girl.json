@@ -1,7 +1,7 @@
 {
   "title": "The Lost Girl",
   "author": "Anne Ursu",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-lost-girl",
   "tags": [
@@ -25,5 +25,17 @@
     "Self-esteem, fiction",
     "Brothers and sisters, fiction"
   ],
-  "pages": 376
+  "pages": 376,
+  "lcc": [
+    "PZ-0007.00000000.U692Lo 2019"
+  ],
+  "subject_facet": [
+    "Brothers and sisters, fiction",
+    "Children's fiction",
+    "Fantasy fiction",
+    "Identity, fiction",
+    "Self-esteem, fiction",
+    "Twins, fiction"
+  ],
+  "ol_work_key": "/works/OL20152959W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Sword of Shannara",
   "author": "Terry Brooks",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-sword-of-shannara",
   "tags": [
@@ -19,5 +19,37 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.R6596 S9 1978",
+    "PS-3552.00000000.R6596 Sw",
+    "PS-3552.00000000.R6596 S9 1991",
+    "PS-3552.00000000.R6596",
+    "PZ-0004.00000000.B8726 Sw 1977",
+    "PS-3552.00000000.R6596 Sw 1977",
+    "PZ-0004.00000000.B8726 Sw"
+  ],
+  "subject_facet": [
+    "Druids and Druidism",
+    "Elfes",
+    "Elves",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Quests (Expeditions)",
+    "Romans, nouvelles",
+    "Shannara (Imaginary place)",
+    "Shannara (Lieu imaginaire)",
+    "Shannara (imaginary place), fiction",
+    "Swords",
+    "magic"
+  ],
+  "ol_work_key": "/works/OL5683445W"
 }

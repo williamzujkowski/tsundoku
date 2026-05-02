@@ -1,7 +1,7 @@
 {
   "title": "The Square Emerald",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-square-emerald",
   "tags": [
@@ -27,5 +27,15 @@
   ],
   "librivox_url": "https://librivox.org/the-square-emerald-by-edgar-wallace/",
   "description": "<p>Leslie Maughan, recognized for her keen mind, has unofficially been promoted to Scotland Yard’s first female investigator. Chancing upon a book of poetry once owned by a Peter Dawlish, convicted forger, Leslie delves into the details of the convict’s case and becomes convinced of Peter’s innocence.</p> <p>Befriending Peter after his release from prison, Leslie discovers a link between him, a lady of high society, and a princess, after the violent death of a butler who has his employer’s valuable emerald in his possession.</p> <p>The trail takes a twist when it’s discovered that Peter may have a child he knew nothing about, and that his landlady has been been using her home for more than room and board.</p>",
-  "isbn": "9798633037876"
+  "isbn": "9798633037876",
+  "ddc": [
+    "823.912"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Detective and mystery stories",
+    "Fiction",
+    "Suspense fiction"
+  ],
+  "ol_work_key": "/works/OL1517925W"
 }

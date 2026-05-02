@@ -1,7 +1,7 @@
 {
   "title": "Voss",
   "author": "Patrick White",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "voss",
   "tags": [
@@ -27,5 +27,31 @@
   ],
   "description": "Voss (1957) is the fifth published novel by Patrick White. It is based upon the life of the 19th-century Prussian explorer and naturalist Ludwig Leichhardt, who disappeared while on an expedition into the Australian outback.",
   "pages": 456,
-  "isbn": "9780413413703"
+  "isbn": "9780413413703",
+  "ddc": [
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-9619.30000000.W5 V63 2008",
+    "PR-9619.30000000.W5 V63 1991",
+    "PZ-0003.00000000.W58469 Vo",
+    "PR-9619.30000000.W5V63 1991",
+    "PR-9619.30000000.W5 V63 2009",
+    "PR-9619.30000000.W5 Vo",
+    "PR-9619.30000000.W5V63 2009",
+    "PZ-0003.00000000.W58469Vo"
+  ],
+  "subject_facet": [
+    "Australia, fiction",
+    "Discoveries in geography",
+    "Discovery and exploration",
+    "Fiction",
+    "Fiction (fictional works by one author)",
+    "Fiction in English",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "History"
+  ],
+  "ol_work_key": "/works/OL2988557W"
 }

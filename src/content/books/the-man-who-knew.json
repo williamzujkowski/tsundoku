@@ -1,7 +1,7 @@
 {
   "title": "The Man Who Knew",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-man-who-knew",
   "tags": [
@@ -30,5 +30,16 @@
   "gutenberg_id": 24933,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/24933",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/24933.html.images",
-  "isbn": "9781499126068"
+  "isbn": "9781499126068",
+  "ddc": [
+    "823.91",
+    "823.912"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Detective and mystery stories",
+    "Fiction",
+    "Suspense fiction"
+  ],
+  "ol_work_key": "/works/OL1518038W"
 }

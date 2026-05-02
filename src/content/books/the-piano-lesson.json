@@ -1,7 +1,7 @@
 {
   "title": "The Piano Lesson",
   "author": "August Wilson",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-piano-lesson",
   "tags": [],
@@ -19,5 +19,30 @@
   "subjects": [
     "African Americans in literature",
     "Study and teaching"
-  ]
+  ],
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45677 P54 1990b",
+    "PS-3573.00000000.I45677 P54 1990",
+    "PS-3573.00000000.I45677P54",
+    "PS-3573.00000000.I45677 P54 2008"
+  ],
+  "subject_facet": [
+    "African American families",
+    "African Americans",
+    "Afro-Americans",
+    "American drama (dramatic works by one author)",
+    "Brothers and sisters",
+    "Collective memory",
+    "Drama",
+    "Heirlooms",
+    "Historical drama",
+    "History",
+    "Land tenure",
+    "Nineteen thirties",
+    "Sharecroppers"
+  ],
+  "ol_work_key": "/works/OL2983750W"
 }

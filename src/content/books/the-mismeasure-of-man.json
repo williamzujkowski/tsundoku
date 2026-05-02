@@ -1,7 +1,7 @@
 {
   "title": "The Mismeasure of Man",
   "author": "Stephen Jay Gould",
-  "category": "Science",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "the-mismeasure-of-man",
   "tags": [],
@@ -18,5 +18,58 @@
   "subjects": [
     "Education"
   ],
-  "pages": 37
+  "pages": 37,
+  "ddc": [
+    "153.93",
+    "153.9309"
+  ],
+  "lcc": [
+    "BF-0431.00000000.G68",
+    "BF-0431.00000000.G68 1996",
+    "BF-0431.00000000.G68 2008",
+    "BF-0431.00000000.G68 1981",
+    "BF-0431.00000000"
+  ],
+  "subject_facet": [
+    "153.9/3/09",
+    "1997 k-589",
+    "Ability",
+    "Ability, testing",
+    "Ability--testing--history",
+    "Antropologia física",
+    "Aptitude",
+    "Bf 431 g696m 1996",
+    "Bf431 .g68 1996",
+    "Cephalometry",
+    "Cephalometry--history",
+    "Craniometria",
+    "Craniometrie",
+    "Craniometry",
+    "Craniometry--history",
+    "Craniométrie",
+    "Evolução humana",
+    "Genetics",
+    "Geschichte",
+    "Histoire",
+    "History",
+    "Inteligência",
+    "Intelligence",
+    "Intelligence tests",
+    "Intelligence tests--history",
+    "Intelligence--genetics",
+    "Intelligentietests",
+    "Intelligenztest",
+    "Kraniometrie",
+    "Literary collections",
+    "Personality tests",
+    "Personality tests--history",
+    "Personnalité",
+    "Persoonlijkheidskenmerken",
+    "Persönlichkeitstest",
+    "Testing",
+    "Tests",
+    "Theorieën",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL473565W"
 }

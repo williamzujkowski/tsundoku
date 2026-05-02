@@ -1,7 +1,7 @@
 {
   "title": "The Narrow Road to the Deep North",
   "author": "Basho",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-narrow-road-to-the-deep-north",
   "tags": [],
@@ -25,5 +25,30 @@
     "ZEN BUDISMO",
     "POESIA",
     "LITERATURA JAPONESA"
-  ]
+  ],
+  "ddc": [
+    "895.3"
+  ],
+  "lcc": [
+    "PL-0794.40000000.A29",
+    "PL-0794.00000000.Z5"
+  ],
+  "subject_facet": [
+    "952.10250924",
+    "Description and travel",
+    "Haiku",
+    "Haikus",
+    "Japan, description and travel",
+    "Japanese prose literature",
+    "LITERATURA JAPONESA",
+    "Pl794.4 .a29",
+    "Poetry",
+    "Translations into English",
+    "Translations into englishmatsuo, bashō , 1644-1694",
+    "Travel",
+    "VIAGENS E EXPLORAÇÕES",
+    "Voyages and travels",
+    "ZEN BUDISMO"
+  ],
+  "ol_work_key": "/works/OL11020853W"
 }

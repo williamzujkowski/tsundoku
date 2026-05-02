@@ -1,7 +1,7 @@
 {
   "title": "To Say Nothing of the Dog",
   "author": "Connie Willis",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "to-say-nothing-of-the-dog",
   "tags": [
@@ -31,5 +31,33 @@
     "Fantasy",
     "Science Fiction"
   ],
-  "pages": 504
+  "pages": 504,
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45652T6 1997",
+    "PS-3573.00000000.I45652",
+    "PS-3573.00000000.I45652 T6 1998",
+    "PS-3573.00000000.I45652 T6 2015",
+    "PS-3573.00000000.I45652 T6 1997"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Architecture",
+    "Conservation and restoration",
+    "England, fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Large type books",
+    "Science Fiction",
+    "Time travel",
+    "award:hugo_award=1999",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL14858392W"
 }

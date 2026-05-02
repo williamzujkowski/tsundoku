@@ -1,7 +1,7 @@
 {
   "title": "The Psychoanalysis of Fire",
   "author": "Gaston Bachelard",
-  "category": "Philosophy",
+  "category": "Religion",
   "priority": 2,
   "slug": "the-psychoanalysis-of-fire",
   "tags": [],
@@ -26,5 +26,25 @@
     "Theology",
     "Psychological aspects",
     "Sex"
-  ]
+  ],
+  "ddc": [
+    "133"
+  ],
+  "lcc": [
+    "BT-0015.00000000.M62",
+    "BF-0789.00000000.F5 B313",
+    "BF-0789.00000000.F5 B313 1968"
+  ],
+  "subject_facet": [
+    "Feu",
+    "Fire",
+    "Fires",
+    "Psychanalyse",
+    "Psychoanalysis",
+    "Psychoanalytic Interpretation",
+    "Psychological aspects",
+    "Sex",
+    "Theology"
+  ],
+  "ol_work_key": "/works/OL1304834W"
 }

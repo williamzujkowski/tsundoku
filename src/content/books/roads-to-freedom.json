@@ -1,7 +1,7 @@
 {
   "title": "Roads to Freedom",
   "author": "Bertrand Russell",
-  "category": "Science",
+  "category": "Economics",
   "priority": 2,
   "slug": "roads-to-freedom",
   "tags": [
@@ -24,5 +24,15 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/690",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/690.html.images",
   "description": "\n\nThe Roads to Freedom is a series of novels by French author Jean-Paul Sartre. Intended as a tetralogy, it was left incomplete, with only three complete volumes and part one of the fourth volume of the planned four volumes published in his lifetime and the unfinished second part of the fourth volume was edited and published a year after his death.",
-  "isbn": "9781986859400"
+  "isbn": "9781986859400",
+  "ddc": [
+    "335"
+  ],
+  "subject_facet": [
+    "Anarchism",
+    "Guild socialism",
+    "Socialism",
+    "Syndicalism"
+  ],
+  "ol_work_key": "/works/OL24168752W"
 }

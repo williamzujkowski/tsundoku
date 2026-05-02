@@ -24,5 +24,26 @@
     "award:pulitzer_prize=fiction",
     "award:pulitzer_prize=1929"
   ],
-  "isbn": "9780820319568"
+  "isbn": "9780820319568",
+  "ddc": [
+    "813.54",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3531.00000000.E77 Sc 1978",
+    "PZ-0003.00000000.P436 Sc2",
+    "PZ-0003.00000000.P436 Sc",
+    "PS-3531.00000000.E77 S37 1997",
+    "PS-3531.00000000.E77 S37 1998",
+    "PZ-0003.00000000.P436 Sc 1978"
+  ],
+  "subject_facet": [
+    "African American women",
+    "Fiction",
+    "Plantation workers",
+    "Pulitzer Prize Winner",
+    "award:pulitzer_prize=1929",
+    "award:pulitzer_prize=fiction"
+  ],
+  "ol_work_key": "/works/OL2684125W"
 }

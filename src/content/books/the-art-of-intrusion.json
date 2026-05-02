@@ -1,7 +1,7 @@
 {
   "title": "The Art of Intrusion",
   "author": "Kevin D. Mitnick and William L. Simon",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "the-art-of-intrusion",
   "tags": [
@@ -19,5 +19,31 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=12_GLOhw5oEC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25 M587 2005eb",
+    "QA-0076.90000000.A25M587 2005",
+    "QA-0076.90000000.A25 M587 2005"
+  ],
+  "subject_facet": [
+    "Aspect social",
+    "COMPUTERS",
+    "Computer Technology",
+    "Computer hackers",
+    "Computer security",
+    "Computerkriminalität",
+    "Computersicherheit",
+    "General",
+    "Hacker",
+    "Hackers",
+    "Hacking",
+    "Internet",
+    "Networking",
+    "Nonfiction",
+    "Pirates informatiques",
+    "Security",
+    "Sécurité informatique",
+    "Technologie de l'information"
+  ],
+  "ol_work_key": "/works/OL15174074W"
 }

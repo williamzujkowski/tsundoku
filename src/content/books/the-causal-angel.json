@@ -1,7 +1,7 @@
 {
   "title": "The Causal Angel",
   "author": "Hannu Rajaniemi",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-causal-angel",
   "tags": [
@@ -28,5 +28,24 @@
     "Fiction",
     "Fiction, science fiction, general",
     "FICTION / Science Fiction / General"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-9170.00000000.F563 R33 2014",
+    "PR-9170.00000000.F563",
+    "PR-9170.00000000.F563R33 2014"
+  ],
+  "subject_facet": [
+    "Escapes",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Memory",
+    "Mind and reality",
+    "Physics",
+    "Thieves"
+  ],
+  "ol_work_key": "/works/OL19982984W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Borough Treasurer",
   "author": "Joseph Smith Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-borough-treasurer",
   "tags": [
@@ -25,5 +25,16 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/20630",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/20630.html.images",
   "librivox_url": "https://librivox.org/the-borough-treasurer-by-j-s-fletcher/",
-  "pages": 218
+  "pages": 218,
+  "lcc": [
+    "PZ-0003.00000000.F634 Bo",
+    "PR-6011.00000000.L5 Bo"
+  ],
+  "subject_facet": [
+    "Crime, fiction",
+    "Detective and mystery stories",
+    "England, fiction",
+    "Fiction, mystery & detective, general"
+  ],
+  "ol_work_key": "/works/OL1797609W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Haunting of Hill House",
   "author": "Shirley Jackson",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-haunting-of-hill-house",
   "tags": [
@@ -29,5 +29,53 @@
     "Horror tales",
     "Novela gótica",
     "Novela psicológica"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.J14763 Hau",
+    "PS-3519.00000000.A392H3 2016",
+    "PS-3519.00000000.A392H3 2018",
+    "PS-3519.00000000.A392 H3 2002",
+    "PS-0000.00000000",
+    "PS-3519.00000000.A392 H3 2006",
+    "PS-3519.00000000.A392 H3 1984",
+    "PS-3519.00000000.A392 H3 1960",
+    "PS-3519.00000000.A392H3 2006",
+    "PS-3519.00000000.A392 H3 2013",
+    "PS-3519.00000000.A392 Hau",
+    "PS-3519.00000000.A392H3 2013",
+    "PS-3519.00000000.A392"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "American fiction (fictional works by one author)",
+    "Casas embrujadas",
+    "Cuentos de terror",
+    "Empire chese roman",
+    "End of the world",
+    "FICTION / Gothic",
+    "FICTION / Horror",
+    "FICTION / Psychological",
+    "Ficción",
+    "Fiction",
+    "Fiction, gothic",
+    "Fiction, horror",
+    "Fiction, psychological",
+    "Ghost stories",
+    "Gothic revival (Literature)",
+    "Haunted houses",
+    "Haunted houses--fiction",
+    "Horror tales",
+    "Large type books",
+    "Literature",
+    "Novela gótica",
+    "Novela psicológica",
+    "Ps3519.a392 h3 2006",
+    "Psychological fiction",
+    "ghost",
+    "haunted"
+  ],
+  "ol_work_key": "/works/OL3171069W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "This Sex Which Is Not One",
   "author": "Luce Irigaray",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 2,
   "slug": "this-sex-which-is-not-one",
   "tags": [
@@ -30,5 +30,33 @@
     "Seksualiteit",
     "Vrouwendiscriminatie",
     "Psychoanalyse"
-  ]
+  ],
+  "ddc": [
+    "155.333"
+  ],
+  "lcc": [
+    "HQ-1206.00000000.I713 1985",
+    "PR-2951.00000000.H2"
+  ],
+  "subject_facet": [
+    "155.3/333",
+    "Femininity (Philosophy)",
+    "Femininity [Philosophy]",
+    "Feminisme",
+    "Feminist theory",
+    "Hq1206 .i713 1985",
+    "Psychoanalyse",
+    "Psychology",
+    "Seksualiteit",
+    "Sex (Psychology)",
+    "Sex [Psychology]",
+    "Vrouwen",
+    "Vrouwendiscriminatie",
+    "Women",
+    "Women and psychoanalysis",
+    "Women, psychology",
+    "Women--psychology",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2108822W"
 }

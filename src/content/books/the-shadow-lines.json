@@ -1,7 +1,7 @@
 {
   "title": "The Shadow Lines",
   "author": "Amitav Ghosh",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-shadow-lines",
   "tags": [],
@@ -23,5 +23,27 @@
   ],
   "description": "The Shadow Lines (1988) is a Sahitya Akademi Award-winning novel by Indian writer Amitav Ghosh. It is a book that captures perspective of time and events, of lines that bring people together and hold them apart; lines that are clearly visible from one perspective and nonexistent from another; lines that exist in the memory of one, and therefore in another's imagination.",
   "pages": 252,
-  "isbn": "9781848544239"
+  "isbn": "9781848544239",
+  "ddc": [
+    "823",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-9499.30000000.G536 S4",
+    "PR-9499.30000000.G536 S53 1989",
+    "PR-9499.30000000.G536S53",
+    "PR-9499.30000000.G536 S53 2005",
+    "PR-9499.30000000.G536 S53 1995",
+    "PR-9499.30000000.G536 S53 1990"
+  ],
+  "subject_facet": [
+    "Boys",
+    "British",
+    "Domestic fiction",
+    "Fiction",
+    "Fiction, general",
+    "India, fiction",
+    "Political fiction"
+  ],
+  "ol_work_key": "/works/OL1054094W"
 }

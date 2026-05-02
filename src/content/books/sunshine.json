@@ -1,7 +1,7 @@
 {
   "title": "Sunshine",
   "author": "Robin McKinley",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "sunshine",
   "tags": [
@@ -19,5 +19,23 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000",
+    "PS-3563.00000000.C3816S86 2003",
+    "PS-3563.00000000.C3816 S86 2003"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, occult & supernatural",
+    "Fiction, romance, collections & anthologies",
+    "Fiction, romance, fantasy",
+    "Fiction, romance, general",
+    "Vampires",
+    "Vampires, fiction"
+  ],
+  "ol_work_key": "/works/OL109410W"
 }

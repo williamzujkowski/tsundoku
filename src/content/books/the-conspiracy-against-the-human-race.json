@@ -1,7 +1,7 @@
 {
   "title": "The Conspiracy Against the Human Race",
   "author": "Thomas Ligotti",
-  "category": "Philosophy",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "the-conspiracy-against-the-human-race",
   "tags": [
@@ -27,5 +27,23 @@
     "Pessimism",
     "Horror",
     "Literature, philosophy"
-  ]
+  ],
+  "ddc": [
+    "809.9164"
+  ],
+  "lcc": [
+    "PN-0056.00000000.H6 L55 2010",
+    "PN-0056.00000000.H6L54 2018",
+    "PN-0056.00000000.H6 L54 2010"
+  ],
+  "subject_facet": [
+    "Horror",
+    "Horror in literature",
+    "Literature",
+    "Literature, philosophy",
+    "Pessimism",
+    "Pessimism in literature",
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL15536635W"
 }

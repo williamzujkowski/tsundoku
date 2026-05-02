@@ -1,7 +1,7 @@
 {
   "title": "Twenty Love Poems and a Song of Despair",
   "author": "Pablo Neruda",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "twenty-love-poems-and-a-song-of-despair",
   "tags": [
@@ -30,5 +30,58 @@
     "Spanish poetry",
     "Criticism and interpretation",
     "Romance literature"
-  ]
+  ],
+  "ddc": [
+    "861",
+    "861.62"
+  ],
+  "lcc": [
+    "PQ-8097.00000000.N4V4",
+    "PQ-8097.00000000.N4 V4 1988",
+    "PQ-8097.00000000.N4 V4 1995",
+    "PQ-8097.00000000.N4 V4 1969",
+    "PQ-8097.00000000.N4 V4 1976",
+    "PQ-8097.00000000.N4 V416 2000",
+    "PQ-8097.00000000.N4 V4 2007",
+    "PQ-8097.00000000.N4V4 2008",
+    "PQ-8097.00000000.N4 V4 1987",
+    "PQ-8097.00000000.N4",
+    "PQ-8097.00000000.N4 V413 1993",
+    "PQ-8097.00000000.N4 V413 1978",
+    "PQ-8097.00000000.N4 V4 2008",
+    "PQ-8097.00000000.N4V413 2004",
+    "PQ-8097.00000000.N4 V4 1967",
+    "PQ-8097.00000000 N4 V38 1954",
+    "PQ-8097.00000000.N4 V4 1982",
+    "PQ-8097.00000000.N4 V4 1938",
+    "PQ-8097.00000000.N4 V4",
+    "PQ-8097.00000000.N4V413 1993",
+    "PQ-8097.00000000.N4 V4 1997",
+    "PQ-8097.00000000.N4 V4164 2007",
+    "PQ-8097.00000000.N4 V4 1992",
+    "PQ-8097.00000000.N4V4 1987",
+    "PQ-8097.00000000.N4 V4 2002",
+    "PQ-8097.00000000.N4 V413 2006",
+    "PQ-8097.00000000.N4 V413 2004",
+    "PQ-8097.00000000.N4V413 1978",
+    "PQ-8097.00000000.N4 V4 1999",
+    "PQ-8097.00000000.N4 V4 1932"
+  ],
+  "subject_facet": [
+    "Chilean Love poetry",
+    "Chilean poetry",
+    "Criticism and interpretation",
+    "Literatura chilena",
+    "Poemas",
+    "Poesía amorosa chilena",
+    "Poesía chilena",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Romance literature",
+    "Spanish Love poetry",
+    "Spanish language books",
+    "Spanish poetry",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL979517W"
 }

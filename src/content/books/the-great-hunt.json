@@ -1,7 +1,7 @@
 {
   "title": "The Great Hunt",
   "author": "Robert Jordan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-great-hunt",
   "tags": [
@@ -25,5 +25,45 @@
   "description": "The Great Hunt is a fantasy novel by American author Robert Jordan, the second book of The Wheel of Time series. It was published by Tor Books and released on November 15, 1990. The Great Hunt consists of a prologue and 50 chapters. In 2004 The Great Hunt was re-released as two separate books, The Hunt Begins and New Threads in the Pattern.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/WoT02_TheGreatHunt.jpg/120px-WoT02_TheGreatHunt.jpg",
   "pages": 672,
-  "isbn": "9780812517729"
+  "isbn": "9780812517729",
+  "ddc": [
+    "813.54",
+    "813"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617G74 2012",
+    "PS-3560.00000000.O7 G718",
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617G74 1990",
+    "PS-3560.00000000.O7617 G74 1990",
+    "PS-3560.00000000.O7617 G74 2012"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Aes Sedai",
+    "American Fantasy fiction",
+    "American literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Good and evil",
+    "Heroes",
+    "Imaginary places",
+    "Imaginary wars and battles",
+    "Magic",
+    "Novela estadounidense",
+    "Novela fantástica estadounidense",
+    "Prophecies",
+    "Rand al'Thor",
+    "Reincarnation",
+    "Sex role",
+    "robert jordon",
+    "series:The Wheel of Time",
+    "wheel of time"
+  ],
+  "first_published": 1990,
+  "ol_work_key": "/works/OL7924135W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Light Fantastic",
   "author": "Terry Pratchett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-light-fantastic",
   "tags": [
@@ -29,5 +29,34 @@
     "Rincewind the wizard (fictitious character), fiction",
     "Fiction, humorous, general",
     "Literature and fiction, fantasy"
-  ]
+  ],
+  "ddc": [
+    "[Fic]",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34 L54 2005",
+    "PR-6066.00000000.R34",
+    "PR-6066.00000000.R34L54 1986b",
+    "PR-6066.00000000.R34 L54 1986b",
+    "PR-6066.00000000.R34 L54 1988x",
+    "PR-6066.00000000.R34L54 1986",
+    "PR-6066.00000000.R34L54 2022",
+    "PR-6066.00000000.R34L54 2005"
+  ],
+  "subject_facet": [
+    "Discworld (Imaginary place)",
+    "Discworld (imaginary place), fiction",
+    "English literature",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, satire",
+    "Literature and fiction, fantasy",
+    "Rincewind the wizard (fictitious character), fiction",
+    "Samuel Vimes (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL453680W"
 }

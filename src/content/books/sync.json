@@ -1,7 +1,7 @@
 {
   "title": "Sync",
   "author": "Steven Strogatz",
-  "category": "Complex Systems",
+  "category": "Science",
   "priority": 1,
   "slug": "sync",
   "tags": [],
@@ -23,5 +23,21 @@
     "Systèmes auto-organisés",
     "Biological rhythms",
     "Cycles"
-  ]
+  ],
+  "lcc": [
+    "Q--0172.50000000.S96S87 2003",
+    "Q--0176.00000000",
+    "Q--0172.50000000.S96 S87 2003",
+    "E--0655.00000000",
+    "Q--0176.00000000.S876 2003"
+  ],
+  "subject_facet": [
+    "Biological rhythms",
+    "Cycles",
+    "Self-organizing systems",
+    "Synchronisation",
+    "Synchronization",
+    "Systèmes auto-organisés"
+  ],
+  "ol_work_key": "/works/OL3907582W"
 }

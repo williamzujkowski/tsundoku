@@ -1,7 +1,7 @@
 {
   "title": "Small Gods",
   "author": "Terry Pratchett",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "small-gods",
   "tags": [
@@ -33,5 +33,30 @@
     "Fiction, humorous",
     "Comics & graphic novels, fantasy",
     "Science fiction, fantasy, horror"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34 S63 1994x",
+    "PR-6066.00000000.R34 S63 2014",
+    "PN-6727.00000000",
+    "PR-6066.00000000.R34",
+    "PR-6066.00000000.R34 S63 1992"
+  ],
+  "subject_facet": [
+    "Comics & graphic novels, fantasy",
+    "Discworld (Imaginary place)",
+    "Discworld (imaginary place), fiction",
+    "English literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Science fiction",
+    "Science fiction, fantasy, horror"
+  ],
+  "ol_work_key": "/works/OL453697W"
 }

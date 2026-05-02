@@ -1,7 +1,7 @@
 {
   "title": "The Maracot Deep",
   "author": "Arthur Conan Doyle",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-maracot-deep",
   "tags": [
@@ -27,5 +27,9 @@
     "Atlantis (Legendary place)",
     "Fiction"
   ],
-  "librivox_url": "https://librivox.org/the-maracot-deep-by-sir-arthur-conan-doyle/"
+  "librivox_url": "https://librivox.org/the-maracot-deep-by-sir-arthur-conan-doyle/",
+  "ddc": [
+    "823.91"
+  ],
+  "ol_work_key": "/works/OL39640384W"
 }

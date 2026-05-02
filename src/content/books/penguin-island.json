@@ -1,7 +1,7 @@
 {
   "title": "Penguin Island",
   "author": "Calm Publications Staff, Kevin Crane, Carolyn Thomson, Peter Dans",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "penguin-island",
   "tags": [
@@ -18,5 +18,14 @@
   ],
   "copyright_status": "in_copyright",
   "description": "Penguin Island is a satirical fictional history by French author Anatole France.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Penguin_Island_%28novel%29.jpg/120px-Penguin_Island_%28novel%29.jpg"
+  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Penguin_Island_%28novel%29.jpg/120px-Penguin_Island_%28novel%29.jpg",
+  "ddc": [
+    "919.4110463"
+  ],
+  "subject_facet": [
+    "Guidebooks",
+    "Marine parks and reserves",
+    "Natural history"
+  ],
+  "ol_work_key": "/works/OL24261161W"
 }

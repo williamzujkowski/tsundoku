@@ -1,7 +1,7 @@
 {
   "title": "Strange Case of Dr Jekyll and Mr Hyde",
   "author": "Robert Louis Stevenson",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "strange-case-of-dr-jekyll-and-mr-hyde",
   "tags": [],
@@ -21,5 +21,32 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/43.html.images",
   "subjects": [
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5481.00000000 1995b",
+    "PR-5482.00000000 1991",
+    "PR-5481.00000000 2003",
+    "PR-5482.00000000.H37 1992",
+    "PR-5481.00000000.C3 1979"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "England, fiction",
+    "English literature",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, psychological",
+    "Fiction, short stories (single author)",
+    "Jekyll, doctor (fictitious character), fiction",
+    "London (england), fiction",
+    "Multiple personality",
+    "Physicians",
+    "Physicians, fiction",
+    "Self-experimentation in medicine",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL24120W"
 }

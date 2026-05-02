@@ -1,7 +1,7 @@
 {
   "title": "Specifying Systems",
   "author": "Leslie Lamport",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "specifying-systems",
   "tags": [
@@ -28,5 +28,23 @@
     "Logic & foundations of mathematics",
     "Computer architecture/engineering"
   ],
-  "isbn": "9780321143068"
+  "isbn": "9780321143068",
+  "ddc": [
+    "004.21"
+  ],
+  "lcc": [
+    "QA-0076.90000000.S88L35 2003",
+    "QA-0076.90000000.S88 L35 2003"
+  ],
+  "subject_facet": [
+    "Computer architecture/engineering",
+    "Computer systems",
+    "Logic",
+    "Logic & foundations of mathematics",
+    "Logic, symbolic and mathematical",
+    "Specifications",
+    "Symbolic and mathematical Logic",
+    "System design"
+  ],
+  "ol_work_key": "/works/OL3950712W"
 }

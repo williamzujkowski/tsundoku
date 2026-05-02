@@ -1,7 +1,7 @@
 {
   "title": "The Restaurant at the End of the Universe",
   "author": "Douglas Adams",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-restaurant-at-the-end-of-the-universe",
   "tags": [
@@ -26,5 +26,45 @@
   "description": "The Restaurant at the End of the Universe is the second book in the Hitchhiker's Guide to the Galaxy science fiction comedy hexalogy, named a \"trilogy\" by Douglas Adams. It was originally published by Pan Books as a paperback in 1980. Like the preceding novel, it was adapted from Adams' radio series, and became a critically acclaimed cult classic.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
   "pages": 224,
-  "isbn": "9780297786566"
+  "isbn": "9780297786566",
+  "ddc": [
+    "823",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6051.00000000.D3352 R47 1980",
+    "PR-6051.00000000.D3352 R4",
+    "PR-6051.00000000.D3352 R4 1982b",
+    "PR-6051.00000000.D3352R4 1981",
+    "PR-6051.00000000.D3352R4 2005",
+    "PR-6051.00000000",
+    "PR-6051.00000000.D3352",
+    "PR-6051.00000000.D3352 R4 2005",
+    "PR-6051.00000000.D3352 R47 2005",
+    "PR-6051.00000000.D3352 R418 2008",
+    "PR-6051.00000000.D3352 R4 1981",
+    "PR-6051.00000000.D3352R47 2002"
+  ],
+  "subject_facet": [
+    "18.05 English literature",
+    "Arthur Dent (Fictitious character)",
+    "Dent, arthur (fictitious character), fiction",
+    "English Science fiction",
+    "English literature",
+    "Fiction",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, science fiction, general",
+    "Ford Prefect (Fictitious character)",
+    "Humorous fiction",
+    "Interplanetary voyages",
+    "Interstellar travel",
+    "Life on other planets",
+    "Prefect, ford (fictitious character), fiction",
+    "Restaurants",
+    "Science Fiction",
+    "humorous stories"
+  ],
+  "first_published": 1980,
+  "ol_work_key": "/works/OL2163655W"
 }

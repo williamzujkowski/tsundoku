@@ -1,7 +1,7 @@
 {
   "title": "Who Fears Death",
   "author": "Nnedi Okorafor",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "who-fears-death",
   "tags": [
@@ -30,5 +30,28 @@
     "Fantasy fiction",
     "Single women, fiction",
     "Mothers and daughters, fiction"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3615.00000000.K67",
+    "PS-3615.00000000.K67 W56 2014",
+    "PS-3615.00000000.K67 W48 2010ab",
+    "PS-3615.00000000.K67 W48 2010"
+  ],
+  "subject_facet": [
+    "Africa, fiction",
+    "Dystopias",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Genocide",
+    "Magic",
+    "Mothers and daughters, fiction",
+    "Single women, fiction",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL15935869W"
 }

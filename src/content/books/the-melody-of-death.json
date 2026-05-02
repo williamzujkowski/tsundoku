@@ -1,7 +1,7 @@
 {
   "title": "The Melody of Death",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-melody-of-death",
   "tags": [
@@ -34,5 +34,20 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75702",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75702.html.images",
   "description": "The Melody of Death is a 1915 crime novel by the British writer Edgar Wallace. Believing that he is suffering from a fatal illness a newly-married man begins to commit a series of crimes to make sure his wife will be provided for after his death.",
-  "isbn": "9781677581641"
+  "isbn": "9781677581641",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6045.00000000.A327",
+    "PZ-0003.00000000.W1525 Me",
+    "PR-6045.00000000.A327 Me"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Detective and mystery stories",
+    "English literature",
+    "Fiction"
+  ],
+  "ol_work_key": "/works/OL1517961W"
 }

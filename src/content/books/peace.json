@@ -1,7 +1,7 @@
 {
   "title": "Peace",
   "author": "Gene Wolfe",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "peace",
   "tags": [
@@ -29,5 +29,30 @@
     "Fiction, science fiction, general",
     "Fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52P43 2012",
+    "PS-3573.00000000.O52 P43 1995",
+    "PS-3573.00000000.O52 P43 1982",
+    "PZ-0004.00000000.W85615 Pe",
+    "PS-3573.00000000.O52",
+    "PS-3573.00000000.O52 P43 2012",
+    "PS-3573.00000000.O52P43 1995",
+    "PS-3573.00000000.O52 Pe"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, psychological",
+    "Fiction, science fiction, general",
+    "Imagination",
+    "Middle west, fiction",
+    "Older men",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL14871978W"
 }

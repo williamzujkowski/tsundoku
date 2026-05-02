@@ -1,7 +1,7 @@
 {
   "title": "Wonderful Adventures of Mrs",
   "author": "Mary Seacole",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "wonderful-adventures-of-mrs",
   "tags": [
@@ -39,5 +39,51 @@
   "gutenberg_id": 23031,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/23031",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/23031.html.images",
-  "isbn": "9781463519612"
+  "isbn": "9781463519612",
+  "ddc": [
+    "947.0738092 B",
+    "610.73092",
+    "947.0738092",
+    "947.073"
+  ],
+  "lcc": [
+    "DK-0215.00000000.S43 1988",
+    "DK-0215.00000000.S43 2014",
+    "DK-0214.00000000 S33 1984",
+    "DK-0215.00000000.S433 2005",
+    "DK-0215.00000000.S43 2019",
+    "DK-0215.00000000.S43 2009",
+    "RT-0037.00000000",
+    "DK-0215.00000000.S43 2022"
+  ],
+  "subject_facet": [
+    "African Continental Ancestry Group",
+    "Biographies",
+    "Biography",
+    "Black Women",
+    "Black people",
+    "Blacks",
+    "Blacks, jamaica",
+    "Crimean War (1853-1856) fast (OCoLC)fst00883120",
+    "Crimean War, 1853-1856",
+    "Crimean war, 1853-1856, personal narratives",
+    "Guerre de Crimée (1853-1856)",
+    "Guerre de Crimée, 1853-1856",
+    "Jamaica, biography",
+    "Jamaican Personal narratives",
+    "Military Nursing",
+    "Noirs",
+    "Nurses",
+    "Nurses, biography",
+    "Nursing",
+    "Personal narratives",
+    "Récits personnels jamaïquains",
+    "Social conditions",
+    "Travel",
+    "Women",
+    "Women, biography",
+    "Women, black",
+    "Women, social conditions"
+  ],
+  "ol_work_key": "/works/OL4977012W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Ubik",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "ubik",
   "tags": [
@@ -30,5 +30,50 @@
     "Fiction, humorous",
     "FICTION / Science Fiction / General",
     "FICTION / Literary"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3 U24 2012",
+    "PS-3554.00000000.I3U24 2012",
+    "PS-3554.00000000 I3 U3 1970",
+    "PS-3554.00000000.I3 U24 1991",
+    "PS-3554.00000000.I3 U24165 2003",
+    "PS-3554.00000000.I3 U24 2001",
+    "PS-3554.00000000.I3 Ub",
+    "PS-3554.00000000.I3 Ub 1979",
+    "PS-3554.00000000.I3 U2 2004",
+    "PS-3554.00000000.I3",
+    "PZ-0004.00000000.D547 Ub 1979",
+    "PS-3554.00000000.I3U24 2001",
+    "PZ-0004.00000000.D547 Ub"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "American Science fiction",
+    "Businessmen",
+    "Businessmen--fiction",
+    "Death",
+    "Death--fiction",
+    "Explosions",
+    "Explosions--fiction",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, science fiction, general",
+    "Iowa, fiction",
+    "Large type books",
+    "Motion picture plays",
+    "Murder victims",
+    "Ps3554.i3 u24 1991",
+    "Science Fiction",
+    "Science fiction, american",
+    "Terrorism",
+    "Time"
+  ],
+  "ol_work_key": "/works/OL2172454W"
 }

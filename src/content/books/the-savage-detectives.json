@@ -1,7 +1,7 @@
 {
   "title": "The Savage Detectives",
   "author": "Roberto Bolaño",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-savage-detectives",
   "tags": [
@@ -19,5 +19,47 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=Okf0pwAACAAJ&dq=The+Savage+Detectives+Roberto+Bola%C3%B1o&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "863.64",
+    "868.993"
+  ],
+  "lcc": [
+    "PQ-8098.12000000.O38 D48 2010",
+    "PQ-8098.12000000.O38 D4813 2007",
+    "PQ-8098.12000000.O38 D48 1998"
+  ],
+  "subject_facet": [
+    "Authors",
+    "Authors, fiction",
+    "Chilean Short stories",
+    "Chilean fiction",
+    "Cuentos chilenos",
+    "Detectives",
+    "Ficción",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, psychological",
+    "Fugitives from justice",
+    "Latin American poetry",
+    "Literatura chilena",
+    "Literatura clandestina",
+    "Mexican Poets",
+    "Mexico city (mexico), fiction",
+    "Mexico, fiction",
+    "Missing persons",
+    "Missing persons, fiction",
+    "Novela",
+    "Novela chilena",
+    "Personas desaparecidas",
+    "Poesía latinoamericana",
+    "Poetas mexicanos",
+    "Poets, Mexican",
+    "Roman chilien",
+    "Romance literature",
+    "Spanish language materials",
+    "Suspense fiction",
+    "Underground literature"
+  ],
+  "ol_work_key": "/works/OL712032W"
 }

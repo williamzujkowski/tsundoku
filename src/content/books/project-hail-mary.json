@@ -1,7 +1,7 @@
 {
   "title": "Project Hail Mary",
   "author": "Andy Weir",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "project-hail-mary",
   "tags": [
@@ -29,5 +29,41 @@
     "Fiction, science fiction, action & adventure",
     "Fiction, science fiction, hard science fiction",
     "End of the world"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3623.00000000.E4324494",
+    "PS-3623.00000000.E4324494 P76 2021",
+    "PS-3623.00000000.E4324494P76"
+  ],
+  "subject_facet": [
+    "Astronautes",
+    "Astronauts",
+    "End of the world",
+    "FICTION / Science Fiction / Action & Adventure",
+    "FICTION / Science Fiction / Hard Science Fiction",
+    "FICTION / Thrillers / Suspense",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, hard science fiction",
+    "Fin du monde",
+    "Habiletés de survie",
+    "Memory disorders",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Romans, nouvelles",
+    "Space flight",
+    "Survival",
+    "Survival after airplane accidents, shipwrecks",
+    "Vol spatial",
+    "hard sci-fi",
+    "hard science-fiction",
+    "nyt:hardcover-fiction=2021-05-23",
+    "nyt:trade-fiction-paperback=2022-11-13",
+    "sci-fi",
+    "science-fiction"
+  ],
+  "ol_work_key": "/works/OL21745884W"
 }

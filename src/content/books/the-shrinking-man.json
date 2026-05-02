@@ -1,7 +1,7 @@
 {
   "title": "The Shrinking Man",
   "author": "Richard Matheson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-shrinking-man",
   "tags": [
@@ -31,5 +31,30 @@
     "Survival",
     "Fiction, fantasy, contemporary",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A8355 Si 1979",
+    "PZ-0004.00000000.M429 PS3563.A8355 Si 1979",
+    "PZ-0004.00000000.M429 Si 1979",
+    "PS-3563.00000000.A8355",
+    "PS-3563.00000000.A8355 S47x 1962"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Body size",
+    "Fiction",
+    "Fiction, family life, general",
+    "Fiction, fantasy, contemporary",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Life change events",
+    "Married people, fiction",
+    "Radioactive fallout",
+    "Science fiction",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL64219W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Salt Eaters",
   "author": "Toni Cade Bambara",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-salt-eaters",
   "tags": [],
@@ -27,5 +27,30 @@
     "African Americans",
     "Women",
     "American literature"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.B2116 Sal 1980",
+    "PS-3552.00000000.A473 Sal 1980",
+    "PS-3552.00000000.A473",
+    "PS-3552.00000000.A473 S2 1992",
+    "PS-3552.00000000.A473; Sal 1980",
+    "PS-3552.00000000.A473S2 1992",
+    "PS-3552.00000000.A473 S2 1981"
+  ],
+  "subject_facet": [
+    "African American women",
+    "African Americans",
+    "African americans, fiction",
+    "Afro-American women",
+    "American fiction",
+    "American literature",
+    "Fiction",
+    "Fiction, general",
+    "Georgia, fiction",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL15289W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Tigana",
   "author": "Guy Gavriel Kay",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "tigana",
   "tags": [
@@ -29,5 +29,29 @@
     "SIF",
     "Tigana",
     "Canadian Fantasy fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "823"
+  ],
+  "lcc": [
+    "PR-9199.30000000.K39 T5 1999",
+    "PR-9199.30000000.K39 T5 1990b",
+    "PR-9199.30000000.K39",
+    "PR-9199.30000000.K39 T5 1990",
+    "PR-9199.30000000.K39T5 1990"
+  ],
+  "subject_facet": [
+    "Canadian Fantasy fiction",
+    "Canadian fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Kings and rulers",
+    "Literature",
+    "Magic",
+    "SIF",
+    "Tigana"
+  ],
+  "ol_work_key": "/works/OL1988290W"
 }

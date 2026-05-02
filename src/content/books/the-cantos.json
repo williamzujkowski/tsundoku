@@ -1,7 +1,7 @@
 {
   "title": "The Cantos",
   "author": "Ezra Pound",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-cantos",
   "tags": [
@@ -28,5 +28,55 @@
   ],
   "description": "The Cantos is a long modernist poem by Ezra Pound, written in 109 canonical sections in addition to a number of drafts and fragments added as a supplement at the request of the poem's American publisher, James Laughlin. Most of it was written between 1915 and 1962, although much of the material in the first three cantos was abandoned or redistributed in 1923, when Pound prepared the first instalment of the poem, A Draft of XVI Cantos.",
   "pages": 167,
-  "isbn": "9780811203500"
+  "isbn": "9780811203500",
+  "ddc": [
+    "811.52",
+    "818",
+    "811",
+    "811.5"
+  ],
+  "lcc": [
+    "PS-3531.00000000.O82 C28 1948",
+    "PS-3531.00000000.O8 D7 1933a",
+    "PS-3531.00000000.O82C29 1990",
+    "PS-3531.00000000.O95 D73",
+    "PS-3531.00000000 O82 C27 1964",
+    "PS-3531.00000000 O82 C27 1965",
+    "PS-3531.00000000.O82 C29 1990",
+    "PS-3531.00000000.O82 C28 Index",
+    "PZ-0003.00000000.S7783 Co",
+    "PS-3531.00000000.O82 C28 1965",
+    "PS-3531.00000000.O82 C28",
+    "PS-3531.00000000.O82 C29 1975",
+    "PS-3531.00000000.O82 C29 1998",
+    "PS-3569.00000000.T2 Co",
+    "PS-3531.00000000.O82.C24 1972",
+    "PS-3531.00000000.O82 C29 1974",
+    "PS-3531.00000000.O82 D74",
+    "PS-3531.00000000.O82 C24 1971",
+    "PS-3531.00000000.O82 C2913 1980",
+    "PS-3531.00000000.O82 A6 1970",
+    "PS-3531.00000000.O82 A17 1967",
+    "PS-3531.00000000.O82 C2915 1975",
+    "PS-3531.00000000.O82 C24 1970",
+    "PS-3531.00000000.O82 C24 1972",
+    "PS-3531.00000000.O82 C28 1954",
+    "PS-3531.00000000.O82 D7 1933",
+    "PS-3531.00000000.O82 D7 1930"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "Anniversaries",
+    "Australia. Royal Australian Navy",
+    "English poetry",
+    "Fiction",
+    "Navies",
+    "Pictorial works",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Social life and customs",
+    "Translations into Dutch",
+    "Translations into Hungarian"
+  ],
+  "ol_work_key": "/works/OL7023203W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Shadow of the Torturer",
   "author": "Gene Wolfe",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-shadow-of-the-torturer",
   "tags": [
@@ -21,5 +21,17 @@
   "subjects": [
     "Fantasy fiction"
   ],
-  "isbn": "9782207303214"
+  "isbn": "9782207303214",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52 S45 1981",
+    "PZ-0004.00000000.W85615 Sh",
+    "PS-3573.00000000.O52 Sh"
+  ],
+  "subject_facet": [
+    "Fantasy fiction"
+  ],
+  "ol_work_key": "/works/OL14871979W"
 }

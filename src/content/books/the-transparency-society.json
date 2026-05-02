@@ -19,5 +19,24 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=SUgJCgAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "HM-0661.00000000.H3613 2015",
+    "HM-0661.00000000",
+    "HM-0661.00000000.H36 2015"
+  ],
+  "subject_facet": [
+    "Freedom of information",
+    "Gesellschaft",
+    "Informationsfreiheit",
+    "Internet",
+    "Internet, social aspects",
+    "Self-disclosure",
+    "Social aspects",
+    "Social control",
+    "Soziale Kontrolle",
+    "Transparency",
+    "Transparenz"
+  ],
+  "ol_work_key": "/works/OL17799854W"
 }

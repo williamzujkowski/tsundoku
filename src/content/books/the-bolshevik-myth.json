@@ -1,7 +1,7 @@
 {
   "title": "The Bolshevik Myth",
   "author": "Alexander Berkman",
-  "category": "Biography/Memoir",
+  "category": "History",
   "priority": 2,
   "slug": "the-bolshevik-myth",
   "tags": [
@@ -25,5 +25,17 @@
   ],
   "librivox_url": "https://librivox.org/the-bolshevik-myth-by-alexander-berkman/",
   "description": "The Bolshevik Myth  is a book by Alexander Berkman describing his experiences in RSFSR from 1920 to 1922, when he saw the aftermath of the October Revolution. Written in the form of a diary, The Bolshevik Myth describes how Berkman's initial enthusiasm for the revolution faded as he became disillusioned with the Bolsheviks and their suppression of all political dissent.",
-  "isbn": "9781511684682"
+  "isbn": "9781511684682",
+  "ddc": [
+    "947.0841"
+  ],
+  "subject_facet": [
+    "Communism",
+    "Communism--Soviet Union",
+    "Memoir",
+    "Nonfiction",
+    "Soviet Union--Description and travel",
+    "Soviet Union--Economic conditions--1917-1945"
+  ],
+  "ol_work_key": "/works/OL38078272W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Strategy of Conflict",
   "author": "Thomas Schelling",
-  "category": "Security",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "strategy-of-conflict",
   "tags": [
@@ -30,5 +30,37 @@
     "Théorie des jeux",
     "Speltheorie",
     "Game theory"
-  ]
+  ],
+  "ddc": [
+    "158"
+  ],
+  "lcc": [
+    "BF-0637.00000000.N4 S3412 2006",
+    "BF-0637.00000000.N4 S3",
+    "BF-0637.00000000 N4 S3 1963",
+    "JX-4473.00000000.S322 1963"
+  ],
+  "subject_facet": [
+    "83.03 methods and techniques of economics",
+    "Bf637.n4 s3 1980",
+    "Conflicten",
+    "Deterrence (Strategy)",
+    "Diplomacy",
+    "Game theory",
+    "Games of strategy (Mathematics)",
+    "International relations",
+    "International relations--philosophy",
+    "Juegos de estrategia",
+    "Konfliktlösung",
+    "Negotiation",
+    "Négociations",
+    "Onderhandelen",
+    "Philosophy",
+    "Psicologia Aplicada",
+    "Speltheorie",
+    "Spieltheorie",
+    "Stratégie militaire",
+    "Théorie des jeux"
+  ],
+  "ol_work_key": "/works/OL2259845W"
 }

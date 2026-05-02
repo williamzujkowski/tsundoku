@@ -1,7 +1,7 @@
 {
   "title": "Orpheus Descending",
   "author": "Tennessee Williams",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "orpheus-descending",
   "tags": [
@@ -23,5 +23,20 @@
     "Musicians",
     "Man-woman relationships"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I5365 O7 1959",
+    "PS-3545.00000000.I5365 O7 1987",
+    "PS-3545.00000000.I5365 O7 1960"
+  ],
+  "subject_facet": [
+    "Drama",
+    "Drifters",
+    "Man-woman relationships",
+    "Musicians"
+  ],
+  "ol_work_key": "/works/OL12981924W"
 }

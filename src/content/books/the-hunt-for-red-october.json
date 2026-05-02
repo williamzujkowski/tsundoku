@@ -1,7 +1,7 @@
 {
   "title": "The Hunt for Red October",
   "author": "Tom Clancy",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-hunt-for-red-october",
   "tags": [
@@ -26,5 +26,54 @@
   "description": "The Hunt for Red October is the debut novel by American author Tom Clancy, first published on October 1, 1984, by the Naval Institute Press. It depicts Soviet submarine captain Marko Ramius as he seemingly goes rogue with his country's cutting-edge ballistic missile submarine Red October, and marks the first appearance of Clancy's most popular fictional character, Jack Ryan, an analyst working for the Central Intelligence Agency, as he must prove his theory that Ramius plans to defect to the United States.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/HuntForRedOctober.JPG/250px-HuntForRedOctober.JPG",
   "pages": 479,
-  "isbn": "9780945353799"
+  "isbn": "9780945353799",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.L245",
+    "PS-3553.00000000.L245 H8 1984",
+    "PS-3553.00000000.L245 H8 1985",
+    "PS-3553.00000000.L24/",
+    "PS-3553.00000000.L245H8 1984",
+    "PS-3553.00000000.L245 H814 1986",
+    "PS-3553.00000000.L245H8 2013",
+    "PS-3553.00000000.L245 H8 1990",
+    "PS-3553.00000000.L245 H8 2013"
+  ],
+  "subject_facet": [
+    "Atom-Unterseeboot",
+    "Defectors",
+    "Fiction",
+    "Fiction, espionage",
+    "Fiction, media tie-in",
+    "Fiction, suspense",
+    "Fiction, thrillers, espionage",
+    "Intelligence officers",
+    "Intelligence service",
+    "Intelligence service in fiction",
+    "Jack Ryan (Fictional character)",
+    "Jack Ryan (Fictitious character)",
+    "Large type books",
+    "Marine",
+    "Nuclear submarines",
+    "Ryan, jack (fictitious character), fiction",
+    "Soviet Union",
+    "Soviet Union. Voenno-Morskoĭ Flot",
+    "Soviet Union. in fiction",
+    "Spy stories",
+    "Sr. Ryan, Jack (Fictitious character)",
+    "Submarine forces",
+    "Submarines",
+    "Submarines (Ships)",
+    "Thriller",
+    "United States",
+    "United States. Navy",
+    "United States. in fiction",
+    "United states, fiction",
+    "collectionid:tcjr",
+    "Überläufer"
+  ],
+  "first_published": 1984,
+  "ol_work_key": "/works/OL159452W"
 }

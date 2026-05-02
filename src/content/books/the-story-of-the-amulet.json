@@ -1,7 +1,7 @@
 {
   "title": "The Story of the Amulet",
   "author": "Edith Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-story-of-the-amulet",
   "tags": [
@@ -30,5 +30,49 @@
     "Juvenile fiction"
   ],
   "librivox_url": "https://librivox.org/the-story-of-the-amulet-by-e-nesbit/",
-  "isbn": "9781974532995"
+  "isbn": "9781974532995",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N43777 S7 1987",
+    "PZ-0007.00000000.B61 St 1985",
+    "PZ-0008.00000000.B612 S",
+    "PZ-0008.00000000.B612 S5",
+    "PZ-0007.00000000",
+    "PZ-0007.00000000.N43777Stk 2018",
+    "PZ-0008.00000000.B612 S5 1996"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers, fiction",
+    "Brothers and sisters",
+    "Brothers and sisters -- Juvenile fiction",
+    "Child and youth fiction",
+    "Children's fiction",
+    "Classic Literature",
+    "England -- Juvenile fiction",
+    "England, fiction",
+    "Fairies",
+    "Fairy tales",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fantasy literature",
+    "Fiction",
+    "Fiction, fantasy, collections & anthologies",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Juvenile Literature",
+    "Juvenile fiction",
+    "Literature",
+    "Litterature fantastique",
+    "Mystery and detective stories",
+    "Roman pour la jeunesse",
+    "Siblings, fiction",
+    "Time travel",
+    "Translations into Hebrew",
+    "Wishes",
+    "Wishes -- Juvenile fiction"
+  ],
+  "ol_work_key": "/works/OL407476W"
 }

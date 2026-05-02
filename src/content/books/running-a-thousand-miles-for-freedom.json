@@ -1,7 +1,7 @@
 {
   "title": "Running a Thousand Miles for Freedom",
   "author": "William Craft, Ellen Craft",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "running-a-thousand-miles-for-freedom",
   "tags": [
@@ -32,5 +32,38 @@
     "Nonfiction",
     "Slaves",
     "Slaves' writings, American"
-  ]
+  ],
+  "ddc": [
+    "306.362092273",
+    "301.45220973"
+  ],
+  "lcc": [
+    "E--0450.00000000.C8 2014",
+    "E--0450.00000000.C8",
+    "E--0450.00000000.C73 2013eb",
+    "E--0444.00000000.C73 1969",
+    "E--0450.00000000.C8 1999b",
+    "E--0450.00000000.C8 1999"
+  ],
+  "subject_facet": [
+    "African Americans",
+    "African americans, biography",
+    "Biographies",
+    "Biography",
+    "Biography & Autobiography",
+    "Enslaved persons' writings",
+    "Escapes",
+    "Esclavage",
+    "Esclaves fugitifs",
+    "Fugitive slaves",
+    "Fugitive slaves, united states",
+    "Georgia, biography",
+    "History",
+    "Nonfiction",
+    "Slavery",
+    "Slaves",
+    "Slaves' writings",
+    "Slaves' writings, American"
+  ],
+  "ol_work_key": "/works/OL1943957W"
 }

@@ -29,5 +29,42 @@
   ],
   "description": "The Codebreakers – The Story of Secret Writing (ISBN 0-684-83130-9) is a book by David Kahn, published in 1967, comprehensively chronicling the history of cryptography from ancient Egypt to the time of its writing. The United States government attempted to have the book altered before publication, and it succeeded in part.",
   "pages": 1164,
-  "isbn": "9780297767855"
+  "isbn": "9780297767855",
+  "ddc": [
+    "652.8",
+    "001.5436",
+    "358.24"
+  ],
+  "lcc": [
+    "Z--0103.00000000.K28 1967",
+    "Z--0103.00000000.K25 1996",
+    "Z--0103.00000000.K28 1996",
+    "Z--0103.00000000",
+    "Z--0103.00000000.K28",
+    "PC-5066.00000000.M5",
+    "Z--0103.00000000.K28 1996eb",
+    "Z--0103.00000000.K28 1974"
+  ],
+  "subject_facet": [
+    "652/.8",
+    "BUSINESS & ECONOMICS",
+    "Business Writing",
+    "Cryptage",
+    "Cryptanalysis",
+    "Cryptographers",
+    "Cryptographie",
+    "Cryptography",
+    "Cryptography--history",
+    "English language",
+    "Geheimschrift",
+    "General",
+    "Grammar",
+    "Histoire",
+    "History",
+    "Kryptologie",
+    "Long Now Manual for Civilization",
+    "Portuguese language",
+    "Z103 .k28 1996"
+  ],
+  "ol_work_key": "/works/OL2543107W"
 }

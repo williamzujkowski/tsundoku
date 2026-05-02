@@ -1,7 +1,7 @@
 {
   "title": "The Mahabharata (including the Bhagavad Gita)",
   "author": "Vyasa (attributed)",
-  "category": "Non-Western Literature",
+  "category": "Religion",
   "priority": 1,
   "slug": "the-mahabharata-including-the-bhagavad-gita",
   "tags": [],
@@ -17,5 +17,20 @@
   "subjects": [
     "Social Science"
   ],
-  "google_books_url": "https://play.google.com/store/books/details?id=5cPKAgAAQBAJ&source=gbs_api"
+  "google_books_url": "https://play.google.com/store/books/details?id=5cPKAgAAQBAJ&source=gbs_api",
+  "lcc": [
+    "BL-1138.62000000.T5 2014",
+    "BL-1138.62000000"
+  ],
+  "subject_facet": [
+    "Anugītā",
+    "Bhagavadgita",
+    "Bhagavadgītā",
+    "Hindouisme",
+    "Hinduism",
+    "Livres sacrés",
+    "Sacred books",
+    "Sanatsujātīya"
+  ],
+  "ol_work_key": "/works/OL8080519W"
 }

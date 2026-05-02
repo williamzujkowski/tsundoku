@@ -1,7 +1,7 @@
 {
   "title": "Surreal Numbers",
   "author": "Donald E. Knuth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "surreal-numbers",
   "tags": [
@@ -22,5 +22,18 @@
     "Number theory",
     "Surreal numbers",
     "Mathematics"
-  ]
+  ],
+  "ddc": [
+    "512.7"
+  ],
+  "lcc": [
+    "QA-0241.00000000.K668 1974",
+    "QA-0241.00000000.K688"
+  ],
+  "subject_facet": [
+    "Mathematics",
+    "Number theory",
+    "Surreal numbers"
+  ],
+  "ol_work_key": "/works/OL1915643W"
 }

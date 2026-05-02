@@ -1,7 +1,7 @@
 {
   "title": "The City of Brass",
   "author": "S. A. Chakraborty",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-city-of-brass",
   "tags": [
@@ -29,5 +29,28 @@
     "Jinn",
     "Fiction",
     "New York Times reviewed"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PZ-0007.10000000.C47 Ci 2018",
+    "PS-3603.00000000.H33555",
+    "PS-3603.00000000.H33555C58",
+    "PS-3603.00000000.H33555 C58 2018",
+    "PS-3603.00000000.H33555 C58 2017"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical",
+    "Historical Fantasy",
+    "Imaginary places",
+    "Imaginary places, fiction",
+    "Jinn",
+    "Middle Eastern Fantasy",
+    "New York Times reviewed"
+  ],
+  "ol_work_key": "/works/OL19623241W"
 }

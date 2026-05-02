@@ -1,7 +1,7 @@
 {
   "title": "Room 13",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "room-13",
   "tags": [
@@ -26,5 +26,21 @@
   "gutenberg_id": 76168,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/76168",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/76168.html.images",
-  "isbn": "9798748109857"
+  "isbn": "9798748109857",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6045.00000000.A327 Ro5",
+    "PE-1119.00000000",
+    "PZ-0003.00000000.W1525 Ro5"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Detective and mystery stories, English",
+    "Fiction",
+    "Fiction, mystery & detective, general"
+  ],
+  "ol_work_key": "/works/OL1517919W"
 }

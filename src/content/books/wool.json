@@ -1,7 +1,7 @@
 {
   "title": "Wool",
   "author": "Hugh Howey",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "wool",
   "tags": [
@@ -29,5 +29,38 @@
     "Fiction",
     "Fiction, science fiction, general",
     "Fiction, dystopian"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3608.00000000",
+    "PS-3608.00000000.O9566 W66 2013c",
+    "PS-3608.00000000.O9566W66 2020",
+    "PS-3608.00000000.O9566 W66 2013b",
+    "PS-3608.00000000.O9566 W66 2013"
+  ],
+  "subject_facet": [
+    "American fiction",
+    "Apocalyptic",
+    "Choice",
+    "Dystopia",
+    "Dystopias",
+    "Fiction",
+    "Fiction, dystopian",
+    "Fiction, science fiction, general",
+    "Large type books",
+    "Long Now Manual for Civilization",
+    "New York Times bestseller",
+    "Post Apocalyptic",
+    "Revolutions",
+    "Science Fiction",
+    "Scifi",
+    "Sheriffs",
+    "Subterranean Civilization",
+    "Truth",
+    "Underground areas",
+    "nyt:trade-fiction-paperback=2013-03-31"
+  ],
+  "ol_work_key": "/works/OL16800608W"
 }

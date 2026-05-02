@@ -1,7 +1,7 @@
 {
   "title": "Wicked",
   "author": "Gregory Maguire",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "wicked",
   "tags": [
@@ -19,5 +19,53 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "823.92",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.A3535 W5318 2007",
+    "PS-3563.00000000.A3535W5 2005",
+    "PS-3563.00000000.A3535 W5318 2007b",
+    "PS-3563.00000000.A3535 W5 2000",
+    "PS-3563.00000000.A3535W5 2006",
+    "PS-3563.00000000.A3535W5 1995",
+    "PS-3563.00000000.A3535 W5 2004",
+    "PS-3563.00000000.A3535 W5 1995",
+    "PS-3563.00000000.A3535 W5 2007",
+    "PS-3563.00000000.A3535W5 2024",
+    "PS-3563.00000000.A3535 W5 1996"
+  ],
+  "subject_facet": [
+    "Brujas",
+    "Classic Literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fairy tales, folk tales, legends & mythology",
+    "Fiction, fantasy, contemporary",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Large type books",
+    "Love",
+    "New York Times bestseller",
+    "Novela",
+    "Novela fantástica",
+    "Occult fiction",
+    "Oz (Imaginary place)",
+    "Oz (Lugar imaginario)",
+    "Oz (imaginary place), fiction",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 9",
+    "Spanish language materials",
+    "Witches",
+    "feminist retelling",
+    "nyt:e-book-fiction=2013-05-19",
+    "nyt:trade-fiction-paperback=2008-11-02"
+  ],
+  "ol_work_key": "/works/OL66218W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "On the Postcolony",
   "author": "Achille Mbembe",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "on-the-postcolony",
   "tags": [],
@@ -18,5 +18,47 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=Z0HIYUlnDW4C&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "302.3096"
+  ],
+  "lcc": [
+    "HN-0780.00000000.Z9 P66413 2015",
+    "HN-0780.00000000.Z9 P66413 2001",
+    "HN-0780.00000000.Z9 P66413 2001eb",
+    "JQ-1879.00000000.A15 M36 2000"
+  ],
+  "subject_facet": [
+    "302.3/096",
+    "African identity",
+    "BUSINESS & ECONOMICS",
+    "Colonial influence",
+    "Entwicklung",
+    "FAMILY & RELATIONSHIPS",
+    "General",
+    "Gesellschaft",
+    "HISTORY",
+    "Hn780.z9 p66413 2001",
+    "Identity",
+    "Images",
+    "Interpersonal Relations",
+    "Negotiating",
+    "Politics and government",
+    "Post-colonialism",
+    "Postcolonialism",
+    "Postcolonialism--africa",
+    "Postkolonialism",
+    "Postkolonialisme",
+    "Postkolonialismus",
+    "Power",
+    "Power (Social sciences)",
+    "Power (social sciences)--africa",
+    "Social conditions",
+    "Social theory",
+    "State",
+    "Subjectivity",
+    "Subjektivität",
+    "Subsaharan Africa"
+  ],
+  "ol_work_key": "/works/OL2537387W"
 }

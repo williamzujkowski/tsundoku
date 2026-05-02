@@ -1,7 +1,7 @@
 {
   "title": "The Obelisk Gate",
   "author": "N. K. Jemisin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-obelisk-gate",
   "tags": [
@@ -29,5 +29,39 @@
     "award:hugo_award=novel",
     "Obelisks",
     "Enemies"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3610.00000000.E46 O24 2016",
+    "PS-3610.00000000.E46O24 2016",
+    "PS-3610.00000000.E46",
+    "PS-3610.00000000.E46 O24 2016eb"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "End of the world",
+    "Enemies",
+    "Ennemis",
+    "Epic",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fin du monde",
+    "General",
+    "Hugo Award Winner",
+    "Long now manual for civilization",
+    "Mother-daughter relationship",
+    "Mothers and daughters",
+    "Mères et filles",
+    "Obelisks",
+    "Obélisques",
+    "Psychokinesis",
+    "Romans, nouvelles",
+    "award:hugo_award=2017",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL17842279W"
 }

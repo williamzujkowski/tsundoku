@@ -1,7 +1,7 @@
 {
   "title": "Yoga Sutras",
   "author": "Patanjali",
-  "category": "Non-Western Philosophy",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "yoga-sutras",
   "tags": [],
@@ -18,5 +18,16 @@
   "copyright_status": "public_domain",
   "subjects": [
     "Yoga"
-  ]
+  ],
+  "ddc": [
+    "181.452"
+  ],
+  "lcc": [
+    "B--0132.00000000.Y6 P2787 1990"
+  ],
+  "subject_facet": [
+    "Yoga",
+    "Yoga, Rāja"
+  ],
+  "ol_work_key": "/works/OL3264168W"
 }

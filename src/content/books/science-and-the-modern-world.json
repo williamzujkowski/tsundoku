@@ -1,7 +1,7 @@
 {
   "title": "Science and the Modern World",
   "author": "Alfred North Whitehead",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 2,
   "slug": "science-and-the-modern-world",
   "tags": [
@@ -30,5 +30,43 @@
   ],
   "description": "The progress of civilisation is not wholly a uniform drift towards better things.",
   "pages": 265,
-  "isbn": "9780829019711"
+  "isbn": "9780829019711",
+  "ddc": [
+    "504",
+    "500",
+    "501"
+  ],
+  "lcc": [
+    "Q--0175.00000000 W65 1938",
+    "Q--0175.00000000.W65 1997",
+    "Q--0175.00000000",
+    "Q--0175.00000000 W65 1927",
+    "Q--0175.00000000 W65 1932",
+    "Q--0174.80000000",
+    "Q--0171.00000000.W55 1979",
+    "Q--0171.00000000.W55 1925",
+    "Q--0175.00000000.W65 1967",
+    "Q--0171.00000000.W45 1948b",
+    "Q--0171.00000000.W551 1985",
+    "Q--0171.00000000.W55 1953"
+  ],
+  "subject_facet": [
+    "Addresses, essays, lectures",
+    "Cosmology",
+    "Essays",
+    "Filosofie",
+    "Godsdienst",
+    "History",
+    "Kosmologie",
+    "Maatschappij",
+    "Naturwissenschaften",
+    "Natuurwetenschappen",
+    "Philosophy",
+    "Science",
+    "Social aspects",
+    "Theology",
+    "Wereldbeschouwing",
+    "Wetenschappen"
+  ],
+  "ol_work_key": "/works/OL1133704W"
 }

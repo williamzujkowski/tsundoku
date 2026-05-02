@@ -1,7 +1,7 @@
 {
   "title": "The Devil to Pay in the Backlands",
   "author": "João Guimarães Rosa",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "the-devil-to-pay-in-the-backlands",
   "tags": [
@@ -20,5 +20,20 @@
   "google_books_url": "http://books.google.com/books?id=osabhyIbqHkC&dq=The+Devil+to+Pay+in+the+Backlands+Jo%C3%A3o+Guimar%C3%A3es+Rosa&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "description": "Lively reminiscences of bandit warfare in the sertao, the still primitive Brazilian back country, told by a wise, retired outlaw chief."
+  "description": "Lively reminiscences of bandit warfare in the sertao, the still primitive Brazilian back country, told by a wise, retired outlaw chief.",
+  "ddc": [
+    "981.06"
+  ],
+  "lcc": [
+    "F--2510.00000000.I497 2007",
+    "F--2510.00000000.I497 2005",
+    "F--5000.00000000"
+  ],
+  "subject_facet": [
+    "Brazil, civilization",
+    "Brazil, politics and government",
+    "Civilization",
+    "Politics and government"
+  ],
+  "ol_work_key": "/works/OL19169585W"
 }

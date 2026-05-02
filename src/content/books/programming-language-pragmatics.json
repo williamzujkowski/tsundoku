@@ -1,7 +1,7 @@
 {
   "title": "Programming Language Pragmatics",
   "author": "Michael Scott",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "programming-language-pragmatics",
   "tags": [
@@ -20,5 +20,27 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Programming languages (Electronic computers)"
-  ]
+  ],
+  "lcc": [
+    "QA-0076.70000000.S38 2000",
+    "QA-0076.70000000"
+  ],
+  "subject_facet": [
+    "Computer science",
+    "General",
+    "Interactive & multimedia",
+    "Llenguatges de programacio .",
+    "Llenguatges de programació",
+    "Llenguatges de programació",
+    "Professional, career & trade -> computer science -> computer science",
+    "Professional, career & trade -> computer science -> general",
+    "Professional, career & trade -> computer science -> general interest",
+    "Professional, career & trade -> computer science -> multimedia",
+    "Professional, career & trade -> computer science -> programming languages (jr/sr)",
+    "Professional, career & trade -> computer science -> system administration",
+    "Professional, career & trade -> engineering -> software engineering",
+    "Programming languages (electronic computers)",
+    "Компьютеры//Программирование"
+  ],
+  "ol_work_key": "/works/OL7941473W"
 }

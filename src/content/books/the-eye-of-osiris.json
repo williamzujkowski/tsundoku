@@ -1,7 +1,7 @@
 {
   "title": "The Eye of Osiris",
   "author": "R. Austin Freeman",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-eye-of-osiris",
   "tags": [
@@ -33,5 +33,30 @@
   "gutenberg_id": 24201,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/24201",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/24201.html.images",
-  "librivox_url": "https://librivox.org/the-eye-of-osiris-by-r-austin-freeman/"
+  "librivox_url": "https://librivox.org/the-eye-of-osiris-by-r-austin-freeman/",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.F8806 E",
+    "PR-6011.00000000.R43 E"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "Fiction, romance, general",
+    "Fiction, romance, suspense",
+    "Fiction, thrillers, suspense",
+    "Large type books",
+    "London (england), fiction",
+    "Missing persons",
+    "Mummies",
+    "Physicians, fiction",
+    "Private investigators",
+    "Thorndyke, doctor (fictitious character), fiction",
+    "Thriller"
+  ],
+  "ol_work_key": "/works/OL13150029W"
 }

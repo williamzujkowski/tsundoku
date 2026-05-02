@@ -1,7 +1,7 @@
 {
   "title": "Quarantine",
   "author": "Greg Egan",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "quarantine",
   "tags": [
@@ -22,5 +22,19 @@
     "Fiction, science fiction, general",
     "Private investigators, fiction",
     "Australian Science fiction"
-  ]
+  ],
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-9619.30000000.E35 Q33 2008",
+    "PR-9619.30000000.E35Q37 2014",
+    "PR-9619.30000000.E35"
+  ],
+  "subject_facet": [
+    "Australian Science fiction",
+    "Fiction, science fiction, general",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL115337W"
 }

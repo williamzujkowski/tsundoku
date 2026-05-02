@@ -1,7 +1,7 @@
 {
   "title": "The Scar",
   "author": "China Miéville",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-scar",
   "tags": [
@@ -30,5 +30,29 @@
     "Prisoners -- Fiction",
     "Prison hulks -- Fiction",
     "Prisonniers -- Romans, nouvelles, etc"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.I265S28 2002",
+    "PR-6063.00000000.I265 S28 2004",
+    "PR-6063.00000000.I265 S28 2002",
+    "PR-6063.00000000.I265 S33 2002"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Navires-prisons -- Romans, nouvelles, etc",
+    "Presos -- Novela",
+    "Prison hulks",
+    "Prison hulks -- Fiction",
+    "Prisoners",
+    "Prisoners -- Fiction",
+    "Prisonniers -- Romans, nouvelles, etc",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL8718787W"
 }

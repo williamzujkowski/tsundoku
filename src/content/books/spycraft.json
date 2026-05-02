@@ -1,7 +1,7 @@
 {
   "title": "Spycraft",
   "author": "Robert Wallace & Keith Melton",
-  "category": "Security",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "spycraft",
   "tags": [
@@ -28,5 +28,21 @@
     "Intelligence service",
     "United States. Central Intelligence Agency. Directorate of Science and Technology",
     "United States"
-  ]
+  ],
+  "ddc": [
+    "327.1273"
+  ],
+  "lcc": [
+    "JK-0468.00000000.I6 W35 2008"
+  ],
+  "subject_facet": [
+    "History",
+    "Intelligence service",
+    "Military",
+    "Nonfiction",
+    "United States",
+    "United States. -- Central Intelligence Agency. -- Directorate of Science and Technology -- History",
+    "United States. Central Intelligence Agency. Directorate of Science and Technology"
+  ],
+  "ol_work_key": "/works/OL219822W"
 }

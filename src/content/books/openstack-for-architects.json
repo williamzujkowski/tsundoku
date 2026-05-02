@@ -1,7 +1,7 @@
 {
   "title": "OpenStack for Architects",
   "author": "Ben Silverman, Michael Solberg",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "openstack-for-architects",
   "tags": [
@@ -20,5 +20,13 @@
     "Open source software",
     "Web services"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.58500000.S6 2017"
+  ],
+  "subject_facet": [
+    "Open source software",
+    "Web services"
+  ],
+  "ol_work_key": "/works/OL24206917W"
 }

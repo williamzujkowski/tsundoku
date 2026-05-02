@@ -1,7 +1,7 @@
 {
   "title": "The House on the Cliff",
   "author": "Franklin W. Dixon",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-house-on-the-cliff",
   "tags": [
@@ -30,5 +30,37 @@
     "4th grade",
     "Frank Hardy (Fictitious character)"
   ],
-  "librivox_url": "https://librivox.org/the-house-on-the-cliff-by-franklin-w-dixon/"
+  "librivox_url": "https://librivox.org/the-house-on-the-cliff-by-franklin-w-dixon/",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.D644 Hq 1991",
+    "PZ-0007.00000000.D644 Hq",
+    "PZ-0007.00000000.D644Hq 2016",
+    "PZ-0007.00000000.D644 Hq 1927x",
+    "PZ-0007.00000000.D644 Hq 1991b"
+  ],
+  "subject_facet": [
+    "4th grade",
+    "Children's fiction",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, erotica, general",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "Frank Hardy (Fictitious character)",
+    "Hardy Boys (Fictitious characters)",
+    "Hardy boys (fictitious characters), fiction",
+    "Joe Hardy (Fictitious character)",
+    "Juvenile Fiction",
+    "Mystery",
+    "Mystery and detective stories",
+    "Reading list",
+    "St. Marks",
+    "collectionID:HBMS1",
+    "series:HardyBoys"
+  ],
+  "ol_work_key": "/works/OL47927W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Spinning Silver",
   "author": "Naomi Novik",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "spinning-silver",
   "tags": [
@@ -29,5 +29,30 @@
     "nyt:combined-print-and-e-book-fiction=2018-07-29",
     "New York Times bestseller",
     "New York Times reviewed"
-  ]
+  ],
+  "lcc": [
+    "PS-3614.00000000.O93 S65 2018"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "Adaptations",
+    "Epic",
+    "FICTION",
+    "Fairies",
+    "Fairy Tales",
+    "Fairy Tales, Folk Tales, Legends & Mythology",
+    "Fairy tales",
+    "Fantasy",
+    "Fantasy fiction",
+    "Female friendship",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Legends",
+    "Magic",
+    "Moneylenders",
+    "Mythology",
+    "Quests (Expeditions)",
+    "Rumpelstiltskin (Folk tale)"
+  ],
+  "ol_work_key": "/works/OL28048052W"
 }

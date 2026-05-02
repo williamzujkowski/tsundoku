@@ -1,7 +1,7 @@
 {
   "title": "The Art of Computer Programming, Volume 4A",
   "author": "Donald E. Knuth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "the-art-of-computer-programming-volume-4a",
   "tags": [
@@ -24,5 +24,27 @@
     "Long Now Manual for Civilization"
   ],
   "pages": 790,
-  "isbn": "9780201896855"
+  "isbn": "9780201896855",
+  "ddc": [
+    "651.8",
+    "001.642",
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.60000000.K64 2005",
+    "QA-0076.60000000.K64",
+    "QA-0076.60000000.K64 1997",
+    "QA-0076.50000000.K57",
+    "QA-0076.60000000"
+  ],
+  "subject_facet": [
+    "005.1",
+    "Computer algorithms",
+    "Computer programming",
+    "Electronic digital computers",
+    "Long Now Manual for Civilization",
+    "Programming",
+    "Qa76.6 .k64 1997"
+  ],
+  "ol_work_key": "/works/OL257263W"
 }

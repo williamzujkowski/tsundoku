@@ -1,7 +1,7 @@
 {
   "title": "The Drowned World",
   "author": "J.G. Ballard",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-drowned-world",
   "tags": [
@@ -29,5 +29,27 @@
   ],
   "description": "The Drowned World (1962), by J. G. Ballard, is a British science fiction novel that depicts a post-apocalyptic future in which global warming, caused by increased solar radiation, has rendered uninhabitable much of the surface of planet Earth. The story follows a team of scientists researching environmental developments in the flooded city of London.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/TheDrownedWorld%281stEd%29.jpg",
-  "isbn": "9780575002784"
+  "isbn": "9780575002784",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000 A63 D7 1963",
+    "PR-6052.00000000.A46",
+    "PR-6052.00000000.A46 D76 1999",
+    "PR-6052.00000000.A46 D717 2001"
+  ],
+  "subject_facet": [
+    "Dystopia",
+    "English Science fiction",
+    "English fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Global warming",
+    "Natural disasters",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL2745976W"
 }

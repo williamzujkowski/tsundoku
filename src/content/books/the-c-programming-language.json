@@ -1,7 +1,7 @@
 {
   "title": "The C Programming Language",
   "author": "Brian W. Kernighan and Dennis M. Ritchie",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "the-c-programming-language",
   "tags": [
@@ -19,5 +19,45 @@
   "google_books_url": "http://books.google.com/books?id=HHhGAAAAYAAJ&dq=The+C+Programming+Language+Brian+W.+Kernighan+and+Dennis+M.+Ritchie&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "isbn": "9783446154971"
+  "isbn": "9783446154971",
+  "ddc": [
+    "001.6424",
+    "005.133"
+  ],
+  "lcc": [
+    "QA-0076.73000000.C15 .K4718 1991",
+    "QA-0076.73000000.C15 K47 1988",
+    "QA-0076.73000000.C15 K47",
+    "QA-0076.73000000.C15",
+    "QA-0076.73000000.C15K47 1988",
+    "QA-0076.73000000 C15K4714 1997",
+    "QA-0076.73000000.C15 K47125 2004",
+    "QA-0076.73000000.C15 K4714"
+  ],
+  "subject_facet": [
+    "C",
+    "C (Computer program language)",
+    "C (LENGUAJE DE PROGRAMACION PARA COMPUTADORES)",
+    "C (Langage de programmation)",
+    "C (Lenguaje de programación de computadora)",
+    "C (Lenguaje de programación de computadores)",
+    "C (Lenguaje de programación)",
+    "C (je ·zyk programowania)",
+    "C (programmeertaal)",
+    "C++ (Computer program language)",
+    "C.",
+    "Computers",
+    "Langage C.",
+    "Lenguaje de programación (Computadoras electrónicas",
+    "Lenguajes de programación",
+    "Linguagem De Programacao (Outras)",
+    "Programmation langage C.",
+    "Programming Languages",
+    "Software",
+    "Structure programme",
+    "UNIX",
+    "open_syllabus_project",
+    "programming"
+  ],
+  "ol_work_key": "/works/OL4617640W"
 }

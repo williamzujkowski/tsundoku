@@ -1,7 +1,7 @@
 {
   "title": "The Chinese Parrot",
   "author": "Earl Derr Biggers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-chinese-parrot",
   "tags": [
@@ -25,5 +25,9 @@
     "California, fiction",
     "Hawaii, fiction"
   ],
-  "pages": 316
+  "pages": 316,
+  "lcc": [
+    "PS-3503.00000000.I54 C5 1942"
+  ],
+  "ol_work_key": "/works/OL37612870W"
 }

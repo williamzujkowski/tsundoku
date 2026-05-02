@@ -1,7 +1,7 @@
 {
   "title": "Rocannon's World",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "rocannons-world",
   "tags": [
@@ -22,5 +22,23 @@
     "Fiction, science fiction, general",
     "Science fiction"
   ],
-  "isbn": "9780441732944"
+  "isbn": "9780441732944",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42;",
+    "PS-3562.00000000.E42 Ro 1977",
+    "PZ-0004.00000000.L518 Ro 1977",
+    "PZ-0004.00000000.L518 Ro4",
+    "PZ-0004.00000000.L518.Ro4",
+    "PS-3562.00000000.E42",
+    "PS-3562.00000000.E42 Ro4"
+  ],
+  "subject_facet": [
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL59850W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Box Man",
   "author": "Kobo Abe",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-box-man",
   "tags": [],
@@ -21,5 +21,15 @@
     "Homelessness",
     "Fiction"
   ],
-  "isbn": "9780375726514"
+  "isbn": "9780375726514",
+  "lcc": [
+    "PL-0845.00000000.B4 H313 2001"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, psychological",
+    "Homelessness",
+    "Near and far eastern fiction (fictional works by one author)"
+  ],
+  "ol_work_key": "/works/OL8037381W"
 }

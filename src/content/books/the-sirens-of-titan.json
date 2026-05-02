@@ -1,7 +1,7 @@
 {
   "title": "The Sirens of Titan",
   "author": "Kurt Vonnegut",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-sirens-of-titan",
   "tags": [
@@ -29,5 +29,33 @@
     "Science fiction",
     "American fiction (fictional works by one author)",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O243",
+    "PS-3572.00000000.O5 S57 1959",
+    "PS-3572.00000000.O5 Si4",
+    "PS-3572.00000000.O5",
+    "PZ-0004.00000000.V948 Si6",
+    "PZ-0004.00000000.V948 Si2",
+    "PZ-0004.00000000.V948 Si4",
+    "PS-3572.00000000.O5 Si6",
+    "PS-3572.00000000.O5 S57 2006",
+    "PS-3572.00000000 O65 S37 1970",
+    "PS-3572.00000000.O5 S54 1985",
+    "PS-3572.00000000.O5 Si2"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Ciencia-ficción",
+    "Classic Literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Mystery",
+    "Science Fiction & Fantasy",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL98485W"
 }

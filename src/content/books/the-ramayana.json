@@ -1,7 +1,7 @@
 {
   "title": "The Ramayana",
   "author": "Valmiki (attributed)",
-  "category": "Non-Western Literature",
+  "category": "Religion",
   "priority": 1,
   "slug": "the-ramayana",
   "tags": [],
@@ -15,5 +15,15 @@
   "description": "The Ramayana, also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a smriti text from ancient India, one of the two important epics of Hinduism known as the Itihasas, the other being the Mahabharata. The epic narrates the life of Rama, the seventh avatar of the Hindu deity Vishnu, who was a prince of Ayodhya in the kingdom of Kosala.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png/330px-R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png",
   "pages": 946,
-  "isbn": "9788171102822"
+  "isbn": "9788171102822",
+  "lcc": [
+    "BL-1225.00000000.R32 A64 2006",
+    "BL-1225.00000000.R32 A6213 2006"
+  ],
+  "subject_facet": [
+    "Prayers and devotions",
+    "Rāma (Hindu deity)"
+  ],
+  "first_published": 2006,
+  "ol_work_key": "/works/OL10230554W"
 }

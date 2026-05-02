@@ -1,7 +1,7 @@
 {
   "title": "The Eye of the World",
   "author": "Robert Jordan",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-eye-of-the-world",
   "tags": [
@@ -26,5 +26,45 @@
   "description": "The Eye of the World is a high fantasy novel by American writer Robert Jordan and the first book in The Wheel of Time series. Published by Tor Books on January 15, 1990, it was initially released as a large paperback. The original unabridged audiobook is narrated by Michael Kramer and Kate Reading, with a later unabridged edition read by Rosamund Pike.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/WoT01_TheEyeOfTheWorld.jpg/250px-WoT01_TheEyeOfTheWorld.jpg",
   "pages": 782,
-  "isbn": "9781250832375"
+  "isbn": "9781250832375",
+  "ddc": [
+    "813.54",
+    "823.914"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617 E94 1990",
+    "PS-3560.00000000.O7617",
+    "PS-3560.00000000.O7617E94 2021",
+    "PS-3560.00000000.O7617E94 1990",
+    "PS-3560.00000000.O7617 E94 2012",
+    "PS-3560.00000000.O7617E94 2023",
+    "PS-3560.00000000.O7617E94 2014",
+    "PS-3560.00000000.O7617E94 2012"
+  ],
+  "subject_facet": [
+    "American Fantasy",
+    "American literature",
+    "Children's fiction",
+    "Children's stories",
+    "Comic books, strips",
+    "Comics & graphic novels, fantasy",
+    "Fantasy",
+    "Fantasy .",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Monsters",
+    "New York Times bestseller",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction",
+    "Reader recommended, 2001-02",
+    "Science fiction",
+    "al'Thor Rand (Fictitious character)",
+    "nyt:hardcover-graphic-books=2013-02-17",
+    "series:The Wheel of Time"
+  ],
+  "first_published": 1990,
+  "ol_work_key": "/works/OL7924103W"
 }

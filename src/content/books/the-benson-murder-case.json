@@ -1,7 +1,7 @@
 {
   "title": "The Benson Murder Case",
   "author": "S. S. Van Dine",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-benson-murder-case",
   "tags": [
@@ -29,5 +29,29 @@
   ],
   "gutenberg_id": 70634,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/70634",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70634.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70634.html.images",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3545.00000000.R846B46 2018",
+    "PS-3545.00000000.R846 B4 1945",
+    "PS-3545.00000000.R846 Be 1980",
+    "PZ-0003.00000000.W9384 Be 1980",
+    "PZ-0003.00000000.V2865 Be",
+    "PS-3545.00000000.R846 B46 1926",
+    "PS-3545.00000000.R846 Be",
+    "PZ-0003.00000000.W9384 Be"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction in English",
+    "Fiction, mystery & detective, general",
+    "New york (n.y.), fiction",
+    "Philo Vance (Fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Vance, philo (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL15133991W"
 }

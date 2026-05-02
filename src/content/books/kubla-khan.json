@@ -1,7 +1,7 @@
 {
   "title": "Kubla Khan",
   "author": "Samuel Taylor Coleridge",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "kubla-khan",
   "tags": [
@@ -49,5 +49,6 @@
     "Specimens",
     "Toy and movable books"
   ],
-  "ol_work_key": "/works/OL26120W"
+  "ol_work_key": "/works/OL26120W",
+  "pages": 30
 }

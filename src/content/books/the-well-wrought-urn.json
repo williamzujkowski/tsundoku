@@ -1,7 +1,7 @@
 {
   "title": "The Well Wrought Urn",
   "author": "Cleanth Brooks",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-well-wrought-urn",
   "tags": [
@@ -23,5 +23,25 @@
     "English poetry",
     "Poetry",
     "English poetry, history and criticism"
-  ]
+  ],
+  "ddc": [
+    "821",
+    "821.009",
+    "821.04",
+    "821.09"
+  ],
+  "lcc": [
+    "PR-0502.00000000 B7 1947",
+    "PR-0502.00000000",
+    "PR-0502.00000000.B716",
+    "PR-0502.00000000.B7 1968",
+    "PR-0502.00000000.B7"
+  ],
+  "subject_facet": [
+    "English poetry",
+    "History and criticism",
+    "Poetics",
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL1939473W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Blade Itself",
   "author": "Joe Abercrombie",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-blade-itself",
   "tags": [
@@ -23,5 +23,23 @@
     "Fantasy fiction",
     "Fantasy",
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6101.00000000.B49B57 2015",
+    "PR-6101.00000000.B49 B57 2007",
+    "PR-6101.00000000.B49",
+    "PR-6101.00000000.B49 B53 2006",
+    "PR-6101.00000000.B49 B57 2015",
+    "PR-6101.00000000"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general"
+  ],
+  "ol_work_key": "/works/OL8400950W"
 }

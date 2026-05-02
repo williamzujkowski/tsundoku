@@ -1,7 +1,7 @@
 {
   "title": "The Poetics of Space",
   "author": "Gaston Bachelard",
-  "category": "Poetry",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "the-poetics-of-space",
   "tags": [
@@ -29,5 +29,18 @@
     "Ruimte (algemeen)",
     "Gedichten",
     "Verbeelding"
-  ]
+  ],
+  "ddc": [
+    "114"
+  ],
+  "lcc": [
+    "B--2430.00000000.B253 P6313 2014",
+    "B--2430.00000000.B253P6313 2014"
+  ],
+  "subject_facet": [
+    "Imagination",
+    "Poetry",
+    "Space and time"
+  ],
+  "ol_work_key": "/works/OL19745166W"
 }

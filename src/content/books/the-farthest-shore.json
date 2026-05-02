@@ -1,7 +1,7 @@
 {
   "title": "The Farthest Shore",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-farthest-shore",
   "tags": [
@@ -30,5 +30,56 @@
     "Children's stories",
     "Ficción",
     "Large type books"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "[Fic]",
+    "813.54",
+    "816",
+    "823.914"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 F3 1975b",
+    "PZ-0007.00000000.L5215 Fa 1984",
+    "PS-3562.00000000.E42 F23155 1987",
+    "PZ-0007.00000000",
+    "PS-3562.00000000.Le47F2",
+    "PZ-0007.00000000.L5215 Far",
+    "PZ-0007.00000000.L5215 Far 2012",
+    "PZ-2001.00000000.L521 W8 1975",
+    "PS-3562.00000000.E42 F37 1973",
+    "PZ-0007.00000000.L5215 Far 2012b",
+    "PZ-0004.00000000.L518",
+    "PZ-0007.00000000.L5215 Far 2004",
+    "PZ-0007.00000000.L5215Far 2012",
+    "PZ-0007.00000000.L5215 Far 2001",
+    "PS-3562.00000000.E42",
+    "PZ-0007.00000000.L5215 Far 1988"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Science fiction",
+    "Children's fiction",
+    "Children's stories",
+    "Earthsea (Imaginary place)",
+    "Fantasy",
+    "Fantasy fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, general",
+    "Ged (Fictitious character)",
+    "Ged (fictitious character), fiction",
+    "Imaginary Voyages",
+    "Imaginary places",
+    "Juvenile fiction",
+    "Large type books",
+    "Magia",
+    "Magic",
+    "Magic, fiction",
+    "Quests (Expeditions)",
+    "Wizards",
+    "Wizards, fiction"
+  ],
+  "ol_work_key": "/works/OL59855W"
 }

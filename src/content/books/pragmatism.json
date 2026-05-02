@@ -26,5 +26,24 @@
   "gutenberg_id": 5116,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5116",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5116.html.images",
-  "librivox_url": "https://librivox.org/pragmatism-by-william-james/"
+  "librivox_url": "https://librivox.org/pragmatism-by-william-james/",
+  "ddc": [
+    "144.3"
+  ],
+  "lcc": [
+    "B--0832.00000000.J2",
+    "B--0832.00000000.J2 1981",
+    "B--0832.00000000.J2 1975",
+    "B--0832.00000000 J2 1911",
+    "B--0832.00000000.J2 1963",
+    "B--0945.00000000.J23 P73 1907",
+    "B--0832.00000000.J215",
+    "B--0832.00000000.J2 19",
+    "B--0832.00000000.J2 1995"
+  ],
+  "subject_facet": [
+    "Pragmatism",
+    "Pragmatisme"
+  ],
+  "ol_work_key": "/works/OL1502058W"
 }

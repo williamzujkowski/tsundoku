@@ -1,7 +1,7 @@
 {
   "title": "The Interpreters",
   "author": "Wole Soyinka",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-interpreters",
   "tags": [
@@ -26,5 +26,15 @@
     "African literature, history and criticism",
     "African literature, translations into english",
     "Fiction, historical, general"
-  ]
+  ],
+  "lcc": [
+    "PR-9387.90000000.S6I6 2021",
+    "PR-9387.90000000.S6 I6 2021"
+  ],
+  "subject_facet": [
+    "English literature",
+    "Fiction",
+    "Friendship"
+  ],
+  "ol_work_key": "/works/OL24706692W"
 }

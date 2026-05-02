@@ -1,7 +1,7 @@
 {
   "title": "Perelandra",
   "author": "C.S. Lewis",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "perelandra",
   "tags": [],
@@ -18,5 +18,56 @@
   "subjects": [
     "Lewis, c. s. (clive staples), 1898-1963"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6023.00000000.E926P47 1944",
+    "PZ-0003.00000000.L58534",
+    "PZ-0003.00000000.L58534 Pe5",
+    "PR-6023.00000000.E926P47 1990",
+    "PR-6023.00000000.E926 Pe3",
+    "PR-6023.00000000.E926P47 1996",
+    "PR-6023.00000000.E926 P47 1996",
+    "PR-6023.00000000",
+    "PZ-0003.00000000 L58534Pe",
+    "PR-6023.00000000.E926 P4 1946",
+    "PR-6023.00000000.E926 P47 1996b",
+    "PR-6023.00000000 E926 P4",
+    "PZ-0003.00000000.L58534 Pe3",
+    "PR-6023.00000000.E926 P47 1990",
+    "PR-6023.00000000.E926 Pe5",
+    "PR-6023.00000000 E926 P4 1970"
+  ],
+  "subject_facet": [
+    "British Science fiction",
+    "British and irish fiction (fictional works by one author)",
+    "Christian fiction & literature",
+    "College teachers",
+    "Elwin Ransom (Fictitious character)",
+    "English Science fiction",
+    "English literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Good and evil",
+    "Life on other planets",
+    "Life on other planets--fiction",
+    "Linguists",
+    "Open Library Staff Picks",
+    "Other fantasy fiction categories",
+    "Other science fiction categories",
+    "Philologists",
+    "Philologists--fiction",
+    "Pz3.l58534 pe3",
+    "Ransom, elwin (fictitious character), fiction",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 9",
+    "Science fiction",
+    "Science fiction, british"
+  ],
+  "ol_work_key": "/works/OL71163W"
 }

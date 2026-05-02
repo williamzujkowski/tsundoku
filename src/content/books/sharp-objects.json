@@ -1,7 +1,7 @@
 {
   "title": "Sharp Objects",
   "author": "Gillian Flynn",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "sharp-objects",
   "tags": [
@@ -29,5 +29,47 @@
     "Thrillers",
     "General",
     "Murder"
-  ]
+  ],
+  "ddc": [
+    "813",
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3606.00000000.L935 S53 2006",
+    "PS-3606.00000000.L935 S5 2014",
+    "PS-3606.00000000.L935 S53 2007",
+    "PS-3606.00000000.L935",
+    "PS-3606.00000000.L935S53 2006",
+    "PS-3606.00000000.L935S53 2015",
+    "PS-3606.00000000.L935 S53 2018"
+  ],
+  "subject_facet": [
+    "Children",
+    "Crimes against",
+    "Femmes journalistes",
+    "Ficción",
+    "Fiction",
+    "Fiction, family life",
+    "Fiction, family life, general",
+    "Fiction, suspense",
+    "Fiction, thrillers, suspense",
+    "General",
+    "Investigation",
+    "Journalists",
+    "Large type books",
+    "Missouri, fiction",
+    "Mujeres periodistas",
+    "Murder",
+    "New York Times bestseller",
+    "Novela de suspense",
+    "Novela doméstica",
+    "Romans, nouvelles",
+    "Thriller",
+    "Thrillers",
+    "Women journalists",
+    "Women journalists, fiction",
+    "nyt:mass-market-paperback=2014-12-21",
+    "nyt:trade-fiction-paperback=2012-09-02"
+  ],
+  "ol_work_key": "/works/OL5842018W"
 }

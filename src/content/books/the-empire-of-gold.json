@@ -1,7 +1,7 @@
 {
   "title": "The Empire of Gold",
   "author": "S. A. Chakraborty",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-empire-of-gold",
   "tags": [
@@ -22,5 +22,15 @@
     "Fiction, cultural heritage",
     "Fiction, fantasy, historical",
     "American literature"
-  ]
+  ],
+  "lcc": [
+    "PS-3603.00000000.H33555"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fiction, cultural heritage",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical"
+  ],
+  "ol_work_key": "/works/OL20789805W"
 }

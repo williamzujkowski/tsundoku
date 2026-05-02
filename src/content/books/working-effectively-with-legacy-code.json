@@ -1,7 +1,7 @@
 {
   "title": "Working Effectively with Legacy Code",
   "author": "Michael Feathers",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "working-effectively-with-legacy-code",
   "tags": [
@@ -19,5 +19,13 @@
   ],
   "description": "Get more out of your legacy systems: more performance, functionality, reliability, and manageability Is your code easy to change? Can you get nearly instantaneous feedback when you do change it? Do you understand it? If the answer to any of these questions is no, you have legacy code, and it is draining time and money away from your development efforts. In this book, Michael Feathers offers start-to-finish strategies for working more effectively with large, untested legacy code bases. This book draws on material Michael created for his renowned Object Mentor seminars: techniques Michael has used in mentoring to help hundreds of developers, technical managers, and testers bring their legacy systems under control. The topics covered include Understanding the mechanics of software change: adding features, fixing bugs, improving design, optimizing performance Getting legacy code into a test harness Writing tests that protect you against introducing new problems Techniques that can be used with any language or platform—with examples in Java, C++, C, and C# Accurately identifying where code changes need to be made Coping with legacy systems that aren't object-oriented Handling applications that don't seem to have any structure This book also includes a catalog of twenty-four dependency-breaking techniques that help you work with program elements in isolation and make safer changes.",
   "pages": 457,
-  "isbn": "9780132931755"
+  "isbn": "9780132931755",
+  "ddc": [
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.76000000.A65 F43 2005"
+  ],
+  "first_published": 2004,
+  "ol_work_key": "/works/OL25381590W"
 }

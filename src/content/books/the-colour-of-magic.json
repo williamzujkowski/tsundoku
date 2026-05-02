@@ -1,7 +1,7 @@
 {
   "title": "The Colour of Magic",
   "author": "Terry Pratchett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-colour-of-magic",
   "tags": [
@@ -29,5 +29,50 @@
     "Twoflower (fictional characters)",
     "parody",
     "humour"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34 C6 2005",
+    "PR-6066.00000000.R/",
+    "PR-6066.00000000.R34 C6 1983",
+    "PN-1997.00000000",
+    "PR-6066.00000000.R34"
+  ],
+  "subject_facet": [
+    "Collectors and collecting",
+    "Discworld (Imaginary place)",
+    "Discworld (imaginary place), fiction",
+    "Doll furniture",
+    "Doll furniture -- Collectors and collecting",
+    "Dollhouses",
+    "Dollhouses -- Collectors and collecting",
+    "English literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, satire",
+    "Geographical myths",
+    "Humorous stories",
+    "Merveilleux",
+    "Miniature dolls",
+    "Miniature dolls -- Collectors and collecting",
+    "Miniature objects",
+    "Miniature objects -- Collectors and collecting",
+    "Rincewind",
+    "Rincewind the wizard (fictitious character), fiction",
+    "Romans",
+    "Samuel Vimes (Fictitious character)",
+    "Satire",
+    "Tourism",
+    "Twoflower (fictional characters)",
+    "Wizards",
+    "humour",
+    "parody"
+  ],
+  "ol_work_key": "/works/OL453657W"
 }

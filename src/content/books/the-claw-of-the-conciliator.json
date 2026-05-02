@@ -1,7 +1,7 @@
 {
   "title": "The Claw of the Conciliator",
   "author": "Gene Wolfe",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-claw-of-the-conciliator",
   "tags": [
@@ -21,5 +21,18 @@
   ],
   "description": "The Claw of the Conciliator is a science fantasy novel by American writer Gene Wolfe, first released in 1981. It is the second volume in the four-volume series The Book of the New Sun and continues the story of Severian, a journeyman in the Seekers for Truth and Penitence, describing his travels north to the city of Thrax.",
   "pages": 303,
-  "isbn": "9780671474256"
+  "isbn": "9780671474256",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52C57",
+    "PS-3573.00000000.O52 C57"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Science fiction",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL14871970W"
 }

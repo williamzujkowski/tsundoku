@@ -1,7 +1,7 @@
 {
   "title": "Wet Magic",
   "author": "Edith Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "wet-magic",
   "tags": [
@@ -36,5 +36,22 @@
   "librivox_url": "https://librivox.org/wet-magic-by-e-nesbit/",
   "gutenberg_id": 50361,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/50361",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/50361.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/50361.html.images",
+  "ddc": [
+    "823.92",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0008.00000000.B612 We",
+    "PZ-0007.00000000.B61 We",
+    "PZ-0007.00000000.N43777 We 2001"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Magic, fiction",
+    "Mermaids, fiction"
+  ],
+  "ol_work_key": "/works/OL99513W"
 }

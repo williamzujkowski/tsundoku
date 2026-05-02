@@ -1,7 +1,7 @@
 {
   "title": "Philosophical Fragments",
   "author": "Søren Kierkegaard",
-  "category": "Religion",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "philosophical-fragments",
   "tags": [
@@ -43,5 +43,9 @@
     "Religion, philosophy",
     "Religion--philosophy"
   ],
-  "ol_work_key": "/works/OL16304857W"
+  "ol_work_key": "/works/OL16304857W",
+  "ddc": [
+    "201"
+  ],
+  "pages": 260
 }

@@ -1,7 +1,7 @@
 {
   "title": "Too Like the Lightning",
   "author": "Ada Palmer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "too-like-the-lightning",
   "tags": [
@@ -30,5 +30,28 @@
     "Spirituality",
     "Magic",
     "Science Fiction"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3616.00000000.A33879",
+    "PS-3616.00000000.A33879T66",
+    "PS-3616.00000000.A4647 T56 2016",
+    "PS-3616.00000000.A33879 T66 2016"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Magic",
+    "Prisoners",
+    "Science Fiction",
+    "Spirituality",
+    "Third millennium",
+    "Twenty-fifth century",
+    "Utopias",
+    "collection:otherwise_tiptree_award=honor",
+    "series:terra_ignota"
+  ],
+  "ol_work_key": "/works/OL19800093W"
 }

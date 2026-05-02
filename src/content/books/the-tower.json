@@ -1,7 +1,7 @@
 {
   "title": "The Tower",
   "author": "W.B. Yeats",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-tower",
   "tags": [],
@@ -19,5 +19,16 @@
   "librivox_url": "https://librivox.org/the-tower-by-william-butler-yeats/",
   "description": "\n\"The Tower\" is a poem by the Irish poet William Butler Yeats. It is the second poem in The Tower, a 1928 collection of Yeats' poems.",
   "pages": 362,
-  "isbn": "9780416352900"
+  "isbn": "9780416352900",
+  "ddc": [
+    "821.91"
+  ],
+  "lcc": [
+    "PR-5907.00000000.H4"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Poetic works"
+  ],
+  "ol_work_key": "/works/OL5144788W"
 }

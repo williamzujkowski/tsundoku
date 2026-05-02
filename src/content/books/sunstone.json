@@ -1,7 +1,7 @@
 {
   "title": "Sunstone",
   "author": "Octavio Paz",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "sunstone",
   "tags": [],
@@ -18,5 +18,27 @@
   "copyright_status": "likely_public_domain",
   "subjects": [
     "Literary Criticism"
-  ]
+  ],
+  "ddc": [
+    "861",
+    "861.62"
+  ],
+  "lcc": [
+    "PQ-7297.00000000.P285 P5",
+    "PQ-7297.00000000.P285 P5 1998",
+    "PQ-7297.00000000.P285 P5 1963",
+    "PQ-7297.00000000.P285P5 1991",
+    "PQ-7297.00000000.P285 P5 1969",
+    "PQ-7297.00000000 P285 P5",
+    "PQ-7297.00000000.P285 P5 1991"
+  ],
+  "subject_facet": [
+    "Bilingual",
+    "Poesía",
+    "Poetry (poetic works by one author)",
+    "Spanish language materials",
+    "Spanish poetry",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL743248W"
 }

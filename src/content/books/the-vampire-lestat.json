@@ -1,7 +1,7 @@
 {
   "title": "The Vampire Lestat",
   "author": "Anne Rice",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-vampire-lestat",
   "tags": [
@@ -31,5 +31,39 @@
     "horror tales",
     "Fiction, thrillers, general",
     "France, fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.I265V3 1985",
+    "PS-3568.00000000.I265 V3618 2009",
+    "PS-3568.00000000.I265 V3 1985",
+    "PS-3568.00000000.I265",
+    "PS-3568.00000000.I2/"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Comics & graphic novels, general",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, thrillers, general",
+    "France, fiction",
+    "Horror stories",
+    "Italy, fiction",
+    "Lestat (Personaje literario)",
+    "Lestat (fictitious character), fiction",
+    "Literatura norte-americana",
+    "Novela",
+    "Romance",
+    "Series:The-Vampire-Chronicles",
+    "Vampires",
+    "Vampires -- Fiction",
+    "Vampires, fiction",
+    "Vampiros",
+    "horror tales",
+    "nobility",
+    "vampire novels"
+  ],
+  "ol_work_key": "/works/OL77813W"
 }

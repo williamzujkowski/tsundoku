@@ -1,7 +1,7 @@
 {
   "title": "Revolutionary Letters",
   "author": "Diane di Prima",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "revolutionary-letters",
   "tags": [
@@ -20,5 +20,19 @@
   "first_published": 1971,
   "description": "This edition is the new volume of DiPrima's classic Revolutionary Letters. There are some new pieces added in and new edits on older pieces, done by the author. A new expanded edition of Loba (twice as long as the 1978 Wingbow Press edition) was published in the Penguin Poets series in August 1998. Her autobiographical memoir, Recollections of My Life as a Woman, was published by Viking in April 2001.",
   "pages": 112,
-  "isbn": "9780867195507"
+  "isbn": "9780867195507",
+  "ddc": [
+    "811.54",
+    "808"
+  ],
+  "lcc": [
+    "PS-3507.00000000.I68",
+    "PS-3507.00000000.I68 R4 1971",
+    "PS-3507.00000000.I68 R4 2007"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL568719W"
 }

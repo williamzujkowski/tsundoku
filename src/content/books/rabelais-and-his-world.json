@@ -1,7 +1,7 @@
 {
   "title": "Rabelais and His World",
   "author": "Mikhail Bakhtin",
-  "category": "Literary Criticism",
+  "category": "Literature",
   "priority": 1,
   "slug": "rabelais-and-his-world",
   "tags": [],
@@ -18,5 +18,34 @@
   ],
   "google_books_url": "http://books.google.com/books?id=SkswFyhqRIMC&dq=Rabelais+and+His+World+Mikhail+Bakhtin&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "843.3"
+  ],
+  "lcc": [
+    "PQ-1697.00000000.L3 B313",
+    "PQ-1694.00000000.B318",
+    "PQ-1694.00000000.B313 1984"
+  ],
+  "subject_facet": [
+    "Authors, French",
+    "Biography",
+    "Body Image",
+    "Carnaval",
+    "Carnival",
+    "Civilization, Medieval, in literature",
+    "Criticism and interpretation",
+    "Critique et interprétation",
+    "Fiction",
+    "Frans",
+    "French Authors",
+    "Medieval Civilization",
+    "Popular culture",
+    "Popular culture in literature",
+    "Rabelais, francois, approximately 1490-1553?",
+    "Renaissance",
+    "Romanschrijvers",
+    "Volkscultuur"
+  ],
+  "ol_work_key": "/works/OL2390863W"
 }

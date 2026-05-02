@@ -1,7 +1,7 @@
 {
   "title": "Songs of a Sourdough",
   "author": "Robert William Service",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "songs-of-a-sourdough",
   "tags": [
@@ -28,5 +28,30 @@
     "Poésie des lieux"
   ],
   "description": "Songs of a Sourdough is a book of poetry published in 1907 by Robert W. Service. In the United States, the book was published under the title The Spell of the Yukon and Other Verses.",
-  "isbn": "9781700965295"
+  "isbn": "9781700965295",
+  "ddc": [
+    "811.52",
+    "821"
+  ],
+  "lcc": [
+    "PS-8537.00000000 E72 S39 1908",
+    "PR-6037.00000000.E72 .S57 1908",
+    "PS-8537.00000000.E79 S65 1926",
+    "PS-8537.00000000.E72 S5 1911",
+    "PS-8537.00000000 E72 S39 1957",
+    "PS-8537.00000000 E72 S39 1907",
+    "PS-8537.00000000 E72S6 1916",
+    "PS-8487.00000000.E77 S6 1908",
+    "PS-8537.00000000.E72 S65 1913",
+    "PR-6037.00000000.E72 S5 1908"
+  ],
+  "subject_facet": [
+    "Canadian poetry",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poetry of places",
+    "Poésie",
+    "Poésie des lieux"
+  ],
+  "ol_work_key": "/works/OL3001587W"
 }

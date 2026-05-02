@@ -30,5 +30,28 @@
     "award:pulitzer_prize=fiction"
   ],
   "description": "The Able McLaughlins is a 1923 novel by Margaret Wilson first published by Harper & Brothers. It won the Pulitzer Prize for the Novel in 1924. It won the Harper Prize Novel Contest for 1922-1923, the first time the prize was awarded. Wilson published a sequel, The Law and the McLaughlins, in 1936.",
-  "isbn": "9781692121303"
+  "isbn": "9781692121303",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3545.00000000.I63584 Ab",
+    "PZ-0003.00000000.W6958 Ab",
+    "PZ-0003.00000000.W6958 Ab 1977",
+    "DS-0778.00000000.M3 H75",
+    "PS-3545.00000000.I63584 A62 2007",
+    "PS-3545.00000000.I63584 Ab 1977"
+  ],
+  "subject_facet": [
+    "Covenanters",
+    "Fiction",
+    "Immigrants",
+    "Pulitzer Prize Winner",
+    "Scots",
+    "Social life and customs",
+    "Young men",
+    "award:pulitzer_prize=1924",
+    "award:pulitzer_prize=fiction"
+  ],
+  "ol_work_key": "/works/OL6726858W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Tinker Tailor Soldier Spy",
   "author": "John le Carré",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "tinker-tailor-soldier-spy",
   "tags": [
@@ -26,5 +26,41 @@
   "description": "Tinker Tailor Soldier Spy is a 1974 spy novel by the author and former secret intelligence officer John le Carré. It follows the endeavours of the taciturn, ageing spymaster George Smiley to uncover a Soviet mole in the British Secret Intelligence Service. The novel has received critical acclaim for its complex social commentary—and, at the time, relevance, following the defection of Kim Philby. It was followed by The Honourable Schoolboy in 1977 and Smiley's People in 1979.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/13/JohnLeCarre_TinkerTailorSoldierSpy.jpg",
   "pages": 369,
-  "isbn": "9780340839973"
+  "isbn": "9780340839973",
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6062.00000000.E33 Ti5",
+    "PZ-0004.00000000.L4526 Ti3",
+    "PR-6062.00000000.E33 Ti4",
+    "PZ-0004.00000000.L4526Ti3",
+    "PR-6062.00000000 E33 T5 2011",
+    "PZ-0004.00000000.L4526Ti5",
+    "PZ-0004.00000000.L4526 Ti5",
+    "PR-6062.00000000.E33 T5 1975b",
+    "PR-6062.00000000.E33T5 2011",
+    "PR-6062.00000000.E33 T56",
+    "PR-6015.00000000.I3",
+    "PZ-0004.00000000.L4526 Ti4",
+    "PR-6062.00000000.E33 Ti3",
+    "PR-6062.00000000.E33 T5 1975"
+  ],
+  "subject_facet": [
+    "Cold War",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, thrillers, espionage",
+    "George Smiley (Fictitious character)",
+    "Great britain, fiction",
+    "Intelligence service",
+    "Large type books",
+    "Secret service",
+    "Smiley, George (Fictitious character)",
+    "Smiley, george (fictitious character), fiction",
+    "Undercover operations"
+  ],
+  "first_published": 1974,
+  "ol_work_key": "/works/OL15723131W"
 }

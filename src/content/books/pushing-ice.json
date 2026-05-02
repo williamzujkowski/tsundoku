@@ -1,7 +1,7 @@
 {
   "title": "Pushing Ice",
   "author": "Alastair Reynolds",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "pushing-ice",
   "tags": [
@@ -22,5 +22,23 @@
     "Fiction, science fiction, general",
     "English literature",
     "Fiction, science fiction, collections & anthologies"
-  ]
+  ],
+  "ddc": [
+    "823.92",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6068.00000000.E95P87 2006",
+    "PR-6068.00000000.E95 P87 2006",
+    "PR-6068.00000000.E95P87 2020",
+    "PR-6068.00000000.E95P987",
+    "PR-6068.00000000.E95",
+    "PR-6068.00000000.E95 P87 2005"
+  ],
+  "subject_facet": [
+    "English literature",
+    "Fiction, science fiction, collections & anthologies",
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL5724844W"
 }

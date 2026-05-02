@@ -1,7 +1,7 @@
 {
   "title": "The Water-Babies",
   "author": "Charles Kingsley",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-water-babies",
   "tags": [
@@ -37,5 +37,23 @@
   "librivox_url": "https://librivox.org/the-water-babies-by-charles-kingsley/",
   "gutenberg_id": 25564,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/25564",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/25564.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/25564.html.images",
+  "lcc": [
+    "PR-4842.00000000.W3 2013",
+    "PR-4840.00000000",
+    "PZ-0008.00000000.K619 Wat 2013",
+    "PZ-0007.00000000"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Chimney sweeps",
+    "Emotions, fiction",
+    "Fairy tales",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Juvenile fiction",
+    "Long Now Manual for Civilization"
+  ],
+  "ol_work_key": "/works/OL20368730W"
 }

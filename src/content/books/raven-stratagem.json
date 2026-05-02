@@ -1,7 +1,7 @@
 {
   "title": "Raven Stratagem",
   "author": "Yoon Ha Lee",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "raven-stratagem",
   "tags": [
@@ -26,5 +26,21 @@
   ],
   "description": "Machineries of Empire is a series of military science fiction/science fantasy/space opera novels by American writer Yoon Ha Lee and published by Solaris Books. It consists of Ninefox Gambit (2016), Raven Stratagem (2017) and Revenant Gun (2018). A collection of short stories set in the same universe, Hexarchate Stories, was published in 2019. This collection includes Glass Cannon, a novella which functions as a sequel to the original trilogy.",
   "pages": 400,
-  "isbn": "9781781085370"
+  "isbn": "9781781085370",
+  "lcc": [
+    "PS-3612.00000000.E4 M3 2017 bk. 2",
+    "PS-3612.00000000.E34884 R38 2017",
+    "PS-3612.00000000.E34884"
+  ],
+  "subject_facet": [
+    "FICTION / Science Fiction / Hard Science Fiction",
+    "FICTION / Science Fiction / Space Opera",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Space warfare",
+    "Space warfare -- Fiction",
+    "Women soldiers",
+    "Women soldiers -- Fiction"
+  ],
+  "ol_work_key": "/works/OL19154576W"
 }

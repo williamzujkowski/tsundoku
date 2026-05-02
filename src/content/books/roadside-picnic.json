@@ -17,5 +17,23 @@
   "google_books_url": "http://books.google.com/books?id=4IFjmAEACAAJ&dq=Roadside+Picnic+Arkady+and+Boris+Strugatsky&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "pages": 179
+  "pages": 179,
+  "ddc": [
+    "891.7344"
+  ],
+  "lcc": [
+    "PG-3476.00000000.S78835P5513",
+    "PG-3476.00000000.S78835",
+    "PG-3476.00000000.S78835 S5113",
+    "PG-3476.00000000.S78835 P5513 2012"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Russian fiction",
+    "Russian science fiction",
+    "alien visitation",
+    "anomalies",
+    "science fiction"
+  ],
+  "ol_work_key": "/works/OL7967812W"
 }

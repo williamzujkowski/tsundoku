@@ -1,7 +1,7 @@
 {
   "title": "Roseanna",
   "author": "Maj Sjöwall and Per Wahlöö",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "roseanna",
   "tags": [],
@@ -17,5 +17,39 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=jAFlPgAACAAJ&dq=Roseanna+Maj+Sj%C3%B6wall+and+Per+Wahl%C3%B6%C3%B6&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "839.737",
+    "839.7374",
+    "839.7",
+    "839.31"
+  ],
+  "lcc": [
+    "PT-9876.29000000.J63 V4 2009",
+    "PZ-0004.00000000.W137 Lo",
+    "PT-9876.33000000.A35 Lo",
+    "PT-9876.29000000.J63 Ro7",
+    "PT-9876.29000000.J63",
+    "PZ-0004.00000000.S61953 Ro7",
+    "PT-9876.29000000 S625 R797 2008 F",
+    "PT-9876.29000000.J63 R6 x, 1978",
+    "PT-9876.29000000.J63 R613 2008",
+    "PT-9876.29000000.J63R613",
+    "PZ-0004.00000000.S61953 Ro",
+    "PT-9876.29000000.J63 R613 1993"
+  ],
+  "subject_facet": [
+    "Beck, martin (fictitious character), fiction",
+    "Fiction",
+    "Fiction, mystery & detective, police procedural",
+    "Investigation",
+    "Martin Beck (Fictitious character)",
+    "Murder",
+    "Mystery",
+    "Police",
+    "Police corruption",
+    "Stockholm (sweden), fiction",
+    "Thrillers"
+  ],
+  "ol_work_key": "/works/OL3899224W"
 }

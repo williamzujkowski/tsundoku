@@ -1,7 +1,7 @@
 {
   "title": "Rapid Development",
   "author": "Steve McConnell",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "rapid-development",
   "tags": [
@@ -25,5 +25,21 @@
     "Computer software--development",
     "Qa76.76.d47 m393 1996",
     "005.1/068"
-  ]
+  ],
+  "ddc": [
+    "005.1068"
+  ],
+  "lcc": [
+    "QA-0076.76000000.D47 M393 1996",
+    "QA-0076.76000000.D47M393 1996"
+  ],
+  "subject_facet": [
+    "005.1/068",
+    "Computer software",
+    "Computer software, development",
+    "Computer software--development",
+    "Development",
+    "Qa76.76.d47 m393 1996"
+  ],
+  "ol_work_key": "/works/OL2722065W"
 }

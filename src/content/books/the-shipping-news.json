@@ -27,5 +27,54 @@
     "award:national_book_award=1993",
     "award:national_book_award=fiction",
     "United States"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.R697 S4 1994b",
+    "PS-3566.00000000.R697S4 1999",
+    "PS-3566.00000000.R697 S4 1999",
+    "PS-3566.00000000.R697S4 1994b",
+    "PS-3566.00000000.R697",
+    "PS-3566.00000000.R697S4 1993",
+    "PS-3566.00000000.R697 S4 1993",
+    "PS-3566.00000000.R697S4 1993c",
+    "PS-3566.00000000.R697 S4 1993c",
+    "PS-3566.00000000.R697 S4 1994",
+    "BF-0637.00000000.C6 C677 1999eb",
+    "PS-3566.00000000.R697S4 1994"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Beratung",
+    "Counselors",
+    "Domestic fiction",
+    "Education",
+    "English fiction",
+    "Families",
+    "Family",
+    "Fiction",
+    "Fiction, family life",
+    "Fiction, family life, general",
+    "Human Services",
+    "Journalists, fiction",
+    "Large type books",
+    "Livres en gros caractères",
+    "National Book Award Winner",
+    "Newfoundland and Labrador -- Fiction.",
+    "Newfoundland and labrador, fiction",
+    "POLITICAL SCIENCE",
+    "Psychotherapy",
+    "Public Policy",
+    "SOCIAL SCIENCE",
+    "Social Services & Welfare",
+    "Supervision",
+    "Supervision of",
+    "United States",
+    "Women authors",
+    "award:national_book_award=1993",
+    "award:national_book_award=fiction"
+  ],
+  "ol_work_key": "/works/OL456089W"
 }

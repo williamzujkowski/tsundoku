@@ -1,7 +1,7 @@
 {
   "title": "The Dragonbone Chair",
   "author": "Tad Williams",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-dragonbone-chair",
   "tags": [
@@ -28,5 +28,41 @@
   ],
   "description": "The Dragonbone Chair is a fantasy novel by American writer Tad Williams, the first in his Memory, Sorrow, and Thorn trilogy. It is set in the fantastical land of Osten Ard, where humans coexist with other sentient creatures including the Sithi and Qanuc. When Osten Ard is threatened by the Storm King of the Sithi, the League of the Scroll seeks the only hope for salvation.",
   "pages": 783,
-  "isbn": "9781417779833"
+  "isbn": "9781417779833",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45563 D7 2005",
+    "PS-3573.00000000.I45563 D7 1988",
+    "PS-3573.00000000.I45563",
+    "PS-3573.00000000.I45563 D72 1989x"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Betrayal",
+    "Boys",
+    "Brothers",
+    "Castles",
+    "Courage in men",
+    "Dragons",
+    "Dragons -- Fiction",
+    "Dragons -- Romans, nouvelles, etc",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Jeunes hommes -- Romans, nouvelles, etc",
+    "Magic",
+    "Magical creatures",
+    "Priests",
+    "Quests (Expeditions)",
+    "Rulers",
+    "Wizards",
+    "Wizards -- Fiction",
+    "Young men",
+    "Young men -- Fiction"
+  ],
+  "ol_work_key": "/works/OL2250813W"
 }

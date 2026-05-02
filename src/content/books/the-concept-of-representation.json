@@ -1,7 +1,7 @@
 {
   "title": "The Concept of Representation",
   "author": "Hannah Pitkin",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "the-concept-of-representation",
   "tags": [
@@ -19,5 +19,17 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=yaEwDwAAQBAJ&dq=The+Concept+of+Representation+Hannah+Pitkin&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "328.334",
+    "328.2"
+  ],
+  "lcc": [
+    "JF-1051.00000000",
+    "JF-1051.00000000.P5"
+  ],
+  "subject_facet": [
+    "Representative government and representation"
+  ],
+  "ol_work_key": "/works/OL452534W"
 }

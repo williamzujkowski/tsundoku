@@ -1,7 +1,7 @@
 {
   "title": "Stand on Zanzibar",
   "author": "John Brunner",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "stand-on-zanzibar",
   "tags": [
@@ -30,5 +30,31 @@
     "Fiction, science fiction, hard science fiction",
     "Computers",
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6052.00000000.R8 S73 2011",
+    "PZ-0004.00000000.B89 St 1979",
+    "PR-6052.00000000.R8",
+    "PR-6052.00000000.R8 St",
+    "PR-6052.00000000.R8S73 2011",
+    "PR-6052.00000000.R8 St 1979",
+    "PZ-0004.00000000.B89 St"
+  ],
+  "subject_facet": [
+    "Computers",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Hugo Award Winner",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "award:hugo_award=1969",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL3521966W"
 }

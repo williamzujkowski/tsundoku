@@ -1,7 +1,7 @@
 {
   "title": "The Mote in God's Eye",
   "author": "Larry Niven",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-mote-in-gods-eye",
   "tags": [
@@ -19,5 +19,27 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3564.00000000.I9 Mo",
+    "PS-3564.00000000.I9 M68 1974",
+    "PS-3564.00000000.I9 M6x 1974",
+    "PZ-0004.00000000.N734 Mo",
+    "PS-3564.00000000.I9",
+    "PS-0000.00000000",
+    "PS-3564.00000000 N644m, 1974b"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Life on other planets",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL15331302W"
 }

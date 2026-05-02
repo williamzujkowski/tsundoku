@@ -1,7 +1,7 @@
 {
   "title": "The Theater and Its Double",
   "author": "Antonin Artaud",
-  "category": "Drama",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "the-theater-and-its-double",
   "tags": [],
@@ -21,5 +21,19 @@
     "Teatro (Producao E Direcao)",
     "Theatre",
     "Aufsatzsammlung"
-  ]
+  ],
+  "ddc": [
+    "792.04"
+  ],
+  "lcc": [
+    "PN-2021.00000000.A713 1958a",
+    "PN-2021.00000000.A713"
+  ],
+  "subject_facet": [
+    "Aufsatzsammlung",
+    "Teatro (Producao E Direcao)",
+    "Theater",
+    "Theatre"
+  ],
+  "ol_work_key": "/works/OL794769W"
 }

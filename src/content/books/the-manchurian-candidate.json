@@ -1,7 +1,7 @@
 {
   "title": "The Manchurian Candidate",
   "author": "Richard Condon",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-manchurian-candidate",
   "tags": [],
@@ -23,5 +23,44 @@
   "description": "The Manchurian Candidate (1959), by Richard Condon, is a political thriller about the son of a prominent U.S. political family who is brainwashed into being an unwitting assassin for a Communist conspiracy. The Manchurian Candidate novel has twice been adapted into a feature film; the first is The Manchurian Candidate (1962), which deals with anti-communist hysteria in U.S. politics, and the second is The Manchurian Candidate (2004), which deals with corporate interference in the U.S.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/ManchurianCandidate.jpg",
   "pages": 316,
-  "isbn": "9781562870201"
+  "isbn": "9781562870201",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3553.00000000.O487 M36 1959c",
+    "PS-3553.00000000.O487 Man",
+    "PZ-0004.00000000.C746 Man",
+    "PS-3553.00000000.O487 M36 2003",
+    "PS-3553.00000000.O487 M36 1991",
+    "PS-3553.00000000.O487M36 2003",
+    "PS-3553.00000000.O487",
+    "PS-3553.00000000.O487 M36 2005",
+    "PS-3553.00000000.O487 M36 2004"
+  ],
+  "subject_facet": [
+    "Assassins",
+    "Brainwashing",
+    "Cold War",
+    "Fiction",
+    "Fiction, espionage",
+    "Fiction, mystery & detective, general",
+    "Fiction, political",
+    "Fiction, suspense",
+    "Fiction, thrillers",
+    "Fiction, thrillers, espionage",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, suspense",
+    "Korean War, 1950-1953",
+    "Large type books",
+    "Mothers and sons",
+    "Mothers and sons, fiction",
+    "Political fiction",
+    "Politicians' spouses",
+    "Veterans",
+    "War"
+  ],
+  "first_published": 1959,
+  "ol_work_key": "/works/OL3391067W"
 }

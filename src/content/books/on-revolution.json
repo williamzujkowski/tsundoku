@@ -1,7 +1,7 @@
 {
   "title": "On Revolution",
   "author": "Hannah Arendt",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "on-revolution",
   "tags": [
@@ -26,5 +26,38 @@
     "Revolutie",
     "Politieke filosofie"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "321.09",
+    "321.094",
+    "303.64",
+    "973.3"
+  ],
+  "lcc": [
+    "JC-0491.00000000.A72 1970",
+    "JC-0491.00000000.A6815 2000",
+    "JC-0491.00000000.A68 1965",
+    "JC-0491.00000000 A75",
+    "JC-0491.00000000.A7417 2011",
+    "JC-0491.00000000.A68 1973",
+    "JC-0491.00000000.A68 1963a",
+    "JC-0491.00000000.A68 2006",
+    "JC-0491.00000000.A6814 1985",
+    "JC-0491.00000000.A68 1963",
+    "JC-0491.00000000.A6818 1992",
+    "JC-0491.00000000.A68 1982",
+    "JC-0491.00000000.A68",
+    "JC-0491.00000000",
+    "JC-0491.00000000.A6815"
+  ],
+  "subject_facet": [
+    "Historia",
+    "Politieke filosofie",
+    "Revoluciones",
+    "Revolutie",
+    "Revolution",
+    "Revolutions",
+    "Révolutions"
+  ],
+  "ol_work_key": "/works/OL10460639W"
 }

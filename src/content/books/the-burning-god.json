@@ -1,7 +1,7 @@
 {
   "title": "The Burning God",
   "author": "R.F. Kuang",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-burning-god",
   "tags": [],
@@ -18,5 +18,27 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction, general"
-  ]
+  ],
+  "lcc": [
+    "PS-3611.00000000.U17 B87 2020",
+    "PS-3611.00000000.U17"
+  ],
+  "subject_facet": [
+    "American literature",
+    "FICTION / Cultural Heritage",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Fantasy / Historical",
+    "Fiction",
+    "Fiction, cultural heritage",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical",
+    "Gods and goddesses",
+    "Good and evil",
+    "Healers",
+    "History",
+    "Imaginary wars and battles",
+    "Magic",
+    "Shamans"
+  ],
+  "ol_work_key": "/works/OL21163518W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Art of Love",
   "author": "Ovid",
-  "category": "Poetry",
+  "category": "Classics",
   "priority": 1,
   "slug": "the-art-of-love",
   "tags": [
@@ -32,5 +32,25 @@
   ],
   "gutenberg_id": 47677,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/47677",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/47677.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/47677.html.images",
+  "ddc": [
+    "871.01"
+  ],
+  "lcc": [
+    "PA-6519.00000000.A84 .A77 2006",
+    "PA-6519.00000000.A8",
+    "PA-6519.00000000.A84.A77 2006"
+  ],
+  "subject_facet": [
+    "Didactic poetry, history and criticism",
+    "Erotic literature, history and criticism",
+    "History and criticism",
+    "Latin Didactic poetry",
+    "Latin Erotic poetry",
+    "Latin poetry, history and criticism",
+    "Love in literature",
+    "Ovid, 43 b.c.-17 a.d. or 18 a.d.",
+    "Seduction in literature"
+  ],
+  "ol_work_key": "/works/OL18395584W"
 }

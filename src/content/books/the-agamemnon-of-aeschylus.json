@@ -1,7 +1,7 @@
 {
   "title": "The 'Agamemnon' of Aeschylus",
   "author": "Aeschylus",
-  "category": "Literature",
+  "category": "Drama",
   "priority": 2,
   "slug": "the-agamemnon-of-aeschylus",
   "tags": [
@@ -28,5 +28,9 @@
     "Translations into Icelandic",
     "Translations into Italian",
     "Translations into Spanish"
-  ]
+  ],
+  "ddc": [
+    "882.01"
+  ],
+  "ol_work_key": "/works/OL40508024W"
 }

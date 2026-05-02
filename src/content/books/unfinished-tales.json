@@ -1,7 +1,7 @@
 {
   "title": "Unfinished Tales",
   "author": "J.R.R. Tolkien",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "unfinished-tales",
   "tags": [
@@ -30,5 +30,34 @@
     "Fiction, short stories (single author)",
     "Middle earth (imaginary place), fiction",
     "Fiction, fantasy, epic"
-  ]
+  ],
+  "ddc": [
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6039.00000000.O32 U5 1980",
+    "PR-6039.00000000.O32 U5 2001",
+    "PR-6039.00000000.O32",
+    "PR-6039.00000000.O32 A6 1980b",
+    "PR-6039.00000000.o32a6 1980b",
+    "PR-6039.00000000.O32U5 2000",
+    "PR-6039.00000000.O32U5 2001",
+    "PR-6039.00000000.O32U5 2010"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fantasy fiction",
+    "Fantasy fiction, English",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, short stories",
+    "Fiction, short stories (single author)",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "Open Library Staff Picks",
+    "Short stories"
+  ],
+  "ol_work_key": "/works/OL27466W"
 }

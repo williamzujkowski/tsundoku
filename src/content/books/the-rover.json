@@ -1,7 +1,7 @@
 {
   "title": "The Rover",
   "author": "Aphra Behn",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-rover",
   "tags": [],
@@ -18,5 +18,33 @@
   "copyright_status": "public_domain",
   "subjects": [
     "Drama"
-  ]
+  ],
+  "ddc": [
+    "822.4"
+  ],
+  "lcc": [
+    "PR-3317.00000000.A6 1995",
+    "PR-3317.00000000.R58 1967b",
+    "PR-3317.00000000.R58 2007",
+    "PR-3317.00000000.R58 1967",
+    "PR-3317.00000000.A6 2008",
+    "PR-3317.00000000"
+  ],
+  "subject_facet": [
+    "822/.4",
+    "Behn, aphra, 1640-1689",
+    "British and irish drama (dramatic works by one author)",
+    "Continental european drama (dramatic works by one author)",
+    "Drama (dramatic works by one author)",
+    "English drama",
+    "English drama. restoration",
+    "English literature",
+    "English literature--english drama",
+    "English literature. restoration",
+    "Fiction, general",
+    "Pr3317 .a6 2008",
+    "Restoration",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL695566W"
 }

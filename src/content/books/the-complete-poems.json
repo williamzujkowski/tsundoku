@@ -1,7 +1,7 @@
 {
   "title": "The Complete Poems",
   "author": "John Keats",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-complete-poems",
   "tags": [
@@ -30,5 +30,17 @@
     "Poetry",
     "Poetry (poetic works by one author)",
     "Keats, john, 1795-1821"
-  ]
+  ],
+  "ddc": [
+    "821.7"
+  ],
+  "lcc": [
+    "PR-4832.00000000 1994b"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL1455194W"
 }

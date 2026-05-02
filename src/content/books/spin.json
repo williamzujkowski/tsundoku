@@ -1,7 +1,7 @@
 {
   "title": "Spin",
   "author": "Robert Charles Wilson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "spin",
   "tags": [
@@ -28,5 +28,25 @@
     "award:hugo_award=novel",
     "Fiction, science fiction, general"
   ],
-  "description": "One night in October when he was ten years old, Tyler Dupree stood in his back yard and watched the stars go out. They all flared into brilliance at once, then disappeared, replaced by a flat, empty black barrier. He and his best friends, Jason and Diane Lawton, had seen what became known as the Big Blackout. It would shape their lives.\r\n\r\nThe effect is worldwide. The sun is now a featureless disk--a heat source, rather than an astronomical object. The moon is gone, but tides remain."
+  "description": "One night in October when he was ten years old, Tyler Dupree stood in his back yard and watched the stars go out. They all flared into brilliance at once, then disappeared, replaced by a flat, empty black barrier. He and his best friends, Jason and Diane Lawton, had seen what became known as the Big Blackout. It would shape their lives.\r\n\r\nThe effect is worldwide. The sun is now a featureless disk--a heat source, rather than an astronomical object. The moon is gone, but tides remain.",
+  "ddc": [
+    "810",
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.W4987S65",
+    "PR-9199.30000000.W4987 S65 2005"
+  ],
+  "subject_facet": [
+    "Cults",
+    "End of the world",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Human-alien encounters",
+    "Science fiction",
+    "award:hugo_award=2006",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL14951012W"
 }

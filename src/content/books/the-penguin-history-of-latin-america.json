@@ -1,7 +1,7 @@
 {
   "title": "The Penguin History of Latin America",
   "author": "Edwin Williamson",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "the-penguin-history-of-latin-america",
   "tags": [],
@@ -19,5 +19,14 @@
   "subjects": [
     "History",
     "Latin america, history"
-  ]
+  ],
+  "lcc": [
+    "F--1410.00000000.W573 2009",
+    "F--1410.00000000"
+  ],
+  "subject_facet": [
+    "History",
+    "Latin america, history"
+  ],
+  "ol_work_key": "/works/OL19936118W"
 }

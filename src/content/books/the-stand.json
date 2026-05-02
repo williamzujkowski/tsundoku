@@ -1,7 +1,7 @@
 {
   "title": "The Stand",
   "author": "Stephen King",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-stand",
   "tags": [
@@ -31,5 +31,59 @@
     "Thrillers",
     "Suspense",
     "Horror"
-  ]
+  ],
+  "ddc": [
+    "813",
+    "813.54",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3561.00000000.I483S7 1990",
+    "PZ-0004.00000000.K5227St",
+    "PS-3561.00000000.I483 S57 1990",
+    "PS-3561.00000000.I483 St",
+    "PS-3561.00000000.I483 S726 1991",
+    "PS-3561.00000000.I483 S7 2001",
+    "PS-3561.00000000.I483 S7 1990",
+    "PS-3561.00000000.I483 S7 2012",
+    "PS-3561.00000000.I483 S83 1980",
+    "PS-3561.00000000.I483S57 1990",
+    "PS-3561.00000000.I483S7 2012",
+    "PS-3561.00000000.I483",
+    "PZ-0004.00000000.K5227 St"
+  ],
+  "subject_facet": [
+    "Apocalyptic & Post-Apocalyptic",
+    "Apocalyptic & Post-Apocalyptic science fiction",
+    "End of the World",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, horror",
+    "Good and evil",
+    "Horror",
+    "New York Times bestseller",
+    "Science Fiction",
+    "Suspense",
+    "Thriller",
+    "Thrillers",
+    "Virus diseases",
+    "biological warfare",
+    "cordon sanitaire",
+    "epidemics",
+    "gothic & horror",
+    "horror fiction",
+    "horror tales",
+    "index cases",
+    "influenza",
+    "martial law",
+    "nuclear weapons",
+    "nyt:trade-fiction-paperback=2021-01-03",
+    "pandemic",
+    "plague",
+    "post-apocalyptic",
+    "research",
+    "survival",
+    "suspense & thriller"
+  ],
+  "ol_work_key": "/works/OL81618W"
 }

@@ -30,5 +30,33 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/25171",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/25171.html.images",
   "description": "Paul Laurence Dunbar was an American poet, novelist, and short story writer of the late 19th and early 20th centuries. Born in Dayton, Ohio, to parents who had been enslaved in Kentucky before the American Civil War, Dunbar began writing stories and verse when he was a child. He published his first poems at the age of 16 in a Dayton newspaper, and served as president of his high school's literary society.",
-  "isbn": "9780881431308"
+  "isbn": "9780881431308",
+  "ddc": [
+    "813.4"
+  ],
+  "lcc": [
+    "PS-1556.00000000 U5",
+    "PZ-0003.00000000.D911 U5",
+    "PS-1556.00000000 U3",
+    "PZ-0003.00000000.D911 U9",
+    "PZ-0003.00000000.D911 U8",
+    "PS-1556.00000000 U9",
+    "PS-1556.00000000 U8",
+    "PS-1556.00000000",
+    "PS-1556.00000000 U15",
+    "PS-1556.00000000 U12",
+    "PZ-0003.00000000.D911 U12",
+    "PZ-0003.00000000.D911 U10",
+    "PS-1556.00000000 U10",
+    "PZ-0003.00000000.D911 U15",
+    "PZ-0003.00000000.D911 U3"
+  ],
+  "subject_facet": [
+    "African Americans",
+    "American fiction (fictional works by one author)",
+    "American literature",
+    "Fiction",
+    "Spiritual life"
+  ],
+  "ol_work_key": "/works/OL1797345W"
 }

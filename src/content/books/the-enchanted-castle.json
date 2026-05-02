@@ -1,7 +1,7 @@
 {
   "title": "The Enchanted Castle",
   "author": "E. Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-enchanted-castle",
   "tags": [
@@ -33,5 +33,56 @@
   "gutenberg_id": 34219,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/34219",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/34219.html.images",
-  "librivox_url": "https://librivox.org/the-enchanted-castle-by-e-nesbit/"
+  "librivox_url": "https://librivox.org/the-enchanted-castle-by-e-nesbit/",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0008.00000000.B612 En4",
+    "PZ-0007.00000000.N43777En 1992",
+    "PZ-0007.00000000.N43777 En 1992",
+    "PZ-0007.00000000.B61 En",
+    "PZ-0007.00000000.N43777 En 2002",
+    "PZ-0007.00000000.N43777 E534 2009",
+    "PZ-0007.00000000.N43777 En 1994"
+  ],
+  "subject_facet": [
+    "Brothers and sisters",
+    "Brothers and sisters -- Juvenile fiction",
+    "Brothers and sisters, fiction",
+    "Castles",
+    "Castles -- Juvenile fiction",
+    "Castles in fiction",
+    "Castles, fiction",
+    "Children",
+    "Children's fantasy fiction",
+    "Children's fiction",
+    "Children's stories",
+    "England",
+    "England in fiction",
+    "England, fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fantasy fiction, English",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Friendship",
+    "Friendship -- Juvenile fiction",
+    "Friendship, fiction",
+    "Great Britain -- History -- Edward VII, 1901-1910 -- Juvenile fiction",
+    "Great Britain, fiction",
+    "History",
+    "Juvenile fiction",
+    "Magic",
+    "Magic -- Juvenile fiction",
+    "Magic, fiction",
+    "Rings",
+    "Rings -- Juvenile fiction",
+    "Rings in fiction",
+    "Wishes",
+    "Wishes -- Juvenile fiction"
+  ],
+  "ol_work_key": "/works/OL99541W"
 }

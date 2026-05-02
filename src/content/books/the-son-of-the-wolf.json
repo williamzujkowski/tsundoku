@@ -30,5 +30,36 @@
   ],
   "librivox_url": "https://librivox.org/the-son-of-the-wolf-by-jack-london/",
   "description": "'Carmen won't last more than a couple of days.'",
-  "isbn": "9780932458025"
+  "isbn": "9780932458025",
+  "ddc": [
+    "813.52",
+    "823.91",
+    "813.4"
+  ],
+  "lcc": [
+    "PS-3523.00000000.O46 So 1978",
+    "PS-3523.00000000.O46 S72 1998",
+    "PZ-0003.00000000.L846 So10",
+    "PS-3523.00000000.O46 So14",
+    "PZ-0003.00000000.L846 So 1978",
+    "PZ-0003.00000000.L846 So",
+    "PS-3523.00000000.O46S72 1998",
+    "PS-3523.00000000.O46 S72 1996",
+    "PS-3523.00000000.O46 S72 1900b",
+    "PS-3523.00000000.O46S72 1996",
+    "PZ-0003.00000000.L846 So14",
+    "PS-3523.00000000.O46 So10"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American Adventure stories",
+    "American fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Gold discoveries",
+    "Gold mines and mining",
+    "Relatos de aventura",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL144817W"
 }

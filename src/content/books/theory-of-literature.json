@@ -1,7 +1,7 @@
 {
   "title": "Theory of Literature",
   "author": "René Wellek and Austin Warren",
-  "category": "Philosophy",
+  "category": "Literary Criticism",
   "priority": 1,
   "slug": "theory-of-literature",
   "tags": [
@@ -24,5 +24,17 @@
     "Study and teaching",
     "Aesthetics"
   ],
-  "pages": 389
+  "pages": 389,
+  "lcc": [
+    "PN-0045.00000000.W36 1962",
+    "PN-0045.00000000.W36 2018"
+  ],
+  "subject_facet": [
+    "Aesthetics",
+    "Criticism",
+    "Literature",
+    "Philosophy",
+    "Study and teaching"
+  ],
+  "ol_work_key": "/works/OL20548730W"
 }

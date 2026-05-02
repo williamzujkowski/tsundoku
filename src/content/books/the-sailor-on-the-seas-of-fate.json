@@ -1,7 +1,7 @@
 {
   "title": "The Sailor on the Seas of Fate",
   "author": "Michael Moorcock",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-sailor-on-the-seas-of-fate",
   "tags": [
@@ -27,5 +27,26 @@
     "Fantasy fiction",
     "Fiction, fantasy, general"
   ],
-  "isbn": "9780879977146"
+  "isbn": "9780879977146",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.O59 Sai",
+    "PZ-0004.00000000.M8185Sai",
+    "PR-6063.00000000.O59 S25 1983",
+    "PR-6063.00000000.O59 S25 1984",
+    "PZ-0004.00000000.M8185 Sai",
+    "PR-6063.00000000.O59"
+  ],
+  "subject_facet": [
+    "Elric of melnibone (fictitious character), fiction",
+    "Fantasy fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Melnibone (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL2697663W"
 }

@@ -28,5 +28,19 @@
   "gutenberg_id": 77111,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/77111",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/77111.html.images",
-  "isbn": "9781432606886"
+  "isbn": "9781432606886",
+  "ddc": [
+    "853.8"
+  ],
+  "lcc": [
+    "PQ-4811.00000000.E6 M213 1982",
+    "PZ-0003.00000000.D3762 Mo",
+    "PQ-4811.00000000.E6 Mo15",
+    "PQ-4811.00000000.E6 M2 E6 F23",
+    "PZ-0003.00000000.D3762 Mo15"
+  ],
+  "subject_facet": [
+    "Fiction"
+  ],
+  "ol_work_key": "/works/OL1438046W"
 }

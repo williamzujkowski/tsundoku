@@ -1,7 +1,7 @@
 {
   "title": "On Tyranny",
   "author": "Timothy Snyder",
-  "category": "History",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "on-tyranny",
   "tags": [],
@@ -27,5 +27,41 @@
     "Modern",
     "Twentieth century"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "321.9"
+  ],
+  "lcc": [
+    "JC-0495.00000000.S55 2017",
+    "PN-6727.00000000.S557 O5 2021",
+    "JC-0381.00000000",
+    "JC-0381.00000000.S6 2021",
+    "JC-0495.00000000.S55127 2019",
+    "JC-0495.00000000.S552 2021"
+  ],
+  "subject_facet": [
+    "20th Century",
+    "Civics & Citizenship",
+    "Democracy",
+    "Despotism",
+    "Essays",
+    "Europe, politics and government, 20th century",
+    "HISTORY",
+    "History, modern",
+    "History, modern, 20th century",
+    "Modern",
+    "Modern History",
+    "New York Times bestseller",
+    "POLITICAL SCIENCE",
+    "Political culture",
+    "Political ethics",
+    "Politics and Government",
+    "SOCIAL SCIENCE",
+    "Totalitarianism",
+    "Twentieth century",
+    "Tyranny",
+    "nyt:graphic-books-and-manga=2021-11-07",
+    "nyt:paperback-nonfiction=2017-03-19"
+  ],
+  "ol_work_key": "/works/OL17710110W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Unpleasantness at the Bellona Club",
   "author": "Dorothy L. Sayers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-unpleasantness-at-the-bellona-club",
   "tags": [
@@ -41,5 +41,39 @@
   "librivox_url": "https://librivox.org/the-unpleasantness-at-the-bellona-club-by-dorothy-l-sayers/",
   "gutenberg_id": 72855,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72855",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72855.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72855.html.images",
+  "ddc": [
+    "[Fic]",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6037.00000000",
+    "PR-6037.00000000.A95 V57 1956",
+    "PZ-0003.00000000.S2738 Up",
+    "PR-6037.00000000.A95 Up6",
+    "PZ-0003.00000000.S2738 Up3",
+    "PZ-0003.00000000.S2738 Up 1979",
+    "PR-1309.00000000.D4",
+    "PR-6037.00000000.A95",
+    "PZ-0003.00000000.S2738Up6",
+    "PR-6037.00000000.A95 Up 1979",
+    "PR-6037.00000000.A95 U45 1986",
+    "PR-6037.00000000.A95 Up3",
+    "PZ-0003.00000000.S2738 Up6",
+    "PR-6037.00000000.A95 Up",
+    "PR-6037.00000000.A95U45 1986"
+  ],
+  "subject_facet": [
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Large type books",
+    "Lord Wimsey, Peter (Fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Vane, harriet (fictitious character), fiction",
+    "Wimsey, peter, lord (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL2234960W"
 }

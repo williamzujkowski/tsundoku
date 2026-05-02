@@ -29,5 +29,42 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/50115",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/50115.html.images",
   "description": "Title: Struggles and Triumphs: or, Forty Years' Recollections of P. T. Barnum Some typographical errors have been corrected;\r\na list follows the text.",
-  "isbn": "9781167011092"
+  "isbn": "9781167011092",
+  "ddc": [
+    "791.0924",
+    "927.91",
+    "791.30924",
+    "791.3092"
+  ],
+  "lcc": [
+    "GV-1811.00000000.B3 A3 1870",
+    "GV-1811.00000000.B3",
+    "GV-1811.00000000.B3 A3 1927 c",
+    "GV-1811.00000000.B3 A3 1927c",
+    "GV-1811.00000000.B3 A3 1981",
+    "GV-1811.00000000.B263 1874",
+    "GV-1811.00000000.B3 A3 1967",
+    "GV-1811.00000000.B3 A3",
+    "GV-1811.00000000 B3 A33 1889",
+    "GV-1811.00000000.B26 1873, OMN",
+    "GV-1811.00000000.B3 A3 1874",
+    "PZ-0001.00000000.S44 vol. 32",
+    "GV-1811.00000000.B3 A3 1871",
+    "GV-1811.00000000.B3 A3 1884b",
+    "GV-1811.00000000.B3 A3 1970",
+    "GV-1811.00000000.B3 A3 1878",
+    "Q--0011.00000000.S66 1901"
+  ],
+  "subject_facet": [
+    "Barnum, P. T. (Phineas Taylor), 1810-1891",
+    "Biography",
+    "Circus",
+    "Circus owners",
+    "Electrons",
+    "Entertainers",
+    "Fiction, general",
+    "History",
+    "Portrait"
+  ],
+  "ol_work_key": "/works/OL891625W"
 }

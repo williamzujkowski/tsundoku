@@ -1,7 +1,7 @@
 {
   "title": "Through the Brazilian Wilderness",
   "author": "Theodore Roosevelt",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "through-the-brazilian-wilderness",
   "tags": [
@@ -37,5 +37,40 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/11746",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/11746.html.images",
   "description": "ONE day in 1908, when my presidential term was coming to a close, Father Zahm, a priest whom I knew, came in to call on me.",
-  "isbn": "9781426456466"
+  "isbn": "9781426456466",
+  "ddc": [
+    "918.104",
+    "918.10464",
+    "418.1",
+    "508.81",
+    "918.1"
+  ],
+  "lcc": [
+    "F--2515.00000000 R78",
+    "F--2515.00000000.R78 1994",
+    "F--2515.00000000.R78 2017",
+    "F--2515.00000000.R78 2000",
+    "F--2515.00000000.R78 1999",
+    "F--2515.00000000.R78",
+    "F--2515.00000000.R78 1925x",
+    "F--2515.00000000.R78 1969",
+    "F--2525.00000000.R78 1920"
+  ],
+  "subject_facet": [
+    "America, history",
+    "Brazil, description and travel",
+    "Description and travel",
+    "Expeditions",
+    "History",
+    "Roosevelt river (brazil)",
+    "Roosevelt-Rondon Scientific Expedition",
+    "Roosevelt-Rondon Scientific Expedition (1913-1914)",
+    "Roosevelt-Rondon Scientific Expedition (1913-1914) (uri) http://id.loc.gov/authorities/names/n81028089 (uri) http://viaf.org/viaf/sourceID/LC|n81028089",
+    "Roosevelt-Rondon Scientific Expedition (1913-1914) http://id.loc.gov/authorities/names/n81028089",
+    "Roosevelt-Rondon Scientific Expedition. fast (OCoLC)fst01405823",
+    "Travel",
+    "Zoology",
+    "Zoology, brazil"
+  ],
+  "ol_work_key": "/works/OL20525W"
 }

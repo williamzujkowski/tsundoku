@@ -1,7 +1,7 @@
 {
   "title": "The Forever War",
   "author": "Joe Haldeman",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-forever-war",
   "tags": [
@@ -19,5 +19,47 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "741.5973"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.H1613 Fo3",
+    "PS-3558.00000000.A353 F67 2009",
+    "PS-3558.00000000.A353 F67 2013",
+    "PS-3558.00000000.A353",
+    "PS-3558.00000000.A353 F67 2003",
+    "PS-3558.00000000.A353F67 2003",
+    "PN-6728.00000000",
+    "PS-3558.00000000.A353F67 2009",
+    "PS-3558.00000000.A353 Fo3"
+  ],
+  "subject_facet": [
+    "Aging",
+    "Aging in fiction",
+    "Comic books, strips",
+    "Comics & graphic novels, science fiction",
+    "Envejecimiento",
+    "Espacio y tiempo",
+    "Ficción",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, hard science fiction",
+    "Fiction, science fiction, military",
+    "Hugo Award Winner",
+    "Human-alien encounters",
+    "Long Now Manual for Civilization",
+    "Mandella, william (fictitious character), fiction",
+    "Science fiction comic books, strips",
+    "Science-fiction americaine",
+    "Space and time",
+    "Space and time in fiction",
+    "Space warfare",
+    "Space warfare in fiction",
+    "award:hugo_award=1976",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL271163W"
 }

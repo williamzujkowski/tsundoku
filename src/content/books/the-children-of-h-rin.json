@@ -1,7 +1,7 @@
 {
   "title": "The Children of Húrin",
   "author": "J.R.R. Tolkien",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-children-of-h-rin",
   "tags": [],
@@ -18,5 +18,38 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.912",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6039.00000000.O32 N37 2007b",
+    "PR-6039.00000000.O32N37 2007",
+    "PR-6039.00000000.O32",
+    "PR-6039.00000000.O32 N37 2008",
+    "PR-6039.00000000.O32 N37 2007"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "English fiction",
+    "Fantastique",
+    "Fantasy fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "New York Times bestseller",
+    "Novela fantástica",
+    "Open Library Staff Picks",
+    "Roman",
+    "Tierra Media (Lugar imaginario)",
+    "Vengeance",
+    "curses",
+    "incest",
+    "nyt:trade-fiction-paperback=2008-11-09",
+    "tragedy"
+  ],
+  "ol_work_key": "/works/OL27471W"
 }

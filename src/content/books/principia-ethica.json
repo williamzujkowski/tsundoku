@@ -19,5 +19,34 @@
   "google_books_url": "http://books.google.com/books?id=t1zbK2Kj3oIC&dq=Principia+Ethica+G.E.+Moore&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/principia-ethica-by-george-edward-moore/"
+  "librivox_url": "https://librivox.org/principia-ethica-by-george-edward-moore/",
+  "ddc": [
+    "171.2"
+  ],
+  "lcc": [
+    "BJ-0037.00000000.M82 1959",
+    "BJ-0037.00000000.M8",
+    "B--1647.00000000.M73 P745 1951",
+    "B--1647.00000000.M73 P74 2005",
+    "BJ-0037.00000000 M8",
+    "BJ-0037.00000000 M8 1962",
+    "BJ-0037.00000000.M8 1903",
+    "BJ-1011.00000000.M66 1959",
+    "B--1647.00000000.M73 P74 1994",
+    "BJ-0037.00000000.M8 2004",
+    "BJ-0037.00000000",
+    "B--1647.00000000.M73 P74 1993",
+    "BJ-0037.00000000.M817",
+    "BJ-0037.00000000.M8 1988"
+  ],
+  "subject_facet": [
+    "Conduct of life",
+    "Ethics",
+    "Ethiek",
+    "Etika",
+    "Moore, g. e. (george edward), 1873-1958, ethics",
+    "Morale",
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL3907953W"
 }

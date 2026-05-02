@@ -29,5 +29,27 @@
     "TCP/IP (protocole de réseaux d'ordinateurs)",
     "Computer networks"
   ],
-  "isbn": "9780132808187"
+  "isbn": "9780132808187",
+  "ddc": [
+    "004.62"
+  ],
+  "lcc": [
+    "TK-5105.55000000 S74 1994",
+    "TK-5105.55000000.S74 1994",
+    "TK-5105.58500000",
+    "TK-5105.55000000.S74 2012"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Protocole réseau",
+    "TCP/IP (Computer network protocol)",
+    "TCP/IP (protocole de réseaux d'ordinateurs)",
+    "Test protocole",
+    "communication protocols",
+    "computer networking",
+    "internet protocols",
+    "open_syllabus_project",
+    "tcp/ip"
+  ],
+  "ol_work_key": "/works/OL2705896W"
 }

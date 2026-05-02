@@ -1,7 +1,7 @@
 {
   "title": "Uncle Vanya",
   "author": "Anton Chekhov",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "uncle-vanya",
   "tags": [
@@ -30,5 +30,20 @@
   "librivox_url": "https://librivox.org/uncle-vanya-by-anton-chekhov/",
   "gutenberg_id": 1756,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1756",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1756.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1756.html.images",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6056.00000000.R5 U53 1998"
+  ],
+  "subject_facet": [
+    "Country life",
+    "Drama",
+    "English drama",
+    "Families",
+    "Family",
+    "Irish authors"
+  ],
+  "ol_work_key": "/works/OL11526328W"
 }

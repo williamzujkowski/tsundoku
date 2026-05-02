@@ -1,7 +1,7 @@
 {
   "title": "The End of Eternity",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-end-of-eternity",
   "tags": [
@@ -29,5 +29,34 @@
     "American Science fiction",
     "Themes",
     "Alternate history"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.A8316 En",
+    "PS-3551.00000000.S5 E5 1981",
+    "PS-3551.00000000.S5 En",
+    "PS-3551.00000000.S5 E5 2010",
+    "PS-3501.00000000.S55 E6 1955b",
+    "PS-3551.00000000.S55.E51 1969",
+    "PS-3551.00000000.S5E5 2010",
+    "PZ-0003.00000000.A8316 EN"
+  ],
+  "subject_facet": [
+    "Alternate history",
+    "Alternate worlds",
+    "American Science fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Large type books",
+    "Long Now Manual for Civilization",
+    "Science fiction",
+    "Science-fiction",
+    "Themes",
+    "Time travel"
+  ],
+  "ol_work_key": "/works/OL46108W"
 }

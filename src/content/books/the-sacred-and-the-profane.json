@@ -17,5 +17,34 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=zBzzv977CLgC&dq=The+Sacred+and+the+Profane+Mircea+Eliade&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "290",
+    "200.1"
+  ],
+  "lcc": [
+    "BL-0048.00000000.E413 1961",
+    "BL-0048.00000000 E414 1965",
+    "BL-0048.00000000.E415 2001",
+    "BL-0048.00000000.E413 1959",
+    "BL-0048.00000000 E413 1959",
+    "BL-0048.00000000.E413"
+  ],
+  "subject_facet": [
+    "Comparative religion - general & miscellaneous",
+    "Das Heilige",
+    "Godsdienstigheid",
+    "Heiligheid",
+    "Het heilige",
+    "Histoire",
+    "History",
+    "Mythologie",
+    "Mythology",
+    "Philosophie",
+    "Philosophy",
+    "Profaniteit",
+    "Religion",
+    "Religious"
+  ],
+  "ol_work_key": "/works/OL748585W"
 }

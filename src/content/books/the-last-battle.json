@@ -1,7 +1,7 @@
 {
   "title": "The Last Battle",
   "author": "C.S. Lewis",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-last-battle",
   "tags": [
@@ -31,5 +31,62 @@
     "Juvenile",
     "Narnia (Imaginary place)",
     "Magic"
-  ]
+  ],
+  "ddc": [
+    "[Fic]",
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0008.00000000.L48 Las2",
+    "PZ-0007.00000000.L58474 Las 1986",
+    "PR-6023.00000000.E926",
+    "PZ-0007.00000000 LEW",
+    "PZ-0007.00000000.L58474 Las 1994",
+    "PZ-0007.00000000.L58474 Las 2001",
+    "PZ-0007.00000000.L58474Las 1994",
+    "PZ-0007.00000000",
+    "PZ-0007.00000000.L58474 Ch 1988 bk. 7",
+    "PR-6023.00000000.E926 L3 1956",
+    "PZ-0007.00000000.L58474 Las 2005",
+    "PR-6023.00000000 E926 L3 1966",
+    "PZ-0007.00000000.L58474Las",
+    "PZ-0007.00000000.L58474 La 1995",
+    "PZ-0008.00000000.L48 Las 1995",
+    "PR-6023.00000000.E926 L37 1994",
+    "PZ-0007.00000000.L58474",
+    "PZ-0008.00000000.L48 Las",
+    "PZ-0090.00000000.V5 L49 2006",
+    "PZ-0007.00000000.L58474 Ch 1989 bk. 7",
+    "PR-6023.00000000.E926 L3 1970",
+    "PZ-0007.00000000.L58474Ch"
+  ],
+  "subject_facet": [
+    "20th century",
+    "Adventure and adventurers, fiction",
+    "Bien y mal",
+    "Child and youth fiction",
+    "Children's fiction",
+    "English Fantasy fiction",
+    "English literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Ficción juvenil",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Good and evil, fiction",
+    "Juvenile",
+    "Juvenile Fiction",
+    "Lions",
+    "Magic",
+    "Narnia (Imaginary place)",
+    "Narnia (Lugar imaginario)",
+    "Narnia (imaginary place), fiction",
+    "Novela fantástica",
+    "Science Fiction & Fantasy",
+    "Viajes",
+    "Voyages and travels"
+  ],
+  "ol_work_key": "/works/OL71124W"
 }

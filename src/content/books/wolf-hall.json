@@ -1,7 +1,7 @@
 {
   "title": "Wolf Hall",
   "author": "Hilary Mantel",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "wolf-hall",
   "tags": [
@@ -29,5 +29,53 @@
     "New York Times bestseller",
     "Historical Fiction",
     "National Book Critics Circle Award Winner"
-  ]
+  ],
+  "ddc": [
+    "823.92",
+    "820",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.A438 W65 2009a",
+    "PR-6063.00000000.A438W65 2009",
+    "PR-6063.00000000.A545 W65 2012",
+    "PR-6063.00000000.A438W65 2010",
+    "PR-6063.00000000.A438W6 2024",
+    "PR-6063.00000000.A438 W65 2015",
+    "PR-6063.00000000.A438 W65 2010",
+    "B--0000.00000000",
+    "PR-6063.00000000.A438 W65 2012",
+    "PR-6063.00000000.A438 W65 2009",
+    "PR-6063.00000000.A438W65 2010e",
+    "PR-6063.00000000.A438",
+    "PR-6063.00000000.A438W65"
+  ],
+  "subject_facet": [
+    "Biographical fiction",
+    "Court and courtiers",
+    "Courts and courtiers",
+    "Englisch",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fictional Works",
+    "Great britain, fiction",
+    "Histoire",
+    "Historical Fiction",
+    "Historischer Roman",
+    "History",
+    "Interpersonal relations",
+    "Man Booker Prize Winner",
+    "National Book Critics Circle Award Winner",
+    "National book critics circle award",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Politik",
+    "Romans, nouvelles",
+    "award:man_booker_prize=2009",
+    "award:national_book_critics_circle_award=2009",
+    "award:national_book_critics_circle_award=fiction",
+    "nyt:trade_fiction_paperback=2010-08-29"
+  ],
+  "ol_work_key": "/works/OL464512W"
 }

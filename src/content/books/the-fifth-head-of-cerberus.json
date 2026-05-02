@@ -1,7 +1,7 @@
 {
   "title": "The Fifth Head of Cerberus",
   "author": "Gene Wolfe",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-fifth-head-of-cerberus",
   "tags": [
@@ -24,5 +24,23 @@
     "Fiction in English",
     "Fiction, general",
     "Fiction, fantasy, epic"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52 Fi",
+    "PS-3573.00000000.O52 F5 1994",
+    "PZ-0004.00000000.W85615 Fi",
+    "PS-3573.00000000.O52F5 1994",
+    "PS-3573.00000000.O52 F53 1975"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction in English",
+    "Fiction, fantasy, epic",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL14871904W"
 }

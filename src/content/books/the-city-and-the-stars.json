@@ -1,7 +1,7 @@
 {
   "title": "The City and the Stars",
   "author": "Arthur C. Clarke",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-city-and-the-stars",
   "tags": [
@@ -25,5 +25,27 @@
     "Conformity",
     "Fiction, science fiction, general"
   ],
-  "isbn": "9789955100102"
+  "isbn": "9789955100102",
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.C551205 Ci",
+    "PR-6005.00000000.L36 C58 1956b",
+    "PZ-0003.00000000.C551205 Ci7",
+    "PR-6005.00000000.L36 C5x 1957",
+    "PR-6005.00000000.L36 Ci",
+    "PR-6005.00000000.L36 C57",
+    "PR-6005.00000000.L36"
+  ],
+  "subject_facet": [
+    "Conformity",
+    "English Science fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Life on other planets"
+  ],
+  "ol_work_key": "/works/OL17400W"
 }

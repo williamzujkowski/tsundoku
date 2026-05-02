@@ -1,7 +1,7 @@
 {
   "title": "TouchDevelop",
   "author": "R. Nigel Horspool, Nikolai Tillmann",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "touchdevelop",
   "tags": [
@@ -18,5 +18,21 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Computers"
-  ]
+  ],
+  "lcc": [
+    "QA-0076.62500000",
+    "QA-0076.89300000.H677766 2013"
+  ],
+  "subject_facet": [
+    "Android (Electronic resource)",
+    "Application software, development",
+    "Computer science",
+    "Development",
+    "IOS (Electronic resource)",
+    "Mobile computing",
+    "Pocket computers",
+    "Programming",
+    "Tablet computers"
+  ],
+  "ol_work_key": "/works/OL20929804W"
 }

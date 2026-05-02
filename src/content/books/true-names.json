@@ -1,7 +1,7 @@
 {
   "title": "True Names",
   "author": "Vernor Vinge",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "true-names",
   "tags": [
@@ -31,5 +31,30 @@
     "Computers in literature",
     "Internet"
   ],
-  "pages": 320
+  "pages": 320,
+  "ddc": [
+    "813.54",
+    "813.0876209"
+  ],
+  "lcc": [
+    "PS-3572.00000000.I534 T737 2001",
+    "PS-3572.00000000.I534 T7 1984",
+    "PS-3572.00000000.I534"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Science fiction",
+    "Computers in literature",
+    "Criticism and interpretation",
+    "Cyberspace",
+    "Fantasy fiction, American",
+    "Fiction, science fiction, steampunk",
+    "History and criticism",
+    "Internet",
+    "Science fiction",
+    "Telecommunication in literature",
+    "fantasy",
+    "swords and sorcery"
+  ],
+  "ol_work_key": "/works/OL1975716W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Romances sans paroles",
   "author": "Paul Verlaine",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "romances-sans-paroles",
   "tags": [
@@ -26,5 +26,24 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/15112.html.images",
   "description": "Dans leurs veines, le sang, subtil comme un poison, —Et sous tes cieux dorés et clairs, Hellas antique,",
   "pages": 294,
-  "isbn": "9780485147124"
+  "isbn": "9780485147124",
+  "ddc": [
+    "841.89",
+    "841.8"
+  ],
+  "lcc": [
+    "PQ-2463.00000000.R6 2003",
+    "PQ-2463.00000000.R6 1958",
+    "PQ-2463.00000000.R6 1976",
+    "PQ-2463.00000000.R6 1940",
+    "PQ-2463.00000000.R6 1887"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Fiction",
+    "French poetry",
+    "History and criticism",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL1276171W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Haunted Bookshop",
   "author": "Christopher Morley",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-haunted-bookshop",
   "tags": [
@@ -32,5 +32,40 @@
   "gutenberg_id": 172,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/172",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/172.html.images",
-  "librivox_url": "https://librivox.org/the-haunted-bookshop-by-christopher-morley/"
+  "librivox_url": "https://librivox.org/the-haunted-bookshop-by-christopher-morley/",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3525.00000000.O71",
+    "PS-3525.00000000.O71 H9",
+    "PS-3525.00000000.O71H3 2007",
+    "PZ-0003.00000000.M8265 H4",
+    "PS-3525.00000000.O71 H4",
+    "PZ-0003.00000000.M8265 Hau13",
+    "PS-3525.00000000.O71 Hau13",
+    "PZ-0003.00000000.M8265 H9",
+    "PS-3525.00000000.O71 H3 2013",
+    "PS-3525.00000000.O71 H3 1919",
+    "PZ-0003.00000000.M8265 H",
+    "PZ-0003.00000000.M8265 Hau",
+    "PS-3525.00000000 O71 H3 1920",
+    "PS-3525.00000000.O71 H3 2007",
+    "PS-3525.00000000 O71 H3 1946"
+  ],
+  "subject_facet": [
+    "Booksellers and bookselling",
+    "Booksellers and bookselling, fiction",
+    "Bookstores",
+    "Classic Literature",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "Haunted places",
+    "Mystery and detective stories",
+    "New york (n.y.), fiction"
+  ],
+  "ol_work_key": "/works/OL619317W"
 }

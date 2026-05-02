@@ -1,7 +1,7 @@
 {
   "title": "Patterns of Enterprise Application Architecture",
   "author": "Martin Fowler",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "patterns-of-enterprise-application-architecture",
   "tags": [
@@ -26,5 +26,19 @@
     "System design",
     "Business, data processing"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.S88F69 2003",
+    "QA-0076.90000000.S88 F69 2003"
+  ],
+  "subject_facet": [
+    "Application software",
+    "Business",
+    "Business, data processing",
+    "Computer architecture",
+    "Data processing",
+    "Development",
+    "System design"
+  ],
+  "ol_work_key": "/works/OL463952W"
 }

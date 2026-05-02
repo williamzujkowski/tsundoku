@@ -1,7 +1,7 @@
 {
   "title": "Polynesian Mythology",
   "author": "Robert D. Craig",
-  "category": "Science",
+  "category": "Religion",
   "priority": 2,
   "slug": "polynesian-mythology",
   "tags": [
@@ -20,5 +20,19 @@
     "Mythology, Polynesian",
     "Polynesian Mythology"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "BL-2620.00000000.P6C72 2004",
+    "BL-2620.00000000.P6 C72 2004"
+  ],
+  "subject_facet": [
+    "Mythologie",
+    "Mythologie polynesienne",
+    "Mythologie polynésienne",
+    "Mythology, polynesian",
+    "Nonfiction",
+    "Polynesian Mythology",
+    "Sociology"
+  ],
+  "ol_work_key": "/works/OL7962454W"
 }

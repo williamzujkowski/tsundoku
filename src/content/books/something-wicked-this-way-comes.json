@@ -1,7 +1,7 @@
 {
   "title": "Something Wicked This Way Comes",
   "author": "Ray Bradbury",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "something-wicked-this-way-comes",
   "tags": [
@@ -30,5 +30,56 @@
     "Social life and customs",
     "Fantasy",
     "Fantasy fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B72453 So",
+    "PS-3503.00000000.R167S66 1999",
+    "PS-3503.00000000.R167 S66 1983",
+    "PS-3503.00000000.R167 S66 1998",
+    "PS-3503.00000000.R167 S66 2000",
+    "PS-3503.00000000.R167 S66 2017",
+    "PS-3503.00000000.R167",
+    "PS-3503.00000000.R167 S66 1999",
+    "PZ-0003.00000000.B72453",
+    "PS-3503.00000000.R167 S66 1988",
+    "PS-3503.00000000.R167S66 2017",
+    "PS-3503.00000000.R167 So"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Boys",
+    "Carnival",
+    "Carnivals",
+    "Drama (dramatic works by one author)",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fathers and sons",
+    "Fathers and sons, fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, coming of age",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Friendship",
+    "Friendship, fiction",
+    "Fêtes foraines",
+    "History and criticism",
+    "Horror",
+    "Illinois, fiction",
+    "Large type books",
+    "Male friendship",
+    "Novela Inglesa",
+    "Rajeunissement",
+    "Rejuvenation",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Social life and customs",
+    "Teachers",
+    "sci-fi"
+  ],
+  "ol_work_key": "/works/OL103194W"
 }

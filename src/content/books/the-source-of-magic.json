@@ -1,7 +1,7 @@
 {
   "title": "The Source of Magic",
   "author": "Piers Anthony",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-source-of-magic",
   "tags": [
@@ -21,5 +21,22 @@
   "description": "The Source of Magic is a fantasy novel by British-American writer Piers Anthony, the second book of the Xanth series. This novel begins one year after the events of A Spell for Chameleon, and describes the adventures of Bink after he has settled down with his pregnant wife, Chameleon. King Trent had appointed Bink the Official Researcher of Xanth at the end of the previous book, and given him the task to discover Xanth's source of magic.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Source_of_Magic.jpg/120px-Source_of_Magic.jpg",
   "pages": 326,
-  "isbn": "9780345272843"
+  "isbn": "9780345272843",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.A628 So",
+    "PS-3551.00000000.N73 S57 1979"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Xanth (Imaginary place)",
+    "Xanth (imaginary place), fiction"
+  ],
+  "first_published": 1979,
+  "ol_work_key": "/works/OL80869W"
 }

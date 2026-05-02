@@ -29,5 +29,47 @@
   "librivox_url": "https://librivox.org/the-misanthrope-by-moliere/",
   "description": "The Misanthrope, or the Cantankerous Lover is a 17th-century comedy of manners in verse written by Molière. It was first performed on 4 June 1666 at the Théâtre du Palais-Royal, Paris by the King's Players.",
   "pages": 126,
-  "isbn": "9782253037927"
+  "isbn": "9782253037927",
+  "ddc": [
+    "842.4",
+    "848",
+    "842.42"
+  ],
+  "lcc": [
+    "PQ-1837.00000000.A44",
+    "PQ-1837.00000000.A445 1992",
+    "PQ-1837.00000000.A455",
+    "PQ-9697.00000000.O49 A6 1972",
+    "PQ-1837.00000000.A3 W5",
+    "PQ-1837.00000000.A485 1967",
+    "PQ-1837.00000000.A3 O6",
+    "PQ-1837.00000000.A485",
+    "PQ-1837.00000000.A3 R8 1972",
+    "PQ-1837.00000000.A1 1942",
+    "PQ-1837.00000000.A3",
+    "AC-0005.00000000.G655vol.4part 2",
+    "PQ-1837.00000000.A37 M3",
+    "PQ-1837.00000000.A3 J6 1888",
+    "PQ-1837.00000000 A3 B6",
+    "PQ-1837.00000000.A445 1993",
+    "PQ-1837.00000000.A3 J6",
+    "PQ-1837.00000000.A445",
+    "PQ-1837.00000000.A1 1962",
+    "PQ-1837.00000000.A3 B6"
+  ],
+  "subject_facet": [
+    "Aristocracy (Social class)",
+    "Baptiste Poquelin, dit. Le Misanthrope",
+    "Classic Literature",
+    "Comédie française",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Fiction",
+    "French drama (Comedy)",
+    "Man-woman relationships",
+    "Misanthrope (Molière)",
+    "Molière, Jean",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL83254W"
 }

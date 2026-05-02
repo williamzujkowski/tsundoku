@@ -1,7 +1,7 @@
 {
   "title": "Poésies",
   "author": "Stéphane Mallarmé",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "po-sies",
   "tags": [
@@ -20,5 +20,9 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=CpqOCgAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PQ-2344.00000000.A2 2006"
+  ],
+  "ol_work_key": "/works/OL38245446W"
 }

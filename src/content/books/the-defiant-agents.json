@@ -1,7 +1,7 @@
 {
   "title": "The Defiant Agents",
   "author": "Andre Norton",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-defiant-agents",
   "tags": [
@@ -32,5 +32,37 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/25550",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/25550.html.images",
   "librivox_url": "https://librivox.org/the-defiant-agents-by-andre-norton/",
-  "isbn": "9781502308795"
+  "isbn": "9781502308795",
+  "ddc": [
+    "813.52",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3527.00000000.O87 D4 1962d",
+    "PZ-0007.00000000.N82 De 1979",
+    "PZ-0007.00000000.N82 De",
+    "PE-1111.00000000.F585"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "American Science fiction",
+    "Apache (Indiens)",
+    "Apache Indians",
+    "Colonies spatiales",
+    "Composition and exercises",
+    "English language",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Indians of North America",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Space and time",
+    "Space and time -- Fiction",
+    "Space colonies",
+    "Time travel",
+    "Time travel -- Fiction",
+    "Voyages dans le temps",
+    "sci fi"
+  ],
+  "ol_work_key": "/works/OL473243W"
 }

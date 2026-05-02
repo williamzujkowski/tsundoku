@@ -1,23 +1,23 @@
 {
-  "total_books": 3644,
-  "total_categories": 30,
-  "total_authors": 1671,
+  "total_books": 3619,
+  "total_categories": 28,
+  "total_authors": 1665,
   "priorities": {
-    "must_read": 1750,
-    "recommended": 1860,
+    "must_read": 1727,
+    "recommended": 1858,
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3581,
+    "covers": 3556,
     "covers_pct": 98.3,
-    "descriptions": 3554,
+    "descriptions": 3530,
     "descriptions_pct": 97.5,
-    "isbns": 3131,
-    "isbns_pct": 85.9,
-    "pages": 3267,
-    "pages_pct": 89.7,
-    "years": 3529,
-    "subjects": 3297
+    "isbns": 3553,
+    "isbns_pct": 98.2,
+    "pages": 3473,
+    "pages_pct": 96.0,
+    "years": 3600,
+    "subjects": 3275
   },
   "top_authors": [
     {
@@ -104,151 +104,143 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1140
-    },
-    {
-      "name": "Science Fiction",
-      "count": 330
+      "count": 1789
     },
     {
       "name": "Philosophy",
-      "count": 308
+      "count": 315
     },
     {
-      "name": "Fantasy",
-      "count": 276
+      "name": "Science Fiction",
+      "count": 208
     },
     {
       "name": "History",
-      "count": 209
+      "count": 191
     },
     {
-      "name": "Mystery",
-      "count": 197
-    },
-    {
-      "name": "Computer Science",
-      "count": 192
+      "name": "Fantasy",
+      "count": 132
     },
     {
       "name": "Poetry",
-      "count": 158
-    },
-    {
-      "name": "Drama",
-      "count": 106
-    },
-    {
-      "name": "Security",
-      "count": 73
-    },
-    {
-      "name": "Classics",
-      "count": 69
-    },
-    {
-      "name": "Horror",
-      "count": 68
-    },
-    {
-      "name": "Economics",
-      "count": 61
-    },
-    {
-      "name": "Non-Western Literature",
-      "count": 52
-    },
-    {
-      "name": "Political Theory",
-      "count": 45
-    },
-    {
-      "name": "Science",
-      "count": 41
+      "count": 122
     },
     {
       "name": "Mathematics",
+      "count": 119
+    },
+    {
+      "name": "Computer Science",
+      "count": 105
+    },
+    {
+      "name": "Mystery",
+      "count": 70
+    },
+    {
+      "name": "Economics",
+      "count": 69
+    },
+    {
+      "name": "Political Theory",
+      "count": 67
+    },
+    {
+      "name": "Classics",
+      "count": 64
+    },
+    {
+      "name": "Science",
+      "count": 52
+    },
+    {
+      "name": "Security",
+      "count": 50
+    },
+    {
+      "name": "Religion",
+      "count": 45
+    },
+    {
+      "name": "Drama",
+      "count": 42
+    },
+    {
+      "name": "Horror",
       "count": 41
     },
     {
       "name": "Literary Criticism",
-      "count": 36
+      "count": 37
     },
     {
-      "name": "Science Fiction & Fantasy",
-      "count": 33
+      "name": "Non-Western Literature",
+      "count": 29
     },
     {
       "name": "Non-Western Philosophy",
-      "count": 32
-    },
-    {
-      "name": "Essays",
-      "count": 26
-    },
-    {
-      "name": "Speculative Fiction",
-      "count": 24
-    },
-    {
-      "name": "Contemporary Speculative Fiction",
-      "count": 23
-    },
-    {
-      "name": "Complex Systems",
-      "count": 23
-    },
-    {
-      "name": "Religion",
-      "count": 18
+      "count": 21
     },
     {
       "name": "Biography/Memoir",
-      "count": 15
-    },
-    {
-      "name": "Governance",
       "count": 13
     },
     {
-      "name": "Global History",
-      "count": 12
+      "name": "Essays",
+      "count": 11
+    },
+    {
+      "name": "Complex Systems",
+      "count": 10
     },
     {
       "name": "Medieval Philosophy & Theology",
-      "count": 12
+      "count": 5
     },
     {
-      "name": "Non‑Western History",
-      "count": 11
+      "name": "Non-Western History",
+      "count": 4
+    },
+    {
+      "name": "Global History",
+      "count": 3
+    },
+    {
+      "name": "Governance",
+      "count": 3
+    },
+    {
+      "name": "Science Fiction & Fantasy",
+      "count": 2
     }
   ],
   "year_distribution": {
-    "before_1800": 158,
-    "1800_1899": 256,
-    "1900_1949": 466,
-    "1950_1999": 1171,
-    "2000_plus": 1478
+    "before_1800": 161,
+    "1800_1899": 255,
+    "1900_1949": 469,
+    "1950_1999": 1210,
+    "2000_plus": 1505
   },
   "reading_progress": {
-    "read": 3234,
+    "read": 3210,
     "reading": 0,
-    "want": 410,
+    "want": 409,
     "unread": 0
   },
   "links": {
-    "gutenberg": 977,
-    "librivox": 705,
-    "hathitrust": 129,
-    "worldcat": 480
+    "gutenberg": 976,
+    "librivox": 704,
+    "hathitrust": 127,
+    "worldcat": 478
   },
   "oldest_year": -400,
   "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1215788,
-    "estimated_reading_hours": 20263,
-    "shelf_meters": 91.1,
-    "books_with_pages": 3267
+    "total_pages": 1285741,
+    "estimated_reading_hours": 21429,
+    "shelf_meters": 90.5,
+    "books_with_pages": 3473
   },
-  "generated_at": "2026-05-01T14:03:20.823695"
+  "generated_at": "2026-05-01T23:41:51.599595"
 }

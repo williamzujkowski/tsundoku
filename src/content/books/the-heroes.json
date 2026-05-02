@@ -1,7 +1,7 @@
 {
   "title": "The Heroes",
   "author": "Joe Abercrombie",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-heroes",
   "tags": [
@@ -28,5 +28,22 @@
     "Strategy",
     "Science fiction, fantasy, horror"
   ],
-  "pages": 672
+  "pages": 672,
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6101.00000000.B49",
+    "PR-6101.00000000.B49 H47 2011"
+  ],
+  "subject_facet": [
+    "Battles",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, war & military",
+    "Imaginary wars and battles",
+    "Science fiction, fantasy, horror",
+    "Strategy"
+  ],
+  "ol_work_key": "/works/OL15414617W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Osip Mandelstam",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "selected-poems-8",
   "tags": [
@@ -20,5 +20,42 @@
   ],
   "google_books_url": "http://books.google.com/books?id=m01SDwAAQBAJ&dq=Selected+Poems+Osip+Mandelstam&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "891.713"
+  ],
+  "lcc": [
+    "PG-3476.00000000.M355 A24 1991",
+    "PG-3476.00000000.M355 A6 1973",
+    "PG-3476.00000000.M355 A23 1983",
+    "PG-3476.00000000.M355 A6 1991",
+    "PG-3476.00000000.M355 A23",
+    "PG-3476.00000000.M355",
+    "PG-3476.00000000.M355 S58 1992",
+    "PG-3476.00000000.M355 A23 1989",
+    "PG-3476.00000000.M355 A17 1995g",
+    "PG-3476.00000000.M355 A24 1980",
+    "PG-3476.00000000.M355 A33",
+    "PG-3476.00000000.M355 A24 1978",
+    "PG-3476.00000000.M355 A23 1974",
+    "PG-3476.00000000.M355A23 1983",
+    "PG-3486.00000000.M355 A6 1995a",
+    "PG-3476.00000000.M355 A6 1975",
+    "PG-3476.00000000.M355 A17 1995",
+    "PG-3476.00000000.M355A23 1974",
+    "PG-3476.00000000.M355A23 1989",
+    "PG-3476.00000000.M355 A23 2004",
+    "PG-3476.00000000.M355A23 2004",
+    "PG-3476.00000000.M355 A6 1998",
+    "PG-3476.00000000.M355 A17 1983"
+  ],
+  "subject_facet": [
+    "18.53 Russian literature",
+    "English poetry",
+    "Poetry (poetic works by one author)",
+    "Russian poetry",
+    "Translations into English",
+    "Translations into German"
+  ],
+  "ol_work_key": "/works/OL916330W"
 }

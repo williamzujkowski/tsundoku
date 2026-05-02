@@ -39,5 +39,50 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/74437",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/74437.html.images",
   "description": "Those Barren Leaves is a satirical novel by Aldous Huxley, published in 1925. The title is derived from the poem \"The Tables Turned\" by William Wordsworth which ends with the words:Enough of Science and of Art;\nClose up those barren leaves;\nCome forth, and bring with you a heart\nThat watches and receives.",
-  "isbn": "9781646795819"
+  "isbn": "9781646795819",
+  "ddc": [
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.H981 Th",
+    "PR-6015.00000000.U9 .T5 1925",
+    "PR-6015.00000000.U9 Th4",
+    "PZ-0003.00000000.H981 Th4",
+    "PZ-0003.00000000.H981 Th5",
+    "PR-6015.00000000.U9",
+    "PR-6015.00000000.U9T5 1998",
+    "PR-6015.00000000.U9 Th",
+    "PR-6015.00000000.U9 T46 1931x",
+    "PR-6015.00000000 U9 T48 1951",
+    "PR-6015.00000000.U9 T46 2005",
+    "PR-6015.00000000.U9 Th8",
+    "PZ-0003.00000000.H981 Th8",
+    "PR-6015.00000000.U9T5",
+    "PR-6015.00000000.U9 Th5",
+    "PR-6015.00000000 U9 T48",
+    "PR-6015.00000000 U9 T48 1925",
+    "PR-6015.00000000.U9 T5 1998"
+  ],
+  "subject_facet": [
+    "Art",
+    "Artists and patrons",
+    "Artists and patrons--Fiction",
+    "Artists, fiction",
+    "Authors and readers",
+    "Authors and readers--Fiction",
+    "British and irish fiction (fictional works by one author)",
+    "English",
+    "English fiction",
+    "English literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, humorous, general",
+    "Italy",
+    "Italy, fiction",
+    "Italy--Fiction",
+    "Satire",
+    "Wit and humor"
+  ],
+  "ol_work_key": "/works/OL64391W"
 }

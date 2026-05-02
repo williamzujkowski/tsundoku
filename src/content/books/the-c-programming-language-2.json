@@ -1,7 +1,7 @@
 {
   "title": "The C++ Programming Language",
   "author": "Bjarne Stroustrup",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-c-programming-language-2",
   "tags": [
@@ -29,5 +29,46 @@
     "C (Computer program language)",
     "Programming languages (electronic computers)",
     "Computer programming"
-  ]
+  ],
+  "ddc": [
+    "005.133"
+  ],
+  "lcc": [
+    "QA-0076.73000000.C15 S79 1991",
+    "QA-0076.73000000.C15S79 1991",
+    "QA-0076.73000000.C153 S77 1997",
+    "QA-0076.73000000.C153 S77 1986",
+    "QA-0076.73000000.C15 S79 1993",
+    "QA-0076.73000000.C153 S77 2013",
+    "QA-0076.73000000.C153",
+    "QA-0076.73000000.C153S77 2013",
+    "QA-0076.73000000.C153 S77 2000",
+    "QA-0076.73000000.C153S77 2000"
+  ],
+  "subject_facet": [
+    "C (Computer program language)",
+    "C (Programmiersprache)",
+    "C plus plus (computer program language)",
+    "C plus plus (langage de programmation)",
+    "C++",
+    "C++ (Computer program language)",
+    "C++ (Computer programming language)",
+    "C++ (Langage de programmation)",
+    "C++ (Lenguaje de programación)",
+    "C++ (język programowania)",
+    "C++ Computer Programming Language",
+    "C[plus plus] (Computer program language)",
+    "Computer programming",
+    "Computers &amp; the internet",
+    "Informatyka",
+    "Linguagens De Programacao (Geral)",
+    "Oprogramowanie",
+    "Podręczniki",
+    "Programming languages",
+    "Programming languages (electronic computers)",
+    "Statystyka",
+    "[manuel]",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL53184W"
 }

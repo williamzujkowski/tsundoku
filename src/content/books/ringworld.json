@@ -1,7 +1,7 @@
 {
   "title": "Ringworld",
   "author": "Larry Niven",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "ringworld",
   "tags": [
@@ -19,5 +19,48 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-0000.00000000",
+    "GV-1469.22000000",
+    "PS-3564.00000000.I9 R5",
+    "PS-3564.00000000.I9 Ri3",
+    "PZ-0004.00000000.N734 Ri3",
+    "PS-3564.00000000.I9 R55x",
+    "PS-3564.00000000.I9.R58 1973",
+    "PS-3564.00000000.I9",
+    "PN-6728.00000000.R563 M36 2014",
+    "PZ-0004.00000000.N734Ri3",
+    "PS-3564.00000000.I9 R5 1985"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Bandes dessinées",
+    "Cartoons and comics",
+    "Comic books, strips",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Guerre spatiale",
+    "Guerres et batailles imaginaires",
+    "Hugo Award Winner",
+    "Imaginary places",
+    "Imaginary wars and battles",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Ringworld (Imaginary place)",
+    "Ringworld (imaginary place), fiction",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Science-fiction",
+    "Space warfare",
+    "Vie extraterrestre",
+    "award:hugo_award=1971",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL510405W"
 }

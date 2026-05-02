@@ -1,7 +1,7 @@
 {
   "title": "The Atrocity Archives (Laundry Files)",
   "author": "Charles Stross",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-atrocity-archives-laundry-files",
   "tags": [
@@ -22,5 +22,46 @@
   "isbn": "9780441013654",
   "first_published": 2006,
   "pages": 369,
-  "google_books_url": "http://books.google.com/books?id=xhiTEAAAQBAJ&dq=The+Atrocity+Archives+(Laundry+Files)+Charles+Stross&hl=&source=gbs_api"
+  "google_books_url": "http://books.google.com/books?id=xhiTEAAAQBAJ&dq=The+Atrocity+Archives+(Laundry+Files)+Charles+Stross&hl=&source=gbs_api",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-6119.00000000.T79A95 2006",
+    "PR-6119.00000000.T79 A95 2006",
+    "PR-6119.00000000.T79 A95 2004"
+  ],
+  "subject_facet": [
+    "Atrocities",
+    "Bob Howard (Fictitious character)",
+    "Computer hackers",
+    "Demonology",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, war & military",
+    "Geeks (Computer enthusiasts)",
+    "Hackers",
+    "Homeless persons",
+    "Homeless persons -- Fiction.",
+    "Homeless persons -- West (U.S.)",
+    "Influence",
+    "Intelligence service",
+    "Manners and customs",
+    "Monsters",
+    "Nazis",
+    "Nazis, fiction",
+    "Office politics",
+    "Railroad travel",
+    "Railroad travel -- Fiction.",
+    "Railroad travel -- West (U.S.)",
+    "Social life and customs",
+    "Tramps",
+    "Tramps -- Fiction.",
+    "Tramps -- West (U.S.)",
+    "West (U.S.) -- Social life and customs -- Fiction.",
+    "West (U.S.) -- Social life and customs.",
+    "World War, 1939-1945",
+    "World war, 1939-1945, fiction"
+  ],
+  "ol_work_key": "/works/OL2465682W"
 }

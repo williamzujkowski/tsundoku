@@ -1,7 +1,7 @@
 {
   "title": "The English Patient",
   "author": "Michael Ondaatje",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-english-patient",
   "tags": [
@@ -30,5 +30,47 @@
     "Romans, nouvelles",
     "Guerre mondiale, 1939-1945",
     "World War (1939-1945) fast (OCoLC)fst01180924"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O243",
+    "PR-9199.30000000.O5 E54 1993",
+    "PR-9199.30000000.O5 E54 1997",
+    "PR-9199.30000000.O5E54 2011",
+    "PR-9199.30000000.O5 E54 2011",
+    "E--0195.00000000.J2 1966",
+    "PR-9199.30000000.O5E54 1997",
+    "PR-9199.30000000.O5",
+    "PR-9199.30000000.O5 E54 1992",
+    "PE-0000.00000000",
+    "PR-9199.30000000.O5E54 1992",
+    "PR-9199.30000000.O5 .E54 1996",
+    "PR-9199.30000000.O5 E54 1992b"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Canadian fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, war & military",
+    "Fictional Works [Publication Type]",
+    "Guerra Mundial II, 1939-1945",
+    "Guerre mondiale, 1939-1945",
+    "Historical fiction",
+    "Italy, fiction",
+    "Large type books",
+    "Novela canadiense",
+    "Romans, nouvelles",
+    "War stories",
+    "Weltkrieg",
+    "World War (1939-1945) fast (OCoLC)fst01180924",
+    "World War, 1939-1945",
+    "World war, 1939-1945, fiction"
+  ],
+  "ol_work_key": "/works/OL53071W"
 }

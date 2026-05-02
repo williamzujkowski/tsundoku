@@ -1,7 +1,7 @@
 {
   "title": "Pro Git",
   "author": "Scott Chacon, Ben Straub",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "pro-git",
   "tags": [
@@ -28,5 +28,31 @@
     "Computer programming",
     "Electronic data processing, distributed processing",
     "Electronic data processing--distributed processing"
-  ]
+  ],
+  "ddc": [
+    "005.1",
+    "004"
+  ],
+  "lcc": [
+    "QA-0076.90000000.D5 C42 2009",
+    "QA-0076.76000000.O62",
+    "QA-0076.75800000"
+  ],
+  "subject_facet": [
+    "Application software",
+    "Application software--development",
+    "Computer programming",
+    "Computer science",
+    "Development",
+    "Distributed processing",
+    "Electronic data processing",
+    "Electronic data processing, distributed processing",
+    "Electronic data processing--distributed processing",
+    "Git (Computer file)",
+    "Qa76.758",
+    "Software development",
+    "Software engineering",
+    "Version control systems"
+  ],
+  "ol_work_key": "/works/OL16310859W"
 }

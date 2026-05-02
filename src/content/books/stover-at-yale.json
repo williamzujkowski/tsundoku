@@ -22,5 +22,25 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/46674",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46674.html.images",
   "description": "Stover at Yale, by Owen Johnson is a novel describing undergraduate life at Yale at the turn of the 20th century. The book was described by F. Scott Fitzgerald as the \"textbook\" of his generation. Stover at Yale recounts Dink Stover's navigation through the social structure at Yale and his struggles with social pressure.",
-  "isbn": "9781511525299"
+  "isbn": "9781511525299",
+  "ddc": [
+    "813.5",
+    "[Fic]",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.J6355 St6",
+    "PS-3519.00000000.O284 S7 1912",
+    "PZ-0003.00000000.J6355 St 1912x",
+    "PZ-0003.00000000.J6355 St",
+    "PS-3519.00000000.O284 St",
+    "PZ-0003.00000000.J6335 St9",
+    "PS-3519.00000000.O284 St6",
+    "PS-3519.00000000.O284 St9"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Yale University"
+  ],
+  "ol_work_key": "/works/OL95995W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Death and Life of Great American Cities",
   "author": "Jane Jacobs",
-  "category": "Governance",
+  "category": "History",
   "priority": 1,
   "slug": "the-death-and-life-of-great-american-cities",
   "tags": [
@@ -29,5 +29,46 @@
     "Long Now Manual for Civilization",
     "Rénovation urbaine",
     "Urbanisme"
-  ]
+  ],
+  "ddc": [
+    "309.2620973",
+    "307.760973",
+    "307.12160973",
+    "711.40973"
+  ],
+  "lcc": [
+    "HT-0167.00000000.J33 1993",
+    "HT-0167.00000000.J33 1961",
+    "HT-0167.00000000",
+    "HT-0167.00000000.J33 2011",
+    "SP-0000.00000000.Col. NA9108 .J3 c.2",
+    "HT-0167.00000000.J33 2002",
+    "HT-0167.00000000.J33 1992",
+    "NA-9108.00000000.J3 1972",
+    "E--0447.00000000.A2 1969",
+    "NA-9108.00000000.J3"
+  ],
+  "subject_facet": [
+    "Amistad (Schooner)",
+    "Architecture",
+    "Cities and towns",
+    "Cities and towns, united states",
+    "City planning",
+    "City planning, united states",
+    "Croissance",
+    "History",
+    "Long Now Manual for Civilization",
+    "Politique urbaine",
+    "Public Policy",
+    "Rénovation urbaine",
+    "Sociologie urbaine",
+    "Stedenbouw",
+    "United States",
+    "Urban policy",
+    "Urban renewal",
+    "Urbanisme",
+    "Urbanismo",
+    "Villes"
+  ],
+  "ol_work_key": "/works/OL93641W"
 }

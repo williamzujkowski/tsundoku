@@ -40,5 +40,39 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/32338",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32338.html.images",
   "description": "Toilers of the Sea is a novel by Victor Hugo published in 1866. The book is dedicated to the island of Guernsey, where Hugo spent 15 years in exile. Hugo uses the setting of a small island community to transmute seemingly mundane events into drama of the highest calibre. Les Travailleurs de la Mer is set just after the Napoleonic Wars and deals with the impact of the Industrial Revolution upon the island.",
-  "isbn": "9780862998233"
+  "isbn": "9780862998233",
+  "ddc": [
+    "843.7",
+    "843.17"
+  ],
+  "lcc": [
+    "PR-4494.00000000 H5 1860",
+    "PQ-2289.00000000.T7 E55 2002",
+    "PQ-2289.00000000.T7 E55 1960",
+    "PQ-2289.00000000.T7E5513 2002",
+    "PQ-2289.00000000 T7 E57",
+    "PZ-0003.00000000.H ",
+    "PQ-2289.00000000.T7 E55 1961",
+    "AC-0001.00000000.E8 no. 509",
+    "PQ-2289.00000000 T7 E55 1888",
+    "PZ-0003.00000000 H875 To",
+    "PQ-2289.00000000.T7 E5513 2002",
+    "PQ-2289.00000000.T7 E55 1993",
+    "PQ-2289.00000000.T713 2000",
+    "PZ-0003.00000000.H875 T2"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Continental european fiction (fictional works by one author)",
+    "Fate and fatalism",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Frans",
+    "French fiction",
+    "French literature",
+    "Illustraties",
+    "Sea stories",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL15202027W"
 }

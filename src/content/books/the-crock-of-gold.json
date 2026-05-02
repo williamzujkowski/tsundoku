@@ -1,7 +1,7 @@
 {
   "title": "The Crock of Gold",
   "author": "James Stephens",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-crock-of-gold",
   "tags": [
@@ -35,5 +35,48 @@
   "gutenberg_id": 1605,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1605",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1605.html.images",
-  "librivox_url": "https://librivox.org/the-crock-of-gold-by-james-stephens/"
+  "librivox_url": "https://librivox.org/the-crock-of-gold-by-james-stephens/",
+  "ddc": [
+    "823.912",
+    "823.91",
+    "[Fic]",
+    "821.912"
+  ],
+  "lcc": [
+    "S--0073.00000000",
+    "C--0076.00000000",
+    "PZ-0003.00000000.S8337 Cr13",
+    "PR-6037.00000000.T4 Cr8",
+    "PR-6037.00000000.T4 C7 1960",
+    "PR-6037.00000000.T4 C7 1942",
+    "PR-6037.00000000 T4 C7",
+    "PR-6037.00000000.T4 Cr13",
+    "PR-6037.00000000.T4",
+    "PZ-0003.00000000.S8337 Cr2",
+    "PR-6037.00000000.T4 C7 1936",
+    "PR-6037.00000000.T4 Cr",
+    "PR-6037.00000000.T4C7 1997",
+    "PZ-0003.00000000.S8337 Cr",
+    "PZ-0003.00000000.S8337 Cr8",
+    "PR-6037.00000000 T4 C7 1935",
+    "PR-6037.00000000.T4 C76 1995",
+    "PR-6037.00000000.T4 C7 1986",
+    "PR-6037.00000000.T4 C7 1997",
+    "PR-6037.00000000.T4 Cr2"
+  ],
+  "subject_facet": [
+    "Fairies",
+    "Fantasy",
+    "Fiction",
+    "Fiction, general",
+    "In literature",
+    "Ireland, fiction",
+    "Juvenile fiction",
+    "Pan (Deity)",
+    "Pan (Deity) in literature",
+    "Pan (Greek deity)",
+    "Philosophers",
+    "Quests (Expeditions)"
+  ],
+  "ol_work_key": "/works/OL1154817W"
 }

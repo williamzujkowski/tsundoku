@@ -1,7 +1,7 @@
 {
   "title": "Opened Ground",
   "author": "Seamus Heaney",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "opened-ground",
   "tags": [
@@ -29,5 +29,31 @@
     "English poetry",
     "Irish authors"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "821.914"
+  ],
+  "lcc": [
+    "PR-6058.00000000.E2065 1998",
+    "PR-6058.00000000.E2 O65 1998b",
+    "PR-6058.00000000.E2 O65 1998"
+  ],
+  "subject_facet": [
+    "Anthologies",
+    "Auteurs irlandais",
+    "English poetry",
+    "Irish",
+    "Irish Poets",
+    "Irish authors",
+    "Irish poetry",
+    "Literary collections",
+    "Male authors",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poètes irlandais",
+    "Poésie",
+    "Poésie anglaise",
+    "contemporary"
+  ],
+  "ol_work_key": "/works/OL1810101W"
 }

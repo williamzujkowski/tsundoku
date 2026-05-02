@@ -1,7 +1,7 @@
 {
   "title": "Nature",
   "author": "Ralph Waldo Emerson",
-  "category": "Literature",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "nature",
   "tags": [
@@ -63,5 +63,6 @@
     "Thoreau, henry david, 1817-1862",
     "Transcendentalism"
   ],
-  "ol_work_key": "/works/OL62240W"
+  "ol_work_key": "/works/OL62240W",
+  "pages": 78
 }

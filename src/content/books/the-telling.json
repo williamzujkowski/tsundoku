@@ -1,7 +1,7 @@
 {
   "title": "The Telling",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-telling",
   "tags": [
@@ -30,5 +30,27 @@
     "Science fiction, american",
     "Ps3562.e42 w56 2004",
     "813/.54"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 T45 2001",
+    "PS-3562.00000000.E42 T45 2000",
+    "PS-3562.00000000.E42T45 2001",
+    "PS-3562.00000000.E42T45 2000",
+    "PS-3562.00000000.E42"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Children's fiction",
+    "Fiction, science fiction, general",
+    "New York Times reviewed",
+    "Science fiction",
+    "anthropology",
+    "oppression",
+    "religion",
+    "sci-fi"
+  ],
+  "ol_work_key": "/works/OL59834W"
 }

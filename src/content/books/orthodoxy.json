@@ -1,7 +1,7 @@
 {
   "title": "Orthodoxy",
   "author": "Donald Fairbairn",
-  "category": "Literature",
+  "category": "Religion",
   "priority": 2,
   "slug": "orthodoxy",
   "tags": [
@@ -26,5 +26,21 @@
     "11.53 Eastern Churches",
     "Christianity and other religions"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "BX-0320.30000000.F35 2002",
+    "BX-0320.30000000.F35 2003"
+  ],
+  "subject_facet": [
+    "11.53 Eastern Churches",
+    "Christianity and other religions",
+    "Doctrinal Theology",
+    "Doctrines",
+    "Orthodox Eastern Church",
+    "Orthodoxe Theologie",
+    "Orthodoxe kerken",
+    "Protestantismus",
+    "Theologie"
+  ],
+  "ol_work_key": "/works/OL8017977W"
 }

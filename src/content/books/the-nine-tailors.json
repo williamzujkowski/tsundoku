@@ -1,7 +1,7 @@
 {
   "title": "The Nine Tailors",
   "author": "Dorothy L. Sayers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-nine-tailors",
   "tags": [
@@ -29,5 +29,56 @@
     "England, fiction",
     "Fiction, mystery & detective, traditional",
     "Large type books"
-  ]
+  ],
+  "ddc": [
+    "823.912 s",
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S2738 Ni12",
+    "KGS0462.00000000.M54 .J43 2006",
+    "PR-6037.00000000.A95 N54 1962",
+    "PZ-0003.00000000.S2738 Ni9",
+    "PR-6037.00000000.A95 Ni9",
+    "PZ-0003.00000000.S2738Ni12",
+    "PR-6037.00000000.A95 N54 1989",
+    "PR-6037.00000000.A95 N54 1981",
+    "PR-6037.00000000.A95",
+    "PR-6037.00000000.A95 Ni 2",
+    "PR-6037.00000000.A95 Ni12",
+    "PZ-0003.00000000.S2738 Ni3",
+    "PR-6037.00000000.A95 N4 1934",
+    "PR-6037.00000000.A95 N54 1988",
+    "PR-6037.00000000.A95 Ni3",
+    "PZ-0003.00000000.S2738 Ni 2"
+  ],
+  "subject_facet": [
+    "Administration of Criminal justice",
+    "Aristocracy (Social class)",
+    "Child welfare",
+    "Children",
+    "Children's rights",
+    "Detective and mystery stories",
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "History",
+    "Investigation",
+    "Jewelry theft",
+    "Juvenile delinquency",
+    "Large type books",
+    "Legal status, laws",
+    "Lord Wimsey, Peter (Fictitious character)",
+    "Murder",
+    "Mystery and detective stories",
+    "Politics and government",
+    "Private investigators",
+    "Wimsey, peter, lord (fictitious character), fiction",
+    "World War, 1914-1918",
+    "detective fiction",
+    "mystery"
+  ],
+  "ol_work_key": "/works/OL2234946W"
 }

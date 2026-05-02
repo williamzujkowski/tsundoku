@@ -1,7 +1,7 @@
 {
   "title": "We Who Are About To...",
   "author": "Joanna Russ",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "we-who-are-about-to",
   "tags": [
@@ -26,5 +26,25 @@
     "Interplanetary voyages",
     "Fiction",
     "Fiction, science fiction, action & adventure"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.U763W4 2005",
+    "PZ-0004.00000000.R9548 We 1978",
+    "PS-3568.00000000.U763 W4x 1977",
+    "PS-3568.00000000.U763 We 1978",
+    "PS-3568.00000000.U763 W4 2005",
+    "PS-3568.00000000.U763"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Interplanetary voyages",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL3332557W"
 }

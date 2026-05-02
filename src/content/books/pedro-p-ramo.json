@@ -15,5 +15,13 @@
   "pages": 180,
   "google_books_url": "http://books.google.com/books?id=M28PYzMAeocC&dq=Pedro+P%C3%A1ramo+Juan+Rulfo&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "lcc": [
+    "PQ-7297.00000000.R89P413 2002",
+    "PQ-7297.00000000.R89 P413 2002"
+  ],
+  "subject_facet": [
+    "Mexico, fiction"
+  ],
+  "ol_work_key": "/works/OL1731105W"
 }

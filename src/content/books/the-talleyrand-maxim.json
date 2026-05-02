@@ -1,7 +1,7 @@
 {
   "title": "The Talleyrand Maxim",
   "author": "J. S. Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-talleyrand-maxim",
   "tags": [
@@ -33,5 +33,21 @@
   "librivox_url": "https://librivox.org/the-talleyrand-maxim-by-j-s-fletcher/",
   "gutenberg_id": 9834,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/9834",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/9834.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/9834.html.images",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6011.00000000.L5 Ta2",
+    "PZ-0003.00000000.F634 Ta2"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, thrillers, suspense",
+    "Mystery",
+    "Wills in fiction"
+  ],
+  "ol_work_key": "/works/OL1797757W"
 }

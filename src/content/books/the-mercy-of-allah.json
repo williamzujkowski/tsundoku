@@ -1,7 +1,7 @@
 {
   "title": "The Mercy of Allah",
   "author": "Hilaire Belloc",
-  "category": "Economics",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-mercy-of-allah",
   "tags": [
@@ -33,5 +33,31 @@
   "gutenberg_id": 47860,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/47860",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/47860.html.images",
-  "isbn": "9781417916115"
+  "isbn": "9781417916115",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-4453.00000000.C4Z48 B38 1922",
+    "PR-6003.00000000.E45 M47 1991",
+    "PR-6003.00000000.E45 Me7",
+    "PZ-0003.00000000.B4193 Me 2",
+    "PZ-0003.00000000.B4193 Me2",
+    "PR-6003.00000000 F45 M4 1932",
+    "PZ-0003.00000000.B4193 Me",
+    "PZ-0003.00000000",
+    "PZ-0003.00000000.B4193 Me7"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Fiction",
+    "Greed -- Fiction",
+    "Merchants -- Fiction",
+    "Middle East -- Fiction",
+    "Satire",
+    "Satire, English",
+    "Storytelling -- Fiction",
+    "Uncles -- Fiction"
+  ],
+  "ol_work_key": "/works/OL2132064W"
 }

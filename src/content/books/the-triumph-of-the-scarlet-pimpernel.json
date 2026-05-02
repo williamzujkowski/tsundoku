@@ -1,7 +1,7 @@
 {
   "title": "The Triumph of the Scarlet Pimpernel",
   "author": "Emmuska Orczy",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-triumph-of-the-scarlet-pimpernel",
   "tags": [
@@ -30,5 +30,32 @@
     "Fiction, general",
     "Historical fiction"
   ],
-  "isbn": "9781859989593"
+  "isbn": "9781859989593",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6029.00000000.R25 T75 2002",
+    "PR-6029.00000000.R25 To2",
+    "PR-6029.00000000.R25 T7 1991",
+    "PZ-0003.00000000.O65 To2"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Blakeney, Percy, Sir (Fictitious character) -- Fiction",
+    "Blakeney, percy, sir (fictitious character), fiction",
+    "British -- France -- Fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "France -- History -- Revolution, 1789-1799 -- Fiction",
+    "France, fiction",
+    "France, history, revolution, 1789-1799, fiction",
+    "Historical fiction",
+    "History",
+    "Sir Blakeney, Percy (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL8125158W"
 }

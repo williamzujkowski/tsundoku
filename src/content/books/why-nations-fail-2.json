@@ -31,5 +31,43 @@
   "google_books_url": "http://books.google.com/books?id=PLlOCUIAh88C&dq=Why+Nations+Fail+Daron+Acemoglu+and+James+A.+Robinson&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "open_library_url": "https://openlibrary.org/works/OL16568759W"
+  "open_library_url": "https://openlibrary.org/works/OL16568759W",
+  "ddc": [
+    "330.15",
+    "338.9",
+    "330"
+  ],
+  "lcc": [
+    "HB-0074.00000000.P65 A28 2012",
+    "HB-0099.50000000",
+    "HB-0074.00000000.P65A28 2012",
+    "HB-0074.00000000.P65A28 2013"
+  ],
+  "subject_facet": [
+    "Creative destruction",
+    "Developing Countries",
+    "Developing countries, economic policy",
+    "Economic anthropology",
+    "Economic aspects",
+    "Economic development",
+    "Economic history",
+    "Economic policy",
+    "Economics",
+    "Economics, political aspects",
+    "Failed states",
+    "History",
+    "Industrial revolution",
+    "Institutional economics",
+    "New York Times bestseller",
+    "Political aspects",
+    "Poverty",
+    "Public institutions",
+    "Revolutions",
+    "Social policy",
+    "Wirtschaftsentwicklung",
+    "Wirtschaftspolitik",
+    "nyt:combined-print-and-e-book-nonfiction=2012-04-08",
+    "nyt:paperback-nonfiction=2013-10-06"
+  ],
+  "ol_work_key": "/works/OL16568759W"
 }

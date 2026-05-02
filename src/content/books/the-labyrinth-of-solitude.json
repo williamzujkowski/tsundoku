@@ -1,7 +1,7 @@
 {
   "title": "The Labyrinth of Solitude",
   "author": "Octavio Paz",
-  "category": "Poetry",
+  "category": "History",
   "priority": 1,
   "slug": "the-labyrinth-of-solitude",
   "tags": [
@@ -29,5 +29,35 @@
     "National characteristics, mexican",
     "Mexico, civilization"
   ],
-  "isbn": "9789681662929"
+  "isbn": "9789681662929",
+  "ddc": [
+    "972",
+    "917.2"
+  ],
+  "lcc": [
+    "F--1210.00000000",
+    "F--1210.00000000.P313",
+    "F--1210.00000000.P3 2000",
+    "F--1210.00000000.P313x 1985",
+    "F--1210.00000000.P318 1985"
+  ],
+  "subject_facet": [
+    "Características nacionales mexicanas",
+    "Civilización",
+    "Civilization",
+    "Civilization - history",
+    "Criticism and interpretation",
+    "Essays.\u001e 0",
+    "Latin america & the caribbean - politics & government",
+    "Latinos & latin americans",
+    "Mexican National characteristics",
+    "Mexican history",
+    "Mexicans & mexican americans",
+    "Mexico, civilization",
+    "National characteristics",
+    "National characteristics, mexican",
+    "Social life and customs",
+    "Vida social y costumbres"
+  ],
+  "ol_work_key": "/works/OL743252W"
 }

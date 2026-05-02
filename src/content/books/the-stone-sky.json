@@ -1,7 +1,7 @@
 {
   "title": "The Stone Sky",
   "author": "N. K. Jemisin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-stone-sky",
   "tags": [
@@ -29,5 +29,32 @@
     "award:hugo_award=novel",
     "General",
     "Mothers and daughters"
-  ]
+  ],
+  "lcc": [
+    "PS-3610.00000000.E46S76 2017",
+    "PS-3610.00000000.E46",
+    "PS-3610.00000000.E46 S76 2017"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "Conduct of life",
+    "End of the world",
+    "Epic",
+    "FICTION / Action & Adventure",
+    "FICTION / Fantasy / Epic",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "General",
+    "Good and evil",
+    "Hugo Award Winner",
+    "Long Now Manual for Civilization",
+    "Mothers and daughters",
+    "New York Times reviewed",
+    "Science fiction",
+    "award:hugo_award=2018",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL17881901W"
 }

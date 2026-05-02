@@ -1,7 +1,7 @@
 {
   "title": "Selected Haiku",
   "author": "Basho",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "selected-haiku",
   "tags": [
@@ -19,5 +19,16 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=yA1PNhVxD3wC&dq=Selected+Haiku+Basho&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "895.6132"
+  ],
+  "lcc": [
+    "PL-0794.40000000.M66 2013"
+  ],
+  "subject_facet": [
+    "Japanese poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL23279587W"
 }

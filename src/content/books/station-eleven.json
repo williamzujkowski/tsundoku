@@ -1,7 +1,7 @@
 {
   "title": "Station Eleven",
   "author": "Emily St. John Mandel",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "station-eleven",
   "tags": [
@@ -30,5 +30,48 @@
     "Symphonies",
     "Traveling theater"
   ],
-  "pages": 352
+  "pages": 352,
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-9199.40000000.M3347 S73 2015",
+    "PR-9199.40000000.S727 S73 2014b",
+    "PR-9199.40000000.S727S83",
+    "PR-9199.40000000.S727 S73 2014",
+    "PR-9199.40000000.M3347 S73 2014b",
+    "PR-9199.40000000.S727S73",
+    "PR-9199.40000000.M3347 S73 2014",
+    "PR-9199.40000000.S727"
+  ],
+  "subject_facet": [
+    "Actors",
+    "Actors, fiction",
+    "Adventure",
+    "Amerikanisches Englisch",
+    "Canadian fiction",
+    "Collection:Canada Reads",
+    "Dystopias",
+    "Epidemics",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / Adventure",
+    "Fiction",
+    "Fiction, dystopian",
+    "Fiction, science fiction, action & adventure",
+    "Large type books",
+    "Literary",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Prophets",
+    "Science Fiction",
+    "Shakespearean actors and actresses",
+    "Symphonies",
+    "Theatrical companies",
+    "Time travel",
+    "Traveling theater",
+    "collection:Canada Reads 2023",
+    "nyt:hardcover-fiction=2014-10-19",
+    "nyt:trade-fiction-paperback=2015-06-21"
+  ],
+  "ol_work_key": "/works/OL17202418W"
 }

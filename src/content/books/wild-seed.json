@@ -1,7 +1,7 @@
 {
   "title": "Wild Seed",
   "author": "Octavia E. Butler",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "wild-seed",
   "tags": [
@@ -29,5 +29,39 @@
     "1000blackgirlbooks",
     "Fiction, science fiction, general",
     "African americans, fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827 W5 2001",
+    "PS-3552.00000000.U827 W5 1999g",
+    "PS-3552.00000000.U827 W5 2005",
+    "PS-3552.00000000.U827 W54",
+    "PS-3552.00000000.U827W5 2001",
+    "PS-3552.00000000.U827",
+    "PS-3552.00000000.U827 W54 2020"
+  ],
+  "subject_facet": [
+    "1000blackgirlbooks",
+    "African American women",
+    "African americans, fiction",
+    "American literature",
+    "FICTION / Science Fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, african american & black, general",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, genetic engineering",
+    "Gender identity",
+    "Love stories",
+    "Science fiction",
+    "Sex role",
+    "Women healers",
+    "collection:otherwise_tiptree_award=retrohonor"
+  ],
+  "ol_work_key": "/works/OL35627W"
 }

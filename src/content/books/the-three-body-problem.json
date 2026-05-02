@@ -1,7 +1,7 @@
 {
   "title": "The Three Body Problem",
   "author": "Liu Cixin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-three-body-problem",
   "tags": [
@@ -29,5 +29,46 @@
     "FICTION / Science Fiction / General",
     "Science fiction",
     "General"
-  ]
+  ],
+  "ddc": [
+    "895.136",
+    "895.1352"
+  ],
+  "lcc": [
+    "PL-2947.00000000.C59S3613 2014",
+    "PL-2947.00000000.C59 S36163 2019",
+    "PL-2947.00000000.C59 S36 2008",
+    "PL-2947.00000000.C59 S3613 2014",
+    "PL-2947.00000000.C59 S3613 2015",
+    "PL-2947.00000000.C59 S36 2016",
+    "PL-2947.00000000",
+    "PL-2947.00000000.C59"
+  ],
+  "subject_facet": [
+    "Chinese Science fiction",
+    "Chinese fiction",
+    "Ciencia-ficción",
+    "Cultural Revolution (China : 1966-1976) fast (OCoLC)fst01352662",
+    "Encuentros humanos con extraterrestres",
+    "FICTION / Science Fiction / General",
+    "Ficcion",
+    "Fiction",
+    "Fiction, science fiction, alien contact",
+    "Fiction, science fiction, general",
+    "General",
+    "Guerras imaginarias",
+    "History",
+    "Hugo Award Winner",
+    "Human-alien encounters",
+    "Imaginary wars and battles",
+    "New York Times bestseller",
+    "Science fiction",
+    "Translations into English",
+    "award:hugo_award=2015",
+    "award:hugo_award=novel",
+    "china",
+    "fantasy",
+    "nyt:trade-fiction-paperback=2020-09-27"
+  ],
+  "ol_work_key": "/works/OL17267881W"
 }

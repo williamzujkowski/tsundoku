@@ -1,7 +1,7 @@
 {
   "title": "What's Wrong with the World",
   "author": "G. K. Chesterton",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 2,
   "slug": "what-s-wrong-with-the-world",
   "tags": [
@@ -35,5 +35,35 @@
   "gutenberg_id": 1717,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1717",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1717.html.images",
-  "pages": 174
+  "pages": 174,
+  "ddc": [
+    "301",
+    "824.91",
+    "361.1"
+  ],
+  "lcc": [
+    "HN-0389.00000000.C5 1910",
+    "PR-4453.00000000.C4 C63",
+    "HN-0389.00000000.C52 1994",
+    "HN-0389.00000000.C52 1942",
+    "HN-0389.00000000 C5",
+    "PR-4453.00000000 C4",
+    "HN-0389.00000000.C52 1920",
+    "HN-0389.00000000.C52 2007",
+    "HN-0389.00000000.C52"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Classic Literature",
+    "Divorce",
+    "Eugenics",
+    "Feminism",
+    "Fiction",
+    "Literature, history and criticism",
+    "Social problems",
+    "Social sciences",
+    "Suffrage",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL76479W"
 }

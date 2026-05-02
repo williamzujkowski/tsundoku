@@ -1,7 +1,7 @@
 {
   "title": "The Phoenix and the Carpet",
   "author": "E. Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-phoenix-and-the-carpet",
   "tags": [
@@ -44,5 +44,51 @@
   ],
   "gutenberg_id": 836,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/836",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/836.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/836.html.images",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.B61 Pho 2012",
+    "PZ-0007.00000000.N43777",
+    "PZ-0007.00000000.N43777 Pho 2012",
+    "PZ-0007.00000000.B61 P10",
+    "PZ-0007.00000000.N43777 Ph 2010",
+    "PZ-0007.00000000.N43777Ph 2025",
+    "PZ-0007.00000000.B61 Pho 1994",
+    "PZ-0007.00000000.N43777Ph 2018",
+    "PZ-0008.00000000.B612 Ph5"
+  ],
+  "subject_facet": [
+    "Animals, mythical, fiction",
+    "British and irish fiction (fictional works by one author)",
+    "Brothers and sisters",
+    "Brothers and sisters -- Juvenile fiction",
+    "Brothers and sisters in fiction",
+    "Carpets",
+    "Children's fiction",
+    "Children, fiction",
+    "Children: Grades 4-6",
+    "English Fantasy fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, general",
+    "Great Britain",
+    "Great Britain -- History -- Edward VII, 1901-1910 -- Juvenile fiction",
+    "Great Britain in fiction",
+    "History",
+    "Juvenile fiction",
+    "London (england), history, fiction",
+    "Magic",
+    "Magic -- Juvenile fiction",
+    "Magic in fiction",
+    "Magic, fiction",
+    "Mythical Animals",
+    "Phoenix (Mythical bird)",
+    "Phoenix (Mythical bird) -- Juvenile fiction",
+    "Siblings"
+  ],
+  "ol_work_key": "/works/OL99539W"
 }

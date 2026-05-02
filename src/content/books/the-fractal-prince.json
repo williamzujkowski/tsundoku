@@ -1,7 +1,7 @@
 {
   "title": "The Fractal Prince",
   "author": "Hannu Rajaniemi",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-fractal-prince",
   "tags": [
@@ -25,5 +25,20 @@
     "Thieves",
     "Fiction, science fiction, general"
   ],
-  "pages": 320
+  "pages": 320,
+  "lcc": [
+    "PR-6118.00000000",
+    "PR-9170.00000000.F563 F73 2012b",
+    "PR-9170.00000000.F563 F73 2012",
+    "PR-9170.00000000.F563",
+    "PR-9170.00000000.F563F73 2012"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Mind and reality",
+    "Physics",
+    "Thieves"
+  ],
+  "ol_work_key": "/works/OL17400059W"
 }

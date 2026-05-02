@@ -1,7 +1,7 @@
 {
   "title": "The Prestige",
   "author": "Christopher Priest",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-prestige",
   "tags": [
@@ -29,5 +29,34 @@
     "Music-halls",
     "History",
     "Music halls"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R55",
+    "PR-6066.00000000.R55P74 1996",
+    "PR-6066.00000000.R55 P74 1995",
+    "PR-6066.00000000.R55P74 2006",
+    "PR-6066.00000000.R55P74 1995",
+    "PR-6066.00000000.R55 P74 2006",
+    "PR-6066.00000000.R55 P74 1996",
+    "PR-6066.00000000.R55 P74 1997",
+    "PR-6066.00000000.R55P74 1997"
+  ],
+  "subject_facet": [
+    "England, fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, historical",
+    "Fiction, horror",
+    "History",
+    "Journalists",
+    "Journalists, fiction",
+    "Magicians",
+    "Music halls",
+    "Music-halls"
+  ],
+  "ol_work_key": "/works/OL166497W"
 }

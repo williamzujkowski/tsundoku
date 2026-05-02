@@ -1,7 +1,7 @@
 {
   "title": "The Rediscovery of Man",
   "author": "Cordwainer Smith",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-rediscovery-of-man",
   "tags": [
@@ -20,5 +20,12 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction, science fiction, general"
-  ]
+  ],
+  "lcc": [
+    "PS-3523.00000000.I629"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL35685378W"
 }

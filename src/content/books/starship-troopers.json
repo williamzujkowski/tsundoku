@@ -1,7 +1,7 @@
 {
   "title": "Starship Troopers",
   "author": "Robert A. Heinlein",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "starship-troopers",
   "tags": [
@@ -31,5 +31,38 @@
     "Large type books",
     "Fiction, science fiction, action & adventure",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3515.00000000.E288S7 2015",
+    "PS-3515.00000000.E288",
+    "PZ-0007.00000000.H368 Su8",
+    "PS-3515.00000000.E288S7 2016",
+    "PS-3515.00000000.E288 S69 1972",
+    "PZ-0007.00000000.H368 Su 1998",
+    "PZ-0007.00000000.H368Su 1998",
+    "PZ-0007.00000000.H368 Su 2006",
+    "PZ-0007.00000000.H368 Su",
+    "PS-3515.00000000.E288 S73",
+    "PS-3515.00000000.E288 S68 1986"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Guerre spatiale",
+    "Hugo Award Winner",
+    "Large type books",
+    "Long Now Manual for Civilization",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Space warfare",
+    "award:hugo_award=1960",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL59740W"
 }

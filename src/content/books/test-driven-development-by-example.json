@@ -1,7 +1,7 @@
 {
   "title": "Test-Driven Development by Example",
   "author": "Kent Beck",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "test-driven-development-by-example",
   "tags": [
@@ -19,5 +19,26 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=zNnPEAAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.76000000.T48 B43 2003",
+    "QA-0076.76000000.T48B43 2003"
+  ],
+  "subject_facet": [
+    "005.1/4",
+    "Computer programming",
+    "Computer software",
+    "Computer software, development",
+    "Computer software--development",
+    "Computer software--testing",
+    "Development",
+    "ENGENHARIA DE PROGRAMAÇÃO (TESTES)",
+    "Génie logiciel",
+    "Mise à l'épreuve",
+    "Qa76.76.t48 b43 2003",
+    "Software Engineering",
+    "Test-First-Ansatz",
+    "Testing"
+  ],
+  "ol_work_key": "/works/OL1961692W"
 }

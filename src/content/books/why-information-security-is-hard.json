@@ -1,7 +1,7 @@
 {
   "title": "Why Information Security Is Hard",
   "author": "Ross Anderson",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "why-information-security-is-hard",
   "tags": [],
@@ -17,5 +17,25 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=PMbSXeHwBdgC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "658.478"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25.H365 2008",
+    "QA-0076.90000000.A25 .H365 2008",
+    "QA-0076.90000000.A25 H365 2009"
+  ],
+  "subject_facet": [
+    "Computer crimes",
+    "Computer security",
+    "Crime prevention",
+    "Data protection",
+    "Handbooks, manuals",
+    "Human computer interaction",
+    "Human-computer interaction",
+    "Management",
+    "Prevention"
+  ],
+  "ol_work_key": "/works/OL18573702W"
 }

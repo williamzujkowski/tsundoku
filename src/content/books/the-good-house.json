@@ -1,7 +1,7 @@
 {
   "title": "The Good House",
   "author": "Tananarive Due",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-good-house",
   "tags": [
@@ -30,5 +30,27 @@
     "Vodou",
     "Paranormal fiction",
     "Supernatural"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.U3413 G66 2004",
+    "PS-3554.00000000.U3413 G66 2003",
+    "PS-3554.00000000.U3143",
+    "PS-8000.00000000"
+  ],
+  "subject_facet": [
+    "African American women",
+    "African American women lawyers",
+    "Fiction",
+    "Fiction, horror",
+    "Fiction, occult & supernatural",
+    "Fiction, suspense",
+    "Mothers of suicide victims",
+    "Paranormal fiction",
+    "Supernatural",
+    "Vodou"
+  ],
+  "ol_work_key": "/works/OL2632192W"
 }

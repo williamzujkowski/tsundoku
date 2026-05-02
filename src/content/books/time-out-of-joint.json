@@ -1,7 +1,7 @@
 {
   "title": "Time Out of Joint",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "time-out-of-joint",
   "tags": [
@@ -29,5 +29,41 @@
     "Suburban life",
     "Fiction, general",
     "FICTION / Science Fiction / General"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3T5 2012",
+    "PS-3554.00000000.I3 T5 2012",
+    "PS-3554.00000000.I3 T5 2002",
+    "PS-3554.00000000.I3",
+    "PS-3554.00000000.I3 Ti",
+    "PS-3554.00000000.I3 T5 1984",
+    "PS-3554.00000000.I3 Ti 1979",
+    "PS-3507.00000000.E2344 T55 1979",
+    "PZ-0004.00000000.D547 Ti",
+    "PZ-0004.00000000.D547 Ti 1979"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Aspect psychologique",
+    "Englisch",
+    "FICTION / Literary",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Jeux intellectuels",
+    "Psychological aspects",
+    "Psychological aspects of Puzzles",
+    "Puzzles",
+    "Romans, nouvelles",
+    "Science fiction, American",
+    "Science-fiction",
+    "Space and time",
+    "Suburban life",
+    "Vie de la banlieue"
+  ],
+  "ol_work_key": "/works/OL2172523W"
 }

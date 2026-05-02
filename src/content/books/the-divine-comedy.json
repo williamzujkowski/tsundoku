@@ -1,7 +1,7 @@
 {
   "title": "The Divine Comedy",
   "author": "Dante Alighieri",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-divine-comedy",
   "tags": [
@@ -33,5 +33,22 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8800.html.images",
   "librivox_url": "https://librivox.org/the-divine-comedy-by-dante-alighieri/",
   "open_library_url": "https://openlibrary.org/works/OL40125240W",
-  "cover_url_large": "https://books.google.com/books/content?id=wmacUwleJv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  "cover_url_large": "https://books.google.com/books/content?id=wmacUwleJv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "lcc": [
+    "PQ-4315.00000000.E45 2019",
+    "PQ-4315.00000000",
+    "PQ-4302.00000000"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction, general",
+    "Heaven",
+    "Hell",
+    "Italian poetry, translations into english",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Purgatory",
+    "Romance literature"
+  ],
+  "ol_work_key": "/works/OL21195136W"
 }

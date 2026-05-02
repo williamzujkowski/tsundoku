@@ -1,7 +1,7 @@
 {
   "title": "The Magicians",
   "author": "Lev Grossman",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-magicians",
   "tags": [],
@@ -27,5 +27,48 @@
     "Coming of age",
     "nyt:trade-fiction-paperback=2010-06-20",
     "New York Times bestseller"
-  ]
+  ],
+  "ddc": [
+    "791.4575",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3557.00000000.R6725 M3 2009 bk. 1",
+    "PS-3557.00000000 R6725M194",
+    "PS-3557.00000000.R6725M34 2009",
+    "PN-1992.77000000.M34 2017",
+    "PN-1992.77000000.M345 2018",
+    "PB-6728.00000000",
+    "PS-3557.00000000.R6725",
+    "PS-3557.00000000.R6725 M34 2009",
+    "PS-3557.00000000.R6725 M34 2010",
+    "PS-3557.00000000.R6725 M34 2015"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Books and reading",
+    "College graduates",
+    "College students",
+    "Coming of age",
+    "Drama",
+    "FICTION / Fantasy / Urban",
+    "Fiction",
+    "Fiction, coming of age",
+    "Fiction, fantasy, paranormal",
+    "Fiction, fantasy, urban",
+    "Fiction, psychological",
+    "Friendship",
+    "Languages, modern",
+    "Large type books",
+    "Magic",
+    "Manuscripts",
+    "Modern & contemporary fiction (post c 1945)",
+    "New York Times bestseller",
+    "Psychological fiction",
+    "Secret societies",
+    "Supernatural",
+    "Television adaptations",
+    "nyt:trade-fiction-paperback=2010-06-20"
+  ],
+  "ol_work_key": "/works/OL2679341W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Sonnets from the Portuguese",
   "author": "Elizabeth Barrett Browning",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "sonnets-from-the-portuguese",
   "tags": [
@@ -32,5 +32,57 @@
   ],
   "description": "Sonnets from the Portuguese, written c. 1845–1846 and published first in 1850, is a collection of 44 love sonnets written by Elizabeth Barrett Browning. The collection was acclaimed and popular during the poet's lifetime and it remains so today. Despite what the title implies, the sonnets are entirely Browning's own, and not translated from Portuguese.",
   "pages": 59,
-  "isbn": "9780060105556"
+  "isbn": "9780060105556",
+  "ddc": [
+    "821.8",
+    "821.82"
+  ],
+  "lcc": [
+    "PR-4189.00000000.A1 1977",
+    "PR-4189.00000000",
+    "PR-4189.00000000.A1 1902",
+    "PR-4189.00000000.A1 1944",
+    "PR-4189.00000000.A1 1909",
+    "PR-4189.00000000.A1 1942",
+    "AC-0001.00000000.L8 no. 294",
+    "PR-4189.00000000.A1 1980",
+    "PR-4189.00000000.A1 1986",
+    "PR-4189.00000000.A13 1902",
+    "PR-4189.00000000 A1 1898",
+    "PR-4189.00000000.A1 1989",
+    "PR-4189.00000000.A1 1898b",
+    "PR-4182.00000000.H65 1967",
+    "PR-4189.00000000.A1 1948",
+    "PR-4189.00000000.A1 1945",
+    "PR-4189.00000000.A13 1900",
+    "PR-4189.00000000.A1 1996",
+    "PR-4189.00000000.A1 1900a",
+    "PR-4189.00000000.A1 1938",
+    "PR-4189.00000000.A1 1967",
+    "PR-4189.00000000.A1 1950",
+    "PR-4189.00000000.A1 1925",
+    "PR-4189.00000000.A1 1936",
+    "PR-4189.00000000.A1 1900b",
+    "PR-4189.00000000.A1 1935",
+    "PR-4189.00000000.A1 1939",
+    "PR-4189.00000000.A1 1937",
+    "PR-4189.00000000.A1 1904",
+    "PR-4189.00000000.A64 A4"
+  ],
+  "subject_facet": [
+    "Correspondence",
+    "Elston Press",
+    "English Love poetry",
+    "English Poets",
+    "English Sonnets",
+    "English Women poets",
+    "English poetry",
+    "Fiction",
+    "Love-letters",
+    "Miniature books",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Specimens"
+  ],
+  "ol_work_key": "/works/OL1198482W"
 }

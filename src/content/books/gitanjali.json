@@ -1,7 +1,7 @@
 {
   "title": "Gitanjali",
   "author": "Rabindranath Tagore",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "gitanjali",
   "tags": [
@@ -104,5 +104,6 @@
     "Translations into Vietnamese",
     "Yeats, W. B. (William Butler), 1865-1939"
   ],
-  "ol_work_key": "/works/OL308575W"
+  "ol_work_key": "/works/OL308575W",
+  "pages": 94
 }

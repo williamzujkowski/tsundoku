@@ -1,7 +1,7 @@
 {
   "title": "Sophie's World",
   "author": "Jostein Gaarder",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "sophies-world",
   "tags": [
@@ -19,5 +19,39 @@
   "language": "eng",
   "subjects": [
     "r/philosophy Reading List"
-  ]
+  ],
+  "ddc": [
+    "109",
+    "839.82374"
+  ],
+  "lcc": [
+    "PT-8951.17000000.A17 S6413 2007",
+    "PT-8951.17000000.A17 S6413 1996",
+    "PT-8951.17000000.A17 S6413 2002",
+    "PT-8951.17000000.A17 S6413 1994",
+    "PT-8951.17000000 G3373 2018",
+    "PT-8951.17000000.A17S6413",
+    "PT-8951.17000000.A17",
+    "PT-8951.17000000.A17 S6413 1995",
+    "PT-8951.17000000.A17 S64 1991"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Conduct of life, fiction",
+    "Didactic fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, general",
+    "Filosofie",
+    "Filosofía",
+    "Historia",
+    "History",
+    "New York Times reviewed",
+    "Norwegian fiction",
+    "Philosophy",
+    "Philosophy and ethics",
+    "Superman (Philosophical concept)",
+    "Young adult fiction"
+  ],
+  "ol_work_key": "/works/OL922430W"
 }

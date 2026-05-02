@@ -1,7 +1,7 @@
 {
   "title": "The Charwoman's Shadow",
   "author": "Lord Dunsany",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-charwomans-shadow",
   "tags": [
@@ -21,5 +21,17 @@
     "Fiction, fantasy, epic"
   ],
   "librivox_url": "https://librivox.org/the-charwomans-shadow-by-lord-dunsany/",
-  "isbn": "9780345270900"
+  "isbn": "9780345270900",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6C48 1999",
+    "PR-6007.00000000.U6 C48 1999",
+    "PR-6007.00000000.U6 C5 1973"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, epic"
+  ],
+  "ol_work_key": "/works/OL83864W"
 }

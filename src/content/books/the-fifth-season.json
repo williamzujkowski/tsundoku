@@ -1,7 +1,7 @@
 {
   "title": "The Fifth Season",
   "author": "N. K. Jemisin",
-  "category": "Contemporary Speculative Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-fifth-season",
   "tags": [
@@ -31,5 +31,42 @@
     "Hugo Award Winner",
     "award:hugo_award=2016",
     "award:hugo_award=novel"
-  ]
+  ],
+  "lcc": [
+    "PS-3610.00000000.E46F54 2015",
+    "PS-3610.00000000.E46 F54 2015",
+    "PS-3610.00000000.E46",
+    "PS-3610.00000000.E46 F54 2015eb"
+  ],
+  "subject_facet": [
+    "Amerikanisches Englisch",
+    "Earthquake zones",
+    "End of the world",
+    "Enlèvement d'enfant par les parents",
+    "Families",
+    "Familles",
+    "Fantastischer Roman",
+    "Fantasy",
+    "Fiction",
+    "Fiction, dystopian",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fin du monde",
+    "General",
+    "Hugo Award Winner",
+    "Kidnapping",
+    "LGBTQ novels",
+    "LGBTQ science fiction & fantasy",
+    "Long now manual for civilization",
+    "Mothers and daughters",
+    "Mothers and daughters, fiction",
+    "Mères et filles",
+    "New York Times reviewed",
+    "Parental kidnapping",
+    "Romans, nouvelles",
+    "Zones sismiques",
+    "award:hugo_award=2016",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL17363125W"
 }

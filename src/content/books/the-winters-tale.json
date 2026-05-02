@@ -1,7 +1,7 @@
 {
   "title": "The Winter's Tale",
   "author": "William Shakespeare",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-winters-tale",
   "tags": [
@@ -40,5 +40,22 @@
   "librivox_url": "https://librivox.org/the-winters-tale-by-william-shakespeare/",
   "gutenberg_id": 1539,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1539",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1539.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1539.html.images",
+  "ddc": [
+    "822.33"
+  ],
+  "lcc": [
+    "PR-2839.00000000.G5",
+    "PR-2839.00000000.A2 F7",
+    "PR-1241.00000000.T5 v.3, no.29"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Drama",
+    "Fathers and daughters",
+    "Incidental music",
+    "Kings and rulers",
+    "Married people"
+  ],
+  "ol_work_key": "/works/OL27597529W"
 }

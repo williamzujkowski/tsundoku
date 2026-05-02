@@ -1,7 +1,7 @@
 {
   "title": "The Dain Curse",
   "author": "Dashiell Hammett",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-dain-curse",
   "tags": [
@@ -30,5 +30,36 @@
     "General"
   ],
   "librivox_url": "https://librivox.org/the-dain-curse-by-dashiell-hammett/",
-  "isbn": "9781471917691"
+  "isbn": "9781471917691",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3515.00000000.A4347 D3 1983",
+    "PS-3515.00000000.A4347D3 2012",
+    "PZ-0003.00000000.H1884 Dai16",
+    "PS-3515.00000000.A4347 D34 1975",
+    "PZ-0003.00000000.H1884 Dai",
+    "PS-3515.00000000.A4347 D33 1989eb",
+    "PS-3515.00000000.A4347 D3 1929",
+    "PS-3515.00000000.A4347 Dai",
+    "PS-3515.00000000.A4347D3 2002",
+    "PS-3515.00000000.A4347 Dai16"
+  ],
+  "subject_facet": [
+    "American Detective and mystery stories",
+    "Continental Op (Fictitious character)",
+    "Continental op (fictitious character), fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, thrillers, general",
+    "General",
+    "Large type books",
+    "Open Library Staff Picks",
+    "Private investigators",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL47286W"
 }

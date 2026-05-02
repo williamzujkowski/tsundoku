@@ -1,7 +1,7 @@
 {
   "title": "The Origin and Goal of History",
   "author": "Karl Jaspers",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 2,
   "slug": "the-origin-and-goal-of-history",
   "tags": [
@@ -20,5 +20,14 @@
   ],
   "google_books_url": "http://books.google.com/books?id=2htIAwAAQBAJ&dq=The+Origin+and+Goal+of+History+Karl+Jaspers&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "lcc": [
+    "D--0013.00000000.J37 2010eb",
+    "D--0013.00000000.J314 1959",
+    "D--0013.00000000"
+  ],
+  "subject_facet": [
+    "Historiography"
+  ],
+  "ol_work_key": "/works/OL21027516W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Dragon Republic",
   "author": "R.F. Kuang",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-dragon-republic",
   "tags": [],
@@ -18,5 +18,27 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction, general"
-  ]
+  ],
+  "lcc": [
+    "PS-3611.00000000.U17 D73 2019",
+    "PS-3611.00000000.U17"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Cultural Heritage",
+    "Epic",
+    "Fantasy",
+    "Fiction",
+    "Fiction, cultural heritage",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, historical",
+    "Healers",
+    "Historical",
+    "Imaginary wars and battles",
+    "Magic",
+    "Revenge",
+    "Shamans",
+    "Women soldiers"
+  ],
+  "ol_work_key": "/works/OL19629129W"
 }

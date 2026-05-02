@@ -1,7 +1,7 @@
 {
   "title": "Remembering Babylon",
   "author": "David Malouf",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "remembering-babylon",
   "tags": [
@@ -29,5 +29,28 @@
     "Australia, fiction",
     "Fiction, historical, general"
   ],
-  "isbn": "9780679749516"
+  "isbn": "9780679749516",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-9619.30000000.M265 R4 1993b",
+    "PR-9619.30000000.M265 R4 1993",
+    "PR-9619.30000000.M265R4 1993",
+    "PR-9619.30000000.M265R4"
+  ],
+  "subject_facet": [
+    "Aboriginal Australians",
+    "Australia, fiction",
+    "Australian aborigines",
+    "Fiction",
+    "Fiction, historical, general",
+    "Frontier and pioneer life",
+    "Frontier and pioneer life, fiction",
+    "Historical fiction",
+    "New York Times reviewed",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 9"
+  ],
+  "ol_work_key": "/works/OL78256W"
 }

@@ -17,5 +17,21 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=x7ndEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "863"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.D6849 Ob 1979",
+    "PQ-8097.00000000.D617 Ob 1979",
+    "PZ-0004.00000000.D6849 Ob3",
+    "PQ-8097.00000000",
+    "PQ-8097.00000000.D617 Ob3"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, magical realism"
+  ],
+  "ol_work_key": "/works/OL477470W"
 }

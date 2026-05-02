@@ -1,7 +1,7 @@
 {
   "title": "Scope and Closures",
   "author": "Kyle Simpson",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "scope-and-closures",
   "tags": [
@@ -19,5 +19,13 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Javascript (computer program language)"
-  ]
+  ],
+  "lcc": [
+    "QA-0076.73000000.J39 S555 2014"
+  ],
+  "subject_facet": [
+    "Java (Computer program language)",
+    "JavaScript (Computer program language)"
+  ],
+  "ol_work_key": "/works/OL17825963W"
 }

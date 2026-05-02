@@ -1,7 +1,7 @@
 {
   "title": "The Cathedral and the Bazaar",
   "author": "Eric S. Raymond",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-cathedral-and-the-bazaar",
   "tags": [
@@ -29,5 +29,37 @@
     "Operating systems (Computers)",
     "Linux",
     "social software"
-  ]
+  ],
+  "ddc": [
+    "005.432"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63 R396 1999",
+    "QA-0076.76000000.O63R396 1999",
+    "QA-0076.76000000.O63 R396 1999eb",
+    "QA-0076.76000000.O6; QA76.76",
+    "QA-0076.76000000.O63 R397 2001",
+    "QA-0076.76000000.O63R397 2001"
+  ],
+  "subject_facet": [
+    "COMPUTERS",
+    "Computer hackers",
+    "Computer software",
+    "Development",
+    "Hackers",
+    "Linux",
+    "Linux (computer operating system)",
+    "Open source software",
+    "Operating systems",
+    "Operating systems (Computers)",
+    "Pirates informatiques",
+    "Systèmes d'exploitation (Ordinateurs)",
+    "fetchmail",
+    "netscape",
+    "open source",
+    "open source development",
+    "social software",
+    "software"
+  ],
+  "ol_work_key": "/works/OL6036025W"
 }

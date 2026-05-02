@@ -1,7 +1,7 @@
 {
   "title": "Sir Percy Hits Back",
   "author": "Emmuska Orczy",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "sir-percy-hits-back",
   "tags": [
@@ -30,5 +30,28 @@
     "English language",
     "Historical Fiction",
     "Sir Blakeney, Percy (Fictitious character)"
-  ]
+  ],
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.O65 Sir",
+    "PR-6029.00000000.R25 Sir"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure Stories",
+    "Blakeney, Percy, Sir (Fictitious character) -- Fiction",
+    "Blakeney, percy, sir (fictitious character), fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical, general",
+    "France -- History -- Revolution, 1789-1799 -- Fiction",
+    "France, fiction",
+    "France, history, revolution, 1789-1799, fiction",
+    "Historical fiction",
+    "History",
+    "Sir Blakeney, Percy (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL8125148W"
 }

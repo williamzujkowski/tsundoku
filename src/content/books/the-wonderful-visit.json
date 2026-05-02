@@ -1,7 +1,7 @@
 {
   "title": "The Wonderful Visit",
   "author": "H.G. Wells",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-wonderful-visit",
   "tags": [
@@ -39,5 +39,31 @@
   "gutenberg_id": 33913,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/33913",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/33913.html.images",
-  "isbn": "9798406671207"
+  "isbn": "9798406671207",
+  "ddc": [
+    "823.9",
+    "823.8",
+    "823.912",
+    "629.132"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.W465 Wo 1978",
+    "PR-5774.00000000 Wo 1978",
+    "TL-0547.00000000.W42"
+  ],
+  "subject_facet": [
+    "Aeronautics",
+    "Angels",
+    "Angels -- Fiction",
+    "Country life",
+    "England -- Social life and customs -- 19th century -- Fiction",
+    "English Fantasy fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Juvenile literature",
+    "Supernatural",
+    "Villages"
+  ],
+  "ol_work_key": "/works/OL52201W"
 }

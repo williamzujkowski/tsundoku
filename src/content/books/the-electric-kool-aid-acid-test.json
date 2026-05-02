@@ -1,7 +1,7 @@
 {
   "title": "The Electric Kool-Aid Acid Test",
   "author": "Tom Wolfe",
-  "category": "Essays",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-electric-kool-aid-acid-test",
   "tags": [
@@ -25,5 +25,43 @@
   "description": "The Electric Kool-Aid Acid Test is a 1968 nonfiction book by Tom Wolfe written in the New Journalism literary style. The book presents a firsthand account of the experiences of Ken Kesey and a group of psychedelic enthusiasts, known as the Merry Pranksters, who traveled across the United States in a colorfully-painted school bus they called Furthur. Kesey and the Pranksters became famous for their use of psychedelic drugs to achieve expansion of their consciousness.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/KoolAid_1stUSEd_front.jpg/250px-KoolAid_1stUSEd_front.jpg",
   "pages": 416,
-  "isbn": "9780553140941"
+  "isbn": "9780553140941",
+  "ddc": [
+    "364.157",
+    "813.54",
+    "305.568",
+    "362.290973",
+    "301.2"
+  ],
+  "lcc": [
+    "HV-5825.00000000.W56 1997",
+    "HV-5825.00000000.W6517 2006",
+    "PS-3573.00000000.O55 E38 1969",
+    "HV-5825.00000000.W56",
+    "HQ-0799.70000000",
+    "HV-5825.00000000.W56 2008",
+    "HV-5825.00000000.W56 1968b",
+    "HV-5822.00000000.L/",
+    "HV-5825.00000000",
+    "DS-0422.00000000.C3"
+  ],
+  "subject_facet": [
+    "20th century american history - social aspects - post world war ii",
+    "American Novelists",
+    "American fiction (fictional works by one author)",
+    "Biography",
+    "Counterculture",
+    "Drug abuse",
+    "Drug addiction",
+    "Drugs & controlled substances - social aspects",
+    "Hippies",
+    "Journeys",
+    "LSD (Drug)",
+    "Merry Band of Pranksters",
+    "Recreational Drug Use",
+    "Travel",
+    "U.s. authors - 20th century - literary biography"
+  ],
+  "first_published": 1968,
+  "ol_work_key": "/works/OL1925362W"
 }

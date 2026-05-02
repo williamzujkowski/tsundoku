@@ -1,7 +1,7 @@
 {
   "title": "Surface Detail",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "surface-detail",
   "tags": [
@@ -25,5 +25,17 @@
     "Artificial intelligence",
     "Life on other planets",
     "Science fiction"
-  ]
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485",
+    "PR-6052.00000000.A485 S87 2010"
+  ],
+  "subject_facet": [
+    "Artificial intelligence",
+    "Fiction",
+    "Life on other planets",
+    "Revenge",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL15544038W"
 }

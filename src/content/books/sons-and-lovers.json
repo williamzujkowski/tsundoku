@@ -16,5 +16,13 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/sons-and-lovers-by-d-h-lawrence/",
-  "isbn": "9780631977407"
+  "isbn": "9780631977407",
+  "ddc": [
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6023.00000000.A93 S68"
+  ],
+  "ol_work_key": "/works/OL7077251W"
 }

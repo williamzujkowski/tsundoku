@@ -1,7 +1,7 @@
 {
   "title": "The Martian",
   "author": "Andy Weir",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-martian",
   "tags": [
@@ -28,5 +28,52 @@
   "description": "The Martian is a 2011 science fiction debut novel written by Andy Weir. The book was originally self-published on Weir's blog, in a serialized format. In 2014, the book was re-released after Crown Publishing Group purchased the exclusive publishing rights. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Martian_%28Weir_novel%29.jpg/330px-The_Martian_%28Weir_novel%29.jpg",
   "pages": 408,
-  "isbn": "9781410469571"
+  "isbn": "9781410469571",
+  "ddc": [
+    "[Fic]",
+    "813"
+  ],
+  "lcc": [
+    "PS-3623.00000000.E4324494 M37 2014",
+    "PS-3623.00000000.E446",
+    "PS-3623.00000000.E446 M37 2014",
+    "PS-3623.00000000.E446 M37 2014c",
+    "PS-3623.00000000",
+    "PS-3623.00000000.E446 M37 2014b",
+    "PS-3623.00000000.E446M37 2014",
+    "PS-3623.00000000.E446M37 2016"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers, fiction",
+    "Amerikanisches Englisch",
+    "Arabic language materials",
+    "Astronautas",
+    "Astronauts",
+    "Chang pian xiao shuo",
+    "Children's fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Large type books",
+    "New York Times bestseller",
+    "Novela",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Romans, nouvelles",
+    "Science Fiction & Fantasy",
+    "Science fiction",
+    "Science-Fiction",
+    "Supervivencia",
+    "Survival",
+    "Survival skills",
+    "Suspense & Thriller",
+    "nyt:hardcover-fiction=2014-03-02"
+  ],
+  "first_published": 2011,
+  "ol_work_key": "/works/OL17091839W"
 }

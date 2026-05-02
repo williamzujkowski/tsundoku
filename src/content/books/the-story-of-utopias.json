@@ -1,7 +1,7 @@
 {
   "title": "The Story of Utopias",
   "author": "Lewis Mumford",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "the-story-of-utopias",
   "tags": [
@@ -26,5 +26,18 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75654",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75654.html.images",
   "description": "Author of introduction, etc.: Hendrik Willem Van Loon Original publication: London: George G. Harrap & Co. Ltd, 1923",
-  "isbn": "9780766127906"
+  "isbn": "9780766127906",
+  "ddc": [
+    "321.07"
+  ],
+  "lcc": [
+    "HX-0806.00000000.M7",
+    "HX-0806.00000000 M84 1963",
+    "HX-0806.00000000.M7 1962",
+    "HX-0806.00000000.M8 1959"
+  ],
+  "subject_facet": [
+    "Utopias"
+  ],
+  "ol_work_key": "/works/OL1879254W"
 }

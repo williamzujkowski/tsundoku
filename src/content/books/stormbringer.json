@@ -1,7 +1,7 @@
 {
   "title": "Stormbringer",
   "author": "Michael Moorcock",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "stormbringer",
   "tags": [
@@ -22,5 +22,20 @@
     "Elric of melnibone (fictitious character), fiction",
     "Fiction, fantasy, epic",
     "Melnibone (imaginary place), fiction"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6063.05900000",
+    "PR-6063.00000000.O59 S76 1967"
+  ],
+  "subject_facet": [
+    "Elric of melnibone (fictitious character), fiction",
+    "Fiction, fantasy, epic",
+    "Melnibone (imaginary place), fiction",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL2697512W"
 }

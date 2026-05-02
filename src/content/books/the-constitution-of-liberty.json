@@ -1,7 +1,7 @@
 {
   "title": "The Constitution of Liberty",
   "author": "Friedrich Hayek",
-  "category": "Economics",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "the-constitution-of-liberty",
   "tags": [],
@@ -27,5 +27,13 @@
     "Liberté",
     "Règle de droit",
     "Libéralisme"
-  ]
+  ],
+  "lcc": [
+    "JC-0585.00000000.C384 2014",
+    "HB-0171.00000000"
+  ],
+  "subject_facet": [
+    "Economics"
+  ],
+  "ol_work_key": "/works/OL21710439W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Weary Blues",
   "author": "Langston Hughes",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-weary-blues",
   "tags": [
@@ -35,5 +35,34 @@
   ],
   "gutenberg_id": 74745,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/74745",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/74745.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/74745.html.images",
+  "ddc": [
+    "811.52"
+  ],
+  "lcc": [
+    "PS-3515.00000000.U274 W4 1929",
+    "PS-3515.00000000.U274 W4 2022",
+    "PS-3515.00000000.U274 A6 2015",
+    "PS-3515.00000000.U274",
+    "PS-3515.00000000.U274 W4 1945",
+    "PS-3515.00000000.U274W4 2022",
+    "PS-3515.00000000.U274A6 2015",
+    "PS-3515.00000000.U274 W4 1926"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "African Americans",
+    "American literature",
+    "American poetry",
+    "LITERARY CRITICISM / Poetry",
+    "Negro poetry",
+    "Noirs américains",
+    "POETRY / American / African American",
+    "POETRY / American / General",
+    "POETRY / General",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poésie"
+  ],
+  "ol_work_key": "/works/OL28559W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Eighteenth Brumaire of Louis Bonaparte",
   "author": "Karl Marx",
-  "category": "Political Theory",
+  "category": "History",
   "priority": 1,
   "slug": "the-eighteenth-brumaire-of-louis-bonaparte",
   "tags": [],
@@ -21,5 +21,38 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1346",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1346.html.images",
   "description": "The Eighteenth Brumaire of Louis Napoleon is an essay written by Karl Marx between December 1851 and March 1852, and originally published in 1852 in Die Revolution, a German monthly magazine published in New York City by Marxist Joseph Weydemeyer. Later English editions, such as the 1869 Hamburg edition with a preface by Marx, were entitled The Eighteenth Brumaire of Louis Bonaparte. The essay serves as a major historiographic application of Marx's theory of historical materialism.",
-  "isbn": "9783842439320"
+  "isbn": "9783842439320",
+  "ddc": [
+    "944.07"
+  ],
+  "lcc": [
+    "DC-0274.00000000 M324 1969",
+    "DC-0274.00000000.M35 1934",
+    "DC-0274.00000000.M324 1998",
+    "DC-0274.00000000.M3546 1948",
+    "DC-0274.00000000.M35 1951",
+    "DC-0274.00000000.M27 1927",
+    "DC-0274.00000000.M324",
+    "DC-0274.00000000 M35 1907",
+    "DC-0274.00000000.M3546",
+    "DC-0274.00000000.M29",
+    "DC-0274.00000000.M35 1935",
+    "HX-0039.49000000.E54",
+    "DC-0274.00000000 M35 1926",
+    "DC-0274.00000000.M3",
+    "DC-0274.00000000.M2713 2005",
+    "DC-0274.00000000.M3546 1951"
+  ],
+  "subject_facet": [
+    "France, history, february revolution, 1848",
+    "France, history, second republic, 1848-1852",
+    "France, politics and government, 1848-1852",
+    "Histoire",
+    "History",
+    "Marxismo",
+    "Napoleon iii, emperor of the french, 1808-1873",
+    "Politics and government",
+    "World history"
+  ],
+  "ol_work_key": "/works/OL628458W"
 }

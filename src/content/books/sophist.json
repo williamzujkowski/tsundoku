@@ -1,7 +1,7 @@
 {
   "title": "Sophist",
   "author": "Plato",
-  "category": "Philosophy",
+  "category": "Classics",
   "priority": 1,
   "slug": "sophist",
   "tags": [
@@ -35,5 +35,56 @@
     "Socrates.",
     "Sophists (Greek philosophy)"
   ],
-  "isbn": "9781976727399"
+  "isbn": "9781976727399",
+  "ddc": [
+    "184",
+    "888.4"
+  ],
+  "lcc": [
+    "PA-4285.00000000.S8 A8 1944",
+    "B--0365.00000000 A5 C3",
+    "PA-4279.00000000 A8 1971",
+    "PA-4279.00000000.A8 1973",
+    "B--0365.00000000.A2 B6",
+    "PA-4279.00000000 A8 1920",
+    "PA-4279.00000000",
+    "PA-4279.00000000 A8 1913",
+    "B--0365.00000000.A5 M3",
+    "PA-4279.00000000.A8x 1999",
+    "PA-4279.00000000.A8 1977",
+    "PA-4279.00000000.A8 1997",
+    "PA-4279.00000000.A8 1891",
+    "PA-4279.00000000 A8 1867",
+    "PA-4279.00000000 A8 1877",
+    "B--0365.00000000.A8 T956",
+    "PA-4279.00000000.A8 1971",
+    "PA-4279.00000000 A8 1957",
+    "PA-4279.00000000 A8 1905",
+    "B--0365.00000000.A8 S6 2000zeb",
+    "PA-4279.00000000 A8 1963",
+    "PA-4279.00000000 A8 1914",
+    "PA-4279.00000000 A8 1972",
+    "B--0365.00000000.A7 F83x 1986",
+    "PA-4279.00000000.A8 1961"
+  ],
+  "subject_facet": [
+    "Ancient & Classical",
+    "Criticism and interpretation",
+    "Fiction, historical, general",
+    "Filosofía griega",
+    "History & Surveys",
+    "Immortality",
+    "Language and languages, study and teaching",
+    "Nonfiction",
+    "Philosophie",
+    "Philosophy",
+    "Philosophy, ancient",
+    "Plato",
+    "Socrates",
+    "Socrates.",
+    "Sophists (Greek philosophy)",
+    "Spirituality",
+    "Trials, litigation"
+  ],
+  "ol_work_key": "/works/OL51948W"
 }

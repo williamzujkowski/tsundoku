@@ -1,7 +1,7 @@
 {
   "title": "Structure and Interpretation of Computer Programs",
   "author": "Harold Abelson and Gerald Jay Sussman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "structure-and-interpretation-of-computer-programs-2",
   "tags": [
@@ -19,5 +19,42 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=iL34DwAAQBAJ&dq=Structure+and+Interpretation+of+Computer+Programs+Harold+Abelson+and+Gerald+Jay+Sussman&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.1",
+    "001.642",
+    "005.133"
+  ],
+  "lcc": [
+    "QA-0076.60000000.A255 1985",
+    "QA-0076.60000000.A255 1996",
+    "QA-0076.80000000.T13 A28 1983",
+    "QA-0076.60000000"
+  ],
+  "subject_facet": [
+    "001.64/2",
+    "Computer programming",
+    "Computer programs",
+    "Computer programs, design",
+    "Computer science",
+    "Computer systemsprogramming",
+    "Computers",
+    "Electronic digital computers, programming",
+    "LISP",
+    "LISP (Computer program language)",
+    "LISP (Langage de programmation)",
+    "LOGO (Computer program language)",
+    "Programmation (Informatique)",
+    "Programmeren (computers)",
+    "Programmierung",
+    "Programming",
+    "Qa 76.6 a141s 1985",
+    "Qa76.6 .a255 1985",
+    "TI 99/4 (Computer)",
+    "TI 99/4A (Computer)",
+    "mirror",
+    "pdf.yt",
+    "scheme"
+  ],
+  "ol_work_key": "/works/OL3267304W"
 }

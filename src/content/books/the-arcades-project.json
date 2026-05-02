@@ -1,7 +1,7 @@
 {
   "title": "The Arcades Project",
   "author": "Walter Benjamin",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 2,
   "slug": "the-arcades-project",
   "tags": [],
@@ -17,5 +17,41 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=tdM9Hn7pzrsC&dq=The+Arcades+Project+Walter+Benjamin&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "944.361081"
+  ],
+  "lcc": [
+    "DC-0715.00000000.B3214 1997",
+    "PT-2603.00000000.E455 P33513",
+    "PT-2603.00000000.E455 P33514 1997",
+    "PT-2603.00000000.E455 P3713 2002",
+    "PT-2603.00000000.E455 P33513 1999X",
+    "PT-2603.00000000.E455P33513",
+    "DC-0715.00000000 B468 1989 F",
+    "PT-2603.00000000.E455 P33513 1999"
+  ],
+  "subject_facet": [
+    "Arcades",
+    "Arcades--france--paris--19th century",
+    "Architecture",
+    "Arkade",
+    "Buildings, structures",
+    "Civilisation",
+    "Civilization",
+    "Das Passagen-Werk (Benjamin)",
+    "Filosofia contemporânea",
+    "Flaneur",
+    "Histoire",
+    "History",
+    "Kultur",
+    "Manners and customs",
+    "Modern Architecture",
+    "Mœurs et coutumes",
+    "Paris (france), history",
+    "Pt2603.e455 p33513 1999x",
+    "Social life and customs",
+    "Stadscultuur"
+  ],
+  "ol_work_key": "/works/OL156207W"
 }

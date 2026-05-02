@@ -1,7 +1,7 @@
 {
   "title": "Structured Computer Organization",
   "author": "Andrew S. Tanenbaum",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "structured-computer-organization",
   "tags": [
@@ -29,5 +29,52 @@
     "Electronic digital computers, programming",
     "Betriebssystem",
     "Computerarchitektur"
-  ]
+  ],
+  "ddc": [
+    "005.1",
+    "001.642",
+    "004.22",
+    "001.64"
+  ],
+  "lcc": [
+    "QA-0076.60000000.T38 1989",
+    "QA-0076.60000000.T38 2002",
+    "QA-0076.60000000.T38",
+    "PG-1037.00000000.O8 I9",
+    "QA-0076.60000000.T38 1990",
+    "QA-0076.60000000.T38 2005",
+    "QA-0076.50000000",
+    "QA-0076.60000000.T38 2006",
+    "QA-0076.60000000.T38 2013",
+    "QA-0076.60000000.T38 1999",
+    "QA-0076.60000000.T38 1994",
+    "QA-0076.60000000.T38 1984"
+  ],
+  "subject_facet": [
+    "Arquitetura De Sistemas De Computacao",
+    "Betriebssystem",
+    "COMPUTER PROGRAMS",
+    "COMPUTERS",
+    "Computer architecture",
+    "Computer organization",
+    "Computer programming",
+    "Computer software",
+    "Computerarchitectuur",
+    "Computerarchitektur",
+    "Conception et construction",
+    "Datenverarbeitung",
+    "Electronic digital computers",
+    "Electronic digital computers, programming",
+    "Informatique",
+    "Ordinateurs",
+    "Organizacao de arquivos (computadores)",
+    "PROGRAMMING LANGUAGES",
+    "Programacao de computadores",
+    "Programmation",
+    "Programmation (Informatique)",
+    "Programmeren (computers)",
+    "Programming",
+    "Rechnerorganisation"
+  ],
+  "ol_work_key": "/works/OL1970690W"
 }

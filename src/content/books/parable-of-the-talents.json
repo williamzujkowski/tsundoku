@@ -1,7 +1,7 @@
 {
   "title": "Parable of the Talents",
   "author": "Octavia E. Butler",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "parable-of-the-talents",
   "tags": [
@@ -68,5 +68,6 @@
     "award:nebula_award=novel",
     "collection:otherwise_tiptree_award=honor"
   ],
-  "ol_work_key": "/works/OL35618W"
+  "ol_work_key": "/works/OL35618W",
+  "pages": 424
 }

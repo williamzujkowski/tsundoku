@@ -1,7 +1,7 @@
 {
   "title": "Sonnets to Orpheus",
   "author": "Rainer Maria Rilke",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "sonnets-to-orpheus",
   "tags": [
@@ -30,5 +30,18 @@
     "Periodicals",
     "Polymerization",
     "Nursing -- Mathematics"
-  ]
+  ],
+  "lcc": [
+    "PT-2635.00000000.I65S613 2012",
+    "PT-2635.00000000.I65 S613 2012",
+    "PT-2635.00000000.I65 S66413 2012"
+  ],
+  "subject_facet": [
+    "German Sonnets",
+    "German poetry, translations into english",
+    "Poetry",
+    "Rilke, rainer maria, 1875-1926",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL27349548W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Book of Seventy",
   "author": "Alicia Ostriker",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 3,
   "slug": "the-book-of-seventy",
   "tags": [
@@ -20,5 +20,12 @@
   "subjects": [
     "Poetry (poetic works by one author)"
   ],
-  "isbn": "9780822990956"
+  "isbn": "9780822990956",
+  "lcc": [
+    "PS-3565.00000000"
+  ],
+  "subject_facet": [
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL19541727W"
 }

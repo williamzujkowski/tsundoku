@@ -1,7 +1,7 @@
 {
   "title": "Perhaps the Stars",
   "author": "Ada Palmer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "perhaps-the-stars",
   "tags": [],
@@ -19,5 +19,14 @@
     "American literature",
     "series:terra_ignota"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3616.00000000.A33879P47",
+    "PS-3616.00000000.A33879"
+  ],
+  "subject_facet": [
+    "American literature",
+    "series:terra_ignota"
+  ],
+  "ol_work_key": "/works/OL21150097W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Watchmen",
   "author": "Alan Moore",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literary Criticism",
   "priority": 1,
   "slug": "watchmen",
   "tags": [
@@ -19,5 +19,56 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "741.5942",
+    "741.5",
+    "741.5941"
+  ],
+  "lcc": [
+    "PN-6737.00000000.M66 W38 2019",
+    "PN-6738.00000000",
+    "PN-6737.00000000.M66 W38 2008",
+    "PN-6737.00000000.M66 W38 2005b",
+    "PN-6737.00000000.M66 W4 2017",
+    "PN-6737.00000000.M66W38 2008",
+    "PN-6737.00000000.M6 W38 2005",
+    "PN-6737.00000000.W3 2014",
+    "PN-6737.00000000.M66W38 2005",
+    "PN-6737.00000000.M66W39 2013",
+    "PN-6737.00000000.M66 W38 1987",
+    "PN-6737.00000000.M66 W39 2013",
+    "PN-6728.00000000.W3 M821 1987",
+    "PN-6737.00000000.M66 W38 2005"
+  ],
+  "subject_facet": [
+    "Bandes dessinees",
+    "Bandes dessinées",
+    "Classics",
+    "Comic books",
+    "Comic books, strips",
+    "Comic books, strips, etc",
+    "Comicroman",
+    "Comics & Graphic Novels",
+    "Comics & graphic novels, crime & mystery",
+    "Comics & graphic novels, science fiction",
+    "Comics & graphic novels, science fiction, general",
+    "Comics & graphic novels, superheroes",
+    "Crimes against",
+    "Dystopias",
+    "Fantasy",
+    "Fiction",
+    "Good and evil",
+    "Graphic novels",
+    "Heroes",
+    "Homicide",
+    "New York Times bestseller",
+    "Pn6737.m66 w38 2005b",
+    "Science fiction",
+    "Superhero graphic novels",
+    "Superheroes",
+    "Watchmen (Comic strip)",
+    "nyt:paperback_graphic_books=2009-03-15"
+  ],
+  "ol_work_key": "/works/OL2897798W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Satires",
   "author": "Horace",
-  "category": "Poetry",
+  "category": "Classics",
   "priority": 2,
   "slug": "satires",
   "tags": [
@@ -33,5 +33,22 @@
   ],
   "gutenberg_id": 5419,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5419",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5419.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5419.html.images",
+  "ddc": [
+    "871.01"
+  ],
+  "lcc": [
+    "PA-6393.00000000.S3 2012",
+    "PA-6393.00000000.S3 2011"
+  ],
+  "subject_facet": [
+    "Ancient",
+    "Classical & medieval",
+    "LITERARY COLLECTIONS / Ancient, Classical & Medieval",
+    "Latin Verse satire",
+    "Literary collections",
+    "Satire, latin",
+    "Saturae 1."
+  ],
+  "ol_work_key": "/works/OL16568834W"
 }

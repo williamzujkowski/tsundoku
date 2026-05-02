@@ -1,7 +1,7 @@
 {
   "title": "The Blue Nowhere",
   "author": "Jeffery Deaver",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-blue-nowhere",
   "tags": [
@@ -30,5 +30,29 @@
   "open_library_url": "https://openlibrary.org/works/OL14927367W",
   "first_published": 2001,
   "pages": 505,
-  "isbn": "9780684871271"
+  "isbn": "9780684871271",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.E1755 B59 2001",
+    "PS-3554.00000000.E1755B59 2001"
+  ],
+  "subject_facet": [
+    "California, fiction",
+    "Computer hackers",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, suspense",
+    "Fiction, technological",
+    "Fiction, thrillers, suspense",
+    "Fiction, thrillers, technological",
+    "Hackers",
+    "Investigation",
+    "Large type books",
+    "Murder",
+    "Serial murderers"
+  ],
+  "ol_work_key": "/works/OL14927367W"
 }

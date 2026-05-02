@@ -1,7 +1,7 @@
 {
   "title": "Uprooted",
   "author": "Naomi Novik",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "uprooted",
   "tags": [
@@ -31,5 +31,46 @@
     "FICTION / Romance / Fantasy",
     "award:nebula_award=novel",
     "Immortalism"
-  ]
+  ],
+  "lcc": [
+    "PS-3614.00000000.O93",
+    "PS-3614.00000000.O93 U67 2016",
+    "PS-3614.00000000.O93 U67 2015"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Adventure",
+    "Amitié féminine",
+    "Choice",
+    "Courage",
+    "Epic",
+    "FICTION / Adventure",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Romance / Fantasy",
+    "Fantasy",
+    "Fate and fatalism",
+    "Fear",
+    "Female friendship",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, action & adventure",
+    "Folklore",
+    "Friendship",
+    "Good and evil",
+    "Identity (Psychology)",
+    "Identité (Psychologie)",
+    "Immortalism",
+    "Immortalisme",
+    "Indentured servants",
+    "Magic",
+    "Main-d'œuvre engagée à long terme",
+    "Romance",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "Survival",
+    "Wizards",
+    "Young women",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL17345493W"
 }

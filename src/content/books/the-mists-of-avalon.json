@@ -1,7 +1,7 @@
 {
   "title": "The Mists of Avalon",
   "author": "Marion Zimmer Bradley",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-mists-of-avalon",
   "tags": [
@@ -19,5 +19,37 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.R228 M5 1982",
+    "PS-3552.00000000.R228",
+    "PS-3552.00000000.R228 M5 2001x",
+    "PS-3552.00000000.R228 M5 1983",
+    "PS-3552.00000000.R228 M5 2000"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Arthur, in fiction",
+    "Arthur, king, fiction",
+    "Arthurian romances",
+    "Avalon (Legendary place)",
+    "Bretons de Grande-Bretagne",
+    "Britons",
+    "Britons in fiction",
+    "Cycle d'Arthur",
+    "England, fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, historical",
+    "Great Britain in fiction",
+    "History",
+    "Kings and rulers",
+    "Kings and rulers in fiction",
+    "Rois et souverains",
+    "Romans, nouvelles"
+  ],
+  "ol_work_key": "/works/OL23738W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "R in a Nutshell",
   "author": "Adler, Joseph M.Eng",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "r-in-a-nutshell",
   "tags": [
@@ -22,5 +22,22 @@
   ],
   "description": "Presents a guide to the R computer language, covering such topics as the user interface, packages, syntax, objects, functions, object-oriented programming, data sets, lattice graphics, regression models, and bioconductor.",
   "pages": 611,
-  "isbn": "9781449312084"
+  "isbn": "9781449312084",
+  "ddc": [
+    "519.502855133"
+  ],
+  "lcc": [
+    "QA-0276.45000000.R3 A35 2010",
+    "QA-0276.45000000.R3 A3 2010",
+    "QA-0076.45000000.R3",
+    "QA-0276.45000000.R3 A35 2012"
+  ],
+  "subject_facet": [
+    "Data processing",
+    "Mathematical statistics",
+    "Programming languages (electronic computers)",
+    "R (Computer program language)",
+    "R (Programm)"
+  ],
+  "ol_work_key": "/works/OL16266318W"
 }

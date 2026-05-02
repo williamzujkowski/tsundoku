@@ -1,7 +1,7 @@
 {
   "title": "The Woman in the Dunes",
   "author": "Kobo Abe",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-woman-in-the-dunes",
   "tags": [],
@@ -27,5 +27,36 @@
     "Novela psicológica",
     "Dunas",
     "Women"
-  ]
+  ],
+  "ddc": [
+    "895.635"
+  ],
+  "lcc": [
+    "PL-0845.00000000.B4 S814",
+    "PZ-0004.00000000.A13 Wo",
+    "PL-0845.00000000.B4 S813 1991",
+    "PL-0845.00000000 B4 S8",
+    "PL-0845.00000000.B4 Wo5",
+    "PL-0845.00000000.B4 S8",
+    "PL-0845.00000000.B4S813 1991",
+    "PL-0845.00000000 B4 S813 1964",
+    "PZ-0004.00000000.A13 Wo5"
+  ],
+  "subject_facet": [
+    "Dunas",
+    "Entomologists",
+    "Ficción",
+    "Fiction",
+    "Fiction, psychological",
+    "Japan, fiction",
+    "Japanese Psychological fiction",
+    "Near and far eastern fiction (fictional works by one author)",
+    "Novela psicológica",
+    "Prisoners",
+    "Sand dunes",
+    "Social life and customs",
+    "Vida social y costumbres",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL2644757W"
 }

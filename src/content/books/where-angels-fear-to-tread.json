@@ -1,7 +1,7 @@
 {
   "title": "Where Angels Fear to Tread",
   "author": "E.M. Forster",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "where-angels-fear-to-tread",
   "tags": [
@@ -39,5 +39,58 @@
   "librivox_url": "https://librivox.org/where-angels-fear-to-tread-by-e-m-forster/",
   "gutenberg_id": 2948,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2948",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2948.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2948.html.images",
+  "ddc": [
+    "[Fic]",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6011.00000000.O58 W53 1920b",
+    "PR-6011.00000000.O58 W55 1993",
+    "PR-6011.00000000.O58",
+    "PZ-0003.00000000.F7735 Wh10",
+    "PR-6011.00000000.O58W55 2006",
+    "PR-6011.00000000.O58 W44 2007",
+    "PR-6011.00000000.O58 W55 2006",
+    "PR-6011.00000000.O58 Wh10",
+    "PR-6011.00000000.O58W55 2012",
+    "PR-6011.00000000.O58 W4",
+    "PR-6011.00000000.O58 W43 1943",
+    "PZ-0003.00000000.F7735 W4",
+    "PR-6011.00000000.O58.W55 1993",
+    "PR-6011.00000000.O58W55 2010",
+    "PR-6011.00000000.O58 W55 1992",
+    "PR-6011.00000000.O58 W55 1993b"
+  ],
+  "subject_facet": [
+    "823.912",
+    "British and irish fiction (fictional works by one author)",
+    "Classic Literature",
+    "Culture conflict",
+    "Culture conflict -- Fiction",
+    "England, fiction",
+    "English",
+    "English literature",
+    "English--italy--social life and customs--fiction",
+    "English--social life and customs",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Fiction, history and criticism",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Great britain, social life and customs, fiction",
+    "Historical fiction",
+    "Humorous stories",
+    "Italy, fiction",
+    "Large type books",
+    "Middle class",
+    "Middle class -- England -- Fiction",
+    "Pr6011.o58 w44 2007",
+    "Satire",
+    "Social classes",
+    "Social classes--fiction",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL88876W"
 }

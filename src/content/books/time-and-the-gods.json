@@ -1,7 +1,7 @@
 {
   "title": "Time and the Gods",
   "author": "Lord Dunsany",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "time-and-the-gods",
   "tags": [
@@ -34,5 +34,23 @@
   "librivox_url": "https://librivox.org/time-and-the-gods-by-lord-dunsany/",
   "gutenberg_id": 8183,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8183",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8183.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8183.html.images",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6 Pl5",
+    "DS-0062.20000000.G37",
+    "PR-6007.00000000.U6 T5",
+    "PR-6007.00000000.U6 T5 1913",
+    "PZ-0003.00000000.D9248 Pl5"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, collections & anthologies",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, short stories (single author)",
+    "Pegana (imaginary place), fiction"
+  ],
+  "ol_work_key": "/works/OL83874W"
 }

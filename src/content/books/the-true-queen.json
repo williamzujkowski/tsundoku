@@ -1,7 +1,7 @@
 {
   "title": "The True Queen",
   "author": "Zen Cho",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-true-queen",
   "tags": [
@@ -32,5 +32,23 @@
     "adventure and adventurers",
     "adventure and adventurers, fiction",
     "adventure stories"
-  ]
+  ],
+  "lcc": [
+    "PR-6103.00000000.H6T78 2019",
+    "PR-6103.00000000.H6",
+    "PR-6103.00000000.H6 T78 2019"
+  ],
+  "subject_facet": [
+    "Amnesia",
+    "British fiction",
+    "FICTION / Fantasy / Historical",
+    "FICTION / Romance / Regency",
+    "Fiction",
+    "Historical fantasy fiction",
+    "Magic",
+    "Magicians",
+    "Sisters",
+    "series:Sorcerer_to_the_Crown"
+  ],
+  "ol_work_key": "/works/OL20163324W"
 }

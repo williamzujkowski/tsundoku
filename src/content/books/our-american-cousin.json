@@ -1,7 +1,7 @@
 {
   "title": "Our American Cousin",
   "author": "Tom Taylor",
-  "category": "Literature",
+  "category": "Literary Criticism",
   "priority": 2,
   "slug": "our-american-cousin",
   "tags": [
@@ -22,5 +22,25 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 3158,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3158",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3158.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3158.html.images",
+  "ddc": [
+    "792.09747103"
+  ],
+  "lcc": [
+    "PN-2277.00000000.N5B62 2009",
+    "PN-2277.00000000.N5 B62 2010",
+    "PN-2277.00000000.N5 B62 2009"
+  ],
+  "subject_facet": [
+    "Biography",
+    "Encyclopedias",
+    "History",
+    "New york (n.y.), biography",
+    "New york (n.y.), history",
+    "Theater",
+    "Theater and society",
+    "Theater, dictionaries",
+    "Theater, united states"
+  ],
+  "ol_work_key": "/works/OL18636374W"
 }
