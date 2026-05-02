@@ -29,6 +29,52 @@ const sameCategory = allBooks
   .slice(0, 12);
 
 const categorySlug = toSlug(book.category);
+
+// Virtual shelf — books physically adjacent to this one in LCC order.
+// The strongest single library-feel structural change per #129. Sort
+// the catalog by Library of Congress call number; take 2 books before
+// and 2 books after the current book. Only renders for books with an
+// LCC, since the metaphor doesn't work without a call-number anchor.
+//
+// OL stores LCC strings with sort padding ("PR-6029.00000000.R8 Ni2");
+// `lccDisplay` strips that to a human-readable form ("PR6029 R8 Ni2").
+function lccSortKey(lcc: string): [string, number, string] {
+  const m = lcc.match(/^([A-Z]+)-?(\d*)(.*)$/);
+  if (!m) return [lcc, 0, ''];
+  return [m[1], parseInt(m[2] || '0', 10), m[3] || ''];
+}
+function compareLcc(a: string, b: string): number {
+  const ka = lccSortKey(a);
+  const kb = lccSortKey(b);
+  if (ka[0] !== kb[0]) return ka[0].localeCompare(kb[0]);
+  if (ka[1] !== kb[1]) return ka[1] - kb[1];
+  return ka[2].localeCompare(kb[2]);
+}
+function lccDisplay(lcc: string): string {
+  // OL pads LCC for sorting — strip leading hyphen between class+number,
+  // collapse all-zero fractional padding, normalize internal whitespace.
+  return lcc
+    .replace(/^([A-Z]+)-(\d)/, '$1$2')
+    .replace(/\.0+(?=\D|$)/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+const currentLcc = book.lcc?.[0] ?? null;
+let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; lcc: string }> = [];
+if (currentLcc) {
+  const shelf = allBooks
+    .map(b => b.data)
+    .filter(b => b.lcc && b.lcc[0])
+    .map(b => ({ slug: b.slug, title: b.title, author: b.author, cover_url: b.cover_url, lcc: b.lcc![0] }))
+    .sort((a, b) => compareLcc(a.lcc, b.lcc));
+  const idx = shelf.findIndex(b => b.slug === book.slug);
+  if (idx >= 0) {
+    const before = shelf.slice(Math.max(0, idx - 2), idx);
+    const after = shelf.slice(idx + 1, idx + 3);
+    shelfNeighbors = [...before, ...after];
+  }
+}
 ---
 
 <Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={book.cover_url_large || book.cover_url}>
@@ -264,6 +310,32 @@ const categorySlug = toSlug(book.category);
         {book.librivox_url && <a href={book.librivox_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">LibriVox</a>}
       </div>
     </div>
+
+    <!-- On the Same Shelf — LCC-adjacent neighbors -->
+    {shelfNeighbors.length > 0 && currentLcc && (
+      <section class="mb-8">
+        <h2 class="heading-md mb-2">On the Same Shelf</h2>
+        <p class="text-dim text-sm mb-4">
+          Books one call-number away from <span class="text-mono">{lccDisplay(currentLcc)}</span> in the LCC stacks.
+        </p>
+        <div class="grid sm-grid-2 md-grid-4 gap-3">
+          {shelfNeighbors.map(b => (
+            <a href={`${base}books/${b.slug}/`} class="card related-book">
+              {b.cover_url ? (
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+              ) : (
+                <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+              )}
+              <div class="book-card-body">
+                <span class="text-xs text-dim text-mono">{lccDisplay(b.lcc)}</span>
+                <h3 class="text-sm font-bold line-clamp-2">{b.title}</h3>
+                <p class="text-xs text-dim line-clamp-1">{b.author}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- More by author -->
     {sameAuthor.length > 0 && (
