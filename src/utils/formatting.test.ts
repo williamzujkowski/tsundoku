@@ -11,6 +11,7 @@ import {
   thumbnailUrl,
   parseAuthors,
   authorMatches,
+  isJointAlias,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -268,5 +269,34 @@ describe('authorMatches', () => {
   it('does not match a substring (e.g. last name)', () => {
     // We want exact part match, not substring.
     expect(authorMatches('Robert Jordan & Brandon Sanderson', 'Jordan')).toBe(false);
+  });
+});
+
+describe('isJointAlias', () => {
+  it('false for plain author names', () => {
+    expect(isJointAlias('Plato', new Set(['Plato']))).toBe(false);
+  });
+
+  it('true for joint name with both components in known set', () => {
+    const known = new Set(['Robert Jordan', 'Brandon Sanderson']);
+    expect(isJointAlias('Robert Jordan & Brandon Sanderson', known)).toBe(true);
+  });
+
+  it('false for joint name with missing component', () => {
+    // If one component is missing from the catalog, the joint record carries
+    // useful info — don't hide it.
+    const known = new Set(['Robert Jordan']);
+    expect(isJointAlias('Robert Jordan & Brandon Sanderson', known)).toBe(false);
+  });
+
+  it('handles three-author joints joined by comma (multi-word names)', () => {
+    const known = new Set(['Niccolò Machiavelli', 'Stephen Brennan', 'Some Other']);
+    expect(
+      isJointAlias('Niccolò Machiavelli, Stephen Brennan', known),
+    ).toBe(true);
+  });
+
+  it('false when not a joint name', () => {
+    expect(isJointAlias('A.A. Milne', new Set(['A.A. Milne']))).toBe(false);
   });
 });
