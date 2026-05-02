@@ -7,5 +7,116 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Bradbury",
   "open_library_url": "https://openlibrary.org/authors/OL24137A",
   "birth_year": 1920,
-  "death_year": 2012
+  "death_year": 2012,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q40640",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "William Elliot"
+  ],
+  "viaf_id": "12305881",
+  "ol_author_key": "/authors/OL24137A",
+  "awards": [
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 1984
+    },
+    {
+      "name": "World Fantasy Award for Life Achievement",
+      "year": 1977
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 1988
+    },
+    {
+      "name": "First Fandom Hall of Fame award",
+      "year": 1996
+    },
+    {
+      "name": "Helmerich Award",
+      "year": 1994
+    },
+    {
+      "name": "Pulitzer Prize Special Citations and Awards",
+      "year": 2007
+    },
+    {
+      "name": "Ross Macdonald Literary Award",
+      "year": 2002
+    },
+    {
+      "name": "Valentine Davies Award",
+      "year": 1974
+    },
+    {
+      "name": "World Horror Convention Grand Master Award",
+      "year": 2001
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 1989
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1974
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres",
+      "year": 2007
+    },
+    {
+      "name": "National Medal of Arts",
+      "year": 2004
+    },
+    {
+      "name": "Daytime Emmy Award",
+      "year": 1994
+    },
+    {
+      "name": "Sir Arthur Clarke Award",
+      "year": 2007
+    },
+    {
+      "name": "California Library Hall of Fame"
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 1999
+    },
+    {
+      "name": "Retro Hugo Award for Best Short Story",
+      "year": 2019
+    },
+    {
+      "name": "Retro Hugo Award for Best Novel",
+      "year": 2004
+    },
+    {
+      "name": "Geffen Award",
+      "year": 2002
+    },
+    {
+      "name": "star on Hollywood Walk of Fame"
+    },
+    {
+      "name": "Ordre des Arts et des Lettres"
+    },
+    {
+      "name": "The George Pal Memorial Award"
+    },
+    {
+      "name": "Bram Stoker Award for Best Fiction Collection",
+      "year": 2002
+    }
+  ]
 }

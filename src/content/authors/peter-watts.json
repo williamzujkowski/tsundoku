@@ -5,5 +5,28 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL2850261A-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2850261A",
   "birth_year": 1958,
-  "bio": "Peter Watts is a Canadian science fiction author and marine-mammal biologist."
+  "bio": "Peter Watts is a Canadian science fiction author and marine-mammal biologist.",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q983672",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "104659814",
+  "ol_author_key": "/authors/OL2850261A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2010
+    },
+    {
+      "name": "Shirley Jackson Award",
+      "year": 2010
+    }
+  ]
 }

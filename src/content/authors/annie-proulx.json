@@ -6,5 +6,63 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/2018-us-nationalbookfestival-annie-proulx.jpg/400px-2018-us-nationalbookfestival-annie-proulx.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Annie_Proulx",
   "open_library_url": "https://openlibrary.org/authors/OL26736A",
-  "birth_year": 1935
+  "birth_year": 1935,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q229840",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "113957087",
+  "ol_author_key": "/authors/OL26736A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1992
+    },
+    {
+      "name": "National Book Award",
+      "year": 1993
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1994
+    },
+    {
+      "name": "PEN/Faulkner Award for Fiction",
+      "year": 1992
+    },
+    {
+      "name": "Library of Congress Prize for American Fiction",
+      "year": 2018
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1998
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship"
+    },
+    {
+      "name": "Doctor of Humane Letters",
+      "year": 1994
+    },
+    {
+      "name": "Legum Doctor",
+      "year": 1999
+    },
+    {
+      "name": "honorary doctorate of Concordia University",
+      "year": 1999
+    },
+    {
+      "name": "National Book Award",
+      "year": 2017
+    }
+  ]
 }

@@ -6,5 +6,64 @@
   "open_library_url": "https://openlibrary.org/authors/OL3171923A",
   "birth_year": 1941,
   "death_year": 2011,
-  "bio": "American computer scientist, co-inventor of the Unix operating system and the C programming language"
+  "bio": "American computer scientist, co-inventor of the Unix operating system and the C programming language",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q45575",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "616522",
+  "ol_author_key": "/authors/OL3171923A",
+  "awards": [
+    {
+      "name": "Turing Award",
+      "year": 1983
+    },
+    {
+      "name": "National Medal of Technology and Innovation",
+      "year": 1998
+    },
+    {
+      "name": "Harold Pender Award",
+      "year": 2003
+    },
+    {
+      "name": "IEEE Emanuel R. Piore Award",
+      "year": 1982
+    },
+    {
+      "name": "Computer History Museum Fellow",
+      "year": 1997
+    },
+    {
+      "name": "Computer Pioneer Award",
+      "year": 1994
+    },
+    {
+      "name": "ACM Software System Award",
+      "year": 1983
+    },
+    {
+      "name": "IEEE Richard W. Hamming Medal",
+      "year": 1990
+    },
+    {
+      "name": "IRI Achievement Award",
+      "year": 2006
+    },
+    {
+      "name": "Japan Prize",
+      "year": 2011
+    },
+    {
+      "name": "National Inventors Hall of Fame",
+      "year": 2019
+    }
+  ]
 }

@@ -7,5 +7,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Benedict_Anderson",
   "open_library_url": "https://openlibrary.org/authors/OL193997A",
   "birth_year": 1936,
-  "death_year": 2015
+  "death_year": 2015,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q212993",
+  "viaf_id": "98335497",
+  "ol_author_key": "/authors/OL193997A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Fukuoka Asian Culture Prize",
+      "year": 2000
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Albert O. Hirschman Prize",
+      "year": 2011
+    }
+  ]
 }

@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Julien_Gracq",
   "open_library_url": "https://openlibrary.org/authors/OL127321A",
   "birth_year": 1910,
-  "death_year": 2007
+  "death_year": 2007,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q298051",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Julien Gracq"
+  ],
+  "viaf_id": "91584356",
+  "ol_author_key": "/authors/OL127321A",
+  "awards": [
+    {
+      "name": "America Award in Literature",
+      "year": 2006
+    },
+    {
+      "name": "Concours général"
+    },
+    {
+      "name": "Prix Goncourt",
+      "year": 1951
+    }
+  ]
 }

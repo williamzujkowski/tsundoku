@@ -6,5 +6,88 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lois-mcmaster-bujold-by-kyle-cassidy.jpg/400px-Lois-mcmaster-bujold-by-kyle-cassidy.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lois_McMaster_Bujold",
   "open_library_url": "https://openlibrary.org/authors/OL21317A",
-  "birth_year": 1949
+  "birth_year": 1949,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q229369",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51747658",
+  "ol_author_key": "/authors/OL21317A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2005
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 2014
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1995
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1992
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2004
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 1990
+    },
+    {
+      "name": "Hugo Award for Best Series",
+      "year": 2017
+    },
+    {
+      "name": "Hugo Award for Best Series",
+      "year": 2018
+    },
+    {
+      "name": "Edward E. Smith Memorial Award",
+      "year": 2011
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1992
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1995
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2004
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1989
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1990
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1991
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2020
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2002
+    }
+  ]
 }

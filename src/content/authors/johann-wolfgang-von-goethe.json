@@ -7,5 +7,47 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
   "open_library_url": "https://openlibrary.org/authors/OL13193A",
   "birth_year": 1749,
-  "death_year": 1832
+  "death_year": 1832,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q5879",
+  "viaf_id": "24602065",
+  "ol_author_key": "/authors/OL13193A",
+  "movements": [
+    "Sturm und Drang",
+    "Weimar Classicism",
+    "Age of Enlightenment"
+  ],
+  "awards": [
+    {
+      "name": "Merit Order of the Bavarian Crown",
+      "year": 1827
+    },
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 1808
+    },
+    {
+      "name": "Order of Saint Anna, 1st class",
+      "year": 1808
+    },
+    {
+      "name": "Grand Cross of the House Order of the White Falcon",
+      "year": 1816
+    },
+    {
+      "name": "Knight Commander of the Order of Leopold (Austria)"
+    },
+    {
+      "name": "Order of Leopold"
+    },
+    {
+      "name": "Grand Cross of the Legion of Honour"
+    }
+  ]
 }

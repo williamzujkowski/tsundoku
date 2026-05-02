@@ -7,5 +7,22 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Benjamin",
   "open_library_url": "https://openlibrary.org/authors/OL25218A",
   "birth_year": 1892,
-  "death_year": 1940
+  "death_year": 1940,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q61078",
+  "alternate_names": [
+    "Benedix Schönflies",
+    "Detlev Holz"
+  ],
+  "viaf_id": "46757196",
+  "ol_author_key": "/authors/OL25218A",
+  "movements": [
+    "Marxism"
+  ]
 }

@@ -7,5 +7,51 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
   "open_library_url": "https://openlibrary.org/authors/OL13640A",
   "birth_year": 1899,
-  "death_year": 1961
+  "death_year": 1961,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q23434",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "97006051",
+  "ol_author_key": "/authors/OL13640A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1954
+    },
+    {
+      "name": "Bronze Star Medal",
+      "year": 1947
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1953
+    },
+    {
+      "name": "Florida Artists Hall of Fame",
+      "year": 1987
+    },
+    {
+      "name": "National Order of Merit Carlos Manuel de Céspedes",
+      "year": 1954
+    },
+    {
+      "name": "Medal of Military Valour",
+      "year": 1917
+    },
+    {
+      "name": "Commemorative Medal for the Italo-Austrian War 1915-1918"
+    },
+    {
+      "name": "Bancarella Literary Prize",
+      "year": 1953
+    }
+  ]
 }

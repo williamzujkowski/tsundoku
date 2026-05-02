@@ -6,5 +6,28 @@
   "open_library_url": "https://openlibrary.org/authors/OL33621A",
   "birth_year": 1908,
   "death_year": 1960,
-  "bio": "American novelist and poet (1908–1960)"
+  "bio": "American novelist and poet (1908–1960)",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q319820",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "34464524",
+  "ol_author_key": "/authors/OL33621A",
+  "awards": [
+    {
+      "name": "Spingarn Medal",
+      "year": 1941
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1938
+    }
+  ]
 }

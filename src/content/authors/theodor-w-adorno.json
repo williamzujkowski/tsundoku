@@ -7,5 +7,33 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Theodor_W._Adorno",
   "open_library_url": "https://openlibrary.org/authors/OL38397A",
   "birth_year": 1903,
-  "death_year": 1969
+  "death_year": 1969,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q152388",
+  "nationality": [
+    "US",
+    "DE",
+    "AT",
+    "CH"
+  ],
+  "viaf_id": "95247377",
+  "ol_author_key": "/authors/OL38397A",
+  "movements": [
+    "Frankfurt School",
+    "20th-century classical music",
+    "continental philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1963
+    }
+  ]
 }

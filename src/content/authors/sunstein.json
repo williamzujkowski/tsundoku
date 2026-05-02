@@ -5,5 +5,27 @@
   "bio": "American legal scholar known for his work in constitutional law, administrative law, environmental law, and behavioral economics.",
   "open_library_url": "https://openlibrary.org/authors/OL234141A",
   "birth_year": 1954,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cass%20Sunstein%20%282008%29.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cass%20Sunstein%20%282008%29.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q956164",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "102019194",
+  "ol_author_key": "/authors/OL234141A",
+  "awards": [
+    {
+      "name": "Holberg International Memorial Prize",
+      "year": 2018
+    },
+    {
+      "name": "Goldsmith Book Prize"
+    }
+  ]
 }

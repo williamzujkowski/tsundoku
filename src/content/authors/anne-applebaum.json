@@ -6,5 +6,84 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MS241015_304_%28cropped%29.jpg/400px-MS241015_304_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Applebaum",
   "open_library_url": "https://openlibrary.org/authors/OL576511A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q233479",
+  "nationality": [
+    "US",
+    "PL"
+  ],
+  "viaf_id": "278339970",
+  "ol_author_key": "/authors/OL576511A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for General Nonfiction",
+      "year": 2004
+    },
+    {
+      "name": "Marshall Scholarship"
+    },
+    {
+      "name": "Order of Princess Olga, 3rd class",
+      "year": 2019
+    },
+    {
+      "name": "Berlin Prize",
+      "year": 2009
+    },
+    {
+      "name": "Officer's Cross of the Order of Merit of the Republic of Poland",
+      "year": 2012
+    },
+    {
+      "name": "Order of the Cross of Terra Mariana, 3rd Class",
+      "year": 2008
+    },
+    {
+      "name": "Cundill History Prize",
+      "year": 2013
+    },
+    {
+      "name": "Duff Cooper Prize",
+      "year": 2018
+    },
+    {
+      "name": "Lionel Gelber Prize",
+      "year": 2018
+    },
+    {
+      "name": "Duke of Westminster's Medal for Military Literature",
+      "year": 2013
+    },
+    {
+      "name": "Petőfi Prize",
+      "year": 2010
+    },
+    {
+      "name": "Antonovych prize",
+      "year": 2017
+    },
+    {
+      "name": "Order of Princess Olga, 2nd class",
+      "year": 2022
+    },
+    {
+      "name": "Carl von Ossietzky Prize",
+      "year": 2024
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 2024
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2021
+    }
+  ]
 }

@@ -7,5 +7,52 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Patricia_A._McKillip",
   "open_library_url": "https://openlibrary.org/authors/OL29240A",
   "birth_year": 1948,
-  "death_year": 2022
+  "death_year": 2022,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q268755",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "22195984",
+  "ol_author_key": "/authors/OL29240A",
+  "awards": [
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 1980
+    },
+    {
+      "name": "Imaginales award for best foreign-language novel",
+      "year": 2006
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 1975
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2003
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 1995
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2003
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2007
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2017
+    }
+  ]
 }

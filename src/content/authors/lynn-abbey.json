@@ -4,5 +4,17 @@
   "book_count": 2,
   "open_library_url": "https://openlibrary.org/authors/OL904066A",
   "bio": "American writer",
-  "birth_year": 1948
+  "birth_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q613259",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "25907316",
+  "ol_author_key": "/authors/OL904066A"
 }

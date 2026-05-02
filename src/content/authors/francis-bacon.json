@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Bacon",
   "open_library_url": "https://openlibrary.org/authors/OL23720A",
   "birth_year": 1561,
-  "death_year": 1626
+  "death_year": 1626,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q37388",
+  "viaf_id": "31992319",
+  "ol_author_key": "/authors/OL23720A",
+  "movements": [
+    "empiricism"
+  ],
+  "awards": [
+    {
+      "name": "Knight Bachelor"
+    }
+  ]
 }

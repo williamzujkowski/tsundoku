@@ -6,5 +6,40 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Mariana_Enr%C3%ADquez_en_la_Feria_Internacional_del_Libro_de_Buenos_Aires.jpg/400px-Mariana_Enr%C3%ADquez_en_la_Feria_Internacional_del_Libro_de_Buenos_Aires.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mariana_Enr%C3%ADquez",
   "open_library_url": "https://openlibrary.org/authors/OL318873A",
-  "birth_year": 1973
+  "birth_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q5997426",
+  "nationality": [
+    "AR"
+  ],
+  "viaf_id": "263117529",
+  "ol_author_key": "/authors/OL318873A",
+  "awards": [
+    {
+      "name": "City of Barcelona Award",
+      "year": 2017
+    },
+    {
+      "name": "Premio Herralde",
+      "year": 2019
+    },
+    {
+      "name": "Premio Iberoamericano de Letras José Donoso",
+      "year": 2024
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire",
+      "year": 2022
+    },
+    {
+      "name": "Celsius Award",
+      "year": 2019
+    }
+  ]
 }

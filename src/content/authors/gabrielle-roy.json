@@ -7,5 +7,67 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gabrielle_Roy",
   "open_library_url": "https://openlibrary.org/authors/OL257959A",
   "birth_year": 1909,
-  "death_year": 1983
+  "death_year": 1983,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q294999",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "32002395",
+  "ol_author_key": "/authors/OL6737457A",
+  "awards": [
+    {
+      "name": "Prix Femina",
+      "year": 1947
+    },
+    {
+      "name": "Molson Prize",
+      "year": 1978
+    },
+    {
+      "name": "Companion of the Order of Canada"
+    },
+    {
+      "name": "Prix Athanase-David",
+      "year": 1970
+    },
+    {
+      "name": "honorary doctorate at the Laval University",
+      "year": 1968
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1957
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1947
+    },
+    {
+      "name": "designated historic person",
+      "year": 2021
+    },
+    {
+      "name": "Person of National Historic Significance",
+      "year": 2009
+    },
+    {
+      "name": "Governor General's Literary Awards",
+      "year": 1947
+    },
+    {
+      "name": "Governor General's Literary Awards",
+      "year": 1957
+    },
+    {
+      "name": "Governor General's Award for French-language fiction",
+      "year": 1977
+    }
+  ]
 }

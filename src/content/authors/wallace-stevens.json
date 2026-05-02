@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Wallace_Stevens",
   "open_library_url": "https://openlibrary.org/authors/OL27096A",
   "birth_year": 1879,
-  "death_year": 1955
+  "death_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q166835",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "61562486",
+  "ol_author_key": "/authors/OL27096A",
+  "awards": [
+    {
+      "name": "Bollingen Prize",
+      "year": 1949
+    },
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1955
+    },
+    {
+      "name": "National Book Award",
+      "year": 1951
+    },
+    {
+      "name": "National Book Award",
+      "year": 1955
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 1951
+    }
+  ]
 }

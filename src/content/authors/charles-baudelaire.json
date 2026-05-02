@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Baudelaire",
   "open_library_url": "https://openlibrary.org/authors/OL117429A",
   "birth_year": 1821,
-  "death_year": 1867
+  "death_year": 1867,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q501",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Pierre de Fayis"
+  ],
+  "viaf_id": "17218730",
+  "ol_author_key": "/authors/OL117429A",
+  "movements": [
+    "Symbolism"
+  ],
+  "awards": [
+    {
+      "name": "Concours général"
+    }
+  ]
 }

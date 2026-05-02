@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/K%C5%8Db%C5%8D_Abe",
   "open_library_url": "https://openlibrary.org/authors/OL832531A",
   "birth_year": 1924,
-  "death_year": 1993
+  "death_year": 1993,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q186273",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "91224584",
+  "ol_author_key": "/authors/OL832531A",
+  "awards": [
+    {
+      "name": "Akutagawa Prize",
+      "year": 1951
+    },
+    {
+      "name": "Kishida Theatre Award",
+      "year": 1958
+    },
+    {
+      "name": "Tanizaki Prize",
+      "year": 1967
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Yomiuri Prize",
+      "year": 1963
+    },
+    {
+      "name": "Art Encouragement Prizes",
+      "year": 1972
+    }
+  ]
 }

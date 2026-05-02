@@ -6,5 +6,76 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jared_Diamond_author_academic.jpg/400px-Jared_Diamond_author_academic.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jared_Diamond",
   "open_library_url": "https://openlibrary.org/authors/OL540031A",
-  "birth_year": 1937
+  "birth_year": 1937,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q205772",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "90709225",
+  "ol_author_key": "/authors/OL2630733A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1998
+    },
+    {
+      "name": "Tyler Prize for Environmental Achievement",
+      "year": 2001
+    },
+    {
+      "name": "National Medal of Science",
+      "year": 1999
+    },
+    {
+      "name": "Groeneveld Award",
+      "year": 2004
+    },
+    {
+      "name": "Wolf Prize in Agriculture",
+      "year": 2013
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 1985
+    },
+    {
+      "name": "Royal Society Science Books Prize",
+      "year": 1998
+    },
+    {
+      "name": "Pulitzer Prize for General Nonfiction",
+      "year": 1998
+    },
+    {
+      "name": "International Cosmos Prize",
+      "year": 1998
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 2016
+    },
+    {
+      "name": "Dickson Prize in Science",
+      "year": 2007
+    },
+    {
+      "name": "Environment Book Prize",
+      "year": 2007
+    },
+    {
+      "name": "Blue Planet Prize",
+      "year": 2019
+    },
+    {
+      "name": "Elliott Coues Award",
+      "year": 1998
+    }
+  ]
 }

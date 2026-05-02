@@ -4,5 +4,24 @@
   "book_count": 1,
   "bio": "**Cathy O’Neil** is a data scientist and author of the blog [mathbabe.org](https://mathbabe.org). She earned a Ph.D. in mathematics from Harvard and taught at Barnard College before moving to the private sector, where she worked for the hedge fund D. E. Shaw. She then worked as a data scientist at various start-ups, building models that predict people’s purchases and clicks. O’Neil started the Lede Program in Data Journalism at Columbia and is the author of *Doing Data Science*. She is currently a columnist for *Bloomberg View*.\r\n\r\nPhoto Attribution: <i>GRuban, CC BY-SA 4.0, via Wikimedia Commons</i>",
   "photo_url": "https://covers.openlibrary.org/a/id/10681061-M.jpg",
-  "open_library_url": "https://openlibrary.org/authors/OL7412371A"
+  "open_library_url": "https://openlibrary.org/authors/OL7412371A",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q16499729",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "305378637",
+  "ol_author_key": "/authors/OL7412371A",
+  "awards": [
+    {
+      "name": "Euler Book Prize",
+      "year": 2019
+    }
+  ]
 }

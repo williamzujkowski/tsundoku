@@ -6,5 +6,34 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Michael_Sandel_Me_Judice.png/400px-Michael_Sandel_Me_Judice.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Sandel",
   "open_library_url": "https://openlibrary.org/authors/OL217207A",
-  "birth_year": 1953
+  "birth_year": 1953,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q381044",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "56671734",
+  "ol_author_key": "/authors/OL217207A",
+  "awards": [
+    {
+      "name": "FP Top 100 Global Thinkers"
+    },
+    {
+      "name": "Princess of Asturias Award for Social Sciences",
+      "year": 2018
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Rhodes Scholarship",
+      "year": 1975
+    }
+  ]
 }

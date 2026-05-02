@@ -7,5 +7,55 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Faulkner",
   "open_library_url": "https://openlibrary.org/authors/OL21831A",
   "birth_year": 1897,
-  "death_year": 1962
+  "death_year": 1962,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q38392",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "39376770",
+  "ol_author_key": "/authors/OL21831A",
+  "movements": [
+    "modernist literature"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1949
+    },
+    {
+      "name": "National Book Award",
+      "year": 1951
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1955
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres"
+    },
+    {
+      "name": "National Book Award",
+      "year": 1955
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1939
+    },
+    {
+      "name": "William Dean Howells Medal of the American Academy of Arts and Letters",
+      "year": 1950
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1963
+    }
+  ]
 }

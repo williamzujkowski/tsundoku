@@ -6,5 +6,71 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Larry_Niven_-_Utopiales_2010_cropped.jpg/400px-Larry_Niven_-_Utopiales_2010_cropped.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Niven",
   "open_library_url": "https://openlibrary.org/authors/OL33881A",
-  "birth_year": 1938
+  "birth_year": 1938,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q316610",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "36922585",
+  "ol_author_key": "/authors/OL33881A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 1979
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2015
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1967
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1971
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1971
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1971
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1975
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 1976
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1979
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1985
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 2001
+    },
+    {
+      "name": "Ditmar Award"
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 1980
+    }
+  ]
 }

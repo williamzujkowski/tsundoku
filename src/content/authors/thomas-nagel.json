@@ -6,5 +6,40 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Thomas_Nagel_%28cropped%29.jpg/400px-Thomas_Nagel_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Nagel",
   "open_library_url": "https://openlibrary.org/authors/OL441723A",
-  "birth_year": 1937
+  "birth_year": 1937,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q350239",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108496469",
+  "ol_author_key": "/authors/OL474257A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1966
+    },
+    {
+      "name": "Balzan Prize",
+      "year": 2008
+    },
+    {
+      "name": "PEN/Diamonstein-Spielvogel Award for the Art of the Essay",
+      "year": 1996
+    },
+    {
+      "name": "Rolf Schock Prize in Logic and Philosophy",
+      "year": 2008
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 2010
+    }
+  ]
 }

@@ -6,5 +6,73 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Nnedi_Okorafor_2023.jpeg/400px-Nnedi_Okorafor_2023.jpeg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nnedi_Okorafor",
   "open_library_url": "https://openlibrary.org/authors/OL7350596A",
-  "birth_year": 1974
+  "birth_year": 1974,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3877423",
+  "nationality": [
+    "US",
+    "NG"
+  ],
+  "viaf_id": "78167151",
+  "ol_author_key": "/authors/OL7350596A",
+  "movements": [
+    "Africanfuturism"
+  ],
+  "awards": [
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2011
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 2016
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2016
+    },
+    {
+      "name": "Wole Soyinka Prize for Literature in Africa",
+      "year": 2008
+    },
+    {
+      "name": "OkayAfrica 100 Women",
+      "year": 2018
+    },
+    {
+      "name": "OkayAfrica 100 Women",
+      "year": 2017
+    },
+    {
+      "name": "Locus Award for Best Young Adult Book",
+      "year": 2018
+    },
+    {
+      "name": "Eisner Award for Best Graphic Album — Reprint",
+      "year": 2020
+    },
+    {
+      "name": "Hugo Award for Best Graphic Story",
+      "year": 2020
+    },
+    {
+      "name": "Imaginales award for best foreign-language novel",
+      "year": 2014
+    },
+    {
+      "name": "Nommo Novella Award",
+      "year": 2017
+    },
+    {
+      "name": "Nommo Graphic Novel Award",
+      "year": 2019
+    }
+  ]
 }

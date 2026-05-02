@@ -5,5 +5,18 @@
   "photo_url": "https://covers.openlibrary.org/a/id/13130500-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL946967A",
   "birth_year": 1942,
-  "bio": "Canadian computer scientist, co-inventor of the Unix operating system"
+  "bio": "Canadian computer scientist, co-inventor of the Unix operating system",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92608",
+  "nationality": [
+    "CA",
+    "US"
+  ],
+  "viaf_id": "108136058",
+  "ol_author_key": "/authors/OL946967A"
 }

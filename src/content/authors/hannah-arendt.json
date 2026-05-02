@@ -7,5 +7,47 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hannah_Arendt",
   "open_library_url": "https://openlibrary.org/authors/OL142235A",
   "birth_year": 1906,
-  "death_year": 1975
+  "death_year": 1975,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q60025",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "105151053",
+  "ol_author_key": "/authors/OL4339286A",
+  "movements": [
+    "phenomenology"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1952
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 1962
+    },
+    {
+      "name": "Sigmund Freud Prize",
+      "year": 1967
+    },
+    {
+      "name": "Emerson-Thoreau Medal",
+      "year": 1969
+    },
+    {
+      "name": "Sonning Prize",
+      "year": 1975
+    },
+    {
+      "name": "honorary doctorate from Princeton University"
+    }
+  ]
 }

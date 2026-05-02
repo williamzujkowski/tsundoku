@@ -6,5 +6,32 @@
   "photo_url": "https://covers.openlibrary.org/a/id/6595903-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL347792A",
   "birth_year": 1946,
-  "death_year": 2008
+  "death_year": 2008,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q976059",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Bob Asprin"
+  ],
+  "viaf_id": "27627288",
+  "ol_author_key": "/authors/OL347792A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 1988
+    },
+    {
+      "name": "Locus Award for Best Anthology",
+      "year": 1982
+    }
+  ]
 }

@@ -5,5 +5,38 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7243870-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1963807A",
   "birth_year": 1947,
-  "bio": "American computer scientist"
+  "bio": "American computer scientist",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92981",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "46791066",
+  "ol_author_key": "/authors/OL1963807A",
+  "awards": [
+    {
+      "name": "ACM Fellow",
+      "year": 1994
+    },
+    {
+      "name": "IEEE Fellow"
+    },
+    {
+      "name": "Fellow of the American Association for the Advancement of Science"
+    },
+    {
+      "name": "IJCAI Computers and Thought Award",
+      "year": 1981
+    },
+    {
+      "name": "AAAI Fellow",
+      "year": 1990
+    }
+  ]
 }

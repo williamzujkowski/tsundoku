@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Rice",
   "open_library_url": "https://openlibrary.org/authors/OL39486A",
   "birth_year": 1941,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q184785",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Anne Rampling",
+    "A. N. Roquelaure"
+  ],
+  "viaf_id": "111989334",
+  "ol_author_key": "/authors/OL39486A",
+  "awards": [
+    {
+      "name": "World Horror Convention Grand Master Award",
+      "year": 1994
+    },
+    {
+      "name": "Locus Award for Best Horror Novel",
+      "year": 1991
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 2003
+    }
+  ]
 }

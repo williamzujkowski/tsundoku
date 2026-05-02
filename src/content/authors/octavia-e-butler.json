@@ -7,5 +7,70 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Octavia_E._Butler",
   "open_library_url": "https://openlibrary.org/authors/OL30802A",
   "birth_year": 1947,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q239739",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "34453955",
+  "ol_author_key": "/authors/OL30802A",
+  "movements": [
+    "Afrofuturism"
+  ],
+  "awards": [
+    {
+      "name": "MacArthur Fellows Program"
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2000
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 2005
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2010
+    },
+    {
+      "name": "Premi Ictineu",
+      "year": 2020
+    },
+    {
+      "name": "Ignyte Award for Best Comics Team",
+      "year": 2021
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1984
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 1985
+    },
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 2022
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 1985
+    },
+    {
+      "name": "Nebula Award for Best Novelette",
+      "year": 1985
+    },
+    {
+      "name": "Bram Stoker Award for Best Graphic Novel"
+    }
+  ]
 }

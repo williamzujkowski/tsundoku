@@ -6,5 +6,32 @@
   "photo_url": "https://covers.openlibrary.org/a/id/10342481-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL713863A",
   "birth_year": 1922,
-  "death_year": 2017
+  "death_year": 2017,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q430209",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "41986253",
+  "ol_author_key": "/authors/OL713863A",
+  "awards": [
+    {
+      "name": "Bronze Star Medal"
+    },
+    {
+      "name": "Legionnaire of Legion of Merit"
+    },
+    {
+      "name": "Air Medal"
+    },
+    {
+      "name": "Distinguished Service Cross"
+    }
+  ]
 }

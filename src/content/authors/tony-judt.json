@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Judt",
   "open_library_url": "https://openlibrary.org/authors/OL226798A",
   "birth_year": 1948,
-  "death_year": 2010
+  "death_year": 2010,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312279",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "19699030",
+  "ol_author_key": "/authors/OL226798A",
+  "awards": [
+    {
+      "name": "Hannah Arendt Prize",
+      "year": 2007
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 1996
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "The Sidney Award",
+      "year": 2009
+    }
+  ]
 }

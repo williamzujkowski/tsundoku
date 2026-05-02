@@ -7,5 +7,96 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Sagan",
   "open_library_url": "https://openlibrary.org/authors/OL450295A",
   "birth_year": 1934,
-  "death_year": 1996
+  "death_year": 1996,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q410",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "36997809",
+  "ol_author_key": "/authors/OL450295A",
+  "awards": [
+    {
+      "name": "Solstice Award",
+      "year": 2013
+    },
+    {
+      "name": "Pulitzer Prize for General Nonfiction",
+      "year": 1978
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 1981
+    },
+    {
+      "name": "James Parks Morton Interfaith Award"
+    },
+    {
+      "name": "Carl Sagan Award for Public Understanding of Science",
+      "year": 1993
+    },
+    {
+      "name": "Oersted Medal",
+      "year": 1990
+    },
+    {
+      "name": "Klumpke-Roberts Award",
+      "year": 1974
+    },
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2009
+    },
+    {
+      "name": "Leo Szilard Lectureship Award",
+      "year": 1985
+    },
+    {
+      "name": "Gerard P. Kuiper Prize",
+      "year": 1998
+    },
+    {
+      "name": "NAS Public Welfare Medal",
+      "year": 1994
+    },
+    {
+      "name": "Fellow of the Committee for Skeptical Inquiry"
+    },
+    {
+      "name": "NASA Exceptional Achievement Medal"
+    },
+    {
+      "name": "NASA Distinguished Public Service Medal"
+    },
+    {
+      "name": "Masursky Award",
+      "year": 1991
+    },
+    {
+      "name": "Hugo Award for Best Related Work",
+      "year": 1981
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 1998
+    },
+    {
+      "name": "International Space Hall of Fame",
+      "year": 2004
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 1986
+    },
+    {
+      "name": "The Hillman Prize for Magazine Journalism",
+      "year": 1984
+    }
+  ]
 }

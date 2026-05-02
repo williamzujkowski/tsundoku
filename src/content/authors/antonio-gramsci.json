@@ -7,5 +7,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Antonio_Gramsci",
   "open_library_url": "https://openlibrary.org/authors/OL39418A",
   "birth_year": 1891,
-  "death_year": 1937
+  "death_year": 1937,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q83003",
+  "viaf_id": "44299576",
+  "ol_author_key": "/authors/OL39418A",
+  "movements": [
+    "continental philosophy",
+    "Western Marxism",
+    "Neo-Marxism",
+    "Marxist humanism"
+  ],
+  "awards": [
+    {
+      "name": "Viareggio Prize",
+      "year": 1947
+    }
+  ]
 }

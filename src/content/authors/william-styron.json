@@ -7,5 +7,57 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Styron",
   "open_library_url": "https://openlibrary.org/authors/OL31872A",
   "birth_year": 1925,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q245257",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "71398096",
+  "ol_author_key": "/authors/OL31872A",
+  "awards": [
+    {
+      "name": "Rome Prize"
+    },
+    {
+      "name": "National Medal of Arts"
+    },
+    {
+      "name": "National Book Award",
+      "year": 1980
+    },
+    {
+      "name": "Library of Congress Living Legend"
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1968
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1982
+    },
+    {
+      "name": "Prix mondial Cino Del Duca",
+      "year": 1985
+    },
+    {
+      "name": "Common Wealth Award of Distinguished Service",
+      "year": 1995
+    },
+    {
+      "name": "William Dean Howells Medal of the American Academy of Arts and Letters",
+      "year": 1970
+    },
+    {
+      "name": "Lucien Barrière Literary Award",
+      "year": 1990
+    }
+  ]
 }

@@ -7,5 +7,20 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Petrarch",
   "open_library_url": "https://openlibrary.org/authors/OL77056A",
   "birth_year": 1304,
-  "death_year": 1374
+  "death_year": 1374,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1401",
+  "viaf_id": "39382430",
+  "ol_author_key": "/authors/OL77056A",
+  "awards": [
+    {
+      "name": "Poet's Crown",
+      "year": 1341
+    }
+  ]
 }

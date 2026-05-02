@@ -7,5 +7,54 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Elinor_Ostrom",
   "open_library_url": "https://openlibrary.org/authors/OL722147A",
   "birth_year": 1933,
-  "death_year": 2012
+  "death_year": 2012,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q153761",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "85285664",
+  "ol_author_key": "/authors/OL722147A",
+  "movements": [
+    "common goods movement",
+    "environmentalism"
+  ],
+  "awards": [
+    {
+      "name": "Prize in Economic Sciences in Memory of Alfred Nobel",
+      "year": 2009
+    },
+    {
+      "name": "Johan Skytte Prize in Political Science",
+      "year": 1999
+    },
+    {
+      "name": "John J. Carty Award for the Advancement of Science",
+      "year": 2004
+    },
+    {
+      "name": "Honorary doctor of the Humboldt University of Berlin",
+      "year": 2007
+    },
+    {
+      "name": "honorary doctor of the University of Uppsala"
+    },
+    {
+      "name": "honorary doctor of the University of Zurich"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "honorary doctorate from University of Montpellier-I",
+      "year": 2009
+    }
+  ]
 }

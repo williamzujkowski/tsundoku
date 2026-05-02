@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Goodkind",
   "open_library_url": "https://openlibrary.org/authors/OL242164A",
   "birth_year": 1948,
-  "death_year": 2020
+  "death_year": 2020,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q366150",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "67399498",
+  "ol_author_key": "/authors/OL242164A",
+  "movements": [
+    "objectivism"
+  ]
 }

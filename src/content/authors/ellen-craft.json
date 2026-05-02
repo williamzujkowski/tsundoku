@@ -6,5 +6,20 @@
   "photo_url": "https://covers.openlibrary.org/a/id/14427317-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2955928A",
   "birth_year": 1826,
-  "death_year": 1891
+  "death_year": 1891,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q18528650",
+  "viaf_id": "59984241",
+  "ol_author_key": "/authors/OL2955928A",
+  "awards": [
+    {
+      "name": "Georgia Women of Achievement",
+      "year": 1996
+    }
+  ]
 }

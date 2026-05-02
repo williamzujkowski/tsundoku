@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Baldwin",
   "open_library_url": "https://openlibrary.org/authors/OL391839A",
   "birth_year": 1924,
-  "death_year": 1987
+  "death_year": 1987,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q273210",
+  "nationality": [
+    "US",
+    "FR"
+  ],
+  "viaf_id": "97644708",
+  "ol_author_key": "/authors/OL391839A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1954
+    },
+    {
+      "name": "George Polk Award",
+      "year": 1962
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 1978
+    },
+    {
+      "name": "Commander of the Legion of Honour"
+    },
+    {
+      "name": "VH1 Trailblazer Honors",
+      "year": 2018
+    },
+    {
+      "name": "honorary doctorate from the University of Nice-Sophia Antipolis",
+      "year": 1982
+    }
+  ]
 }

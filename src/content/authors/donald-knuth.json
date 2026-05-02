@@ -5,5 +5,148 @@
   "photo_url": "https://covers.openlibrary.org/a/id/3365456-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL229501A",
   "birth_year": 1938,
-  "bio": "American computer scientist and mathematician (born 1938)"
+  "bio": "American computer scientist and mathematician (born 1938)",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q17457",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "7466303",
+  "ol_author_key": "/authors/OL229501A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1972
+    },
+    {
+      "name": "Turing Award",
+      "year": 1974
+    },
+    {
+      "name": "IEEE John von Neumann Medal",
+      "year": 1995
+    },
+    {
+      "name": "Harvey Prize",
+      "year": 1995
+    },
+    {
+      "name": "National Medal of Science",
+      "year": 1979
+    },
+    {
+      "name": "Faraday Medal",
+      "year": 2011
+    },
+    {
+      "name": "Grace Murray Hopper Award",
+      "year": 1971
+    },
+    {
+      "name": "Josiah Willard Gibbs Lectureship",
+      "year": 1978
+    },
+    {
+      "name": "Foreign Member of the Royal Society",
+      "year": 2003
+    },
+    {
+      "name": "Turing Talk",
+      "year": 2011
+    },
+    {
+      "name": "Computer History Museum Fellow",
+      "year": 1998
+    },
+    {
+      "name": "Franklin Medal",
+      "year": 1988
+    },
+    {
+      "name": "Kyoto Prize in Advanced Technology",
+      "year": 1996
+    },
+    {
+      "name": "ACM Software System Award",
+      "year": 1986
+    },
+    {
+      "name": "W. Wallace McDowell Award",
+      "year": 1980
+    },
+    {
+      "name": "Paul R. Halmos - Lester R. Ford Awards",
+      "year": 1975
+    },
+    {
+      "name": "BBVA Foundation Frontiers of Knowledge Award",
+      "year": 2010
+    },
+    {
+      "name": "Leroy P. Steele Prize",
+      "year": 1986
+    },
+    {
+      "name": "John von Neumann Prize",
+      "year": 2016
+    },
+    {
+      "name": "honorary doctor of ETH Zürich",
+      "year": 2005
+    },
+    {
+      "name": "honorary doctor of the University of Tübingen",
+      "year": 2001
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 1994
+    },
+    {
+      "name": "Fellow of the Society for Industrial and Applied Mathematics",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the British Computer Society",
+      "year": 1980
+    },
+    {
+      "name": "honorary doctorate of the University of Glasgow",
+      "year": 2011
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 2003
+    },
+    {
+      "name": "honorary doctorate of the Masaryk University",
+      "year": 1996
+    },
+    {
+      "name": "Fellow of the American Mathematical Society",
+      "year": 2013
+    },
+    {
+      "name": "honorary doctor of the University of Paris-Est-Marne-la-Vallée",
+      "year": 1992
+    },
+    {
+      "name": "honorary doctorate from University of Paris-XI",
+      "year": 1986
+    },
+    {
+      "name": "honorary doctorate from University of Bordeaux-I",
+      "year": 1997
+    },
+    {
+      "name": "honorary doctor of the University of Antwerp",
+      "year": 2003
+    }
+  ]
 }

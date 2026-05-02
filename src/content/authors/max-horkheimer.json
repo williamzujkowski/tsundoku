@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Horkheimer",
   "open_library_url": "https://openlibrary.org/authors/OL128166A",
   "birth_year": 1895,
-  "death_year": 1973
+  "death_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76826",
+  "nationality": [
+    "DE",
+    "US"
+  ],
+  "viaf_id": "14771315",
+  "ol_author_key": "/authors/OL128166A",
+  "movements": [
+    "Frankfurt School"
+  ],
+  "awards": [
+    {
+      "name": "honorary citizen of Frankfurt am Main"
+    },
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1953
+    },
+    {
+      "name": "Goethe-Plakette des Landes Hessen",
+      "year": 1970
+    }
+  ]
 }

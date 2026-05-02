@@ -7,5 +7,62 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Milton_Friedman",
   "open_library_url": "https://openlibrary.org/authors/OL403122A",
   "birth_year": 1912,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q47426",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "46761275",
+  "ol_author_key": "/authors/OL403122A",
+  "awards": [
+    {
+      "name": "Prize in Economic Sciences in Memory of Alfred Nobel",
+      "year": 1976
+    },
+    {
+      "name": "National Medal of Science",
+      "year": 1988
+    },
+    {
+      "name": "Adam Smith Award",
+      "year": 1989
+    },
+    {
+      "name": "John Bates Clark Medal",
+      "year": 1951
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 1988
+    },
+    {
+      "name": "Distinguished Fellow of the American Economic Association"
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 1949
+    },
+    {
+      "name": "Fellow of the American Statistical Association"
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 1979
+    },
+    {
+      "name": "Fellow of the Institute of Mathematical Statistics",
+      "year": 1943
+    },
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2019
+    }
+  ]
 }

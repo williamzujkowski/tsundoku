@@ -7,5 +7,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joan_Robinson",
   "open_library_url": "https://openlibrary.org/authors/OL120843A",
   "birth_year": 1903,
-  "death_year": 1983
+  "death_year": 1983,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234793",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "59144539",
+  "ol_author_key": "/authors/OL120843A",
+  "awards": [
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "honorary doctor of the University of Rennes",
+      "year": 1959
+    }
+  ]
 }

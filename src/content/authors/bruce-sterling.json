@@ -6,5 +6,47 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bruce_Sterling_2.jpg/400px-Bruce_Sterling_2.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Sterling",
   "open_library_url": "https://openlibrary.org/authors/OL226057A",
-  "birth_year": 1954
+  "birth_year": 1954,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312995",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "76323175",
+  "ol_author_key": "/authors/OL226057A",
+  "awards": [
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1989
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 1997
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 1999
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 1999
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2000
+    },
+    {
+      "name": "Hayakawa Award"
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 1999
+    }
+  ]
 }

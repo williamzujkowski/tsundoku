@@ -6,5 +6,104 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dinner_with_Richard_Dawkins_and_CFI..._like_a_candle_in_the_dark.jpg/400px-Dinner_with_Richard_Dawkins_and_CFI..._like_a_candle_in_the_dark.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Dawkins",
   "open_library_url": "https://openlibrary.org/authors/OL236174A",
-  "birth_year": 1941
+  "birth_year": 1941,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q44461",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "12307054",
+  "ol_author_key": "/authors/OL236174A",
+  "movements": [
+    "atheism",
+    "secularism",
+    "agnosticism"
+  ],
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 2001
+    },
+    {
+      "name": "Kistler Prize",
+      "year": 2001
+    },
+    {
+      "name": "Michael Faraday Prize",
+      "year": 1990
+    },
+    {
+      "name": "International Cosmos Prize",
+      "year": 1997
+    },
+    {
+      "name": "Lewis Thomas Prize",
+      "year": 2006
+    },
+    {
+      "name": "Shakespeare Prize",
+      "year": 2005
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 1996
+    },
+    {
+      "name": "Medal of Representation of the President of the Italian Republic",
+      "year": 2001
+    },
+    {
+      "name": "Nierenberg Prize",
+      "year": 2009
+    },
+    {
+      "name": "Silver Medal of the Zoological Society of London",
+      "year": 1989
+    },
+    {
+      "name": "honorary doctorate of the Vrije Universiteit Brussel",
+      "year": 2005
+    },
+    {
+      "name": "honorary doctor of Durham University"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1997
+    },
+    {
+      "name": "honorary doctor of the University of Valencia",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the Committee for Skeptical Inquiry"
+    },
+    {
+      "name": "Tinbergen Lecture",
+      "year": 2000
+    },
+    {
+      "name": "Emperor Has No Clothes Award",
+      "year": 2001
+    },
+    {
+      "name": "Heinemann Award",
+      "year": 1986
+    },
+    {
+      "name": "honorary doctor of the University of Antwerp",
+      "year": 2009
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2003
+    }
+  ]
 }

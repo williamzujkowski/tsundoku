@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Dos_Passos",
   "open_library_url": "https://openlibrary.org/authors/OL123122A",
   "birth_year": 1896,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312407",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "41839211",
+  "ol_author_key": "/authors/OL123122A",
+  "movements": [
+    "modernist literature"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1939
+    },
+    {
+      "name": "Feltrinelli Prize"
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1940
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1942
+    }
+  ]
 }

@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Goldman",
   "open_library_url": "https://openlibrary.org/authors/OL30421A",
   "birth_year": 1931,
-  "death_year": 2018
+  "death_year": 2018,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q506885",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "113978172",
+  "ol_author_key": "/authors/OL30421A",
+  "awards": [
+    {
+      "name": "Writers Guild of America Award"
+    },
+    {
+      "name": "Academy Award for Best Writing, Original Screenplay",
+      "year": 1970
+    },
+    {
+      "name": "Academy Award for Best Writing, Adapted Screenplay",
+      "year": 1977
+    },
+    {
+      "name": "Edgar Awards",
+      "year": 1967
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 1988
+    }
+  ]
 }

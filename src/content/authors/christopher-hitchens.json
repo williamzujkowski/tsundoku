@@ -7,5 +7,48 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_Hitchens",
   "open_library_url": "https://openlibrary.org/authors/OL454925A",
   "birth_year": 1949,
-  "death_year": 2011
+  "death_year": 2011,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q49081",
+  "nationality": [
+    "GB",
+    "US"
+  ],
+  "viaf_id": "98819926",
+  "ol_author_key": "/authors/OL454925A",
+  "movements": [
+    "atheism"
+  ],
+  "awards": [
+    {
+      "name": "Richard Dawkins Award",
+      "year": 2011
+    },
+    {
+      "name": "PEN/Diamonstein-Spielvogel Award for the Art of the Essay"
+    },
+    {
+      "name": "Lannan Literary Awards",
+      "year": 1991
+    },
+    {
+      "name": "LennonOno Grant for Peace",
+      "year": 2012
+    },
+    {
+      "name": "Emperor Has No Clothes Award",
+      "year": 2007
+    },
+    {
+      "name": "Great Immigrants Award",
+      "year": 2007
+    }
+  ]
 }

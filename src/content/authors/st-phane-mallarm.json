@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/St%C3%A9phane_Mallarm%C3%A9",
   "open_library_url": "https://openlibrary.org/authors/OL41913A",
   "birth_year": 1842,
-  "death_year": 1898
+  "death_year": 1898,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q767",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "51692711",
+  "ol_author_key": "/authors/OL41913A",
+  "awards": [
+    {
+      "name": "Taylorian Lecture"
+    }
+  ]
 }

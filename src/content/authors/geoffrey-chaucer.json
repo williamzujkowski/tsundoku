@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer",
   "open_library_url": "https://openlibrary.org/authors/OL37436A",
   "birth_year": 1343,
-  "death_year": 1400
+  "death_year": 1400,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q5683",
+  "viaf_id": "100185203",
+  "ol_author_key": "/authors/OL37436A"
 }

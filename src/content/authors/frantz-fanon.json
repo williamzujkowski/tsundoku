@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
   "open_library_url": "https://openlibrary.org/authors/OL134914A",
   "birth_year": 1925,
-  "death_year": 1961
+  "death_year": 1961,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q193670",
+  "viaf_id": "22490",
+  "ol_author_key": "/authors/OL134914A",
+  "movements": [
+    "decoloniality"
+  ]
 }

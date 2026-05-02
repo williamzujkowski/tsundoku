@@ -7,5 +7,53 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_J._Evans",
   "open_library_url": "https://openlibrary.org/authors/OL201893A",
   "birth_year": 1947,
-  "death_year": 2008
+  "death_year": 2008,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q607427",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "12283480",
+  "ol_author_key": "/authors/OL201893A",
+  "awards": [
+    {
+      "name": "Wolfson History Prize",
+      "year": 1989
+    },
+    {
+      "name": "Fellow of the Learned Society of Wales",
+      "year": 2010
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the Royal Historical Society"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1999
+    },
+    {
+      "name": "Leverhulme Medal",
+      "year": 2015
+    },
+    {
+      "name": "Knight Bachelor"
+    },
+    {
+      "name": "Medaille für Kunst und Wissenschaft (Hamburg)",
+      "year": 1993
+    },
+    {
+      "name": "Medlicott Medal",
+      "year": 2014
+    }
+  ]
 }

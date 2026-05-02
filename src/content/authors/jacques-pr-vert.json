@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jacques_Pr%C3%A9vert",
   "open_library_url": "https://openlibrary.org/authors/OL129281A",
   "birth_year": 1900,
-  "death_year": 1977
+  "death_year": 1977,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q165274",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "76321578",
+  "ol_author_key": "/authors/OL129281A"
 }

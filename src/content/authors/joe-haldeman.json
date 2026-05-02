@@ -6,5 +6,126 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Joe_Haldeman_Finncon2007_cropped.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Haldeman",
   "open_library_url": "https://openlibrary.org/authors/OL26980A",
-  "birth_year": 1943
+  "birth_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q347461",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Robert Graham"
+  ],
+  "viaf_id": "59083671",
+  "ol_author_key": "/authors/OL26980A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1977
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 1977
+    },
+    {
+      "name": "Phoenix Award",
+      "year": 1983
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1991
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 1991
+    },
+    {
+      "name": "Nebula Award for Best Short Story",
+      "year": 1994
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1995
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 1995
+    },
+    {
+      "name": "Edward E. Smith Memorial Award",
+      "year": 1997
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1998
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1998
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1999
+    },
+    {
+      "name": "Otherwise Award",
+      "year": 2004
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2006
+    },
+    {
+      "name": "Robert A. Heinlein Award",
+      "year": 2009
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2010
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2012
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1999
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1991
+    },
+    {
+      "name": "Ditmar Award"
+    },
+    {
+      "name": "Rhysling Award"
+    },
+    {
+      "name": "World Fantasy Award for Best Short Fiction",
+      "year": 1993
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 1997
+    }
+  ]
 }

@@ -7,5 +7,22 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
   "open_library_url": "https://openlibrary.org/authors/OL29048A",
   "birth_year": 1712,
-  "death_year": 1778
+  "death_year": 1778,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6527",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "100184045",
+  "ol_author_key": "/authors/OL29048A",
+  "movements": [
+    "Enlightenment philosophy",
+    "Baroque music"
+  ]
 }

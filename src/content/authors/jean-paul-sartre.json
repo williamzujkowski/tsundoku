@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
   "open_library_url": "https://openlibrary.org/authors/OL117592A",
   "birth_year": 1905,
-  "death_year": 1980
+  "death_year": 1980,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9364",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Jacques Guillemin"
+  ],
+  "viaf_id": "76322562",
+  "ol_author_key": "/authors/OL117592A",
+  "movements": [
+    "existentialism",
+    "atheism",
+    "phenomenology",
+    "French philosophy",
+    "Marxism",
+    "continental philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1964
+    },
+    {
+      "name": "Eugène Dabit populist novel award",
+      "year": 1940
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Grand Prize for the Best Novels of the Half-Century"
+    },
+    {
+      "name": "Toynbee Prize"
+    }
+  ]
 }

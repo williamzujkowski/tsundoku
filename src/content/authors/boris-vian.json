@@ -7,5 +7,58 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Boris_Vian",
   "open_library_url": "https://openlibrary.org/authors/OL56353A",
   "birth_year": 1920,
-  "death_year": 1959
+  "death_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7833",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Bison Ravi",
+    "Andy Blackshick",
+    "Xavier Clarke",
+    "S. Culape",
+    "Aimé Damour",
+    "Michel Delaroche",
+    "Joëlle Du Beausset",
+    "Gérard Dunoyer",
+    "Jules Dupont",
+    "Bison Duravi",
+    "Fanaton",
+    "Hugo Hachebuisson",
+    "Zéphirin Hanvélo",
+    "Onuphre Hirondelle",
+    "Amélie de Labmineuse",
+    "Odile Legrillon",
+    "Otto Link",
+    "Thomas Quan",
+    "Eugène Minoux",
+    "Gédéon Molle",
+    "Josèfe Pignerole",
+    "Adolphe Schmürz",
+    "Vernon Sullivan",
+    "Lydio Sincrazi",
+    "Anna Tof",
+    "Anna Tof de Raspail",
+    "Claude Varnier",
+    "Boriso Viana"
+  ],
+  "viaf_id": "9983585",
+  "ol_author_key": "/authors/OL56353A",
+  "movements": [
+    "Zazou"
+  ],
+  "awards": [
+    {
+      "name": "Ordre de la Grande Gidouille"
+    }
+  ]
 }

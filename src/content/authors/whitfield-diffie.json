@@ -5,5 +5,75 @@
   "bio": "American cryptographer known for the Diffie–Hellman key exchange.",
   "open_library_url": "https://openlibrary.org/authors/OL400408A",
   "birth_year": 1944,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q462089",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "74088727",
+  "ol_author_key": "/authors/OL400408A",
+  "awards": [
+    {
+      "name": "honorary doctor of ETH Zürich",
+      "year": 1992
+    },
+    {
+      "name": "Paris Kanellakis Award",
+      "year": 1996
+    },
+    {
+      "name": "Marconi Prize",
+      "year": 2000
+    },
+    {
+      "name": "IEEE Richard W. Hamming Medal",
+      "year": 2010
+    },
+    {
+      "name": "Turing Award",
+      "year": 2015
+    },
+    {
+      "name": "National Inventors Hall of Fame",
+      "year": 2011
+    },
+    {
+      "name": "Computer History Museum Fellow",
+      "year": 2011
+    },
+    {
+      "name": "National Cyber Security Hall of Fame",
+      "year": 2012
+    },
+    {
+      "name": "IACR Fellow",
+      "year": 2004
+    },
+    {
+      "name": "IEEE Koji Kobayashi Computers and Communications Award",
+      "year": 1999
+    },
+    {
+      "name": "Foreign Member of the Royal Society",
+      "year": 2017
+    },
+    {
+      "name": "Louis E. Levy Medal of the Franklin Institute",
+      "year": 1997
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 2020
+    },
+    {
+      "name": "Order of the Cross of Terra Mariana, 3rd Class"
+    }
+  ]
 }

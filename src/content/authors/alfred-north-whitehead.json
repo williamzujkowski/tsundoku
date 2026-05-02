@@ -7,5 +7,49 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
   "open_library_url": "https://openlibrary.org/authors/OL115663A",
   "birth_year": 1861,
-  "death_year": 1947
+  "death_year": 1947,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q183372",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "17265242",
+  "ol_author_key": "/authors/OL115663A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1903
+    },
+    {
+      "name": "honorary doctor of the University of St Andrews"
+    },
+    {
+      "name": "honorary doctor of Harvard University"
+    },
+    {
+      "name": "Sylvester Medal",
+      "year": 1925
+    },
+    {
+      "name": "James Scott Prize Lectureship",
+      "year": 1922
+    },
+    {
+      "name": "Butler Medal",
+      "year": 1930
+    },
+    {
+      "name": "Order of Merit",
+      "year": 1945
+    },
+    {
+      "name": "Fellow of the British Academy"
+    }
+  ]
 }

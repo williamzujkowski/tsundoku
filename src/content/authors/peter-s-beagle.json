@@ -6,5 +6,74 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/PeterBeagle.jpg/400px-PeterBeagle.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_S._Beagle",
   "open_library_url": "https://openlibrary.org/authors/OL26165A",
-  "birth_year": 1939
+  "birth_year": 1939,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q285007",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110010491",
+  "ol_author_key": "/authors/OL6238590A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1972
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 2006
+    },
+    {
+      "name": "World Fantasy Award for Life Achievement"
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2006
+    },
+    {
+      "name": "Nebula Award for Best Novelette",
+      "year": 2007
+    },
+    {
+      "name": "WSFA Small Press Award",
+      "year": 2007
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign-Language Short Story",
+      "year": 2004
+    },
+    {
+      "name": "Mythopoeic Awards"
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 1994
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 2010
+    },
+    {
+      "name": "World Fantasy Award for Best Anthology",
+      "year": 2018
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2018
+    },
+    {
+      "name": "Mythopoeic Fantasy Award",
+      "year": 1987
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2000
+    }
+  ]
 }

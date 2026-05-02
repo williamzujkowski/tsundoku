@@ -6,5 +6,27 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rachel_Kushner_at_the_2025_Adelaide_Writers%27_Week_-_03.jpg/400px-Rachel_Kushner_at_the_2025_Adelaide_Writers%27_Week_-_03.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Kushner",
   "open_library_url": "https://openlibrary.org/authors/OL3163253A",
-  "birth_year": 1968
+  "birth_year": 1968,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7279300",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "20621405",
+  "ol_author_key": "/authors/OL3163253A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2013
+    },
+    {
+      "name": "Prix Médicis étranger"
+    }
+  ]
 }

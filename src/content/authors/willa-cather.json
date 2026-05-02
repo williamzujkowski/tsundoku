@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Willa_Cather",
   "open_library_url": "https://openlibrary.org/authors/OL22583A",
   "birth_year": 1873,
-  "death_year": 1947
+  "death_year": 1947,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q229480",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "2480701",
+  "ol_author_key": "/authors/OL22583A",
+  "awards": [
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1988
+    },
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1923
+    },
+    {
+      "name": "National Cowgirl Museum and Hall of Fame"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "William Dean Howells Medal of the American Academy of Arts and Letters",
+      "year": 1930
+    }
+  ]
 }

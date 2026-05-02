@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/B._R._Ambedkar",
   "open_library_url": "https://openlibrary.org/authors/OL14043A",
   "birth_year": 1891,
-  "death_year": 1956
+  "death_year": 1956,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q231690",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "44331988",
+  "ol_author_key": "/authors/OL14043A",
+  "movements": [
+    "social movement",
+    "Indian independence movement",
+    "Dalit Buddhist movement"
+  ],
+  "awards": [
+    {
+      "name": "Bharat Ratna"
+    },
+    {
+      "name": "The Greatest Indian"
+    },
+    {
+      "name": "honorary doctorate from Columbia University",
+      "year": 1952
+    },
+    {
+      "name": "honorary doctor of Osmania University",
+      "year": 1953
+    }
+  ]
 }

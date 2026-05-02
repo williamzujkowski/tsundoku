@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_Queneau",
   "open_library_url": "https://openlibrary.org/authors/OL139769A",
   "birth_year": 1903,
-  "death_year": 1976
+  "death_year": 1976,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q218690",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "95204781",
+  "ol_author_key": "/authors/OL139769A",
+  "movements": [
+    "surrealism"
+  ],
+  "awards": [
+    {
+      "name": "Prix des Deux Magots",
+      "year": 1933
+    },
+    {
+      "name": "Straelen Translator’s Prize provided by Kunststiftung NRW",
+      "year": 2017
+    }
+  ]
 }

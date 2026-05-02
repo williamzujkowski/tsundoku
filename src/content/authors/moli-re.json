@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
   "open_library_url": "https://openlibrary.org/authors/OL6899222A",
   "birth_year": 1622,
-  "death_year": 1673
+  "death_year": 1673,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q687",
+  "alternate_names": [
+    "Molière"
+  ],
+  "viaf_id": "2474502",
+  "ol_author_key": "/authors/OL6899222A",
+  "movements": [
+    "Classicism"
+  ]
 }

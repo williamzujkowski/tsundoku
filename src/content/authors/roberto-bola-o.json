@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Roberto_Bola%C3%B1o",
   "open_library_url": "https://openlibrary.org/authors/OL56795A",
   "birth_year": 1953,
-  "death_year": 2003
+  "death_year": 2003,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q297532",
+  "nationality": [
+    "CL"
+  ],
+  "viaf_id": "41992611",
+  "ol_author_key": "/authors/OL6493404A",
+  "movements": [
+    "Infrarrealismo"
+  ],
+  "awards": [
+    {
+      "name": "Rómulo Gallegos Prize",
+      "year": 1999
+    },
+    {
+      "name": "Premio Herralde",
+      "year": 1998
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2008
+    },
+    {
+      "name": "Alcalá City Awards",
+      "year": 1992
+    }
+  ]
 }

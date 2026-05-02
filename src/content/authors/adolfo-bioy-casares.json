@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Adolfo_Bioy_Casares",
   "open_library_url": "https://openlibrary.org/authors/OL67141A",
   "birth_year": 1914,
-  "death_year": 1999
+  "death_year": 1999,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q298035",
+  "nationality": [
+    "AR"
+  ],
+  "viaf_id": "12305230",
+  "ol_author_key": "/authors/OL67141A",
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1981
+    },
+    {
+      "name": "Miguel de Cervantes Prize",
+      "year": 1990
+    },
+    {
+      "name": "Alfonso Reyes International Prize",
+      "year": 1990
+    },
+    {
+      "name": "Gran Premio de Honor de la SADE",
+      "year": 1975
+    },
+    {
+      "name": "diamond Konex award",
+      "year": 1994
+    },
+    {
+      "name": "honorary doctorate of Grenoble-III University",
+      "year": 1992
+    }
+  ]
 }

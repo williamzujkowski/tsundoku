@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Erich_Auerbach",
   "open_library_url": "https://openlibrary.org/authors/OL125445A",
   "birth_year": 1892,
-  "death_year": 1957
+  "death_year": 1957,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q57603",
+  "nationality": [
+    "DE"
+  ],
+  "viaf_id": "41836053",
+  "ol_author_key": "/authors/OL125445A",
+  "awards": [
+    {
+      "name": "Sterling Professor"
+    }
+  ]
 }

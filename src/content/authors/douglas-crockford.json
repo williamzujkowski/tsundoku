@@ -6,5 +6,17 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Douglas_Crockford%2C_February_2013.jpg/400px-Douglas_Crockford%2C_February_2013.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Douglas_Crockford",
   "open_library_url": "https://openlibrary.org/authors/OL3501231A",
-  "birth_year": 1955
+  "birth_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3037998",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "63824734",
+  "ol_author_key": "/authors/OL3501231A"
 }

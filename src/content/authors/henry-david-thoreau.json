@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_David_Thoreau",
   "open_library_url": "https://openlibrary.org/authors/OL19690A",
   "birth_year": 1817,
-  "death_year": 1862
+  "death_year": 1862,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q131149",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "68936476",
+  "ol_author_key": "/authors/OL19690A",
+  "movements": [
+    "Western philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Hall of Fame for Great Americans",
+      "year": 1960
+    }
+  ]
 }

@@ -7,5 +7,94 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Mann",
   "open_library_url": "https://openlibrary.org/authors/OL22973A",
   "birth_year": 1875,
-  "death_year": 1955
+  "death_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q37030",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "54151065",
+  "ol_author_key": "/authors/OL22973A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1929
+    },
+    {
+      "name": "Goethe Prize of the City of Frankfurt",
+      "year": 1949
+    },
+    {
+      "name": "Pour le Mérite for Sciences and Arts order"
+    },
+    {
+      "name": "Feltrinelli Prize",
+      "year": 1952
+    },
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1932
+    },
+    {
+      "name": "honorary doctorate from Princeton University"
+    },
+    {
+      "name": "honorary doctor of Harvard University"
+    },
+    {
+      "name": "honorary doctorate from Columbia University"
+    },
+    {
+      "name": "Honorary doctor of the University of Oxford"
+    },
+    {
+      "name": "honorary doctorate from the University of Cambridge"
+    },
+    {
+      "name": "Officer of the Legion of Honour"
+    },
+    {
+      "name": "Commander of the Order of Orange-Nassau"
+    },
+    {
+      "name": "honorary citizen of Lübeck",
+      "year": 1955
+    },
+    {
+      "name": "honorary doctor of ETH Zürich"
+    },
+    {
+      "name": "honorary doctorate of Lund University"
+    },
+    {
+      "name": "honorary doctor of the University of Bonn"
+    },
+    {
+      "name": "honorary doctor of Yale University"
+    },
+    {
+      "name": "honorary doctor of the University of Jena"
+    },
+    {
+      "name": "Goethe Medal for Art and Science"
+    },
+    {
+      "name": "honorary doctor of Rutgers University"
+    },
+    {
+      "name": "Pour le Mérite"
+    },
+    {
+      "name": "Order of Orange-Nassau"
+    },
+    {
+      "name": "Taylorian Lecture"
+    }
+  ]
 }

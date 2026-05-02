@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anna_Akhmatova",
   "open_library_url": "https://openlibrary.org/authors/OL44946A",
   "birth_year": 1889,
-  "death_year": 1966
+  "death_year": 1966,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q80440",
+  "nationality": [
+    "RU"
+  ],
+  "viaf_id": "49220707",
+  "ol_author_key": "/authors/OL44946A",
+  "movements": [
+    "Acmeist poetry"
+  ],
+  "awards": [
+    {
+      "name": "Taormina prize",
+      "year": 1964
+    },
+    {
+      "name": "Medal \"For the Defence of Leningrad\""
+    },
+    {
+      "name": "Jubilee Medal Medal \"In Commemoration of the 250th Anniversary of Leningrad\"",
+      "year": 1957
+    },
+    {
+      "name": "Medal \"For Valiant Labour in the Great Patriotic War 1941–1945\"",
+      "year": 1946
+    }
+  ]
 }

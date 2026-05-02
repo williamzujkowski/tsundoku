@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sarah_Bakewell_NBCC_2011_Shankbone_%28cropped%29.jpg/400px-Sarah_Bakewell_NBCC_2011_Shankbone_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Bakewell",
   "open_library_url": "https://openlibrary.org/authors/OL1469137A",
-  "birth_year": 1963
+  "birth_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q4168592",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "75817591",
+  "ol_author_key": "/authors/OL1469137A",
+  "awards": [
+    {
+      "name": "Windham–Campbell Literature Prizes",
+      "year": 2018
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2012
+    },
+    {
+      "name": "National Book Critics Circle Award in Biography",
+      "year": 2010
+    }
+  ]
 }

@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bernard_Malamud",
   "open_library_url": "https://openlibrary.org/authors/OL232501A",
   "birth_year": 1914,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q351547",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "34459928",
+  "ol_author_key": "/authors/OL232501A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1967
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1969
+    },
+    {
+      "name": "National Book Award",
+      "year": 1959
+    },
+    {
+      "name": "National Book Award",
+      "year": 1967
+    }
+  ]
 }

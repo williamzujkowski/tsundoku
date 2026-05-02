@@ -7,5 +7,84 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Louise_Gl%C3%BCck",
   "open_library_url": "https://openlibrary.org/authors/OL216783A",
   "birth_year": 1943,
-  "death_year": 2023
+  "death_year": 2023,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2344210",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "84538845",
+  "ol_author_key": "/authors/OL216783A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1975
+    },
+    {
+      "name": "Bollingen Prize",
+      "year": 2001
+    },
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1993
+    },
+    {
+      "name": "PEN New England Award",
+      "year": 2007
+    },
+    {
+      "name": "United States Poet Laureate",
+      "year": 2003
+    },
+    {
+      "name": "Eunice Tietjens Memorial Prize"
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship",
+      "year": 1970
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 2015
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2020
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship"
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship"
+    },
+    {
+      "name": "Lannan Literary Awards",
+      "year": 1999
+    },
+    {
+      "name": "Tomas Tranströmer prize",
+      "year": 2020
+    },
+    {
+      "name": "Wallace Stevens Award",
+      "year": 2008
+    },
+    {
+      "name": "National Book Critics Circle Award for Poetry",
+      "year": 1985
+    },
+    {
+      "name": "William Carlos Williams Award"
+    },
+    {
+      "name": "National Book Award",
+      "year": 2014
+    }
+  ]
 }

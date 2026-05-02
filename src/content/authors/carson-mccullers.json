@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carson_McCullers",
   "open_library_url": "https://openlibrary.org/authors/OL22420A",
   "birth_year": 1917,
-  "death_year": 1967
+  "death_year": 1967,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q230591",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "95151447",
+  "ol_author_key": "/authors/OL22420A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1942
+    },
+    {
+      "name": "Georgia Women of Achievement",
+      "year": 1994
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1946
+    }
+  ]
 }

@@ -7,5 +7,111 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Natalie_Zemon_Davis",
   "open_library_url": "https://openlibrary.org/authors/OL63755A",
   "birth_year": 1928,
-  "death_year": 2023
+  "death_year": 2023,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q266185",
+  "nationality": [
+    "CA",
+    "US"
+  ],
+  "viaf_id": "54146444",
+  "ol_author_key": "/authors/OL63755A",
+  "awards": [
+    {
+      "name": "honorary doctorate from University of Lyon-II",
+      "year": 1983
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1985
+    },
+    {
+      "name": "honorary doctorate from Columbia University",
+      "year": 1990
+    },
+    {
+      "name": "Honorary doctorate from University of Toronto",
+      "year": 1991
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 1996
+    },
+    {
+      "name": "The Smith College Medal",
+      "year": 1996
+    },
+    {
+      "name": "honorary doctorate from the University of Cambridge",
+      "year": 1998
+    },
+    {
+      "name": "honorary doctor of the University of Edinburgh",
+      "year": 1998
+    },
+    {
+      "name": "Aby Warburg Prize",
+      "year": 2000
+    },
+    {
+      "name": "honorary doctor of the Hebrew University of Jerusalem",
+      "year": 2000
+    },
+    {
+      "name": "Holberg International Memorial Prize",
+      "year": 2010
+    },
+    {
+      "name": "honorary doctor of the University of Toulouse-II",
+      "year": 2010
+    },
+    {
+      "name": "doctor honoris causa from the Paris-Sorbonne University",
+      "year": 2011
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 2012
+    },
+    {
+      "name": "Companion of the Order of Canada",
+      "year": 2012
+    },
+    {
+      "name": "Paul Oskar Kristeller Lifetime Achievement Award",
+      "year": 2014
+    },
+    {
+      "name": "honorary doctor of the University of Paris 1 Pantheon-Sorbonne",
+      "year": 2018
+    },
+    {
+      "name": "honorary doctorate of the University of Basel"
+    },
+    {
+      "name": "honorary doctorate of Concordia University"
+    },
+    {
+      "name": "honorary doctorate from Princeton University"
+    },
+    {
+      "name": "honorary doctor of Yale University"
+    },
+    {
+      "name": "honorary doctor of the University of Chicago"
+    },
+    {
+      "name": "honorary doctor of the Northwestern University"
+    },
+    {
+      "name": "Toynbee Prize",
+      "year": 2000
+    }
+  ]
 }

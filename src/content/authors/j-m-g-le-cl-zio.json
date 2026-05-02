@@ -7,5 +7,55 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/J._M._G._Le_Cl%C3%A9zio",
   "open_library_url": "https://openlibrary.org/authors/OL198800A",
   "birth_year": 1940,
-  "death_year": 1940
+  "death_year": 1940,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q42037",
+  "nationality": [
+    "FR",
+    "MU"
+  ],
+  "viaf_id": "101808164",
+  "ol_author_key": "/authors/OL198800A",
+  "movements": [
+    "Nouveau Roman"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2008
+    },
+    {
+      "name": "Officer of the Legion of Honour"
+    },
+    {
+      "name": "Prince Pierre Award"
+    },
+    {
+      "name": "Stig Dagerman Prize",
+      "year": 2008
+    },
+    {
+      "name": "Prix Renaudot",
+      "year": 1963
+    },
+    {
+      "name": "Grand prix de littérature Paul-Morand",
+      "year": 1980
+    },
+    {
+      "name": "Prix Breizh",
+      "year": 2020
+    },
+    {
+      "name": "Prix mondial Cino Del Duca",
+      "year": 2026
+    }
+  ]
 }

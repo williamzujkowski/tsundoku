@@ -6,5 +6,52 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mahashweta_devi_%28cropped%29.jpg/400px-Mahashweta_devi_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mahasweta_Devi",
   "open_library_url": "https://openlibrary.org/authors/OL2699436A",
-  "birth_year": 1926
+  "birth_year": 1926,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q144391",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "112234825",
+  "ol_author_key": "/authors/OL2699436A",
+  "awards": [
+    {
+      "name": "Sahitya Akademi Award in Bengali",
+      "year": 1979
+    },
+    {
+      "name": "Ramon Magsaysay Award",
+      "year": 1997
+    },
+    {
+      "name": "Banga Bibhushan",
+      "year": 2011
+    },
+    {
+      "name": "Jnanpith Award",
+      "year": 1996
+    },
+    {
+      "name": "Officer of Arts and Letters",
+      "year": 2003
+    },
+    {
+      "name": "Padma Shri in social work",
+      "year": 1986
+    },
+    {
+      "name": "Padma Vibhushan in literature & education",
+      "year": 2006
+    },
+    {
+      "name": "SAARC Literary Award",
+      "year": 2007
+    }
+  ]
 }

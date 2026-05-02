@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walker_Percy",
   "open_library_url": "https://openlibrary.org/authors/OL21169A",
   "birth_year": 1916,
-  "death_year": 1990
+  "death_year": 1990,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q176909",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "29539039",
+  "ol_author_key": "/authors/OL21169A",
+  "awards": [
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1985
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1989
+    },
+    {
+      "name": "Laetare Medal",
+      "year": 1989
+    },
+    {
+      "name": "National Book Award",
+      "year": 1962
+    }
+  ]
 }

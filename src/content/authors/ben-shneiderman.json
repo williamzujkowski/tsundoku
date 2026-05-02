@@ -7,5 +7,48 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Shneiderman",
   "open_library_url": "https://openlibrary.org/authors/OL540395A",
   "birth_year": 1947,
-  "death_year": 2000
+  "death_year": 2000,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q62904",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108743798",
+  "ol_author_key": "/authors/OL540395A",
+  "awards": [
+    {
+      "name": "CHI Academy",
+      "year": 2001
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 1997
+    },
+    {
+      "name": "IEEE Fellow",
+      "year": 2012
+    },
+    {
+      "name": "honorary doctor of the State University of New York at Stony Brook",
+      "year": 2015
+    },
+    {
+      "name": "honorary doctorate of the University of Castille-La Mancha",
+      "year": 2010
+    },
+    {
+      "name": "Fellow of the American Association for the Advancement of Science",
+      "year": 2000
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 1995
+    }
+  ]
 }

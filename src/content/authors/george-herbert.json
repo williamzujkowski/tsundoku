@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Herbert",
   "open_library_url": "https://openlibrary.org/authors/OL271260A",
   "birth_year": 1593,
-  "death_year": 1633
+  "death_year": 1633,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q317887",
+  "viaf_id": "71487054",
+  "ol_author_key": "/authors/OL271260A"
 }

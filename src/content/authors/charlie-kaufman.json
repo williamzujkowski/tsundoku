@@ -5,5 +5,31 @@
   "open_library_url": "https://openlibrary.org/authors/OL485957A",
   "birth_year": 1958,
   "bio": "American filmmaker and novelist",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Kaufman%20Fantastic%20Fest%202015-0257%20%2827441349145%29%20%28cropped%29.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Kaufman%20Fantastic%20Fest%202015-0257%20%2827441349145%29%20%28cropped%29.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312751",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "103198746",
+  "ol_author_key": "/authors/OL6246314A",
+  "awards": [
+    {
+      "name": "Writers Guild of America Award"
+    },
+    {
+      "name": "Academy Award for Best Writing, Original Screenplay",
+      "year": 2005
+    },
+    {
+      "name": "Time Machine Award",
+      "year": 2008
+    }
+  ]
 }

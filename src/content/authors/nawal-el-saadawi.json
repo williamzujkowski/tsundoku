@@ -7,5 +7,57 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nawal_El_Saadawi",
   "open_library_url": "https://openlibrary.org/authors/OL2758789A",
   "birth_year": 1931,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q238514",
+  "viaf_id": "84254254",
+  "ol_author_key": "/authors/OL2758789A",
+  "awards": [
+    {
+      "name": "Franco-Arabic Friendship Award",
+      "year": 1982
+    },
+    {
+      "name": "honorary doctor of the University of St Andrews",
+      "year": 1997
+    },
+    {
+      "name": "Catalonia International Prize",
+      "year": 2003
+    },
+    {
+      "name": "North–South Prize",
+      "year": 2004
+    },
+    {
+      "name": "honorary doctor of the Université libre de Bruxelles",
+      "year": 2007
+    },
+    {
+      "name": "Stig Dagerman Prize",
+      "year": 2011
+    },
+    {
+      "name": "Seán MacBride Peace Prize",
+      "year": 2012
+    },
+    {
+      "name": "BBC 100 Women",
+      "year": 2015
+    },
+    {
+      "name": "honorary doctor of the University of Tromso"
+    },
+    {
+      "name": "honorary doctor of the University of Chicago"
+    },
+    {
+      "name": "honorary doctorate of the University of York"
+    }
+  ]
 }

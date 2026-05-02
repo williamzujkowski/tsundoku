@@ -7,5 +7,49 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Henrik_Ibsen",
   "open_library_url": "https://openlibrary.org/authors/OL13192A",
   "birth_year": 1828,
-  "death_year": 1906
+  "death_year": 1906,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q36661",
+  "nationality": [
+    "NO"
+  ],
+  "alternate_names": [
+    "Brynjolf Bjarme"
+  ],
+  "viaf_id": "71378383",
+  "ol_author_key": "/authors/OL13192A",
+  "movements": [
+    "literary realism"
+  ],
+  "awards": [
+    {
+      "name": "Knight Grand Cross of the Order of St. Olav"
+    },
+    {
+      "name": "King Oscar II's reward medal"
+    },
+    {
+      "name": "Grand Cross of the Order of the Dannebrog"
+    },
+    {
+      "name": "Commanders Grand Cross of the Order of the Polar Star"
+    },
+    {
+      "name": "Knight Grand Cross of the Order of Vasa"
+    },
+    {
+      "name": "Knight Grand Officer of the Order of the Saxe-Ernestine"
+    },
+    {
+      "name": "3rd class, Order of the Medjidie"
+    }
+  ]
 }

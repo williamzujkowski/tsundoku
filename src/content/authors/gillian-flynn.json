@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gillian_Flynn_2014_%28cropped%29.jpg/400px-Gillian_Flynn_2014_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gillian_Flynn",
   "open_library_url": "https://openlibrary.org/authors/OL1433006A",
-  "birth_year": 1971
+  "birth_year": 1971,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q311755",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "103168327",
+  "ol_author_key": "/authors/OL1433006A",
+  "awards": [
+    {
+      "name": "CWA Ian Fleming Steel Dagger",
+      "year": 2007
+    },
+    {
+      "name": "CWA New Blood Dagger",
+      "year": 2007
+    }
+  ]
 }

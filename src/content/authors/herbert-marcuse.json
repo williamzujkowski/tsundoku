@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Marcuse",
   "open_library_url": "https://openlibrary.org/authors/OL20162A",
   "birth_year": 1898,
-  "death_year": 1979
+  "death_year": 1979,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q60030",
+  "nationality": [
+    "US",
+    "DE",
+    "CH"
+  ],
+  "viaf_id": "36921579",
+  "ol_author_key": "/authors/OL20162A",
+  "movements": [
+    "Frankfurt School"
+  ]
 }

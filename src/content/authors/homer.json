@@ -6,5 +6,23 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Homer_British_Museum.jpg/400px-Homer_British_Museum.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Homer",
   "open_library_url": "https://openlibrary.org/authors/OL23273A",
-  "birth_year": 1943
+  "birth_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1626025",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "120202957",
+  "ol_author_key": "/authors/OL23273A",
+  "awards": [
+    {
+      "name": "Bronze Star Medal"
+    }
+  ]
 }

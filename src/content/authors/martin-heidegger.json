@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Heidegger",
   "open_library_url": "https://openlibrary.org/authors/OL39465A",
   "birth_year": 1889,
-  "death_year": 1976
+  "death_year": 1976,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q48301",
+  "nationality": [
+    "DE"
+  ],
+  "viaf_id": "24602613",
+  "ol_author_key": "/authors/OL39465A",
+  "movements": [
+    "phenomenology",
+    "Lebensphilosophie",
+    "existential philosophy"
+  ]
 }

@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
   "open_library_url": "https://openlibrary.org/authors/OL1155711A",
   "birth_year": 1890,
-  "death_year": 1938
+  "death_year": 1938,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q155855",
+  "alternate_names": [
+    "K. Č.",
+    "B. Č.",
+    "Karel Plocek",
+    "Karel Vašek"
+  ],
+  "viaf_id": "34454129",
+  "ol_author_key": "/authors/OL4280557A",
+  "awards": [
+    {
+      "name": "Order of Tomáš Garrigue Masaryk, 1st class",
+      "year": 1995
+    },
+    {
+      "name": "honorary citizen of Hradec Králové",
+      "year": 2019
+    },
+    {
+      "name": "honorary citizen of Prague 10",
+      "year": 2021
+    }
+  ]
 }

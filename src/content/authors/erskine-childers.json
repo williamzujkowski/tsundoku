@@ -6,5 +6,20 @@
   "photo_url": "https://covers.openlibrary.org/a/id/14423639-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL25918A",
   "birth_year": 1870,
-  "death_year": 1922
+  "death_year": 1922,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1270441",
+  "viaf_id": "69059575",
+  "ol_author_key": "/authors/OL25918A",
+  "awards": [
+    {
+      "name": "Distinguished Service Cross",
+      "year": 1917
+    }
+  ]
 }

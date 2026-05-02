@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ntozake_Shange",
   "open_library_url": "https://openlibrary.org/authors/OL276399A",
   "birth_year": 1948,
-  "death_year": 2018
+  "death_year": 2018,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q511742",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "9859533",
+  "ol_author_key": "/authors/OL276399A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1981
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 2016
+    },
+    {
+      "name": "Shelley Memorial Award",
+      "year": 2018
+    },
+    {
+      "name": "Otto Rene Castillo Award for Political Theater",
+      "year": 2009
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Meister_Eckhart",
   "open_library_url": "https://openlibrary.org/authors/OL30574A",
   "birth_year": 1260,
-  "death_year": 1327
+  "death_year": 1327,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76548",
+  "nationality": [
+    "DE"
+  ],
+  "viaf_id": "88809752",
+  "ol_author_key": "/authors/OL2622682A"
 }

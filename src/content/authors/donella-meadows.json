@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Donella_Meadows",
   "open_library_url": "https://openlibrary.org/authors/OL655307A",
   "birth_year": 1941,
-  "death_year": 2001
+  "death_year": 2001,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q271226",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "68996684",
+  "ol_author_key": "/authors/OL655307A",
+  "awards": [
+    {
+      "name": "MacArthur Fellows Program"
+    }
+  ]
 }

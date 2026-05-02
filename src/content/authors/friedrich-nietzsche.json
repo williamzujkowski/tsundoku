@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
   "open_library_url": "https://openlibrary.org/authors/OL20157A",
   "birth_year": 1844,
-  "death_year": 1900
+  "death_year": 1900,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9358",
+  "nationality": [
+    "DE"
+  ],
+  "viaf_id": "89798474",
+  "ol_author_key": "/authors/OL20157A"
 }

@@ -7,5 +7,41 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Rulfo",
   "open_library_url": "https://openlibrary.org/authors/OL199285A",
   "birth_year": 1917,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q200661",
+  "viaf_id": "9853151",
+  "ol_author_key": "/authors/OL199285A",
+  "awards": [
+    {
+      "name": "Xavier Villaurrutia Award",
+      "year": 1955
+    },
+    {
+      "name": "National Prize for Arts and Sciences",
+      "year": 1970
+    },
+    {
+      "name": "Alfaguara Prize"
+    },
+    {
+      "name": "Princess of Asturias Literary Prize",
+      "year": 1983
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Xavier Villaurrutia Award"
+    },
+    {
+      "name": "Xavier Villaurrutia Award",
+      "year": 1955
+    }
+  ]
 }

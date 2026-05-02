@@ -6,5 +6,37 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL2660362A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tana_French",
   "open_library_url": "https://openlibrary.org/authors/OL2660362A",
-  "birth_year": 1973
+  "birth_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q271423",
+  "nationality": [
+    "US",
+    "IT"
+  ],
+  "viaf_id": "149427877",
+  "ol_author_key": "/authors/OL2660362A",
+  "awards": [
+    {
+      "name": "Edgar Allan Poe Award for Best First Novel",
+      "year": 2008
+    },
+    {
+      "name": "Anthony Award for Best First Novel",
+      "year": 2008
+    },
+    {
+      "name": "Macavity Awards",
+      "year": 2008
+    },
+    {
+      "name": "Barry Award for Best First Novel",
+      "year": 2008
+    }
+  ]
 }

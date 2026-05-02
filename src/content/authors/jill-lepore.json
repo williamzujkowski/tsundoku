@@ -6,5 +6,43 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jill_lepore_1110981.jpg/400px-Jill_lepore_1110981.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jill_Lepore",
   "open_library_url": "https://openlibrary.org/authors/OL382527A",
-  "birth_year": 1966
+  "birth_year": 1966,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6192915",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "84442192",
+  "ol_author_key": "/authors/OL382527A",
+  "awards": [
+    {
+      "name": "Ralph Waldo Emerson Award",
+      "year": 1998
+    },
+    {
+      "name": "Bancroft Prize",
+      "year": 1999
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 2006
+    },
+    {
+      "name": "Hannah Arendt Prize",
+      "year": 2021
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "American History Book Prize",
+      "year": 2015
+    }
+  ]
 }

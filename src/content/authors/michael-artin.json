@@ -5,5 +5,55 @@
   "bio": "Michael Artin is an American mathematician and a professor emeritus in the Massachusetts Institute of Technology Mathematics Department, known for his contributions to algebraic geometry.",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Michael_Artin.jpg/400px-Michael_Artin.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Artin",
-  "open_library_url": "https://openlibrary.org/authors/OL945814A"
+  "open_library_url": "https://openlibrary.org/authors/OL945814A",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1926870",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51752938",
+  "ol_author_key": "/authors/OL945814A",
+  "awards": [
+    {
+      "name": "Harvard Centennial Medal",
+      "year": 2005
+    },
+    {
+      "name": "National Medal of Science",
+      "year": 2013
+    },
+    {
+      "name": "Wolf Prize in Mathematics",
+      "year": 2013
+    },
+    {
+      "name": "Fellow of the Society for Industrial and Applied Mathematics",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the American Association for the Advancement of Science"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 1969
+    },
+    {
+      "name": "Steele Prize for Lifetime Achievement",
+      "year": 2002
+    },
+    {
+      "name": "Fellow of the American Mathematical Society",
+      "year": 2013
+    },
+    {
+      "name": "honorary doctor of the University of Antwerp",
+      "year": 1992
+    }
+  ]
 }

@@ -4,5 +4,36 @@
   "book_count": 1,
   "open_library_url": "https://openlibrary.org/authors/OL27870A",
   "birth_year": 1957,
-  "bio": "family name"
+  "bio": "family name",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q204168",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "85852459",
+  "ol_author_key": "/authors/OL27870A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1991
+    },
+    {
+      "name": "PEN/Malamud Award",
+      "year": 2005
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1998
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2023
+    }
+  ]
 }

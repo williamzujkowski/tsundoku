@@ -6,5 +6,24 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Terry_Brooks_at_Rose_City_Comic_Con_02_%28cropped%29.jpg/400px-Terry_Brooks_at_Rose_City_Comic_Con_02_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Brooks",
   "open_library_url": "https://openlibrary.org/authors/OL4356457A",
-  "birth_year": 1944
+  "birth_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q318845",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "73911214",
+  "ol_author_key": "/authors/OL4356457A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 1997
+    }
+  ]
 }

@@ -6,5 +6,43 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7253331-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL217730A",
   "birth_year": 1921,
-  "death_year": 1992
+  "death_year": 1992,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q296069",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "80007399",
+  "ol_author_key": "/authors/OL217730A",
+  "awards": [
+    {
+      "name": "Spingarn Medal",
+      "year": 1977
+    },
+    {
+      "name": "Lillian Smith Book Award",
+      "year": 1977
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1966
+    },
+    {
+      "name": "Pulitzer Prize Special Citations and Awards",
+      "year": 1977
+    },
+    {
+      "name": "Ellis Island Medal of Honor"
+    },
+    {
+      "name": "Bancarella Literary Prize",
+      "year": 1978
+    }
+  ]
 }

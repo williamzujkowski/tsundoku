@@ -6,5 +6,113 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Orhan_Pamuk_2009_Shankbone.jpg/400px-Orhan_Pamuk_2009_Shankbone.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Orhan_Pamuk",
   "open_library_url": "https://openlibrary.org/authors/OL96984A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q241248",
+  "nationality": [
+    "TR"
+  ],
+  "viaf_id": "107501225",
+  "ol_author_key": "/authors/OL96984A",
+  "movements": [
+    "postmodern literature",
+    "naturalism"
+  ],
+  "awards": [
+    {
+      "name": "Independent Foreign Fiction Prize",
+      "year": 1990
+    },
+    {
+      "name": "International Antalya Golden Orange Film Festival Award for Best Original Screenplay",
+      "year": 1991
+    },
+    {
+      "name": "Grinzane Cavour Prize",
+      "year": 2002
+    },
+    {
+      "name": "Dublin Literary Award",
+      "year": 2003
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 2005
+    },
+    {
+      "name": "Prix Médicis étranger",
+      "year": 2005
+    },
+    {
+      "name": "Ricarda-Huch-Preis",
+      "year": 2005
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2006
+    },
+    {
+      "name": "Honorary doctor of the Free University of Berlin",
+      "year": 2007
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 2007
+    },
+    {
+      "name": "Ovid Prize",
+      "year": 2008
+    },
+    {
+      "name": "honorary doctorate from University of Rouen",
+      "year": 2009
+    },
+    {
+      "name": "Norman Mailer Prize",
+      "year": 2010
+    },
+    {
+      "name": "honorary doctor of Yale University",
+      "year": 2010
+    },
+    {
+      "name": "honorary doctor of Sofia University",
+      "year": 2011
+    },
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 2012
+    },
+    {
+      "name": "Erdal Öz Literature Award",
+      "year": 2015
+    },
+    {
+      "name": "German-Turkish friendship Prize",
+      "year": 2015
+    },
+    {
+      "name": "honorary doctorate from University of Lyon-II",
+      "year": 2024
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    },
+    {
+      "name": "honorary doctorate from the American University of Beirut"
+    },
+    {
+      "name": "honorary doctorate of the University of Tirana"
+    },
+    {
+      "name": "honorary doctor of Saint Petersburg State University"
+    }
+  ]
 }

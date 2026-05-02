@@ -6,5 +6,48 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ta-Nehisi_Coates_at_the_2025_Edinburgh_International_Book_Festival-21_%28cropped%29.jpg/400px-Ta-Nehisi_Coates_at_the_2025_Edinburgh_International_Book_Festival-21_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ta-Nehisi_Coates",
   "open_library_url": "https://openlibrary.org/authors/OL3379613A",
-  "birth_year": 1975
+  "birth_year": 1975,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q15452495",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "63473922",
+  "ol_author_key": "/authors/OL3379613A",
+  "awards": [
+    {
+      "name": "The Hillman Prize for Opinion & Analysis",
+      "year": 2012
+    },
+    {
+      "name": "National Magazine Award",
+      "year": 2013
+    },
+    {
+      "name": "George Polk Award",
+      "year": 2014
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2015
+    },
+    {
+      "name": "Kirkus Prize for Nonfiction",
+      "year": 2015
+    },
+    {
+      "name": "Eisner Award for Best Limited Series",
+      "year": 2018
+    },
+    {
+      "name": "National Book Award",
+      "year": 2015
+    }
+  ]
 }

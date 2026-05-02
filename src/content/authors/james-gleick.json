@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/James_Gleick_color.jpg/400px-James_Gleick_color.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Gleick",
   "open_library_url": "https://openlibrary.org/authors/OL23125A",
-  "birth_year": 1954
+  "birth_year": 1954,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q113105",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51721740",
+  "ol_author_key": "/authors/OL23125A",
+  "awards": [
+    {
+      "name": "PEN/E. O. Wilson Literary Science Writing Award",
+      "year": 2012
+    },
+    {
+      "name": "Hessell-Tiltman Prize",
+      "year": 2012
+    }
+  ]
 }

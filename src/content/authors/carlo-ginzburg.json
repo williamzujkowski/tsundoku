@@ -6,5 +6,55 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Carlo_Ginzburg_par_Claude_Truong-Ngoc_mars_2013.jpg/400px-Carlo_Ginzburg_par_Claude_Truong-Ngoc_mars_2013.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carlo_Ginzburg",
   "open_library_url": "https://openlibrary.org/authors/OL24946A",
-  "birth_year": 1939
+  "birth_year": 1939,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q355251",
+  "nationality": [
+    "IT"
+  ],
+  "viaf_id": "108148905",
+  "ol_author_key": "/authors/OL24946A",
+  "awards": [
+    {
+      "name": "Aby Warburg Prize",
+      "year": 1992
+    },
+    {
+      "name": "Lysenko Prize",
+      "year": 1993
+    },
+    {
+      "name": "Viareggio Prize",
+      "year": 1998
+    },
+    {
+      "name": "Balzan Prize",
+      "year": 2010
+    },
+    {
+      "name": "honorary doctorate of the Bordeaux Montaigne University",
+      "year": 2012
+    },
+    {
+      "name": "honorary doctorate from the University of Strasbourg",
+      "year": 2013
+    },
+    {
+      "name": "honorary doctor of the University of Rennes 2",
+      "year": 2017
+    },
+    {
+      "name": "Honorary Doctorate of University of Buenos Aires",
+      "year": 2023
+    },
+    {
+      "name": "Feltrinelli Prize"
+    }
+  ]
 }

@@ -6,5 +6,63 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Neal_Stephenson_in_2019_A_021.jpg/400px-Neal_Stephenson_in_2019_A_021.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Neal_Stephenson",
   "open_library_url": "https://openlibrary.org/authors/OL19430A",
-  "birth_year": 1959
+  "birth_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312853",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Stephen Bury"
+  ],
+  "viaf_id": "7524021",
+  "ol_author_key": "/authors/OL19430A",
+  "awards": [
+    {
+      "name": "Prometheus Award - Hall of Fame"
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 1997
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1996
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1996
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2000
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2004
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2005
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2009
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 2001
+    },
+    {
+      "name": "Robert A. Heinlein Award",
+      "year": 2018
+    }
+  ]
 }

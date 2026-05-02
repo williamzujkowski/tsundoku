@@ -7,5 +7,60 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yasunari_Kawabata",
   "open_library_url": "https://openlibrary.org/authors/OL248278A",
   "birth_year": 1899,
-  "death_year": 1972
+  "death_year": 1972,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q43736",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "97450170",
+  "ol_author_key": "/authors/OL248278A",
+  "awards": [
+    {
+      "name": "Kikuchi Kan Prize",
+      "year": 1944
+    },
+    {
+      "name": "Japan Art Academy Prize",
+      "year": 1952
+    },
+    {
+      "name": "Noma Literary Prize",
+      "year": 1954
+    },
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1959
+    },
+    {
+      "name": "Officer of Arts and Letters",
+      "year": 1960
+    },
+    {
+      "name": "Order of Culture",
+      "year": 1961
+    },
+    {
+      "name": "Person of Cultural Merit",
+      "year": 1961
+    },
+    {
+      "name": "Mainichi Publication Culture Award",
+      "year": 1962
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1968
+    },
+    {
+      "name": "Order of the Rising Sun, 1st class",
+      "year": 1972
+    }
+  ]
 }

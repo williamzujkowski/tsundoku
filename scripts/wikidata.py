@@ -104,16 +104,8 @@ def _sparql(query: str) -> dict | None:
         return None
 
 
-def qids_by_ol_work_keys(keys: Iterable[str]) -> dict[str, str]:
-    """Map OL work keys → Wikidata QIDs in batches.
-
-    Looks up `wdt:P648` (Open Library ID). Not every book has one, but
-    famous works tend to. Returns {ol_key: qid} for matches only.
-    """
-    keys = [k.replace("/works/", "") if k.startswith("/works/") else k
-            for k in keys]
-    keys = [k for k in keys if k.startswith("OL") and k.endswith("W")]
-
+def _qids_by_p648(keys: list[str], olid_path_prefix: str) -> dict[str, str]:
+    """Shared helper: map OL IDs → QIDs via P648, batched. Returns {f'{prefix}{id}': qid}."""
     out: dict[str, str] = {}
     for batch_start in range(0, len(keys), BATCH_SIZE):
         batch = keys[batch_start:batch_start + BATCH_SIZE]
@@ -124,7 +116,7 @@ def qids_by_ol_work_keys(keys: Iterable[str]) -> dict[str, str]:
           ?item wdt:P648 ?olid .
         }}
         """
-        cache_key = f"qids_by_olw:{','.join(sorted(batch))}"
+        cache_key = f"qids_by_p648:{olid_path_prefix}:{','.join(sorted(batch))}"
         data = cached_fetch(
             "wikidata_sparql_v1",
             cache_key,
@@ -136,8 +128,28 @@ def qids_by_ol_work_keys(keys: Iterable[str]) -> dict[str, str]:
             qid = binding.get("item", {}).get("value", "").rsplit("/", 1)[-1]
             olid = binding.get("olid", {}).get("value")
             if qid and olid:
-                out[f"/works/{olid}"] = qid
+                out[f"{olid_path_prefix}{olid}"] = qid
     return out
+
+
+def qids_by_ol_work_keys(keys: Iterable[str]) -> dict[str, str]:
+    """Map OL work keys → Wikidata QIDs via P648. Returns {/works/OL...W: Q...}."""
+    cleaned = [
+        k.replace("/works/", "") if k.startswith("/works/") else k
+        for k in keys
+    ]
+    cleaned = [k for k in cleaned if k.startswith("OL") and k.endswith("W")]
+    return _qids_by_p648(list(set(cleaned)), olid_path_prefix="/works/")
+
+
+def qids_by_ol_author_keys(keys: Iterable[str]) -> dict[str, str]:
+    """Map OL author keys → Wikidata QIDs via P648. Returns {/authors/OL...A: Q...}."""
+    cleaned = [
+        k.replace("/authors/", "") if k.startswith("/authors/") else k
+        for k in keys
+    ]
+    cleaned = [k for k in cleaned if k.startswith("OL") and k.endswith("A")]
+    return _qids_by_p648(list(set(cleaned)), olid_path_prefix="/authors/")
 
 
 def fetch_entity(qid: str) -> dict | None:
@@ -347,6 +359,112 @@ def fields_for_book(qid: str, entity: dict) -> dict:
             if position is not None:
                 entry["position"] = position
             out["_series"] = entry
+
+    return out
+
+
+def fields_for_author(qid: str, entity: dict) -> dict:
+    """Convert a Wikidata author entity into tsundoku author schema fields.
+
+    Pulls (in order of property):
+      P27   (country of citizenship) → nationality (ISO 3166-1 alpha-2)
+      P742  (pseudonym)              → alternate_names (string list)
+      P135  (movement)               → movements (label list, needs resolution)
+      P166  (awards received)        → awards [{name, year}]
+      P214  (VIAF ID)                → viaf_id
+      P648  (OL author key)          → ol_author_key (cross-validation)
+
+    Birth/death dates (P569, P570) are intentionally NOT pulled — we already
+    get those from OL's enrich-authors.py and don't want to clobber them.
+    """
+    out: dict = {"wikidata_qid": qid}
+
+    # Nationality — Wikidata gives QIDs for countries; map to ISO 3166-1 alpha-2.
+    # Common-country subset; expanded as we encounter unmapped QIDs.
+    COUNTRY_QID_TO_ISO2 = {
+        "Q145": "GB", "Q21": "GB",     # England → GB
+        "Q30": "US", "Q35": "DK", "Q34": "SE",
+        "Q183": "DE", "Q142": "FR", "Q38": "IT", "Q29": "ES",
+        "Q159": "RU", "Q34266": "RU", # Russian Empire → RU
+        "Q17": "JP", "Q148": "CN", "Q668": "IN", "Q884": "KR",
+        "Q40": "AT", "Q31": "BE", "Q32": "LU", "Q39": "CH",
+        "Q33": "FI", "Q20": "NO", "Q43": "TR", "Q41": "GR",
+        "Q45": "PT", "Q55": "NL", "Q36": "PL", "Q37": "LT",
+        "Q211": "LV", "Q191": "EE", "Q224": "HR", "Q403": "RS",
+        "Q214": "SK", "Q213": "CZ", "Q28": "HU", "Q218": "RO",
+        "Q219": "BG", "Q189": "IS", "Q230": "GE", "Q227": "AZ",
+        "Q399": "AM", "Q228": "AD", "Q347": "LI", "Q235": "MC",
+        "Q16": "CA", "Q414": "AR", "Q155": "BR", "Q298": "CL",
+        "Q717": "VE", "Q739": "CO", "Q794": "IR", "Q801": "IL",
+        "Q804": "PA", "Q733": "PY", "Q736": "EC", "Q750": "BO",
+        "Q419": "PE", "Q813": "KZ", "Q833": "MY", "Q865": "TW",
+        "Q869": "TH", "Q881": "VN", "Q884": "KR", "Q928": "PH",
+        "Q924": "ZW", "Q953": "ZM", "Q1014": "LR", "Q1029": "MZ",
+        "Q1037": "RW", "Q1041": "SN", "Q1045": "SO", "Q258": "ZA",
+        "Q1049": "SD", "Q117": "GH", "Q1009": "CM", "Q1019": "MG",
+        "Q1027": "MU", "Q967": "BI", "Q986": "ER", "Q1008": "CI",
+        "Q1028": "MA", "Q1033": "NG", "Q414": "AR", "Q408": "AU",
+        "Q664": "NZ", "Q34020": "AU",  # Aboriginal Aus. → AU
+    }
+    nat_codes = []
+    seen = set()
+    for stmt in _statements(entity, qid, "P27"):
+        country_qid = _value_id(stmt)
+        code = COUNTRY_QID_TO_ISO2.get(country_qid)
+        if code and code not in seen:
+            seen.add(code)
+            nat_codes.append(code)
+    if nat_codes:
+        out["nationality"] = nat_codes
+
+    # Pseudonyms / alternate names (P742) — these are simple string values.
+    alt_names = []
+    for stmt in _statements(entity, qid, "P742"):
+        v = ((stmt.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+        if isinstance(v, str) and v not in alt_names:
+            alt_names.append(v)
+    if alt_names:
+        out["alternate_names"] = alt_names
+
+    # Movements (P135) — record QIDs; caller resolves to labels.
+    movement_qids = []
+    for stmt in _statements(entity, qid, "P135"):
+        mq = _value_id(stmt)
+        if mq and mq not in movement_qids:
+            movement_qids.append(mq)
+    if movement_qids:
+        out["_movement_qids"] = movement_qids
+
+    # Awards (P166) with year qualifier P585
+    awards = []
+    for stmt in _statements(entity, qid, "P166"):
+        award_qid = _value_id(stmt)
+        if not award_qid:
+            continue
+        year = None
+        year_q = (stmt.get("qualifiers") or {}).get("P585") or []
+        if year_q:
+            t = ((year_q[0] or {}).get("datavalue") or {}).get("value")
+            if isinstance(t, dict):
+                y, _ = parse_wikidata_year(t)
+                year = y
+        awards.append({"_qid": award_qid, **({"year": year} if year else {})})
+    if awards:
+        out["_awards"] = awards
+
+    # VIAF ID (P214)
+    for stmt in _statements(entity, qid, "P214"):
+        v = ((stmt.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+        if isinstance(v, str):
+            out["viaf_id"] = v
+            break
+
+    # OL author key (P648) — cross-validate
+    for stmt in _statements(entity, qid, "P648"):
+        v = ((stmt.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+        if isinstance(v, str) and v.endswith("A"):
+            out["ol_author_key"] = f"/authors/{v}"
+            break
 
     return out
 

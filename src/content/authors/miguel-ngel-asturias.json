@@ -7,5 +7,42 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias",
   "open_library_url": "https://openlibrary.org/authors/OL82868A",
   "birth_year": 1899,
-  "death_year": 1974
+  "death_year": 1974,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q75603",
+  "viaf_id": "46756659",
+  "ol_author_key": "/authors/OL82868A",
+  "movements": [
+    "surrealism",
+    "magic realism"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1967
+    },
+    {
+      "name": "Order of Augusto César Sandino"
+    },
+    {
+      "name": "Medalla Yucatán"
+    },
+    {
+      "name": "Lenin Peace Prize"
+    },
+    {
+      "name": "honorary doctorate of the University of Reims",
+      "year": 1972
+    },
+    {
+      "name": "honorary doctor of the University of Western Brittany",
+      "year": 1972
+    }
+  ]
 }

@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Olaf_Stapledon",
   "open_library_url": "https://openlibrary.org/authors/OL538087A",
   "birth_year": 1886,
-  "death_year": 1950
+  "death_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q337373",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "59089526",
+  "ol_author_key": "/authors/OL538087A",
+  "awards": [
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2014
+    },
+    {
+      "name": "Cordwainer Smith Rediscovery Award",
+      "year": 2001
+    }
+  ]
 }

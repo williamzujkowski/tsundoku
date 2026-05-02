@@ -6,5 +6,27 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL5604935A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alfred_W._Crosby",
   "open_library_url": "https://openlibrary.org/authors/OL5604935A",
-  "birth_year": 1931
+  "birth_year": 1931,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3271870",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "76356241",
+  "ol_author_key": "/authors/OL5604935A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Ralph Waldo Emerson Award",
+      "year": 1987
+    }
+  ]
 }

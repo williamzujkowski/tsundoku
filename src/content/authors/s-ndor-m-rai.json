@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A1ndor_M%C3%A1rai",
   "open_library_url": "https://openlibrary.org/authors/OL2659564A",
   "birth_year": 1900,
-  "death_year": 1989
+  "death_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q36951",
+  "nationality": [
+    "HU"
+  ],
+  "viaf_id": "17266902",
+  "ol_author_key": "/authors/OL5255907A",
+  "awards": [
+    {
+      "name": "Kossuth Prize",
+      "year": 1990
+    },
+    {
+      "name": "Hungarian Heritage Award",
+      "year": 1996
+    }
+  ]
 }

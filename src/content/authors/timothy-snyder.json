@@ -6,5 +6,81 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Timothy_Snyder%2C_2016_%28cropped%29.jpg/400px-Timothy_Snyder%2C_2016_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Timothy_Snyder",
   "open_library_url": "https://openlibrary.org/authors/OL5442304A",
-  "birth_year": 1969
+  "birth_year": 1969,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q747312",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "120114569",
+  "ol_author_key": "/authors/OL5442304A",
+  "awards": [
+    {
+      "name": "Hannah Arendt Prize",
+      "year": 2013
+    },
+    {
+      "name": "Ralph Waldo Emerson Award",
+      "year": 2011
+    },
+    {
+      "name": "Marshall Scholarship"
+    },
+    {
+      "name": "Antonovych prize"
+    },
+    {
+      "name": "George Louis Beer Prize",
+      "year": 2003
+    },
+    {
+      "name": "Leipzig Book Award for European Understanding",
+      "year": 2012
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2017
+    },
+    {
+      "name": "Prize of the Foundation for Polish Science",
+      "year": 2018
+    },
+    {
+      "name": "Officer's Cross of the Order of Merit of the Republic of Poland"
+    },
+    {
+      "name": "The VIZE 97 Prize",
+      "year": 2015
+    },
+    {
+      "name": "Order of the Cross of Terra Mariana, 3rd Class"
+    },
+    {
+      "name": "Bene Merito"
+    },
+    {
+      "name": "Commander of the Order for Merits to Lithuania",
+      "year": 2023
+    },
+    {
+      "name": "Carnegie Fellow",
+      "year": 2015
+    },
+    {
+      "name": "Medal for Distinguished Contribution to Diplomacy",
+      "year": 2024
+    },
+    {
+      "name": "Cross of Merit of the Ministry of Foreign Affairs of Estonia, 2nd class"
+    },
+    {
+      "name": "Lithuanian Diplomacy Star"
+    }
+  ]
 }

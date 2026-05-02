@@ -6,5 +6,71 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards_finalist_reading_0_%28cropped%29.jpg/400px-Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards_finalist_reading_0_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Carson",
   "open_library_url": "https://openlibrary.org/authors/OL774502A",
-  "birth_year": 1950
+  "birth_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2633699",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "110404294",
+  "ol_author_key": "/authors/OL2673739A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1998
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2000
+    },
+    {
+      "name": "Member of the Order of Canada"
+    },
+    {
+      "name": "PEN Award for Poetry in Translation",
+      "year": 2010
+    },
+    {
+      "name": "Berlin Prize",
+      "year": 2007
+    },
+    {
+      "name": "Princess of Asturias Literary Prize",
+      "year": 2020
+    },
+    {
+      "name": "Lannan Literary Awards",
+      "year": 1996
+    },
+    {
+      "name": "Griffin Poetry Prize",
+      "year": 2001
+    },
+    {
+      "name": "Griffin Poetry Prize",
+      "year": 2014
+    },
+    {
+      "name": "T. S. Eliot Prize",
+      "year": 2001
+    },
+    {
+      "name": "A.-M.-Klein Prize for Poetry",
+      "year": 2001
+    },
+    {
+      "name": "A.-M.-Klein Prize for Poetry",
+      "year": 1998
+    },
+    {
+      "name": "A.-M.-Klein Prize for Poetry",
+      "year": 1996
+    }
+  ]
 }

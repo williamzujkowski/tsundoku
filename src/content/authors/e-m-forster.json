@@ -7,5 +7,47 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/E._M._Forster",
   "open_library_url": "https://openlibrary.org/authors/OL6898863A",
   "birth_year": 1879,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q189119",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "31996364",
+  "ol_author_key": "/authors/OL6898863A",
+  "movements": [
+    "Bloomsbury Group"
+  ],
+  "awards": [
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 1924
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame"
+    },
+    {
+      "name": "Benson Medal",
+      "year": 1937
+    },
+    {
+      "name": "Honorary doctor of Leiden University",
+      "year": 1954
+    },
+    {
+      "name": "Order of the Companions of Honour",
+      "year": 1953
+    },
+    {
+      "name": "Order of Merit",
+      "year": 1969
+    }
+  ]
 }

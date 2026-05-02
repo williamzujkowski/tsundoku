@@ -6,5 +6,18 @@
   "open_library_url": "https://openlibrary.org/authors/OL175679A",
   "death_year": 1057,
   "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Ma%CA%BFarri%20by%20Khalil%20Gibran%20%28cropped%29.png?width=400",
-  "birth_year": 973
+  "birth_year": 973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q277073",
+  "viaf_id": "68941158",
+  "ol_author_key": "/authors/OL175679A",
+  "movements": [
+    "skepticism",
+    "antinatalism"
+  ]
 }

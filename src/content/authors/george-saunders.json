@@ -6,5 +6,52 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/George_Saunders_at_2023_National_Book_Festival_%2853123054136%29_%28cropped%29.jpg/400px-George_Saunders_at_2023_National_Book_Festival_%2853123054136%29_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Saunders",
   "open_library_url": "https://openlibrary.org/authors/OL537475A",
-  "birth_year": 1958
+  "birth_year": 1958,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1251926",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "49395618",
+  "ol_author_key": "/authors/OL537475A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2006
+    },
+    {
+      "name": "The Writers' Prize",
+      "year": 2014
+    },
+    {
+      "name": "PEN/Malamud Award",
+      "year": 2013
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2006
+    },
+    {
+      "name": "National Magazine Award",
+      "year": 1994
+    },
+    {
+      "name": "Booker Prize",
+      "year": 2017
+    },
+    {
+      "name": "Library of Congress Prize for American Fiction",
+      "year": 2023
+    },
+    {
+      "name": "World Fantasy Award for Best Short Fiction",
+      "year": 2006
+    }
+  ]
 }

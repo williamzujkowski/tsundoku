@@ -6,5 +6,58 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Peter_Singer_2017_%28cropped%29.jpg/400px-Peter_Singer_2017_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Singer",
   "open_library_url": "https://openlibrary.org/authors/OL82721A",
-  "birth_year": 1946
+  "birth_year": 1946,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q211539",
+  "nationality": [
+    "AU"
+  ],
+  "viaf_id": "108385086",
+  "ol_author_key": "/authors/OL218145A",
+  "movements": [
+    "Western philosophy",
+    "utilitarianism",
+    "animal rights movement",
+    "effective altruism"
+  ],
+  "awards": [
+    {
+      "name": "Ethics Prize of the Giordano Bruno Stiftung"
+    },
+    {
+      "name": "Emperor Has No Clothes Award",
+      "year": 2004
+    },
+    {
+      "name": "Order of Australia",
+      "year": 2012
+    },
+    {
+      "name": "Companion of the Order of Australia",
+      "year": 2012
+    },
+    {
+      "name": "BBVA Foundation Frontiers of Knowledge Award",
+      "year": 2022
+    },
+    {
+      "name": "Banjo Awards",
+      "year": 1995
+    },
+    {
+      "name": "Fellow of the Australian Academy of the Humanities",
+      "year": 1981
+    },
+    {
+      "name": "Banjo Award for Non-Fiction",
+      "year": 1995
+    }
+  ]
 }

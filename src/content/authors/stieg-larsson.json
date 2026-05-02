@@ -7,5 +7,51 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stieg_Larsson",
   "open_library_url": "https://openlibrary.org/authors/OL1414302A",
   "birth_year": 1954,
-  "death_year": 2004
+  "death_year": 2004,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q186317",
+  "nationality": [
+    "SE"
+  ],
+  "viaf_id": "54441441",
+  "ol_author_key": "/authors/OL1414302A",
+  "awards": [
+    {
+      "name": "Glass Key award",
+      "year": 2008
+    },
+    {
+      "name": "Swedish Crime Writers' Academy"
+    },
+    {
+      "name": "Macavity Awards",
+      "year": 2009
+    },
+    {
+      "name": "Barry Award for Best British Crime Novel",
+      "year": 2009
+    },
+    {
+      "name": "honorary citizen of Umeå",
+      "year": 2012
+    },
+    {
+      "name": "Author of the Year",
+      "year": 2007
+    },
+    {
+      "name": "Anthony Award for Best First Novel",
+      "year": 2009
+    },
+    {
+      "name": "Best Swedish Crime Novel Award",
+      "year": 2006
+    }
+  ]
 }

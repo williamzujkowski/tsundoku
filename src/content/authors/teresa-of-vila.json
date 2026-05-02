@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila",
   "open_library_url": "https://openlibrary.org/authors/OL2250A",
   "birth_year": 1515,
-  "death_year": 1582
+  "death_year": 1582,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q174880",
+  "nationality": [
+    "ES"
+  ],
+  "viaf_id": "95217173",
+  "ol_author_key": "/authors/OL2250A"
 }

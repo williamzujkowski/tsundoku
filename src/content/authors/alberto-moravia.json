@@ -7,5 +7,41 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alberto_Moravia",
   "open_library_url": "https://openlibrary.org/authors/OL20919A",
   "birth_year": 1907,
-  "death_year": 1990
+  "death_year": 1990,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q161933",
+  "nationality": [
+    "IT"
+  ],
+  "alternate_names": [
+    "Alberto Moravia",
+    "Pseudo"
+  ],
+  "viaf_id": "7394594",
+  "ol_author_key": "/authors/OL20919A",
+  "awards": [
+    {
+      "name": "Marzotto Prize",
+      "year": 1954
+    },
+    {
+      "name": "Strega Prize",
+      "year": 1952
+    },
+    {
+      "name": "Viareggio Prize",
+      "year": 1961
+    },
+    {
+      "name": "Viareggio-Versilia International Prize",
+      "year": 1983
+    }
+  ]
 }

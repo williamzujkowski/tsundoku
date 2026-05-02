@@ -6,5 +6,38 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ocean_vuong_8045064_%2848458986647%29_%28cropped%29.jpg/400px-Ocean_vuong_8045064_%2848458986647%29_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Vuong",
   "open_library_url": "https://openlibrary.org/authors/OL7607606A",
-  "birth_year": 1988
+  "birth_year": 1988,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q18355929",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "17145003693061340818",
+  "ol_author_key": "/authors/OL7607606A",
+  "awards": [
+    {
+      "name": "Whiting Awards",
+      "year": 2016
+    },
+    {
+      "name": "Kundiman Fellowship"
+    },
+    {
+      "name": "T. S. Eliot Prize"
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2019
+    },
+    {
+      "name": "Chad Walsh Poetry Prize",
+      "year": 2013
+    }
+  ]
 }

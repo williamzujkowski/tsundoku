@@ -6,5 +6,48 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Carolyn_Janice_Cherry.jpg/400px-Carolyn_Janice_Cherry.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/C._J._Cherryh",
   "open_library_url": "https://openlibrary.org/authors/OL2644750A",
-  "birth_year": 1942
+  "birth_year": 1942,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234030",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "C. J. Cherryh"
+  ],
+  "viaf_id": "14788686",
+  "ol_author_key": "/authors/OL2644750A",
+  "awards": [
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2016
+    },
+    {
+      "name": "Astounding Award for Best New Writer",
+      "year": 1977
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1982
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1989
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1979
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1989
+    }
+  ]
 }

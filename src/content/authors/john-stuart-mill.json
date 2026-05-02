@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
   "open_library_url": "https://openlibrary.org/authors/OL108289A",
   "birth_year": 1806,
-  "death_year": 1873
+  "death_year": 1873,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q50020",
+  "viaf_id": "100189299",
+  "ol_author_key": "/authors/OL108289A",
+  "movements": [
+    "atheism",
+    "egalitarianism",
+    "utilitarianism",
+    "liberalism"
+  ],
+  "awards": [
+    {
+      "name": "honorary doctor of the University of Vienna"
+    },
+    {
+      "name": "Honorary Fellow of the Royal Society of Edinburgh"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    }
+  ]
 }

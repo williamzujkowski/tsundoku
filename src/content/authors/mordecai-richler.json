@@ -7,5 +7,57 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mordecai_Richler",
   "open_library_url": "https://openlibrary.org/authors/OL52840A",
   "birth_year": 1931,
-  "death_year": 2001
+  "death_year": 2001,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q452282",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "97277621",
+  "ol_author_key": "/authors/OL52840A",
+  "awards": [
+    {
+      "name": "Governor General's Literary Awards"
+    },
+    {
+      "name": "Companion of the Order of Canada",
+      "year": 2001
+    },
+    {
+      "name": "Canada's Walk of Fame",
+      "year": 2011
+    },
+    {
+      "name": "Giller Prize",
+      "year": 1997
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1971
+    },
+    {
+      "name": "honorary doctorate from the McGill University"
+    },
+    {
+      "name": "Canadian Library Association Book of the Year for Children Award",
+      "year": 1976
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Stephen Leacock Memorial Medal for Humour",
+      "year": 1998
+    },
+    {
+      "name": "Governor General's Award for English-language non-fiction",
+      "year": 1968
+    }
+  ]
 }

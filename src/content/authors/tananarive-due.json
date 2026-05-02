@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2023_National_Book_Festival_%2853122448927%29_%28cropped%29.jpg/400px-2023_National_Book_Festival_%2853122448927%29_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tananarive_Due",
   "open_library_url": "https://openlibrary.org/authors/OL383522A",
-  "birth_year": 1966
+  "birth_year": 1966,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7682284",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "59266210",
+  "ol_author_key": "/authors/OL383522A",
+  "awards": [
+    {
+      "name": "American Book Awards",
+      "year": 2002
+    },
+    {
+      "name": "Ignyte Award for Best in Creative Nonfiction",
+      "year": 2020
+    },
+    {
+      "name": "Bram Stoker Award for Novel",
+      "year": 2023
+    },
+    {
+      "name": "British Fantasy Award for Best Collection",
+      "year": 2016
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2024
+    },
+    {
+      "name": "World Fantasy Award for Best Short Fiction",
+      "year": 2023
+    }
+  ]
 }

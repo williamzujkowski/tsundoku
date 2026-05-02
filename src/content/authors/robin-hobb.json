@@ -6,5 +6,41 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Robin_Hobb_by_Gage_Skidmore.jpg/400px-Robin_Hobb_by_Gage_Skidmore.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Hobb",
   "open_library_url": "https://openlibrary.org/authors/OL395837A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234403",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Megan Lindholm",
+    "Robin Hobb"
+  ],
+  "viaf_id": "120736798",
+  "ol_author_key": "/authors/OL395837A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 2017
+    },
+    {
+      "name": "Geffen Award",
+      "year": 2019
+    },
+    {
+      "name": "World Fantasy Award for Life Achievement",
+      "year": 2021
+    },
+    {
+      "name": "Imaginales award for best foreign-language novel",
+      "year": 2007
+    }
+  ]
 }

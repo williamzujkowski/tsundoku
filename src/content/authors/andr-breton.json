@@ -7,5 +7,25 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Breton",
   "open_library_url": "https://openlibrary.org/authors/OL4279975A",
   "birth_year": 1896,
-  "death_year": 1966
+  "death_year": 1966,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q161955",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Breton, André"
+  ],
+  "viaf_id": "49222341",
+  "ol_author_key": "/authors/OL4279975A",
+  "movements": [
+    "surrealism"
+  ]
 }

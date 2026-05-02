@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jane_Austen",
   "open_library_url": "https://openlibrary.org/authors/OL21594A",
   "birth_year": 1775,
-  "death_year": 1817
+  "death_year": 1817,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q36322",
+  "viaf_id": "102333412",
+  "ol_author_key": "/authors/OL21594A",
+  "movements": [
+    "literary realism"
+  ]
 }

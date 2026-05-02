@@ -6,5 +6,32 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL1422767A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carol_Berg",
   "open_library_url": "https://openlibrary.org/authors/OL1422767A",
-  "birth_year": 1948
+  "birth_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2903751",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "166234466",
+  "ol_author_key": "/authors/OL1422767A",
+  "awards": [
+    {
+      "name": "Geffen Award",
+      "year": 2005
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2009
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2009
+    }
+  ]
 }

@@ -5,5 +5,45 @@
   "open_library_url": "https://openlibrary.org/authors/OL227817A",
   "birth_year": 1944,
   "bio": "British politician and colonial administrator (born 1944)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Patten%20-2008-10-31-.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Patten%20-2008-10-31-.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q23368",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "74012730",
+  "ol_author_key": "/authors/OL227817A",
+  "awards": [
+    {
+      "name": "Robert Schuman Medal",
+      "year": 2004
+    },
+    {
+      "name": "Honorary doctor of the University of Szczecin"
+    },
+    {
+      "name": "Order of the Cross of Terra Mariana, 1st Class"
+    },
+    {
+      "name": "Grand Officer of the Order of the Star of Romania"
+    },
+    {
+      "name": "Commander of the Legion of Honour",
+      "year": 2016
+    },
+    {
+      "name": "Knight of the Garter",
+      "year": 2023
+    },
+    {
+      "name": "honorary doctorate from University of Grenoble-II",
+      "year": 2011
+    }
+  ]
 }

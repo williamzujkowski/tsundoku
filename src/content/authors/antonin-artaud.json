@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Antonin_Artaud",
   "open_library_url": "https://openlibrary.org/authors/OL66569A",
   "birth_year": 1896,
-  "death_year": 1948
+  "death_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q187166",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "71386527",
+  "ol_author_key": "/authors/OL66569A",
+  "awards": [
+    {
+      "name": "Prix Sainte-Beuve",
+      "year": 1947
+    }
+  ]
 }

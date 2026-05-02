@@ -7,5 +7,93 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Saramago",
   "open_library_url": "https://openlibrary.org/authors/OL3112635A",
   "birth_year": 1922,
-  "death_year": 2010
+  "death_year": 2010,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q37060",
+  "nationality": [
+    "PT"
+  ],
+  "viaf_id": "114473675",
+  "ol_author_key": "/authors/OL3112635A",
+  "movements": [
+    "magic realism"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1998
+    },
+    {
+      "name": "Camões Prize",
+      "year": 1995
+    },
+    {
+      "name": "America Award in Literature",
+      "year": 2004
+    },
+    {
+      "name": "Grand Collar of the Military Order of Saint James of the Sword",
+      "year": 1998
+    },
+    {
+      "name": "honorary doctor of the University of Manchester"
+    },
+    {
+      "name": "honorary doctorate of the University of Coimbra"
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres"
+    },
+    {
+      "name": "honorary doctorate of the University of Castille-La Mancha",
+      "year": 1997
+    },
+    {
+      "name": "honorary doctorate of the Bordeaux Montaigne University",
+      "year": 1999
+    },
+    {
+      "name": "honorary doctorate of the University of Granada",
+      "year": 2001
+    },
+    {
+      "name": "honorary doctorate of the University of Las Palmas, Gran Canaria",
+      "year": 1999
+    },
+    {
+      "name": "Commander of the Military Order of Saint James of the Sword"
+    },
+    {
+      "name": "honorary doctor of the University of Brasília"
+    },
+    {
+      "name": "honorary doctorate of Seville University",
+      "year": 1991
+    },
+    {
+      "name": "honorary doctor of the University of Turin"
+    },
+    {
+      "name": "honorary doctorate of the Polytechnic University of Valencia",
+      "year": 1999
+    },
+    {
+      "name": "honorary doctor of the University of Santiago, Chile"
+    },
+    {
+      "name": "honorary doctorate of the University of Salamanca",
+      "year": 2000
+    },
+    {
+      "name": "Grand Collar of the Order of Camões",
+      "year": 2021
+    }
+  ]
 }

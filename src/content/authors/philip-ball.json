@@ -5,5 +5,35 @@
   "bio": "Philip Ball is a British science writer. For over twenty years he has been an editor of the journal Nature, for which he continues to write regularly.",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Ball",
   "open_library_url": "https://openlibrary.org/authors/OL7459596A",
-  "birth_year": 1962
+  "birth_year": 1962,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q908187",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "85860663",
+  "ol_author_key": "/authors/OL7459596A",
+  "awards": [
+    {
+      "name": "Royal Society Science Books Prize",
+      "year": 2005
+    },
+    {
+      "name": "James T. Grady-James H. Stack Award for Interpreting Chemistry",
+      "year": 2006
+    },
+    {
+      "name": "Kelvin Prize",
+      "year": 2019
+    },
+    {
+      "name": "Wilkins-Bernal-Medawar Lecture"
+    }
+  ]
 }

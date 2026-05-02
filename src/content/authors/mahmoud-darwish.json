@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mahmoud_Darwish",
   "open_library_url": "https://openlibrary.org/authors/OL2758657A",
   "birth_year": 1941,
-  "death_year": 2008
+  "death_year": 2008,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q207720",
+  "viaf_id": "113381455",
+  "ol_author_key": "/authors/OL2758657A",
+  "awards": [
+    {
+      "name": "Prince Claus Award",
+      "year": 2004
+    },
+    {
+      "name": "Lenin Peace Prize",
+      "year": 1983
+    },
+    {
+      "name": "Lannan Cultural Freedom Prize",
+      "year": 2001
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres",
+      "year": 1997
+    },
+    {
+      "name": "Golden Wreath",
+      "year": 2007
+    },
+    {
+      "name": "Lotus Prize for Literature",
+      "year": 1969
+    },
+    {
+      "name": "International Nazim Hikmet Poetry Award"
+    }
+  ]
 }

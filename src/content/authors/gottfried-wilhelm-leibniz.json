@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
   "open_library_url": "https://openlibrary.org/authors/OL116444A",
   "birth_year": 1646,
-  "death_year": 1716
+  "death_year": 1716,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9047",
+  "viaf_id": "9849392",
+  "ol_author_key": "/authors/OL116444A",
+  "movements": [
+    "rationalism"
+  ],
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1673
+    }
+  ]
 }

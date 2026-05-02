@@ -6,5 +6,62 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mary_Beard_UC3M_2017_%28cropped%29.JPG/400px-Mary_Beard_UC3M_2017_%28cropped%29.JPG",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Beard",
   "open_library_url": "https://openlibrary.org/authors/OL39017A",
-  "birth_year": 1955
+  "birth_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q458403",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "85237799",
+  "ol_author_key": "/authors/OL39017A",
+  "awards": [
+    {
+      "name": "Officer of the Order of the British Empire"
+    },
+    {
+      "name": "Bodley Medal",
+      "year": 2016
+    },
+    {
+      "name": "Princess of Asturias Awards",
+      "year": 2016
+    },
+    {
+      "name": "Wolfson History Prize",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the Society of Antiquaries"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "honorary doctor of the Open University of Catalonia"
+    },
+    {
+      "name": "Dame Commander of the Order of the British Empire"
+    },
+    {
+      "name": "Medlicott Medal",
+      "year": 2017
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2017
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2019
+    }
+  ]
 }
