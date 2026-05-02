@@ -4,7 +4,9 @@
   "category": "Classics",
   "priority": 1,
   "slug": "seven-against-thebes",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/313089-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/313089-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL856900W",
@@ -84,6 +86,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 2,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL54558284M"
 }

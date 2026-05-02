@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "selected-poems-4",
-  "tags": [],
+  "tags": [
+    "children"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/1286325-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1286325-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL100033W",
@@ -36,6 +38,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7509058M"
 }

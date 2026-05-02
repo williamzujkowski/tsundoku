@@ -4,7 +4,9 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems-3",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/97635-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/97635-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL157080W",
@@ -40,6 +42,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL28445806M"
 }

@@ -4,7 +4,9 @@
   "category": "Drama",
   "priority": 1,
   "slug": "richard-ii",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9069548-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9069548-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362665W",
@@ -219,6 +221,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL55461186M"
 }

@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "the-temple",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5566436-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5566436-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15342308W",
@@ -54,6 +56,5 @@
   },
   "editions_count": 45,
   "first_published_circa": false,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL6777796M"
 }
