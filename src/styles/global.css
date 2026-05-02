@@ -942,6 +942,31 @@ a:hover { color: var(--pop-pink); }
   border-style: dashed;
 }
 
+/* Library card pocket — reading-status affordance on book detail.
+   Sits inside the metadata card. Dashed bottom edge mimics the corner
+   of a library card pocket; monospace label reads as a date stamp. */
+.library-pocket {
+  margin-top: 1rem;
+  padding: 0.625rem 0.875rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-bottom: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  max-width: 18rem;
+}
+.library-pocket-label {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+.library-pocket-status {
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
 /* Series sequential navigation — appears between book detail header
    and the LCC virtual-shelf section. Three-up: previous, series link,
    next. Disabled state rendered for endpoints. */

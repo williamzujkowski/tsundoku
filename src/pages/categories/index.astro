@@ -40,7 +40,11 @@ const base = import.meta.env.BASE_URL;
 
   <hr class="section-divider" />
   <h2 class="heading-md mb-4">Other ways to browse</h2>
-  <div class="grid sm-grid-2 md-grid-4 gap-3">
+  <div class="grid sm-grid-2 md-grid-3 gap-3">
+    <a href={`${base}stacks/`} class="card card-padded">
+      <h3 class="font-bold mb-1">The Stacks (DDC)</h3>
+      <p class="text-sm text-dim">Browse by Dewey Decimal main class — 000 to 900. Library-style.</p>
+    </a>
     <a href={`${base}series/`} class="card card-padded">
       <h3 class="font-bold mb-1">Series</h3>
       <p class="text-sm text-dim">Discworld, Wheel of Time, Hercule Poirot, and other multi-book runs.</p>

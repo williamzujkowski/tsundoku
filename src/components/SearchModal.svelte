@@ -238,22 +238,26 @@
   }
 
   /* --- Modal --- */
+  /* Index-card drawer styling per #129 sub-epic B. The modal reads as a
+     library catalog drawer being pulled out — bg-elevated for the card
+     stock, a thin top rim line that separates the input field from the
+     drawer interior, and a subtle bottom drawer-pull shadow. */
   .modal {
-    max-width: 32rem;
-    margin: 15vh auto 0;
-    background: var(--bg-surface);
+    max-width: 36rem;
+    margin: 12vh auto 0;
+    background: var(--bg-elevated);
     border: var(--border-width) solid var(--border);
-    box-shadow: 8px 8px 0 var(--shadow-color);
+    box-shadow: var(--shadow-3);
     overflow: hidden;
   }
 
-  /* --- Search bar inside modal --- */
   .modal-search-bar {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 0 1rem;
-    border-bottom: var(--border-width) solid var(--border);
+    padding: 0.25rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-surface);
   }
 
   .modal-search-icon {
@@ -315,7 +319,9 @@
     color: var(--text-dim);
   }
 
-  /* --- Individual result --- */
+  /* --- Individual result — index-card row.  Each row reads as a card
+         in a drawer: thin bottom divider, monospace type tag aligned
+         right like a library category sticker. --- */
   .result-item {
     display: flex;
     align-items: center;
@@ -324,8 +330,11 @@
     text-decoration: none;
     color: var(--text);
     border-left: 3px solid transparent;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-surface);
     transition: border-color 80ms ease, background 80ms ease;
   }
+  .result-item:last-child { border-bottom: none; }
 
   .result-item:hover,
   .result-item.result-active {
@@ -377,10 +386,15 @@
   }
 
   .result-type {
+    font-family: var(--font-mono);
     font-size: 0.625rem;
     color: var(--text-dim);
     text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid var(--border);
+    padding: 0.125rem 0.375rem;
     flex-shrink: 0;
+    align-self: center;
   }
 
   /* --- Modal footer --- */

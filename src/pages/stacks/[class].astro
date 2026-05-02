@@ -1,0 +1,157 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
+
+const DDC_LABELS: Record<string, string> = {
+  '000': 'General works', '100': 'Philosophy & psychology', '200': 'Religion',
+  '300': 'Social sciences', '400': 'Language', '500': 'Pure science',
+  '600': 'Technology & applied sciences', '700': 'Arts & recreation',
+  '800': 'Literature', '900': 'History & geography',
+};
+
+// Second-tier (division) labels — drilled down where useful. Not all
+// numbers populated for every catalog; we only render dividers when
+// there are books behind them.
+const DDC_DIVISION_LABELS: Record<string, string> = {
+  '000': 'General works', '010': 'Bibliography', '020': 'Library science', '030': 'Encyclopedias',
+  '040': 'Magazines & journals', '050': 'General periodicals', '060': 'Associations & museums',
+  '070': 'News media & journalism', '080': 'Quotations', '090': 'Manuscripts & rare books',
+  '100': 'Philosophy', '110': 'Metaphysics', '120': 'Epistemology & causation',
+  '130': 'Parapsychology & occultism', '140': 'Specific philosophical schools',
+  '150': 'Psychology', '160': 'Logic', '170': 'Ethics', '180': 'Ancient philosophy',
+  '190': 'Modern Western philosophy',
+  '200': 'Religion', '210': 'Philosophy of religion', '220': 'Bible',
+  '230': 'Christianity', '240': 'Christian practical theology', '250': 'Christian orders',
+  '260': 'Social & ecclesiastical theology', '270': 'History of Christianity',
+  '280': 'Christian denominations', '290': 'Other religions',
+  '300': 'Social sciences', '310': 'Statistics', '320': 'Political science',
+  '330': 'Economics', '340': 'Law', '350': 'Public administration',
+  '360': 'Social problems & services', '370': 'Education', '380': 'Commerce',
+  '390': 'Customs & folklore',
+  '400': 'Language', '410': 'Linguistics', '420': 'English & Old English',
+  '430': 'German & related', '440': 'French & related', '450': 'Italian & related',
+  '460': 'Spanish & Portuguese', '470': 'Latin', '480': 'Greek', '490': 'Other languages',
+  '500': 'Science', '510': 'Mathematics', '520': 'Astronomy', '530': 'Physics',
+  '540': 'Chemistry', '550': 'Earth sciences', '560': 'Paleontology',
+  '570': 'Biology', '580': 'Plants', '590': 'Zoology',
+  '600': 'Technology', '610': 'Medicine', '620': 'Engineering', '630': 'Agriculture',
+  '640': 'Home economics', '650': 'Management', '660': 'Chemical engineering',
+  '670': 'Manufacturing', '680': 'Specific manufactures', '690': 'Buildings',
+  '700': 'Arts', '710': 'Civic & landscape art', '720': 'Architecture',
+  '730': 'Sculpture', '740': 'Drawing & decorative arts', '750': 'Painting',
+  '760': 'Printmaking', '770': 'Photography', '780': 'Music', '790': 'Sports & games',
+  '800': 'Literature', '810': 'American literature', '820': 'English literature',
+  '830': 'German literature', '840': 'French literature', '850': 'Italian literature',
+  '860': 'Spanish & Portuguese literature', '870': 'Latin literature',
+  '880': 'Greek literature', '890': 'Other literatures',
+  '900': 'History & geography', '910': 'Geography & travel', '920': 'Biography',
+  '930': 'Ancient world', '940': 'Europe', '950': 'Asia', '960': 'Africa',
+  '970': 'North America', '980': 'South America', '990': 'Other parts of the world',
+};
+
+function ddcClassOf(ddcs: string[] | undefined): string | null {
+  if (!ddcs || ddcs.length === 0) return null;
+  const first = ddcs[0];
+  for (const ch of first) {
+    if (ch >= '0' && ch <= '9') return ch + '00';
+  }
+  return null;
+}
+
+function ddcDivisionOf(ddc: string): string {
+  // Pull two leading digits (e.g. "813" → "810", "823.912" → "820").
+  const m = ddc.match(/^(\d)(\d)/);
+  if (!m) return '000';
+  return `${m[1]}${m[2]}0`;
+}
+
+export async function getStaticPaths() {
+  const allBooks = await getCollection('books');
+  const groups = new Map<string, typeof allBooks>();
+  for (const b of allBooks) {
+    const ddcs = b.data.ddc;
+    if (!ddcs || ddcs.length === 0) continue;
+    const first = ddcs[0];
+    let cls: string | null = null;
+    for (const ch of first) {
+      if (ch >= '0' && ch <= '9') { cls = ch + '00'; break; }
+    }
+    if (!cls) continue;
+    if (!groups.has(cls)) groups.set(cls, []);
+    groups.get(cls)!.push(b);
+  }
+  return [...groups.entries()].map(([cls, list]) => ({
+    params: { class: cls },
+    props: { books: list.map(b => b.data) },
+  }));
+}
+
+const { class: ddcClass } = Astro.params;
+const { books } = Astro.props;
+const className = DDC_LABELS[ddcClass!] ?? ddcClass!;
+
+// Group books within this class by DDC division (tens digit).
+const divisionGroups = new Map<string, typeof books>();
+for (const b of books) {
+  const div = ddcDivisionOf(b.ddc![0]);
+  if (!divisionGroups.has(div)) divisionGroups.set(div, []);
+  divisionGroups.get(div)!.push(b);
+}
+const divisions = [...divisionGroups.entries()]
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([code, list]) => ({
+    code,
+    name: DDC_DIVISION_LABELS[code] ?? code,
+    books: list.sort((a, b) => (a.author || '').localeCompare(b.author || '') || a.title.localeCompare(b.title)),
+  }));
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={`${className} — ${ddcClass}`} description={`${books.length} books in DDC class ${ddcClass} (${className})`}>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}stacks/`}>The Stacks</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{ddcClass} · {className}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2"><span class="text-mono text-muted">{ddcClass}</span> {className}</h1>
+  <p class="text-muted text-sm mb-8">{books.length} {books.length === 1 ? 'book' : 'books'} in this stack, divided by Dewey ten-class.</p>
+
+  {divisions.map(div => (
+    <section class="mb-8">
+      <h2 class="heading-md mb-2">
+        <span class="text-mono text-dim">{div.code}</span> {div.name}
+        <span class="text-dim text-sm ml-2">· {div.books.length}</span>
+      </h2>
+      <div class="grid sm-grid-2 md-grid-3 gap-3">
+        {div.books.slice(0, 30).map(b => (
+          <a href={`${base}books/${b.slug}/`} class="card related-book">
+            {b.cover_url ? (
+              <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+            ) : (
+              <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+            )}
+            <div class="book-card-body">
+              {b.ddc && b.ddc[0] && (
+                <span class="text-xs text-dim text-mono">{b.ddc[0]}</span>
+              )}
+              <h3 class="text-sm font-bold line-clamp-2 mb-1">{b.title}</h3>
+              <p class="text-xs text-dim line-clamp-1">{b.author}</p>
+              {b.first_published && (
+                <p class="text-xs text-dim">{formatYear(b.first_published, b.first_published_circa)}</p>
+              )}
+              <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+      {div.books.length > 30 && (
+        <p class="text-dim text-sm mt-2">+ {div.books.length - 30} more in {div.name}.</p>
+      )}
+    </section>
+  ))}
+</Layout>
