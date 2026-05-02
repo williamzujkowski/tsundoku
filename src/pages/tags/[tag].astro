@@ -1,0 +1,89 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { priorityLabel, priorityBadgeClass, toSlug, pluralize, thumbnailUrl } from '../../utils/formatting';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  // tag-name → { display: original tag string, books: [...] }
+  const tagMap = new Map<string, { name: string; books: typeof books }>();
+  for (const book of books) {
+    for (const tag of (book.data.tags ?? [])) {
+      const slug = toSlug(tag);
+      if (!tagMap.has(slug)) tagMap.set(slug, { name: tag, books: [] });
+      tagMap.get(slug)!.books.push(book);
+    }
+  }
+  const TOP = 60;
+  return [...tagMap.entries()].map(([slug, { name, books: tagged }]) => {
+    const sorted = tagged.sort(
+      (a, b) => a.data.priority - b.data.priority || a.data.title.localeCompare(b.data.title)
+    );
+    return {
+      params: { tag: slug },
+      props: {
+        tagName: name,
+        topBooks: sorted.slice(0, TOP),
+        totalCount: sorted.length,
+        topLimit: TOP,
+      },
+    };
+  });
+}
+
+const { tagName, topBooks, totalCount, topLimit } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const hasOverflow = totalCount > topLimit;
+---
+
+<Layout title={`${tagName} — Tagged`} description={`${totalCount} ${tagName} books in the tsundoku collection`}>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}tags/`}>Tags</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{tagName}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">#{tagName}</h1>
+  <p class="text-muted text-sm mb-8">
+    {totalCount.toLocaleString()} {pluralize(totalCount, 'book')} tagged <strong>{tagName}</strong>
+    {hasOverflow && (<> · showing top {topLimit}</>)}
+  </p>
+
+  <div class="grid sm-grid-2 lg-grid-4 gap-3">
+    {topBooks.map(book => (
+      <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
+        {book.data.cover_url ? (
+          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
+        ) : (
+          <div class="book-thumb-placeholder" aria-hidden="true">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+          </div>
+        )}
+        <div class="book-card-body">
+          <div class="flex items-center justify-between gap-1 mb-2">
+            <span class={priorityBadgeClass(book.data.priority)}>
+              {priorityLabel(book.data.priority)}
+            </span>
+            {book.data.first_published && (
+              <span class="text-xs text-dim">{book.data.first_published}</span>
+            )}
+          </div>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
+          <p class="text-xs text-dim truncate">{book.data.author}</p>
+          <p class="text-xs text-dim truncate mt-1">{book.data.category}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  {hasOverflow && (
+    <div class="mt-2 text-center text-sm text-muted">
+      Showing top {topLimit} of {totalCount.toLocaleString()}. To see all,
+      use the genre filter on the <a href={`${base}browse/`} class="ext-link">browse page</a>.
+    </div>
+  )}
+</Layout>

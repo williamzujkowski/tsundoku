@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug, pluralize } from '../../utils/formatting';
+
+const books = await getCollection('books');
+const base = import.meta.env.BASE_URL;
+
+// Tags that are list-source markers, not topical genres — show separately.
+const META_TAGS = new Set([
+  'google-play-library',
+  'le-monde-100',
+  'npr-top-100-sff',
+  'r-philosophy',
+]);
+
+const tagCounts = new Map<string, number>();
+for (const book of books) {
+  for (const t of (book.data.tags ?? [])) {
+    tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+  }
+}
+
+const allTags = [...tagCounts.entries()]
+  .map(([tag, count]) => ({ tag, count, slug: toSlug(tag), isMeta: META_TAGS.has(tag) }))
+  .sort((a, b) => b.count - a.count);
+
+const genreTags = allTags.filter(t => !t.isMeta);
+const listTags = allTags.filter(t => t.isMeta);
+---
+
+<Layout title="Tags" description={`Browse books by ${genreTags.length} genre tags — sci-fi, fantasy, mystery, etc.`}>
+  <h1 class="heading-xl mb-2">Tags</h1>
+  <p class="text-muted text-sm mb-6">
+    {genreTags.length} genre tags — books often live across multiple genres,
+    so this is the cross-cutting view that the categories don't capture.
+  </p>
+
+  <!-- Genre tag tiles -->
+  <nav aria-label="Browse by genre tag" class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-2 mb-8">
+    {genreTags.map(({ tag, count, slug }) => (
+      <a href={`${base}tags/${slug}/`} class="cat-tile">
+        <span>{tag}</span>
+        <span class="cat-tile-count">{count} {pluralize(count, 'book')}</span>
+      </a>
+    ))}
+  </nav>
+
+  {listTags.length > 0 && (
+    <>
+      <hr class="section-divider" />
+      <h2 class="heading-md mb-4">From specific lists</h2>
+      <p class="text-muted text-sm mb-6">
+        Tags marking books that came in via a particular reading list.
+      </p>
+      <nav aria-label="Browse by list source" class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-2">
+        {listTags.map(({ tag, count, slug }) => (
+          <a href={`${base}tags/${slug}/`} class="cat-tile">
+            <span>{tag}</span>
+            <span class="cat-tile-count">{count} {pluralize(count, 'book')}</span>
+          </a>
+        ))}
+      </nav>
+    </>
+  )}
+</Layout>
