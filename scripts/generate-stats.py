@@ -40,7 +40,6 @@ def generate_stats() -> dict:
     has_isbn = sum(1 for b in books if b.get("isbn"))
     has_pages = sum(1 for b in books if b.get("pages"))
     has_year = sum(1 for b in books if b.get("first_published"))
-    has_subjects = sum(1 for b in books if b.get("subjects"))
     has_subject_facet = sum(1 for b in books if b.get("subject_facet"))
     has_ddc = sum(1 for b in books if b.get("ddc"))
     has_lcc = sum(1 for b in books if b.get("lcc"))
@@ -150,7 +149,6 @@ def generate_stats() -> dict:
             "pages": has_pages,
             "pages_pct": round(100 * has_pages / total, 1),
             "years": has_year,
-            "subjects": has_subjects,
             "subject_facet": has_subject_facet,
             "ddc": has_ddc,
             "lcc": has_lcc,

@@ -84,7 +84,7 @@ def extract_google_metadata(vol: dict) -> dict:
     # Categories as subjects
     cats = vol.get("categories", [])
     if cats:
-        result["subjects"] = cats[:5]
+        result["subject_facet"] = cats[:5]
 
     # Language
     lang = vol.get("language")
@@ -151,7 +151,7 @@ def extract_metadata(doc: dict) -> dict:
     # Subjects
     subjects = doc.get("subject", [])
     if subjects:
-        result["subjects"] = subjects[:5]  # Keep top 5
+        result["subject_facet"] = subjects[:5]  # Keep top 5
 
     # Number of pages (from first edition)
     pages = doc.get("number_of_pages_median")

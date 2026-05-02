@@ -31,7 +31,7 @@ RATE_LIMIT = 1.0  # Be conservative across all sources
 # Fields we can fill and their priority sources
 FILLABLE_FIELDS = {
     "description": ["google_books", "open_library"],
-    "subjects": ["open_library", "google_books"],
+    "subject_facet": ["open_library", "google_books"],
     "pages": ["open_library", "google_books"],
     "isbn": ["open_library", "google_books"],
     "cover_url": ["open_library"],
@@ -68,7 +68,7 @@ def query_open_library(title: str, author: str) -> dict:
             subjects = doc.get("subject", [])
             if subjects:
                 # Take top 10 subjects, clean up
-                result["subjects"] = [s for s in subjects[:10] if len(s) < 100]
+                result["subject_facet"] = [s for s in subjects[:10] if len(s) < 100]
 
             pages = doc.get("number_of_pages_median")
             if pages and pages > 0:
@@ -123,7 +123,7 @@ def query_google_books(title: str, author: str, isbn: str | None = None) -> dict
 
             categories = info.get("categories", [])
             if categories:
-                result["subjects"] = categories
+                result["subject_facet"] = categories
 
             identifiers = info.get("industryIdentifiers", [])
             for ident in identifiers:
@@ -165,11 +165,11 @@ def fill_gaps(book: dict, gaps: list[str]) -> dict:
             # Check if this source has the field
             data = source_cache.get(source, {})
             if field in data:
-                if field == "subjects":
-                    # Merge subjects from multiple sources rather than replacing
-                    existing = set(book.get("subjects") or [])
-                    new_subjects = set(data[field])
-                    merged = sorted(existing | new_subjects)
+                if field == "subject_facet":
+                    # Merge from multiple sources rather than replacing
+                    existing = set(book.get("subject_facet") or [])
+                    new_facets = set(data[field])
+                    merged = sorted(existing | new_facets)
                     if merged != sorted(existing):
                         filled[field] = merged
                 else:

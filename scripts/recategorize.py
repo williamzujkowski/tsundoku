@@ -210,7 +210,7 @@ def proposed_category(book: dict, existing: set[str]) -> str | None:
     """
     current = book.get("category", "")
     tags = set(book.get("tags") or [])
-    subjects = [s.lower() for s in (book.get("subjects") or [])]
+    subjects = [s.lower() for s in (book.get("subject_facet") or [])]
 
     # Step 1 — collect candidates with confidence scores
     candidates: Counter[str] = Counter()

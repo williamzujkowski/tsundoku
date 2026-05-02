@@ -22,12 +22,12 @@ from enrichment_state import EnrichmentState
 
 SCRIPTS_DIR = Path(__file__).parent
 
-# Source → script mapping (order matters — subjects first since it's fastest)
+# Source → script mapping (order matters — subject_facet first since it's fastest)
 ENRICHMENT_SOURCES = {
     "gap-filler": {
         "script": "enrich-gaps.py",
-        "args": ["--field", "subjects"],
-        "description": "Subjects from Open Library",
+        "args": ["--field", "subject_facet"],
+        "description": "subject_facet from Open Library",
     },
     "gutenberg": {
         "script": "enrich-gutenberg.py",
