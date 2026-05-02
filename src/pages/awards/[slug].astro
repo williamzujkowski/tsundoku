@@ -1,0 +1,72 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug, priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
+
+export async function getStaticPaths() {
+  const MIN_BOOKS = 3;
+  const books = await getCollection('books');
+  const groups = new Map<string, Array<{ book: typeof books[0]; year?: number }>>();
+
+  for (const b of books) {
+    for (const a of b.data.awards ?? []) {
+      if (!a.name) continue;
+      if (!groups.has(a.name)) groups.set(a.name, []);
+      groups.get(a.name)!.push({ book: b, year: a.year });
+    }
+  }
+
+  return [...groups.entries()]
+    .filter(([, list]) => list.length >= MIN_BOOKS)
+    .map(([name, list]) => ({
+      params: { slug: toSlug(name) },
+      props: {
+        awardName: name,
+        entries: list
+          .sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999))
+          .map(({ book, year }) => ({ ...book.data, _awardYear: year })),
+      },
+    }));
+}
+
+const { awardName, entries } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={awardName} description={`${entries.length} books in the collection that received the ${awardName}`}>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}awards/`}>Awards</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{awardName}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">{awardName}</h1>
+  <p class="text-muted text-sm mb-6">{entries.length} books in the collection.</p>
+
+  <div class="grid sm-grid-2 md-grid-3 gap-3">
+    {entries.map(b => (
+      <a href={`${base}books/${b.slug}/`} class="card related-book">
+        {b.cover_url ? (
+          <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+        ) : (
+          <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+        )}
+        <div class="book-card-body">
+          <div class="flex items-center gap-2 mb-1">
+            {b._awardYear && (
+              <span class="text-xs text-mono text-dim">{b._awardYear}</span>
+            )}
+            <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+          </div>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{b.title}</h3>
+          <p class="text-xs text-dim line-clamp-1">{b.author}</p>
+          {b.first_published && (
+            <p class="text-xs text-dim">First published {formatYear(b.first_published, b.first_published_circa)}</p>
+          )}
+        </div>
+      </a>
+    ))}
+  </div>
+</Layout>
