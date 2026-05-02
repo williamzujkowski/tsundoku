@@ -9,6 +9,13 @@ This script applies hand-curated dates from the standard literary
 chronology and tags them with provenance `manual` so subsequent
 enrichers can't re-clobber.
 
+GOTCHA: title-only matching breaks for shared titles. The script's
+ANCIENT_WORKS table needs to either be tightened to (title, author)
+keys before re-running, or the matched results audited by hand. See
+the post-mortem patches for Descartes' Meditations (1641, not 170 —
+Marcus Aurelius shares the title) and Machiavelli's Art of War (1521,
+not -500 — Sun Tzu shares the title).
+
 Usage:
   python scripts/fix-ancient-work-years.py             # dry-run
   python scripts/fix-ancient-work-years.py --apply
