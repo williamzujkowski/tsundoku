@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches, toSlug } from '../../utils/formatting';
 
 // ISO 3166-1 alpha-2 → human-readable nationality. Subset matches what
 // the wikidata enricher emits.
@@ -124,7 +124,7 @@ const nationalityLine = (author.nationality ?? [])
       {author.movements && author.movements.length > 0 && (
         <div class="flex flex-wrap gap-2 mb-3">
           {author.movements.slice(0, 5).map(m => (
-            <span class="meta-tag">{m}</span>
+            <a href={`${base}movements/${toSlug(m)}/`} class="meta-tag">{m}</a>
           ))}
         </div>
       )}
@@ -132,9 +132,9 @@ const nationalityLine = (author.nationality ?? [])
       {author.awards && author.awards.length > 0 && (
         <div class="flex flex-wrap gap-2 mb-3">
           {author.awards.slice(0, 5).map(a => (
-            <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
+            <a href={`${base}awards/${toSlug(a.name)}/`} class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
               {a.name}{a.year ? ` (${a.year})` : ''}
-            </span>
+            </a>
           ))}
         </div>
       )}

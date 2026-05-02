@@ -903,6 +903,43 @@ a:hover { color: var(--pop-pink); }
   border-top: var(--border-width) solid var(--border);
 }
 
+/* Series sequential navigation — appears between book detail header
+   and the LCC virtual-shelf section. Three-up: previous, series link,
+   next. Disabled state rendered for endpoints. */
+.series-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+@media (min-width: 720px) {
+  .series-nav { grid-template-columns: 1fr auto 1fr; gap: 0.75rem; }
+}
+.series-nav-link {
+  display: flex; flex-direction: column; gap: 0.125rem;
+  padding: 0.625rem 0.875rem;
+  border: var(--border-width) solid var(--border);
+  background: var(--bg-surface);
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 120ms ease, color 120ms ease;
+}
+.series-nav-link:hover { border-color: var(--pop-pink); color: var(--text); }
+.series-nav-prev { text-align: left; }
+.series-nav-mid {
+  text-align: center;
+  border-color: var(--pop-blue);
+}
+.series-nav-mid:hover { border-color: var(--pop-pink); }
+.series-nav-next { text-align: right; }
+.series-nav-disabled {
+  pointer-events: none;
+  opacity: 0.55;
+  background: transparent;
+  border-style: dashed;
+}
+.series-nav-label { font-size: 0.7rem; color: var(--text-dim); letter-spacing: 0.02em; text-transform: uppercase; }
+.series-nav-title { font-size: 0.95rem; font-weight: 600; line-height: 1.2; }
+
 /* Book detail page layout */
 .book-detail-layout {
   display: flex; flex-wrap: wrap; gap: 1.5rem;

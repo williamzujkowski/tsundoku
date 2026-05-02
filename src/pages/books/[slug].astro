@@ -62,6 +62,28 @@ function lccDisplay(lcc: string): string {
     .trim();
 }
 
+// Series neighbors — when this book is part of a series with a known
+// position, find the books at position-1 and position+1 in the same
+// series. Most useful for fiction; the architecture-expert ranked
+// "Sequential (Series)" as the highest-priority cross-reference.
+let prevInSeries: { slug: string; title: string; position?: number } | null = null;
+let nextInSeries: { slug: string; title: string; position?: number } | null = null;
+if (book.series?.name && book.series.position) {
+  const sameSeries = allBooks
+    .map(b => b.data)
+    .filter(b => b.series?.name === book.series!.name && b.slug !== book.slug && b.series?.position)
+    .sort((a, b) => (a.series!.position ?? 0) - (b.series!.position ?? 0));
+  for (const b of sameSeries) {
+    const p = b.series!.position!;
+    if (p < book.series.position && (!prevInSeries || p > (prevInSeries.position ?? 0))) {
+      prevInSeries = { slug: b.slug, title: b.title, position: p };
+    }
+    if (p > book.series.position && (!nextInSeries || p < (nextInSeries.position ?? 99999))) {
+      nextInSeries = { slug: b.slug, title: b.title, position: p };
+    }
+  }
+}
+
 const currentLcc = book.lcc?.[0] ?? null;
 let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; lcc: string }> = [];
 if (currentLcc) {
@@ -164,9 +186,9 @@ if (currentLcc) {
             <span class="status-badge stat-badge-blue">Likely Public Domain</span>
           )}
           {book.series && (
-            <span class="status-badge stat-badge-blue">
+            <a class="status-badge stat-badge-blue" href={`${base}series/${toSlug(book.series.name)}/`}>
               {book.series.name}{book.series.position ? ` #${book.series.position}` : ''}
-            </span>
+            </a>
           )}
         </div>
 
@@ -200,9 +222,9 @@ if (currentLcc) {
         {book.awards && book.awards.length > 0 && (
           <div class="flex flex-wrap gap-2 mt-3">
             {book.awards.slice(0, 6).map(a => (
-              <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
+              <a href={`${base}awards/${toSlug(a.name)}/`} class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
                 {a.name}{a.year ? ` (${a.year})` : ''}
-              </span>
+              </a>
             ))}
           </div>
         )}
@@ -317,6 +339,42 @@ if (currentLcc) {
         {book.librivox_url && <a href={book.librivox_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">LibriVox</a>}
       </div>
     </div>
+
+    <!-- Series sequential — prev/next in series. Highest-priority
+         cross-reference per the architecture-expert IA review. -->
+    {(prevInSeries || nextInSeries) && book.series && (
+      <nav class="series-nav mb-8" aria-label={`${book.series.name} — sequential navigation`}>
+        <a href={prevInSeries ? `${base}books/${prevInSeries.slug}/` : undefined}
+           class={`series-nav-link series-nav-prev ${prevInSeries ? '' : 'series-nav-disabled'}`}
+           aria-disabled={!prevInSeries}>
+          {prevInSeries ? (
+            <>
+              <span class="series-nav-label">← Previous in {book.series.name}</span>
+              <span class="series-nav-title">#{prevInSeries.position} · {prevInSeries.title}</span>
+            </>
+          ) : (
+            <span class="series-nav-label text-dim">Start of series</span>
+          )}
+        </a>
+        <a href={`${base}series/${toSlug(book.series.name)}/`}
+           class="series-nav-link series-nav-mid">
+          <span class="text-xs text-dim text-mono">SERIES</span>
+          <span class="series-nav-title">{book.series.name}</span>
+        </a>
+        <a href={nextInSeries ? `${base}books/${nextInSeries.slug}/` : undefined}
+           class={`series-nav-link series-nav-next ${nextInSeries ? '' : 'series-nav-disabled'}`}
+           aria-disabled={!nextInSeries}>
+          {nextInSeries ? (
+            <>
+              <span class="series-nav-label">Next in {book.series.name} →</span>
+              <span class="series-nav-title">#{nextInSeries.position} · {nextInSeries.title}</span>
+            </>
+          ) : (
+            <span class="series-nav-label text-dim">End of series</span>
+          )}
+        </a>
+      </nav>
+    )}
 
     <!-- On the Same Shelf — LCC-adjacent neighbors -->
     {shelfNeighbors.length > 0 && currentLcc && (
