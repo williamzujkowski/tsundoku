@@ -1,6 +1,9 @@
 ---
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import Layout from '../layouts/Layout.astro';
 import stats from '../data/stats.json';
+import { getCollection } from 'astro:content';
 import { toSlug } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
@@ -29,6 +32,60 @@ const nationalityMax = Math.max(1, ...stats.nationality_distribution.map(n => n.
 // a comparative bar chart and would dwarf-the-rest visually).
 const timelineEntries = stats.timeline.filter(t => t.decade >= 1700);
 const timelineMax = Math.max(1, ...timelineEntries.map(t => t.count));
+
+// Avoid `<` inside JSX expressions — the .astro parser misreads it as a tag
+// opener even inside braces. Pre-format the oldest-year line in the script.
+const oldestYearLine = stats.oldest_year !== undefined && stats.oldest_year !== null
+  ? (stats.oldest_year < 0
+      ? `Oldest entry: ${Math.abs(stats.oldest_year)} BCE.`
+      : `Oldest entry: ${stats.oldest_year}.`)
+  : '';
+
+// Full per-country book counts for the world map. Aggregates from the
+// authors collection at build time.
+const allBooks = await getCollection('books');
+const allAuthors = await getCollection('authors');
+const authorPrimaryNat = new Map<string, string>();
+for (const a of allAuthors) {
+  const nats = a.data.nationality ?? [];
+  if (nats.length > 0) authorPrimaryNat.set(a.data.name, nats[0]);
+}
+const countryBookCounts: Record<string, number> = {};
+for (const b of allBooks) {
+  const nat = authorPrimaryNat.get(b.data.author);
+  if (nat) countryBookCounts[nat] = (countryBookCounts[nat] ?? 0) + 1;
+}
+const mapMax = Math.max(1, ...Object.values(countryBookCounts));
+
+const worldMapSvg = await fs.readFile(
+  path.resolve(process.cwd(), 'src/data/world-map.svg'),
+  'utf-8',
+);
+
+function colorFor(count: number): string {
+  // sqrt for visual perceptual scale
+  const t = Math.sqrt(count / mapMax);
+  const lerp = (a: number, b: number) => Math.round(a + (b - a) * t);
+  const r = lerp(0xef, 0x6b);
+  const g = lerp(0xe5, 0x21);
+  const bl = lerp(0xff, 0xa8);
+  return `rgb(${r}, ${g}, ${bl})`;
+}
+const mapFillRules = Object.entries(countryBookCounts)
+  .map(([code, count]) => `.world-map path[data-country="${code}"] { fill: ${colorFor(count)}; }`)
+  .join('\n');
+
+// Wrap the dynamic CSS in a <style> tag for set:html injection.
+const mapStyleBlock = `<style>
+.world-map { width: 100%; height: auto; max-width: 900px; margin: 0 auto; display: block; }
+.world-map path { fill: var(--card-bg, #f5f5f5); stroke: var(--text-dim, #aaa); stroke-width: 0.4; transition: fill 200ms ease; }
+.world-map path:hover { stroke-width: 1.2; stroke: var(--text-muted, #666); }
+.timeline-bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 4px; align-items: end; min-height: 160px; }
+.timeline-bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.timeline-bar-fill { width: 100%; background: var(--pop-purple); min-height: 2px; }
+${mapFillRules}
+</style>`;
+---
 
 <Layout title="Stats" description="How deep does the pile go? Numbers on the unread backlog.">
   <h1 class="heading-xl mb-6">The Damage</h1>
@@ -79,16 +136,17 @@ const timelineMax = Math.max(1, ...timelineEntries.map(t => t.count));
   <!-- Decade timeline — every 10-year slice with at least one book -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">When the Books Are From</h2>
-    <p class="text-sm text-muted mb-4">By first-edition decade. {stats.oldest_year && stats.oldest_year < 0 ? `Oldest entry: ${Math.abs(stats.oldest_year)} BCE.` : `Oldest entry: ${stats.oldest_year}.`} Pre-1700 entries omitted from the chart for legibility — see the era table below.</p>
+    <p class="text-sm text-muted mb-4">By first-edition decade. {oldestYearLine} Pre-1700 entries omitted from the chart for legibility — see the era table below.</p>
     <div class="card card-padded-lg">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 4px; align-items: end; min-height: 160px;">
+      <div class="timeline-bars">
         {timelineEntries.map(t => {
           const heightPct = (t.count / timelineMax) * 100;
           return (
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;" title={`${t.decade}s: ${t.count} books`}>
+            <div class="timeline-bar-wrap" title={`${t.decade}s: ${t.count} books`}>
               <span class="text-xs text-dim text-mono">{t.count}</span>
               <div
-                style={`width: 100%; height: ${Math.max(heightPct, 2)}%; background: var(--pop-purple); min-height: 2px;`}
+                class="timeline-bar-fill"
+                style={`height: ${Math.max(heightPct, 2)}%`}
                 aria-hidden="true">
               </div>
               <span class="text-xs text-dim text-mono">{String(t.decade).slice(-2)}</span>
@@ -100,11 +158,18 @@ const timelineMax = Math.max(1, ...timelineEntries.map(t => t.count));
     </div>
   </section>
 
-  <!-- Author nationality distribution -->
+  <!-- Author nationality distribution + map -->
   {stats.nationality_distribution && stats.nationality_distribution.length > 0 && (
     <section class="mb-8">
       <h2 class="heading-md mb-4">Where the Authors Are From</h2>
       <p class="text-sm text-muted mb-4">Books by primary nationality of their author ({stats.author_enrichment.nationality} of {stats.author_enrichment.total_authors} authors enriched via Wikidata so far).</p>
+
+      <Fragment set:html={mapStyleBlock} />
+
+      <div class="card card-padded-lg mb-4">
+        <Fragment set:html={worldMapSvg} />
+      </div>
+
       <div class="card card-padded-lg">
         {stats.nationality_distribution.map(n => (
           <div class="mb-2">
