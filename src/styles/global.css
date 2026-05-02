@@ -908,18 +908,41 @@ a:hover { color: var(--pop-pink); }
   display: flex; flex-wrap: wrap; gap: 1.5rem;
   margin-bottom: 2rem;
 }
+.book-detail-cover-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
 .book-detail-cover {
   width: 9rem; flex-shrink: 0;
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-2);
 }
 .book-detail-cover-placeholder {
   width: 9rem; height: 13.5rem; flex-shrink: 0;
   background: var(--bg-elevated);
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-2);
   display: flex; align-items: center; justify-content: center;
   font-size: 2.5rem; color: var(--text-dim);
+}
+/* LCC call number as a spine-label affixed to the upper-left of the
+   cover image. Mirrors the white-and-black sticker on a real library
+   spine. Sits in the page flow as an absolutely-positioned overlay so
+   the cover image stays at its natural size. */
+.book-spine-label {
+  position: absolute; top: 0.5rem; left: -0.5rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.25rem 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: var(--shadow-1);
+  max-width: 9.5rem;
+  overflow: hidden; text-overflow: ellipsis;
 }
 .book-detail-info { flex: 1; min-width: 0; }
 

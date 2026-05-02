@@ -112,8 +112,17 @@ def project(x_q: int, y_q: int, transform: dict) -> tuple[float, float]:
     return (round(px, 2), round(py, 2))
 
 
+_ANTIMERIDIAN_X_GAP = MAP_W * 0.5  # 400px — segment longer than this wraps the antimeridian
+
+
 def ring_to_path(arcs: list[list[int]], topo: dict, transform: dict, reverse: bool = False) -> str:
-    """Convert one ring (list of arc indices, possibly negated) to an SVG path."""
+    """Convert one ring (list of arc indices, possibly negated) to an SVG path.
+
+    Splits the ring into multiple subpaths (`M ... Z`) at any segment
+    that spans more than half the viewBox width — those are antimeridian
+    wraps (Russia, Fiji) that would otherwise draw a horizontal line all
+    the way across the map.
+    """
     points: list[tuple[float, float]] = []
     for arc_index in arcs:
         if arc_index < 0:
@@ -124,10 +133,24 @@ def ring_to_path(arcs: list[list[int]], topo: dict, transform: dict, reverse: bo
             points.append(project(x_q, y_q, transform))
     if not points:
         return ""
-    parts = [f"M{points[0][0]} {points[0][1]}"]
-    for x, y in points[1:]:
-        parts.append(f"L{x} {y}")
-    parts.append("Z")
+
+    # Segment the point list at antimeridian crossings: any consecutive
+    # pair whose x-distance exceeds half the viewBox starts a new subpath.
+    subpaths: list[list[tuple[float, float]]] = [[points[0]]]
+    for prev, curr in zip(points, points[1:]):
+        if abs(curr[0] - prev[0]) > _ANTIMERIDIAN_X_GAP:
+            subpaths.append([curr])
+        else:
+            subpaths[-1].append(curr)
+
+    parts: list[str] = []
+    for sub in subpaths:
+        if not sub:
+            continue
+        parts.append(f"M{sub[0][0]} {sub[0][1]}")
+        for x, y in sub[1:]:
+            parts.append(f"L{x} {y}")
+        parts.append("Z")
     return "".join(parts)
 
 

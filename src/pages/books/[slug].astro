@@ -111,7 +111,7 @@ if (currentLcc) {
     <!-- Hero: cover + title -->
     <div class="book-detail-layout">
       {book.cover_url ? (
-        <div>
+        <div class="book-detail-cover-wrap">
           <img
             src={book.cover_url_large || book.cover_url}
             alt={`Cover of ${book.title}`}
@@ -119,6 +119,11 @@ if (currentLcc) {
             loading="eager"
             transition:name={`cover-${book.slug}`}
           />
+          {currentLcc && (
+            <span class="book-spine-label" title="Library of Congress call number">
+              {lccDisplay(currentLcc)}
+            </span>
+          )}
         </div>
       ) : (
         <div class="book-detail-cover-placeholder">📖</div>
