@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14401485-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14401485-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL51804W",
-  "first_published": 1888,
+  "first_published": 1871,
   "language": "eng",
   "description": "\"First published as a World's classics paperback 1996; reissued as an Oxford world's classics paperback 2002; reissued 2009\"--T.p. verso.",
   "pages": 132,
@@ -91,5 +91,20 @@
     "Sophists (Greek philosophy)",
     "Virtue"
   ],
-  "ol_work_key": "/works/OL51938W"
+  "ol_work_key": "/works/OL51938W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 167,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Platons Protagoras",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11671875M"
 }

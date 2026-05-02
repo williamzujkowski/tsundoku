@@ -26,5 +26,22 @@
     "Dostoyevsky, fyodor, 1821-1881",
     "Russian fiction, history and criticism"
   ],
-  "ol_work_key": "/works/OL36841099W"
+  "ol_work_key": "/works/OL36841099W",
+  "ddc": [
+    "891.733"
+  ],
+  "lcc": [
+    "PG-3328.00000000.Z6"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780816681938",
+  "representative_edition_key": "/books/OL49762351M"
 }

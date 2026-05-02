@@ -6,7 +6,7 @@
   "slug": "faceless-killers",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL26734618W",
-  "first_published": 2001,
+  "first_published": 1997,
   "language": "eng",
   "description": "Inspector Kurt Wallander, a local Swedish police officer whose own personal life is falling apart, finds himself coping with a wave of anti-foreigner sentiment when he is put in charge of the investigation into the brutal murders of an elderly couple.",
   "cover_url": "https://books.google.com/books/content?id=cjZOt_eGm3kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -61,5 +61,18 @@
     "crime mysteries",
     "suspense & thriller"
   ],
-  "ol_work_key": "/works/OL158674W"
+  "ol_work_key": "/works/OL158674W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 42,
+  "first_published_circa": false,
+  "first_edition_isbn": "1565846052",
+  "representative_edition_key": "/books/OL24595390M",
+  "translator": "Steven T. Murray"
 }

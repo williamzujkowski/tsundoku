@@ -20,5 +20,18 @@
   "reading_status": "read",
   "oclc_id": "1036217971",
   "worldcat_url": "https://www.worldcat.org/oclc/1036217971",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]"
+  ],
+  "ol_work_key": "/works/OL31758321W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL54911641M"
 }

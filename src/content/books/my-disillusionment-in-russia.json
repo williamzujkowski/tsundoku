@@ -10,7 +10,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=UaHMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783368903077",
-  "first_published": 2023,
+  "first_published": 1925,
   "pages": 114,
   "google_books_url": "http://books.google.com/books?id=UaHMEAAAQBAJ&dq=intitle:My+Disillusionment+in+Russia&hl=&source=gbs_api",
   "language": "eng",
@@ -28,5 +28,45 @@
   "gutenberg_id": 60315,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/60315",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/60315.html.images",
-  "description": "**My Disillusionment in Russia** is a book by Emma Goldman, **published in 1923 by Doubleday, Page & Co.** The book was based on a much longer manuscript entitled \"My Two Years in Russia\" which was an eyewitness account of events in Russia from 1920 to 1921 that ensued in the wake of the Russian Revolution of 1917 and which culminated in the Kronstadt rebellion. Long-concerned about developments with the Bolsheviks, Goldman described the rebellion as the \"final wrench."
+  "description": "**My Disillusionment in Russia** is a book by Emma Goldman, **published in 1923 by Doubleday, Page & Co.** The book was based on a much longer manuscript entitled \"My Two Years in Russia\" which was an eyewitness account of events in Russia from 1920 to 1921 that ensued in the wake of the Russian Revolution of 1917 and which culminated in the Kronstadt rebellion. Long-concerned about developments with the Bolsheviks, Goldman described the rebellion as the \"final wrench.",
+  "ddc": [
+    "947.0841"
+  ],
+  "lcc": [
+    "DK-0265.70000000.G58 1925",
+    "DK-0265.70000000.G58 1970",
+    "DK-0265.70000000.G58 2003"
+  ],
+  "subject_facet": [
+    "American Personal narratives",
+    "Bolshevism",
+    "Communism",
+    "Communism Soviet Union",
+    "Communisme URSS",
+    "History",
+    "Homes and haunts",
+    "Personal narratives",
+    "Politics and government",
+    "Politieke geschiedenis",
+    "Récits personnels",
+    "Russia (Federation) History Revolution, 1917-1921",
+    "Russie Histoire 1917-1921 (Révolution)",
+    "Soviet Union",
+    "Soviet Union History Revolution, 1917-1920 Personal narratives",
+    "Soviet Union History Revolution, 1917-1921 Personal narratives",
+    "Soviet Union Personal narratives, American History Revolution, 1917-1921",
+    "URSS Histoire 1917-1921 (Révolution) Récits personnels"
+  ],
+  "ol_work_key": "/works/OL2983625W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL3688842M"
 }

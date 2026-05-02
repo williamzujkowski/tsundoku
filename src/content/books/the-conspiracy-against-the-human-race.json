@@ -1,7 +1,7 @@
 {
   "title": "The Conspiracy Against the Human Race",
   "author": "Thomas Ligotti",
-  "category": "Literary Criticism",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "the-conspiracy-against-the-human-race",
   "tags": [
@@ -45,5 +45,16 @@
     "Pessimism in literature",
     "Philosophy"
   ],
-  "ol_work_key": "/works/OL15536635W"
+  "ol_work_key": "/works/OL15536635W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780982429693",
+  "representative_edition_key": "/books/OL27351546M"
 }

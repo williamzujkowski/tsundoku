@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "How is this book unique? Font adjustments & biography included Unabridged (100% Original content) Illustrated About The Song of the Lark by Willa Cather The Song of the Lark is the third novel by American author Willa Cather, written in 1915. It is generally considered to be the second novel in Cather's Prairie Trilogy, following O Pioneers! (1913) and preceding My Ántonia (1918). The book tells the story of a talented artist born in a small town in Colorado who discovers and develops her singin",
   "isbn": "1520869681",
-  "first_published": 2017,
+  "first_published": 1915,
   "pages": 216,
   "google_books_url": "http://books.google.com/books?id=ZNKstQEACAAJ&dq=intitle:The+Song+of+the+Lark&hl=&source=gbs_api",
   "language": "eng",
@@ -116,5 +116,16 @@
     "Young women -- Fiction",
     "Young women, fiction"
   ],
-  "ol_work_key": "/works/OL12831W"
+  "ol_work_key": "/works/OL12831W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34155269M"
 }

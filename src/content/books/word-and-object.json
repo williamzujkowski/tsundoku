@@ -29,5 +29,48 @@
     "Langage et langues",
     "Filosofi a",
     "Lo gica simbo lica y matema tica"
-  ]
+  ],
+  "ddc": [
+    "149.94",
+    "164"
+  ],
+  "lcc": [
+    "B--0840.00000000.Q5 1960",
+    "B--0840.00000000",
+    "B--0840.00000000.Q5",
+    "B--0840.00000000 Q5"
+  ],
+  "subject_facet": [
+    "Filosofi a",
+    "Filosofía",
+    "Langage et langues",
+    "Language and languages",
+    "Language and languages, philosophy",
+    "Language and languages--philosophy",
+    "Languages",
+    "Lenguas",
+    "Lo gica simbo lica y matema tica",
+    "Logic, Symbolic and mathematical",
+    "Logique symbolique et mathe matique",
+    "Logique symbolique et mathématique",
+    "Lógica simbólica y matemática",
+    "Philosophie",
+    "Philosophy",
+    "Se mantique (Philosophie)",
+    "Semantics (Philosophy)",
+    "Symbolic and mathematical Logic",
+    "Sémantique (Philosophie)"
+  ],
+  "ol_work_key": "/works/OL2910272W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9754948M"
 }

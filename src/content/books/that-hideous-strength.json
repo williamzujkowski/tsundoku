@@ -15,5 +15,61 @@
   "description": "That Hideous Strength: A Modern Fairy-Tale for Grown-Ups is a 1945 novel by C. S. Lewis, the final book in Lewis's theological science fiction Space Trilogy. The events of this novel follow those of Out of the Silent Planet and Perelandra and once again feature the philologist Elwin Ransom. Yet unlike the principal events of those two novels, the story takes place on Earth rather than elsewhere in the Solar System.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/CSLewis_ThatHideousStrength.jpg/250px-CSLewis_ThatHideousStrength.jpg",
   "isbn": "9781536838503",
-  "ol_work_key": "/works/OL41439228W"
+  "ol_work_key": "/works/OL41439228W",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6023.00000000.E926T47 1996",
+    "PR-6023.00000000.E926 T47 1990",
+    "PR-6023.00000000.E926 T47 2003",
+    "PR-6023.00000000.E926 T3 1955",
+    "PR-6023.00000000.E926 T47 1996b",
+    "PR-6023.00000000.E926 T47 1996",
+    "PR-6023.00000000.E93 T43 1955",
+    "PR-6023.00000000.E926 T48 1946",
+    "PR-6023.00000000",
+    "PZ-0003.00000000.L58534 Th4",
+    "PR-6023.00000000.E926 Th4",
+    "PZ-0003.00000000.L58534 Th2",
+    "PR-6023.00000000.E926 Th",
+    "PZ-0003.00000000.L58534 Th"
+  ],
+  "subject_facet": [
+    "823/.912",
+    "College teachers",
+    "College teachers, fiction",
+    "College teachers--fiction",
+    "Colleges and universities",
+    "Elwin Ransom (Fictitious character)",
+    "English Fantasy fiction",
+    "English Science fiction",
+    "Extraterrestrial beings",
+    "Faculty",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Good and evil",
+    "Good and evil--fiction",
+    "Interplanetary voyages",
+    "Life on other planets",
+    "Life on other planets--fiction",
+    "Linguists",
+    "Linguists--fiction",
+    "Philologists",
+    "Philologists--fiction",
+    "Pr6023.e926 t47 2003",
+    "Ransom, elwin (fictitious character)",
+    "Ransom, elwin (fictitious character), fiction",
+    "Ransom, elwin (fictitious character)--fiction",
+    "Space flight"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56279345M"
 }

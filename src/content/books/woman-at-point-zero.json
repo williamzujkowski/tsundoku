@@ -32,5 +32,24 @@
     "Egypt, fiction",
     "Fiction, general"
   ],
-  "ol_work_key": "/works/OL25178891W"
+  "ol_work_key": "/works/OL25178891W",
+  "ddc": [
+    "892.736"
+  ],
+  "lcc": [
+    "PJ-7862.00000000.A3 F513 1983g",
+    "PJ-7862.00000000.A3 I413 2015eb",
+    "PJ-7862.00000000.A3 I413 2015",
+    "PJ-7862.00000000.A3 I413 2007",
+    "PJ-7862.00000000.A3 W6 1983",
+    "PJ-7862.00000000.A3",
+    "PJ-7862.00000000.A3 W6 1990"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL33536940M"
 }

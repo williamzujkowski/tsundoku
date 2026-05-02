@@ -41,5 +41,14 @@
     "Semiotics",
     "Style, Literary"
   ],
-  "ol_work_key": "/works/OL1375084W"
+  "ol_work_key": "/works/OL1375084W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "representative_edition_key": "/books/OL9583588M",
+  "copyright_status": "likely_public_domain"
 }

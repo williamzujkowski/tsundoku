@@ -32,5 +32,33 @@
   "subject_facet": [
     "Bhagavadgita"
   ],
-  "ol_work_key": "/works/OL27979245W"
+  "ol_work_key": "/works/OL27979245W",
+  "ddc": [
+    "294.5924",
+    "294.592240521",
+    "891.21"
+  ],
+  "lcc": [
+    "PK-3633.00000000.B5 P67 1944",
+    "PT-5856.00000000.M7 V52 1953",
+    "BL-1130.00000000.A4 P72 1987",
+    "BL-1138.62000000.E5 1954",
+    "BL-1130.00000000.A4 P7",
+    "BL-1138.62000000.E540 1997",
+    "BL-1130.00000000.A4 P7 1980",
+    "PK-3633.00000000.B5 P67 1954",
+    "BL-1138.64000000",
+    "PK-3633.00000000.B5 P67 1951",
+    "BL-1130.00000000.A4 P72 1976",
+    "BL-1138.62000000.E5 1997d"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL57540700M"
 }

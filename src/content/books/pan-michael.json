@@ -12,7 +12,7 @@
   "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work. This work is in the public domain in the United States of ",
   "cover_url": "https://books.google.com/books/content?id=uPOVjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1341973581",
-  "first_published": 2015,
+  "first_published": 1893,
   "pages": 574,
   "google_books_url": "http://books.google.com/books?id=uPOVjgEACAAJ&dq=intitle:Pan+Michael&hl=&source=gbs_api",
   "language": "eng",
@@ -27,5 +27,48 @@
     "Poland -- History -- 17th century -- Fiction",
     "Michal Korybut Wisniowiecki, King of Poland, 1640-1673 -- Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "891.85",
+    "891.856",
+    "891.8536"
+  ],
+  "lcc": [
+    "PG-7158.00000000.S4 P313 1917",
+    "PG-7158.00000000 S4 P3 1955",
+    "PG-7158.00000000.S4 P12",
+    "PG-7158.00000000.S4 P3 1961",
+    "PZ-0003.00000000.S57 P6",
+    "PZ-0003.00000000.S57 P4",
+    "PZ-0003.00000000.S57 P",
+    "PG-7158.00000000.S4 P3 1970",
+    "PG-7158.00000000.S4 P313 1898",
+    "PZ-0003.00000000.S57 P12",
+    "PZ-0003.00000000",
+    "PG-7158.00000000.S4 P3 1898",
+    "PZ-0003.00000000.S57 P3",
+    "PG-7158.00000000.S4 P3 1907"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Historical fiction",
+    "History",
+    "Michael Wisniowiecki, 1669-1673",
+    "Michal Korybut Wisniowiecki, King of Poland, 1640-1673 -- Fiction",
+    "Poland -- History -- 17th century -- Fiction",
+    "Poland -- History -- Michael Wisniowiecki, 1669-1673 -- Fiction",
+    "Polish fiction",
+    "Turco-Polish Wars, 1683-1699"
+  ],
+  "ol_work_key": "/works/OL503413W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 96,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL46297395M"
 }

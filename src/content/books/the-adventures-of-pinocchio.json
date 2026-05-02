@@ -13,7 +13,7 @@
   "description": "Pinocchio is a marionette who aspires to be a real boy but encounters a series of moral dilemmas that keep him from reaching his goals. This classic tale is an unconventional hero’s journey, highlighting the importance of integrity and discipline in a world filled with distractions. Geppetto is an elderly and impoverished carpenter who’s gifted with an enchanted piece of wood. He uses it to create a marionette, which he fashions after a young boy, calling him Pinocchio. He quickly learns that Pi",
   "cover_url": "https://books.google.com/books/content?id=GREQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781513274287",
-  "first_published": 2020,
+  "first_published": 2015,
   "pages": 113,
   "google_books_url": "https://play.google.com/store/books/details?id=GREQEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -35,5 +35,20 @@
   "librivox_url": "https://librivox.org/adventures-of-pinocchio-by-c-collodi/",
   "gutenberg_id": 19516,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/19516",
-  "gutenberg_read_url": "https://www.gutenberg.org/files/19516/19516-index.html"
+  "gutenberg_read_url": "https://www.gutenberg.org/files/19516/19516-index.html",
+  "lcc": [
+    "PZ-0008.00000000.C7Ad 2021"
+  ],
+  "ol_work_key": "/works/OL24667985W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "first_edition_isbn": "9786053412793",
+  "representative_edition_key": "/books/OL34221147M"
 }

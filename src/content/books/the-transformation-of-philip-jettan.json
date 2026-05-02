@@ -9,7 +9,7 @@
     "romance"
   ],
   "reading_status": "read",
-  "first_published": 1959,
+  "first_published": 1923,
   "pages": 160,
   "google_books_url": "http://books.google.com/books?id=pkiXMgEACAAJ&dq=intitle:The+Transformation+of+Philip+Jettan&hl=&source=gbs_api",
   "language": "eng",
@@ -66,5 +66,16 @@
     "Regency fiction",
     "Women authors"
   ],
-  "ol_work_key": "/works/OL4092668W"
+  "ol_work_key": "/works/OL4092668W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 58,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34345061M"
 }

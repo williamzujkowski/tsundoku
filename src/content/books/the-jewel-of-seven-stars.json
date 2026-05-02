@@ -34,5 +34,54 @@
   "gutenberg_id": 3781,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3781",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3781.html.images",
-  "librivox_url": "https://librivox.org/the-jewel-of-seven-stars-by-bram-stoker/"
+  "librivox_url": "https://librivox.org/the-jewel-of-seven-stars-by-bram-stoker/",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-6037.00000000.T617 J48 2008",
+    "PR-6037.00000000.T617J48 2009",
+    "PR-6037.00000000.T617 J48 1902",
+    "PR-6037.00000000.T617 J48 1996",
+    "PR-6037.00000000.T617 J49 1990",
+    "PR-6037.00000000.T617 J6",
+    "PZ-0003.00000000.S8743 J",
+    "PR-6037.00000000.T617J48 1996",
+    "PZ-0003.00000000.S8743 J6",
+    "PR-6037.00000000.T617 J4 1978",
+    "PR-6037.00000000.T617 J48 1903",
+    "PR-6037.00000000.T617",
+    "PR-6037.00000000.T617 J",
+    "PR-6037.00000000.T617 J48 2009"
+  ],
+  "subject_facet": [
+    "Antiquities",
+    "Antiquités",
+    "Archaeologists",
+    "Archaeologists in fiction",
+    "Archaeologists, fiction",
+    "British and irish fiction (fictional works by one author)",
+    "Classic Literature",
+    "Egyptian Magic",
+    "Fiction",
+    "Fiction, horror",
+    "Gems",
+    "History",
+    "Horror",
+    "Mummies",
+    "Mummies in fiction",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Thriller"
+  ],
+  "ol_work_key": "/works/OL85891W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34265992M"
 }

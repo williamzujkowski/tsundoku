@@ -8,13 +8,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/294980-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/294980-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5804796W",
-  "first_published": 2000,
+  "first_published": 1961,
   "language": "eng",
   "description": "Transform Your Soul, Find God's Love, Embrace Faith Embark on a transformative journey of self-discovery and spiritual awakening in \"Transformation: Metamorphosis of the Soul - Finding God's Love and Faith.\" Dive into the profound power of self-reflection, personal growth, and the embrace of God's boundless love. This inspirational masterpiece is your key to transcending life's challenges with grace and resilience. Whether you seek answers to life's profound questions or a deeper spiritual journ...",
   "pages": 217,
   "google_books_url": "https://play.google.com/store/books/details?id=kD_kEAAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Manuscripts, Latin (Medieval and modern)",
     "Glossaries, vocabularies",
@@ -1697,5 +1697,15 @@
     "Étude et enseignement",
     "Übersetzung"
   ],
-  "ol_work_key": "/works/OL17732W"
+  "ol_work_key": "/works/OL17732W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL57548526M"
 }

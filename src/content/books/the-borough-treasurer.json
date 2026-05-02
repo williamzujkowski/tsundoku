@@ -12,7 +12,7 @@
   "description": "A gripping mystery novel about a man who uncovers a dark secret in his town's history. When he is elected borough treasurer, he learns that there is a large sum of money missing from the town's coffers. As he investigates the matter, he discovers that there is more to the case than meets the eye. With danger lurking around every corner, he must use his wits and his courage to catch the culprits and restore the town's honor. This work has been selected by scholars as being culturally important, a",
   "cover_url": "https://books.google.com/books/content?id=ftQY0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1022060899",
-  "first_published": 2023,
+  "first_published": 1921,
   "google_books_url": "http://books.google.com/books?id=ftQY0AEACAAJ&dq=intitle:The+Borough+Treasurer&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
@@ -36,5 +36,16 @@
     "England, fiction",
     "Fiction, mystery & detective, general"
   ],
-  "ol_work_key": "/works/OL1797609W"
+  "ol_work_key": "/works/OL1797609W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 154,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34297501M"
 }

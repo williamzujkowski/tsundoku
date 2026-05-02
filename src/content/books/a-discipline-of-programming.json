@@ -32,5 +32,16 @@
     "Computer programming",
     "Electronic digital computers, programming"
   ],
-  "ol_work_key": "/works/OL4780088W"
+  "ol_work_key": "/works/OL4780088W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "013215871X",
+  "representative_edition_key": "/books/OL5211853M"
 }

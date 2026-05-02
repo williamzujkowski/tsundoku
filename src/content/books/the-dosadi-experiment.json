@@ -26,5 +26,28 @@
     "Science fiction",
     "General"
   ],
-  "ol_work_key": "/works/OL26784029W"
+  "ol_work_key": "/works/OL26784029W",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.H5356 Do",
+    "PS-3558.00000000.E72 D6814 1984",
+    "PS-3558.00000000.E63 Do"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "General",
+    "Science fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL36303014M"
 }

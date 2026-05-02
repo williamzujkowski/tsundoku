@@ -19,5 +19,40 @@
   "isbn": "9780190906184",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL28162705W"
+  "ol_work_key": "/works/OL28162705W",
+  "lcc": [
+    "B--0128.00000000.M79 E5 2003",
+    "B--0128.00000000.M61 P5 1876",
+    "B--0128.00000000.M6 G4 1975 Bd. 2",
+    "B--0128.00000000.M79E5 2003",
+    "B--0128.00000000.M6 1937",
+    "B--0128.00000000.M6 A33 1974",
+    "B--0128.00000000.M77 J3 1924",
+    "B--0128.00000000.M61 P5 1939",
+    "B--0128.00000000.M79 J3 1925",
+    "B--0128.00000000.M7 G4 1975 Bd. 2",
+    "B--0128.00000000.M6 1904",
+    "B--0128.00000000.M6 G4 1975",
+    "B--0128.00000000.M61 P5 1875",
+    "B--0128.00000000.M7 G4 1975 Bd. 1",
+    "B--0128.00000000.M6 G4 1975 Bd. 1"
+  ],
+  "subject_facet": [
+    "Chinese Philosophy",
+    "Love",
+    "Moism",
+    "Philosophy",
+    "Philosophy, asian",
+    "Solidarity",
+    "War (Philosophy)"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38555855M"
 }

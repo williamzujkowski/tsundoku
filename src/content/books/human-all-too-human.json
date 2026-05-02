@@ -23,5 +23,19 @@
   "gutenberg_id": 38145,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/38145",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/38145.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "128"
+  ],
+  "subject_facet": [
+    "Human beings"
+  ],
+  "ol_work_key": "/works/OL24421313W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL32347190M"
 }

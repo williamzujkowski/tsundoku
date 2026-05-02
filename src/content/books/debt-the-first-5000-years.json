@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781612194202",
-  "first_published": 2014,
+  "first_published": 2011,
   "pages": 709,
   "subjects": [
     "Business & Economics"
@@ -50,5 +50,14 @@
     "Pengar",
     "Penningväsen"
   ],
-  "ol_work_key": "/works/OL14909099W"
+  "ol_work_key": "/works/OL14909099W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32062894M"
 }

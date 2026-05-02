@@ -19,5 +19,53 @@
     "Literary Collections"
   ],
   "isbn": "9798404017427",
-  "ol_work_key": "/works/OL21868175W"
+  "ol_work_key": "/works/OL21868175W",
+  "ddc": [
+    "823.912",
+    "248.4"
+  ],
+  "lcc": [
+    "BR-0125.00000000.L67 1976",
+    "PR-6023.00000000.E926",
+    "BR-0125.00000000.L67 1980",
+    "BR-0125.00000000 L671",
+    "BR-0125.00000000.L58",
+    "BR-0125.00000000.L67 2001",
+    "BR-0125.00000000.L67 1947",
+    "BR-0125.00000000.L67 1945",
+    "BR-0125.00000000.L67",
+    "BR-0125.00000000.L67 1962",
+    "BR-0125.00000000.L67 2013",
+    "BJ-1251.00000000",
+    "BR-0125.00000000.L67 1954",
+    "BR-0125.00000000.L67 1979b",
+    "BR-0125.00000000.L67 1942",
+    "BR-0125.00000000.L67 1982",
+    "BV-4501.20000000"
+  ],
+  "subject_facet": [
+    "Aspect religieux",
+    "Christian Apologetics",
+    "Christian ethics",
+    "Christian life",
+    "Christianisme",
+    "Christianity",
+    "Christianity, 20th century",
+    "Devil",
+    "Démon",
+    "Fiction",
+    "Materialism",
+    "Matérialisme",
+    "Religious aspects",
+    "Satire",
+    "Satire anglaise",
+    "Vie chrétienne"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "representative_edition_key": "/books/OL38413515M"
 }

@@ -39,5 +39,28 @@
   ],
   "gutenberg_id": 12587,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/12587",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/12587.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/12587.html.images",
+  "lcc": [
+    "PN-6737.00000000.H56 M36 2014",
+    "PN-6737.00000000.H56M36 2014",
+    "PN-6738.00000000.M36 H56 2013"
+  ],
+  "subject_facet": [
+    "Actors",
+    "Comic books, strips",
+    "Fiction",
+    "History",
+    "Mutilation",
+    "Orphans"
+  ],
+  "ol_work_key": "/works/OL20397526W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL28511955M"
 }

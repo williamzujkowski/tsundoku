@@ -27,5 +27,30 @@
     "Historiography",
     "Macedonians (Ancient)"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "808.8",
+    "930"
+  ],
+  "lcc": [
+    "D--0058.00000000.H33 1899",
+    "D--0058.00000000.H5 1964",
+    "D--0058.00000000 H5 1964"
+  ],
+  "subject_facet": [
+    "Ancient History",
+    "Histoire ancienne",
+    "History",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL15678067W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8546709M"
 }

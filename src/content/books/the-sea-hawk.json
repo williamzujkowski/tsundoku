@@ -10,7 +10,7 @@
     "historical-fiction"
   ],
   "reading_status": "read",
-  "first_published": 1972,
+  "first_published": 1900,
   "google_books_url": "http://books.google.com/books?id=w3k80AEACAAJ&dq=intitle:The+Sea+Hawk&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/8239512-M.jpg",
@@ -32,5 +32,63 @@
     "Africa, fiction"
   ],
   "librivox_url": "https://librivox.org/the-sea-hawk-by-rafael-sabatini/",
-  "description": "The Sea Hawk is a 1915 novel by Rafael Sabatini. The story is set over the years 1588–1593 and concerns a retired Cornish seafaring gentleman, Sir Oliver Tressilian, who is villainously betrayed by a jealous half-brother. After being forced to serve as a slave on a galley, Sir Oliver is liberated by Barbary pirates. He joins the pirates, gaining the name \"Sakr-el-Bahr\", and swears vengeance against his brother."
+  "description": "The Sea Hawk is a 1915 novel by Rafael Sabatini. The story is set over the years 1588–1593 and concerns a retired Cornish seafaring gentleman, Sir Oliver Tressilian, who is villainously betrayed by a jealous half-brother. After being forced to serve as a slave on a galley, Sir Oliver is liberated by Barbary pirates. He joins the pirates, gaining the name \"Sakr-el-Bahr\", and swears vengeance against his brother.",
+  "ddc": [
+    "823.912",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.S113 Se5",
+    "PR-6037.00000000.A2",
+    "PR-6037.00000000.A2 S357 1998",
+    "PZ-0003.00000000.S113 Se",
+    "PR-6037.00000000.A2 S357 2002",
+    "PR-6037.00000000.A2S357 2002",
+    "PR-6037.00000000.A2 S34",
+    "PR-6037.00000000.A2 Se",
+    "PR-6037.00000000.A2 Se5",
+    "PR-6037.00000000.A2 Se9",
+    "PR-6037.00000000.A2 Se 1980",
+    "PZ-0003.00000000.S113 Se9",
+    "PR-6037.00000000.A2S357 1998",
+    "PZ-0003.00000000.S113 Se 1980",
+    "PR-6037.00000000.A2 S43 1900z"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure stories",
+    "Africa, North -- Fiction",
+    "Africa, fiction",
+    "Barbary Pirates",
+    "British",
+    "British -- Africa, North -- Fiction",
+    "Cornwall (England : County) -- Fiction",
+    "Cornwall (england : county), fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, sea stories",
+    "Historical fiction",
+    "Large type books",
+    "Muslims",
+    "Muslims -- Fiction",
+    "Open Library Staff Picks",
+    "Pirates",
+    "Pirates -- Fiction",
+    "Sea stories",
+    "Spanish Armada"
+  ],
+  "ol_work_key": "/works/OL8070951W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 201,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34281302M"
 }

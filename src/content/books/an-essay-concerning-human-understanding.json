@@ -26,5 +26,26 @@
   "lccn": "10032058",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw3pym",
   "hathitrust_rights": "Full view",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "192.2"
+  ],
+  "lcc": [
+    "B--1290.00000000 1795"
+  ],
+  "subject_facet": [
+    "Theory of Knowledge"
+  ],
+  "ol_work_key": "/works/OL32981425W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL45303621M"
 }

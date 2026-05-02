@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "Hardcover reprint of the original 1874 edition - beautifully bound in brown cloth covers featuring titles stamped in gold, 8vo - 6x9. No adjustments have been made to the original text, giving readers the full antiquarian experience. For quality purposes, all text and images are printed as black and white. This item is printed on demand. Book Information: Verne, Jules. The Fur Country; Or, Seventy Degrees North Latitude. Indiana: Repressed Publishing LLC, 2012. Original Publishing: Verne, Jules.",
   "isbn": "1462284884",
-  "first_published": 2012,
+  "first_published": 1873,
   "pages": 444,
   "google_books_url": "http://books.google.com/books?id=uhUbkwEACAAJ&dq=intitle:The+Fur+Country&hl=&source=gbs_api",
   "language": "eng",
@@ -24,5 +24,28 @@
   "gutenberg_id": 8991,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8991",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8991.html.images",
-  "librivox_url": "https://librivox.org/the-fur-country-by-jules-verne/"
+  "librivox_url": "https://librivox.org/the-fur-country-by-jules-verne/",
+  "ddc": [
+    "843.8"
+  ],
+  "lcc": [
+    "PQ-2469.00000000.P3 E5 1874"
+  ],
+  "subject_facet": [
+    "Earthquakes",
+    "Fiction",
+    "Survival"
+  ],
+  "ol_work_key": "/works/OL1099989W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "first_edition_isbn": "0665163339",
+  "representative_edition_key": "/books/OL11677994M"
 }

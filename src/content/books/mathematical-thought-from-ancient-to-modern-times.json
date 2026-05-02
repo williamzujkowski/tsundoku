@@ -1,7 +1,7 @@
 {
   "title": "Mathematical Thought from Ancient to Modern Times",
   "author": "Morris Kline",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "mathematical-thought-from-ancient-to-modern-times",
   "tags": [
@@ -42,5 +42,12 @@
     "Mathematics, history",
     "Mathematics, philosophy"
   ],
-  "ol_work_key": "/works/OL16978518W"
+  "ol_work_key": "/works/OL16978518W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL25563024M"
 }

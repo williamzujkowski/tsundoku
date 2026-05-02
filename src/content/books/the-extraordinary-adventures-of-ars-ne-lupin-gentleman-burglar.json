@@ -13,7 +13,7 @@
   "reading_status": "read",
   "description": "Arsène Lupin, with his characteristic wit, plots over the course of nine short stories to steal many of France’s best antiques and artworks from under their owners’ noses. Only his classic opponent Detective Ganimard has the brilliance to attempt to foil Arsène’s plans, albeit with mixed results. This first collection of nine Arsène Lupin stories were originally serialised in the magazine Je Sais Tout from 1905 and translated into English in 1910. The final story of the set features Herlock Shol",
   "cover_url": "https://books.google.com/books/content?id=1x0ZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2018,
+  "first_published": 1907,
   "pages": 530,
   "google_books_url": "https://play.google.com/store/books/details?id=1x0ZEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -66,5 +66,20 @@
     "Romance Frances",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL1064277W"
+  "ol_work_key": "/works/OL1064277W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 214,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Arsène Lupin",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34965833M"
 }

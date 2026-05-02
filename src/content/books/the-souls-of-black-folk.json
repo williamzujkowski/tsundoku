@@ -49,5 +49,16 @@
   "subject_facet": [
     "African americans"
   ],
-  "ol_work_key": "/works/OL38609955W"
+  "ol_work_key": "/works/OL38609955W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 92,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781497468122",
+  "representative_edition_key": "/books/OL56768025M"
 }

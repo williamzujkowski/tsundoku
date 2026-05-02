@@ -21,5 +21,44 @@
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044074146424",
   "hathitrust_rights": "Limited (search-only)",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL26563842W"
+  "ol_work_key": "/works/OL26563842W",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.L27 A7 2004",
+    "PS-3531.00000000.L42",
+    "PS-3566.00000000.L27 A7 2007",
+    "PS-3566.00000000.L27 A7 1999",
+    "PS-3566.00000000.L27.A7 1966",
+    "PS-3566.00000000.L27",
+    "PS-3566.00000000.L27A7 2005",
+    "PS-3566.00000000.L27 A7 1966",
+    "PS-8000.00000000",
+    "PS-3566.00000000.L27 A7 2004b",
+    "PS-3566.00000000.L27A7 2004",
+    "PS-3566.00000000.L27 A7 1965",
+    "PS-3566.00000000.L27A7 1999"
+  ],
+  "subject_facet": [
+    "American literature",
+    "American poetry",
+    "General",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poésie américaine",
+    "Textual Criticism",
+    "open_syllabus_project"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780060133580",
+  "representative_edition_key": "/books/OL35952522M"
 }

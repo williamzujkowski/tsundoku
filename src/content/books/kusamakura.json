@@ -17,5 +17,40 @@
   "gutenberg_id": 73131,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73131",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73131.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "895.6344",
+    "895.6342",
+    "895.634",
+    "895.63"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.N216 Th",
+    "PL-0812.00000000.A8 K813 2008",
+    "PL-0812.00000000.A8 K813 2002",
+    "PL-0812.00000000.A8 K813 1982",
+    "PL-0812.00000000.A8 K8 1934"
+  ],
+  "subject_facet": [
+    "19th century fiction",
+    "Artists, fiction",
+    "Fiction",
+    "Fiction - General",
+    "General",
+    "Japan -- Fiction",
+    "Japanese fiction",
+    "Literary",
+    "Literature: Classics",
+    "Modern fiction",
+    "Translations into English"
+  ],
+  "pages": 184,
+  "ol_work_key": "/works/OL1174970W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "representative_edition_key": "/books/OL7861552M"
 }

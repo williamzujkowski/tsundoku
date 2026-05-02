@@ -29,5 +29,43 @@
     "Life on other planets",
     "Profecía"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-0000.00000000",
+    "PS-3551.00000000.S5F58 2020",
+    "PS-3551.00000000.S5 F58 1993",
+    "PS-3551.00000000.S5"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Ciencia-ficción",
+    "Ficción",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Historiadores",
+    "Historians",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Profecía",
+    "Prophecy",
+    "Psychohistory",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL46299W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 42,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "L'Aube de fondation",
+  "representative_edition_key": "/books/OL7829276M"
 }

@@ -27,5 +27,32 @@
     "Fantasy fiction",
     "Children's fiction",
     "Economic conditions"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.M19864 Rg 1999",
+    "PZ-0007.00000000.M19864Rg 1999"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Children's stories, American",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Identity (Psychology)",
+    "Magic",
+    "Princes",
+    "Quests (Expeditions)",
+    "Wizards"
+  ],
+  "ol_work_key": "/works/OL15722135W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL83127M"
 }

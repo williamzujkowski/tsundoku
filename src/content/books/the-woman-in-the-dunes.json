@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10836985-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10836985-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5526720W",
-  "first_published": 1966,
+  "first_published": 1964,
   "language": "eng",
   "description": "The Woman in the Dunes, by celebrated writer and thinker Kobo Abe, combines the essence of myth, suspense and the existential novel. After missing the last bus home following a day trip to the seashore, an amateur entomologist is offered lodging for the night at the bottom of a vast sand pit. But when he attempts to leave the next morning, he quickly discovers that the locals have other plans. Held captive with seemingly no chance of escape, he is tasked with shoveling back the ever-advancing sa...",
   "isbn": "9780679733782",
@@ -58,5 +58,16 @@
     "Vida social y costumbres",
     "Women"
   ],
-  "ol_work_key": "/works/OL2644757W"
+  "ol_work_key": "/works/OL2644757W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL1889063M"
 }

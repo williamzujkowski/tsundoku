@@ -19,5 +19,44 @@
   "librivox_url": "https://librivox.org/prior-analytics-by-aristotle/",
   "subjects": [
     "Philosophy"
-  ]
+  ],
+  "ddc": [
+    "160"
+  ],
+  "lcc": [
+    "B--0440.00000000.A5S65 1989",
+    "B--0440.00000000.A5 S77 2009",
+    "B--0440.00000000.A5 S65 1989",
+    "B--0440.00000000.A8 I85",
+    "B--0440.00000000.A7 Z45 1998"
+  ],
+  "subject_facet": [
+    "Analytica priora (Aristoteles)",
+    "Definition (Logic)",
+    "Definition (Philosophy)",
+    "Early works to 1800",
+    "Filosofia antiga",
+    "Filosofia grega",
+    "Logic",
+    "Logic, early works to 1800",
+    "Lógica",
+    "Philosophy, ancient",
+    "Theory of Knowledge"
+  ],
+  "ol_work_key": "/works/OL16247885W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "original_language": "und",
+  "original_title": "Prior Analytics.",
+  "first_edition_isbn": "0460004506",
+  "representative_edition_key": "/books/OL23718974M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Collective Choice and Social Welfare",
   "author": "Amartya Sen",
-  "category": "Economics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "collective-choice-and-social-welfare",
   "tags": [
@@ -28,5 +28,16 @@
     "Social choice",
     "Welfare economics"
   ],
-  "ol_work_key": "/works/OL20186515W"
+  "ol_work_key": "/works/OL20186515W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780674971608",
+  "representative_edition_key": "/books/OL27371955M"
 }

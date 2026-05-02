@@ -15,7 +15,7 @@
   "description": "A young woman breaks free from her stifling home in search of love and freedom in this novel by the author of Anne of Green Gables. Considered a spinster at the age of twenty-nine, Valancy Stirling believes she is destined to live out her days in rural Ontario with her domineering mother and aunt. She finds momentary escape in the books of her favorite author and fantasies of a \"Blue Castle\" where all her wishes come true. But when devastating news arrives from her doctor, Valancy decides to fin",
   "cover_url": "https://books.google.com/books/content?id=g1tXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781504067966",
-  "first_published": 2022,
+  "first_published": 1926,
   "pages": 212,
   "google_books_url": "https://play.google.com/store/books/details?id=g1tXEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -60,5 +60,16 @@
     "Self-actualization (Psychology)",
     "Single women"
   ],
-  "ol_work_key": "/works/OL77775W"
+  "ol_work_key": "/works/OL77775W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 294,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36776178M"
 }

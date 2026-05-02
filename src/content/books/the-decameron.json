@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/2980638-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2980638-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7180608W",
-  "first_published": 2007,
+  "first_published": 1940,
   "language": "eng",
   "description": "The Decameron - Giovanni Boccaccio - The year is 1348. The Black Death has begun to ravage Europe. Ten young Florentinesseven women and three menescape the plague-infested city and retreat to the countryside around Fiesole. At their leisure in this isolated and bucolic setting, they spend ten days telling each other storiestales of romance, tragedy, comedy, and farceone hundred in all. The result, called by one critic \"the greatest short story collection of all time\" (Leonard Barkan, Princeton U...",
   "isbn": "9783985948468",
@@ -33,5 +33,26 @@
   "gutenberg_id": 23700,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/23700",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/23700.html.images",
-  "librivox_url": "https://librivox.org/the-decameron-by-giovanni-boccaccio/"
+  "librivox_url": "https://librivox.org/the-decameron-by-giovanni-boccaccio/",
+  "ddc": [
+    "853.1"
+  ],
+  "lcc": [
+    "PQ-4272.00000000.E5 A3 1872"
+  ],
+  "subject_facet": [
+    "Romance fiction"
+  ],
+  "ol_work_key": "/works/OL31357796W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781125723845",
+  "representative_edition_key": "/books/OL49946754M"
 }

@@ -32,5 +32,40 @@
   "gutenberg_id": 59,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/59",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/59.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "194"
+  ],
+  "lcc": [
+    "B--1848.00000000.E5 H35 1996",
+    "B--1846.00000000.W4513 1996",
+    "B--1848.00000000.E5H35 1996"
+  ],
+  "subject_facet": [
+    "Discours de la methode (Descartes)",
+    "First philosophy",
+    "History",
+    "History & Surveys",
+    "Knowledge",
+    "Knowledge, Theory of.",
+    "Knowledge, theory of",
+    "Meditationes de prima philosophia (Descartes)",
+    "Methodology",
+    "Methods",
+    "Modern",
+    "PHILOSOPHY",
+    "Receptie",
+    "Science",
+    "Science, methodology",
+    "Theory of Knowledge",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL7982286W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "representative_edition_key": "/books/OL9438974M"
 }

@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Executive Orders is a techno-thriller novel, written by Tom Clancy and released on July 1, 1996. It picks up immediately where the final events of Debt of Honor (1994) left off, and features now-U.S. President Jack Ryan as he tries to deal with foreign and domestic threats. The book is dedicated to former U.S. President Ronald Reagan, who helped launch Clancy's worldwide success as a novelist. The book debuted at number one on the New York Times bestseller list.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Executiveorders.jpg/250px-Executiveorders.jpg",
   "isbn": "9780745154015",
@@ -39,5 +39,14 @@
   ],
   "ol_work_key": "/works/OL449001W",
   "first_published": 1996,
-  "pages": 1101
+  "pages": 1101,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL985560M"
 }

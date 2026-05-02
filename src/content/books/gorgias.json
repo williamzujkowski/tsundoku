@@ -8,7 +8,7 @@
     "politics"
   ],
   "open_library_url": "https://openlibrary.org/works/OL40209658W",
-  "first_published": 2018,
+  "first_published": 2014,
   "language": "eng",
   "description": "The struggle which Plato has Socrates recommend to his interlocutors in Gorgias - and to his readers - is the struggle to overcome the temptations of worldly success and to concentrate on genuine morality. Ostensibly an enquiry into the value of rhetoric, the dialogue soon becomes an investigation into the value of these two contrasting ways of life. In a series of dazzling and bold arguments, Plato attempts to establish that only morality can bring a person true happiness, and to demolish alter...",
   "cover_url": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -24,5 +24,20 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1672",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1672.html.images",
   "librivox_url": "https://librivox.org/gorgias-by-plato-platon/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "170"
+  ],
+  "ol_work_key": "/works/OL40372163W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781502354822",
+  "representative_edition_key": "/books/OL55039831M"
 }

@@ -9,7 +9,7 @@
   ],
   "cover_url": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=SoRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "first_published": 1973,
+  "first_published": 1968,
   "pages": 750,
   "subjects": [
     "Computer algorithms"
@@ -17,5 +17,38 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=SoRQAAAAMAAJ&dq=Art+of+Computer+Programming+Vol3+Knuth&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "001.642",
+    "651.8",
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.60000000.K64",
+    "QA-0076.50000000.K57",
+    "QA-0076.60000000.K64 2005",
+    "QA-0076.60000000.K64 1997",
+    "QA-0076.60000000"
+  ],
+  "subject_facet": [
+    "005.1",
+    "Computer algorithms",
+    "Computer programming",
+    "Electronic digital computers",
+    "Long Now Manual for Civilization",
+    "Programming",
+    "Qa76.6 .k64 1997"
+  ],
+  "ol_work_key": "/works/OL257263W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 15,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL3420932M"
 }

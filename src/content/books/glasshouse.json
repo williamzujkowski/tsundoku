@@ -26,5 +26,33 @@
     "Fiction, science fiction, general",
     "collection:otherwise_tiptree_award=honor"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.6",
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6119.00000000.T79 G57 2006",
+    "PR-6119.00000000.T79G57 2006",
+    "PR-6119.00000000.T79"
+  ],
+  "subject_facet": [
+    "Experiments",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science fiction",
+    "Sociology",
+    "Space colonies",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL2465690W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33394365M"
 }

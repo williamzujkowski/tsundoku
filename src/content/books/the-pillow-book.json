@@ -24,5 +24,26 @@
     "Pl788.6.m3 e54 2006",
     "952.01092"
   ],
-  "ol_work_key": "/works/OL28237588W"
+  "ol_work_key": "/works/OL28237588W",
+  "lcc": [
+    "PL-0788.60000000.M3 E54 2006",
+    "DS-0824.00000000"
+  ],
+  "subject_facet": [
+    "952.01092",
+    "Court and courtiers",
+    "Japan, court and courtiers",
+    "Japan, social life and customs",
+    "Pl788.6.m3 e54 2006",
+    "Social life and customs"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38644896M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Divine Comedy",
   "author": "Dante Alighieri",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "the-divine-comedy",
   "tags": [
@@ -13,7 +13,7 @@
   "description": "Journey through Inferno, Purgatorio, and Paradiso in this stunning gift edition of Dante's epic poems. The next elegant edition in the Knickerbocker Classic series, The Divine Comedy is unabridged and complete, and comprised of all three sections of this epic trilogy by Dante Alighieri: Inferno, Purgatorio, and Paradiso. For Dante fans worldwide, this stunning gift edition has a cloth binding, ribbon marker, and is packaged neatly in an elegant slipcase. Featuring a new introduction, the classic",
   "cover_url": "https://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781631061561",
-  "first_published": 2015,
+  "first_published": 2013,
   "pages": 738,
   "google_books_url": "http://books.google.com/books?id=1f36CwAAQBAJ&dq=intitle:The+Divine+Comedy&hl=&source=gbs_api",
   "language": "eng",
@@ -50,5 +50,16 @@
     "Purgatory",
     "Romance literature"
   ],
-  "ol_work_key": "/works/OL21195136W"
+  "ol_work_key": "/works/OL21195136W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781627936552",
+  "representative_edition_key": "/books/OL29266266M"
 }

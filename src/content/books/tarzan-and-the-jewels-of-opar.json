@@ -23,5 +23,35 @@
     "Fiction"
   ],
   "isbn": "9781449988722",
-  "ol_work_key": "/works/OL39798604W"
+  "ol_work_key": "/works/OL39798604W",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B944 Tao8",
+    "PS-3503.00000000.U687 Tao",
+    "PS-3503.00000000.U687 Tao8",
+    "PS-3503.00000000 U687 T3",
+    "PZ-0003.00000000.B944 Tao"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure stories",
+    "Africa, fiction",
+    "Classic Literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Non-Classifiable",
+    "Tarzan (Fictitious character)",
+    "Tarzan (Fictitious character) -- Fiction",
+    "Tarzan (fictitious character), fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL54212752M"
 }

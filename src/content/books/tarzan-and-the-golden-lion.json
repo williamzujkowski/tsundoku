@@ -14,7 +14,7 @@
   "description": "The story picks up with the Clayton family, Tarzan, Jane Porter and their son Korak, returning from their adventures in the previous novel (#8). Along the way they find an orphaned lion cub, which Tarzan takes home and trains. Flora Hawkes, a previous housemaid of the Clayton's had overheard of Tarzan's discovery of the treasure chamber in the lost city of Opar (from The Return of Tarzan and Tarzan and the Jewels of Opar) and had managed to copy his map to it. She concocted a plan to lead an exp",
   "cover_url": "https://books.google.com/books/content?id=sgV5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783962559861",
-  "first_published": 2017,
+  "first_published": 1923,
   "pages": 263,
   "google_books_url": "https://play.google.com/store/books/details?id=sgV5DwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -29,5 +29,32 @@
     "Fiction",
     "Juvenile fiction",
     "Tarzan (Fictitious character)"
-  ]
+  ],
+  "ddc": [
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B944 Tal",
+    "PS-3503.00000000.U687 Tal",
+    "PS-3503.00000000.U687 T345 1923"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American Fantasy fiction",
+    "Fiction",
+    "Juvenile fiction",
+    "Tarzan (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL1418088W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34145865M"
 }

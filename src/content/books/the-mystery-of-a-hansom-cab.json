@@ -19,5 +19,21 @@
   "description": "The Mystery of a Hansom Cab is a mystery novel by the British writer Fergus Hume. Fergus Hume was born in the UK and when he was 6 months old his parents emigrated with him to New Zealand. At 25 he moved to Melbourne where he lived for 3 years. He then departed for the UK where he lived for the rest of his life. He had some minor success in the UK as a playwright. The book was first published in Australia in 1886.",
   "subjects": [
     "History"
-  ]
+  ],
+  "lcc": [
+    "PR-4809.00000000.H87"
+  ],
+  "subject_facet": [
+    "English literature"
+  ],
+  "ol_work_key": "/works/OL24659468W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33998917M"
 }

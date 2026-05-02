@@ -65,5 +65,15 @@
     "Zombies",
     "nyt:trade_fiction_paperback=2011-08-20"
   ],
-  "ol_work_key": "/works/OL5969057W"
+  "ol_work_key": "/works/OL5969057W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 46,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL27311961M",
+  "copyright_status": "in_copyright"
 }

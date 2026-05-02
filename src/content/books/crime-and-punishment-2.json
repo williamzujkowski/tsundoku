@@ -35,5 +35,32 @@
     "Fiction in Spanish",
     "Mystery fiction"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PG-3325.00000000",
+    "PG-3326.00000000.P713 2014"
+  ],
+  "subject_facet": [
+    "891.733",
+    "Crime, fiction",
+    "Fiction",
+    "Fiction, psychological",
+    "Murder",
+    "Murder--psychological aspects",
+    "Murder--russia--psychological aspects--fiction",
+    "Pg3326 .p713 2014",
+    "Psychological aspects",
+    "Psychological fiction",
+    "Saint petersburg (russia), fiction"
+  ],
+  "ol_work_key": "/works/OL21062236W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30347939M"
 }

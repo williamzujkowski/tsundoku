@@ -39,5 +39,43 @@
   "gutenberg_id": 35173,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/35173",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35173.html.images",
-  "ol_work_key": "/works/OL28358273W"
+  "ol_work_key": "/works/OL28358273W",
+  "ddc": [
+    "882.01"
+  ],
+  "lcc": [
+    "PA-3975.00000000.A2 1971",
+    "PA-3973.00000000",
+    "PA-3975.00000000.A2 2009",
+    "PA-3975.00000000.A2 2005",
+    "PA-3975.00000000 A2 1965",
+    "PA-3975.00000000.A2 1972b"
+  ],
+  "subject_facet": [
+    "Bacchantes",
+    "Continental european drama (dramatic works by one author)",
+    "Dionysus (Greek deity)",
+    "Drama",
+    "Drama, collections",
+    "Greek Mythology",
+    "Greek drama, translations into english",
+    "Hecuba (Legendary character)",
+    "Helen of Troy (Greek mythology)",
+    "Ion (Greek mythology)",
+    "Iphigenia (Greek mythology)",
+    "Orestes (Greek mythology)",
+    "Pentheus (Greek mythology)",
+    "Rhesus (Legendary character)",
+    "Seven against Thebes (Greek mythology)",
+    "Translations into English"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38814865M"
 }

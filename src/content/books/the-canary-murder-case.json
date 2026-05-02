@@ -12,7 +12,7 @@
   "description": "At the height if his popularity, S.S. Vane Dine pens a locked-room mystery with a lethal dose of sex and sin where infamous actress, \"The Canary,\" is murdered in her cage after a passionate night with her lover. Margaret Odell, the famous Broadway beauty and ex-Follies girl known as \"The Canary\", is found murdered in her ransacked apartment, her jewelry stolen. It appears to be a robbery gone wrong, but the police can find no physical evidence to pinpoint a culprit. No one witnessed anyone enter",
   "cover_url": "https://books.google.com/books/content?id=q5-iEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781728283319",
-  "first_published": 2023,
+  "first_published": 1927,
   "pages": 251,
   "google_books_url": "https://play.google.com/store/books/details?id=q5-iEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -30,5 +30,41 @@
   ],
   "gutenberg_id": 70788,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/70788",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70788.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70788.html.images",
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3545.00000000.R846 Can 1980",
+    "PS-3545.00000000.R846",
+    "PS-3545.00000000 R846 C27 1927",
+    "PZ-0003.00000000.W9384 Can",
+    "PS-3545.00000000.R846 C36 1927",
+    "PS-3545.00000000.R846C36 2018",
+    "PZ-0003.00000000.W9384 Can 1980"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "New york (n.y.), fiction",
+    "Philo Vance (fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Vance, philo (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL11158827W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 80,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34216174M"
 }

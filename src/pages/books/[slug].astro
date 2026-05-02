@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors } from '../../utils/formatting';
+import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear } from '../../utils/formatting';
 import ShareButton from '../../components/ShareButton.svelte';
 
 export async function getStaticPaths() {
@@ -38,11 +38,20 @@ const categorySlug = toSlug(book.category);
     "name": book.title,
     "author": { "@type": "Person", "name": book.author },
     ...(book.description ? { "description": book.description } : {}),
-    ...(book.isbn ? { "isbn": book.isbn } : {}),
     ...(book.cover_url ? { "image": book.cover_url_large || book.cover_url } : {}),
-    ...(book.first_published ? { "datePublished": String(book.first_published) } : {}),
+    ...(book.isbn ? { "isbn": book.isbn } : {}),
     ...(book.pages ? { "numberOfPages": book.pages } : {}),
     ...(book.language ? { "inLanguage": book.language } : {}),
+    ...(book.translator ? { "translator": { "@type": "Person", "name": book.translator } } : {}),
+    ...(book.first_published !== undefined || book.original_title || book.original_language ? {
+      "exampleOfWork": {
+        "@type": "Book",
+        ...(book.original_title ? { "name": book.original_title } : { "name": book.title }),
+        "author": { "@type": "Person", "name": book.author },
+        ...(book.first_published !== undefined ? { "datePublished": String(book.first_published) } : {}),
+        ...(book.original_language ? { "inLanguage": book.original_language } : {}),
+      }
+    } : {}),
   })} />
   <nav class="breadcrumb">
     <a href={`${base}`}>Home</a>
@@ -103,19 +112,27 @@ const categorySlug = toSlug(book.category);
           )}
         </div>
 
+        {book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase() && (
+          <p class="text-dim text-sm mb-3">
+            Originally <i lang={book.original_language || undefined}>{book.original_title}</i>
+            {book.original_language && book.original_language !== 'eng' && (
+              <span> · {languageLabel(book.original_language)}</span>
+            )}
+          </p>
+        )}
+
         {book.description && (
           <p class="text-muted text-sm mb-4 prose-text">{book.description}</p>
         )}
 
         <div class="flex flex-wrap gap-2">
-          {book.first_published && (
-            <span class="meta-tag">First published: {book.first_published}</span>
+          {book.first_published !== undefined && (
+            <span class="meta-tag">
+              First published {formatYear(book.first_published, book.first_published_circa)}
+            </span>
           )}
           {book.pages && (
             <span class="meta-tag">{book.pages} pages</span>
-          )}
-          {book.isbn && (
-            <span class="meta-tag text-mono">ISBN: {book.isbn}</span>
           )}
         </div>
       </div>
@@ -136,19 +153,59 @@ const categorySlug = toSlug(book.category);
           <dt class="text-dim mb-2">Author works</dt>
           <dd>{sameAuthor.length + 1}</dd>
         </div>
-        {book.language && (
+        {book.editions_count && (
           <div>
-            <dt class="text-dim mb-2">Language</dt>
-            <dd>{book.language}</dd>
+            <dt class="text-dim mb-2">Editions known</dt>
+            <dd>{book.editions_count}</dd>
           </div>
         )}
       </dl>
 
-      {book.subjects && book.subjects.length > 0 && (
+      {/* Classification — DDC + LCC + curated subject_facet */}
+      {((book.ddc && book.ddc.length > 0) || (book.lcc && book.lcc.length > 0) || (book.subject_facet && book.subject_facet.length > 0)) && (
+        <div class="detail-section">
+          <dt class="text-dim text-sm mb-2">Classification</dt>
+          <dd class="flex flex-wrap gap-2 text-xs">
+            {book.ddc && book.ddc.length > 0 && (
+              <span class="meta-tag text-mono" title="Dewey Decimal">DDC {book.ddc[0]}</span>
+            )}
+            {book.lcc && book.lcc.length > 0 && (
+              <span class="meta-tag text-mono" title="Library of Congress">LCC {book.lcc[0]}</span>
+            )}
+            {book.subject_facet && book.subject_facet.slice(0, 8).map(s => (
+              <span class="meta-tag">{s}</span>
+            ))}
+          </dd>
+        </div>
+      )}
+
+      {/* This edition — what the user is actually reading. Distinct from
+          the work-level metadata above (year, original title). */}
+      {(book.isbn || book.language || book.translator || (book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn)) && (
+        <div class="detail-section">
+          <dt class="text-dim text-sm mb-2">This edition</dt>
+          <dd class="flex flex-wrap gap-3 text-xs items-center">
+            {book.isbn && (
+              <span class="text-mono">ISBN {book.isbn}</span>
+            )}
+            {book.language && (
+              <span>{languageLabel(book.language)}</span>
+            )}
+            {book.translator && (
+              <span>Translated by {book.translator}</span>
+            )}
+            {book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn && (
+              <span class="text-dim text-mono">First-edition ISBN: {book.first_edition_isbn}</span>
+            )}
+          </dd>
+        </div>
+      )}
+
+      {book.subject_facet && book.subject_facet.length === 0 && book.subjects && book.subjects.length > 0 && (
         <dl class="detail-section">
           <dt class="text-dim text-sm mb-2">Subjects</dt>
           <dd class="flex flex-wrap gap-2">
-            {book.subjects.map(s => (
+            {book.subjects.slice(0, 10).map(s => (
               <span class="meta-tag">{s}</span>
             ))}
           </dd>

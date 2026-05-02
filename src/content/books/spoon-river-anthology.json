@@ -27,5 +27,44 @@
   "subject_facet": [
     "Poetry (poetic works by one author)"
   ],
-  "ol_work_key": "/works/OL39854103W"
+  "ol_work_key": "/works/OL39854103W",
+  "ddc": [
+    "811.52",
+    "811.5"
+  ],
+  "lcc": [
+    "PS-3525.00000000.A83 S5 1992",
+    "PS-3525.00000000.A83S5 1991",
+    "PS-3525.00000000 A83 S5",
+    "PS-3525.00000000.A83S5 2007b",
+    "PS-3525.00000000.A83 S5 2005",
+    "PS-3525.00000000.A83 S5 1915",
+    "PS-3525.00000000.A83 S5 1991",
+    "PS-3525.00000000.A83 S5 1924",
+    "PS-3525.00000000.A83 S5 2007",
+    "PS-3525.00000000.A83S5 2008",
+    "PS-3525.00000000",
+    "PS-3525.00000000.A83 S5 1916",
+    "PS-3525.00000000.A83",
+    "PS-3525.00000000.A83 S5 1963",
+    "PS-3525.00000000.A83 S5 1919",
+    "PS-3525.00000000.A83 S5 2007b",
+    "PS-3525.00000000.A83S5 1992",
+    "PS-3525.00000000.A83 S66 1992",
+    "PS-3525.00000000.A83 S5 1921",
+    "PS-3525.00000000.A83 S5 1983",
+    "PS-3525.00000000.A83 S5 2008",
+    "PS-3525.00000000.A83 S5 1942",
+    "PS-3525.00000000.A83 S5 1986",
+    "PS-3525.00000000.A83 S5 1962"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL54277816M"
 }

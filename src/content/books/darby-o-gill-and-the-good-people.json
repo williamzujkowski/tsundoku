@@ -24,5 +24,27 @@
     "Ireland, fiction",
     "Juvenile fiction"
   ],
-  "ol_work_key": "/works/OL2020278W"
+  "ol_work_key": "/works/OL2020278W",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.K1713 Dar 2002",
+    "PS-3521.00000000.A84 Da",
+    "PZ-0007.00000000.K1713 Dar 1998",
+    "PZ-0003.00000000.K171 Da4",
+    "PZ-0003.00000000.K171 Da",
+    "PS-3521.00000000.A84 Da4"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781429958714",
+  "representative_edition_key": "/books/OL37362722M"
 }

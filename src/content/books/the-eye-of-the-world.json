@@ -1,7 +1,7 @@
 {
   "title": "The Eye of the World",
   "author": "Robert Jordan",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-eye-of-the-world",
   "tags": [
@@ -10,7 +10,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "American Fantasy",
     "Fantasy .",
@@ -66,5 +66,14 @@
     "series:The Wheel of Time"
   ],
   "first_published": 1990,
-  "ol_work_key": "/works/OL7924103W"
+  "ol_work_key": "/works/OL7924103W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 69,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33006553M"
 }

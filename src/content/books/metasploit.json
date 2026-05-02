@@ -15,5 +15,39 @@
   "pages": 332,
   "google_books_url": "https://play.google.com/store/books/details?id=T9HKgEOCYZEC&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25 M4865 2011",
+    "QA-0076.90000000.A25"
+  ],
+  "subject_facet": [
+    "Access control",
+    "COMPUTERS / Internet / General",
+    "COMPUTERS / Internet / Security",
+    "COMPUTERS / Security / General",
+    "COMPUTERS / Security / Viruses",
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computers",
+    "Metasploit (Electronic resource)",
+    "Open source software",
+    "Penetration testing (Computer security)",
+    "Security measures",
+    "Testing"
+  ],
+  "ol_work_key": "/works/OL15991444W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781593272883",
+  "representative_edition_key": "/books/OL24896075M"
 }

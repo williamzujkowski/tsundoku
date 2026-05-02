@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Knife of Dreams is a fantasy novel by American author Robert Jordan, the eleventh book in his series The Wheel of Time. It was the last book which Jordan wrote completely before his death in 2007, with Brandon Sanderson finishing the series afterwards based on Jordan's notes. It was published by Tor Books in the U.S. and Orbit in the UK and released on October 11, 2005.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/WoT11_KnifeOfDreams.jpg/250px-WoT11_KnifeOfDreams.jpg",
   "isbn": "9780812540116",
@@ -35,5 +35,14 @@
   ],
   "ol_work_key": "/works/OL7924194W",
   "first_published": 2005,
-  "pages": 832
+  "pages": 832,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 30,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9556810M"
 }

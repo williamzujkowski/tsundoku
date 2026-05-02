@@ -30,5 +30,56 @@
     "Homicide",
     "Women detectives"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6106.00000000.R457 I52 2007b",
+    "PR-6106.00000000.R457 I52 2008",
+    "PR-6106.00000000.R457I52 2007",
+    "PR-6106.00000000.R457",
+    "PR-6106.00000000.R457 I52 2007c",
+    "PR-6106.00000000.R457 I52 2007",
+    "PR-6106.00000000"
+  ],
+  "subject_facet": [
+    "Cassie Maddox (Fictitious character)",
+    "Children",
+    "Crime, fiction",
+    "Crimes against",
+    "Detective and mystery stories",
+    "Detectives",
+    "Dublin (ireland), fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, police procedural",
+    "Fiction, psychological",
+    "Fiction, thrillers, general",
+    "Homicide",
+    "Investigation",
+    "Irish fiction",
+    "Large type books",
+    "Murder",
+    "Mystery fiction",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Psychological fiction",
+    "Rob Ryan (Fictitious character)",
+    "Suspense",
+    "Victims of crimes",
+    "Women detectives",
+    "nyt:trade-fiction-paperback=2008-06-15"
+  ],
+  "pages": 578,
+  "ol_work_key": "/works/OL7989979W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 21,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29439137M"
 }

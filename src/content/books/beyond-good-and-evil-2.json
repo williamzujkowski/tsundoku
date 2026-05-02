@@ -9,7 +9,7 @@
     "r-philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL34043021W",
-  "first_published": 1955,
+  "first_published": 1886,
   "language": "eng",
   "description": "Friedrich Nietzsche's Beyond Good and Evil is translated from the German by R.J. Hollingdale with an introduction by Michael Tanner in Penguin Classics. Beyond Good and Evil confirmed Nietzsche's position as the towering European philosopher of his age. The work dramatically rejects the tradition of Western thought with its notions of truth and God, good and evil. Nietzsche demonstrates that the Christian world is steeped in a false piety and infected with a 'slave morality'. With wit and energy...",
   "cover_url": "https://books.google.com/books/content?id=pQqWigp1pv0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -96,5 +96,16 @@
     "Translations into English",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL98174W"
+  "ol_work_key": "/works/OL98174W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781548858599",
+  "representative_edition_key": "/books/OL3701482M"
 }

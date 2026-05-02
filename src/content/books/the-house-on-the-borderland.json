@@ -35,5 +35,47 @@
   "gutenberg_id": 10002,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/10002",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10002.html.images",
-  "librivox_url": "https://librivox.org/the-house-on-the-borderland-by-william-hope-hodgson/"
+  "librivox_url": "https://librivox.org/the-house-on-the-borderland-by-william-hope-hodgson/",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6015.00000000.O253H68 2008",
+    "PR-6015.00000000.O253 Ho",
+    "PZ-0003.00000000.H6685 Ho10",
+    "PR-6015.00000000.O253 H68 2009",
+    "PR-6015.00000000.O253 H68 1988",
+    "PR-6015.00000000.O253 Ho10",
+    "PR-6015.00000000.O253 H6 1983",
+    "PZ-0003.00000000.H6685 Ho",
+    "PR-6015.00000000.O253 H68 2008"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Classic Literature",
+    "English Fantasy fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Fiction, visionary & metaphysical",
+    "Horror",
+    "Ireland, fiction",
+    "Lovecraftian",
+    "Mystery and detective stories",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL810402W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 43,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30727670M"
 }

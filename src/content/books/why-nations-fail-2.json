@@ -69,5 +69,14 @@
     "nyt:combined-print-and-e-book-nonfiction=2012-04-08",
     "nyt:paperback-nonfiction=2013-10-06"
   ],
-  "ol_work_key": "/works/OL16568759W"
+  "ol_work_key": "/works/OL16568759W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 15,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29073573M"
 }

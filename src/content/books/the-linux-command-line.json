@@ -53,5 +53,16 @@
     "Scripting languages (Computer science)",
     "System Administration"
   ],
-  "ol_work_key": "/works/OL16117040W"
+  "ol_work_key": "/works/OL16117040W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781593273897",
+  "representative_edition_key": "/books/OL25004747M"
 }

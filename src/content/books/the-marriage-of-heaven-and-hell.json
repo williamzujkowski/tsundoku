@@ -1,7 +1,7 @@
 {
   "title": "The Marriage of Heaven and Hell",
   "author": "William Blake",
-  "category": "Poetry",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-marriage-of-heaven-and-hell",
   "tags": [
@@ -40,5 +40,64 @@
   ],
   "gutenberg_id": 45315,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/45315",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/45315.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/45315.html.images",
+  "ddc": [
+    "821.7",
+    "769.924"
+  ],
+  "lcc": [
+    "PR-4144.00000000.M3 1906",
+    "PR-4144.00000000.M3 F69",
+    "PR-4144.00000000.P73 1977",
+    "PR-4144.00000000.M3 1825a",
+    "NE-0642.00000000.B5 A4 1960",
+    "PR-4144.00000000.M3 1928 Rosenwald Coll",
+    "PR-4144.00000000.M3 1868",
+    "PR-4144.00000000.M3 1975",
+    "PR-4144.00000000 M3 1972",
+    "PR-4144.00000000.M3 1994b",
+    "PR-4144.00000000.M3 F7 1900",
+    "PR-4144.00000000.M3 1825b",
+    "PR-4144.00000000 M3 1970",
+    "PR-4144.00000000.M3 1794",
+    "KNS0018.50000000.Z8 K85 1962x",
+    "PR-4144.00000000.M3 F7",
+    "PR-4144.00000000.M3 1994",
+    "PR-4144.00000000.M3 1993",
+    "PR-4144.00000000.M3 1825c",
+    "PR-4144.00000000.M3 1885",
+    "PR-4144.00000000.M3 1972"
+  ],
+  "subject_facet": [
+    "Annotations and citations (Law)",
+    "Criticism and interpretation",
+    "English Illumination of books and manuscripts",
+    "English Manuscripts",
+    "English Philosophy",
+    "English literature",
+    "English poetry",
+    "Facsimiles",
+    "Heaven",
+    "Hell",
+    "Illustrations",
+    "Law reports, digests",
+    "Manuscripts",
+    "Manuscripts Facsimiles",
+    "Marriage of Heaven and Hell (Blake, William)",
+    "Mysticism in art",
+    "Poetry (poetic works by one author)",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL575441W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 34,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL1077276M"
 }

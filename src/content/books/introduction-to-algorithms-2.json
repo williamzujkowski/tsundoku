@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "0262032937",
-  "first_published": 2001,
+  "first_published": 1990,
   "pages": 1216,
   "subjects": [
     "Computers"
@@ -73,5 +73,16 @@
     "Компьютеры",
     "Компьютеры//Алгоритмы и структуры данных"
   ],
-  "ol_work_key": "/works/OL4781294W"
+  "ol_work_key": "/works/OL4781294W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 18,
+  "first_published_circa": false,
+  "first_edition_isbn": "0262530910",
+  "representative_edition_key": "/books/OL3946060M"
 }

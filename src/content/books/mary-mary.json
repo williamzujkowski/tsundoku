@@ -33,5 +33,17 @@
     "Gospel music"
   ],
   "ol_work_key": "/works/OL8925900W",
-  "pages": 76
+  "pages": 76,
+  "ddc": [
+    "796.40924"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL35899948M"
 }

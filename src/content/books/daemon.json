@@ -23,5 +23,24 @@
     "Interplanetary voyages",
     "Fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Imaginary wars and battles",
+    "Interplanetary voyages",
+    "Life on other planets",
+    "Space warfare"
+  ],
+  "pages": 414,
+  "ol_work_key": "/works/OL16965320W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL25557083M"
 }

@@ -28,5 +28,32 @@
     "Linguagem de programação (textos avançados)",
     "Qa76.7 .p54 2002",
     "005.13"
-  ]
+  ],
+  "lcc": [
+    "QA-0076.70000000.P54 2002",
+    "QA-0076.70000000.P54 2002eb"
+  ],
+  "subject_facet": [
+    "005.13",
+    "COMPUTERS",
+    "General",
+    "Langages de programmation",
+    "Linguagem de programação (textos avançados)",
+    "Programmeertalen",
+    "Programming Languages",
+    "Programming languages (Electronic computers)",
+    "Qa76.7 .p54 2002"
+  ],
+  "ol_work_key": "/works/OL4078119W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780262162098",
+  "representative_edition_key": "/books/OL9468435M"
 }

@@ -52,5 +52,12 @@
     "Representation (philosophy)",
     "Wissensrepräsentation"
   ],
-  "ol_work_key": "/works/OL20228324W"
+  "ol_work_key": "/works/OL20228324W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL29365013M"
 }

@@ -14,7 +14,7 @@
   "description": "\"His Last Bow\" is a collection of eight short-stories about the adventures of the detective Sherlock Holmes. Here are tales of murder, abductions, stolen information, and secrets. We follow Holmes as he endeavours to solve each of these mysteries. The collection includes: \"The Adventure of Wisteria Lodge\" (1908) \"The Adventure of the Cardboard Box\" (1892) \"The Adventure of the Red Circle\" (1911) \"The Adventure of the Bruce-Partington Plans\" (1908) \"The Adventure of the Dying Detective\" (1913) \"T",
   "cover_url": "https://books.google.com/books/content?id=hUkeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788726605594",
-  "first_published": 2021,
+  "first_published": 2018,
   "pages": 194,
   "google_books_url": "https://play.google.com/store/books/details?id=hUkeEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -33,5 +33,18 @@
   "gutenberg_id": 2350,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2350",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2350.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "[Fic]"
+  ],
+  "ol_work_key": "/works/OL41776294W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL56855184M"
 }

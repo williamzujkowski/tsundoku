@@ -11,7 +11,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=H9ygEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783368323905",
-  "first_published": 2022,
+  "first_published": 1889,
   "pages": 342,
   "google_books_url": "http://books.google.com/books?id=H9ygEAAAQBAJ&dq=intitle:The+House+of+the+Wolfings&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,47 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2885",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2885.html.images",
   "librivox_url": "https://librivox.org/the-house-of-the-wolfings-by-william-morris/",
-  "description": "'Othello', in the words of Edward Pechter, 'has become the tragedy of choice for the present generation.'"
+  "description": "'Othello', in the words of Edward Pechter, 'has become the tragedy of choice for the present generation.'",
+  "ddc": [
+    "821.8",
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5079.00000000.T34 1889",
+    "PR-5079.00000000.T34 1901",
+    "PR-5079.00000000 H6 1979",
+    "PR-5079.00000000.T34 1980",
+    "PR-5079.00000000.H6 1979",
+    "PR-5079.00000000.T34 1978",
+    "PR-5079.00000000.H67 2003",
+    "PZ-0003.00000000.M8345T",
+    "PR-5079.00000000 W6 1900",
+    "PR-5079.00000000.S7 1979"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "English fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, horror",
+    "Fiction, romance, fantasy"
+  ],
+  "ol_work_key": "/works/OL47670W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 156,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56816991M"
 }

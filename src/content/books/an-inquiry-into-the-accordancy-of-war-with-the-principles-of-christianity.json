@@ -64,5 +64,16 @@
     "War, religious aspects",
     "Wars"
   ],
-  "ol_work_key": "/works/OL6607161W"
+  "ol_work_key": "/works/OL6607161W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 25,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11924734M"
 }

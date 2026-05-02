@@ -12,7 +12,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=jtBaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783732668595",
-  "first_published": 2018,
+  "first_published": 1916,
   "pages": 106,
   "google_books_url": "http://books.google.com/books?id=jtBaDwAAQBAJ&dq=intitle:The+National+Being&hl=&source=gbs_api",
   "language": "eng",
@@ -37,5 +37,33 @@
   "gutenberg_id": 8104,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8104",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8104.html.images",
-  "description": "KENT: I thought the king favored the Duke of Albany over the Duke of Cornwall."
+  "description": "KENT: I thought the king favored the Duke of Albany over the Duke of Cornwall.",
+  "ddc": [
+    "914.15"
+  ],
+  "lcc": [
+    "DA-0960.00000000.R78 1937",
+    "DA-0960.00000000.R78 1930",
+    "DA-0960.00000000.R78 1918",
+    "DA-0960.00000000.R78 1916",
+    "DA-0960.00000000.R78 1925",
+    "DA-0960.00000000 R8"
+  ],
+  "subject_facet": [
+    "Cooperation",
+    "Economic conditions",
+    "Politics and government"
+  ],
+  "ol_work_key": "/works/OL4653981W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 15,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8471580M"
 }

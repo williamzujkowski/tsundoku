@@ -29,5 +29,56 @@
     "Kings and rulersxAssassination",
     "Authors in literature"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "813.54",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3527.00000000.A15 Pal",
+    "PS-3527.00000000.A15P3 1989",
+    "PG-3476.00000000.N3 P34",
+    "PS-3527.00000000.A15 P3 1968",
+    "PS-3527.00000000.A15 P3 1972a",
+    "PS-3527.00000000.A15 P3 1989",
+    "PS-3527.00000000.A15 P32 1968",
+    "PS-3527.00000000.A15 P3 1980",
+    "PZ-0003.00000000.N121 Pal",
+    "PS-3527.00000000.A15P3 1992",
+    "PZ-0003.00000000 N121Pa",
+    "PS-3527.00000000.A15",
+    "PS-3527.00000000.A15 P317 1983",
+    "PG-3476.00000000.N3",
+    "PS-3527.00000000.A15 P3 2000",
+    "PS-3527.00000000.A15 P317 1991x",
+    "PS-3527.00000000.A15 P3 1992"
+  ],
+  "subject_facet": [
+    "American literature",
+    "American poetry",
+    "Assassination",
+    "Authors in literature",
+    "Continental european fiction (fictional works by one author)",
+    "Experimental fiction",
+    "Fiction",
+    "Immigrants",
+    "Kings and rulers",
+    "Kings and rulersxAssassination",
+    "New York Times reviewed",
+    "Russian fiction",
+    "Translations into English",
+    "Écrivains dans la littérature"
+  ],
+  "ol_work_key": "/works/OL627081W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 58,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780297168157",
+  "representative_edition_key": "/books/OL7502507M"
 }

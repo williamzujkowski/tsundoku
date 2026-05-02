@@ -14,7 +14,7 @@
   "description": "A timeless Agatha Christie classic that blends light-hearted British charm with a gripping tale of murder and espionage. Part of new handsome and affordbale series of Agatha Christie hardcover editions. Set in the elegant backdrop of Chimneys, a grand English estate, what begins as a playful prank among friends quickly turns deadly when one of the guests, Gerry Wade, is found dead under mysterious circumstances. When a second death follows, Lady Eileen “Bundle” Brent, a spirited and sharp-witted",
   "cover_url": "https://books.google.com/books/content?id=DYOOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781949846898",
-  "first_published": 2026,
+  "first_published": 1929,
   "pages": 255,
   "google_books_url": "https://play.google.com/store/books/details?id=DYOOEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -39,5 +39,52 @@
   ],
   "gutenberg_id": 75288,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75288",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75288.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75288.html.images",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6005.00000000.H66S46 2025",
+    "PR-6005.00000000.H66",
+    "PR-6005.00000000.H66 S46 1986",
+    "PR-6005.00000000.H66S46 1986",
+    "PR-6005.00000000.H66 Sev",
+    "PR-6005.00000000.H66 S46 2013",
+    "PR-6005.00000000.H66 S48 1978",
+    "PR-6005.00000000.H66 S4 2012",
+    "PR-6005.00000000.H66 S48 1971",
+    "PZ-0003.00000000.C4637 Sev",
+    "PR-6005.00000000.H66 S48 1991"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Alarm clocks",
+    "Detective and mystery stories",
+    "Detectives",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "English literature",
+    "Fiction",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, mystery & detective, women sleuths",
+    "Large type books",
+    "Mystery",
+    "Police",
+    "Private investigators",
+    "Superintendent Battle (Fictitious character)",
+    "Translations into Russian"
+  ],
+  "ol_work_key": "/works/OL471784W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 91,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL57569360M"
 }

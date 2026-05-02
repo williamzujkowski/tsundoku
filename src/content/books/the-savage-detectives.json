@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1447202856",
-  "first_published": 2012,
+  "first_published": 1998,
   "pages": 591,
   "subjects": [
     "Detective and mystery stories"
@@ -61,5 +61,22 @@
     "Suspense fiction",
     "Underground literature"
   ],
-  "ol_work_key": "/works/OL712032W"
+  "ol_work_key": "/works/OL712032W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 50,
+  "first_published_circa": false,
+  "original_language": "spa",
+  "original_title": "Los detectives salvajes",
+  "first_edition_isbn": "8433910868",
+  "representative_edition_key": "/books/OL28190069M",
+  "translator": "Natasha Wimmer"
 }

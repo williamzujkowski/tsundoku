@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "cover_url": "https://covers.openlibrary.org/b/id/8534040-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8534040-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19613616W",
@@ -20,5 +20,16 @@
     "Fiction, fantasy, general"
   ],
   "ol_work_key": "/works/OL19613616W",
-  "pages": 401
+  "pages": 401,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781524797751",
+  "representative_edition_key": "/books/OL26842998M"
 }

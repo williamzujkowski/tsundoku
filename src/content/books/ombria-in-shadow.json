@@ -29,5 +29,39 @@
     "Fiction, fantasy, general",
     "Princes"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "816",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.C38O43 2002",
+    "PS-3563.00000000.C38 O43 2002",
+    "PS-3563.00000000.C38",
+    "PS-3563.00000000.C38 O43 2003a"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Hell",
+    "Imaginary places",
+    "Inheritance and succession",
+    "Kings and rulers",
+    "Magic",
+    "Mistresses",
+    "Princes",
+    "Witches"
+  ],
+  "ol_work_key": "/works/OL15722132W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "first_edition_isbn": "9783608932010",
+  "representative_edition_key": "/books/OL29182441M"
 }

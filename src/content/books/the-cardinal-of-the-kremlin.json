@@ -10,7 +10,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "American Suspense fiction",
     "Fiction",
@@ -58,5 +58,14 @@
     "United states, fiction"
   ],
   "first_published": 1988,
-  "ol_work_key": "/works/OL159397W"
+  "ol_work_key": "/works/OL159397W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 29,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7893471M"
 }

@@ -25,5 +25,31 @@
     "Outer space, exploration",
     "Astronomy"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "523.1",
+    "919.904"
+  ],
+  "lcc": [
+    "QB-0500.26200000.S24 1994",
+    "QB-0500.26200000"
+  ],
+  "subject_facet": [
+    "Astronomy",
+    "Cosmology",
+    "Exploration",
+    "Outer space",
+    "Outer space, exploration",
+    "Popular works"
+  ],
+  "ol_work_key": "/works/OL2950948W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 19,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9731861M"
 }

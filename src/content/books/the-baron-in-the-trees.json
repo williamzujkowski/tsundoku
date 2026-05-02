@@ -6,7 +6,7 @@
   "slug": "the-baron-in-the-trees",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL29243966W",
-  "first_published": 2019,
+  "first_published": 1957,
   "description": "\"Cosimo di Rondó, a young Italian nobleman of the eighteenth century, rebels against his parents by climbing into the trees and remaining there for the rest of his life. He adapts efficiently to an existence in the forest canopy he hunts, sows crops, plays games with earth-bound friends, fights forest fires, solves engineering problems, and even manages to have love affairs. From his perch in the trees, Cosimo sees the Age of Enlightenment pass by and a new century dawn. Long considered one of C...",
   "cover_url": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -18,7 +18,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=8WM6DwAAQBAJ&dq=The+Baron+in+the+Trees+Italo+Calvino&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "168 B",
     "858",
@@ -67,5 +67,19 @@
     "Streit",
     "Vater"
   ],
-  "ol_work_key": "/works/OL15322W"
+  "ol_work_key": "/works/OL15322W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 50,
+  "first_published_circa": false,
+  "original_language": "ita",
+  "original_title": "Il barone rampante",
+  "representative_edition_key": "/books/OL28885047M"
 }

@@ -45,5 +45,37 @@
     "Metaphysics",
     "Philosophy, introductions"
   ],
-  "ol_work_key": "/works/OL27105872W"
+  "ol_work_key": "/works/OL27105872W",
+  "ddc": [
+    "110"
+  ],
+  "lcc": [
+    "B--1649.00000000.R93P65 1998",
+    "BD-0021.00000000.R85 1937",
+    "BD-0021.00000000 R8",
+    "B--1649.00000000.R93 P65 1998",
+    "BD-0021.00000000.R8 1959",
+    "BD-0021.00000000.R8",
+    "B--1649.00000000.R93P65 1997",
+    "B--1649.00000000.R93P65 1999",
+    "B--1649.00000000.R93 P65 1997",
+    "B--1649.00000000.R93 P65 1998b",
+    "B--1649.00000000.R93 P65 2001",
+    "B--1649.00000000.R93 P65 1990",
+    "B--1649.00000000.R93 P65 2004",
+    "BD-0021.00000000.R8 1929",
+    "B--1649.00000000.R93 P65 1999",
+    "B--1649.00000000.R93 P65 1959",
+    "B--1649.00000000.R93P65 2004",
+    "B--1649.00000000.R93P65 1990"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36794654M"
 }

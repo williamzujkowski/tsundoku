@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12621988-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12621988-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27292338W",
-  "first_published": 1946,
+  "first_published": 1725,
   "language": "eng",
   "description": "A new translation of Homer's classic follows Merrill's successful earlier version of the \"Odyssey\" in capturing the feel of the original Greek",
   "isbn": "0472116177",
@@ -542,5 +542,18 @@
     "open_syllabus_project",
     "Épopées grecques--traductions anglaises"
   ],
-  "ol_work_key": "/works/OL61982W"
+  "ol_work_key": "/works/OL61982W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL32340516M",
+  "translator": "Samuel Butler"
 }

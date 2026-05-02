@@ -92,5 +92,16 @@
     "Wordsworth, william, 1770-1850"
   ],
   "ol_work_key": "/works/OL26034W",
-  "pages": 336
+  "pages": 336,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 100,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7591724M"
 }

@@ -11,7 +11,7 @@
   "description": "Books for All Kinds of Readers. ReadHowYouWant offers the widest selection of on-demand, accessible format editions on the market today. Our 7 different sizes of EasyRead are optimized by increasing the font size and spacing between the words and the letters. We partner with leading publishers around the globe. Our goal is to have accessible editions simultaneously released with publishers' new books so that all readers can have access to the books they want to read.",
   "cover_url": "https://books.google.com/books/content?id=lVCFFB-FRXAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781442927117",
-  "first_published": 2009,
+  "first_published": 1862,
   "pages": 474,
   "google_books_url": "http://books.google.com/books?id=lVCFFB-FRXAC&dq=intitle:Orley+Farm&hl=&source=gbs_api",
   "language": "eng",
@@ -31,5 +31,57 @@
   "gutenberg_id": 23000,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/23000",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/23000.html.images",
-  "librivox_url": "https://librivox.org/orley-farm-by-anthony-trollope/"
+  "librivox_url": "https://librivox.org/orley-farm-by-anthony-trollope/",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.T750",
+    "PR-5684.00000000.O7 2008",
+    "PR-5684.00000000 O7 1950A",
+    "PR-5684.00000000.O7 Or20",
+    "PR-5684.00000000.O7 Or6",
+    "PZ-0003.00000000.T75 Or23",
+    "PR-5684.00000000.O7 1985",
+    "PR-5684.00000000",
+    "PR-5684.00000000 O6 1908",
+    "PR-5682.00000000.S54 1989 v.36",
+    "PR-5684.00000000 O7 1878",
+    "PZ-0003.00000000.T75 Or6",
+    "PZ-0003.00000000 T75 Or",
+    "PR-5684.00000000 O7 1950",
+    "PR-5684.00000000.O7 1862c",
+    "PR-5684.00000000.O7 .T750",
+    "PR-5684.00000000.O7 2000",
+    "PR-5684.00000000.O7 Or23",
+    "PZ-0003.00000000.T75 Or20",
+    "PR-5684.00000000.O7 1993"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Domestic fiction",
+    "England",
+    "Fiction",
+    "Fiction, espionage",
+    "Fiction, thrillers, espionage",
+    "Forgers",
+    "Great britain, fiction",
+    "Inheritance and succession",
+    "Landowners",
+    "Manners and customs",
+    "Mothers and sons",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL109869W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 66,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56310004M"
 }

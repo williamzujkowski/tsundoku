@@ -29,5 +29,12 @@
     "American drama",
     "Continental european fiction (fictional works by one author)"
   ],
-  "ol_work_key": "/works/OL24845405W"
+  "ol_work_key": "/works/OL24845405W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL33022170M"
 }

@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7504483-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7504483-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17400813W",
-  "first_published": 2009,
+  "first_published": 1922,
   "language": "eng",
   "description": "A powerful, passionate explanation of the roots of social inequality, Rousseau's \"Discourse \"influenced virtually every major philosopher of the Enlightenment. It remains among the 18th-century's most provocative and frequently studied works.",
   "isbn": "0192839810",
@@ -31,7 +31,7 @@
     "Ciencias políticas",
     "Political science"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "320.011",
     "323.41",
@@ -84,5 +84,19 @@
     "Égalité",
     "Égalité (Sociologie)"
   ],
-  "ol_work_key": "/works/OL80737W"
+  "ol_work_key": "/works/OL80737W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 27,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+  "representative_edition_key": "/books/OL7384362M"
 }

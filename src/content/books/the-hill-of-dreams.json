@@ -1,7 +1,7 @@
 {
   "title": "The Hill of Dreams",
   "author": "Arthur Machen",
-  "category": "Fantasy",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-hill-of-dreams",
   "tags": [
@@ -13,7 +13,7 @@
   "description": "'The Hill of Dreams' follows the story of the introverted rector's son Lucian Taylor. He stumbles upon an odd Roman hill fort in his Welsh hometown which possesses his mind with supernatural visions and pagan erotic imagery. Compelled by the strange desires stirring in his soul, he moves to London to become a writer. But his hopes that the change of scenery would restore his sanity prove futile as his darkest hallucinations begin to assume a very tangible form. 'The Hill of Dreams' is a moving s",
   "cover_url": "https://books.google.com/books/content?id=h0ljEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788726615319",
-  "first_published": 2021,
+  "first_published": 1907,
   "pages": 189,
   "google_books_url": "https://play.google.com/store/books/details?id=h0ljEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -33,5 +33,44 @@
   "gutenberg_id": 13969,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/13969",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/13969.html.images",
-  "librivox_url": "https://librivox.org/the-hill-of-dreams-by-arthur-machen/"
+  "librivox_url": "https://librivox.org/the-hill-of-dreams-by-arthur-machen/",
+  "ddc": [
+    "[Fic]",
+    "823.91",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.M183 Hi",
+    "PR-6025.00000000.A245 H5 2007",
+    "PR-6025.00000000.A245 H5 1986",
+    "PR-6025.00000000 A245 H5 1954",
+    "PR-6025.00000000.A245H5 1986",
+    "PR-6025.00000000.A245 H5 1907",
+    "PR-6025.00000000.A245 H5 2010"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Authors, fiction",
+    "Dreams",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, paranormal",
+    "Fiction, horror",
+    "Imagination",
+    "London (england), fiction",
+    "Wales, fiction"
+  ],
+  "ol_work_key": "/works/OL3389031W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 200,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34209107M"
 }

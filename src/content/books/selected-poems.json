@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Fernando Pessoa",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems",
   "tags": [
@@ -42,5 +42,12 @@
     "Poetry anthologies: from c 1900 -",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL847210W"
+  "ol_work_key": "/works/OL847210W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "representative_edition_key": "/books/OL35768959M"
 }

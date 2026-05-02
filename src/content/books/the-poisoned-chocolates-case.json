@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "The noted amateur detective Roger Sheringham has formed his own private club of “criminologists.” As a challenge for this august group, he proposes that they individually attempt to solve a murder that has baffled Scotland Yard: the death of wealthy businessman Graham Bendix’s wife after he presented her a box of poisoned chocolates. The mystery lies in the fact that Bendix only got those chocolates by chance at his club from Sir Eustace Pennefather, a notorious man about town. Rather than the s",
   "cover_url": "https://books.google.com/books/content?id=SFpYEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2025,
+  "first_published": 1929,
   "pages": 230,
   "google_books_url": "https://play.google.com/store/books/details?id=SFpYEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -55,5 +55,16 @@
     "Private investigators",
     "Roger Sheringham (Fictitious character)"
   ],
-  "ol_work_key": "/works/OL5591844W"
+  "ol_work_key": "/works/OL5591844W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 22,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8926799M"
 }

@@ -36,5 +36,32 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70964.html.images",
   "description": ">  The crime: The Home Secretary Sir James Watson was found shot in the head, inside his study which was locked from the inside. There was no apparent way in or out for the murderer to have been able to get into the room to commit the crime, nor a way to escape unnoticed. Further, the housekeeper Mrs. Simmons would certainly have heard any shot--but did not.",
   "pages": 186,
-  "isbn": "9782322553754"
+  "isbn": "9782322553754",
+  "lcc": [
+    "PR-6025.00000000.A797 Wr2",
+    "PZ-0003.00000000.M39375 Wr",
+    "PZ-0003.00000000.M39375 Wr2",
+    "PR-6025.00000000.A797 Wr"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Great Britain--Metropolitan Police Office Fiction",
+    "Great Britain. Metropolitan Police Office -- Fiction",
+    "Murder -- Investigation -- Fiction",
+    "Murder Fiction",
+    "Mystery",
+    "Mystery fiction",
+    "Private investigators -- England -- London -- Fiction"
+  ],
+  "ol_work_key": "/works/OL7536338W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL51733568M"
 }

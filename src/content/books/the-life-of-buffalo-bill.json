@@ -13,11 +13,38 @@
   "pages": 442,
   "google_books_url": "https://play.google.com/store/books/details?id=niDEEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "Biography & Autobiography"
   ],
   "isbn": "9781419169601",
   "first_published": 2004,
-  "ol_work_key": "/works/OL2755792W"
+  "ol_work_key": "/works/OL2755792W",
+  "ddc": [
+    "978.02092",
+    "978.0209"
+  ],
+  "lcc": [
+    "F--0594.00000000.C6745 1991"
+  ],
+  "subject_facet": [
+    "Biography",
+    "Buffalo bill, 1846-1917",
+    "Entertainers",
+    "Frontier and pioneer life",
+    "Frontier and pioneer life, west (u.s.)",
+    "Pioneers",
+    "West (u.s.), biography"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781419169601",
+  "representative_edition_key": "/books/OL8481751M"
 }

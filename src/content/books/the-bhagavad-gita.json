@@ -26,5 +26,22 @@
     "Libros sagrados",
     "Sacred books"
   ],
-  "ol_work_key": "/works/OL9866296W"
+  "ol_work_key": "/works/OL9866296W",
+  "ddc": [
+    "294.5924"
+  ],
+  "lcc": [
+    "PK-3633.00000000.B5 M35 1962"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "representative_edition_key": "/books/OL38662082M",
+  "translator": "Juan Mascaró",
+  "copyright_status": "public_domain"
 }

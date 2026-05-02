@@ -23,5 +23,29 @@
     "Philosophy"
   ],
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/on-the-shortness-of-life-by-lucius-annaeus-seneca/"
+  "librivox_url": "https://librivox.org/on-the-shortness-of-life-by-lucius-annaeus-seneca/",
+  "ddc": [
+    "188"
+  ],
+  "lcc": [
+    "B--0616.00000000.D532 E5 2005",
+    "B--0616.00000000.D532E5 2005"
+  ],
+  "subject_facet": [
+    "Conduct of life",
+    "Conduct of life.",
+    "Philosophy"
+  ],
+  "ol_work_key": "/works/OL15222991W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "0143036327",
+  "representative_edition_key": "/books/OL3424522M"
 }

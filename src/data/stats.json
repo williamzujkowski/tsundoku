@@ -14,9 +14,9 @@
     "descriptions_pct": 97.5,
     "isbns": 3553,
     "isbns_pct": 98.2,
-    "pages": 3473,
-    "pages_pct": 96.0,
-    "years": 3600,
+    "pages": 3495,
+    "pages_pct": 96.6,
+    "years": 3606,
     "subjects": 3275
   },
   "top_authors": [
@@ -104,31 +104,31 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1789
+      "count": 1520
     },
     {
       "name": "Philosophy",
-      "count": 315
+      "count": 369
     },
     {
       "name": "Science Fiction",
-      "count": 208
-    },
-    {
-      "name": "History",
-      "count": 191
+      "count": 303
     },
     {
       "name": "Fantasy",
-      "count": 132
+      "count": 239
+    },
+    {
+      "name": "History",
+      "count": 183
     },
     {
       "name": "Poetry",
-      "count": 122
+      "count": 174
     },
     {
       "name": "Mathematics",
-      "count": 119
+      "count": 108
     },
     {
       "name": "Computer Science",
@@ -140,39 +140,39 @@
     },
     {
       "name": "Economics",
-      "count": 69
+      "count": 66
     },
     {
-      "name": "Political Theory",
-      "count": 67
+      "name": "Horror",
+      "count": 57
     },
     {
       "name": "Classics",
-      "count": 64
+      "count": 57
     },
     {
-      "name": "Science",
-      "count": 52
+      "name": "Political Theory",
+      "count": 53
     },
     {
       "name": "Security",
       "count": 50
     },
     {
-      "name": "Religion",
-      "count": 45
+      "name": "Science",
+      "count": 46
     },
     {
       "name": "Drama",
       "count": 42
     },
     {
-      "name": "Horror",
+      "name": "Religion",
       "count": 41
     },
     {
       "name": "Literary Criticism",
-      "count": 37
+      "count": 34
     },
     {
       "name": "Non-Western Literature",
@@ -184,7 +184,7 @@
     },
     {
       "name": "Biography/Memoir",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Essays",
@@ -216,11 +216,11 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 161,
-    "1800_1899": 255,
-    "1900_1949": 469,
-    "1950_1999": 1210,
-    "2000_plus": 1505
+    "before_1800": 199,
+    "1800_1899": 397,
+    "1900_1949": 709,
+    "1950_1999": 1226,
+    "2000_plus": 1075
   },
   "reading_progress": {
     "read": 3210,
@@ -237,10 +237,10 @@
   "oldest_year": -400,
   "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1285741,
-    "estimated_reading_hours": 21429,
+    "total_pages": 1292916,
+    "estimated_reading_hours": 21549,
     "shelf_meters": 90.5,
-    "books_with_pages": 3473
+    "books_with_pages": 3495
   },
-  "generated_at": "2026-05-01T23:41:51.599595"
+  "generated_at": "2026-05-02T06:19:54.336924"
 }

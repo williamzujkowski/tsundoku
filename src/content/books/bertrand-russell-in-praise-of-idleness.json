@@ -13,7 +13,7 @@
   "description": "In this collection of essays, Russell surveys the social and political consequences of his beliefs with characteristic clarity and humour. In Praise of Idleness is a tour de force that only Bertrand Russell could perform.",
   "cover_url": "https://books.google.com/books/content?id=CnlbMP_vBmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "0415325064",
-  "first_published": 2004,
+  "first_published": 1935,
   "pages": 202,
   "google_books_url": "http://books.google.com/books?id=CnlbMP_vBmgC&dq=intitle:Bertrand+Russell+-+In+Praise+of+Idleness&hl=&source=gbs_api",
   "language": "eng",
@@ -29,7 +29,7 @@
     "General",
     "General essays in English Texts"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "301",
     "304"
@@ -55,5 +55,15 @@
     "politics",
     "sociology"
   ],
-  "ol_work_key": "/works/OL1088554W"
+  "ol_work_key": "/works/OL1088554W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL3288315M"
 }

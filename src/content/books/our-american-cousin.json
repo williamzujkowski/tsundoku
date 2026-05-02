@@ -42,5 +42,16 @@
     "Theater, dictionaries",
     "Theater, united states"
   ],
-  "ol_work_key": "/works/OL18636374W"
+  "ol_work_key": "/works/OL18636374W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780313342646",
+  "representative_edition_key": "/books/OL24117737M"
 }

@@ -29,5 +29,54 @@
     "Murder",
     "Police in fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813",
+    "813.54",
+    "810"
+  ],
+  "lcc": [
+    "PS-3555.00000000.L6274 L18 1990",
+    "PS-3555.00000000.L6274 L18 1997",
+    "PS-3555.00000000.L6274L18 2011",
+    "PS-3555.00000000.L6274L18 1990",
+    "PS-3555.00000000.L6274 L18 1994",
+    "KNP0049.00000000.C457 1999"
+  ],
+  "subject_facet": [
+    "California, fiction",
+    "Civil law",
+    "Corrupción policíaca",
+    "Crime",
+    "Crime, fiction",
+    "Delitos",
+    "Detective and mystery stories",
+    "Examinations, questions",
+    "Exley, ed (fictitious character), fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, mystery & detective, police procedural",
+    "Homicide investigation",
+    "Los Angeles (Calif.).",
+    "Los Angeles (Calif.). Police Department",
+    "Los angeles (calif.), fiction",
+    "Novela policíaca estadounidense",
+    "Police",
+    "Police corruption",
+    "Roman policier américain"
+  ],
+  "pages": 496,
+  "ol_work_key": "/works/OL553787W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 37,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34463955M"
 }

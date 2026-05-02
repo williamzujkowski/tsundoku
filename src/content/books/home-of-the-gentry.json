@@ -19,5 +19,30 @@
   "google_books_url": "https://play.google.com/store/books/details?id=uiOiHCx7ANoC&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL28349485W"
+  "ol_work_key": "/works/OL28349485W",
+  "ddc": [
+    "891.733"
+  ],
+  "lcc": [
+    "PG-3421.00000000 D8 F7",
+    "PZ-0003.00000000.T844 Ho7",
+    "PG-3421.00000000.D8 Ho8",
+    "PZ-0003.00000000.T844 Ho8",
+    "PG-3420.00000000 Ho7",
+    "PZ-0003.00000000.T844Ho8"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Gentry",
+    "Turgenev, ivan sergeevich, 1818-1883"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL38797568M"
 }

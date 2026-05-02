@@ -1,7 +1,7 @@
 {
   "title": "The Ring and the Book",
   "author": "Robert Browning",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "the-ring-and-the-book",
   "tags": [
@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6983306-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6983306-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL634477W",
-  "first_published": 1868,
+  "first_published": 1849,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -147,5 +147,16 @@
     "Poésie anglaise",
     "Works by individual poets: 19th century"
   ],
-  "ol_work_key": "/works/OL634478W"
+  "ol_work_key": "/works/OL634478W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 185,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL17215274M"
 }

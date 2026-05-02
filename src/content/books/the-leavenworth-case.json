@@ -11,7 +11,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=Z2vI4RlT_MYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781427080257",
-  "first_published": 1970,
+  "first_published": 1902,
   "pages": 358,
   "google_books_url": "http://books.google.com/books?id=Z2vI4RlT_MYC&dq=intitle:The+Leavenworth+Case&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,50 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4047",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4047.html.images",
   "librivox_url": "https://librivox.org/the-leavenworth-case-by-anna-katharine-green/",
-  "description": "The Leavenworth Case (1878), subtitled A Lawyer's Story, is an American detective novel and the first novel by Anna Katharine Green. Set in New York City, it concerns the murder of a retired merchant, Horatio Leavenworth, in his New York mansion. The popular novel introduced the detective Ebenezer Gryce, and was influential in the development of the detective novel. In her autobiography, Agatha Christie cited it as an influence on her own fiction."
+  "description": "The Leavenworth Case (1878), subtitled A Lawyer's Story, is an American detective novel and the first novel by Anna Katharine Green. Set in New York City, it concerns the murder of a retired merchant, Horatio Leavenworth, in his New York mansion. The popular novel introduced the detective Ebenezer Gryce, and was influential in the development of the detective novel. In her autobiography, Agatha Christie cited it as an influence on her own fiction.",
+  "ddc": [
+    "813.4"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.R636 L32",
+    "PS-2732.00000000 L32",
+    "PS-2732.00000000 L28",
+    "PS-2732.00000000.L4 1878",
+    "PS-2732.00000000.L4 2021",
+    "PS-2732.00000000.L4 1981",
+    "PS-2732.00000000.L4 1902",
+    "PS-2732.00000000.L4 2016",
+    "PZ-0003.00000000.R636 L28",
+    "PS-2732.00000000.L4 2010",
+    "PS-2732.00000000.G7 .L4 1906",
+    "PS-0015.00000000"
+  ],
+  "subject_facet": [
+    "Crimes against",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "Inheritance and succession",
+    "Investigation",
+    "Lawyers",
+    "Lawyers, fiction",
+    "Merchants",
+    "Murder",
+    "New york (n.y.), fiction",
+    "Police",
+    "Sisters"
+  ],
+  "ol_work_key": "/works/OL4885724W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 70,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33925984M"
 }

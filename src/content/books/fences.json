@@ -29,5 +29,64 @@
     "Theatre",
     "Personnages : 7 (5h-2f)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I45677 F4 1986c",
+    "PS-3573.00000000.I45677F4 2016",
+    "PS-3573.00000000.I45677F4 1986",
+    "PS-3573.00000000.I45677F4 2007",
+    "PS-3573.00000000.I45677 F4 2007",
+    "PS-3573.00000000.I45677 F4 1986b",
+    "PS-3573.00000000.I45677 F4 1986",
+    "PS-3573.00000000.I385 F4 1986b"
+  ],
+  "subject_facet": [
+    "812/.54",
+    "AMERICAN DRAMA",
+    "African American families",
+    "African Americans",
+    "African american families--drama",
+    "African americans--drama",
+    "American drama (dramatic works by one author)",
+    "American literature",
+    "BROADWAY PLAYS",
+    "Conflict of generations",
+    "Conflict of generations--drama",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Father-son relationship",
+    "Fathers and sons",
+    "Fathers and sons--drama",
+    "Histoire",
+    "History",
+    "Man-woman relationships",
+    "Nineteen fifties",
+    "Nineteen fifties--drama",
+    "Noirs americains",
+    "Personnages : 7 (5h-2f)",
+    "Ps3573.i45677 f4 1986",
+    "Race relations",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Theatre",
+    "Theatre americain",
+    "collectionID:bannedbooks"
+  ],
+  "ol_work_key": "/works/OL2983763W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 18,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL8610268M"
 }

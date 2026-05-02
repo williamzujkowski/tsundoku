@@ -32,5 +32,59 @@
     "Apartment houses in fiction",
     "City and town life"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-8575.00000000.I78",
+    "PR-9199.30000000.M494 F56 1997",
+    "PR-9199.30000000.M494 F56 2006",
+    "PS-8576.00000000.I78F5 1995",
+    "PR-9199.30000000.M494F56",
+    "PR-9199.30000000.M57F5 1995",
+    "PR-9199.30000000.M494 F56 2002",
+    "PR-9199.30000000.M494 F56 1996"
+  ],
+  "subject_facet": [
+    "Apartment houses",
+    "Apartment houses in fiction",
+    "Bevölkerung",
+    "City and town life",
+    "City and town life in fiction",
+    "City life",
+    "Domestic fiction",
+    "English language",
+    "Fiction",
+    "Fiction, family life",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, urban",
+    "Fiction, urban & street lit",
+    "Historical",
+    "History",
+    "India in fiction",
+    "India, fiction",
+    "Large type books",
+    "Literary",
+    "Literature",
+    "Manners and customs",
+    "Roman de l'Inde de langue anglaise",
+    "Sagas",
+    "Social life and customs",
+    "castration",
+    "historical fiction",
+    "literary fiction",
+    "suicide"
+  ],
+  "ol_work_key": "/works/OL2980902W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 35,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL3559091M"
 }

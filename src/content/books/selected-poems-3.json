@@ -22,5 +22,24 @@
   "subject_facet": [
     "Poetry (poetic works by one author)"
   ],
-  "ol_work_key": "/works/OL21015812W"
+  "ol_work_key": "/works/OL21015812W",
+  "ddc": [
+    "891.713",
+    "891.7142"
+  ],
+  "lcc": [
+    "PG-3476.00000000.A324 A6 1989c",
+    "PG-3476.00000000.A324 A25 1969",
+    "PG-3476.00000000.A324 A24 1989",
+    "PG-3476.00000000.A324 A22 1976"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL28445806M"
 }

@@ -26,5 +26,25 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4706.html.images",
   "description": "Credits: Robert Rowe, Charles Franks and the Online Distributed Proofreading Team Of this edition, intended for private circulation only, and printed from type\r\non Berkeley Antique laid paper, 950 copies have been printed for America, and\r\n550 for Great Britain. Also, 55 unnumbered copies, for the press.",
   "isbn": "9798629147923",
-  "ol_work_key": "/works/OL8592998W"
+  "ol_work_key": "/works/OL8592998W",
+  "ddc": [
+    "891.733"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.K965 Yam10",
+    "PG-3467.00000000.K8 Yam10",
+    "PG-3467.00000000 K8 I318 1966"
+  ],
+  "subject_facet": [
+    "Fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30214998M"
 }

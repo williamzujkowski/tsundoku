@@ -12,7 +12,7 @@
   "description": "Complied by the various sources of Finland's national mythology, the Kalevala outlines the creation myths of the world and typical stories of heroes of old including romance, lust and conquest. The stories that are told here are a national icon for the people of Finland, which makes this volume an important part of human history.",
   "cover_url": "https://books.google.com/books/content?id=_M4xDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781773561097",
-  "first_published": 2017,
+  "first_published": 2008,
   "pages": 418,
   "google_books_url": "http://books.google.com/books?id=_M4xDwAAQBAJ&dq=intitle:The+Kalevala&hl=&source=gbs_api",
   "language": "eng",
@@ -21,5 +21,38 @@
     "Finnish Epic poetry",
     "Translations into German",
     "Poetry (poetic works by one author)"
-  ]
+  ],
+  "ddc": [
+    "894.54112"
+  ],
+  "lcc": [
+    "PH-0117.00000000.L6",
+    "PH-0324.00000000.H5 L615 1990",
+    "PH-0324.00000000.E5 B6313 2008",
+    "PK-2098.00000000.V3 A6 2002",
+    "PH-0324.00000000.H5 L615 1997"
+  ],
+  "subject_facet": [
+    "894.54112",
+    "Epic poetry, finnish",
+    "Epic poetry, finnish--translations into english",
+    "Finnish Epic poetry",
+    "Finnish literature",
+    "Ph324.e5 b6313 2008",
+    "Poetry (poetic works by one author)",
+    "Translations into English",
+    "Translations into Hindi"
+  ],
+  "ol_work_key": "/works/OL15301669W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780199538867",
+  "representative_edition_key": "/books/OL23910558M"
 }

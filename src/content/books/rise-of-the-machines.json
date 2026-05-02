@@ -49,5 +49,14 @@
     "Technology and civilization",
     "Technology, social aspects"
   ],
-  "ol_work_key": "/works/OL20032976W"
+  "ol_work_key": "/works/OL20032976W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29728246M"
 }

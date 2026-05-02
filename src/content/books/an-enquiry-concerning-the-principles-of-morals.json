@@ -25,5 +25,33 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4320",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4320.html.images",
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL37771588W"
+  "ol_work_key": "/works/OL37771588W",
+  "ddc": [
+    "171.2"
+  ],
+  "lcc": [
+    "B--1465.00000000 1998",
+    "B--1480.00000000 1900",
+    "B--1465.00000000 1998b",
+    "B--1465.00000000 2004",
+    "BJ-1005.00000000.H8 1912",
+    "B--1465.00000000 1983",
+    "BJ-1005.00000000.H8",
+    "B--1465.00000000"
+  ],
+  "subject_facet": [
+    "Conduct of life",
+    "Ethics",
+    "Humanistic ethics",
+    "Morale"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL50970549M"
 }

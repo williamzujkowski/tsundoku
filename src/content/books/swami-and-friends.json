@@ -18,5 +18,39 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=w7J6i-TA4OAC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.N166 Sw4",
+    "PZ-0003.00000000.N166 Sw 4",
+    "PR-9499.30000000.N3 A6 2006",
+    "PR-9499.30000000.N3 Sw4",
+    "PR-9499.30000000.N3 S9 1980",
+    "PR-9499.30000000.N3A6 2006",
+    "PR-9499.30000000.N3 S9 1978"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, general",
+    "India, fiction",
+    "Juveniles in Fiction",
+    "Malgudi (India : Imaginary place)",
+    "Near and far eastern fiction (fictional works by one author)",
+    "Social life and customs",
+    "Students"
+  ],
+  "ol_work_key": "/works/OL1057179W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "first_edition_isbn": "1400044766",
+  "representative_edition_key": "/books/OL17207769M"
 }

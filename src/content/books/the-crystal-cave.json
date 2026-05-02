@@ -60,5 +60,15 @@
     "Merlin (legendary character), fiction",
     "Wizards"
   ],
-  "ol_work_key": "/works/OL213256W"
+  "ol_work_key": "/works/OL213256W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 37,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL26453904M",
+  "copyright_status": "in_copyright"
 }

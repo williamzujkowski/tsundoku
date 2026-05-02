@@ -16,5 +16,46 @@
   "google_books_url": "http://books.google.com/books?id=LUc3rgEACAAJ&dq=intitle:Robbery+Under+Arms&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL40266731W"
+  "ol_work_key": "/works/OL40266731W",
+  "ddc": [
+    "823.8",
+    "823"
+  ],
+  "lcc": [
+    "PR-9619.20000000.B74 R63 1888",
+    "PR-9619.20000000.B74 R14",
+    "PZ-0003.00000000.B822 R7",
+    "PZ-0003.00000000.B822 R4",
+    "PR-9619.20000000.B74 R7",
+    "PR-9598.00000000.B6",
+    "PR-9619.20000000.B74 R11",
+    "PR-9619.20000000.B74 R57 2006",
+    "PZ-0003.00000000.B822 R14",
+    "PZ-0003.00000000.B822 R11",
+    "PR-9619.20000000.B74 R5x 1981"
+  ],
+  "subject_facet": [
+    "Australia in fiction",
+    "Australia, fiction",
+    "Bushrangers",
+    "Bushrangers in fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Frontier and pioneer life",
+    "Frontier and pioneer life in fiction",
+    "Gold discoveries",
+    "Gold mines and mining",
+    "Gold mines and mining in fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781511743839",
+  "representative_edition_key": "/books/OL54778950M"
 }

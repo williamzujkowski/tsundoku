@@ -21,5 +21,23 @@
   "subjects": [
     "Fiction, fantasy, general"
   ],
-  "ol_work_key": "/works/OL21782273W"
+  "ol_work_key": "/works/OL21782273W",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.K39 L56",
+    "PR-9199.30000000.K39 L56 1995",
+    "PR-9199.30000000.K39L56 1995"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, general"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL29662759M"
 }

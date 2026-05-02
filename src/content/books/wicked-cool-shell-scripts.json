@@ -21,5 +21,26 @@
     "UNIX Shells",
     "UNIX (Computer file)",
     "Unix shells (computer programs)"
-  ]
+  ],
+  "ddc": [
+    "005.432"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63T3895",
+    "QA-0076.76000000.O63 T3895 2004"
+  ],
+  "subject_facet": [
+    "UNIX (Computer file)",
+    "UNIX Shells",
+    "Unix (computer operating system)",
+    "Unix shells (computer programs)"
+  ],
+  "ol_work_key": "/works/OL12282208W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL17920502M"
 }

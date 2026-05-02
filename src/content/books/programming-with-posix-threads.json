@@ -21,5 +21,26 @@
   "google_books_url": "https://play.google.com/store/books/details?id=TXiJDj9kbiAC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL26342717W"
+  "ol_work_key": "/works/OL26342717W",
+  "ddc": [
+    "005.27"
+  ],
+  "lcc": [
+    "QA-0076.76000000.T55 B88 1997",
+    "QA-0076.76000000.T55B88 1997"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Electronic digital computers, programming",
+    "POSIX (Computer software standard)",
+    "Qa76.76.t55 b88 1997",
+    "Threads (Computer programs)"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL35568130M"
 }

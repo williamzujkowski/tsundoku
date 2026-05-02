@@ -11,7 +11,7 @@
   "description": "The Sport of the Gods is a novel set in the United States in the late nineteenth century. It chronicles the tribulations of the Oakleys, an African American family of four, as they struggle to survive and maintain their integrity in a Southern town and then in New York City. Prejudice, provincialism, and temptation take their tolls, and the justice system stands ever ready to grab the losers. This was Paul Laurence Dunbar’s final novel, published first in the May 1901 issue of Lipincott’s Monthl",
   "cover_url": "https://books.google.com/books/content?id=S6PLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041806669",
-  "first_published": 2023,
+  "first_published": 1969,
   "pages": 150,
   "google_books_url": "http://books.google.com/books?id=S6PLEAAAQBAJ&dq=intitle:The+Sport+of+the+Gods&hl=&source=gbs_api",
   "language": "eng",
@@ -28,5 +28,55 @@
     "American fiction (fictional works by one author)",
     "African americans, fiction"
   ],
-  "librivox_url": "https://librivox.org/the-sport-of-the-gods-by-paul-laurence-dunbar/"
+  "librivox_url": "https://librivox.org/the-sport-of-the-gods-by-paul-laurence-dunbar/",
+  "ddc": [
+    "811.4",
+    "813.4",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-1556.00000000.A4F57 2005",
+    "PZ-0003.00000000.D911Sp",
+    "PS-1556.00000000.S64 1999",
+    "PS-1556.00000000.S64 2008",
+    "PS-1556.00000000.A4 F57 2005",
+    "PZ-0003.00000000.D911 Sp",
+    "PZ-0003.00000000.D911 Sp9",
+    "PS-1556.00000000.S64 1981",
+    "PZ-0003.00000000.D911 Sp6",
+    "PS-1556.00000000 Sp7",
+    "PS-1556.00000000",
+    "PZ-0003.00000000.D911 Sp7",
+    "PS-1556.00000000 Sp9",
+    "PS-1556.00000000 Sp6"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "African American families",
+    "African American families in fiction",
+    "African Americans",
+    "African Americans in fiction",
+    "African americans, fiction",
+    "American fiction",
+    "American fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, family life, general",
+    "Fiction, religious",
+    "Literary collections",
+    "New york (n.y.), fiction",
+    "Rural-urban migration",
+    "Rural-urban migration in fiction"
+  ],
+  "ol_work_key": "/works/OL1797341W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 65,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33858446M"
 }

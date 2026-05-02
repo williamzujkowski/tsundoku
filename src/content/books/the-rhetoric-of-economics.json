@@ -51,5 +51,16 @@
     "Wirtschaftswissenschaften",
     "Économie politique"
   ],
-  "ol_work_key": "/works/OL2721641W"
+  "ol_work_key": "/works/OL2721641W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "0867841311",
+  "representative_edition_key": "/books/OL690639M"
 }

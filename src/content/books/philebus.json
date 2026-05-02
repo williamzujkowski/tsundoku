@@ -22,5 +22,19 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1744",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1744.html.images",
   "librivox_url": "https://librivox.org/philebus-by-plato/",
-  "description": "SOCRATES: Observe, Protarchus, the nature of the position which you are now going to take from Philebus, and what the other position is which I maintain, and which, if you do not approve of it, is to be controverted by you."
+  "description": "SOCRATES: Observe, Protarchus, the nature of the position which you are now going to take from Philebus, and what the other position is which I maintain, and which, if you do not approve of it, is to be controverted by you.",
+  "ddc": [
+    "171.4"
+  ],
+  "subject_facet": [
+    "Philosophy, ancient"
+  ],
+  "ol_work_key": "/works/OL40594046W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL55199397M"
 }

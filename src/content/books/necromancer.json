@@ -19,5 +19,25 @@
   "subject_facet": [
     "Fiction, science fiction, general"
   ],
-  "ol_work_key": "/works/OL27106274W"
+  "ol_work_key": "/works/OL27106274W",
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.D553 Ne",
+    "PS-3554.00000000.I328 Ne",
+    "PS-3554.00000000.I328 N43 1962"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781627934800",
+  "representative_edition_key": "/books/OL36795237M"
 }

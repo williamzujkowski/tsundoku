@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/4601329-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4601329-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL878566W",
-  "first_published": 1985,
+  "first_published": 1533,
   "language": "eng",
   "description": "Francesco Petrarca (1304-74) has been described as the 'first modern man of letters' and his influence on the European lyric tradition has been widespread. The poems of his Canzoniere, closely associated as they are with the enigmatic figure of Laura, were soon to become the models for love-poetry in nearly all major European literatures in the Renaissance. The new translations here use the same rhyme schemes and broadly the same metres as those used by Petrarch himself. The facing English texts...",
   "isbn": "1899293124",
@@ -132,5 +132,20 @@
     "Translations into English",
     "Versification"
   ],
-  "ol_work_key": "/works/OL15469822W"
+  "ol_work_key": "/works/OL15469822W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 229,
+  "first_published_circa": false,
+  "original_language": "ita",
+  "original_title": "Il Petrarcha colla spositione di Misser Giovanni Andrea Gesvaldo ...",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22460983M"
 }

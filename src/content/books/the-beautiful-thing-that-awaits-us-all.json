@@ -1,7 +1,7 @@
 {
   "title": "The Beautiful Thing That Awaits Us All",
   "author": "Laird Barron",
-  "category": "Horror",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-beautiful-thing-that-awaits-us-all",
   "tags": [
@@ -34,5 +34,19 @@
     "Fiction, mystery & detective, hard-boiled",
     "Fiction, occult & supernatural"
   ],
-  "ol_work_key": "/works/OL19206271W"
+  "ol_work_key": "/works/OL19206271W",
+  "lcc": [
+    "PS-3602.00000000.A7775445 B43 2013"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781597804684",
+  "representative_edition_key": "/books/OL26775626M"
 }

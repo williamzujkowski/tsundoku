@@ -20,5 +20,48 @@
   "subjects": [
     "American Science fiction"
   ],
-  "pages": 426
+  "pages": 426,
+  "ddc": [
+    "823.91",
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3515.00000000.E288 P870 1958",
+    "PS-3515.00000000.E288",
+    "PZ-0003.00000000.H364Pu",
+    "PS-3515.00000000.E288 P86 1990x",
+    "PS-3515.00000000.E288 Pu 1979",
+    "PZ-0003.00000000.H468 Pu 1951",
+    "PZ-0003.00000000.H364 Pu 1979",
+    "PS-3515.00000000.E288 Pu",
+    "PZ-0003.00000000.H364 Pu9",
+    "PS-3515.00000000.E288 T47 1951",
+    "PS-3515.00000000.E288 P87 2009",
+    "PZ-0003.00000000.H364 Pu",
+    "PZ-0003.00000000.H364 Pu 1963"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Human-alien encounters",
+    "Iowa, fiction",
+    "Science fiction",
+    "alien",
+    "invasion"
+  ],
+  "ol_work_key": "/works/OL59729W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 45,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34162937M"
 }

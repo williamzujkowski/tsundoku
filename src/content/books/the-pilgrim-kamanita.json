@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "first_published": 1999,
+  "first_published": 1918,
   "google_books_url": "http://books.google.com/books?id=Dd110AEACAAJ&dq=intitle:The+Pilgrim+Kamanita&hl=&source=gbs_api",
   "language": "eng",
   "description": "Late one night, as he seeks shelter in a potter’s entrance hall, Kamanita meets an old ascetic. Encouraged by the monk, he relates the story of his life so far: how, born the son of an Indian merchant, he follows in his father’s footsteps; how, on his first trading trip, he meets and loses his great love Vasitthi; how he builds up a fortune and raises a family; and how one day he leaves everything behind to set on a pilgrimage. But the old monk is not who he seems, and when Kamanita refuses to a...",
@@ -18,7 +18,7 @@
   "subjects": [
     "Fiction"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "isbn": "9781016966993",
   "lcc": [
     "PT-8128.00000000.P5 E6 1999"
@@ -30,5 +30,19 @@
     "Religious fiction",
     "Spirituality"
   ],
-  "ol_work_key": "/works/OL6048869W"
+  "ol_work_key": "/works/OL6048869W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 24,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Der Pilger Kamanita Ein Legenden-Roman",
+  "representative_edition_key": "/books/OL46405938M"
 }

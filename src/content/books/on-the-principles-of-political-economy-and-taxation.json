@@ -21,5 +21,19 @@
   "copyright_status": "public_domain",
   "description": "On the Principles of Political Economy and Taxation is a book by David Ricardo on economics. The book concludes that land rent grows as population increases. It also presents the theory of comparative advantage, the theory that free trade between two or more countries can be mutually beneficial, even when one country has an absolute advantage over the other countries in all areas of production.",
   "isbn": "9798544028147",
-  "ol_work_key": "/works/OL27900305W"
+  "ol_work_key": "/works/OL27900305W",
+  "lcc": [
+    "HB-0161.00000000.R485 1830"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38132384M"
 }

@@ -28,5 +28,57 @@
     "Jeeves (fictitious character), fiction",
     "Wooster, bertie (fictitious character), fiction",
     "Fiction, humorous"
-  ]
+  ],
+  "ddc": [
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6045.00000000.O53 B75 2008",
+    "PR-6045.00000000.O53 R5 1986",
+    "PR-6045.00000000.O53",
+    "PR-6045.00000000.O53 R53 1978",
+    "PR-6045.00000000.O53B75 2000",
+    "PR-6045.00000000.O53 B75 2011",
+    "PR-6045.00000000.O53B75 2009e",
+    "PR-6045.00000000.O53 B75 2000",
+    "PR-6045.00000000.O53B75 2011",
+    "PR-6045.00000000.O53 B75 1962"
+  ],
+  "subject_facet": [
+    "Bertie Wooster (Fictitious character)",
+    "Classic Literature",
+    "England, fiction",
+    "English Humorous stories",
+    "English literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Humorous stories",
+    "Jeeves (Fictitious character)",
+    "Jeeves (fictitious character), fiction",
+    "Large print books",
+    "Large type books",
+    "Livres en gros caractères",
+    "Modern fiction",
+    "Single men",
+    "Social life and customs",
+    "Upper class",
+    "Valets",
+    "Wooster, bertie (fictitious character), fiction"
+  ],
+  "first_published": 1934,
+  "ol_work_key": "/works/OL1337129W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 230,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34792039M"
 }

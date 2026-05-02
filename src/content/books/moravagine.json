@@ -43,5 +43,18 @@
     "Literature",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL1261616W"
+  "ol_work_key": "/works/OL1261616W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 23,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "representative_edition_key": "/books/OL8845249M",
+  "copyright_status": "public_domain"
 }

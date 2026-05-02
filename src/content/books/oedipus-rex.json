@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9078103-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9078103-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20409541W",
-  "first_published": 2011,
+  "first_published": 1790,
   "description": "One of the greatest of the classic Greek tragedies and a masterpiece of dramatic construction. Catastrophe ensues when King Oedipus discovers he has inadvertently killed his father and married his mother. Masterly use of dramatic irony greatly intensifies impact of agonizing events. Sophocles' finest play, Oedipus Rex ranks as a towering landmark of Western drama. A selection of the Common Core State Standards Initiative.",
   "isbn": "9780486268774",
   "pages": 66,
@@ -29,7 +29,7 @@
     "Sophocles",
     "Greek drama, translations into english"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "882",
     "882.2",
@@ -158,5 +158,15 @@
     "tragedy",
     "Œdipe (Mythologie grecque)"
   ],
-  "ol_work_key": "/works/OL43861W"
+  "ol_work_key": "/works/OL43861W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 188,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL23725592M"
 }

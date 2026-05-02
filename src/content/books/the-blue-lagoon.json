@@ -13,7 +13,7 @@
   "description": "The Blue Lagoon is the story of two children shipwrecked on a tropical island in the South Pacific. They grow up there, in sun-drenched paradise, living in a hut on the beach and spending their days fishing, swimming, diving for pearls, and exploring the island. Innocent of the real world, they survive on their resourcefulness and the bounty of nature. Over time, friendship blossoms into love.",
   "cover_url": "https://books.google.com/books/content?id=Oy1lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781387943500",
-  "first_published": 2018,
+  "first_published": 1908,
   "pages": 170,
   "google_books_url": "http://books.google.com/books?id=Oy1lDwAAQBAJ&dq=intitle:The+Blue+Lagoon&hl=&source=gbs_api",
   "language": "eng",
@@ -68,5 +68,16 @@
     "Romans, nouvelles",
     "Shipwrecks"
   ],
-  "ol_work_key": "/works/OL5289607W"
+  "ol_work_key": "/works/OL5289607W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 83,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781548647667",
+  "representative_edition_key": "/books/OL27845306M"
 }

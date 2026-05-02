@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14913446-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14913446-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43044097W",
-  "first_published": 1953,
+  "first_published": 1951,
   "language": "eng",
   "description": "By one of the most profoundly influential thinkers of our century, The Rebel is a classic essay on revolution that resonates as an ardent, eloquent, and supremely rational voice of conscience for our tumultuous times. For Albert Camus, the urge to revolt is one of the \"essential dimensions\" of human nature, manifested in man's timeless Promethean struggle against the conditions of his existence, as well as the popular uprisings against established orders throughout history. And yet, with an eye ...",
   "isbn": "9780679733843",
@@ -71,5 +71,20 @@
     "Philosophy",
     "Revolutions"
   ],
-  "ol_work_key": "/works/OL1230600W"
+  "ol_work_key": "/works/OL1230600W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 82,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "L' homme révolté",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7699992M"
 }

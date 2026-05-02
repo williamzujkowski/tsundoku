@@ -11,7 +11,7 @@
   "description": "\"I have been in the world, but not of it,\" W.E.B. Du Bois begins this book, a continuation of the project he began in his celebrated work The Souls of Black Folk, describing the devastation of segregation, slavery, and the global color line that veiled half the world's people in shadow. First published in 1920, Darkwater gives voice to the rising power of \"the darker races\" around the world, and includes Africa's blistering indictment of Europe, a study of the curious and twisted souls of white ",
   "cover_url": "https://books.google.com/books/content?id=tG7nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781784787769",
-  "first_published": 2016,
+  "first_published": 1920,
   "pages": 258,
   "google_books_url": "http://books.google.com/books?id=tG7nDwAAQBAJ&dq=intitle:Darkwater&hl=&source=gbs_api",
   "language": "eng",
@@ -33,5 +33,56 @@
     "Young men",
     "Eccentrics and eccentricities"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "910.0317496",
+    "973.0496073",
+    "301.45196073",
+    "305.896073"
+  ],
+  "lcc": [
+    "PS-3568.00000000.U86 A85 2004",
+    "E--0185.61000000.D83 2002",
+    "E--0185.61000000.D83 1999",
+    "E--0185.61000000",
+    "E--0185.61000000.D83 1975",
+    "E--0185.61000000.D83 2004",
+    "E--0185.61000000.D83 2007",
+    "E--0185.61000000.D83 2003",
+    "E--0185.50000000.D8 1969",
+    "E--0185.50000000 D8 1921",
+    "E--0185.61000000.D83 1920",
+    "E--0185.50000000.D8 1969b"
+  ],
+  "subject_facet": [
+    "African Americans",
+    "Brownstone buildings",
+    "Eccentrics and eccentricities",
+    "Fiction",
+    "Influence",
+    "Inner cities",
+    "Musicians",
+    "Nonfiction",
+    "Philosophy",
+    "Race relations",
+    "September 11 Terrorist Attacks, 2001",
+    "Squatters",
+    "United States -- Race relations",
+    "United states, history",
+    "United states, race relations",
+    "World history",
+    "Young men"
+  ],
+  "ol_work_key": "/works/OL28571W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 136,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34244767M"
 }

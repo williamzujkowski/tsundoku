@@ -38,5 +38,16 @@
     "Malware (Computer software)",
     "Reverse engineering"
   ],
-  "ol_work_key": "/works/OL19978523W"
+  "ol_work_key": "/works/OL19978523W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781118787311",
+  "representative_edition_key": "/books/OL27158677M"
 }

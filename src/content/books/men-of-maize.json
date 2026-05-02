@@ -28,5 +28,46 @@
     "Translations into English"
   ],
   "copyright_status": "likely_public_domain",
-  "ol_work_key": "/works/OL37715425W"
+  "ol_work_key": "/works/OL37715425W",
+  "ddc": [
+    "863",
+    "863.64",
+    "863 s"
+  ],
+  "lcc": [
+    "PQ-7499.00000000.A75H613 1988",
+    "PQ-7499.00000000.A75",
+    "PQ-7499.00000000.A75 Me",
+    "PQ-7499.00000000.A75 H613 1993",
+    "PQ-7499.00000000.A75 H6348 1992",
+    "PQ-7499.00000000.A75 1977, vol. 4",
+    "PQ-7499.00000000.A75 H613 1988",
+    "PQ-7499.00000000.A75 A6 1977",
+    "PQ-7499.00000000.A75 1977",
+    "PQ-7499.00000000.A75 H6 1994",
+    "PZ-0004.00000000.A843 Me",
+    "PQ-7499.00000000.A75 H6",
+    "PQ-7499.00000000.A75 H6 1972"
+  ],
+  "subject_facet": [
+    "Central american literature, history and criticism",
+    "Ficción",
+    "Fiction",
+    "Guatemalan fiction",
+    "Guatemalan literature",
+    "Mexico, economic conditions",
+    "Mexico, history, to 1810",
+    "Social life and customs",
+    "Translations into English",
+    "Vida social y costumbres"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL50869935M"
 }

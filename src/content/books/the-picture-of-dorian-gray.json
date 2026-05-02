@@ -13,7 +13,7 @@
   "description": "Oscar Wilde’s classic, alluring novel of a man so obsessed with his appearance that he sacrifices his soul for eternal youth—with an introduction by Jeffrey Eugenides Now a critically acclaimed Broadway play starring Sarah Snook! Nominated as one of America’s best-loved novels by PBS’s The Great American Read Fascinated by his own beautiful portrait, Dorian Gray makes a Faustian pact to exchange his soul for perpetual youth and beauty. Guided by Lord Henry Wotton, he embarks on a life of corrupt",
   "cover_url": "https://books.google.com/books/content?id=u-QdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780375751516",
-  "first_published": 1998,
+  "first_published": 1890,
   "pages": 306,
   "google_books_url": "http://books.google.com/books?id=u-QdEAAAQBAJ&dq=intitle:The+Picture+of+Dorian+Gray&hl=&source=gbs_api",
   "language": "eng",
@@ -220,5 +220,20 @@
     "Supernatural",
     "Youthfulness"
   ],
-  "ol_work_key": "/works/OL8193416W"
+  "ol_work_key": "/works/OL8193416W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "original_language": "spa",
+  "original_title": "Retrato de Dorian Gray",
+  "first_edition_isbn": "9781720393177",
+  "representative_edition_key": "/books/OL60444397M"
 }

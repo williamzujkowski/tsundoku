@@ -12,7 +12,7 @@
   "description": "With dramatic and detailed first person narration, Jack London’s Before Adam follows the dreams of a young boy who has a genetically imprinted memory and knowledge of an ancestor who lived in prehistoric times. Big Tooth is a pre-human ape and is the protagonist of the young boy’s dreams. He lives in a tribe that rests in the middle of two extremes. In the surrounding area, there are tribes of differing levels of development. One is primitive and stays in the vast forest, while the more advanced",
   "cover_url": "https://books.google.com/books/content?id=-3MqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781513275246",
-  "first_published": 2021,
+  "first_published": 1907,
   "pages": 85,
   "google_books_url": "https://play.google.com/store/books/details?id=-3MqEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -37,5 +37,53 @@
     "Animaux",
     "Évolution"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3523.00000000.O46 B44 1907a",
+    "PS-3523.00000000.O46 B4 2004",
+    "PS-3523.00000000.O46B4 2000",
+    "PS-3523.00000000.O46 B4 1906",
+    "PZ-0003.00000000.L846 B2",
+    "PZ-0003.00000000.L846 B10",
+    "PS-3523.04600000",
+    "PS-3523.00000000 O46 B4",
+    "PS-3523.00000000.O46 B418 1925",
+    "PS-3523.00000000.O46 B4 2000",
+    "PS-3523.00000000.O46 B4 1912x",
+    "PS-3523.00000000.O46 B2",
+    "PS-3523.00000000.O46",
+    "PS-3523.00000000.O46 B10"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Animals",
+    "Animaux",
+    "Bibliography",
+    "Classic Literature",
+    "Collected works (single author, multi-form)",
+    "Dreams",
+    "Evolution",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "Prehistoric peoples",
+    "Romans",
+    "Évolution"
+  ],
+  "ol_work_key": "/works/OL74501W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 192,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30335251M"
 }

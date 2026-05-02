@@ -19,5 +19,21 @@
     "Biography & Autobiography"
   ],
   "isbn": "9780343788797",
-  "ol_work_key": "/works/OL24394558W"
+  "ol_work_key": "/works/OL24394558W",
+  "lcc": [
+    "R--0154.00000000.S5 A3"
+  ],
+  "subject_facet": [
+    "Biography",
+    "Physicians"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL32421946M"
 }

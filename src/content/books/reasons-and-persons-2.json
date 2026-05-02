@@ -21,5 +21,45 @@
   "subjects": [
     "Philosophy"
   ],
-  "ol_work_key": "/works/OL3153829W"
+  "ol_work_key": "/works/OL3153829W",
+  "ddc": [
+    "170"
+  ],
+  "lcc": [
+    "BJ-1012.00000000.P39 1986",
+    "BJ-1012.00000000",
+    "BJ-1012.00000000.P39 1984",
+    "BJ-1012.00000000.P39 1987",
+    "BJ-1012.00000000.P39 1984eb"
+  ],
+  "subject_facet": [
+    "170",
+    "Bj1012 .p39 1984",
+    "Ethics",
+    "Ethics & Moral Philosophy",
+    "Handelingstheorie",
+    "Identiteit",
+    "Manactionsreasons - philosophical perspectives",
+    "Moi (Psychologie)",
+    "Moraal",
+    "Morale",
+    "PHILOSOPHY",
+    "Rationalism",
+    "Rationalisme",
+    "Rationaliteit",
+    "Self",
+    "Social",
+    "Theorieën"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781281989130",
+  "representative_edition_key": "/books/OL7398244M"
 }

@@ -20,5 +20,69 @@
   "subjects": [
     "r/philosophy Reading List"
   ],
-  "ol_work_key": "/works/OL38178217W"
+  "ol_work_key": "/works/OL38178217W",
+  "ddc": [
+    "192",
+    "121"
+  ],
+  "lcc": [
+    "B--1190.00000000 1851",
+    "B--1191.00000000.K5 1973",
+    "B--1192.00000000",
+    "B--1191.00000000.K54B33 2000",
+    "B--1190.00000000 1915",
+    "B--1191.00000000 K57 1930",
+    "B--1173.00000000",
+    "B--1191.00000000.K5 1915",
+    "B--1191.00000000 K57 1861",
+    "B--1190.00000000 2001b",
+    "B--1190.00000000 1975",
+    "AC-0001.00000000.G72 vol. 30",
+    "B--1190.00000000 1994",
+    "B--1190.00000000 1973",
+    "B--1173.00000000.E5C74 1900",
+    "B--1191.00000000.K545 2000",
+    "B--1191.00000000 M67",
+    "B--1191.00000000.K54 B33 2000",
+    "B--1191.00000000 D4",
+    "B--1191.00000000 K57 1915",
+    "B--1191.00000000 S45",
+    "B--1191.00000000 W7 1880",
+    "B--1190.00000000",
+    "B--1191.00000000 K57",
+    "B--1190.00000000 2001",
+    "LB-0475.00000000.B2 W9 1926",
+    "B--1191.00000000 W7 1920"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Early works to 1800",
+    "Induction (Logic)",
+    "Knowledge, theory of",
+    "Learning",
+    "Learning and scholarship",
+    "Logic",
+    "Logic, early works to 1800",
+    "Logique",
+    "Methodology",
+    "Methods",
+    "Méthodologie",
+    "Ouvrages avant 1800",
+    "Philosophy",
+    "Science",
+    "Science, early works to 1800",
+    "Science, methodology",
+    "Sciences",
+    "Theory of Knowledge",
+    "Utopias"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "representative_edition_key": "/books/OL51878650M",
+  "copyright_status": "public_domain"
 }

@@ -21,5 +21,21 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/25014",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/25014.html.images",
   "copyright_status": "public_domain",
-  "description": "MARCEL reappeared next day at three o'clock, his face green, his eyes bloodshot, a lump on his forehead, his breeches torn, his breath tainted with a strong smell of brandy, and his person covered with dirt."
+  "description": "MARCEL reappeared next day at three o'clock, his face green, his eyes bloodshot, a lump on his forehead, his breeches torn, his breath tainted with a strong smell of brandy, and his person covered with dirt.",
+  "ddc": [
+    "843.8"
+  ],
+  "subject_facet": [
+    "French fiction",
+    "Large type books",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL24251798W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL32081999M"
 }

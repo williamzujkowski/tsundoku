@@ -19,5 +19,18 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28918",
   "gutenberg_read_url": "https://www.gutenberg.org/files/28918/28918_index.html",
   "librivox_url": "https://librivox.org/from-the-earth-to-the-moon-by-jules-verne/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "843.8"
+  ],
+  "ol_work_key": "/works/OL40290214W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL54889287M"
 }

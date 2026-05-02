@@ -11,7 +11,7 @@
   "description": "Tweleve enchanting and timeless works of Rudyard Kipling are gathered together in Just So Stories. These well-loved children's tales give inspired, witty answers to such questions as: How did the rhinoceros get his wrinkly skin? Why won't cats come when they're called? How did one curious elephant with a nose for trouble change the lives of all elephants everywhere?",
   "cover_url": "https://books.google.com/books/content?id=aSLsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781625580535",
-  "first_published": 2012,
+  "first_published": 1950,
   "pages": 212,
   "google_books_url": "https://play.google.com/store/books/details?id=aSLsAgAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -52,5 +52,16 @@
     "Short stories",
     "Stories"
   ],
-  "ol_work_key": "/works/OL19899W"
+  "ol_work_key": "/works/OL19899W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 245,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34002073M"
 }

@@ -35,5 +35,62 @@
     "Women authors",
     "English Short stories"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.914",
+    "823",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.M32355 Bl",
+    "PZ-0003.00000000.M32355 Bℓ8",
+    "PR-9639.30000000.M258 B55 2006",
+    "PR-9639.30000000.M258 B55 1998",
+    "PR-6025.00000000.A57 B55 1962",
+    "PR-6025.00000000 A57 B55",
+    "PR-9639.30000000.M258 Bl",
+    "PR-6025.00000000.A57 B5 1962",
+    "PR-9639.30000000.M258 B4",
+    "PZ-0003.00000000.M32355 Bl7",
+    "PR-6025.00000000 A57 B55 1934",
+    "PR-6025.00000000.A57 B55 2011",
+    "PR-9639.30000000.M258B55",
+    "PR-9639.30000000.M258 B55 1988",
+    "PR-9639.30000000.M258",
+    "PR-9639.30000000.M258 Bl7",
+    "PR-6025.00000000.A57 B54 1962"
+  ],
+  "subject_facet": [
+    "Canon (literature)",
+    "Classics",
+    "English Short stories",
+    "English fiction",
+    "English literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, short stories (single author)",
+    "Library",
+    "Literature",
+    "Manners and customs",
+    "Mœurs et coutumes",
+    "New Zealand Short stories",
+    "Nouvelles néo-zélandaises",
+    "Personal copy",
+    "Romans, nouvelles",
+    "Short stories",
+    "Social life and customs",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL788028W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 68,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33929526M"
 }

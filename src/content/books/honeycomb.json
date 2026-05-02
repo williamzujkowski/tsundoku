@@ -16,5 +16,12 @@
   "google_books_url": "https://play.google.com/store/books/details?id=b-vqCAAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL19855808W"
+  "ol_work_key": "/works/OL19855808W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL27043923M"
 }

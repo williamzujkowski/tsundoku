@@ -11,7 +11,7 @@
   "language": "eng",
   "cover_url": "https://books.google.com/books/content?id=zqA9AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=zqA9AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1903,
+  "first_published": 1899,
   "pages": 460,
   "google_books_url": "https://play.google.com/store/books/details?id=zqA9AQAAMAAJ&source=gbs_api",
   "subjects": [
@@ -95,5 +95,16 @@
     "San francisco (calif.), fiction",
     "Zamorano 80"
   ],
-  "ol_work_key": "/works/OL1794911W"
+  "ol_work_key": "/works/OL1794911W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 291,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL41457596M"
 }

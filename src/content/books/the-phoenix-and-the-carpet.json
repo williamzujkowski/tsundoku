@@ -1,7 +1,7 @@
 {
   "title": "The Phoenix and the Carpet",
   "author": "E. Nesbit",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-phoenix-and-the-carpet",
   "tags": [
@@ -14,7 +14,7 @@
   "description": "The Phoenix and the Carpet is a fantasy novel for children, written by E. Nesbit and first published in 1904. It is the second in a trilogy of novels that begins with Five Children and It (1902), and follows the adventures of the same five children: Cyril, Anthea, Robert, Jane and the Lamb. Their mother buys the children a new carpet to replace one from the nursery that they have destroyed in an accidental fire. The children find an egg in the carpet, which hatches into a talking Phoenix. The Ph",
   "cover_url": "https://books.google.com/books/content?id=SfQhtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1976559383",
-  "first_published": 2017,
+  "first_published": 1956,
   "pages": 222,
   "google_books_url": "http://books.google.com/books?id=SfQhtAEACAAJ&dq=intitle:The+Phoenix+and+the+Carpet&hl=&source=gbs_api",
   "language": "eng",
@@ -90,5 +90,16 @@
     "Phoenix (Mythical bird) -- Juvenile fiction",
     "Siblings"
   ],
-  "ol_work_key": "/works/OL99539W"
+  "ol_work_key": "/works/OL99539W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "0510160468",
+  "representative_edition_key": "/books/OL57535348M"
 }

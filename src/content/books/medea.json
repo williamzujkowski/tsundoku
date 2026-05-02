@@ -46,5 +46,14 @@
     "Medea (greek mythology)",
     "Pr6053.u825 m43 2015"
   ],
-  "ol_work_key": "/works/OL25043299W"
+  "ol_work_key": "/works/OL25043299W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34006780M"
 }

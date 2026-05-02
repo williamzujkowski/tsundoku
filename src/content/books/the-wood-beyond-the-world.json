@@ -13,7 +13,7 @@
   "description": "A groundbreaking fantasy novel, The Wood Beyond the World tells the story of a young man, Golden Walter, who finds himself in a strange and frightening world after being abandoned by his wife and lost at sea. The novel takes the form of Walter’s quest for the visionary Maid that he sees at the beginning of his journey, and takes him from his failed marriage through temptation to emotional fulfillment. Set in Morris’s imaginative recreation of a medieval world, the novel is full of vivid imagery ",
   "cover_url": "https://books.google.com/books/content?id=VW9WAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781460404348",
-  "first_published": 2010,
+  "first_published": 1895,
   "pages": 296,
   "google_books_url": "http://books.google.com/books?id=VW9WAwAAQBAJ&dq=intitle:The+Wood+Beyond+the+World&hl=&source=gbs_api",
   "language": "eng",
@@ -37,5 +37,56 @@
   "librivox_url": "https://librivox.org/the-wood-beyond-the-world-by-william-morris/",
   "gutenberg_id": 3055,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3055",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3055.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3055.html.images",
+  "ddc": [
+    "398",
+    "823.8",
+    "823.89",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-5079.00000000.W6 1895",
+    "PR-5079.00000000.W6 Wo9",
+    "PR-5079.00000000.W6 1894",
+    "PR-5079.00000000.W6 1902",
+    "PR-5079.00000000 W6 1904",
+    "PR-5079.00000000.W6 Wn2",
+    "PZ-0003.00000000.M8345 Wn2",
+    "PR-5070.00000000",
+    "PZ-0003.00000000.M8345 Wo9",
+    "PR-5079.00000000.W6 1969",
+    "PZ-0003.00000000.M8345 Wo",
+    "PR-5079.00000000.W6 1980",
+    "PZ-0003.00000000.M8345 Wo 1980",
+    "PR-5079.00000000.W6 2010",
+    "PR-5079.00000000.W6 2001"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Classic Literature",
+    "Comic books, strips",
+    "English Fantasy fiction",
+    "English fiction",
+    "English literature",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Imaginary places",
+    "Private presses",
+    "Quests (Expeditions)",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL47752W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 250,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34332267M"
 }

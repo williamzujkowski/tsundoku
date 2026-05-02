@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "Best described as early science fiction melded with an epic dose of romantic adventure, A Princess of Mars is the first adventure of John Carter, a Civil War veteran who unexpectedly find himself transplanted to the planet Mars. Yet this red planet is far more than a dusty, barren place; it's a fantasy world populated with giant green barbarians, beautiful maidens in distress, and weird flora and monstrous fauna the likes of which could only exist in the author's boundless imagination. Sheer esc",
   "cover_url": "https://books.google.com/books/content?id=ws18cmj5ic0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1917,
+  "first_published": 1912,
   "pages": 370,
   "google_books_url": "https://play.google.com/store/books/details?id=ws18cmj5ic0C&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "Social life and customs",
     "Translations into Russian"
   ],
-  "ol_work_key": "/works/OL1418187W"
+  "ol_work_key": "/works/OL1418187W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781543043723",
+  "representative_edition_key": "/books/OL48439064M"
 }

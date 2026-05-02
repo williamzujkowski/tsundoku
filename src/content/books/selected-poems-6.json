@@ -29,5 +29,28 @@
     "American poetry",
     "African American poets",
     "Black authors"
-  ]
+  ],
+  "ddc": [
+    "811.52"
+  ],
+  "lcc": [
+    "PS-3515.00000000.U274",
+    "PS-3515.00000000 U274 A6 1970",
+    "PS-3515.00000000.U274 A6 1959"
+  ],
+  "subject_facet": [
+    "African Americans",
+    "American literature",
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL28552W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL29511547M"
 }

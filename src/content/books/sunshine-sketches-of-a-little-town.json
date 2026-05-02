@@ -39,5 +39,49 @@
     "Comics & graphic novels, general",
     "Fiction, general"
   ],
-  "ol_work_key": "/works/OL33895375W"
+  "ol_work_key": "/works/OL33895375W",
+  "ddc": [
+    "813.52",
+    "817.52",
+    "823.912",
+    "818"
+  ],
+  "lcc": [
+    "PR-9199.30000000.L367S86",
+    "PS-8523.00000000.E13 S8 1964",
+    "PR-6023.00000000.E15 S8 1912",
+    "PR-9199.30000000.L367 S86 1996",
+    "PR-9199.30000000.L367 S8 1970",
+    "PS-8523.00000000.E2 S9 1996",
+    "PR-9199.30000000.L367 S86 2002",
+    "PR-6023.00000000.E15 S8 1922",
+    "PR-6023.00000000.E15 S8 1912a",
+    "PR-9199.30000000.L367 S86 2010eb",
+    "PR-9199.30000000.L367 S86 2012",
+    "PS-8523.00000000.E13 S8 1970",
+    "PR-6023.00000000.E15 S8 1912c",
+    "PS-8523.00000000 E2 S9 1960",
+    "PR-9199.30000000.L367 S86 2005",
+    "PR-9199.30000000.L367 S86 2006",
+    "PR-6023.00000000.E15 S8",
+    "PS-8523.00000000 E2 S914 1986",
+    "PN-6737.00000000",
+    "PR-9199.30000000.L367",
+    "PS-8523.00000000 E2 S9 1965",
+    "PR-9199.30000000.L367 S85 1989",
+    "PR-9199.30000000.L367 S8 1912a",
+    "PR-6023.00000000.E15 S8 1970",
+    "E--0748.00000000"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781489539724",
+  "representative_edition_key": "/books/OL45912065M"
 }

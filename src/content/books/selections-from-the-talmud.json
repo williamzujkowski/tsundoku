@@ -1,13 +1,13 @@
 {
   "title": "Selections from the Talmud",
   "author": "The Talmud",
-  "category": "Religion",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "selections-from-the-talmud",
   "tags": [
     "philosophy"
   ],
-  "first_published": 1876,
+  "first_published": 1872,
   "pages": 359,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=RIYhswEACAAJ&dq=Selections+from+the+Talmud+The+Talmud&hl=&source=gbs_api",
@@ -140,5 +140,20 @@
     "Trinity",
     "Works to 1900"
   ],
-  "ol_work_key": "/works/OL158224W"
+  "ol_work_key": "/works/OL158224W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 116,
+  "first_published_circa": false,
+  "original_language": "heb",
+  "original_title": "More Nevukhim",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL44585772M"
 }

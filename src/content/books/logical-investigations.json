@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/266239-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/266239-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1304034W",
-  "first_published": 2001,
+  "first_published": 1900,
   "language": "eng",
   "description": "Coinciding with the renewed interest in Husserl and the origins of phenomenology, Logical Investigations, his most famous and influential work, is presented here in paperback for the first time.",
   "isbn": "9780415241908",
@@ -18,7 +18,7 @@
   "subjects": [
     "Phenomenology"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "160",
     "193 s",
@@ -62,5 +62,20 @@
     "Sociology of Knowledge",
     "Theory of Knowledge"
   ],
-  "ol_work_key": "/works/OL1304069W"
+  "ol_work_key": "/works/OL1304069W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 21,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Logische Untersuchungen",
+  "first_edition_isbn": "9024725178",
+  "representative_edition_key": "/books/OL18730665M"
 }

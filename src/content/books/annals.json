@@ -37,5 +37,14 @@
   "ddc": [
     "937.07"
   ],
-  "ol_work_key": "/works/OL23535595W"
+  "ol_work_key": "/works/OL23535595W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56396170M"
 }

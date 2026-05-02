@@ -42,5 +42,14 @@
     "Kenya, fiction"
   ],
   "ol_work_key": "/works/OL10243W",
-  "pages": 349
+  "pages": 349,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 21,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL30586750M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Prelude",
   "author": "William Wordsworth",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "the-prelude",
   "tags": [
@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7153082-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7153082-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26384W",
-  "first_published": 1850,
+  "first_published": 1815,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -191,5 +191,16 @@
     "Specimens",
     "Wordsworth, william, 1770-1850"
   ],
-  "ol_work_key": "/works/OL26386W"
+  "ol_work_key": "/works/OL26386W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 372,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11729104M"
 }

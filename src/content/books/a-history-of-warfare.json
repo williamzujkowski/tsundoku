@@ -32,5 +32,42 @@
     "War",
     "Military art and science, history"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "355.0209",
+    "355.009"
+  ],
+  "lcc": [
+    "U--0027.00000000.K38 1993",
+    "U--0027.00000000",
+    "U--0027.00000000 K38 1994",
+    "U--0027.00000000.K38 1993g"
+  ],
+  "subject_facet": [
+    "355/.009",
+    "Art et science militaires",
+    "Geschichte",
+    "Histoire",
+    "History",
+    "Kriegführung",
+    "Military",
+    "Military History",
+    "Military art and science",
+    "Military art and science, history",
+    "Military art and science--history",
+    "New York Times reviewed",
+    "Oorlogvoering",
+    "U27 .k38 1993",
+    "War"
+  ],
+  "ol_work_key": "/works/OL816416W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 15,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32105435M"
 }

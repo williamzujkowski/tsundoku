@@ -1,7 +1,7 @@
 {
   "title": "Masnavi",
   "author": "Rumi",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "masnavi",
   "tags": [
@@ -43,5 +43,14 @@
     "Persian Sufi poetry",
     "Sufi poetry"
   ],
-  "ol_work_key": "/works/OL15120167W"
+  "ol_work_key": "/works/OL15120167W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL3434608M"
 }

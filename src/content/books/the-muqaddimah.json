@@ -1,7 +1,7 @@
 {
   "title": "The Muqaddimah",
   "author": "Ibn Khaldun",
-  "category": "History",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-muqaddimah",
   "tags": [
@@ -127,5 +127,20 @@
     "Wereldgeschiedenis",
     "World history"
   ],
-  "ol_work_key": "/works/OL1597257W"
+  "ol_work_key": "/works/OL1597257W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 54,
+  "first_published_circa": false,
+  "original_language": "ara",
+  "original_title": "Muqaddimat Ibn Khaldûn",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7758938M"
 }

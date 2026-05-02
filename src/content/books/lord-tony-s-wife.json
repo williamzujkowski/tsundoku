@@ -14,7 +14,7 @@
   "description": "An aristocrat and his daughter are targeted by a former peasant who hides his true identity to ingratiate himself into the world of French royalists. After gaining their trust, he attempts to marry the girl, but she’s already eloped with another. Pierre Adet is a French peasant who becomes obsessed with landowner, Duc de Kernogan and his daughter Yvonne. After experiencing unfair treatment and wages, he incites a mob against the aristocrat that proves unsuccessful. After escaping execution, he t",
   "cover_url": "https://books.google.com/books/content?id=pxQuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781513277196",
-  "first_published": 2021,
+  "first_published": 1917,
   "pages": 200,
   "google_books_url": "https://play.google.com/store/books/details?id=pxQuEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -34,5 +34,48 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 35117,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/35117",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35117.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35117.html.images",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "LB-3409.00000000.U6 J4",
+    "PR-6029.00000000.R25 Lo",
+    "PZ-0003.00000000.O65 Lo",
+    "PR-6029.00000000.R25",
+    "PR-6029.00000000.R25 L34 1917"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "Blakeney, Percy, Sir (Fictitious character) -- Fiction",
+    "Blakeney, percy, sir (fictitious character), fiction",
+    "British",
+    "British -- France -- Fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "France -- History -- Revolution, 1789-1799 -- Fiction",
+    "France, fiction",
+    "France, history, revolution, 1789-1799, fiction",
+    "Historical fiction",
+    "History",
+    "Nobility",
+    "Russia",
+    "Russia. Glavnoe upravlenie zemleustroĭstva i zemledi͡eli͡a. Otdi͡el zemelʹnykh uluchsheniĭ",
+    "School hygiene",
+    "Sir Blakeney, Percy (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL1253281W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 116,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33908426M"
 }

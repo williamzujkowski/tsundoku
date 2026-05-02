@@ -20,5 +20,22 @@
   "librivox_url": "https://librivox.org/the-imaginary-invalid-by-moliere/",
   "description": "The Imaginary Invalid, The Hypochondriac, or The Would-Be Invalid is a three-act comédie-ballet by the French playwright Molière with dance sequences and musical interludes by Marc-Antoine Charpentier. It premiered on 10 February 1673 at the Théâtre du Palais-Royal in Paris and was originally choreographed by Pierre Beauchamp.",
   "isbn": "9781407651293",
-  "ol_work_key": "/works/OL36779528W"
+  "ol_work_key": "/works/OL36779528W",
+  "ddc": [
+    "842.4"
+  ],
+  "lcc": [
+    "PQ-1835.00000000.A1 2005"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781407651293",
+  "representative_edition_key": "/books/OL49669975M"
 }

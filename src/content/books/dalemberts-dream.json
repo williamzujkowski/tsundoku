@@ -27,5 +27,17 @@
     "Alembert, jean le rond d', 1717-1783",
     "Continental european fiction (fictional works by one author)"
   ],
-  "ol_work_key": "/works/OL28234451W"
+  "ol_work_key": "/works/OL28234451W",
+  "ddc": [
+    "843.5"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38640685M"
 }

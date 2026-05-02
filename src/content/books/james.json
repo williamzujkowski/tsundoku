@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/15094964-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/15094964-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL36506504W",
-  "first_published": 2024,
+  "first_published": 2013,
   "language": "eng",
   "description": "\"Anything we take for granted, Mr. Everett means to show us, may turn out to be a lie.\" —Wall Street Journal * Finalist for the Los Angeles Times Book Prize * Finalist for the PEN / Faulkner Award for Fiction * A story inside a story inside a story. A man visits his aging father in a nursing home, where his father writes the novel he imagines his son would write. Or is it the novel that the son imagines his father would imagine, if he were to imagine the kind of novel the son would write? Let's ...",
   "isbn": "9781555970659",
@@ -46,5 +46,16 @@
     "Old age",
     "Storytelling"
   ],
-  "ol_work_key": "/works/OL17487901W"
+  "ol_work_key": "/works/OL17487901W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781555976347",
+  "representative_edition_key": "/books/OL46593799M"
 }

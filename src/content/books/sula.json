@@ -27,5 +27,67 @@
     "Noires américaines",
     "Literature"
   ],
-  "pages": 174
+  "pages": 174,
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.O8749 S8 2002b",
+    "PS-3563.00000000.O8749 S9",
+    "PS-3563.00000000.O8749 S8 2004",
+    "PS-3563.00000000.O8749 S83 1982",
+    "PZ-0004.00000000.M883Su",
+    "PS-3563.00000000.O8749 S8 1996",
+    "PS-3563.00000000.O8749 Su",
+    "PS-3563.00000000.O8749",
+    "PS-3563.00000000.O8749 S8 1987",
+    "PS-3563.00000000.O8749 S8",
+    "PS-3563.00000000.O8749 S94 1993",
+    "PS-3563.00000000.O8749 S815 1984",
+    "PZ-0004.00000000.M883 Su",
+    "PS-3563.00000000.O8749 S8 2002"
+  ],
+  "subject_facet": [
+    "1000blackgirlbooks",
+    "African American women",
+    "African Americans",
+    "African american women--fiction",
+    "African american women--ohio--fiction",
+    "African americans, fiction",
+    "American fiction (fictional works by one author)",
+    "Amitié féminine",
+    "Betrayal",
+    "Children's secrets",
+    "City and town life",
+    "City and town life--fiction",
+    "Domestic fiction",
+    "Female friendship",
+    "Female friendship--fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, family life",
+    "Fiction, family life, general",
+    "General",
+    "Large type books",
+    "Literature",
+    "Noires américaines",
+    "Ohio",
+    "Ohio, fiction",
+    "Ps3563.o8749 s8 2004",
+    "Romans, nouvelles",
+    "Social norms",
+    "Southern states, fiction",
+    "Vie urbaine",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL50567W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 55,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29487789M"
 }

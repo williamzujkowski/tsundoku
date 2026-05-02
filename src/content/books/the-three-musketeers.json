@@ -48,5 +48,22 @@
   "librivox_url": "https://librivox.org/the-three-musketeers-by-alexandre-dumas/",
   "gutenberg_id": 1257,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1257",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1257.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1257.html.images",
+  "ddc": [
+    "823.8",
+    "j823.8"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "France",
+    "History"
+  ],
+  "ol_work_key": "/works/OL24172814W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL31910374M"
 }

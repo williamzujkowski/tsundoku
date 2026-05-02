@@ -27,5 +27,52 @@
     "Houseboats in fiction",
     "Tennessee River in fiction",
     "Fiction in English"
-  ]
+  ],
+  "ddc": [
+    "823.54",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3563.00000000.C337 Su",
+    "PS-3563.00000000.A258",
+    "PS-3563.00000000.C337 S9 1986",
+    "PS-3563.00000000.A258S9 1986",
+    "PS-3563.00000000.C337",
+    "PS-3563.00000000.A258; Su",
+    "PZ-0004.00000000.M1227Su",
+    "PS-3563.00000000.C337 S9 2002",
+    "PZ-0004.00000000.M1227 Su",
+    "PS-3563.00000000.C337S8 2024",
+    "PS-3563.00000000.A258 S9 2002",
+    "PS-3563.00000000.A258S9 2002"
+  ],
+  "subject_facet": [
+    "American literature",
+    "East tennessee in fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, general",
+    "Fiction, humorous, general",
+    "Fiction, psychological",
+    "Fishers",
+    "Fishers in fiction",
+    "Houseboats",
+    "Houseboats in fiction",
+    "Men",
+    "Men in fiction",
+    "Tennessee River in fiction",
+    "Tennessee, fiction"
+  ],
+  "ol_work_key": "/works/OL40885W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 20,
+  "first_published_circa": false,
+  "first_edition_isbn": "0394482131",
+  "representative_edition_key": "/books/OL7700025M"
 }

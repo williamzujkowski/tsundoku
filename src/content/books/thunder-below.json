@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "American Naval operations",
     "American Personal narratives",
@@ -46,5 +46,16 @@
     "World war, 1939-1945, naval operations, american",
     "World war, 1939-1945, naval operations, submarine"
   ],
-  "ol_work_key": "/works/OL4123224W"
+  "ol_work_key": "/works/OL4123224W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "0252019253",
+  "representative_edition_key": "/books/OL9877850M"
 }

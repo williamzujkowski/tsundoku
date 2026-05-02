@@ -92,5 +92,18 @@
     "Young men",
     "Youth"
   ],
-  "ol_work_key": "/works/OL30457295W"
+  "ol_work_key": "/works/OL30457295W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 176,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL35921342M"
 }

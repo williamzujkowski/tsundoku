@@ -33,5 +33,27 @@
   "gutenberg_id": 41085,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/41085",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/41085.html.images",
-  "ol_work_key": "/works/OL29042283W"
+  "ol_work_key": "/works/OL29042283W",
+  "ddc": [
+    "851.1"
+  ],
+  "lcc": [
+    "PQ-4315.58000000.R7 1907",
+    "PQ-4310.00000000.V2 R3"
+  ],
+  "subject_facet": [
+    "Grief",
+    "Italian",
+    "Love",
+    "Poetry"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL39944989M"
 }

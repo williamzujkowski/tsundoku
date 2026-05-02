@@ -12,7 +12,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=PS0taeG-3NoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781442914735",
-  "first_published": 2023,
+  "first_published": 1926,
   "pages": 258,
   "google_books_url": "http://books.google.com/books?id=PS0taeG-3NoC&dq=intitle:The+Gold+Bat&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,39 @@
   "gutenberg_id": 6879,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/6879",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/6879.html.images",
-  "description": "The Gold Bat is a novel by P. G. Wodehouse, first published on 13 September 1904 by A & C Black, London. It was originally serialised in The Captain."
+  "description": "The Gold Bat is a novel by P. G. Wodehouse, first published on 13 September 1904 by A & C Black, London. It was originally serialised in The Captain.",
+  "lcc": [
+    "PZ-0007.00000000.W817 Go8",
+    "PR-6045.00000000.O53"
+  ],
+  "subject_facet": [
+    "Boys -- Conduct of life -- Juvenile fiction",
+    "Children's fiction",
+    "Children’s",
+    "Classic Literature",
+    "Cricket",
+    "Cricket bats",
+    "English Humorous stories",
+    "Fiction",
+    "Fiction, humorous",
+    "Great britain, fiction",
+    "Humor, general",
+    "Humorous stories, English",
+    "Schools",
+    "Schools -- Juvenile fiction",
+    "Sports -- Juvenile fiction",
+    "Sports, fiction"
+  ],
+  "ol_work_key": "/works/OL1337122W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 31,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9553833M"
 }

@@ -28,5 +28,14 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/17147",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/17147.html.images",
   "isbn": "9781973849360",
-  "ol_work_key": "/works/OL41616803W"
+  "ol_work_key": "/works/OL41616803W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56511823M"
 }

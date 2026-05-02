@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "The Water of the Wondrous Isles is a landmark in fantasy fiction. After she encounters a wood fairy that helps her escape the witch’s clutches, Birdalone embarks on a series of adventures across the titular Wondrous Isles. These isles are used by Morris both as parables for contemporary Britain and as vehicles for investigating his radical socialist beliefs. As Birdalone travels through the isles she slowly evolves into the embodiment of the Victorian “new woman,” embracing hard physical labor, ",
   "cover_url": "https://books.google.com/books/content?id=J_aVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1914,
+  "first_published": 1897,
   "pages": 646,
   "google_books_url": "https://play.google.com/store/books/details?id=J_aVEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -42,5 +42,16 @@
     "Private presses",
     "Science fiction"
   ],
-  "ol_work_key": "/works/OL47745W"
+  "ol_work_key": "/works/OL47745W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 96,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL41719145M"
 }

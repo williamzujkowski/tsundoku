@@ -18,5 +18,28 @@
   "oclc_id": "5159350",
   "worldcat_url": "https://www.worldcat.org/oclc/5159350",
   "lccn": "53007766",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "lcc": [
+    "PR-6039.00000000.H52 A17 1953",
+    "PR-6039.00000000.H52 1953"
+  ],
+  "subject_facet": [
+    "Poetry"
+  ],
+  "ol_work_key": "/works/OL19772750W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "De la nécessité d'une linguistique appliquée",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL20426919M"
 }

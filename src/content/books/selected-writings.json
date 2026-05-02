@@ -28,5 +28,41 @@
     "Spiritual life",
     "Sermons allemands (Moyen haut allemand)"
   ],
-  "ol_work_key": "/works/OL28237587W"
+  "ol_work_key": "/works/OL28237587W",
+  "ddc": [
+    "248.22"
+  ],
+  "lcc": [
+    "BV-5080.00000000.E3213 1994"
+  ],
+  "subject_facet": [
+    "Bv5080 .e3213 1994",
+    "Catholic Church",
+    "Catholic church, sermons",
+    "Early works to 1800",
+    "Filosofia cristã",
+    "Filosofia medieval",
+    "German Sermons",
+    "Latin Sermons",
+    "Mysticism",
+    "Mysticism--early works to 1800",
+    "Sermons",
+    "Sermons, german",
+    "Sermons, german--translations into english",
+    "Sermons, latin",
+    "Sermons, latin--translations into english",
+    "Sermão",
+    "Translations into English"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780141904603",
+  "representative_edition_key": "/books/OL38644894M"
 }

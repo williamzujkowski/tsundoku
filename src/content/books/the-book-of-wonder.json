@@ -13,7 +13,7 @@
   "description": "The Book of Wonder is the seventh book and fifth original short story collection of Irish fantasy writer Lord Dunsany, considered a major influence on the work of J. R. R. Tolkien, H. P. Lovecraft, Ursula K. Le Guin, and others. It was first published in hardcover by William Heinemann in November, 1912, and has been reprinted a number of times since. A 1918 edition from the Modern Library was actually a combined edition with Time and the Gods.The book collects fourteen fantasy short stories by t",
   "cover_url": "https://books.google.com/books/content?id=R3tZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "9798604432501",
-  "first_published": 2020,
+  "first_published": 1912,
   "pages": 88,
   "google_books_url": "http://books.google.com/books?id=R3tZzQEACAAJ&dq=intitle:The+Book+of+Wonder&hl=&source=gbs_api",
   "language": "eng",
@@ -27,5 +27,35 @@
   "gutenberg_id": 7477,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7477",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7477.html.images",
-  "librivox_url": "https://librivox.org/the-book-of-wonder-by-lord-dunsany/"
+  "librivox_url": "https://librivox.org/the-book-of-wonder-by-lord-dunsany/",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6 B6 1915",
+    "PR-6007.00000000.U6 B6 1920",
+    "PR-6007.00000000.U6 B6 1913",
+    "PR-6007.00000000.U6 B6 1972",
+    "PR-6007.00000000 U6 B6 1919"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, short stories (single author)",
+    "Irish authors",
+    "Science Fiction & Fantasy"
+  ],
+  "ol_work_key": "/works/OL83877W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 28,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL12557850M"
 }

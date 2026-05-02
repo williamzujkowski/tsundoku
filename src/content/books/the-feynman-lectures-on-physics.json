@@ -33,5 +33,24 @@
   "subject_facet": [
     "Physics"
   ],
-  "ol_work_key": "/works/OL26788620W"
+  "ol_work_key": "/works/OL26788620W",
+  "ddc": [
+    "530"
+  ],
+  "lcc": [
+    "QC-0023.00000000.F47",
+    "QC-0021.20000000",
+    "QC-0021.20000000.F49 2006",
+    "QC-0023.00000000.F47 2006",
+    "QC-0021.20000000.F49 1989"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36312101M"
 }

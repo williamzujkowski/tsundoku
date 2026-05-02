@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=zRvhgk7HkNQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1911,
+  "first_published": 1851,
   "pages": 584,
   "google_books_url": "https://play.google.com/store/books/details?id=zRvhgk7HkNQC&source=gbs_api",
   "language": "eng",
@@ -88,5 +88,16 @@
     "Romanies -- Fiction",
     "Tobacco"
   ],
-  "ol_work_key": "/works/OL244663W"
+  "ol_work_key": "/works/OL244663W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 188,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34431515M"
 }

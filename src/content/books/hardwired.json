@@ -23,5 +23,31 @@
     "Comics & graphic novels, science fiction, general",
     "Fiction, general"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.I456213H37",
+    "PS-3573.00000000.I463 H37 1987",
+    "PS-3573.00000000.I456213 H37 1986",
+    "PS-3573.00000000.I456213"
+  ],
+  "subject_facet": [
+    "Comics & graphic novels, science fiction",
+    "Comics & graphic novels, science fiction, general",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL115356W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": "0312933037",
+  "representative_edition_key": "/books/OL8895429M"
 }

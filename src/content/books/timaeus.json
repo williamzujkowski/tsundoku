@@ -9,7 +9,7 @@
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL40211013W",
-  "first_published": 2018,
+  "first_published": 2014,
   "language": "eng",
   "cover_url": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -29,5 +29,20 @@
   "gutenberg_id": 1572,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1572",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1572.html.images",
-  "description": "SOCRATES. One, two, three-but where, my dear Timaeus, is the fourth of those guests of yesterday who were to entertain me to-day ?"
+  "description": "SOCRATES. One, two, three-but where, my dear Timaeus, is the fourth of those guests of yesterday who were to entertain me to-day ?",
+  "ddc": [
+    "113"
+  ],
+  "ol_work_key": "/works/OL40889320W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781503043299",
+  "representative_edition_key": "/books/OL55585792M"
 }

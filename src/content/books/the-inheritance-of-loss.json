@@ -27,5 +27,56 @@
     "Ethnic relations",
     "Fiction",
     "award:national_book_critics_circle_award=2006"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.E82 I54 2005",
+    "PS-3554.00000000.E82 I54 2006b",
+    "PS-3554.00000000.E82I54 2005",
+    "PS-3554.00000000.E82 I54 2007",
+    "PS-0000.00000000",
+    "PS-3554.00000000.E82 I54 2008",
+    "PS-3554.00000000.E82 I54 2006",
+    "PS-3554.00000000.E82"
+  ],
+  "subject_facet": [
+    "Domestic fiction",
+    "Einwanderer",
+    "Ethnic relations",
+    "Familie",
+    "Fiction",
+    "Fiction, family life, general",
+    "Fiction, psychological",
+    "Fictional Works",
+    "Fremdheit",
+    "Grandfathers",
+    "Grandparent and child",
+    "Grandparents, fiction",
+    "India, fiction",
+    "Judges",
+    "Large type books",
+    "Man Booker Prize Winner",
+    "National Book Critics Circle Award Winner",
+    "Older men",
+    "Orphans",
+    "Psychological fiction",
+    "Retirement",
+    "Teenage girls",
+    "Tutors and tutoring",
+    "award:man_booker_prize=2006",
+    "award:national_book_critics_circle_award=2006",
+    "award:national_book_critics_circle_award=fiction"
+  ],
+  "ol_work_key": "/works/OL97945W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL28458985M"
 }

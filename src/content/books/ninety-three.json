@@ -34,5 +34,23 @@
   "gutenberg_id": 49372,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/49372",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/49372.html.images",
-  "librivox_url": "https://librivox.org/ninety-three-by-victor-hugo/"
+  "librivox_url": "https://librivox.org/ninety-three-by-victor-hugo/",
+  "lcc": [
+    "PQ-2289.00000000.Q3A2 2021"
+  ],
+  "subject_facet": [
+    "Romance literature"
+  ],
+  "ol_work_key": "/works/OL25333120W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781904999935",
+  "representative_edition_key": "/books/OL33936359M"
 }

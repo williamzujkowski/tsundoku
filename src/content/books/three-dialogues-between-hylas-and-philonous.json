@@ -29,5 +29,51 @@
   ],
   "gutenberg_id": 4724,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4724",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4724.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4724.html.images",
+  "ddc": [
+    "192"
+  ],
+  "lcc": [
+    "B--1325.00000000 1988",
+    "B--1325.00000000 1954",
+    "B--1326.00000000.B47 2007",
+    "B--1326.00000000.M38",
+    "B--1326.00000000.M38 2007",
+    "B--1326.00000000 B715 1980",
+    "B--1326.00000000.D36 1998",
+    "B--1326.00000000.D36 2006",
+    "B--1325.00000000 1927",
+    "B--1328.00000000.G4 R53 2005",
+    "B--1325.00000000 1994",
+    "B--1326.00000000.D36 1997",
+    "B--1325.00000000 1979"
+  ],
+  "subject_facet": [
+    "Berkeley, george, 1685-1753",
+    "Criticism",
+    "Epistemology",
+    "General",
+    "History & Surveys",
+    "History & Surveys - 17th/18th Century",
+    "Idealism",
+    "Modern",
+    "Philosophy",
+    "Philosophy / General",
+    "Providence and government of God",
+    "Soul",
+    "Textbooks",
+    "Western philosophy, c 1800 to c 1900"
+  ],
+  "ol_work_key": "/works/OL1066804W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 23,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL17156696M"
 }

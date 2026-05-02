@@ -33,5 +33,48 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/14322",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/14322.html.images",
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL41132659W"
+  "ol_work_key": "/works/OL41132659W",
+  "ddc": [
+    "882.3",
+    "882",
+    "882.01"
+  ],
+  "lcc": [
+    "PA-3973.00000000 E5 1964",
+    "PA-3973.00000000 E5 1918",
+    "PA-3975.00000000.E5L46 1994",
+    "PA-3975.00000000.E5C76 1988",
+    "PA-3975.00000000 E5 M8 1940",
+    "PA-3978.00000000",
+    "PA-3973.00000000 E5 1893",
+    "PA-3975.00000000.E5 L46 1994",
+    "PA-3973.00000000.E5 2002",
+    "PA-3973.00000000.E5 1995",
+    "PA-3975.00000000.E5 L46 1993",
+    "PA-3975.00000000.E5 H25 1964",
+    "PA-3975.00000000 E5 M8 1905",
+    "PA-3974.00000000.A1 E5 1987",
+    "PA-3975.00000000.E5 C76 1988",
+    "PA-3973.00000000 E5 1959",
+    "PA-3973.00000000 E5 1932",
+    "PA-3973.00000000.E5 1939",
+    "PA-3975.00000000.E5 H3 1924"
+  ],
+  "subject_facet": [
+    "Ancient greek & roman drama",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Electra (Greek mythology)",
+    "Greek language materials",
+    "open_syllabus_project"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL55882182M"
 }

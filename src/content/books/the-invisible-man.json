@@ -1,7 +1,7 @@
 {
   "title": "The Invisible Man",
   "author": "H.G. Wells",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-invisible-man",
   "tags": [
@@ -129,5 +129,11 @@
     "Time travel",
     "Wells, h. g. (herbert george), 1866-1946"
   ],
-  "ol_work_key": "/works/OL52266W"
+  "ol_work_key": "/works/OL52266W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "representative_edition_key": "/books/OL52556512M"
 }

@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "Tarzan, Lord of the Jungle is an animated series created by the Filmation studio for CBS, starting in 1976. There are a total of 36 episodes produced over the first four seasons",
   "isbn": "9798686079922",
-  "first_published": 2020,
+  "first_published": 1928,
   "pages": 248,
   "google_books_url": "http://books.google.com/books?id=ooUTzgEACAAJ&dq=intitle:Tarzan,+Lord+of+the+Jungle&hl=&source=gbs_api",
   "language": "eng",
@@ -21,5 +21,35 @@
   "librivox_url": "https://librivox.org/tarzan-lord-of-the-jungle-er-burroughs/",
   "gutenberg_id": 72938,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72938",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72938.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72938.html.images",
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B944 Tap11",
+    "PS-3503.00000000.U687 Tap11",
+    "PS-3503.00000000.U687 Tap",
+    "PZ-0003.00000000.B944 Tap"
+  ],
+  "subject_facet": [
+    "Africa, fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, action & adventure",
+    "Tarzan (Fictitious character)",
+    "Tarzan (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL1418062W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 62,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30365017M"
 }

@@ -6,7 +6,7 @@
   "slug": "cat-and-mouse",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL29349907W",
-  "first_published": 1963,
+  "first_published": 1961,
   "language": "eng",
   "description": "The setting is Danzig during World War II. The narrator recalls a boyhood scene in which a black cat pounces on his friend Mahlke's \"mouse\"-his prominent Adam's apple. This incident sets off a wild series of events that ultimately leads to Mahlke's becoming a national hero. Translated by Ralph Manheim. A Helen and Kurt Wolff Book",
   "cover_url": "https://books.google.com/books/content?id=-HQZ-dKT8tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -53,5 +53,20 @@
     "War stories",
     "World war, 1939-1945, fiction"
   ],
-  "ol_work_key": "/works/OL67333W"
+  "ol_work_key": "/works/OL67333W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 47,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Katz und Maus",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL1543872M"
 }

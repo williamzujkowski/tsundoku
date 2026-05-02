@@ -1,7 +1,7 @@
 {
   "title": "Ralestone Luck",
   "author": "Andre Norton",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "ralestone-luck",
   "tags": [
@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "\"Ralestone Luck\" is a juvenile adventure novel about kids who inherit a haunted old mansion in the Deep South of the USA. The protagonists live through numerous adventures in the nearby swamps, meet a mysterious boy hanging about, have to face claims from another possible heir to the house backed up by local thugs, find underground tunnels and a lost treasure, and, perhaps, have the best time of their lives, which is s interesting to follow as a reader.",
   "cover_url": "https://books.google.com/books/content?id=HsejEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 2006,
   "pages": 183,
   "google_books_url": "https://play.google.com/store/books/details?id=HsejEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -45,5 +45,14 @@
     "Nobility",
     "Talismans"
   ],
-  "ol_work_key": "/works/OL473472W"
+  "ol_work_key": "/works/OL473472W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 63,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9705997M"
 }

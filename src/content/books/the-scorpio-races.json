@@ -1,7 +1,7 @@
 {
   "title": "The Scorpio Races",
   "author": "Maggie Stiefvater",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 3,
   "slug": "the-scorpio-races",
   "tags": [
@@ -52,5 +52,14 @@
     "Orphans, fiction",
     "Racing"
   ],
-  "ol_work_key": "/works/OL16221923W"
+  "ol_work_key": "/works/OL16221923W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL44139675M"
 }

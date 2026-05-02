@@ -26,5 +26,40 @@
     "Morale sexuelle"
   ],
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL32409241W"
+  "ol_work_key": "/works/OL32409241W",
+  "ddc": [
+    "173",
+    "176"
+  ],
+  "lcc": [
+    "HQ-0021.00000000.R877 2017",
+    "HQ-0032.00000000",
+    "HQ-0021.00000000.R95 1938",
+    "HQ-0021.00000000.R95 2009",
+    "HQ-0021.00000000.R95",
+    "HQ-0021.00000000 R95 1932",
+    "HQ-0021.00000000.R95 1929",
+    "HQ-0021.00000000 R95 1930",
+    "HQ-0021.00000000.R95 1970",
+    "HQ-0021.00000000 R95 1929"
+  ],
+  "subject_facet": [
+    "Aspect moral",
+    "Mariage",
+    "Marriage",
+    "Moral and ethical aspects",
+    "Morale sexuelle",
+    "Sex Behavior",
+    "Sexual Behavior",
+    "Sexual ethics"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL44185386M"
 }

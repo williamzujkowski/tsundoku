@@ -25,5 +25,27 @@
     "Japan, biography",
     "Japan, social life and customs"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "915.2"
+  ],
+  "lcc": [
+    "DS-0825.00000000.S8 1925a",
+    "DS-0825.00000000.S8 1935",
+    "DS-0825.00000000.S8 1928"
+  ],
+  "subject_facet": [
+    "Japan, biography",
+    "Japan, juvenile literature",
+    "Japan, social life and customs",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL7579395W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "representative_edition_key": "/books/OL8272314M"
 }

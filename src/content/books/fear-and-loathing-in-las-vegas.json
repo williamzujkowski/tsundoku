@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream is a 1971 novel in the gonzo journalism style by Hunter S. Thompson. The book is a roman à clef, rooted in autobiographical incidents. The story follows its protagonist, Raoul Duke, and his attorney, Doctor Gonzo, as they descend on Las Vegas to chase the American Dream through a drug-induced haze, all the while ruminating on the failure of the 1960s countercultural movement.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Fear_and_Loathing_in_Las_Vegas.jpg/250px-Fear_and_Loathing_in_Las_Vegas.jpg",
   "isbn": "9781417665884",
@@ -39,5 +39,16 @@
   ],
   "ol_work_key": "/works/OL158041W",
   "first_published": 1971,
-  "pages": 205
+  "pages": 205,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 17,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780445084315",
+  "representative_edition_key": "/books/OL8459403M"
 }

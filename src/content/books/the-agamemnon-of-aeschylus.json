@@ -12,7 +12,7 @@
   "description": "Agamemnon of Aeschylus. Aeschylus was an ancient Greek tragedian. He is often described as the father of tragedy. Academics' knowledge of the genre begins with his work, and understanding of earlier tragedies is largely based on inferences from his surviving plays. According to Aristotle, he expanded the number of characters in the theater and allowed conflict among them; characters previously had interacted only with the chorus. In Greek mythology, Agamemnon was the son of King Atreus and Queen",
   "cover_url": "https://books.google.com/books/content?id=7Bb7uAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1721951849",
-  "first_published": 2018,
+  "first_published": 2017,
   "pages": 68,
   "google_books_url": "http://books.google.com/books?id=7Bb7uAEACAAJ&dq=intitle:The+%27Agamemnon%27+of+Aeschylus&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,14 @@
   "ddc": [
     "882.01"
   ],
-  "ol_work_key": "/works/OL40508024W"
+  "ol_work_key": "/works/OL40508024W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL56190568M"
 }

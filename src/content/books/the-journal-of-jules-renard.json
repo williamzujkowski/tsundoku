@@ -34,5 +34,14 @@
     "Diaries",
     "French Authors"
   ],
-  "ol_work_key": "/works/OL1498213W"
+  "ol_work_key": "/works/OL1498213W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL23157603M",
+  "copyright_status": "public_domain"
 }

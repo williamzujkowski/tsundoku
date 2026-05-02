@@ -99,5 +99,14 @@
     "psychology",
     "Économie politique"
   ],
-  "ol_work_key": "/works/OL3936258W"
+  "ol_work_key": "/works/OL3936258W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 17,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32883690M"
 }

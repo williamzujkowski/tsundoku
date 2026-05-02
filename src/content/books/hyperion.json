@@ -37,5 +37,20 @@
   "subject_facet": [
     "poetry"
   ],
-  "ol_work_key": "/works/OL1455243W"
+  "ol_work_key": "/works/OL1455243W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Hyperion.",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22456360M"
 }

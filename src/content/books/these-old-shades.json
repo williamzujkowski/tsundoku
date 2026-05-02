@@ -12,11 +12,11 @@
   "reading_status": "read",
   "description": "Georgette Heyer's novel 'These Old Shades' transports readers to 18th century France, introducing them to a story of romance, intrigue, and aristocratic splendor. Heyer's vivid descriptions and attention to historical detail immerse the reader in a world of lavish balls, secret plots, and forbidden love. The dialogue is sharp and witty, capturing the essence of the era while still remaining accessible to modern readers. Heyer's writing style is elegant and engaging, making this novel a delightfu",
   "cover_url": "https://books.google.com/books/content?id=wxnmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2023,
+  "first_published": 1926,
   "pages": 331,
   "google_books_url": "https://play.google.com/store/books/details?id=wxnmEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Fiction, Romance, Historical, Georgian",
     "Open Library Staff Picks",
@@ -54,5 +54,15 @@
     "Open Library Staff Picks",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL4092686W"
+  "ol_work_key": "/works/OL4092686W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 61,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL37729151M"
 }

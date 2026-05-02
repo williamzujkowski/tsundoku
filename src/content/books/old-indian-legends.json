@@ -11,7 +11,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=GzhBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783732617616",
-  "first_published": 2017,
+  "first_published": 1901,
   "pages": 62,
   "google_books_url": "http://books.google.com/books?id=GzhBDwAAQBAJ&dq=intitle:Old+Indian+Legends&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,46 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/338",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/338.html.images",
   "librivox_url": "https://librivox.org/old-indian-legends-by-zitkala-sa/",
-  "description": "IKTOMI is a spider fairy."
+  "description": "IKTOMI is a spider fairy.",
+  "ddc": [
+    "398.208997",
+    "398.07",
+    "398"
+  ],
+  "lcc": [
+    "E--0098.00000000.F6 Z58 1901",
+    "PZ-0008.10000000.Z69 O",
+    "E--0099.00000000.D1258 1901",
+    "PZ-0008.10000000.Z58 Ol 1902",
+    "E--0099.00000000.D1Z58 1985",
+    "E--0099.00000000.D1258 1985",
+    "E--0099.00000000.D1"
+  ],
+  "subject_facet": [
+    "Children’s",
+    "Dakota Indians",
+    "Dakota Indians -- Folklore",
+    "Fiction",
+    "Fiction, short stories (single author)",
+    "Folklore",
+    "Indians of North America",
+    "Indians of north america, fiction",
+    "Indians of north america, folklore",
+    "Indians of north america, west (u.s.)",
+    "Legends",
+    "Shorts",
+    "Yankton Indians"
+  ],
+  "ol_work_key": "/works/OL5478556W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 67,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33913403M"
 }

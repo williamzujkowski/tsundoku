@@ -12,7 +12,7 @@
   "description": "It happened that, on the morning of the momentous June the fourteenth when the discovery of the murdered body of Alvin H. Benson created a sensation which, to this day, has not entirely died away, I had breakfasted with Philo Vance in his apartment. It was not unusual for me to share Vance's luncheons and dinners, but to have breakfast with him was something of an occasion. He was a late riser, and it was his habit to remain incommunicado until his midday meal.The reason for this early meeting w",
   "cover_url": "https://books.google.com/books/content?id=ldlqzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "9798622347344",
-  "first_published": 2020,
+  "first_published": 1926,
   "pages": 248,
   "google_books_url": "http://books.google.com/books?id=ldlqzQEACAAJ&dq=intitle:The+Benson+Murder+Case&hl=&source=gbs_api",
   "language": "eng",
@@ -53,5 +53,16 @@
     "Private investigators, fiction",
     "Vance, philo (fictitious character), fiction"
   ],
-  "ol_work_key": "/works/OL15133991W"
+  "ol_work_key": "/works/OL15133991W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 79,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38554756M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Purgatorio",
   "author": "Dante Alighieri",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "purgatorio",
   "tags": [
@@ -145,5 +145,20 @@
     "Translations into englishdante alighieri , 1265-1321",
     "Works by individual poets: classical, early & medieval"
   ],
-  "ol_work_key": "/works/OL93140W"
+  "ol_work_key": "/works/OL93140W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 216,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Dante Alighieri von dem Fegfeuer.",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7426459M"
 }

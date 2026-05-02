@@ -15,5 +15,36 @@
   "pages": 318,
   "google_books_url": "https://play.google.com/store/books/details?id=w-3Ru_r1PpEC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.A7667",
+    "PS-3553.00000000.A7667 A94 1998"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Epic poetry, Greek",
+    "Greek Epic poetry",
+    "Gēryonēis (Stesichorus)",
+    "Heracles (Greek mythology)",
+    "Monsters",
+    "Mythology",
+    "New York Times reviewed",
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL1998433W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "037570129X",
+  "representative_edition_key": "/books/OL18138278M"
 }

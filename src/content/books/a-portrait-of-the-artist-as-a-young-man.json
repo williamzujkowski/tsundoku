@@ -181,5 +181,14 @@
     "Young men--fiction",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL86343W"
+  "ol_work_key": "/works/OL86343W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL57783576M"
 }

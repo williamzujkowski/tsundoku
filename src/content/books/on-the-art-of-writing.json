@@ -29,5 +29,23 @@
     "Travel",
     "Open Library Staff Picks"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "828.809"
+  ],
+  "lcc": [
+    "PR-5488.00000000.E67 2004"
+  ],
+  "subject_facet": [
+    "Authorship",
+    "Scottish Fables"
+  ],
+  "ol_work_key": "/works/OL15211576W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL3315141M"
 }

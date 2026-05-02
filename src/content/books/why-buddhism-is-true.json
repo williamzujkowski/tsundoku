@@ -20,5 +20,21 @@
   "subjects": [
     "r/philosophy Reading List"
   ],
-  "ol_work_key": "/works/OL27730617W"
+  "ol_work_key": "/works/OL27730617W",
+  "lcc": [
+    "BQ-4050.00000000.W75 2017"
+  ],
+  "subject_facet": [
+    "Buddhism",
+    "New York Times bestseller",
+    "nyt:paperback-nonfiction=2018-05-27"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL37846013M",
+  "copyright_status": "in_copyright"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Three Impostors",
   "author": "Arthur Machen",
-  "category": "Fantasy",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-three-impostors",
   "tags": [
@@ -16,7 +16,7 @@
   "description": "\"The Three Impostors\" is a controversial work that has sparked debate over its existence and authorship. The text is often attributed to various historical figures, including Frederick II, Pierre des Vignes, and others, but its true origins remain shrouded in mystery. The treatise is divided into six chapters, each addressing different aspects of theology and philosophy. It critiques the traditional notions of God, the reasons behind religious belief, and the establishment of religions by politi",
   "cover_url": "https://books.google.com/books/content?id=S87MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041806836",
-  "first_published": 2023,
+  "first_published": 1895,
   "pages": 198,
   "google_books_url": "http://books.google.com/books?id=S87MEAAAQBAJ&dq=intitle:The+Three+Impostors&hl=&source=gbs_api",
   "language": "eng",
@@ -41,5 +41,47 @@
   "librivox_url": "https://librivox.org/the-three-impostors-by-arthur-machen/",
   "gutenberg_id": 35517,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/35517",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35517.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/35517.html.images",
+  "ddc": [
+    "823.91",
+    "823.8",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6025.00000000.A245T53 2007",
+    "PR-6025.00000000.A245 T4",
+    "PR-6025.00000000.A245 T49 1995",
+    "PR-6025.00000000 A245 T53 1895",
+    "PR-6025.00000000.A245 Th5",
+    "PR-6025.00000000 A245 T53",
+    "PR-6025.00000000.A245",
+    "PR-6025.00000000.A245 T53 2007",
+    "PZ-0003.00000000.M183 Th5",
+    "PR-6025.00000000.A245 T47 2005x"
+  ],
+  "subject_facet": [
+    "English Authors",
+    "English Detective and mystery stories",
+    "English Science fiction",
+    "English literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, horror",
+    "Fiction, mystery & detective, general",
+    "London (england), fiction",
+    "Mystery fiction",
+    "Scientists, fiction"
+  ],
+  "ol_work_key": "/works/OL3388989W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 71,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33935123M"
 }

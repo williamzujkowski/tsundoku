@@ -1,7 +1,7 @@
 {
   "title": "Schismatrix",
   "author": "Bruce Sterling",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "schismatrix",
   "tags": [
@@ -35,5 +35,12 @@
     "Fiction, science fiction, general",
     "Fiction, short stories (single author)"
   ],
-  "ol_work_key": "/works/OL1888032W"
+  "ol_work_key": "/works/OL1888032W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "representative_edition_key": "/books/OL29710180M"
 }

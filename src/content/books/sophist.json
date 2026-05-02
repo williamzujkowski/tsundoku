@@ -1,7 +1,7 @@
 {
   "title": "Sophist",
   "author": "Plato",
-  "category": "Classics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "sophist",
   "tags": [
@@ -86,5 +86,22 @@
     "Spirituality",
     "Trials, litigation"
   ],
-  "ol_work_key": "/works/OL51948W"
+  "ol_work_key": "/works/OL51948W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 232,
+  "first_published_circa": false,
+  "original_language": "gre",
+  "original_title": "Apology.",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL40538629M",
+  "translator": "Benjamin Jowett"
 }

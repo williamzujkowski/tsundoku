@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "first_published": 1781,
+  "first_published": 1762,
   "pages": 409,
   "google_books_url": "http://books.google.com/books?id=6IbejgEACAAJ&dq=intitle:On+the+Art+of+Reading&hl=&source=gbs_api",
   "language": "eng",
@@ -53,5 +53,16 @@
     "Rhetoric",
     "Textbooks"
   ],
-  "ol_work_key": "/works/OL4091184W"
+  "ol_work_key": "/works/OL4091184W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL32486665M"
 }

@@ -62,5 +62,14 @@
     "Vrouwenleven",
     "Women"
   ],
-  "ol_work_key": "/works/OL10612116W"
+  "ol_work_key": "/works/OL10612116W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 60,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36289016M"
 }

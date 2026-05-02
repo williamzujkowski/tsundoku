@@ -24,5 +24,24 @@
   "subject_facet": [
     "Fiction, fantasy, general"
   ],
-  "ol_work_key": "/works/OL37933438W"
+  "ol_work_key": "/works/OL37933438W",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3612.00000000.E34285 J38 2019",
+    "PS-3612.00000000.E34285",
+    "PS-3612.00000000.E34285J38"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780316440936",
+  "representative_edition_key": "/books/OL51333386M"
 }

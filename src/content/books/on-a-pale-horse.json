@@ -1,7 +1,7 @@
 {
   "title": "On a Pale Horse",
   "author": "Piers Anthony",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "on-a-pale-horse",
   "tags": [
@@ -12,7 +12,7 @@
   "description": "In this first novel of the Incarnations of Immortality, Piers Anthony combines a gripping story of romance and conflicting loyalties with a deeply moving examination of the meaning of life and death. This is a novel that will long linger in the reader's mind. Shooting Death was a mistake, as Zane soon discovered. For the man who killed the Incarnation of Death was immediately forced to assume the vacant position! Thereafter, he must speed over the world, riding his pale horse, and ending the liv",
   "cover_url": "https://books.google.com/books/content?id=27UFpADsJNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780307815651",
-  "first_published": 2012,
+  "first_published": 1984,
   "pages": 338,
   "google_books_url": "https://play.google.com/store/books/details?id=27UFpADsJNkC&source=gbs_api",
   "language": "eng",
@@ -41,5 +41,14 @@
     "Fiction, fantasy, general",
     "Magic"
   ],
-  "ol_work_key": "/works/OL80857W"
+  "ol_work_key": "/works/OL80857W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL38354833M"
 }

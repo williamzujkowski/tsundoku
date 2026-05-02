@@ -1,7 +1,7 @@
 {
   "title": "Reamde",
   "author": "Neal Stephenson",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "reamde",
   "tags": [
@@ -53,5 +53,14 @@
     "Virtual reality",
     "nyt:combined_print_fiction=2011-09-24"
   ],
-  "ol_work_key": "/works/OL16099614W"
+  "ol_work_key": "/works/OL16099614W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29148861M"
 }

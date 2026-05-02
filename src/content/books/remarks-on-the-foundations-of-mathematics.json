@@ -1,7 +1,7 @@
 {
   "title": "Remarks on the Foundations of Mathematics",
   "author": "Ludwig Wittgenstein",
-  "category": "Mathematics",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "remarks-on-the-foundations-of-mathematics",
   "tags": [
@@ -38,5 +38,14 @@
     "Philosophie",
     "Philosophy"
   ],
-  "ol_work_key": "/works/OL3290442W"
+  "ol_work_key": "/works/OL3290442W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL46011043M"
 }

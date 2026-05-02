@@ -61,5 +61,16 @@
     "Psychological aspects",
     "Psychological aspects of Alcoholism"
   ],
-  "ol_work_key": "/works/OL505439W"
+  "ol_work_key": "/works/OL505439W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 53,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9174302M",
+  "copyright_status": "likely_public_domain"
 }

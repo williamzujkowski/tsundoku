@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "The Man'yōshū  is the oldest extant collection of Japanese waka, compiled sometime after AD 759 during the Nara period. The anthology is one of the most revered of Japan's poetic compilations. The compiler, or the last in a series of compilers, is today widely believed to be Ōtomo no Yakamochi, although numerous other theories have been proposed. The chronologically last datable poem in the collection is from AD 759 (No. 4516).",
   "cover_url": "https://books.google.com/books/content?id=eD3CAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=eD3CAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -18,5 +18,16 @@
     "Poetry"
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=eD3CAgAAQBAJ&source=gbs_api",
-  "ol_work_key": "/works/OL28035072W"
+  "ol_work_key": "/works/OL28035072W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780486123479",
+  "representative_edition_key": "/books/OL38359938M"
 }

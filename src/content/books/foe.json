@@ -56,5 +56,14 @@
     "historical fiction",
     "literary fiction"
   ],
-  "ol_work_key": "/works/OL500452W"
+  "ol_work_key": "/works/OL500452W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 35,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL38804236M"
 }

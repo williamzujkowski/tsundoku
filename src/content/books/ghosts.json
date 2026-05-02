@@ -36,5 +36,19 @@
     "Continental european drama (dramatic works by one author)"
   ],
   "ol_work_key": "/works/OL27287755W",
-  "pages": 91
+  "pages": 91,
+  "ddc": [
+    "839.8226"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 53,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780380012138",
+  "representative_edition_key": "/books/OL42522322M"
 }

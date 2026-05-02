@@ -76,5 +76,14 @@
     "Social classes",
     "award:man_booker_prize=1989"
   ],
-  "ol_work_key": "/works/OL59048W"
+  "ol_work_key": "/works/OL59048W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 64,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL24299368M"
 }

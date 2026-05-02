@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/43479-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/43479-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1988278W",
-  "first_published": 2001,
+  "first_published": 2000,
   "language": "eng",
   "description": "Guy Gavriel Kay, multiple award-winning author of The Fionavar Tapestry and Sailing to Sarantium, completes his magnificent tale of an alternate Byzantine world… In the golden city of Sarantium, a renowned mosaicist seeks to fill his artistic ambitions and his destiny high upon a dome intended to be the emperor’s enduring sanctuary and legacy. The beauty and solitude of Crispin's work cannot protect him from the dangerous intrigues of court and city, swirling with rumors of war and conspiracy, w...",
   "isbn": "9781101464519",
@@ -23,5 +23,31 @@
     "Fantasy fiction",
     "Fiction, fantasy, epic"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-8000.00000000",
+    "PR-9199.30000000.K39 L67 2000",
+    "PR-9199.30000000.K39L67 2000"
+  ],
+  "subject_facet": [
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Mosaicists"
+  ],
+  "ol_work_key": "/works/OL1988285W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": "0670880922",
+  "representative_edition_key": "/books/OL19130619M"
 }

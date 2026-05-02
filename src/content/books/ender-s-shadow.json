@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Ender's Shadow (1999) is a parallel science fiction novel by the American author Orson Scott Card, taking place at the same time as the novel Ender's Game and depicting some of the same events from the point of view of Bean, a supporting character in the original novel. It was originally to be titled Urchin, but it was retitled Ender's Shadow prior to release. Ender's Shadow was shortlisted for a Locus Award in 2000.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Ender%27s_shadow_cover.jpg/250px-Ender%27s_shadow_cover.jpg",
   "isbn": "9781857239751",
@@ -62,5 +62,14 @@
   ],
   "ol_work_key": "/works/OL49496W",
   "first_published": 1999,
-  "pages": 454
+  "pages": 454,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 33,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL27010146M"
 }

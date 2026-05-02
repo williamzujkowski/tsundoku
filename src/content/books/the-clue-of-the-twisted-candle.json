@@ -12,7 +12,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=ZMidEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783368320683",
-  "first_published": 2022,
+  "first_published": 1900,
   "pages": 241,
   "google_books_url": "http://books.google.com/books?id=ZMidEAAAQBAJ&dq=intitle:The+Clue+of+the+Twisted+Candle&hl=&source=gbs_api",
   "language": "eng",
@@ -28,5 +28,32 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28839",
   "gutenberg_read_url": "https://www.gutenberg.org/files/28839/28839_index.html",
   "librivox_url": "https://librivox.org/the-clue-of-the-twisted-candle-by-edgar-wallace/",
-  "description": "The 4.15 from Victoria to Lewes had been held up at Three Bridges in consequence of a derailment and, though John Lexman was fortunate enough to catch a belated connection to Beston Tracey, the wagonette which was the sole communication between the village and the outside world had gone."
+  "description": "The 4.15 from Victoria to Lewes had been held up at Three Bridges in consequence of a derailment and, though John Lexman was fortunate enough to catch a belated connection to Beston Tracey, the wagonette which was the sole communication between the village and the outside world had gone.",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6045.00000000 A327 C48",
+    "PR-6045.00000000.A327 Clt7",
+    "PZ-0003.00000000.W1525 Clt7"
+  ],
+  "subject_facet": [
+    "Fiction, mystery & detective, general",
+    "Fiction, suspense",
+    "Fiction, thrillers",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, suspense"
+  ],
+  "ol_work_key": "/works/OL1518059W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 316,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34347829M"
 }

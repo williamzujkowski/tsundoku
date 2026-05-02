@@ -28,5 +28,25 @@
     "Church of England Book of Common Prayer",
     "Church of Ireland"
   ],
-  "ol_work_key": "/works/OL19917794W"
+  "ol_work_key": "/works/OL19917794W",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.C38 R58 2004",
+    "PR-6063.00000000.C38R58 2006",
+    "PR-6063.00000000.C38 R58 2006"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "India, fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL27102401M"
 }

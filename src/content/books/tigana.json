@@ -1,7 +1,7 @@
 {
   "title": "Tigana",
   "author": "Guy Gavriel Kay",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "tigana",
   "tags": [
@@ -53,5 +53,14 @@
     "SIF",
     "Tigana"
   ],
-  "ol_work_key": "/works/OL1988290W"
+  "ol_work_key": "/works/OL1988290W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7576208M"
 }

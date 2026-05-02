@@ -27,5 +27,16 @@
     "French language"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/12332709-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12332709-L.jpg"
+  "cover_url_large": "https://covers.openlibrary.org/b/id/12332709-L.jpg",
+  "ddc": [
+    "843.912"
+  ],
+  "ol_work_key": "/works/OL40823999W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL55483088M"
 }

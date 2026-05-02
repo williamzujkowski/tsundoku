@@ -25,5 +25,19 @@
   "subject_facet": [
     "Drama (dramatic works by one author)"
   ],
-  "ol_work_key": "/works/OL27102680W"
+  "ol_work_key": "/works/OL27102680W",
+  "lcc": [
+    "PA-3875.00000000.V5 1899",
+    "PA-3875.00000000 V5 1897",
+    "PA-3875.00000000 V5 1915"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36790215M"
 }

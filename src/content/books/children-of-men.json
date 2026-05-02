@@ -29,5 +29,52 @@
     "Enemistad mortal",
     "English drama (collections), early modern and elizabethan, 1500-1600"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6060.00000000.A467",
+    "PR-6060.00000000.A467 C48 2006",
+    "PR-6060.00000000.A467C536",
+    "PR-6060.00000000.A467 C48 1993",
+    "PR-6060.00000000.A467 C48 2005",
+    "PR-6060.00000000.A467 C48 1994",
+    "PR-6060.00000000.A467 C4814 1995",
+    "PR-6060.00000000.A467 C48 2002",
+    "PR-6060.00000000.A467C48 2002",
+    "PR-6060.00000000.A467C48 2018",
+    "PR-6060.00000000.A467 C48 1992",
+    "PR-6060.00000000.A467C48",
+    "PR-6060.00000000.A467 C48 1999"
+  ],
+  "subject_facet": [
+    "End of the world",
+    "England, fiction",
+    "Fiction",
+    "Fiction in Italian",
+    "Fiction, dystopian",
+    "Fiction, science fiction, general",
+    "Fin du monde",
+    "History teachers",
+    "Male Infertility",
+    "New York Times reviewed",
+    "Professeurs d'histoire",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Stérilité masculine",
+    "Twenty-first century",
+    "Vingt et unième siècle"
+  ],
+  "ol_work_key": "/works/OL510890W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL30590857M"
 }

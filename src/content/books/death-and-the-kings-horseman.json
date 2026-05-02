@@ -31,5 +31,54 @@
     "Nigerian drama",
     "Soyinka, wole, 1934-"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "822",
+    "822.914"
+  ],
+  "lcc": [
+    "PR-9387.90000000.S6 D4",
+    "PR-9387.90000000.S6 D4 2002",
+    "PR-9387.90000000.S6 D4 1998",
+    "PR-9387.90000000.S6 D4 1993",
+    "PR-9387.90000000.S6 D4 1975",
+    "PR-9387.90000000.S6D4 2002",
+    "PR-9387.90000000.S6 D4 1987b",
+    "PR-9387.90000000.S6 D4 2003"
+  ],
+  "subject_facet": [
+    "822",
+    "African drama (english)",
+    "British",
+    "Drama",
+    "Dramaelesin",
+    "Elesin",
+    "Fathers and sons",
+    "Fiction (fictional works by one author)",
+    "Fiction, general",
+    "Historical drama",
+    "History",
+    "History--drama",
+    "Nigerian drama",
+    "Political plays",
+    "Pr9387.9.s6 d4 1998",
+    "Prevention",
+    "Social life and customs",
+    "Soyinka, wole, 1934-",
+    "Suicide",
+    "Yoruba (African people)"
+  ],
+  "pages": 77,
+  "ol_work_key": "/works/OL15125398W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "first_edition_isbn": "039304422X",
+  "representative_edition_key": "/books/OL7424250M"
 }

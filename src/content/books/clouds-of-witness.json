@@ -12,7 +12,7 @@
   "description": "Clouds of Witness by Dorothy L. Sayers is the second novel in the acclaimed Lord Peter Wimsey mystery series. Published in 1926, this novel follows the amateur detective Lord Peter Wimsey as he investigates a murder that has taken place at his family's ancestral home. Set in the idyllic English countryside, this novel is a perfect blend of a classic whodunit mystery and a social commentary on the changing landscape of the British aristocracy. The story begins with Lord Peter's brother, the Duke ",
   "cover_url": "https://books.google.com/books/content?id=vW3_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780369410887",
-  "first_published": 2024,
+  "first_published": 1927,
   "pages": 246,
   "google_books_url": "https://play.google.com/store/books/details?id=vW3_EAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -35,5 +35,58 @@
     "Wimsey, peter, lord (fictitious character), fiction",
     "Fiction, mystery & detective, traditional"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6037.00000000.A95 C56 1955",
+    "PR-6037.00000000.A95C5 1987",
+    "PR-6037.00000000.A95",
+    "PR-6037.00000000.A95 C5 1979",
+    "PZ-0003.00000000.S2738 Cl7",
+    "PR-6037.00000000.A95 C5 2006",
+    "PR-6037.00000000.A95 C5 1987",
+    "PR-6037.00000000.A95 Cl12",
+    "PR-6037.00000000.A95 C5 1993",
+    "PR-6037.00000000.A95 Cl 6",
+    "PZ-0003.00000000.S2738 Cl12",
+    "PZ-0003.00000000.S2738Cl12",
+    "PR-6037.00000000.A95 C5",
+    "PR-6037.00000000.A95 Cl7",
+    "PR-6037.00000000.A95 C55",
+    "PZ-0003.00000000.S2738 Cl 6",
+    "PR-6037.00000000.A95 C5 1995"
+  ],
+  "subject_facet": [
+    "Brothers, fiction",
+    "Crime, fiction",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "English fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Large type books",
+    "London (england), fiction",
+    "Lord Wimsey, Peter (Fictitious character)",
+    "Open Library Staff Picks",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Wimsey, peter, lord (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL2234815W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 80,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34259245M"
 }

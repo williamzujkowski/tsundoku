@@ -25,5 +25,29 @@
     "Computing and Computers",
     "Qa76.24 .d54 1982"
   ],
-  "ol_work_key": "/works/OL19901398W"
+  "ol_work_key": "/works/OL19901398W",
+  "ddc": [
+    "001.64"
+  ],
+  "lcc": [
+    "QA-0076.24000000.D54 1982"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Computers",
+    "Computing and Computers",
+    "Electronic data processing",
+    "Qa76.24 .d54 1982"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781461256953",
+  "representative_edition_key": "/books/OL27086955M"
 }

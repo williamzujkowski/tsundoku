@@ -1,7 +1,7 @@
 {
   "title": "Twenty Thousand Leagues Under the Seas",
   "author": "Jules Verne",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "twenty-thousand-leagues-under-the-seas",
   "tags": [
@@ -10,7 +10,7 @@
     "sci-fi"
   ],
   "open_library_url": "https://openlibrary.org/works/OL26674157W",
-  "first_published": 2021,
+  "first_published": 1870,
   "language": "eng",
   "description": "When a huge sea monster wrecks several ships from beneath the sea, the \"Nautilus,\" a secret submarine helmed by the mysterious Captain Nemo, begins a mission to hunt down the beast.",
   "cover_url": "https://books.google.com/books/content?id=w6AFp-xfjP0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -209,5 +209,16 @@
     "Walt Disney",
     "Young Adult Fiction"
   ],
-  "ol_work_key": "/works/OL1099280W"
+  "ol_work_key": "/works/OL1099280W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 383,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8456503M"
 }

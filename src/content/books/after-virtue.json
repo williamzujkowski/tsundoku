@@ -26,5 +26,43 @@
     "Political science, philosophy",
     "Philosophers, scotland"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "170",
+    "170.9"
+  ],
+  "lcc": [
+    "BJ-1012.00000000",
+    "BJ-1012.00000000.M33 2007",
+    "BJ-1012.00000000.M325 1981",
+    "BJ-0071.00000000"
+  ],
+  "subject_facet": [
+    "Deugden",
+    "Ethics",
+    "Ethics & moral philosophy",
+    "Ethiek",
+    "Ethik",
+    "History",
+    "Moral education",
+    "Morale",
+    "Philosophy",
+    "Theological virtues",
+    "Vertus",
+    "Virtue",
+    "Virtue and virtues",
+    "Virtues"
+  ],
+  "ol_work_key": "/works/OL10446730W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": "026800594X",
+  "representative_edition_key": "/books/OL37780717M"
 }

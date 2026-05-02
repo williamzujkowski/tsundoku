@@ -12,7 +12,7 @@
   "description": "'Woe to the rash mortal who seeks to know that of which he should remain ignorant; and to undertake that which surpasseth his power!' The Caliph Vathek is dissolute and debauched, and hungry for knowledge. When the mysterious Giaour offers him boundless treasure and unrivalled power he is willing to sacrifice his god, the lives of innocent children, and his own soul to satisfy his obsession. Vathek's extraordinary journey to the subterranean palace of Eblis, and the terrifying fate that there aw",
   "cover_url": "https://books.google.com/books/content?id=Dn2X3Zdc3GIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780191645785",
-  "first_published": 2013,
+  "first_published": 1912,
   "pages": 359,
   "google_books_url": "https://play.google.com/store/books/details?id=Dn2X3Zdc3GIC&source=gbs_api",
   "language": "eng",
@@ -39,5 +39,38 @@
   ],
   "gutenberg_id": 42401,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/42401",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/42401.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/42401.html.images",
+  "ddc": [
+    "843.5",
+    "823.79"
+  ],
+  "lcc": [
+    "PQ-1957.00000000.B29 V313 1900",
+    "PR-4091.00000000.V4",
+    "PZ-0003.00000000.B389 Ep6",
+    "PR-4091.00000000.V4 1922",
+    "PQ-1957.00000000.B29 Ep6",
+    "PR-4091.00000000.V4 1912",
+    "PR-4091.00000000 V4"
+  ],
+  "subject_facet": [
+    "Arab countries",
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, general",
+    "blasphemy",
+    "hell"
+  ],
+  "ol_work_key": "/works/OL777842W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8654649M"
 }

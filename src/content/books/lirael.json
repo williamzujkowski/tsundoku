@@ -1,7 +1,7 @@
 {
   "title": "Lirael",
   "author": "Garth Nix",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "lirael",
   "tags": [
@@ -31,5 +31,42 @@
     "Old Kingdom (Imaginary place)"
   ],
   "copyright_status": "in_copyright",
-  "description": "DEEP WITHIN A dream, Lirael felt someone stroking her forehead."
+  "description": "DEEP WITHIN A dream, Lirael felt someone stroking her forehead.",
+  "ddc": [
+    "823.914",
+    "823"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N647 Li 2002",
+    "PZ-0007.00000000.N647Li 2001",
+    "PZ-0007.00000000.N647 Li 2001"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Disreputable Dog (Fictitious character)",
+    "Dogs",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Good and evil",
+    "Imaginary wars and battles",
+    "Juvenile Fiction",
+    "Lirael (Fictitious character)",
+    "Magic",
+    "Magic, fiction",
+    "Magical thinking",
+    "Magicians",
+    "Old Kingdom (Imaginary place)",
+    "Science Fiction & Fantasy"
+  ],
+  "ol_work_key": "/works/OL2628758W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 29,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9952942M"
 }

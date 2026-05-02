@@ -14,7 +14,7 @@
   "description": "Phantastes - George MacDonald - This classic tale by master Scottish story teller George Macdonald Phantastes: A Faerie Romance for Men and Women is a fantasy novel first published in London in 1858.The story is about the main character character Anodos, a young man who is pulled into a dreamlike world and there searches for his ideal of female beauty, Anodos has many adventures and temptations while in the other world, until he is finally ready to give up his ideals.George MacDonald was the ins",
   "cover_url": "https://books.google.com/books/content?id=AIQ5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783985948888",
-  "first_published": 2021,
+  "first_published": 2008,
   "pages": 192,
   "google_books_url": "https://play.google.com/store/books/details?id=AIQ5EAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -33,5 +33,58 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 325,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/325",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/325.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/325.html.images",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PR-4967.00000000.P53 1894",
+    "PR-4967.00000000.P49 1982",
+    "PR-4967.00000000",
+    "PR-4967.00000000.P49 2011",
+    "PR-4967.00000000 P5",
+    "PR-4967.00000000 P5 1923",
+    "PZ-0003.00000000.M144 Ph6",
+    "PZ-0003.00000000.M144 Ph",
+    "PR-4967.00000000.P49 Ph15",
+    "PR-4967.00000000.P49 2005",
+    "AC-0001.00000000.E8 no. 732",
+    "PR-4967.00000000.P335 1916",
+    "PR-4967.00000000.P5 1916",
+    "PR-4967.00000000.P49 Ph6",
+    "PR-4967.00000000 P5 1894",
+    "PR-4967.00000000.P49 Ph",
+    "PZ-0003.00000000.M144 Ph15",
+    "PR-4967.00000000.P49 .E8 no. 732",
+    "PR-4967.00000000.P49 2012"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "English Fantasy fiction",
+    "English literature",
+    "Fairies",
+    "Fairy tales",
+    "Fairyland (Imaginary place)",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, romance, fantasy",
+    "Fiction, science fiction, general",
+    "Imaginary places",
+    "Scottish Fantasy fiction",
+    "Scottish authors"
+  ],
+  "ol_work_key": "/works/OL15450W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34244365M"
 }

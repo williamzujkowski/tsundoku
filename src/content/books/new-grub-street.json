@@ -11,7 +11,7 @@
   "description": "Hailed as Gissing’s finest novel, New Grub Street portrays the intrigues and hardships of the publishing world in late Victorian England. In a materialistic, class-conscious society that rewards commercial savvy over artistic achievement, authors and scholars struggle to earn a living without compromising their standards. “Even as the novel chills us with its still-recognizable portrayal of the crass and vulgar world of literary endeavor,” writes Francine Prose in her Introduction, “its very exi",
   "cover_url": "https://books.google.com/books/content?id=s8tvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780375761102",
-  "first_published": 2002,
+  "first_published": 1891,
   "pages": 546,
   "google_books_url": "http://books.google.com/books?id=s8tvDwAAQBAJ&dq=intitle:New+Grub+Street&hl=&source=gbs_api",
   "language": "eng",
@@ -80,5 +80,16 @@
     "Psychological fiction",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL715553W"
+  "ol_work_key": "/works/OL715553W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 191,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34196976M"
 }

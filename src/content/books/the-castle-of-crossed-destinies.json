@@ -37,5 +37,16 @@
     "Fiction, general",
     "Italy, fiction"
   ],
-  "ol_work_key": "/works/OL15338W"
+  "ol_work_key": "/works/OL15338W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "first_edition_isbn": "015115998X",
+  "representative_edition_key": "/books/OL9271216M"
 }

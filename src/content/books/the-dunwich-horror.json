@@ -20,5 +20,25 @@
     "Fiction"
   ],
   "isbn": "9781982044695",
-  "ol_work_key": "/works/OL40583695W"
+  "ol_work_key": "/works/OL40583695W",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3523.00000000.O833 D9 1963a",
+    "PS-3523.00000000.O833 A6 1984"
+  ],
+  "subject_facet": [
+    "American Horror tales",
+    "Cuentos de terror estadounidenses"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL55177695M"
 }

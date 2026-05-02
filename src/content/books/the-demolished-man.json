@@ -1,7 +1,7 @@
 {
   "title": "The Demolished Man",
   "author": "Alfred Bester",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-demolished-man",
   "tags": [
@@ -52,5 +52,16 @@
     "award:hugo_award=1953",
     "award:hugo_award=novel"
   ],
-  "ol_work_key": "/works/OL16027965W"
+  "ol_work_key": "/works/OL16027965W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 32,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780824014025",
+  "representative_edition_key": "/books/OL39531967M"
 }

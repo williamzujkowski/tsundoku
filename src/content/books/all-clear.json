@@ -30,5 +30,29 @@
     "Bible - General",
     "Commentaries"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3573.00000000.I45652 A79 2010",
+    "PS-3573.00000000.I45652A79"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical, general",
+    "Fiction, science fiction, general",
+    "Historians",
+    "Time travel",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL15406914W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780553807677",
+  "representative_edition_key": "/books/OL24377251M"
 }

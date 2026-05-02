@@ -21,5 +21,22 @@
   "subjects": [
     "Microsoft windows nt (computer program)"
   ],
-  "ol_work_key": "/works/OL19638475W"
+  "ol_work_key": "/works/OL19638475W",
+  "ddc": [
+    "005.446"
+  ],
+  "lcc": [
+    "QA-0076.76000000.W56 R885 2012"
+  ],
+  "subject_facet": [
+    "Microsoft Windows (Computer file)",
+    "Windows (Computer programs)"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL26858876M"
 }

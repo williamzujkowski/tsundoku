@@ -12,10 +12,10 @@
   "description": "The Well at the World's End by William Morris is a classic fantasy novel published in 1896. It follows the journey of Ralph of Upmeads, a young knight who leaves his peaceful home in search of adventure and a legendary magical well said to grant strength and long life to those who drink from it. Along the way, Ralph encounters mystical lands, treacherous enemies, and wise allies-including a mysterious woman named Ursula. The story is rich in medieval imagery and themes of chivalry, destiny, and ",
   "cover_url": "https://books.google.com/books/content?id=FYBf0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "9798897183968",
-  "first_published": 2025,
+  "first_published": 1896,
   "google_books_url": "http://books.google.com/books?id=FYBf0QEACAAJ&dq=intitle:The+Well+at+the+World%27s+End&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Quests (Expeditions)",
     "Fiction",
@@ -28,5 +28,50 @@
     "English literature",
     "Fiction, fantasy, epic"
   ],
-  "pages": 448
+  "pages": 448,
+  "ddc": [
+    "813.4",
+    "800",
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5079.00000000.W45 1896",
+    "PR-5079.00000000.W45 1996",
+    "PZ-0003.00000000.M8345 We6",
+    "PR-5079.00000000 W",
+    "PR-5079.00000000.W4 We6",
+    "PR-5072.00000000",
+    "PR-5080.00000000.W4 1896",
+    "PR-5079.00000000.W4 1896"
+  ],
+  "subject_facet": [
+    "Children",
+    "Classic Literature",
+    "English literature",
+    "Fantasy",
+    "Fantasy anglaise",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fine books",
+    "Hermits",
+    "Kings and rulers",
+    "Private press books",
+    "Quests (Expeditions)",
+    "Specimens"
+  ],
+  "ol_work_key": "/works/OL47750W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 216,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34347500M"
 }

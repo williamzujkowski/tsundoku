@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=XdwpAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1898,
+  "first_published": 1678,
   "pages": 600,
   "google_books_url": "https://play.google.com/store/books/details?id=XdwpAAAAYAAJ&source=gbs_api",
   "language": "eng",
@@ -353,5 +353,16 @@
     "Vie chrétienne",
     "Xhosa language"
   ],
-  "ol_work_key": "/works/OL107195W"
+  "ol_work_key": "/works/OL107195W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780231939522",
+  "representative_edition_key": "/books/OL8624858M"
 }

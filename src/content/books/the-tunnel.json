@@ -12,11 +12,11 @@
   ],
   "reading_status": "read",
   "description": "The emotionally charged finale of the critically acclaimed bilingual crime thriller, The Tunnel, reunites Stephen Dillane in his International Emmy award-winning role as Karl Roebuck with Clemence Poesy as Elise Wassermann, for the last outing of this beloved and unlikely Anglo-French partnership. The Tunnel: Vengeance is set amidst post-Brexit hysteria, an escalating refugee crisis and the increasing threat of terror occasioned by disenfranchised, exiled souls on whom society has turned its bac",
-  "first_published": 2018,
+  "first_published": 1955,
   "google_books_url": "http://books.google.com/books?id=7vBCzwEACAAJ&dq=intitle:The+Tunnel&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/14630892-M.jpg",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "society",
     "Survival",
@@ -63,5 +63,15 @@
     "society",
     "space travel"
   ],
-  "ol_work_key": "/works/OL59712W"
+  "ol_work_key": "/works/OL59712W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 30,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9643182M"
 }

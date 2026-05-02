@@ -1,7 +1,7 @@
 {
   "title": "The Monster Baru Cormorant",
   "author": "Seth Dickinson",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-monster-baru-cormorant",
   "tags": [
@@ -27,5 +27,23 @@
   "subject_facet": [
     "Fiction, fantasy, general"
   ],
-  "ol_work_key": "/works/OL19774355W"
+  "ol_work_key": "/works/OL19774355W",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3604.00000000.I293M66 2018",
+    "PS-3604.00000000.I293 M66 2018"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781466875135",
+  "representative_edition_key": "/books/OL26986258M"
 }

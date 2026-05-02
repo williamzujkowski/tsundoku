@@ -21,5 +21,27 @@
     "Computers"
   ],
   "copyright_status": "in_copyright",
-  "pages": 82
+  "pages": 82,
+  "lcc": [
+    "QA-0280.00000000",
+    "QA-0076.90000000.D3"
+  ],
+  "subject_facet": [
+    "Data processing",
+    "Distributed databases",
+    "Information storage and retrieval systems",
+    "Time-series analysis"
+  ],
+  "ol_work_key": "/works/OL21563929W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781491914724",
+  "representative_edition_key": "/books/OL29260515M"
 }

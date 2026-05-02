@@ -1,7 +1,7 @@
 {
   "title": "Lolly Willowes",
   "author": "Sylvia Townsend Warner",
-  "category": "Fantasy",
+  "category": "Horror",
   "priority": 2,
   "slug": "lolly-willowes",
   "tags": [
@@ -13,7 +13,7 @@
   "description": "Lolly Willowes, always so gentle and accommodating, suddenly announces that she is moving, alone, to the countryside. To her overbearing family in London, it is a disturbing and inexplicable act of defiance. But Lolly will not be swayed, and in the depths of the English countryside she gradually discovers not only freedom and independence, but also, unexpectedly, her true vocation.",
   "cover_url": "https://books.google.com/books/content?id=0VZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780369407078",
-  "first_published": 2022,
+  "first_published": 1926,
   "pages": 101,
   "google_books_url": "https://play.google.com/store/books/details?id=0VZhEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -30,5 +30,44 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 72223,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72223",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72223.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72223.html.images",
+  "ddc": [
+    "823.912",
+    "823.91",
+    "823"
+  ],
+  "lcc": [
+    "PR-6045.00000000.A812 Lo",
+    "PR-6045.00000000.A812L65 2020",
+    "PZ-0003.00000000.W2473 Lo",
+    "PR-6045.00000000.A812L65 1999",
+    "PR-6045.00000000.A77 L6 1937",
+    "PZ-0003.00000000.W2473 Lo 1979",
+    "PZ-0003.00000000.W247 Lo",
+    "PR-6045.00000000.A812 L65 1999",
+    "PR-6045.00000000.A812 Lo 1979",
+    "PR-6045.00000000.A812"
+  ],
+  "subject_facet": [
+    "English literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, general",
+    "Single women",
+    "Social conditions",
+    "Supernatural",
+    "Witches"
+  ],
+  "ol_work_key": "/works/OL112769W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL28065617M"
 }

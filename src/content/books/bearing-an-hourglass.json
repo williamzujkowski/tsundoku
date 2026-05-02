@@ -12,7 +12,7 @@
   "description": "Like On a Pale Horse, this second, complete-in-itself novel of the Incarnations of Immortality is a richly imagined and always fascinating story. And again, Piers Anthony adds to his gripping plot a serious, though-provoking study of good and evil. When life seemed pointless to Norton, he accepted the position as the Incarnation of Time, even though it meant living backward from present to past. The other seemily all-powerful Incarnates of Immortality—Death, Fate, War, and Nature—made him welcom",
   "cover_url": "https://books.google.com/books/content?id=71tXFfvYO0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780307815620",
-  "first_published": 2012,
+  "first_published": 1984,
   "pages": 381,
   "google_books_url": "https://play.google.com/store/books/details?id=71tXFfvYO0gC&source=gbs_api",
   "language": "eng",
@@ -38,5 +38,14 @@
     "Fiction, fantasy, general",
     "Incarnation of Time"
   ],
-  "ol_work_key": "/works/OL80847W"
+  "ol_work_key": "/works/OL80847W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL38354830M"
 }

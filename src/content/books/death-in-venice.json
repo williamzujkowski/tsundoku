@@ -35,5 +35,41 @@
   ],
   "librivox_url": "https://librivox.org/death-in-venice-by-thomas-mann/",
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL25367972W"
+  "ol_work_key": "/works/OL25367972W",
+  "ddc": [
+    "833.912"
+  ],
+  "lcc": [
+    "PT-2625.00000000.A44A25 1989",
+    "PT-2625.00000000.A44 A6 1992",
+    "PT-2625.00000000.A44 T613 1963",
+    "PT-2625.00000000.A44 A25 1989",
+    "PT-2625.00000000 A44 A25 1955"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "English Translations",
+    "Fiction",
+    "Fiction, psychological",
+    "Fiction, short stories (single author)",
+    "Gay men",
+    "German Short stories",
+    "Gustav von Aschenbach (Fictitious character)",
+    "LGBTQ fiction before Stonewall",
+    "LGBTQ short stories",
+    "Male homosexuality",
+    "Manners and customs",
+    "Middle age",
+    "Translations into English",
+    "Venice (italy), fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33992973M"
 }

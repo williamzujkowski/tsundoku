@@ -27,5 +27,32 @@
     "Fiction",
     "World politics",
     "Billionaires"
-  ]
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3868",
+    "PS-3569.00000000.T3868T47 2021",
+    "PS-3569.00000000.T3868 T47 2021"
+  ],
+  "subject_facet": [
+    "Billionaires",
+    "Climate",
+    "Climatic changes",
+    "Fiction",
+    "Long Now Manual for Civilization",
+    "New York Times bestseller",
+    "World politics",
+    "climate change",
+    "nyt:combined-print-and-e-book-fiction=2021-12-05",
+    "technology"
+  ],
+  "ol_work_key": "/works/OL24697326W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL35078792M"
 }

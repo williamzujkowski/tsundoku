@@ -11,7 +11,7 @@
   "description": "Hauptmann Fritz Schneider trudged wearily through the somber aisles of the dark forest. Sweat rolled down his bullet head and stood upon his heavy jowls and bull neck.' (Excerpt from Chapter 1)",
   "cover_url": "https://books.google.com/books/content?id=ZWNUPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1605976482",
-  "first_published": 2008,
+  "first_published": 1920,
   "pages": 264,
   "google_books_url": "http://books.google.com/books?id=ZWNUPwAACAAJ&dq=intitle:Tarzan+the+Untamed&hl=&source=gbs_api",
   "language": "eng",
@@ -22,5 +22,48 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1401.html.images",
   "subjects": [
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "[Fic]",
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3503.00000000.U687 T453 1963c",
+    "PS-3503.00000000.U687 T387 1970",
+    "PZ-0003.00000000.B944 Tat3",
+    "PS-3503.00000000.U687 Tat",
+    "PS-3503.00000000.U687 Tat3",
+    "PZ-0003.00000000.B944",
+    "PS-3503.00000000.U687 T16",
+    "PZ-0003.00000000.B944 Tat",
+    "PS-3503.00000000.U687 T39 2005",
+    "PZ-0003.00000000.B44Tat3"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure stories",
+    "Africa, fiction",
+    "Classic Literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, general",
+    "Tarzan (Fictitious character)",
+    "Tarzan (Fictitious character) -- Fiction",
+    "Tarzan (Fictitious character) vFiction",
+    "Tarzan (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL1418112W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 178,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34293472M"
 }

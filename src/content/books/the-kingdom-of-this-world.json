@@ -6,7 +6,7 @@
   "slug": "the-kingdom-of-this-world",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL31376133W",
-  "first_published": 2006,
+  "first_published": 1957,
   "cover_url": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "pages": 176,
@@ -16,7 +16,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=PSrtAAAAMAAJ&dq=The+Kingdom+of+This+World+Alejo+Carpentier&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "description": "The Kingdom of This World is a novel by Cuban author Alejo Carpentier, published in 1949 in his native Spanish and first translated into English in 1957. A work of historical fiction, it tells the story of Haiti before, during, and after the Haitian Revolution led by Toussaint Louverture, as seen by its central character, Ti Noel, who serves as the novel's connecting thread.",
   "isbn": "9786074571240",
   "ddc": [
@@ -75,5 +75,16 @@
     "Spanish language materials",
     "Spanish literature"
   ],
-  "ol_work_key": "/works/OL580014W"
+  "ol_work_key": "/works/OL580014W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 57,
+  "first_published_circa": false,
+  "first_edition_isbn": "1499015518",
+  "representative_edition_key": "/books/OL26326956M"
 }

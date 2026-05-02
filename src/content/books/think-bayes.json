@@ -13,7 +13,7 @@
   "description": "If you know how to program, you're ready to tackle Bayesian statistics. With this book, you'll learn how to solve statistical problems with Python code instead of mathematical formulas, using discrete probability distributions rather than continuous mathematics. Once you get the math out of the way, the Bayesian fundamentals will become clearer and you'll begin to apply these techniques to real-world problems. Bayesian statistical methods are becoming more common and more important, but there ar",
   "cover_url": "https://books.google.com/books/content?id=Vh4vEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781492089438",
-  "first_published": 2021,
+  "first_published": 2013,
   "pages": 338,
   "google_books_url": "http://books.google.com/books?id=Vh4vEAAAQBAJ&dq=intitle:Think+Bayes&hl=&source=gbs_api",
   "language": "eng",
@@ -25,5 +25,30 @@
     "Python",
     "Bayes-Entscheidungstheorie",
     "Mathematics"
-  ]
+  ],
+  "lcc": [
+    "QA-0279.50000000.D6 2013",
+    "QA-0279.50000000.D6 2021",
+    "QA-0279.50000000.D698 2013"
+  ],
+  "subject_facet": [
+    "Bayes-Entscheidungstheorie",
+    "Bayesian statistical decision theory",
+    "Data processing",
+    "Mathematics",
+    "Python",
+    "Python (computer program language)"
+  ],
+  "ol_work_key": "/works/OL17581315W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781491945438",
+  "representative_edition_key": "/books/OL34149024M"
 }

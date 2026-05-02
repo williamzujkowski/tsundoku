@@ -6,7 +6,7 @@
   "slug": "resurrection",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL41510522W",
-  "first_published": 2014,
+  "first_published": 1899,
   "language": "eng",
   "description": "Tolstoy's novel of spiritual regeneration recounts the sins of a young Russian nobleman and his attempts in later life to redress those transgressions. A panoramic view of Russian social life at the end of the 19th century, Resurrection pointedly articulates the author's contempt for the social injustices of the world in which he lived.",
   "cover_url": "https://books.google.com/books/content?id=mPomDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -106,5 +106,16 @@
     "Tolstoi",
     "Trials (Murder) -- Russia -- Fiction"
   ],
-  "ol_work_key": "/works/OL457760W"
+  "ol_work_key": "/works/OL457760W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 250,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30249152M"
 }

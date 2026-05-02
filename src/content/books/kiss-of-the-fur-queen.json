@@ -26,5 +26,37 @@
     "Indians of north america, fiction",
     "Canada, fiction"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.H472K57",
+    "PS-8565.00000000.I34 K57 1998",
+    "PR-9199.30000000.H472 K57 2000",
+    "PR-9199.30000000.H472 K57 1998"
+  ],
+  "subject_facet": [
+    "Brothers",
+    "Canada, fiction",
+    "Cree Indians",
+    "Fiction",
+    "Fiction, general",
+    "Indians of North America",
+    "Indians of north america, fiction",
+    "Indigenous peoples",
+    "Native peoples"
+  ],
+  "ol_work_key": "/works/OL496240W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "first_edition_isbn": "0806132361",
+  "representative_edition_key": "/books/OL22206654M"
 }

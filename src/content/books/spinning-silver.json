@@ -1,7 +1,7 @@
 {
   "title": "Spinning Silver",
   "author": "Naomi Novik",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "spinning-silver",
   "tags": [
@@ -54,5 +54,16 @@
     "Quests (Expeditions)",
     "Rumpelstiltskin (Folk tale)"
   ],
-  "ol_work_key": "/works/OL28048052W"
+  "ol_work_key": "/works/OL28048052W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781984817556",
+  "representative_edition_key": "/books/OL38384450M"
 }

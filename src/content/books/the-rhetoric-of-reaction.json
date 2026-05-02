@@ -22,5 +22,30 @@
     "Suffrage",
     "Conservatism",
     "Poor laws"
-  ]
+  ],
+  "ddc": [
+    "320.5209"
+  ],
+  "lcc": [
+    "JA-0083.00000000.H54 1991"
+  ],
+  "subject_facet": [
+    "Conservatism",
+    "History",
+    "Poor laws",
+    "Suffrage",
+    "Welfare state"
+  ],
+  "ol_work_key": "/works/OL2745844W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "0674768671",
+  "representative_edition_key": "/books/OL1850844M"
 }

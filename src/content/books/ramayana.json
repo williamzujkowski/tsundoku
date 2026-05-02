@@ -32,5 +32,54 @@
   ],
   "gutenberg_id": 71326,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/71326",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/71326.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/71326.html.images",
+  "ddc": [
+    "294.5922"
+  ],
+  "lcc": [
+    "BL-1225.00000000.R3 R35 1996",
+    "BL-1139.22000000.E54 1990b",
+    "BL-1139.24000000.E5 2009",
+    "BL-1139.22000000.E54 1990",
+    "PZ-0007.70000000.H37Ram 2017",
+    "BL-0000.00000000",
+    "BL-1139.24200000.K57E5",
+    "PZ-0007.10000000.N3434Ram 2021",
+    "GR-0305.00000000.B36 1974",
+    "PK-3653.00000000.A2 H3",
+    "BL-1139.25000000.K75 2000"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Ancient, Classical & Medieval",
+    "Drama",
+    "Folklore",
+    "Hindu gods",
+    "Hindu mythology",
+    "Hinduism",
+    "Hinduism - General",
+    "Hinduism, sacred books",
+    "Juvenile literature",
+    "Literary Collections",
+    "Literature - Classics / Criticism",
+    "Literature: Classics",
+    "Performing arts",
+    "Rama (Hindu deity)",
+    "Rāma (Hindu deity)",
+    "Rāmāyaṇa",
+    "Rāmāyaṇa (Vālmīki)",
+    "Sacred texts",
+    "Temple of Fine Arts International",
+    "Valmiki, ramayana"
+  ],
+  "ol_work_key": "/works/OL396062W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL28458088M"
 }

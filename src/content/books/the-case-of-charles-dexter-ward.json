@@ -40,5 +40,22 @@
     "Supernatural",
     "Supernatural in fiction"
   ],
-  "ol_work_key": "/works/OL152269W"
+  "ol_work_key": "/works/OL152269W",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3523.00000000.O833 C37 2010"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 13,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781500926175",
+  "representative_edition_key": "/books/OL61562609M"
 }

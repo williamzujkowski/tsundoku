@@ -105,5 +105,16 @@
     "Yeats, W. B. (William Butler), 1865-1939"
   ],
   "ol_work_key": "/works/OL308575W",
-  "pages": 94
+  "pages": 94,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 217,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781774410073",
+  "representative_edition_key": "/books/OL46193117M"
 }

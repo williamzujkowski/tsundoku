@@ -34,5 +34,36 @@
   "gutenberg_id": 22791,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/22791",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/22791.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "822.33"
+  ],
+  "lcc": [
+    "PR-2812.00000000.A2 M37 2014",
+    "PR-2812.00000000.A2 R6 1918",
+    "PR-2888.00000000.L6 ser.2 no.9",
+    "PR-2812.00000000.A1 2016"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Drama",
+    "English literature",
+    "Henry v, king of england, 1387-1422, drama",
+    "History",
+    "Kings and rulers",
+    "Promptbooks",
+    "Shakespeare, william, 1564-1616, julius caesar",
+    "Shakespeare, william, 1564-1616, king henry v",
+    "Stage history"
+  ],
+  "ol_work_key": "/works/OL8199748W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 94,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL46204618M"
 }

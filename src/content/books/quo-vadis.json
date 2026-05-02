@@ -11,7 +11,7 @@
   "description": "\"An epic saga of love, courage and devotion in Nero's time, Quo Vadis portrays the degenerate days leading to the fall of the Roman empire and the glory and the agony of early Christianity. Set at a turning point in history (A.D. 54-68), as Christianity replaces the era of corruption and gluttony that marked Nero's Rome, Quo Vadis brims with life.\"--Publisher description.",
   "cover_url": "https://books.google.com/books/content?id=0mpRs7nnKFoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "0781807638",
-  "first_published": 1999,
+  "first_published": 1897,
   "pages": 602,
   "google_books_url": "http://books.google.com/books?id=0mpRs7nnKFoC&dq=intitle:Quo+Vadis&hl=&source=gbs_api",
   "language": "eng",
@@ -97,5 +97,16 @@
     "Rome, fiction",
     "Église"
   ],
-  "ol_work_key": "/works/OL503424W"
+  "ol_work_key": "/works/OL503424W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34201804M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Fall of the House of Usher",
   "author": "Edgar Allan Poe",
-  "category": "Literature",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-fall-of-the-house-of-usher",
   "tags": [
@@ -14,7 +14,7 @@
   "description": "The Fall of the House of Usher By Edgar Allan Poe \"The Fall of the House of Usher\" is a short story by Edgar Allan Poe. The story begins with the unnamed narrator arriving at the house of his friend, Roderick Usher, having received a letter from him in a distant part of the country complaining of an illness and asking for his help. Although Poe wrote this short story before the invention of modern psychological science, Roderick's condition can be described according to its terminology. It inclu",
   "cover_url": "https://books.google.com/books/content?id=maZEAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781627938815",
-  "first_published": 2013,
+  "first_published": 1928,
   "pages": 26,
   "google_books_url": "https://play.google.com/store/books/details?id=maZEAwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -76,5 +76,16 @@
     "short stories (single author)",
     "tarns"
   ],
-  "ol_work_key": "/works/OL41078W"
+  "ol_work_key": "/works/OL41078W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 237,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36786459M"
 }

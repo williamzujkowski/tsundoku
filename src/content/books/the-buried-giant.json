@@ -1,7 +1,7 @@
 {
   "title": "The Buried Giant",
   "author": "Kazuo Ishiguro",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "the-buried-giant",
   "tags": [
@@ -86,5 +86,16 @@
     "Sons--fiction",
     "nyt:combined-print-and-e-book-fiction=2015-03-22"
   ],
-  "ol_work_key": "/works/OL17333499W"
+  "ol_work_key": "/works/OL17333499W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 32,
+  "first_published_circa": false,
+  "first_edition_isbn": "9788467271621",
+  "representative_edition_key": "/books/OL27098895M"
 }

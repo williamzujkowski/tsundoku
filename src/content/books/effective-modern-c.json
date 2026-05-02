@@ -31,5 +31,38 @@
     "Greek Mythology"
   ],
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL40460939W"
+  "ol_work_key": "/works/OL40460939W",
+  "lcc": [
+    "QA-0076.73000000.C153 M494 2014",
+    "QA-0076.73000000.C153 M494 2015",
+    "QA-0076.73000000.C153"
+  ],
+  "subject_facet": [
+    "Application software",
+    "C",
+    "C plus plus (computer program language)",
+    "C++",
+    "C++ (Computer program language)",
+    "C++ (Langage de programmation)",
+    "COMPUTERS",
+    "Com051070",
+    "Computer engineering",
+    "Cs.cmp_sc.prog_lang",
+    "Development",
+    "Développement",
+    "Games",
+    "Langages de programmation",
+    "Logiciels d'application",
+    "Object oriented",
+    "Open source",
+    "Programmation informatique",
+    "Programming Languages"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL55021549M"
 }

@@ -13,7 +13,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=c3pFSAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1605978450",
-  "first_published": 2008,
+  "first_published": 1870,
   "pages": 200,
   "google_books_url": "http://books.google.com/books?id=c3pFSAAACAAJ&dq=intitle:Vikram+and+the+Vampire&hl=&source=gbs_api",
   "language": "eng",
@@ -39,5 +39,56 @@
   "gutenberg_id": 2400,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2400",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2400.html.images",
-  "description": "The Vetala Panchavimshati, or Betal Pachisi, is a collection of tales and legends within a frame story, from India. Internationally, it is also known as Vikram-Vetala. It was originally written in Sanskrit."
+  "description": "The Vetala Panchavimshati, or Betal Pachisi, is a collection of tales and legends within a frame story, from India. Internationally, it is also known as Vikram-Vetala. It was originally written in Sanskrit.",
+  "ddc": [
+    "398.2",
+    "398.21"
+  ],
+  "lcc": [
+    "GR-0305.00000000.B87 1992",
+    "GR-0305.00000000.B87 1969",
+    "GR-0305.00000000.V453",
+    "GR-0305.00000000.V453 1893",
+    "GR-0305.00000000.V463 1893",
+    "GR-0305.00000000.V453 1870",
+    "GR-0305.00000000.V453 1992",
+    "GR-0305.00000000.V453 1969"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, occult & supernatural",
+    "Folklore",
+    "Hindi Folk literature",
+    "Hindi Tales",
+    "Hindu Legends",
+    "Hindu Tales",
+    "Hindu mythology",
+    "Hinduism",
+    "Hindus",
+    "Hindus -- Folklore",
+    "Historical Fiction",
+    "Sanskrit literature",
+    "Shorts",
+    "Tales",
+    "Tales -- India",
+    "Tales, india",
+    "Translations into English",
+    "Vampires",
+    "Vampires -- India -- Folklore"
+  ],
+  "ol_work_key": "/works/OL7989179W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 85,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30365299M"
 }

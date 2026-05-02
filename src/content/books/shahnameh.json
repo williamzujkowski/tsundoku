@@ -21,5 +21,43 @@
     "Texts and translations",
     "Language",
     "Glossaries"
-  ]
+  ],
+  "lcc": [
+    "PK-6456.00000000.A13D3813 2016",
+    "PK-6456.00000000.A13 D3813 2016"
+  ],
+  "subject_facet": [
+    "891/.5511",
+    "Ancient, Classical & Medieval",
+    "Epic",
+    "Epic poetry, persian--translations into english",
+    "Epos",
+    "History",
+    "Middle Eastern",
+    "POETRY / Ancient, Classical & Medieval",
+    "POETRY / Epic",
+    "POETRY / Middle Eastern",
+    "Persian Epic poetry",
+    "Persisch",
+    "Pk6456.a13 d3813 2016",
+    "Poe014000 poe008000 poe013000",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poetry--ancient, classical & medieval",
+    "Poetry--epic",
+    "Poetry--middle eastern",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL7989947W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780939214860",
+  "representative_edition_key": "/books/OL29283693M"
 }

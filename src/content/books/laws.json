@@ -36,5 +36,18 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 1750,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1750",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1750.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1750.html.images",
+  "ddc": [
+    "321.07"
+  ],
+  "ol_work_key": "/works/OL40897513W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL55575935M"
 }

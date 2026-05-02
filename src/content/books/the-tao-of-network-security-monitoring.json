@@ -22,5 +22,29 @@
     "Computer networks",
     "Security measures",
     "Computer networks, security measures"
-  ]
+  ],
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "TK-5105.59000000.B44 2005",
+    "TK-5105.59000000.B44 2004"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Security measures"
+  ],
+  "ol_work_key": "/works/OL5835429W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780321246776",
+  "representative_edition_key": "/books/OL9627802M"
 }

@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12750346-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12750346-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL55450W",
-  "first_published": 2003,
+  "first_published": 2000,
   "language": "eng",
   "description": "Taken from The Oxford Chekhov, the stories in this collection include \"The Butterfly,\" \"Ariadne,\" \"A Dreary Story,\" \"Neighbours,\" \"An Anonymous Story,\" and \"Doctor Startsev,\" as well as the title story.",
   "pages": 276,
@@ -31,5 +31,16 @@
     "Fiction",
     "Literature"
   ],
-  "ol_work_key": "/works/OL14942776W"
+  "ol_work_key": "/works/OL14942776W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780760719817",
+  "representative_edition_key": "/books/OL24959152M"
 }

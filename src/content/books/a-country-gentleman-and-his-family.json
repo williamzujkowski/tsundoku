@@ -21,5 +21,15 @@
   "copyright_status": "public_domain",
   "description": "Theodore Warrender was still at Oxford when his father\r\ndied. He was a youth who had come up from his school\r\nwith the highest hopes of what he was to do at the university.\r\nIt had indeed been laid out for him by an admiring\r\ntutor with anticipations which were almost certainties: \"If\r\nyou will only work as well as you have done these last\r\ntwo years!\" These years had been spent in the dignified\r\nranks of Sixth Form, where he had done almost everything\r\nthat boy can do.",
   "isbn": "9781345601718",
-  "ol_work_key": "/works/OL31206525W"
+  "ol_work_key": "/works/OL31206525W",
+  "lcc": [
+    "PR-5113.00000000 C6"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "representative_edition_key": "/books/OL42866973M"
 }

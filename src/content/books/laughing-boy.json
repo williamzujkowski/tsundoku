@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "Laughing Boy is the name of a young Navajo man living in the American Southwest during the era when the Americans are pushing westward in earnest. He’s looking to find his way in the world and earn the respect of his tribe, when he meets a mysterious and fiery young woman, Slim Girl, at a tribal meet. Slim Girl was raised in an American Indian school, a type of boarding school designed by missionaries to “civilize” the native population. Her experiences there left her deeply resentful, and this ",
   "cover_url": "https://books.google.com/books/content?id=keo7EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2025,
+  "first_published": 1929,
   "pages": 233,
   "google_books_url": "https://play.google.com/store/books/details?id=keo7EQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -28,7 +28,7 @@
     "Navajo (Indiens)",
     "Roman américain"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "isbn": "9781299903173",
   "ddc": [
     "813.52"
@@ -74,5 +74,15 @@
     "Romani",
     "Western stories"
   ],
-  "ol_work_key": "/works/OL3538188W"
+  "ol_work_key": "/works/OL3538188W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 29,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL37176549M"
 }

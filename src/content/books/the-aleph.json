@@ -10,13 +10,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6937894-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6937894-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL104850W",
-  "first_published": 1970,
+  "first_published": 1957,
   "language": "eng",
   "description": "Twenty fictional pieces survey the depth and range of the distinguished Argentine writer's forty-year career as he journeys inside the minds of an unrepentant Nazi, an imprisoned Maya priest, fanatical Christian theologians, a man awaiting his assassin, and a woman plotting vengeance on her father's \"killer.\"",
   "pages": 232,
   "google_books_url": "http://books.google.com/books?id=XYZlAAAAMAAJ&dq=The+Aleph+Jorge+Luis+Borges&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Cuentos",
     "Short stories",
@@ -65,5 +65,19 @@
     "Study guides",
     "Translations into Italian"
   ],
-  "ol_work_key": "/works/OL110969W"
+  "ol_work_key": "/works/OL110969W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 67,
+  "first_published_circa": false,
+  "original_language": "spa",
+  "original_title": "El Aleph",
+  "representative_edition_key": "/books/OL9491085M"
 }

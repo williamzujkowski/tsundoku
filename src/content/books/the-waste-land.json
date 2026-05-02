@@ -1,7 +1,7 @@
 {
   "title": "The Waste Land",
   "author": "T.S. Eliot",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "the-waste-land",
   "tags": [
@@ -43,5 +43,14 @@
     "Histoire",
     "History"
   ],
-  "ol_work_key": "/works/OL5848131W"
+  "ol_work_key": "/works/OL5848131W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL3950288M"
 }

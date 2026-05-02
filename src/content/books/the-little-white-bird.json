@@ -29,5 +29,23 @@
   "gutenberg_id": 1376,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1376",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1376.html.images",
-  "ol_work_key": "/works/OL40854698W"
+  "ol_work_key": "/works/OL40854698W",
+  "lcc": [
+    "PR-4074.00000000.L54 1925"
+  ],
+  "subject_facet": [
+    "Fathers and sons",
+    "Fiction"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781540333650",
+  "representative_edition_key": "/books/OL55522135M"
 }

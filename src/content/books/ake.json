@@ -40,5 +40,25 @@
     "Social life and customs",
     "Soyinka, wole, 1934-"
   ],
-  "ol_work_key": "/works/OL15125397W"
+  "ol_work_key": "/works/OL15125397W",
+  "ddc": [
+    "823",
+    "822"
+  ],
+  "lcc": [
+    "PR-9387.90000000.S6 Z462 1994",
+    "PR-9387.90000000.S6 Z462 1981",
+    "PR-9387.90000000.S6 Z462 1983",
+    "PR-9387.90000000.S6.Z462",
+    "PL-8021.00000000.S67 Z22"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9271766M"
 }

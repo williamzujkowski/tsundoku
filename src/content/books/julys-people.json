@@ -33,5 +33,12 @@
   "subject_facet": [
     "Fiction, general"
   ],
-  "ol_work_key": "/works/OL20911637W"
+  "ol_work_key": "/works/OL20911637W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL28328120M"
 }

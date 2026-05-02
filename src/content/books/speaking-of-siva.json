@@ -23,5 +23,29 @@
     "Kannada poetry",
     "Translations from Kannada",
     "English poetry"
-  ]
+  ],
+  "ddc": [
+    "894.8141108"
+  ],
+  "lcc": [
+    "PL-4663.00000000.E/",
+    "PL-4664.00000000.E3",
+    "PL-4663.00000000.E3 R32"
+  ],
+  "subject_facet": [
+    "English poetry",
+    "Kannada poetry",
+    "Siva (hindu deity)",
+    "Translations",
+    "Translations from Kannada",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL18541057W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL18358148M"
 }

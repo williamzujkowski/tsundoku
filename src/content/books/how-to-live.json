@@ -33,5 +33,17 @@
     "Montaigne, michel de, 1533-1592",
     "Philosophy"
   ],
-  "ol_work_key": "/works/OL19367738W"
+  "ol_work_key": "/works/OL19367738W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780701178925",
+  "representative_edition_key": "/books/OL26823115M",
+  "copyright_status": "in_copyright"
 }

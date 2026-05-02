@@ -11,7 +11,7 @@
   "description": "The Titan (1914) is a novel by Theodore Dreiser. The second installment of Dreiser’s Trilogy of Desire, The Financier has endured as a classic of naturalist fiction and remains a powerful example of social critique over a century after its publication. Preceded by The Financier (1914) and followed by The Stoic (1947), The Titan captures the greed at the heart of the Gilded Age, a time when tycoons rose with total impunity to take over swaths of American industry. Based on the life of Charles Yer",
   "cover_url": "https://books.google.com/books/content?id=ZW8vEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781513287386",
-  "first_published": 2021,
+  "first_published": 1914,
   "pages": 418,
   "google_books_url": "https://play.google.com/store/books/details?id=ZW8vEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -36,5 +36,51 @@
   "librivox_url": "https://librivox.org/the-titan-by-theodore-dreiser/",
   "gutenberg_id": 3629,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3629",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3629.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3629.html.images",
+  "ddc": [
+    "[Fic]",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.D814 Ti",
+    "PZ-0003.00000000.D814 Ti20",
+    "PS-3507.00000000.R55 T5 2000",
+    "PZ-0003.00000000.D814",
+    "PS-3507.00000000.R55 T5 2004",
+    "PS-3507.00000000.R55 T7 1974 vol.2",
+    "PS-3507.00000000.R55 T5 1914",
+    "PS-3507.00000000.R55 Ti20",
+    "PS-3507.00000000.R55 T5 2016",
+    "PS-3507.00000000.R55 T54",
+    "PS-3507.00000000.R55 T5 1965",
+    "PS-3507.00000000.R55 Ti",
+    "PS-3507.00000000.R55"
+  ],
+  "subject_facet": [
+    "American fiction",
+    "American fiction (fictional works by one author)",
+    "American literature",
+    "Capitalists and financiers",
+    "Fiction",
+    "Firearms industry and trade",
+    "Industrialists",
+    "Industriels",
+    "Revenge",
+    "Roman américain",
+    "Romans, nouvelles",
+    "Success in business",
+    "Titan (Dreiser, Theodore)"
+  ],
+  "ol_work_key": "/works/OL100238W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 351,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34268119M"
 }

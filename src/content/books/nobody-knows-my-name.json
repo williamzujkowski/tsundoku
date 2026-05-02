@@ -27,5 +27,44 @@
     "Baldwin, james, 1924-1987",
     "Literature"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "323.1196073",
+    "301.451",
+    "305.896073",
+    "814.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.A45A16 1998",
+    "PS-3552.00000000.A45 A16 1998",
+    "E--0185.61000000.B197 1961",
+    "E--0185.61000000.B197 1993",
+    "E--0185.61000000",
+    "E--0185.61000000.B197 1963",
+    "E--0185.61000000.B197"
+  ],
+  "subject_facet": [
+    "African American authors",
+    "African Americans",
+    "American literature",
+    "Baldwin, james, 1924-1987",
+    "Criticism and interpretation",
+    "Literature",
+    "Littérature",
+    "Noirs",
+    "Race relations",
+    "United states, race relations"
+  ],
+  "ol_work_key": "/works/OL228709W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 32,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL677200M"
 }

@@ -28,5 +28,57 @@
   "gutenberg_id": 67363,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/67363",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/67363.html.images",
-  "ol_work_key": "/works/OL27997819W"
+  "ol_work_key": "/works/OL27997819W",
+  "ddc": [
+    "170",
+    "330.153 s"
+  ],
+  "lcc": [
+    "BJ-1005.00000000.S6 1887",
+    "BJ-1005.00000000.S6 1767",
+    "BJ-1005.00000000.S6 1969",
+    "BJ-1005.00000000.S65 2002",
+    "BJ-1005.00000000.S6 1892",
+    "BJ-1005.00000000 S63",
+    "BJ-1005.00000000.S6 2006",
+    "AC-0007.00000000.S59 1982",
+    "BJ-1005.00000000.S6 1759a",
+    "BJ-1005.00000000.S64 T53 1982 .S59 1981 vol. 1",
+    "BJ-1005.00000000.S6 2002",
+    "BJ-1005.00000000.S6125 2007",
+    "BJ-1005.00000000.S6 1966",
+    "BJ-1005.00000000 S65 1977",
+    "AC-0007.00000000.S59 1981 vol. 1",
+    "BJ-1005.00000000.S6 1976b",
+    "BJ-1005.00000000.S6 1853",
+    "BJ-1005.00000000.S59 1981 vol. 1",
+    "BJ-1005.00000000.S6 2000",
+    "BJ-1005.00000000.S59 1976 vol. 1",
+    "BJ-1005.00000000.S65 1984",
+    "BJ-1005.00000000.S6 1792",
+    "BJ-1005.00000000.S6 1809",
+    "BJ-1005.00000000 S6 1809",
+    "BJ-1005.00000000.S64",
+    "AC-0007.00000000.S59 1976 vol. 1"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "Ethics",
+    "Ethics, history",
+    "Ethiek",
+    "Ethik",
+    "Language and languages",
+    "Miami University (Oxford, Ohio)",
+    "Miami University (Oxford, Ohio). Erodelphian Society",
+    "Morale"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38358634M"
 }

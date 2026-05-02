@@ -29,5 +29,47 @@
     "Vrouwen",
     "Sex differences (psychology)"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "305.42"
+  ],
+  "lcc": [
+    "HQ-1155.00000000.S665 2017",
+    "HQ-1155.00000000",
+    "HQ-1155.00000000.S665 2014",
+    "HQ-1155.00000000.S667 2014"
+  ],
+  "subject_facet": [
+    "Delitos en contra",
+    "Diferencias sexuales (Psicologia)",
+    "Feminism",
+    "Feminisme",
+    "Feminismo",
+    "Huwelijk",
+    "Mujeres",
+    "New York Times bestseller",
+    "POLITICAL SCIENCE / Political Freedom & Security / Human Rights",
+    "SOCIAL SCIENCE / Feminism & Feminist Theory",
+    "SOCIAL SCIENCE / Women's Studies",
+    "Sex differences (Psychology)",
+    "Sexism",
+    "Sexismo",
+    "Violence",
+    "Violence against",
+    "Violence, psychological aspects",
+    "Vrouwen",
+    "Women",
+    "Women, crimes against",
+    "nyt:relationships=2016-01-10"
+  ],
+  "ol_work_key": "/works/OL17359118W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 17,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL27162109M"
 }

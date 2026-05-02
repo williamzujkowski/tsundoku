@@ -34,5 +34,27 @@
   "gutenberg_id": 19513,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/19513",
   "gutenberg_read_url": "https://www.gutenberg.org/files/19513/19513-index.html",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "PN-6727.00000000.M545 J86 2008",
+    "PN-6727.00000000.M546J68 2008"
+  ],
+  "subject_facet": [
+    "Cartoons and comics",
+    "Children's fiction",
+    "Classic Literature",
+    "Comic and Graphic Books",
+    "Fiction",
+    "Graphic novels",
+    "Juvenile Fiction",
+    "Juvenile literature"
+  ],
+  "ol_work_key": "/works/OL14918933W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL12498722M"
 }

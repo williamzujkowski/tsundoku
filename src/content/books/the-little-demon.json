@@ -11,7 +11,7 @@
   "description": "A dark classic of Russia's silver age, this blackly funny novel recounts a schoolteacher's descent into sadism, arson and murder. Mad, lascivious, sadistic and ridiculous, the provincial schoolteacher Peredonov torments his students and has hallucinatory fantasies about acts of savagery and degradation, yet to everyone else he is an upstanding member of society. As he pursues the idea of marrying to gain promotion, he descends into paranoia, sexual perversion, arson, torture and murder. Sologub'",
   "cover_url": "https://books.google.com/books/content?id=GfnUzkhsblMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780141392943",
-  "first_published": 2013,
+  "first_published": 1916,
   "pages": 438,
   "google_books_url": "https://play.google.com/store/books/details?id=GfnUzkhsblMC&source=gbs_api",
   "language": "eng",
@@ -50,5 +50,16 @@
     "Fiction, general",
     "Fiction, psychological"
   ],
-  "ol_work_key": "/works/OL904344W"
+  "ol_work_key": "/works/OL904344W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 36,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38800917M"
 }

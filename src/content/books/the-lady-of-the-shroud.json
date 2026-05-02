@@ -16,5 +16,27 @@
   "description": "The Lady of the Shroud is a novel by Bram Stoker, published by William Heinemann in 1909.",
   "pages": 288,
   "isbn": "9781098680664",
-  "ol_work_key": "/works/OL29802928W"
+  "ol_work_key": "/works/OL29802928W",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-6037.00000000.T617 Lad5",
+    "PZ-0003.00000000.S8743 Lad10",
+    "PZ-0003.00000000.S8743 Lad5",
+    "PR-6037.00000000.T617 Lad10"
+  ],
+  "subject_facet": [
+    "Fiction, general",
+    "Fiction, horror"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 27,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL41166690M"
 }

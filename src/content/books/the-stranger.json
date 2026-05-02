@@ -8,7 +8,7 @@
     "le-monde-100"
   ],
   "open_library_url": "https://openlibrary.org/works/OL31270346W",
-  "first_published": 1980,
+  "first_published": 1942,
   "description": "The masterpiece of Nobel Prize winner Albert Camus now in a striking American English translation. The Stranger remains vital for its unsettling insights into the impossibility of moral certainty in the face of violence. “Matthew Ward has done Camus and us a great service. The Stranger is now a different and better novel for its American readers; it is now our classic as well as France’s.”—Chicago Sun-Times Since it was first published in English, in 1946, Albert Camus’s first novel, The Strange...",
   "cover_url": "https://books.google.com/books/content?id=iVV7bKVUNBAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=iVV7bKVUNBAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -20,7 +20,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=iVV7bKVUNBAC&dq=The+Stranger+Albert+Camus&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "448.6421",
     "843.914",
@@ -135,5 +135,21 @@
     "Young men",
     "Étranger (Camus, Albert)"
   ],
-  "ol_work_key": "/works/OL1230613W"
+  "ol_work_key": "/works/OL1230613W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "L'étranger",
+  "representative_edition_key": "/books/OL41520142M",
+  "translator": "Matthew Ward"
 }

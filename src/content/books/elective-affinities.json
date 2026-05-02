@@ -28,5 +28,27 @@
     "Continental european fiction (fictional works by one author)"
   ],
   "librivox_url": "https://librivox.org/elective-affinities-by-johann-wolfgang-von-goethe/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "833.6"
+  ],
+  "lcc": [
+    "PT-2027.00000000.W213 2009"
+  ],
+  "subject_facet": [
+    "Adultery",
+    "Fiction",
+    "Married people",
+    "Sexual attraction"
+  ],
+  "ol_work_key": "/works/OL33049015W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL44911942M"
 }

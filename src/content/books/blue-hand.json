@@ -11,12 +11,37 @@
   "description": "We are happy to announce this classic book. Many of the books in our collection have not been published for decades and are therefore not broadly available to the readers. Our goal is to access the very large literary repository of general public books. The main contents of our entire classical books are the original works. To ensure high quality products, all the titles are chosen carefully by our staff. We hope you enjoy this classic.",
   "cover_url": "https://books.google.com/books/content?id=uy7AzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "9798665177588",
-  "first_published": 2020,
+  "first_published": 1927,
   "pages": 318,
   "google_books_url": "http://books.google.com/books?id=uy7AzQEACAAJ&dq=intitle:Blue+Hand&hl=&source=gbs_api",
   "language": "eng",
   "oclc_id": "11510550",
   "worldcat_url": "https://www.worldcat.org/oclc/11510550",
   "lccn": "28007632",
-  "copyright_status": "in_copyright"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "823.9",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6045.00000000.A327 B57 1923",
+    "PR-6045.00000000.A327 B55",
+    "PR-6045.00000000.A327 Blu",
+    "PZ-0003.00000000.W1525 Blu"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Fiction"
+  ],
+  "ol_work_key": "/works/OL1517852W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 67,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34307631M"
 }

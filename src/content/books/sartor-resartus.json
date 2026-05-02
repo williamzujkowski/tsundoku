@@ -11,7 +11,7 @@
   "description": "\"Sartor Resartus is the 'sunniest and most philosophical' of Carlyle's works.\"—Henry David Thoreau \"The way to test how much [Carlyle] has left us all were to consider, or try to consider, for the moment the array of British thought, the resultant and ensemble of the last fifty years, as existing today, but with Carlyle left out.\"—Walt Whitman \"How great he was! He made history a song for the first time in our language. He was our English Tacitus.\"—Oscar Wilde",
   "cover_url": "https://books.google.com/books/content?id=ModYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780520209282",
-  "first_published": 2000,
+  "first_published": 1800,
   "pages": 788,
   "google_books_url": "http://books.google.com/books?id=ModYDwAAQBAJ&dq=intitle:Sartor+Resartus&hl=&source=gbs_api",
   "language": "eng",
@@ -101,5 +101,16 @@
     "Social life and customs",
     "Typhoid fever"
   ],
-  "ol_work_key": "/works/OL1064699W"
+  "ol_work_key": "/works/OL1064699W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 113,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL12557794M"
 }

@@ -70,5 +70,16 @@
     "award:national_book_award=1954",
     "award:national_book_award=fiction"
   ],
-  "ol_work_key": "/works/OL506116W"
+  "ol_work_key": "/works/OL506116W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 27,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11044674M"
 }

@@ -24,5 +24,28 @@
     "Computer programming",
     "Long Now Manual for Civilization"
   ],
-  "ol_work_key": "/works/OL32415505W"
+  "ol_work_key": "/works/OL32415505W",
+  "ddc": [
+    "001.642",
+    "651.8",
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.60000000.K64",
+    "QA-0076.50000000.K57",
+    "QA-0076.60000000.K64 2005",
+    "QA-0076.60000000.K64 1997",
+    "QA-0076.60000000"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780137926794",
+  "representative_edition_key": "/books/OL44188375M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Magician's Nephew",
   "author": "C.S. Lewis",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "the-magicians-nephew",
   "tags": [
@@ -13,13 +13,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/11756428-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11756428-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24867882W",
-  "first_published": 1997,
+  "first_published": 1955,
   "description": "\"Polly's hand went out to touch one of the rings. Immediately, without a flash or a noise, she vanished\". When horrible Uncle Andrew starts experimenting with magic, Digory and Polly find themselves in another world, at the start of an adventure, as the doorway to the magical land of Narnia opens.",
   "isbn": "0007126085",
   "google_books_url": "http://books.google.com/books?id=92qoPwAACAAJ&dq=The+Magician%27s+Nephew+C.S.+Lewis&hl=&source=gbs_api",
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Fantasy",
     "Juvenile fiction",
@@ -96,5 +96,15 @@
     "Witches",
     "Witches, fiction"
   ],
-  "ol_work_key": "/works/OL71042W"
+  "ol_work_key": "/works/OL71042W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 163,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL39220348M"
 }

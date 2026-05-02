@@ -7,10 +7,42 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Ghost Fleet: A Novel of the Next World War is a 2015 techno-thriller by P. W. Singer and August Cole. Set in the near future, the book portrays a scenario in which a post-communist China, assisted by Russia, launches a technologically sophisticated attack against the United States in the Pacific Ocean that leads to the occupation of the Hawaiian Islands.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Ghost_Fleet_%28novel%29.jpg/250px-Ghost_Fleet_%28novel%29.jpg",
   "isbn": "9781490674124",
   "ol_work_key": "/works/OL24234855W",
-  "first_published": 2015
+  "first_published": 2015,
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3619.00000000.I572455 G48 2015",
+    "PS-3619.00000000.I572455",
+    "PS-3619.00000000.I572455G48"
+  ],
+  "subject_facet": [
+    "Asymmetric warfare",
+    "FICTION",
+    "FICTION / Political",
+    "FICTION / Technological",
+    "Fiction",
+    "Operational art (Military science)",
+    "Political",
+    "Technological",
+    "World War III",
+    "World war iii, fiction"
+  ],
+  "pages": 416,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781490674124",
+  "representative_edition_key": "/books/OL32047796M"
 }

@@ -10,7 +10,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=02mbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783368316501",
-  "first_published": 2022,
+  "first_published": 2017,
   "pages": 386,
   "google_books_url": "http://books.google.com/books?id=02mbEAAAQBAJ&dq=intitle:Tarzan+the+Terrible&hl=&source=gbs_api",
   "language": "eng",
@@ -22,5 +22,18 @@
   "description": "Silent as the shadows through which he moved, the great beast slunk\r\nthrough the midnight jungle, his yellow-green eyes round and staring,\r\nhis sinewy tail undulating behind him, his head lowered and flattened,\r\nand every muscle vibrant to the thrill of the hunt. The jungle moon\r\ndappled an occasional clearing which the great cat was always careful\r\nto avoid.",
   "subjects": [
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "ol_work_key": "/works/OL40187784W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL54769677M"
 }

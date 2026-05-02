@@ -30,5 +30,46 @@
     "Fiction, fantasy, general"
   ],
   "copyright_status": "likely_public_domain",
-  "ol_work_key": "/works/OL38127629W"
+  "ol_work_key": "/works/OL38127629W",
+  "ddc": [
+    "823.912",
+    "370.002",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0034.00000000.T65 1976",
+    "PZ-0007.00000000.T5746 Far",
+    "PZ-0007.00000000.T5744 Far 1999",
+    "PZ-0007.00000000.T5744Far 1999",
+    "PR-6039.00000000.O32",
+    "PR-6039.00000000 O33 F3",
+    "PZ-0034.00000000.T65 1999",
+    "PZ-0007.00000000.T5744 Far 1949"
+  ],
+  "subject_facet": [
+    "British Adventure stories",
+    "British and irish fiction (fictional works by one author)",
+    "Children's fiction",
+    "Children's stories",
+    "Dragons",
+    "Dragons, fiction",
+    "English Fantasy fiction",
+    "Fairy tales",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Historical fantasy fiction",
+    "Juvenile fiction"
+  ],
+  "pages": 89,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL51815224M"
 }

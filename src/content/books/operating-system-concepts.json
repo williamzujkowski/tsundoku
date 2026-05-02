@@ -29,5 +29,36 @@
     "Besturingssystemen",
     "General Theory of Computing"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.43"
+  ],
+  "lcc": [
+    "QA-0076.77000000",
+    "QA-0076.77000000.S555 2014"
+  ],
+  "subject_facet": [
+    "Linux",
+    "Linux (computer operating system)",
+    "Macintosh (computer)",
+    "Macintosh Classic (Computer)",
+    "Microsoft Windows (Computer file)",
+    "Microsoft windows (computer program)",
+    "Operating systems (Computers)",
+    "Operating systems (computers)",
+    "UNIX (Computer file)",
+    "Unix (computer operating system)"
+  ],
+  "ol_work_key": "/works/OL21092275W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781118026809",
+  "representative_edition_key": "/books/OL31170797M"
 }

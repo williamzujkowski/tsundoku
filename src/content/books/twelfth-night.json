@@ -32,5 +32,46 @@
   ],
   "gutenberg_id": 1526,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1526",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1526.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1526.html.images",
+  "ddc": [
+    "822.33"
+  ],
+  "lcc": [
+    "PR-2837.00000000"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Brothers and sisters",
+    "Brothers and sisters -- Drama",
+    "Children's literature",
+    "Comedies",
+    "Drama (dramatic works by one author)",
+    "Drama, collections",
+    "English literature, history and criticism",
+    "English literature, study and teaching",
+    "Habimah",
+    "Illustrated books",
+    "Illyria -- Drama",
+    "Mistaken identity",
+    "Mistaken identity -- Drama",
+    "Plays",
+    "Shakespeare, william, 1564-1616",
+    "Shakespeare, william, 1564-1616, twelfth night",
+    "Shipwreck survival",
+    "Shipwreck survival -- Drama",
+    "Specimens",
+    "Theater programs",
+    "Twins",
+    "Twins -- Drama"
+  ],
+  "ol_work_key": "/works/OL362210W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 245,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34331781M"
 }

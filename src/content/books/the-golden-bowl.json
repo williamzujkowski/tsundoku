@@ -11,7 +11,7 @@
   "description": "This work is Henry James's last novel and is a symbolically complex story of two flawed marriages. The gilded crystal bowl with its largely concealed flaw is the symbolic vehicle used to reveal past misdemeanours and make the characters face the flaws in their lives.",
   "cover_url": "https://books.google.com/books/content?id=YGi31RrustcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "1840224320",
-  "first_published": 2000,
+  "first_published": 1904,
   "pages": 478,
   "google_books_url": "http://books.google.com/books?id=YGi31RrustcC&dq=intitle:The+Golden+Bowl&hl=&source=gbs_api",
   "language": "eng",
@@ -94,5 +94,16 @@
     "Public Finance",
     "Taxation"
   ],
-  "ol_work_key": "/works/OL276338W"
+  "ol_work_key": "/works/OL276338W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 78,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8914252M"
 }

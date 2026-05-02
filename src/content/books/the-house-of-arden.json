@@ -12,7 +12,7 @@
   "description": "Two impoverished children, Edred and Elfrida Arden, inherit the decrepit Arden Castle and search for the lost family fortune that will allow them to rebuild it. With the assistance of the magical Mouldiwarp (mole), they travel back in time to earlier periods of English history, searching for clues. During their journeys into the past, the children encounter several historical events: 1807: Napoleon's planned invasion of the United Kingdom, the British military response, and the smuggling around ",
   "cover_url": "https://books.google.com/books/content?id=IzEDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791220204552",
-  "first_published": 2020,
+  "first_published": 1908,
   "pages": 299,
   "google_books_url": "https://play.google.com/store/books/details?id=IzEDEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,51 @@
   "gutenberg_id": 57799,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/57799",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/57799.html.images",
-  "librivox_url": "https://librivox.org/the-house-of-arden-by-edith-nesbit/"
+  "librivox_url": "https://librivox.org/the-house-of-arden-by-edith-nesbit/",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N43777 Hou 2006",
+    "PZ-0008.00000000.B612 Ho3",
+    "PZ-0007.00000000.N43777Hou 2006",
+    "PZ-0008.00000000.B612 Ho"
+  ],
+  "subject_facet": [
+    "Brothers and sisters",
+    "Brothers and sisters -- Juvenile fiction",
+    "Brothers and sisters, fiction",
+    "Buried  treasure",
+    "Buried treasure",
+    "Buried treasure, fiction",
+    "Children's fiction",
+    "Fairy tales",
+    "Fiction",
+    "Great Britain -- History -- Edward VII, 1901-1910 -- Juvenile fiction",
+    "Great britain, fiction",
+    "Great britain, history, fiction",
+    "History",
+    "Juvenile fiction",
+    "Magic",
+    "Magic -- Juvenile fiction",
+    "Magic, fiction",
+    "Siblings, fiction",
+    "Time travel",
+    "Time travel -- Juvenile fiction",
+    "Time travel, fiction",
+    "Treasure troves",
+    "Treasure troves -- Juvenile fiction"
+  ],
+  "ol_work_key": "/works/OL99537W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 83,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30214460M"
 }

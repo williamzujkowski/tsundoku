@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=SUgJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=SUgJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780804797511",
-  "first_published": 2015,
+  "first_published": 2012,
   "pages": 71,
   "subjects": [
     "Philosophy"
@@ -38,5 +38,16 @@
     "Transparency",
     "Transparenz"
   ],
-  "ol_work_key": "/works/OL17799854W"
+  "ol_work_key": "/works/OL17799854W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "9788425432521",
+  "representative_edition_key": "/books/OL34029981M"
 }

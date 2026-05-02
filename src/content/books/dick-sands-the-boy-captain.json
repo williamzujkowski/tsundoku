@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "In \"Dick Sands, the Boy Captain,\" Jules Verne crafts an adventurous tale that both captivates and educates. The narrative follows young Dick Sands, who, through a series of unforeseen events, assumes command of a whaling ship. Verne utilizes a vivid, descriptive literary style, blending elements of adventure, exploration, and education, alongside his characteristic fascination with technology and the natural world. Set against the vastness of the ocean and the exotic backdrop of Africa, the book",
   "cover_url": "https://books.google.com/books/content?id=-B4LEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2023,
+  "first_published": 2014,
   "pages": 338,
   "google_books_url": "https://play.google.com/store/books/details?id=-B4LEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -50,5 +50,14 @@
     "Voyages and travels -- Fiction",
     "Whales -- Fiction"
   ],
-  "ol_work_key": "/works/OL1099414W"
+  "ol_work_key": "/works/OL1099414W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 35,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL38139555M"
 }

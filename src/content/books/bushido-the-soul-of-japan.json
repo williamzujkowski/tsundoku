@@ -23,5 +23,23 @@
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=uc2.ark:/13960/t2891501v",
   "hathitrust_rights": "Full view",
   "librivox_url": "https://librivox.org/bushido-the-soul-of-japan-by-inazo-nitobe/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "DS-0821.00000000.N7 1907"
+  ],
+  "subject_facet": [
+    "Ethics"
+  ],
+  "ol_work_key": "/works/OL42767314W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL58220063M"
 }

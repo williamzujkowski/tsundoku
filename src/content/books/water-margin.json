@@ -32,5 +32,23 @@
     "Children's fiction",
     "China, fiction"
   ],
-  "ol_work_key": "/works/OL17520555W"
+  "ol_work_key": "/works/OL17520555W",
+  "ddc": [
+    "895.134"
+  ],
+  "lcc": [
+    "PL-2694.00000000.S5 E55 1992",
+    "PZ-0003.00000000.S56255 Wat5",
+    "PL-2694.00000000",
+    "PL-2694.00000000.S5 E5 2010"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL26109454M"
 }

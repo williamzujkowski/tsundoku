@@ -40,5 +40,21 @@
   "subject_facet": [
     "Combinatorial analysis"
   ],
-  "ol_work_key": "/works/OL20785088W"
+  "ol_work_key": "/works/OL20785088W",
+  "ddc": [
+    "510",
+    "004.015"
+  ],
+  "lcc": [
+    "QA-0039.20000000.G733 1989",
+    "QA-0039.20000000.G733 1994",
+    "QA-0039.20000000.G7314 2003"
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "representative_edition_key": "/books/OL35769550M"
 }

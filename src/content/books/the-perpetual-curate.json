@@ -11,7 +11,7 @@
   "description": "« The Perpetual Curate » by Margaret Oliphant is a classic Victorian novel that offers a nuanced portrait of church life and the challenges faced by English clergy in the 19th century. The story revolves around Frank Wentworth, the young perpetual curate of Carlingford, a fictional small town where religious and social tensions simmer beneath the surface. As a clergyman, Frank is dedicated to his parishioners and committed to his spiritual duties, but he finds himself entangled in a web of famil",
   "cover_url": "https://books.google.com/books/content?id=WGyHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9782322535385",
-  "first_published": 2025,
+  "first_published": 1864,
   "pages": 686,
   "google_books_url": "http://books.google.com/books?id=WGyHEQAAQBAJ&dq=intitle:The+Perpetual+Curate&hl=&source=gbs_api",
   "language": "eng",
@@ -28,5 +28,36 @@
   ],
   "gutenberg_id": 28006,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28006",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28006.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28006.html.images",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5113.00000000.C5",
+    "PR-5113.00000000 Pe12",
+    "PR-5113.00000000 Pe2",
+    "PR-5113.00000000 Pe",
+    "PZ-0003.00000000.O48 Pe12",
+    "PR-5113.00000000.P47 1987",
+    "PZ-0003.00000000.O48 Pe2",
+    "PZ-0003.00000000.O48 Pe"
+  ],
+  "subject_facet": [
+    "Clergy",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, religious"
+  ],
+  "ol_work_key": "/works/OL890482W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 47,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL55323767M"
 }

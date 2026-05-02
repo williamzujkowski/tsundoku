@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/15161755-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/15161755-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL36655754W",
-  "first_published": 1968,
+  "first_published": 1794,
   "language": "eng",
   "description": "Recounts the adventures of the Trojan prince Aeneas, who helped found Rome, after the fall of Troy.",
   "isbn": "0670038032",
@@ -324,5 +324,16 @@
     "Virgil",
     "Works by individual poets: classical, early & medieval"
   ],
-  "ol_work_key": "/works/OL16280231W"
+  "ol_work_key": "/works/OL16280231W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7641422M"
 }

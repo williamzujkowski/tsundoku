@@ -1,7 +1,7 @@
 {
   "title": "Station Eleven",
   "author": "Emily St. John Mandel",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "station-eleven",
   "tags": [
@@ -73,5 +73,14 @@
     "nyt:hardcover-fiction=2014-10-19",
     "nyt:trade-fiction-paperback=2015-06-21"
   ],
-  "ol_work_key": "/works/OL17202418W"
+  "ol_work_key": "/works/OL17202418W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 18,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL25774147M"
 }

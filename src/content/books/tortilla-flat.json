@@ -27,5 +27,66 @@
     "Classic Literature",
     "American fiction (fictional works by one author)",
     "Monterey (calif.), fiction"
-  ]
+  ],
+  "ddc": [
+    "813.52",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3537.00000000.T3234 T65 1986b",
+    "PS-3537.00000000.T3234 T65 1986",
+    "PS-3537.00000000.T3234 Tor3",
+    "PS-3537.00000000 T3234 T68",
+    "PS-3537.00000000 T3234",
+    "PS-3537.00000000.T3234 T65 1994",
+    "PZ-0003.00000000.S819 Tor3",
+    "PS-3537.00000000.T3234T65 1986",
+    "PZ-0003.00000000.S8195 Tor9",
+    "PZ-0003.00000000.S8195 Tor",
+    "PS-3537.00000000.T3234T65",
+    "PS-3537.00000000.T3234T65 1997",
+    "PS-3537.00000000.T3234 T65 1997",
+    "PZ-0003.00000000.S8195 Tor6",
+    "PZ-0003.00000000.S8195 Tor15",
+    "PS-3537.00000000.T3234 T65 1967",
+    "PS-3537.00000000.T3234 Tor15",
+    "PS-3537.00000000.T3234 T65*",
+    "PS-3537.00000000.T3234 Tor9",
+    "PS-3537.00000000.T3234 T65 1935",
+    "PZ-0003.00000000.S8195 Tor3"
+  ],
+  "subject_facet": [
+    "American fiction",
+    "American fiction (fictional works by one author)",
+    "Américains d'origine latino-américaine",
+    "California, fiction",
+    "Classic Literature",
+    "Fiction",
+    "Fiction in English",
+    "Gangs",
+    "Hispanic Americans",
+    "Hispanic americans, fiction",
+    "Mexican Americans",
+    "Monterey",
+    "Monterey (calif.), fiction",
+    "Nineteen thirties",
+    "Open Library Staff Picks",
+    "Pauvres",
+    "Poor",
+    "Poverty",
+    "Romans, nouvelles",
+    "Unterschicht"
+  ],
+  "ol_work_key": "/works/OL23201W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 85,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7881437M"
 }

@@ -25,5 +25,30 @@
     "Computer security",
     "Malware (computer software)"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA-0076.90000000.D43K5813 2011",
+    "QA-0076.90000000.D43 K5813 2011"
+  ],
+  "subject_facet": [
+    "Computer security",
+    "Debugging in computer science",
+    "Malware (Computer software)",
+    "Malware (computer software)"
+  ],
+  "ol_work_key": "/works/OL16117694W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781593273859",
+  "representative_edition_key": "/books/OL25005401M"
 }

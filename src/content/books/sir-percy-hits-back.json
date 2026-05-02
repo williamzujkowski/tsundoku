@@ -14,11 +14,11 @@
   "description": "For young and pretty Fleurette the revolution seems far away, until an aristocratic neighbouring family is threatened. Now, the dangers are all too real, and she is also accused of being a traitor. Her father is - ironically - Armand Chauvelin. For the first time he is forced to ask his arch-enemy, the heroic 'Scarlet Pimpernel', for help.",
   "cover_url": "https://books.google.com/books/content?id=HPr280u1W5IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780755116676",
-  "first_published": 2001,
+  "first_published": 1927,
   "pages": 299,
   "google_books_url": "http://books.google.com/books?id=HPr280u1W5IC&dq=intitle:Sir+Percy+Hits+Back&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Classic Literature",
     "Adventure and adventurers",
@@ -53,5 +53,15 @@
     "History",
     "Sir Blakeney, Percy (Fictitious character)"
   ],
-  "ol_work_key": "/works/OL8125148W"
+  "ol_work_key": "/works/OL8125148W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 49,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL28811629M"
 }
