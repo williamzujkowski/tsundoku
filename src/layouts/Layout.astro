@@ -36,8 +36,15 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&display=swap" />
     <title>{title} — Tsundoku</title>
-    {/* Pre-paint theme application: read stored choice, fall back to system preference. Runs before body to prevent FOUC. */}
-    <script is:inline>
+    {/* Pre-paint theme application — runs before body to prevent FOUC.
+        `data-astro-rerun` makes the script execute on every client-side
+        navigation; without it, the script runs once on full page load
+        but skipped on view-transition swaps, causing the new page to
+        render with the system-default theme even when the user toggled
+        an explicit choice. The astro:before-swap listener carries the
+        data-theme attribute over to the incoming document before paint
+        so there's no flash mid-transition. */}
+    <script is:inline data-astro-rerun>
       (function () {
         try {
           var stored = localStorage.getItem('theme');
@@ -48,6 +55,24 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
           // localStorage unavailable — system preference handles it via @media
         }
       })();
+    </script>
+    <script>
+      // Carry data-theme across view-transition swaps so the incoming
+      // document mirrors the user's current choice before paint.
+      document.addEventListener('astro:before-swap', (event) => {
+        try {
+          var stored = localStorage.getItem('theme');
+          var current = document.documentElement.getAttribute('data-theme');
+          var apply = stored === 'light' || stored === 'dark' ? stored : current;
+          if (apply === 'light' || apply === 'dark') {
+            event.newDocument.documentElement.setAttribute('data-theme', apply);
+          } else {
+            event.newDocument.documentElement.removeAttribute('data-theme');
+          }
+        } catch (_) {
+          // ignore — pre-paint inline script will catch it post-swap
+        }
+      });
     </script>
     <ClientRouter />
   </head>
