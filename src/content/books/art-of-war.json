@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/4849549-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4849549-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL244537W",
-  "first_published": 1900,
+  "first_published": -500,
   "language": "eng",
   "description": "Widely regarded as \"The Oldest Military Treatise in the World,\" this landmark work covers principles of strategy, tactics, maneuvering, communication, and supplies; the use of terrain, fire, and the seasons of the year; the classification and utilization of spies; the treatment of soldiers, including captives, all have a modern ring to them.",
   "isbn": "0486425576",
@@ -328,7 +328,7 @@
   "ol_work_key": "/works/OL244537W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },

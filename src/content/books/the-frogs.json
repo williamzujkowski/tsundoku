@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/104385-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/104385-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20200W",
-  "first_published": 1785,
+  "first_published": -405,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -101,13 +101,12 @@
   "ol_work_key": "/works/OL20246W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 110,
-  "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8408294M"
 }

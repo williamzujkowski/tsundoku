@@ -9,10 +9,13 @@
   "cover_url": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780192514325",
-  "first_published": 2024,
+  "first_published": -2100,
   "pages": 161,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=nCEtEQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "public_domain",
+  "_provenance": {
+    "first_published": "manual"
+  }
 }

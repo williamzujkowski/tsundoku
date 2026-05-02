@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8915879-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8915879-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20258987W",
-  "first_published": 1964,
+  "first_published": 524,
   "language": "eng",
   "description": "Composed while its author was imprisoned, this book remains one of Western literature’s most eloquent meditations on the transitory nature of earthly belongings, and the superiority of things of the mind. Slavitt’s translation captures Boethius’s energy and passion. Seth Lerer places Boethius’s life and achievement in context in his introduction.",
   "isbn": "9780674262140",
@@ -29,13 +29,12 @@
   "ol_work_key": "/works/OL20258987W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 45,
-  "first_published_circa": false,
   "first_edition_isbn": "9780809301263",
   "representative_edition_key": "/books/OL56532999M"
 }

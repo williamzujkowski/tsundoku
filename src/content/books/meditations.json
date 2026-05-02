@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/662303-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/662303-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15320185W",
-  "first_published": 1999,
+  "first_published": 170,
   "language": "eng",
   "description": "'Meditations on First Philosophy' is a philosophical treatise written by René Descartes first published in Latin in 1641. The book is made up of six meditations, in which Descartes first discards all belief in things which are not absolutely certain, and then tries to establish what can be known for sure. The meditations were written as if he was meditating for 6 days: each meditation refers to the last one as \"yesterday\". However, Descartes did not take 6 days to complete this work; it actually...",
   "isbn": "9781515440604",
@@ -40,7 +40,7 @@
   "ol_work_key": "/works/OL15320183W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,

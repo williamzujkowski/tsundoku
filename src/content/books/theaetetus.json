@@ -8,7 +8,7 @@
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL40942740W",
-  "first_published": 1861,
+  "first_published": -369,
   "language": "eng",
   "description": "Set immediately prior to the trial and execution of Socrates in 399 BC, Theaetetus shows the great philosopher considering the nature of knowledge itself, in a debate with the geometrician Theodorus and his young follower Theaetetus. Their dialogue covers many questions, such as: is knowledge purely subjective, composed of the ever-changing flow of impressions we receive from the outside world? Is it better thought of as \"true belief\"? Or is it, as many modern philosophers argue, \"justified true...",
   "cover_url": "https://books.google.com/books/content?id=fohPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -78,7 +78,7 @@
   "ol_work_key": "/works/OL51854W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
@@ -88,7 +88,6 @@
     "series": "wikidata_v1"
   },
   "editions_count": 159,
-  "first_published_circa": false,
   "original_language": "grc",
   "original_title": "The Theaetetus of Plato",
   "first_edition_isbn": null,
