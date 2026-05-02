@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "description": "A riqueza dos ensinamentos e a fantasia que embala sonhos e conquista crianças em todo o mundo proporcionam momentos inesquecíveis de alegria e aventura. Esta é a maior coleção de clássicos infantis do Brasil! São mais de 70 histórias, dos mais consagrados nomes da literatura infantil mundial, reunidas aqui para encantar crianças de todas as idades. Contos de fadas e fábulas que ensinam, divertem e entretêm, trazendo um mundo mágico de sonhos e de pequenos ensinamentos para a vida toda. Um preci",
+  "description": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney and released by RKO Radio Pictures, loosely based on Felix Salten's 1923 novel Bambi, a Life in the Woods. It was directed by David D. Hand, and a team of six sequence directors.",
   "cover_url": "https://books.google.com/books/content?id=azI6BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788537609316",
   "first_published": 1926,
@@ -81,7 +81,8 @@
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "description": "fix_non_english_v1_wikipedia"
   },
   "editions_count": 111,
   "first_published_circa": false,

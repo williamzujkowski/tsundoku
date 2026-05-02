@@ -10,7 +10,7 @@
   "open_library_url": "https://openlibrary.org/works/OL1002156W",
   "first_published": 1973,
   "language": "eng",
-  "description": "\"Clarice Lispector realiza lo que llamo literatura o escritura pensante, aquella que permite pensar lo impensado y hasta lo impensable en las culturas occidentales, yendo mucho más allá del pensamiento humano en sentido vulgar: Estoy detrás de lo que permanece atrás del pensamiento. Y lo que permanece atrás del pensamiento son las sensaciones (es una sensación atrás del pensamiento), que no se oponen simplemente al razonamiento humano relacionado al lenguaje verbal, sino que lo anteceden, establ...",
+  "description": "Água Viva may refer to:Água Viva (album), a 1978 album by Gal Costa\nÁgua Viva , a 1980 Brazilian telenovela\nÁgua Viva (novel), a novel by Clarice Lispector",
   "isbn": "9789500533157",
   "pages": 104,
   "google_books_url": "http://books.google.com/books?id=vPLpEAAAQBAJ&dq=%C3%81gua+Viva+Clarice+Lispector&hl=&source=gbs_api",
@@ -44,7 +44,8 @@
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "description": "fix_non_english_v1_wikipedia"
   },
   "editions_count": 14,
   "first_published_circa": false,

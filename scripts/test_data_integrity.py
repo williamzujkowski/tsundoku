@@ -82,6 +82,32 @@ class TestBookIntegrity:
         for f, b in load_all_books():
             assert b["slug"], f"{Path(f).name} has empty slug"
 
+    def test_descriptions_are_english(self):
+        # Regression for the Spanish-Tractatus issue: enrichment passes
+        # occasionally pulled localised descriptions from OL/Google Books.
+        # Heuristic: any book whose description is dominated by Spanish/
+        # French/German/Portuguese/Dutch markers (≥1.4× English-token
+        # count and ≥4 absolute) is flagged. False positives are
+        # acceptable as long as the global count stays at zero.
+        ENGLISH = re.compile(
+            r"\b(the|of|and|to|a|in|is|that|for|with|as|on|by|are|this|was|be|from|or|an|its|it|but|not|have|has|all|will|one|book|author|published|writes|writing|edition|story|novel|work|english|chapter|first|second|when|where|while|after|before)\b",
+            re.IGNORECASE,
+        )
+        NON_ENGLISH = re.compile(
+            r"\b(el|la|los|las|de|que|en|es|son|para|por|del|al|una|uno|más|fue|obra|escribió|según|también|durante|cuando|donde|aquí|allí|nuestro|vida|le|les|des|et|ou|qui|où|dans|avec|sans|cette|ces|était|d'un|d'une|n'est|qu'il|der|die|das|den|dem|ein|eine|einer|und|oder|aber|nicht|mit|von|für|sich|werden|wurde|haben|hatte|sein|seine|als|você|não|ela|isto|aquele|aquela|estão|hij|zij|niet|maar|over|onder|tussen|alleen)\b",
+            re.IGNORECASE,
+        )
+        bad = []
+        for f, b in load_all_books():
+            desc = b.get("description") or ""
+            if len(desc.split()) < 8:
+                continue
+            en = len(ENGLISH.findall(desc))
+            other = len(NON_ENGLISH.findall(desc))
+            if other > en * 1.4 and other >= 4:
+                bad.append(f"{Path(f).name}: {desc[:80]}")
+        assert len(bad) == 0, f"Non-English descriptions:\n" + "\n".join(bad[:10])
+
 
 class TestStatsIntegrity:
     def test_stats_has_required_keys(self):

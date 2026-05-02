@@ -19,7 +19,6 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/22217",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/22217.html.images",
   "librivox_url": "https://librivox.org/my-reminiscences-by-rabindranath-tagore/",
-  "description": "Für die indische Kultur ist seit alters zweierlei charakteristisch: die Suche nach der letzten Wahrheit und das damit zusammenhängende Verhältnis zwischen Guru und Jünger.",
   "isbn": "9781434676191",
   "lcc": [
     "PR-6039.00000000.A2 Z532",
@@ -38,7 +37,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "description": "fix_non_english_v1_blanked"
   },
   "editions_count": 16,
   "first_published_circa": false,

@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "description": "Mike Mulligan está orgulloso de su hermosa y roja excavadora de vapor, Mary Anne. Ellos forman un equipo desde hace años y años, juntos han cavado grandes canales, han abierto el paso entre montañas, han aplanado las colinas y han alineado las curvas. Pero cuando las nuevas excavadoras comienzan a reemplazar a las grúas como Mary Anne, Mike se resiste a abandonar a su amiga. Los dos se van para el pequeño pueblo de Popperville, donde salen victoriosos en un gran desafío.",
+  "description": "When Mike Mulligan and his steam shovel, Mary Ann, lose their jobs to the gasoline, electric, and diesel motor shovels, they go to a little country town where they find that one new job leads to another.",
   "cover_url": "https://books.google.com/books/content?id=p4w4TpX5jnQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780395861349",
   "first_published": 1939,
@@ -68,7 +68,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "description": "fix_non_english_v1_ol_work"
   },
   "editions_count": 40,
   "first_published_circa": false,
