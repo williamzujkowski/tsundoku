@@ -40,7 +40,12 @@ EDITION_PATTERNS = [
 
 
 def normalize_title(title: str) -> str:
-    """Normalize a title for comparison."""
+    """Normalize a title for comparison.
+
+    Catches: leading articles, edition/format suffixes, parens, AND now also
+    punctuation/whitespace differences (for #113 — \"Thinking Fast and Slow\"
+    vs \"Thinking, Fast and Slow\", etc.).
+    """
     t = title.lower().strip()
     # Strip leading articles
     for article in ("the ", "a ", "an "):
@@ -50,7 +55,39 @@ def normalize_title(title: str) -> str:
     # Strip edition/format suffixes
     for pattern in EDITION_PATTERNS:
         t = re.sub(pattern, '', t, flags=re.IGNORECASE)
+    # Apostrophes get removed (not space-replaced) so "Gravity's" matches
+    # "Gravitys". Other punctuation becomes whitespace, then collapse.
+    t = re.sub(r"[‘’“”']", "", t)  # smart + straight quotes
+    t = re.sub(r"[^\w\s]", " ", t)
+    t = re.sub(r"\s+", " ", t)
     return t.strip()
+
+
+_AUTHOR_SEPARATORS = re.compile(r"\s*(?:&| and | with |/|,)\s*", re.IGNORECASE)
+
+
+def normalize_author(author: str) -> str:
+    """Normalize an author string to a sorted set of last names.
+
+    Catches \"Acemoglu & Robinson\" ↔ \"Daron Acemoglu and James A. Robinson\":
+    both reduce to \"acemoglu|robinson\".
+
+    For single authors (most cases), returns the lowercased name with
+    punctuation stripped. False-positive risk is small because we still
+    require the title to match.
+    """
+    a = author.lower().strip()
+    parts = [p.strip() for p in _AUTHOR_SEPARATORS.split(a) if p.strip()]
+    if len(parts) <= 1:
+        # Single author — just lowercase + strip trailing periods (initials)
+        return re.sub(r"[^\w\s]", " ", a).strip()
+    # Multi-author: last word of each part is the last name
+    last_names = []
+    for p in parts:
+        tokens = re.split(r"\s+", p)
+        if tokens:
+            last_names.append(re.sub(r"[^\w]", "", tokens[-1]))
+    return "|".join(sorted(name for name in last_names if name))
 
 
 def enrichment_score(book: dict) -> int:
@@ -85,10 +122,12 @@ def find_duplicates() -> list[tuple[Path, dict, Path, dict]]:
     for bp in sorted(BOOKS_DIR.glob("*.json")):
         books.append((bp, json.loads(bp.read_text())))
 
-    # Group by normalized title + author
+    # Group by normalized title + normalized author. Author normalization
+    # collapses "Acemoglu & Robinson" and "Daron Acemoglu and James A. Robinson"
+    # to the same key. False positives are rare because the title still has to match.
     groups: dict[tuple[str, str], list[tuple[Path, dict]]] = defaultdict(list)
     for bp, b in books:
-        key = (normalize_title(b["title"]), b["author"].lower().strip())
+        key = (normalize_title(b["title"]), normalize_author(b["author"]))
         groups[key].append((bp, b))
 
     duplicates = []
