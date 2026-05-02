@@ -28,7 +28,7 @@ const base = import.meta.env.BASE_URL;
     Genre cuts across categories. To browse <a href={`${base}tags/`} class="ext-link" style="text-decoration: underline">by tag</a> instead — sci-fi, fantasy, mystery, etc.
   </p>
 
-  <div class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-3">
+  <div class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-3 mb-8">
     {categories.map(cat => (
       <a href={`${base}categories/${cat.slug}/`}
          class={`cat-tile cat-${cat.slug}`}>
@@ -36,5 +36,26 @@ const base = import.meta.env.BASE_URL;
         <span class="cat-tile-count">{cat.count} {pluralize(cat.count, 'book')}</span>
       </a>
     ))}
+  </div>
+
+  <hr class="section-divider" />
+  <h2 class="heading-md mb-4">Other ways to browse</h2>
+  <div class="grid sm-grid-2 md-grid-4 gap-3">
+    <a href={`${base}series/`} class="card card-padded">
+      <h3 class="font-bold mb-1">Series</h3>
+      <p class="text-sm text-dim">Discworld, Wheel of Time, Hercule Poirot, and other multi-book runs.</p>
+    </a>
+    <a href={`${base}awards/`} class="card card-padded">
+      <h3 class="font-bold mb-1">Awards</h3>
+      <p class="text-sm text-dim">Hugos, Nebulas, Pulitzers, Bookers, NPR &amp; Le Monde lists.</p>
+    </a>
+    <a href={`${base}movements/`} class="card card-padded">
+      <h3 class="font-bold mb-1">Movements</h3>
+      <p class="text-sm text-dim">Beat Generation, Romanticism, Magic Realism, modernism, and more.</p>
+    </a>
+    <a href={`${base}tags/`} class="card card-padded">
+      <h3 class="font-bold mb-1">Tags</h3>
+      <p class="text-sm text-dim">Sci-fi, fantasy, mystery, history, philosophy — the genre cuts.</p>
+    </a>
   </div>
 </Layout>

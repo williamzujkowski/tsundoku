@@ -903,6 +903,45 @@ a:hover { color: var(--pop-pink); }
   border-top: var(--border-width) solid var(--border);
 }
 
+/* Search wrapper — used by inline filter on the authors index and
+   matches the BookGrid island. Promoted from BookGrid scoped styles
+   so other pages can reuse the same affordance. */
+.search-wrapper { position: relative; }
+.search-wrapper .search-input {
+  width: 100%;
+  background: var(--bg-surface);
+  border: 2px solid var(--border);
+  color: var(--text);
+  padding: 0.625rem 1rem 0.625rem 2.5rem;
+  font-size: 1rem;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  box-shadow: var(--shadow-1);
+}
+.search-wrapper .search-input:focus {
+  outline: none;
+  border-color: var(--pop-pink);
+}
+.search-wrapper .search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem; height: 1rem;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+/* Author row in the all-authors filter list. Stub authors (no detail
+   page) render a softer treatment so users don't bounce off a dead
+   link. */
+.author-row { transition: border-color 100ms ease; }
+.author-row-stub {
+  pointer-events: none;
+  opacity: 0.7;
+  border-style: dashed;
+}
+
 /* Series sequential navigation — appears between book detail header
    and the LCC virtual-shelf section. Three-up: previous, series link,
    next. Disabled state rendered for endpoints. */
