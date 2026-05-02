@@ -1,7 +1,7 @@
 {
   "title": "Sea of Tranquility",
   "author": "Emily St. John Mandel",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "sea-of-tranquility",
   "tags": [],
@@ -27,5 +27,27 @@
     "Epidemics",
     "Colonies spatiales",
     "Romans, nouvelles"
-  ]
+  ],
+  "lcc": [
+    "PR-9199.40000000.M3347",
+    "PR-9199.40000000.M3347 S43 2022",
+    "PR-9199.40000000.M3347S43"
+  ],
+  "subject_facet": [
+    "Colonies spatiales",
+    "English literature",
+    "Epidemics",
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, apocalyptic & post-apocalyptic",
+    "New York Times bestseller",
+    "Romans, nouvelles",
+    "Space and time",
+    "Space colonies",
+    "Time travel",
+    "Women authors",
+    "nyt:combined-print-and-e-book-fiction=2022-04-24",
+    "Écrivaines"
+  ],
+  "ol_work_key": "/works/OL24731706W"
 }

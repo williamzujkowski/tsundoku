@@ -1,7 +1,7 @@
 {
   "title": "The Chessmen of Mars",
   "author": "Edgar Rice Burroughs",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-chessmen-of-mars",
   "tags": [
@@ -36,5 +36,41 @@
   "gutenberg_id": 1153,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1153",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1153.html.images",
-  "librivox_url": "https://librivox.org/the-chessmen-of-mars-by-edgar-rice-burroughs/"
+  "librivox_url": "https://librivox.org/the-chessmen-of-mars-by-edgar-rice-burroughs/",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3503.00000000.U687 C44x",
+    "PZ-0003.00000000.B944 Ch",
+    "PS-3503.00000000.U687",
+    "PS-3503.00000000.U687 C47 2005",
+    "PS-3503.00000000.U685 C5 1922",
+    "PZ-0003.00000000.B944 Ch2",
+    "PS-3503.00000000.U687 C45 1963",
+    "PS-3503.00000000.U687 Ch2",
+    "PS-3503.00000000.U687 Ch",
+    "PS-3503.00000000.U687 C53 2002"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Barsoom",
+    "Barsoom (imaginary place), fiction",
+    "Carter, john (fictitious character), fiction",
+    "Classic Literature",
+    "Dejah Thoris (Fictitious character)",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, classics",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, space opera",
+    "Historical Fiction",
+    "John Carter (Fictitious character)",
+    "Life on other planets",
+    "Mars (Planet) -- Fiction",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL1418244W"
 }

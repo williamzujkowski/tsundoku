@@ -22,5 +22,35 @@
   ],
   "description": "The Principles of Psychology is an 1890 book about psychology by William James, an American philosopher and psychologist who trained to be a physician before going into psychology.",
   "pages": 897,
-  "isbn": "9780674705555"
+  "isbn": "9780674705555",
+  "ddc": [
+    "081 s",
+    "159.9",
+    "150"
+  ],
+  "lcc": [
+    "BF-0121.00000000.J2 1981",
+    "BF-0121.00000000.J2 1905",
+    "BF-0121.00000000.J2 1890",
+    "BF-0121.00000000.J2 1983",
+    "BF-0121.00000000 J2 1950b",
+    "AC-0001.00000000.G72 vol. 53",
+    "BF-0121.00000000.J2",
+    "BF-0121.00000000.J18 1893",
+    "BF-0121.00000000 J2 1890",
+    "BF-0121.00000000.J2 1931",
+    "BF-0121.00000000.J2 1950",
+    "BF-0121.00000000.J2 1985",
+    "BF-0121.00000000.G72 1990 vol. 53",
+    "BF-0121.00000000.J2 1891",
+    "BF-0121.00000000.J2 1918",
+    "BF-0121.00000000.J18",
+    "AC-0001.00000000.G72 1990 vol. 53",
+    "B--0945.00000000.J21 B87 v.8",
+    "BF-0038.00000000"
+  ],
+  "subject_facet": [
+    "Psychology"
+  ],
+  "ol_work_key": "/works/OL1502064W"
 }

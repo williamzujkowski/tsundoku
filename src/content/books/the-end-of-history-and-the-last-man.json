@@ -1,7 +1,7 @@
 {
   "title": "The End of History and the Last Man",
   "author": "Francis Fukuyama",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 1,
   "slug": "the-end-of-history-and-the-last-man",
   "tags": [
@@ -29,5 +29,48 @@
     "Imaginary histories",
     "open_syllabus_project",
     "History -- Philosophy"
-  ]
+  ],
+  "ddc": [
+    "901",
+    "330.1"
+  ],
+  "lcc": [
+    "D--0016.80000000.F85 2012",
+    "D--0016.80000000.F85 1993",
+    "D--0016.80000000.F85 2006",
+    "D--0016.80000000.F8515 1992",
+    "D--0016.80000000.F85 1992",
+    "D--0016.80000000.F8516 1992x",
+    "D--0016.80000000.F85 2002",
+    "D--0016.80000000.F85 2020"
+  ],
+  "subject_facet": [
+    "1945-",
+    "Democratie",
+    "Economia política",
+    "Ende",
+    "Geschichtsphilosophie",
+    "Geschiedfilosofie",
+    "History",
+    "History -- Philosophy",
+    "History, philosophy",
+    "História (teoria)",
+    "Imaginary histories",
+    "Liberalisme",
+    "Natuurwetenschappen",
+    "Ontwikkeling (proces)",
+    "Philosophy",
+    "Politieke ideologie",
+    "Política",
+    "Política mundial",
+    "Social change",
+    "Social evolution",
+    "Weltgeschichte",
+    "World politics",
+    "World politics -- 1945-",
+    "World politics, 1945-",
+    "World politics, 1989-",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2670501W"
 }

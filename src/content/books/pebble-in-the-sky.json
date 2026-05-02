@@ -1,7 +1,7 @@
 {
   "title": "Pebble in the Sky",
   "author": "Isaac Asimov",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "pebble-in-the-sky",
   "tags": [
@@ -31,5 +31,43 @@
     "Romans, nouvelles",
     "American Fantasy fiction"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5 P4 1982",
+    "PS-3551.00000000.S5 P42 1992",
+    "PS-3551.00000000.S5 Pe",
+    "PS-3551.00000000.S5 P4 2008",
+    "PS-3551.00000000.S5 P4 2009",
+    "PS-3551.00000000.S5P4 2009",
+    "PS-3551.00000000.S5 P4 1983",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5P4 2008",
+    "PS-3551.00000000.S5 P4 1990",
+    "PZ-0003.00000000.A8316 Pe",
+    "PS-3551.00000000.S5 Pe4",
+    "PZ-0003.00000000.A8316 Pe6",
+    "PS-3551.00000000.S5 P4 1971",
+    "PZ-0003.00000000.A8316 Pe4"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American Fantasy fiction",
+    "American Science fiction",
+    "Civilian relief",
+    "Dystopias",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Space and time",
+    "Time",
+    "Time travel",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL46402W"
 }

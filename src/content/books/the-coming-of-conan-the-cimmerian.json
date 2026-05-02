@@ -1,7 +1,7 @@
 {
   "title": "The Coming of Conan the Cimmerian",
   "author": "Robert E. Howard",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-coming-of-conan-the-cimmerian",
   "tags": [],
@@ -17,5 +17,20 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=bYQeX5a-PVoC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3515.00000000.O842 C66 2005",
+    "PZ-0003.00000000.H8348 Cm",
+    "PS-3515.00000000.O842 Cm"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Conan (Fictitious character)",
+    "Conan (fictitious character), fiction",
+    "Fantasy",
+    "Fantasy fiction, American",
+    "Fiction",
+    "Fiction, fantasy, epic"
+  ],
+  "ol_work_key": "/works/OL2848482W"
 }

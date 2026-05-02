@@ -1,7 +1,7 @@
 {
   "title": "Endymion",
   "author": "John Keats",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "endymion",
   "tags": [
@@ -62,5 +62,6 @@
     "Poetry (poetic works by one author)",
     "Specimens"
   ],
-  "ol_work_key": "/works/OL1455255W"
+  "ol_work_key": "/works/OL1455255W",
+  "pages": 171
 }

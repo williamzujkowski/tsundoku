@@ -1,7 +1,7 @@
 {
   "title": "Strangers on a Train",
   "author": "Patricia Highsmith",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "strangers-on-a-train",
   "tags": [],
@@ -27,5 +27,41 @@
     "Study and teaching",
     "Readers",
     "English language"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.I366 S77 1966",
+    "PZ-0003.00000000.H53985 St",
+    "PS-3558.00000000.I366 St",
+    "PS-3558.00000000.I366 S77 2001",
+    "PS-3558.00000000.I366S77 2001",
+    "PS-3558.00000000.I366",
+    "PS-3558.00000000.I366S77 1966",
+    "PS-3558.00000000.I366 S77 1999"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Audio-visual aids",
+    "English language",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, psychological",
+    "Gay murderers",
+    "High interest-low vocabulary books",
+    "Insanity (Law)",
+    "Meurtriers",
+    "Murder",
+    "Murderers",
+    "Railroad travel",
+    "Readers",
+    "Readers for new literates",
+    "Romans, nouvelles",
+    "Sound recordings for second language learners",
+    "Study and teaching",
+    "Study and teaching as a second language",
+    "Voyages en train"
+  ],
+  "ol_work_key": "/works/OL59482W"
 }

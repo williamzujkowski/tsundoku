@@ -1,7 +1,7 @@
 {
   "title": "The Glass Palace",
   "author": "Amitav Ghosh",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-glass-palace",
   "tags": [
@@ -30,5 +30,29 @@
     "FICTION / Literary",
     "FICTION / Historical",
     "Fiction, sagas"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-9499.30000000.G536 G53 2000",
+    "PR-9499.30000000.G536 G58 2001",
+    "PR-9499.30000000.G536G58"
+  ],
+  "subject_facet": [
+    "Domestic fiction",
+    "FICTION / Historical",
+    "FICTION / Literary",
+    "FICTION / Romance / Historical",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, sagas",
+    "Historical fiction",
+    "History",
+    "India, history, british occupation, 1765-1947, fiction",
+    "Literature",
+    "Love stories"
+  ],
+  "ol_work_key": "/works/OL1054090W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Shards of Honor",
   "author": "Lois McMaster Bujold",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "shards-of-honor",
   "tags": [
@@ -23,5 +23,15 @@
     "Fiction, science fiction, general",
     "series:vorkosigan_saga"
   ],
-  "pages": 272
+  "pages": 272,
+  "lcc": [
+    "PS-3552.00000000.U397",
+    "PS-3552.00000000.U38 S32 1986x"
+  ],
+  "subject_facet": [
+    "Fiction, science fiction, general",
+    "Science fiction",
+    "series:vorkosigan_saga"
+  ],
+  "ol_work_key": "/works/OL56899W"
 }

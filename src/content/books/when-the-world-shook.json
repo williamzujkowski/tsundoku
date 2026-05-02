@@ -1,7 +1,7 @@
 {
   "title": "When the World Shook",
   "author": "H. Rider Haggard",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "when-the-world-shook",
   "tags": [
@@ -37,5 +37,31 @@
   "librivox_url": "https://librivox.org/when-the-world-shook-by-h-rider-haggard/",
   "gutenberg_id": 1368,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1368",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1368.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1368.html.images",
+  "ddc": [
+    "823.8",
+    "[Fic]",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-4731.00000000 Wh",
+    "PR-4731.00000000.W53 1919",
+    "PZ-0003.00000000.H123 Wh",
+    "PR-4731.00000000 Wh4",
+    "PR-4731.00000000.W47 2012",
+    "PZ-0003.00000000.H123 Wh4"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure and adventurers",
+    "Adventure stories",
+    "Castaways",
+    "English Adventure stories",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, science fiction, action & adventure",
+    "Science fiction",
+    "Shipwrecks"
+  ],
+  "ol_work_key": "/works/OL17518W"
 }

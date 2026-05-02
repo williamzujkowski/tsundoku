@@ -27,5 +27,48 @@
     "Open Library Staff Picks",
     "award:national_book_award=1954"
   ],
-  "isbn": "9780436039591"
+  "isbn": "9780436039591",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3503.00000000.E4488 A66 2015",
+    "PS-3503.00000000.E4488 A66 1953",
+    "PS-3503.00000000.E4488 A66 1954",
+    "PS-3503.00000000.E4488 A66 1984",
+    "PS-3503.00000000.E4488",
+    "PS-3503.00000000.E4488A66 2015",
+    "PS-3503.00000000.E4488 A66 2003",
+    "PS-3503.00000000.E4488A66 2003",
+    "PS-3503.00000000.E4488 A6 2001",
+    "PS-3503.00000000.E4488A66 1999",
+    "PS-3503.00000000.E4488A66 1995",
+    "PS-3503.00000000.E4488A66 1984",
+    "PS-3503.00000000.E4488 A66 1995",
+    "PS-3503.00000000.E4488 A66 1999"
+  ],
+  "subject_facet": [
+    "American fiction (fictional works by one author)",
+    "Americans",
+    "Chicago (ill.), fiction",
+    "Depressions",
+    "Failure (Psychology)",
+    "Families",
+    "Family",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, coming of age",
+    "Fiction, family life",
+    "Fiction, family life, general",
+    "Mexico, fiction",
+    "National Book Award Winner",
+    "Open Library Staff Picks",
+    "Picaresque literature",
+    "Travel",
+    "Young men",
+    "Young men -- Fiction",
+    "award:national_book_award=1954",
+    "award:national_book_award=fiction"
+  ],
+  "ol_work_key": "/works/OL506116W"
 }

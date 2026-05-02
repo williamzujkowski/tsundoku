@@ -1,7 +1,7 @@
 {
   "title": "The Beginning Place",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-beginning-place",
   "tags": [
@@ -28,5 +28,22 @@
     "Fiction, fantasy, general",
     "Children's fiction",
     "Romance fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 B4 1980",
+    "PS-3562.00000000.E42B4 1980",
+    "PS-3562.00000000.E42 B4 1987"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Fantasy fiction",
+    "Fiction, fantasy, general",
+    "Love stories",
+    "Romance fiction",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL59843W"
 }

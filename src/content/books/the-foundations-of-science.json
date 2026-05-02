@@ -1,7 +1,7 @@
 {
   "title": "The Foundations of Science",
   "author": "Henri Poincaré",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-foundations-of-science",
   "tags": [
@@ -33,5 +33,33 @@
   "gutenberg_id": 39713,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/39713",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/39713.html.images",
-  "isbn": "9780342243204"
+  "isbn": "9780342243204",
+  "ddc": [
+    "501"
+  ],
+  "lcc": [
+    "PE-1068.00000000.G5 E6",
+    "Q--0175.00000000.P63 1913",
+    "Q--0175.00000000.P8 1946",
+    "Q--0175.00000000.P8",
+    "Q--0175.00000000.P8 1921",
+    "Q--0175.00000000.P692513 1982",
+    "Q--0175.00000000.P6913 1982",
+    "Q--0175.00000000"
+  ],
+  "subject_facet": [
+    "English language",
+    "Examinations, questions",
+    "Mathematics",
+    "Mathematics, philosophy",
+    "Methodology",
+    "Methods",
+    "Philosophy",
+    "Science",
+    "Science, methodology",
+    "Science, philosophy",
+    "Study and teaching",
+    "Study and teaching (Elementary)"
+  ],
+  "ol_work_key": "/works/OL708902W"
 }

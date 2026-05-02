@@ -1,7 +1,7 @@
 {
   "title": "The Chill",
   "author": "Ross Macdonald",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-chill",
   "tags": [
@@ -29,5 +29,39 @@
     "Los angeles (calif.), fiction",
     "Detective and mystery stories",
     "Fiction, mystery & detective, general"
-  ]
+  ],
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3525.00000000.I486",
+    "PS-3525.00000000.I486 Ch",
+    "PS-3525.00000000.I486 C48 1995",
+    "PZ-0003.00000000.M59943 Ch",
+    "PS-3563.00000000 I36 C5",
+    "PS-3525.00000000.I486 C5 1975"
+  ],
+  "subject_facet": [
+    "Archer, lew (fictitious character), fiction",
+    "California, fiction",
+    "Comportement sexuel",
+    "Detective and mystery stories",
+    "Différences entre sexes (Psychologie)",
+    "Femmes",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Large type books",
+    "Lew Archer (Fictitious character)",
+    "Los angeles (calif.), fiction",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Psychologie",
+    "Psychology",
+    "Sex differences (Psychology)",
+    "Sexual behavior",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL2460905W"
 }

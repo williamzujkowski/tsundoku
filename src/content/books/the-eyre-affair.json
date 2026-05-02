@@ -1,7 +1,7 @@
 {
   "title": "The Eyre Affair",
   "author": "Jasper Fforde",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-eyre-affair",
   "tags": [
@@ -19,5 +19,48 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6106.00000000.F67 E97 2002b",
+    "PR-6106.00000000.F67",
+    "PR-6106.00000000.F67E97 2002",
+    "PR-6106.00000000.F67 E97 2003",
+    "PR-6106.00000000.F67 E97 2001",
+    "PR-6106.00000000.F67 E97 2002"
+  ],
+  "subject_facet": [
+    "Alternative histories",
+    "Belletristische Darstellung",
+    "Books and reading",
+    "Censorship",
+    "Characters and characteristics in literature",
+    "Crimean War, 1853-1856",
+    "Detektivin",
+    "Dickens, Charles / The life and adventures of Martin Chuzzlewit",
+    "England, fiction",
+    "Fantasy fiction",
+    "Farce",
+    "Father-daughter relationship",
+    "Fathers and daughters",
+    "Fathers and daughters, fiction",
+    "Fathers and daughters-Fiction",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Kriminalfall",
+    "Large type books",
+    "Literarische Gestalt",
+    "Literature and fiction, fantasy",
+    "Manuskript",
+    "Next, thursday (fictitious character), fiction",
+    "Phantasiewelt",
+    "Thursday Next (Fictitious character)",
+    "Women detectives"
+  ],
+  "ol_work_key": "/works/OL5730195W"
 }

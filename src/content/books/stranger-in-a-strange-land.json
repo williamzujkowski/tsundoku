@@ -1,7 +1,7 @@
 {
   "title": "Stranger in a Strange Land",
   "author": "Robert A. Heinlein",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "stranger-in-a-strange-land",
   "tags": [
@@ -30,5 +30,50 @@
     "Religion",
     "Cults",
     "Sects"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "813.5",
+    "839.78",
+    "800"
+  ],
+  "lcc": [
+    "PS-3515.00000000.E288 S88 1987",
+    "PS-3515.00000000.E288S88 2016",
+    "PS-3515.00000000.E288 .S8 1987",
+    "RS-3515.00000000.E288",
+    "PS-3515.00000000.E288 S7x 1969",
+    "PZ-0003.00000000.H45 S76 1961",
+    "PZ-0003.00000000.H364 St 1968",
+    "PS-3515.00000000.E288 .S8 1968",
+    "PS-3515.00000000.E288 S8 1968",
+    "PS-3515.00000000.E288 S88 1991",
+    "PZ-0003.00000000.H364 St",
+    "PS-3515.00000000.E288 S88 2016",
+    "PS-3515.00000000.E288 St",
+    "PS-3515.00000000.E288 S87 1962",
+    "PS-3515.00000000.E288 S76 1991"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Cults",
+    "Earth",
+    "FICTION / Classics",
+    "FICTION / Science Fiction / General",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Great powers",
+    "Hugo Award Winner",
+    "Human-alien encounters",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Martians",
+    "Religion",
+    "Science fiction",
+    "Sects",
+    "award:hugo_award=1962",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL59688W"
 }

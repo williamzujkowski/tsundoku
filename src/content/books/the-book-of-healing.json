@@ -19,5 +19,12 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=lo49EAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "BC-0181.00000000.A9513 2021"
+  ],
+  "subject_facet": [
+    "Predicate (Logic)"
+  ],
+  "ol_work_key": "/works/OL25795951W"
 }

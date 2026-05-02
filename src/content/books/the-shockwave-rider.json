@@ -1,7 +1,7 @@
 {
   "title": "The Shockwave Rider",
   "author": "John Brunner",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-shockwave-rider",
   "tags": [
@@ -26,5 +26,25 @@
     "Nickie Haflinger (Fictitous character)",
     "English Science fiction"
   ],
-  "isbn": "9780345301468"
+  "isbn": "9780345301468",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.R8 Sj3",
+    "PR-6052.00000000.R8",
+    "PR-6052.00000000.R8 S46 1975",
+    "PR-6052.00000000.R8 S54 1975",
+    "PZ-0004.00000000.B89 Sj3"
+  ],
+  "subject_facet": [
+    "English Science fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Nickie Haflinger (Fictitious character)",
+    "Nickie Haflinger (Fictitous character)",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL7920689W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Once and Future King",
   "author": "T.H. White",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-once-and-future-king",
   "tags": [
@@ -29,5 +29,26 @@
     "Religion / Bible / General",
     "Bible - General",
     "Commentaries"
-  ]
+  ],
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6045.00000000.H2 O534 1993",
+    "PR-6045.00000000.H2O534 1993"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Arthurian romances",
+    "English Fantasy fiction",
+    "English Historical fiction",
+    "History",
+    "History and criticism",
+    "Influence",
+    "Kings and rulers in literature",
+    "Medievalism",
+    "Middle Ages in literature",
+    "White, t. h. (terence hanbury), 1906-1964"
+  ],
+  "ol_work_key": "/works/OL3914593W"
 }

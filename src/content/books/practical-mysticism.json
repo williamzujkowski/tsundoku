@@ -1,7 +1,7 @@
 {
   "title": "Practical Mysticism",
   "author": "Evelyn Underhill",
-  "category": "Literature",
+  "category": "Religion",
   "priority": 2,
   "slug": "practical-mysticism",
   "tags": [
@@ -23,5 +23,9 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 21774,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/21774",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/21774.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/21774.html.images",
+  "ddc": [
+    "297"
+  ],
+  "ol_work_key": "/works/OL37730651W"
 }

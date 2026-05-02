@@ -1,7 +1,7 @@
 {
   "title": "The Fountains of Paradise",
   "author": "Arthur C. Clarke",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-fountains-of-paradise",
   "tags": [
@@ -29,5 +29,37 @@
     "Hugo Award Winner",
     "award:hugo_award=1980",
     "award:hugo_award=novel"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "823.914"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.C551205 Fo 1979",
+    "PR-6005.00000000.L36F68 2001",
+    "PR-6005.00000000.L36 Fo 1979",
+    "PR-6053.00000000.L29 F6 1979",
+    "PR-6005.00000000.L36 F68 1980",
+    "PR-6005.00000000.L36 F68 2001"
+  ],
+  "subject_facet": [
+    "Design and construction",
+    "Elevators",
+    "English Science fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, religious",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Interplanetary voyages",
+    "Large type books",
+    "Monks",
+    "Mountains",
+    "Religious aspects of Mountains",
+    "Science Fiction",
+    "award:hugo_award=1980",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL17403W"
 }

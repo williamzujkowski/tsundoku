@@ -1,7 +1,7 @@
 {
   "title": "The Lost Continent",
   "author": "Charles John Cutcliffe Wright Hyne",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-lost-continent",
   "tags": [
@@ -38,5 +38,9 @@
   ],
   "gutenberg_id": 285,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/285",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/285.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/285.html.images",
+  "subject_facet": [
+    "Fiction, science fiction, general"
+  ],
+  "ol_work_key": "/works/OL35702804W"
 }

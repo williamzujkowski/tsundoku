@@ -1,7 +1,7 @@
 {
   "title": "The Land of Green Plums",
   "author": "Herta Müller",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-land-of-green-plums",
   "tags": [
@@ -28,5 +28,30 @@
   ],
   "description": "The Land of Green Plums is a novel by Herta Müller, published in 1994 by Rowohlt Verlag. The novel portrays four young people living in a totalitarian police state in Communist Romania, ending with their emigration to Germany. The narrator is an unidentified young woman belonging to the ethnic German minority. Müller said the novel was written \"in memory of my Romanian friends who were killed under the Ceauşescu regime\".",
   "pages": 242,
-  "isbn": "9780805042955"
+  "isbn": "9780805042955",
+  "ddc": [
+    "833.914"
+  ],
+  "lcc": [
+    "PT-2673.00000000.U29234 H47 1994",
+    "PT-2673.00000000.U29234",
+    "PG-7158.00000000.Z4 W5514 1999",
+    "PT-2673.00000000.U29234 H4713 1998",
+    "PT-2673.00000000.U29234 H4713 1996",
+    "PT-2673.00000000.U29234H4713"
+  ],
+  "subject_facet": [
+    "Dead",
+    "Fiction",
+    "Fiction, historical, general",
+    "History",
+    "Moral and ethical aspects",
+    "Moral and ethical aspects of Totalitarianism",
+    "Political corruption",
+    "Romania",
+    "Romania, fiction",
+    "Suicide",
+    "Totalitarianism"
+  ],
+  "ol_work_key": "/works/OL1732450W"
 }

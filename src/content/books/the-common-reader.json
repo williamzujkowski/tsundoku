@@ -1,7 +1,7 @@
 {
   "title": "The Common Reader",
   "author": "Virginia Woolf",
-  "category": "Essays",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-common-reader",
   "tags": [],
@@ -25,5 +25,48 @@
   "librivox_url": "https://librivox.org/the-common-reader-by-virginia-woolf/",
   "description": "\"There is a sentence in Dr Johnson's Life of Gray which might well be written up in all those rooms, too humble to be called libraries, yet full of books, where the pursuit of reading is carried on by private people.\"",
   "pages": 288,
-  "isbn": "9780156198066"
+  "isbn": "9780156198066",
+  "ddc": [
+    "820.4",
+    "824.912",
+    "820.9"
+  ],
+  "lcc": [
+    "PR-0099.00000000.W6 1960",
+    "PN-0511.00000000 W7 1957",
+    "PN-0511.00000000 W72 1935",
+    "PR-6045.00000000.O72",
+    "PR-0099.00000000.W78 1944",
+    "PR-0099.00000000.W78 1986",
+    "PN-0511.00000000.W7 1925",
+    "PR-6045.00000000.O72 A16 1960",
+    "PN-0511.00000000",
+    "PN-0511.00000000.W72 1933",
+    "PR-6045.00000000.O72 C65 1925",
+    "PR-0099.00000000.W77 1925a",
+    "PR-0099.00000000.W77 1984",
+    "PR-0099.00000000.W77 1984b",
+    "PN-0511.00000000 W7 1938",
+    "PR-0099.00000000.W77 1925",
+    "PN-0511.00000000.W72 1932a",
+    "PR-0099.00000000.W78 1932a",
+    "PN-0511.00000000.W72 1932",
+    "PR-0099.00000000.W78 1986b",
+    "PR-0099.00000000.W78 1932",
+    "PR-0099.00000000.W79 1948",
+    "PN-0511.00000000.W7 1925a",
+    "PN-0511.00000000 W72 1959",
+    "PN-0511.00000000.W72 2005",
+    "PN-0511.00000000.W72 1960",
+    "PN-0511.00000000.W73 1948",
+    "PR-0099.00000000"
+  ],
+  "subject_facet": [
+    "English literature",
+    "English literature, history and criticism",
+    "History and criticism",
+    "Literature, modern, history and criticism",
+    "Modern Literature"
+  ],
+  "ol_work_key": "/works/OL39589W"
 }

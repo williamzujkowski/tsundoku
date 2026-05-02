@@ -1,7 +1,7 @@
 {
   "title": "The Lathe of Heaven",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-lathe-of-heaven",
   "tags": [
@@ -30,5 +30,37 @@
     "Social change",
     "Effect of human beings on",
     "Dreams -- Fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42 A6 1991",
+    "PS-3562.00000000.E42 L3 1982",
+    "PZ-0004.00000000.L518 Lat",
+    "PS-3562.00000000.E42 Lat",
+    "PS-3562.00000000.E42L3 2021",
+    "PS-3562.00000000.E42L3 2008",
+    "PS-3562.00000000.E42L3 1982",
+    "PS-3562.00000000.E42L3 2003",
+    "PS-3562.00000000.E42 .L3 1979",
+    "PS-3562.00000000.E42 L3 2008",
+    "PS-3562.00000000.E42 L3 2003"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Dreams",
+    "Dreams -- Fiction",
+    "Dystopian fiction",
+    "Effect of human beings on",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Nature",
+    "Psychotherapist and patient",
+    "Science fiction",
+    "Social change"
+  ],
+  "ol_work_key": "/works/OL59858W"
 }

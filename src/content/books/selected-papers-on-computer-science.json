@@ -1,7 +1,7 @@
 {
   "title": "Selected Papers on Computer Science",
   "author": "Donald E. Knuth",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "selected-papers-on-computer-science",
   "tags": [
@@ -23,5 +23,17 @@
     "Computer science",
     "Mathematics"
   ],
-  "pages": 279
+  "pages": 279,
+  "ddc": [
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A43K5852 2011",
+    "QA-0076.90000000.A43 K5852 2011"
+  ],
+  "subject_facet": [
+    "Computer algorithms",
+    "Computer programming"
+  ],
+  "ol_work_key": "/works/OL16117076W"
 }

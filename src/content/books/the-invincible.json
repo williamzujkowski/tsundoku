@@ -18,5 +18,28 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=12PMDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "891.8537"
+  ],
+  "lcc": [
+    "PG-7158.00000000.L39 In",
+    "PG-7158.00000000.L39N5413 2020",
+    "PG-7158.00000000.L39 In3",
+    "PZ-0003.00000000.L5395 In3",
+    "PG-7158.00000000.L39 N515",
+    "PZ-0003.00000000.L5395 In",
+    "PG-7158.00000000.L39 N54 1982",
+    "PG-7158.00000000.L39 .L46 2020",
+    "PG-7158.00000000.L39 N5 1995"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Polish Science fiction",
+    "Slavic philology"
+  ],
+  "ol_work_key": "/works/OL109498W"
 }

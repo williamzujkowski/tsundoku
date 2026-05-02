@@ -1,7 +1,7 @@
 {
   "title": "The Three Stigmata of Palmer Eldritch",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-three-stigmata-of-palmer-eldritch",
   "tags": [
@@ -29,5 +29,40 @@
     "Fiction, science fiction, general",
     "Large type books",
     "Hallucinogenic drugs"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3 Th 1979",
+    "PS-3554.00000000.I3 Th",
+    "PS-3554.00000000.I3",
+    "PZ-0004.00000000.D547 Th",
+    "PZ-0004.00000000.D547 Th 1979",
+    "PS-3554.00000000.I3 T46 2002",
+    "PS-3554.00000000.I3 T46 2011",
+    "PS-3554.00000000.I3 T46 1991",
+    "PS-3554.00000000.I165 T47 1978",
+    "PS-3554.00000000.I3 T5 1975",
+    "PS-3554.00000000.I3T46 2011",
+    "PS-3554.00000000.I3 T3 1977"
+  ],
+  "subject_facet": [
+    "Cyberpunk",
+    "Drugs",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Hallucinogenic drugs",
+    "Immortalism",
+    "Large type books",
+    "Literature",
+    "Metaphysics",
+    "Science Fiction",
+    "Science fiction",
+    "Space colonies",
+    "Twenty-first century"
+  ],
+  "ol_work_key": "/works/OL2172402W"
 }

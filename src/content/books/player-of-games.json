@@ -1,7 +1,7 @@
 {
   "title": "Player of Games",
   "author": "Iain M. Banks",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "player-of-games",
   "tags": [
@@ -28,5 +28,29 @@
     "In library",
     "Long Now Manual for Civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485 P54 1988",
+    "PR-6052.00000000.A6339 P54 1988",
+    "PR-6052.00000000.A485 P54 1997",
+    "PR-6052.00000000.A485 P54 1989",
+    "PR-6052.00000000.A485 P5414 1992",
+    "PR-6052.00000000.A485",
+    "PR-6052.00000000.A485 P54 2008"
+  ],
+  "subject_facet": [
+    "Accessible book",
+    "Computer games",
+    "Fiction",
+    "In library",
+    "Long Now Manual for Civilization",
+    "OverDrive",
+    "Protected DAISY",
+    "Science Fiction",
+    "Science Fiction & Fantasy"
+  ],
+  "ol_work_key": "/works/OL100779W"
 }

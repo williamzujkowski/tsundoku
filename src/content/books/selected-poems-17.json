@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Marina Tsvetaeva",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "selected-poems-17",
   "tags": [
@@ -20,5 +20,19 @@
   ],
   "description": "I know the truth-give up all other truths!",
   "pages": 106,
-  "isbn": "9780525482833"
+  "isbn": "9780525482833",
+  "ddc": [
+    "891.7142"
+  ],
+  "lcc": [
+    "PG-3476.00000000.T75.A23 1971",
+    "PG-3476.00000000.T75 A23 1971",
+    "PG-3476.00000000.T75 A6 1987",
+    "PG-3476.00000000.T75A6 1987"
+  ],
+  "subject_facet": [
+    "Poetry (poetic works by one author)",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL857895W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Soldier of the Mist",
   "author": "Gene Wolfe",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "soldier-of-the-mist",
   "tags": [
@@ -27,5 +27,24 @@
     "Fictions",
     "Latro (Fictitious character)",
     "Fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52 S65 1986",
+    "PS-3573.00000000.O52",
+    "PS-3573.00000000.O495 S65 1986"
+  ],
+  "subject_facet": [
+    "Amnesia",
+    "Fiction",
+    "Fiction, general",
+    "Fictions",
+    "History",
+    "Latro (Fictitious character)",
+    "Science fiction",
+    "Soldiers"
+  ],
+  "ol_work_key": "/works/OL14871980W"
 }

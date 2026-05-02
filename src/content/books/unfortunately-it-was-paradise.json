@@ -1,7 +1,7 @@
 {
   "title": "Unfortunately, It Was Paradise",
   "author": "Mahmoud Darwish",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "unfortunately-it-was-paradise",
   "tags": [
@@ -23,5 +23,17 @@
     "Palestinian Arab Poets",
     "Modern Poetry",
     "Translations into English"
-  ]
+  ],
+  "lcc": [
+    "PJ-7820.00000000.A7 A22 2013",
+    "PJ-7820.00000000.A7",
+    "PJ-7820.00000000.A7 A22 2003"
+  ],
+  "subject_facet": [
+    "Modern Poetry",
+    "Palestinian Arab Poets",
+    "Poetry (poetic works by one author)",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL8303280W"
 }

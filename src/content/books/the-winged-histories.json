@@ -1,7 +1,7 @@
 {
   "title": "The Winged Histories",
   "author": "Sofia Samatar",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-winged-histories",
   "tags": [
@@ -26,5 +26,28 @@
     "FICTION / Literary",
     "FICTION / Fantasy / General",
     "FICTION / Cultural Heritage"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3619.00000000.A4496 W56 2016",
+    "PS-3619.00000000.A4496W56 2017",
+    "PS-3619.00000000.A4496W56 2016"
+  ],
+  "subject_facet": [
+    "Cultural Heritage",
+    "Epic",
+    "FICTION / Cultural Heritage",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Fantasy / General",
+    "FICTION / Literary",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "General",
+    "Literary",
+    "Women"
+  ],
+  "ol_work_key": "/works/OL19340530W"
 }

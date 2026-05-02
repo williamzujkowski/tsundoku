@@ -1,7 +1,7 @@
 {
   "title": "Shahnameh",
   "author": "Ferdowsi",
-  "category": "Non-Western History",
+  "category": "Literature",
   "priority": 1,
   "slug": "shahnameh-2",
   "tags": [],
@@ -18,5 +18,12 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Literature, collections"
-  ]
+  ],
+  "lcc": [
+    "PK-6456.00000000"
+  ],
+  "subject_facet": [
+    "Fiction, fantasy, epic"
+  ],
+  "ol_work_key": "/works/OL7989944W"
 }

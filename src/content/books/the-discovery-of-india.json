@@ -1,7 +1,7 @@
 {
   "title": "The Discovery of India",
   "author": "Jawaharlal Nehru",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "the-discovery-of-india",
   "tags": [],
@@ -25,5 +25,34 @@
     "History",
     "India, history"
   ],
-  "isbn": "9780195623598"
+  "isbn": "9780195623598",
+  "ddc": [
+    "954"
+  ],
+  "lcc": [
+    "DS-0436.00000000.N42 1976",
+    "DS-0436.00000000.A1 N4 1951",
+    "DS-0436.00000000.A1 N4 1946c",
+    "DS-0436.00000000 A1 N4 1960A",
+    "DS-0436.00000000.A1 N418",
+    "DS-0436.00000000.N42 1989",
+    "DS-0436.00000000 A1 N4 1966",
+    "DS-0436.00000000.N42 2004",
+    "DS-0436.00000000.A1 N4",
+    "DS-0436.00000000.A1 N4 1946a",
+    "DS-0436.00000000.A1 .N4 1946a",
+    "DS-0436.00000000.A1 N4 1960",
+    "DS-0436.00000000.A1 N4 1956"
+  ],
+  "subject_facet": [
+    "Civilisation",
+    "Civilización",
+    "Civilization",
+    "Discovery and exploration",
+    "Hindu Civilization",
+    "Histoire",
+    "History",
+    "India, history"
+  ],
+  "ol_work_key": "/works/OL296039W"
 }

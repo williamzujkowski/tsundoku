@@ -1,7 +1,7 @@
 {
   "title": "The Poppy War",
   "author": "R.F. Kuang",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-poppy-war",
   "tags": [],
@@ -18,5 +18,30 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3611.00000000.U17P67 2018",
+    "PS-3611.00000000.U17 P67 2018",
+    "PS-3611.00000000"
+  ],
+  "subject_facet": [
+    "Cultural Heritage",
+    "Epic",
+    "FICTION / Fantasy / Epic",
+    "FICTION / Fantasy / Paranormal",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, paranormal",
+    "Goddesses",
+    "Historical",
+    "Imaginary wars and battles",
+    "Magic",
+    "Military education",
+    "Shamans"
+  ],
+  "ol_work_key": "/works/OL19351054W"
 }

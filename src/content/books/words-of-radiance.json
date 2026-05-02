@@ -1,7 +1,7 @@
 {
   "title": "Words of Radiance",
   "author": "Brandon Sanderson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "words-of-radiance",
   "tags": [
@@ -29,5 +29,28 @@
     "Magic",
     "Life on other planets",
     "Fantasy fiction"
-  ]
+  ],
+  "lcc": [
+    "PS-3619.00000000.A533",
+    "PS-3619.00000000.A533W67 2014",
+    "PS-3619.00000000.A533 W67 2014"
+  ],
+  "subject_facet": [
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Grandes puissances",
+    "Great powers",
+    "Guerres et batailles imaginaires",
+    "Imaginary wars and battles",
+    "Imaginary wars and battles -- Fiction",
+    "Life on other planets",
+    "Magic",
+    "New York Times bestseller",
+    "Romans, nouvelles",
+    "epic fantasy",
+    "high fantasy",
+    "nyt:combined-print-and-e-book-fiction=2014-03-23"
+  ],
+  "ol_work_key": "/works/OL16813053W"
 }

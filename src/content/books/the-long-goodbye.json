@@ -1,7 +1,7 @@
 {
   "title": "The Long Goodbye",
   "author": "Raymond Chandler",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-long-goodbye",
   "tags": [
@@ -29,5 +29,45 @@
     "Mystery fiction",
     "American Detective and mystery stories"
   ],
-  "isbn": "9780394757681"
+  "isbn": "9780394757681",
+  "ddc": [
+    "813.52",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.C3639 Lo 2",
+    "PS-3505.00000000.H3224 L6 1954",
+    "PS-3505.00000000.H3224L6 1988",
+    "PS-3505.00000000.H3224 L6 1988",
+    "PS-3505.00000000.H3224 .C3639 Lo 2",
+    "PS-3505.00000000.H3224 L6 1992",
+    "PZ-0003.00000000.C3639 Lo2"
+  ],
+  "subject_facet": [
+    "American Detective and mystery stories",
+    "California",
+    "California, fiction",
+    "Crime",
+    "Detective and mystery stories",
+    "Edgar Award",
+    "Fiction",
+    "Fiction, mystery & detective, hard-boiled",
+    "General",
+    "Hard-Boiled",
+    "Los Angeles",
+    "Los Angeles (Calif.)",
+    "Los Angeles (Calif.) - Fiction",
+    "Los angeles (calif.), fiction",
+    "Marlowe, philip (fictitious character), fiction",
+    "Marlowe; Philip (Fictitious character)",
+    "Marlowe; Philip (Fictitious character) - Fiction",
+    "Mystery & Detective",
+    "Mystery fiction",
+    "Philip Marlowe (Fictitious character)",
+    "Political",
+    "Private investigators",
+    "Private investigators - California - Los Angeles - Fiction",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL15400581W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Kingdom of Copper",
   "author": "Shannon Chakraborty",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-kingdom-of-copper",
   "tags": [
@@ -21,5 +21,14 @@
   "subjects": [
     "Fiction, action & adventure",
     "Fiction, fantasy, epic"
-  ]
+  ],
+  "lcc": [
+    "PS-3603.00000000.H33555K56",
+    "PS-3603.00000000.H33555"
+  ],
+  "subject_facet": [
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic"
+  ],
+  "ol_work_key": "/works/OL19794571W"
 }

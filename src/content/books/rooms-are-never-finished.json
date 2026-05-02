@@ -1,7 +1,7 @@
 {
   "title": "Rooms Are Never Finished",
   "author": "Agha Shahid Ali",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "rooms-are-never-finished",
   "tags": [
@@ -21,5 +21,18 @@
   "subjects": [
     "Poetry",
     "Poetry (poetic works by one author)"
-  ]
+  ],
+  "ddc": [
+    "821.914"
+  ],
+  "lcc": [
+    "PR-9499.30000000.A39 R66 2001",
+    "PR-9499.30000000.A39R66 2001",
+    "PR-9499.30000000.A39 R66 2002"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL3335436W"
 }

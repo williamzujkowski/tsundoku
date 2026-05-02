@@ -1,7 +1,7 @@
 {
   "title": "Six Degrees",
   "author": "Duncan J. Watts",
-  "category": "Philosophy",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "six-degrees",
   "tags": [
@@ -29,5 +29,40 @@
     "Topologie",
     "Dynamische systemen",
     "Grafentheorie"
-  ]
+  ],
+  "ddc": [
+    "511.5"
+  ],
+  "lcc": [
+    "QA-0166.00000000.W37 2004x",
+    "Q--0175.00000000",
+    "QA-0166.00000000.W37 2004",
+    "QA-0166.00000000.W37 2003"
+  ],
+  "subject_facet": [
+    "Community Networks",
+    "Computer Communication Networks",
+    "Dynamische systemen",
+    "Economics",
+    "Epidemiologic Studies",
+    "Grafentheorie",
+    "Graph theory",
+    "Information Dissemination",
+    "Mathematical models",
+    "Mathematisches Modell",
+    "Netwerken",
+    "Network analysis (Planning)",
+    "Netzwerk",
+    "Netzwerk (Graphentheorie)",
+    "Qa166 .w37 2004x",
+    "Science, philosophy",
+    "Social networks",
+    "Social networks--mathematical models",
+    "Soziales Netzwerk",
+    "Statistics as Topic",
+    "System theory",
+    "Topologie",
+    "Trends"
+  ],
+  "ol_work_key": "/works/OL2011221W"
 }

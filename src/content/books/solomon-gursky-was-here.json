@@ -28,5 +28,27 @@
   ],
   "description": "Solomon Gursky Was Here is a novel by Canadian author Mordecai Richler first published by Viking Canada in 1989.",
   "pages": 557,
-  "isbn": "9780140152982"
+  "isbn": "9780140152982",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PR-9199.30000000.R5 S65 2015",
+    "PR-9199.30000000.R5 S55 1990",
+    "PR-9199.30000000.R5S66 1990",
+    "PR-9199.30000000.R5 S55 1989"
+  ],
+  "subject_facet": [
+    "English fiction",
+    "Explorers",
+    "Families",
+    "Family",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Literature",
+    "New York Times reviewed",
+    "Roman policier"
+  ],
+  "ol_work_key": "/works/OL675010W"
 }

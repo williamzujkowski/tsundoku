@@ -1,7 +1,7 @@
 {
   "title": "The Iceman Cometh",
   "author": "Eugene O'Neill",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-iceman-cometh",
   "tags": [],
@@ -18,5 +18,17 @@
   "copyright_status": "likely_public_domain",
   "subjects": [
     "Drama"
-  ]
+  ],
+  "lcc": [
+    "PS-3529.00000000.N5 I3 2006",
+    "PS-3529.00000000.N5I3 2006"
+  ],
+  "subject_facet": [
+    "Bars (Drinking establishments)",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Murderers",
+    "Sales personnel"
+  ],
+  "ol_work_key": "/works/OL8026193W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Venture of Islam",
   "author": "Marshall Hodgson",
-  "category": "Global History",
+  "category": "History",
   "priority": 1,
   "slug": "the-venture-of-islam",
   "tags": [],
@@ -18,5 +18,15 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "History"
-  ]
+  ],
+  "lcc": [
+    "DS-0035.00000000",
+    "DS-0035.63000000.I648 2018"
+  ],
+  "subject_facet": [
+    "HISTORY / Asia / General",
+    "History",
+    "Islamic countries, history"
+  ],
+  "ol_work_key": "/works/OL21185725W"
 }

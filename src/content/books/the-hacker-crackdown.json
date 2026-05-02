@@ -32,5 +32,34 @@
   ],
   "gutenberg_id": 101,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/101",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/101.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/101.html.images",
+  "ddc": [
+    "364.168"
+  ],
+  "lcc": [
+    "HV-6773.20000000.S74 2013",
+    "HV-6773.20000000.S74 1994",
+    "HV-6773.20000000.S74 1992"
+  ],
+  "subject_facet": [
+    "Computer crimes",
+    "Computer programming",
+    "Computer viruses",
+    "Computerkriminalität",
+    "Computers, history",
+    "Corrupt practices",
+    "Criminalité informatique",
+    "Data encryption (computer science)",
+    "Hacker",
+    "Internet, security measures",
+    "New York Times reviewed",
+    "Pratiques déloyales",
+    "Programmation (Informatique)",
+    "Programming (Electronic computers)",
+    "Sociology",
+    "Telephone",
+    "Téléphone",
+    "White collar crimes"
+  ],
+  "ol_work_key": "/works/OL1888054W"
 }

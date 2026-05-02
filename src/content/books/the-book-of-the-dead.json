@@ -1,7 +1,7 @@
 {
   "title": "The Book of the Dead",
   "author": "Muriel Rukeyser",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-book-of-the-dead",
   "tags": [],
@@ -18,5 +18,10 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=7E6kliu1ZMsC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "PS-3535.00000000",
+    "PS-8000.00000000"
+  ],
+  "ol_work_key": "/works/OL13613220W"
 }

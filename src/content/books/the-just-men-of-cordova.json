@@ -1,7 +1,7 @@
 {
   "title": "The Just Men of Cordova",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-just-men-of-cordova",
   "tags": [
@@ -25,5 +25,22 @@
     "Vigilantes"
   ],
   "librivox_url": "https://librivox.org/the-just-men-of-cordova-by-edgar-wallace/",
-  "isbn": "9798468275979"
+  "isbn": "9798468275979",
+  "ddc": [
+    "823.91",
+    "823.912",
+    "823.9"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.W1525 J5",
+    "PR-6025.00000000.A327 J8 1928"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Cordoba (Spain)",
+    "Detective and mystery stories, English",
+    "Fiction",
+    "Vigilantes"
+  ],
+  "ol_work_key": "/works/OL1517988W"
 }

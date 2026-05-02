@@ -1,7 +1,7 @@
 {
   "title": "The Last Unicorn",
   "author": "Peter S. Beagle",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-last-unicorn",
   "tags": [
@@ -19,5 +19,42 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.B3657Las 1979",
+    "PS-3552.00000000.E13L37 1991",
+    "PZ-0004.00000000.B3657 Las",
+    "PS-3552.00000000.E13 L37 1998",
+    "PZ-0004.00000000.B3657 Las 1979",
+    "PS-3552.00000000.E13 Las",
+    "PS-3552.00000000.E13 L32 2006",
+    "PS-3552.00000000.E13 Las 1979",
+    "PS-3552.00000000.E13 Las3",
+    "PS-3552.00000000.E13 L3",
+    "PS-3552.00000000.E/",
+    "PS-3552.00000000.E13",
+    "PZ-0004.00000000.B3657 Las3",
+    "PS-3552.00000000.E13 L37 1991"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American literature",
+    "Comics & graphic novels, fantasy, general",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Juvenile literature",
+    "Large type books",
+    "Legends and stories",
+    "Novelas",
+    "Unicornios",
+    "Unicorns"
+  ],
+  "ol_work_key": "/works/OL26459W"
 }

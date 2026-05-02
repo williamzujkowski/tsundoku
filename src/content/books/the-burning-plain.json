@@ -18,5 +18,46 @@
   "google_books_url": "http://books.google.com/books?id=BNwSAAAAYAAJ&dq=The+Burning+Plain+Juan+Rulfo&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "isbn": "9780292743854"
+  "isbn": "9780292743854",
+  "ddc": [
+    "863.64",
+    "082.1",
+    "863"
+  ],
+  "lcc": [
+    "PQ-7297.00000000.R89 L613 2012",
+    "PQ-7297.00000000.R89 L6 1964",
+    "PQ-7297.00000000.R89",
+    "PQ-7297.00000000.R89L613 2012",
+    "PQ-7297.00000000.R89 L6 1983",
+    "PZ-0004.00000000.R935 Bu",
+    "PQ-7297.00000000 R89 L6 1959",
+    "PQ-7297.00000000.R89 L6x 1987",
+    "PQ-7297.00000000.R89 L6x 1986",
+    "PQ-7297.00000000.R89 B813 1967",
+    "PQ-7297.00000000.R89 L53 2005",
+    "PQ-7297.00000000.R89L53 2016",
+    "PQ-7297.00000000.R89 L53 2010"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Cuentos mexicanos",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, short stories (single author)",
+    "Latin American fiction",
+    "Latin American literature",
+    "Mexican Short stories",
+    "Mexico -- Social life and customs -- Fiction",
+    "Mexico, fiction",
+    "Romance literature",
+    "Rulfo, Juan -- Translations into English",
+    "Short stories",
+    "Short stories, Mexican",
+    "Social life and customs",
+    "Spanish language books",
+    "Spanish language materials",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL1731074W"
 }

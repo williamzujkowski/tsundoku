@@ -1,7 +1,7 @@
 {
   "title": "The Gunslinger",
   "author": "Stephen King",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-gunslinger",
   "tags": [
@@ -19,5 +19,58 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "891.73",
+    "813"
+  ],
+  "lcc": [
+    "PS-3561.00000000.I483 G86 2003",
+    "PS-3561.00000000.I483",
+    "PS-3561.00000000.I483G86 2016",
+    "PS-3561.00000000.I483 G86 1982",
+    "PS-3561.00000000.I483G86 2003b",
+    "PS-3561.00000000.I483 G86 1988",
+    "PS-3561.00000000.I483G86 1988",
+    "PS-3561.00000000.I483 G86 2016b",
+    "PS-0000.00000000"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American fiction",
+    "Ciencia-ficción",
+    "Cuentos de terror",
+    "Dark tower (imaginary place), fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Good and evil",
+    "Heroes",
+    "Horror",
+    "Magic",
+    "New York Times bestseller",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Roland (Fictitious character : King)",
+    "Roland (Fictitious character)",
+    "Roland (fictitious character : king), fiction",
+    "Roland of Gilead (Fictitious character)",
+    "Supernatural",
+    "Suspense",
+    "Thrillers",
+    "adventure fiction",
+    "demons",
+    "fantastic fiction",
+    "fantasy",
+    "horror fiction",
+    "nyt:combined-print-and-e-book-fiction=2017-07-30",
+    "science fiction",
+    "succubus"
+  ],
+  "ol_work_key": "/works/OL81628W"
 }

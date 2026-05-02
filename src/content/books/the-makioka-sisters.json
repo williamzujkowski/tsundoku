@@ -17,5 +17,50 @@
   "google_books_url": "https://play.google.com/store/books/details?id=E3b9EAAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "isbn": "9780679761648"
+  "isbn": "9780679761648",
+  "ddc": [
+    "895.6443",
+    "895.6344",
+    "895.63",
+    "895.634",
+    "899.63"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.T1626 Mak",
+    "PL-0839.00000000.A7 S3713 1981",
+    "PL-0839.00000000 A7 S3 1972",
+    "PL-0839.00000000.A75 S373 1969",
+    "PL-0839.00000000.A7 S3713 1995",
+    "PL-0839.00000000.A7 S27 1944 v.1",
+    "PL-0839.00000000.A7A2",
+    "PL-0839.00000000 A7 S313 1964",
+    "PL-0839.00000000.A7 S3713 1993",
+    "PL-0839.00000000 A7 S313 1958",
+    "PL-0839.00000000.A7S3713 1995",
+    "PL-0839.00000000.A7 S33 1975",
+    "PL-0839.00000000.A7 S3713 1964",
+    "PL-0839.00000000.A7 S37 1997",
+    "PL-0839.00000000.A7 S3713 1983",
+    "PL-0839.00000000 A7 S313 1957",
+    "PL-0839.00000000.A7 S27 1946",
+    "PL-0839.00000000 A7S313",
+    "PL-0839.00000000.A7 S37 1967"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Japan, fiction",
+    "Japanese",
+    "Japanese fiction",
+    "Literature",
+    "Near and far eastern fiction (fictional works by one author)",
+    "Novel",
+    "Rich people",
+    "Sisters",
+    "Social classes",
+    "Texts",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL668682W"
 }

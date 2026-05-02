@@ -1,7 +1,7 @@
 {
   "title": "The Law of the Four Just Men",
   "author": "Edgar Wallace",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-law-of-the-four-just-men",
   "tags": [
@@ -27,5 +27,23 @@
     "Shorts"
   ],
   "librivox_url": "https://librivox.org/law-of-the-four-just-men-edgar-wallace/",
-  "isbn": "9780755115044"
+  "isbn": "9780755115044",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.W1525 Law",
+    "PR-6045.00000000.A327 L3 1931",
+    "PR-6045.00000000.A327 Law"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Detective and mystery stories, English",
+    "English Detective and mystery stories",
+    "Fiction",
+    "Justice",
+    "Romans, nouvelles",
+    "Shorts"
+  ],
+  "ol_work_key": "/works/OL1517886W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Autobiography of Calvin Coolidge",
   "author": "Calvin Coolidge",
-  "category": "Literature",
+  "category": "History",
   "priority": 2,
   "slug": "the-autobiography-of-calvin-coolidge",
   "tags": [
@@ -30,5 +30,18 @@
   "librivox_url": "https://librivox.org/the-autobiography-of-calvin-coolidge-by-calvin-coolidge/",
   "gutenberg_id": 76649,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/76649",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/76649.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/76649.html.images",
+  "ddc": [
+    "973.9150924"
+  ],
+  "lcc": [
+    "E--0792.00000000.A3 2021"
+  ],
+  "subject_facet": [
+    "Autobiography",
+    "Biography",
+    "Politics and government",
+    "Presidents"
+  ],
+  "ol_work_key": "/works/OL21919233W"
 }

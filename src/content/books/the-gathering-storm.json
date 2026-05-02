@@ -1,7 +1,7 @@
 {
   "title": "The Gathering Storm",
   "author": "Robert Jordan & Brandon Sanderson",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-gathering-storm",
   "tags": [
@@ -19,5 +19,21 @@
   "description": "The Gathering Storm is a fantasy novel by American writers Robert Jordan and Brandon Sanderson, the twelfth book in the series The Wheel of Time. It was incomplete when Jordan died on September 16, 2007, from cardiac amyloidosis. His widow Harriet McDougal and his publisher Tom Doherty chose Sanderson to continue the book.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/WoT12_TheGatheringStorm.jpg/250px-WoT12_TheGatheringStorm.jpg",
   "pages": 824,
-  "isbn": "9786053750321"
+  "isbn": "9786053750321",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O7617",
+    "PS-3619.00000000.A533",
+    "PS-3560.00000000.O7617 G38 2009"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Rand al'Thor (Fictitious character)",
+    "Rand al'thor (fictitious character), fiction"
+  ],
+  "first_published": 2009,
+  "ol_work_key": "/works/OL1946681W"
 }

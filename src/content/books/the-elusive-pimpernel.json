@@ -1,7 +1,7 @@
 {
   "title": "The Elusive Pimpernel",
   "author": "Emmuska Orczy Orczy, Baroness",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-elusive-pimpernel",
   "tags": [
@@ -34,5 +34,9 @@
   "gutenberg_id": 2785,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2785",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2785.html.images",
-  "librivox_url": "https://librivox.org/the-elusive-pimpernel-by-baroness-emmuska-orczy/"
+  "librivox_url": "https://librivox.org/the-elusive-pimpernel-by-baroness-emmuska-orczy/",
+  "ddc": [
+    "823.912"
+  ],
+  "ol_work_key": "/works/OL41371468W"
 }

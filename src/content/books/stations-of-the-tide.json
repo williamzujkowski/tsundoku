@@ -1,7 +1,7 @@
 {
   "title": "Stations of the Tide",
   "author": "Michael Swanwick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "stations-of-the-tide",
   "tags": [
@@ -25,5 +25,24 @@
     "Fiction",
     "award:nebula_award=novel",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.W28 S73 2011",
+    "PS-3569.00000000.W28S73 2011",
+    "PS-3569.00000000.W28 S7 1991",
+    "PS-3569.00000000.W34 S73 2001",
+    "PS-3569.00000000.W28S7 1991"
+  ],
+  "subject_facet": [
+    "Cyberpunk",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science Fiction",
+    "Space Opera",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL549274W"
 }

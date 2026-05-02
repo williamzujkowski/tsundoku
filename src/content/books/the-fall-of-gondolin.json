@@ -1,7 +1,7 @@
 {
   "title": "The Fall of Gondolin",
   "author": "J.R.R. Tolkien",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-fall-of-gondolin",
   "tags": [
@@ -29,5 +29,57 @@
   ],
   "description": "The Fall of Gondolin is a 2018 book of fantasy fiction by J. R. R. Tolkien, edited by his son Christopher. The story is one of what Tolkien called the three \"Great Tales\" from the First Age of Middle-earth; the other two are Beren and Lúthien and The Children of Húrin. All three stories are briefly summarised in the 1977 book The Silmarillion, and all three have now been published as stand-alone books. A version of the story also appears in The Book of Lost Tales.",
   "pages": 428,
-  "isbn": "9788445071397"
+  "isbn": "9788445071397",
+  "ddc": [
+    "823.914",
+    "823.912",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6039.00000000",
+    "PR-6039.00000000.O32S537 1998",
+    "PR-6039.00000000.O32 S51",
+    "PR-6039.00000000.O32; Si3",
+    "PR-6039.00000000.O32.S5 2007",
+    "PR-6039.00000000.O32 S59 1999",
+    "PR-6039.00000000.O32 S5 1983",
+    "PR-6039.00000000.O32 S537 1998",
+    "PR-6039.00000000.O32.S5 1999",
+    "PR-6039.00000000.O32 S537 2002",
+    "PR-6039.00000000.O32.S5",
+    "PZ-0003.00000000.T576 Si",
+    "PR-6039.00000000.O32 S5 1982",
+    "PR-6039.00000000.O32 S5 2004",
+    "PZ-0003.00000000.T576 Si3",
+    "PR-6039.00000000.O32S537 2001",
+    "PR-6039.00000000.O32 S537 1999",
+    "PR-6039.00000000.O32 S5 2004b",
+    "PR-6039.00000000.O32 Si3",
+    "PR-6039.00000000.O32 S5 2001",
+    "PR-6039.00000000.O32",
+    "PR-6039.00000000.O32 S5 1977",
+    "PR-6039.00000000.O32 Si",
+    "PR-6039.00000000.O32 S5 1998"
+  ],
+  "subject_facet": [
+    "Bilbo Baggins (Fictitious character)",
+    "British and irish fiction (fictional works by one author)",
+    "Elves",
+    "Engelse fiksie",
+    "English Fantasy fiction",
+    "English fiction",
+    "English literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fairy tales, folk tales, legends & mythology",
+    "Fiction, fantasy, action & adventure",
+    "Fiction, fantasy, dragons & mythical creatures",
+    "Fiction, fantasy, epic",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "Short stories",
+    "fantasy",
+    "silmaril"
+  ],
+  "ol_work_key": "/works/OL27495W"
 }

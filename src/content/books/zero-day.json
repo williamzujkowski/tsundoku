@@ -1,7 +1,7 @@
 {
   "title": "Zero Day",
   "author": "Mark Russinovich",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "zero-day",
   "tags": [
@@ -25,5 +25,26 @@
   "description": "Zero Day is a thriller novel written by David Baldacci. It is the first installment in the John Puller book series. The book was initially published on November 16, 2011, by Grand Central Publishing.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Zero_day_-_baldacci_-_bookcover.jpg/250px-Zero_day_-_baldacci_-_bookcover.jpg",
   "pages": 336,
-  "isbn": "9780312612467"
+  "isbn": "9780312612467",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3618.00000000.U7688 .Z47 201",
+    "PS-3618.00000000.U7688 Z47 2011",
+    "PS-3618.00000000.U7688Z47 2011"
+  ],
+  "subject_facet": [
+    "Cyberterrorism",
+    "FICTION / Men's Adventure",
+    "FICTION / Technological",
+    "FICTION / Thrillers",
+    "Fiction",
+    "Fiction, technological",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, technological",
+    "Terrorism, fiction"
+  ],
+  "first_published": 2011,
+  "ol_work_key": "/works/OL15746732W"
 }

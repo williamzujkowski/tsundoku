@@ -25,5 +25,30 @@
   "description": "Propaganda is a book written by Edward Bernays in 1928. It incorporated the literature from social science and psychological manipulation into an examination of the techniques of public communication. Bernays wrote the book in response to the success of some of his earlier works such as Crystallizing Public Opinion (1923) and A Public Relations Counsel (1927).",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Propaganda_by_Edward_Bernays.pdf/page1-330px-Propaganda_by_Edward_Bernays.pdf.jpg",
   "pages": 159,
-  "isbn": "9781709527999"
+  "isbn": "9781709527999",
+  "ddc": [
+    "301.154"
+  ],
+  "lcc": [
+    "HM-1231.00000000",
+    "HM-0263.00000000.B4",
+    "HM-0263.00000000.B4 1972",
+    "HM-1231.00000000.B47 2005"
+  ],
+  "subject_facet": [
+    "Brainwash",
+    "Manipulation (Psychologie)",
+    "Manipulative behavior",
+    "Marketing",
+    "Opinion publique",
+    "Political science",
+    "Propaganda",
+    "Propagande",
+    "Propoganda",
+    "Psychological Handling",
+    "Psychology",
+    "Public opinion"
+  ],
+  "first_published": 1928,
+  "ol_work_key": "/works/OL2781905W"
 }

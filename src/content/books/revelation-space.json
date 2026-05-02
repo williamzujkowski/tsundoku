@@ -1,7 +1,7 @@
 {
   "title": "Revelation Space",
   "author": "Alastair Reynolds",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "revelation-space",
   "tags": [
@@ -27,5 +27,26 @@
     "Space colonies",
     "Life on other planets in fiction",
     "English literature"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6068.00000000",
+    "PR-6068.00000000.E95R49 2020",
+    "PR-6068.00000000.E95 R49 2001",
+    "PR-6068.00000000.E95",
+    "PR-6068.00000000.E95R49 2001"
+  ],
+  "subject_facet": [
+    "English literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Life on other planets",
+    "Life on other planets in fiction",
+    "Science Fiction",
+    "Space colonies",
+    "Space colonies in fiction"
+  ],
+  "ol_work_key": "/works/OL5724837W"
 }

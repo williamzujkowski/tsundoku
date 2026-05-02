@@ -1,7 +1,7 @@
 {
   "title": "The Food of the Gods",
   "author": "H.G. Wells",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-food-of-the-gods",
   "tags": [
@@ -29,5 +29,46 @@
     "British and irish fiction (fictional works by one author)",
     "Scientists"
   ],
-  "isbn": "9781096950868"
+  "isbn": "9781096950868",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-5772.00000000",
+    "PR-5774.00000000 Fo12",
+    "PR-5774.00000000.F6 2006",
+    "PR-5774.00000000.F6 2013",
+    "PR-5774.00000000.F6 2010",
+    "PZ-0003.00000000.W465 Fo10",
+    "PR-5774.00000000 F6 1906",
+    "PR-5774.00000000 Fo10",
+    "PR-5770.00000000",
+    "PR-5774.00000000",
+    "PR-5774.00000000.F6 1904",
+    "PZ-0003.00000000.W465 Fo",
+    "PR-5774.00000000.F66 2013",
+    "PZ-0003.00000000.W465 Fo 6",
+    "PR-5774.00000000 Fo",
+    "PR-5774.00000000 F6 1909",
+    "PZ-0003.00000000.W465 Fo12"
+  ],
+  "subject_facet": [
+    "Agriculture",
+    "Artificial foods",
+    "British and irish fiction (fictional works by one author)",
+    "English Science fiction",
+    "English fiction",
+    "English literature",
+    "Experimentation",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Food supply",
+    "Giants",
+    "Giants -- Fiction",
+    "Growth factors",
+    "Science fiction",
+    "Scientists"
+  ],
+  "ol_work_key": "/works/OL52195W"
 }

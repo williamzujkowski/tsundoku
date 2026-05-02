@@ -1,7 +1,7 @@
 {
   "title": "The Black Arrow",
   "author": "Robert Louis Stevenson",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-black-arrow",
   "tags": [
@@ -44,5 +44,13 @@
   "librivox_url": "https://librivox.org/the-black-arrow-by-robert-louis-stevenson/",
   "gutenberg_id": 32954,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/32954",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32954.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32954.html.images",
+  "lcc": [
+    "PR-5484.00000000.B3 1917"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "History"
+  ],
+  "ol_work_key": "/works/OL40389785W"
 }

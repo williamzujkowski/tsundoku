@@ -1,7 +1,7 @@
 {
   "title": "The Lady in the Lake",
   "author": "Raymond Chandler",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-lady-in-the-lake",
   "tags": [
@@ -29,5 +29,42 @@
     "Fiction, mystery & detective, hard-boiled",
     "Los angeles (calif.), fiction"
   ],
-  "isbn": "9780330258371"
+  "isbn": "9780330258371",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3505.00000000.H3224 L3 1994",
+    "PS-3505.00000000.H3224; Lad7",
+    "PS-3505.00000000.H3224A6 2002",
+    "PS-3505.00000000.H3224 L3 1988",
+    "PS-3505.00000000.H3224 Lad7",
+    "PZ-0003.00000000.C3639 Lad7",
+    "PS-3505.00000000.H3224 L3 1979",
+    "PS-3505.00000000.H3224 Lad8",
+    "PS-3505.00000000.H3224L3 1994",
+    "PZ-0003.00000000.C3639 Lad",
+    "PS-3505.00000000.H3224 L3 1992",
+    "PS-3505.00000000.H3224 A6 2002",
+    "PZ-0003.00000000.C3639 Lad8",
+    "PS-3505.00000000.H3224L3 1988",
+    "PS-3505.00000000.H3224 Lad",
+    "PS-3505.00000000.H3224 A6 2001"
+  ],
+  "subject_facet": [
+    "American Detective and mystery stories",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, mystery & detective, hard-boiled",
+    "Large type books",
+    "Los angeles (calif.), fiction",
+    "Marlowe, Philip (Fictitious character)",
+    "Marlowe, philip (fictitious character), fiction",
+    "Philip Marlowe (Fictitious character)",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Readers"
+  ],
+  "ol_work_key": "/works/OL3295516W"
 }

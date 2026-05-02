@@ -1,7 +1,7 @@
 {
   "title": "The Blazing World",
   "author": "Siri Hustvedt",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-blazing-world",
   "tags": [
@@ -28,5 +28,34 @@
     "FICTION / General",
     "FICTION / Literary",
     "FICTION / Mystery & Detective / General"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3558.00000000.U813B53 2014",
+    "PS-3558.00000000.U813",
+    "PS-3558.00000000.U813 B53 2014",
+    "PS-3558.00000000.U813.B64"
+  ],
+  "subject_facet": [
+    "Amerikanisches Englisch",
+    "Death",
+    "FICTION / General",
+    "FICTION / Literary",
+    "FICTION / Mystery & Detective / General",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, psychological",
+    "General",
+    "Literary",
+    "Mystery & Detective",
+    "Mystery fiction",
+    "Psychological fiction",
+    "Teachers",
+    "Teachers, fiction",
+    "Women artists",
+    "Women artists, fiction"
+  ],
+  "ol_work_key": "/works/OL17080675W"
 }

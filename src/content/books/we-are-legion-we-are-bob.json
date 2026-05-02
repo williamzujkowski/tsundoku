@@ -26,5 +26,18 @@
   "pages": 345,
   "isbn": "9781680680324",
   "cover_url": "https://covers.openlibrary.org/b/id/8421582-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8421582-L.jpg"
+  "cover_url_large": "https://covers.openlibrary.org/b/id/8421582-L.jpg",
+  "subject_facet": [
+    "Artificial intelligence",
+    "Colonization",
+    "Extinction of the human race",
+    "Fiction",
+    "Planets",
+    "Science Fiction",
+    "Space flight",
+    "Space warfare",
+    "von Neumann probe"
+  ],
+  "first_published": 2016,
+  "ol_work_key": "/works/OL19123425W"
 }

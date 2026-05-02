@@ -1,7 +1,7 @@
 {
   "title": "Weaveworld",
   "author": "Clive Barker",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "weaveworld",
   "tags": [
@@ -23,5 +23,19 @@
     "Fiction, fantasy, general",
     "Fiction, horror",
     "Fantasy fiction"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A6475",
+    "PR-6015.00000000.I3",
+    "PR-6052.00000000.A6475 W44 1987"
+  ],
+  "subject_facet": [
+    "Fantasy fiction",
+    "Fiction, fantasy, general",
+    "Fiction, horror"
+  ],
+  "ol_work_key": "/works/OL257772W"
 }

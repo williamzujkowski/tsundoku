@@ -1,7 +1,7 @@
 {
   "title": "The Galton Case",
   "author": "Ross Macdonald",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-galton-case",
   "tags": [
@@ -28,5 +28,27 @@
     "Los angeles (calif.), fiction",
     "Archer, lew (fictitious character), fiction",
     "Fiction, mystery & detective, hard-boiled"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3525.00000000.I486 G3 1996",
+    "PS-3525.00000000.I486G3 1996",
+    "PS-3563.00000000 I36 G3 1972",
+    "PS-3525.00000000.I486 G3 1981"
+  ],
+  "subject_facet": [
+    "Archer, lew (fictitious character), fiction",
+    "California, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction.--",
+    "Large type books",
+    "Lew Archer (Fictitious character)",
+    "Los angeles (calif.), fiction",
+    "Private investigators"
+  ],
+  "ol_work_key": "/works/OL2460943W"
 }

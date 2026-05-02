@@ -1,7 +1,7 @@
 {
   "title": "Tehanu",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "tehanu",
   "tags": [
@@ -28,5 +28,29 @@
     "Wizards",
     "Earthsea (Imaginary place)",
     "Fantasy"
-  ]
+  ],
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.L5215 Td 2012",
+    "PS-3562.00000000.E42 T44 1991",
+    "PZ-0007.00000000.L5215 Te 1990",
+    "PZ-0007.00000000.L5215Td 2012",
+    "PS-3562.00000000.E42 T44 2001b",
+    "LC-0000.00000000 89-32780"
+  ],
+  "subject_facet": [
+    "Earthsea (Imaginary place)",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Ged (Fictitious character)",
+    "Ged (fictitious character), fiction",
+    "Magic",
+    "Wizards",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL15056578W"
 }

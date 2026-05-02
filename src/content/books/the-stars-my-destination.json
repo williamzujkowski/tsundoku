@@ -1,7 +1,7 @@
 {
   "title": "The Stars My Destination",
   "author": "Alfred Bester",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-stars-my-destination",
   "tags": [
@@ -30,5 +30,34 @@
     "American Science fiction",
     "Twenty-fifth century"
   ],
-  "isbn": "9780575079090"
+  "isbn": "9780575079090",
+  "ddc": [
+    "813.54",
+    "813.4"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.B56 St8",
+    "PS-3552.00000000.E796",
+    "PZ-0004.00000000.B56 St",
+    "PS-3552.00000000.E796 St8",
+    "PS-3552.00000000.E796 S73 1996",
+    "PZ-0004.00000000.B56De",
+    "PS-3552.00000000.E796 S73 1987",
+    "PS-3552.00000000.E796 St",
+    "PZ-0004.00000000.B55St"
+  ],
+  "subject_facet": [
+    "Adventure stories",
+    "American Science fiction",
+    "Astronauts",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Literature and science",
+    "Long Now Manual for Civilization",
+    "Redemption",
+    "Retribution",
+    "Science fiction",
+    "Twenty-fifth century"
+  ],
+  "ol_work_key": "/works/OL1819353W"
 }

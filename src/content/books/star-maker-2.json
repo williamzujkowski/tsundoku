@@ -1,7 +1,7 @@
 {
   "title": "Star Maker",
   "author": "Olaf Stapledon",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "star-maker-2",
   "tags": [
@@ -29,5 +29,33 @@
     "English literature",
     "English Science fiction"
   ],
-  "description": "One night when I had tasted bitterness I went out on to the hill."
+  "description": "One night when I had tasted bitterness I went out on to the hill.",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6037.00000000.T18",
+    "PR-6037.00000000.T18S7 1987",
+    "PR-6037.00000000.T18S7 2008",
+    "PR-6037.00000000.T18 St6",
+    "PZ-0003.00000000.S7944 St6",
+    "PR-6037.00000000.T18 S7 1987",
+    "PR-6037.00000000.T18 S7 1937",
+    "PR-6037.00000000.T18 S7 2008",
+    "PR-6037.00000000.T18S7 2004",
+    "PR-6037.00000000.T18 S7 2004"
+  ],
+  "subject_facet": [
+    "Cosmology",
+    "English Science fiction",
+    "English literature",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Long Now Manual for Civilization",
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL3290739W"
 }

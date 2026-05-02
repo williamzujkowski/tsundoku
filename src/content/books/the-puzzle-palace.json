@@ -1,7 +1,7 @@
 {
   "title": "The Puzzle Palace",
   "author": "James Bamford",
-  "category": "Security",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "the-puzzle-palace",
   "tags": [],
@@ -27,5 +27,31 @@
     "États-Unis. National Security Agency",
     "United states, national security agency/central security service",
     "Universities and colleges"
-  ]
+  ],
+  "ddc": [
+    "327.1206073"
+  ],
+  "lcc": [
+    "UB-0251.00000000.U5.B35 1982",
+    "UB-0251.00000000.U5",
+    "LA-0226.00000000.K37",
+    "UB-0251.00000000.U5 B35 1982",
+    "UB-0251.00000000.U5 B53 1983b",
+    "UB-0251.00000000.U5 B35 1983",
+    "UB-0251.00000000.U5B35 1983"
+  ],
+  "subject_facet": [
+    "Great Britain",
+    "Great Britain. Government Communications Headquarters",
+    "National Security Agency",
+    "Services de renseignements",
+    "USA",
+    "United States",
+    "United States. National Security Agency",
+    "United states, national security agency/central security service",
+    "Universities and colleges",
+    "États-Unis",
+    "États-Unis. National Security Agency"
+  ],
+  "ol_work_key": "/works/OL117555W"
 }

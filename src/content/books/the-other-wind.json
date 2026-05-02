@@ -1,7 +1,7 @@
 {
   "title": "The Other Wind",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-other-wind",
   "tags": [
@@ -29,5 +29,34 @@
     "Earthsea (Imaginary place)",
     "Wizards in fiction",
     "American Fantasy fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.E42O84 2003",
+    "PS-3562.00000000.E42O84 2012",
+    "PZ-0007.00000000.L5215Ot 2003",
+    "PS-3562.00000000.E42O84 2001",
+    "PS-3562.00000000.E42 O84 2001",
+    "PS-3562.00000000.E42 O84 2003",
+    "PS-3562.00000000.E42 O84 2012"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Dragons",
+    "Earthsea (Imaginary place)",
+    "Earthsea (imaginary place), fiction",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Ged (Fictitious character)",
+    "Juvenile fiction",
+    "Kings and rulers",
+    "Magic",
+    "Magic in fiction",
+    "Wizards",
+    "Wizards in fiction"
+  ],
+  "ol_work_key": "/works/OL59806W"
 }

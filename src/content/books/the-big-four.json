@@ -22,5 +22,45 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/70114",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/70114.html.images",
   "description": "The Big Four is a mystery novel by Agatha Christie, first published in the UK by William Collins & Sons on 27 January 1927 and in the US by Dodd, Mead and Company later in the same year. It features Hercule Poirot, Arthur Hastings, and Inspector Japp. The UK edition retailed at seven shillings and sixpence (7/6) and the US edition at $2.00.",
-  "isbn": "9780008164904"
+  "isbn": "9780008164904",
+  "ddc": [
+    "823.91",
+    "823.912",
+    "869"
+  ],
+  "lcc": [
+    "PR-6005.00000000 H66 B5 1936",
+    "PN-6737.00000000",
+    "PR-6005.00000000.H66 Bi2",
+    "PZ-0003.00000000.C4637 Bi2",
+    "PZ-0003.00000000.C4637 Bi",
+    "PR-6005.00000000.H66",
+    "PR-6005.00000000.H6 B53 1972",
+    "PR-6005.00000000.H66 B54 2011",
+    "PR-6005.00000000.H66 Bi"
+  ],
+  "subject_facet": [
+    "Comic books, strips",
+    "Crime",
+    "Detective and mystery stories",
+    "Détectives",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "English literature",
+    "Fiction",
+    "Fiction, mystery & detective",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, thrillers, espionage",
+    "Hercule Poirot (Fictitious character)",
+    "Large type books",
+    "Mystery",
+    "Parodies, imitations",
+    "Poirot, hercule (fictitious character), fiction",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Romans, nouvelles",
+    "Translations into Arabic"
+  ],
+  "ol_work_key": "/works/OL471947W"
 }

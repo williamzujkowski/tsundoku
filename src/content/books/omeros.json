@@ -1,7 +1,7 @@
 {
   "title": "Omeros",
   "author": "Derek Walcott",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "omeros",
   "tags": [
@@ -26,5 +26,25 @@
     "American poetry",
     "New York Times reviewed"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "811"
+  ],
+  "lcc": [
+    "PR-9272.90000000.W3O44 1992",
+    "PR-9272.90000000.W3 O44 1992",
+    "PR-9272.90000000.W3 O44 1990",
+    "PR-9272.90000000.W3O44 1990",
+    "PR-9272.90000000.W329 O44 1990"
+  ],
+  "subject_facet": [
+    "811",
+    "American poetry",
+    "New York Times reviewed",
+    "Poetry (poetic works by one author)",
+    "Pr9272.9.w3 o44 1990",
+    "Pr9272.9.w329 o44 1990",
+    "Trinidadian and tobagonian poetry (english)"
+  ],
+  "ol_work_key": "/works/OL100040W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Buried Giant",
   "author": "Kazuo Ishiguro",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-buried-giant",
   "tags": [
@@ -30,5 +30,61 @@
     "Quests (Expeditions)",
     "FICTION / Action & Adventure",
     "Sons"
-  ]
+  ],
+  "ddc": [
+    "823",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6059.00000000.S5B87 2015",
+    "PR-6059.00000000.S5",
+    "PR-6059.00000000.S",
+    "PR-6059.00000000.S5 B87 2015",
+    "PR-6059.00000000.S5 B8714 2015",
+    "PR-6059.00000000.S5 B87163 2015"
+  ],
+  "subject_facet": [
+    "823/.914",
+    "Amnesiacs",
+    "Amnesiacs--fiction",
+    "Amnesicos",
+    "Amnésiques",
+    "Caballeros y caballeria",
+    "Conyuges",
+    "Dragones",
+    "Dragons",
+    "Dragons--fiction",
+    "Expediciones",
+    "FICTION / Action & Adventure",
+    "FICTION / Fantasy / Historical",
+    "FICTION / Literary",
+    "Fantasy fiction",
+    "Fic019000 fic009030 fic002000",
+    "Ficcion",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, historical",
+    "Fils",
+    "Giants",
+    "Hijos",
+    "History",
+    "Husband and wife",
+    "Husband and wife--fiction",
+    "Knights",
+    "Knights and knighthood",
+    "Knights and knighthood--fiction",
+    "Large type books",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Pr6059.s5 b87 2015",
+    "Quests",
+    "Quests (Expeditions)",
+    "Quests (expeditions)--fiction",
+    "Quête",
+    "Romans, nouvelles",
+    "Sons",
+    "Sons--fiction",
+    "nyt:combined-print-and-e-book-fiction=2015-03-22"
+  ],
+  "ol_work_key": "/works/OL17333499W"
 }

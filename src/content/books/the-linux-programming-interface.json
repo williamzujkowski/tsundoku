@@ -1,7 +1,7 @@
 {
   "title": "The Linux Programming Interface",
   "author": "Michael Kerrisk",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-linux-programming-interface",
   "tags": [
@@ -24,5 +24,21 @@
     "Linux (computer operating system)",
     "Unix (computer operating system)",
     "Operating systems (computers)"
-  ]
+  ],
+  "ddc": [
+    "005.432"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63 K496 2010",
+    "QA-0076.76000000.O63"
+  ],
+  "subject_facet": [
+    "Linux",
+    "Linux (computer operating system)",
+    "Operating systems (Computers)",
+    "Operating systems (computers)",
+    "UNIX (Computer file)",
+    "Unix (computer operating system)"
+  ],
+  "ol_work_key": "/works/OL15359653W"
 }

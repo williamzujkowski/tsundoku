@@ -1,7 +1,7 @@
 {
   "title": "The Nose",
   "author": "Nikolai Gogol",
-  "category": "History",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-nose",
   "tags": [
@@ -22,5 +22,15 @@
     "Fiction, historical, general",
     "Russia (federation), fiction",
     "Slavic philology"
-  ]
+  ],
+  "lcc": [
+    "PG-3332.00000000",
+    "PG-3333.00000000.H62 2014"
+  ],
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Slavic philology",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL8791626W"
 }

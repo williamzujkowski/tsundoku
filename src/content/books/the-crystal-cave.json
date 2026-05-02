@@ -1,7 +1,7 @@
 {
   "title": "The Crystal Cave",
   "author": "Mary Stewart",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-crystal-cave",
   "tags": [
@@ -19,5 +19,46 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "823",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6069.00000000.T46C7 1996",
+    "PR-6069.00000000.T46 C79 2003",
+    "PR-6069.00000000.T46 C7",
+    "PR-6069.00000000.T46 C79 1996",
+    "PR-6069.00000000.T46",
+    "PR-6069.00000000.T46C79 2003",
+    "PZ-0004.00000000.S852 Cr3",
+    "PR-6069.00000000.T46 Cr3",
+    "PR-6069.00000000.T46 C79 1982",
+    "PR-6069.00000000 T56 C7 1973",
+    "PR-6069.00000000.T46 C7918 2007",
+    "PR-6015.00000000.I3"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Arthur, King",
+    "Arthur, king, fiction",
+    "Arthurian romances",
+    "Belletristische Darstellung",
+    "Britons",
+    "England, fiction",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Great britain, fiction",
+    "Kings and rulers",
+    "Large type books",
+    "Legends",
+    "Merlin (Legendary character)",
+    "Merlin (legendary character), fiction",
+    "Wizards"
+  ],
+  "ol_work_key": "/works/OL213256W"
 }

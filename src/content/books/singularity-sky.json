@@ -1,7 +1,7 @@
 {
   "title": "Singularity Sky",
   "author": "Charles Stross",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "singularity-sky",
   "tags": [
@@ -26,5 +26,22 @@
     "Fiction, science fiction, general",
     "Artificial intelligence",
     "Twenty-first century"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PR-6119.00000000.T79 S56 2003",
+    "PR-6069.00000000",
+    "PS-3619.00000000.T79S56 2003"
+  ],
+  "subject_facet": [
+    "Artificial intelligence",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Space colonies",
+    "Twenty-first century"
+  ],
+  "ol_work_key": "/works/OL2465688W"
 }

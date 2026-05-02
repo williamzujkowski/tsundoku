@@ -1,7 +1,7 @@
 {
   "title": "Schismatrix",
   "author": "Bruce Sterling",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "schismatrix",
   "tags": [
@@ -22,5 +22,18 @@
     "speculative fiction",
     "Fiction, science fiction, general",
     "Fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3876 S32 1996",
+    "PS-3569.00000000.T3876S32 1996"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction, science fiction, general",
+    "Fiction, short stories (single author)"
+  ],
+  "ol_work_key": "/works/OL1888032W"
 }

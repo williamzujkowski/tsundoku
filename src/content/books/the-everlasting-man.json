@@ -1,7 +1,7 @@
 {
   "title": "The Everlasting Man",
   "author": "Gilbert Keith Chesterton",
-  "category": "Philosophy",
+  "category": "Religion",
   "priority": 2,
   "slug": "the-everlasting-man",
   "tags": [
@@ -32,5 +32,48 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/65688.html.images",
   "librivox_url": "https://librivox.org/the-everlasting-man-by-g-k-chesterton/",
   "description": "The Everlasting Man is a Christian apologetics book written by G. K. Chesterton, published in 1925. It is, to some extent, a deliberate rebuttal of H. G. Wells's The Outline of History, disputing Wells's portrayals of human life and civilisation as a seamless development from animal life and of Jesus Christ as merely another charismatic figure.",
-  "isbn": "9780860120087"
+  "isbn": "9780860120087",
+  "ddc": [
+    "230",
+    "290",
+    "261.2"
+  ],
+  "lcc": [
+    "BL-0048.00000000.C5 1947",
+    "BL-0048.00000000.C5 1993",
+    "BL-0048.00000000.C5 1974b",
+    "BL-0048.00000000.C5 1925a",
+    "BL-0048.00000000.C5 2007",
+    "BL-0048.00000000.C5 1955",
+    "BL-0048.00000000.C5",
+    "BL-0048.00000000.C5 1927",
+    "PR-4453.00000000.C4",
+    "BL-0048.00000000.C55",
+    "BL-0048.00000000.C5 1960z",
+    "BL-0048.00000000.C5 1974",
+    "BL-0048.00000000.C5 2007b",
+    "BL-0048.00000000"
+  ],
+  "subject_facet": [
+    "Apologetic works",
+    "Apologetics",
+    "Catholic Church",
+    "Catholic Church -- Apologetic works",
+    "Catholic church, apologetic works",
+    "Christianity",
+    "Christianity and other religions",
+    "Chrześcijaństwo",
+    "Discipling (christianity)",
+    "Human beings",
+    "Jesus christ",
+    "Large type books",
+    "Nonfiction",
+    "Philosophy",
+    "Religia",
+    "Religion",
+    "Spirituality",
+    "Wiara",
+    "World history"
+  ],
+  "ol_work_key": "/works/OL76474W"
 }

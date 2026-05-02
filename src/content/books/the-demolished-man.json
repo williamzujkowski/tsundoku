@@ -1,7 +1,7 @@
 {
   "title": "The Demolished Man",
   "author": "Alfred Bester",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-demolished-man",
   "tags": [
@@ -27,5 +27,30 @@
     "Science fiction",
     "Businessmen",
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.B56De",
+    "PS-3552.00000000.E796 D4 1978",
+    "PZ-0004.00000000.B56 De",
+    "PS-3552.00000000.E796 De",
+    "PS-3552.00000000.E796 De5",
+    "PS-3552.00000000.E796 D44 1996",
+    "PZ-0004.00000000.B56 De5",
+    "PS-3552.00000000.E77 D46"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Businessmen",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Science fiction",
+    "award:hugo_award=1953",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL16027965W"
 }

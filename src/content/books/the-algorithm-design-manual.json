@@ -1,7 +1,7 @@
 {
   "title": "The Algorithm Design Manual",
   "author": "Steven Skiena",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "the-algorithm-design-manual",
   "tags": [
@@ -22,5 +22,18 @@
     "Computer algorithms",
     "Qa76.9.a43 s55 2008",
     "005.1"
-  ]
+  ],
+  "ddc": [
+    "005.1"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A43 S55 2008",
+    "QA-0076.90000000.A43 S55 1998"
+  ],
+  "subject_facet": [
+    "005.1",
+    "Computer algorithms",
+    "Qa76.9.a43 s55 2008"
+  ],
+  "ol_work_key": "/works/OL2677499W"
 }

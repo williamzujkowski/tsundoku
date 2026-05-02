@@ -1,7 +1,7 @@
 {
   "title": "The Bear and the Nightingale",
   "author": "Katherine Arden",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-bear-and-the-nightingale",
   "tags": [],
@@ -27,5 +27,29 @@
     "Good and evil",
     "Fiction",
     "Villages"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3601.00000000.R42",
+    "PS-3601.00000000.R42 B43 2017",
+    "PS-3601.00000000.R42B43 2017",
+    "PS-3601.00000000"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general",
+    "Good and evil",
+    "Large type books",
+    "Magic",
+    "Russia (federation), fiction",
+    "Spirits",
+    "Villages",
+    "Young women",
+    "Young women, fiction"
+  ],
+  "ol_work_key": "/works/OL21213411W"
 }

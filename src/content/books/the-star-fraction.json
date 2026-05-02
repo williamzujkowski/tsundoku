@@ -1,7 +1,7 @@
 {
   "title": "The Star Fraction",
   "author": "Ken MacLeod",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-star-fraction",
   "tags": [],
@@ -18,5 +18,26 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=fERfEQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.A2515S734",
+    "PR-6063.00000000.A2515S73 2001",
+    "PR-6063.00000000",
+    "PR-6063.00000000.A2515 S734 2008",
+    "PR-6063.00000000.A2515 S73 1995",
+    "PR-6063.00000000.A2515 S73 2001",
+    "PZ-0003.00000000.M7844 Ze 2"
+  ],
+  "subject_facet": [
+    "Computer programs",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Great britain, fiction",
+    "Life on other planets",
+    "Twenty-first century"
+  ],
+  "ol_work_key": "/works/OL7923835W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Romeo and Juliet",
   "author": "William Shakespeare",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "romeo-and-juliet",
   "tags": [],
@@ -19,5 +19,24 @@
   "librivox_url": "https://librivox.org/romeo-and-juliet-by-william-shakespeare/",
   "gutenberg_id": 1513,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1513",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1513.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1513.html.images",
+  "ddc": [
+    "822.33",
+    "741.5973"
+  ],
+  "lcc": [
+    "PR-2831.00000000.A2G49 1980"
+  ],
+  "subject_facet": [
+    "British and irish drama (dramatic works by one author)",
+    "Classics Illustrated",
+    "Drama (dramatic works by one author)",
+    "Drama, collections",
+    "Fiction, historical, general",
+    "Shakespeare, william, 1564-1616, romeo and juliet",
+    "Specimens",
+    "Teʼaṭron ha-Ḳameri shel Tel-Aviv",
+    "Theater programs"
+  ],
+  "ol_work_key": "/works/OL26030510W"
 }

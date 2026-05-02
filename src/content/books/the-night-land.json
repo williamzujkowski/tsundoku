@@ -1,7 +1,7 @@
 {
   "title": "The Night Land",
   "author": "William Hope Hodgson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-night-land",
   "tags": [
@@ -39,5 +39,9 @@
   ],
   "gutenberg_id": 10662,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/10662",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10662.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/10662.html.images",
+  "ddc": [
+    "823.912"
+  ],
+  "ol_work_key": "/works/OL40316763W"
 }

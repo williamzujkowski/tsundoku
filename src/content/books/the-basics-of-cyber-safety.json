@@ -1,7 +1,7 @@
 {
   "title": "The Basics of Cyber Safety",
   "author": "Sammons",
-  "category": "Security",
+  "category": "Mathematics",
   "priority": 3,
   "slug": "the-basics-of-cyber-safety",
   "tags": [
@@ -19,5 +19,16 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=vLNZAwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25 S26 2017"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer security",
+    "Cyber intelligence (Computer security)",
+    "Internet",
+    "Security measures"
+  ],
+  "ol_work_key": "/works/OL21117546W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Gods of Pegāna",
   "author": "Lord Dunsany",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-gods-of-peg-na",
   "tags": [
@@ -25,5 +25,20 @@
   "librivox_url": "https://librivox.org/the-gods-of-pegana-by-lord-dunsany/",
   "description": "The Gods of Pegāna is the first book by Anglo-Irish writer Lord Dunsany, published in 1905. The fantasy book was reviewed favourably but as an unusual piece. One of the more influential reviews was by Edward Thomas in the London Daily Chronicle.",
   "pages": 73,
-  "isbn": "9781331457886"
+  "isbn": "9781331457886",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6 G7 1916",
+    "PR-6007.00000000 U6 G7"
+  ],
+  "subject_facet": [
+    "English Fantasy fiction",
+    "Fantasy fiction, English",
+    "Fiction, fantasy, collections & anthologies",
+    "Fiction, fantasy, general",
+    "Fiction, short stories (single author)"
+  ],
+  "ol_work_key": "/works/OL83869W"
 }

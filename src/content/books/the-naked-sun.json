@@ -1,7 +1,7 @@
 {
   "title": "The Naked Sun",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-naked-sun",
   "tags": [
@@ -30,5 +30,27 @@
     "Murder"
   ],
   "description": "On the remote planet Solaria the first murder for two hundred years has been committed. The Solarians are Spacers with a civilisation based on robots instead of slaves - and some pretty weird taboos and phobias.\r\nInto this strange set-up comes Terran detective Elijah Baley, assigned to find the murderer and act as an investigator for his government. But as an Earthman, Baley finds aspects of life on Solaria difficult, even terrifying, to cope with.",
-  "pages": 234
+  "pages": 234,
+  "lcc": [
+    "PS-3551.00000000.S5 N34 1991x",
+    "PS-3551.00000000.S5A6 1996",
+    "PZ-0003.00000000.A8316 Nak",
+    "PS-3551.00000000.S5 Nak",
+    "PS-3551.00000000.S5A6 2018"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Investigation",
+    "Murder",
+    "Robots",
+    "Robots in fiction",
+    "Science fiction",
+    "Space colonies"
+  ],
+  "ol_work_key": "/works/OL46398W"
 }

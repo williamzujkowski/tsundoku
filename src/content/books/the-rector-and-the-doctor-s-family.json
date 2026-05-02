@@ -21,5 +21,20 @@
   ],
   "description": "<p>When the stories that became the <a href=\"https://standardebooks.org/collections/chronicles-of-carlingford\">Chronicles of Carlingford</a> series first appeared anonymously, speculation had it that they were the work of <a href=\"https://standardebooks.org/ebooks/george-eliot\">George Eliot</a>. The connection was a natural one. Only a few years earlier, Eliot’s <i>Scenes of Clerical Life</i> had appeared in <i>Blackwood’s Magazine</i>.",
   "pages": 281,
-  "isbn": "9781473323728"
+  "isbn": "9781473323728",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5113.00000000 Re12",
+    "PZ-0003.00000000.O48 Re",
+    "PR-5113.00000000.R43 1869",
+    "PR-5113.00000000 Re",
+    "PZ-0003.00000000.O48 Re12"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL890438W"
 }

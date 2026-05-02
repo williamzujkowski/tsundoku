@@ -1,7 +1,7 @@
 {
   "title": "The Poisoned Chocolates Case",
   "author": "Anthony Berkeley",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-poisoned-chocolates-case",
   "tags": [
@@ -35,5 +35,25 @@
   "gutenberg_id": 75476,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75476",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75476.html.images",
-  "isbn": "9781842622179"
+  "isbn": "9781842622179",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6005.00000000.O855 P65 2010",
+    "PR-6005.00000000.O855C37 2010",
+    "PR-6005.00000000.O855 Po",
+    "PR-6005.00000000.O855 Po2",
+    "PZ-0003.00000000.C83829 Po",
+    "PZ-0003.00000000.C83829 Po2"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Golden Age mystery",
+    "Police",
+    "Private investigators",
+    "Roger Sheringham (Fictitious character)"
+  ],
+  "ol_work_key": "/works/OL5591844W"
 }

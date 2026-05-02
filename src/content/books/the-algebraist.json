@@ -1,7 +1,7 @@
 {
   "title": "The Algebraist",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-algebraist",
   "tags": [
@@ -27,5 +27,18 @@
     "Anthropologists",
     "Interplanetary voyages",
     "Space flight"
-  ]
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485 A44 2006"
+  ],
+  "subject_facet": [
+    "Anthropologists",
+    "Fiction",
+    "Interplanetary voyages",
+    "Science fiction",
+    "Space flight",
+    "Space warfare",
+    "Wormholes (Physics)"
+  ],
+  "ol_work_key": "/works/OL8368450W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Science and Hypothesis",
   "author": "Henri Poincaré",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 1,
   "slug": "science-and-hypothesis",
   "tags": [
@@ -24,5 +24,35 @@
   "librivox_url": "https://librivox.org/science-and-hypothesis-by-henri-poincare/",
   "gutenberg_id": 39713,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/39713",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/39713.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/39713.html.images",
+  "ddc": [
+    "501"
+  ],
+  "lcc": [
+    "Q--0175.00000000 P74",
+    "Q--0175.00000000.P65 2018",
+    "Q--0175.00000000",
+    "Q--0175.00000000.P74 1968",
+    "Q--0175.00000000.P75 1952",
+    "Q--0175.00000000 P75",
+    "Q--0175.00000000.P75"
+  ],
+  "subject_facet": [
+    "Geometry, Non-Euclidean",
+    "Hypothesis",
+    "Mathematics",
+    "Mathematics, philosophy",
+    "Maths",
+    "Mathématiques",
+    "Philosophie",
+    "Philosophy",
+    "Probabilities",
+    "Science",
+    "Science, mathematics",
+    "Science, methodology",
+    "Science, philosophy",
+    "Sciences",
+    "Thermodynamics"
+  ],
+  "ol_work_key": "/works/OL708894W"
 }

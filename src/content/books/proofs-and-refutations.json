@@ -1,7 +1,7 @@
 {
   "title": "Proofs and Refutations",
   "author": "Imre Lakatos",
-  "category": "Philosophy",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "proofs-and-refutations",
   "tags": [
@@ -30,5 +30,30 @@
     "Mathematische Logik",
     "Formalismus (Mathematik)",
     "Beweistheorie"
-  ]
+  ],
+  "ddc": [
+    "511.3",
+    "511.36"
+  ],
+  "lcc": [
+    "QA-0008.40000000.L3415 1979",
+    "QA-0008.40000000.L34 1981",
+    "QA-0008.40000000.L34 2015",
+    "QA-0008.40000000.L34",
+    "QA-0009.54000000 1976"
+  ],
+  "subject_facet": [
+    "Beweistheorie",
+    "Formalismus (Mathematik)",
+    "Kritik",
+    "Logic, Symbolic and mathematical",
+    "Mathematics",
+    "Mathematics, philosophy",
+    "Mathematik",
+    "Mathematische Logik",
+    "Philosophie",
+    "Philosophy",
+    "Symbolic and mathematical Logic"
+  ],
+  "ol_work_key": "/works/OL2171423W"
 }

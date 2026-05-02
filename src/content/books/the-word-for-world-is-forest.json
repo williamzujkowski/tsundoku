@@ -1,7 +1,7 @@
 {
   "title": "The Word for World Is Forest",
   "author": "Ursula K. Le Guin",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-word-for-world-is-forest",
   "tags": [
@@ -31,5 +31,33 @@
     "Fiction, science fiction, action & adventure",
     "Ps3562.e42 w67 2010",
     "813/.54"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0004.00000000.L518 Wo",
+    "PZ-0004.00000000.L518 Wo 1977",
+    "PS-3562.00000000.E42 W67 2010",
+    "PS-3562.00000000",
+    "PS-3562.00000000.E42",
+    "PS-3562.00000000.E42 Wo 1977",
+    "PZ-0004.00000000.L518Wo",
+    "PZ-0004.00000000.L518Wo 1977",
+    "PS-3562.00000000.E42 Wo"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "Children's fiction",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Hainish Cycle",
+    "Ps3562.e42 w67 2010",
+    "Science fiction",
+    "noteworthy & awarded Science fiction",
+    "rebellion",
+    "resource conservation"
+  ],
+  "ol_work_key": "/works/OL59797W"
 }

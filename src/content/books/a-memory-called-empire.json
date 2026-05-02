@@ -1,7 +1,7 @@
 {
   "title": "A Memory Called Empire",
   "author": "Arkady Martine",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "a-memory-called-empire",
   "tags": [
@@ -50,5 +50,6 @@
     "award:hugo_award=2020",
     "award:hugo_award=novel"
   ],
-  "ol_work_key": "/works/OL20157046W"
+  "ol_work_key": "/works/OL20157046W",
+  "pages": 464
 }

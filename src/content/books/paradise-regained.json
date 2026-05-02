@@ -1,7 +1,7 @@
 {
   "title": "Paradise Regained",
   "author": "John Milton",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "paradise-regained",
   "tags": [],
@@ -19,5 +19,12 @@
   "gutenberg_id": 58,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/58",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/58.html.images",
-  "librivox_url": "https://librivox.org/paradise-regained-by-john-milton/"
+  "librivox_url": "https://librivox.org/paradise-regained-by-john-milton/",
+  "lcc": [
+    "PR-3560.00000000"
+  ],
+  "subject_facet": [
+    "English literature"
+  ],
+  "ol_work_key": "/works/OL25314942W"
 }

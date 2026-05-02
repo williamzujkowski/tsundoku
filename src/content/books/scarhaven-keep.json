@@ -1,7 +1,7 @@
 {
   "title": "Scarhaven Keep",
   "author": "Joseph Smith Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "scarhaven-keep",
   "tags": [
@@ -35,5 +35,29 @@
     "Mystery and detective stories"
   ],
   "description": "Jerramy, thirty years' stage-door keeper at the Theatre Royal, Norcaster, had come to regard each successive Monday morning as a time for the renewal of old acquaintance.",
-  "isbn": "9781977872319"
+  "isbn": "9781977872319",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.F631 Sc 2011",
+    "PZ-0007.00000000.F631 Sc 2012",
+    "PZ-0003.00000000.F634 Sc3",
+    "BT-0021.00000000.M37 1920",
+    "PR-6011.00000000.L5 Sc3"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Detective and mystery stories",
+    "Doctrinal Theology",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Great britain, history, fiction",
+    "History",
+    "Massachusetts, fiction",
+    "Missing persons",
+    "Missing persons, fiction",
+    "Mystery and detective stories"
+  ],
+  "ol_work_key": "/works/OL1797754W"
 }

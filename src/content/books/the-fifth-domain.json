@@ -19,5 +19,20 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=gPeiDwAAQBAJ&dq=The+Fifth+Domain+Richard+A.+Clarke+and+Robert+K.+Knake&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "HV-6773.20000000.C585 2019"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computer security",
+    "Corporations",
+    "Cyberterrorism",
+    "National security",
+    "National security, united states",
+    "Security measures",
+    "Sociology"
+  ],
+  "ol_work_key": "/works/OL20698503W"
 }

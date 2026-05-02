@@ -1,7 +1,7 @@
 {
   "title": "The Wise Man's Fear",
   "author": "Patrick Rothfuss",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-wise-mans-fear",
   "tags": [
@@ -29,5 +29,38 @@
     "Heroes",
     "Mercenary troops",
     "nyt:hardcover_fiction=2011-05-28"
-  ]
+  ],
+  "lcc": [
+    "PS-3618.00000000.O8685 W5718 2011",
+    "PS-3618.00000000.O8685",
+    "PS-3618.00000000.O8685 W57 2011",
+    "PS-3618.00000000.O8685 W5 2011",
+    "PS-3618.00000000.O8685W57 2011"
+  ],
+  "subject_facet": [
+    "Amerikanisches Englisch",
+    "Assassination",
+    "Attempted assassination",
+    "Epic Fantasy",
+    "Fairies",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Heroes",
+    "Heroes and heroines",
+    "Magic",
+    "Magicians",
+    "Mercenary soldiers",
+    "Mercenary troops",
+    "New York Times bestseller",
+    "Paranormal Fiction",
+    "Phantastischer Roman",
+    "Reading materials",
+    "Spanish language",
+    "The Kingkiller Chronicle",
+    "Wizards",
+    "nyt:hardcover_fiction=2011-05-28"
+  ],
+  "ol_work_key": "/works/OL8479869W"
 }

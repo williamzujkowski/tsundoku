@@ -1,7 +1,7 @@
 {
   "title": "The Forgotten Beasts of Eld",
   "author": "Patricia A. McKillip",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-forgotten-beasts-of-eld",
   "tags": [
@@ -30,5 +30,35 @@
   ],
   "description": "The Forgotten Beasts of Eld is a fantasy novel by American writer Patricia A. McKillip, and illustrators Peter Schaumann in 1974, and Alicia Austin in 1981, first published by Atheneum Publishers in 1974, and by Magic Carpet Books in 1996. It is the winner of the 1975 World Fantasy Award for Best Novel. The book centers on Sybel, a woman previously cut off from the rest of the world of Eldwold, as she learns to live and love in the world outside of the one she once knew.",
   "pages": 229,
-  "isbn": "9780708882429"
+  "isbn": "9780708882429",
+  "ddc": [
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.M19864 Fo",
+    "PS-3563.00000000.C38",
+    "PZ-0007.00000000.M19864 Fo 1996",
+    "PS-3563.00000000.C38 F67 1975",
+    "PS-3563.00000000 A3167x, F6, 1975",
+    "PZ-0007.00000000.M19864 Fo 1986",
+    "PZ-0007.00000000.M19864 Fo 1984x",
+    "PZ-0007.00000000.M19864Fo 1996"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "FICTION -- Fantasy -- Epic",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Magic",
+    "Magic -- Juvenile fiction",
+    "Science fiction",
+    "Wizards",
+    "Wizards -- Fiction",
+    "Wizards -- Juvenile fiction",
+    "Wizards, fiction"
+  ],
+  "ol_work_key": "/works/OL92493W"
 }

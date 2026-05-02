@@ -1,7 +1,7 @@
 {
   "title": "The Baroque Cycle",
   "author": "Neal Stephenson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-baroque-cycle",
   "tags": [
@@ -30,5 +30,40 @@
     "Rogues and vagabonds",
     "History",
     "adventure fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3868 Q53 2004",
+    "PS-3569.00000000.T3868 Q53",
+    "PS-3569.00000000.T3868Q53",
+    "PS-3569.00000000.T3868 Q53 2003",
+    "PS-3569.00000000.T3868",
+    "PS-3569.00000000.T3868 Q53 2003b",
+    "PS-3569.00000000.T3868Q53 2003"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers",
+    "Adventure stories",
+    "Alchemists",
+    "Eighteenth century",
+    "FICTION / Fantasy / Historical",
+    "FICTION / Historical",
+    "FICTION / Science Fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, technological",
+    "Historical Fiction",
+    "History",
+    "Puritans",
+    "Rogues and vagabonds",
+    "Scientists",
+    "Scientists, fiction",
+    "Seventeenth century",
+    "adventure fiction"
+  ],
+  "ol_work_key": "/works/OL38495W"
 }

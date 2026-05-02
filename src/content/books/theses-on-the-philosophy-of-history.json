@@ -1,7 +1,7 @@
 {
   "title": "Theses on the Philosophy of History",
   "author": "Walter Benjamin",
-  "category": "Philosophy",
+  "category": "History",
   "priority": 2,
   "slug": "theses-on-the-philosophy-of-history",
   "tags": [
@@ -19,5 +19,12 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=N7evAwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "D--0016.80000000.W29 2005"
+  ],
+  "subject_facet": [
+    "Benjamin, walter, 1892-1940"
+  ],
+  "ol_work_key": "/works/OL26729921W"
 }

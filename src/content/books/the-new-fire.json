@@ -1,7 +1,7 @@
 {
   "title": "The New Fire",
   "author": "Ben Buchanan",
-  "category": "Security",
+  "category": "Science",
   "priority": 1,
   "slug": "the-new-fire",
   "tags": [
@@ -19,5 +19,12 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=irZNEAAAQBAJ&dq=The+New+Fire+Ben+Buchanan&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "Q--0335.00000000.B795 2022"
+  ],
+  "subject_facet": [
+    "Science"
+  ],
+  "ol_work_key": "/works/OL26593947W"
 }

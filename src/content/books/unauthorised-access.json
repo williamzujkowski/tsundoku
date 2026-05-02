@@ -1,7 +1,7 @@
 {
   "title": "Unauthorised Access",
   "author": "Wil Allsopp",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "unauthorised-access",
   "tags": [
@@ -28,5 +28,27 @@
     "Computer networks, security measures",
     "Computer security--testing",
     "Computer networks--security measures"
-  ]
+  ],
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25A55 2009",
+    "QA-0076.90000000.A25 A456 2009",
+    "QA-0076.90000000.A25A45 2009"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computer networks--security measures",
+    "Computer security",
+    "Computer security--testing",
+    "Computer software",
+    "Penetration testing (Computer security)",
+    "Qa76.9.a25 a456 2009",
+    "Reliability",
+    "Security measures",
+    "Testing"
+  ],
+  "ol_work_key": "/works/OL16282161W"
 }

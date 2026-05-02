@@ -1,7 +1,7 @@
 {
   "title": "The Illustrated Man",
   "author": "Ray Bradbury",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-illustrated-man",
   "tags": [
@@ -33,5 +33,43 @@
     "American Horror stories",
     "Fiction",
     "Prejudice"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "[Fic]",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3503.00000000.R167 I45 1967",
+    "PS-3503.00000000.R167 I44 1999",
+    "PS-3503.00000000.R167I44 1997",
+    "PS-3503.00000000.R167I44 1999",
+    "PS-3503.00000000.R167 Il",
+    "PS-3503.00000000.R167 I44 2011",
+    "PZ-0003.00000000.B72453 Il",
+    "PS-3503.00000000.R167",
+    "PS-3503.00000000.R167 I44 1997"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Horror stories",
+    "American Science fiction",
+    "American Short stories",
+    "Children",
+    "English Short stories",
+    "Fiction",
+    "Fiction, science fiction, collections & anthologies",
+    "Invasion",
+    "Large type books",
+    "Magic",
+    "Nouvelles américaines",
+    "Prejudice",
+    "Science fiction",
+    "Short stories",
+    "Space colonies",
+    "Space flight",
+    "Storytelling",
+    "Tattooing"
+  ],
+  "ol_work_key": "/works/OL103128W"
 }

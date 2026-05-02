@@ -1,7 +1,7 @@
 {
   "title": "Parts of Animals",
   "author": "Aristotle",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 1,
   "slug": "parts-of-animals",
   "tags": [
@@ -30,5 +30,23 @@
     "Philosophers, greece",
     "Astronomy, early works to 1800"
   ],
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "590"
+  ],
+  "lcc": [
+    "QL-0041.00000000.A727513 2001",
+    "QL-0041.00000000.A727513 2002"
+  ],
+  "subject_facet": [
+    "Anatomy, comparative",
+    "Comparative Anatomy",
+    "Early works to 1800",
+    "Philosophy, ancient",
+    "Pre-Linnean works",
+    "Pre-linnean works",
+    "Zoology",
+    "Zoology, pre-linnean works"
+  ],
+  "ol_work_key": "/works/OL14998372W"
 }

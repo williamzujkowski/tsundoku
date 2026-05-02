@@ -1,7 +1,7 @@
 {
   "title": "The Return of Martin Guerre",
   "author": "Natalie Zemon Davis",
-  "category": "History",
+  "category": "Computer Science",
   "priority": 2,
   "slug": "the-return-of-martin-guerre",
   "tags": [],
@@ -18,5 +18,36 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "History"
-  ]
+  ],
+  "ddc": [
+    "345.440263",
+    "344.405263",
+    "001.950924"
+  ],
+  "lcc": [
+    "KJV0130.00000000.D8 D38 1982",
+    "HV-6761.00000000.F82 G8 D31, 1983",
+    "CT-9981.00000000.D8",
+    "HV-6761.00000000.F72 D82 1983",
+    "LAW0000.00000000",
+    "KJV0130.00000000.D8 D3813 1983"
+  ],
+  "subject_facet": [
+    "Bedrog",
+    "Biographies",
+    "Continental european drama (dramatic works by one author)",
+    "Crime, france",
+    "Drehbuch",
+    "Du Tilh, Arnault, d. 1560",
+    "Early works to 1800",
+    "Fl. 1539-1560",
+    "France",
+    "Impostors and imposture",
+    "Moral conditions",
+    "Social conditions",
+    "Trials (Impostors and imposture)",
+    "Trials, litigation",
+    "Volkscultuur"
+  ],
+  "ol_work_key": "/works/OL771624W"
 }

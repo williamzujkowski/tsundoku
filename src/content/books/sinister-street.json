@@ -25,5 +25,27 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/33798",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/33798.html.images",
   "description": "Sinister Street is a 1913–1914 novel by Compton Mackenzie. It is a kind of Bildungsroman, or novel about growing up, and concerns two children, Michael Fane and his sister Stella. Each of them is born out of wedlock, something that was frowned on at the time, but to rich parents.",
-  "isbn": "9781502885777"
+  "isbn": "9781502885777",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6025.00000000.A2526 Si10",
+    "PR-6025.00000000.A2526 Si15",
+    "PR-6025.00000000.A2526 S5",
+    "PR-6025.00000000.A2526 Si2",
+    "PZ-0003.00000000.M1974 Si10",
+    "PZ-0003.00000000.M1974 Si",
+    "PR-6025.00000000.A2526 Si",
+    "PZ-0003.00000000.M1974 Si2",
+    "PR-6025.00000000.A2526 S55 1978",
+    "PZ-0003.00000000.M1974 Si15"
+  ],
+  "subject_facet": [
+    "Bildungsromans",
+    "England -- Social life and customs -- Fiction",
+    "Fiction, general",
+    "Illegitimate children -- Fiction"
+  ],
+  "ol_work_key": "/works/OL1167546W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Birds",
   "author": "Aristophanes",
-  "category": "Classics",
+  "category": "Drama",
   "priority": 1,
   "slug": "the-birds",
   "tags": [
@@ -35,5 +35,12 @@
   ],
   "gutenberg_id": 3013,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/3013",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3013.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/3013.html.images",
+  "ddc": [
+    "882"
+  ],
+  "subject_facet": [
+    "Continental european drama (dramatic works by one author)"
+  ],
+  "ol_work_key": "/works/OL39704485W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Magic City",
   "author": "E. Nesbit",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-magic-city",
   "tags": [
@@ -40,5 +40,26 @@
   ],
   "gutenberg_id": 20606,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/20606",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/20606.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/20606.html.images",
+  "ddc": [
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N43777Mag 2000",
+    "PZ-0007.00000000.B61 Maf 1981",
+    "PZ-0007.00000000.N43777 Mag 2000",
+    "PZ-0008.00000000.B612 Mae"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Cities and towns",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Juvenile fiction",
+    "Magic, fiction"
+  ],
+  "ol_work_key": "/works/OL99535W"
 }

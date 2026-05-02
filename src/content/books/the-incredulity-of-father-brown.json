@@ -1,7 +1,7 @@
 {
   "title": "The Incredulity of Father Brown",
   "author": "Gilbert Keith Chesterton",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-incredulity-of-father-brown",
   "tags": [
@@ -29,5 +29,36 @@
     "England, fiction"
   ],
   "librivox_url": "https://librivox.org/the-incredulity-of-father-brown-by-g-k-chesterton/",
-  "isbn": "9785553672942"
+  "isbn": "9785553672942",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-0445.00000000.C4",
+    "PZ-0003.00000000.C4265 Inc",
+    "PR-4453.00000000.C4 I6 2008",
+    "PR-4453.00000000.C4 Inc",
+    "PR-4453.00000000.C4",
+    "PR-4453.00000000.C4 Inc10",
+    "PZ-0003.00000000.C4265 Inc10",
+    "PR-4453.00000000.C4 I4917 1980",
+    "PR-4453.00000000.C4 I6 1984"
+  ],
+  "subject_facet": [
+    "Brown, father (fictitious character), fiction",
+    "Catholic church, clergy, fiction",
+    "Catholics",
+    "Clergy",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "English Short stories",
+    "English literature",
+    "Father Brown (Fictitious character)",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Large type books",
+    "Spanish Detective and mystery stories"
+  ],
+  "ol_work_key": "/works/OL76460W"
 }

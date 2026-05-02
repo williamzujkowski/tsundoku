@@ -1,7 +1,7 @@
 {
   "title": "The Conquest of Bread",
   "author": "Petr Alekseevich Kropotkin (kni︠a︡zʹ)",
-  "category": "Fantasy",
+  "category": "Economics",
   "priority": 2,
   "slug": "the-conquest-of-bread",
   "tags": [
@@ -28,5 +28,52 @@
     "Communism and society"
   ],
   "description": "The Conquest of Bread is an 1892 book by the Russian anarchist Peter Kropotkin. Originally written in French, it first appeared as a series of articles in the anarchist journal Le Révolté. It was first published in Paris with a preface by Élisée Reclus, who also suggested the title. Between 1892 and 1894, it was serialized in part in the London journal Freedom, of which Kropotkin was a co-founder.",
-  "isbn": "9788493476243"
+  "isbn": "9788493476243",
+  "ddc": [
+    "355.43",
+    "335.83"
+  ],
+  "lcc": [
+    "HX-0632.00000000.K7613 1913",
+    "HX-0632.00000000.K7613 1919",
+    "HX-0632.00000000.K7616 1948",
+    "HX-0632.00000000.K75913 2015",
+    "HX-0632.00000000.K76 1921",
+    "HX-0915.00000000.K8 1907",
+    "HX-0915.00000000.K8",
+    "HX-0632.00000000.K7613 1972",
+    "HX-0630.00000000.K763",
+    "HX-0915.00000000.K819 1906",
+    "HX-0915.00000000 K713 1972",
+    "HX-0915.00000000 K713",
+    "HX-0632.00000000.K7618 1909",
+    "HX-0632.00000000.K7613 2008",
+    "HX-0915.00000000 K717",
+    "HX-0915.00000000.K95",
+    "HX-0632.00000000.K7613 1972b",
+    "HX-0915.00000000.K85",
+    "HX-0915.00000000.K7919 1906",
+    "HX-0632.00000000",
+    "HX-0632.00000000.K759 2008",
+    "HX-0632.00000000.K7613 1985",
+    "HX-0915.00000000 K713 1927",
+    "HX-0632.00000000.K7618 1928",
+    "HX-0915.00000000.K8 1926",
+    "HX-0915.00000000.K8 2011",
+    "HX-0630.00000000",
+    "HX-0195.00000000.K79"
+  ],
+  "subject_facet": [
+    "Anarchism",
+    "Anarchism and anarchists",
+    "Anarchists",
+    "Collected works",
+    "Communism",
+    "Communism and ecology",
+    "Communism and society",
+    "Communism, history",
+    "History",
+    "Political science"
+  ],
+  "ol_work_key": "/works/OL1105382W"
 }

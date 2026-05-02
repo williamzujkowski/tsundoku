@@ -38,5 +38,17 @@
   "librivox_url": "https://librivox.org/the-young-visiters-by-daisy-ashford/",
   "gutenberg_id": 21415,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/21415",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/21415.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/21415.html.images",
+  "ddc": [
+    "823"
+  ],
+  "lcc": [
+    "PR-6001.00000000.S44Y7 1919b",
+    "PZ-0003.00000000.A8245 Y10"
+  ],
+  "subject_facet": [
+    "Children's writings, English",
+    "Juvenile fiction"
+  ],
+  "ol_work_key": "/works/OL37979386W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Imago Sequence",
   "author": "Laird Barron",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-imago-sequence",
   "tags": [
@@ -26,5 +26,15 @@
     "Fiction, fantasy, short stories",
     "Fiction, horror",
     "Fiction, short stories (single author)"
-  ]
+  ],
+  "lcc": [
+    "PS-3602.00000000.A83725 I37 2009",
+    "PS-3602.00000000"
+  ],
+  "subject_facet": [
+    "Fiction, horror",
+    "Fiction, short stories (single author)",
+    "Serial murders, fiction"
+  ],
+  "ol_work_key": "/works/OL21009219W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Quantum Rose",
   "author": "Catherine Asaro",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 3,
   "slug": "the-quantum-rose",
   "tags": [
@@ -25,5 +25,20 @@
     "Skolian Empire (Imaginary place)",
     "award:nebula_award=novel",
     "Fiction, science fiction, action & adventure"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S29 Q36 2000",
+    "PS-3551.00000000.S29Q36 2000"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, action & adventure",
+    "Life on other planets",
+    "Skolian Empire (Imaginary place)",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL78622W"
 }

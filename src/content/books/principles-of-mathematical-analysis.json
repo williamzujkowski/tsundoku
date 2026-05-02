@@ -26,5 +26,26 @@
   ],
   "description": "Principles of Mathematical Analysis, colloquially known as PMA or Baby Rudin, is an undergraduate real analysis textbook written by Walter Rudin. Initially published by McGraw Hill in 1953, it is one of the most famous mathematics textbooks ever written. It is on the list of 173 books essential for undergraduate math libraries. It earned Rudin the Leroy P. Steele Prize for Mathematical Exposition in 1993.",
   "pages": 270,
-  "isbn": "9780070542358"
+  "isbn": "9780070542358",
+  "ddc": [
+    "515",
+    "517"
+  ],
+  "lcc": [
+    "QA-0300.00000000.R8 1976",
+    "QA-0300.00000000.R8 1964",
+    "QA-0303.00000000",
+    "QA-0300.00000000.R8"
+  ],
+  "subject_facet": [
+    "Analysis",
+    "Analysis (mathematics)",
+    "Calculus",
+    "Functions",
+    "Grundlage",
+    "Mathematical analysis",
+    "Mathematical analysis - general & miscellaneous",
+    "Mathematics"
+  ],
+  "ol_work_key": "/works/OL1295436W"
 }

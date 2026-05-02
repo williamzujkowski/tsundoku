@@ -1,7 +1,7 @@
 {
   "title": "The Thief",
   "author": "Megan Whalen Turner",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-thief",
   "tags": [
@@ -30,5 +30,35 @@
     "Brigands and robbers",
     "Reading Level-Grade 7",
     "Reading Level-Grade 9"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.T85565 Th 1998",
+    "PZ-0007.00000000.T85565Th 1998",
+    "PZ-0007.00000000.T85565Th 1996",
+    "PZ-0007.00000000.T85565 Th 1996"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers",
+    "Adventure and adventurers, fiction",
+    "Adventure fiction",
+    "Adventure stories",
+    "Brigands and robbers",
+    "Children's fiction",
+    "Fiction",
+    "Juvenile Fiction",
+    "Newbery Honor",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "Robbers and outlaws",
+    "Robbers and outlaws, fiction",
+    "Thieves"
+  ],
+  "ol_work_key": "/works/OL14872532W"
 }

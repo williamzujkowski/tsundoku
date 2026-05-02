@@ -1,7 +1,7 @@
 {
   "title": "The Priory of the Orange Tree",
   "author": "Samantha Shannon",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-priory-of-the-orange-tree",
   "tags": [
@@ -29,5 +29,28 @@
     "Inheritance and succession",
     "Kings, queens, rulers",
     "General"
-  ]
+  ],
+  "lcc": [
+    "PR-6119.00000000.H365",
+    "PR-6119.00000000.H365 P75 2019"
+  ],
+  "subject_facet": [
+    "Assassins",
+    "Courts and courtiers",
+    "Dragons",
+    "English literature",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "General",
+    "Imaginary places",
+    "Inheritance and succession",
+    "Kings, queens, rulers",
+    "Magic",
+    "New York Times bestseller",
+    "Queens",
+    "nyt:hardcover-fiction=2019-03-17"
+  ],
+  "ol_work_key": "/works/OL20157354W"
 }

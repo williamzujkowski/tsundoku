@@ -1,7 +1,7 @@
 {
   "title": "The Adolescent",
   "author": "Fyodor Dostoevsky",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "the-adolescent",
   "tags": [],
@@ -26,5 +26,9 @@
     "Social conditions"
   ],
   "cover_url": "https://covers.openlibrary.org/b/id/9415384-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9415384-L.jpg"
+  "cover_url_large": "https://covers.openlibrary.org/b/id/9415384-L.jpg",
+  "ddc": [
+    "891.733"
+  ],
+  "ol_work_key": "/works/OL40340632W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Samarkand",
   "author": "Amin Maalouf",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "samarkand",
   "tags": [],
@@ -17,5 +17,40 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=r3o0AgAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "843.914",
+    "843"
+  ],
+  "lcc": [
+    "PQ-3979.20000000.M28S213",
+    "PQ-3979.20000000.M28 S2187 2017",
+    "PQ-3979.20000000.M78 S213 1994",
+    "PQ-3979.20000000.M28 S2 1988",
+    "PQ-3979.20000000.M28 S213 1998",
+    "PQ-3979.20000000.M78S213",
+    "PQ-3979.20000000.M28 S2x 1988",
+    "PQ-2673.00000000",
+    "PQ-3979.20000000.M28 S218 2018",
+    "PQ-3979.20000000.M28 S213 1996",
+    "PQ-3979.20000000.M28 S215 2002"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Histoire",
+    "Historical fiction",
+    "History",
+    "In literature",
+    "Lebanese fiction (French)",
+    "New York Times reviewed",
+    "Persian poet and sage",
+    "Roman historique",
+    "Roman libanais (français)",
+    "Roman, nouvelles",
+    "Rubaiyaat",
+    "Translations into Persian"
+  ],
+  "ol_work_key": "/works/OL19845088W"
 }

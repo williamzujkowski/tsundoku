@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Rumi",
-  "category": "Philosophy",
+  "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems-10",
   "tags": [
@@ -30,5 +30,11 @@
     "Philosophy",
     "Eastern - General",
     "Religion / Sufism"
-  ]
+  ],
+  "subject_facet": [
+    "Persian poetry, translations into english",
+    "Poetry (poetic works by one author)",
+    "Sufi poetry"
+  ],
+  "ol_work_key": "/works/OL28033588W"
 }

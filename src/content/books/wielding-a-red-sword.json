@@ -1,7 +1,7 @@
 {
   "title": "Wielding a Red Sword",
   "author": "Piers Anthony",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "wielding-a-red-sword",
   "tags": [
@@ -24,5 +24,23 @@
     "Good and evil",
     "American Fantasy fiction",
     "Fiction, fantasy, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.O243",
+    "PS-3551.00000000.N73",
+    "PS-3551.00000000.N73 W48 1986",
+    "PS-3551.00000000.N73 W48 1987"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Devil",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Hell"
+  ],
+  "ol_work_key": "/works/OL10518815W"
 }

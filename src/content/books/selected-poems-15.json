@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Gwendolyn Brooks",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "selected-poems-15",
   "tags": [
@@ -28,5 +28,32 @@
   ],
   "description": "We are things of dry hours and the involuntary plan,",
   "pages": 127,
-  "isbn": "9780060105365"
+  "isbn": "9780060105365",
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3503.00000000.R7244A6 2005",
+    "PS-3503.00000000.R7244 A6 1963",
+    "PS-3503.00000000.R7244",
+    "PS-3503.00000000.R7244A6 1999",
+    "PS-3503.00000000.R7244 A6 2005",
+    "PS-3503.00000000.R7244 A6 2006",
+    "PS-3503.00000000.R7244 A6 1999",
+    "PS-3503.00000000.R7244A6"
+  ],
+  "subject_facet": [
+    "811/.54",
+    "African American authors",
+    "African Americans",
+    "American poetry",
+    "Authorship",
+    "National Book Foundation (U.S.)",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Ps3503.r7244 a6 2005",
+    "Pulitzer Prizes",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL2008346W"
 }

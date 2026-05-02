@@ -1,7 +1,7 @@
 {
   "title": "Childe Harold's Pilgrimage",
   "author": "Lord Byron",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "childe-harolds-pilgrimage",
   "tags": [
@@ -66,5 +66,6 @@
     "Translations into English",
     "Travel"
   ],
-  "ol_work_key": "/works/OL1092576W"
+  "ol_work_key": "/works/OL1092576W",
+  "pages": 232
 }

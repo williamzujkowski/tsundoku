@@ -1,7 +1,7 @@
 {
   "title": "Six Walks in the Fictional Woods",
   "author": "Umberto Eco",
-  "category": "Literature",
+  "category": "Literary Criticism",
   "priority": 1,
   "slug": "six-walks-in-the-fictional-woods",
   "tags": [],
@@ -18,5 +18,32 @@
   ],
   "google_books_url": "http://books.google.com/books?id=OVlc7GZWvB8C&dq=Six+Walks+in+the+Fictional+Woods+Umberto+Eco&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "808.3"
+  ],
+  "lcc": [
+    "PN-3355.00000000.E28 1994",
+    "PN-3355.00000000.E2816 1994",
+    "PN-3355.00000000",
+    "PN-3355.00000000.E28 1995",
+    "PN-3355.00000000.E2816 1994g"
+  ],
+  "subject_facet": [
+    "Ecrivains et lecteurs",
+    "Fiction",
+    "Fiction, technique",
+    "Histoire et critique",
+    "Interprétation (méthode)",
+    "Literature, philosophy",
+    "Narration",
+    "Narration (Rhetoric)",
+    "Nerval, gerard de, 1808-1855",
+    "Roman",
+    "Roman (genre littéraire)",
+    "Technique",
+    "Théorie",
+    "Verteltheorie"
+  ],
+  "ol_work_key": "/works/OL14853062W"
 }

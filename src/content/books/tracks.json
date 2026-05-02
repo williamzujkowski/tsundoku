@@ -1,7 +1,7 @@
 {
   "title": "Tracks",
   "author": "Louise Erdrich",
-  "category": "Non-Western Literature",
+  "category": "Literature",
   "priority": 2,
   "slug": "tracks",
   "tags": [],
@@ -22,5 +22,31 @@
     "Indians of north america, fiction",
     "Large type books"
   ],
-  "pages": 226
+  "pages": 226,
+  "ddc": [
+    "813",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3555.00000000.R42 T73 1989b",
+    "PS-3555.00000000.R42T73 1988",
+    "PS-3555.00000000.R42T73 1989",
+    "PS-3555.00000000.R42 T73 1998",
+    "PS-3555.00000000.R42 T73 1989",
+    "PS-3555.00000000.R42",
+    "PS-3552.00000000.R42 T73 1989",
+    "PS-3552.00000000.R42",
+    "PS-3555.00000000.R42T73 2004",
+    "PS-3555.00000000.R42 T73 1988",
+    "PS-3555.00000000.R42T73 2015",
+    "PS-3555.00000000.R42 T73 1998b"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, general",
+    "Indians of north america, fiction",
+    "Large type books",
+    "Ojibwa Indians"
+  ],
+  "ol_work_key": "/works/OL479024W"
 }

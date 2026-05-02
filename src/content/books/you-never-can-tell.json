@@ -1,7 +1,7 @@
 {
   "title": "You Never Can Tell",
   "author": "George Bernard Shaw",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "you-never-can-tell",
   "tags": [
@@ -37,5 +37,25 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2175",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2175.html.images",
   "description": "You Never Can Tell is an 1897 four-act play by Bernard Shaw that debuted at the Royalty Theatre. It was published as part of a volume of Shaw's plays entitled Plays Pleasant.",
-  "isbn": "9780353168978"
+  "isbn": "9780353168978",
+  "ddc": [
+    "822.912"
+  ],
+  "lcc": [
+    "PR-5363.00000000.Y6 1981",
+    "PR-5363.00000000.Y6 1906",
+    "PR-5363.00000000.Y6 1992",
+    "PR-5363.00000000.Y6 1913",
+    "PR-5363.00000000.Y6 1967",
+    "HE-2757.00000000 1913 .E5",
+    "PR-5363.00000000.Y6 1961"
+  ],
+  "subject_facet": [
+    "Facsimiles",
+    "Finance",
+    "Manuscripts",
+    "Railroads",
+    "Railroads and state"
+  ],
+  "ol_work_key": "/works/OL1066341W"
 }

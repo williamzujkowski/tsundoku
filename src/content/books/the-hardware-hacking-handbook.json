@@ -19,5 +19,10 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=nURBDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "subject_facet": [
+    "Computer Security",
+    "Hardware Security"
+  ],
+  "ol_work_key": "/works/OL27740875W"
 }

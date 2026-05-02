@@ -1,7 +1,7 @@
 {
   "title": "UNIX Network Programming, Volume 1",
   "author": "W. Richard Stevens",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "unix-network-programming-volume-1",
   "tags": [
@@ -19,5 +19,38 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=ptSC4LpwGA0C&dq=UNIX+Network+Programming,+Volume+1+W.+Richard+Stevens&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.71",
+    "005.712768"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63 S755 1998",
+    "QA-0076.76000000.O63S755 1998",
+    "QA-0076.76000000.O63S755 1990",
+    "QA-0076.76000000.O63 S755 2004",
+    "QA-0076.76000000.O63 S755 1990"
+  ],
+  "subject_facet": [
+    "005.7/12768",
+    "005.71",
+    "Computer networks",
+    "Computernetwerken",
+    "Internet programming",
+    "Logiciel réseau",
+    "Operating systems - computer networks",
+    "Protocoles de réseaux d'ordinateurs",
+    "Qa76.76.o63 s755 1998",
+    "Qa76.76.o63 s755 2004",
+    "Réseau ordinateur",
+    "Réseaux d'ordinateurs",
+    "Sistemas operacionais (computadores)",
+    "Teleinformatica",
+    "UNIX",
+    "UNIX (Computer file)",
+    "UNIX (système d'exploitation des ordinateurs)",
+    "Unix (computer operating system)",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL2705895W"
 }

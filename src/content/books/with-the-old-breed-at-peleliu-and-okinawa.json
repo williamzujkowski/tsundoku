@@ -23,5 +23,35 @@
   "description": "With the Old Breed: At Peleliu and Okinawa is a World War II memoir by United States Marine, Eugene Sledge, first published in 1981. The memoir is based on notes Sledge kept tucked away in a pocket-sized Bible he carried with him during battles he fought at Peleliu and Okinawa. The book formed part of the basis of the material covered by Ken Burns' PBS documentary The War (2007), as well as the HBO miniseries The Pacific (2010), in which Sledge was portrayed by Joseph Mazzello.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/50/With_the_Old_Breed_%28Eugene_B._Sledge_book_-_cover_art%29.jpg",
   "pages": 368,
-  "isbn": "9780891419068"
+  "isbn": "9780891419068",
+  "lcc": [
+    "D--0767.99000000.P4 S55 2007",
+    "D--0767.99000000.P4 S55 2010"
+  ],
+  "subject_facet": [
+    "American Personal narratives",
+    "Biography",
+    "Campaigns",
+    "History",
+    "Marines",
+    "Nonfiction",
+    "Okinawa island (japan)",
+    "Peleliu, Battle of, Palau, 1944",
+    "Soldiers",
+    "United States",
+    "United States. Marine Corps",
+    "United States. Marine Corps. Marine Regiment, 5th. Battalion, 3rd.  Company K",
+    "United States. Marine Corps. Marine Regiment, 5th. Battalion, 3rd. Company K",
+    "United States. Marine Corps. Marine Regiment, 5th. Battalion, 3rd. Company K.",
+    "United States. Marine Corps. Marines, 5th. Battalion, 3rd. Company K.",
+    "United States. Marine Corps. Regiment, 5th. Battalion, 3rd. Company K.",
+    "United states, marine corps, biography",
+    "United states, marine corps, history",
+    "World War, 1939-1945",
+    "World war, 1939-1945, campaigns, japan, okinawa island",
+    "World war, 1939-1945, campaigns, palau",
+    "World war, 1939-1945, personal narratives, american"
+  ],
+  "first_published": 2007,
+  "ol_work_key": "/works/OL8621576W"
 }

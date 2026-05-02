@@ -1,7 +1,7 @@
 {
   "title": "Thud!",
   "author": "Terry Pratchett",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "thud",
   "tags": [
@@ -30,5 +30,32 @@
     "English literature",
     "Large type books",
     "Fiction, humorous, general"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6066.00000000.R34 T49 2014",
+    "PR-6066.00000000.R34.T48 2006b",
+    "PR-6066.00000000.R34",
+    "PR-6066.00000000.R34T49 2005",
+    "PR-6066.00000000.R34 T49 2005",
+    "PR-6066.00000000.R34 T49 2006"
+  ],
+  "subject_facet": [
+    "Discworld (Imaginary place)",
+    "Discworld (imaginary place), fiction",
+    "English Fantasy fiction",
+    "English literature",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Large type books",
+    "Samuel Vimes (Fictitious character)",
+    "Translations into German"
+  ],
+  "ol_work_key": "/works/OL453852W"
 }

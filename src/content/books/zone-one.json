@@ -1,7 +1,7 @@
 {
   "title": "Zone One",
   "author": "Colson Whitehead",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "zone-one",
   "tags": [
@@ -29,5 +29,29 @@
     "Fiction, horror",
     "New york (n.y.), fiction",
     "New York Times reviewed"
-  ]
+  ],
+  "ddc": [
+    "813.6",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.H4768 Z36 2011",
+    "PS-3573.00000000.H4768",
+    "PS-3573.00000000.H4768 Z36 2012"
+  ],
+  "subject_facet": [
+    "Epidemics",
+    "Fiction",
+    "Fiction, horror",
+    "Large type books",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "New york (n.y.), fiction",
+    "Survival",
+    "Virus diseases",
+    "Viruses",
+    "Zombies",
+    "nyt:hardcover_fiction=2011-10-29"
+  ],
+  "ol_work_key": "/works/OL15917217W"
 }

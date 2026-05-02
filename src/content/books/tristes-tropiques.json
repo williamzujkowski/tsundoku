@@ -1,7 +1,7 @@
 {
   "title": "Tristes Tropiques",
   "author": "Claude Lévi-Strauss",
-  "category": "Literature",
+  "category": "History",
   "priority": 1,
   "slug": "tristes-tropiques",
   "tags": [
@@ -19,5 +19,63 @@
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "980.41",
+    "918.1",
+    "981.00498",
+    "980.3",
+    "981"
+  ],
+  "lcc": [
+    "F--2520.00000000.L4813 2012",
+    "F--2519.30000000.S6",
+    "F--2515.00000000",
+    "F--2520.00000000.L4813 1967",
+    "F--2515.00000000.L49x",
+    "F--2520.00000000.L4813 1997",
+    "D--0802.00000000.F8 H68",
+    "F--2515.00000000 L493 1973",
+    "F--2520.00000000.L4813 1973",
+    "F--2515.00000000.L493",
+    "F--2520.00000000.L4813 1963",
+    "F--2519.00000000.L49 1973",
+    "F--2520.00000000.L4813 1974",
+    "F--2515.00000000.L49 1955",
+    "F--2515.00000000 L49 1955",
+    "F--2515.00000000 L49 1970",
+    "F--2520.00000000.L4813 1992",
+    "F--2520.00000000",
+    "F--2515.00000000.L49",
+    "F--2515.00000000.L4913 1961a",
+    "F--2515.00000000.L49x 1970",
+    "F--2515.00000000.L48 2005",
+    "F--2520.00000000.L48 1955",
+    "F--2515.00000000 L49"
+  ],
+  "subject_facet": [
+    "Anthropology",
+    "Brazil, description and travel",
+    "Civilization",
+    "Conseil national de la Résistance (France)",
+    "Description and travel",
+    "Descriptions et voyages",
+    "Ethnologie",
+    "History",
+    "Indians of south america",
+    "Indians of south america, social conditions",
+    "Indians of south america, social life and customs",
+    "Indiens d'Amérique",
+    "Indigenous peoples",
+    "Religion primitive",
+    "Ren lei xue",
+    "Social life and customs",
+    "Société primitive",
+    "Strukturalismus",
+    "Travel",
+    "Underground movements",
+    "World War, 1939-1945",
+    "Yan jiu"
+  ],
+  "ol_work_key": "/works/OL8261409W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Revolution for the Hell of It",
   "author": "Abbie Hoffman",
-  "category": "Literature",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "revolution-for-the-hell-of-it",
   "tags": [
@@ -26,5 +26,23 @@
   "open_library_url": "https://openlibrary.org/works/OL3744647W",
   "first_published": 1968,
   "pages": 245,
-  "isbn": "9781560256908"
+  "isbn": "9781560256908",
+  "ddc": [
+    "323.2",
+    "303.484"
+  ],
+  "lcc": [
+    "HQ-0799.70000000.H6 2005",
+    "HQ-0799.70000000.H6"
+  ],
+  "subject_facet": [
+    "Abbie Hoffman",
+    "Biography",
+    "Essays",
+    "History",
+    "Radicalism",
+    "Radicals",
+    "Youth International Party"
+  ],
+  "ol_work_key": "/works/OL3744647W"
 }

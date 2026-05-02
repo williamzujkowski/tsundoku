@@ -1,7 +1,7 @@
 {
   "title": "The Map of Love",
   "author": "Ahdaf Soueif",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-map-of-love",
   "tags": [
@@ -29,5 +29,29 @@
     "New York Times reviewed",
     "Fiction, historical, general",
     "Marriage, fiction"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6069.00000000.O78M37 2007",
+    "PR-6069.00000000.O78M37 2000",
+    "PR-6069.00000000.O78M37 1999",
+    "PR-6069.00000000.O78 M37 1999",
+    "PR-6069.00000000.O78 M37 2000"
+  ],
+  "subject_facet": [
+    "Domestic fiction",
+    "Egypt, fiction",
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, romance, general",
+    "Fiction, sagas",
+    "Historical fiction",
+    "Interracial marriage",
+    "Marriage, fiction",
+    "New York Times reviewed"
+  ],
+  "ol_work_key": "/works/OL930240W"
 }

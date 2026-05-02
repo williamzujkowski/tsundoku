@@ -1,7 +1,7 @@
 {
   "title": "The Flick",
   "author": "Annie Baker",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-flick",
   "tags": [
@@ -27,5 +27,25 @@
     "SOCIAL SCIENCE / Sociology / Rural",
     "American drama (dramatic works by one author)",
     "American literature"
-  ]
+  ],
+  "ddc": [
+    "812.6"
+  ],
+  "lcc": [
+    "PS-3602.00000000.A5842 F58 2014",
+    "PS-3602.00000000.A5842",
+    "PS-3602.00000000.A5842 F55 2014",
+    "PS-3602.00000000.A5842F58 2014"
+  ],
+  "subject_facet": [
+    "ART / Film & Video",
+    "American drama (dramatic works by one author)",
+    "American literature",
+    "DRAMA / American",
+    "Drama",
+    "Employees",
+    "Motion picture theaters",
+    "SOCIAL SCIENCE / Sociology / Rural"
+  ],
+  "ol_work_key": "/works/OL20025015W"
 }

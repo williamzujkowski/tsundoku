@@ -1,7 +1,7 @@
 {
   "title": "Train Dreams",
   "author": "Denis Johnson",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "train-dreams",
   "tags": [
@@ -29,5 +29,29 @@
     "Reading Level-Grade 12",
     "Fiction, historical, general",
     "Fiction, historical"
-  ]
+  ],
+  "ddc": [
+    "813.6",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3560.00000000.O3745 T73 2011",
+    "PS-3560.00000000.O3745T73 2011",
+    "PS-3560.00000000.O3745"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "History",
+    "Railroad construction workers",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 7",
+    "Reading Level-Grade 8",
+    "Reading Level-Grade 9",
+    "West (u.s.), fiction"
+  ],
+  "ol_work_key": "/works/OL15916948W"
 }

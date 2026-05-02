@@ -1,7 +1,7 @@
 {
   "title": "The Maid of Sker",
   "author": "R D (Richard Doddridge) Blackmore",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-maid-of-sker",
   "tags": [
@@ -31,5 +31,26 @@
   ],
   "gutenberg_id": 46156,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/46156",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46156.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/46156.html.images",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B567 M9",
+    "PR-4132.00000000 M32 1893",
+    "PZ-0003.00000000.B567 M2",
+    "PR-4132.00000000 M9",
+    "PZ-0003.00000000.B567 M12",
+    "PR-4132.00000000 M2",
+    "PZ-0003.00000000.B567 M",
+    "PR-4132.00000000 M5",
+    "PZ-0003.00000000.B567 M5",
+    "PR-4132.00000000 M12",
+    "PR-4132.00000000 M"
+  ],
+  "subject_facet": [
+    "English fiction",
+    "Fiction, historical, general"
+  ],
+  "ol_work_key": "/works/OL3686168W"
 }

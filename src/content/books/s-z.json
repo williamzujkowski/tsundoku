@@ -1,7 +1,7 @@
 {
   "title": "S/Z",
   "author": "Roland Barthes",
-  "category": "Literary Criticism",
+  "category": "Literature",
   "priority": 1,
   "slug": "s-z",
   "tags": [],
@@ -20,5 +20,22 @@
     "Semiotics",
     "Balzac, honore de, 1799-1850",
     "Balzac, honoré de , 1799-1850"
-  ]
+  ],
+  "ddc": [
+    "843.7",
+    "301.21"
+  ],
+  "lcc": [
+    "P--0099.00000000",
+    "P--0099.00000000 B313 1974",
+    "PQ-2169.00000000.R4 B3",
+    "P--0099.00000000.B313 1974",
+    "P--0099.00000000.B3 1976"
+  ],
+  "subject_facet": [
+    "Balzac, honore de, 1799-1850",
+    "Balzac, honoré de , 1799-1850",
+    "Semiotics"
+  ],
+  "ol_work_key": "/works/OL1375093W"
 }

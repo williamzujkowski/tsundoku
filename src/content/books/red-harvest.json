@@ -1,7 +1,7 @@
 {
   "title": "Red Harvest",
   "author": "Dashiell Hammett",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "red-harvest",
   "tags": [
@@ -30,5 +30,35 @@
     "Private investigators, fiction",
     "United states, fiction"
   ],
-  "isbn": "9780304345274"
+  "isbn": "9780304345274",
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3515.00000000.A4347 R4 1983",
+    "PS-3515.00000000.A4347 Re",
+    "PZ-0003.00000000.H1884 Re7",
+    "PS-3515.00000000.A4347 Re7",
+    "PS-3515.00000000.A4347 R4 1992",
+    "PZ-0003.00000000.H1884 Re",
+    "PS-3515.00000000.A4347R4 2003",
+    "PS-3515.00000000.A4347R4 2012"
+  ],
+  "subject_facet": [
+    "Continental Op (Fictitious character)",
+    "Continental op (fictitious character), fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, crime",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, thrillers, suspense",
+    "Gangs",
+    "Large type books",
+    "Private investigators",
+    "Private investigators, fiction",
+    "United states, fiction"
+  ],
+  "ol_work_key": "/works/OL47269W"
 }

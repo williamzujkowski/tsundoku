@@ -1,7 +1,7 @@
 {
   "title": "Political Liberalism",
   "author": "John Rawls",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "political-liberalism-2",
   "tags": [
@@ -36,5 +36,35 @@
     "United states, politics and government",
     "United states, social conditions"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "320.51"
+  ],
+  "lcc": [
+    "JC-0578.00000000.R37 1996x",
+    "JC-0578.00000000.R37 1996",
+    "JC-0578.00000000.R37 1993",
+    "JC-0578.00000000.R37 2005"
+  ],
+  "subject_facet": [
+    "320.51",
+    "Démocratie",
+    "Gerechtigkeit",
+    "Jc578 .r37 2005",
+    "Justice",
+    "Justice distributive",
+    "Justice sociale",
+    "Liberalism",
+    "Liberalisme",
+    "Liberalismus",
+    "Libéralisme",
+    "Libéralisme économique",
+    "Pluralisme (sciences sociales)",
+    "Political stability",
+    "Problèmes sociaux",
+    "Rechtvaardigheid",
+    "Stabilité politique",
+    "Économie politique"
+  ],
+  "ol_work_key": "/works/OL30308W"
 }

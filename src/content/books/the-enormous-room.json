@@ -1,7 +1,7 @@
 {
   "title": "The Enormous Room",
   "author": "E. E. Cummings",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-enormous-room",
   "tags": [
@@ -32,5 +32,30 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8446",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8446.html.images",
   "librivox_url": "https://librivox.org/the-enormous-room-by-e-e-cummings/",
-  "isbn": "9781975621735"
+  "isbn": "9781975621735",
+  "lcc": [
+    "PS-3505.00000000.U334E56 2014",
+    "PS-3505.00000000.U334 E56 2014",
+    "D--0570.90000000",
+    "PS-3505.00000000.U334",
+    "PS-3505.00000000.U334E56 2022"
+  ],
+  "subject_facet": [
+    "Ambulance drivers",
+    "American fiction (fictional works by one author)",
+    "Americans",
+    "Concentration camp inmates",
+    "Concentration camps",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, classics",
+    "Fiction, historical",
+    "Fiction, war & military",
+    "France, fiction",
+    "World War (1914-1918) fast (OCoLC)fst01180746",
+    "World War (1914-1918) fast (OCoLC)fst01180746 (uri) http://id.worldcat.org/fast/fst01180746",
+    "World War, 1914-1918",
+    "World war, 1914-1918, fiction"
+  ],
+  "ol_work_key": "/works/OL21077191W"
 }

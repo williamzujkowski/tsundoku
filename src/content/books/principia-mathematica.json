@@ -1,7 +1,7 @@
 {
   "title": "Principia Mathematica",
   "author": "Whitehead & Russell",
-  "category": "Philosophy",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "principia-mathematica",
   "tags": [
@@ -45,5 +45,6 @@
     "Philosophy of Mathematics",
     "Symbolic and mathematical Logic"
   ],
-  "ol_work_key": "/works/OL1133702W"
+  "ol_work_key": "/works/OL1133702W",
+  "pages": 410
 }

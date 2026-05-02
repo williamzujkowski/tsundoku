@@ -1,7 +1,7 @@
 {
   "title": "Robots and Empire",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "robots-and-empire",
   "tags": [
@@ -29,5 +29,26 @@
     "space stations",
     "space-based solar power"
   ],
-  "description": "Je compulsais mes notes avec un sentiment d'insatisfaction"
+  "description": "Je compulsais mes notes avec un sentiment d'insatisfaction",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 R64 1985",
+    "PS-3551.00000000.S5 R64 1985k"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Ciencia ficción",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, science fiction, hard science fiction",
+    "Long Now Manual for Civilization",
+    "Novela",
+    "Robots",
+    "Science fiction",
+    "fiction\""
+  ],
+  "ol_work_key": "/works/OL46178W"
 }

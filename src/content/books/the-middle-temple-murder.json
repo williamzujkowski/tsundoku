@@ -1,7 +1,7 @@
 {
   "title": "The Middle Temple Murder",
   "author": "Joseph Smith Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-middle-temple-murder",
   "tags": [
@@ -29,5 +29,25 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/26468",
   "gutenberg_read_url": "https://www.gutenberg.org/files/26468/26468_index.html",
   "description": "As a rule, Spargo left the Watchman office at two o'clock.",
-  "isbn": "9781795329262"
+  "isbn": "9781795329262",
+  "ddc": [
+    "800",
+    "823.912"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.F634 Mi",
+    "PR-6011.00000000.L5 Mi",
+    "PR-6011.00000000.L5 Mi 1980",
+    "PZ-0003.00000000.F634 Mi 1980",
+    "PR-6011.00000000.L5"
+  ],
+  "subject_facet": [
+    "Crime, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Journalists, fiction",
+    "London (england), fiction",
+    "Middle Temple (London, England)"
+  ],
+  "ol_work_key": "/works/OL1797756W"
 }

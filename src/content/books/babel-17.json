@@ -1,7 +1,7 @@
 {
   "title": "Babel-17",
   "author": "Samuel R. Delany",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "babel-17",
   "tags": [
@@ -71,5 +71,6 @@
     "award:nebula_award=novel",
     "collection:otherwise_tiptree_award=retrohonor"
   ],
-  "ol_work_key": "/works/OL56834W"
+  "ol_work_key": "/works/OL56834W",
+  "pages": 193
 }

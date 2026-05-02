@@ -1,7 +1,7 @@
 {
   "title": "Top Girls",
   "author": "Caryl Churchill",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "top-girls",
   "tags": [
@@ -21,5 +21,21 @@
   "subjects": [
     "Churchill, caryl, 1938-",
     "English drama, history and criticism, 20th century"
-  ]
+  ],
+  "lcc": [
+    "PR-6053.00000000.H786",
+    "PR-6053.00000000.H786.T6 2012"
+  ],
+  "subject_facet": [
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "English & college success -> english -> literary criticism",
+    "English, irish, scottish, welsh",
+    "Humanities -> theatre -> playwriting",
+    "Humanities -> theatre -> special topics",
+    "Playwriting",
+    "Pya",
+    "Tr"
+  ],
+  "ol_work_key": "/works/OL25709510W"
 }

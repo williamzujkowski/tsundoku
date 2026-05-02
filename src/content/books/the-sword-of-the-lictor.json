@@ -1,7 +1,7 @@
 {
   "title": "The Sword of the Lictor",
   "author": "Gene Wolfe",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-sword-of-the-lictor",
   "tags": [
@@ -19,5 +19,16 @@
   ],
   "description": "The Sword of the Lictor is a science fantasy novel by American writer Gene Wolfe. First released in 1982, it is the third volume in the four-volume series The Book of the New Sun.",
   "pages": 302,
-  "isbn": "9788445071434"
+  "isbn": "9788445071434",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3573.00000000.O52 S9 1982",
+    "PS-3573.00000000.O52 S9"
+  ],
+  "subject_facet": [
+    "Science fiction"
+  ],
+  "ol_work_key": "/works/OL14871972W"
 }

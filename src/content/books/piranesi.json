@@ -1,7 +1,7 @@
 {
   "title": "Piranesi",
   "author": "Susanna Clarke",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "piranesi",
   "tags": [
@@ -29,5 +29,27 @@
     "Dwellings",
     "Dead"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6103.00000000.L375 P57 2020",
+    "PR-6103.00000000.L375P5 2024",
+    "PR-6103.00000000.L375",
+    "PR-6103.00000000.L375P57 2020"
+  ],
+  "subject_facet": [
+    "Curiosities and wonders",
+    "Dead",
+    "Dwellings",
+    "English literature",
+    "Fiction",
+    "Labyrinths",
+    "New York Times bestseller",
+    "form:novel",
+    "genre:fantasy",
+    "nyt:combined-print-and-e-book-fiction=2020-10-04"
+  ],
+  "ol_work_key": "/works/OL20893680W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Moving Target",
   "author": "Ross Macdonald",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-moving-target",
   "tags": [
@@ -23,5 +23,28 @@
     "Archer, lew (fictitious character), fiction",
     "Los angeles (calif.), fiction",
     "Fiction, mystery & detective, hard-boiled"
-  ]
+  ],
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.M59943 Mo 1979b",
+    "PS-3525.00000000.I486 M67 1979",
+    "PS-3525.00000000.I486 M67 1998",
+    "PS-3525.00000000.I486",
+    "PZ-0003.00000000.M59943Mo 1979b",
+    "PS-3525.00000000.I486 Mo 1979b",
+    "PS-3525.00000000.I486M67 1998"
+  ],
+  "subject_facet": [
+    "Archer, lew (fictitious character), fiction",
+    "California, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, hard-boiled",
+    "Large type books",
+    "Lew Archer (Fictitious character)",
+    "Los angeles (calif.), fiction",
+    "Private investigators"
+  ],
+  "ol_work_key": "/works/OL2460950W"
 }

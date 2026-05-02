@@ -1,7 +1,7 @@
 {
   "title": "Either/Or",
   "author": "Søren Kierkegaard",
-  "category": "Literature",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "either-or",
   "tags": [
@@ -39,5 +39,11 @@
     "Philosophy",
     "Pt8142.e57 e5 1992"
   ],
-  "ol_work_key": "/works/OL17158736W"
+  "ol_work_key": "/works/OL17158736W",
+  "ddc": [
+    "198.9",
+    "839.8186",
+    "839.8136"
+  ],
+  "pages": 274
 }

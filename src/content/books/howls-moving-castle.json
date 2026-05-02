@@ -1,7 +1,7 @@
 {
   "title": "Howl's Moving Castle",
   "author": "Diana Wynne Jones",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "howls-moving-castle",
   "tags": [
@@ -56,5 +56,6 @@
     "deamons",
     "magic"
   ],
-  "ol_work_key": "/works/OL60149W"
+  "ol_work_key": "/works/OL60149W",
+  "pages": 304
 }

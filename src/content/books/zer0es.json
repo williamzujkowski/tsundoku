@@ -1,7 +1,7 @@
 {
   "title": "Zer0es",
   "author": "Chuck Wendig",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "zer0es",
   "tags": [],
@@ -17,5 +17,18 @@
   "subjects": [
     "Fiction"
   ],
-  "google_books_url": "http://books.google.com/books?id=IOhRswEACAAJ&dq=Zer0es+Chuck+Wendig&hl=&source=gbs_api"
+  "google_books_url": "http://books.google.com/books?id=IOhRswEACAAJ&dq=Zer0es+Chuck+Wendig&hl=&source=gbs_api",
+  "lcc": [
+    "PS-3623.00000000",
+    "PS-3623.00000000.E534 Z47 2015",
+    "PS-3623.00000000.E534"
+  ],
+  "subject_facet": [
+    "Artificial intelligence",
+    "Conspiracies",
+    "Fiction",
+    "Fiction, thrillers, suspense",
+    "Hackers"
+  ],
+  "ol_work_key": "/works/OL19795252W"
 }

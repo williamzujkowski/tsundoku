@@ -1,7 +1,7 @@
 {
   "title": "The Shadow Factory",
   "author": "James Bamford",
-  "category": "Security",
+  "category": "Political Theory",
   "priority": 1,
   "slug": "the-shadow-factory",
   "tags": [],
@@ -27,5 +27,31 @@
     "History",
     "nyt:hardcover-nonfiction=2008-11-02",
     "New York Times bestseller"
-  ]
+  ],
+  "ddc": [
+    "327.1273"
+  ],
+  "lcc": [
+    "UB-0256.00000000.U6B38 2009",
+    "UB-0256.00000000.U6 B38 2009",
+    "UB-0256.00000000.U6 B38 2008"
+  ],
+  "subject_facet": [
+    "Electronic surveillance",
+    "Electronic surveillance, united states",
+    "History",
+    "Intelligence service",
+    "Intelligence service, united states",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Nonfiction",
+    "Politics",
+    "Politics and government",
+    "United States",
+    "United States. National Security Agency",
+    "United states, national security agency/central security service",
+    "United states, politics and government, 2001-2009",
+    "nyt:hardcover-nonfiction=2008-11-02"
+  ],
+  "ol_work_key": "/works/OL117553W"
 }

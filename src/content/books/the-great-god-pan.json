@@ -1,7 +1,7 @@
 {
   "title": "The Great God Pan",
   "author": "Arthur Machen",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-great-god-pan",
   "tags": [
@@ -33,5 +33,43 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/389",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/389.html.images",
   "librivox_url": "https://librivox.org/the-great-god-pan-by-arthur-machen/",
-  "isbn": "9781419164682"
+  "isbn": "9781419164682",
+  "ddc": [
+    "823.8",
+    "[Fic]",
+    "823.89",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6025.00000000.A245 G13",
+    "PR-6025.00000000.A245 G9",
+    "PR-6025.00000000.A245 G74 1993",
+    "PR-6025.00000000.A245",
+    "PZ-0003.00000000.M183 G9",
+    "PZ-0003.00000000.M183 G13"
+  ],
+  "subject_facet": [
+    "Authors",
+    "English Fantasy fiction",
+    "English Horror tales",
+    "Fiction",
+    "Fiction, ghost",
+    "Fiction, horror",
+    "Fiction, occult & supernatural",
+    "Ghost stories",
+    "Horror tales, English",
+    "Pan (greek deity)",
+    "Paranormal fiction",
+    "Supernatural",
+    "arthur machen",
+    "austin osman spare",
+    "classic literature",
+    "decadent",
+    "esoteric",
+    "gothic",
+    "horror",
+    "occult",
+    "pan"
+  ],
+  "ol_work_key": "/works/OL3388961W"
 }

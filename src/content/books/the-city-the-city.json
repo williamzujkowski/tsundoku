@@ -1,7 +1,7 @@
 {
   "title": "The City & The City",
   "author": "China Miéville",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-city-the-city",
   "tags": [
@@ -29,5 +29,41 @@
     "Enquêtes",
     "Roman anglais",
     "Homicide"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6063.00000000.I265C58 2010",
+    "PR-6063.00000000.I265 C58 2011",
+    "PR-6063.00000000.I265C5814",
+    "PR-6063.00000000.I265C5 2025",
+    "PR-6063.00000000.I265",
+    "PR-6063.00000000.I265 C58 2009",
+    "PR-6063.00000000.I265 C58 2010"
+  ],
+  "subject_facet": [
+    "Crime, fiction",
+    "English fiction",
+    "Enquêtes",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, mystery & detective, general",
+    "Fiction, science fiction, general",
+    "Homicide",
+    "Hugo Award Winner",
+    "Investigation",
+    "Meurtre",
+    "Murder",
+    "Roman anglais",
+    "Romans, nouvelles",
+    "Science fiction",
+    "award:hugo_award=2010",
+    "award:hugo_award=novel",
+    "award:world_fantasy_award=2010",
+    "award:world_fantasy_award=novel"
+  ],
+  "ol_work_key": "/works/OL19341943W"
 }

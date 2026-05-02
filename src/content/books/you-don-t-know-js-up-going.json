@@ -1,7 +1,7 @@
 {
   "title": "You Don't Know JS: Up & Going",
   "author": "Kyle Simpson",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "you-don-t-know-js-up-going",
   "tags": [
@@ -20,5 +20,13 @@
   "subjects": [
     "Java (Computer program language)",
     "JavaScript (Computer program language)"
-  ]
+  ],
+  "lcc": [
+    "QA-0076.73000000.J39 S555 2014"
+  ],
+  "subject_facet": [
+    "Java (Computer program language)",
+    "JavaScript (Computer program language)"
+  ],
+  "ol_work_key": "/works/OL17825963W"
 }

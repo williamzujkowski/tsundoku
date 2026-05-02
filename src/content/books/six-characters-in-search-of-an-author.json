@@ -1,7 +1,7 @@
 {
   "title": "Six Characters in Search of an Author",
   "author": "Luigi Pirandello",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "six-characters-in-search-of-an-author",
   "tags": [
@@ -30,5 +30,47 @@
     "Continental european drama (dramatic works by one author)",
     "Drama, history and criticism",
     "Characters and characteristics"
-  ]
+  ],
+  "ddc": [
+    "852.912"
+  ],
+  "lcc": [
+    "PQ-4835.00000000.I7S413 1998",
+    "PQ-4835.00000000.I7S413 1998b",
+    "AC-0001.00000000.E8 no. 647A",
+    "PQ-4835.00000000 I7 S4 1965",
+    "PQ-4835.00000000.I7 S413 1998b",
+    "PQ-4835.00000000.I7 S4 1964",
+    "PQ-4835.00000000.I7 S413 1979",
+    "PQ-4835.00000000.I7 A2 1952",
+    "PQ-4835.00000000.I7 S413 1998",
+    "PQ-4835.00000000.I7 S413 2001",
+    "PQ-4835.00000000.I7.S413 1979",
+    "PQ-4835.00000000.I7 S4 1954",
+    "PQ-4835.00000000.I7 S413 2003",
+    "PQ-4835.00000000.I7A23",
+    "PQ-4835.00000000.I7",
+    "PQ-4835.00000000.I7 A213 1952b"
+  ],
+  "subject_facet": [
+    "Authorship",
+    "Characters and characteristics",
+    "Characters and characteristics in literature",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Drama, history and criticism",
+    "English drama",
+    "Habimah",
+    "Italian drama -- Translations into English",
+    "Italian literature",
+    "Pirandello, Luigi, 1867-1936 -- Translations into English",
+    "Romance literature",
+    "Specimens",
+    "Teatro",
+    "Theater",
+    "Theater programs",
+    "Tipos literarios",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL100436W"
 }

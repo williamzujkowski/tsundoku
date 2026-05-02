@@ -1,7 +1,7 @@
 {
   "title": "The Quantum Thief",
   "author": "Hannu Rajaniemi",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-quantum-thief",
   "tags": [
@@ -27,5 +27,29 @@
     "Criminals",
     "Theft",
     "Fiction, science fiction, space opera"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-9170.00000000.F563 R35 2011",
+    "PR-9170.00000000.F563 R35 2012",
+    "PR-6118.00000000",
+    "PR-9170.00000000.F563 R35 2011b",
+    "PR-0000.00000000",
+    "PR-9170.00000000.F563R35 2011"
+  ],
+  "subject_facet": [
+    "Crime, fiction",
+    "Criminals",
+    "Criminals, fiction",
+    "Escapes",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Memory",
+    "Theft"
+  ],
+  "first_published": 2010,
+  "ol_work_key": "/works/OL17699438W"
 }

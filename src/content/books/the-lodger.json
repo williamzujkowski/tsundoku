@@ -1,7 +1,7 @@
 {
   "title": "The Lodger",
   "author": "Marie Belloc Lowndes",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-lodger",
   "tags": [
@@ -39,5 +39,52 @@
   ],
   "gutenberg_id": 2014,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2014",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2014.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2014.html.images",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6023.00000000.O95L63 2014",
+    "PZ-0003.00000000.L954 Lo2",
+    "PR-6023.00000000.O95 L63 1996",
+    "PR-6023.00000000.O95 Lo",
+    "PR-6023.00000000.O95 Lo3",
+    "PR-6023.00000000.O95 L63 2014",
+    "PR-6023.00000000.O95L63 1988",
+    "PZ-0003.00000000.L954 Lo",
+    "PZ-0003.00000000.L954 Lo3",
+    "PR-6023.00000000.O95 L63 1988",
+    "PZ-0003.00000000.L954 Lo10",
+    "PR-6023.00000000.O95L6 Lo15",
+    "PR-6023.00000000.O95",
+    "PR-6023.00000000.O95L63 1996",
+    "PR-6023.00000000.O95 Lo2",
+    "PR-6023.00000000.O95 Lo15",
+    "PZ-0003.00000000.L954 Lo15",
+    "PR-6023.00000000.O95 Lo10"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Detective and mystery stories",
+    "England, fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, collections & anthologies",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, historical",
+    "Fiction, mystery & detective, traditional",
+    "Fiction, suspense",
+    "Fiction, thrillers, general",
+    "Fiction, thrillers, suspense",
+    "History",
+    "Jack, the Ripper -- Fiction",
+    "Jack, the ripper, fiction",
+    "London (england), fiction",
+    "Mystery",
+    "Serial murders",
+    "Serial murders -- Fiction",
+    "Serial murders, fiction",
+    "Whitechapel (London, England) -- Fiction"
+  ],
+  "ol_work_key": "/works/OL1172118W"
 }

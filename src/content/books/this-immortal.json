@@ -1,7 +1,7 @@
 {
   "title": "This Immortal",
   "author": "Roger Zelazny",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "this-immortal",
   "tags": [
@@ -29,5 +29,30 @@
     "Romans, nouvelles",
     "Science Fiction"
   ],
-  "pages": 187
+  "pages": 187,
+  "ddc": [
+    "813.54",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3576.00000000.E43",
+    "PS-3576.00000000.E43 Th3",
+    "PZ-0004.00000000.Z456 Th3",
+    "PS-3576.00000000.E43 T45 2000",
+    "PZ-0004.00000000.Z456 Th7",
+    "PS-3576.00000000.E43 Th7"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Human-alien encounters",
+    "Rencontres avec les extraterrestres",
+    "Romans, nouvelles",
+    "Science Fiction",
+    "award:hugo_award=1966",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL13994W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Prelude to Foundation",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "prelude-to-foundation",
   "tags": [
@@ -28,5 +28,31 @@
     "American literature",
     "Long Now Manual for Civilization"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5P7 2020",
+    "PZ-0003.00000000.A8316",
+    "PS-3551.00000000.S56 P7 1989",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 P7 1988c",
+    "PS-3551.00000000.S5 P7 1988",
+    "PS-3551.00000000.S5 P7 1988b"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Life on other planets",
+    "Life on other planets in fiction",
+    "Long Now Manual for Civilization",
+    "Psychohistory",
+    "Psychohistory in fiction",
+    "Science fiction"
+  ],
+  "pages": 440,
+  "ol_work_key": "/works/OL46172W"
 }

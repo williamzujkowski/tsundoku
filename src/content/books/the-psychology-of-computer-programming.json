@@ -1,7 +1,7 @@
 {
   "title": "The Psychology of Computer Programming",
   "author": "Gerald Weinberg",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-psychology-of-computer-programming",
   "tags": [
@@ -24,5 +24,21 @@
     "Electronic digital computers, programming",
     "Computer programming -- Psychological aspects"
   ],
-  "isbn": "9780442207649"
+  "isbn": "9780442207649",
+  "ddc": [
+    "001.642019",
+    "005.1019"
+  ],
+  "lcc": [
+    "QA-0076.60000000.W45 1998",
+    "QA-0076.60000000.W45"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Computer programming -- Psychological aspects",
+    "Electronic digital computers, programming",
+    "Psychological aspects",
+    "Psychological aspects of Computer programming"
+  ],
+  "ol_work_key": "/works/OL1958820W"
 }

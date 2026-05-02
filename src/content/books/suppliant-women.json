@@ -1,7 +1,7 @@
 {
   "title": "Suppliant Women",
   "author": "Aeschylus",
-  "category": "Classics",
+  "category": "Literature",
   "priority": 1,
   "slug": "suppliant-women",
   "tags": [
@@ -20,5 +20,28 @@
   "copyright_status": "public_domain",
   "subjects": [
     "Continental european drama (dramatic works by one author)"
-  ]
+  ],
+  "lcc": [
+    "PR-6057.00000000.R389 S87 2017",
+    "PA-3827.00000000.S7 B69 2013",
+    "PA-3825.00000000"
+  ],
+  "subject_facet": [
+    "822/.914",
+    "Continental european drama (dramatic works by one author)",
+    "Danaus",
+    "Danaus, King of Argos (Mythological character)",
+    "Danaus, King of Argos (Mythological character) -- Drama",
+    "Drama",
+    "Greek drama (Tragedy)",
+    "Greek drama, translations into english",
+    "Greek literature, hellenistic",
+    "Hellenistic Greek literature",
+    "Pr6057.r389 s87 2017",
+    "Translations into English",
+    "Women",
+    "Women -- Drama",
+    "Women--drama"
+  ],
+  "ol_work_key": "/works/OL20598521W"
 }

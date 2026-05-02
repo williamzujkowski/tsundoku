@@ -1,7 +1,7 @@
 {
   "title": "Topdog/Underdog",
   "author": "Suzan-Lori Parks",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "topdog-underdog",
   "tags": [
@@ -26,5 +26,23 @@
     "Play",
     "Theatre",
     "Theatre play"
-  ]
+  ],
+  "ddc": [
+    "812.54"
+  ],
+  "lcc": [
+    "PS-3566.00000000.A736T66 2001",
+    "PS-3566.00000000.A736 T66 2001",
+    "PS-3566.00000000.A736 T66 2002"
+  ],
+  "subject_facet": [
+    "American drama (dramatic works by one author)",
+    "Brothers",
+    "Drama",
+    "Play",
+    "Sibling rivalry",
+    "Theatre",
+    "Theatre play"
+  ],
+  "ol_work_key": "/works/OL2634525W"
 }

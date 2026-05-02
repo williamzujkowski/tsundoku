@@ -1,7 +1,7 @@
 {
   "title": "Pet Sematary",
   "author": "Stephen King",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 1,
   "slug": "pet-sematary",
   "tags": [
@@ -30,5 +30,51 @@
     "heart attack",
     "burial ground"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3561.00000000.I483",
+    "PS-3561.00000000",
+    "PS-3561.00000000.I483 P4 1983",
+    "PS-3561.00000000.I483 P4 1984",
+    "PS-3561.00000000.I483 P4 2002"
+  ],
+  "subject_facet": [
+    "Animals",
+    "Cemeteries",
+    "Country life",
+    "Creed, louis (fictitious character), fiction",
+    "Ficción",
+    "Fiction - General",
+    "Fiction, horror",
+    "General",
+    "Horror fiction",
+    "Horror tales",
+    "Juvenile audience",
+    "Large type books",
+    "Maine, fiction",
+    "Micmac Indians",
+    "Paranormal fiction",
+    "Resurrección",
+    "Resurrection",
+    "Sobrenatural",
+    "World War II",
+    "burial ground",
+    "death",
+    "fiction",
+    "flashback",
+    "heart attack",
+    "horror",
+    "occult",
+    "pet cemeteries",
+    "pets",
+    "psychological trauma",
+    "solitaire",
+    "spinal meningitis",
+    "suspense",
+    "thrillers"
+  ],
+  "ol_work_key": "/works/OL81631W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Barrayar",
   "author": "Lois McMaster Bujold",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "barrayar",
   "tags": [
@@ -46,5 +46,6 @@
     "award:hugo_award=novel",
     "series:vorkosigan_saga"
   ],
-  "ol_work_key": "/works/OL56905W"
+  "ol_work_key": "/works/OL56905W",
+  "pages": 389
 }

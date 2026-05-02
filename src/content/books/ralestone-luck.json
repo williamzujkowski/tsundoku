@@ -1,7 +1,7 @@
 {
   "title": "Ralestone Luck",
   "author": "Andre Norton",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "ralestone-luck",
   "tags": [
@@ -29,5 +29,21 @@
     "Nobility",
     "Talismans"
   ],
-  "isbn": "9781426494574"
+  "isbn": "9781426494574",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N82 Ral",
+    "PS-3527.00000000.O632 R343 1988"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, general",
+    "Nobility",
+    "Talismans"
+  ],
+  "ol_work_key": "/works/OL473472W"
 }

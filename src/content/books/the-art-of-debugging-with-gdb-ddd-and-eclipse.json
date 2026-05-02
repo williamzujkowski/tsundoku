@@ -1,7 +1,7 @@
 {
   "title": "THE ART OF DEBUGGING WITH GDB, DDD, AND ECLIPSE",
   "author": "Norman S. Matloff, Peter Jay Salzman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-art-of-debugging-with-gdb-ddd-and-eclipse",
   "tags": [
@@ -28,5 +28,28 @@
     "Programming - Software Development",
     "Programming Languages - C",
     "Computers / Languages / Programming"
-  ]
+  ],
+  "ddc": [
+    "005.14"
+  ],
+  "lcc": [
+    "QA-0076.90000000.D43 M35 2008",
+    "QA-0076.90000000.D43"
+  ],
+  "subject_facet": [
+    "Computer Books: Languages",
+    "Computer software",
+    "Computers",
+    "Computers - Languages / Programming",
+    "Computers / Languages / Programming",
+    "Computers / Programming / Software Development",
+    "Computers / Programming Languages / C",
+    "Debugging in computer science",
+    "Debugging, Debugger, GDB, DDD, GCC, GNU, GNU Tools, C, C++, C/C++, GNU Debugger, Bugs, debug",
+    "Programming - Software Development",
+    "Programming Languages - C",
+    "Quality control",
+    "Software engineering"
+  ],
+  "ol_work_key": "/works/OL4103353W"
 }

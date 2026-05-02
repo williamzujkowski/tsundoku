@@ -1,7 +1,7 @@
 {
   "title": "Politics and Vision",
   "author": "Sheldon Wolin",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "politics-and-vision",
   "tags": [
@@ -28,5 +28,18 @@
     "Histoire",
     "Political science, history"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "ddc": [
+    "320.09"
+  ],
+  "lcc": [
+    "JA-0081.00000000.W6 2004",
+    "JA-0081.00000000.W6 2016"
+  ],
+  "subject_facet": [
+    "History",
+    "Political science",
+    "Political science, history"
+  ],
+  "ol_work_key": "/works/OL20037475W"
 }

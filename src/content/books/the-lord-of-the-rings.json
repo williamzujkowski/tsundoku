@@ -1,7 +1,7 @@
 {
   "title": "The Lord of the Rings",
   "author": "J.R.R. Tolkien",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-lord-of-the-rings",
   "tags": [
@@ -19,5 +19,23 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6039.00000000.O32 L633695 2002"
+  ],
+  "subject_facet": [
+    "Baggins, bilbo (fictitious character), fiction",
+    "Baggins, frodo (fictitious character), fiction",
+    "British and irish fiction (fictional works by one author)",
+    "Criticism and interpretation",
+    "Fiction, fantasy, epic",
+    "Gandalf (fictitious character), fiction",
+    "Middle Earth (Imaginary place)",
+    "Middle earth (imaginary place), fiction",
+    "Study guides"
+  ],
+  "ol_work_key": "/works/OL15800763W"
 }

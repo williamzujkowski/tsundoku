@@ -19,5 +19,18 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=7SiKtxPrrRMC&dq=Practical+Cryptography+Niels+Ferguson+and+Bruce+Schneier&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.82"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25 F466 2003",
+    "QA-0076.82500000"
+  ],
+  "subject_facet": [
+    "Computer security",
+    "Cryptography",
+    "Long Now Manual for Civilization"
+  ],
+  "ol_work_key": "/works/OL6047512W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Likeness",
   "author": "Tana French",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-likeness",
   "tags": [
@@ -30,5 +30,29 @@
     "Ireland, fiction",
     "Large type books",
     "nyt:trade-fiction-paperback=2009-06-14"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6106.00000000.R457 L55 2008b",
+    "PR-6106.00000000.R457 L55 2008",
+    "PR-6106.00000000.R457L55 2008"
+  ],
+  "subject_facet": [
+    "English Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, women sleuths",
+    "Fiction, psychological",
+    "Fiction, thrillers, general",
+    "Investigation",
+    "Ireland, fiction",
+    "Large type books",
+    "Murder",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "Women detectives",
+    "nyt:trade-fiction-paperback=2009-06-14"
+  ],
+  "ol_work_key": "/works/OL7989981W"
 }

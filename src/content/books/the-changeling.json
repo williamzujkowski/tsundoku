@@ -1,7 +1,7 @@
 {
   "title": "The Changeling",
   "author": "Victor LaValle",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-changeling",
   "tags": [
@@ -31,5 +31,29 @@
     "Fiction, occult & supernatural",
     "Fiction, fantasy, contemporary",
     "Horror"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3562.00000000.A8458",
+    "PS-3562.00000000.A8458 C48 2017"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, contemporary",
+    "Fiction, occult & supernatural",
+    "General",
+    "Horror",
+    "Literary",
+    "Magical Realism",
+    "Missing persons",
+    "Mystery",
+    "New York Times reviewed",
+    "Thriller",
+    "Thrillers",
+    "Urban Fantasy"
+  ],
+  "ol_work_key": "/works/OL19541804W"
 }

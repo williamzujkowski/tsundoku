@@ -1,7 +1,7 @@
 {
   "title": "The Man in the Queue",
   "author": "Josephine Tey",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-man-in-the-queue",
   "tags": [
@@ -28,5 +28,33 @@
     "Fiction, mystery & detective, police procedural",
     "Fiction, crime"
   ],
-  "isbn": "9780099556725"
+  "isbn": "9780099556725",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6025.00000000 A25293 M3",
+    "PR-6025.00000000.A2547 M34 1988",
+    "PR-6025.00000000.A2547 M34 2000",
+    "PZ-0003.00000000.M2174 Man",
+    "PR-6025.00000000.A453 M3",
+    "PR-6025.00000000.A2547 M34 1981",
+    "PR-6025.00000000.A2547",
+    "PR-6025.00000000.A2547 M3 x, 1978"
+  ],
+  "subject_facet": [
+    "Alan Grant (Fictitious character)",
+    "England",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, mystery & detective, police procedural",
+    "Grant, alan, inspector (fictitious character), fiction",
+    "Great britain, fiction",
+    "Investigation",
+    "Large type books",
+    "London (england), fiction",
+    "Murder",
+    "Police"
+  ],
+  "ol_work_key": "/works/OL80940W"
 }

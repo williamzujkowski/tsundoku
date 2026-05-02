@@ -1,7 +1,7 @@
 {
   "title": "The Beautiful Thing That Awaits Us All",
   "author": "Laird Barron",
-  "category": "Fantasy",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-beautiful-thing-that-awaits-us-all",
   "tags": [
@@ -26,5 +26,13 @@
     "Fiction, fantasy, general",
     "Fiction, mystery & detective, hard-boiled",
     "Fiction, crime"
-  ]
+  ],
+  "subject_facet": [
+    "Fiction, crime",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, occult & supernatural"
+  ],
+  "ol_work_key": "/works/OL19206271W"
 }

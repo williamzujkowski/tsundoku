@@ -1,7 +1,7 @@
 {
   "title": "The Art of Multiprocessor Programming",
   "author": "Maurice Herlihy and Nir Shavit",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 1,
   "slug": "the-art-of-multiprocessor-programming",
   "tags": [
@@ -19,5 +19,20 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=7MqcBAAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.60000000",
+    "QA-0076.60000000.H5244 2008"
+  ],
+  "subject_facet": [
+    "Distributed systems & computing",
+    "General",
+    "Multiprocessors",
+    "Multiprogramming (Electronic computers)",
+    "Professional, career & trade -> computer science -> general",
+    "Professional, career & trade -> computer science -> programming languages (jr/sr)",
+    "Professional, career & trade -> computer science -> system administration",
+    "Professional, career & trade -> engineering -> software engineering"
+  ],
+  "ol_work_key": "/works/OL16971818W"
 }

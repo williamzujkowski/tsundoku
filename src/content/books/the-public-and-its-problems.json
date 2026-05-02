@@ -1,7 +1,7 @@
 {
   "title": "The Public and Its Problems",
   "author": "John Dewey",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "the-public-and-its-problems",
   "tags": [
@@ -34,5 +34,28 @@
   "gutenberg_id": 71000,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/71000",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/71000.html.images",
-  "isbn": "9780804011662"
+  "isbn": "9780804011662",
+  "ddc": [
+    "321.8",
+    "320.15"
+  ],
+  "lcc": [
+    "JC-0251.00000000.D47",
+    "JC-0251.00000000.D47 1991",
+    "JC-0251.00000000.D47 2012",
+    "JC-0251.00000000.D47 1946",
+    "JC-0251.00000000.D47 2016"
+  ],
+  "subject_facet": [
+    "Democracy",
+    "Democratie",
+    "Nonfiction",
+    "POLITICAL SCIENCE / General",
+    "Philosophy",
+    "Political science",
+    "Staat (politicologie)",
+    "State, the",
+    "The State"
+  ],
+  "ol_work_key": "/works/OL111348W"
 }

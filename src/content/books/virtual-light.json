@@ -1,7 +1,7 @@
 {
   "title": "Virtual Light",
   "author": "William Gibson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "virtual-light",
   "tags": [
@@ -28,5 +28,27 @@
     "California, fiction",
     "New York Times reviewed",
     "Bridge Trilogy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3557.00000000.I2264 V57 1994",
+    "PS-3557.00000000.I2264 V57 1993c",
+    "PS-3557.00000000.I2264",
+    "PS-3557.00000000.I27 V57 1994",
+    "PS-3557.00000000.I2264 V57 1993"
+  ],
+  "subject_facet": [
+    "Bridge Trilogy",
+    "California",
+    "California, fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "New York Times reviewed",
+    "Science fiction",
+    "Science-fiction",
+    "Twenty-first century"
+  ],
+  "ol_work_key": "/works/OL27257W"
 }

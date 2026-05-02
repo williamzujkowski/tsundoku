@@ -1,7 +1,7 @@
 {
   "title": "The Sea Mystery",
   "author": "Freeman Wills Crofts",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-sea-mystery",
   "tags": [
@@ -38,5 +38,27 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72771.html.images",
   "description": "The Sea Mystery is a 1928 detective novel by Freeman Wills Crofts. It is the fourth in a series of novels featuring Inspector French of Scotland Yard. As with a number of his works Crofts creates a puzzling mystery which French is then able to solve using a Tide table and Bradshaw's Guide to the railways. The plot has some similarities with his debut novel The Cask (1920).",
   "pages": 275,
-  "isbn": "9781504082242"
+  "isbn": "9781504082242",
+  "lcc": [
+    "PZ-0003.00000000.C8747 Se6",
+    "PR-6005.00000000.R675 Se6",
+    "PZ-0003.00000000.C8747 Se",
+    "PZ-0003.00000000.C8747",
+    "PR-6005.00000000.R675 Se",
+    "PR-6005.00000000.R675"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "England, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, police procedural",
+    "French, Joseph (Fictitious character) -- Fiction",
+    "Great britain, fiction",
+    "Joseph French (Fictitious character)",
+    "Mystery",
+    "Police",
+    "Police -- Great Britain -- Fiction"
+  ],
+  "ol_work_key": "/works/OL5204325W"
 }

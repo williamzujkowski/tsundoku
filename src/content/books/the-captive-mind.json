@@ -1,7 +1,7 @@
 {
   "title": "The Captive Mind",
   "author": "Czesław Miłosz",
-  "category": "Poetry",
+  "category": "History",
   "priority": 2,
   "slug": "the-captive-mind",
   "tags": [],
@@ -26,5 +26,46 @@
   ],
   "description": "The Captive Mind is a 1953 work of nonfiction by Polish writer, poet, academic and Nobel laureate Czesław Miłosz. It was first published in English in a translation by Jane Zielonko in 1953.",
   "pages": 251,
-  "isbn": "9788371299810"
+  "isbn": "9788371299810",
+  "ddc": [
+    "914.38",
+    "943.805",
+    "323.44",
+    "320.94709045",
+    "943.8054",
+    "943.8"
+  ],
+  "lcc": [
+    "DK-0411.00000000 M483",
+    "DK-0411.00000000.M48",
+    "DK-4115.00000000.M513 1962",
+    "DK-4437.00000000.M5419 1985",
+    "DK-4110.00000000.M5 1953",
+    "DK-4437.00000000.M5413 1981b",
+    "DK-4437.00000000.M5413 1981",
+    "DK-0411.00000000.M5 1955",
+    "DK-0411.00000000.M5",
+    "LEC0000.00000000 no. 537",
+    "DK-4437.00000000.M48 1980",
+    "DK-4437.00000000 M48 1980",
+    "DK-4437.00000000.M5415 1980",
+    "DK-4437.00000000",
+    "DK-4437.00000000.M5413 1983",
+    "DK-4437.00000000.M5413 1990",
+    "DK-4110.00000000.M5"
+  ],
+  "subject_facet": [
+    "Authors, Polish",
+    "Communism",
+    "Communism, poland",
+    "Comunismo",
+    "Criticism and interpretation",
+    "Intellectual life",
+    "Interviews",
+    "Poland, intellectual life",
+    "Polish Authors",
+    "Politics and government",
+    "Sociology"
+  ],
+  "ol_work_key": "/works/OL136064W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Wizard's First Rule",
   "author": "Terry Goodkind",
-  "category": "Science Fiction & Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "wizards-first-rule",
   "tags": [
@@ -19,5 +19,30 @@
   "language": "eng",
   "subjects": [
     "NPR Top 100 Science Fiction and Fantasy"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3557.00000000.O5826",
+    "PS-3557.00000000.O5826 W59 1995",
+    "PS-3557.00000000.O5826 W59 1994"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Amnell, kahlan (fictitious character), fiction",
+    "D'haran empire (imaginary place), fiction",
+    "Epic Fantasy",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "High Fantasy",
+    "Magic",
+    "Richard Rahl (Fictitious character)",
+    "Wizards",
+    "Wizards in fiction"
+  ],
+  "ol_work_key": "/works/OL2010436W"
 }

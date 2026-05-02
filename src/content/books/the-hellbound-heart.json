@@ -1,7 +1,7 @@
 {
   "title": "The Hellbound Heart",
   "author": "Clive Barker",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-hellbound-heart",
   "tags": [
@@ -27,5 +27,18 @@
     "Sadomasochism",
     "Fiction, horror",
     "Fiction, fantasy, general"
-  ]
+  ],
+  "lcc": [
+    "PR-6052.00000000.A6475"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, horror",
+    "Horror",
+    "Horror stories",
+    "Puzzles",
+    "Sadomasochism"
+  ],
+  "ol_work_key": "/works/OL257785W"
 }

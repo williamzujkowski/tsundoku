@@ -1,7 +1,7 @@
 {
   "title": "The Moon Is a Harsh Mistress",
   "author": "Robert A. Heinlein",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-moon-is-a-harsh-mistress",
   "tags": [
@@ -31,5 +31,35 @@
     "award:hugo_award=novel",
     "Penal colonies",
     "Revolutions"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3515.00000000.E288M66 1996",
+    "PS-3515.00000000.E288",
+    "PS-3515.00000000.E288 M6 1968",
+    "PS-3515.00000000.E288 M66",
+    "PS-3515.00000000.E288 Mo",
+    "PZ-0003.00000000.H364 Mo",
+    "PS-3515.00000000.E288 M66 1996",
+    "PS-3515.00000000.E288 M66 1997",
+    "PS-3515.00000000.E288M66 2018",
+    "PS-3515.00000000 E32 M6 1972"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Artificial intelligence",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Imaginary wars and battles",
+    "Long Now Manual for Civilization",
+    "Penal colonies",
+    "Revolutions",
+    "Stone, hazel (fictitious character), fiction",
+    "award:hugo_award=1967",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL59704W"
 }

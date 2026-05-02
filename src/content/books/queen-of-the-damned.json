@@ -1,7 +1,7 @@
 {
   "title": "Queen of the Damned",
   "author": "Anne Rice",
-  "category": "Horror",
+  "category": "Literature",
   "priority": 2,
   "slug": "queen-of-the-damned",
   "tags": [
@@ -29,5 +29,36 @@
     "Lestat (Fictitious character)",
     "Lestat (fictitious character), fiction",
     "Vampires, fiction"
-  ]
+  ],
+  "ddc": [
+    "813.54",
+    "[Fic]"
+  ],
+  "lcc": [
+    "PS-3568.00000000.I265Q44 2014",
+    "PS-3568.00000000.I265 Q8 1988",
+    "PS-3568.00000000.I265 Q44 1989",
+    "PS-3568.00000000.I265 Q44 2014",
+    "PS-3568.00000000.I265 Q44 1988",
+    "PS-3568.00000000.I265",
+    "PS-3568.00000000.I265Q8 1988",
+    "PS-3568.00000000.I265Q44 1988"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, erotica, general",
+    "Fiction, horror",
+    "Fiction, science fiction, general",
+    "Horror tales",
+    "Lestat (Fictitious character)",
+    "Lestat (fictitious character), fiction",
+    "New World Order",
+    "Series:The-Vampire-Chronicles",
+    "Vampires",
+    "Vampires, fiction",
+    "horror",
+    "rock music",
+    "spirits"
+  ],
+  "ol_work_key": "/works/OL77828W"
 }

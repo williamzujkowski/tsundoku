@@ -1,7 +1,7 @@
 {
   "title": "The Island of Doctor Moreau",
   "author": "H.G. Wells",
-  "category": "Horror",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-island-of-doctor-moreau",
   "tags": [
@@ -34,5 +34,6 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/159.html.images",
   "librivox_url": "https://librivox.org/the-island-of-dr-moreau-by-hg-wells/",
   "cover_url": "https://covers.openlibrary.org/b/id/968312-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/968312-L.jpg"
+  "cover_url_large": "https://covers.openlibrary.org/b/id/968312-L.jpg",
+  "ol_work_key": "/works/OL29647537W"
 }

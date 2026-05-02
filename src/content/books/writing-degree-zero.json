@@ -1,7 +1,7 @@
 {
   "title": "Writing Degree Zero",
   "author": "Roland Barthes",
-  "category": "Literature",
+  "category": "Literary Criticism",
   "priority": 1,
   "slug": "writing-degree-zero",
   "tags": [
@@ -19,5 +19,27 @@
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "808.02",
+    "809"
+  ],
+  "lcc": [
+    "PN-0203.00000000.B313 1968",
+    "PN-0203.00000000.B313x 1984",
+    "PN-0203.00000000.B313",
+    "P--0099.00000000",
+    "PN-0203.00000000.B313 1970"
+  ],
+  "subject_facet": [
+    "French literature",
+    "French literature, history and criticism",
+    "History and criticism",
+    "Literary style",
+    "Literature, history and criticism",
+    "Semantics",
+    "Semiotics",
+    "Style, Literary"
+  ],
+  "ol_work_key": "/works/OL1375084W"
 }

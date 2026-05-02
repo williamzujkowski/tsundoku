@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Derek Walcott",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "selected-poems-4",
   "tags": [],
@@ -18,5 +18,15 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Juvenile Nonfiction"
-  ]
+  ],
+  "lcc": [
+    "PR-9272.90000000.W3 A17"
+  ],
+  "subject_facet": [
+    "Caribbean literature (English)",
+    "Caribbean poetry (English)",
+    "Poetry (poetic works by one author)",
+    "Saint Lucian literature (English)"
+  ],
+  "ol_work_key": "/works/OL15014054W"
 }

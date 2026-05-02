@@ -1,7 +1,7 @@
 {
   "title": "Tales from Earthsea",
   "author": "Ursula K. Le Guin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "tales-from-earthsea",
   "tags": [
@@ -30,5 +30,45 @@
     "Fiction, fantasy, general",
     "Children's fiction",
     "Fantasy fiction"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.L5215Tal 2002",
+    "PZ-0007.00000000.L5215 Tal 2012b",
+    "PZ-0007.00000000.L5215 Tal 2012",
+    "PZ-0007.00000000.L5215 Tal 2002",
+    "PZ-0007.00000000.L5215Tal 2001",
+    "PZ-0007.00000000.L5215 Tal 2001",
+    "PZ-0007.00000000.L5215Tal 2003",
+    "PZ-0007.00000000.L5215Tal 2012"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "American Short stories",
+    "Children's fiction",
+    "Cuentos",
+    "Earthsea (Imaginary place)",
+    "Earthsea (imaginary place), fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Ficción",
+    "Fiction",
+    "Fiction, fantasy, collections & anthologies",
+    "Fiction, fantasy, general",
+    "Fiction, short stories (single author)",
+    "Ged (Fictitious character)",
+    "Ged (fictitious character), fiction",
+    "Juvenile fiction",
+    "Magia",
+    "Magic",
+    "Magic, fiction",
+    "Magos",
+    "Novela fantástica estadounidense",
+    "Short stories",
+    "Wizards",
+    "Wizards, fiction"
+  ],
+  "ol_work_key": "/works/OL59812W"
 }

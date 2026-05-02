@@ -1,7 +1,7 @@
 {
   "title": "Sorcerer to the Crown",
   "author": "Zen Cho",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "sorcerer-to-the-crown",
   "tags": [
@@ -30,5 +30,30 @@
     "Historical fantasy fiction",
     "Regency romance fiction",
     "Great British fiction"
-  ]
+  ],
+  "ddc": [
+    "823.92"
+  ],
+  "lcc": [
+    "PR-6103.00000000.H6 S67 2015",
+    "PR-6103.00000000.H6S67 2015",
+    "PR-6103.00000000.H6"
+  ],
+  "subject_facet": [
+    "Blessing and cursing",
+    "Faery (imaginary place)",
+    "Fantasy fiction",
+    "Fiction",
+    "Great British fiction",
+    "Historical",
+    "Historical fantasy fiction",
+    "History",
+    "Magic",
+    "Magicians",
+    "Regency",
+    "Regency romance fiction",
+    "Romance",
+    "series:Sorcerer_to_the_Crown"
+  ],
+  "ol_work_key": "/works/OL19759589W"
 }

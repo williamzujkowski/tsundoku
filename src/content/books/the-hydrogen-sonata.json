@@ -1,7 +1,7 @@
 {
   "title": "The Hydrogen Sonata",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-hydrogen-sonata",
   "tags": [
@@ -30,5 +30,26 @@
     "Spy stories",
     "Fiction, science fiction, general",
     "Fiction, science fiction, space opera"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6052.00000000.A485",
+    "PR-6052.00000000.A485 H93 2012"
+  ],
+  "subject_facet": [
+    "Culture conflict",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Sabotage",
+    "Science Fiction",
+    "Space Opera",
+    "Space warfare",
+    "Spy stories",
+    "Subversive activities",
+    "[series:IMB_The_Culture]"
+  ],
+  "ol_work_key": "/works/OL17346835W"
 }

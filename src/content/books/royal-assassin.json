@@ -1,7 +1,7 @@
 {
   "title": "Royal Assassin",
   "author": "Robin Hobb",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "royal-assassin",
   "tags": [
@@ -27,5 +27,23 @@
     "Fantasy",
     "Fiction, fantasy, general",
     "Fiction, science fiction, general"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3558.00000000.O33636 R68 1996",
+    "PS-3558.00000000.O33636",
+    "PS-3558.00000000.O33636 R68 1997"
+  ],
+  "subject_facet": [
+    "Assassins",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, science fiction, general",
+    "The Farseer Trilogy",
+    "The Realm of the Elderlings"
+  ],
+  "ol_work_key": "/works/OL2707184W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The King of Elfland's Daughter",
   "author": "Lord Dunsany",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-king-of-elflands-daughter",
   "tags": [
@@ -29,5 +29,26 @@
   "gutenberg_id": 61077,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/61077",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/61077.html.images",
-  "librivox_url": "https://librivox.org/the-king-of-elflands-daughter-by-lord-dunsany/"
+  "librivox_url": "https://librivox.org/the-king-of-elflands-daughter-by-lord-dunsany/",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6007.00000000.U6 K5 1924a",
+    "PR-6007.00000000.U6",
+    "PZ-0003.00000000.D9248 Ki2",
+    "PR-6007.00000000.U6 K5 1924",
+    "PR-6007.00000000.U6K5 2019",
+    "PR-6007.00000000.U6K5 1999",
+    "PR-6007.00000000.U6 K5 1999",
+    "PR-6007.00000000.U6 K5 1973"
+  ],
+  "subject_facet": [
+    "Children's stories, English",
+    "English Fantasy fiction",
+    "Fantasy fiction",
+    "Fiction, fantasy, general",
+    "Fiction, general"
+  ],
+  "ol_work_key": "/works/OL83871W"
 }

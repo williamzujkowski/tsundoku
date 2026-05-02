@@ -1,7 +1,7 @@
 {
   "title": "The Cardinal of the Kremlin",
   "author": "Tom Clancy",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-cardinal-of-the-kremlin",
   "tags": [
@@ -26,5 +26,37 @@
   "description": "The Cardinal of the Kremlin is a spy thriller novel, written by Tom Clancy and released on May 20, 1988. A direct sequel to The Hunt for Red October (1984), it features CIA analyst Jack Ryan as he must extract CARDINAL, the agency's highest placed asset in the Soviet military, who is being pursued by the KGB. The novel also features the Strategic Defense Initiative (SDI), a conceptual missile-defense system developed by the United States during that time, and its Soviet counterpart.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/CardinalOfTheKremlin.JPG/250px-CardinalOfTheKremlin.JPG",
   "pages": 626,
-  "isbn": "9780736693455"
+  "isbn": "9780736693455",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3553.00000000.L245C37 1989",
+    "PS-3505.00000000.L241 .C521 1988",
+    "PS-3553.00000000.L245 C37 1989",
+    "PS-3553.00000000.L245",
+    "PS-3553.00000000.L245C37 1988",
+    "PS-3553.00000000.L245 C37 1988"
+  ],
+  "subject_facet": [
+    "American Suspense fiction",
+    "American fiction",
+    "Clark, john (fictitious character), fiction",
+    "Fiction",
+    "Fiction, thrillers, espionage",
+    "Intelligence service",
+    "Jack Ryan (Fictional character)",
+    "Jack Ryan (Fictitious character)",
+    "John Clark (Fictitious character)",
+    "Large type books",
+    "Open Library Staff Picks",
+    "Ryan, jack (fictitious character), fiction",
+    "Spies",
+    "Spy stories",
+    "Sr. Ryan, Jack (Fictitious character)",
+    "United States",
+    "United states, fiction"
+  ],
+  "first_published": 1988,
+  "ol_work_key": "/works/OL159397W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Gods Themselves",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-gods-themselves",
   "tags": [
@@ -29,5 +29,40 @@
     "award:nebula_award=novel",
     "Technology and civilization",
     "Fiction"
-  ]
+  ],
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 G618 2007",
+    "PZ-0003.00000000.A8316 Go",
+    "PS-3551.00000000.S5 G6"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Discoveries in science",
+    "Découvertes scientifiques",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, science fiction, general",
+    "Hugo Award Winner",
+    "Interplanetary voyages",
+    "Power resources",
+    "Reading materials",
+    "Ressources énergétiques",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Science fiction, American",
+    "Spanish language",
+    "Spanish language materials",
+    "Technologie et civilisation",
+    "Technology and civilization",
+    "Voyages interplanétaires",
+    "award:hugo_award=1973",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel"
+  ],
+  "ol_work_key": "/works/OL46395W"
 }

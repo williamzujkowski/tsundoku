@@ -20,5 +20,30 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Teahouse is a 1957 play by Lao She. The play was first published in Shouhuo in July 1957.",
-  "isbn": "9787020036509"
+  "isbn": "9787020036509",
+  "ddc": [
+    "848",
+    "895.125",
+    "895.1251",
+    "895.12"
+  ],
+  "lcc": [
+    "PL-2804.00000000.C5 C5125 1999",
+    "PL-2804.00000000.C5 C5 1980",
+    "PL-2804.00000000.C5 C53 2003",
+    "PL-2804.00000000.C5 C513 2001",
+    "PL-2804.00000000.C5 C5213 2013",
+    "PL-2804.00000000.C5C5 1980 Orien China",
+    "PL-2804.00000000.C5 C5 2003",
+    "PL-2804.00000000.C5 C313 2001b"
+  ],
+  "subject_facet": [
+    "Chinese drama",
+    "Drama",
+    "Literary Criticism",
+    "Near and far eastern drama (dramatic works by one author)",
+    "Social conditions",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL51441W"
 }

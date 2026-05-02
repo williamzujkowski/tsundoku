@@ -1,7 +1,7 @@
 {
   "title": "The Sea Around Us",
   "author": "Rachel Carson",
-  "category": "Science",
+  "category": "Economics",
   "priority": 1,
   "slug": "the-sea-around-us",
   "tags": [
@@ -30,5 +30,45 @@
     "award:national_book_award=nonfiction",
     "Marine ecology"
   ],
-  "description": "Beginnings are apt to be shadowy, and so it is with the beginnings of that great mother of life, the sea."
+  "description": "Beginnings are apt to be shadowy, and so it is with the beginnings of that great mother of life, the sea.",
+  "ddc": [
+    "551.46"
+  ],
+  "lcc": [
+    "GC-0011.20000000",
+    "GC-0021.00000000.C3 2003",
+    "LEC0000.00000000 no. 515",
+    "GC-0021.00000000.C3 2021",
+    "GC-0021.00000000.C3 1954",
+    "GC-0021.00000000.C32 1958",
+    "HC-0535.00000000.A5689 (Orien Arab)",
+    "GC-0021.00000000 C3",
+    "GC-0021.00000000.C32 1979",
+    "GC-0021.00000000.C3 1961",
+    "GC-0021.00000000.C3 1980",
+    "GC-0021.00000000.C3",
+    "GC-0021.50000000",
+    "GC-0021.00000000.C3 2018",
+    "GC-0021.00000000.C32 1989",
+    "DP-0272.00000000.C4514",
+    "GC-0021.00000000.C3 1966"
+  ],
+  "subject_facet": [
+    "Economic conditions",
+    "Juvenile literature",
+    "Marine ecology",
+    "National Book Award Winner",
+    "Ocean",
+    "Oceanografie",
+    "Oceanography",
+    "Océanographie",
+    "Ouvrages de vulgarisation",
+    "Ouvrages illustrés",
+    "Politics and government",
+    "Popular works",
+    "Zeeën",
+    "award:national_book_award=1952",
+    "award:national_book_award=nonfiction"
+  ],
+  "ol_work_key": "/works/OL1884867W"
 }

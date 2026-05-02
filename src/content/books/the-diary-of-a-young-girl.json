@@ -1,7 +1,7 @@
 {
   "title": "The Diary of a Young Girl",
   "author": "Anne Frank",
-  "category": "Literature",
+  "category": "History",
   "priority": 1,
   "slug": "the-diary-of-a-young-girl",
   "tags": [
@@ -19,5 +19,19 @@
   "language": "eng",
   "subjects": [
     "Le Monde 100 Books of the Century"
-  ]
+  ],
+  "ddc": [
+    "940.53088296"
+  ],
+  "subject_facet": [
+    "Adaptations",
+    "Diaries",
+    "Frank, anne, 1929-1945",
+    "History",
+    "Holocaust, jewish (1939-1945), personal narratives",
+    "Jewish Personal narratives",
+    "Jews",
+    "World War, 1939-1945"
+  ],
+  "ol_work_key": "/works/OL2948954W"
 }

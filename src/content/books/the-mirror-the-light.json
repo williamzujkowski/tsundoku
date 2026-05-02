@@ -1,7 +1,7 @@
 {
   "title": "The Mirror & the Light",
   "author": "Hilary Mantel",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-mirror-the-light",
   "tags": [
@@ -29,5 +29,30 @@
     "nyt:combined-print-and-e-book-fiction=2020-03-29",
     "New York Times bestseller",
     "New York Times reviewed"
-  ]
+  ],
+  "ddc": [
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.A438M36 2020",
+    "PR-6063.00000000.A438M3 2021",
+    "PR-6063.00000000.A438 M36 2020"
+  ],
+  "subject_facet": [
+    "Court and courtiers",
+    "Courts and courtiers",
+    "England, fiction",
+    "FICTION / Historical / General",
+    "FICTION / Literary",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Historical fiction",
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "fiction",
+    "history",
+    "literary fiction",
+    "nyt:combined-print-and-e-book-fiction=2020-03-29"
+  ],
+  "ol_work_key": "/works/OL20665410W"
 }

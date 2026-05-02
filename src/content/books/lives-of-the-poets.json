@@ -1,7 +1,7 @@
 {
   "title": "Lives of the Poets",
   "author": "Samuel Johnson",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "lives-of-the-poets",
   "tags": [
@@ -77,5 +77,6 @@
     "Poètes anglais",
     "Poésie anglaise"
   ],
-  "ol_work_key": "/works/OL15291070W"
+  "ol_work_key": "/works/OL15291070W",
+  "pages": 363
 }

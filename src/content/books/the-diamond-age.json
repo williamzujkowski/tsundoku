@@ -1,7 +1,7 @@
 {
   "title": "The Diamond Age",
   "author": "Neal Stephenson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-diamond-age",
   "tags": [
@@ -31,5 +31,32 @@
     "Young women",
     "Nanotechnology",
     "award:hugo_award=novel"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3868 D53 1995",
+    "PS-3569.00000000.T3868 D53 1996",
+    "PS-3569.00000000.T3868 D53 2008",
+    "PS-3569.00000000.T3868",
+    "PS-3569.00000000.T3868 D53"
+  ],
+  "subject_facet": [
+    "Books and reading",
+    "Fiction",
+    "Fiction, humorous",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Hugo Award Winner",
+    "Nanotechnology",
+    "Open Library Staff Picks",
+    "Quests (Expeditions)",
+    "Revolutions",
+    "Science Fiction",
+    "Young women",
+    "award:hugo_award=1996",
+    "award:hugo_award=novel"
+  ],
+  "ol_work_key": "/works/OL38499W"
 }

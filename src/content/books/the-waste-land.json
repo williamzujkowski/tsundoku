@@ -1,7 +1,7 @@
 {
   "title": "The Waste Land",
   "author": "T.S. Eliot",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-waste-land",
   "tags": [
@@ -28,5 +28,20 @@
   ],
   "gutenberg_id": 1321,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1321",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1321.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1321.html.images",
+  "ddc": [
+    "821.912"
+  ],
+  "lcc": [
+    "PS-3509.00000000.L43 W3814 2001",
+    "PS-3509.00000000.L13W3639 2001"
+  ],
+  "subject_facet": [
+    "Criticism and interpretation",
+    "Critique et interprétation",
+    "Eliot, t. s. (thomas stearns), 1888-1965",
+    "Histoire",
+    "History"
+  ],
+  "ol_work_key": "/works/OL5848131W"
 }

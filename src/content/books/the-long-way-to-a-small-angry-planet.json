@@ -1,7 +1,7 @@
 {
   "title": "The Long Way to a Small Angry Planet",
   "author": "Becky Chambers",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-long-way-to-a-small-angry-planet",
   "tags": [
@@ -31,5 +31,27 @@
   ],
   "description": "The Long Way to a Small, Angry Planet is the 2014 debut science fiction novel by Becky Chambers, set in her fictional universe, the Galactic Commons. Chambers originally self-published the novel via a Kickstarter campaign; it was subsequently re-published by Hodder & Stoughton.",
   "pages": 445,
-  "isbn": "9787555027706"
+  "isbn": "9787555027706",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3603.00000000",
+    "PS-3603.00000000.H347 L66 2014",
+    "PS-3603.00000000.H347L66 2014"
+  ],
+  "subject_facet": [
+    "Action & Adventure",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Interplanetary voyages",
+    "LGBT",
+    "LGBTQ science fiction & fantasy",
+    "Romance",
+    "Science fiction",
+    "Space Opera",
+    "Space warfare"
+  ],
+  "ol_work_key": "/works/OL17716925W"
 }

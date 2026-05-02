@@ -1,7 +1,7 @@
 {
   "title": "Second Foundation",
   "author": "Isaac Asimov",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "second-foundation",
   "tags": [
@@ -29,5 +29,36 @@
     "Vie extraterrestre",
     "Romans, nouvelles",
     "Psychohistoire"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.S5 S37 1983",
+    "PZ-0003.00000000.A8316 Se 1979",
+    "PS-3551.00000000.S5 S4",
+    "PS-3551.00000000.S5 Se 1979",
+    "PS-3551.00000000.S5",
+    "PS-3551.00000000.S5 S37 2004",
+    "PS-0000.00000000",
+    "PS-3551.00000000.S5 Se",
+    "PZ-0003.00000000.A8316 Se",
+    "PS-3551.00000000",
+    "PZ-0003.00000000.A8316"
+  ],
+  "subject_facet": [
+    "American literature",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Hari Seldon (Fictitious character)",
+    "Life on other planets",
+    "Long Now Manual for Civilization",
+    "Psychohistoire",
+    "Psychohistory",
+    "Psychological fiction",
+    "Romans, nouvelles",
+    "Science fiction",
+    "Vie extraterrestre"
+  ],
+  "ol_work_key": "/works/OL46309W"
 }

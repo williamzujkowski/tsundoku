@@ -1,7 +1,7 @@
 {
   "title": "Practical Reverse Engineering",
   "author": "Bruce Dang, Alexandre Gazet, Elias Bachaalany",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "practical-reverse-engineering",
   "tags": [
@@ -23,5 +23,20 @@
     "Hackers",
     "Engineering"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA-0076.90000000.A25 D329 2014",
+    "QA-0076.90000000.A25"
+  ],
+  "subject_facet": [
+    "Computer security",
+    "Engineering",
+    "Hackers",
+    "Malware (Computer software)",
+    "Reverse engineering"
+  ],
+  "ol_work_key": "/works/OL19978523W"
 }

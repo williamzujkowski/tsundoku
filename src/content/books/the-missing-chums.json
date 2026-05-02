@@ -1,7 +1,7 @@
 {
   "title": "The Missing Chums",
   "author": "Franklin W. Dixon",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-missing-chums",
   "tags": [
@@ -43,5 +43,46 @@
   "gutenberg_id": 72840,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72840",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72840.html.images",
-  "isbn": "9780448489551"
+  "isbn": "9780448489551",
+  "ddc": [
+    "[Fic]",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.D644Mi 2016",
+    "PZ-0007.00000000.D644 Har 1990 v.4",
+    "PZ-0007.00000000.D644Mi 1996",
+    "PZ-0007.00000000.D644 Mi 1996",
+    "PZ-0007.00000000.D644Mi 2024",
+    "J--0000.00000000",
+    "PZ-0007.00000000.D644 Mi"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Brothers",
+    "Brothers -- Juvenile fiction",
+    "Children's fiction",
+    "Children's stories",
+    "Children’s",
+    "Detective and mystery stories",
+    "Fiction",
+    "Frank Hardy (Fictitious character)",
+    "Friendship",
+    "Hardy Boys (Fictitious characters)",
+    "Hardy Boys (Fictitious characters) -- Juvenile fiction",
+    "Hardy boys (fictitious characters), fiction",
+    "Joe Hardy (Fictitious character)",
+    "Juvenile fiction",
+    "Juvenile literature",
+    "Kidnapping",
+    "Missing persons",
+    "Missing persons -- Juvenile fiction",
+    "Missing persons, fiction",
+    "Mystery",
+    "Mystery and detective stories",
+    "Mystery fiction",
+    "collectionID:HBMS1",
+    "series:HardyBoys"
+  ],
+  "ol_work_key": "/works/OL47899W"
 }

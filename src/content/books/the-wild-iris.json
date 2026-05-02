@@ -1,7 +1,7 @@
 {
   "title": "The Wild Iris",
   "author": "Louise Glück",
-  "category": "Poetry",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-wild-iris",
   "tags": [
@@ -25,5 +25,22 @@
     "Poetry",
     "Women authors",
     "American women authors"
-  ]
+  ],
+  "ddc": [
+    "811.54"
+  ],
+  "lcc": [
+    "PS-3557.00000000.L8 W5 1992",
+    "PS-3557.00000000.L8",
+    "PS-3557.00000000.L8W5 1992"
+  ],
+  "subject_facet": [
+    "American poetry",
+    "American women authors",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Poésie américaine",
+    "Women authors"
+  ],
+  "ol_work_key": "/works/OL1807332W"
 }

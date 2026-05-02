@@ -1,7 +1,7 @@
 {
   "title": "The Sparrow",
   "author": "Mary Doria Russell",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-sparrow",
   "tags": [
@@ -31,5 +31,31 @@
     "Fiction, science fiction, general",
     "Fiction, religious",
     "LGBTQ gender identity"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3568.00000000.U76678 S63 2005",
+    "PS-3568.00000000.U76678 S63 1997",
+    "PS-3568.00000000.U76678 S63 1996",
+    "PS-3568.00000000.U76678S63",
+    "PS-3568.00000000.U76678 S63 2004"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, religious",
+    "Fiction, science fiction, general",
+    "Historical Fiction",
+    "Jesuits",
+    "LGBTQ gender identity",
+    "LGBTQ science fiction & fantasy",
+    "Life on other planets",
+    "Literature",
+    "Romance",
+    "Science fiction",
+    "Twenty-first century",
+    "collection:otherwise_tiptree_award=winner"
+  ],
+  "ol_work_key": "/works/OL2732491W"
 }

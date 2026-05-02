@@ -1,7 +1,7 @@
 {
   "title": "The Sword in the Stone",
   "author": "T.H. White",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-sword-in-the-stone",
   "tags": [],
@@ -27,5 +27,48 @@
     "Religion / Bible / General",
     "Bible - General",
     "Commentaries"
-  ]
+  ],
+  "ddc": [
+    "823.912",
+    "[Fic]",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6045.00000000.H2 Sw2",
+    "PR-6045.00000000.H2 Sw",
+    "PR-6045.00000000.H2 S95 1938",
+    "PZ-0003.00000000.W5854 Sw2",
+    "PR-6045.00000000.H2",
+    "PZ-0003.00000000.W5854 Sw",
+    "PR-6045.00000000.H2 S9 1977",
+    "PR-6045.00000000.H2 S94 1993"
+  ],
+  "subject_facet": [
+    "Adaptatins",
+    "Adaptations",
+    "Arthur, king, fiction",
+    "Arthurian romances",
+    "Britons",
+    "Children's fiction",
+    "Children's stories",
+    "Classic Literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Film novelizations",
+    "Folklore",
+    "Historical fiction",
+    "History",
+    "Juvenile fiction",
+    "Kings and rulers",
+    "Kings, queens, rulers, etc., fiction",
+    "Knights and knighthood",
+    "Knights and knighthood, fiction",
+    "Legends",
+    "Merlin (Legendary character)",
+    "Middle Ages",
+    "Movie novels",
+    "Wizards",
+    "award:retro_hugo"
+  ],
+  "ol_work_key": "/works/OL1388027W"
 }

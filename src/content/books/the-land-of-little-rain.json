@@ -31,5 +31,50 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/365",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/365.html.images",
   "librivox_url": "https://librivox.org/the-land-of-little-rain-by-mary-hunter-austin/",
-  "isbn": "9781594622786"
+  "isbn": "9781594622786",
+  "ddc": [
+    "917.94",
+    "917.9403",
+    "917.940451",
+    "917.94045"
+  ],
+  "lcc": [
+    "F--0866.00000000.A9318 2003",
+    "F--0866.00000000.A9318 1974b",
+    "F--0866.00000000.A9318 1961",
+    "F--0866.00000000.A9318 1950",
+    "F--0866.00000000.A9318 2007",
+    "F--0866.00000000.A9318 1903",
+    "F--0866.00000000.A9318 1996",
+    "F--0866.00000000.A9318 1974",
+    "F--0866.00000000.A9318 1997",
+    "F--0786.00000000.A93",
+    "F--0866.00000000.A9318 1988",
+    "F--0866.00000000.A9318 1969",
+    "F--0866.00000000 A9318 1904"
+  ],
+  "subject_facet": [
+    "Austin, mary hunter, 1868-1934",
+    "California",
+    "California, description and travel",
+    "California, history",
+    "California, history, local",
+    "California, social life and customs",
+    "Description and travel",
+    "Fiction, general",
+    "Frontier and pioneer life",
+    "Frontier and pioneer life, california",
+    "Local History",
+    "Natural history",
+    "Natural history, united states",
+    "Nature",
+    "New The Southwest",
+    "Nonfiction",
+    "Northwest, pacific, description and travel",
+    "Pictorial works",
+    "Social life and customs",
+    "Travel",
+    "Zamorano 80"
+  ],
+  "ol_work_key": "/works/OL1917146W"
 }

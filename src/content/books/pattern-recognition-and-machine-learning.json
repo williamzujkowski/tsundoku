@@ -1,7 +1,7 @@
 {
   "title": "Pattern Recognition and Machine Learning",
   "author": "Christopher Bishop",
-  "category": "Computer Science",
+  "category": "Science",
   "priority": 1,
   "slug": "pattern-recognition-and-machine-learning",
   "tags": [],
@@ -17,5 +17,13 @@
   "subjects": [
     "Science"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "Q--0337.50000000"
+  ],
+  "subject_facet": [
+    "Science"
+  ],
+  "pages": 758,
+  "ol_work_key": "/works/OL20728101W"
 }

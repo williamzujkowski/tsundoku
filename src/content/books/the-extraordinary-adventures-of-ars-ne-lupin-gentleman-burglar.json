@@ -1,7 +1,7 @@
 {
   "title": "The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",
   "author": "Maurice Leblanc",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-extraordinary-adventures-of-ars-ne-lupin-gentleman-burglar",
   "tags": [
@@ -34,5 +34,37 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/6133",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/6133.html.images",
   "librivox_url": "https://librivox.org/the-extraordinary-adventures-of-arsene-lupin-gentleman-burglar",
-  "isbn": "9798595147651"
+  "isbn": "9798595147651",
+  "ddc": [
+    "843.912",
+    "843.91"
+  ],
+  "lcc": [
+    "PQ-2623.00000000.E24 A772 1975",
+    "PQ-2623.00000000.E24 A772",
+    "PQ-2623.00000000.E24A77213",
+    "PQ-2623.00000000 E24 A8 1961",
+    "PQ-2623.00000000.E24 A77213 2007",
+    "PQ-2623.00000000.E24A9613 2021",
+    "PQ-2623.00000000.E24",
+    "PQ-2623.00000000.E24 A9613 2021",
+    "PQ-2623.00000000.E24 A784x 1962"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers",
+    "Adventure stories, French",
+    "Adventures",
+    "Arsène Lupin (Fictitious character)",
+    "Arséne Lupin (Fictitious character)",
+    "Burglars",
+    "Fiction",
+    "French Adventure stories",
+    "French Detective and mystery stories",
+    "French language",
+    "Parodies, imitations",
+    "Readers",
+    "Romance Frances",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL1064277W"
 }

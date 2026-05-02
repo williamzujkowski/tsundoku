@@ -1,7 +1,7 @@
 {
   "title": "Paladin of Souls",
   "author": "Lois McMaster Bujold",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "paladin-of-souls",
   "tags": [
@@ -28,5 +28,27 @@
     "series:world_of_the_five_gods"
   ],
   "copyright_status": "in_copyright",
-  "description": "E-Book Extras: ONE: The Keys to Chalion: A Dictionary of People, Places, and Things; TWO: Chalion MiscellanyIt's been three years since the curse was lifted, but Ista dy Baocia, Dowager Royina of Chalion, holds a dark secret: she was responsible for the destruction of Chalion years ago."
+  "description": "E-Book Extras: ONE: The Keys to Chalion: A Dictionary of People, Places, and Things; TWO: Chalion MiscellanyIt's been three years since the curse was lifted, but Ista dy Baocia, Dowager Royina of Chalion, holds a dark secret: she was responsible for the destruction of Chalion years ago.",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U397 P3 2005",
+    "PS-3552.00000000.U397 P355 2003",
+    "PS-8000.00000000",
+    "PS-3552.00000000.U397P355 2003",
+    "PS-3552.00000000"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Hugo Award Winner",
+    "Queens",
+    "award:hugo_award=2004",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel",
+    "series:world_of_the_five_gods"
+  ],
+  "ol_work_key": "/works/OL56898W"
 }

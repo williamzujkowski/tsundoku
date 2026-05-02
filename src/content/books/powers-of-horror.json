@@ -1,7 +1,7 @@
 {
   "title": "Powers of Horror",
   "author": "Julia Kristeva",
-  "category": "Philosophy",
+  "category": "Literature",
   "priority": 2,
   "slug": "powers-of-horror",
   "tags": [],
@@ -18,5 +18,34 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=g-NdglUBHSUC&dq=Powers+of+Horror+Julia+Kristeva&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "843.912"
+  ],
+  "lcc": [
+    "PQ-2607.00000000.E834 Z73413",
+    "PN-0056.00000000.A2",
+    "PQ-2607.00000000.E834 Z73413 1982",
+    "PQ-2607.00000000.E834 Z734 1980",
+    "PN-0056.00000000.P92 K7413 1982",
+    "PQ-2607.00000000.E834Z/",
+    "B--0105.00000000.H6 K92 1983"
+  ],
+  "subject_facet": [
+    "Abjection",
+    "Abjection dans la littérature",
+    "Abjection in literature",
+    "Aspect anthropologique",
+    "Criticism and interpretation",
+    "Criticism and interpretationcéline, louis-ferdinand , 1894-1961",
+    "Céline, louis-ferdinand",
+    "Ee1588",
+    "Horror",
+    "Horror in literature",
+    "Pn56.p92 k7413 1982",
+    "Pq2607.e834 z73413 1982",
+    "Rejection (Psychology)",
+    "Social psychology"
+  ],
+  "ol_work_key": "/works/OL71375W"
 }

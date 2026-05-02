@@ -1,7 +1,7 @@
 {
   "title": "VALIS",
   "author": "Philip K. Dick",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "valis",
   "tags": [
@@ -29,5 +29,30 @@
     "American Science fiction",
     "Dieu",
     "Romans, nouvelles"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3554.00000000.I3",
+    "PS-3554.00000000.I3 V35 1991",
+    "PS-3554.00000000.I3 V35 2011",
+    "PS-3554.00000000.I3V35 2011"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Dieu",
+    "Faith",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Foi",
+    "God",
+    "Reality",
+    "Romans, nouvelles",
+    "Réalité",
+    "Schizophrenia",
+    "Schizophrénie",
+    "Science Fiction"
+  ],
+  "ol_work_key": "/works/OL2172524W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Ballad of Black Tom",
   "author": "Victor LaValle",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-ballad-of-black-tom",
   "tags": [
@@ -29,5 +29,21 @@
     "Fiction, fantasy, paranormal",
     "New york (n.y.), fiction",
     "Fiction, horror"
-  ]
+  ],
+  "lcc": [
+    "PS-3562.00000000.A8458 B35 2016",
+    "PS-3562.00000000.A8458 B35 2016eb"
+  ],
+  "subject_facet": [
+    "African American men",
+    "Doorways",
+    "Fiction",
+    "Fiction, fantasy, paranormal",
+    "Fiction, horror",
+    "History",
+    "Magic",
+    "New york (n.y.), fiction",
+    "Nineteen twenties"
+  ],
+  "ol_work_key": "/works/OL17868258W"
 }

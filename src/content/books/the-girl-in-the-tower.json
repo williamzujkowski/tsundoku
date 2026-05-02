@@ -1,7 +1,7 @@
 {
   "title": "The Girl in the Tower",
   "author": "Katherine Arden",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-girl-in-the-tower",
   "tags": [
@@ -27,5 +27,24 @@
     "Fiction",
     "Fiction, fantasy, general"
   ],
-  "pages": 392
+  "pages": 392,
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3601.00000000.R42G57 2018",
+    "PS-3601.00000000.R42",
+    "PS-3601.00000000.R42 G57 2018"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Good and evil",
+    "Large type books",
+    "Magic",
+    "Spirits",
+    "Villages",
+    "Young women"
+  ],
+  "ol_work_key": "/works/OL19738981W"
 }

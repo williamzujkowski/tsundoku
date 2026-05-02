@@ -1,7 +1,7 @@
 {
   "title": "The Charing Cross Mystery",
   "author": "Joseph Smith Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-charing-cross-mystery",
   "tags": [
@@ -28,5 +28,21 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/59893.html.images",
   "librivox_url": "https://librivox.org/the-charing-cross-mystery-by-j-s-fletcher/",
   "description": "<p><i>The Charing Cross Mystery</i> follows a young lawyer, Hetherwick, who happens to be on a train alongside a former police inspector who dies suddenly in front of him. The other man in the carriage runs off at the next stop and vanishes. Hetherwick takes it upon himself to investigate what turns out to be a murder.</p>\r\n\t\t\t<p><a href=\"https://standardebooks.org/ebooks/j-s-fletcher\"><abbr>J.",
-  "isbn": "9781089352457"
+  "isbn": "9781089352457",
+  "ddc": [
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.F634 Ch",
+    "PR-6011.00000000.L5 Ch"
+  ],
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction in English",
+    "Fiction, mystery & detective, general",
+    "Lawyers -- Fiction",
+    "London (England) -- Social life and customs -- 20th century -- Fiction",
+    "Murder -- Investigation -- Fiction"
+  ],
+  "ol_work_key": "/works/OL242677W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "On a Pale Horse",
   "author": "Piers Anthony",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "on-a-pale-horse",
   "tags": [
@@ -24,5 +24,22 @@
     "Magic",
     "Death"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3551.00000000.N73 O5 1984",
+    "PS-3551.00000000.N73 O5 1983",
+    "PS-3551.00000000.N73"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Death",
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Magic"
+  ],
+  "ol_work_key": "/works/OL80857W"
 }

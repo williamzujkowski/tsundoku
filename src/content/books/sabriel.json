@@ -1,7 +1,7 @@
 {
   "title": "Sabriel",
   "author": "Garth Nix",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "sabriel",
   "tags": [
@@ -31,5 +31,37 @@
     "Fantasy fiction",
     "Juvenile Fiction",
     "Magical thinking"
-  ]
+  ],
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.N647Sab",
+    "PZ-0007.00000000.N647 Sab 1995",
+    "PZ-0007.00000000.N647Sab 2001",
+    "PZ-0007.00000000.N647Sab 1995"
+  ],
+  "subject_facet": [
+    "Children's fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fathers and daughters",
+    "Fiction",
+    "Juvenile Fiction",
+    "Magic",
+    "Magical thinking",
+    "Missing persons",
+    "Old Kingdom (Imaginary place)",
+    "Reading Level-Grade 10",
+    "Reading Level-Grade 11",
+    "Reading Level-Grade 12",
+    "Reading Level-Grade 9",
+    "Sabriel (Fictitious character) ‡v Fiction",
+    "Science Fiction & Fantasy",
+    "Teen fantasy fiction",
+    "Young adult",
+    "collection:Name",
+    "fantacy"
+  ],
+  "ol_work_key": "/works/OL2628761W"
 }

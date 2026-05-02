@@ -1,7 +1,7 @@
 {
   "title": "The Bloody Crown of Conan",
   "author": "Robert E. Howard",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-bloody-crown-of-conan",
   "tags": [
@@ -25,5 +25,21 @@
     "Fiction, fantasy, general",
     "Conan (fictitious character), fiction"
   ],
-  "pages": 366
+  "pages": 366,
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3515.00000000.O842A6 2004b",
+    "PS-3515.00000000.O842 A6 2004b"
+  ],
+  "subject_facet": [
+    "American Fantasy fiction",
+    "Conan (Fictitious character)",
+    "Conan (fictitious character), fiction",
+    "Fantasy fiction, American",
+    "Fiction",
+    "Fiction, fantasy, general"
+  ],
+  "ol_work_key": "/works/OL2848480W"
 }

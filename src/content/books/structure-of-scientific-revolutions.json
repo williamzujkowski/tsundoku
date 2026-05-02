@@ -1,7 +1,7 @@
 {
   "title": "Structure of Scientific Revolutions",
   "author": "Thomas Kuhn",
-  "category": "Philosophy",
+  "category": "Science",
   "priority": 1,
   "slug": "structure-of-scientific-revolutions",
   "tags": [
@@ -30,5 +30,59 @@
     "Ciencia",
     "Historia Da Ciencia"
   ],
-  "isbn": "9782080811158"
+  "isbn": "9782080811158",
+  "ddc": [
+    "501",
+    "500"
+  ],
+  "lcc": [
+    "Q--0175.00000000",
+    "Q--0175.00000000 K95 1967",
+    "Q--0175.00000000.K95 1970",
+    "Q--0175.00000000.K95 2012",
+    "Q--0175.00000000.K95 1996",
+    "Q--0159.50000000",
+    "Q--0175.00000000.K95",
+    "Q--0175.00000000.K9514",
+    "PQ-7084.50000000.P61982"
+  ],
+  "subject_facet": [
+    "501",
+    "Ciencia",
+    "Crítica e interpretação",
+    "Découvertes scientifiques",
+    "Filosofia da ciência",
+    "Histoire",
+    "Historia Da Ciencia",
+    "Historia e critica",
+    "History",
+    "História da ciência",
+    "Literatura hispano-americana",
+    "Long Now Manual for Civilization",
+    "Naturwissenschaften",
+    "Paradigm (Theory of knowledge)",
+    "Paradigma",
+    "Philosophie",
+    "Philosophy",
+    "Philosophy--history",
+    "Progress",
+    "Prográes",
+    "Progrès",
+    "Q 175 k962s 1996",
+    "Q175 .k95 1970",
+    "Q175 .k95 1996",
+    "Science",
+    "Science, history",
+    "Science, philosophy",
+    "Science--history",
+    "Science--philosophy",
+    "Sciences",
+    "Sâerie Ciãencia histâor",
+    "Série Ciência história",
+    "Wetenschapsdynamica",
+    "Wissenschaft",
+    "Wissenschaftliche Revolution",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL3259254W"
 }

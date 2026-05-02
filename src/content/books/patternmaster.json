@@ -1,7 +1,7 @@
 {
   "title": "Patternmaster",
   "author": "Octavia E. Butler",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "patternmaster",
   "tags": [
@@ -30,5 +30,27 @@
     "Fiction, fantasy, epic",
     "Fiction, science fiction, apocalyptic & post-apocalyptic"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U827 P38 2020",
+    "PZ-0004.00000000.B98674 Pat",
+    "PS-3552.00000000.U827",
+    "PS-3552.00000000.U827 Pat"
+  ],
+  "subject_facet": [
+    "Brothers",
+    "Fiction",
+    "Fiction, fantasy, dark fantasy",
+    "Fiction, fantasy, epic",
+    "Fiction, science fiction, apocalyptic & post-apocalyptic",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, genetic engineering",
+    "Healers",
+    "Inheritance and succession",
+    "Telepathy"
+  ],
+  "ol_work_key": "/works/OL35620W"
 }

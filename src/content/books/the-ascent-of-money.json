@@ -29,5 +29,46 @@
     "Origin",
     "nyt:hardcover-nonfiction=2008-12-14",
     "New York Times bestseller"
-  ]
+  ],
+  "ddc": [
+    "332.09",
+    "330"
+  ],
+  "lcc": [
+    "HG-0171.00000000.F47 2008",
+    "HC-0021.00000000",
+    "HG-0171.00000000",
+    "HB-0000.00000000",
+    "HG-0171.00000000.F47 2009",
+    "HG-0171.00000000.F47 2009b",
+    "HG-0171.00000000.F47 2008b",
+    "HG-0171.00000000.F47 2018"
+  ],
+  "subject_facet": [
+    "Economic history",
+    "Economics",
+    "Economics, history",
+    "Finance",
+    "Finance, history",
+    "Finances",
+    "Finances internationales",
+    "Financiële ontwikkeling",
+    "Financiële structuur",
+    "Geld",
+    "Histoire",
+    "Histoire économique",
+    "History",
+    "International finance",
+    "Large type books",
+    "Money",
+    "Money, history",
+    "Monnaie",
+    "New York Times bestseller",
+    "Nonfiction",
+    "Origin",
+    "nyt:hardcover-nonfiction=2008-12-14",
+    "nyt:paperback-nonfiction=2009-11-15",
+    "Économie politique"
+  ],
+  "ol_work_key": "/works/OL792952W"
 }

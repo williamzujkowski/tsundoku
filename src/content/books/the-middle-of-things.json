@@ -1,7 +1,7 @@
 {
   "title": "The Middle of Things",
   "author": "J. S. Fletcher",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-middle-of-things",
   "tags": [
@@ -29,5 +29,18 @@
   ],
   "gutenberg_id": 9902,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/9902",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/9902.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/9902.html.images",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PR-6011.00000000.L5 Md",
+    "PS-9990.00000000.F5m",
+    "PZ-0003.00000000.F634 Md"
+  ],
+  "subject_facet": [
+    "Fiction, mystery & detective, general",
+    "Women's literature"
+  ],
+  "ol_work_key": "/works/OL242678W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Will to Battle",
   "author": "Ada Palmer",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-will-to-battle",
   "tags": [
@@ -24,5 +24,20 @@
     "Fiction",
     "Fiction, science fiction, general",
     "series:terra_ignota"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3616.00000000.A33879",
+    "PS-3616.00000000.A33879 W55 2017",
+    "PS-3616.00000000.A33879W55"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Utopias",
+    "series:terra_ignota"
+  ],
+  "ol_work_key": "/works/OL19635836W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Hundred Thousand Kingdoms",
   "author": "N. K. Jemisin",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-hundred-thousand-kingdoms",
   "tags": [
@@ -28,5 +28,25 @@
     "Secrets",
     "Long now manual for civilization",
     "collection:otherwise_tiptree_award=honor"
-  ]
+  ],
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3610.00000000.E46 H86 2010",
+    "PS-3610.00000000.E46H86 2010",
+    "PS-3610.00000000.E46"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, epic",
+    "Gods",
+    "Gods and goddesses",
+    "Long now manual for civilization",
+    "Secrets",
+    "characters of color",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL13731150W"
 }

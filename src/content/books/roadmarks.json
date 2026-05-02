@@ -1,7 +1,7 @@
 {
   "title": "Roadmarks",
   "author": "Roger Zelazny",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 1,
   "slug": "roadmarks",
   "tags": [
@@ -27,5 +27,23 @@
     "Fiction",
     "Assassins"
   ],
-  "isbn": "9781515442011"
+  "isbn": "9781515442011",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3576.00000000.E43 Rm",
+    "PZ-0004.00000000.Z456 Rm"
+  ],
+  "subject_facet": [
+    "Alternate History",
+    "Alternate Universes",
+    "Assassins",
+    "Dragons",
+    "Fantasy fiction",
+    "Fiction",
+    "Time Travel",
+    "Time travel"
+  ],
+  "ol_work_key": "/works/OL13978W"
 }

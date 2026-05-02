@@ -1,7 +1,7 @@
 {
   "title": "The Art of Unix Programming",
   "author": "Eric S. Raymond",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "the-art-of-unix-programming",
   "tags": [
@@ -23,5 +23,20 @@
     "UNIX (Computer file)",
     "Unix shells (computer programs)",
     "Systèmes d'exploitation (Ordinateurs)"
-  ]
+  ],
+  "ddc": [
+    "005.432"
+  ],
+  "lcc": [
+    "QA-0076.76000000.O63 R395 2004",
+    "QA-0076.76000000.O63 R395 2003",
+    "QA-0076.76000000.O63R395 2003"
+  ],
+  "subject_facet": [
+    "Operating systems (Computers)",
+    "Systèmes d'exploitation (Ordinateurs)",
+    "UNIX (Computer file)",
+    "Unix shells (computer programs)"
+  ],
+  "ol_work_key": "/works/OL6036022W"
 }

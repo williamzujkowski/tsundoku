@@ -1,7 +1,7 @@
 {
   "title": "The Dreaming Jewels",
   "author": "Theodore Sturgeon",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-dreaming-jewels",
   "tags": [],
@@ -18,5 +18,30 @@
   ],
   "google_books_url": "http://books.google.com/books?id=_qc_DwAAQBAJ&dq=The+Dreaming+Jewels+Theodore+Sturgeon&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T875 D7 1985",
+    "PZ-0003.00000000.W1426 Syu3",
+    "PS-3573.00000000.A4218 Syu3",
+    "PZ-0003.00000000.S93562 Dr",
+    "PS-3569.00000000.T875 Dr",
+    "PS-3569.00000000.T875D7 1999",
+    "PS-3569.00000000.T875 Dr 1978",
+    "PS-3569.00000000.T875 D7318",
+    "PS-3545.00000000.A368 D7 1955",
+    "PS-3569.00000000.T875 D7 1999",
+    "PZ-0003.00000000.S93562 Dr 1978"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Fiction in English",
+    "Fiction, general",
+    "Fiction, science fiction, general",
+    "Literatura estadounidense",
+    "Novela fantástica"
+  ],
+  "ol_work_key": "/works/OL14868272W"
 }

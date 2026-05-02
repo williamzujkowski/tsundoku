@@ -1,7 +1,7 @@
 {
   "title": "The Fashion in Shrouds",
   "author": "Margery Allingham",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-fashion-in-shrouds",
   "tags": [
@@ -29,5 +29,40 @@
     "England, fiction",
     "English Detective and mystery stories"
   ],
-  "pages": 297
+  "pages": 297,
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6001.00000000.L678 Fas11",
+    "PR-6001.00000000.L678",
+    "PZ-0003.00000000.A4372 Fas2",
+    "PR-6001.00000000.L678 Fas2",
+    "PR-6001.00000000.L678 Fas8",
+    "PR-6001.00000000.L678 .Al55f 1950",
+    "PR-6001.00000000.L678F37 2008",
+    "PZ-0003.00000000.A4372 Fas8",
+    "PZ-0003.00000000.A4372 Fas11",
+    "PZ-0003.00000000.A4372Fas11",
+    "PR-6001.00000000.L678 F37 2008",
+    "PR-6001.00000000.L678 F37 2006"
+  ],
+  "subject_facet": [
+    "Albert Campion (Fictitious character)",
+    "Campion, albert (fictitious character), fiction",
+    "England in fiction",
+    "England, fiction",
+    "English Detective and mystery stories",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, international crime & mystery",
+    "Fiction, mystery & detective, private investigators",
+    "Fiction, mystery & detective, traditional",
+    "London (england), fiction",
+    "Private investigators",
+    "Private investigators in fiction",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL2004218W"
 }

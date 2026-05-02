@@ -1,7 +1,7 @@
 {
   "title": "The Masqueraders",
   "author": "Georgette Heyer",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-masqueraders",
   "tags": [
@@ -25,5 +25,25 @@
     "Fiction, romance, historical, regency",
     "Fiction, historical, general",
     "Fiction, romance, general"
-  ]
+  ],
+  "ddc": [
+    "823.914",
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6015.00000000.E795 Ma10",
+    "PR-6015.00000000.E795M37 2009",
+    "PR-6015.00000000.E795 M37 2009",
+    "PZ-0003.00000000.H514 Ma10",
+    "PR-6015.00000000.E795M37 2005"
+  ],
+  "subject_facet": [
+    "Fiction, Romance, Historical",
+    "Fiction, historical, general",
+    "Fiction, romance, general",
+    "Fiction, romance, historical, regency",
+    "Large type books",
+    "Regency\""
+  ],
+  "ol_work_key": "/works/OL16478203W"
 }

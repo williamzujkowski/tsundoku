@@ -1,7 +1,7 @@
 {
   "title": "The Threepenny Opera",
   "author": "Bertolt Brecht",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 1,
   "slug": "the-threepenny-opera",
   "tags": [
@@ -30,5 +30,42 @@
     "Pt2603.r397 d7 1968",
     "Librettos",
     "Dreigroschenoper (Brecht)"
-  ]
+  ],
+  "ddc": [
+    "832.912"
+  ],
+  "lcc": [
+    "PT-2603.00000000.R397 D7 1994",
+    "PT-2603.00000000 R397 D723",
+    "PT-2603.00000000.R397 D75 1982",
+    "ML-0050.00000000.W42 D82 1964g",
+    "PT-2603.00000000.R397 D7 1968",
+    "ML-0050.00000000.W42 D82 1982",
+    "PT-2603.00000000 R397 D7 1969",
+    "PT-2603.00000000.R397 D7513 2007",
+    "PT-2603.00000000.R397 D7513 1994",
+    "PT-2603.00000000.R397D7513",
+    "ML-0050.00000000.W42 D74 1966",
+    "PT-2603.00000000.R397 D7 2004",
+    "PT-2603.00000000.R397 D71 1973",
+    "ML-0050.00000000.W42 D82 1964",
+    "PT-2603.00000000.R397"
+  ],
+  "subject_facet": [
+    "Berliner Ensemble",
+    "Continental european",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Dreigroschenoper (Brecht)",
+    "Fortification",
+    "Fortification--united states--juvenile literature",
+    "German drama",
+    "German literature",
+    "Librettos",
+    "Musicals",
+    "Operas",
+    "Pt2603.r397 d7 1968",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL3802324W"
 }

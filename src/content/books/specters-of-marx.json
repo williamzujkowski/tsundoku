@@ -1,7 +1,7 @@
 {
   "title": "Specters of Marx",
   "author": "Jacques Derrida",
-  "category": "Philosophy",
+  "category": "Economics",
   "priority": 1,
   "slug": "specters-of-marx",
   "tags": [],
@@ -18,5 +18,32 @@
   "copyright_status": "in_copyright",
   "subjects": [
     "Philosophy"
-  ]
+  ],
+  "ddc": [
+    "335.4"
+  ],
+  "lcc": [
+    "HX-0039.50000000",
+    "HX-0039.50000000.D4613 1994eb",
+    "HX-0039.50000000.D4613 2006",
+    "HX-0039.50000000.D4613 1994"
+  ],
+  "subject_facet": [
+    "335.4",
+    "Communism",
+    "Communism & Socialism",
+    "Communisme",
+    "Hx39.5 .d4613 1994",
+    "Krytyka i interpretacja",
+    "Marksizm",
+    "Marx, karl , 1818-1883",
+    "Marx, karl, 1818-1883",
+    "Marxisme",
+    "POLITICAL SCIENCE",
+    "Political Ideologies",
+    "Post-communism",
+    "Postcommunisme",
+    "Receptie"
+  ],
+  "ol_work_key": "/works/OL15243W"
 }

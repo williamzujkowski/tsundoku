@@ -1,7 +1,7 @@
 {
   "title": "The Crime at Black Dudley",
   "author": "Margery Allingham",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-crime-at-black-dudley",
   "tags": [
@@ -32,5 +32,28 @@
   "gutenberg_id": 75359,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75359",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75359.html.images",
-  "librivox_url": "https://librivox.org/the-crime-at-black-dudley-by-margery-allingham/"
+  "librivox_url": "https://librivox.org/the-crime-at-black-dudley-by-margery-allingham/",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6001.00000000.L678 Cr4",
+    "PR-6001.00000000.L678",
+    "PZ-0003.00000000.A4372 Cr4",
+    "PR-6001.00000000.L678 C75 2008"
+  ],
+  "subject_facet": [
+    "Albert Campion (Fictitious character)",
+    "Campion, albert (fictitious character), fiction",
+    "England, fiction",
+    "Fiction",
+    "Fiction, crime",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Murder",
+    "Mystery",
+    "Private investigators",
+    "Private investigators, fiction"
+  ],
+  "ol_work_key": "/works/OL2004298W"
 }

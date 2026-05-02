@@ -1,7 +1,7 @@
 {
   "title": "The Small House at Allington",
   "author": "Anthony Trollope",
-  "category": "History",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-small-house-at-allington",
   "tags": [
@@ -39,5 +39,50 @@
   "gutenberg_id": 4599,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4599",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4599.html.images",
-  "isbn": "9780736624459"
+  "isbn": "9780736624459",
+  "ddc": [
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5684.00000000.S55x 1979",
+    "PR-5684.00000000.S55 1995",
+    "PR-5684.00000000.S55 Sm7",
+    "PR-5684.00000000 S55 1900",
+    "PR-5684.00000000.S55 Sm19",
+    "PZ-0003.00000000.T75 Sm6",
+    "PR-5684.00000000.S55 Sm6",
+    "PR-5684.00000000.S6 1993",
+    "PZ-0003.00000000.T75 Sm19",
+    "PR-5684.00000000 S55 1868",
+    "PR-5680.00000000",
+    "PR-5684.00000000.S55 1997",
+    "PR-5684.00000000.S58 1950",
+    "PR-5684.00000000.S55 1989",
+    "PR-5684.00000000.S55 2015",
+    "PR-5684.00000000.S55 1970",
+    "PZ-0003.00000000.T75 Sm7",
+    "AC-0001.00000000.E8 no. 361",
+    "PR-5684.00000000.S55 1911",
+    "PR-5684.00000000"
+  ],
+  "subject_facet": [
+    "Barsetshire (England : Imaginary place)",
+    "Barsetshire (England: Imaginary place) -- Fiction",
+    "British and irish fiction (fictional works by one author)",
+    "Classic Literature",
+    "Clergy",
+    "Clergy -- Fiction",
+    "Domestic fiction",
+    "England, fiction",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, historical, general",
+    "Great britain, social life and customs, fiction",
+    "Literature and fiction (general)",
+    "Long now manual for civilization",
+    "Manners and customs",
+    "Social life and customs",
+    "Young women"
+  ],
+  "ol_work_key": "/works/OL109877W"
 }

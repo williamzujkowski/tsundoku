@@ -1,7 +1,7 @@
 {
   "title": "Snow Crash",
   "author": "Neal Stephenson",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "snow-crash",
   "tags": [
@@ -33,5 +33,38 @@
     "American fiction",
     "Fiction, science fiction, general",
     "Fiction, humorous"
-  ]
+  ],
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3569.00000000.T3868 S65 2008",
+    "PS-3569.00000000.T3868 S65 2003",
+    "PS-3569.00000000.T3868",
+    "PS-3569.00000000.T3868 S65 1992",
+    "PS-3569.00000000.T3868S65 2008"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American fiction",
+    "Computer viruses",
+    "Cyberpunk culture",
+    "Cyberspace",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, hard science fiction",
+    "Hackers",
+    "Long Now Manual for Civilization",
+    "Open Library Staff Picks",
+    "Science fiction",
+    "Sumerian Mythology",
+    "Suspense",
+    "Virtual reality",
+    "open_syllabus_project",
+    "ready player one"
+  ],
+  "ol_work_key": "/works/OL38501W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Democratic Paradox",
   "author": "Chantal Mouffe",
-  "category": "Philosophy",
+  "category": "Political Theory",
   "priority": 2,
   "slug": "the-democratic-paradox",
   "tags": [
@@ -26,5 +26,18 @@
     "Political science, philosophy",
     "Jc423 .m7363 2000",
     "321.8"
-  ]
+  ],
+  "lcc": [
+    "JC-0423.00000000.M7363 2000"
+  ],
+  "subject_facet": [
+    "321.8",
+    "Democracia",
+    "Democracy",
+    "Democratie",
+    "Demokratie",
+    "Jc423 .m7363 2000",
+    "Political science, philosophy"
+  ],
+  "ol_work_key": "/works/OL3069853W"
 }

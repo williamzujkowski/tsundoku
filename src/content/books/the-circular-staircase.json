@@ -1,7 +1,7 @@
 {
   "title": "The Circular Staircase",
   "author": "Mary Roberts Rinehart",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-circular-staircase",
   "tags": [
@@ -33,5 +33,47 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/434",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/434.html.images",
   "librivox_url": "https://librivox.org/the-circular-staircase-by-mary-roberts-rinehart/",
-  "isbn": "9798596221596"
+  "isbn": "9798596221596",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3535.00000000.I73 Ci 1977",
+    "PZ-0003.00000000.R47 Ci 1977",
+    "PS-3535.00000000.I73",
+    "PZ-0003.00000000.R47 Ci6",
+    "PZ-0003.00000000.R47 Ci 1978",
+    "PS-3535.00000000.I73 C47 2009",
+    "PS-3535.00000000.I73 Ci6",
+    "PS-3535.00000000.I73C47 2009",
+    "PS-3535.00000000.I73 C47 2013",
+    "PS-3535.00000000.I73 Ci 1978",
+    "PZ-0003.00000000.R472",
+    "PS-3535.00000000.I73C47 1997",
+    "PS-3535.00000000.I73 C47 1997"
+  ],
+  "subject_facet": [
+    "Adirondack mountains (n.y.), fiction",
+    "Classic Literature",
+    "Country homes",
+    "Country homes -- Fiction",
+    "Crime, fiction",
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, suspense",
+    "Fiction, thrillers, suspense",
+    "Innes, rachel (fictitious character), fiction",
+    "Investigation",
+    "Large type books",
+    "Middle-aged women",
+    "Middle-aged women -- Fiction",
+    "Murder",
+    "Murder -- Investigation -- Fiction",
+    "Mystery",
+    "Mystery fiction",
+    "Open Library Staff Picks",
+    "United states, fiction"
+  ],
+  "ol_work_key": "/works/OL137396W"
 }

@@ -25,5 +25,44 @@
   "description": "The Dharma Bums is a 1958 novel by Beat Generation author Jack Kerouac. The basis for the novel's semi-fictional accounts are events occurring years after the events of On the Road. The main characters are the narrator Ray Smith, based on Kerouac, and Japhy Ryder, based on the poet and essayist Gary Snyder, who was instrumental in Kerouac's introduction to Buddhism in the mid-1950s.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/DharmaBums.JPG/250px-DharmaBums.JPG",
   "pages": 224,
-  "isbn": "9780451165572"
+  "isbn": "9780451165572",
+  "ddc": [
+    "823.91",
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3521.00000000.E735 D48 1990",
+    "PS-3521.00000000.E735 Dh",
+    "PS-3521.00000000.E735",
+    "PS-3521.00000000.E735D48 1990",
+    "PS-3521.00000000.E735D48 2008",
+    "PS-3521.00000000.E735 D48 2006",
+    "PZ-0003.00000000.K4596 Dh",
+    "PS-3521.00000000.E735 D48 2008",
+    "PS-3521.00000000.E735D48 2006",
+    "PS-3521.00000000.E735 D5x 1970z",
+    "PS-3521.00000000.E735 D48 1959",
+    "PZ-0003.00000000.K4596"
+  ],
+  "subject_facet": [
+    "813/.54",
+    "American fiction (fictional works by one author)",
+    "American literature",
+    "Audio - Autobiography / Biography",
+    "Beat generation",
+    "Beats (Persons)",
+    "Beats (persons)--fiction",
+    "Buddhism",
+    "Fiction",
+    "Fiction - General",
+    "General",
+    "Literature",
+    "Personal Memoirs",
+    "Ps3521.e735 d48 2006",
+    "Romans, nouvelles",
+    "San francisco (calif.), fiction",
+    "Unabridged Audio - Autobiography/Biography"
+  ],
+  "first_published": 1950,
+  "ol_work_key": "/works/OL65897W"
 }

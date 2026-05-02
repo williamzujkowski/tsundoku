@@ -1,7 +1,7 @@
 {
   "title": "The Pit-Prop Syndicate",
   "author": "Freeman Wills Crofts",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-pit-prop-syndicate",
   "tags": [
@@ -32,5 +32,25 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 2013,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2013",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2013.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2013.html.images",
+  "ddc": [
+    "823.912",
+    "823.91"
+  ],
+  "lcc": [
+    "PR-6005.00000000.R675",
+    "PZ-0003.00000000.C8747 Pi",
+    "PR-6005.00000000.R675 P58 1925",
+    "PR-6005.00000000.R675 Pi",
+    "PR-6005.00000000.R675P55 2018"
+  ],
+  "subject_facet": [
+    "English Detective and mystery stories",
+    "Fiction in English",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, traditional",
+    "Inglise",
+    "Roman policier anglais"
+  ],
+  "ol_work_key": "/works/OL10537648W"
 }

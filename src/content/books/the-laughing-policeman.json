@@ -1,7 +1,7 @@
 {
   "title": "The Laughing Policeman",
   "author": "Maj Sjöwall and Per Wahlöö",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-laughing-policeman",
   "tags": [],
@@ -17,5 +17,43 @@
   "google_books_url": "http://books.google.com/books?id=ny5KAAAAYAAJ&dq=The+Laughing+Policeman+Maj+Sj%C3%B6wall+and+Per+Wahl%C3%B6%C3%B6&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "isbn": "9781433263538"
+  "isbn": "9781433263538",
+  "ddc": [
+    "839.737",
+    "839.7374",
+    "839.73"
+  ],
+  "lcc": [
+    "PT-9876.29000000.J63 S513 1993",
+    "PT-9876.29000000.J63 S513 1992",
+    "PZ-0004.00000000.S61953Lau6",
+    "PT-9876.29000000.J63 Lau3",
+    "PZ-0004.00000000.S61953 Lau6",
+    "PT-9876.29000000.J63",
+    "PT-9876.29000000.J63 S5 1978",
+    "PT-9876.29000000.J63 S5",
+    "PZ-0004.00000000.S61953 Lau",
+    "PT-9876.29000000.J63 S513 2009",
+    "PT-9876.29000000.J63 S513 2007",
+    "PZ-0004.00000000.S61953 Lau3",
+    "PT-9876.29000000.J63 Lau",
+    "PT-9876.29000000.J63S513",
+    "PT-9876.29000000.J63 Lau6"
+  ],
+  "subject_facet": [
+    "Beck, martin (fictitious character), fiction",
+    "Crime, fiction",
+    "Edgar Award",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, police procedural",
+    "Large type books",
+    "Martin Beck (Fictitious character)",
+    "Mass murder",
+    "Mystery",
+    "Police",
+    "Stockholm (sweden), fiction",
+    "Sweden, fiction"
+  ],
+  "ol_work_key": "/works/OL3899219W"
 }

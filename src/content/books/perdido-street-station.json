@@ -1,7 +1,7 @@
 {
   "title": "Perdido Street Station",
   "author": "China Miéville",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 1,
   "slug": "perdido-street-station",
   "tags": [
@@ -32,5 +32,32 @@
     "Alienation (Social psychology)",
     "Dystopias"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "[Fic]",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6063.00000000.I265 P47 2003",
+    "PR-6063.00000000.I265 P47 2001",
+    "PR-3724.00000000.G7 1982",
+    "PR-6063.00000000.I265P47 2001",
+    "PR-6063.00000000.I265",
+    "PR-6063.00000000"
+  ],
+  "subject_facet": [
+    "Alienation (Social psychology)",
+    "City and town life",
+    "Dissenters",
+    "Dystopias",
+    "FICTION",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "General",
+    "Long Now Manual for Civilization",
+    "Science Fiction",
+    "Strangers",
+    "collection:otherwise_tiptree_award=honor"
+  ],
+  "ol_work_key": "/works/OL8718786W"
 }

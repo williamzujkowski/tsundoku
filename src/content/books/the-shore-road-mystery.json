@@ -1,7 +1,7 @@
 {
   "title": "The Shore Road Mystery",
   "author": "Franklin W. Dixon",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-shore-road-mystery",
   "tags": [
@@ -45,5 +45,36 @@
   "librivox_url": "https://librivox.org/the-shore-road-mystery-by-franklin-w-dixon/",
   "gutenberg_id": 73102,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73102",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73102.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73102.html.images",
+  "ddc": [
+    "[Fic]"
+  ],
+  "lcc": [
+    "PZ-0007.00000000.D644Sh 2024",
+    "PZ-0007.00000000.D644Sh 2017",
+    "PZ-0007.00000000.D644 Sh 1997",
+    "PZ-0007.00000000.D644Sh 1997",
+    "PZ-0007.00000000.D644 Sh 1928x",
+    "PZ-0007.00000000.D644 Sh10"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Automobile theft -- Juvenile fiction",
+    "Brothers -- Juvenile fiction",
+    "Children's fiction",
+    "Children’s",
+    "Detective and mystery stories",
+    "Fiction",
+    "Frank Hardy (Fictitious character)",
+    "Hardy Boys (Fictitious characters)",
+    "Hardy Boys (Fictitious characters) -- Juvenile fiction",
+    "Hardy boys (fictitious characters), fiction",
+    "Joe Hardy (Fictitious character)",
+    "Juvenile fiction",
+    "Mystery",
+    "Mystery and detective stories",
+    "collectionID:HBMS1",
+    "series:HardyBoys"
+  ],
+  "ol_work_key": "/works/OL47933W"
 }

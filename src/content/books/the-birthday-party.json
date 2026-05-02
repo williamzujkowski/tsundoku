@@ -1,7 +1,7 @@
 {
   "title": "The Birthday Party",
   "author": "Harold Pinter",
-  "category": "Drama",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-birthday-party",
   "tags": [
@@ -25,5 +25,27 @@
     "British and irish drama (dramatic works by one author)",
     "Drama"
   ],
-  "isbn": "9780413304803"
+  "isbn": "9780413304803",
+  "ddc": [
+    "822.914"
+  ],
+  "lcc": [
+    "PR-6066.00000000.I525 B5 1965",
+    "PR-6031.00000000 I57 B5 1971",
+    "PR-6066.00000000.I53 B5 1968",
+    "PR-6031.00000000.I525 B5",
+    "PR-6066.00000000.I53 B5 1960",
+    "PR-6066.00000000.I53 B5 1991 b",
+    "PR-6031.00000000.I57 B5 1960",
+    "PR-6066.00000000.I53 B5 1959 Rare Bk Coll"
+  ],
+  "subject_facet": [
+    "American drama (dramatic works by one author)",
+    "Birthday party (Pinter, Harold)",
+    "British and irish drama (dramatic works by one author)",
+    "Drama",
+    "English drama",
+    "Plays"
+  ],
+  "ol_work_key": "/works/OL550886W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The King of Attolia",
   "author": "Megan Whalen Turner",
-  "category": "Science Fiction",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-king-of-attolia",
   "tags": [
@@ -31,5 +31,27 @@
     "Kings, queens, rulers",
     "Soldiers"
   ],
-  "pages": 387
+  "pages": 387,
+  "lcc": [
+    "PZ-0007.00000000.T85565 Ki 2007"
+  ],
+  "subject_facet": [
+    "Adventure and adventurers",
+    "Adventure and adventurers, fiction",
+    "Adventure stories",
+    "Children's fiction",
+    "Fiction",
+    "Juvenile fiction",
+    "Kings and rulers",
+    "Kings, queens, rulers",
+    "Kings, queens, rulers, etc., fiction",
+    "Loyalty",
+    "Loyalty, fiction",
+    "Robbers and outlaws",
+    "Robbers and outlaws, fiction",
+    "Soldiers",
+    "Soldiers, fiction",
+    "Thieves"
+  ],
+  "ol_work_key": "/works/OL20097528W"
 }

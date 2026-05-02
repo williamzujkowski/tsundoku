@@ -1,7 +1,7 @@
 {
   "title": "The House Without a Key",
   "author": "Earl Derr Biggers",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-house-without-a-key",
   "tags": [
@@ -32,5 +32,34 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73771.html.images",
   "librivox_url": "https://librivox.org/the-house-without-a-key-by-earl-derr-biggers/",
   "description": "The House Without a Key is a 1925 novel by Earl Derr Biggers, the first of the Charlie Chan mysteries. Set in 1920s Hawaiʻi, the novel acquaints the reader with the look and feel of the islands from the standpoint of both white and non-white inhabitants, describing social class structures and customs of the era.",
-  "isbn": "9781791714413"
+  "isbn": "9781791714413",
+  "ddc": [
+    "813",
+    "813.54",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3503.00000000.I54 Cf 1977",
+    "PS-3503.00000000.I54 H68 2008",
+    "PS-3503.00000000.I54 H6 1925x",
+    "PZ-0003.00000000.B482 Cf 1977",
+    "PZ-0003.00000000.B482 Ho",
+    "PS-3503.00000000.I54 H6 1925",
+    "PS-3503.00000000.I54 Ho",
+    "PS-3503.00000000.I54H68 2008",
+    "PS-3503.00000000.I54"
+  ],
+  "subject_facet": [
+    "Chan, charlie (fictitious character), fiction",
+    "Charlie Chan (Fictitious character)",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, mystery & detective, international crime & mystery",
+    "Fiction, mystery & detective, police procedural",
+    "Fiction, mystery & detective, traditional",
+    "Hawaii, fiction",
+    "Police"
+  ],
+  "ol_work_key": "/works/OL6438827W"
 }

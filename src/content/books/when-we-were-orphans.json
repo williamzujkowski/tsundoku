@@ -1,7 +1,7 @@
 {
   "title": "When We Were Orphans",
   "author": "Kazuo Ishiguro",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 1,
   "slug": "when-we-were-orphans",
   "tags": [
@@ -30,5 +30,60 @@
     "Psychology",
     "Orphans",
     "Detective and mystery stories"
-  ]
+  ],
+  "ddc": [
+    "823",
+    "823.914"
+  ],
+  "lcc": [
+    "PR-6059.00000000.S5 W47 2001x",
+    "PR-6059.00000000.S5 W47 2000",
+    "PR-6059.00000000.S5",
+    "PR-6059.00000000.S5 W48 2000",
+    "PR-6059.00000000.S5 W4417 2006",
+    "PR-6059.00000000.S5 W38 2001"
+  ],
+  "subject_facet": [
+    "Autores japoneses",
+    "British",
+    "Death",
+    "Detective and mystery stories",
+    "Detectives",
+    "Detectives privados",
+    "English literature",
+    "Ficción",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, mystery & detective, general",
+    "Fiction, psychological",
+    "Literatura inglesa",
+    "Literature",
+    "Literature and fiction, mystery and suspense",
+    "Manners and customs",
+    "Missing persons",
+    "Missing persons, fiction",
+    "Muerte",
+    "Mémoire",
+    "NOVELAS JAPONESAS",
+    "Novela",
+    "Novela inglesa",
+    "Novela policíaca",
+    "Novela psicología",
+    "Orphans",
+    "Orphelins",
+    "Padres de familia",
+    "Parents",
+    "Personas desaparecidas",
+    "Private investigators",
+    "Private investigators, fiction",
+    "Psychic trauma in children",
+    "Psychological aspects",
+    "Psychological fiction",
+    "Psychology",
+    "Roman",
+    "Roman policier",
+    "Shanghai (china), fiction",
+    "Social life and customs"
+  ],
+  "ol_work_key": "/works/OL59042W"
 }

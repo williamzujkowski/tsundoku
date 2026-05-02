@@ -1,7 +1,7 @@
 {
   "title": "Penetration Testing",
   "author": "Georgia Weidman",
-  "category": "Computer Science",
+  "category": "Mathematics",
   "priority": 2,
   "slug": "penetration-testing",
   "tags": [
@@ -25,5 +25,19 @@
     "COMPUTERS / Networking / Security",
     "COMPUTERS / Security / General"
   ],
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QA-0076.90000000.A25W4258 2014",
+    "QA-0076.90000000.A25 W4258 2014"
+  ],
+  "subject_facet": [
+    "COMPUTERS / Internet / Security",
+    "COMPUTERS / Networking / Security",
+    "COMPUTERS / Security / General",
+    "Computer security",
+    "Hackers",
+    "Kali Linux",
+    "Penetration testing (Computer security)"
+  ],
+  "ol_work_key": "/works/OL19547722W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Rogue Code",
   "author": "Mark Russinovich",
-  "category": "Mystery",
+  "category": "Literature",
   "priority": 2,
   "slug": "rogue-code",
   "tags": [
@@ -23,5 +23,20 @@
   "open_library_url": "https://openlibrary.org/works/OL21795174W",
   "first_published": 2014,
   "pages": 387,
-  "isbn": "9781250035370"
+  "isbn": "9781250035370",
+  "ddc": [
+    "813.6"
+  ],
+  "lcc": [
+    "PS-3618.00000000.U7688R64 2014",
+    "PS-3618.00000000.U7688 R64 2014"
+  ],
+  "subject_facet": [
+    "Cyberterrorism",
+    "FICTION / Technological",
+    "Fiction",
+    "Fiction, suspense",
+    "Fiction, thrillers"
+  ],
+  "ol_work_key": "/works/OL19977304W"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Curse of Chalion",
   "author": "Lois McMaster Bujold",
-  "category": "Fantasy",
+  "category": "Literature",
   "priority": 2,
   "slug": "the-curse-of-chalion",
   "tags": [
@@ -26,5 +26,27 @@
     "series:world_of_the_five_gods",
     "Fiction, fantasy, general"
   ],
-  "pages": 442
+  "pages": 442,
+  "ddc": [
+    "813.54"
+  ],
+  "lcc": [
+    "PS-3552.00000000.U397P355 2003",
+    "PS-3552.00000000.U397 P355 2003",
+    "PS-3552.00000000",
+    "PS-8000.00000000",
+    "PS-3552.00000000.U397 P3 2005"
+  ],
+  "subject_facet": [
+    "Fantasy",
+    "Fiction",
+    "Fiction, fantasy, general",
+    "Hugo Award Winner",
+    "Queens",
+    "award:hugo_award=2004",
+    "award:hugo_award=novel",
+    "award:nebula_award=novel",
+    "series:world_of_the_five_gods"
+  ],
+  "ol_work_key": "/works/OL56898W"
 }
