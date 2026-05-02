@@ -8,12 +8,15 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "description": "Este libro es el Libro 9, Colección III del \"Proyecto de Lectura de un Millón de Inglés Palabras\" (the Million-Word Reading Project, MWRP), una colección de lecturas en inglés de nivel intermedio. Está destinado a lectores que ya han adquirido un vocabulario básico de 1500 palabras en inglés. Proyecto de Lectura de un Millón de Inglés Palabras (the Million-Word Reading Project, MWRP) es un programa de mejora de la lectura en inglés diseñado específicamente para estudiantes que aprenden inglés co",
+  "description": "The Gadfly is a novel by Irish-born writer Ethel Voynich, published in 1897, set in 1840s Italy under the dominance of Austria, a time of tumultuous revolt and uprisings. The story centres on the life of the protagonist, Arthur Burton. A thread of a tragic relationship between Arthur and his love, Gemma, simultaneously runs through the story. It is a tale of faith, disillusionment, revolution, romance, and heroism.",
   "cover_url": "https://books.google.com/books/content?id=3BULEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "first_published": 2010,
   "pages": 164,
   "google_books_url": "https://play.google.com/store/books/details?id=3BULEQAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "in_copyright",
-  "isbn": "9781310789182"
+  "isbn": "9781310789182",
+  "_provenance": {
+    "description": "fix_non_english_v1_wikipedia"
+  }
 }

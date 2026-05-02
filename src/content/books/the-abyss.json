@@ -8,7 +8,7 @@
     "le-monde-100"
   ],
   "reading_status": "read",
-  "description": "En los tratados aquí reunidos, Borges habla de la esencia del tiempo, que se concreta bien en el mecanismo de una metáfora, bien en una refutación filosófica. El asunto es la coincidencia, la ocupación de un mismo lugar fí́sico o mental, la repetición, la versión. Así́, el ensayo sobre los traductores de Las mil y una noches tiene su eco en los sí́miles de la literatura germánica antigua; la doctrina de los ciclos halla su espejo en las enseñanzas de la termodinámica.",
+  "description": "The Abyss is a 1989 American science fiction film written and directed by James Cameron and starring Ed Harris, Mary Elizabeth Mastrantonio, and Michael Biehn. When an American submarine sinks in the Caribbean, a U.S. search and recovery team works with an oil platform crew, racing against Soviet vessels to recover the boat. Deep in the ocean, they encounter something unexpected.",
   "cover_url": "https://covers.openlibrary.org/b/id/966139-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/966139-L.jpg",
   "open_library_url": "",
@@ -67,7 +67,8 @@
     "translator": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "description": "fix_non_english_v1_wikipedia"
   },
   "editions_count": 66,
   "first_published_circa": false,

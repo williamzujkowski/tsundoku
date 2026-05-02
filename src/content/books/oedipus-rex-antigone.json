@@ -8,7 +8,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "description": "OEDIPE. - Enfants, jeune lignee de notre vieux Cadmos, que faites-vous la ainsi a genoux, pieusement pares de rameaux suppliants ?",
   "cover_url": "https://covers.openlibrary.org/b/id/13791364-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/13791364-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43800W",
@@ -21,7 +20,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "description": "fix_non_english_v1_blanked"
   },
   "editions_count": 2,
   "first_published_circa": false,
