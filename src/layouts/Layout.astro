@@ -31,25 +31,50 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
     {siteUrl && <link rel="canonical" href={siteUrl} />}
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-    {/* Fraunces — variable display serif (opsz + weight axes). Body stays system-ui. */}
+
+    {/* Color-scheme hint for native UI (scrollbars, form controls, system
+        background fill). Browsers honor this BEFORE any CSS loads, so
+        the painting surface starts in the right mode. The pre-paint
+        script below upgrades it to the user's explicit choice. */}
+    <meta name="color-scheme" content="dark light" />
+
+    {/* Critical CSS — sets the body background + text color per active
+        theme so the very first paint is correct. Without this, the
+        browser paints a default white surface for ~100-300ms while
+        global.css is still loading (especially over slow networks),
+        producing a visible flash before the themed background applies. */}
+    <style is:inline>
+      :root { color-scheme: dark; background: oklch(0.243 0.017 285.1); color: oklch(0.876 0.039 99.1); }
+      :root[data-theme="light"] { color-scheme: light; background: oklch(0.99 0.016 95.2); color: oklch(0.17 0.002 17.3); }
+      @media (prefers-color-scheme: light) {
+        :root:not([data-theme="dark"]) { color-scheme: light; background: oklch(0.99 0.016 95.2); color: oklch(0.17 0.002 17.3); }
+      }
+      body { background: inherit; color: inherit; margin: 0; }
+    </style>
+
+    {/* Fraunces — variable display serif (opsz + weight axes). Body stays system-ui.
+        font-display: swap on the URL avoids blocking text paint while it loads. */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&display=swap" />
     <title>{title} — Tsundoku</title>
+
     {/* Pre-paint theme application — runs before body to prevent FOUC.
         `data-astro-rerun` makes the script execute on every client-side
         navigation; without it, the script runs once on full page load
         but skipped on view-transition swaps, causing the new page to
         render with the system-default theme even when the user toggled
-        an explicit choice. The astro:before-swap listener carries the
-        data-theme attribute over to the incoming document before paint
-        so there's no flash mid-transition. */}
+        an explicit choice. Sets BOTH data-theme AND inline color-scheme
+        so the browser's native surface paint matches before any
+        stylesheet has loaded. */}
     <script is:inline data-astro-rerun>
       (function () {
         try {
           var stored = localStorage.getItem('theme');
           if (stored === 'light' || stored === 'dark') {
-            document.documentElement.setAttribute('data-theme', stored);
+            var html = document.documentElement;
+            html.setAttribute('data-theme', stored);
+            html.style.colorScheme = stored;
           }
         } catch (e) {
           // localStorage unavailable — system preference handles it via @media
@@ -58,16 +83,21 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     </script>
     <script>
       // Carry data-theme across view-transition swaps so the incoming
-      // document mirrors the user's current choice before paint.
+      // document mirrors the user's current choice before paint. We mutate
+      // event.newDocument directly so the swap delivers a pre-themed
+      // document — no flash mid-transition.
       document.addEventListener('astro:before-swap', (event) => {
         try {
           var stored = localStorage.getItem('theme');
           var current = document.documentElement.getAttribute('data-theme');
           var apply = stored === 'light' || stored === 'dark' ? stored : current;
+          var html = event.newDocument.documentElement;
           if (apply === 'light' || apply === 'dark') {
-            event.newDocument.documentElement.setAttribute('data-theme', apply);
+            html.setAttribute('data-theme', apply);
+            html.style.colorScheme = apply;
           } else {
-            event.newDocument.documentElement.removeAttribute('data-theme');
+            html.removeAttribute('data-theme');
+            html.style.colorScheme = '';
           }
         } catch (_) {
           // ignore — pre-paint inline script will catch it post-swap
