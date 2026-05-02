@@ -37,6 +37,13 @@ def main() -> None:
             entry["y"] = d["first_published"]
         if d.get("reading_status"):
             entry["rs"] = d["reading_status"]
+        # First LCC class only (e.g. "PR-6029.00000000.R8 Ni2") — used as
+        # a spine-label on the book card. Browse-grid renders the human-
+        # readable form via the same JS `lccDisplay` shape used on book
+        # detail pages.
+        lcc = d.get("lcc") or []
+        if lcc:
+            entry["lc"] = lcc[0]
         tags = d.get("tags") or []
         if tags:
             entry["g"] = tags

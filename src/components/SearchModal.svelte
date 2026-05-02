@@ -5,6 +5,7 @@
     u: string; // url path (relative to base)
     y: string; // type: book | author
     c: string; // cover/photo url
+    k?: string; // hidden keyword bag — original_title, series, translator, subject_facet, alt names
   }
 
   let { baseUrl = '/' }: { baseUrl?: string } = $props();
@@ -41,7 +42,11 @@
     if (query.length < 2 || !loaded) return [];
     const q = query.toLowerCase();
     return items
-      .filter(item => item.t.toLowerCase().includes(q) || item.s.toLowerCase().includes(q))
+      .filter(item =>
+        item.t.toLowerCase().includes(q)
+        || item.s.toLowerCase().includes(q)
+        || (item.k !== undefined && item.k.toLowerCase().includes(q))
+      )
       .slice(0, 12);
   });
 

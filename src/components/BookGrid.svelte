@@ -12,12 +12,21 @@
     first_published?: number;
     reading_status?: 'want' | 'reading' | 'read';
     tags?: string[];
+    lcc?: string;
   }
 
   // Compact wire format from /browse-data.json — keep keys short to shrink payload.
   interface WireBook {
     t: string; a: string; s: string; p: number; cat: string;
-    co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[];
+    co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; lc?: string;
+  }
+
+  function lccDisplay(lcc: string): string {
+    return lcc
+      .replace(/^([A-Z]+)-+(\d)/, '$1$2')
+      .replace(/\.0+(?=\D|$)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
   interface BrowseData { books: WireBook[]; categories: string[]; tags: string[]; }
 
@@ -51,6 +60,7 @@
         first_published: b.y,
         reading_status: b.rs,
         tags: b.g,
+        lcc: b.lc,
       }));
       categories = data.categories;
       tags = data.tags;
@@ -213,6 +223,9 @@
                   <span class="book-year">{book.first_published}</span>
                 {/if}
               </div>
+              {#if book.lcc}
+                <span class="book-call-number" title="Library of Congress call number">{lccDisplay(book.lcc)}</span>
+              {/if}
               <h3 class="book-title">{book.title}</h3>
               <p class="book-author">{book.author}</p>
               <div class="book-footer">
@@ -552,6 +565,18 @@
   .book-author {
     color: var(--text-dim);
     font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .book-call-number {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    margin-bottom: 0.125rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
