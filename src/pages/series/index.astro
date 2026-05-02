@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug } from '../../utils/formatting';
+
+const MIN_BOOKS = 3;
+
+const books = await getCollection('books');
+const groups = new Map<string, number>();
+for (const b of books) {
+  const series = b.data.series;
+  if (!series?.name) continue;
+  groups.set(series.name, (groups.get(series.name) ?? 0) + 1);
+}
+const series = [...groups.entries()]
+  .filter(([, c]) => c >= MIN_BOOKS)
+  .sort(([a, ac], [b, bc]) => bc - ac || a.localeCompare(b))
+  .map(([name, count]) => ({ name, count, slug: toSlug(name) }));
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Series" description={`${series.length} series with at least ${MIN_BOOKS} books in the collection`}>
+  <h1 class="heading-xl mb-2">Series</h1>
+  <p class="text-muted text-sm mb-6">{series.length} series with {MIN_BOOKS} or more books on the shelf.</p>
+
+  <div class="grid sm-grid-2 md-grid-3 gap-2">
+    {series.map(s => (
+      <a href={`${base}series/${s.slug}/`} class="list-item">
+        <span class="text-sm">{s.name}</span>
+        <span class="ml-auto text-xs text-dim text-mono">{s.count}</span>
+      </a>
+    ))}
+  </div>
+</Layout>

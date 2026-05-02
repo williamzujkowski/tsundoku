@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug, priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
+
+export async function getStaticPaths() {
+  // Astro runs getStaticPaths in an isolated scope — module-level
+  // constants are not visible. Inline the minimum.
+  const MIN_BOOKS = 3;
+  const books = await getCollection('books');
+
+  const groups = new Map<string, typeof books>();
+  for (const b of books) {
+    const series = b.data.series;
+    if (!series?.name) continue;
+    if (!groups.has(series.name)) groups.set(series.name, []);
+    groups.get(series.name)!.push(b);
+  }
+
+  const eligible = [...groups.entries()].filter(([, list]) => list.length >= MIN_BOOKS);
+
+  return eligible.map(([name, list]) => ({
+    params: { slug: toSlug(name) },
+    props: {
+      seriesName: name,
+      books: list
+        .map(b => b.data)
+        .sort((a, b) => {
+          const ap = a.series?.position ?? 9999;
+          const bp = b.series?.position ?? 9999;
+          if (ap !== bp) return ap - bp;
+          return (a.first_published ?? 9999) - (b.first_published ?? 9999);
+        }),
+    },
+  }));
+}
+
+const { seriesName, books } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={seriesName} description={`${books.length} books in the ${seriesName} series`}>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}series/`}>Series</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{seriesName}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">{seriesName}</h1>
+  <p class="text-muted text-sm mb-6">{books.length} books in this series</p>
+
+  <div class="grid sm-grid-2 md-grid-3 gap-3">
+    {books.map(b => (
+      <a href={`${base}books/${b.slug}/`} class="card related-book">
+        {b.cover_url ? (
+          <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+        ) : (
+          <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+        )}
+        <div class="book-card-body">
+          <div class="flex items-center gap-2 mb-1">
+            {b.series?.position && (
+              <span class="text-xs text-mono text-dim">#{b.series.position}</span>
+            )}
+            <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+          </div>
+          <h3 class="text-sm font-bold line-clamp-2 mb-1">{b.title}</h3>
+          <p class="text-xs text-dim line-clamp-1">{b.author}</p>
+          {b.first_published && (
+            <p class="text-xs text-dim">{formatYear(b.first_published, b.first_published_circa)}</p>
+          )}
+        </div>
+      </a>
+    ))}
+  </div>
+</Layout>

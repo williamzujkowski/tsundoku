@@ -1,0 +1,93 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug, priorityClass, priorityLabel, formatYear, authorMatches } from '../../utils/formatting';
+
+export async function getStaticPaths() {
+  const MIN_AUTHORS = 3;
+  const authors = await getCollection('authors');
+
+  const groups = new Map<string, typeof authors>();
+  for (const a of authors) {
+    for (const m of a.data.movements ?? []) {
+      if (!groups.has(m)) groups.set(m, []);
+      groups.get(m)!.push(a);
+    }
+  }
+
+  const books = await getCollection('books');
+
+  return [...groups.entries()]
+    .filter(([, list]) => list.length >= MIN_AUTHORS)
+    .map(([name, list]) => {
+      const authorNames = new Set(list.map(a => a.data.name));
+      const movementBooks = books
+        .filter(b => [...authorNames].some(an => authorMatches(b.data.author, an)))
+        .map(b => b.data)
+        .sort((a, b) => (a.first_published ?? 9999) - (b.first_published ?? 9999));
+      return {
+        params: { slug: toSlug(name) },
+        props: {
+          movementName: name,
+          authors: list.map(a => a.data).sort((a, b) => a.name.localeCompare(b.name)),
+          books: movementBooks,
+        },
+      };
+    });
+}
+
+const { movementName, authors, books } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={movementName} description={`${authors.length} authors in the ${movementName} movement, ${books.length} books in the collection`}>
+  <nav class="breadcrumb">
+    <a href={`${base}`}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}movements/`}>Movements</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{movementName}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">{movementName}</h1>
+  <p class="text-muted text-sm mb-6">
+    {authors.length} {authors.length === 1 ? 'author' : 'authors'} · {books.length} {books.length === 1 ? 'book' : 'books'} in the collection
+  </p>
+
+  <h2 class="heading-md mb-4">Authors</h2>
+  <div class="grid sm-grid-2 md-grid-3 gap-2 mb-8">
+    {authors.map(a => (
+      <a href={`${base}authors/${a.slug}/`} class="list-item">
+        <span class="text-sm">{a.name}</span>
+        {a.book_count !== undefined && (
+          <span class="ml-auto text-xs text-dim text-mono">{a.book_count}</span>
+        )}
+      </a>
+    ))}
+  </div>
+
+  {books.length > 0 && (
+    <>
+      <h2 class="heading-md mb-4">Books</h2>
+      <div class="grid sm-grid-2 md-grid-3 gap-3">
+        {books.map(b => (
+          <a href={`${base}books/${b.slug}/`} class="card related-book">
+            {b.cover_url ? (
+              <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+            ) : (
+              <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+            )}
+            <div class="book-card-body">
+              <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+              <h3 class="text-sm font-bold line-clamp-2 mb-1">{b.title}</h3>
+              <p class="text-xs text-dim line-clamp-1">{b.author}</p>
+              {b.first_published && (
+                <p class="text-xs text-dim">{formatYear(b.first_published, b.first_published_circa)}</p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+</Layout>

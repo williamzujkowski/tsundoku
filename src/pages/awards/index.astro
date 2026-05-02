@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug } from '../../utils/formatting';
+
+const MIN_BOOKS = 3;
+
+const books = await getCollection('books');
+const counts = new Map<string, number>();
+for (const b of books) {
+  for (const a of b.data.awards ?? []) {
+    if (!a.name) continue;
+    counts.set(a.name, (counts.get(a.name) ?? 0) + 1);
+  }
+}
+const awards = [...counts.entries()]
+  .filter(([, c]) => c >= MIN_BOOKS)
+  .sort(([a, ac], [b, bc]) => bc - ac || a.localeCompare(b))
+  .map(([name, count]) => ({ name, count, slug: toSlug(name) }));
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Awards" description={`${awards.length} awards represented in the collection`}>
+  <h1 class="heading-xl mb-2">Awards</h1>
+  <p class="text-muted text-sm mb-6">{awards.length} awards with {MIN_BOOKS} or more winners on the shelf.</p>
+
+  <div class="grid sm-grid-2 md-grid-3 gap-2">
+    {awards.map(a => (
+      <a href={`${base}awards/${a.slug}/`} class="list-item">
+        <span class="text-sm">{a.name}</span>
+        <span class="ml-auto text-xs text-dim text-mono">{a.count}</span>
+      </a>
+    ))}
+  </div>
+</Layout>
