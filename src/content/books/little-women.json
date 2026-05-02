@@ -11,7 +11,7 @@
   "description": "\"Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in 19th century New England.\"--Provided by publisher.",
   "cover_url": "https://books.google.com/books/content?id=WkwrttiByLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "0671086278",
-  "first_published": 1868,
+  "first_published": 1861,
   "pages": 210,
   "google_books_url": "http://books.google.com/books?id=WkwrttiByLgC&dq=intitle:Little+Women&hl=&source=gbs_api",
   "language": "eng",
@@ -269,13 +269,24 @@
   "ol_work_key": "/works/OL29983W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781986880725",
-  "representative_edition_key": "/books/OL34275086M"
+  "representative_edition_key": "/books/OL34275086M",
+  "wikidata_qid": "Q523076",
+  "original_title": "Little Women or, Meg, Jo, Beth and Amy",
+  "original_language": "eng",
+  "series": {
+    "name": "March Trilogy",
+    "position": 1
+  }
 }

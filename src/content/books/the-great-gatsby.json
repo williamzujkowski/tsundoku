@@ -246,9 +246,24 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35096303M"
+  "representative_edition_key": "/books/OL35096303M",
+  "wikidata_qid": "Q214371",
+  "original_title": "The Great Gatsby",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    },
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

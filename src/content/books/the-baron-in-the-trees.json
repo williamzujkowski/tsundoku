@@ -70,16 +70,22 @@
   "ol_work_key": "/works/OL15322W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 50,
   "first_published_circa": false,
   "original_language": "ita",
   "original_title": "Il barone rampante",
-  "representative_edition_key": "/books/OL28885047M"
+  "representative_edition_key": "/books/OL28885047M",
+  "wikidata_qid": "Q2450161",
+  "series": {
+    "name": "Our Ancestors"
+  }
 }

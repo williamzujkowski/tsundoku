@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "isbn": "3505077313",
-  "first_published": 1899,
+  "first_published": 1880,
   "google_books_url": "http://books.google.com/books?id=wPRM0AEACAAJ&dq=intitle:Heidi&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/2668686-M.jpg",
@@ -162,13 +162,19 @@
   "ol_work_key": "/works/OL1455042W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 180,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11974312M"
+  "representative_edition_key": "/books/OL11974312M",
+  "wikidata_qid": "Q271697",
+  "original_title": "Heidi",
+  "original_language": "ger"
 }

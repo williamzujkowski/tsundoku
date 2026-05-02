@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10382021-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10382021-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21562242W",
-  "first_published": 2016,
+  "first_published": 2015,
   "language": "eng",
   "description": "New York Times Bestseller A New York Times Notable Book Named one of the Best Books of the Year by the Wall Street Journal, the Economist, Foreign Affairs, and Kirkus Reviews Finalist for the National Book Critics Circle Award (Nonfiction) Shortlisted for the Cundill Prize in Historical Literature Finalist for the Los Angeles Times Book Prize (History) A San Francisco Chronicle Holiday Gift Guide Selection A New York Times Book Review Editors’ Choice Selection A sweeping, \"magisterial\" history o...",
   "isbn": "9781631491252",
@@ -35,15 +35,19 @@
   "ol_work_key": "/works/OL17613285W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "SPQR Die tausendjährige Geschichte Roms",
-  "representative_edition_key": "/books/OL27511331M"
+  "representative_edition_key": "/books/OL27511331M",
+  "wikidata_qid": "Q22075203",
+  "original_publisher": "W. W. Norton & Company"
 }

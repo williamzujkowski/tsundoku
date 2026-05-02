@@ -334,10 +334,16 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL58076670M",
-  "translator": "Daniel Donno"
+  "translator": "Daniel Donno",
+  "wikidata_qid": "Q131719",
+  "original_title": "Il principe",
+  "original_language": "ita"
 }

@@ -58,15 +58,22 @@
   "ol_work_key": "/works/OL17834026W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
   "original_language": "pol",
   "original_title": "Dawca przysięgi 2",
-  "representative_edition_key": "/books/OL28192494M"
+  "representative_edition_key": "/books/OL28192494M",
+  "wikidata_qid": "Q28312017",
+  "series": {
+    "name": "The Stormlight Archive",
+    "position": 3
+  }
 }

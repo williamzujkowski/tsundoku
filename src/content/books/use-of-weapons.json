@@ -1,7 +1,7 @@
 {
   "title": "Use of Weapons",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "use-of-weapons",
   "tags": [
@@ -47,11 +47,29 @@
   "ol_work_key": "/works/OL8339333W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24262973M"
+  "representative_edition_key": "/books/OL24262973M",
+  "wikidata_qid": "Q339923",
+  "original_title": "Use of Weapons",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 1993
+    }
+  ],
+  "series": {
+    "name": "Culture series",
+    "position": 3
+  }
 }

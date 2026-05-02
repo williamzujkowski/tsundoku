@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/3078356-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/3078356-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL893958W",
-  "first_published": 1863,
+  "first_published": 1862,
   "language": "eng",
   "description": "※ Google Play 圖書不支援多媒體播放 ※ \"Salammb \" -- which Gustave Flaubert wrote in 1862 -- is a tale of blood-and-thunder that's nothing like what one would expect from the man who'd just finished \"Madame Bovary.\" It's a tale of war between Rome and Carthage, and in many ways, the novel is an exercise in the sensual, the violent -- the exotic. And that may explain why, despite the fact that the French appreciate this novel as a classic, it is today practically unknown today among English-speakers. Because...",
   "pages": 1164,
@@ -97,17 +97,19 @@
   "ol_work_key": "/works/OL893958W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 240,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Salammbô",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7592070M"
+  "representative_edition_key": "/books/OL7592070M",
+  "wikidata_qid": "Q117182"
 }

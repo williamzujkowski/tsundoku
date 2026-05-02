@@ -65,12 +65,35 @@
   "ol_work_key": "/works/OL5730195W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 32,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL27030232M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q1605815",
+  "original_title": "The Eyre Affair",
+  "original_language": "eng",
+  "original_publisher": "Hodder & Stoughton",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Crawford Award",
+      "year": 2002
+    }
+  ],
+  "series": {
+    "name": "Thursday Next",
+    "position": 1
+  }
 }

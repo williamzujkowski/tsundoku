@@ -101,10 +101,30 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 49,
   "first_published_circa": false,
   "first_edition_isbn": "0002247402",
-  "representative_edition_key": "/books/OL27261443M"
+  "representative_edition_key": "/books/OL27261443M",
+  "wikidata_qid": "Q28306",
+  "original_title": "A Dance with Dragons",
+  "original_language": "eng",
+  "original_publisher": "Opus Press",
+  "awards": [
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2012
+    }
+  ],
+  "series": {
+    "name": "A Song of Ice and Fire",
+    "position": 5
+  }
 }

@@ -55,11 +55,21 @@
   "ol_work_key": "/works/OL46377W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 41,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7825598M"
+  "representative_edition_key": "/books/OL7825598M",
+  "wikidata_qid": "Q440784",
+  "original_title": "The Robots of Dawn",
+  "original_language": "eng",
+  "series": {
+    "name": "Robot series"
+  }
 }

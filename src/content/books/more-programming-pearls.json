@@ -40,8 +40,12 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL54039521M"
+  "representative_edition_key": "/books/OL54039521M",
+  "wikidata_qid": "Q67956638",
+  "original_title": "Programming Pearls"
 }

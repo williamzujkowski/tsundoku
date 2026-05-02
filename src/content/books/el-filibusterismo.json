@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "first_published": 1908,
+  "first_published": 1891,
   "google_books_url": "http://books.google.com/books?id=5z5I0QEACAAJ&dq=intitle:El+Filibusterismo&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/1054329-M.jpg",
@@ -78,17 +78,19 @@
   "ol_work_key": "/works/OL1622748W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 84,
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "El filibusterismo novela filipina ...",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37143644M"
+  "representative_edition_key": "/books/OL37143644M",
+  "wikidata_qid": "Q1249199"
 }

@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/1023552-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1023552-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL260101W",
-  "first_published": 1847,
+  "first_published": 1848,
   "language": "eng",
   "description": "Anne Brontë's \"The Tenant of Wildfell Hall\" stands as a remarkable landmark in Victorian literature, notable for its bold exploration of gender roles, morality, and the effects of alcoholism on family dynamics. Through the eyes of Helen Graham, a mysterious woman who comes to reside in the titular Wildfell Hall, Brontë employs a penetrating narrative style infused with realism and psychological depth. The narrative challenges the era's conventions by openly critiquing the constraints placed on w...",
   "pages": 503,
@@ -114,13 +114,19 @@
   "ol_work_key": "/works/OL260101W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781546850168",
-  "representative_edition_key": "/books/OL34294713M"
+  "representative_edition_key": "/books/OL34294713M",
+  "wikidata_qid": "Q44701",
+  "original_title": "The Tenant of Wildfell Hall",
+  "original_publisher": "Thomas Cautley Newby"
 }

@@ -118,9 +118,32 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 144,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34455856M"
+  "representative_edition_key": "/books/OL34455856M",
+  "wikidata_qid": "Q468071",
+  "original_title": "The Spy Who Came In from the Cold",
+  "original_language": "eng",
+  "original_publisher": "Victor Gollancz",
+  "awards": [
+    {
+      "name": "Gold Dagger"
+    },
+    {
+      "name": "Edgar Allan Poe Award for Best Novel",
+      "year": 1965
+    }
+  ],
+  "series": {
+    "name": "George Smiley series",
+    "position": 3
+  }
 }

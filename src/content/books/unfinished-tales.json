@@ -62,11 +62,28 @@
   "ol_work_key": "/works/OL27466W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 56,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34006784M"
+  "representative_edition_key": "/books/OL34006784M",
+  "wikidata_qid": "Q309019",
+  "original_title": "Unfinished Tales of Númenor and Middle-earth",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Mythopoeic Awards",
+      "year": 1981
+    },
+    {
+      "name": "Mythopoeic Fantasy Award",
+      "year": 1981
+    }
+  ]
 }

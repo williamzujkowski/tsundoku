@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8997203-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8997203-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL258656W",
-  "first_published": 1734,
+  "first_published": 1623,
   "language": "eng",
   "description": "Bartleby.com, Inc. presents the full text of the play \"Cymbeline,\" as part of the full text of the 1914 Oxford edition of the \"Complete Works of William Shakespeare.\" \"Cymbeline\" was written in 1609-1610 by English dramatist and poet William Shakespeare (1564-1616).",
   "google_books_url": "http://books.google.com/books?id=OI-zzwEACAAJ&dq=Cymbeline+William+Shakespeare&hl=&source=gbs_api",
@@ -161,13 +161,19 @@
   "pages": 180,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 290,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56082830M"
+  "representative_edition_key": "/books/OL56082830M",
+  "wikidata_qid": "Q730212",
+  "original_title": "Cymbeline",
+  "original_language": "eng"
 }

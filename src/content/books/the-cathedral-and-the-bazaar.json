@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/805932-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/805932-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6036025W",
-  "first_published": 1999,
+  "first_published": 1997,
   "language": "eng",
   "description": "Open source provides the competitive advantage in the Internet Age. According to the August Forrester Report, 56 percent of IT managers interviewed at Global 2,500 companies are already using some type of open source software in their infrastructure and another 6 percent will install it in the next two years. This revolutionary model for collaborative software development is being embraced and studied by many of the biggest players in the high-tech industry, from Sun Microsystems to IBM to Intel...",
   "isbn": "9780596804480",
@@ -64,13 +64,19 @@
   "ol_work_key": "/works/OL6036025W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "1565927249",
-  "representative_edition_key": "/books/OL29139003M"
+  "representative_edition_key": "/books/OL29139003M",
+  "wikidata_qid": "Q467363",
+  "original_title": "The Cathedral and the Bazaar",
+  "original_language": "eng"
 }

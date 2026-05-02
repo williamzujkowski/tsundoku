@@ -10,14 +10,14 @@
   "cover_url": "https://covers.openlibrary.org/b/id/47953-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/47953-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL77646W",
-  "first_published": 1977,
+  "first_published": 1954,
   "language": "eng",
   "description": "\"To read Heidegger is to set out on an adventure. The essays in this volume--intriguing, challenging, and often baffling to the reader--call him always to abandon all superficial scanning and to enter wholeheartedly into the serious pursuit of thinking.... \"Heidegger is not a 'primitive' or a 'romanitic.' He is not one who seeks escape from the burdens and responsibilities of contemporary life into serenity, either through the re-creating of some idyllic past or through the exalting of some simp...",
   "isbn": "9780061319693",
   "pages": 228,
   "google_books_url": "http://books.google.com/books?id=oeV9q6kWG38C&dq=The+Question+Concerning+Technology+Martin+Heidegger&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Espace et temps",
     "Ontologie",
@@ -49,11 +49,19 @@
   "ol_work_key": "/works/OL77646W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7289870M"
+  "representative_edition_key": "/books/OL7289870M",
+  "wikidata_qid": "Q7759065",
+  "original_title": "The Question Concerning Technology",
+  "original_language": "ger",
+  "original_publisher": "Garland Science"
 }

@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10510097-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10510097-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL23095535W",
-  "first_published": 1779,
+  "first_published": 1774,
   "language": "eng",
   "description": "Loosely based on Goethe's personal experiences, the novel is written mostly in the form of letters in which Werther recounts his unrequited love for a married woman.",
   "pages": 798,
@@ -135,13 +135,19 @@
   "ol_work_key": "/works/OL52556W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 212,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9042236M"
+  "representative_edition_key": "/books/OL9042236M",
+  "wikidata_qid": "Q151883",
+  "original_title": "The Sorrows of Young Werther",
+  "original_language": "ger"
 }

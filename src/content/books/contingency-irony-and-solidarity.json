@@ -52,13 +52,21 @@
   "ol_work_key": "/works/OL2018373W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9780521353816",
-  "representative_edition_key": "/books/OL23241517M"
+  "representative_edition_key": "/books/OL23241517M",
+  "wikidata_qid": "Q5165349",
+  "original_title": "\"Contingency, Irony, and Solidarity\"",
+  "original_language": "eng",
+  "original_publisher": "Cambridge University Press"
 }

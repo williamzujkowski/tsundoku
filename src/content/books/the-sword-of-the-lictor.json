@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/3327784-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/3327784-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14871972W",
-  "first_published": 1981,
+  "first_published": 1982,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
@@ -33,11 +33,36 @@
   "ol_work_key": "/works/OL14871972W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 15,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL13268179M"
+  "representative_edition_key": "/books/OL13268179M",
+  "wikidata_qid": "Q3205411",
+  "original_title": "The Sword of the Lictor",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 1983
+    },
+    {
+      "name": "August Derleth Award",
+      "year": 1983
+    }
+  ],
+  "series": {
+    "name": "The Book of the New Sun",
+    "position": 3
+  }
 }

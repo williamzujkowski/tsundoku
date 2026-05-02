@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10678366-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10678366-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24218506W",
-  "first_published": 2011,
+  "first_published": 1967,
   "language": "eng",
   "description": "The Silent Cry traces the uneasy relationship between two brothers who return to their ancestral home, a village in densely forested western Japan. While one brother tries to sort out the after-effects of a friend's suicide and the birth of a retarded son, the other embarks on a quixoticmission to incite an uprising among the local youth. Oe's description of this brother's messianic struggle to save a disintegrating local culture and economy from the depredations of a Korean wheeler-dealer calle...",
   "pages": 298,
@@ -39,13 +39,21 @@
   "ol_work_key": "/works/OL24218506W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781846688072",
-  "representative_edition_key": "/books/OL32011295M"
+  "representative_edition_key": "/books/OL32011295M",
+  "wikidata_qid": "Q1968701",
+  "original_title": "万延元年のフットボール",
+  "original_language": "jpn",
+  "original_publisher": "Kodansha"
 }

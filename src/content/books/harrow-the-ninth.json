@@ -1,7 +1,7 @@
 {
   "title": "Harrow the Ninth",
   "author": "Tamsyn Muir",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "harrow-the-ninth",
   "tags": [
@@ -61,11 +61,22 @@
   "ol_work_key": "/works/OL20723256W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30195254M"
+  "representative_edition_key": "/books/OL30195254M",
+  "wikidata_qid": "Q100773938",
+  "original_title": "Harrow the Ninth",
+  "original_language": "eng",
+  "series": {
+    "name": "Locked Tomb series",
+    "position": 2
+  }
 }

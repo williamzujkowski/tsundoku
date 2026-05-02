@@ -121,11 +121,46 @@
   "ol_work_key": "/works/OL675783W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 164,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28753163M"
+  "representative_edition_key": "/books/OL28753163M",
+  "wikidata_qid": "Q1541914",
+  "original_title": "The Handmaid's Tale",
+  "original_language": "eng",
+  "original_publisher": "McClelland & Stewart",
+  "awards": [
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 1987
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1985
+    },
+    {
+      "name": "Los Angeles Times Book Prize",
+      "year": 1986
+    },
+    {
+      "name": "Audie Awards",
+      "year": 2013
+    }
+  ],
+  "series": {
+    "name": "The Handmaid's Tale",
+    "position": 1
+  }
 }

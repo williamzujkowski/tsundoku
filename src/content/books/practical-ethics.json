@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/339199-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/339199-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL936837W",
-  "first_published": 1990,
+  "first_published": 1979,
   "language": "eng",
   "description": "\"For thirty years, Peter Singer's Practical Ethics has been the classic introduction to applied ethics. For this third edition, the author has revised and updated all the chapters and added a new chapter addressing climate change, one of the most important ethical challenges of our generation. Some of the questions discussed in this book concern our daily lives. Is it ethical to buy luxuries when others do not have enough to eat? Should we buy meat from intensively reared animals? Am I doing som...",
   "google_books_url": "http://books.google.com/books?id=riezzwEACAAJ&dq=Practical+Ethics+Peter+Singer&hl=&source=gbs_api",
@@ -52,13 +52,21 @@
   "pages": 395,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0521297206",
-  "representative_edition_key": "/books/OL7740880M"
+  "representative_edition_key": "/books/OL7740880M",
+  "wikidata_qid": "Q2107672",
+  "original_title": "Practical Ethics",
+  "original_language": "eng",
+  "original_publisher": "Cambridge University Press"
 }

@@ -16,7 +16,7 @@
     "isbns_pct": 98.2,
     "pages": 3495,
     "pages_pct": 96.6,
-    "years": 3606,
+    "years": 3609,
     "subjects": 3275
   },
   "top_authors": [
@@ -108,15 +108,15 @@
     },
     {
       "name": "Philosophy",
-      "count": 369
+      "count": 367
     },
     {
       "name": "Science Fiction",
-      "count": 303
+      "count": 306
     },
     {
       "name": "Fantasy",
-      "count": 239
+      "count": 236
     },
     {
       "name": "History",
@@ -144,7 +144,7 @@
     },
     {
       "name": "Horror",
-      "count": 57
+      "count": 59
     },
     {
       "name": "Classics",
@@ -216,11 +216,11 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 199,
-    "1800_1899": 397,
-    "1900_1949": 709,
-    "1950_1999": 1226,
-    "2000_plus": 1075
+    "before_1800": 205,
+    "1800_1899": 418,
+    "1900_1949": 708,
+    "1950_1999": 1212,
+    "2000_plus": 1066
   },
   "reading_progress": {
     "read": 3210,
@@ -242,5 +242,5 @@
     "shelf_meters": 90.5,
     "books_with_pages": 3495
   },
-  "generated_at": "2026-05-02T06:19:54.336924"
+  "generated_at": "2026-05-02T07:05:32.747411"
 }

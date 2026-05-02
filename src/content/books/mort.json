@@ -62,13 +62,28 @@
   "pages": 297,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 61,
   "first_published_circa": false,
   "original_language": "spa",
-  "representative_edition_key": "/books/OL28348242M"
+  "representative_edition_key": "/books/OL28348242M",
+  "wikidata_qid": "Q843400",
+  "original_title": "Mort",
+  "awards": [
+    {
+      "name": "The Big Read"
+    }
+  ],
+  "series": {
+    "name": "Discworld",
+    "position": 4
+  }
 }

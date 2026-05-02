@@ -39,13 +39,21 @@
   "ol_work_key": "/works/OL3384232W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780345461537",
-  "representative_edition_key": "/books/OL9877825M"
+  "representative_edition_key": "/books/OL9877825M",
+  "wikidata_qid": "Q2991581",
+  "original_title": "The Conquering Sword of Conan",
+  "original_language": "eng",
+  "original_publisher": "Del Rey Books"
 }

@@ -74,11 +74,17 @@
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 52,
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL17204913M",
-  "translator": "John E. Woods"
+  "translator": "John E. Woods",
+  "wikidata_qid": "Q282181",
+  "original_title": "Joseph and his brothers",
+  "original_language": "ger"
 }

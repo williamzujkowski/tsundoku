@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8222096-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8222096-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362695W",
-  "first_published": 1734,
+  "first_published": 1623,
   "language": "eng",
   "description": "The Oxford School Shakespeare is a well-established series which helps students understand and enjoy Shakespeare's plays.As well as the complete and unabridged text, each play in this series has an extensive range of students' notes. These include detailed and clear explanations of difficult words and passages, a synopsis of the plot, summaries of individual scenes, and notes on the main characters.Also included is a wide range of questions and activities for work in class, together with the his...",
   "isbn": "0198320574",
@@ -278,11 +278,19 @@
   "ol_work_key": "/works/OL362695W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30361009M"
+  "representative_edition_key": "/books/OL30361009M",
+  "wikidata_qid": "Q606830",
+  "original_title": "Antony and Cleopatra",
+  "original_language": "eng",
+  "first_published_circa": false
 }

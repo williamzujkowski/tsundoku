@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12532753-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12532753-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL710933W",
-  "first_published": 2008,
+  "first_published": 1990,
   "language": "eng",
   "description": "\"Ghosts revolves around an immigrant worker's family squatting on the haunted construction site of a luxury condominium building. All of the workmen and their wives and children see the ghosts, who literally hang around the place, but one teenage girl becomes the most curious. Her questions about the ghosts get so intense that her mother in a chilling splitsecond realizes her daughter's life hangs in the balance",
   "isbn": "9780811217422",
@@ -43,13 +43,21 @@
   "ol_work_key": "/works/OL710933W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780811217422",
-  "representative_edition_key": "/books/OL22659496M"
+  "representative_edition_key": "/books/OL22659496M",
+  "wikidata_qid": "Q1519316",
+  "original_title": "Los fantasmas",
+  "original_language": "spa",
+  "original_publisher": "New Directions Publishing"
 }

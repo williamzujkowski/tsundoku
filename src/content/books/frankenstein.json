@@ -366,13 +366,25 @@
   "ol_work_key": "/works/OL450063W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781508610434",
-  "representative_edition_key": "/books/OL41445755M"
+  "representative_edition_key": "/books/OL41445755M",
+  "wikidata_qid": "Q150827",
+  "original_title": "Frankenstein",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    }
+  ]
 }

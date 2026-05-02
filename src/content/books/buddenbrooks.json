@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8244437-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8244437-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14867081W",
-  "first_published": 1909,
+  "first_published": 1901,
   "language": "eng",
   "description": "A Major Literary Event: a brilliant new translation of Thomas Mann's first great novel, one of the two for which he was awarded the Nobel Prize in literature in 1929. Buddenbrooks, first published in Germany in 1900, when Mann was only twenty-five, has become a classic of modem literature -- the story of four generations of a wealthy bourgeois family in northern Germany. With consummate skill, Mann draws a rounded picture of middle-class life: births and christenings; marriages, divorces, and de...",
   "isbn": "9780307780959",
@@ -89,15 +89,21 @@
   "ol_work_key": "/works/OL14867081W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 87,
   "first_published_circa": false,
   "original_language": "ger",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL1082629M"
+  "representative_edition_key": "/books/OL1082629M",
+  "wikidata_qid": "Q326909",
+  "original_title": "Buddenbrooks",
+  "original_publisher": "S. Fischer Verlag"
 }

@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/182639-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/182639-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1975716W",
-  "first_published": 1984,
+  "first_published": 1981,
   "language": "eng",
   "description": "In 1981, three years before the publication of Neuromancer, Vernor Vinges critically acclaimed novella True Names invented the concept of cyberspace, introducing fictionally the idea of a global network of computers. In forums as diverse as Wired, The Whole Earth Catalog, Artificial Intelligence conferences, and Omni, Vinges concept of cyberspace has been the subject of articles and debate. This book is the first forum to explore, in original articles and never-reprinted magazine pieces, the fro...",
   "isbn": "0312944446",
@@ -59,13 +59,19 @@
   "ol_work_key": "/works/OL1975716W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
   "first_edition_isbn": "9780312944445",
-  "representative_edition_key": "/books/OL9711182M"
+  "representative_edition_key": "/books/OL9711182M",
+  "wikidata_qid": "Q2436223",
+  "original_title": "True Names",
+  "original_language": "eng"
 }

@@ -13,7 +13,7 @@
   "description": "Hank Morgan awakens one morning to find he has been transported from nineteenth-century New England to sixth-century England and the reign of King Arthur and the Knights of the Round Table. Morgan brings to King Arthur’s utopian court the ingenuity of the future, resulting in a culture clash that is at once satiric, anarchic, and darkly comic. Critically deemed one of Twain’s finest and most caustic works, A Connecticut Yankee in King Arthur’s Court is both a delightfully entertaining story and ",
   "cover_url": "https://books.google.com/books/content?id=yTXKP6sCic8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780553901573",
-  "first_published": 1917,
+  "first_published": 1889,
   "pages": 338,
   "google_books_url": "https://play.google.com/store/books/details?id=yTXKP6sCic8C&source=gbs_api",
   "language": "eng",
@@ -178,13 +178,19 @@
   "ol_work_key": "/works/OL54031W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42818697M"
+  "representative_edition_key": "/books/OL42818697M",
+  "wikidata_qid": "Q848612",
+  "original_title": "A Connecticut Yankee in King Arthur's Court",
+  "original_language": "eng"
 }

@@ -46,11 +46,33 @@
   "ol_work_key": "/works/OL22561871W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32177625M"
+  "representative_edition_key": "/books/OL32177625M",
+  "wikidata_qid": "Q107583553",
+  "original_title": "A Psalm for the Wild-Built",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2022
+    },
+    {
+      "name": "Stonewall Book Award",
+      "year": 2022
+    }
+  ],
+  "series": {
+    "name": "Monk and Robot",
+    "position": 1
+  }
 }

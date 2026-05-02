@@ -68,11 +68,39 @@
   "ol_work_key": "/works/OL14914265W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 15,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24086078M"
+  "representative_edition_key": "/books/OL24086078M",
+  "wikidata_qid": "Q18366291",
+  "original_title": "Blackout",
+  "original_language": "eng",
+  "original_publisher": "Bantam Spectra",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2011
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2011
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2011
+    }
+  ],
+  "series": {
+    "name": "Blackout/All Clear",
+    "position": 1
+  }
 }

@@ -14,7 +14,7 @@
   "reading_status": "read",
   "description": "Erskine Childers' \"The Riddle of the Sands\" is a pioneering work in the spy thriller genre, intertwining thrilling narrative with incisive observations of early 20th-century politics and the precarious balance of power in Europe. The novel follows the adventures of a young Englishman, Carruthers, who uncovers a German naval conspiracy while sailing the treacherous waters of the Frisian Islands. Childers evokes an atmosphere rich in detail and tension, employing a meticulous literary style that e",
   "cover_url": "https://books.google.com/books/content?id=6SHmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1955,
+  "first_published": 1903,
   "pages": 303,
   "google_books_url": "https://play.google.com/store/books/details?id=6SHmEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -138,13 +138,19 @@
   "ol_work_key": "/works/OL23797W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34360930M"
+  "representative_edition_key": "/books/OL34360930M",
+  "wikidata_qid": "Q1170204",
+  "original_language": "eng",
+  "original_publisher": "Smith, Elder & Co."
 }

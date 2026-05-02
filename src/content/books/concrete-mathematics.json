@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/135182-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/135182-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3951639W",
-  "first_published": 1988,
+  "first_published": 1989,
   "language": "eng",
   "description": "This book introduces the mathematics that supports advanced computer programming and the analysis of algorithms. The primary aim of its well-known authors is to provide a solid and relevant base of mathematical skills - the skills needed to solve complex problems, to evaluate horrendous sums, and to discover subtle patterns in data. It is an indispensable text and reference not only for computer scientists - the authors themselves rely heavily on it! - but for serious users of mathematics in vir...",
   "isbn": "9780134389981",
@@ -77,13 +77,21 @@
   "ol_work_key": "/works/OL3951639W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9780201142365",
-  "representative_edition_key": "/books/OL40309687M"
+  "representative_edition_key": "/books/OL40309687M",
+  "wikidata_qid": "Q1124361",
+  "original_title": "Concrete Mathematics",
+  "original_language": "eng",
+  "original_publisher": "Addison-Wesley"
 }

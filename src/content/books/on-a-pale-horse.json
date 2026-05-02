@@ -12,7 +12,7 @@
   "description": "In this first novel of the Incarnations of Immortality, Piers Anthony combines a gripping story of romance and conflicting loyalties with a deeply moving examination of the meaning of life and death. This is a novel that will long linger in the reader's mind. Shooting Death was a mistake, as Zane soon discovered. For the man who killed the Incarnation of Death was immediately forced to assume the vacant position! Thereafter, he must speed over the world, riding his pale horse, and ending the liv",
   "cover_url": "https://books.google.com/books/content?id=27UFpADsJNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780307815651",
-  "first_published": 1984,
+  "first_published": 1983,
   "pages": 338,
   "google_books_url": "https://play.google.com/store/books/details?id=27UFpADsJNkC&source=gbs_api",
   "language": "eng",
@@ -44,11 +44,24 @@
   "ol_work_key": "/works/OL80857W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL38354833M"
+  "representative_edition_key": "/books/OL38354833M",
+  "wikidata_qid": "Q7091247",
+  "original_title": "On a Pale Horse",
+  "original_language": "eng",
+  "original_publisher": "Del Rey Books",
+  "series": {
+    "name": "Incarnations of Immortality",
+    "position": 1
+  }
 }

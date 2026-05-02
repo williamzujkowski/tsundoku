@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9158768-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9158768-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40878W",
-  "first_published": 1974,
+  "first_published": 1973,
   "language": "eng",
   "description": "From the bestselling author of The Passenger and the Pulitzer Prize–winning novel The Road • In this taut, chilling story, Lester Ballard—a violent, dispossessed man falsely accused of rape—haunts the hill country of East Tennessee when he is released from jail. While telling his story, Cormac McCarthy depicts the most sordid aspects of life with dignity, humor, and characteristic lyrical brilliance. \"Like the novelists he admires-Melville, Dostoyevsky, Faulkner-Cormac McCarthy has created an im...",
   "isbn": "9780679728740",
@@ -67,13 +67,21 @@
   "ol_work_key": "/works/OL40878W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
   "first_edition_isbn": "0394487710",
-  "representative_edition_key": "/books/OL42848625M"
+  "representative_edition_key": "/books/OL42848625M",
+  "wikidata_qid": "Q3744845",
+  "original_title": "Child of God",
+  "original_language": "eng",
+  "original_publisher": "Random House"
 }

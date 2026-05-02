@@ -58,11 +58,28 @@
   "ol_work_key": "/works/OL453735W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 57,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33414401M"
+  "representative_edition_key": "/books/OL33414401M",
+  "wikidata_qid": "Q2078564",
+  "original_title": "Guards! Guards!",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "The Big Read"
+    }
+  ],
+  "series": {
+    "name": "Discworld",
+    "position": 8
+  }
 }

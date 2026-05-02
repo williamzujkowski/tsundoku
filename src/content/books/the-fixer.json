@@ -97,10 +97,28 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 92,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9529119M"
+  "representative_edition_key": "/books/OL9529119M",
+  "wikidata_qid": "Q7734317",
+  "original_title": "The Fixer",
+  "original_language": "eng",
+  "original_publisher": "Farrar, Straus and Giroux",
+  "awards": [
+    {
+      "name": "National Book Award for Fiction"
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1967
+    }
+  ]
 }

@@ -31,13 +31,26 @@
   "pages": 529,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780316362474",
-  "representative_edition_key": "/books/OL33559208M"
+  "representative_edition_key": "/books/OL33559208M",
+  "wikidata_qid": "Q60978570",
+  "original_title": "Kings of the Wyld",
+  "original_language": "eng",
+  "original_publisher": "Orbit",
+  "series": {
+    "name": "The Band",
+    "position": 1
+  }
 }

@@ -30,13 +30,30 @@
   "pages": 309,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "0345286464",
-  "representative_edition_key": "/books/OL60650M"
+  "representative_edition_key": "/books/OL60650M",
+  "wikidata_qid": "Q3205839",
+  "original_title": "Dragon's Egg",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1983
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 1981
+    }
+  ]
 }

@@ -33,12 +33,15 @@
   "ol_work_key": "/works/OL1260919W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -46,5 +49,16 @@
   "original_title": "Le Rivage des Syrtes",
   "first_edition_isbn": "2714303595",
   "representative_edition_key": "/books/OL25434210M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "wikidata_qid": "Q3226484",
+  "original_publisher": "José Corti",
+  "awards": [
+    {
+      "name": "Prix Goncourt",
+      "year": 1951
+    },
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

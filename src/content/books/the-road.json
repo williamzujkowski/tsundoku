@@ -101,11 +101,49 @@
   "ol_work_key": "/works/OL40873W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26328791M"
+  "representative_edition_key": "/books/OL26328791M",
+  "wikidata_qid": "Q1140295",
+  "original_title": "The Road",
+  "original_language": "eng",
+  "original_publisher": "Alfred A. Knopf",
+  "awards": [
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 2008
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 2007
+    },
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 2006
+    },
+    {
+      "name": "Believer Book Award",
+      "year": 2006
+    },
+    {
+      "name": "Oprah's Book Club",
+      "year": 2007
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 2001
+    }
+  ]
 }
