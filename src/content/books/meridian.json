@@ -17,18 +17,6 @@
   "pages": 277,
   "google_books_url": "https://play.google.com/store/books/details?id=4QrR2XWHBBIC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "adventure and adventurers",
-    "adventure and adventurers, fiction",
-    "adventure stories",
-    "adventure travel",
-    "animals",
-    "anthropomorphism",
-    "artists' illustrated books",
-    "books and reading",
-    "british and irish fiction (fictional works by one author)",
-    "child and youth fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -75,11 +63,19 @@
   "ol_work_key": "/works/OL1815833W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29090500M"
+  "representative_edition_key": "/books/OL29090500M",
+  "wikidata_qid": "Q6819288",
+  "original_title": "Meridian",
+  "original_language": "eng",
+  "original_publisher": "Harcourt"
 }

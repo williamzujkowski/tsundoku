@@ -98,7 +98,7 @@ def tag_report() -> None:
 
     for bp, book in load_all_books():
         total += 1
-        subjects = book.get("subjects", [])
+        subjects = book.get("subject_facet") or []
         if subjects:
             tags = extract_tags(subjects)
             if tags:
@@ -127,7 +127,7 @@ def main() -> None:
     updated = 0
     unchanged = 0
     for bp, book in load_all_books():
-        subjects = book.get("subjects", [])
+        subjects = book.get("subject_facet") or []
         if not subjects:
             continue
 

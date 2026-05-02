@@ -14,27 +14,11 @@
   "description": "The Beasts of Tarzan, the third book in the Tarzan series, was first published in All-Story Cavalier magazine in 1914. It was later published as a novel in 1916. Tarzan’s old enemy, Nikolas Rokoff, escapes prison and plans his revenge by kidnapping the Tarzan’s son, the heir of Greystoke. He also captures Tarzan and Jane, and takes them all back to Africa, where he strands the Ape-man on an island before continuing on with his dastardly plan. On the island prison Tarzan befriends a troop of apes",
   "cover_url": "https://books.google.com/books/content?id=YlfNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041804313",
-  "first_published": 1916,
+  "first_published": 1914,
   "pages": 236,
   "google_books_url": "http://books.google.com/books?id=YlfNEAAAQBAJ&dq=intitle:The+Beasts+of+Tarzan&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Adventure",
-    "Adventure stories",
-    "Category: Adventure",
-    "Category: Novels",
-    "Category: Science-Fiction & Fantasy",
-    "Fantasy fiction",
-    "Fiction",
-    "Fiction, action & adventure",
-    "Fiction, fantasy, general",
-    "Jungle animals -- Fiction",
-    "Movie Books",
-    "Science Fiction",
-    "Tarzan (Fictitious character) -- Fiction",
-    "Tarzan (fictitious character), fiction"
-  ],
   "librivox_url": "https://librivox.org/the-beasts-of-tarzan/",
   "gutenberg_id": 85,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/85",
@@ -72,13 +56,26 @@
   "ol_work_key": "/works/OL1417916W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 188,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37687562M"
+  "representative_edition_key": "/books/OL37687562M",
+  "wikidata_qid": "Q2083126",
+  "original_title": "The Beasts of Tarzan",
+  "original_language": "eng",
+  "original_publisher": "A. C. McClurg",
+  "series": {
+    "name": "Tarzan",
+    "position": 3
+  }
 }

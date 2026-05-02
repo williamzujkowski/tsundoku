@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Cleanth_Brooks",
   "open_library_url": "https://openlibrary.org/authors/OL232700A",
   "birth_year": 1906,
-  "death_year": 1994
+  "death_year": 1994,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2915226",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "68946341",
+  "ol_author_key": "/authors/OL232700A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1953
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1985
+    },
+    {
+      "name": "Rhodes Scholarship",
+      "year": 1929
+    }
+  ]
 }

@@ -7,5 +7,61 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Simenon",
   "open_library_url": "https://openlibrary.org/authors/OL125391A",
   "birth_year": 1903,
-  "death_year": 1989
+  "death_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q128790",
+  "nationality": [
+    "BE"
+  ],
+  "alternate_names": [
+    "Aramis",
+    "Bobette",
+    "Christian Brulls",
+    "Georges Caraman",
+    "J.-K. Charles",
+    "Germain d’Antibes",
+    "Jacques Dersonne",
+    "Georges d'Isly",
+    "La Déshabilleuse",
+    "Luc Dorsan",
+    "Jean Dorsage",
+    "Jean Dossage",
+    "Jean du Perry",
+    "Gemis",
+    "Gom Gut",
+    "Kim",
+    "Georges-Martin-Georges",
+    "Miquette",
+    "Misti",
+    "Pan",
+    "Maurice Pertuis",
+    "Plick et Plock",
+    "Poum et Zette",
+    "Sandor",
+    "G. Sim",
+    "Jean Sandor",
+    "Georges Sim",
+    "Georges Simm",
+    "Le Vieux Suiveur",
+    "Gaston Vialis",
+    "Gaston Viallis",
+    "G. Vialio",
+    "G. Violis",
+    "G. Legros Jaques"
+  ],
+  "viaf_id": "17564",
+  "ol_author_key": "/authors/OL125391A",
+  "awards": [
+    {
+      "name": "The Grand Master",
+      "year": 1966
+    }
+  ]
 }

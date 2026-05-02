@@ -11,25 +11,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/5290889-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5290889-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL98205W",
-  "first_published": 1963,
+  "first_published": 1964,
   "language": "eng",
   "description": "Originally published in 1964, One-Dimensional Man quickly became one of the most important texts in the ensuing decade of radical political change. This second edition, newly introduced by Marcuse scholar Douglas Kellner, presents Marcuse's best-selling work to another generation of readers in the context of contemporary events.\"Marcuse shows himself to be one of the most radical and forceful thinkers of this time.\"--The Nation",
   "pages": 288,
   "google_books_url": "http://books.google.com/books?id=ha5kAAAAIAAJ&dq=One-Dimensional+Man+Herbert+Marcuse&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Modern Civilization",
-    "Philosophy",
-    "Technology",
-    "Social sciences",
-    "History",
-    "Civilization, modern, 20th century",
-    "Social sciences, philosophy",
-    "Civilisation",
-    "Technologie et civilisation",
-    "Société industrielle"
-  ],
-  "copyright_status": "likely_public_domain",
+  "copyright_status": "in_copyright",
   "isbn": "9780807015742",
   "ddc": [
     "301.243",
@@ -98,13 +86,20 @@
   "ol_work_key": "/works/OL98205W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 48,
   "first_published_circa": false,
-  "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38345796M"
+  "representative_edition_key": "/books/OL38345796M",
+  "wikidata_qid": "Q914217",
+  "original_title": "One-Dimensional Man",
+  "original_language": "eng",
+  "original_publisher": "Beacon Press"
 }

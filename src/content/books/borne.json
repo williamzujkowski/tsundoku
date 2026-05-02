@@ -21,18 +21,6 @@
   "oclc_id": "987005762",
   "worldcat_url": "https://www.worldcat.org/oclc/987005762",
   "lccn": "2016033244",
-  "subjects": [
-    "Fiction",
-    "Biotechnology",
-    "Drug dealers",
-    "Refuse collectors",
-    "Interpersonal relations",
-    "Environmental aspects of Biotechnology",
-    "science fiction",
-    "fantasy",
-    "Literary",
-    "General"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -83,11 +71,17 @@
   "ol_work_key": "/works/OL17762236W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26359465M"
+  "representative_edition_key": "/books/OL26359465M",
+  "wikidata_qid": "Q30608684",
+  "original_title": "Borne",
+  "original_language": "eng"
 }

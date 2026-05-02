@@ -8,7 +8,7 @@
     "le-monde-100"
   ],
   "reading_status": "read",
-  "description": "",
+  "description": "En los tratados aquí reunidos, Borges habla de la esencia del tiempo, que se concreta bien en el mecanismo de una metáfora, bien en una refutación filosófica. El asunto es la coincidencia, la ocupación de un mismo lugar fí́sico o mental, la repetición, la versión. Así́, el ensayo sobre los traductores de Las mil y una noches tiene su eco en los sí́miles de la literatura germánica antigua; la doctrina de los ciclos halla su espejo en las enseñanzas de la termodinámica.",
   "cover_url": "https://covers.openlibrary.org/b/id/966139-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/966139-L.jpg",
   "open_library_url": "",
@@ -58,13 +58,16 @@
   "ol_work_key": "/works/OL106865W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 66,
   "first_published_circa": false,
@@ -72,5 +75,13 @@
   "original_title": "L'Oeuvre au noir",
   "representative_edition_key": "/books/OL45311414M",
   "translator": "Emma Calatayud",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q38793",
+  "original_publisher": "Éditions Gallimard",
+  "awards": [
+    {
+      "name": "Prix Femina",
+      "year": 1968
+    }
+  ]
 }

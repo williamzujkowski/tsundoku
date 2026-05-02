@@ -6,5 +6,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Rudin",
   "open_library_url": "https://openlibrary.org/authors/OL131455A",
   "birth_year": 1921,
-  "death_year": 2010
+  "death_year": 2010,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q470503",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108366350",
+  "ol_author_key": "/authors/OL131455A",
+  "awards": [
+    {
+      "name": "honorary doctor of the University of Vienna"
+    },
+    {
+      "name": "Steele Prize for Mathematical Exposition",
+      "year": 1993
+    }
+  ]
 }

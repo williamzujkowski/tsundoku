@@ -16,28 +16,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=FmsRAAAAYAAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Bestsellers, American, 1895-1923",
-    "Bildungsromans",
-    "Category: American Literature",
-    "Category: Novels",
-    "Children of the rich",
-    "Children of the rich -- Fiction",
-    "Children of the rich in fiction",
-    "City and town life",
-    "City and town life -- Fiction",
-    "City and town life in fiction",
-    "Domestic fiction",
-    "Fiction",
-    "Middle West -- Fiction",
-    "Middle West in fiction",
-    "Social classes",
-    "Social classes -- Fiction",
-    "Social classes in fiction",
-    "Young men",
-    "Young men -- Fiction",
-    "Young men in fiction"
-  ],
   "gutenberg_id": 1098,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1098",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1098.html.images",
@@ -90,13 +68,19 @@
   "ol_work_key": "/works/OL54861W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 145,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56439975M"
+  "representative_edition_key": "/books/OL56439975M",
+  "wikidata_qid": "Q30901576",
+  "original_title": "The Turmoil",
+  "original_language": "eng"
 }

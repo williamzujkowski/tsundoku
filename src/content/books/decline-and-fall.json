@@ -18,18 +18,6 @@
   "oclc_id": "27850511",
   "worldcat_url": "https://www.worldcat.org/oclc/27850511",
   "lccn": "29008725",
-  "subjects": [
-    "Social life and customs",
-    "Manners and customs",
-    "Upper class",
-    "Fiction",
-    "British and irish fiction (fictional works by one author)",
-    "Boys",
-    "Fiction in English",
-    "Teachers",
-    "Education",
-    "Medicine"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "823.912"
@@ -81,12 +69,16 @@
   "ol_work_key": "/works/OL5721413W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 97,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL53370518M"
+  "representative_edition_key": "/books/OL53370518M",
+  "wikidata_qid": "Q3115185",
+  "original_publisher": "Chapman and Hall"
 }

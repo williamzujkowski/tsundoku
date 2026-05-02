@@ -24,18 +24,6 @@
   "lccn": "53010419",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015005766368",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "Human-alien encounters",
-    "Fiction",
-    "Science fiction",
-    "Long Now Manual for Civilization",
-    "Human evolution",
-    "Fiction, science fiction, general",
-    "Human-Alien encounter",
-    "Reading Level-Grade 7",
-    "Reading Level-Grade 9",
-    "Reading Level-Grade 8"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914",
@@ -76,13 +64,28 @@
   "ol_work_key": "/works/OL17415W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 81,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36227863M"
+  "representative_edition_key": "/books/OL36227863M",
+  "wikidata_qid": "Q466057",
+  "original_title": "Childhood’s End",
+  "original_language": "eng",
+  "original_publisher": "Ballantine Books",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books",
+      "year": 2011
+    }
+  ]
 }

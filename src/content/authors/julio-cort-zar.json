@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Julio_Cort%C3%A1zar",
   "open_library_url": "https://openlibrary.org/authors/OL2631008A",
   "birth_year": 1914,
-  "death_year": 1984
+  "death_year": 1984,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q174210",
+  "nationality": [
+    "AR",
+    "FR"
+  ],
+  "alternate_names": [
+    "Julio Denis"
+  ],
+  "viaf_id": "12306822",
+  "ol_author_key": "/authors/OL2631008A",
+  "movements": [
+    "surrealism"
+  ],
+  "awards": [
+    {
+      "name": "Prix Médicis étranger",
+      "year": 1974
+    },
+    {
+      "name": "honorary doctor of the University of Poitiers",
+      "year": 1980
+    }
+  ]
 }

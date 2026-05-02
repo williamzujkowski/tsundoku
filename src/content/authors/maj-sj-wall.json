@@ -6,5 +6,32 @@
   "photo_url": "https://covers.openlibrary.org/a/id/6463759-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL709121A",
   "birth_year": 1935,
-  "death_year": 2020
+  "death_year": 2020,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q264855",
+  "nationality": [
+    "SE"
+  ],
+  "viaf_id": "111631772",
+  "ol_author_key": "/authors/OL709121A",
+  "awards": [
+    {
+      "name": "Riverton International Honour Prize",
+      "year": 2006
+    },
+    {
+      "name": "Lenin Award (Sweden)",
+      "year": 2013
+    },
+    {
+      "name": "Edgar Allan Poe Award for Best Novel",
+      "year": 1971
+    }
+  ]
 }

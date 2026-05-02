@@ -18,18 +18,6 @@
   "pages": 239,
   "google_books_url": "https://play.google.com/store/books/details?id=2vnbMzYXBQsC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "smear campaigns",
-    "supercomputers",
-    "computers",
-    "Frankenstein complex",
-    "hyperspace",
-    "heisenbugs",
-    "asteroids",
-    "Shahada",
-    "space stations",
-    "space-based solar power"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "813.54",
@@ -90,12 +78,31 @@
   "ol_work_key": "/works/OL46241W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 98,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24287471M"
+  "representative_edition_key": "/books/OL24287471M",
+  "wikidata_qid": "Q393018",
+  "original_title": "I, Robot.",
+  "original_language": "eng",
+  "original_publisher": "Gnome Press",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    }
+  ],
+  "series": {
+    "name": "Robot series",
+    "position": 1
+  }
 }

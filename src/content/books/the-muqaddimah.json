@@ -20,18 +20,6 @@
   "google_books_url": "http://books.google.com/books?id=YkH2twAACAAJ&dq=The+Muqaddimah+Ibn+Khaldun&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Early works to 1800",
-    "Philosophy",
-    "Civilization",
-    "History",
-    "Arab countries",
-    "Civilization, Islamic",
-    "Economics",
-    "Historiography",
-    "Islamic Civilization",
-    "Political science"
-  ],
   "ddc": [
     "901.9",
     "909.097671",
@@ -135,12 +123,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 54,
   "first_published_circa": false,
   "original_language": "ara",
   "original_title": "Muqaddimat Ibn Khaldûn",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7758938M"
+  "representative_edition_key": "/books/OL7758938M",
+  "wikidata_qid": "Q1259616"
 }

@@ -15,18 +15,6 @@
   "language": "eng",
   "reading_status": "want",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Teenage boys",
-    "Sexuality",
-    "Military education",
-    "Boys' schools",
-    "Gay youth",
-    "Boarding schools",
-    "Gangs",
-    "Interpersonal relations",
-    "Teenage boys in fiction"
-  ],
   "ddc": [
     "833.912",
     "833.91"
@@ -84,15 +72,21 @@
   "ol_work_key": "/works/OL16335026W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 73,
   "first_published_circa": false,
   "first_edition_isbn": "9783498092863",
   "representative_edition_key": "/books/OL25440975M",
-  "translator": "Mike Mitchell"
+  "translator": "Mike Mitchell",
+  "wikidata_qid": "Q1112285",
+  "original_title": "The confusions of young Törless",
+  "original_language": "ger"
 }

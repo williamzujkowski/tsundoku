@@ -6,5 +6,40 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rachel_Cusk_-_Parade_1m19s.jpg/400px-Rachel_Cusk_-_Parade_1m19s.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Cusk",
   "open_library_url": "https://openlibrary.org/authors/OL32714A",
-  "birth_year": 1967
+  "birth_year": 1967,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3416087",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "318745",
+  "ol_author_key": "/authors/OL32714A",
+  "awards": [
+    {
+      "name": "Costa Book Awards",
+      "year": 1993
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2012
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2018
+    },
+    {
+      "name": "Prix Femina étranger",
+      "year": 2022
+    },
+    {
+      "name": "Somerset Maugham Award",
+      "year": 1998
+    }
+  ]
 }

@@ -18,18 +18,6 @@
   "gutenberg_id": 7025,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7025",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7025.html.images",
-  "subjects": [
-    "British and irish fiction (fictional works by one author)",
-    "Fiction",
-    "Fiction, historical",
-    "History",
-    "Jacobite Rising",
-    "Large type books",
-    "Outlaws",
-    "Scotland, fiction",
-    "Scottish Authors",
-    "Scottish fiction"
-  ],
   "description": "Rob Roy is an 1817 historical novel by Walter Scott, one of the Waverley novels. It is probably set in 1715, the year of the first Jacobite rising, and the social and economic background to that event are an important element in the novel, though it is not treated directly. The depiction of Rob Roy bears little relation to the historical figure: \"there are two Rob Roys. One lived and breathed. The other is a good story, a lively tale set in the past.",
   "pages": 423,
   "isbn": "9781442939219",
@@ -112,13 +100,24 @@
   "ol_work_key": "/works/OL863587W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 380,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34822246M"
+  "representative_edition_key": "/books/OL34822246M",
+  "wikidata_qid": "Q2156104",
+  "original_title": "Rob Roy",
+  "original_publisher": "Constable & Robinson",
+  "series": {
+    "name": "Waverley Novels",
+    "position": 4
+  }
 }

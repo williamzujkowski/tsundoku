@@ -17,18 +17,6 @@
   "pages": 250,
   "google_books_url": "http://books.google.com/books?id=0BlmAAAAMAAJ&dq=Odes+Horace&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Translations into English",
-    "Latin Laudatory poetry",
-    "Poetry",
-    "Latin Verse satire",
-    "Latin poetry",
-    "Translations from Latin",
-    "English poetry",
-    "Readers",
-    "Latin literature",
-    "Latin language"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 5432,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5432",
@@ -134,10 +122,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 127,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL18632625M"
+  "representative_edition_key": "/books/OL18632625M",
+  "wikidata_qid": "Q54645199",
+  "original_publisher": "Harvard University Press"
 }

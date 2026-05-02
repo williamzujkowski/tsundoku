@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fernand_Braudel",
   "open_library_url": "https://openlibrary.org/authors/OL63745A",
   "birth_year": 1902,
-  "death_year": 1985
+  "death_year": 1985,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q185105",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "9843788",
+  "ol_author_key": "/authors/OL63745A",
+  "movements": [
+    "Annales school"
+  ],
+  "awards": [
+    {
+      "name": "Commander of the Legion of Honour"
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 1964
+    },
+    {
+      "name": "Honorary doctor of Leiden University",
+      "year": 1975
+    },
+    {
+      "name": "Commander of the French Order of Academic Palms"
+    }
+  ]
 }

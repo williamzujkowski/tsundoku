@@ -15,18 +15,6 @@
   "pages": 209,
   "google_books_url": "http://books.google.com/books?id=fNpmDwAAQBAJ&dq=Notes+of+a+Native+Son+James+Baldwin&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "African Americans",
-    "Race relations",
-    "Social conditions",
-    "Civil rights",
-    "Afro-Americans",
-    "African americans, civil rights",
-    "African americans, social conditions",
-    "United states, race relations",
-    "Baldwin, james, 1924-1987",
-    "Negros"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "305.896073",
@@ -65,13 +53,21 @@
   "ol_work_key": "/works/OL2683365W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 35,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL25340096M"
+  "representative_edition_key": "/books/OL25340096M",
+  "wikidata_qid": "Q7062618",
+  "original_title": "Notes of a Native Son",
+  "original_language": "eng",
+  "original_publisher": "Beacon Press"
 }

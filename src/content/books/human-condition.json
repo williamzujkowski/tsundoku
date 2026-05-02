@@ -18,18 +18,6 @@
   "pages": 383,
   "google_books_url": "https://play.google.com/store/books/details?id=bGlwDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Sociology",
-    "Technology",
-    "Economics",
-    "Humanisme",
-    "Sociologie",
-    "Sociologia",
-    "Handlung",
-    "Handelen",
-    "Anthropologie philosophique",
-    "Technologie"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "128",
@@ -96,13 +84,21 @@
   "ol_work_key": "/works/OL10460638W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 42,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46076539M"
+  "representative_edition_key": "/books/OL46076539M",
+  "wikidata_qid": "Q2006866",
+  "original_title": "The Human Condition",
+  "original_language": "eng",
+  "original_publisher": "University of Chicago Press"
 }

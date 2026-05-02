@@ -18,18 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=4t0aEAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Death",
-    "Parties",
-    "Social classes",
-    "Lesbians",
-    "Short stories",
-    "Classic Literature",
-    "Parties - Fiction",
-    "Death - Fiction",
-    "Short stories - Collection"
-  ],
   "gutenberg_id": 1429,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1429",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1429.html.images",
@@ -83,10 +71,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 30,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8965025M"
+  "representative_edition_key": "/books/OL8965025M",
+  "wikidata_qid": "Q7735828",
+  "original_title": "The Garden Party and Other Stories",
+  "original_language": "eng"
 }

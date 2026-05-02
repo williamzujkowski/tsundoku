@@ -21,17 +21,6 @@
   "oclc_id": "12909976",
   "worldcat_url": "https://www.worldcat.org/oclc/12909976",
   "lccn": "cn89010736",
-  "subjects": [
-    "Long Now Manual for Civilization",
-    "Fiction, mystery & detective, general",
-    "American literature",
-    "Fiction, science fiction, general",
-    "Sprawl Trilogy",
-    "Virtual reality",
-    "Fiction",
-    "Cyberspace",
-    "Matrix (Imaginary place)"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -58,11 +47,30 @@
   "ol_work_key": "/works/OL27256W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 30,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL44143444M"
+  "representative_edition_key": "/books/OL44143444M",
+  "wikidata_qid": "Q2384854",
+  "original_title": "Count Zero",
+  "original_language": "eng",
+  "original_publisher": "Gollancz",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ],
+  "series": {
+    "name": "Sprawl trilogy",
+    "position": 2
+  }
 }

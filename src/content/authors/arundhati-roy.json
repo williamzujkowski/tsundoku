@@ -6,5 +6,52 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Arundhati_Roy_W.jpg/400px-Arundhati_Roy_W.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arundhati_Roy",
   "open_library_url": "https://openlibrary.org/authors/OL104867A",
-  "birth_year": 1961
+  "birth_year": 1961,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q212801",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "76457869",
+  "ol_author_key": "/authors/OL104867A",
+  "awards": [
+    {
+      "name": "Norman Mailer Prize",
+      "year": 2011
+    },
+    {
+      "name": "Sydney Peace Prize",
+      "year": 2004
+    },
+    {
+      "name": "Booker Prize",
+      "year": 1997
+    },
+    {
+      "name": "National Film Award for Best Screenplay",
+      "year": 1988
+    },
+    {
+      "name": "Lannan Cultural Freedom Prize",
+      "year": 2002
+    },
+    {
+      "name": "Sahitya Akademi Award in English",
+      "year": 2005
+    },
+    {
+      "name": "Time 100",
+      "year": 2014
+    },
+    {
+      "name": "Orwell Award",
+      "year": 2004
+    }
+  ]
 }

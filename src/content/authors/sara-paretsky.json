@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SaraParetsky.jpg/400px-SaraParetsky.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sara_Paretsky",
   "open_library_url": "https://openlibrary.org/authors/OL23374A",
-  "birth_year": 1947
+  "birth_year": 1947,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q438024",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "112486780",
+  "ol_author_key": "/authors/OL23374A",
+  "awards": [
+    {
+      "name": "The Grand Master",
+      "year": 2011
+    },
+    {
+      "name": "Cartier Diamond Dagger",
+      "year": 2002
+    },
+    {
+      "name": "Malice Domestic Award for Lifetime Achievement",
+      "year": 2015
+    },
+    {
+      "name": "Shamus Award",
+      "year": 2011
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 2004
+    },
+    {
+      "name": "Anthony Award",
+      "year": 1992
+    }
+  ]
 }

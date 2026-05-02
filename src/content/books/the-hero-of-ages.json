@@ -19,16 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=uTt-H5MAGT0C&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Fantasy",
-    "Epic Fantasy",
-    "Fantasy fiction",
-    "Fiction, fantasy, general",
-    "Children's fiction",
-    "Imaginary places",
-    "Magic"
-  ],
   "ddc": [
     "813.6"
   ],
@@ -50,11 +40,24 @@
   "ol_work_key": "/works/OL5738154W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 27,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27090913M"
+  "representative_edition_key": "/books/OL27090913M",
+  "wikidata_qid": "Q3859308",
+  "original_title": "Mistborn: The Hero of Ages",
+  "original_language": "eng",
+  "original_publisher": "Tor Books",
+  "series": {
+    "name": "Mistborn",
+    "position": 3
+  }
 }

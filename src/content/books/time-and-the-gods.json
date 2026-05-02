@@ -20,17 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=KbOXCgAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: Mythology, Legends & Folklore",
-    "Category: Short Stories",
-    "Fantasy",
-    "Fantasy fiction, English",
-    "Fiction, fantasy, collections & anthologies",
-    "Fiction, fantasy, general",
-    "Fiction, horror",
-    "Fiction, short stories (single author)",
-    "Pegana (imaginary place), fiction"
-  ],
   "librivox_url": "https://librivox.org/time-and-the-gods-by-lord-dunsany/",
   "gutenberg_id": 8183,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8183",
@@ -58,10 +47,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 190,
   "first_published_circa": false,
   "first_edition_isbn": "9781544045542",
-  "representative_edition_key": "/books/OL34037134M"
+  "representative_edition_key": "/books/OL34037134M",
+  "wikidata_qid": "Q7805269",
+  "original_title": "Time and the Gods",
+  "original_language": "eng",
+  "original_publisher": "Orion Publishing Group"
 }

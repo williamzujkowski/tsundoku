@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bessie_Head",
   "open_library_url": "https://openlibrary.org/authors/OL356962A",
   "birth_year": 1937,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q455286",
+  "nationality": [
+    "ZA"
+  ],
+  "viaf_id": "19692995",
+  "ol_author_key": "/authors/OL356962A",
+  "awards": [
+    {
+      "name": "Order of Ikhamanga"
+    }
+  ]
 }

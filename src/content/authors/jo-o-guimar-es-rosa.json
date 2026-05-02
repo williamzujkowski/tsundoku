@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Guimar%C3%A3es_Rosa",
   "open_library_url": "https://openlibrary.org/authors/OL204214A",
   "birth_year": 1908,
-  "death_year": 1967
+  "death_year": 1967,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q13012",
+  "nationality": [
+    "BR"
+  ],
+  "viaf_id": "59088739",
+  "ol_author_key": "/authors/OL4642494A",
+  "awards": [
+    {
+      "name": "Order of Cultural Merit (Brazil)",
+      "year": 2008
+    },
+    {
+      "name": "Prêmio Machado de Assis",
+      "year": 1961
+    }
+  ]
 }

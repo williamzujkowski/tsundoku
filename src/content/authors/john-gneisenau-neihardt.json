@@ -6,5 +6,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_G._Neihardt",
   "open_library_url": "https://openlibrary.org/authors/OL382273A",
   "birth_year": 1881,
-  "death_year": 1973
+  "death_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6250218",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "59087102",
+  "ol_author_key": "/authors/OL382273A"
 }

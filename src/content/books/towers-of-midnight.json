@@ -10,18 +10,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Fiction, fantasy, epic",
-    "Good and evil",
-    "Imaginary wars and battles",
-    "New York Times bestseller",
-    "Rand al'Thor (Fictitious character)",
-    "Rand al'thor (fictitious character), fiction",
-    "nyt:e-book-fiction=2011-02-20",
-    "nyt:mass-market-paperback=2011-10-23",
-    "nyt:mass_market_paperback=2011-10-01"
-  ],
   "description": "Towers of Midnight is a fantasy novel by Robert Jordan and Brandon Sanderson. It is the sequel to the novel The Gathering Storm, and the 13th book in the Wheel of Time series.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/WoT13_TowersOfMidnight.jpg/120px-WoT13_TowersOfMidnight.jpg",
   "pages": 944,
@@ -55,11 +43,24 @@
   "ol_work_key": "/works/OL15414340W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL43148251M"
+  "representative_edition_key": "/books/OL43148251M",
+  "wikidata_qid": "Q2530328",
+  "original_title": "Towers of Midnight",
+  "original_language": "eng",
+  "original_publisher": "Tor Books",
+  "series": {
+    "name": "The Wheel of Time",
+    "position": 13
+  }
 }

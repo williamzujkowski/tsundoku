@@ -7,5 +7,71 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joan_Didion",
   "open_library_url": "https://openlibrary.org/authors/OL4441955A",
   "birth_year": 1934,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q267691",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "100261335",
+  "ol_author_key": "/authors/OL4441955A",
+  "movements": [
+    "New Journalism"
+  ],
+  "awards": [
+    {
+      "name": "National Humanities Medal",
+      "year": 2012
+    },
+    {
+      "name": "George Polk Award",
+      "year": 2001
+    },
+    {
+      "name": "Prix Médicis essai",
+      "year": 2007
+    },
+    {
+      "name": "California Hall of Fame",
+      "year": 2014
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 2002
+    },
+    {
+      "name": "National Medal of Arts",
+      "year": 2013
+    },
+    {
+      "name": "American Academy of Arts and Letters Gold Medals",
+      "year": 2005
+    },
+    {
+      "name": "Edward MacDowell Medal",
+      "year": 1996
+    },
+    {
+      "name": "Los Angeles Times Book Prize",
+      "year": 2005
+    },
+    {
+      "name": "Ambassador Book Award",
+      "year": 1988
+    },
+    {
+      "name": "National Book Award",
+      "year": 2007
+    },
+    {
+      "name": "Evelyn F. Burkey Award"
+    }
+  ]
 }

@@ -6,5 +6,53 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hayfestival-2016-Juan-Gabriel-Vasquez-signing-2.jpg/400px-Hayfestival-2016-Juan-Gabriel-Vasquez-signing-2.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Gabriel_V%C3%A1squez",
   "open_library_url": "https://openlibrary.org/authors/OL5828880A",
-  "birth_year": 1973
+  "birth_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q970649",
+  "nationality": [
+    "CO",
+    "ES"
+  ],
+  "viaf_id": "102277914",
+  "ol_author_key": "/authors/OL5828880A",
+  "awards": [
+    {
+      "name": "Roger Caillois Prix",
+      "year": 2012
+    },
+    {
+      "name": "Simón Bolívar award",
+      "year": 2007
+    },
+    {
+      "name": "Dublin Literary Award",
+      "year": 2014
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres",
+      "year": 2016
+    },
+    {
+      "name": "Officer of the Order of Isabella the Catholic",
+      "year": 2018
+    },
+    {
+      "name": "Premio Real Academia Española",
+      "year": 2014
+    },
+    {
+      "name": "Simón Bolívar award",
+      "year": 2012
+    },
+    {
+      "name": "Alfaguara Prize",
+      "year": 2011
+    }
+  ]
 }

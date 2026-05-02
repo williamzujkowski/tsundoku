@@ -6,5 +6,56 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Annie_Ernaux_al_Salone_del_Libro_%28cropped%29.jpg/400px-Annie_Ernaux_al_Salone_del_Libro_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Annie_Ernaux",
   "open_library_url": "https://openlibrary.org/authors/OL29466A",
-  "birth_year": 1940
+  "birth_year": 1940,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1153825",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "51677529",
+  "ol_author_key": "/authors/OL29466A",
+  "awards": [
+    {
+      "name": "Prix Renaudot",
+      "year": 1984
+    },
+    {
+      "name": "Prix François-Mauriac",
+      "year": 2008
+    },
+    {
+      "name": "Prix de la langue française",
+      "year": 2008
+    },
+    {
+      "name": "Prix Marguerite Duras",
+      "year": 2008
+    },
+    {
+      "name": "Prix de l’Académie de Berlin",
+      "year": 2019
+    },
+    {
+      "name": "prize Maillé Latour Landry",
+      "year": 1984
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2022
+    },
+    {
+      "name": "Prix Formentor",
+      "year": 2019
+    },
+    {
+      "name": "Strega Prize",
+      "year": 2016
+    }
+  ]
 }

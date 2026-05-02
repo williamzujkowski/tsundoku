@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=ZLHrDdtRNGEC&dq=Shadow+and+Act+Ralph+Ellison&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "African Americans in literature",
-    "African American authors",
-    "American literature",
-    "Intellectual life",
-    "History and criticism",
-    "African Americans",
-    "Blacks in literature",
-    "Afro-American authors",
-    "Black Authors",
-    "African influences"
-  ],
   "ddc": [
     "810.9896073",
     "809.8"
@@ -58,13 +46,19 @@
   "ol_work_key": "/works/OL495475W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7462185M"
+  "representative_edition_key": "/books/OL7462185M",
+  "wikidata_qid": "Q7460624",
+  "original_title": "Shadow and Act",
+  "original_language": "eng"
 }

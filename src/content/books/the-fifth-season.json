@@ -20,18 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=J0tIAgAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "LGBTQ novels",
-    "LGBTQ science fiction & fantasy",
-    "Fiction, fantasy, epic",
-    "Mothers and daughters, fiction",
-    "Fiction, dystopian",
-    "Fiction, fantasy, general",
-    "New York Times reviewed",
-    "Hugo Award Winner",
-    "award:hugo_award=2016",
-    "award:hugo_award=novel"
-  ],
   "lcc": [
     "PS-3610.00000000.E46F54 2015",
     "PS-3610.00000000.E46 F54 2015",
@@ -71,11 +59,33 @@
   "ol_work_key": "/works/OL17363125W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51536133M"
+  "representative_edition_key": "/books/OL51536133M",
+  "wikidata_qid": "Q25217632",
+  "original_title": "The Fifth Season",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2016
+    },
+    {
+      "name": "Planète SF Bloggers' Award",
+      "year": 2018
+    }
+  ],
+  "series": {
+    "name": "The Broken Earth",
+    "position": 1
+  }
 }

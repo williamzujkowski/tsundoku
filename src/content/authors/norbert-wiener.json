@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Norbert_Wiener",
   "open_library_url": "https://openlibrary.org/authors/OL837366A",
   "birth_year": 1894,
-  "death_year": 1964
+  "death_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q178577",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51764820",
+  "ol_author_key": "/authors/OL837366A",
+  "awards": [
+    {
+      "name": "National Medal of Science",
+      "year": 1963
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1926
+    },
+    {
+      "name": "National Book Award",
+      "year": 1965
+    },
+    {
+      "name": "Josiah Willard Gibbs Lectureship",
+      "year": 1949
+    },
+    {
+      "name": "Bôcher Memorial Prize",
+      "year": 1933
+    },
+    {
+      "name": "Honorary Doctorate from the National Autonomous University of Mexico",
+      "year": 1951
+    }
+  ]
 }

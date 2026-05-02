@@ -22,18 +22,6 @@
   "lccn": "2010362960",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015002269234",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "Drama",
-    "Terminally ill",
-    "Fathers and sons",
-    "Inheritance and succession",
-    "open_syllabus_project",
-    "Family",
-    "Domestic drama",
-    "Inheritance and succession -- Drama",
-    "Families",
-    "Fathers and sons -- Drama"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "812.5",
@@ -87,10 +75,24 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29249037M"
+  "representative_edition_key": "/books/OL29249037M",
+  "wikidata_qid": "Q606930",
+  "original_title": "Cat on a Hot Tin Roof",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1955
+    },
+    {
+      "name": "Laurence Olivier Awards"
+    }
+  ]
 }

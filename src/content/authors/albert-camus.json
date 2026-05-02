@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Albert_Camus",
   "open_library_url": "https://openlibrary.org/authors/OL124171A",
   "birth_year": 1913,
-  "death_year": 1960
+  "death_year": 1960,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q34670",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "97000332",
+  "ol_author_key": "/authors/OL124171A",
+  "movements": [
+    "continental philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1957
+    }
+  ]
 }

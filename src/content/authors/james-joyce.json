@@ -7,5 +7,18 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Joyce",
   "open_library_url": "https://openlibrary.org/authors/OL31827A",
   "birth_year": 1882,
-  "death_year": 1941
+  "death_year": 1941,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6882",
+  "nationality": [
+    "GB",
+    "FR"
+  ],
+  "viaf_id": "44300643",
+  "ol_author_key": "/authors/OL31827A"
 }

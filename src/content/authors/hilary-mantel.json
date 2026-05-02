@@ -7,5 +7,75 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hilary_Mantel",
   "open_library_url": "https://openlibrary.org/authors/OL27119A",
   "birth_year": 1952,
-  "death_year": 2022
+  "death_year": 2022,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q465700",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "44415775",
+  "ol_author_key": "/authors/OL27119A",
+  "awards": [
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 2006
+    },
+    {
+      "name": "Hawthornden Prize",
+      "year": 1996
+    },
+    {
+      "name": "Booker Prize",
+      "year": 2009
+    },
+    {
+      "name": "Booker Prize",
+      "year": 2012
+    },
+    {
+      "name": "Bodley Medal",
+      "year": 2013
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Walter Scott Prize for historical fiction",
+      "year": 2010
+    },
+    {
+      "name": "Winifred Holtby Memorial Prize",
+      "year": 1990
+    },
+    {
+      "name": "David Cohen Prize",
+      "year": 2013
+    },
+    {
+      "name": "President's Medal",
+      "year": 2016
+    },
+    {
+      "name": "Dame Commander of the Order of the British Empire",
+      "year": 2014
+    },
+    {
+      "name": "Companion of Literature",
+      "year": 2020
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2009
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2014
+    }
+  ]
 }

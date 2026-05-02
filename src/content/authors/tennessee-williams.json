@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tennessee_Williams",
   "open_library_url": "https://openlibrary.org/authors/OL27524A",
   "birth_year": 1911,
-  "death_year": 1983
+  "death_year": 1983,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q134262",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51697407",
+  "ol_author_key": "/authors/OL27524A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1948
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 1951
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1955
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1974
+    },
+    {
+      "name": "Kennedy Center Honors",
+      "year": 1979
+    },
+    {
+      "name": "Florida Artists Hall of Fame"
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 1980
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

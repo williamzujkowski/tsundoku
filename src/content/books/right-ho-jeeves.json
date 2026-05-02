@@ -17,18 +17,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/right-ho-jeeves-by-p-g-wodehouse/",
-  "subjects": [
-    "Bertie Wooster (Fictitious character)",
-    "Valets",
-    "Fiction",
-    "Classic Literature",
-    "Jeeves (Fictitious character)",
-    "Modern fiction",
-    "Humorous stories",
-    "Jeeves (fictitious character), fiction",
-    "Wooster, bertie (fictitious character), fiction",
-    "Fiction, humorous"
-  ],
   "ddc": [
     "823",
     "823.912"
@@ -72,13 +60,21 @@
   "ol_work_key": "/works/OL1337129W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 230,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34792039M"
+  "representative_edition_key": "/books/OL34792039M",
+  "wikidata_qid": "Q7333527",
+  "original_title": "Right Ho, Jeeves",
+  "original_language": "eng",
+  "original_publisher": "Barrie & Jenkins"
 }

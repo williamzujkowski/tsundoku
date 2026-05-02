@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=5QpLlsPPM_YC&dq=The+Demon-Haunted+World+Carl+Sagan&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Open Library Staff Picks",
-    "Long Now Manual for Civilization",
-    "Pseudowetenschap",
-    "Science",
-    "Onwetendheid",
-    "Parapsychology",
-    "Popular works",
-    "Sociale aspecten",
-    "Irrtum",
-    "Aberglaube"
-  ],
   "ddc": [
     "501",
     "001.9"
@@ -85,11 +73,19 @@
   "ol_work_key": "/works/OL2950942W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 33,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24969079M"
+  "representative_edition_key": "/books/OL24969079M",
+  "wikidata_qid": "Q2482106",
+  "original_title": "The Demon-Haunted World",
+  "original_language": "eng",
+  "original_publisher": "Random House"
 }

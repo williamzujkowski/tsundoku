@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=d9CWDwAAQBAJ&dq=intitle:Typee&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Swindlers and swindling",
-    "Steamboats",
-    "Mississippi River",
-    "Confidence-man (Melville, Herman)",
-    "Swindlers and swindling in literature",
-    "Classic Literature",
-    "American fiction (fictional works by one author)",
-    "Fiction, general",
-    "Mississippi, fiction"
-  ],
   "ddc": [
     "813.303",
     "919.6",
@@ -141,12 +129,18 @@
   "ol_work_key": "/works/OL102748W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 216,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30350662M"
+  "representative_edition_key": "/books/OL30350662M",
+  "wikidata_qid": "Q2463076",
+  "original_title": "Typee",
+  "original_language": "eng"
 }

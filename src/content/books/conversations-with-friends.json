@@ -18,18 +18,6 @@
   "language": "eng",
   "oclc_id": "1002302707",
   "worldcat_url": "https://www.worldcat.org/oclc/1002302707",
-  "subjects": [
-    "College students",
-    "Triangles (Interpersonal relations)",
-    "Female friendship",
-    "Fiction",
-    "Fiction, general",
-    "Friendship, fiction",
-    "Fiction, family life",
-    "Man-woman relationships, fiction",
-    "Fiction, romance, contemporary",
-    "Dublin (ireland), fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.92"
@@ -67,11 +55,17 @@
   "ol_work_key": "/works/OL17887575W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27239197M"
+  "representative_edition_key": "/books/OL27239197M",
+  "wikidata_qid": "Q55360330",
+  "original_title": "Conversations with Friends",
+  "original_language": "eng"
 }

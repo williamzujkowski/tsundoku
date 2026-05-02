@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=6ioXAiupeicC&dq=Rendezvous+with+Rama+Arthur+C.+Clarke&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Future in literature",
-    "Hugo Award Winner",
-    "Nebula award winner",
-    "Rama (Imaginary space vehicle)",
-    "Science fiction",
-    "award:hugo_award=1974",
-    "award:hugo_award=novel",
-    "Interplanetary voyages",
-    "Reading Level-Grade 9"
-  ],
   "description": "Written in 1973, a massive 50 kilometre long alien cylinder begins to pass through the solar system provoking a hurried effort to intercept it. The closest available ship rushes to rendezvous so as to have a quick study before it gets too close to the sun. Able to enter via an airlock on one end of the ship, the crew explores the huge world found inside, a world full of wonder and mystery. As usual, the science is spot on.",
   "ddc": [
     "428.64",
@@ -72,11 +60,52 @@
   "ol_work_key": "/works/OL17417W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 60,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL10685173M"
+  "representative_edition_key": "/books/OL10685173M",
+  "wikidata_qid": "Q741222",
+  "original_title": "Rendezvous with Rama",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1974
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1974
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1974
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1973
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1980
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1974
+    }
+  ],
+  "series": {
+    "name": "Rama",
+    "position": 1
+  }
 }

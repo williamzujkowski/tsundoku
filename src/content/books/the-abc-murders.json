@@ -18,18 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=79XFRzc4vdkC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Fiction",
-    "Mystery",
-    "Agatha Christie",
-    "Hercule Poirot (Fictitious character)",
-    "Series",
-    "#13",
-    "Classic",
-    "British",
-    "Literature",
-    "Stories"
-  ],
   "ddc": [
     "823.91",
     "823.912"
@@ -92,13 +80,26 @@
   "ol_work_key": "/works/OL471509W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 142,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32500838M"
+  "representative_edition_key": "/books/OL32500838M",
+  "wikidata_qid": "Q727861",
+  "original_title": "The A.B.C. Murders",
+  "original_language": "eng",
+  "original_publisher": "Collins Crime Club",
+  "series": {
+    "name": "canon of Hercule Poirot",
+    "position": 13
+  }
 }

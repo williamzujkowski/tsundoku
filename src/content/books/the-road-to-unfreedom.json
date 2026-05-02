@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=mvdQDwAAQBAJ&dq=The+Road+to+Unfreedom+Timothy+Snyder&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Politics and government",
-    "Authoritarianism",
-    "Democracy",
-    "New York Times reviewed",
-    "nyt:paperback-nonfiction=2019-10-27",
-    "New York Times bestseller",
-    "Russia (federation), foreign relations, united states",
-    "United states, foreign relations, russia (federation)",
-    "Europe, foreign relations",
-    "Russia (federation), politics and government"
-  ],
   "lcc": [
     "D--0863.00000000.S59 2018",
     "D--0863.00000000.S59 2019",
@@ -54,11 +42,17 @@
   "ol_work_key": "/works/OL19352941W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26809504M"
+  "representative_edition_key": "/books/OL26809504M",
+  "wikidata_qid": "Q54489260",
+  "original_title": "The Road to Unfreedom: Russia, Europe, America",
+  "original_language": "eng"
 }

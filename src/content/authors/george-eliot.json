@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Eliot",
   "open_library_url": "https://openlibrary.org/authors/OL24528A",
   "birth_year": 1819,
-  "death_year": 1880
+  "death_year": 1880,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q131333",
+  "alternate_names": [
+    "George Eliot"
+  ],
+  "viaf_id": "89000553",
+  "ol_author_key": "/authors/OL24528A",
+  "movements": [
+    "literary realism"
+  ]
 }

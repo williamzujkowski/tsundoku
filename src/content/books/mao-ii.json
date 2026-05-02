@@ -15,18 +15,6 @@
   "pages": 260,
   "google_books_url": "http://books.google.com/books?id=t0v7jxGuSh4C&dq=Mao+II+Don+DeLillo&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Authors",
-    "Fiction",
-    "Literature",
-    "PEN/Faulkner Award Winner",
-    "award:pen_faulkner_award=1992",
-    "award:pen_faulkner_award=fiction",
-    "Fiction, general",
-    "Authors, fiction",
-    "American literature",
-    "Terrorists"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54",
@@ -55,11 +43,19 @@
   "ol_work_key": "/works/OL1921199W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL22479217M"
+  "representative_edition_key": "/books/OL22479217M",
+  "wikidata_qid": "Q6753587",
+  "original_title": "Mao II",
+  "original_language": "eng",
+  "original_publisher": "Charles Scribner's Sons"
 }

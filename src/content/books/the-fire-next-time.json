@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=lNYwEAAAQBAJ&dq=The+Fire+Next+Time+James+Baldwin&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Race relations",
-    "Black Muslims",
-    "African Americans",
-    "Afro-Americans",
-    "Muslims",
-    "Political activity",
-    "United States",
-    "United states, race relations",
-    "Musulmans",
-    "Race (Question sociale)"
-  ],
   "ddc": [
     "323.1196073",
     "305.896073",
@@ -89,10 +77,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 53,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27415527M"
+  "representative_edition_key": "/books/OL27415527M",
+  "wikidata_qid": "Q16385696",
+  "original_title": "The Fire Next Time",
+  "original_language": "eng"
 }

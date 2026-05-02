@@ -20,23 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Xdp1ImiSqJ4C&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Adventure stories",
-    "American Science fiction",
-    "American fiction -- 20th century",
-    "Category: Adventure",
-    "Category: American Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Chicago (ill.), fiction",
-    "Classic Literature",
-    "Fiction",
-    "Fiction, action & adventure",
-    "Fiction, science fiction, action & adventure",
-    "Fiction, science fiction, general",
-    "Fiction, thrillers, general",
-    "Man-woman relationships, fiction"
-  ],
   "gutenberg_id": 331,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/331",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/331.html.images",
@@ -63,13 +46,21 @@
   "ol_work_key": "/works/OL1418238W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 37,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11678307M"
+  "representative_edition_key": "/books/OL11678307M",
+  "wikidata_qid": "Q16387162",
+  "original_title": "The Mucker",
+  "original_language": "eng",
+  "original_publisher": "A. C. McClurg"
 }

@@ -7,5 +7,19 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Denis_Diderot",
   "open_library_url": "https://openlibrary.org/authors/OL16944A",
   "birth_year": 1713,
-  "death_year": 1784
+  "death_year": 1784,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q448",
+  "viaf_id": "54146831",
+  "ol_author_key": "/authors/OL16944A",
+  "movements": [
+    "encyclopédistes",
+    "materialism",
+    "Enlightenment philosophy"
+  ]
 }

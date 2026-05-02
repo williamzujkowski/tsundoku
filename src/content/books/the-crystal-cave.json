@@ -5,10 +5,12 @@
   "priority": 1,
   "slug": "the-crystal-cave",
   "tags": [
-    "npr-top-100-sff"
+    "fantasy",
+    "npr-top-100-sff",
+    "sci-fi"
   ],
   "reading_status": "read",
-  "description": "",
+  "description": "First book in the Arthurian Saga. Merlin's childhood is formed by the absence of his reticent, convent-bound mother and his unnamed and unknown father. As the bastard grandson of a local king, Merlin is the object of both envy and ridicule. His strange powers and predictions earn him greater status as a pariah, and he leaves home as a preadolescent. Returning years later as a young man - empowered by self-knowledge and magic - Merlin finds himself caught in the currents of the shifting kingdoms.",
   "cover_url": "https://covers.openlibrary.org/b/id/592134-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/592134-L.jpg",
   "open_library_url": "",
@@ -63,12 +65,34 @@
   "ol_work_key": "/works/OL213256W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 37,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL26453904M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q2730105",
+  "original_title": "The Crystal Cave",
+  "original_language": "eng",
+  "original_publisher": "William Morrow",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Mythopoeic Fantasy Award",
+      "year": 1971
+    }
+  ],
+  "series": {
+    "name": "Mary Stewart's Merlin Trilogy"
+  }
 }

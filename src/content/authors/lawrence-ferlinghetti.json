@@ -7,5 +7,49 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lawrence_Ferlinghetti",
   "open_library_url": "https://openlibrary.org/authors/OL86982A",
   "birth_year": 1919,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q314269",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110070499",
+  "ol_author_key": "/authors/OL86982A",
+  "movements": [
+    "Beat Generation"
+  ],
+  "awards": [
+    {
+      "name": "Janus Pannonius International Poetry Prize",
+      "year": 2012
+    },
+    {
+      "name": "Literarian Award for Outstanding Service to the American Literary Community"
+    },
+    {
+      "name": "James Madison Freedom of Information Award",
+      "year": 2000
+    },
+    {
+      "name": "Eagle Scout"
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 2003
+    },
+    {
+      "name": "Ivan Sandrof Lifetime Achievement Award",
+      "year": 1999
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    }
+  ]
 }

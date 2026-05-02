@@ -17,22 +17,6 @@
   "pages": 568,
   "google_books_url": "https://play.google.com/store/books/details?id=YY4EAAAAYAAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Banned Books from Anne Haight's list",
-    "Biology",
-    "Category: Science - Biology",
-    "Classic Literature",
-    "Evolución",
-    "Evolution",
-    "Evolution (Biology)",
-    "Harvard Classics",
-    "Heredity",
-    "Natural selection",
-    "Nonfiction",
-    "Origin",
-    "great_books_of_the_western_world",
-    "open_syllabus_project"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 1228,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1228",
@@ -165,13 +149,19 @@
   "ol_work_key": "/works/OL515051W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 259,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24270405M"
+  "representative_edition_key": "/books/OL24270405M",
+  "wikidata_qid": "Q20124",
+  "original_title": "On the origin of species by means of natural selection, or the preservation of favored races in the struggle for life",
+  "original_language": "eng"
 }

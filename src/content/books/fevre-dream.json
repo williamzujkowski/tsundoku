@@ -18,11 +18,6 @@
   "pages": 482,
   "google_books_url": "http://books.google.com/books?id=C--7ZhrnIlUC&dq=Fevre+Dream+George+R.R.+Martin&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Vampires",
-    "Comics",
-    "Comics & graphic novels, horror"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -45,11 +40,17 @@
   "ol_work_key": "/works/OL1955940W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32300575M"
+  "representative_edition_key": "/books/OL32300575M",
+  "wikidata_qid": "Q2915854",
+  "original_title": "Fevre Dream",
+  "original_language": "eng"
 }

@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karl_Marx",
   "open_library_url": "https://openlibrary.org/authors/OL48230A",
   "birth_year": 1818,
-  "death_year": 1883
+  "death_year": 1883,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9061",
+  "alternate_names": [
+    "Glückskind"
+  ],
+  "viaf_id": "49228757",
+  "ol_author_key": "/authors/OL48230A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society of Arts"
+    }
+  ]
 }

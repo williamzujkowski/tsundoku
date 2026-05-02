@@ -6,5 +6,35 @@
   "photo_url": "https://covers.openlibrary.org/a/id/15213231-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL29097A",
   "birth_year": 1799,
-  "death_year": 1850
+  "death_year": 1850,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9711",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Horace de Saint-Aubin",
+    "Lord R’Hoone",
+    "Viellerglé",
+    "Saint Aubin"
+  ],
+  "viaf_id": "29529595",
+  "ol_author_key": "/authors/OL29097A",
+  "movements": [
+    "literary realism"
+  ],
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1845
+    }
+  ]
 }

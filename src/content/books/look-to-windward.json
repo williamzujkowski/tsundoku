@@ -17,18 +17,6 @@
   "pages": 416,
   "google_books_url": "http://books.google.com/books?id=OtPhEAAAQBAJ&dq=Look+to+Windward+Iain+M.+Banks&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Long Now Manual for Civilization",
-    "Space warfare",
-    "Utopies",
-    "Life on other planets",
-    "Utopias",
-    "Vie extraterrestre",
-    "Science-fiction",
-    "Fiction",
-    "Protected DAISY",
-    "Conspiracy"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914"
@@ -55,11 +43,22 @@
   "ol_work_key": "/works/OL100773W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL49295547M"
+  "representative_edition_key": "/books/OL49295547M",
+  "wikidata_qid": "Q884010",
+  "original_title": "Look to Windward",
+  "original_language": "eng",
+  "series": {
+    "name": "Culture series",
+    "position": 7
+  }
 }

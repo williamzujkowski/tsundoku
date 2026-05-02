@@ -22,18 +22,6 @@
   "google_books_url": "http://books.google.com/books?id=ZO3TMpmO1_0C&dq=The+Illustrated+Man+Ray+Bradbury&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "American Science fiction",
-    "Science fiction",
-    "English Short stories",
-    "Tattooing",
-    "Magic",
-    "Storytelling",
-    "American Fantasy fiction",
-    "American Horror stories",
-    "Fiction",
-    "Prejudice"
-  ],
   "ddc": [
     "823.91",
     "[Fic]",
@@ -74,13 +62,27 @@
   "ol_work_key": "/works/OL103128W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 82,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7824024M"
+  "representative_edition_key": "/books/OL7824024M",
+  "wikidata_qid": "Q1756055",
+  "original_title": "The Illustrated Man",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    }
+  ]
 }

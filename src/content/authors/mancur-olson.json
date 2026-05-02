@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mancur_Olson",
   "open_library_url": "https://openlibrary.org/authors/OL32528A",
   "birth_year": 1932,
-  "death_year": 1998
+  "death_year": 1998,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q519898",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108503985",
+  "ol_author_key": "/authors/OL32528A",
+  "awards": [
+    {
+      "name": "Rhodes Scholarship",
+      "year": 1954
+    }
+  ]
 }

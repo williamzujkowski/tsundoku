@@ -17,18 +17,6 @@
   "pages": 18,
   "google_books_url": "http://books.google.com/books?id=GHMnz8G0GTcC&dq=John+Adams+David+McCullough&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Politics and government",
-    "Presidents",
-    "Biography",
-    "Government",
-    "Biographies",
-    "Présidents",
-    "Famous Persons",
-    "Politique et gouvernement",
-    "Large type books",
-    "Adams, john, 1735-1826"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "973.44092"
@@ -55,11 +43,19 @@
   "ol_work_key": "/works/OL2820749W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL11758517M"
+  "representative_edition_key": "/books/OL11758517M",
+  "wikidata_qid": "Q2160347",
+  "original_title": "John Adams",
+  "original_language": "eng",
+  "original_publisher": "Simon & Schuster"
 }

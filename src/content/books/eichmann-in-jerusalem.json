@@ -15,18 +15,6 @@
   "pages": 324,
   "google_books_url": "http://books.google.com/books?id=ZwjNGDPUSPsC&dq=Eichmann+in+Jerusalem+Hannah+Arendt&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "History",
-    "Holocaust, Jewish (1939-1945)",
-    "Jews",
-    "Jews in Europe",
-    "Nonfiction",
-    "Persecutions",
-    "War crime trials",
-    "Holocaust",
-    "Eichmann case, 1961-1962",
-    "Genocide"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "341.41",
@@ -85,13 +73,21 @@
   "ol_work_key": "/works/OL1386647W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 36,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL1156767M"
+  "representative_edition_key": "/books/OL1156767M",
+  "wikidata_qid": "Q480743",
+  "original_title": "Eichmann in Jerusalem",
+  "original_language": "eng",
+  "original_publisher": "Viking Press"
 }

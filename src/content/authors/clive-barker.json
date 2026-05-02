@@ -6,5 +6,71 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/CliveBarker.jpg/400px-CliveBarker.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Clive_Barker",
   "open_library_url": "https://openlibrary.org/authors/OL2621804A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q298761",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "111746890",
+  "ol_author_key": "/authors/OL2621804A",
+  "awards": [
+    {
+      "name": "Lambda Literary Award"
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 1998
+    },
+    {
+      "name": "World Horror Convention Grand Master Award",
+      "year": 1995
+    },
+    {
+      "name": "Bram Stoker Award for Best Work for Young Readers",
+      "year": 2004
+    },
+    {
+      "name": "GLAAD Davidson/Valentini Award",
+      "year": 2004
+    },
+    {
+      "name": "Cosmos 2000 Award",
+      "year": 1990
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1991
+    },
+    {
+      "name": "Time Machine Award",
+      "year": 2009
+    },
+    {
+      "name": "Julia-Verlanger Award",
+      "year": 1997
+    },
+    {
+      "name": "British Fantasy Award for Best Short Fiction",
+      "year": 1985
+    },
+    {
+      "name": "British Fantasy Award for Best Short Fiction",
+      "year": 1986
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 2012
+    },
+    {
+      "name": "World Fantasy Award for Best Collection",
+      "year": 1985
+    }
+  ]
 }

@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9987319-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9987319-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16654685W",
-  "first_published": 2012,
+  "first_published": 2013,
   "language": "eng",
   "description": "Time Magazine: 100 Best Fantasy Books of All Time · World Fantasy, British Fantasy, & Crawford Award winner Jevick, the pepper merchant's son, has been raised on stories of Olondria, a distant land where books are as common as they are rare in his home. When his father dies and Jevick takes his place on the yearly selling trip to Olondria, Jevick's life is as close to perfect as he can imagine. But just as he revels in Olondria's Rabelaisian Feast of Birds, he is pulled drastically off course an...",
   "isbn": "9781931520775",
@@ -21,13 +21,6 @@
   "oclc_id": "944219763",
   "worldcat_url": "https://www.worldcat.org/oclc/944219763",
   "lccn": "2012020482",
-  "subjects": [
-    "Books and reading",
-    "Fiction",
-    "Fiction, fantasy, general",
-    "Mystics",
-    "Ghost stories"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.6"
@@ -47,13 +40,30 @@
   "ol_work_key": "/works/OL16654685W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781931520768",
-  "representative_edition_key": "/books/OL25331434M"
+  "representative_edition_key": "/books/OL25331434M",
+  "wikidata_qid": "Q44517047",
+  "original_title": "A Stranger in Olondria",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Robert Holdstock Award for Best Fantasy Novel",
+      "year": 2014
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2014
+    }
+  ]
 }

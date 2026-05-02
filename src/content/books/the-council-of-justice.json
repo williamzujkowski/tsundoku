@@ -17,9 +17,6 @@
   "description": "There are crimes for which no punishment is adequate, offences that the written law cannot efface. This is the justification for the Council of Justice—a meeting of great and passionless intellects. These men are indifferent to world opinion. They relentlessly wage their wits and cunning against powerful underworld organizations, against past masters of villainy, and against minds equally astute. To breakers of the unwritten laws, they deal death. Richard Horatio Edgar Wallace (April 1, 1875-Feb...",
   "isbn": "9781772469004",
   "pages": 129,
-  "subjects": [
-    "Fiction"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "823.91",
@@ -37,9 +34,13 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 91,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34169344M"
+  "representative_edition_key": "/books/OL34169344M",
+  "wikidata_qid": "Q85806852",
+  "original_language": "eng"
 }

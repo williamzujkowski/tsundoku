@@ -18,18 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Y-41Q9zk32kC&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Courts and courtiers",
-    "Sieges",
-    "Fiction",
-    "Fiction, fantasy, general",
-    "Fiction, fantasy, epic",
-    "Magic",
-    "Imaginary places",
-    "Fantasy fiction",
-    "Courts and courtiers -- Fiction",
-    "Sieges -- Fiction"
-  ],
   "lcc": [
     "PS-3619.00000000.A533 W45 2007",
     "PS-3619.00000000.A533W45 2007",
@@ -58,11 +46,24 @@
   "ol_work_key": "/works/OL5738150W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 36,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34824531M"
+  "representative_edition_key": "/books/OL34824531M",
+  "wikidata_qid": "Q2062781",
+  "original_title": "Mistborn: The Well of Ascension",
+  "original_language": "eng",
+  "original_publisher": "Tor Books",
+  "series": {
+    "name": "Mistborn",
+    "position": 2
+  }
 }

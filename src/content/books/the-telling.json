@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Kz8v1bR1j_oC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "American Science fiction",
-    "English Short stories",
-    "Short stories",
-    "Fiction, short stories (single author)",
-    "Fiction, science fiction, general",
-    "English Shortstories",
-    "Fiction, science fiction, collections & anthologies",
-    "Science fiction, american",
-    "Ps3562.e42 w56 2004",
-    "813/.54"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -55,11 +43,34 @@
   "ol_work_key": "/works/OL59834W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 21,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29591318M"
+  "representative_edition_key": "/books/OL29591318M",
+  "wikidata_qid": "Q2623688",
+  "original_title": "The Telling",
+  "original_language": "eng",
+  "original_publisher": "Harcourt",
+  "awards": [
+    {
+      "name": "Locus Award for Best Novel"
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2001
+    }
+  ],
+  "series": {
+    "name": "Hainish Cycle",
+    "position": 8
+  }
 }

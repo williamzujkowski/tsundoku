@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=pYIBIIyQGZ8C&dq=To+the+Lighthouse+Virginia+Woolf&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Married people",
-    "Death",
-    "Mothers",
-    "Summer resorts",
-    "Loss (Psychology)",
-    "English",
-    "Lighthouses",
-    "Widowers",
-    "Marriage"
-  ],
   "librivox_url": "https://librivox.org/to-the-lighthouse-by-virginia-woolf/",
   "ddc": [
     "826.912",
@@ -167,13 +155,23 @@
   "ol_work_key": "/works/OL39396W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46496058M"
+  "representative_edition_key": "/books/OL46496058M",
+  "wikidata_qid": "Q478016",
+  "original_title": "To the Lighthouse",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

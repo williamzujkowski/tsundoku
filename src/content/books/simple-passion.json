@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8332450-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8332450-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL102400W",
-  "first_published": 1991,
+  "first_published": 1992,
   "language": "eng",
   "description": "WINNER OF THE 2022 NOBEL PRIZE IN LITERATURE A New York Times Notable Book In her spare, stark style, Annie Ernaux documents the desires and indignities of a human heart ensnared in an all-consuming passion. Blurring the line between fact and fiction, an unnamed narrator attempts to plot the emotional and physical course of her 2 year relationship with a married foreigner where every word, event, and person either provides a connection with her beloved or is subject to her cold indifference. Wit...",
   "isbn": "9781609800918",
@@ -18,16 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=u6oLI9tqXRUC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "France",
-    "Fiction",
-    "Man-woman relationships",
-    "Fiction, general",
-    "France, fiction",
-    "Man-woman relationships, fiction",
-    "Fiction, romance, general",
-    "Romance literature"
-  ],
   "ddc": [
     "843.914"
   ],
@@ -53,17 +43,19 @@
   "ol_work_key": "/works/OL102400W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 20,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Passion simple",
   "first_edition_isbn": "2070725049",
-  "representative_edition_key": "/books/OL47151242M"
+  "representative_edition_key": "/books/OL47151242M",
+  "wikidata_qid": "Q60222267"
 }

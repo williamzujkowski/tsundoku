@@ -18,24 +18,6 @@
   "pages": 511,
   "google_books_url": "https://play.google.com/store/books/details?id=JctgDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Bible",
-    "Biography",
-    "Christian poetry, history and criticism",
-    "Criticism and interpretation",
-    "Devil",
-    "Early works to 1800",
-    "English Christian poetry",
-    "English Epic poetry",
-    "English Religious poetry",
-    "English poetry",
-    "Epic poetry, history and criticism",
-    "Fall of man",
-    "Fall of man in literature",
-    "History and criticism",
-    "Milton, john, 1608-1674",
-    "Milton, john, 1608-1674, paradise lost"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 26,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/26",
@@ -245,13 +227,19 @@
   "ol_work_key": "/works/OL810991W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 396,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23668801M"
+  "representative_edition_key": "/books/OL23668801M",
+  "wikidata_qid": "Q28754",
+  "original_title": "Paradise Lost",
+  "original_language": "eng"
 }

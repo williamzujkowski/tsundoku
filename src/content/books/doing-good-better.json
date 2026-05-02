@@ -5,6 +5,7 @@
   "priority": 1,
   "slug": "doing-good-better",
   "tags": [
+    "philosophy",
     "r-philosophy"
   ],
   "reading_status": "read",
@@ -17,9 +18,6 @@
   "pages": 0,
   "first_published": 2015,
   "language": "eng",
-  "subjects": [
-    "r/philosophy Reading List"
-  ],
   "lcc": [
     "HM-1146.00000000.M33 2015",
     "HM-1146.00000000.M33 2016",
@@ -37,12 +35,16 @@
   "ol_work_key": "/works/OL17141552W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL28598892M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q20736124",
+  "original_language": "eng"
 }

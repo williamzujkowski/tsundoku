@@ -16,9 +16,6 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/8244473-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52261W",
   "pages": 292,
-  "subjects": [
-    "Orphans"
-  ],
   "gutenberg_id": 39162,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/39162",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/39162.html.images",
@@ -69,13 +66,21 @@
   "ol_work_key": "/works/OL52261W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 112,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34324845M"
+  "representative_edition_key": "/books/OL34324845M",
+  "wikidata_qid": "Q1249082",
+  "original_title": "Kipps",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Publishers"
 }

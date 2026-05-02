@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Voltaire",
   "open_library_url": "https://openlibrary.org/authors/OL32293A",
   "birth_year": 1694,
-  "death_year": 1778
+  "death_year": 1778,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9068",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Voltaire",
+    "Bénédictin"
+  ],
+  "viaf_id": "36925746",
+  "ol_author_key": "/authors/OL32293A",
+  "movements": [
+    "freethought",
+    "Age of Enlightenment",
+    "deism"
+  ],
+  "awards": [
+    {
+      "name": "Pour le Mérite for Sciences and Arts order"
+    },
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1743
+    }
+  ]
 }

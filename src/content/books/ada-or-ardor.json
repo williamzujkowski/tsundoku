@@ -11,9 +11,6 @@
   "isbn": "0679725229",
   "first_published": 1969,
   "pages": 626,
-  "subjects": [
-    "Fiction"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=xbxpYMFjbIsC&dq=Ada,+or+Ardor+Vladimir+Nabokov&hl=&source=gbs_api",
   "reading_status": "read",
@@ -56,13 +53,21 @@
   "ol_work_key": "/works/OL4413233W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 54,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL2216764M"
+  "representative_edition_key": "/books/OL2216764M",
+  "wikidata_qid": "Q117431",
+  "original_title": "Ada or Ardor: A Family Chronicle",
+  "original_language": "eng",
+  "original_publisher": "McGraw Hill Book Company"
 }

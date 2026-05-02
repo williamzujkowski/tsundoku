@@ -7,5 +7,71 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ruth_Rendell",
   "open_library_url": "https://openlibrary.org/authors/OL22672A",
   "birth_year": 1930,
-  "death_year": 2015
+  "death_year": 2015,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q232260",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Barbara Vine"
+  ],
+  "viaf_id": "120719476",
+  "ol_author_key": "/authors/OL22672A",
+  "awards": [
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 1996
+    },
+    {
+      "name": "Edgar Allan Poe Award for Best Novel",
+      "year": 1987
+    },
+    {
+      "name": "Best Crime Novel in Swedish Translation",
+      "year": 1980
+    },
+    {
+      "name": "Cartier Diamond Dagger",
+      "year": 1991
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Gumshoe Awards",
+      "year": 2004
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 1976
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 1986
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 1987
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 1991
+    },
+    {
+      "name": "Anthony Award",
+      "year": 1995
+    },
+    {
+      "name": "The Grand Master",
+      "year": 1997
+    }
+  ]
 }

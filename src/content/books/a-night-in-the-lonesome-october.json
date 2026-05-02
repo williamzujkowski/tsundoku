@@ -22,18 +22,6 @@
   "oclc_id": "59810926",
   "worldcat_url": "https://www.worldcat.org/oclc/59810926",
   "lccn": "93018414",
-  "subjects": [
-    "Fantasy fiction",
-    "Humorous stories",
-    "Horror tales",
-    "Parodies, imitations",
-    "magic",
-    "atypical heros",
-    "dogs",
-    "Fiction, fantasy, general",
-    "Fiction, science fiction, general",
-    "American literature"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -60,11 +48,19 @@
   "pages": 288,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24231950M"
+  "representative_edition_key": "/books/OL24231950M",
+  "wikidata_qid": "Q4327818",
+  "original_title": "A Night in the Lonesome October",
+  "original_language": "eng",
+  "original_publisher": "William Morrow"
 }

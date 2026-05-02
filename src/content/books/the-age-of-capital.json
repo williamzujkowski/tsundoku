@@ -14,18 +14,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Economic history",
-    "Modern History",
-    "World history",
-    "Cultural history",
-    "Mythology",
-    "History, modern, 19th century",
-    "Economics",
-    "Economic history, 1750-1918",
-    "Europe, history, 19th century",
-    "United states, history, 1783-1865"
-  ],
   "description": "The Age of Capital: 1848–1875 is a book by Eric Hobsbawm, first published in 1975. It is the second in a trilogy of books about \"the long 19th century\", preceded by The Age of Revolution: Europe 1789–1848 and followed by The Age of Empire: 1875–1914. A fourth book, The Age of Extremes: The Short Twentieth Century, 1914–1991, acts as a sequel to the trilogy.",
   "pages": 393,
   "isbn": "9782012791060",
@@ -56,15 +44,17 @@
   "ol_work_key": "/works/OL495656W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 35,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "L' ère du capital",
-  "representative_edition_key": "/books/OL8833728M"
+  "representative_edition_key": "/books/OL8833728M",
+  "wikidata_qid": "Q10273497"
 }

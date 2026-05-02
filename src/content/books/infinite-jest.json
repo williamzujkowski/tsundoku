@@ -17,18 +17,6 @@
   "pages": 1558,
   "google_books_url": "https://play.google.com/store/books/details?id=Nhe2yvx6hP8C&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Saddness",
-    "Compulsive behavior",
-    "Entertainment",
-    "Tennis",
-    "Addicts",
-    "Fiction",
-    "Separatist movements",
-    "Motion pictures",
-    "Humorous stories",
-    "Family life"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -64,11 +52,25 @@
   "ol_work_key": "/works/OL2943602W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24295216M"
+  "representative_edition_key": "/books/OL24295216M",
+  "wikidata_qid": "Q1077445",
+  "original_title": "Infinite Jest",
+  "original_language": "eng",
+  "original_publisher": "Little, Brown and Company",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

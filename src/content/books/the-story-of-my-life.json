@@ -5,6 +5,7 @@
   "priority": 2,
   "slug": "the-story-of-my-life",
   "tags": [
+    "biography",
     "google-play-library"
   ],
   "reading_status": "read",
@@ -15,9 +16,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "description": "Facturusne operae pretium sim, si a primordio urbis res populi Romani perscripserim, nee satis scio, nec, si sciam, dicere ausim, quippe qui cum veterem turn vulgatam esse rem videam, dum novi semper scriptores aut in rebus certius aliquid adlaturos se aut scribendi arte rüdem vetustatem superaturos credunt.",
-  "subjects": [
-    "Biography & Autobiography"
-  ],
   "isbn": "9780343788797",
   "ol_work_key": "/works/OL24394558W",
   "lcc": [
@@ -34,6 +32,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 11,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL32421946M"
 }

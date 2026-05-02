@@ -18,24 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=u-QdEAAAQBAJ&dq=intitle:The+Picture+of+Dorian+Gray&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Appearance (Philosophy) -- Fiction",
-    "Category: British Literature",
-    "Category: Classics of Literature",
-    "Category: Novels",
-    "Conduct of life -- Fiction",
-    "Didactic fiction",
-    "English language",
-    "Gothic Fiction",
-    "Great Britain -- History -- Victoria, 1837-1901 -- Fiction",
-    "London (England) -- History -- 1800-1950 -- Fiction",
-    "Movie Books",
-    "Paranormal fiction",
-    "Portraits -- Fiction",
-    "Readers",
-    "Supernatural -- Fiction",
-    "Textbooks for foreign speakers"
-  ],
   "gutenberg_id": 174,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/174",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/174.html.images",
@@ -223,17 +205,21 @@
   "ol_work_key": "/works/OL8193416W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "Retrato de Dorian Gray",
   "first_edition_isbn": "9781720393177",
-  "representative_edition_key": "/books/OL60444397M"
+  "representative_edition_key": "/books/OL60444397M",
+  "wikidata_qid": "Q82464",
+  "original_publisher": "Lippincott's Monthly Magazine"
 }

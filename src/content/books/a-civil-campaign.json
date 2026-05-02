@@ -1,7 +1,7 @@
 {
   "title": "A Civil Campaign",
   "author": "Lois McMaster Bujold",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "a-civil-campaign",
   "tags": [
@@ -22,18 +22,6 @@
   "oclc_id": "48622227",
   "worldcat_url": "https://www.worldcat.org/oclc/48622227",
   "lccn": "99016807",
-  "subjects": [
-    "Science Fiction",
-    "comedy of manners",
-    "romance",
-    "space opera",
-    "Miles Vorkosigan (Fictitious character)",
-    "Fiction",
-    "American Science fiction",
-    "series:vorkosigan_saga",
-    "Fiction, science fiction, general",
-    "Fiction, romance, fantasy"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -58,11 +46,24 @@
   "ol_work_key": "/works/OL56902W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7659979M"
+  "representative_edition_key": "/books/OL7659979M",
+  "wikidata_qid": "Q2759020",
+  "original_title": "A Civil Campaign",
+  "original_language": "eng",
+  "original_publisher": "Baen Books",
+  "series": {
+    "name": "The Vorkosigan Saga",
+    "position": 14
+  }
 }

@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=pdI0DwAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Science Fiction",
-    "Fiction, science fiction, action & adventure",
-    "Fiction, science fiction, space opera",
-    "Extraterrestrial beings",
-    "Interplanetary voyages",
-    "Space flight",
-    "Space vehicles",
-    "Space Opera",
-    "Action & Adventure"
-  ],
   "lcc": [
     "PS-3603.00000000.H347R43 2018",
     "PS-3603.00000000.H347",
@@ -52,11 +40,22 @@
   "ol_work_key": "/works/OL17933495W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL35955034M"
+  "representative_edition_key": "/books/OL35955034M",
+  "wikidata_qid": "Q62698506",
+  "original_title": "Record of a Spaceborn Few",
+  "original_language": "eng",
+  "series": {
+    "name": "Wayfarers series",
+    "position": 3
+  }
 }

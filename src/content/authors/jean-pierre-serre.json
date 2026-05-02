@@ -6,5 +6,95 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Jean-Pierre_Serre_2003.jpg/400px-Jean-Pierre_Serre_2003.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean-Pierre_Serre",
   "open_library_url": "https://openlibrary.org/authors/OL6933705A",
-  "birth_year": 1926
+  "birth_year": 1926,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q212063",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "66473477",
+  "ol_author_key": "/authors/OL6933705A",
+  "awards": [
+    {
+      "name": "Grand Cross of the Legion of Honour",
+      "year": 2012
+    },
+    {
+      "name": "Fields medal",
+      "year": 1954
+    },
+    {
+      "name": "honorary degree"
+    },
+    {
+      "name": "CNRS Gold medal",
+      "year": 1987
+    },
+    {
+      "name": "Abel Prize",
+      "year": 2003
+    },
+    {
+      "name": "Émile Picard Medal",
+      "year": 1971
+    },
+    {
+      "name": "Balzan Prize",
+      "year": 1985
+    },
+    {
+      "name": "Gaston-Julia Award",
+      "year": 1970
+    },
+    {
+      "name": "Wolf Prize in Mathematics",
+      "year": 2000
+    },
+    {
+      "name": "Grand Officer of the Legion of Honour",
+      "year": 2003
+    },
+    {
+      "name": "Grand Cross of the National Order of Merit",
+      "year": 2008
+    },
+    {
+      "name": "Concours général",
+      "year": 1944
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 2006
+    },
+    {
+      "name": "honorary doctor of the Tsinghua University",
+      "year": 2017
+    },
+    {
+      "name": "Foreign Member of the Royal Society",
+      "year": 1974
+    },
+    {
+      "name": "Steele Prize for Mathematical Exposition",
+      "year": 1995
+    },
+    {
+      "name": "Cours Peccot",
+      "year": 1954
+    },
+    {
+      "name": "Fellow of the American Mathematical Society",
+      "year": 2013
+    },
+    {
+      "name": "honorary doctorate of Barcelona University",
+      "year": 2004
+    }
+  ]
 }

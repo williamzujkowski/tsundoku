@@ -4,7 +4,9 @@
   "category": "Mathematics",
   "priority": 1,
   "slug": "set-theory",
-  "tags": [],
+  "tags": [
+    "math"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/1018853-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1018853-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL9076052W",
@@ -16,9 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=CZb-CAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Mathematics"
-  ],
   "lcc": [
     "QA-0003.00000000.P8eb vol. 79"
   ],
@@ -28,10 +27,12 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780080873954",
-  "representative_edition_key": "/books/OL37387654M"
+  "representative_edition_key": "/books/OL37387654M",
+  "wikidata_qid": "Q62096499"
 }

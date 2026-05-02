@@ -15,18 +15,6 @@
   "google_books_url": "http://books.google.com/books?id=vekW0AEACAAJ&dq=Sula+Toni+Morrison&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "African American women",
-    "Female friendship",
-    "City and town life",
-    "Romans, nouvelles",
-    "Fiction in English",
-    "Amitié féminine",
-    "Vie urbaine",
-    "Noires américaines",
-    "Literature"
-  ],
   "pages": 174,
   "ddc": [
     "813.54"
@@ -83,11 +71,19 @@
   "ol_work_key": "/works/OL50567W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 55,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29487789M"
+  "representative_edition_key": "/books/OL29487789M",
+  "wikidata_qid": "Q3503405",
+  "original_title": "Sula",
+  "original_language": "eng",
+  "original_publisher": "Alfred A. Knopf"
 }

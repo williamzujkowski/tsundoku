@@ -7,5 +7,19 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bruno_Schulz",
   "open_library_url": "https://openlibrary.org/authors/OL2657678A",
   "birth_year": 1892,
-  "death_year": 1942
+  "death_year": 1942,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q148886",
+  "viaf_id": "19684237",
+  "ol_author_key": "/authors/OL2657678A",
+  "awards": [
+    {
+      "name": "Golden Laurel of the Polish Academy of Literature"
+    }
+  ]
 }

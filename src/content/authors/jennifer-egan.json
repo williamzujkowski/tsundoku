@@ -6,5 +6,35 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Jennifer_Egan_2017.jpg/400px-Jennifer_Egan_2017.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jennifer_Egan",
   "open_library_url": "https://openlibrary.org/authors/OL451020A",
-  "birth_year": 1962
+  "birth_year": 1962,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q264283",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "56717951",
+  "ol_author_key": "/authors/OL451020A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1996
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship"
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 2011
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2010
+    }
+  ]
 }

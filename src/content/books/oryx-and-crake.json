@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12507658-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12507658-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL675722W",
-  "first_published": 2002,
+  "first_published": 2003,
   "language": "eng",
   "description": "NATIONAL BESTSELLER • The first volume in the internationally acclaimed MaddAddam trilogy is at once an unforgettable love story and a compelling vision of the future—from the bestselling author of The Handmaid's Tale and The Testaments A Kirkus Reviews Best Fiction Book of the Century Snowman, known as Jimmy before mankind was overwhelmed by a plague, is struggling to survive in a world where he may be the last human, and mourning the loss of his best friend, Crake, and the beautiful and elusiv...",
   "isbn": "9781400078981",
@@ -58,11 +58,22 @@
   "ol_work_key": "/works/OL675722W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 49,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24292727M"
+  "representative_edition_key": "/books/OL24292727M",
+  "wikidata_qid": "Q2032398",
+  "original_title": "Oryx and Crake",
+  "original_language": "eng",
+  "series": {
+    "name": "MaddAddam Series",
+    "position": 1
+  }
 }

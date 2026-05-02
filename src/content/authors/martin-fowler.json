@@ -5,5 +5,18 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL27090A-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL27090A",
   "birth_year": 1963,
-  "bio": "British programmer"
+  "bio": "British programmer",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q74894",
+  "nationality": [
+    "GB",
+    "US"
+  ],
+  "viaf_id": "5145169",
+  "ol_author_key": "/authors/OL27090A"
 }

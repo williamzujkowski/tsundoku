@@ -6,5 +6,35 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Andrew_S._Tanenbaum_2012.jpg/400px-Andrew_S._Tanenbaum_2012.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum",
   "open_library_url": "https://openlibrary.org/authors/OL236786A",
-  "birth_year": 1944
+  "birth_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92621",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108789370",
+  "ol_author_key": "/authors/OL236786A",
+  "awards": [
+    {
+      "name": "IEEE James H. Mulligan, Jr. Education Medal",
+      "year": 2007
+    },
+    {
+      "name": "Akademiehoogleraren Prize"
+    },
+    {
+      "name": "ACM Software System Award",
+      "year": 2023
+    },
+    {
+      "name": "SIGCSE Outstanding Contribution to Computer Science Education",
+      "year": 1997
+    }
+  ]
 }

@@ -21,18 +21,6 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/1930755-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1418244W",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Classic Literature",
-    "Fiction",
-    "Historical Fiction",
-    "Science fiction",
-    "Barsoom",
-    "Fiction, science fiction, action & adventure",
-    "Barsoom (imaginary place), fiction",
-    "Carter, john (fictitious character), fiction",
-    "American Science fiction",
-    "Extraterrestrial beings"
-  ],
   "gutenberg_id": 1153,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1153",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1153.html.images",
@@ -75,13 +63,25 @@
   "ol_work_key": "/works/OL1418244W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 313,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56889790M"
+  "representative_edition_key": "/books/OL56889790M",
+  "wikidata_qid": "Q2043958",
+  "original_title": "The Chessmen of Mars",
+  "original_language": "eng",
+  "original_publisher": "A. C. McClurg",
+  "series": {
+    "name": "Barsoom"
+  }
 }

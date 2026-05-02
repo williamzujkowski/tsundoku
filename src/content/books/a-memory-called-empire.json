@@ -1,7 +1,7 @@
 {
   "title": "A Memory Called Empire",
   "author": "Arkady Martine",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "a-memory-called-empire",
   "tags": [
@@ -18,18 +18,6 @@
   "oclc_id": "1031915717",
   "worldcat_url": "https://www.worldcat.org/oclc/1031915717",
   "lccn": "2018046933",
-  "subjects": [
-    "American literature",
-    "Fiction, science fiction, action & adventure",
-    "LGBTQ science fiction & fantasy",
-    "Hugo Award Winner",
-    "award:hugo_award=2020",
-    "award:hugo_award=novel",
-    "Ambassadors",
-    "Fiction",
-    "Murder",
-    "Extraterrestrial beings"
-  ],
   "copyright_status": "in_copyright",
   "description": "A Memory Called Empire is a 2019 science fiction novel, the debut novel by Arkady Martine. It follows Mahit Dzmare, the ambassador from Lsel Station to the Teixcalaanli Empire, as she investigates the death of her predecessor and the instabilities that underpin that society. The book won the 2020 Compton Crook Award and the 2020 Hugo Award for Best Novel.",
   "isbn": "9781529001594",
@@ -54,11 +42,29 @@
   "pages": 464,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28058464M"
+  "representative_edition_key": "/books/OL28058464M",
+  "wikidata_qid": "Q82566838",
+  "original_title": "A Memory Called Empire",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2020
+    }
+  ],
+  "series": {
+    "name": "Teixcalaan",
+    "position": 1
+  }
 }

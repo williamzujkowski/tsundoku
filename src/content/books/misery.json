@@ -17,18 +17,6 @@
   "pages": 432,
   "google_books_url": "https://play.google.com/store/books/details?id=QbUACwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "dope",
-    "pills",
-    "American Novelists",
-    "Captives",
-    "Fans (Persons)",
-    "Fiction",
-    "Novelists",
-    "Prisoners",
-    "Suspense fiction",
-    "Writers"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54",
@@ -83,10 +71,23 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 99,
   "first_published_circa": false,
   "first_edition_isbn": "9780739476819",
-  "representative_edition_key": "/books/OL29731589M"
+  "representative_edition_key": "/books/OL29731589M",
+  "wikidata_qid": "Q596874",
+  "original_title": "Misery",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Bram Stoker Award for Novel",
+      "year": 1987
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Drowned World",
   "author": "J.G. Ballard",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "the-drowned-world",
   "tags": [
@@ -9,24 +9,12 @@
     "fantasy",
     "sci-fi"
   ],
-  "first_published": 1968,
+  "first_published": 1962,
   "pages": 170,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=oJjivgEACAAJ&dq=The+Drowned+World+J.G.+Ballard&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
-  "subjects": [
-    "English fiction",
-    "Science Fiction",
-    "Fantasy fiction",
-    "Global warming",
-    "Fiction",
-    "Dystopia",
-    "Fiction, fantasy, general",
-    "Fiction, science fiction, general",
-    "English Science fiction",
-    "Natural disasters"
-  ],
+  "copyright_status": "likely_public_domain",
   "description": "The Drowned World (1962), by J. G. Ballard, is a British science fiction novel that depicts a post-apocalyptic future in which global warming, caused by increased solar radiation, has rendered uninhabitable much of the surface of planet Earth. The story follows a team of scientists researching environmental developments in the flooded city of London.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/TheDrownedWorld%281stEd%29.jpg",
   "isbn": "9780575002784",
@@ -54,11 +42,20 @@
   "ol_work_key": "/works/OL2745976W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 22,
-  "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9002772M"
+  "representative_edition_key": "/books/OL9002772M",
+  "wikidata_qid": "Q2519711",
+  "original_title": "The Drowned World",
+  "original_language": "eng",
+  "first_published_circa": false,
+  "original_publisher": "Berkley Books"
 }

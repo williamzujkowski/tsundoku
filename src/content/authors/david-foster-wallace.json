@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/David_Foster_Wallace",
   "open_library_url": "https://openlibrary.org/authors/OL448939A",
   "birth_year": 1962,
-  "death_year": 2008
+  "death_year": 2008,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q313246",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "68975157",
+  "ol_author_key": "/authors/OL448939A",
+  "movements": [
+    "Postmodernism"
+  ],
+  "awards": [
+    {
+      "name": "MacArthur Fellows Program"
+    },
+    {
+      "name": "Lannan Literary Awards",
+      "year": 1996
+    },
+    {
+      "name": "Whiting Awards",
+      "year": 1987
+    }
+  ]
 }

@@ -20,18 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=aAV6wV4Rn00C&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Revolutions",
-    "Open Library Staff Picks",
-    "Quests (Expeditions)",
-    "Fiction",
-    "Hugo Award Winner",
-    "Science Fiction",
-    "award:hugo_award=1996",
-    "Young women",
-    "Nanotechnology",
-    "award:hugo_award=novel"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -61,11 +49,31 @@
   "ol_work_key": "/works/OL38499W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 28,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24293032M"
+  "representative_edition_key": "/books/OL24293032M",
+  "wikidata_qid": "Q543562",
+  "original_title": "The Diamond Age",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1996
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1996
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    }
+  ]
 }

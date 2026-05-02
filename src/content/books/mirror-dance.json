@@ -15,18 +15,6 @@
   "pages": 316,
   "google_books_url": "http://books.google.com/books?id=aZ0YkIU0HusC&dq=Mirror+Dance+Lois+McMaster+Bujold&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Hugo Award Winner",
-    "award:hugo_award=novel",
-    "award:hugo_award=1995",
-    "Fiction",
-    "Cloning",
-    "Miles Vorkosigan (Fictitious character)",
-    "Inheritanceand succession",
-    "Inheritance and succession",
-    "Men with disabilities",
-    "Cryonics"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -57,11 +45,35 @@
   "ol_work_key": "/works/OL56890W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL11970709M"
+  "representative_edition_key": "/books/OL11970709M",
+  "wikidata_qid": "Q2884527",
+  "original_title": "Mirror Dance",
+  "original_language": "eng",
+  "original_publisher": "Baen Books",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1995
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1995
+    }
+  ],
+  "series": {
+    "name": "The Vorkosigan Saga",
+    "position": 9
+  }
 }

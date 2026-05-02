@@ -5,5 +5,67 @@
   "bio": "Leslie Barry Lamport is an American computer scientist and mathematician. Lamport is best known for his seminal work in distributed systems, and as the initial developer of the document preparation system LaTeX and the author of its first manual.",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Leslie_Lamport.jpg/400px-Leslie_Lamport.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leslie_Lamport",
-  "open_library_url": "https://openlibrary.org/authors/OL720767A"
+  "open_library_url": "https://openlibrary.org/authors/OL720767A",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92613",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "44417132",
+  "ol_author_key": "/authors/OL720767A",
+  "awards": [
+    {
+      "name": "Dijkstra Prize",
+      "year": 2000
+    },
+    {
+      "name": "IEEE John von Neumann Medal",
+      "year": 2008
+    },
+    {
+      "name": "Turing Award",
+      "year": 2013
+    },
+    {
+      "name": "IEEE Emanuel R. Piore Award",
+      "year": 2004
+    },
+    {
+      "name": "honorary doctor of the University of Rennes I",
+      "year": 2003
+    },
+    {
+      "name": "honorary doctor of the École polytechnique fédérale de Lausanne"
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 2014
+    },
+    {
+      "name": "Dijkstra Prize",
+      "year": 2005
+    },
+    {
+      "name": "Dijkstra Prize",
+      "year": 2014
+    },
+    {
+      "name": "honorary doctor of the Christian Albrechts University of Kiel",
+      "year": 2003
+    },
+    {
+      "name": "honorary doctor of the École polytechnique fédérale de Lausanne",
+      "year": 2004
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2007
+    }
+  ]
 }

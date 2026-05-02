@@ -18,18 +18,6 @@
   "oclc_id": "830030850",
   "worldcat_url": "https://www.worldcat.org/oclc/830030850",
   "lccn": "2010016816",
-  "subjects": [
-    "Massacres",
-    "Genocide",
-    "World War, 1939-1945",
-    "Holocaust, Jewish (1939-1945)",
-    "Atrocities",
-    "History",
-    "New York Times reviewed",
-    "Europe, eastern, history",
-    "World war, 1939-1945, atrocities",
-    "Soviet union, history, 1917-1936"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "940.5",
@@ -82,11 +70,30 @@
   "ol_work_key": "/works/OL15688711W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24616724M"
+  "representative_edition_key": "/books/OL24616724M",
+  "wikidata_qid": "Q4927951",
+  "original_title": "Bloodlands",
+  "original_language": "eng",
+  "original_publisher": "Basic Books",
+  "awards": [
+    {
+      "name": "Hannah Arendt Prize",
+      "year": 2013
+    },
+    {
+      "name": "Leipzig Book Award for European Understanding",
+      "year": 2012
+    }
+  ]
 }

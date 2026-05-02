@@ -17,13 +17,6 @@
   "pages": 484,
   "google_books_url": "http://books.google.com/books?id=_U2KuSNc50IC&dq=House+of+Suns+Alastair+Reynolds&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Life on other planets",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "English literature",
-    "Fiction, science fiction, space opera"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.92",
@@ -46,11 +39,24 @@
   "ol_work_key": "/works/OL5724833W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24270090M"
+  "representative_edition_key": "/books/OL24270090M",
+  "wikidata_qid": "Q3736382",
+  "original_title": "House of Suns",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 2025
+    }
+  ]
 }

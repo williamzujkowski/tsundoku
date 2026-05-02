@@ -7,5 +7,22 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_James",
   "open_library_url": "https://openlibrary.org/authors/OL109602A",
   "birth_year": 1842,
-  "death_year": 1910
+  "death_year": 1910,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q125249",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "56625773",
+  "ol_author_key": "/authors/OL109602A",
+  "movements": [
+    "pragmatism",
+    "functional psychology"
+  ]
 }

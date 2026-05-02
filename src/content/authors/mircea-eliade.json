@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mircea_Eliade",
   "open_library_url": "https://openlibrary.org/authors/OL1794738A",
   "birth_year": 1907,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q41590",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "73853074",
+  "ol_author_key": "/authors/OL1794738A",
+  "awards": [
+    {
+      "name": "Gordon J. Laing Award",
+      "year": 1986
+    },
+    {
+      "name": "Knight of the Legion of Honour"
+    },
+    {
+      "name": "doctor honoris causa from the Paris-Sorbonne University",
+      "year": 1976
+    }
+  ]
 }

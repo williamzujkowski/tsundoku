@@ -8,24 +8,12 @@
   "cover_url": "https://covers.openlibrary.org/b/id/13006535-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/13006535-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1150772W",
-  "first_published": 1741,
+  "first_published": 1740,
   "language": "eng",
   "description": "\"This novel (published 1740) created an epoch in the history of English fiction, and, with its successors, exerted a wide influence upon Continental literature. It is appropriately included in a series which is designed to form a group of studies of English life by the masters of English fiction. For it marked the transition from the novel of adventure to the novel of character—from the narration of entertaining events to the study of men and of manners, of motives and of sentiments. In it the r...",
   "pages": 483,
   "google_books_url": "https://play.google.com/store/books/details?id=ZZ4_DgAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Master and servant, fiction",
-    "Virtue, fiction",
-    "Kidnapping victims, fiction",
-    "England, fiction",
-    "Women domestics, fiction",
-    "Women household employees, fiction",
-    "Seduction, fiction",
-    "Man-woman relationships, fiction",
-    "British and Irish fiction (fictional works by one author)",
-    "Psychological, fiction"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 6124,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/6124",
@@ -103,13 +91,19 @@
   "ol_work_key": "/works/OL1150772W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 170,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7465620M"
+  "representative_edition_key": "/books/OL7465620M",
+  "wikidata_qid": "Q2048624",
+  "original_title": "Pamela; or, Virtue Rewarded",
+  "original_language": "eng"
 }

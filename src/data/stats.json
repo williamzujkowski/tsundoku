@@ -10,15 +10,335 @@
   "enrichment": {
     "covers": 3556,
     "covers_pct": 98.3,
-    "descriptions": 3530,
-    "descriptions_pct": 97.5,
+    "descriptions": 3581,
+    "descriptions_pct": 98.9,
     "isbns": 3553,
     "isbns_pct": 98.2,
     "pages": 3495,
     "pages_pct": 96.6,
-    "years": 3606,
-    "subjects": 3275
+    "years": 3609,
+    "subject_facet": 3243,
+    "ddc": 2754,
+    "lcc": 3222,
+    "wikidata": 1330,
+    "original_language": 1368,
+    "original_publisher": 623,
+    "awards": 316,
+    "series": 338
   },
+  "author_enrichment": {
+    "total_authors": 1936,
+    "wikidata": 888,
+    "nationality": 715,
+    "alternate_names": 159,
+    "movements": 184,
+    "awards": 593,
+    "viaf": 885
+  },
+  "nationality_distribution": [
+    {
+      "code": "US",
+      "count": 783
+    },
+    {
+      "code": "GB",
+      "count": 364
+    },
+    {
+      "code": "FR",
+      "count": 181
+    },
+    {
+      "code": "CA",
+      "count": 60
+    },
+    {
+      "code": "DE",
+      "count": 43
+    },
+    {
+      "code": "RU",
+      "count": 39
+    },
+    {
+      "code": "JP",
+      "count": 24
+    },
+    {
+      "code": "IT",
+      "count": 21
+    },
+    {
+      "code": "IN",
+      "count": 17
+    },
+    {
+      "code": "CN",
+      "count": 15
+    },
+    {
+      "code": "AU",
+      "count": 14
+    },
+    {
+      "code": "NO",
+      "count": 12
+    }
+  ],
+  "timeline": [
+    {
+      "decade": -400,
+      "count": 4
+    },
+    {
+      "decade": -370,
+      "count": 1
+    },
+    {
+      "decade": -300,
+      "count": 1
+    },
+    {
+      "decade": -200,
+      "count": 1
+    },
+    {
+      "decade": 90,
+      "count": 1
+    },
+    {
+      "decade": 1190,
+      "count": 1
+    },
+    {
+      "decade": 1200,
+      "count": 1
+    },
+    {
+      "decade": 1380,
+      "count": 1
+    },
+    {
+      "decade": 1460,
+      "count": 1
+    },
+    {
+      "decade": 1470,
+      "count": 5
+    },
+    {
+      "decade": 1480,
+      "count": 5
+    },
+    {
+      "decade": 1490,
+      "count": 2
+    },
+    {
+      "decade": 1500,
+      "count": 4
+    },
+    {
+      "decade": 1510,
+      "count": 3
+    },
+    {
+      "decade": 1520,
+      "count": 3
+    },
+    {
+      "decade": 1530,
+      "count": 5
+    },
+    {
+      "decade": 1550,
+      "count": 6
+    },
+    {
+      "decade": 1570,
+      "count": 4
+    },
+    {
+      "decade": 1580,
+      "count": 4
+    },
+    {
+      "decade": 1590,
+      "count": 8
+    },
+    {
+      "decade": 1600,
+      "count": 13
+    },
+    {
+      "decade": 1610,
+      "count": 1
+    },
+    {
+      "decade": 1620,
+      "count": 9
+    },
+    {
+      "decade": 1630,
+      "count": 6
+    },
+    {
+      "decade": 1640,
+      "count": 5
+    },
+    {
+      "decade": 1650,
+      "count": 4
+    },
+    {
+      "decade": 1660,
+      "count": 2
+    },
+    {
+      "decade": 1670,
+      "count": 7
+    },
+    {
+      "decade": 1680,
+      "count": 7
+    },
+    {
+      "decade": 1690,
+      "count": 1
+    },
+    {
+      "decade": 1700,
+      "count": 7
+    },
+    {
+      "decade": 1710,
+      "count": 5
+    },
+    {
+      "decade": 1720,
+      "count": 7
+    },
+    {
+      "decade": 1730,
+      "count": 8
+    },
+    {
+      "decade": 1740,
+      "count": 12
+    },
+    {
+      "decade": 1750,
+      "count": 5
+    },
+    {
+      "decade": 1760,
+      "count": 8
+    },
+    {
+      "decade": 1770,
+      "count": 10
+    },
+    {
+      "decade": 1780,
+      "count": 9
+    },
+    {
+      "decade": 1790,
+      "count": 18
+    },
+    {
+      "decade": 1800,
+      "count": 39
+    },
+    {
+      "decade": 1810,
+      "count": 30
+    },
+    {
+      "decade": 1820,
+      "count": 15
+    },
+    {
+      "decade": 1830,
+      "count": 22
+    },
+    {
+      "decade": 1840,
+      "count": 32
+    },
+    {
+      "decade": 1850,
+      "count": 41
+    },
+    {
+      "decade": 1860,
+      "count": 53
+    },
+    {
+      "decade": 1870,
+      "count": 42
+    },
+    {
+      "decade": 1880,
+      "count": 60
+    },
+    {
+      "decade": 1890,
+      "count": 84
+    },
+    {
+      "decade": 1900,
+      "count": 142
+    },
+    {
+      "decade": 1910,
+      "count": 125
+    },
+    {
+      "decade": 1920,
+      "count": 229
+    },
+    {
+      "decade": 1930,
+      "count": 93
+    },
+    {
+      "decade": 1940,
+      "count": 119
+    },
+    {
+      "decade": 1950,
+      "count": 191
+    },
+    {
+      "decade": 1960,
+      "count": 240
+    },
+    {
+      "decade": 1970,
+      "count": 219
+    },
+    {
+      "decade": 1980,
+      "count": 251
+    },
+    {
+      "decade": 1990,
+      "count": 311
+    },
+    {
+      "decade": 2000,
+      "count": 368
+    },
+    {
+      "decade": 2010,
+      "count": 569
+    },
+    {
+      "decade": 2020,
+      "count": 129
+    }
+  ],
   "top_authors": [
     {
       "name": "William Shakespeare",
@@ -108,15 +428,15 @@
     },
     {
       "name": "Philosophy",
-      "count": 369
+      "count": 367
     },
     {
       "name": "Science Fiction",
-      "count": 303
+      "count": 306
     },
     {
       "name": "Fantasy",
-      "count": 239
+      "count": 236
     },
     {
       "name": "History",
@@ -144,7 +464,7 @@
     },
     {
       "name": "Horror",
-      "count": 57
+      "count": 59
     },
     {
       "name": "Classics",
@@ -216,11 +536,11 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 199,
-    "1800_1899": 397,
-    "1900_1949": 709,
-    "1950_1999": 1226,
-    "2000_plus": 1075
+    "before_1800": 205,
+    "1800_1899": 418,
+    "1900_1949": 708,
+    "1950_1999": 1212,
+    "2000_plus": 1066
   },
   "reading_progress": {
     "read": 3210,
@@ -242,5 +562,5 @@
     "shelf_meters": 90.5,
     "books_with_pages": 3495
   },
-  "generated_at": "2026-05-02T06:19:54.336924"
+  "generated_at": "2026-05-02T08:06:03.958845"
 }

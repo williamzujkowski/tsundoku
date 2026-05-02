@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sylvia_Plath",
   "open_library_url": "https://openlibrary.org/authors/OL4327652A",
   "birth_year": 1932,
-  "death_year": 1963
+  "death_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q133054",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Victoria Lucas"
+  ],
+  "viaf_id": "14775269",
+  "ol_author_key": "/authors/OL4327652A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1982
+    },
+    {
+      "name": "Glascock Prize",
+      "year": 1955
+    },
+    {
+      "name": "Fulbright Scholarship"
+    }
+  ]
 }

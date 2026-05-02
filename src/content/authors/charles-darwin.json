@@ -7,5 +7,66 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Darwin",
   "open_library_url": "https://openlibrary.org/authors/OL35839A",
   "birth_year": 1809,
-  "death_year": 1882
+  "death_year": 1882,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1035",
+  "viaf_id": "27063124",
+  "ol_author_key": "/authors/OL35839A",
+  "awards": [
+    {
+      "name": "Royal Medal",
+      "year": 1853
+    },
+    {
+      "name": "Copley Medal",
+      "year": 1864
+    },
+    {
+      "name": "Pour le Mérite for Sciences and Arts order",
+      "year": 1868
+    },
+    {
+      "name": "Pour le Mérite",
+      "year": 1868
+    },
+    {
+      "name": "Fellow of the Linnean Society of London"
+    },
+    {
+      "name": "Fellow of the Royal Geographical Society"
+    },
+    {
+      "name": "Fellow of the Royal Society"
+    },
+    {
+      "name": "Baly Medal",
+      "year": 1879
+    },
+    {
+      "name": "Fellow of the Geological Society of London"
+    },
+    {
+      "name": "Bressa Prize",
+      "year": 1875
+    },
+    {
+      "name": "Honorary doctor of Leiden University",
+      "year": 1875
+    },
+    {
+      "name": "Wollaston Medal",
+      "year": 1859
+    },
+    {
+      "name": "Honorary Fellow of the Royal Society Te Apārangi"
+    },
+    {
+      "name": "Darwin Medal"
+    }
+  ]
 }

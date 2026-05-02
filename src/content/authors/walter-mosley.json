@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Walter_mosley_2014.jpg/400px-Walter_mosley_2014.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Mosley",
   "open_library_url": "https://openlibrary.org/authors/OL3154806A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q188117",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "4979209",
+  "ol_author_key": "/authors/OL6627289A",
+  "awards": [
+    {
+      "name": "CWA New Blood Dagger",
+      "year": 1991
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1998
+    },
+    {
+      "name": "Grammy Award for Best Album Notes",
+      "year": 2001
+    },
+    {
+      "name": "Nero Award",
+      "year": 2004
+    },
+    {
+      "name": "NAACP Image Award for Outstanding Literary Work, Fiction",
+      "year": 2008
+    },
+    {
+      "name": "NAACP Image Award for Outstanding Literary Work, Fiction",
+      "year": 2010
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 2014
+    },
+    {
+      "name": "Cartier Diamond Dagger",
+      "year": 2023
+    },
+    {
+      "name": "Edgar Awards",
+      "year": 2019
+    },
+    {
+      "name": "Shamus Award",
+      "year": 1991
+    }
+  ]
 }

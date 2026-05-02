@@ -17,18 +17,6 @@
   "pages": 777,
   "google_books_url": "https://play.google.com/store/books/details?id=DL4RL2XeAdsC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Surveyors",
-    "Frontier and pioneer life",
-    "Surveying",
-    "History",
-    "British",
-    "American fiction (fictional works by one author)",
-    "Fiction, historical",
-    "Pennsylvania, fiction",
-    "Maryland, fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -61,11 +49,19 @@
   "ol_work_key": "/works/OL2636672W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 20,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9880544M"
+  "representative_edition_key": "/books/OL9880544M",
+  "wikidata_qid": "Q1536968",
+  "original_title": "Mason & Dixon",
+  "original_language": "eng",
+  "original_publisher": "Henry Holt and Company"
 }

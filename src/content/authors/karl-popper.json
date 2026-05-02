@@ -7,5 +7,108 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karl_Popper",
   "open_library_url": "https://openlibrary.org/authors/OL238785A",
   "birth_year": 1902,
-  "death_year": 1994
+  "death_year": 1994,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q81244",
+  "nationality": [
+    "AT",
+    "GB"
+  ],
+  "viaf_id": "88801921",
+  "ol_author_key": "/authors/OL238785A",
+  "movements": [
+    "liberalism"
+  ],
+  "awards": [
+    {
+      "name": "Pour le Mérite for Sciences and Arts order",
+      "year": 1980
+    },
+    {
+      "name": "Ring of Honour of the City of Vienna"
+    },
+    {
+      "name": "Great Golden Medal of Honour for Services to the Republic of Austria"
+    },
+    {
+      "name": "Great Cross with Star and Sash of the Order of Merit of the Federal Republic of Germany"
+    },
+    {
+      "name": "Otto Hahn Peace Medal",
+      "year": 1993
+    },
+    {
+      "name": "Catalonia International Prize",
+      "year": 1989
+    },
+    {
+      "name": "Dr. Leopold Lucas Prize",
+      "year": 1981
+    },
+    {
+      "name": "Montyon Prize",
+      "year": 2003
+    },
+    {
+      "name": "Goethe Medal",
+      "year": 1992
+    },
+    {
+      "name": "honorary doctor of the University of Vienna",
+      "year": 1977
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 1991
+    },
+    {
+      "name": "honorary doctorate of Salzburg University"
+    },
+    {
+      "name": "Kyoto Prize in Arts and Philosophy",
+      "year": 1992
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Austrian Decoration for Science and Art",
+      "year": 1980
+    },
+    {
+      "name": "honorary doctor of the Catholic University of Eichstätt-Ingolstadt"
+    },
+    {
+      "name": "Knight Bachelor"
+    },
+    {
+      "name": "Companion of Honour",
+      "year": 1982
+    },
+    {
+      "name": "Prix Alexis de Tocqueville",
+      "year": 1984
+    },
+    {
+      "name": "Sonning Prize",
+      "year": 1973
+    },
+    {
+      "name": "Pour le Mérite"
+    },
+    {
+      "name": "Honorary Fellow of the Royal Society Te Apārangi"
+    },
+    {
+      "name": "honorary doctor of the University of Canterbury",
+      "year": 1973
+    }
+  ]
 }

@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jun'ichir%C5%8D_Tanizaki",
   "open_library_url": "https://openlibrary.org/authors/OL51998A",
   "birth_year": 1886,
-  "death_year": 1965
+  "death_year": 1965,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q316213",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "95021658",
+  "ol_author_key": "/authors/OL51998A",
+  "awards": [
+    {
+      "name": "Mainichi Publication Culture Award",
+      "year": 1947
+    },
+    {
+      "name": "Asahi Prize",
+      "year": 1948
+    },
+    {
+      "name": "Order of Culture",
+      "year": 1949
+    },
+    {
+      "name": "Person of Cultural Merit",
+      "year": 1951
+    },
+    {
+      "name": "Mainichi Publication Culture Award",
+      "year": 1962
+    }
+  ]
 }

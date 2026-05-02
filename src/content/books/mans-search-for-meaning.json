@@ -11,25 +11,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/465226-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/465226-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8257090W",
-  "first_published": 1997,
+  "first_published": 1946,
   "language": "eng",
   "description": "Now in its 60th year -- the landmark bestseller by the great Viennese psychiatrist remembered for his tremendous impact on humanity Internationally renowned psychiatrist Viktor E. Frankl endured years of unspeakable horror in Nazi death camps. During, and partly because of, his suffering, Dr. Frankl developed a revolutionary approach to psychotherapy known as logotherapy. At the core of his theory is the belief that man's primary motivational force is his search for meaning. Cited in Dr. Frankl'...",
   "pages": 248,
   "google_books_url": "http://books.google.com/books?id=JvAhAQAAIAAJ&dq=Man%27s+Search+for+Meaning+Viktor+E.+Frankl&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Nazi concentration camps",
-    "psychotherapy",
-    "meaning of life",
-    "freedom of choice",
-    "kapo",
-    "Konzentrationslager",
-    "Erlebnisbericht",
-    "spirituality",
-    "war and conflict",
-    "autobiography"
-  ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "isbn": "9781446490549",
   "ddc": [
     "616.8917",
@@ -56,13 +44,19 @@
   "ol_work_key": "/works/OL8257090W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
   "first_edition_isbn": "0306456206",
-  "representative_edition_key": "/books/OL36705629M"
+  "representative_edition_key": "/books/OL36705629M",
+  "wikidata_qid": "Q426369",
+  "original_title": "Man's Search for Meaning",
+  "original_language": "ger"
 }

@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Kerouac",
   "open_library_url": "https://openlibrary.org/authors/OL21491A",
   "birth_year": 1922,
-  "death_year": 1969
+  "death_year": 1969,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q160534",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27066713",
+  "ol_author_key": "/authors/OL21491A",
+  "movements": [
+    "Beat Generation"
+  ]
 }

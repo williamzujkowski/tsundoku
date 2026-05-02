@@ -12,23 +12,11 @@
   "description": "A strange container is found on the London docks, and its contents point to murder The cask from Paris is bigger than the rest, its sides reinforced to hold the extraordinary weight within. As the longshoremen are bringing it onto the London docks, the cask slips, cracks, and spills some of its treasure: a wealth of gold sovereigns. As the workmen cram the spilled gold into their pockets, an official digs through the opened box, which is supposed to contain a statue. Beneath the gold he finds a ",
   "cover_url": "https://books.google.com/books/content?id=BzfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781504001465",
-  "first_published": 1924,
+  "first_published": 1920,
   "pages": 374,
   "google_books_url": "https://play.google.com/store/books/details?id=BzfBBQAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "British and irish fiction (fictional works by one author)",
-    "Mystery",
-    "detective",
-    "classics",
-    "Fiction, mystery & detective, general",
-    "London (england), fiction",
-    "Paris (france), fiction",
-    "Fiction, mystery & detective, police procedural",
-    "Detective and mystery stories",
-    "Murder"
-  ],
   "gutenberg_id": 59854,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/59854",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/59854.html.images",
@@ -67,13 +55,17 @@
   "ol_work_key": "/works/OL5204285W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 43,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29711915M"
+  "representative_edition_key": "/books/OL29711915M",
+  "wikidata_qid": "Q3338169",
+  "original_language": "eng"
 }

@@ -11,22 +11,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/207586-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/207586-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL152269W",
-  "first_published": 1965,
+  "first_published": 1943,
   "language": "eng",
   "description": "The central character of the book, Charles Dexter Ward, is obsessed with his dead ancestor Joseph Curwen. He was a thoroughly nasty character who appeared to enjoy murdering people and summoning evil spirits.",
   "pages": 274,
   "google_books_url": "https://play.google.com/store/books/details?id=Pht0EAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Supernatural",
-    "American Horror tales",
-    "Supernatural in fiction",
-    "Fiction",
-    "Horror & ghost stories",
-    "Fiction, horror",
-    "Fiction, mystery & detective, general"
-  ],
   "gutenberg_id": 73547,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73547",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/73547.html.images",
@@ -49,13 +40,23 @@
   ],
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
   "first_edition_isbn": "9781500926175",
-  "representative_edition_key": "/books/OL61562609M"
+  "representative_edition_key": "/books/OL61562609M",
+  "wikidata_qid": "Q543844",
+  "original_title": "The Case of Charles Dexter Ward",
+  "original_language": "eng",
+  "series": {
+    "name": "Dream Cycle"
+  }
 }

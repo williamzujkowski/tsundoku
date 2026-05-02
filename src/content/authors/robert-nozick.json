@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Nozick",
   "open_library_url": "https://openlibrary.org/authors/OL540855A",
   "birth_year": 1938,
-  "death_year": 2002
+  "death_year": 2002,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q205927",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "41848718",
+  "ol_author_key": "/authors/OL540855A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1996
+    },
+    {
+      "name": "National Book Award",
+      "year": 1975
+    },
+    {
+      "name": "Ralph Waldo Emerson Award",
+      "year": 1982
+    },
+    {
+      "name": "Fulbright Scholarship"
+    },
+    {
+      "name": "Tanner Lectures on Human Values"
+    }
+  ]
 }

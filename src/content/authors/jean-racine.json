@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Racine",
   "open_library_url": "https://openlibrary.org/authors/OL60352A",
   "birth_year": 1639,
-  "death_year": 1699
+  "death_year": 1699,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q742",
+  "viaf_id": "88809641",
+  "ol_author_key": "/authors/OL60352A",
+  "movements": [
+    "Classicism"
+  ]
 }

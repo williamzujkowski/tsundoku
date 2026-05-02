@@ -17,18 +17,6 @@
   "pages": 244,
   "google_books_url": "http://books.google.com/books?id=_Sbju4F0AVAC&dq=Faust+Goethe&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Good and evil",
-    "Drama",
-    "Redemption",
-    "Devil",
-    "German drama",
-    "Translations into English",
-    "English drama",
-    "Translations from German",
-    "Illustrations",
-    "Magicians"
-  ],
   "gutenberg_id": 14591,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/14591",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/14591.html.images",
@@ -282,10 +270,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7384167M"
+  "representative_edition_key": "/books/OL7384167M",
+  "wikidata_qid": "Q29478",
+  "original_title": "Faust",
+  "original_language": "ger"
 }

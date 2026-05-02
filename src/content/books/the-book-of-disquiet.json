@@ -11,9 +11,6 @@
   "isbn": "9781847652379",
   "first_published": 1982,
   "pages": 288,
-  "subjects": [
-    "Fiction"
-  ],
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=9cAWkvW3vacC&source=gbs_api",
   "reading_status": "want",
@@ -72,15 +69,17 @@
   "ol_work_key": "/works/OL847061W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 85,
   "first_published_circa": false,
   "original_language": "por",
   "original_title": "Fernando Pessoa, Livro do desassossego",
-  "representative_edition_key": "/books/OL52271821M"
+  "representative_edition_key": "/books/OL52271821M",
+  "wikidata_qid": "Q2632627"
 }

@@ -7,5 +7,54 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/N._Scott_Momaday",
   "open_library_url": "https://openlibrary.org/authors/OL26069A",
   "birth_year": 1934,
-  "death_year": 2024
+  "death_year": 2024,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q736570",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110439963",
+  "ol_author_key": "/authors/OL26069A",
+  "movements": [
+    "Native American Renaissance"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "National Medal of Arts"
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1969
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 2000
+    },
+    {
+      "name": "honorary doctorate at the Blaise-Pascal university",
+      "year": 2003
+    },
+    {
+      "name": "Owen Wister Award",
+      "year": 2010
+    },
+    {
+      "name": "Ken Burns American Heritage Prize",
+      "year": 2019
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 2021
+    }
+  ]
 }

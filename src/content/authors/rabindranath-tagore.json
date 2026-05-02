@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
   "open_library_url": "https://openlibrary.org/authors/OL1770A",
   "birth_year": 1861,
-  "death_year": 1941
+  "death_year": 1941,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7241",
+  "alternate_names": [
+    "ভানুসিংহ"
+  ],
+  "viaf_id": "24608356",
+  "ol_author_key": "/authors/OL1770A",
+  "movements": [
+    "Bengali Renaissance"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1913
+    },
+    {
+      "name": "Officer of the Order of the British Empire"
+    },
+    {
+      "name": "honorary doctor of the University of Calcutta"
+    },
+    {
+      "name": "Knight Bachelor"
+    }
+  ]
 }

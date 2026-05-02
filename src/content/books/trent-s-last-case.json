@@ -18,23 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=ra8U3UMB3_YC&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Detective Fiction",
-    "Detective and mystery stories",
-    "England, fiction",
-    "English language",
-    "Fiction",
-    "Fiction, general",
-    "Fiction, mystery & detective, general",
-    "Philip Trent (Fictitious character)",
-    "Private investigators",
-    "Private investigators in fiction",
-    "Text-books for foreigners",
-    "Trent, Philip (Fictitious character) -- Fiction"
-  ],
   "gutenberg_id": 2568,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2568",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2568.html.images",
@@ -82,13 +65,17 @@
   "ol_work_key": "/works/OL1315930W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 356,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34336496M"
+  "representative_edition_key": "/books/OL34336496M",
+  "wikidata_qid": "Q3824759",
+  "original_publisher": "Thomas Nelson and Sons Ltd"
 }

@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=zeVXAAAAYAAJ&dq=The+Cyberiad+Stanislaw+Lem&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Poland in fiction",
-    "Fiction",
-    "Polish Science fiction",
-    "Polish fiction",
-    "Polish Short stories",
-    "Continental european fiction (fictional works by one author)",
-    "Fiction, science fiction, general",
-    "Translations into English",
-    "Robots",
-    "Inventors"
-  ],
   "isbn": "9788385061076",
   "ddc": [
     "891.8537"
@@ -70,17 +58,21 @@
   "ol_work_key": "/works/OL2683553W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 42,
   "first_published_circa": false,
   "original_language": "pol",
   "original_title": "Cyberiada",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51493344M"
+  "representative_edition_key": "/books/OL51493344M",
+  "wikidata_qid": "Q1048615",
+  "original_publisher": "Wydawnictwo Literackie"
 }

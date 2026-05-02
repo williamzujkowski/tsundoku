@@ -18,18 +18,6 @@
   "oclc_id": "174688786",
   "worldcat_url": "https://www.worldcat.org/oclc/174688786",
   "lccn": "93011713",
-  "subjects": [
-    "Community life",
-    "Fiction",
-    "Open Library Staff Picks",
-    "Marine biologists",
-    "American fiction",
-    "Reading Level-Grade 11",
-    "Reading Level-Grade 10",
-    "Reading Level-Grade 12",
-    "Monterey (calif.), fiction",
-    "American fiction (fictional works by one author)"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "813.52",
@@ -78,17 +66,21 @@
   "ol_work_key": "/works/OL23199W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 96,
   "first_published_circa": false,
   "original_language": "swe",
   "original_title": "Det stora kalaset",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27541339M"
+  "representative_edition_key": "/books/OL27541339M",
+  "wikidata_qid": "Q1216542",
+  "original_publisher": "Viking Press"
 }

@@ -15,18 +15,6 @@
   "pages": 308,
   "google_books_url": "http://books.google.com/books?id=A22uEAiOBJ0C&dq=P%C3%A8re+Goriot+Honor%C3%A9+de+Balzac&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "France in fiction",
-    "Older men in fiction",
-    "Older men",
-    "Fathers and daughters",
-    "Fathers and daughters in fiction",
-    "History",
-    "Social life and customs",
-    "Boardinghouses in fiction",
-    "Boardinghouses"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "843.73",
@@ -158,9 +146,19 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7384145M"
+  "representative_edition_key": "/books/OL7384145M",
+  "wikidata_qid": "Q240617",
+  "original_title": "Le Papa Goriot",
+  "original_language": "fre",
+  "series": {
+    "name": "The Human Comedy"
+  }
 }

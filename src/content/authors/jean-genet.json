@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Genet",
   "open_library_url": "https://openlibrary.org/authors/OL129758A",
   "birth_year": 1910,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q184622",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "106050616",
+  "ol_author_key": "/authors/OL129758A",
+  "awards": [
+    {
+      "name": "Grand prix national des Lettres",
+      "year": 1983
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    },
+    {
+      "name": "Pleiades Prize",
+      "year": 1947
+    }
+  ]
 }

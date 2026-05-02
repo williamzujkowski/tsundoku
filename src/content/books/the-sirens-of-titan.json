@@ -1,7 +1,7 @@
 {
   "title": "The Sirens of Titan",
   "author": "Kurt Vonnegut",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "the-sirens-of-titan",
   "tags": [
@@ -20,16 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=YuLuAn3itnAC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Ciencia-ficción",
-    "Classic Literature",
-    "Fiction",
-    "Mystery",
-    "Science Fiction & Fantasy",
-    "Science fiction",
-    "American fiction (fictional works by one author)",
-    "Fiction, science fiction, general"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -60,13 +50,28 @@
   "ol_work_key": "/works/OL98485W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 31,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL49228350M"
+  "representative_edition_key": "/books/OL49228350M",
+  "wikidata_qid": "Q2294155",
+  "original_title": "The Sirens of Titan",
+  "original_language": "eng",
+  "original_publisher": "Dell Publishing",
+  "awards": [
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1973
+    }
+  ]
 }

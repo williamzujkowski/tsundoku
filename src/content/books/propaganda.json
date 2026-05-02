@@ -10,18 +10,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Brainwash",
-    "Manipulative behavior",
-    "Marketing",
-    "Opinion publique",
-    "Propaganda",
-    "Propagande",
-    "Propoganda",
-    "Psychological Handling",
-    "Psychology",
-    "Public opinion"
-  ],
   "description": "Propaganda is a book written by Edward Bernays in 1928. It incorporated the literature from social science and psychological manipulation into an examination of the techniques of public communication. Bernays wrote the book in response to the success of some of his earlier works such as Crystallizing Public Opinion (1923) and A Public Relations Counsel (1927).",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Propaganda_by_Edward_Bernays.pdf/page1-330px-Propaganda_by_Edward_Bernays.pdf.jpg",
   "pages": 159,
@@ -53,13 +41,19 @@
   "ol_work_key": "/works/OL2781905W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "first_edition_isbn": "080461511X",
-  "representative_edition_key": "/books/OL41754482M"
+  "representative_edition_key": "/books/OL41754482M",
+  "wikidata_qid": "Q488337",
+  "original_title": "Propaganda",
+  "original_language": "eng"
 }

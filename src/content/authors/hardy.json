@@ -4,5 +4,30 @@
   "book_count": 1,
   "open_library_url": "https://openlibrary.org/authors/OL33032A",
   "birth_year": 1924,
-  "bio": "family name"
+  "bio": "family name",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q23022369",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "264317526",
+  "ol_author_key": "/authors/OL33032A",
+  "awards": [
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 1981
+    }
+  ]
 }

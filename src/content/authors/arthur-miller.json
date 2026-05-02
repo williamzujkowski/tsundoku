@@ -7,5 +7,104 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Miller",
   "open_library_url": "https://openlibrary.org/authors/OL21569A",
   "birth_year": 1915,
-  "death_year": 2005
+  "death_year": 2005,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q80596",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Jonathan Lovelett"
+  ],
+  "viaf_id": "44302716",
+  "ol_author_key": "/authors/OL21569A",
+  "movements": [
+    "literary realism"
+  ],
+  "awards": [
+    {
+      "name": "Princess of Asturias Literary Prize",
+      "year": 2002
+    },
+    {
+      "name": "Four Freedoms Award – Freedom of Speech"
+    },
+    {
+      "name": "Praemium Imperiale",
+      "year": 2001
+    },
+    {
+      "name": "Tony Award for Best Author",
+      "year": 1947
+    },
+    {
+      "name": "Tony Award for Best Author",
+      "year": 1949
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1949
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 1949
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 1953
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1980
+    },
+    {
+      "name": "Primetime Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special",
+      "year": 1981
+    },
+    {
+      "name": "Kennedy Center Honors",
+      "year": 1984
+    },
+    {
+      "name": "Laurence Olivier Award for Best New Play",
+      "year": 1995
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 2001
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 2003
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 2003
+    },
+    {
+      "name": "Berlin Prize",
+      "year": 1998
+    },
+    {
+      "name": "National Medal of Arts",
+      "year": 1993
+    },
+    {
+      "name": "PEN/Laura Pels International Foundation for Theater Award"
+    },
+    {
+      "name": "Evelyn F. Burkey Award"
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

@@ -19,18 +19,6 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/6728038-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12831W",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Opera",
-    "Women singers",
-    "Children of clergy",
-    "Young women",
-    "Swedish Americans",
-    "Classic Literature",
-    "Musical fiction",
-    "Singers",
-    "Chicago (ill.), fiction"
-  ],
   "librivox_url": "https://librivox.org/the-song-of-the-lark-by-willa-sibert-cather/",
   "ddc": [
     "823.912",
@@ -119,13 +107,19 @@
   "ol_work_key": "/works/OL12831W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34155269M"
+  "representative_edition_key": "/books/OL34155269M",
+  "wikidata_qid": "Q7765253",
+  "original_title": "The Song of the Lark",
+  "original_language": "eng"
 }

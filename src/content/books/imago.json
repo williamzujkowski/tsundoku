@@ -17,10 +17,6 @@
   "pages": 266,
   "google_books_url": "https://play.google.com/store/books/details?id=2Oe1EAAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "American Science fiction",
-    "Fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -44,11 +40,22 @@
   "ol_work_key": "/works/OL35613W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL48826775M"
+  "representative_edition_key": "/books/OL48826775M",
+  "wikidata_qid": "Q11864746",
+  "original_title": "Imago",
+  "original_language": "eng",
+  "series": {
+    "name": "Lilith's Brood",
+    "position": 3
+  }
 }

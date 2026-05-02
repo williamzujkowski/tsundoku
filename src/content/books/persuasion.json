@@ -15,10 +15,6 @@
   "pages": 313,
   "google_books_url": "http://books.google.com/books?id=6oHFDAAAQBAJ&dq=Persuasion+Jane+Austen&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Examinations",
-    "Study guides"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 105,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/105",
@@ -178,9 +174,17 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28591583M"
+  "representative_edition_key": "/books/OL28591583M",
+  "wikidata_qid": "Q333179",
+  "original_title": "Persuasion",
+  "original_language": "eng",
+  "original_publisher": "John Murray"
 }

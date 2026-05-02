@@ -6,16 +6,13 @@
   "slug": "demons",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL28047041W",
-  "first_published": 1872,
+  "first_published": 1871,
   "language": "eng",
   "description": "Inspired by the true story of a political murder that horried Russians in 1869, Fyodor Dostoevsky conceived of Demons as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land. What emerged was a prophetic and ferociously funny masterpiece of ideology and murder in pre-revolutionary Russia.",
   "cover_url": "https://books.google.com/books/content?id=T4yg7qgwgtsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=T4yg7qgwgtsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780679734512",
   "pages": 769,
-  "subjects": [
-    "Fiction"
-  ],
   "google_books_url": "http://books.google.com/books?id=T4yg7qgwgtsC&dq=Demons+Fyodor+Dostoevsky&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
@@ -106,15 +103,21 @@
   "ol_work_key": "/works/OL166971W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 171,
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL26442471M",
-  "translator": "Richard Pevear"
+  "translator": "Richard Pevear",
+  "wikidata_qid": "Q329989",
+  "original_title": "Бѣсы",
+  "original_language": "rus"
 }

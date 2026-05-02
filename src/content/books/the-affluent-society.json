@@ -14,18 +14,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "1945-",
-    "Economic conditions",
-    "Economic policy",
-    "Economics",
-    "History",
-    "U.S.",
-    "United States",
-    "Economics, history",
-    "United states, economic conditions, 1945-",
-    "United states, economic policy"
-  ],
   "description": "The Affluent Society is a 1958 book by Harvard economist John Kenneth Galbraith. The book sought to clearly outline the manner in which the post–World War II United States was becoming wealthy in the private sector but remained poor in the public sector, lacking social and physical infrastructure, and perpetuating income disparities. The book sparked much public discussion at the time. It is also credited with popularizing the term \"conventional wisdom\".",
   "pages": 290,
   "isbn": "9780140226614",
@@ -96,13 +84,21 @@
   "ol_work_key": "/works/OL12581W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 48,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7352289M"
+  "representative_edition_key": "/books/OL7352289M",
+  "wikidata_qid": "Q331797",
+  "original_title": "The Affluent Society",
+  "original_language": "eng",
+  "original_publisher": "Houghton Mifflin Harcourt"
 }

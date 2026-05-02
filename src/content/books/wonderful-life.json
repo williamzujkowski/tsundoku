@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/1364687-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1364687-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL473533W",
-  "first_published": 1988,
+  "first_published": 1989,
   "language": "eng",
   "description": "Explains why the diversity of the Burgess Shale is important in understanding our past and evolution.",
   "isbn": "9780393307009",
@@ -19,18 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=gwlVAgAAQBAJ&dq=Wonderful+Life+Stephen+Jay+Gould&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Life",
-    "British Columbia",
-    "Invertebrate fossils",
-    "Paleontology",
-    "Burgess Shale",
-    "Evolution",
-    "Invertébrés fossiles",
-    "Contingency (Philosophy)",
-    "Evolución",
-    "Fossil Invertebrates"
-  ],
   "ddc": [
     "560.9",
     "575",
@@ -105,11 +93,19 @@
   "ol_work_key": "/works/OL473533W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7452856M"
+  "representative_edition_key": "/books/OL7452856M",
+  "wikidata_qid": "Q2544945",
+  "original_title": "Wonderful Life",
+  "original_language": "eng",
+  "original_publisher": "W. W. Norton & Company"
 }

@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=szMU9omwV0wC&dq=The+Song+of+Achilles+Madeline+Miller&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Trojan War",
-    "Achilles (Greek mythology)",
-    "Male friendship",
-    "Fiction",
-    "Gay love",
-    "Thetis",
-    "Greeks",
-    "History",
-    "Trojan War. fast (OCoLC)fst01157294",
-    "Friendship, fiction"
-  ],
   "ddc": [
     "813.6"
   ],
@@ -69,11 +57,24 @@
   "ol_work_key": "/works/OL16509148W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 42,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32158395M"
+  "representative_edition_key": "/books/OL32158395M",
+  "wikidata_qid": "Q21189971",
+  "original_title": "The Song of Achilles",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Women's Prize for Fiction",
+      "year": 2012
+    }
+  ]
 }

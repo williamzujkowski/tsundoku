@@ -6,5 +6,27 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/400px-Francis_Fukuyama_2015_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Fukuyama",
   "open_library_url": "https://openlibrary.org/authors/OL389579A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q186123",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "128751167",
+  "ol_author_key": "/authors/OL389579A",
+  "awards": [
+    {
+      "name": "Democracy Service Medal"
+    },
+    {
+      "name": "Johan Skytte Prize in Political Science",
+      "year": 2015
+    }
+  ]
 }

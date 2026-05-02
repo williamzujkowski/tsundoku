@@ -12,18 +12,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Pesticides",
-    "Biological control",
-    "Toxicology",
-    "Pesticides and wildlife",
-    "Insect pests",
-    "Environmental aspects of Pesticides",
-    "Environmental aspects",
-    "Wildlife conservation",
-    "Pesticidas",
-    "Pollution"
-  ],
   "description": "Silent Spring is an environmental science book by Rachel Carson. Published on September 27, 1962, the book documented the environmental harm caused by the indiscriminate use of DDT, a pesticide used by soldiers during World War II. Carson accused the chemical industry of spreading disinformation, and public officials of accepting the industry's marketing claims unquestioningly.",
   "pages": 336,
   "isbn": "9780449209387",
@@ -124,13 +112,19 @@
   "ol_work_key": "/works/OL1884862W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 57,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL43857258M"
+  "representative_edition_key": "/books/OL43857258M",
+  "wikidata_qid": "Q591623",
+  "original_title": "Silent Spring",
+  "original_publisher": "Houghton Mifflin Harcourt"
 }

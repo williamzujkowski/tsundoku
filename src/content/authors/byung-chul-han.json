@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2015_Byung-Chul_Han_%283x4_cropped%29.jpg/400px-2015_Byung-Chul_Han_%283x4_cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Byung-Chul_Han",
   "open_library_url": "https://openlibrary.org/authors/OL295822A",
-  "birth_year": 1959
+  "birth_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q495875",
+  "nationality": [
+    "KR"
+  ],
+  "viaf_id": "37059891",
+  "ol_author_key": "/authors/OL295822A",
+  "awards": [
+    {
+      "name": "Salzburg State Prize for Future Research",
+      "year": 2016
+    },
+    {
+      "name": "Prix Bristol des Lumières",
+      "year": 2015
+    },
+    {
+      "name": "Princess of Asturias Award for Communications and Humanities",
+      "year": 2025
+    }
+  ]
 }

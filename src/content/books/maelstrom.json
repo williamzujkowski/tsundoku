@@ -13,15 +13,6 @@
   "first_published": 2001,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Underwater exploration",
-    "Fiction",
-    "Revenge",
-    "Communicable diseases",
-    "Fiction, science fiction, general",
-    "New York Times reviewed",
-    "Tsunamis"
-  ],
   "copyright_status": "in_copyright",
   "description": "THE Pacific Ocean stood on her back.",
   "isbn": "9780312878061",
@@ -46,13 +37,24 @@
   "pages": 384,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "0312878060",
-  "representative_edition_key": "/books/OL9583427M"
+  "representative_edition_key": "/books/OL9583427M",
+  "wikidata_qid": "Q44286620",
+  "original_title": "Maelstrom",
+  "original_language": "eng",
+  "series": {
+    "name": "Rifters",
+    "position": 2
+  }
 }

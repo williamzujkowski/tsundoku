@@ -18,18 +18,6 @@
   "oclc_id": "887242792",
   "worldcat_url": "https://www.worldcat.org/oclc/887242792",
   "lccn": "82070145",
-  "subjects": [
-    "first-person narrative",
-    "post-traumatic stress disorder",
-    "World War II",
-    "law school",
-    "Vietnam War",
-    "Germans",
-    "Nazis",
-    "war crime",
-    "Holocaust",
-    "Schutzstaffel"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813",
@@ -136,11 +124,19 @@
   "ol_work_key": "/works/OL81621W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 61,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34014635M"
+  "representative_edition_key": "/books/OL34014635M",
+  "wikidata_qid": "Q471024",
+  "original_title": "Different Seasons",
+  "original_language": "eng",
+  "original_publisher": "Viking Press"
 }

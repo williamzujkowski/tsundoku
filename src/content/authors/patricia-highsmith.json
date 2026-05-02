@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Patricia_Highsmith",
   "open_library_url": "https://openlibrary.org/authors/OL28577A",
   "birth_year": 1921,
-  "death_year": 1995
+  "death_year": 1995,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q270635",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Claire Morgan"
+  ],
+  "viaf_id": "66468662",
+  "ol_author_key": "/authors/OL28577A",
+  "movements": [
+    "modernist literature"
+  ],
+  "awards": [
+    {
+      "name": "Officer of Arts and Letters",
+      "year": 1990
+    },
+    {
+      "name": "Grand Prix de Littérature Policière",
+      "year": 1957
+    },
+    {
+      "name": "Prix de l'Humour noir",
+      "year": 1975
+    },
+    {
+      "name": "Lucien Barrière Literary Award",
+      "year": 1987
+    }
+  ]
 }

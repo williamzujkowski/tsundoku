@@ -6,5 +6,28 @@
   "photo_url": "https://covers.openlibrary.org/a/id/14556012-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1460559A",
   "birth_year": 1926,
-  "death_year": 1975
+  "death_year": 1975,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q553730",
+  "nationality": [
+    "SE"
+  ],
+  "alternate_names": [
+    "Peter Wahloo"
+  ],
+  "viaf_id": "17235102",
+  "ol_author_key": "/authors/OL1460559A",
+  "awards": [
+    {
+      "name": "Edgar Awards",
+      "year": 1971
+    }
+  ]
 }

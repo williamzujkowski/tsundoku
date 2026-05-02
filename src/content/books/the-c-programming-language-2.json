@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/136583-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/136583-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL53184W",
-  "first_published": 1986,
+  "first_published": 1985,
   "language": "eng",
   "description": "1. Introductory material -- 2. Basic facilities -- 3. Abstraction mechanisms -- 4. The standard library.",
   "isbn": "9780321563842",
@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=0klsAQAAQBAJ&dq=The+C%2B%2B+Programming+Language+Bjarne+Stroustrup&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "C++ (Computer program language)",
-    "C++ (Computer programming language)",
-    "C (Programmiersprache)",
-    "C++ (Langage de programmation)",
-    "C++",
-    "Linguagens De Programacao (Geral)",
-    "open_syllabus_project",
-    "C (Computer program language)",
-    "Programming languages (electronic computers)",
-    "Computer programming"
-  ],
   "ddc": [
     "005.133"
   ],
@@ -73,13 +61,21 @@
   "ol_work_key": "/works/OL53184W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
   "first_edition_isbn": "020112078X",
-  "representative_edition_key": "/books/OL26245242M"
+  "representative_edition_key": "/books/OL26245242M",
+  "wikidata_qid": "Q2060395",
+  "original_title": "The C++ Programming Language",
+  "original_language": "eng",
+  "original_publisher": "Addison-Wesley"
 }

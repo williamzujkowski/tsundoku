@@ -19,17 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=q6L0Ria0P0wC&dq=The+Rebel+Albert+Camus&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Good and evil",
-    "Revolutions",
-    "Nihilism",
-    "French literature",
-    "Existentialism",
-    "Ethics",
-    "Philosophy",
-    "Ciencia Politica",
-    "Nihilisme"
-  ],
   "ddc": [
     "303.64",
     "194.9",
@@ -74,17 +63,19 @@
   "ol_work_key": "/works/OL1230600W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 82,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "L' homme révolté",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7699992M"
+  "representative_edition_key": "/books/OL7699992M",
+  "wikidata_qid": "Q1195789"
 }

@@ -6,5 +6,71 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/J._M._Coetzee_Nov_2023_headshot.jpg/400px-J._M._Coetzee_Nov_2023_headshot.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/J._M._Coetzee",
   "open_library_url": "https://openlibrary.org/authors/OL33242A",
-  "birth_year": 1940
+  "birth_year": 1940,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q43293",
+  "nationality": [
+    "ZA",
+    "AU"
+  ],
+  "viaf_id": "101839018",
+  "ol_author_key": "/authors/OL33242A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2003
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres"
+    },
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 1980
+    },
+    {
+      "name": "Geoffrey Faber Memorial Prize",
+      "year": 1981
+    },
+    {
+      "name": "Prix Femina étranger",
+      "year": 1985
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1987
+    },
+    {
+      "name": "Booker Prize",
+      "year": 1999
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1988
+    },
+    {
+      "name": "Gold Order of Mapungubwe",
+      "year": 2005
+    },
+    {
+      "name": "Order of Mapungubwe"
+    },
+    {
+      "name": "Booker Prize",
+      "year": 1983
+    },
+    {
+      "name": "Christina Stead Prize for Fiction",
+      "year": 2010
+    },
+    {
+      "name": "Companion of the Order of Australia",
+      "year": 2025
+    }
+  ]
 }

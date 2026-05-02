@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2026-03-02_Rebecca_Solnit_at_the_Internet_Archive.jpg/400px-2026-03-02_Rebecca_Solnit_at_the_Internet_Archive.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rebecca_Solnit",
   "open_library_url": "https://openlibrary.org/authors/OL22530A",
-  "birth_year": 1961
+  "birth_year": 1961,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2134968",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "41972193",
+  "ol_author_key": "/authors/OL22530A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2000
+    },
+    {
+      "name": "PEN Oakland/Josephine Miles Literary Award",
+      "year": 2008
+    },
+    {
+      "name": "National Book Critics Circle Award in Criticism",
+      "year": 2003
+    }
+  ]
 }

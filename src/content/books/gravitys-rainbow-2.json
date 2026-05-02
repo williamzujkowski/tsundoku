@@ -11,19 +11,6 @@
   "first_published": 1973,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Americans",
-    "Canada, history",
-    "Fiction",
-    "National Book Award Winner",
-    "Rocketry",
-    "Rockets (Ordnance)",
-    "Soldiers",
-    "World War, 1939-1945",
-    "World War, 1939-1945 -- Fiction",
-    "award:national_book_award=1974",
-    "award:national_book_award=fiction"
-  ],
   "copyright_status": "in_copyright",
   "description": "Gravity's Rainbow is a 1973 novel by Thomas Pynchon. The narrative is set primarily in Europe at the end of World War II and centers on the design, production and dispatch of V-2 rockets by the German military. In particular, it features the quest undertaken by several characters to uncover the secret of a mysterious device, the Schwarzgerät, which is slated to be installed in a rocket with the serial number \"00000\".",
   "isbn": "9780553102710",
@@ -99,11 +86,29 @@
   "pages": 810,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 44,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32237113M"
+  "representative_edition_key": "/books/OL32237113M",
+  "wikidata_qid": "Q1212160",
+  "original_title": "Gravity's Rainbow",
+  "original_language": "eng",
+  "original_publisher": "Penguin Books",
+  "awards": [
+    {
+      "name": "National Book Award for Fiction",
+      "year": 1974
+    },
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

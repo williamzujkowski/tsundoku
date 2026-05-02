@@ -7,5 +7,32 @@
   "photo_url": "https://covers.openlibrary.org/a/id/8653764-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL292452A",
   "birth_year": 1921,
-  "death_year": 2010
+  "death_year": 2010,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q114860",
+  "nationality": [
+    "AU"
+  ],
+  "viaf_id": "69660853",
+  "ol_author_key": "/authors/OL292452A",
+  "awards": [
+    {
+      "name": "Dromkeen Medal",
+      "year": 1984
+    },
+    {
+      "name": "Hans Christian Andersen Award",
+      "year": 1986
+    },
+    {
+      "name": "Officer of the Order of the British Empire",
+      "year": 1977
+    }
+  ]
 }

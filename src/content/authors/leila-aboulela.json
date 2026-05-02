@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Leila_Aboulela_%282010%29.jpg/400px-Leila_Aboulela_%282010%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leila_Aboulela",
   "open_library_url": "https://openlibrary.org/authors/OL1434517A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q290220",
+  "nationality": [
+    "SD"
+  ],
+  "viaf_id": "17443341",
+  "ol_author_key": "/authors/OL1434517A",
+  "awards": [
+    {
+      "name": "Caine Prize",
+      "year": 2000
+    },
+    {
+      "name": "OkayAfrica 100 Women",
+      "year": 2018
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2023
+    }
+  ]
 }

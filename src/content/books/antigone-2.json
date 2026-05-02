@@ -16,9 +16,6 @@
   "oclc_id": "61112377",
   "worldcat_url": "https://www.worldcat.org/oclc/61112377",
   "lccn": "47026852",
-  "subjects": [
-    "Manuel"
-  ],
   "copyright_status": "public_domain",
   "isbn": "9780573628191",
   "ddc": [
@@ -60,10 +57,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 75,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28954293M"
+  "representative_edition_key": "/books/OL28954293M",
+  "wikidata_qid": "Q1823045",
+  "original_language": "fre"
 }

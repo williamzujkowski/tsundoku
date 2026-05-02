@@ -15,18 +15,6 @@
   "pages": 241,
   "google_books_url": "https://play.google.com/store/books/details?id=wnC9EAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fiction",
-    "Young men",
-    "World War, 1914-1918",
-    "Classic Literature",
-    "World War (1914-1918) fast (OCoLC)fst01180746",
-    "English fiction",
-    "British and irish fiction (fictional works by one author)",
-    "England, fiction",
-    "Fiction, psychological",
-    "World war, 1914-1918, fiction"
-  ],
   "gutenberg_id": 5670,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5670",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5670.html.images",
@@ -109,13 +97,19 @@
   "ol_work_key": "/works/OL39329W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 309,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30332702M"
+  "representative_edition_key": "/books/OL30332702M",
+  "wikidata_qid": "Q1677745",
+  "original_title": "Jacob's Room",
+  "original_publisher": "Hogarth Press"
 }

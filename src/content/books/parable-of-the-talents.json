@@ -1,7 +1,7 @@
 {
   "title": "Parable of the Talents",
   "author": "Octavia E. Butler",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "parable-of-the-talents",
   "tags": [
@@ -15,18 +15,6 @@
   "first_published": 1998,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Twenty-first century",
-    "Young women",
-    "Science fiction",
-    "Dystopias",
-    "Fiction, fantasy, contemporary",
-    "California, fiction",
-    "African americans, fiction",
-    "Fiction, political",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "description": "The Parable of the Talents is one of the parables of Jesus. It appears in two of the synoptic, canonical gospels of the New Testament:Matthew 25:14–30\nLuke 19:11–27",
   "isbn": "9781453265437",
@@ -72,13 +60,33 @@
   "pages": 424,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
   "first_edition_isbn": "1888363819",
-  "representative_edition_key": "/books/OL35787282M"
+  "representative_edition_key": "/books/OL35787282M",
+  "wikidata_qid": "Q3211325",
+  "original_title": "Parable of the Talents",
+  "original_language": "eng",
+  "original_publisher": "Seven Stories Press",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2000
+    }
+  ],
+  "series": {
+    "name": "Earthseed",
+    "position": 2
+  }
 }

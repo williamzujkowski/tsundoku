@@ -14,15 +14,6 @@
   "pages": 440,
   "google_books_url": "http://books.google.com/books?id=fhVHAAAAMAAJ&dq=Knowledge+and+Decisions+Thomas+Sowell&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Civilization, Modern",
-    "Decision making",
-    "Decision-making",
-    "Knowledge, Theory of",
-    "Modern Civilization",
-    "Reality",
-    "Theory of Knowledge"
-  ],
   "copyright_status": "in_copyright",
   "isbn": "9780465037360",
   "ddc": [
@@ -45,13 +36,19 @@
   "ol_work_key": "/works/OL1935779W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0465037364",
-  "representative_edition_key": "/books/OL609837M"
+  "representative_edition_key": "/books/OL609837M",
+  "wikidata_qid": "Q6423341",
+  "original_title": "Knowledge and Decisions",
+  "original_language": "eng"
 }

@@ -19,18 +19,6 @@
   "pages": 593,
   "google_books_url": "http://books.google.com/books?id=2v22ikL95GQC&dq=Doomsday+Book+Connie+Willis&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Black Death",
-    "Fantasy",
-    "Fiction",
-    "History",
-    "Hugo Award Winner",
-    "Middle Ages",
-    "Time travel",
-    "award:hugo_award=1993",
-    "award:hugo_award=novel",
-    "Science fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -59,11 +47,50 @@
   "ol_work_key": "/works/OL14858406W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24959048M"
+  "representative_edition_key": "/books/OL24959048M",
+  "wikidata_qid": "Q2603313",
+  "original_title": "Doomsday Book",
+  "original_language": "eng",
+  "original_publisher": "Bantam Spectra",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1993
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1993
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1995
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 1994
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1993
+    }
+  ],
+  "series": {
+    "name": "Oxford time-traveling historians",
+    "position": 1
+  }
 }

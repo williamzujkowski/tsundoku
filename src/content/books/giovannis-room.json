@@ -16,18 +16,6 @@
   "pages": 268,
   "google_books_url": "http://books.google.com/books?id=neywAAAAIAAJ&dq=Giovanni%27s+Room+James+Baldwin&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Race relations",
-    "African Americans",
-    "Psychology",
-    "Afro-Americans",
-    "Giovanni, Nikki",
-    "Fiction",
-    "Americans in fiction",
-    "Americans",
-    "Sexual behavior",
-    "Homosexuality in fiction"
-  ],
   "copyright_status": "likely_public_domain",
   "isbn": "9781299823044",
   "ddc": [
@@ -103,13 +91,21 @@
   "ol_work_key": "/works/OL228702W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 65,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44025912M"
+  "representative_edition_key": "/books/OL44025912M",
+  "wikidata_qid": "Q5563645",
+  "original_title": "Giovanni's Room",
+  "original_language": "eng",
+  "original_publisher": "Dial Press"
 }

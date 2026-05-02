@@ -8,7 +8,7 @@
     "le-monde-100"
   ],
   "reading_status": "read",
-  "description": "",
+  "description": "La villa est magnifique, l'été brûlant, la Méditerranée toute proche. Cécile a dix-sept ans. Elle ne connaît de l'amour que des baisers, des rendez-vous, des lassitudes. Pas pour longtemps. Son père, veuf, est un adepte joyeux des liaisons passagères et sans importance. Ils s'amusent, ils n'ont besoin de personne, ils sont heureux. La visite d'une femme de coeur, intelligente et calme, vient troubler ce délicieux désordre.",
   "cover_url": "",
   "cover_url_large": "",
   "open_library_url": "",
@@ -17,9 +17,6 @@
   "pages": 0,
   "first_published": 1954,
   "language": "eng",
-  "subjects": [
-    "Le Monde 100 Books of the Century"
-  ],
   "ddc": [
     "843.914",
     "843.91"
@@ -74,17 +71,32 @@
   "ol_work_key": "/works/OL584333W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 96,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Bonjour tristesse.",
   "representative_edition_key": "/books/OL37923959M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "wikidata_qid": "Q892658",
+  "original_publisher": "Éditions Julliard",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century",
+      "year": 1999
+    },
+    {
+      "name": "Prix des Critiques",
+      "year": 1954
+    }
+  ]
 }

@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/M._H._Abrams",
   "open_library_url": "https://openlibrary.org/authors/OL244705A",
   "birth_year": 1912,
-  "death_year": 2015
+  "death_year": 2015,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1523584",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108449655",
+  "ol_author_key": "/authors/OL244705A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1957
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 2013
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1960
+    },
+    {
+      "name": "James Russell Lowell Prize",
+      "year": 1971
+    }
+  ]
 }

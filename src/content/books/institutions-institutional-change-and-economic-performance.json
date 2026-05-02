@@ -17,18 +17,6 @@
   "pages": 164,
   "google_books_url": "http://books.google.com/books?id=oFnWbTqgNPYC&dq=Institutions,+Institutional+Change+and+Economic+Performance+Douglass+North&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Institutional economics",
-    "Organizational change",
-    "Economic development",
-    "open_syllabus_project",
-    "Economía institucional",
-    "Cambio organizacional",
-    "Desarrollo económico",
-    "Economia (teoria)",
-    "Planejamento economico",
-    "Economia politica"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "302.35"
@@ -60,13 +48,19 @@
   "ol_work_key": "/works/OL2095641W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0521394163",
-  "representative_edition_key": "/books/OL1850212M"
+  "representative_edition_key": "/books/OL1850212M",
+  "wikidata_qid": "Q132092829",
+  "original_title": "Institutions, Institutional Change and Economic Performance",
+  "original_language": "eng"
 }

@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/1609425-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1609425-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL963870W",
-  "first_published": 1982,
+  "first_published": 1980,
   "language": "eng",
   "reading_status": "read",
   "oclc_id": "18871183",
@@ -18,13 +18,6 @@
   "lccn": "82211527",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=uva.x001844778",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "Kanun",
-    "Fiction, general",
-    "New York Times reviewed",
-    "Fiction, romance, general",
-    "Europe, fiction"
-  ],
   "copyright_status": "in_copyright",
   "description": "Broken April is a novel by Albanian author Ismail Kadare. Published in 1978, the book explores one of Kadare's recurring themes: how the past affects the present. The novel concerns the centuries-old tradition of hospitality, blood feuds, and revenge killing in the highlands of north Albania in the 1930s. It was translated into English by John Hodgson for New Amsterdam Books in 1990.",
   "isbn": "9788420672595",
@@ -49,17 +42,19 @@
   "pages": 232,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 12,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Avril brisé",
   "first_edition_isbn": "2213011095",
-  "representative_edition_key": "/books/OL13192930M"
+  "representative_edition_key": "/books/OL13192930M",
+  "wikidata_qid": "Q2280031"
 }

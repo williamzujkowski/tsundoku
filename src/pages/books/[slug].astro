@@ -110,6 +110,11 @@ const categorySlug = toSlug(book.category);
           {book.copyright_status === 'likely_public_domain' && (
             <span class="status-badge stat-badge-blue">Likely Public Domain</span>
           )}
+          {book.series && (
+            <span class="status-badge stat-badge-blue">
+              {book.series.name}{book.series.position ? ` #${book.series.position}` : ''}
+            </span>
+          )}
         </div>
 
         {book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase() && (
@@ -131,10 +136,23 @@ const categorySlug = toSlug(book.category);
               First published {formatYear(book.first_published, book.first_published_circa)}
             </span>
           )}
+          {book.original_publisher && (
+            <span class="meta-tag">{book.original_publisher}</span>
+          )}
           {book.pages && (
             <span class="meta-tag">{book.pages} pages</span>
           )}
         </div>
+
+        {book.awards && book.awards.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-3">
+            {book.awards.slice(0, 6).map(a => (
+              <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
+                {a.name}{a.year ? ` (${a.year})` : ''}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
 
@@ -201,16 +219,6 @@ const categorySlug = toSlug(book.category);
         </div>
       )}
 
-      {book.subject_facet && book.subject_facet.length === 0 && book.subjects && book.subjects.length > 0 && (
-        <dl class="detail-section">
-          <dt class="text-dim text-sm mb-2">Subjects</dt>
-          <dd class="flex flex-wrap gap-2">
-            {book.subjects.slice(0, 10).map(s => (
-              <span class="meta-tag">{s}</span>
-            ))}
-          </dd>
-        </dl>
-      )}
 
       {(book.gutenberg_url || book.hathitrust_url || book.librivox_url) && (
         <div class="detail-section flex flex-wrap gap-2">

@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
   "open_library_url": "https://openlibrary.org/authors/OL19767A",
   "birth_year": 1894,
-  "death_year": 1963
+  "death_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q81447",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "71392434",
+  "ol_author_key": "/authors/OL19767A",
+  "awards": [
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 1939
+    }
+  ]
 }

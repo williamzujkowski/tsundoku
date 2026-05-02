@@ -4,7 +4,9 @@
   "category": "Classics",
   "priority": 1,
   "slug": "the-clouds",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/1260469-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1260469-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193498W",
@@ -19,9 +21,6 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2562",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2562.html.images",
   "librivox_url": "https://librivox.org/the-clouds-by-aristophanes/",
-  "subjects": [
-    "Drama"
-  ],
   "isbn": "9780497010096",
   "subject_facet": [
     "FICTION",

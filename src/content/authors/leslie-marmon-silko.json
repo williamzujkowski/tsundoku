@@ -6,5 +6,35 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Headliner_Leslie_Marmon_Silko_at_the_banquet_reading_%286233509362%29_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leslie_Marmon_Silko",
   "open_library_url": "https://openlibrary.org/authors/OL241451A",
-  "birth_year": 1948
+  "birth_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q273001",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "41868880",
+  "ol_author_key": "/authors/OL241451A",
+  "awards": [
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 1981
+    },
+    {
+      "name": "Native Writers' Circle of the Americas"
+    },
+    {
+      "name": "PEN Oakland/Josephine Miles Literary Award",
+      "year": 2021
+    },
+    {
+      "name": "American Book Awards",
+      "year": 1980
+    }
+  ]
 }

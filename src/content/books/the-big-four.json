@@ -13,9 +13,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=SXEuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "first_published": 1913,
   "pages": 500,
-  "subjects": [
-    "Geology"
-  ],
   "google_books_url": "https://play.google.com/store/books/details?id=SXEuAAAAIAAJ&source=gbs_api",
   "copyright_status": "public_domain",
   "gutenberg_id": 70114,
@@ -67,9 +64,21 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 121,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30525217M"
+  "representative_edition_key": "/books/OL30525217M",
+  "wikidata_qid": "Q734675",
+  "original_title": "The Big Four",
+  "original_language": "eng",
+  "original_publisher": "William Collins, Sons",
+  "series": {
+    "name": "canon of Hercule Poirot"
+  }
 }

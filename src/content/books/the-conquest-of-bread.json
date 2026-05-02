@@ -16,17 +16,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=TB2ul8NVVPcC&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "History",
-    "Communism",
-    "Anarchism",
-    "Anarchism and anarchists",
-    "Anarchists",
-    "Communism and ecology",
-    "Political science",
-    "Communism, history",
-    "Communism and society"
-  ],
   "description": "The Conquest of Bread is an 1892 book by the Russian anarchist Peter Kropotkin. Originally written in French, it first appeared as a series of articles in the anarchist journal Le Révolté. It was first published in Paris with a preface by Élisée Reclus, who also suggested the title. Between 1892 and 1894, it was serialized in part in the London journal Freedom, of which Kropotkin was a co-founder.",
   "isbn": "9788493476243",
   "ddc": [
@@ -78,13 +67,19 @@
   "ol_work_key": "/works/OL1105382W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 146,
   "first_published_circa": false,
   "first_edition_isbn": "9781989743362",
-  "representative_edition_key": "/books/OL32500367M"
+  "representative_edition_key": "/books/OL32500367M",
+  "wikidata_qid": "Q3141640",
+  "original_title": "The Conquest of Bread",
+  "original_language": "fre"
 }

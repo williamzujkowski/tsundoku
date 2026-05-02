@@ -11,11 +11,8 @@
   "cover_url": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780520917538",
-  "first_published": 2001,
+  "first_published": 2000,
   "pages": 283,
-  "subjects": [
-    "History"
-  ],
   "google_books_url": "https://play.google.com/store/books/details?id=Z0HIYUlnDW4C&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
@@ -63,11 +60,15 @@
   "ol_work_key": "/works/OL2537387W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29608180M"
+  "representative_edition_key": "/books/OL29608180M",
+  "wikidata_qid": "Q28450862",
+  "original_language": "eng"
 }

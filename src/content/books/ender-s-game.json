@@ -14,11 +14,8 @@
   "cover_url": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781429963930",
-  "first_published": 1985,
+  "first_published": 1977,
   "pages": 389,
-  "subjects": [
-    "Fiction"
-  ],
   "google_books_url": "https://play.google.com/store/books/details?id=Ojqi8KbWuLwC&source=gbs_api",
   "copyright_status": "in_copyright",
   "ddc": [
@@ -95,11 +92,22 @@
   "ol_work_key": "/works/OL49488W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 104,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29567999M"
+  "representative_edition_key": "/books/OL29567999M",
+  "wikidata_qid": "Q5376051",
+  "original_title": "Ender's Game",
+  "awards": [
+    {
+      "name": "Ignotus Award for Best Foreign Short Story",
+      "year": 1994
+    }
+  ]
 }

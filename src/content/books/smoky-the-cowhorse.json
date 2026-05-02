@@ -17,18 +17,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/smoky-the-cowhorse-by-will-james/",
-  "subjects": [
-    "Horses",
-    "Legends",
-    "Newbery Medal",
-    "Juvenile fiction",
-    "Fiction",
-    "Folklore",
-    "Western stories",
-    "Juvenile",
-    "Children's stories",
-    "Wildlife photography"
-  ],
   "isbn": "9780878424139",
   "ddc": [
     "[Fic]"
@@ -68,13 +56,26 @@
   "ol_work_key": "/works/OL98783W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11759098M"
+  "representative_edition_key": "/books/OL11759098M",
+  "wikidata_qid": "Q7546203",
+  "original_title": "Smoky, the Cowhorse",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Newbery Medal",
+      "year": 1927
+    }
+  ]
 }

@@ -17,19 +17,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-age-of-innocence-by-edith-wharton/",
-  "subjects": [
-    "Bestsellers, American, 1895-1923",
-    "Category: American Literature",
-    "Category: Novels",
-    "Domestic fiction",
-    "Love stories",
-    "Married people -- Fiction",
-    "Movie Books",
-    "New York (N.Y.) -- Fiction",
-    "Separated people -- Fiction",
-    "Triangles (Interpersonal relations) -- Fiction",
-    "Upper class -- Fiction"
-  ],
   "gutenberg_id": 541,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/541",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/541.html.images",
@@ -181,13 +168,26 @@
   "ol_work_key": "/works/OL98491W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 301,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL52553194M"
+  "representative_edition_key": "/books/OL52553194M",
+  "wikidata_qid": "Q1045464",
+  "original_title": "The Age of Innocence",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1921
+    }
+  ]
 }

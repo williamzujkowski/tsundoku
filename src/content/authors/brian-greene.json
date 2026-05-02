@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Brian_Greene%2C_February_28%2C_2012.jpg/400px-Brian_Greene%2C_February_28%2C_2012.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Brian_Greene",
   "open_library_url": "https://openlibrary.org/authors/OL2644885A",
-  "birth_year": 1963
+  "birth_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q60815",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "97865728",
+  "ol_author_key": "/authors/OL2644885A",
+  "awards": [
+    {
+      "name": "Andrew Gemant Award",
+      "year": 2003
+    },
+    {
+      "name": "Richtmyer Memorial Lecture Award",
+      "year": 2012
+    },
+    {
+      "name": "Rhodes Scholarship",
+      "year": 1984
+    }
+  ]
 }

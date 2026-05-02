@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Michael_Swanwick_2019.jpg/400px-Michael_Swanwick_2019.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Swanwick",
   "open_library_url": "https://openlibrary.org/authors/OL39102A",
-  "birth_year": 1950
+  "birth_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q455510",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "85327702",
+  "ol_author_key": "/authors/OL39102A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1992
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2003
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2004
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1999
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 2000
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 2002
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 2008
+    },
+    {
+      "name": "World Fantasy Award for Best Novella",
+      "year": 1996
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 2001
+    },
+    {
+      "name": "Theodore Sturgeon Award",
+      "year": 1990
+    }
+  ]
 }

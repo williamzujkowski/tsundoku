@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/13300802-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/13300802-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193478W",
-  "first_published": 1822,
+  "first_published": 1800,
   "language": "eng",
   "description": "Dickens most beloved tale of a spirited young innocents unwilling but inevitable recruitment into a scabrous gang of thieves. Masterminded by the loathsome Fagin, the underworld crew features some of Dickens most memorable characters, including the vicious Bill Sikes, gentle Nancy, and the juvenile pickpocket known as the Artful Dodger.",
   "pages": 608,
@@ -246,13 +246,21 @@
   "ol_work_key": "/works/OL8193478W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9780710502223",
-  "representative_edition_key": "/books/OL54759581M"
+  "representative_edition_key": "/books/OL54759581M",
+  "wikidata_qid": "Q164974",
+  "original_title": "Oliver Twist",
+  "original_language": "eng",
+  "original_publisher": "Richard Bentley"
 }

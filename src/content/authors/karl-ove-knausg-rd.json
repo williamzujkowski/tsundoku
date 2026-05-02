@@ -6,5 +6,72 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Karl_Ove_Knausg%C3%A5rd_2024_in_M%C3%BCnchen_02.jpg/400px-Karl_Ove_Knausg%C3%A5rd_2024_in_M%C3%BCnchen_02.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karl_Ove_Knausg%C3%A5rd",
   "open_library_url": "https://openlibrary.org/authors/OL50998A",
-  "birth_year": 1968
+  "birth_year": 1968,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q609317",
+  "nationality": [
+    "NO"
+  ],
+  "viaf_id": "84253903",
+  "ol_author_key": "/authors/OL50998A",
+  "awards": [
+    {
+      "name": "Norwegian Critics Prize for Literature",
+      "year": 1998
+    },
+    {
+      "name": "Brage Award for Fiction",
+      "year": 2009
+    },
+    {
+      "name": "Bjornson scholarship",
+      "year": 1999
+    },
+    {
+      "name": "Gyldendal Prize",
+      "year": 2011
+    },
+    {
+      "name": "Norwegian P2 listener's literature award",
+      "year": 2004
+    },
+    {
+      "name": "Norwegian P2 listener's literature award",
+      "year": 2009
+    },
+    {
+      "name": "Aust-Agder County Culture Award",
+      "year": 2012
+    },
+    {
+      "name": "Neshornprisen",
+      "year": 2011
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 2017
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 2017
+    },
+    {
+      "name": "Swedish Academy Nordic Prize",
+      "year": 2019
+    },
+    {
+      "name": "Aschehoug Prize",
+      "year": 2025
+    },
+    {
+      "name": "Premio Malaparte",
+      "year": 2015
+    }
+  ]
 }

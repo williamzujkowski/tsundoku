@@ -5,7 +5,9 @@
   "priority": 1,
   "slug": "the-eyre-affair",
   "tags": [
-    "npr-top-100-sff"
+    "fantasy",
+    "npr-top-100-sff",
+    "sci-fi"
   ],
   "reading_status": "read",
   "description": "NEW YORK TIMES BESTSELLER • The first novel in the renowned Thursday Next series, which “combines elements of Monty Python, Harry Potter, Stephen Hawking, and Buffy the Vampire Slayer” (The Wall Street Journal). “A literary wonderland [that] recalls Douglas Adams’ Hitchhiker series [and] the works of Lewis Carroll.”—USA Today Meet Thursday Next, “part Bridget Jones, part Nancy Drew, and part Dirty Harry” (Michiko Kakutani, The New York Times), a literary detective without equal, fear, or boyfriend—and welcome to a surreal version of Great Britain, circa 1985, where time travel is routine, cloning is a reality (dodos are the resurrected pet of choice), and literature is taken very, very seriously. England is a virtual police state where an aunt can get lost (literally) in a Wadsworth poem, militant Baconians heckle performances of Hamlet, and forging Byronic verse is a punishable offense. All this is business as usual for Thursday, renowned Special Operative in literary detection, until someone begins kidnapping characters from works of literature. When Jane Eyre is plucked from the pages of Brontë’s novel, Thursday must track down the villain and enter a novel herself to avert a heinous act of literary homicide. Don’t miss any of Jasper Fforde’s delightfully entertaining Thursday Next novels: THE EYRE AFFAIR • LOST IN A GOOD BOOK • THE WELL OF LOST PLOTS • SOMETHING ROTTEN • FIRST AMONG SEQUELS • ONE OF OUR THURSDAYS IS MISSING • THE WOMAN WHO DIED A LOT",
@@ -17,9 +19,6 @@
   "pages": 0,
   "first_published": 2001,
   "language": "eng",
-  "subjects": [
-    "NPR Top 100 Science Fiction and Fantasy"
-  ],
   "ddc": [
     "823.914",
     "823.92"
@@ -65,12 +64,35 @@
   "ol_work_key": "/works/OL5730195W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 32,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL27030232M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q1605815",
+  "original_title": "The Eyre Affair",
+  "original_language": "eng",
+  "original_publisher": "Hodder & Stoughton",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Crawford Award",
+      "year": 2002
+    }
+  ],
+  "series": {
+    "name": "Thursday Next",
+    "position": 1
+  }
 }

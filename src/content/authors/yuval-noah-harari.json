@@ -6,5 +6,24 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/400px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
   "open_library_url": "https://openlibrary.org/authors/OL3778242A",
-  "birth_year": 1976
+  "birth_year": 1976,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2484404",
+  "nationality": [
+    "IL"
+  ],
+  "viaf_id": "316756655",
+  "ol_author_key": "/authors/OL3778242A",
+  "awards": [
+    {
+      "name": "honorary doctorate of the Vrije Universiteit Brussel",
+      "year": 2020
+    }
+  ]
 }

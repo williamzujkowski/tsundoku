@@ -7,5 +7,60 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bertrand_Russell",
   "open_library_url": "https://openlibrary.org/authors/OL112912A",
   "birth_year": 1872,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q33760",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "36924137",
+  "ol_author_key": "/authors/OL112912A",
+  "movements": [
+    "analytic philosophy",
+    "freethought",
+    "Western philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1950
+    },
+    {
+      "name": "Fellow of the Royal Society"
+    },
+    {
+      "name": "Medal Carl von Ossietzky"
+    },
+    {
+      "name": "Kalinga Prize",
+      "year": 1957
+    },
+    {
+      "name": "De Morgan Medal",
+      "year": 1932
+    },
+    {
+      "name": "Sylvester Medal",
+      "year": 1934
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1963
+    },
+    {
+      "name": "doctor honoris causa from the University of Aix-Marseille",
+      "year": 1947
+    },
+    {
+      "name": "Sonning Prize",
+      "year": 1960
+    }
+  ]
 }

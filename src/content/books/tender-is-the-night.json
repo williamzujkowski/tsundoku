@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6984433-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6984433-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL468485W",
-  "first_published": 1933,
+  "first_published": 1934,
   "language": "eng",
   "description": "A story of Americans living on the French Riviera in the 1930s is a portrait of psychological disintegration as a wealthy couple supports friends and hangers-on financially and emotionally at the cost of their own stability.",
   "isbn": "1853260975",
@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=9M1UhF-tF84C&dq=Tender+Is+the+Night+F.+Scott+Fitzgerald&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Fiction",
-    "Psychiatrists",
-    "Wealth",
-    "Moral and ethical aspects of Wealth",
-    "Facsimiles",
-    "American Manuscripts",
-    "Manuscripts",
-    "Moral and ethical aspects",
-    "Literature",
-    "Psychological fiction"
-  ],
   "ddc": [
     "[Fic]",
     "813.52 s",
@@ -128,13 +116,21 @@
   "ol_work_key": "/works/OL468485W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 312,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8978472M"
+  "representative_edition_key": "/books/OL8978472M",
+  "wikidata_qid": "Q247372",
+  "original_title": "Tender Is the Night",
+  "original_language": "eng",
+  "original_publisher": "Charles Scribner's Sons"
 }

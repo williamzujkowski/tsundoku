@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL379949W",
-  "first_published": 1867,
+  "first_published": -395,
   "language": "eng",
   "description": "The Apology of Socrates, by Plato, is the Socratic dialogue that presents the speech of legal self-defence, which Socrates presented at his trial for impiety and corruption, in 399 BC. Specifically the Apology of Socrates is a defence against the charges of \"corrupting the young\" and \"not believing in the gods in whom the city believes, but in other daimonia that are novel\" to Athens (24b). Among the primary sources about the trial and death of the philosopher Socrates (469-399 BC), the Apology ...",
   "isbn": "1540544559",
@@ -25,18 +25,6 @@
   "oclc_id": "424011741",
   "worldcat_url": "https://www.worldcat.org/oclc/424011741",
   "lccn": "09029640",
-  "subjects": [
-    "Nonfiction",
-    "Philosophy",
-    "Sophists (Greek philosophy)",
-    "Filosofía griega",
-    "History & Surveys",
-    "Ancient & Classical",
-    "Philosophie",
-    "Fiction, historical, general",
-    "Children's fiction",
-    "Socrates."
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "184",
@@ -91,17 +79,23 @@
   "ol_work_key": "/works/OL51948W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 232,
-  "first_published_circa": false,
+  "first_published_circa": true,
   "original_language": "gre",
   "original_title": "Apology.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33047407M"
+  "representative_edition_key": "/books/OL33047407M",
+  "wikidata_qid": "Q273668",
+  "series": {
+    "name": "Platonic dialogue"
+  }
 }

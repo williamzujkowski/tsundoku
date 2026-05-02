@@ -26,17 +26,6 @@
   "lccn": "75023091",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t3514k458",
   "hathitrust_rights": "Full view",
-  "subjects": [
-    "Occultism",
-    "Fiction",
-    "Fiction, mystery & detective, traditional",
-    "Fiction, mystery & detective, general",
-    "Fiction, fantasy, general",
-    "Fiction, general",
-    "Australian Fantasy fiction",
-    "Fiction, occult & supernatural",
-    "Paranormal fiction"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "823.8"
@@ -65,10 +54,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 246,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34335159M"
+  "representative_edition_key": "/books/OL34335159M",
+  "wikidata_qid": "Q115756737",
+  "original_title": "A Bid for Fortune",
+  "original_language": "eng"
 }

@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
   "open_library_url": "https://openlibrary.org/authors/OL20509A",
   "birth_year": 1813,
-  "death_year": 1855
+  "death_year": 1855,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6512",
+  "alternate_names": [
+    "Victor Eremita",
+    "A",
+    "Judge William",
+    "Johannes de silentio",
+    "Constantine Constantius",
+    "Young Man",
+    "Vigilius Haufniensis",
+    "Nicolaus Notabene",
+    "Hilarius Bookbinder",
+    "Johannes Climacus",
+    "Inter et Inter",
+    "H.H.",
+    "Anti-Climacus",
+    "B",
+    "Johannes de Silentio",
+    "Constantin Constantius",
+    "P. CH. Kierkegaard"
+  ],
+  "viaf_id": "7392250",
+  "ol_author_key": "/authors/OL233017A",
+  "movements": [
+    "existentialism"
+  ]
 }

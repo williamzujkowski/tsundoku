@@ -18,12 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=Lwg5AgAAQBAJ&dq=The+Blade+Itself+Joe+Abercrombie&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction, fantasy, general",
-    "Fantasy fiction",
-    "Fantasy",
-    "Fiction"
-  ],
   "ddc": [
     "823.92"
   ],
@@ -47,10 +41,23 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": "9781473216785",
-  "representative_edition_key": "/books/OL48140455M"
+  "representative_edition_key": "/books/OL48140455M",
+  "wikidata_qid": "Q3986014",
+  "original_title": "The Blade Itself",
+  "original_language": "eng",
+  "original_publisher": "Gollancz",
+  "series": {
+    "name": "The First Law",
+    "position": 1
+  }
 }

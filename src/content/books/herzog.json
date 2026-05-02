@@ -17,18 +17,6 @@
   "pages": 357,
   "google_books_url": "http://books.google.com/books?id=uxjjjwC7y5IC&dq=Herzog+Saul+Bellow&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Middle-aged men",
-    "Jewish men",
-    "College teachers",
-    "Failure (Psychology)",
-    "Fiction",
-    "Middle aged men",
-    "National Book Award Winner",
-    "award:national_book_award=1965",
-    "award:national_book_award=fiction",
-    "Universities and colleges"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "813.54",
@@ -69,10 +57,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 74,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38797275M"
+  "representative_edition_key": "/books/OL38797275M",
+  "wikidata_qid": "Q1424503",
+  "original_title": "Herzog",
+  "original_language": "eng",
+  "original_publisher": "Viking Press"
 }

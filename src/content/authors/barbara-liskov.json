@@ -5,5 +5,66 @@
   "bio": "Barbara Liskov is an American computer scientist who has made pioneering contributions to programming languages and distributed computing. Her notable work includes the introduction of abstract data types and the accompanying principle of data abstraction, along with the Liskov substitution principle, which applies these ideas to object-oriented programming, subtyping, and inheritance. Her work was recognized with the 2008 Turing Award, the highest distinction in computer science.",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/400px-Barbara_Liskov_MIT_computer_scientist_2010.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_Liskov",
-  "open_library_url": "https://openlibrary.org/authors/OL2670795A"
+  "open_library_url": "https://openlibrary.org/authors/OL2670795A",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q16080922",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "44337197",
+  "ol_author_key": "/authors/OL2670795A",
+  "awards": [
+    {
+      "name": "Turing Award",
+      "year": 2008
+    },
+    {
+      "name": "IEEE John von Neumann Medal",
+      "year": 2004
+    },
+    {
+      "name": "Harold Pender Award",
+      "year": 2013
+    },
+    {
+      "name": "National Inventors Hall of Fame",
+      "year": 2012
+    },
+    {
+      "name": "Programming Languages Achievement Award",
+      "year": 2008
+    },
+    {
+      "name": "Weizmann Women & Science Award",
+      "year": 2015
+    },
+    {
+      "name": "Computer Pioneer Award",
+      "year": 2018
+    },
+    {
+      "name": "honorary doctor of the University Polytechnic of Catalonia",
+      "year": 2012
+    },
+    {
+      "name": "Society of Women Engineers Achievement Award",
+      "year": 1996
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 1996
+    },
+    {
+      "name": "honorary doctor of ETH Zürich"
+    },
+    {
+      "name": "NCWIT Pioneer in Tech Award"
+    }
+  ]
 }

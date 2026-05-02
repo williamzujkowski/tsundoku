@@ -18,25 +18,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=aPwPjVIxbGQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "052148443X",
   "pages": 444,
-  "subjects": [
-    "Category: Classics of Literature",
-    "Category: Philosophy & Ethics",
-    "Ciencias políticas",
-    "Classical literature",
-    "Early works to 1700",
-    "Early works to 1800",
-    "Education",
-    "Greek Education",
-    "Justice -- Early works to 1800",
-    "Ouvrages avant 1800",
-    "Philosophy",
-    "Political science",
-    "Political science -- Early works to 1800",
-    "Science politique",
-    "Utopias",
-    "Utopias -- Early works to 1800",
-    "Utopies"
-  ],
   "google_books_url": "http://books.google.com/books?id=aPwPjVIxbGQC&dq=Republic+Plato&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -271,12 +252,18 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Plato's Staat",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34279908M"
+  "representative_edition_key": "/books/OL34279908M",
+  "wikidata_qid": "Q123397",
+  "series": {
+    "name": "Platonic dialogue"
+  }
 }

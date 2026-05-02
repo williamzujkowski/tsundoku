@@ -14,18 +14,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Social life and customs",
-    "Hippies",
-    "American literature",
-    "Women authors",
-    "Essays",
-    "American essays",
-    "Ps3554.i33 s55 1981",
-    "Essays (single author)",
-    "Bethlehem",
-    "Spirituality"
-  ],
   "description": "Slouching Towards Bethlehem is a collection of essays by Joan Didion that mainly describes her experiences in California during the 1960s. It was published on May 10, 1968, by Farrar, Straus and Giroux. It takes its title from the poem \"The Second Coming\" by W. B. Yeats. The contents of this book are reprinted in Didion's We Tell Ourselves Stories in Order to Live: Collected Nonfiction (2006).",
   "pages": 238,
   "isbn": "9780374531386",
@@ -61,13 +49,21 @@
   "ol_work_key": "/works/OL500164W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27105257M"
+  "representative_edition_key": "/books/OL27105257M",
+  "wikidata_qid": "Q7541455",
+  "original_title": "Slouching Towards Bethlehem",
+  "original_language": "eng",
+  "original_publisher": "Farrar, Straus and Giroux"
 }

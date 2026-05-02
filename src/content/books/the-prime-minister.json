@@ -11,29 +11,11 @@
   "description": "Plantagenet Palliser, now the Duke of Omnium, is a familiar character to the readers of the Barchester and Palliser series, but only now, at a moment of political crisis, does he take center stage. Neither the Liberals nor the Conservatives can command a majority in Parliament; the Duke is called upon as the only figure capable of forming a coalition government. He does so, but only with deep misgivings about whether the role of Prime Minister suits his character. As he assumes the role, the irr",
   "cover_url": "https://books.google.com/books/content?id=7NjMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041806201",
-  "first_published": 1876,
+  "first_published": 1875,
   "pages": 968,
   "google_books_url": "http://books.google.com/books?id=7NjMEAAAQBAJ&dq=intitle:The+Prime+Minister&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "British and irish fiction (fictional works by one author)",
-    "Category: British Literature",
-    "Category: Novels",
-    "England, fiction",
-    "Fiction",
-    "Fiction, general",
-    "London (England) -- Fiction",
-    "London (england), fiction",
-    "Long now manual for civilization",
-    "Palliser, Plantagenet (Fictitious character) -- Fiction",
-    "Plantagenet Palliser (Fictitious character)",
-    "Political fiction",
-    "Politicians, fiction",
-    "Prime ministers",
-    "Prime ministers -- Fiction",
-    "Social life and customs"
-  ],
   "gutenberg_id": 2158,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2158",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2158.html.images",
@@ -80,13 +62,25 @@
   "ol_work_key": "/works/OL109878W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 95,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL25248253M"
+  "representative_edition_key": "/books/OL25248253M",
+  "wikidata_qid": "Q7758216",
+  "original_title": "The Prime Minister",
+  "original_language": "eng",
+  "original_publisher": "Chapman and Hall",
+  "series": {
+    "name": "Palliser novels"
+  }
 }

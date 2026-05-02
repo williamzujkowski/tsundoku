@@ -15,20 +15,6 @@
   "pages": 156,
   "google_books_url": "https://play.google.com/store/books/details?id=0NBVAAAAcAAJ&source=gbs_api",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Business",
-    "Category: Business/Management",
-    "Category: How To ...",
-    "Commerce",
-    "Finance",
-    "Finance, personal",
-    "Income",
-    "Nonfiction",
-    "Self-Improvement",
-    "Self-help techniques",
-    "Success",
-    "Success in business"
-  ],
   "librivox_url": "https://librivox.org/the-art-of-money-getting-by-p-t-barnum/",
   "gutenberg_id": 8581,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8581",
@@ -56,9 +42,11 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 146,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48634803M"
+  "representative_edition_key": "/books/OL48634803M",
+  "wikidata_qid": "Q19078527"
 }

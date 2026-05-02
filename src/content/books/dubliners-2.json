@@ -15,18 +15,6 @@
   "pages": 292,
   "google_books_url": "https://play.google.com/store/books/details?id=RlZoAwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Daily Express",
-    "West Briton",
-    "Three Graces",
-    "The Lass of Aughrim",
-    "alcoholism",
-    "confessionals",
-    "Jesuits",
-    "fiction",
-    "concerts",
-    "piano"
-  ],
   "librivox_url": "https://librivox.org/dubliners-by-james-joyce/",
   "gutenberg_id": 2814,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2814",
@@ -240,13 +228,25 @@
   "ol_work_key": "/works/OL86320W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34311730M"
+  "representative_edition_key": "/books/OL34311730M",
+  "wikidata_qid": "Q459592",
+  "original_title": "Dubliners",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

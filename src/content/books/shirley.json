@@ -22,18 +22,6 @@
   "gutenberg_id": 30486,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/30486",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/30486.html.images",
-  "subjects": [
-    "British and irish fiction (fictional works by one author)",
-    "England, fiction",
-    "Fiction",
-    "Fiction, historical",
-    "Fiction, historical, general",
-    "Historical fiction",
-    "Napoleonic Wars, 1800-1815",
-    "Napoleonic wars, 1800-1815, fiction",
-    "Textile industry",
-    "Women"
-  ],
   "ddc": [
     "823.8"
   ],
@@ -103,9 +91,13 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34198547M"
+  "representative_edition_key": "/books/OL34198547M",
+  "wikidata_qid": "Q615175",
+  "original_publisher": "Smith, Elder & Co."
 }

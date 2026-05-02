@@ -18,18 +18,6 @@
   "pages": 363,
   "google_books_url": "https://play.google.com/store/books/details?id=5wNdEQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Latin Didactic poetry",
-    "Ancient Philosophy",
-    "Poetry",
-    "Translations into English",
-    "Translations into Italian",
-    "Philosophy",
-    "Early works to 1800",
-    "Translations into Spanish",
-    "Translations into French",
-    "Criticism and interpretation"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 785,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/785",
@@ -304,12 +292,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "De rerum natura",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL50969386M"
+  "representative_edition_key": "/books/OL50969386M",
+  "wikidata_qid": "Q861986"
 }

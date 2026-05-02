@@ -14,26 +14,11 @@
   "description": "The adventures of Tom, a sooty little chimney sweep with a great longing to be clean, who is stolen by fairies and turned into a water baby.",
   "cover_url": "https://books.google.com/books/content?id=wTAnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781606601136",
-  "first_published": 2013,
+  "first_published": 1863,
   "pages": 276,
   "google_books_url": "http://books.google.com/books?id=wTAnDwAAQBAJ&dq=intitle:The+Water-Babies&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Adventure and adventurers, fiction",
-    "Children's Literature",
-    "Children's fiction",
-    "Children's stories",
-    "Chimney sweeps",
-    "Chimney sweeps -- Juvenile fiction",
-    "Fairies, fiction",
-    "Fairy tales",
-    "Fairy tales -- England",
-    "Fantasy",
-    "Fiction",
-    "Fiction in English",
-    "Open Library Staff Picks"
-  ],
   "librivox_url": "https://librivox.org/the-water-babies-by-charles-kingsley/",
   "gutenberg_id": 25564,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/25564",
@@ -58,11 +43,17 @@
   "ol_work_key": "/works/OL20368730W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28642851M"
+  "representative_edition_key": "/books/OL28642851M",
+  "wikidata_qid": "Q14914646",
+  "original_title": "The Water-Babies, A Fairy Tale for a Land Baby",
+  "original_language": "eng"
 }

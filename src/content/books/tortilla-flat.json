@@ -16,18 +16,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=0SYxAAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Poor",
-    "Open Library Staff Picks",
-    "Fiction in English",
-    "Fiction",
-    "Hispanic Americans",
-    "Poverty",
-    "American fiction",
-    "Classic Literature",
-    "American fiction (fictional works by one author)",
-    "Monterey (calif.), fiction"
-  ],
   "ddc": [
     "813.52",
     "823.91"
@@ -80,13 +68,17 @@
   "ol_work_key": "/works/OL23201W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 85,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7881437M"
+  "representative_edition_key": "/books/OL7881437M",
+  "wikidata_qid": "Q606720",
+  "original_publisher": "Pascal Covici"
 }

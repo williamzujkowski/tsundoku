@@ -21,18 +21,6 @@
   "oclc_id": "828142663",
   "worldcat_url": "https://www.worldcat.org/oclc/828142663",
   "lccn": "2012051135",
-  "subjects": [
-    "Science Fiction",
-    "Fiction",
-    "Quests (Expeditions)",
-    "Ebook",
-    "Space Opera",
-    "Revenge",
-    "Adult",
-    "General",
-    "Adventure",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.6"
@@ -74,11 +62,53 @@
   "ol_work_key": "/works/OL17062644W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL39796244M"
+  "representative_edition_key": "/books/OL39796244M",
+  "wikidata_qid": "Q17001721",
+  "original_title": "Ancillary Justice",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2014
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2014
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2014
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 2013
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 2016
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2014
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2016
+    }
+  ],
+  "series": {
+    "name": "Imperial Radch",
+    "position": 1
+  }
 }

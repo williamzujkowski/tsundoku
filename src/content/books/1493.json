@@ -23,18 +23,6 @@
   "lccn": "2011003408",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044050115203",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "New York Times bestseller",
-    "Economic history",
-    "Commerce",
-    "History",
-    "Ecology",
-    "Slave trade",
-    "Industrial revolution",
-    "Environmental aspects",
-    "Modern History",
-    "Influence"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "909.08"
@@ -91,11 +79,19 @@
   "ol_work_key": "/works/OL16084255W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24980696M"
+  "representative_edition_key": "/books/OL24980696M",
+  "wikidata_qid": "Q4549887",
+  "original_title": "1493: Uncovering the New World Columbus Created",
+  "original_language": "eng",
+  "original_publisher": "Alfred A. Knopf"
 }

@@ -20,18 +20,6 @@
   "oclc_id": "76193526",
   "worldcat_url": "https://www.worldcat.org/oclc/76193526",
   "lccn": "98011583",
-  "subjects": [
-    "French fiction",
-    "Littérature western",
-    "Histoires d'amour",
-    "Ranch life",
-    "Fiction",
-    "New mexico, fiction",
-    "Texas, fiction",
-    "Fiction, men's adventure",
-    "Fiction, westerns",
-    "Fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -58,11 +46,24 @@
   "ol_work_key": "/works/OL40869W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 27,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL12208641M"
+  "representative_edition_key": "/books/OL12208641M",
+  "wikidata_qid": "Q1640710",
+  "original_title": "Cities of the Plain",
+  "original_language": "eng",
+  "original_publisher": "Alfred A. Knopf",
+  "series": {
+    "name": "The Border Trilogy",
+    "position": 3
+  }
 }

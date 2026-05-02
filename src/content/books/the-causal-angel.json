@@ -19,16 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=2WzOAwAAQBAJ&dq=The+Causal+Angel+Hannu+Rajaniemi&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Thieves",
-    "Memory",
-    "Escapes",
-    "Mind and reality",
-    "Physics",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "FICTION / Science Fiction / General"
-  ],
   "ddc": [
     "823.92"
   ],
@@ -50,11 +40,22 @@
   "ol_work_key": "/works/OL19982984W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27163119M"
+  "representative_edition_key": "/books/OL27163119M",
+  "wikidata_qid": "Q18205890",
+  "original_title": "The Causal Angel",
+  "original_language": "eng",
+  "series": {
+    "name": "Jean le Flambeur trilogy",
+    "position": 3
+  }
 }

@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Caitl%C3%ADn_R._Kiernan_by_Kyle_Cassidy2.JPG/400px-Caitl%C3%ADn_R._Kiernan_by_Kyle_Cassidy2.JPG",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Caitl%C3%ADn_R._Kiernan",
   "open_library_url": "https://openlibrary.org/authors/OL397402A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q4221522",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Kathleen Tierney"
+  ],
+  "viaf_id": "85683093",
+  "ol_author_key": "/authors/OL397402A",
+  "awards": [
+    {
+      "name": "Otherwise Award",
+      "year": 2012
+    },
+    {
+      "name": "Locus Award for Best Short Story",
+      "year": 2014
+    },
+    {
+      "name": "World Fantasy Award for Best Short Fiction",
+      "year": 2014
+    },
+    {
+      "name": "World Fantasy Award for Best Collection",
+      "year": 2014
+    },
+    {
+      "name": "Bram Stoker Award for Novel",
+      "year": 2012
+    }
+  ]
 }

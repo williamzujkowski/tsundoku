@@ -18,14 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=3rXU2H7KeHEC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Science Fiction",
-    "Space Opera",
-    "Cyberpunk",
-    "Fiction",
-    "award:nebula_award=novel",
-    "Fiction, science fiction, general"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -47,13 +39,26 @@
   "ol_work_key": "/works/OL549274W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "0688104517",
-  "representative_edition_key": "/books/OL34835204M"
+  "representative_edition_key": "/books/OL34835204M",
+  "wikidata_qid": "Q3497490",
+  "original_title": "Stations of the Tide",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1992
+    }
+  ]
 }

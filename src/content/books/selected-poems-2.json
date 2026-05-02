@@ -4,7 +4,9 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems-2",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/5979626-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5979626-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL490906W",
@@ -16,9 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=JrSoDTWzvOYC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Poetry"
-  ],
   "ol_work_key": "/works/OL28240669W",
   "ddc": [
     "821.8"
@@ -47,6 +46,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL38649349M"
 }

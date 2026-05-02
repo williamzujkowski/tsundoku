@@ -8,12 +8,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Anarchism",
-    "Civil disobedience",
-    "Radicalism",
-    "free resources"
-  ],
   "description": "Steal This Book is a book written by Abbie Hoffman. Written in 1970 and published the following year, it exemplifies the counterculture of the 1960s. The book sold more than a quarter of a million copies between April and November 1971. The number of copies that were stolen is unknown.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Abbie_hoffman_steal_this_book.jpg/120px-Abbie_hoffman_steal_this_book.jpg",
   "pages": 318,
@@ -42,11 +36,19 @@
   "ol_work_key": "/works/OL3744646W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL46943028M"
+  "representative_edition_key": "/books/OL46943028M",
+  "wikidata_qid": "Q1157080",
+  "original_title": "Steal This Book",
+  "original_language": "eng",
+  "original_publisher": "Grove Press"
 }

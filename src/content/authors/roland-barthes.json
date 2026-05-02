@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Roland_Barthes",
   "open_library_url": "https://openlibrary.org/authors/OL2645171A",
   "birth_year": 1915,
-  "death_year": 1980
+  "death_year": 1980,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q179109",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "44295060",
+  "ol_author_key": "/authors/OL2645171A",
+  "movements": [
+    "structuralism"
+  ]
 }

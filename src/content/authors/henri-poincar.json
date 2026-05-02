@@ -7,5 +7,64 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
   "open_library_url": "https://openlibrary.org/authors/OL56371A",
   "birth_year": 1854,
-  "death_year": 1912
+  "death_year": 1912,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q81082",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "51694558",
+  "ol_author_key": "/authors/OL4281084A",
+  "awards": [
+    {
+      "name": "Poncelet Prize",
+      "year": 1885
+    },
+    {
+      "name": "Sylvester Medal",
+      "year": 1901
+    },
+    {
+      "name": "Commander of the Legion of Honour",
+      "year": 1903
+    },
+    {
+      "name": "Gold Medal of the Royal Astronomical Society",
+      "year": 1900
+    },
+    {
+      "name": "Bruce Medal",
+      "year": 1911
+    },
+    {
+      "name": "Bolyai Prize",
+      "year": 1905
+    },
+    {
+      "name": "Matteucci Medal",
+      "year": 1905
+    },
+    {
+      "name": "Royal Order of the Polar Star",
+      "year": 1905
+    },
+    {
+      "name": "Concours général",
+      "year": 1873
+    },
+    {
+      "name": "Foreign Member of the Royal Society",
+      "year": 1894
+    },
+    {
+      "name": "Jean Reynaud Prize",
+      "year": 1896
+    }
+  ]
 }

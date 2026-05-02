@@ -7,5 +7,52 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/G._H._Hardy",
   "open_library_url": "https://openlibrary.org/authors/OL20865A",
   "birth_year": 1877,
-  "death_year": 1947
+  "death_year": 1947,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q184337",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "76328275",
+  "ol_author_key": "/authors/OL20865A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1910
+    },
+    {
+      "name": "Copley Medal",
+      "year": 1947
+    },
+    {
+      "name": "Royal Medal",
+      "year": 1920
+    },
+    {
+      "name": "De Morgan Medal",
+      "year": 1929
+    },
+    {
+      "name": "Josiah Willard Gibbs Lectureship",
+      "year": 1928
+    },
+    {
+      "name": "Chauvenet Prize",
+      "year": 1932
+    },
+    {
+      "name": "Sylvester Medal",
+      "year": 1940
+    },
+    {
+      "name": "Smith's Prize",
+      "year": 1901
+    }
+  ]
 }

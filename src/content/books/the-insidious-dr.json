@@ -17,18 +17,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=jA4tjeg_71EC&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Doctor Fu Manchu (Fictitious character)",
-    "Criminals",
-    "English Detective and mystery stories",
-    "Fu manchu, doctor (fictitious character), fiction",
-    "Fiction, mystery & detective, general",
-    "China, fiction",
-    "Large type books",
-    "Fu Manchu, Docteur (Personnage fictif)",
-    "Romans, nouvelles"
-  ],
   "gutenberg_id": 173,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/173",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/173.html.images",
@@ -81,10 +69,12 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 383,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24296880M"
+  "representative_edition_key": "/books/OL24296880M",
+  "wikidata_qid": "Q19090776"
 }

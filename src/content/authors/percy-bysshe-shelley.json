@@ -7,5 +7,21 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley",
   "open_library_url": "https://openlibrary.org/authors/OL20743A",
   "birth_year": 1792,
-  "death_year": 1822
+  "death_year": 1822,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q93343",
+  "nationality": [
+    "CH"
+  ],
+  "viaf_id": "95159449",
+  "ol_author_key": "/authors/OL20743A",
+  "movements": [
+    "Romanticism"
+  ]
 }

@@ -14,14 +14,6 @@
   "first_published": 1940,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Mathematical recreations",
-    "Mathématiques",
-    "Mathematics",
-    "Wiskunde",
-    "Jeux mathématiques",
-    "Mathematics, philosophy"
-  ],
   "copyright_status": "likely_public_domain",
   "description": "Mathematics and the Imagination is a book published in New York by Simon & Schuster in 1940. The authors are Edward Kasner and James R. Newman. The illustrator Rufus Isaacs provided 169 figures. It rapidly became a best-seller and received several glowing reviews. Special publicity has been awarded it since it introduced the term googol for 10100, and googolplex for 10googol. The book includes nine chapters, an annotated bibliography of 45 titles, and an index in its 380 pages.",
   "isbn": "9780671208554",
@@ -47,13 +39,21 @@
   "pages": 380,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 29,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7645997M"
+  "representative_edition_key": "/books/OL7645997M",
+  "wikidata_qid": "Q6786900",
+  "original_title": "Mathematics and the Imagination",
+  "original_language": "eng",
+  "original_publisher": "Simon & Schuster"
 }

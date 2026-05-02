@@ -15,18 +15,6 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7154878-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7154878-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL109853W",
-  "subjects": [
-    "Husbands",
-    "Married people",
-    "Fiction",
-    "British and irish fiction (fictional works by one author)",
-    "England, fiction",
-    "Social life and customs",
-    "Psychology",
-    "English fiction",
-    "Domestic fiction",
-    "Psychological fiction"
-  ],
   "librivox_url": "https://librivox.org/he-knew-he-was-right-by-anthony-trollope/",
   "gutenberg_id": 5140,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5140",
@@ -74,13 +62,19 @@
   "pages": 832,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 35,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7358507M"
+  "representative_edition_key": "/books/OL7358507M",
+  "wikidata_qid": "Q5688834",
+  "original_title": "He Knew He Was Right",
+  "original_language": "eng"
 }

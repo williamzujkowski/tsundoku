@@ -14,26 +14,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Aneityumese language",
-    "Bibliography",
-    "Category: British Literature",
-    "Category: Classics of Literature",
-    "Category: Novels",
-    "Category: Religion/Spirituality",
-    "Christian biography",
-    "Christian fiction",
-    "Christian life",
-    "Christian pilgrims and pilgrimages -- Fiction",
-    "Christianity",
-    "Church of England",
-    "Cree (Langue)",
-    "Fiction",
-    "German language",
-    "Harvard Classics",
-    "Readers",
-    "Spiritual life"
-  ],
   "gutenberg_id": 131,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/131",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/131.html.images",
@@ -366,10 +346,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9780231939522",
-  "representative_edition_key": "/books/OL34245481M"
+  "representative_edition_key": "/books/OL34245481M",
+  "wikidata_qid": "Q20566823",
+  "original_title": "Taith y pererin i'r teulu"
 }

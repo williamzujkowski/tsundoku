@@ -8,16 +8,13 @@
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL27997314W",
-  "first_published": 1911,
+  "first_published": 1790,
   "language": "eng",
   "description": "Originally published: London: MacMillan and Co., 1914.",
   "cover_url": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780486445434",
   "pages": 290,
-  "subjects": [
-    "Philosophy"
-  ],
   "google_books_url": "http://books.google.com/books?id=3r8sAwAAQBAJ&dq=Critique+of+Judgment+Immanuel+Kant&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "public_domain",
@@ -91,12 +88,18 @@
   "ol_work_key": "/works/OL99841W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 57,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL12554100M"
+  "representative_edition_key": "/books/OL12554100M",
+  "wikidata_qid": "Q1056332",
+  "original_title": "Kritik der Urteilskraft",
+  "original_language": "ger"
 }

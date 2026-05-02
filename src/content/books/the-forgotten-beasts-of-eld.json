@@ -16,18 +16,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fantasy",
-    "Wizards",
-    "Fiction",
-    "Fantasy fiction",
-    "Children's fiction",
-    "Wizards, fiction",
-    "Science fiction",
-    "Fiction, fantasy, general",
-    "Wizards -- Juvenile fiction",
-    "Magic -- Juvenile fiction"
-  ],
   "description": "The Forgotten Beasts of Eld is a fantasy novel by American writer Patricia A. McKillip, and illustrators Peter Schaumann in 1974, and Alicia Austin in 1981, first published by Atheneum Publishers in 1974, and by Magic Carpet Books in 1996. It is the winner of the 1975 World Fantasy Award for Best Novel. The book centers on Sybel, a woman previously cut off from the rest of the world of Eldwold, as she learns to live and love in the world outside of the one she once knew.",
   "pages": 229,
   "isbn": "9780708882429",
@@ -63,13 +51,28 @@
   "ol_work_key": "/works/OL92493W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
   "first_edition_isbn": "068930434X",
-  "representative_edition_key": "/books/OL27284766M"
+  "representative_edition_key": "/books/OL27284766M",
+  "wikidata_qid": "Q7734828",
+  "original_title": "The Forgotten Beasts of Eld",
+  "original_language": "eng",
+  "original_publisher": "Atheneum Books",
+  "awards": [
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 1975
+    }
+  ]
 }

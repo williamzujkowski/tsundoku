@@ -6,5 +6,13 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/%D9%86%DA%AF%D8%A7%D8%B1%D9%87_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%28Cropped_and_Edited%29.jpg/400px-%D9%86%DA%AF%D8%A7%D8%B1%D9%87_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%28Cropped_and_Edited%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ferdowsi",
   "open_library_url": "https://openlibrary.org/authors/OL821316A",
-  "birth_year": 1019
+  "birth_year": 1019,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q43459",
+  "viaf_id": "101359236",
+  "ol_author_key": "/authors/OL821316A"
 }

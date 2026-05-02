@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=SLaQAwAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction, science fiction, general",
-    "Fiction, suspense",
-    "Drug traffic",
-    "Murder",
-    "Brothers and sisters",
-    "Video games",
-    "Veterans",
-    "Fiction",
-    "FICTION / Science Fiction / General",
-    "FICTION / Literary"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -73,11 +61,17 @@
   "ol_work_key": "/works/OL17268037W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 15,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28266146M"
+  "representative_edition_key": "/books/OL28266146M",
+  "wikidata_qid": "Q7756730",
+  "original_title": "The Peripheral",
+  "original_language": "eng"
 }

@@ -14,22 +14,10 @@
   "description": "Phantastes - George MacDonald - This classic tale by master Scottish story teller George Macdonald Phantastes: A Faerie Romance for Men and Women is a fantasy novel first published in London in 1858.The story is about the main character character Anodos, a young man who is pulled into a dreamlike world and there searches for his ideal of female beauty, Anodos has many adventures and temptations while in the other world, until he is finally ready to give up his ideals.George MacDonald was the ins",
   "cover_url": "https://books.google.com/books/content?id=AIQ5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783985948888",
-  "first_published": 2008,
+  "first_published": 1858,
   "pages": 192,
   "google_books_url": "https://play.google.com/store/books/details?id=AIQ5EAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fairy tales",
-    "Scottish Fantasy fiction",
-    "Fiction, romance, fantasy",
-    "Fiction, science fiction, general",
-    "Fiction, fantasy, general",
-    "Classic Literature",
-    "Fantasy",
-    "Fiction",
-    "English literature",
-    "Fairies"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 325,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/325",
@@ -80,11 +68,17 @@
   "ol_work_key": "/works/OL15450W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34244365M"
+  "representative_edition_key": "/books/OL34244365M",
+  "wikidata_qid": "Q1616808",
+  "original_language": "eng",
+  "original_publisher": "Smith, Elder & Co."
 }

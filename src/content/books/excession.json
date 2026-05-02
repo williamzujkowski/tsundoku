@@ -17,11 +17,6 @@
   "pages": 354,
   "google_books_url": "https://play.google.com/store/books/details?id=zJNLEQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Science fiction",
-    "Fiction",
-    "Long Now Manual for Civilization"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914"
@@ -39,11 +34,33 @@
   "ol_work_key": "/works/OL8368435W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33409070M"
+  "representative_edition_key": "/books/OL33409070M",
+  "wikidata_qid": "Q74362",
+  "original_title": "Excession",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1996
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 1998
+    }
+  ],
+  "series": {
+    "name": "Culture series",
+    "position": 5
+  }
 }

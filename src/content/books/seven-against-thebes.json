@@ -4,7 +4,9 @@
   "category": "Classics",
   "priority": 1,
   "slug": "seven-against-thebes",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/313089-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/313089-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL856900W",
@@ -17,9 +19,6 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/27458",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/27458.html.images",
   "description": "Seven Against Thebes is the third play in an Oedipus-themed trilogy produced by Aeschylus in 467 BC. The trilogy is sometimes referred to as the Oedipodea. It concerns the battle between an Argive army, led by seven champions including Polynices who were called the Seven against Thebes, and the army of Thebes led by Eteocles and his supporters. The trilogy won the first prize at the Athens City Dionysia.",
-  "subjects": [
-    "Drama"
-  ],
   "pages": 58,
   "isbn": "9781461184973",
   "ol_work_key": "/works/OL39760806W",
@@ -84,6 +83,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 2,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL54558284M"
 }

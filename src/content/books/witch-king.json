@@ -16,19 +16,29 @@
   "google_books_url": "https://play.google.com/store/books/details?id=wE-BEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction"
-  ],
   "ol_work_key": "/works/OL28764208W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781250826794",
-  "representative_edition_key": "/books/OL39731077M"
+  "representative_edition_key": "/books/OL39731077M",
+  "wikidata_qid": "Q124435017",
+  "original_title": "Witch King",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2024
+    }
+  ]
 }

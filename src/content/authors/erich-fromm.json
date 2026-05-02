@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Erich_Fromm",
   "open_library_url": "https://openlibrary.org/authors/OL119716A",
   "birth_year": 1900,
-  "death_year": 1980
+  "death_year": 1980,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q57085",
+  "nationality": [
+    "DE",
+    "CH"
+  ],
+  "viaf_id": "66467430",
+  "ol_author_key": "/authors/OL119716A",
+  "movements": [
+    "continental philosophy",
+    "Frankfurt School"
+  ],
+  "awards": [
+    {
+      "name": "Humanist of the Year",
+      "year": 1966
+    },
+    {
+      "name": "Nelly Sachs Prize",
+      "year": 1979
+    },
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1978
+    }
+  ]
 }

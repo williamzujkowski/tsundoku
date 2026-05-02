@@ -5,17 +5,18 @@
   "priority": 1,
   "slug": "the-interpretation-of-dreams",
   "tags": [
+    "philosophy",
     "r-philosophy"
   ],
   "reading_status": "read",
-  "description": "",
+  "description": "IN the pages that follow I shall bring forward proof that there is a psychological technique which makes it possible to interpret dreams, and that, if that procedure is employed, every dream reveals itself as a physical structure which has a meaning and which can be inserted at an assignable point in the mental activities of waking life.",
   "cover_url": "https://covers.openlibrary.org/b/id/234730-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/234730-L.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781593082987",
   "pages": 0,
-  "first_published": 1899,
+  "first_published": 1900,
   "language": "eng",
   "subjects": [
     "r/philosophy Reading List"
@@ -81,17 +82,19 @@
   "ol_work_key": "/works/OL1069300W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 141,
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Die Traumdeutung",
   "representative_edition_key": "/books/OL8870306M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "wikidata_qid": "Q726382"
 }

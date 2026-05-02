@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=pGP7o3XAxDwC&dq=The+Name+of+the+Rose+Umberto+Eco&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Novela de misterio",
-    "History",
-    "Monasticismo y vida religiosa",
-    "Novela didáctica",
-    "Bibliotecas monásticas",
-    "Historia",
-    "Novela histórica",
-    "Monastic and religious life",
-    "Church history",
-    "Ficción"
-  ],
   "ddc": [
     "853.914",
     "[Fic]",
@@ -109,17 +97,29 @@
   "ol_work_key": "/works/OL8996439W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 151,
   "first_published_circa": false,
   "original_language": "ita",
   "original_title": "Il nome della rosa",
   "representative_edition_key": "/books/OL21189675M",
-  "translator": "William Weaver"
+  "translator": "William Weaver",
+  "wikidata_qid": "Q172850",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    },
+    {
+      "name": "Strega Prize",
+      "year": 1981
+    }
+  ]
 }

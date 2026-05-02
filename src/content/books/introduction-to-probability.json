@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8104980-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8104980-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17816074W",
-  "first_published": 2008,
+  "first_published": 2002,
   "language": "eng",
   "reading_status": "want",
   "subjects": [
@@ -46,13 +46,20 @@
   ],
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781886529236",
-  "representative_edition_key": "/books/OL26405306M"
+  "representative_edition_key": "/books/OL26405306M",
+  "wikidata_qid": "Q63166470",
+  "original_title": "Introduction to Probability",
+  "original_language": "eng",
+  "description": "An intuitive, yet precise introduction to probability theory, stochastic processes, statistical inference, and probabilistic models used in science, engineering, economics, and related fields. This is the currently used textbook for an introductory probability course at the Massachusetts Institute of Technology, attended by a large number of undergraduate and graduate students, and for a leading online class on the subject."
 }

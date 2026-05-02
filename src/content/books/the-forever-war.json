@@ -5,7 +5,9 @@
   "priority": 1,
   "slug": "the-forever-war",
   "tags": [
-    "npr-top-100-sff"
+    "fantasy",
+    "npr-top-100-sff",
+    "sci-fi"
   ],
   "reading_status": "read",
   "description": "Private William Mandella is a hero in spite of himself. He never wanted to go to war, but the leaders on Earth have drawn a line in the interstellar sand.",
@@ -17,9 +19,6 @@
   "pages": 0,
   "first_published": 1974,
   "language": "eng",
-  "subjects": [
-    "NPR Top 100 Science Fiction and Fantasy"
-  ],
   "ddc": [
     "813.54",
     "741.5973"
@@ -64,12 +63,43 @@
   "ol_work_key": "/works/OL271163W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 44,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL25439556M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q5406934",
+  "original_title": "The Forever War",
+  "original_language": "eng",
+  "original_publisher": "St. Martin's Press",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "Locus Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1976
+    }
+  ],
+  "series": {
+    "name": "The Forever War series",
+    "position": 1
+  }
 }

@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 1,
   "slug": "tartuffe",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/8240407-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8240407-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15144788W",
@@ -20,9 +22,6 @@
   "gutenberg_id": 28488,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28488",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28488.html.images",
-  "subjects": [
-    "Drama"
-  ],
   "ddc": [
     "842.4",
     "268.99",
@@ -111,6 +110,5 @@
   },
   "editions_count": 96,
   "first_published_circa": false,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL23218320M"
 }

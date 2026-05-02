@@ -22,18 +22,6 @@
   "google_books_url": "http://books.google.com/books?id=HzQXlPS48PQC&dq=The+Martian+Chronicles+Ray+Bradbury&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "American Science fiction",
-    "Ciencia-ficción",
-    "Drama",
-    "English Language Short stories",
-    "Ficción",
-    "Fiction",
-    "Interplanetary voyages",
-    "Translations into Russian",
-    "Bibliography",
-    "Science fiction"
-  ],
   "ddc": [
     "812.54",
     "823.91",
@@ -75,13 +63,30 @@
   "ol_work_key": "/works/OL103134W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 138,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL45022948M"
+  "representative_edition_key": "/books/OL45022948M",
+  "wikidata_qid": "Q918052",
+  "original_title": "The Martian Chronicles",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

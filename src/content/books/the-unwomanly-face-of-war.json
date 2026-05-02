@@ -11,9 +11,6 @@
   "isbn": "9780399588723",
   "first_published": 1985,
   "pages": 385,
-  "subjects": [
-    "History"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=H1wpDwAAQBAJ&dq=The+Unwomanly+Face+of+War+Svetlana+Alexievich&hl=&source=gbs_api",
   "reading_status": "want",
@@ -98,17 +95,40 @@
   "ol_work_key": "/works/OL1725868W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "original_language": "rus",
   "original_title": "У войны не женское лицо",
   "representative_edition_key": "/books/OL27240293M",
-  "translator": "Richard Pevear"
+  "translator": "Richard Pevear",
+  "wikidata_qid": "Q21088242",
+  "original_publisher": "Mastatskaya Litaratura",
+  "awards": [
+    {
+      "name": "Ryszard Kapuściński Award for literary reportage",
+      "year": 2011
+    },
+    {
+      "name": "Lenin Komsomol Prize",
+      "year": 1986
+    },
+    {
+      "name": "Angelus Award",
+      "year": 2011
+    }
+  ],
+  "series": {
+    "name": "Voices of Utopia"
+  }
 }

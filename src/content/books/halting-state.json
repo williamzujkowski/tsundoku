@@ -37,11 +37,17 @@
   "pages": 360,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24259348M"
+  "representative_edition_key": "/books/OL24259348M",
+  "wikidata_qid": "Q5643614",
+  "original_title": "Halting State",
+  "original_language": "eng"
 }

@@ -14,28 +14,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Lb0vAQAAMAAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Best Books Ever Listings",
-    "British and irish fiction (fictional works by one author)",
-    "Category: British Literature",
-    "Category: Humour",
-    "Category: Novels",
-    "College stories",
-    "College students",
-    "College students -- Fiction",
-    "College students in fiction",
-    "English College stories",
-    "English Love stories",
-    "Fiction",
-    "Love stories",
-    "Man-woman relationships",
-    "Oxford (England) -- Fiction",
-    "University of Oxford -- Fiction",
-    "University of Oxford in fiction",
-    "Young women",
-    "Young women -- Fiction",
-    "Young women in fiction"
-  ],
   "librivox_url": "https://librivox.org/zuleika-dobson-by-max-beerbohm/",
   "gutenberg_id": 1845,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1845",
@@ -113,13 +91,19 @@
   "ol_work_key": "/works/OL767580W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 172,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54502345M"
+  "representative_edition_key": "/books/OL54502345M",
+  "wikidata_qid": "Q8075113",
+  "original_title": "Zuleika Dobson",
+  "original_language": "eng"
 }

@@ -6,5 +6,76 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Krasznahorkai_L%C3%A1szl%C3%B3_%28D%C3%A9ri_Mikl%C3%B3s%29_%283x4_cropped%29.jpg/400px-Krasznahorkai_L%C3%A1szl%C3%B3_%28D%C3%A9ri_Mikl%C3%B3s%29_%283x4_cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Krasznahorkai",
   "open_library_url": "https://openlibrary.org/authors/OL565295A",
-  "birth_year": 1954
+  "birth_year": 1954,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q512062",
+  "nationality": [
+    "HU"
+  ],
+  "viaf_id": "87286403",
+  "ol_author_key": "/authors/OL6759572A",
+  "awards": [
+    {
+      "name": "Kossuth Prize",
+      "year": 2004
+    },
+    {
+      "name": "International Booker Prize",
+      "year": 2015
+    },
+    {
+      "name": "Vilenica Prize",
+      "year": 2014
+    },
+    {
+      "name": "America Award in Literature",
+      "year": 2014
+    },
+    {
+      "name": "Laureate of the Hungarian Republic",
+      "year": 2002
+    },
+    {
+      "name": "Márai Sándor Prize",
+      "year": 1998
+    },
+    {
+      "name": "Móricz Zsigmond Grant",
+      "year": 1983
+    },
+    {
+      "name": "Prize of the Society of Writers",
+      "year": 2008
+    },
+    {
+      "name": "Alföld Prize",
+      "year": 1999
+    },
+    {
+      "name": "Preis der SWR-Bestenliste",
+      "year": 1993
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 2021
+    },
+    {
+      "name": "National Book Award for Translated Literature",
+      "year": 2019
+    },
+    {
+      "name": "Prix Formentor",
+      "year": 2024
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2025
+    }
+  ]
 }

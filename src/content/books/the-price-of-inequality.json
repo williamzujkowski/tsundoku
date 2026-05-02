@@ -4,7 +4,9 @@
   "category": "Economics",
   "priority": 1,
   "slug": "the-price-of-inequality",
-  "tags": [],
+  "tags": [
+    "economics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9328023-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9328023-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20662505W",
@@ -16,9 +18,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Business & Economics"
-  ],
   "ddc": [
     "305.50973"
   ],

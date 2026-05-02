@@ -6,5 +6,67 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/MKr377543_Kazuo_Ishiguro_%28A_Pale_View_of_Hills%2C_Cannes_2025%29.jpg/400px-MKr377543_Kazuo_Ishiguro_%28A_Pale_View_of_Hills%2C_Cannes_2025%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kazuo_Ishiguro",
   "open_library_url": "https://openlibrary.org/authors/OL28493A",
-  "birth_year": 1954
+  "birth_year": 1954,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q272855",
+  "nationality": [
+    "GB",
+    "JP"
+  ],
+  "viaf_id": "108702574",
+  "ol_author_key": "/authors/OL28493A",
+  "awards": [
+    {
+      "name": "Costa Book Awards",
+      "year": 1986
+    },
+    {
+      "name": "Officer of the Order of the British Empire",
+      "year": 1995
+    },
+    {
+      "name": "Booker Prize",
+      "year": 1989
+    },
+    {
+      "name": "Helmerich Award",
+      "year": 2013
+    },
+    {
+      "name": "Fellow of the Royal Society of Arts"
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 2017
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres",
+      "year": 1998
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1989
+    },
+    {
+      "name": "Bodley Medal",
+      "year": 2019
+    },
+    {
+      "name": "Knight Bachelor",
+      "year": 2018
+    },
+    {
+      "name": "Order of the Rising Sun"
+    },
+    {
+      "name": "Companion of Honour",
+      "year": 2025
+    }
+  ]
 }

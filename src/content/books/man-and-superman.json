@@ -17,13 +17,6 @@
   "pages": 182,
   "google_books_url": "https://play.google.com/store/books/details?id=Cmp-CgAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "English Dramatists",
-    "English drama",
-    "Translations into Italian",
-    "British and irish drama (dramatic works by one author)",
-    "Literatura Expressao Inglesa"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "822.912"
@@ -63,10 +56,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 130,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11985047M"
+  "representative_edition_key": "/books/OL11985047M",
+  "wikidata_qid": "Q725409",
+  "original_title": "Man and Superman",
+  "original_language": "eng"
 }

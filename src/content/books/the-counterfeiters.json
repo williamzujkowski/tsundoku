@@ -17,9 +17,6 @@
   "pages": 0,
   "first_published": 1925,
   "language": "eng",
-  "subjects": [
-    "Le Monde 100 Books of the Century"
-  ],
   "ddc": [
     "843.912",
     "843",
@@ -63,17 +60,27 @@
   "ol_work_key": "/works/OL630997W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 89,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Les faux-monnayeurs, roman.",
   "representative_edition_key": "/books/OL47683432M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "wikidata_qid": "Q276722",
+  "original_publisher": "La Nouvelle Revue française",
+  "awards": [
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

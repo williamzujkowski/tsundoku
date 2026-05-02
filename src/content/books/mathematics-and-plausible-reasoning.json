@@ -18,18 +18,6 @@
   "pages": 236,
   "google_books_url": "http://books.google.com/books?id=q6kvEAAAQBAJ&dq=Mathematics+and+Plausible+Reasoning+George+P%C3%B3lya&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Symbolic and mathematical Logic",
-    "Textbooks",
-    "Philosophy",
-    "Mathematics",
-    "Mathematics textbooks",
-    "Logic, Symbolic and mathematical",
-    "Logique symbolique et mathématique",
-    "Mathématiques",
-    "Philosophie",
-    "Reasoning"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "511.3",
@@ -61,13 +49,19 @@
   "ol_work_key": "/works/OL1213680W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 32,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34133228M"
+  "representative_edition_key": "/books/OL34133228M",
+  "wikidata_qid": "Q25051573",
+  "original_title": "Mathematics and plausible reasoning",
+  "original_language": "eng"
 }

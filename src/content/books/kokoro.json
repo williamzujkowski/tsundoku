@@ -17,18 +17,6 @@
   "pages": 257,
   "google_books_url": "https://play.google.com/store/books/details?id=qRsV8Ygs5rgC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Translations into English",
-    "Fiction",
-    "Japan",
-    "Social conditions",
-    "Roman japonais",
-    "Traductions anglaises",
-    "Fiction, short stories (single author)",
-    "Near and far eastern fiction (fictional works by one author)",
-    "Natsume, soseki, 1867-1916",
-    "Japanese literature"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "895.63",
@@ -105,15 +93,19 @@
   "ol_work_key": "/works/OL1174972W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 84,
   "first_published_circa": false,
   "original_language": "jpn",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24282786M"
+  "representative_edition_key": "/books/OL24282786M",
+  "wikidata_qid": "Q2623003",
+  "original_title": "こゝろ"
 }

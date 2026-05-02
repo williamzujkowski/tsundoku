@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jules_Verne",
   "open_library_url": "https://openlibrary.org/authors/OL113611A",
   "birth_year": 1828,
-  "death_year": 1905
+  "death_year": 1905,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q33977",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "76323989",
+  "ol_author_key": "/authors/OL113611A",
+  "awards": [
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 1892
+    },
+    {
+      "name": "Montyon Prize",
+      "year": 1867
+    },
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1870
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 1999
+    },
+    {
+      "name": "Montyon Prize",
+      "year": 1872
+    }
+  ]
 }

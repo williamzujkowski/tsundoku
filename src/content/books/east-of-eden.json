@@ -17,18 +17,6 @@
   "pages": 612,
   "google_books_url": "https://play.google.com/store/books/details?id=OPy6E5ZhXs0C&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "migrant labor",
-    "historical fiction",
-    "domestic fiction",
-    "depravity",
-    "beneficence",
-    "love",
-    "the struggle for acceptance",
-    "self-destruction",
-    "guilt",
-    "freedom"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "823.91",
@@ -134,13 +122,21 @@
   "ol_work_key": "/works/OL23166W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 104,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24270513M"
+  "representative_edition_key": "/books/OL24270513M",
+  "wikidata_qid": "Q849701",
+  "original_title": "East of Eden",
+  "original_language": "eng",
+  "original_publisher": "Viking Press"
 }

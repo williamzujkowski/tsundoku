@@ -6,5 +6,52 @@
   "birth_year": 1920,
   "death_year": 2010,
   "bio": "Scottish poet and translator (1920-2010)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edwin%20Morgan%20by%20Alex%20Boyd.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edwin%20Morgan%20by%20Alex%20Boyd.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q638783",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "68969203",
+  "ol_author_key": "/authors/OL294424A",
+  "movements": [
+    "Scottish Renaissance"
+  ],
+  "awards": [
+    {
+      "name": "Officer of the Order of the British Empire"
+    },
+    {
+      "name": "Cholmondeley Award",
+      "year": 1968
+    },
+    {
+      "name": "King’s / Queen’s Gold Medal for Poetry"
+    },
+    {
+      "name": "Fellow of the Royal Society of Edinburgh"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Saltire Awards",
+      "year": 1983
+    },
+    {
+      "name": "honorary doctor of the University of Waikato",
+      "year": 1992
+    },
+    {
+      "name": "honorary master's degree",
+      "year": 1992
+    }
+  ]
 }

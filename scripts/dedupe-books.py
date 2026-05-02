@@ -25,7 +25,7 @@ BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 
 # Enrichment fields that indicate data quality (more = better entry to keep)
 ENRICHMENT_FIELDS = [
-    "description", "cover_url", "isbn", "first_published", "subjects",
+    "description", "cover_url", "isbn", "first_published", "subject_facet",
     "pages", "gutenberg_url", "librivox_url", "hathitrust_url",
     "worldcat_url", "oclc_id", "tags",
 ]

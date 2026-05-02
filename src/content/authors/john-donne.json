@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Donne",
   "open_library_url": "https://openlibrary.org/authors/OL123428A",
   "birth_year": 1572,
-  "death_year": 1631
+  "death_year": 1631,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q140412",
+  "viaf_id": "73852666",
+  "ol_author_key": "/authors/OL123428A"
 }

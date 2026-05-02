@@ -18,17 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=MG8ohto0bTgC&dq=Virtual+Light+William+Gibson&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Science fiction",
-    "Twenty-first century",
-    "California",
-    "Fiction, science fiction, general",
-    "Science-fiction",
-    "California, fiction",
-    "New York Times reviewed",
-    "Bridge Trilogy"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -56,10 +45,21 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40373191M"
+  "representative_edition_key": "/books/OL40373191M",
+  "wikidata_qid": "Q897105",
+  "original_title": "Virtual Light",
+  "original_language": "eng",
+  "series": {
+    "name": "Bridge trilogy",
+    "position": 1
+  }
 }

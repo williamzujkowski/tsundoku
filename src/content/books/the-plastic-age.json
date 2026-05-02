@@ -15,13 +15,6 @@
   "description": "\"Student life in a New England college. Sequel: Lord of himself.\" Cf. Hanna, A. Mirror for the nation.",
   "cover_url": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "subjects": [
-    "Category: American Literature",
-    "Category: History - Schools & Universities",
-    "Category: Novels",
-    "College students",
-    "United States -- Social life and customs -- 20th century -- Fiction"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 16532,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/16532",
@@ -53,10 +46,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48318023M"
+  "representative_edition_key": "/books/OL48318023M",
+  "wikidata_qid": "Q7757399",
+  "original_language": "eng"
 }

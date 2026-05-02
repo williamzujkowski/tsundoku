@@ -5,5 +5,33 @@
   "open_library_url": "https://openlibrary.org/authors/OL2764733A",
   "birth_year": 1903,
   "death_year": 1995,
-  "bio": "Czech-born American literatury critic (1903–1995)"
+  "bio": "Czech-born American literatury critic (1903–1995)",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q732895",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "90637133",
+  "ol_author_key": "/authors/OL2764733A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1951
+    },
+    {
+      "name": "Order of Tomáš Garrigue Masaryk, 1st class"
+    },
+    {
+      "name": "Sterling Professor"
+    },
+    {
+      "name": "Fellow of the British Academy"
+    }
+  ]
 }

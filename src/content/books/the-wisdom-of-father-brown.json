@@ -18,27 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=_rTsmfQV964C&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Brown, Father (Fictitious character) -- Fiction",
-    "Category: British Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Short Stories",
-    "Catholic Church",
-    "Catholics",
-    "Catholics -- Fiction",
-    "Clergy",
-    "Clergy -- Fiction",
-    "Detective Fiction",
-    "Detective and mystery stories, English",
-    "England -- Fiction",
-    "English Detective and mystery stories",
-    "English Short stories",
-    "Father Brown (Fictitious character)",
-    "Fiction",
-    "Fiction, mystery & detective, traditional",
-    "Priests",
-    "Translations into Polish"
-  ],
   "librivox_url": "https://librivox.org/the-wisdom-of-father-brown-by-g-k-chesterton/",
   "gutenberg_id": 223,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/223",
@@ -90,13 +69,19 @@
   "ol_work_key": "/works/OL76483W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781546327707",
-  "representative_edition_key": "/books/OL34796355M"
+  "representative_edition_key": "/books/OL34796355M",
+  "wikidata_qid": "Q74483",
+  "original_title": "The Wisdom of Father Brown",
+  "original_language": "eng"
 }

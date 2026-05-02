@@ -1,7 +1,7 @@
 {
   "title": "Dandelion Wine",
   "author": "Ray Bradbury",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "dandelion-wine",
   "tags": [
@@ -21,18 +21,6 @@
   "oclc_id": "4308209",
   "worldcat_url": "https://www.worldcat.org/oclc/4308209",
   "lccn": "57007824",
-  "subjects": [
-    "Fiction",
-    "Boys",
-    "City and town life",
-    "Translations into Russian",
-    "Science fiction, American",
-    "American Science fiction",
-    "Illinois, fiction",
-    "Fiction, coming of age",
-    "Bildungsromans",
-    "American Fantasy fiction"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "813.54"
@@ -67,10 +55,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 61,
   "first_published_circa": false,
   "first_edition_isbn": "9785557022361",
-  "representative_edition_key": "/books/OL7824242M"
+  "representative_edition_key": "/books/OL7824242M",
+  "wikidata_qid": "Q1810196",
+  "original_title": "Dandelion Wine",
+  "original_language": "eng",
+  "original_publisher": "Doubleday"
 }

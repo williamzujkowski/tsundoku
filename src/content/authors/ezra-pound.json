@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ezra_Pound",
   "open_library_url": "https://openlibrary.org/authors/OL1966702A",
   "birth_year": 1885,
-  "death_year": 1972
+  "death_year": 1972,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q163366",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "24606774",
+  "ol_author_key": "/authors/OL1966702A",
+  "awards": [
+    {
+      "name": "Bollingen Prize",
+      "year": 1948
+    },
+    {
+      "name": "Fellowship of the Academy of American Poets",
+      "year": 1963
+    }
+  ]
 }

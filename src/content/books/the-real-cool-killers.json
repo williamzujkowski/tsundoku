@@ -10,22 +10,10 @@
   "cover_url": "https://covers.openlibrary.org/b/id/419748-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/419748-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5154719W",
-  "first_published": 1969,
+  "first_published": 1959,
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
-  "subjects": [
-    "African American police",
-    "Coffin Ed Johnson (Fictitious character)",
-    "Fiction",
-    "Grave Digger Jones (Fictitious character)",
-    "Police",
-    "New york (n.y.), fiction",
-    "Fiction, mystery & detective, general",
-    "African americans, fiction",
-    "Jones, grave digger (fictitious character), fiction",
-    "Johnson, coffin ed (fictitious character), fiction"
-  ],
+  "copyright_status": "likely_public_domain",
   "description": "The Real Cool Killers is a hardboiled crime fiction novel written by Chester Himes. Published in 1959, it is the second book in the Grave Digger Jones & Coffin Ed Johnson Mysteries. The protagonists of the novel, Grave Digger Jones and Coffin Ed, are a pair of black detectives who patrol the dangerous slums of Harlem. The book was originally published in French under the title Il pleut des coups durs.",
   "pages": 159,
   "isbn": "9780586027981",
@@ -55,13 +43,19 @@
   "ol_work_key": "/works/OL5154719W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "058602798X",
-  "representative_edition_key": "/books/OL2060699M"
+  "representative_edition_key": "/books/OL2060699M",
+  "wikidata_qid": "Q932786",
+  "original_title": "The Real Cool Killers",
+  "original_publisher": "Avon"
 }

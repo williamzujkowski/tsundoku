@@ -15,18 +15,6 @@
   "pages": 338,
   "google_books_url": "http://books.google.com/books?id=kPaKDQAAQBAJ&dq=Paradise+Toni+Morrison&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Communal living",
-    "African Americans",
-    "Women",
-    "Oklahoma",
-    "Afro-Americans",
-    "African American women",
-    "Young women",
-    "City and town life",
-    "Domestic fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54",
@@ -92,11 +80,19 @@
   "ol_work_key": "/works/OL50561W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28281316M"
+  "representative_edition_key": "/books/OL28281316M",
+  "wikidata_qid": "Q7134233",
+  "original_title": "Paradise",
+  "original_language": "eng",
+  "original_publisher": "Alfred A. Knopf"
 }

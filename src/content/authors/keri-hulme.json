@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Keri_Hulme",
   "open_library_url": "https://openlibrary.org/authors/OL733502A",
   "birth_year": 1947,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q263613",
+  "nationality": [
+    "NZ"
+  ],
+  "viaf_id": "61567391",
+  "ol_author_key": "/authors/OL733502A",
+  "awards": [
+    {
+      "name": "Booker Prize",
+      "year": 1985
+    },
+    {
+      "name": "Katherine Mansfield Memorial Award",
+      "year": 1975
+    },
+    {
+      "name": "Robert Burns Fellowship",
+      "year": 1977
+    }
+  ]
 }

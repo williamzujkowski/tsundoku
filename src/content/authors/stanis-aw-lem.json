@@ -7,5 +7,83 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem",
   "open_library_url": "https://openlibrary.org/authors/OL29655A",
   "birth_year": 1921,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6530",
+  "nationality": [
+    "PL"
+  ],
+  "viaf_id": "56612733",
+  "ol_author_key": "/authors/OL29655A",
+  "awards": [
+    {
+      "name": "Order of the White Eagle (Third Polish Republic)",
+      "year": 1996
+    },
+    {
+      "name": "Golden Medal for Merit to Culture",
+      "year": 2005
+    },
+    {
+      "name": "Franz Kafka Prize",
+      "year": 1991
+    },
+    {
+      "name": "Grand Prix de Littérature Policière",
+      "year": 1979
+    },
+    {
+      "name": "Work Flag Order, 2nd class",
+      "year": 1979
+    },
+    {
+      "name": "Commander of the Order of Polonia Restituta",
+      "year": 1970
+    },
+    {
+      "name": "Officer of the Order of Polonia Restituta",
+      "year": 1959
+    },
+    {
+      "name": "Gold Cross of Merit",
+      "year": 1955
+    },
+    {
+      "name": "honorary citizen of Kraków",
+      "year": 2003
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 1985
+    },
+    {
+      "name": "Geffen Award",
+      "year": 2003
+    },
+    {
+      "name": "honorary doctor of the Jagiellonian University of Krakow"
+    },
+    {
+      "name": "Kraków Book of the Month",
+      "year": 1999
+    },
+    {
+      "name": "Polish PEN Club Award Jan Parandowski",
+      "year": 1995
+    },
+    {
+      "name": "Seiun Awards",
+      "year": 1977
+    },
+    {
+      "name": "honorary doctor of Wrocław University of Science and Technology",
+      "year": 1981
+    }
+  ]
 }

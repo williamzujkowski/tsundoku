@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Fenimore_Cooper",
   "open_library_url": "https://openlibrary.org/authors/OL39524A",
   "birth_year": 1789,
-  "death_year": 1851
+  "death_year": 1851,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q167856",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27062769",
+  "ol_author_key": "/authors/OL39524A",
+  "awards": [
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2015
+    }
+  ]
 }

@@ -6,5 +6,17 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/SJP1416_%289717460065%29.jpg/400px-SJP1416_%289717460065%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Bamford",
   "open_library_url": "https://openlibrary.org/authors/OL1221102A",
-  "birth_year": 1946
+  "birth_year": 1946,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1680004",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "29861799",
+  "ol_author_key": "/authors/OL1221102A"
 }

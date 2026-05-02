@@ -20,16 +20,6 @@
   "oclc_id": "2890051",
   "worldcat_url": "https://www.worldcat.org/oclc/2890051",
   "lccn": "77013712",
-  "subjects": [
-    "City and town life",
-    "Fiction",
-    "American Science fiction",
-    "Long Now Manual for Civilization",
-    "City and town life -- Fiction",
-    "Fiction, science fiction, general",
-    "Urban folklore",
-    "Science fiction"
-  ],
   "copyright_status": "in_copyright",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=ppt.ssfcbz201710000350",
   "hathitrust_rights": "Limited (search-only)",
@@ -59,11 +49,25 @@
   "ol_work_key": "/works/OL56835W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL39809265M"
+  "representative_edition_key": "/books/OL39809265M",
+  "wikidata_qid": "Q3706366",
+  "original_title": "Dhalgren",
+  "original_language": "eng",
+  "original_publisher": "Bantam Books",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

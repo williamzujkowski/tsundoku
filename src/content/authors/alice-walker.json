@@ -6,5 +6,68 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Alice_Walker.jpg/400px-Alice_Walker.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Walker",
   "open_library_url": "https://openlibrary.org/authors/OL217774A",
-  "birth_year": 1944
+  "birth_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q215868",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108495772",
+  "ol_author_key": "/authors/OL2629213A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1977
+    },
+    {
+      "name": "Lillian Smith Book Award",
+      "year": 1973
+    },
+    {
+      "name": "Lillian Smith Book Award",
+      "year": 1984
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 1997
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1983
+    },
+    {
+      "name": "Candace Award",
+      "year": 1982
+    },
+    {
+      "name": "California Hall of Fame",
+      "year": 2006
+    },
+    {
+      "name": "Carl Sandburg Literary Award",
+      "year": 2016
+    },
+    {
+      "name": "LennonOno Grant for Peace",
+      "year": 2010
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1986
+    },
+    {
+      "name": "honorary degree from Spelman College",
+      "year": 1995
+    },
+    {
+      "name": "National Book Award",
+      "year": 1983
+    }
+  ]
 }

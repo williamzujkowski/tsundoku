@@ -7,5 +7,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson",
   "open_library_url": "https://openlibrary.org/authors/OL18405A",
   "birth_year": 1803,
-  "death_year": 1882
+  "death_year": 1882,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q48226",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27079964",
+  "ol_author_key": "/authors/OL18405A",
+  "movements": [
+    "Western philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    }
+  ]
 }

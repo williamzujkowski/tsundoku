@@ -7,5 +7,56 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hermann_Hesse",
   "open_library_url": "https://openlibrary.org/authors/OL76437A",
   "birth_year": 1877,
-  "death_year": 1962
+  "death_year": 1962,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q25973",
+  "nationality": [
+    "CH",
+    "DE",
+    "RU"
+  ],
+  "viaf_id": "41841418",
+  "ol_author_key": "/authors/OL76437A",
+  "movements": [
+    "existentialism"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1946
+    },
+    {
+      "name": "Pour le Mérite for Sciences and Arts order"
+    },
+    {
+      "name": "Bauernfeld prize",
+      "year": 1905
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 1955
+    },
+    {
+      "name": "Gottfried-Keller-Preis",
+      "year": 1936
+    },
+    {
+      "name": "Goethe Prize of the City of Frankfurt",
+      "year": 1946
+    },
+    {
+      "name": "Wilhelm Raabe Prize",
+      "year": 1950
+    },
+    {
+      "name": "Pour le Mérite"
+    }
+  ]
 }

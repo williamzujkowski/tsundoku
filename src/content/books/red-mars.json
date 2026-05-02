@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=R8OTfyIAmdEC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Mars",
-    "science fiction",
-    "terraforming",
-    "Long Now Manual for Civilization",
-    "Ciencia-ficción",
-    "Ficción",
-    "Fiction",
-    "nation building",
-    "American Science fiction",
-    "Space colonies"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -64,11 +52,41 @@
   "ol_work_key": "/works/OL81665W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 37,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24296321M"
+  "representative_edition_key": "/books/OL24296321M",
+  "wikidata_qid": "Q3294969",
+  "original_title": "Red Mars",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1997
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1992
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1999
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1994
+    }
+  ],
+  "series": {
+    "name": "Mars trilogy",
+    "position": 1
+  }
 }

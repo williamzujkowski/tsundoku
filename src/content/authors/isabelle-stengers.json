@@ -5,5 +5,17 @@
   "open_library_url": "https://openlibrary.org/authors/OL195464A",
   "bio": "Belgian philosopher of science and scientist (born 1949)",
   "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isabelle-stengers.jpg?width=400",
-  "birth_year": 1949
+  "birth_year": 1949,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q444852",
+  "nationality": [
+    "BE"
+  ],
+  "viaf_id": "108549044",
+  "ol_author_key": "/authors/OL195464A"
 }

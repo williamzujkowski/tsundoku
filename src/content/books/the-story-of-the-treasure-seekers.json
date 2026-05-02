@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=8sjvsgEACAAJ&dq=intitle:The+Story+of+the+Treasure+Seekers&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Brothers and sisters",
-    "Imagination",
-    "Moneymaking projects in fiction",
-    "Imagination in fiction",
-    "Family life",
-    "Family life in fiction",
-    "Brothers and sisters in fiction",
-    "Great Britain in fiction",
-    "Moneymaking projects"
-  ],
   "librivox_url": "https://librivox.org/the-story-of-the-treasure-seekers-by-e-nesbit/",
   "ddc": [
     "[Fic]",
@@ -99,13 +87,21 @@
   "ol_work_key": "/works/OL99522W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40976990M"
+  "representative_edition_key": "/books/OL40976990M",
+  "wikidata_qid": "Q7766848",
+  "original_title": "The Story of the Treasure Seekers",
+  "original_language": "eng",
+  "original_publisher": "T. Fisher Unwin"
 }

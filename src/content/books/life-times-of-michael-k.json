@@ -14,9 +14,6 @@
   "isbn": "9780099479154",
   "google_books_url": "http://books.google.com/books?id=uHiMEAAAQBAJ&dq=Life+%26+Times+of+Michael+K+J.M.+Coetzee&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Criticism and interpretation"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "828.99363",
@@ -55,11 +52,24 @@
   "pages": 214,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 28,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7318895M"
+  "representative_edition_key": "/books/OL7318895M",
+  "wikidata_qid": "Q761474",
+  "original_title": "Life & Times of Michael K",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Booker Prize",
+      "year": 1983
+    }
+  ]
 }

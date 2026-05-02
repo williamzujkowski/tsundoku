@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=p38sEAAAQBAJ&dq=Termination+Shock+Neal+Stephenson&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Climate",
-    "climate change",
-    "technology",
-    "nyt:combined-print-and-e-book-fiction=2021-12-05",
-    "New York Times bestseller",
-    "Long Now Manual for Civilization",
-    "Climatic changes",
-    "Fiction",
-    "World politics",
-    "Billionaires"
-  ],
   "lcc": [
     "PS-3569.00000000.T3868",
     "PS-3569.00000000.T3868T47 2021",
@@ -48,11 +36,17 @@
   "ol_work_key": "/works/OL24697326W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL35078792M"
+  "representative_edition_key": "/books/OL35078792M",
+  "wikidata_qid": "Q109284514",
+  "original_title": "Termination Shock",
+  "original_language": "eng"
 }

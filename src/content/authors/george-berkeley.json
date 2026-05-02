@@ -7,5 +7,18 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Berkeley",
   "open_library_url": "https://openlibrary.org/authors/OL108000A",
   "birth_year": 1685,
-  "death_year": 1753
+  "death_year": 1753,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q82049",
+  "viaf_id": "100192823",
+  "ol_author_key": "/authors/OL108000A",
+  "movements": [
+    "empiricism",
+    "Immaterialism"
+  ]
 }

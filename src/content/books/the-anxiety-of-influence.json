@@ -13,9 +13,6 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Anxiety of Influence: A Theory of Poetry is a 1973 book by Harold Bloom on the anxiety of influence in writing poetry. It was the first in a series of books that advanced a new \"revisionary\" or antithetical approach to literary criticism. Bloom's central thesis is that poets are hindered in their creative process by the ambiguous relationship they necessarily maintain with precursor poets.",
-  "subjects": [
-    "Literary Criticism"
-  ],
   "pages": 212,
   "isbn": "9780195112214",
   "ddc": [
@@ -39,13 +36,19 @@
   "ol_work_key": "/works/OL116464W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9780195112214",
-  "representative_edition_key": "/books/OL25930275M"
+  "representative_edition_key": "/books/OL25930275M",
+  "wikidata_qid": "Q451314",
+  "original_title": "The Anxiety of Influence",
+  "original_language": "eng"
 }

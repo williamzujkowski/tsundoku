@@ -17,18 +17,6 @@
   "pages": 481,
   "google_books_url": "http://books.google.com/books?id=PYxGEAAAQBAJ&dq=Libra+Don+DeLillo&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Assassination",
-    "Assassins",
-    "Presidents",
-    "Literature",
-    "Roman américain",
-    "Présidents",
-    "Assassinat",
-    "Romans, nouvelles",
-    "Fiction, historical"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -68,11 +56,25 @@
   "ol_work_key": "/works/OL1921198W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9303606M"
+  "representative_edition_key": "/books/OL9303606M",
+  "wikidata_qid": "Q1093807",
+  "original_title": "Libra",
+  "original_language": "eng",
+  "original_publisher": "Viking Press",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

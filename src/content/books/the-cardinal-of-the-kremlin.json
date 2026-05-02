@@ -11,18 +11,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "American Suspense fiction",
-    "Fiction",
-    "Intelligence service",
-    "Jack Ryan (Fictional character)",
-    "Jack Ryan (Fictitious character)",
-    "John Clark (Fictitious character)",
-    "Open Library Staff Picks",
-    "Spies",
-    "Spy stories",
-    "United States"
-  ],
   "description": "The Cardinal of the Kremlin is a spy thriller novel, written by Tom Clancy and released on May 20, 1988. A direct sequel to The Hunt for Red October (1984), it features CIA analyst Jack Ryan as he must extract CARDINAL, the agency's highest placed asset in the Soviet military, who is being pursued by the KGB. The novel also features the Strategic Defense Initiative (SDI), a conceptual missile-defense system developed by the United States during that time, and its Soviet counterpart.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/CardinalOfTheKremlin.JPG/250px-CardinalOfTheKremlin.JPG",
   "pages": 626,
@@ -61,11 +49,24 @@
   "ol_work_key": "/works/OL159397W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 29,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7893471M"
+  "representative_edition_key": "/books/OL7893471M",
+  "wikidata_qid": "Q732842",
+  "original_title": "The Cardinal of the Kremlin",
+  "original_language": "eng",
+  "original_publisher": "G. P. Putnam's Sons",
+  "series": {
+    "name": "Ryanverse",
+    "position": 5
+  }
 }

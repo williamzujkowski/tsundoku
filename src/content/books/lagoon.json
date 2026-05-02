@@ -19,18 +19,6 @@
   "pages": 320,
   "google_books_url": "https://play.google.com/store/books/details?id=DpSvBAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "subjects": [
-    "Nigeria, fiction",
-    "Fiction, fantasy, general",
-    "Fiction",
-    "End of the world",
-    "collection:otherwise_tiptree_award=honor",
-    "Extraterrestrial beings",
-    "Human-alien encounters",
-    "FICTION / Action & Adventure",
-    "FICTION / Fantasy / Urban Life",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.6"
@@ -64,11 +52,17 @@
   "ol_work_key": "/works/OL17756486W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27103569M"
+  "representative_edition_key": "/books/OL27103569M",
+  "wikidata_qid": "Q48815704",
+  "original_title": "Lagoon",
+  "original_language": "eng"
 }

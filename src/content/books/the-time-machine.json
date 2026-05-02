@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=IMHXDQAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Self-experimentation in medicine in fiction",
-    "Fiction",
-    "Time travel in fiction",
-    "Dystopias in fiction",
-    "Literature",
-    "Scientists",
-    "Classic Literature",
-    "Open Library Staff Picks",
-    "Scientists in fiction",
-    "Space warfare"
-  ],
   "librivox_url": "https://librivox.org/the-time-machine-by-hg-wells/",
   "ddc": [
     "823.91203",
@@ -195,17 +183,26 @@
   "ol_work_key": "/works/OL52267W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "und",
   "original_title": "Time machine",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29464322M"
+  "representative_edition_key": "/books/OL29464322M",
+  "wikidata_qid": "Q627333",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books",
+      "year": 2011
+    }
+  ]
 }

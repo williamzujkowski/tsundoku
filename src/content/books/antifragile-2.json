@@ -22,20 +22,6 @@
   "oclc_id": "909039584",
   "worldcat_url": "https://www.worldcat.org/oclc/909039584",
   "lccn": "2013431100",
-  "subjects": [
-    "BUSINESS & ECONOMICS / General",
-    "Business",
-    "Complexity (Philosophy)",
-    "Economics",
-    "Forecasting",
-    "Long Now Manual for Civilization",
-    "PSYCHOLOGY / General",
-    "Psychological Adaptation",
-    "Psychological Resilience",
-    "Resilience (Personality trait)",
-    "Social aspects",
-    "Uncertainty (Information theory)"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "155.24"
@@ -86,11 +72,23 @@
   "ol_work_key": "/works/OL16726829W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25393828M"
+  "representative_edition_key": "/books/OL25393828M",
+  "wikidata_qid": "Q4774726",
+  "original_title": "Antifragile",
+  "original_language": "eng",
+  "original_publisher": "Random House",
+  "series": {
+    "name": "Incerto"
+  }
 }

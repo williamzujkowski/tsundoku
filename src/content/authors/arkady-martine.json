@@ -6,5 +6,36 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL7635848A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arkady_Martine",
   "open_library_url": "https://openlibrary.org/authors/OL7635848A",
-  "birth_year": 1985
+  "birth_year": 1985,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q58640138",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Arkady Martine"
+  ],
+  "viaf_id": "2221154137634615370002",
+  "ol_author_key": "/authors/OL7635848A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2020
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2022
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2022
+    }
+  ]
 }

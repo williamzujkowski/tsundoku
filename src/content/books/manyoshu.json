@@ -4,7 +4,9 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "manyoshu",
-  "tags": [],
+  "tags": [
+    "poetry"
+  ],
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
@@ -14,9 +16,6 @@
   "isbn": "9780486123479",
   "first_published": 2012,
   "pages": 466,
-  "subjects": [
-    "Poetry"
-  ],
   "google_books_url": "https://play.google.com/store/books/details?id=eD3CAgAAQBAJ&source=gbs_api",
   "ol_work_key": "/works/OL28035072W",
   "_provenance": {

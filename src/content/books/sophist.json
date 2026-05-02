@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14372881-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14372881-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL380288W",
-  "first_published": 1867,
+  "first_published": -395,
   "language": "eng",
   "description": "Sophist is a profound philosophical dialogue written by the ancient Greek philosopher Plato, exploring the nature of sophistry, being, and non-being. Positioned as a follow-up to the *Theaetetus*, this work delves into the distinctions between a true philosopher and a sophist—one who engages in deceptive rhetoric and shallow argumentation. Through a conversation primarily between Socrates and several other interlocutors, Plato examines the complexities of existence and the definitions of reality...",
   "pages": 137,
@@ -23,18 +23,6 @@
   "gutenberg_id": 1735,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1735",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1735.html.images",
-  "subjects": [
-    "Ancient & Classical",
-    "Children's fiction",
-    "Fiction, historical, general",
-    "Filosofía griega",
-    "History & Surveys",
-    "Nonfiction",
-    "Philosophie",
-    "Philosophy",
-    "Socrates.",
-    "Sophists (Greek philosophy)"
-  ],
   "isbn": "9781976727399",
   "ddc": [
     "184",
@@ -89,19 +77,25 @@
   "ol_work_key": "/works/OL51948W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 232,
-  "first_published_circa": false,
+  "first_published_circa": true,
   "original_language": "gre",
   "original_title": "Apology.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL40538629M",
-  "translator": "Benjamin Jowett"
+  "translator": "Benjamin Jowett",
+  "wikidata_qid": "Q273668",
+  "series": {
+    "name": "Platonic dialogue"
+  }
 }

@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=Uv-uxB0sRKEC&dq=QED+Richard+Feynman&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Electrons.\u001e 0",
-    "Quantum electrodynamics",
-    "Photons",
-    "Addresses, essays, lectures",
-    "Electrons",
-    "Photons.\u001e 0",
-    "Light",
-    "Quantum theory",
-    "Kwantumelektrodynamica",
-    "Quantum chromodynamics"
-  ],
   "ddc": [
     "539.756",
     "537.6"
@@ -65,11 +53,17 @@
   "ol_work_key": "/works/OL271757W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7759155M"
+  "representative_edition_key": "/books/OL7759155M",
+  "wikidata_qid": "Q7265419",
+  "original_title": "QED: The Strange Theory of Light and Matter",
+  "original_language": "eng"
 }

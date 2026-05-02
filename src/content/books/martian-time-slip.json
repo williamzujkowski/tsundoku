@@ -16,15 +16,6 @@
   "pages": 276,
   "google_books_url": "http://books.google.com/books?id=ekorAQAAIAAJ&dq=Martian+Time-Slip+Philip+K.+Dick&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Fiction in English",
-    "Fiction, science fiction, general",
-    "Real estate development",
-    "Corrupt practices",
-    "American Science fiction",
-    "Time"
-  ],
   "copyright_status": "in_copyright",
   "isbn": "9780679761679",
   "ddc": [
@@ -49,13 +40,19 @@
   "ol_work_key": "/works/OL2172408W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 27,
   "first_published_circa": false,
   "first_edition_isbn": "0345344448",
-  "representative_edition_key": "/books/OL29648838M"
+  "representative_edition_key": "/books/OL29648838M",
+  "wikidata_qid": "Q1317921",
+  "original_title": "Martian Time-Slip",
+  "original_publisher": "Ballantine Books"
 }

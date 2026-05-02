@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/13790511-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/13790511-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL46401W",
-  "first_published": 1953,
+  "first_published": 1954,
   "language": "eng",
   "description": "Following the iconic I, Robot, the next adventure in the Robot series finds detective Elijah Baley swept into one of the most emotionally charged and dangerous situations in Earth’s history when he’s tasked with solving the murder of an illustrious robot scientist. “With his fertile imagination, his wit, and his prolific output, Isaac Asimov truly laid the foundation for all future generations of science fiction writers.”—Kevin J. Anderson, New York Times bestselling co-author of the Dune preque...",
   "isbn": "9780307792419",
@@ -20,18 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=reNQtm7Nv9kC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Robots",
-    "Fiction",
-    "Fiction, science fiction, hard science fiction",
-    "Fiction, mystery & detective, general",
-    "Interplanetary voyages",
-    "Murder",
-    "American literature",
-    "American Science fiction",
-    "Science fiction",
-    "Overpopulation"
-  ],
   "ddc": [
     "823.91",
     "813.54"
@@ -58,13 +46,32 @@
   "ol_work_key": "/works/OL46401W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 61,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28400939M"
+  "representative_edition_key": "/books/OL28400939M",
+  "wikidata_qid": "Q482085",
+  "original_title": "The Caves of Steel",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books",
+      "year": 2011
+    }
+  ],
+  "series": {
+    "name": "Robot series"
+  }
 }

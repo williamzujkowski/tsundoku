@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Agatha_Christie",
   "open_library_url": "https://openlibrary.org/authors/OL27695A",
   "birth_year": 1890,
-  "death_year": 1976
+  "death_year": 1976,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q35064",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Mary Westmacott"
+  ],
+  "viaf_id": "71388952",
+  "ol_author_key": "/authors/OL27695A",
+  "movements": [
+    "Knox's Commandments"
+  ],
+  "awards": [
+    {
+      "name": "Dame Commander of the Order of the British Empire",
+      "year": 1971
+    },
+    {
+      "name": "The Grand Master",
+      "year": 1955
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Anthony Award",
+      "year": 2000
+    },
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 1956
+    },
+    {
+      "name": "Order of the British Empire"
+    }
+  ]
 }

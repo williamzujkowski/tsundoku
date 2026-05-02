@@ -1,7 +1,7 @@
 {
   "title": "The Mysterious Island",
   "author": "Jules Verne",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-mysterious-island",
   "tags": [
@@ -20,26 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=-xlxAwAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Adventure stories",
-    "Castaways -- Fiction",
-    "Category: Adventure",
-    "Category: French Literature",
-    "Category: Novels",
-    "Category: Science-Fiction & Fantasy",
-    "Fiction",
-    "French Adventure stories",
-    "French Science fiction",
-    "French language materials",
-    "Islands",
-    "Islands of the Pacific -- Fiction",
-    "Open Library Staff Picks",
-    "Popular Print Disabled Books",
-    "Science Fiction",
-    "Science fiction",
-    "Translations from French",
-    "Translations into English"
-  ],
   "gutenberg_id": 1268,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1268",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1268.html.images",
@@ -126,12 +106,21 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 83,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "L' île mystérieuse",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37401564M"
+  "representative_edition_key": "/books/OL37401564M",
+  "wikidata_qid": "Q471005",
+  "original_publisher": "Hetzel éds",
+  "series": {
+    "name": "Voyages Extraordinaires",
+    "position": 12
+  }
 }

@@ -18,16 +18,6 @@
   "pages": 220,
   "google_books_url": "https://play.google.com/store/books/details?id=oJsOEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "subjects": [
-    "Fantasy",
-    "Horror",
-    "Fiction",
-    "Magic",
-    "Hugo Award Winner",
-    "award:hugo_award=2023",
-    "award:hugo_award=novel",
-    "American literature"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "PS-3611.00000000.I597N4 2022",
@@ -46,11 +36,24 @@
   "ol_work_key": "/works/OL24510090W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34158510M"
+  "representative_edition_key": "/books/OL34158510M",
+  "wikidata_qid": "Q122238085",
+  "original_title": "Nettle & Bone",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2023
+    }
+  ]
 }

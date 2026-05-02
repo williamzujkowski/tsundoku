@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Hardy",
   "open_library_url": "https://openlibrary.org/authors/OL18277A",
   "birth_year": 1840,
-  "death_year": 1928
+  "death_year": 1928,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q132805",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "54148778",
+  "ol_author_key": "/authors/OL18277A",
+  "movements": [
+    "naturalism"
+  ],
+  "awards": [
+    {
+      "name": "Order of Merit",
+      "year": 1909
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    }
+  ]
 }

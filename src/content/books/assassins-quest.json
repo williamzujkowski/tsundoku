@@ -23,18 +23,6 @@
   "lccn": "96042354",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=uva.x004745510",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "The Realm of the Elderlings",
-    "The Farseer Trilogy",
-    "Assassins",
-    "Fiction",
-    "Fantasy",
-    "Imaginary places",
-    "War stories",
-    "Coups d'état",
-    "Magic",
-    "Imperialism"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -63,11 +51,24 @@
   "ol_work_key": "/works/OL2707231W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 21,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30698249M"
+  "representative_edition_key": "/books/OL30698249M",
+  "wikidata_qid": "Q2500981",
+  "original_title": "Assassin's Quest",
+  "original_language": "eng",
+  "original_publisher": "HarperCollins",
+  "series": {
+    "name": "The Farseer Trilogy",
+    "position": 3
+  }
 }

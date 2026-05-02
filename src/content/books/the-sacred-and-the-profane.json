@@ -11,9 +11,6 @@
   "isbn": "015679201X",
   "first_published": 1959,
   "pages": 268,
-  "subjects": [
-    "History"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=zBzzv977CLgC&dq=The+Sacred+and+the+Profane+Mircea+Eliade&hl=&source=gbs_api",
   "reading_status": "read",
@@ -49,13 +46,19 @@
   "ol_work_key": "/works/OL748585W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 38,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL19060227M"
+  "representative_edition_key": "/books/OL19060227M",
+  "wikidata_qid": "Q66738102",
+  "original_title": "The Sacred and the Profane: the Nature of Religion",
+  "original_publisher": "Harcourt"
 }

@@ -23,18 +23,6 @@
   "oclc_id": "890625620",
   "worldcat_url": "https://www.worldcat.org/oclc/890625620",
   "lccn": "2014046162",
-  "subjects": [
-    "Alice (fictitious character : carroll), fiction",
-    "British and irish fiction (fictional works by one author)",
-    "Fiction, fantasy, general",
-    "JUVENILE FICTION",
-    "classics",
-    "Fantasy & Magic",
-    "Imagination & Play",
-    "adventure and adventurers",
-    "adventure and adventurers, fiction",
-    "adventure stories"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -66,11 +54,17 @@
   "ol_work_key": "/works/OL17346803W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51328810M"
+  "representative_edition_key": "/books/OL51328810M",
+  "wikidata_qid": "Q20856830",
+  "original_title": "Aurora",
+  "original_language": "eng"
 }

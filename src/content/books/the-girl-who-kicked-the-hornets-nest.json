@@ -6,15 +6,12 @@
   "slug": "the-girl-who-kicked-the-hornets-nest",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL31709969W",
-  "first_published": 2007,
+  "first_published": 2005,
   "description": "#1 NATIONAL BESTSELLER • In this “thoroughly gripping” (New York Times) continuation of the Girl with the Dragon Tattoo series, Lisbeth Salander lies in critical condition in a Swedish hospital, a bullet in her head. But she's fighting for her life in more ways than one: if and when she recovers, she'll stand trial for three murders. • Also known as the Millennium series In the next installment of the Millennium series, with the help of Mikael Blomkvist, Salander will need to identify those in a...",
   "cover_url": "https://books.google.com/books/content?id=AZ5J6B1-4BoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=AZ5J6B1-4BoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780307593672",
   "pages": 577,
-  "subjects": [
-    "Fiction"
-  ],
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=AZ5J6B1-4BoC&source=gbs_api",
   "reading_status": "want",
@@ -78,17 +75,33 @@
   "ol_work_key": "/works/OL14909364W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 48,
   "first_published_circa": false,
   "original_language": "nor",
   "original_title": "Luftslottet som sprengtes",
   "first_edition_isbn": "9788205347045",
-  "representative_edition_key": "/books/OL24296949M"
+  "representative_edition_key": "/books/OL24296949M",
+  "wikidata_qid": "Q1164291",
+  "original_publisher": "Norstedts Förlag",
+  "awards": [
+    {
+      "name": "Glass Key award",
+      "year": 2008
+    }
+  ],
+  "series": {
+    "name": "Millennium",
+    "position": 3
+  }
 }

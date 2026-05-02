@@ -7,5 +7,19 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Luther",
   "open_library_url": "https://openlibrary.org/authors/OL66601A",
   "birth_year": 1483,
-  "death_year": 1546
+  "death_year": 1546,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9554",
+  "viaf_id": "14773105",
+  "ol_author_key": "/authors/OL66601A",
+  "movements": [
+    "German Renaissance",
+    "Protestant Reformation",
+    "Protestantism"
+  ]
 }

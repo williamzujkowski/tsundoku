@@ -19,15 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=TeekEAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Science fiction",
-    "Wormholes (Physics)",
-    "Fiction",
-    "Space warfare",
-    "Anthropologists",
-    "Interplanetary voyages",
-    "Space flight"
-  ],
   "lcc": [
     "PR-6052.00000000.A485 A44 2006"
   ],
@@ -43,11 +34,17 @@
   "ol_work_key": "/works/OL8368450W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 21,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL46613408M"
+  "representative_edition_key": "/books/OL46613408M",
+  "wikidata_qid": "Q901913",
+  "original_title": "The Algebraist",
+  "original_language": "eng"
 }

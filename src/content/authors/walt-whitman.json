@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Walt_Whitman",
   "open_library_url": "https://openlibrary.org/authors/OL23178A",
   "birth_year": 1819,
-  "death_year": 1892
+  "death_year": 1892,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q81438",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "2478331",
+  "ol_author_key": "/authors/OL23178A",
+  "awards": [
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2009
+    }
+  ]
 }

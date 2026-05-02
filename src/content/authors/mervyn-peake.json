@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mervyn_Peake",
   "open_library_url": "https://openlibrary.org/authors/OL2644841A",
   "birth_year": 1911,
-  "death_year": 1968
+  "death_year": 1968,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6515",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "24606270",
+  "ol_author_key": "/authors/OL2644841A",
+  "awards": [
+    {
+      "name": "Heinemann Award",
+      "year": 1951
+    }
+  ]
 }

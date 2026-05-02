@@ -20,16 +20,6 @@
   "oclc_id": "12103029",
   "worldcat_url": "https://www.worldcat.org/oclc/12103029",
   "lccn": "85011141",
-  "subjects": [
-    "Nonviolence",
-    "Quaker authors",
-    "Fiction",
-    "Science fiction",
-    "Feminism",
-    "Fiction, general",
-    "New York Times reviewed",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -51,13 +41,33 @@
   "ol_work_key": "/works/OL1882196W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "0877957630",
-  "representative_edition_key": "/books/OL9527162M"
+  "representative_edition_key": "/books/OL9527162M",
+  "wikidata_qid": "Q4656557",
+  "original_title": "A Door into Ocean",
+  "original_language": "eng",
+  "original_publisher": "Arbor House",
+  "awards": [
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1987
+    }
+  ],
+  "series": {
+    "name": "Elysium Cycle",
+    "position": 1
+  }
 }

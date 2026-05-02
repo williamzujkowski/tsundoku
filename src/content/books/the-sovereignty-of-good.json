@@ -19,18 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=s4qV3FFZ9eAC&dq=The+Sovereignty+of+Good+Iris+Murdoch&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Good and evil",
-    "Ethics",
-    "Addresses, essays, lectures",
-    "British and irish fiction (fictional works by one author)",
-    "Fiction, general",
-    "Morale",
-    "Ethics (philosophy)",
-    "PHILOSOPHY",
-    "Ethics & Moral Philosophy",
-    "Social"
-  ],
   "ddc": [
     "170.8",
     "171",
@@ -64,10 +52,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 28,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7488657M"
+  "representative_edition_key": "/books/OL7488657M",
+  "wikidata_qid": "Q20874700",
+  "original_title": "The Sovereignty of Good",
+  "original_language": "eng"
 }

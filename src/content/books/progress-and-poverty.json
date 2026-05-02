@@ -19,18 +19,6 @@
   "gutenberg_id": 55308,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/55308",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/55308.html.images",
-  "subjects": [
-    "Aneityumese language",
-    "Bibliography",
-    "Christian biography",
-    "Christian life",
-    "Church of England",
-    "Cree (Langue)",
-    "Fiction",
-    "German language",
-    "Readers",
-    "Spiritual life"
-  ],
   "description": "Progress and Poverty: An Inquiry into the Cause of Industrial Depressions and of Increase of Want with Increase of Wealth: The Remedy (P&P) is an 1879 book by social theorist and economist Henry George. It is a treatise on the questions of why poverty accompanies economic and technological progress and why economies exhibit a tendency toward cyclical boom and bust.",
   "isbn": "9781859982815",
   "ddc": [
@@ -359,10 +347,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9780231939522",
-  "representative_edition_key": "/books/OL8624858M"
+  "representative_edition_key": "/books/OL8624858M",
+  "wikidata_qid": "Q20566823",
+  "original_title": "Taith y pererin i'r teulu"
 }

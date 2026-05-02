@@ -6,5 +6,24 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Shoshana_Zuboff_at_Alexander_von_Humboldt_Institut.jpg/400px-Shoshana_Zuboff_at_Alexander_von_Humboldt_Institut.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Shoshana_Zuboff",
   "open_library_url": "https://openlibrary.org/authors/OL1078799A",
-  "birth_year": 1951
+  "birth_year": 1951,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q15953956",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "25746349",
+  "ol_author_key": "/authors/OL1078799A",
+  "awards": [
+    {
+      "name": "Axel Springer Award",
+      "year": 2019
+    }
+  ]
 }

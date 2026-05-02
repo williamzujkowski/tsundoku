@@ -8,7 +8,7 @@
     "le-monde-100"
   ],
   "reading_status": "read",
-  "description": "",
+  "description": "Scarlett O’Hara was not beautiful, but men seldom realized it when caught by her charm as\r\nthe Tarleton twins were.",
   "cover_url": "",
   "cover_url_large": "",
   "open_library_url": "",
@@ -137,13 +137,29 @@
   "ol_work_key": "/works/OL267933W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 244,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL27281472M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "wikidata_qid": "Q2870",
+  "original_title": "Gone with the Wind",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1937
+    },
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

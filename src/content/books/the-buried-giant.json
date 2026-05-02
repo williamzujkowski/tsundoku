@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=HX1oBAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Quests",
-    "Dragons",
-    "Knights",
-    "Giants",
-    "Fiction",
-    "FICTION / Fantasy / Historical",
-    "Husband and wife",
-    "Quests (Expeditions)",
-    "FICTION / Action & Adventure",
-    "Sons"
-  ],
   "ddc": [
     "823",
     "[Fic]"
@@ -92,10 +80,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 32,
   "first_published_circa": false,
   "first_edition_isbn": "9788467271621",
-  "representative_edition_key": "/books/OL27098895M"
+  "representative_edition_key": "/books/OL27098895M",
+  "wikidata_qid": "Q19363462",
+  "original_title": "The Buried Giant",
+  "original_language": "eng"
 }

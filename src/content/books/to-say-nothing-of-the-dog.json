@@ -1,7 +1,7 @@
 {
   "title": "To Say Nothing of the Dog",
   "author": "Connie Willis",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "to-say-nothing-of-the-dog",
   "tags": [
@@ -12,25 +12,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/982148-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/982148-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14858392W",
-  "first_published": 1997,
+  "first_published": 1998,
   "language": "eng",
   "description": "Ned Henry shuttles between the 1940s and the twenty-first century while researching Coventry Cathedral for a patron interested in rebuilding it until the time continuum is disrupted.",
   "isbn": "0613152425",
   "google_books_url": "http://books.google.com/books?id=rJhSPgAACAAJ&dq=To+Say+Nothing+of+the+Dog+Connie+Willis&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Hugo Award Winner",
-    "award:hugo_award=1999",
-    "award:hugo_award=novel",
-    "Time travel",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "Fiction, historical, general",
-    "England, fiction",
-    "Fantasy",
-    "Science Fiction"
-  ],
   "pages": 504,
   "ddc": [
     "813.54"
@@ -62,13 +50,43 @@
   "ol_work_key": "/works/OL14858392W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 22,
   "first_published_circa": false,
   "first_edition_isbn": "0553099957",
-  "representative_edition_key": "/books/OL7587900M"
+  "representative_edition_key": "/books/OL7587900M",
+  "wikidata_qid": "Q2719299",
+  "original_title": "To Say Nothing of the Dog",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1999
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1999
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 2002
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2001
+    }
+  ],
+  "series": {
+    "name": "Oxford time-traveling historians",
+    "position": 2
+  }
 }

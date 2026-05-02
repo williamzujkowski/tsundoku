@@ -17,15 +17,6 @@
   "google_books_url": "http://books.google.com/books?id=LEvhAAAAMAAJ&dq=The+Shockwave+Rider+John+Brunner&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Science fiction",
-    "Fiction in English",
-    "Nickie Haflinger (Fictitious character)",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "Nickie Haflinger (Fictitous character)",
-    "English Science fiction"
-  ],
   "isbn": "9780345301468",
   "ddc": [
     "823.914"
@@ -49,11 +40,19 @@
   "ol_work_key": "/works/OL7920689W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL10683870M"
+  "representative_edition_key": "/books/OL10683870M",
+  "wikidata_qid": "Q353231",
+  "original_title": "The Shockwave Rider",
+  "original_language": "eng",
+  "original_publisher": "Harper"
 }

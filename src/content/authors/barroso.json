@@ -5,5 +5,36 @@
   "open_library_url": "https://openlibrary.org/authors/OL116104A",
   "birth_year": 1888,
   "death_year": 1959,
-  "bio": "family name"
+  "bio": "family name",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2347483",
+  "nationality": [
+    "BR"
+  ],
+  "viaf_id": "6376000",
+  "ol_author_key": "/authors/OL116104A",
+  "awards": [
+    {
+      "name": "Commander of the Military Order of Christ"
+    },
+    {
+      "name": "Officer of the Military Order of Christ"
+    },
+    {
+      "name": "Grand Cross of the Order of Public Instruction"
+    },
+    {
+      "name": "Grand Cross of the Military Order of Saint James of the Sword"
+    },
+    {
+      "name": "Grand Cross of the Order of Cisneros",
+      "year": 1952
+    }
+  ]
 }

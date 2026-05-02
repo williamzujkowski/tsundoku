@@ -16,18 +16,6 @@
   "first_published": 1899,
   "google_books_url": "http://books.google.com/books?id=Tlh-0QEACAAJ&dq=intitle:Memoirs+of+a+Revolutionist&hl=&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Anarchism",
-    "Anarchism and anarchists",
-    "Anarchists",
-    "Biography",
-    "History",
-    "Politics and government",
-    "Revolutionists",
-    "Revolutionaries",
-    "Kropotkin, petr alekseevich, 1842-1921",
-    "Anarchists, biography"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "335.830924",
@@ -108,9 +96,15 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 100,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL18907776M"
+  "representative_edition_key": "/books/OL18907776M",
+  "wikidata_qid": "Q21524357",
+  "original_title": "Memoirs of a Revolutionist",
+  "original_language": "eng"
 }

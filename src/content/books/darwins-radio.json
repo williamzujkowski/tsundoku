@@ -22,18 +22,6 @@
   "oclc_id": "40940104",
   "worldcat_url": "https://www.worldcat.org/oclc/40940104",
   "lccn": "99021833",
-  "subjects": [
-    "Fiction",
-    "Women molecular biologists",
-    "DNA viruses",
-    "Science Fiction",
-    "Human evolution",
-    "Evolution",
-    "Viruses",
-    "Evolution (Biology)",
-    "Fiction, thrillers, general",
-    "Fiction, medical"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813",
@@ -67,11 +55,26 @@
   "ol_work_key": "/works/OL16508W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL36221M"
+  "representative_edition_key": "/books/OL36221M",
+  "wikidata_qid": "Q2246747",
+  "original_title": "Darwin's Radio",
+  "original_language": "eng",
+  "original_publisher": "Del Rey Books",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2001
+    }
+  ]
 }

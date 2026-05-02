@@ -16,18 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=k8L0u82qt68C&dq=The+Shipping+News+Annie+Proulx&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Domestic fiction",
-    "Family",
-    "Fiction",
-    "American literature",
-    "Families",
-    "National Book Award Winner",
-    "Women authors",
-    "award:national_book_award=1993",
-    "award:national_book_award=fiction",
-    "United States"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -79,11 +67,28 @@
   "ol_work_key": "/works/OL456089W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 57,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32489588M"
+  "representative_edition_key": "/books/OL32489588M",
+  "wikidata_qid": "Q11009630",
+  "original_title": "The Shipping News",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "National Book Award for Fiction",
+      "year": 1993
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1994
+    }
+  ]
 }

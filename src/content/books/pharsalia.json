@@ -13,18 +13,6 @@
   "first_published": 1486,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Campaigns",
-    "Criticism and interpretation",
-    "Early works to 1800",
-    "Facsimiles",
-    "History",
-    "Latin Epic poetry",
-    "Latin Manuscripts",
-    "Latin language",
-    "Literature and the war",
-    "Pharsalus, Battle of, 48 B. C."
-  ],
   "copyright_status": "public_domain",
   "description": "De Bello Civili, more commonly referred to as the Pharsalia, is a Roman epic poem written by the poet Lucan, detailing the civil war between Julius Caesar and the forces of the Roman Senate led by Pompey the Great. The poem's title is a reference to the Battle of Pharsalus, which occurred in 48 BC near Pharsalus, Thessaly, in Northern Greece. Caesar decisively defeated Pompey in this battle, which occupies all of the epic's seventh book. In the early twentieth century, translator J. D.",
   "isbn": "9780460875714",
@@ -171,12 +159,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 182,
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Pharsalia.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7592747M"
+  "representative_edition_key": "/books/OL7592747M",
+  "wikidata_qid": "Q678375"
 }

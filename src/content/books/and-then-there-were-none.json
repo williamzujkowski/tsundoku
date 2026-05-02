@@ -18,9 +18,6 @@
   "oclc_id": "816261188",
   "worldcat_url": "https://www.worldcat.org/oclc/816261188",
   "lccn": "40006132",
-  "subjects": [
-    "English literature, outlines, syllabi, etc."
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "823.9",
@@ -96,13 +93,19 @@
   "ol_work_key": "/works/OL471565W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 211,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9355644M"
+  "representative_edition_key": "/books/OL9355644M",
+  "wikidata_qid": "Q214132",
+  "original_title": "Ten Little Niggers",
+  "original_language": "eng"
 }

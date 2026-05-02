@@ -17,18 +17,6 @@
   "pages": 314,
   "google_books_url": "https://play.google.com/store/books/details?id=0AGrDwAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "subjects": [
-    "franchise:The Murderbot Diaries",
-    "series:The Murderbot Diaries",
-    "form:novel",
-    "genre:science fiction",
-    "nyt:combined-print-and-e-book-fiction=2020-05-24",
-    "New York Times bestseller",
-    "award:nebula_award=novel",
-    "award:hugo_award=2021",
-    "award:hugo_award=novel",
-    "Life on other planets"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "PS-3573.00000000.E4932",
@@ -54,11 +42,37 @@
   "ol_work_key": "/works/OL20735675W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29831122M"
+  "representative_edition_key": "/books/OL29831122M",
+  "wikidata_qid": "Q100540380",
+  "original_title": "Network Effect",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2021
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2021
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2021
+    }
+  ],
+  "series": {
+    "name": "The Murderbot Diaries",
+    "position": 5
+  }
 }

@@ -19,18 +19,6 @@
   "gutenberg_id": 61686,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/61686",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/61686.html.images",
-  "subjects": [
-    "Bildungsromans",
-    "Domestic fiction",
-    "Family relationships",
-    "Fathers and daughters",
-    "Fiction",
-    "Gamblers",
-    "Pulitzer Prize Winner",
-    "Social life and customs",
-    "award:pulitzer_prize=1925",
-    "award:pulitzer_prize=fiction"
-  ],
   "isbn": "9780736606646",
   "ddc": [
     "818",
@@ -96,13 +84,26 @@
   "ol_work_key": "/works/OL2646769W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 61,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9654819M"
+  "representative_edition_key": "/books/OL9654819M",
+  "wikidata_qid": "Q7549047",
+  "original_title": "So Big",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1925
+    }
+  ]
 }

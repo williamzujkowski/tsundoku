@@ -6,5 +6,18 @@
   "photo_url": "https://covers.openlibrary.org/a/id/6666060-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL126562A",
   "birth_year": 1865,
-  "death_year": 1947
+  "death_year": 1947,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234530",
+  "nationality": [
+    "GB",
+    "HU"
+  ],
+  "viaf_id": "39382131",
+  "ol_author_key": "/authors/OL126562A"
 }

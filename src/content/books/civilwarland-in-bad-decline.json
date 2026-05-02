@@ -20,15 +20,6 @@
   "oclc_id": "35025913",
   "worldcat_url": "https://www.worldcat.org/oclc/35025913",
   "lccn": "95004650",
-  "subjects": [
-    "American literature",
-    "fiction",
-    "literary fiction",
-    "20th century fiction",
-    "American Short stories",
-    "Fiction, short stories (single author)",
-    "United states, history, civil war, 1861-1865"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -54,11 +45,19 @@
   "ol_work_key": "/works/OL3288097W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26615880M"
+  "representative_edition_key": "/books/OL26615880M",
+  "wikidata_qid": "Q5124382",
+  "original_title": "CivilWarLand in Bad Decline",
+  "original_language": "eng",
+  "original_publisher": "Random House"
 }

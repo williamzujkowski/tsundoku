@@ -7,5 +7,80 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Octavio_Paz",
   "open_library_url": "https://openlibrary.org/authors/OL60534A",
   "birth_year": 1914,
-  "death_year": 1998
+  "death_year": 1998,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q46739",
+  "viaf_id": "41844743",
+  "ol_author_key": "/authors/OL60534A",
+  "movements": [
+    "modernism",
+    "surrealism"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1990
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1943
+    },
+    {
+      "name": "Miguel de Cervantes Prize",
+      "year": 1981
+    },
+    {
+      "name": "Xavier Villaurrutia Award",
+      "year": 1964
+    },
+    {
+      "name": "National Prize for Arts and Sciences",
+      "year": 1945
+    },
+    {
+      "name": "Neustadt International Prize for Literature",
+      "year": 1982
+    },
+    {
+      "name": "Princess of Asturias Award for Communications and Humanities",
+      "year": 2003
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 1984
+    },
+    {
+      "name": "Grand Cross of the Civil Order of Alfonso X the Wise",
+      "year": 1986
+    },
+    {
+      "name": "Grand Officer of the Order of Merit of the Italian Republic",
+      "year": 1991
+    },
+    {
+      "name": "Mariano de Cavia' Price"
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1977
+    },
+    {
+      "name": "Grand Cross of the Order of Isabella the Catholic",
+      "year": 1997
+    },
+    {
+      "name": "Menéndez Pelayo International Prize",
+      "year": 1987
+    },
+    {
+      "name": "Alfonso Reyes International Prize",
+      "year": 1985
+    }
+  ]
 }

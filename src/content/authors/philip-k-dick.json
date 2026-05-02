@@ -7,5 +7,73 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_K._Dick",
   "open_library_url": "https://openlibrary.org/authors/OL274606A",
   "birth_year": 1928,
-  "death_year": 1982
+  "death_year": 1982,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q171091",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Richard Phillipps",
+    "Jack Dowland"
+  ],
+  "viaf_id": "27063583",
+  "ol_author_key": "/authors/OL274606A",
+  "movements": [
+    "postmodern literature"
+  ],
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1963
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1975
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1978
+    },
+    {
+      "name": "Golden Graoully for Best Foreign Novel",
+      "year": 1979
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 1983
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 1985
+    },
+    {
+      "name": "Readercon Small Press Awards",
+      "year": 1989
+    },
+    {
+      "name": "Readercon Small Press Awards",
+      "year": 1990
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1991
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1993
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2005
+    }
+  ]
 }

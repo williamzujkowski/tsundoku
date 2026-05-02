@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ngaio_Marsh",
   "open_library_url": "https://openlibrary.org/authors/OL26952A",
   "birth_year": 1895,
-  "death_year": 1982
+  "death_year": 1982,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234392",
+  "nationality": [
+    "NZ"
+  ],
+  "viaf_id": "99813949",
+  "ol_author_key": "/authors/OL26952A",
+  "awards": [
+    {
+      "name": "Dame Commander of the Order of the British Empire"
+    },
+    {
+      "name": "The Grand Master",
+      "year": 1978
+    },
+    {
+      "name": "honorary doctor of the University of Canterbury",
+      "year": 1962
+    }
+  ]
 }

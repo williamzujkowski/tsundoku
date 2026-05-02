@@ -19,18 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=WhnuAAAAMAAJ&dq=War+with+the+Newts+Karel+%C4%8Capek&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Czech Science fiction",
-    "Continental european fiction (fictional works by one author)",
-    "Salamanders",
-    "Fiction",
-    "Science fiction",
-    "FICTION / Science Fiction / General",
-    "Allegories",
-    "Utopias",
-    "Czech Satire",
-    "Czech drama"
-  ],
   "description": "War with the Newts, also translated as Salamander Wars, is a 1936 satirical science fiction novel by Czech author Karel Čapek. It concerns the discovery in the Indian Ocean of a sea-dwelling race, an intelligent breed of newts, who are initially enslaved and exploited. They acquire human knowledge and rebel, leading to a global war for supremacy. There are obvious similarities to Čapek's earlier R.U.R., but also some original themes.",
   "isbn": "9781072527428",
   "ddc": [
@@ -93,17 +81,19 @@
   "ol_work_key": "/works/OL575639W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 75,
   "first_published_circa": false,
   "original_language": "cze",
   "original_title": "Válka s mloky",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL41287486M"
+  "representative_edition_key": "/books/OL41287486M",
+  "wikidata_qid": "Q1194994"
 }

@@ -17,18 +17,6 @@
   "pages": 129,
   "google_books_url": "https://play.google.com/store/books/details?id=1WqJAgAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "franchise:Discworld",
-    "series:Discworld",
-    "form:novel",
-    "genre:fantasy comedy",
-    "Discworld (Imaginary place)",
-    "Women soldiers",
-    "War",
-    "T¿umaczenia polskie",
-    "Powies c fantastyczna angielska",
-    "English literature"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "820",
@@ -57,11 +45,22 @@
   "ol_work_key": "/works/OL453799W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 41,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34489279M"
+  "representative_edition_key": "/books/OL34489279M",
+  "wikidata_qid": "Q1637773",
+  "original_title": "Monstrous Regiment",
+  "original_language": "eng",
+  "series": {
+    "name": "Discworld",
+    "position": 31
+  }
 }

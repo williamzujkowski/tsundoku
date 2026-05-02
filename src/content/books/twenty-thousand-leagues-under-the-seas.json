@@ -1,7 +1,7 @@
 {
   "title": "Twenty Thousand Leagues Under the Seas",
   "author": "Jules Verne",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "twenty-thousand-leagues-under-the-seas",
   "tags": [
@@ -10,26 +10,13 @@
     "sci-fi"
   ],
   "open_library_url": "https://openlibrary.org/works/OL26674157W",
-  "first_published": 1870,
+  "first_published": 1869,
   "language": "eng",
   "description": "When a huge sea monster wrecks several ships from beneath the sea, the \"Nautilus,\" a secret submarine helmed by the mysterious Captain Nemo, begins a mission to hunt down the beast.",
   "cover_url": "https://books.google.com/books/content?id=w6AFp-xfjP0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=w6AFp-xfjP0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781416500209",
   "pages": 484,
-  "subjects": [
-    "Adventure stories",
-    "Category: Adventure",
-    "Category: Classics of Literature",
-    "Category: French Literature",
-    "Category: Science-Fiction & Fantasy",
-    "Fiction",
-    "Science Fiction",
-    "Science fiction",
-    "Sea stories",
-    "Submarines (Ships) -- Fiction",
-    "Underwater exploration -- Fiction"
-  ],
   "google_books_url": "http://books.google.com/books?id=w6AFp-xfjP0C&dq=Twenty+Thousand+Leagues+Under+the+Seas+Jules+Verne&hl=&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "public_domain",
@@ -212,13 +199,32 @@
   "ol_work_key": "/works/OL1099280W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 383,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8456503M"
+  "representative_edition_key": "/books/OL8456503M",
+  "wikidata_qid": "Q183565",
+  "original_title": "Twenty Thousand Leagues Under the Sea",
+  "original_language": "fre",
+  "original_publisher": "Hetzel éds",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    }
+  ],
+  "series": {
+    "name": "Voyages Extraordinaires",
+    "position": 6
+  }
 }

@@ -7,5 +7,64 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Matheson",
   "open_library_url": "https://openlibrary.org/authors/OL19731A",
   "birth_year": 1926,
-  "death_year": 2013
+  "death_year": 2013,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q325130",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Logan Swanson"
+  ],
+  "viaf_id": "85394787",
+  "ol_author_key": "/authors/OL19731A",
+  "awards": [
+    {
+      "name": "Edgar Awards",
+      "year": 1973
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2010
+    },
+    {
+      "name": "Geffen Award",
+      "year": 2008
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 1958
+    },
+    {
+      "name": "World Horror Convention Grand Master Award",
+      "year": 1993
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 2008
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 1976
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 1990
+    },
+    {
+      "name": "World Fantasy Award for Best Collection",
+      "year": 1990
+    },
+    {
+      "name": "Bram Stoker Award for Best Fiction Collection",
+      "year": 1989
+    }
+  ]
 }

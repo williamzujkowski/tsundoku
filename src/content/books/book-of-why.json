@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8179733-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8179733-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17872278W",
-  "first_published": 2018,
+  "first_published": 2019,
   "language": "eng",
   "description": "A Turing Award-winning computer scientist and statistician shows how understanding causality has revolutionized science and will revolutionize artificial intelligence \"Correlation is not causation.\" This mantra, chanted by scientists for more than a century, has led to a virtual prohibition on causal talk. Today, that taboo is dead. The causal revolution, instigated by Judea Pearl and his colleagues, has cut through a century of confusion and established causality -- the study of cause and effec...",
   "isbn": "9780465097616",
@@ -20,18 +20,6 @@
   "oclc_id": "1003311466",
   "worldcat_url": "https://www.worldcat.org/oclc/1003311466",
   "lccn": "2017056458",
-  "subjects": [
-    "Nonfiction",
-    "Computers",
-    "Computer Science",
-    "Causation",
-    "Inference",
-    "SCIENCE",
-    "General",
-    "Kausalität",
-    "Induktion",
-    "Korrelation"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "BD-0541.00000000",
@@ -55,11 +43,17 @@
   "ol_work_key": "/works/OL17872278W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL36335066M"
+  "representative_edition_key": "/books/OL36335066M",
+  "wikidata_qid": "Q98199430",
+  "original_title": "The Book of Why",
+  "original_language": "eng"
 }

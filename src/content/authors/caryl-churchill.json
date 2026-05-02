@@ -6,5 +6,23 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Caryl_Churchill%2C_playwright.jpg/400px-Caryl_Churchill%2C_playwright.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Caryl_Churchill",
   "open_library_url": "https://openlibrary.org/authors/OL30327A",
-  "birth_year": 1938
+  "birth_year": 1938,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q463574",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "88348825",
+  "ol_author_key": "/authors/OL30327A",
+  "awards": [
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

@@ -20,18 +20,6 @@
   "oclc_id": "707964781",
   "worldcat_url": "https://www.worldcat.org/oclc/707964781",
   "lccn": "2014043158",
-  "subjects": [
-    "FICTION / Science Fiction / High Tech",
-    "FICTION / Science Fiction / General",
-    "FICTION / Science Fiction / Space Opera",
-    "Space colonies",
-    "Fiction",
-    "Extraterrestrial anthropology",
-    "Fiction, science fiction, general",
-    "award:nebula_award=novel",
-    "Large type books",
-    "Science fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -64,11 +52,24 @@
   "ol_work_key": "/works/OL16298967W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34594642M"
+  "representative_edition_key": "/books/OL34594642M",
+  "wikidata_qid": "Q4631472",
+  "original_title": "2312",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2013
+    }
+  ]
 }

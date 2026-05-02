@@ -13,9 +13,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=V2-ChsYrvloC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780060188702",
   "pages": 980,
-  "subjects": [
-    "Fiction"
-  ],
   "google_books_url": "http://books.google.com/books?id=V2-ChsYrvloC&dq=Don+Quixote+Miguel+de+Cervantes&hl=&source=gbs_api",
   "reading_status": "want",
   "gutenberg_id": 996,
@@ -601,12 +598,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "El ingenioso hidalgo don Quijote de la Mancha",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34359639M"
+  "representative_edition_key": "/books/OL34359639M",
+  "wikidata_qid": "Q128807217"
 }

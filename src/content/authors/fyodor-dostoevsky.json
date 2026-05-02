@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
   "open_library_url": "https://openlibrary.org/authors/OL22242A",
   "birth_year": 1821,
-  "death_year": 1881
+  "death_year": 1881,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q991",
+  "nationality": [
+    "RU"
+  ],
+  "alternate_names": [
+    "Д.",
+    "Друг Кузьмы Пруткова",
+    "Зубоскал",
+    "—ий",
+    "М.",
+    "Летописец",
+    "М-ий",
+    "Н. Н.",
+    "Пружинин",
+    "Зубоскалов",
+    "Ред.",
+    "Ф. Д.",
+    "N.N."
+  ],
+  "viaf_id": "104023256",
+  "ol_author_key": "/authors/OL22242A",
+  "movements": [
+    "literary realism"
+  ]
 }

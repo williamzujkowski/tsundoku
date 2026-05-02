@@ -16,14 +16,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/scarlet-sister-mary-by-julia-peterkin/",
-  "subjects": [
-    "Plantation workers",
-    "Pulitzer Prize Winner",
-    "African American women",
-    "Fiction",
-    "award:pulitzer_prize=fiction",
-    "award:pulitzer_prize=1929"
-  ],
   "isbn": "9780820319568",
   "ddc": [
     "813.54",
@@ -48,13 +40,26 @@
   "ol_work_key": "/works/OL2684125W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL682249M"
+  "representative_edition_key": "/books/OL682249M",
+  "wikidata_qid": "Q7430452",
+  "original_title": "Scarlet Sister Mary",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1929
+    }
+  ]
 }

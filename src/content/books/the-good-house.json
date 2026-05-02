@@ -19,18 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=62tLnSyQLTAC&dq=The+Good+House+Tananarive+Due&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Fiction, suspense",
-    "Fiction, horror",
-    "Fiction, occult & supernatural",
-    "African American women",
-    "African American women lawyers",
-    "Mothers of suicide victims",
-    "Vodou",
-    "Paranormal fiction",
-    "Supernatural"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -55,11 +43,17 @@
   "ol_work_key": "/works/OL2632192W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7949067M"
+  "representative_edition_key": "/books/OL7949067M",
+  "wikidata_qid": "Q7737226",
+  "original_title": "The Good House",
+  "original_language": "eng"
 }

@@ -17,18 +17,6 @@
   "pages": 406,
   "google_books_url": "http://books.google.com/books?id=bzHJDwAAQBAJ&dq=Lost+Children+Archive+Valeria+Luiselli&hl=&source=gbs_api",
   "reading_status": "want",
-  "subjects": [
-    "Hispanic americans, fiction",
-    "Indians of north america, fiction",
-    "Fiction, political",
-    "Fiction, family life",
-    "New York Times reviewed",
-    "Fiction, family life, general",
-    "Families",
-    "Fiction",
-    "Immigrant children",
-    "Social conditions"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "PS-3612.00000000",
@@ -76,9 +64,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30191657M"
+  "representative_edition_key": "/books/OL30191657M",
+  "wikidata_qid": "Q129118466",
+  "original_title": "Desierto sonoro",
+  "original_language": "spa"
 }

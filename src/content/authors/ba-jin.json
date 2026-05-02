@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ba_Jin",
   "open_library_url": "https://openlibrary.org/authors/OL783268A",
   "birth_year": 1904,
-  "death_year": 2005
+  "death_year": 2005,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q13005",
+  "nationality": [
+    "CN"
+  ],
+  "alternate_names": [
+    "Ba Jin"
+  ],
+  "viaf_id": "19673501",
+  "ol_author_key": "/authors/OL783268A",
+  "awards": [
+    {
+      "name": "Commander of the Legion of Honour"
+    },
+    {
+      "name": "Order of Friendship of Peoples"
+    },
+    {
+      "name": "honorary doctor of the Chinese University of Hong Kong"
+    },
+    {
+      "name": "Fukuoka Asian Culture Prize",
+      "year": 1990
+    }
+  ]
 }

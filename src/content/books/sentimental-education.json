@@ -18,18 +18,6 @@
   "gutenberg_id": 27537,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/27537",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/27537.html.images",
-  "subjects": [
-    "February Revolution (France : 1848)",
-    "Fiction",
-    "France in fiction",
-    "History",
-    "June Days (Paris : 1848)",
-    "Married women",
-    "Married women in fiction",
-    "Unrequited love",
-    "Young men",
-    "Young men in fiction"
-  ],
   "description": "Sentimental Education: History of a Young Man is an 1869 novel by Gustave Flaubert. It focuses on the romantic life of a young man named Frédéric Moreau at the time of the French Revolution of 1848 and the founding of the Second French Empire. It describes Moreau's love for an older woman, a character based on the wife of the music publisher Maurice Schlesinger, who is portrayed in the book as Jacques Arnoux.",
   "pages": 473,
   "isbn": "9780318750613",
@@ -141,12 +129,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 162,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Le̓́ducation sentimentale",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL10451441M"
+  "representative_edition_key": "/books/OL10451441M",
+  "wikidata_qid": "Q1212285"
 }

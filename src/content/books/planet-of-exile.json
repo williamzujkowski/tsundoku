@@ -13,15 +13,6 @@
   "first_published": 1966,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Space colonies",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "Life on other planets",
-    "Fiction in English. American writers",
-    "1945-",
-    "Texts"
-  ],
   "copyright_status": "in_copyright",
   "description": "Planet of Exile is a 1966 science fiction novel by American writer Ursula K. Le Guin, part of her Hainish Cycle. It was first published as an Ace Double novel using the tête-bêche format, paired with Mankind Under the Leash by Thomas M. Disch.",
   "isbn": "9780441669561",
@@ -48,13 +39,26 @@
   "pages": 140,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 20,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27085253M"
+  "representative_edition_key": "/books/OL27085253M",
+  "wikidata_qid": "Q588035",
+  "original_title": "Planet of Exile",
+  "original_language": "eng",
+  "original_publisher": "Ace Books",
+  "series": {
+    "name": "Hainish Cycle",
+    "position": 2
+  }
 }

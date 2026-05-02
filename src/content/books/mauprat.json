@@ -9,19 +9,10 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=Fd8zAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1886,
+  "first_published": 1837,
   "pages": 466,
   "google_books_url": "https://play.google.com/store/books/details?id=Fd8zAQAAMAAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fiction",
-    "Love stories",
-    "Continental european fiction (fictional works by one author)",
-    "Women",
-    "Education",
-    "Mills College",
-    "Country life"
-  ],
   "librivox_url": "https://librivox.org/mauprat-by-george-sand/",
   "copyright_status": "public_domain",
   "gutenberg_id": 2194,
@@ -62,13 +53,19 @@
   "ol_work_key": "/works/OL982017W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 48,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11975935M"
+  "representative_edition_key": "/books/OL11975935M",
+  "wikidata_qid": "Q3300215",
+  "original_title": "Mauprat",
+  "original_language": "fre"
 }

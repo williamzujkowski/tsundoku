@@ -6,5 +6,74 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/JudithButler2013.jpg/400px-JudithButler2013.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Judith_Butler",
   "open_library_url": "https://openlibrary.org/authors/OL538504A",
-  "birth_year": 1956
+  "birth_year": 1956,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q219368",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "98486723",
+  "ol_author_key": "/authors/OL538504A",
+  "movements": [
+    "Post-structuralism"
+  ],
+  "awards": [
+    {
+      "name": "Brudner Prize",
+      "year": 2004
+    },
+    {
+      "name": "honorary doctorate of the Bordeaux Montaigne University",
+      "year": 2011
+    },
+    {
+      "name": "honorary doctorate from the University of Paris-VII",
+      "year": 2011
+    },
+    {
+      "name": "Theodor W. Adorno Award",
+      "year": 2012
+    },
+    {
+      "name": "honorary doctorate from the McGill University",
+      "year": 2013
+    },
+    {
+      "name": "honorary doctor of the University of St Andrews",
+      "year": 2013
+    },
+    {
+      "name": "Honorary doctor of the University of Fribourg",
+      "year": 2014
+    },
+    {
+      "name": "Honorary doctor of the University of Liège",
+      "year": 2015
+    },
+    {
+      "name": "Albertus-Magnus professorate",
+      "year": 2016
+    },
+    {
+      "name": "Catalonia International Prize",
+      "year": 2021
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres"
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Fellow of the British Academy",
+      "year": 2015
+    }
+  ]
 }

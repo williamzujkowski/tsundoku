@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Claribel_Alegr%C3%ADa",
   "open_library_url": "https://openlibrary.org/authors/OL25193A",
   "birth_year": 1924,
-  "death_year": 2018
+  "death_year": 2018,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q270601",
+  "viaf_id": "7385942",
+  "ol_author_key": "/authors/OL25193A",
+  "awards": [
+    {
+      "name": "Neustadt International Prize for Literature",
+      "year": 2006
+    },
+    {
+      "name": "Reina Sofía Award",
+      "year": 2017
+    },
+    {
+      "name": "Casa de las Américas Prize",
+      "year": 1978
+    },
+    {
+      "name": "Orden al Mérito Docente y Cultural Gabriela Mistral",
+      "year": 2010
+    },
+    {
+      "name": "Commander of the Order of the Star of Italian Solidarity",
+      "year": 2010
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres",
+      "year": 2004
+    }
+  ]
 }

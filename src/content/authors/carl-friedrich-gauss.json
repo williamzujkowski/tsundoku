@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
   "open_library_url": "https://openlibrary.org/authors/OL327681A",
   "birth_year": 1777,
-  "death_year": 1855
+  "death_year": 1855,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6722",
+  "viaf_id": "29534259",
+  "ol_author_key": "/authors/OL327681A",
+  "awards": [
+    {
+      "name": "Pour le Mérite for Sciences and Arts order",
+      "year": 1842
+    },
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1804
+    },
+    {
+      "name": "Copley Medal",
+      "year": 1838
+    },
+    {
+      "name": "Bavarian Maximilian Order for Science and Art",
+      "year": 1853
+    },
+    {
+      "name": "Lalande Prize",
+      "year": 1809
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 1822
+    },
+    {
+      "name": "Pour le Mérite"
+    }
+  ]
 }

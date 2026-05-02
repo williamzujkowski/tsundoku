@@ -11,9 +11,6 @@
   "isbn": "9780743219556",
   "first_published": 1972,
   "pages": 256,
-  "subjects": [
-    "Fiction"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=iGDEghq3ZPcC&dq=An+Unsuitable+Job+for+a+Woman+P.D.+James&hl=&source=gbs_api",
   "reading_status": "read",
@@ -67,11 +64,23 @@
   "ol_work_key": "/works/OL510865W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 60,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30539055M"
+  "representative_edition_key": "/books/OL30539055M",
+  "wikidata_qid": "Q4750257",
+  "original_title": "An Unsuitable Job for a Woman",
+  "original_language": "eng",
+  "original_publisher": "Faber & Faber",
+  "series": {
+    "name": "Cordelia Gray"
+  }
 }

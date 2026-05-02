@@ -16,9 +16,6 @@
   "google_books_url": "http://books.google.com/books?id=2d6arx2tJPgC&dq=The+Wild+Palms+William+Faulkner&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Fiction"
-  ],
   "ddc": [
     "823.91",
     "813.52 s",
@@ -63,13 +60,17 @@
   "ol_work_key": "/works/OL82923W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 45,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34489580M"
+  "representative_edition_key": "/books/OL34489580M",
+  "wikidata_qid": "Q2559408",
+  "original_language": "eng"
 }

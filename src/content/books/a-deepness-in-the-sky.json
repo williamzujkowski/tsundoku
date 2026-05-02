@@ -21,18 +21,6 @@
   "oclc_id": "40150541",
   "worldcat_url": "https://www.worldcat.org/oclc/40150541",
   "lccn": "98043457",
-  "subjects": [
-    "American Science fiction",
-    "Life on other planets",
-    "Fiction",
-    "Science fiction",
-    "Long Now Manual for Civilization",
-    "Fiction, science fiction, action & adventure",
-    "Hugo Award Winner",
-    "award:hugo_award=2000",
-    "award:hugo_award=novel",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -58,11 +46,36 @@
   "ol_work_key": "/works/OL1975705W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26787932M"
+  "representative_edition_key": "/books/OL26787932M",
+  "wikidata_qid": "Q2292400",
+  "original_title": "A Deepness in the Sky",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2000
+    },
+    {
+      "name": "Prometheus Award",
+      "year": 2000
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2000
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 2004
+    }
+  ]
 }

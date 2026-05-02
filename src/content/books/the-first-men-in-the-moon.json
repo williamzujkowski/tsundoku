@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8081288-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8081288-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52260W",
-  "first_published": 1900,
+  "first_published": 1901,
   "language": "eng",
   "description": "The First Men in the Moon - H. G. Wells - As I sit down to write here amidst the shadows of vine-leaves under the blue sky of southern Italy, it comes to me with a certain quality of astonishment that my participation in these amazing adventures of Mr. Cavor was, after all, the outcome of the purest accident. It might have been any one. I fell into these things at a time when I thought myself removed from the slightest possibility of disturbing experiences. I had gone to Lympne because I had ima...",
   "isbn": "9783985510719",
@@ -20,18 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=aSQ6EAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Classic Literature",
-    "Fiction",
-    "Imperialism",
-    "Moon",
-    "Science fiction",
-    "Space flight to the moon",
-    "Translations into Russian",
-    "Utopias",
-    "Fiction, science fiction, general",
-    "Fiction, action & adventure"
-  ],
   "librivox_url": "https://librivox.org/the-first-men-in-the-moon-by-hg-wells/",
   "ddc": [
     "823.912",
@@ -83,13 +71,19 @@
   "ol_work_key": "/works/OL52260W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 114,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51283281M"
+  "representative_edition_key": "/books/OL51283281M",
+  "wikidata_qid": "Q1218232",
+  "original_title": "The First Men in the Moon",
+  "original_language": "eng"
 }

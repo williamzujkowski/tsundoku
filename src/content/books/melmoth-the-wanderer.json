@@ -13,22 +13,10 @@
   "description": "Melmoth the Wanderer tells the story of John Melmoth, a Dublin student and a scholar who sold his soul to the devil in exchange for 150 extra years of life, and searches the world for someone who will take over the pact for him, in a manner reminiscent of the Wandering Jew.",
   "cover_url": "https://books.google.com/books/content?id=kNGSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788026898238",
-  "first_published": 1892,
+  "first_published": 1820,
   "pages": 520,
   "google_books_url": "https://play.google.com/store/books/details?id=kNGSDwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fiction",
-    "Immortalism",
-    "Immortalism in fiction",
-    "Fiction, horror",
-    "Fiction, occult & supernatural",
-    "Long Now Manual for Civilization",
-    "Drama",
-    "Fiction, gothic",
-    "Immortalisme",
-    "Romans, nouvelles"
-  ],
   "librivox_url": "https://librivox.org/melmoth-the-wanderer-by-charles-robert-maturin/",
   "copyright_status": "public_domain",
   "gutenberg_id": 53685,
@@ -82,13 +70,19 @@
   "ol_work_key": "/works/OL2458892W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 104,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33932556M"
+  "representative_edition_key": "/books/OL33932556M",
+  "wikidata_qid": "Q1475956",
+  "original_title": "Melmoth the Wanderer",
+  "original_language": "eng"
 }

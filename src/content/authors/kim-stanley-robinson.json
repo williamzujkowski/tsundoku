@@ -6,5 +6,96 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kim_Stanley_Robinson_by_Christopher_Michel_3-19-25429980.jpg/400px-Kim_Stanley_Robinson_by_Christopher_Michel_3-19-25429980.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kim_Stanley_Robinson",
   "open_library_url": "https://openlibrary.org/authors/OL19986A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q130779",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "44318934",
+  "ol_author_key": "/authors/OL19986A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1988
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1991
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 1991
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1992
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1994
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1994
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1994
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 1997
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1997
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1997
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1998
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1999
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2003
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2013
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 1985
+    },
+    {
+      "name": "Premio Gigamesh",
+      "year": 1998
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 2024
+    },
+    {
+      "name": "World Fantasy Award for Best Novella",
+      "year": 1984
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 2000
+    }
+  ]
 }

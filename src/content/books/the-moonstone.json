@@ -20,29 +20,6 @@
   "google_books_url": "http://books.google.com/books?id=zX33DwAAQBAJ&dq=The+Moonstone+Wilkie+Collins&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Country homes",
-    "Country homes -- Fiction",
-    "Detective Fiction",
-    "Detective and mystery stories",
-    "Drama",
-    "East Indians",
-    "East Indians -- England -- Fiction",
-    "England -- Fiction",
-    "English fiction",
-    "Fiction",
-    "History",
-    "Jewelry theft",
-    "Jewelry theft -- Fiction",
-    "Mystery Fiction",
-    "Mystery fiction",
-    "Police",
-    "Police -- England -- Fiction",
-    "Readers"
-  ],
   "gutenberg_id": 155,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/155",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/155.html.images",
@@ -210,10 +187,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL60831383M"
+  "representative_edition_key": "/books/OL60831383M",
+  "wikidata_qid": "Q2362563",
+  "original_title": "The Moonstone",
+  "original_publisher": "William Tinsley"
 }

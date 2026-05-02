@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=7eodXIBu2ScC&dq=The+Counterlife+Philip+Roth&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Nathan Zuckerman (Fictitious character)",
-    "Self-actualization (Psychology)",
-    "Novelists",
-    "National Book Critics Circle Award Winner",
-    "award:national_book_critics_circle_award=1987",
-    "award:national_book_critics_circle_award=fiction",
-    "Authors, fiction",
-    "Fiction, general",
-    "American fiction (fictional works by one author)"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -63,11 +51,19 @@
   "ol_work_key": "/works/OL74671W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 20,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9514629M"
+  "representative_edition_key": "/books/OL9514629M",
+  "wikidata_qid": "Q597219",
+  "original_title": "The Counterlife",
+  "original_language": "eng",
+  "original_publisher": "Farrar, Straus and Giroux"
 }

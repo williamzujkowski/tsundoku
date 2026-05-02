@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "the-book-of-the-courtier",
-  "tags": [],
+  "tags": [
+    "biography"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/313747-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/313747-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8253426W",
@@ -13,9 +15,6 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Book of the Courtier by Baldassare Castiglione is a lengthy philosophical dialogue on the topic of what constitutes an ideal courtier or court lady, worthy to befriend and advise a prince or political leader. Inspired by the Spanish court during his time as Ambassador of the Holy See (1524–1529), Castiglione set the narrative of the book in his years as a courtier in the Duchy of Urbino.",
-  "subjects": [
-    "Biography & Autobiography"
-  ],
   "pages": 278,
   "isbn": "9781540406279",
   "ddc": [

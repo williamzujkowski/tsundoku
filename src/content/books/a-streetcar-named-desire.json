@@ -20,18 +20,6 @@
   "oclc_id": "13084727",
   "worldcat_url": "https://www.worldcat.org/oclc/13084727",
   "lccn": "2004011654",
-  "subjects": [
-    "Drama",
-    "Married people",
-    "Sisters",
-    "Women teachers",
-    "Widows",
-    "Rape",
-    "Plays",
-    "Polish Americans",
-    "Social classes",
-    "Theater"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "812.54",
@@ -91,13 +79,24 @@
   "ol_work_key": "/works/OL30294W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29049760M"
+  "representative_edition_key": "/books/OL29049760M",
+  "wikidata_qid": "Q842106",
+  "original_title": "A Streetcar Named Desire",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1948
+    }
+  ]
 }

@@ -11,18 +11,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Cold War",
-    "Fiction",
-    "Fiction, thrillers, espionage",
-    "George Smiley (Fictitious character)",
-    "Great britain, fiction",
-    "Intelligence service",
-    "Large type books",
-    "Smiley, George (Fictitious character)",
-    "Smiley, george (fictitious character), fiction",
-    "Undercover operations"
-  ],
   "description": "Tinker Tailor Soldier Spy is a 1974 spy novel by the author and former secret intelligence officer John le Carré. It follows the endeavours of the taciturn, ageing spymaster George Smiley to uncover a Soviet mole in the British Secret Intelligence Service. The novel has received critical acclaim for its complex social commentary—and, at the time, relevance, following the defection of Kim Philby. It was followed by The Honourable Schoolboy in 1977 and Smiley's People in 1979.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/13/JohnLeCarre_TinkerTailorSoldierSpy.jpg",
   "pages": 369,
@@ -65,11 +53,24 @@
   "ol_work_key": "/works/OL15723131W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL10677122M"
+  "representative_edition_key": "/books/OL10677122M",
+  "wikidata_qid": "Q582811",
+  "original_title": "Tinker, Tailor, Soldier, Spy",
+  "original_language": "eng",
+  "original_publisher": "Hodder & Stoughton",
+  "series": {
+    "name": "George Smiley series",
+    "position": 5
+  }
 }

@@ -7,5 +7,45 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Amiri_Baraka",
   "open_library_url": "https://openlibrary.org/authors/OL24587A",
   "birth_year": 1934,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q354783",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "39371896",
+  "ol_author_key": "/authors/OL24587A",
+  "movements": [
+    "Beat Generation",
+    "Black Arts Movement",
+    "New Communist Movement"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1965
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 1989
+    },
+    {
+      "name": "National Endowment for the Arts Fellowship"
+    },
+    {
+      "name": "American Book Awards",
+      "year": 1984
+    },
+    {
+      "name": "Black Literary Hall of Fame",
+      "year": 1998
+    }
+  ]
 }

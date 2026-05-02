@@ -6,5 +6,21 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Steven_Erikson_2016.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Erikson",
   "open_library_url": "https://openlibrary.org/authors/OL1394250A",
-  "birth_year": 1959
+  "birth_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q428755",
+  "nationality": [
+    "CA"
+  ],
+  "alternate_names": [
+    "Steven Erikson"
+  ],
+  "viaf_id": "85327681",
+  "ol_author_key": "/authors/OL1394250A"
 }

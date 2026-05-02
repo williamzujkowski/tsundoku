@@ -7,5 +7,29 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Douglass",
   "open_library_url": "https://openlibrary.org/authors/OL23684A",
   "birth_year": 1818,
-  "death_year": 1895
+  "death_year": 1895,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q215562",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "10088",
+  "ol_author_key": "/authors/OL23684A",
+  "movements": [
+    "suffrage",
+    "abolitionism"
+  ],
+  "awards": [
+    {
+      "name": "National Association of Black Journalists Hall of Fame",
+      "year": 2004
+    }
+  ]
 }

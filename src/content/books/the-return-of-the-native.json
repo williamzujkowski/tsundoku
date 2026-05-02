@@ -12,25 +12,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Adultery -- Fiction",
-    "Adultery, fiction",
-    "Didactic fiction",
-    "Heathlands -- Fiction",
-    "Heathlands, fiction",
-    "Love stories",
-    "Married people, fiction",
-    "Mate selection -- Fiction",
-    "Mate selection, fiction",
-    "Mothers and sons -- Fiction",
-    "Mothers and sons, fiction",
-    "People with visual disabilities -- Fiction",
-    "People with visual disabilities, fiction",
-    "Return of the native (Hardy",
-    "Social conditions",
-    "Thomas)",
-    "Wessex (England) -- Fiction"
-  ],
   "gutenberg_id": 26264,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/26264",
   "gutenberg_read_url": "https://www.gutenberg.org/files/26264/26264-index.html",
@@ -192,13 +173,21 @@
   "ol_work_key": "/works/OL44994W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 205,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30282890M"
+  "representative_edition_key": "/books/OL30282890M",
+  "wikidata_qid": "Q141568",
+  "original_title": "The Return of the Native",
+  "original_language": "eng",
+  "original_publisher": "Belgravia"
 }

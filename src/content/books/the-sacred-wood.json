@@ -11,9 +11,6 @@
   "cover_url": "https://books.google.com/books/content?id=S5gmRFRtcoEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=S5gmRFRtcoEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "pages": 184,
-  "subjects": [
-    "Criticism"
-  ],
   "google_books_url": "https://play.google.com/store/books/details?id=S5gmRFRtcoEC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -531,9 +528,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8794211M"
+  "representative_edition_key": "/books/OL8794211M",
+  "wikidata_qid": "Q35160",
+  "original_title": "Ὀδύσσεια",
+  "series": {
+    "name": "Epic Cycle"
+  }
 }

@@ -6,5 +6,49 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL456240A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rohinton_Mistry",
   "open_library_url": "https://openlibrary.org/authors/OL456240A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q732338",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "29581388",
+  "ol_author_key": "/authors/OL456240A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Commonwealth Writers' Prize",
+      "year": 1996
+    },
+    {
+      "name": "Neustadt International Prize for Literature",
+      "year": 2012
+    },
+    {
+      "name": "Giller Prize",
+      "year": 1995
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1991
+    },
+    {
+      "name": "Honorary doctor of the University of Ottawa"
+    },
+    {
+      "name": "Member of the Order of Canada"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2010
+    }
+  ]
 }

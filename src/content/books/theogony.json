@@ -16,9 +16,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=z5n9DwAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Literary Criticism"
-  ],
   "ddc": [
     "883.02",
     "881.01",
@@ -97,10 +94,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 28,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23060220M"
+  "representative_edition_key": "/books/OL23060220M",
+  "wikidata_qid": "Q156498",
+  "original_title": "Θεογονία"
 }

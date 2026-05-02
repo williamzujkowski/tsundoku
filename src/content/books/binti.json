@@ -1,7 +1,7 @@
 {
   "title": "Binti",
   "author": "Nnedi Okorafor",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "binti",
   "tags": [
@@ -21,18 +21,6 @@
   "oclc_id": "1030609944",
   "worldcat_url": "https://www.worldcat.org/oclc/1030609944",
   "lccn": "2018289140",
-  "subjects": [
-    "Extraterrestrial beings",
-    "College stories",
-    "Interstellar travel",
-    "Fiction",
-    "Human-alien encounters",
-    "Afro-futurism",
-    "science fiction",
-    "fantasy",
-    "general",
-    "Fiction, science fiction, general"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "PS-3615.00000000.K67 B55 2018",
@@ -54,13 +42,45 @@
   "ol_work_key": "/works/OL19330487W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "9780765384461",
-  "representative_edition_key": "/books/OL29720729M"
+  "representative_edition_key": "/books/OL29720729M",
+  "wikidata_qid": "Q27887601",
+  "original_title": "Binti",
+  "original_language": "eng",
+  "original_publisher": "Tordotcom Publishing",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 2016
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2016
+    },
+    {
+      "name": "Nommo Awards",
+      "year": 2017
+    },
+    {
+      "name": "Nommo Novella Award",
+      "year": 2017
+    }
+  ],
+  "series": {
+    "name": "Binti Trilogy",
+    "position": 1
+  }
 }

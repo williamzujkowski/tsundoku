@@ -18,18 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=6FmJEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "The Kingkiller Chronicle",
-    "Magicians",
-    "Attempted assassination",
-    "Fairies",
-    "Fiction",
-    "Fantasy",
-    "New York Times bestseller",
-    "Heroes",
-    "Mercenary troops",
-    "nyt:hardcover_fiction=2011-05-28"
-  ],
   "lcc": [
     "PS-3618.00000000.O8685 W5718 2011",
     "PS-3618.00000000.O8685",
@@ -65,11 +53,29 @@
   "ol_work_key": "/works/OL8479869W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 32,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26438931M"
+  "representative_edition_key": "/books/OL26438931M",
+  "wikidata_qid": "Q2016359",
+  "original_title": "The Wise Man's Fear",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "David Gemmell Legend Awards",
+      "year": 2012
+    }
+  ],
+  "series": {
+    "name": "The Kingkiller Chronicle",
+    "position": 2
+  }
 }

@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Gary_Snyder%2C_2007_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Snyder",
   "open_library_url": "https://openlibrary.org/authors/OL22849A",
-  "birth_year": 1930
+  "birth_year": 1930,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q315963",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "68944804",
+  "ol_author_key": "/authors/OL22849A",
+  "movements": [
+    "Beat Generation"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1968
+    },
+    {
+      "name": "Bollingen Prize",
+      "year": 1997
+    },
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1975
+    },
+    {
+      "name": "PEN Oakland/Josephine Miles Literary Award",
+      "year": 2011
+    },
+    {
+      "name": "American Book Awards",
+      "year": 1984
+    },
+    {
+      "name": "Shelley Memorial Award",
+      "year": 1986
+    },
+    {
+      "name": "Wallace Stevens Award",
+      "year": 2012
+    },
+    {
+      "name": "Ruth Lilly Poetry Prize",
+      "year": 2008
+    },
+    {
+      "name": "Arts and Letters Award in Literature",
+      "year": 1966
+    }
+  ]
 }

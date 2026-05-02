@@ -10,17 +10,11 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction, science fiction, general",
-    "Fiction, war & military",
-    "Nazis, fiction",
-    "World war, 1939-1945, fiction"
-  ],
   "description": "The first novel in Hugo Award-winning author Charles Stross's witty Laundry Files series Bob Howard is a low-level techie working for a super-secret government agency. While his colleagues are out saving the world, Bob's under a desk restoring lost data. His world was dull and safe—but then he went and got Noticed. Now, Bob is up to his neck in spycraft, parallel universes, dimension-hopping terrorists, monstrous elder gods and the end of the world. Only one thing is certain: it will take more t...",
   "cover_url": "https://books.google.com/books/content?id=xhiTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=xhiTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780441013654",
-  "first_published": 2006,
+  "first_published": 2004,
   "pages": 369,
   "google_books_url": "http://books.google.com/books?id=xhiTEAAAQBAJ&dq=The+Atrocity+Archives+(Laundry+Files)+Charles+Stross&hl=&source=gbs_api",
   "ddc": [
@@ -66,13 +60,24 @@
   "ol_work_key": "/works/OL2465682W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0441013651",
-  "representative_edition_key": "/books/OL3429843M"
+  "representative_edition_key": "/books/OL3429843M",
+  "wikidata_qid": "Q7714842",
+  "original_title": "The Atrocity Archives",
+  "original_language": "eng",
+  "series": {
+    "name": "The Laundry Files",
+    "position": 1
+  }
 }

@@ -8,14 +8,14 @@
   "cover_url": "https://covers.openlibrary.org/b/id/4659403-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/4659403-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15326086W",
-  "first_published": 1997,
+  "first_published": 1881,
   "language": "eng",
   "description": "A new edition of this important work of Nietzsche's 'mature' philosophy.",
   "isbn": "0521599636",
   "pages": 296,
   "google_books_url": "http://books.google.com/books?id=FBFNTQlSa-8C&dq=Daybreak+Friedrich+Nietzsche&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "128",
     "193"
@@ -34,13 +34,19 @@
   "ol_work_key": "/works/OL98124W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780521599634",
-  "representative_edition_key": "/books/OL7747793M"
+  "representative_edition_key": "/books/OL7747793M",
+  "wikidata_qid": "Q1947770",
+  "original_title": "Morgenröthe",
+  "original_language": "ger"
 }

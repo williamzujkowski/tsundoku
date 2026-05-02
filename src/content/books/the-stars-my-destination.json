@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=BXEgAQAAIAAJ&dq=The+Stars+My+Destination+Alfred+Bester&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Science fiction",
-    "Literature and science",
-    "Adventure stories",
-    "Fiction, science fiction, general",
-    "Astronauts",
-    "Fiction",
-    "Redemption",
-    "Retribution",
-    "American Science fiction",
-    "Twenty-fifth century"
-  ],
   "isbn": "9780575079090",
   "ddc": [
     "813.54",
@@ -62,13 +50,28 @@
   "ol_work_key": "/works/OL1819353W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27298420M"
+  "representative_edition_key": "/books/OL27298420M",
+  "wikidata_qid": "Q1063587",
+  "original_title": "Tiger! Tiger!",
+  "original_language": "eng",
+  "original_publisher": "Sidgwick & Jackson",
+  "awards": [
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 1988
+    }
+  ]
 }

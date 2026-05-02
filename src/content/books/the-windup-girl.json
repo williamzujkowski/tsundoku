@@ -12,18 +12,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Bioterrorism",
-    "Bioterrorisme",
-    "Dystopian",
-    "Fiction",
-    "Fiction, thrillers, general",
-    "Hugo Award Winner",
-    "Science Fiction",
-    "award:hugo_award=2010",
-    "award:hugo_award=novel",
-    "award:nebula_award=novel"
-  ],
   "description": "The Windup Girl is a biopunk science fiction novel by American writer Paolo Bacigalupi. It was his debut novel and was published by Night Shade Books on September 1, 2009. The novel is set in a future Thailand and covers a number of contemporary issues such as global warming and biotechnology.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Windup_Girl_%28Paolo_Bacigalupi_novel_-_cover_art%29.jpg/250px-The_Windup_Girl_%28Paolo_Bacigalupi_novel_-_cover_art%29.jpg",
   "pages": 376,
@@ -63,11 +51,62 @@
   "ol_work_key": "/works/OL15000756W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27317065M"
+  "representative_edition_key": "/books/OL27317065M",
+  "wikidata_qid": "Q92630",
+  "original_title": "The Windup Girl",
+  "original_language": "eng",
+  "original_publisher": "Night Shade Books",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2010
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2010
+    },
+    {
+      "name": "Compton Crook Award",
+      "year": 2010
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2010
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 2012
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 2012
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 2013
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 2012
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2010
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2013
+    }
+  ]
 }

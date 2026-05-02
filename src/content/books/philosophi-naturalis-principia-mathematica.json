@@ -15,18 +15,6 @@
   "pages": 992,
   "google_books_url": "http://books.google.com/books?id=kmglDQAAQBAJ&dq=Philosophi%C3%A6+Naturalis+Principia+Mathematica+Isaac+Newton&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Mechanics",
-    "Dynamics of a particle",
-    "Gravitation",
-    "Tides",
-    "Double Refraction",
-    "great_books_of_the_western_world",
-    "Celestial mechanics",
-    "Early works to 1800",
-    "Wave theory of Light",
-    "Plane Curves"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "531",
@@ -115,12 +103,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 104,
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Philosophiae naturalis principia mathematica",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8058209M"
+  "representative_edition_key": "/books/OL8058209M",
+  "wikidata_qid": "Q108524834"
 }

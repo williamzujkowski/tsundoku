@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Iain_Banks",
   "open_library_url": "https://openlibrary.org/authors/OL32312A",
   "birth_year": 1954,
-  "death_year": 2013
+  "death_year": 2013,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312579",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Iain M. Banks"
+  ],
+  "viaf_id": "73864945",
+  "ol_author_key": "/authors/OL6924809A",
+  "awards": [
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1995
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1994
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 1996
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2010
+    }
+  ]
 }

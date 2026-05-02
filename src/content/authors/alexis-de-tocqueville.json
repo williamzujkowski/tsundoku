@@ -7,5 +7,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alexis_de_Tocqueville",
   "open_library_url": "https://openlibrary.org/authors/OL30442A",
   "birth_year": 1805,
-  "death_year": 1859
+  "death_year": 1859,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q140694",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "66474207",
+  "ol_author_key": "/authors/OL30442A",
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour"
+    },
+    {
+      "name": "Montyon Prize",
+      "year": 1835
+    }
+  ]
 }

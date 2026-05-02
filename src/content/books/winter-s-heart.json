@@ -10,18 +10,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fantasy",
-    "Fantasy fiction",
-    "Fiction",
-    "Imaginary places",
-    "Magic",
-    "Princesses",
-    "Prophecies",
-    "Quests",
-    "Rand al'Thor (Fictitious character)",
-    "Secrets"
-  ],
   "description": "Winter's Heart is a fantasy novel by American author Robert Jordan, the ninth book of his series Wheel of Time. It was published by Tor Books and released on November 7, 2000. Upon its release, it immediately rose to the #1 position on the New York Times hardcover fiction bestseller list, making it the second Wheel of Time book to reach the #1 position on that list. It remained on the list for the next two months. Winter's Heart consists of a prologue and 35 chapters.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/WoT09_WintersHeart.jpg/120px-WoT09_WintersHeart.jpg",
   "pages": 668,
@@ -55,13 +43,26 @@
   "ol_work_key": "/works/OL7924207W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 31,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL37926330M",
-  "translator": "Mila López"
+  "translator": "Mila López",
+  "wikidata_qid": "Q2264817",
+  "original_title": "Winter's Heart",
+  "original_language": "eng",
+  "original_publisher": "Tor Books",
+  "series": {
+    "name": "The Wheel of Time",
+    "position": 9
+  }
 }

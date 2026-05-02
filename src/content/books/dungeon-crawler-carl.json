@@ -27,11 +27,22 @@
   "pages": 465,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51810161M"
+  "representative_edition_key": "/books/OL51810161M",
+  "wikidata_qid": "Q135107368",
+  "original_title": "Dungeon Crawler Carl",
+  "original_language": "eng",
+  "series": {
+    "name": "Dungeon Crawler Carl",
+    "position": 1
+  }
 }

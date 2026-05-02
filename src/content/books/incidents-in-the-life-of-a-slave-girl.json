@@ -16,18 +16,6 @@
   "pages": 497,
   "google_books_url": "https://play.google.com/store/books/details?id=BL_8DwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Women slaves",
-    "United States",
-    "Slaves",
-    "Social conditions",
-    "Biography",
-    "Autobiografie",
-    "Erlebnisbericht",
-    "Sklaverei",
-    "Jacobs, harriet a. (harriet ann), 1813-1897",
-    "Slaves, united states"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 11030,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/11030",
@@ -133,10 +121,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 386,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57531865M"
+  "representative_edition_key": "/books/OL57531865M",
+  "wikidata_qid": "Q6014663",
+  "original_language": "eng"
 }

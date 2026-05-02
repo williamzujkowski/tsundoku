@@ -7,5 +7,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Orwell",
   "open_library_url": "https://openlibrary.org/authors/OL118077A",
   "birth_year": 1903,
-  "death_year": 1950
+  "death_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3335",
+  "nationality": [
+    "GB",
+    "FR"
+  ],
+  "alternate_names": [
+    "George Orwell",
+    "John Freeman"
+  ],
+  "viaf_id": "95155403",
+  "ol_author_key": "/authors/OL118077A",
+  "awards": [
+    {
+      "name": "Prometheus Award - Hall of Fame"
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 1996
+    },
+    {
+      "name": "Retro Hugo Award for Best Novella",
+      "year": 1996
+    }
+  ]
 }

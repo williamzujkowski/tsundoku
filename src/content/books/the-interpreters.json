@@ -18,15 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=E4BDEAAAQBAJ&dq=The+Interpreters+Wole+Soyinka&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction",
-    "Friendship",
-    "Africa, fiction",
-    "Fiction, historical",
-    "African literature, history and criticism",
-    "African literature, translations into english",
-    "Fiction, historical, general"
-  ],
   "lcc": [
     "PR-9387.90000000.S6I6 2021",
     "PR-9387.90000000.S6 I6 2021"
@@ -41,9 +32,21 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32794767M"
+  "representative_edition_key": "/books/OL32794767M",
+  "wikidata_qid": "Q3772120",
+  "original_title": "The Interpreters",
+  "original_language": "eng",
+  "original_publisher": "Heinemann",
+  "series": {
+    "name": "African literature"
+  }
 }

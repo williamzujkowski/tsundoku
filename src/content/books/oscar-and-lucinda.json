@@ -15,18 +15,6 @@
   "pages": 830,
   "google_books_url": "http://books.google.com/books?id=FXlbl3mxWikC&dq=Oscar+and+Lucinda+Peter+Carey&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Glass manufacture",
-    "Clergy",
-    "Young women",
-    "Gamblers",
-    "History",
-    "Gambling",
-    "Christian life",
-    "Australia",
-    "Frontier and pioneer life"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914",
@@ -67,11 +55,26 @@
   "ol_work_key": "/works/OL1707618W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 37,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24981155M"
+  "representative_edition_key": "/books/OL24981155M",
+  "wikidata_qid": "Q1060522",
+  "original_title": "Oscar and Lucinda",
+  "original_language": "eng",
+  "original_publisher": "University of Queensland Press",
+  "awards": [
+    {
+      "name": "Booker Prize",
+      "year": 1988
+    }
+  ]
 }

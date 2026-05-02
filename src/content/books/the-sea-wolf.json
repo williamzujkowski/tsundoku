@@ -18,26 +18,6 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/8236975-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL144824W",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Arctic Regions in fiction",
-    "Arctic regions -- Fiction",
-    "Category: Adventure",
-    "Category: American Literature",
-    "Category: Novels",
-    "Fiction",
-    "Sea stories",
-    "Sealers (Persons)",
-    "Sealers (Persons) -- Fiction",
-    "Sealing",
-    "Sealing in fiction",
-    "Sealing ships",
-    "Sealing ships -- Fiction",
-    "Sealing ships in fiction",
-    "Ship captains",
-    "Ship captains -- Fiction",
-    "Ship captains in fiction",
-    "Translations into Russian"
-  ],
   "gutenberg_id": 1074,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1074",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1074.html.images",
@@ -136,13 +116,21 @@
   "ol_work_key": "/works/OL144824W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 283,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL10274208M"
+  "representative_edition_key": "/books/OL10274208M",
+  "wikidata_qid": "Q1196857",
+  "original_title": "The Sea-Wolf",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Publishers"
 }

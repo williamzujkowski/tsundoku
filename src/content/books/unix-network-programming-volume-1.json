@@ -13,9 +13,6 @@
   "isbn": "0131411551",
   "first_published": 1998,
   "pages": 1032,
-  "subjects": [
-    "Computers"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=ptSC4LpwGA0C&dq=UNIX+Network+Programming,+Volume+1+W.+Richard+Stevens&hl=&source=gbs_api",
   "reading_status": "read",
@@ -58,10 +55,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "013490012X",
-  "representative_edition_key": "/books/OL19566789M"
+  "representative_edition_key": "/books/OL19566789M",
+  "wikidata_qid": "Q113252890",
+  "original_title": "UNIX Network Programming",
+  "original_language": "eng"
 }

@@ -16,22 +16,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Dw5-EQAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Authors",
-    "British and irish fiction (fictional works by one author)",
-    "Category: British Literature",
-    "Category: Gender & Sexuality Studies",
-    "Category: Novels",
-    "England, fiction",
-    "Fiction",
-    "Fiction, lesbian",
-    "Fiction, lgbtq+, lesbian",
-    "Heroes",
-    "Lesbians",
-    "Lesbians -- England -- Social conditions -- Fiction",
-    "Scholars",
-    "Social conditions"
-  ],
   "librivox_url": "https://librivox.org/the-well-of-loneliness-by-radclyffe-hall/",
   "gutenberg_id": 73042,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/73042",
@@ -86,13 +70,21 @@
   "ol_work_key": "/works/OL3297469W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 85,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL53380275M"
+  "representative_edition_key": "/books/OL53380275M",
+  "wikidata_qid": "Q1514807",
+  "original_title": "The Well of Loneliness",
+  "original_language": "eng",
+  "original_publisher": "Jonathan Cape"
 }

@@ -7,5 +7,19 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Blaise_Pascal",
   "open_library_url": "https://openlibrary.org/authors/OL127510A",
   "birth_year": 1623,
-  "death_year": 1662
+  "death_year": 1662,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1290",
+  "alternate_names": [
+    "Louis de Montalte",
+    "Amos Dettonville",
+    "Salomon de Tultie"
+  ],
+  "viaf_id": "29538862",
+  "ol_author_key": "/authors/OL127510A"
 }

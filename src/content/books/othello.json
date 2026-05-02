@@ -17,18 +17,6 @@
   "pages": 203,
   "google_books_url": "https://play.google.com/store/books/details?id=UpHWDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Drama",
-    "Othello (Fictitious character)",
-    "Printing",
-    "Specimens",
-    "Dramatic production",
-    "Jealousy",
-    "Muslims",
-    "Interracial marriage",
-    "Plays",
-    "Teatro"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 1531,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1531",
@@ -362,11 +350,17 @@
   "ol_work_key": "/works/OL258850W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34298077M"
+  "representative_edition_key": "/books/OL34298077M",
+  "wikidata_qid": "Q26833",
+  "original_title": "The Tragedy of Othello, The Moor of Venice",
+  "first_published_circa": false
 }

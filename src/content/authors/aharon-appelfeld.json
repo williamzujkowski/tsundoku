@@ -7,5 +7,59 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Aharon_Appelfeld",
   "open_library_url": "https://openlibrary.org/authors/OL2657094A",
   "birth_year": 1932,
-  "death_year": 2018
+  "death_year": 2018,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q399969",
+  "nationality": [
+    "IL"
+  ],
+  "viaf_id": "110642632",
+  "ol_author_key": "/authors/OL2657094A",
+  "awards": [
+    {
+      "name": "Israel Prize",
+      "year": 1983
+    },
+    {
+      "name": "Bialik Prize",
+      "year": 1979
+    },
+    {
+      "name": "Prix Médicis étranger",
+      "year": 2004
+    },
+    {
+      "name": "Nelly Sachs Prize",
+      "year": 2005
+    },
+    {
+      "name": "Ussishkin Prize",
+      "year": 1967
+    },
+    {
+      "name": "National Jewish Book Awards",
+      "year": 1979
+    },
+    {
+      "name": "Brenner Prize",
+      "year": 1975
+    },
+    {
+      "name": "Independent Foreign Fiction Prize",
+      "year": 2012
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Newman Prize",
+      "year": 1977
+    }
+  ]
 }

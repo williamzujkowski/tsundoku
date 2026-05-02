@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Bunyan",
   "open_library_url": "https://openlibrary.org/authors/OL18112A",
   "birth_year": 1628,
-  "death_year": 1688
+  "death_year": 1688,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q108206",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "71388170",
+  "ol_author_key": "/authors/OL18112A"
 }

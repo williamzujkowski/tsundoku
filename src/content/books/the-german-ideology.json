@@ -8,14 +8,11 @@
     "r-philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL31248389W",
-  "first_published": 1902,
+  "first_published": 1848,
   "description": "\"In Brussels, in 1845-46, Marx and Engels labored on this detailed criticism of post-Hegelian thought. The manuscript was not published during their lifetime, being abandoned, as Marx once said, 'to the gnawing criticism of the mice.' Almost ninety years after it was written, the manuscript was recovered and published. This work was Marx' and Engels' first comprehensive statement on historical materialism. The product of a period of undisturbed cooperation, it is a systematic account of their th...",
   "cover_url": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "pages": 246,
-  "subjects": [
-    "Communism"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=jxpwAAAAIAAJ&dq=The+German+Ideology+Karl+Marx+and+Friedrich+Engels&hl=&source=gbs_api",
   "reading_status": "read",
@@ -209,12 +206,18 @@
   "ol_work_key": "/works/OL629052W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34077699M"
+  "representative_edition_key": "/books/OL34077699M",
+  "wikidata_qid": "Q40591",
+  "original_title": "Das Kommunistische Manifest",
+  "original_language": "ger"
 }

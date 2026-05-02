@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Thomas_Piketty%2C_2015_%28cropped%29.jpg/400px-Thomas_Piketty%2C_2015_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Piketty",
   "open_library_url": "https://openlibrary.org/authors/OL466123A",
-  "birth_year": 1971
+  "birth_year": 1971,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q984448",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "17309833",
+  "ol_author_key": "/authors/OL466123A",
+  "awards": [
+    {
+      "name": "Yrjö Jahnsson Award",
+      "year": 2013
+    },
+    {
+      "name": "Prix du meilleur jeune économiste de France",
+      "year": 2002
+    },
+    {
+      "name": "CNRS bronze medal",
+      "year": 2000
+    },
+    {
+      "name": "Lysenko Prize",
+      "year": 2015
+    },
+    {
+      "name": "prix Pétrarque de l'essai",
+      "year": 2014
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 2013
+    },
+    {
+      "name": "Rossi Prize",
+      "year": 1999
+    },
+    {
+      "name": "British Academy Medal",
+      "year": 2014
+    },
+    {
+      "name": "Clarivate Citation Laureates",
+      "year": 2023
+    },
+    {
+      "name": "Oskar Morgenstern medal",
+      "year": 2023
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "The War of the Worlds",
   "author": "H.G. Wells",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-war-of-the-worlds",
   "tags": [
@@ -22,31 +22,6 @@
   "google_books_url": "http://books.google.com/books?id=0A9azgEACAAJ&dq=The+War+of+the+Worlds+H.G.+Wells&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Classics of Literature",
-    "Category: Novels",
-    "Category: Science-Fiction & Fantasy",
-    "Classic Literature",
-    "Diseases",
-    "Fiction",
-    "Imaginary wars and battles",
-    "Imaginary wars and battles -- Fiction",
-    "Invasions",
-    "Juvenile fiction",
-    "Life on other planets -- Fiction",
-    "Mars (Planet) -- Fiction",
-    "Martians",
-    "Martians -- Fiction",
-    "Movie Books",
-    "Open Library Staff Picks",
-    "Science Fiction",
-    "Science Fiction & Fantasy",
-    "Science fiction",
-    "Space warfare",
-    "Space warfare -- Fiction",
-    "War stories"
-  ],
   "librivox_url": "https://librivox.org/the-war-of-the-worlds-by-h-g-wells-group/",
   "gutenberg_id": 36,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/36",
@@ -186,8 +161,27 @@
   "ol_work_key": "/works/OL52114W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
-  "representative_edition_key": "/books/OL59048283M"
+  "representative_edition_key": "/books/OL59048283M",
+  "wikidata_qid": "Q213019",
+  "original_title": "The War of the Worlds",
+  "original_language": "eng",
+  "first_published": 1897,
+  "first_published_circa": false,
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Le Monde's 100 Books of the Century"
+    }
+  ]
 }

@@ -7,5 +7,34 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Gide",
   "open_library_url": "https://openlibrary.org/authors/OL48458A",
   "birth_year": 1869,
-  "death_year": 1951
+  "death_year": 1951,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q47484",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "96973963",
+  "ol_author_key": "/authors/OL48458A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1947
+    },
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1949
+    },
+    {
+      "name": "Goethe Medal for Art and Science"
+    },
+    {
+      "name": "Grand Prize for the Best Novels of the Half-Century"
+    }
+  ]
 }

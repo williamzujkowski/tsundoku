@@ -11,23 +11,11 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=KKZQAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1925,
+  "first_published": 1826,
   "pages": 1158,
   "google_books_url": "https://play.google.com/store/books/details?id=KKZQAQAAIAAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Fiction",
-    "Plague",
-    "Twenty-first century",
-    "End of the world",
-    "British and irish fiction (fictional works by one author)",
-    "Fiction, fantasy, general",
-    "Fiction, science fiction, general",
-    "English literature",
-    "Twenty-first century -- Fiction",
-    "End of the world -- Fiction"
-  ],
   "description": "The \"Last Post\" is a British and Commonwealth bugle call used at military funerals, and at ceremonies commemorating those who have died in war.",
   "isbn": "9781072467502",
   "ddc": [
@@ -75,11 +63,19 @@
   "ol_work_key": "/works/OL450124W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL41342308M"
+  "representative_edition_key": "/books/OL41342308M",
+  "wikidata_qid": "Q2323961",
+  "original_title": "The Last Man",
+  "original_language": "eng",
+  "first_published_circa": false
 }

@@ -26,18 +26,6 @@
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015066187181",
   "hathitrust_rights": "Limited (search-only)",
   "librivox_url": "https://librivox.org/a-portrait-of-the-artist-as-a-young-man-by-james-joyce/",
-  "subjects": [
-    "Fiction",
-    "Artists",
-    "Young men",
-    "Facsimiles",
-    "Manuscripts",
-    "English Manuscripts",
-    "Autobiographical fiction",
-    "Literature",
-    "Classic Literature",
-    "Coming of age"
-  ],
   "copyright_status": "public_domain",
   "ddc": [
     "823.91",
@@ -186,9 +174,23 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57783576M"
+  "representative_edition_key": "/books/OL57783576M",
+  "wikidata_qid": "Q465360",
+  "original_title": "A Portrait of the Artist as a Young Man",
+  "original_language": "eng",
+  "original_publisher": "The Egoist",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

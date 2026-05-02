@@ -1,7 +1,7 @@
 {
   "title": "The Wonderful Visit",
   "author": "H.G. Wells",
-  "category": "Fantasy",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-wonderful-visit",
   "tags": [
@@ -18,23 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=Eo8aAwAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Aeronautics",
-    "Angels",
-    "Angels -- Fiction",
-    "Category: British Literature",
-    "Category: Novels",
-    "Category: Science-Fiction & Fantasy",
-    "Country life",
-    "England -- Social life and customs -- 19th century -- Fiction",
-    "English Fantasy fiction",
-    "Fantasy",
-    "Fantasy fiction",
-    "Fiction",
-    "Juvenile literature",
-    "Supernatural",
-    "Villages"
-  ],
   "librivox_url": "https://librivox.org/the-wonderful-visit-by-h-g-wells/",
   "gutenberg_id": 33913,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/33913",
@@ -68,13 +51,21 @@
   "ol_work_key": "/works/OL52201W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 87,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42678544M"
+  "representative_edition_key": "/books/OL42678544M",
+  "wikidata_qid": "Q730105",
+  "original_title": "The Wonderful Visit",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Publishers"
 }

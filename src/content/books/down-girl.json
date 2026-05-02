@@ -5,6 +5,7 @@
   "priority": 1,
   "slug": "down-girl",
   "tags": [
+    "philosophy",
     "r-philosophy"
   ],
   "reading_status": "read",
@@ -17,9 +18,6 @@
   "pages": 0,
   "first_published": 2017,
   "language": "eng",
-  "subjects": [
-    "r/philosophy Reading List"
-  ],
   "ddc": [
     "305.42"
   ],
@@ -45,14 +43,20 @@
   "ol_work_key": "/works/OL19728222W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "9780190604981",
   "representative_edition_key": "/books/OL28717963M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q60463681",
+  "original_title": "Down Girl",
+  "original_language": "eng"
 }

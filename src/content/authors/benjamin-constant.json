@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Benjamin_Constant",
   "open_library_url": "https://openlibrary.org/authors/OL19638A",
   "birth_year": 1767,
-  "death_year": 1830
+  "death_year": 1830,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q123089",
+  "nationality": [
+    "CH",
+    "FR"
+  ],
+  "viaf_id": "45095766",
+  "ol_author_key": "/authors/OL19638A",
+  "movements": [
+    "liberalism",
+    "Romanticism"
+  ]
 }

@@ -6,5 +6,18 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL261219A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Luce_Irigaray",
   "open_library_url": "https://openlibrary.org/authors/OL261219A",
-  "birth_year": 1930
+  "birth_year": 1930,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q28918",
+  "nationality": [
+    "BE",
+    "FR"
+  ],
+  "viaf_id": "54149176",
+  "ol_author_key": "/authors/OL261219A"
 }

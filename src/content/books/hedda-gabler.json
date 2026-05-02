@@ -13,18 +13,6 @@
   "first_published": 1890,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Continental european drama (dramatic works by one author)",
-    "Women",
-    "Drama",
-    "Social conditions",
-    "Married people",
-    "Norwegian Domestic drama",
-    "Hedda Gabler (Ibsen, Henrik)",
-    "Dictionaries",
-    "English language",
-    "French"
-  ],
   "librivox_url": "https://librivox.org/hedda-gabler-by-henrik-ibsen/",
   "gutenberg_id": 4093,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4093",
@@ -120,13 +108,23 @@
   "pages": 162,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 371,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29703505M"
+  "representative_edition_key": "/books/OL29703505M",
+  "wikidata_qid": "Q176465",
+  "original_language": "nor",
+  "awards": [
+    {
+      "name": "Laurence Olivier Awards"
+    }
+  ]
 }

@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ortega_y_Gasset",
   "open_library_url": "https://openlibrary.org/authors/OL3941062A",
   "birth_year": 1883,
-  "death_year": 1955
+  "death_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q153020",
+  "nationality": [
+    "ES"
+  ],
+  "viaf_id": "95155380",
+  "ol_author_key": "/authors/OL3941062A",
+  "movements": [
+    "Noucentisme"
+  ],
+  "awards": [
+    {
+      "name": "Goethe Plaque of the City of Frankfurt",
+      "year": 1949
+    },
+    {
+      "name": "Goethe Medal for Art and Science",
+      "year": 1932
+    }
+  ]
 }

@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rudolf_Carnap",
   "open_library_url": "https://openlibrary.org/authors/OL118902A",
   "birth_year": 1891,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76519",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "73895990",
+  "ol_author_key": "/authors/OL118902A",
+  "movements": [
+    "logical positivism"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1952
+    }
+  ]
 }

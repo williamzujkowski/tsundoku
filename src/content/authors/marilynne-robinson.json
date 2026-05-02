@@ -6,5 +6,56 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Marilynne_Robinson_%28cropped2%29.jpg/400px-Marilynne_Robinson_%28cropped2%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marilynne_Robinson",
   "open_library_url": "https://openlibrary.org/authors/OL224519A",
-  "birth_year": 1943
+  "birth_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q253926",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "16729",
+  "ol_author_key": "/authors/OL224519A",
+  "awards": [
+    {
+      "name": "Hemingway Foundation/PEN Award",
+      "year": 1980
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2004
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 2005
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 2012
+    },
+    {
+      "name": "PEN/Diamonstein-Spielvogel Award for the Art of the Essay",
+      "year": 1999
+    },
+    {
+      "name": "Grawemeyer Awards",
+      "year": 2006
+    },
+    {
+      "name": "Women's Prize for Fiction",
+      "year": 2009
+    },
+    {
+      "name": "Mondello Prize",
+      "year": 2016
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2014
+    }
+  ]
 }

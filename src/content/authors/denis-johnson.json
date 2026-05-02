@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Denis_Johnson",
   "open_library_url": "https://openlibrary.org/authors/OL38799A",
   "birth_year": 1949,
-  "death_year": 2017
+  "death_year": 2017,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q340016",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51707360",
+  "ol_author_key": "/authors/OL38799A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 2007
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 2003
+    },
+    {
+      "name": "Whiting Awards",
+      "year": 1986
+    },
+    {
+      "name": "Library of Congress Prize for American Fiction",
+      "year": 2017
+    },
+    {
+      "name": "Sue Kaufman Prize for First Fiction",
+      "year": 1984
+    }
+  ]
 }

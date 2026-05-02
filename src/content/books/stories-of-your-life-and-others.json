@@ -20,18 +20,6 @@
   "google_books_url": "http://books.google.com/books?id=xa_wbcnyKXMC&dq=Stories+of+Your+Life+and+Others+Ted+Chiang&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "American Science fiction",
-    "Fiction, science fiction, short stories",
-    "nyt:trade-fiction-paperback=2016-12-04",
-    "New York Times bestseller",
-    "Life change events",
-    "Fiction",
-    "Change (Psychology)",
-    "Automation",
-    "Human-alien encounters",
-    "Adaptability (Psychology)"
-  ],
   "ddc": [
     "813.6"
   ],
@@ -86,11 +74,28 @@
   "ol_work_key": "/works/OL6216050W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL3956559M"
+  "representative_edition_key": "/books/OL3956559M",
+  "wikidata_qid": "Q3045861",
+  "original_title": "Stories of Your Life and Others",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 2003
+    },
+    {
+      "name": "Bob Morane award for best short story",
+      "year": 2007
+    }
+  ]
 }

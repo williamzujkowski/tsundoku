@@ -17,18 +17,6 @@
   "pages": 304,
   "google_books_url": "https://play.google.com/store/books/details?id=qLfZf7f5_pkC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Organ donors",
-    "Cloning",
-    "Donation of organs, tissues",
-    "Women",
-    "Literature",
-    "New York Times bestseller",
-    "nyt:trade_fiction_paperback=2010-09-05",
-    "Human cloning",
-    "Science fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914"
@@ -87,11 +75,26 @@
   "ol_work_key": "/works/OL59038W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 47,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24260257M"
+  "representative_edition_key": "/books/OL24260257M",
+  "wikidata_qid": "Q951587",
+  "original_title": "Never Let Me Go",
+  "original_language": "eng",
+  "original_publisher": "Faber & Faber",
+  "awards": [
+    {
+      "name": "Corine Literature Prize",
+      "year": 2006
+    }
+  ]
 }

@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marcel_Proust",
   "open_library_url": "https://openlibrary.org/authors/OL120205A",
   "birth_year": 1871,
-  "death_year": 1922
+  "death_year": 1922,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7199",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "32001793",
+  "ol_author_key": "/authors/OL120205A",
+  "awards": [
+    {
+      "name": "Prix Goncourt",
+      "year": 1919
+    },
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1920
+    },
+    {
+      "name": "Grand Prize for the Best Novels of the Half-Century"
+    }
+  ]
 }

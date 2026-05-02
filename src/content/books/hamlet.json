@@ -15,18 +15,6 @@
   "pages": 434,
   "google_books_url": "http://books.google.com/books?id=U0MotJWHzWcC&dq=Hamlet+William+Shakespeare&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "performing arts",
-    "Stage history",
-    "Reyes, reinas, soberanos",
-    "Venganza",
-    "History and criticism",
-    "Criticism and interpretation",
-    "LITERARY CRITICISM",
-    "Succession",
-    "Fathers",
-    "Regicide"
-  ],
   "librivox_url": "https://librivox.org/hamlet-by-william-shakespeare/",
   "gutenberg_id": 1524,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1524",
@@ -629,10 +617,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL50657986M"
+  "representative_edition_key": "/books/OL50657986M",
+  "wikidata_qid": "Q54800666",
+  "original_title": "The Klingon Hamlet",
+  "original_language": "eng"
 }

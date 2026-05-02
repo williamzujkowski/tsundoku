@@ -12,22 +12,10 @@
   "description": "Pollyanna is a best-selling 1913 novel by Eleanor H. Porter that is now considered a classic of children's literature, with the title character's name becoming a popular term for someone with the same optimistic outlook.",
   "cover_url": "https://books.google.com/books/content?id=TDlFAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781627937528",
-  "first_published": 1997,
+  "first_published": 1913,
   "pages": 308,
   "google_books_url": "https://play.google.com/store/books/details?id=TDlFAwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Aunts",
-    "Cheerfulness",
-    "Classic Literature",
-    "Conduct of life",
-    "Family",
-    "Fiction",
-    "History",
-    "Interpersonal relations",
-    "Juvenile Literature",
-    "Juvenile fiction"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 28798,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28798",
@@ -113,13 +101,19 @@
   "ol_work_key": "/works/OL2775807W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781890517069",
-  "representative_edition_key": "/books/OL36795265M"
+  "representative_edition_key": "/books/OL36795265M",
+  "wikidata_qid": "Q2348190",
+  "original_title": "Pollyanna",
+  "original_publisher": "Louis Coues Page"
 }

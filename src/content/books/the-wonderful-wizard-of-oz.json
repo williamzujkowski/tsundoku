@@ -20,28 +20,6 @@
   "language": "eng",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-wonderful-wizard-of-oz/",
-  "subjects": [
-    "Category: Adventure",
-    "Category: American Literature",
-    "Category: Children & Young Adult Reading",
-    "Category: Science-Fiction & Fantasy",
-    "Children's Literature",
-    "Courage -- Juvenile fiction",
-    "Cowardly Lion (Fictitious character) -- Juvenile fiction",
-    "Cyclones -- Juvenile fiction",
-    "Dreams -- Juvenile fiction",
-    "Fantasy",
-    "Fantasy literature",
-    "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
-    "Good and evil -- Juvenile fiction",
-    "Home -- Juvenile fiction",
-    "Oz (Imaginary place) -- Juvenile fiction",
-    "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
-    "Tin Woodman (Fictitious character) -- Juvenile fiction",
-    "Toto (Fictitious character) -- Juvenile fiction",
-    "Witches -- Juvenile fiction",
-    "Wizard of Oz (Fictitious character) -- Juvenile fiction"
-  ],
   "gutenberg_id": 55,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/55",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/55.html.images",
@@ -316,10 +294,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9789500398558",
-  "representative_edition_key": "/books/OL53381039M"
+  "representative_edition_key": "/books/OL53381039M",
+  "wikidata_qid": "Q20564582",
+  "original_title": "Dewin Gwlad yr Os"
 }

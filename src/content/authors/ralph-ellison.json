@@ -7,5 +7,42 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Ellison",
   "open_library_url": "https://openlibrary.org/authors/OL32983A",
   "birth_year": 1914,
-  "death_year": 1994
+  "death_year": 1994,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q299965",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "2481446",
+  "ol_author_key": "/authors/OL32983A",
+  "awards": [
+    {
+      "name": "National Medal of Arts"
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 1969
+    },
+    {
+      "name": "National Book Award",
+      "year": 1953
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 1984
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1992
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    }
+  ]
 }

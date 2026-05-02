@@ -10,14 +10,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "American Science fiction",
-    "Fiction",
-    "Fiction, science fiction, general",
-    "Interstellar travel",
-    "Literature",
-    "Science fiction"
-  ],
   "description": "Tau Zero is a hard science fiction novel by American writer Poul Anderson. The novel was based upon the short story \"To Outlive Eternity\" appearing in Galaxy Science Fiction in 1967. It was first published in book form in 1970. The book is a quintessential example of \"hard sci-fi\", as its plot is dominated by futuristic technology grounded in real physics principles. It was nominated for the Hugo Award for Best Novel in 1971.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/TauZero%28Anderson%29.jpg/250px-TauZero%28Anderson%29.jpg",
   "pages": 192,
@@ -44,13 +36,28 @@
   "ol_work_key": "/works/OL90571W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 24,
   "first_published_circa": false,
   "first_edition_isbn": "9781568652788",
-  "representative_edition_key": "/books/OL27082095M"
+  "representative_edition_key": "/books/OL27082095M",
+  "wikidata_qid": "Q1968531",
+  "original_title": "Tau Zero",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 1993
+    }
+  ]
 }

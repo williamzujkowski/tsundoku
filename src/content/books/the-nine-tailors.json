@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=CMJvCV9WZ8MC&dq=The+Nine+Tailors+Dorothy+L.+Sayers&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Fiction",
-    "Private investigators",
-    "Lord Wimsey, Peter (Fictitious character)",
-    "Mystery and detective stories",
-    "mystery",
-    "detective fiction",
-    "Wimsey, peter, lord (fictitious character), fiction",
-    "England, fiction",
-    "Fiction, mystery & detective, traditional",
-    "Large type books"
-  ],
   "ddc": [
     "823.912 s",
     "823",
@@ -83,13 +71,25 @@
   "ol_work_key": "/works/OL2234946W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7366128M"
+  "representative_edition_key": "/books/OL7366128M",
+  "wikidata_qid": "Q1815880",
+  "original_title": "The Nine Tailors",
+  "original_language": "eng",
+  "original_publisher": "Gollancz",
+  "series": {
+    "name": "Lord Peter Wimsey mysteries"
+  }
 }

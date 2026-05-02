@@ -11,23 +11,11 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7141859-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7141859-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL843379W",
-  "first_published": 1790,
+  "first_published": 1791,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/reflections-on-the-revolution-in-france-by-edmund-burke/",
-  "subjects": [
-    "History",
-    "Politics and government",
-    "Political science",
-    "Causes",
-    "Causes and character",
-    "Early works to 1800",
-    "France",
-    "Revolution",
-    "Revolution, 1789-1799",
-    "Great Britain"
-  ],
   "description": "Reflections on the Revolution in France is a political pamphlet written by the British statesman Edmund Burke and published in November 1790. It is fundamentally a contrast of the French Revolution to that time with the unwritten British Constitution and, to a significant degree, an argument with British supporters and interpreters of the events in France.",
   "pages": 178,
   "isbn": "9798489011846",
@@ -140,13 +128,19 @@
   "ol_work_key": "/works/OL60359W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 280,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36488380M"
+  "representative_edition_key": "/books/OL36488380M",
+  "wikidata_qid": "Q979108",
+  "original_title": "Rights of Man",
+  "original_language": "eng"
 }

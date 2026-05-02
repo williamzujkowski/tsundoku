@@ -19,28 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=NktABAAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Brothers and sisters",
-    "Category: Adventure",
-    "Category: British Literature",
-    "Category: Children & Young Adult Reading",
-    "Children's Fiction",
-    "Children's Literature",
-    "Children's stories",
-    "Classic Literature",
-    "Country life",
-    "Country life -- England -- Fiction",
-    "England -- Fiction",
-    "Family",
-    "Family life",
-    "Family life -- Fiction",
-    "Fiction",
-    "History",
-    "Juvenile Literature",
-    "Juvenile fiction",
-    "Railroads -- Fiction",
-    "Siblings -- Fiction"
-  ],
   "gutenberg_id": 1874,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1874",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1874.html.images",
@@ -152,13 +130,19 @@
   "ol_work_key": "/works/OL99509W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781537780788",
-  "representative_edition_key": "/books/OL57529136M"
+  "representative_edition_key": "/books/OL57529136M",
+  "wikidata_qid": "Q969970",
+  "original_title": "The Railway Children",
+  "original_language": "eng"
 }

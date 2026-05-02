@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_Ginsberg",
   "open_library_url": "https://openlibrary.org/authors/OL29479A",
   "birth_year": 1926,
-  "death_year": 1997
+  "death_year": 1997,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6711",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108417923",
+  "ol_author_key": "/authors/OL29479A",
+  "movements": [
+    "Beat Generation"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "National Book Award",
+      "year": 1974
+    },
+    {
+      "name": "War Resisters League Peace Award"
+    },
+    {
+      "name": "National Book Award for Poetry",
+      "year": 1974
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 1986
+    },
+    {
+      "name": "Golden Wreath",
+      "year": 1986
+    },
+    {
+      "name": "John Jay Award",
+      "year": 1993
+    }
+  ]
 }

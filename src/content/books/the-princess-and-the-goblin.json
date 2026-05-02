@@ -18,26 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=e749AAAAYAAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: Adventure",
-    "Category: Children & Young Adult Reading",
-    "Category: Science-Fiction & Fantasy",
-    "Child and youth fiction",
-    "Children's Literature",
-    "Children's fiction",
-    "Children's stories",
-    "Classic Literature",
-    "Classic fiction",
-    "Fairy tales",
-    "Fairy tales, folk tales, fables, magical tales & traditional stories",
-    "Fantasy",
-    "Fantasy literature",
-    "Fiction",
-    "Goblins -- Juvenile fiction",
-    "Juvenile Fiction",
-    "Juvenile Literature",
-    "Princesses -- Juvenile fiction"
-  ],
   "gutenberg_id": 708,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/708",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/708.html.images",
@@ -118,11 +98,19 @@
   "ol_work_key": "/works/OL15449W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34360898M"
+  "representative_edition_key": "/books/OL34360898M",
+  "wikidata_qid": "Q466505",
+  "original_title": "The Princess and the Goblin",
+  "original_language": "eng",
+  "first_published_circa": false
 }

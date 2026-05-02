@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chimamanda_Ngozi_Adichie_%282015%29.png/400px-Chimamanda_Ngozi_Adichie_%282015%29.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Chimamanda_Ngozi_Adichie",
   "open_library_url": "https://openlibrary.org/authors/OL1393502A",
-  "birth_year": 1977
+  "birth_year": 1977,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q230141",
+  "nationality": [
+    "NG"
+  ],
+  "viaf_id": "87194517",
+  "ol_author_key": "/authors/OL1393502A",
+  "awards": [
+    {
+      "name": "O. Henry Award",
+      "year": 2003
+    },
+    {
+      "name": "Women's Prize for Fiction",
+      "year": 2007
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 2007
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2008
+    },
+    {
+      "name": "International Nonino Prize",
+      "year": 2009
+    },
+    {
+      "name": "OkayAfrica 100 Women",
+      "year": 2017
+    },
+    {
+      "name": "PEN Pinter Prize",
+      "year": 2018
+    },
+    {
+      "name": "BBC 100 Women",
+      "year": 2021
+    },
+    {
+      "name": "honorary doctorate from Sorbonne University",
+      "year": 2025
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2013
+    }
+  ]
 }

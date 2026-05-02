@@ -46,10 +46,13 @@ class TestBookIntegrity:
         assert len(missing) == 0, f"Missing required fields:\n" + "\n".join(missing[:10])
 
     def test_no_null_values(self):
+        # `first_edition_isbn` is allowed to be explicit null — it carries
+        # the meaning "this work pre-dates ISBN issuance" (epic #124).
+        EXPLICIT_NULL_ALLOWED = {"first_edition_isbn"}
         nulls = []
         for f, b in load_all_books():
             for k, v in b.items():
-                if v is None:
+                if v is None and k not in EXPLICIT_NULL_ALLOWED:
                     nulls.append(f"{Path(f).name}: {k} is null")
         assert len(nulls) == 0, f"Null values found:\n" + "\n".join(nulls[:10])
 

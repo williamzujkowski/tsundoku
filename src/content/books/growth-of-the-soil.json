@@ -14,17 +14,6 @@
   "pages": 276,
   "google_books_url": "http://books.google.com/books?id=L7u24qjROV4C&dq=intitle:Growth+of+the+Soil&hl=&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Literature",
-    "Fiction",
-    "Classic Literature",
-    "Norway -- Fiction.",
-    "Norway, fiction",
-    "Fiction, general",
-    "Frontier and pioneer life",
-    "Pioneers",
-    "Farmers"
-  ],
   "librivox_url": "https://librivox.org/growth-of-the-soil-by-knut-hamsun/",
   "gutenberg_id": 10984,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/10984",
@@ -65,17 +54,19 @@
   "ol_work_key": "/works/OL573191W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 114,
   "first_published_circa": false,
   "original_language": "nor",
   "original_title": "Markens grøde",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11681967M"
+  "representative_edition_key": "/books/OL11681967M",
+  "wikidata_qid": "Q2266122"
 }

@@ -7,5 +7,77 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Stoppard",
   "open_library_url": "https://openlibrary.org/authors/OL4340559A",
   "birth_year": 1937,
-  "death_year": 2025
+  "death_year": 2025,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q294773",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "101362857",
+  "ol_author_key": "/authors/OL4340559A",
+  "awards": [
+    {
+      "name": "Laurence Olivier Awards"
+    },
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 1978
+    },
+    {
+      "name": "PEN Pinter Prize",
+      "year": 2013
+    },
+    {
+      "name": "Laurel Award for Screenwriting Achievement",
+      "year": 2013
+    },
+    {
+      "name": "Writers Guild of America Award for Best Original Screenplay",
+      "year": 1999
+    },
+    {
+      "name": "Praemium Imperiale",
+      "year": 2009
+    },
+    {
+      "name": "Academy Award for Best Writing, Original Screenplay",
+      "year": 1999
+    },
+    {
+      "name": "Dan David Prize",
+      "year": 2008
+    },
+    {
+      "name": "Order of Merit",
+      "year": 2000
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1972
+    },
+    {
+      "name": "Knight Bachelor",
+      "year": 1997
+    },
+    {
+      "name": "Critics' Circle Award for Distinguished Service to the Arts"
+    },
+    {
+      "name": "John Whiting Award"
+    },
+    {
+      "name": "Bodley Medal",
+      "year": 2004
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 2023
+    }
+  ]
 }

@@ -20,18 +20,6 @@
   "oclc_id": "49602550",
   "worldcat_url": "https://www.worldcat.org/oclc/49602550",
   "lccn": "2001019785",
-  "subjects": [
-    "Holocaust, Jewish (1939-1945)",
-    "Fiction",
-    "Holocaust survivors",
-    "Architectural historians",
-    "Depersonalization",
-    "Jews",
-    "Fiction, historical, general",
-    "Holocaust, jewish (1939-1945), fiction",
-    "Holocaust, Jewish (1939-1945) fast (OCoLC)fst00958866",
-    "Holocaust, Jewish (1939-1945) fast (OCoLC)fst00958866 (uri) http://id.worldcat.org/fast/fst00958866"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "833.914"
@@ -64,11 +52,17 @@
   "ol_work_key": "/works/OL46615W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28688096M"
+  "representative_edition_key": "/books/OL28688096M",
+  "wikidata_qid": "Q473389",
+  "original_title": "Austerlitz",
+  "original_language": "ger"
 }

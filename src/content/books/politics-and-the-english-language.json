@@ -11,22 +11,10 @@
   "description": "George Orwell set out 'to make political writing into an art', and to a wide extent this aim shaped the future of English literature – his descriptions of authoritarian regimes helped to form a new vocabulary that is fundamental to understanding totalitarianism. While 1984 and Animal Farm are amongst the most popular classic novels in the English language, this new series of Orwell's essays seeks to bring a wider selection of his writing on politics and literature to a new readership. In Politic",
   "cover_url": "https://books.google.com/books/content?id=9dAREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781913724276",
-  "first_published": 1947,
+  "first_published": 1946,
   "pages": 48,
   "google_books_url": "http://books.google.com/books?id=9dAREAAAQBAJ&dq=intitle:Politics+and+the+English+Language&hl=&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "futurology",
-    "censorship",
-    "surveillance",
-    "rebels",
-    "sting operations",
-    "historical negationism",
-    "memory holes",
-    "thoughtcrime",
-    "Outer Party",
-    "resistance movements"
-  ],
   "copyright_status": "likely_public_domain",
   "lcc": [
     "PR-6029.00000000.R8 P65 1947",
@@ -41,12 +29,18 @@
   "ol_work_key": "/works/OL1168179W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27566001M"
+  "representative_edition_key": "/books/OL27566001M",
+  "wikidata_qid": "Q2273966",
+  "original_title": "Politics and the English Language",
+  "original_language": "eng"
 }

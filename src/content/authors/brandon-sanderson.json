@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Brandon_Sanderson_-_Lucca_Comics_%26_Games_2016.jpg/400px-Brandon_Sanderson_-_Lucca_Comics_%26_Games_2016.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Brandon_Sanderson",
   "open_library_url": "https://openlibrary.org/authors/OL1394865A",
-  "birth_year": 1975
+  "birth_year": 1975,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q457608",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "50418535",
+  "ol_author_key": "/authors/OL1394865A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2013
+    },
+    {
+      "name": "Audie Award for Fantasy",
+      "year": 2015
+    },
+    {
+      "name": "Hugo Award for Best Related Work",
+      "year": 2013
+    },
+    {
+      "name": "Whitney Awards",
+      "year": 2007
+    },
+    {
+      "name": "Audie Award for Fantasy",
+      "year": 2022
+    },
+    {
+      "name": "Imaginales award for best foreign-language novel",
+      "year": 2013
+    }
+  ]
 }

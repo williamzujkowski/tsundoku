@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9247987-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9247987-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL262438W",
-  "first_published": 1889,
+  "first_published": 1890,
   "language": "eng",
   "description": "First published in 1890, The Sign of Four is Sir Arthur Conan Doyle's second book starring legendary detective Sherlock Holmes. The story is complex, involving a secret between four ex-cons from India and a hidden treasure. More complex than the first Holmes novel, The Sign of Four also introduces the detective's drug habit and leaves breadcrumbs for the reader that lead toward the final resolution. Readers are offered an explanation of the mystery from the killer's perspective, encouraging a se...",
   "isbn": "9781605200491",
@@ -19,15 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=W-lBxQ190KsC&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Detective Fiction",
-    "Detective and mystery stories",
-    "Holmes, Sherlock (Fictitious character) -- Fiction",
-    "Private investigators -- England -- Fiction"
-  ],
   "gutenberg_id": 2097,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2097",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2097.html.images",
@@ -122,13 +113,25 @@
   "ol_work_key": "/works/OL262438W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9788413935744",
-  "representative_edition_key": "/books/OL34256534M"
+  "representative_edition_key": "/books/OL34256534M",
+  "wikidata_qid": "Q500688",
+  "original_title": "The Sign of the Four",
+  "original_language": "eng",
+  "original_publisher": "Lippincott's Monthly Magazine",
+  "series": {
+    "name": "Sherlock Holmes novels"
+  }
 }

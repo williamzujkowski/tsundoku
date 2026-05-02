@@ -19,18 +19,6 @@
   "pages": 1028,
   "google_books_url": "http://books.google.com/books?id=uGHWsBJx6KQC&dq=Jonathan+Strange+%26+Mr+Norrell+Susanna+Clarke&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "England, fiction",
-    "Fiction, historical",
-    "Fiction, historical, general",
-    "Literature",
-    "award:hugo_award=2005",
-    "Fantasy fiction",
-    "Fairies",
-    "Fiction",
-    "Hugo Award Winner",
-    "Fantasy"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.92"
@@ -76,10 +64,42 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 51,
   "first_published_circa": false,
   "first_edition_isbn": "9781408856888",
-  "representative_edition_key": "/books/OL8054238M"
+  "representative_edition_key": "/books/OL8054238M",
+  "wikidata_qid": "Q1474920",
+  "original_title": "Jonathan Strange & Mr Norrell",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2005
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2005
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2005
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Mythopoeic Awards",
+      "year": 2005
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2005
+    }
+  ]
 }

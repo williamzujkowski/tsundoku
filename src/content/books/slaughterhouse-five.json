@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12727001-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL98459W",
-  "first_published": 1968,
+  "first_published": 1969,
   "language": "eng",
   "description": "Kurt Vonnegut’s masterpiece, Slaughterhouse-Five is “a desperate, painfully honest attempt to confront the monstrous crimes of the twentieth century” (Time). Selected by the Modern Library as one of the 100 best novels of all time • One of The Atlantic’s Great American Novels of the Past 100 Years Slaughterhouse-Five, an American classic, is one of the world’s great antiwar books. Centering on the infamous World War II firebombing of Dresden, the novel is the result of what Kurt Vonnegut describ...",
   "isbn": "9780385333849",
@@ -20,18 +20,6 @@
   "google_books_url": "http://books.google.com/books?id=pWyLDQAAQBAJ&dq=Slaughterhouse-Five+Kurt+Vonnegut&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "American science fiction",
-    "bombing of Dresden",
-    "Open Library staff picks",
-    "military fiction",
-    "war stories",
-    "World War II",
-    "World War, 1939-1945",
-    "literature and the war",
-    "war",
-    "free will and determinism"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -112,13 +100,30 @@
   "ol_work_key": "/works/OL98459W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 131,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7439293M"
+  "representative_edition_key": "/books/OL7439293M",
+  "wikidata_qid": "Q265954",
+  "original_title": "Slaughterhouse-Five",
+  "original_language": "eng",
+  "original_publisher": "Dell Publishing",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

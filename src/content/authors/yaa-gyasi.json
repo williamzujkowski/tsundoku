@@ -6,5 +6,35 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Yaa_Gyasi%2C_9_27_%2836709389003%29_%28cropped%29.jpg/400px-Yaa_Gyasi%2C_9_27_%2836709389003%29_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yaa_Gyasi",
   "open_library_url": "https://openlibrary.org/authors/OL7400941A",
-  "birth_year": 1989
+  "birth_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q27757818",
+  "nationality": [
+    "GH",
+    "US"
+  ],
+  "viaf_id": "117144647683735584397",
+  "ol_author_key": "/authors/OL7400941A",
+  "awards": [
+    {
+      "name": "Category:Hemingway Foundation/PEN Award winners"
+    },
+    {
+      "name": "American Book Awards",
+      "year": 2017
+    },
+    {
+      "name": "National Book Foundation"
+    },
+    {
+      "name": "John Leonard Prize",
+      "year": 2016
+    }
+  ]
 }

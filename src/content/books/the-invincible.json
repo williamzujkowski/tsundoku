@@ -6,15 +6,12 @@
   "slug": "the-invincible",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL33913478W",
-  "first_published": 1973,
+  "first_published": 1964,
   "description": "A space cruiser encounters beings descended from self-replicating machines in this sci-fi classic with echoes of H.G. Wells and Jules Verne! “A giant of mid-20th-century science fiction, in a league with Arthur C. Clarke, Isaac Asimov, and Philip K. Dick.” —The New York Times Stanisław Lem’s The Invincible tells the story of a space cruiser sent to an obscure planet to determine the fate of a sister spaceship whose communication with Earth has abruptly ceased. Landing on the planet Regis III, na...",
   "cover_url": "https://books.google.com/books/content?id=12PMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=12PMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780262357685",
   "pages": 235,
-  "subjects": [
-    "Fiction"
-  ],
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=12PMDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
@@ -44,13 +41,21 @@
   "ol_work_key": "/works/OL109498W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 22,
   "first_published_circa": false,
   "first_edition_isbn": "0283979623",
-  "representative_edition_key": "/books/OL28099287M"
+  "representative_edition_key": "/books/OL28099287M",
+  "wikidata_qid": "Q1197675",
+  "original_title": "Niezwyciężony",
+  "original_language": "pol",
+  "original_publisher": "Wydawnictwo Ministerstwa Obrony Narodowej"
 }

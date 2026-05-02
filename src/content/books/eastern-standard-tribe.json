@@ -12,22 +12,10 @@
   "description": "Now in softcover, the second novel from one of the hottest writers in modern SF",
   "cover_url": "https://books.google.com/books/content?id=00Bw99ZcauoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "0765310457",
-  "first_published": 2005,
+  "first_published": 2004,
   "pages": 228,
   "google_books_url": "http://books.google.com/books?id=00Bw99ZcauoC&dq=intitle:Eastern+Standard+Tribe&hl=&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fiction",
-    "Secret societies",
-    "Sleep-wake cycle",
-    "Time",
-    "Young men",
-    "Systems and standards",
-    "Conspiracies",
-    "Americans",
-    "Business consultants",
-    "Science fiction"
-  ],
   "gutenberg_id": 17028,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/17028",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/17028.html.images",
@@ -59,11 +47,17 @@
   "ol_work_key": "/works/OL5734713W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25159481M"
+  "representative_edition_key": "/books/OL25159481M",
+  "wikidata_qid": "Q5330486",
+  "original_title": "Eastern Standard Tribe",
+  "original_language": "eng"
 }

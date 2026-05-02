@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Carlos_Williams",
   "open_library_url": "https://openlibrary.org/authors/OL219856A",
   "birth_year": 1883,
-  "death_year": 1963
+  "death_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q178106",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "29542054",
+  "ol_author_key": "/authors/OL219856A",
+  "movements": [
+    "modernist poetry",
+    "Imagism",
+    "Beat Generation",
+    "objectivist poets"
+  ],
+  "awards": [
+    {
+      "name": "Bollingen Prize",
+      "year": 1953
+    },
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1963
+    },
+    {
+      "name": "National Book Award",
+      "year": 1950
+    },
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2009
+    },
+    {
+      "name": "Fellowship of the Academy of American Poets",
+      "year": 1956
+    },
+    {
+      "name": "Russell Loines Award for Poetry"
+    }
+  ]
 }

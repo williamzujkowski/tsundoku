@@ -6,5 +6,15 @@
   "birth_year": 1820,
   "death_year": 1899,
   "bio": "British politician and judge (1850-1939)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Wallace%20%281907%20portrait%29.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Wallace%20%281907%20portrait%29.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7350807",
+  "nationality": [
+    "CA"
+  ],
+  "ol_author_key": "/authors/OL5115054A"
 }

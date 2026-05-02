@@ -19,18 +19,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=RuWUCgAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Utopias",
-    "Prisoners",
-    "Twenty-fifth century",
-    "Fiction",
-    "Third millennium",
-    "Fiction, science fiction, general",
-    "series:terra_ignota",
-    "Spirituality",
-    "Magic",
-    "Science Fiction"
-  ],
   "ddc": [
     "813.6"
   ],
@@ -56,11 +44,22 @@
   "ol_work_key": "/works/OL19800093W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27058264M"
+  "representative_edition_key": "/books/OL27058264M",
+  "wikidata_qid": "Q29649659",
+  "original_title": "Too Like the Lightning",
+  "original_language": "eng",
+  "series": {
+    "name": "Terra Ignota",
+    "position": 1
+  }
 }

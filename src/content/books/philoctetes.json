@@ -13,18 +13,6 @@
   "first_published": 1553,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Drama",
-    "Oedipus (Greek mythology)",
-    "Translations into English",
-    "Greek drama (Tragedy)",
-    "Greek Mythology",
-    "Greek drama",
-    "Translations",
-    "Antigone (Greek mythology)",
-    "Ajax (Greek mythology)",
-    "Heracles (Greek mythology)"
-  ],
   "copyright_status": "public_domain",
   "gutenberg_id": 77548,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/77548",
@@ -82,12 +70,14 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 43,
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "(Philoctetes.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8471817M"
+  "representative_edition_key": "/books/OL8471817M",
+  "wikidata_qid": "Q1415903"
 }

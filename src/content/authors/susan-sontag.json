@@ -7,5 +7,65 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Susan_Sontag",
   "open_library_url": "https://openlibrary.org/authors/OL33042A",
   "birth_year": 1933,
-  "death_year": 2004
+  "death_year": 2004,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q152824",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108171730",
+  "ol_author_key": "/authors/OL33042A",
+  "awards": [
+    {
+      "name": "Jerusalem Prize",
+      "year": 2001
+    },
+    {
+      "name": "Princess of Asturias Literary Prize",
+      "year": 2003
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 2003
+    },
+    {
+      "name": "National Book Award",
+      "year": 2000
+    },
+    {
+      "name": "George Polk Award",
+      "year": 1965
+    },
+    {
+      "name": "Harvard Centennial Medal"
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1966
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    },
+    {
+      "name": "MacArthur Fellows Program"
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 2000
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1975
+    },
+    {
+      "name": "National Book Critics Circle Award in Criticism",
+      "year": 1977
+    }
+  ]
 }

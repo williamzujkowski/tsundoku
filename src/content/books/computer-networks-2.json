@@ -22,18 +22,6 @@
   "lccn": "96004121",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015039949741",
   "hathitrust_rights": "Limited (search-only)",
-  "subjects": [
-    "Computer networks",
-    "Ordinateurs réseaux d'",
-    "Réseaux d'ordinateurs",
-    "Computernetwerken",
-    "Rechnernetz",
-    "Television journalists",
-    "Drama",
-    "Man-woman relationships",
-    "Broadcast journalism",
-    "Bilgisayar ağları"
-  ],
   "copyright_status": "in_copyright",
   "isbn": "9780130460028",
   "ddc": [
@@ -101,13 +89,19 @@
   "ol_work_key": "/works/OL1970691W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 42,
   "first_published_circa": false,
   "first_edition_isbn": "0131651838",
-  "representative_edition_key": "/books/OL25560149M"
+  "representative_edition_key": "/books/OL25560149M",
+  "wikidata_qid": "Q18201424",
+  "original_title": "Computer Networks",
+  "original_language": "eng"
 }

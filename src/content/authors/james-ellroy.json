@@ -6,5 +6,24 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/James_Ellroy_in_Toulouse_9023_-_January_2011.jpg/400px-James_Ellroy_in_Toulouse_9023_-_January_2011.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_Ellroy",
   "open_library_url": "https://openlibrary.org/authors/OL40671A",
-  "birth_year": 1948
+  "birth_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q318487",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27090921",
+  "ol_author_key": "/authors/OL40671A",
+  "awards": [
+    {
+      "name": "Edgar Awards",
+      "year": 2015
+    }
+  ]
 }

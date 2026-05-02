@@ -27,14 +27,43 @@ EMPTY_SENTINELS = (None, "", [], {})
 # Existing records without a `_provenance` entry default to rank 0,
 # so any tagged source above 0 can correct them on the next pass.
 SOURCE_RANK = {
-    "manual": 100,                  # user-curated, never overwrite
-    "wikidata_v1": 85,              # curated structured KB (Phase B target)
-    "ol_firstedition_v1": 80,       # /works/{key}/editions.json
-    "ol_classification_v2": 60,     # search.json work-level
-    "ol_search_v1": 40,             # legacy enrich.py output
+    # User-curated values are immutable. Set this provenance manually when
+    # editing a book record by hand.
+    "manual": 100,
+
+    # Wikidata via the strong P648 (Open Library ID) cross-link. Only one
+    # match per ISBN/OL key, so collisions are vanishingly rare.
+    "wikidata_v1": 85,
+
+    # Open Library editions consensus — see scripts/enrich-ol-firstedition.py.
+    # Authoritative for first-publication year + first_edition_isbn for
+    # works whose first edition is post-1800 and well-cataloged.
+    "ol_firstedition_v1": 80,
+
+    # Wikidata via fuzzy title+author search (future scripts/enrich-wikidata-
+    # fallback.py). Strong enough to fill blanks but never override anything
+    # tagged — match noise is unavoidable.
+    "wikidata_search_v1": 50,
+
+    # Open Library work-level data from search.json — see
+    # scripts/enrich-ol-classification.py. DDC, LCC, subject_facet, ISBN.
+    "ol_classification_v2": 60,
+
+    # Open Library data from the original enrich.py monolithic pass.
+    # Mostly superseded but kept for provenance-trail completeness.
+    "ol_search_v1": 40,
+
+    # Google Books — descriptions and ISBNs. Less authoritative than OL for
+    # publication metadata, treated as a fallback signal only.
     "google_books_v1": 35,
+
+    # Wikipedia REST API — author bio, photo. Bio text is third-party-edited
+    # so we keep it lower than structured-KB sources.
     "wikipedia_v1": 30,
-    "legacy": 0,                    # anything from before provenance existed
+
+    # Anything in book/author records before provenance was tracked. Any
+    # tagged source can correct these.
+    "legacy": 0,
 }
 
 

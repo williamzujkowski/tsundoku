@@ -15,9 +15,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=0KoY9664480C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780684833644",
   "pages": 168,
-  "subjects": [
-    "Fiction"
-  ],
   "google_books_url": "http://books.google.com/books?id=0KoY9664480C&dq=Out+of+the+Silent+Planet+C.S.+Lewis&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
@@ -80,13 +77,26 @@
   "ol_work_key": "/works/OL71166W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 65,
   "first_published_circa": false,
   "first_edition_isbn": "0025707957",
-  "representative_edition_key": "/books/OL34241555M"
+  "representative_edition_key": "/books/OL34241555M",
+  "wikidata_qid": "Q1687429",
+  "original_title": "Out of the Silent Planet",
+  "original_language": "eng",
+  "original_publisher": "John Lane",
+  "series": {
+    "name": "The Space Trilogy",
+    "position": 1
+  }
 }

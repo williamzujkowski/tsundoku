@@ -1,7 +1,7 @@
 {
   "title": "Lord of Light",
   "author": "Roger Zelazny",
-  "category": "Philosophy",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "lord-of-light",
   "tags": [
@@ -14,18 +14,6 @@
   "first_published": 1967,
   "language": "eng",
   "reading_status": "read",
-  "subjects": [
-    "Fiction",
-    "Hindu Gods",
-    "Hugo Award Winner",
-    "Space colonies",
-    "award:hugo_award=1968",
-    "award:hugo_award=novel",
-    "Philosophy",
-    "Literature",
-    "Fiction, science fiction, general",
-    "American Science fiction"
-  ],
   "copyright_status": "in_copyright",
   "description": "Lord of Light (1967) is a science fantasy novel by American author Roger Zelazny. It was awarded the 1968 Hugo Award for Best Novel and nominated for a Nebula Award for Best Novel. Two chapters from the novel were first published as novelettes in the Magazine of Fantasy and Science Fiction – \"Dawn\" in April 1967, and \"Death and the Executioner\" in June 1967.",
   "isbn": "9780739416884",
@@ -61,13 +49,28 @@
   "pages": 280,
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 27,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27280403M"
+  "representative_edition_key": "/books/OL27280403M",
+  "wikidata_qid": "Q734976",
+  "original_title": "Lord of Light",
+  "original_language": "eng",
+  "original_publisher": "Doubleday",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1968
+    }
+  ]
 }

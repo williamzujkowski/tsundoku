@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/CatherineAsaro2009.jpg/400px-CatherineAsaro2009.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Catherine_Asaro",
   "open_library_url": "https://openlibrary.org/authors/OL39651A",
-  "birth_year": 1955
+  "birth_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q260054",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "34681614",
+  "ol_author_key": "/authors/OL39651A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2002
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 2009
+    }
+  ]
 }

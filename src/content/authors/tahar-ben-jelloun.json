@@ -6,5 +6,55 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tahar_Ben_Jelloun_par_Claude_Truong-Ngoc_sept_2013.jpg/400px-Tahar_Ben_Jelloun_par_Claude_Truong-Ngoc_sept_2013.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tahar_Ben_Jelloun",
   "open_library_url": "https://openlibrary.org/authors/OL26758A",
-  "birth_year": 1944
+  "birth_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q334989",
+  "nationality": [
+    "MA",
+    "FR"
+  ],
+  "viaf_id": "61541657",
+  "ol_author_key": "/authors/OL26758A",
+  "awards": [
+    {
+      "name": "Grand Officer of the Legion of Honour",
+      "year": 2007
+    },
+    {
+      "name": "Commander of the National Order of Merit",
+      "year": 2012
+    },
+    {
+      "name": "Prix Goncourt",
+      "year": 1987
+    },
+    {
+      "name": "honorary doctorate from the Université de Montréal"
+    },
+    {
+      "name": "Honorary doctor of the Catholic University of Louvain"
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres",
+      "year": 1995
+    },
+    {
+      "name": "Dublin Literary Award",
+      "year": 2004
+    },
+    {
+      "name": "Camaiore Literary Prize",
+      "year": 2022
+    },
+    {
+      "name": "Franco-Arabic Friendship Award",
+      "year": 1976
+    }
+  ]
 }

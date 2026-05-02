@@ -1,9 +1,90 @@
 ---
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import Layout from '../layouts/Layout.astro';
 import stats from '../data/stats.json';
+import { getCollection } from 'astro:content';
 import { toSlug } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
+
+// Country code → nationality (matches the author detail page mapping)
+const COUNTRY_NAMES: Record<string, string> = {
+  GB: 'British', US: 'American', CA: 'Canadian', AU: 'Australian', NZ: 'New Zealander',
+  IE: 'Irish', FR: 'French', DE: 'German', IT: 'Italian', ES: 'Spanish',
+  PT: 'Portuguese', NL: 'Dutch', BE: 'Belgian', CH: 'Swiss', AT: 'Austrian',
+  SE: 'Swedish', NO: 'Norwegian', DK: 'Danish', FI: 'Finnish', IS: 'Icelandic',
+  RU: 'Russian', PL: 'Polish', CZ: 'Czech', HU: 'Hungarian', GR: 'Greek',
+  RO: 'Romanian', BG: 'Bulgarian', HR: 'Croatian', RS: 'Serbian', UA: 'Ukrainian',
+  TR: 'Turkish', JP: 'Japanese', CN: 'Chinese', KR: 'Korean', IN: 'Indian',
+  IL: 'Israeli', IR: 'Iranian', EG: 'Egyptian', ZA: 'South African', NG: 'Nigerian',
+  BR: 'Brazilian', AR: 'Argentine', CL: 'Chilean', MX: 'Mexican', CO: 'Colombian',
+  PE: 'Peruvian',
+};
+function nationalityLabel(code: string): string {
+  return COUNTRY_NAMES[code] ?? code;
+}
+
+const nationalityMax = Math.max(1, ...stats.nationality_distribution.map(n => n.count));
+
+// Timeline: show decades with at least 1 book, and only post-1700 to keep
+// the chart readable (BCE/medieval/early-modern entries are too sparse for
+// a comparative bar chart and would dwarf-the-rest visually).
+const timelineEntries = stats.timeline.filter(t => t.decade >= 1700);
+const timelineMax = Math.max(1, ...timelineEntries.map(t => t.count));
+
+// Avoid `<` inside JSX expressions — the .astro parser misreads it as a tag
+// opener even inside braces. Pre-format the oldest-year line in the script.
+const oldestYearLine = stats.oldest_year !== undefined && stats.oldest_year !== null
+  ? (stats.oldest_year < 0
+      ? `Oldest entry: ${Math.abs(stats.oldest_year)} BCE.`
+      : `Oldest entry: ${stats.oldest_year}.`)
+  : '';
+
+// Full per-country book counts for the world map. Aggregates from the
+// authors collection at build time.
+const allBooks = await getCollection('books');
+const allAuthors = await getCollection('authors');
+const authorPrimaryNat = new Map<string, string>();
+for (const a of allAuthors) {
+  const nats = a.data.nationality ?? [];
+  if (nats.length > 0) authorPrimaryNat.set(a.data.name, nats[0]);
+}
+const countryBookCounts: Record<string, number> = {};
+for (const b of allBooks) {
+  const nat = authorPrimaryNat.get(b.data.author);
+  if (nat) countryBookCounts[nat] = (countryBookCounts[nat] ?? 0) + 1;
+}
+const mapMax = Math.max(1, ...Object.values(countryBookCounts));
+
+const worldMapSvg = await fs.readFile(
+  path.resolve(process.cwd(), 'src/data/world-map.svg'),
+  'utf-8',
+);
+
+function colorFor(count: number): string {
+  // sqrt for visual perceptual scale
+  const t = Math.sqrt(count / mapMax);
+  const lerp = (a: number, b: number) => Math.round(a + (b - a) * t);
+  const r = lerp(0xef, 0x6b);
+  const g = lerp(0xe5, 0x21);
+  const bl = lerp(0xff, 0xa8);
+  return `rgb(${r}, ${g}, ${bl})`;
+}
+const mapFillRules = Object.entries(countryBookCounts)
+  .map(([code, count]) => `.world-map path[data-country="${code}"] { fill: ${colorFor(count)}; }`)
+  .join('\n');
+
+// Wrap the dynamic CSS in a <style> tag for set:html injection.
+const mapStyleBlock = `<style>
+.world-map { width: 100%; height: auto; max-width: 900px; margin: 0 auto; display: block; }
+.world-map path { fill: var(--card-bg, #f5f5f5); stroke: var(--text-dim, #aaa); stroke-width: 0.4; transition: fill 200ms ease; }
+.world-map path:hover { stroke-width: 1.2; stroke: var(--text-muted, #666); }
+.timeline-bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 4px; align-items: end; min-height: 160px; }
+.timeline-bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.timeline-bar-fill { width: 100%; background: var(--pop-purple); min-height: 2px; }
+${mapFillRules}
+</style>`;
 ---
 
 <Layout title="Stats" description="How deep does the pile go? Numbers on the unread backlog.">
@@ -52,6 +133,59 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
+  <!-- Decade timeline — every 10-year slice with at least one book -->
+  <section class="mb-8">
+    <h2 class="heading-md mb-4">When the Books Are From</h2>
+    <p class="text-sm text-muted mb-4">By first-edition decade. {oldestYearLine} Pre-1700 entries omitted from the chart for legibility — see the era table below.</p>
+    <div class="card card-padded-lg">
+      <div class="timeline-bars">
+        {timelineEntries.map(t => {
+          const heightPct = (t.count / timelineMax) * 100;
+          return (
+            <div class="timeline-bar-wrap" title={`${t.decade}s: ${t.count} books`}>
+              <span class="text-xs text-dim text-mono">{t.count}</span>
+              <div
+                class="timeline-bar-fill"
+                style={`height: ${Math.max(heightPct, 2)}%`}
+                aria-hidden="true">
+              </div>
+              <span class="text-xs text-dim text-mono">{String(t.decade).slice(-2)}</span>
+            </div>
+          );
+        })}
+      </div>
+      <p class="text-xs text-dim mt-3">Each bar is a decade; the two-digit label is the decade's tens digit (e.g. "49" = 1940s).</p>
+    </div>
+  </section>
+
+  <!-- Author nationality distribution + map -->
+  {stats.nationality_distribution && stats.nationality_distribution.length > 0 && (
+    <section class="mb-8">
+      <h2 class="heading-md mb-4">Where the Authors Are From</h2>
+      <p class="text-sm text-muted mb-4">Books by primary nationality of their author ({stats.author_enrichment.nationality} of {stats.author_enrichment.total_authors} authors enriched via Wikidata so far).</p>
+
+      <Fragment set:html={mapStyleBlock} />
+
+      <div class="card card-padded-lg mb-4">
+        <Fragment set:html={worldMapSvg} />
+      </div>
+
+      <div class="card card-padded-lg">
+        {stats.nationality_distribution.map(n => (
+          <div class="mb-2">
+            <div class="flex justify-between text-sm mb-2">
+              <span class="text-muted">{nationalityLabel(n.code)}</span>
+              <span class="text-dim text-mono">{n.count}</span>
+            </div>
+            <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * n.count / nationalityMax)} aria-valuemin="0" aria-valuemax="100" aria-label={`${nationalityLabel(n.code)}: ${n.count} books`}>
+              <div style={`width: ${100 * n.count / nationalityMax}%; background: var(--pop-cyan);`}></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
   <!-- Reading progress — binary: read or not -->
   <section class="mb-8">
     <h2 class="heading-md mb-4">Reading Progress</h2>
@@ -97,9 +231,9 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  <!-- Enrichment coverage -->
+  <!-- Enrichment coverage — books -->
   <section class="mb-8">
-    <h2 class="heading-md mb-4">Data Coverage</h2>
+    <h2 class="heading-md mb-4">Book Data Coverage</h2>
     <div class="grid grid-2 md-grid-3 gap-3">
       {[
         { label: 'Cover Art', pct: stats.enrichment.covers_pct, count: stats.enrichment.covers },
@@ -107,7 +241,10 @@ const base = import.meta.env.BASE_URL;
         { label: 'ISBNs', pct: stats.enrichment.isbns_pct, count: stats.enrichment.isbns },
         { label: 'Page Counts', pct: stats.enrichment.pages_pct, count: stats.enrichment.pages },
         { label: 'Pub. Years', pct: Math.round(100 * stats.enrichment.years / stats.total_books), count: stats.enrichment.years },
-        { label: 'Subjects', pct: Math.round(100 * stats.enrichment.subjects / stats.total_books), count: stats.enrichment.subjects },
+        { label: 'DDC Class.', pct: Math.round(100 * (stats.enrichment.ddc ?? 0) / stats.total_books), count: stats.enrichment.ddc ?? 0 },
+        { label: 'LCC Class.', pct: Math.round(100 * (stats.enrichment.lcc ?? 0) / stats.total_books), count: stats.enrichment.lcc ?? 0 },
+        { label: 'Wikidata Linked', pct: Math.round(100 * (stats.enrichment.wikidata ?? 0) / stats.total_books), count: stats.enrichment.wikidata ?? 0 },
+        { label: 'Awards', pct: Math.round(100 * (stats.enrichment.awards ?? 0) / stats.total_books), count: stats.enrichment.awards ?? 0 },
       ].map(e => (
         <div class="card card-padded">
           <div class="flex items-center justify-between mb-2">
@@ -122,6 +259,37 @@ const base = import.meta.env.BASE_URL;
       ))}
     </div>
   </section>
+
+  <!-- Author data coverage -->
+  {stats.author_enrichment && (
+    <section class="mb-8">
+      <h2 class="heading-md mb-4">Author Data Coverage</h2>
+      <div class="grid grid-2 md-grid-3 gap-3">
+        {[
+          { label: 'Wikidata Linked', count: stats.author_enrichment.wikidata },
+          { label: 'Nationality', count: stats.author_enrichment.nationality },
+          { label: 'VIAF ID', count: stats.author_enrichment.viaf },
+          { label: 'Awards', count: stats.author_enrichment.awards },
+          { label: 'Movements', count: stats.author_enrichment.movements },
+          { label: 'Pen Names', count: stats.author_enrichment.alternate_names },
+        ].map(e => {
+          const pct = Math.round(100 * e.count / stats.author_enrichment.total_authors);
+          return (
+            <div class="card card-padded">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm text-muted">{e.label}</span>
+                <span class="font-bold heading-md">{pct}%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow={pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${pct}%`}>
+                <div style={`width: ${pct}%; background: var(--pop-cyan);`}></div>
+              </div>
+              <p class="text-xs text-dim mt-2">{e.count.toLocaleString()} of {stats.author_enrichment.total_authors.toLocaleString()}</p>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  )}
 
   <!-- Year distribution -->
   <section class="mb-8">

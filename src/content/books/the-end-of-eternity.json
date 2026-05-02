@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=1X5V5kWJgh0C&dq=The+End+of+Eternity+Isaac+Asimov&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Time travel",
-    "Fiction",
-    "Fiction in English",
-    "Science fiction",
-    "Fiction, science fiction, general",
-    "Large type books",
-    "Science-fiction",
-    "American Science fiction",
-    "Themes",
-    "Alternate history"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -61,13 +49,21 @@
   "ol_work_key": "/works/OL46108W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 62,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30552456M"
+  "representative_edition_key": "/books/OL30552456M",
+  "wikidata_qid": "Q466196",
+  "original_title": "The End of Eternity",
+  "original_language": "eng",
+  "original_publisher": "Doubleday"
 }

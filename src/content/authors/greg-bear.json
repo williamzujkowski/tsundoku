@@ -7,5 +7,67 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Greg_Bear",
   "open_library_url": "https://openlibrary.org/authors/OL23206A",
   "birth_year": 1951,
-  "death_year": 2022
+  "death_year": 2022,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q317491",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "51707302",
+  "ol_author_key": "/authors/OL23206A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 1984
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1984
+    },
+    {
+      "name": "Nebula Award for Best Novelette",
+      "year": 1984
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 1984
+    },
+    {
+      "name": "Nebula Award for Best Short Story",
+      "year": 1987
+    },
+    {
+      "name": "Prix Tour-Apollo Award",
+      "year": 1986
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1987
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1988
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1995
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2001
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 1996
+    },
+    {
+      "name": "Hayakawa Award"
+    }
+  ]
 }

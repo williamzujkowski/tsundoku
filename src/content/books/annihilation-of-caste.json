@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9396071-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9396071-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19988447W",
-  "first_published": 1937,
+  "first_published": 1936,
   "language": "eng",
   "description": "B.R. Ambedkar's Annihilation of Caste is one of the most important, yet neglected, works of political writing from India. Written in 1936, it is an audacious denunciation of Hinduism and its caste system. It offers a scholarly critique of Hindu scriptures, scriptures that sanction a rigidly hierarchical and iniquitous social system. Arundhati Roy introduces this extensively annotated edition in \"The Doctor and the Saint,\" examining the persistence of caste in modern India, and how the conflict b...",
   "isbn": "9781781688304",
@@ -18,18 +18,6 @@
   "oclc_id": "39317755",
   "worldcat_url": "https://www.worldcat.org/oclc/39317755",
   "lccn": "2014028312",
-  "subjects": [
-    "Caste",
-    "HISTORY / Asia / India & South Asia",
-    "SOCIAL SCIENCE / Social Classes",
-    "SOCIAL SCIENCE / Discrimination & Race Relations",
-    "Caste, india",
-    "Castes",
-    "HISTORY",
-    "India & South Asia",
-    "SOCIAL SCIENCE",
-    "Social Classes"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "209",
@@ -64,13 +52,19 @@
   "ol_work_key": "/works/OL19988447W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39526906M"
+  "representative_edition_key": "/books/OL39526906M",
+  "wikidata_qid": "Q16134186",
+  "original_title": "Annihilation of Caste",
+  "original_language": "eng"
 }

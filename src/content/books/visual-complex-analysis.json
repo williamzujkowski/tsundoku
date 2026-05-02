@@ -18,18 +18,6 @@
   "google_books_url": "http://books.google.com/books?id=ogz5FjmiqlQC&dq=Visual+Complex+Analysis+Tristan+Needham&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Functions of complex variables",
-    "Mathematical analysis",
-    "Functions of several complex variables",
-    "Fonctions d'une variable complexe",
-    "Analyse mathématique",
-    "Funktionentheorie",
-    "Visualisierung",
-    "FUNCTIONS (MATHEMATICS)",
-    "COMPLEX VARIABLES",
-    "FUNCTIONAL ANALYSIS"
-  ],
   "ddc": [
     "515.9"
   ],
@@ -56,13 +44,19 @@
   "ol_work_key": "/works/OL2882085W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "0198534477",
-  "representative_edition_key": "/books/OL17604507M"
+  "representative_edition_key": "/books/OL17604507M",
+  "wikidata_qid": "Q51131766",
+  "original_title": "Visual Complex Analysis",
+  "original_language": "eng"
 }

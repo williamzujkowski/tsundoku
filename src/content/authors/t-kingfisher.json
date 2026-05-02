@@ -6,5 +6,84 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/T._Kingfisher_at_Rose_City_Comic_Con_02.jpg/400px-T._Kingfisher_at_Rose_City_Comic_Con_02.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ursula_Vernon",
   "open_library_url": "https://openlibrary.org/authors/OL3021189A",
-  "birth_year": 1977
+  "birth_year": 1977,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7901282",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "T. Kingfisher"
+  ],
+  "viaf_id": "11760133",
+  "ol_author_key": "/authors/OL3021189A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Graphic Story",
+      "year": 2012
+    },
+    {
+      "name": "Nebula Award for Best Short Story",
+      "year": 2015
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2017
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 2021
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2023
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2024
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2024
+    },
+    {
+      "name": "Locus Award for Best Horror Novel",
+      "year": 2024
+    },
+    {
+      "name": "Locus Award for Best Horror Novel",
+      "year": 2023
+    },
+    {
+      "name": "Locus Award for Best Young Adult Book",
+      "year": 2021
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2025
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2025
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Adult Literature",
+      "year": 2013
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Children's Literature",
+      "year": 2016
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Children's Literature",
+      "year": 2021
+    }
+  ]
 }

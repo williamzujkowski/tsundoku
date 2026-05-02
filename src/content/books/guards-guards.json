@@ -17,18 +17,6 @@
   "pages": 315,
   "google_books_url": "http://books.google.com/books?id=Bh9VrfptqScC&dq=Guards!+Guards!+Terry+Pratchett&hl=&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Fiction in Spanish",
-    "Discworld (Imaginary Place)",
-    "Samuel Vimes (Fictitious character)",
-    "Fiction",
-    "Guards troops",
-    "Fantasy",
-    "Translations into Italian",
-    "English fiction",
-    "Fiction, fantasy, general",
-    "Discworld (imaginary place), fiction"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "823.914"
@@ -58,11 +46,28 @@
   "ol_work_key": "/works/OL453735W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 57,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33414401M"
+  "representative_edition_key": "/books/OL33414401M",
+  "wikidata_qid": "Q2078564",
+  "original_title": "Guards! Guards!",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "The Big Read"
+    }
+  ],
+  "series": {
+    "name": "Discworld",
+    "position": 8
+  }
 }

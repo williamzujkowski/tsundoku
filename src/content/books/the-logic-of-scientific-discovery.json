@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/262763-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/262763-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1984582W",
-  "first_published": 1935,
+  "first_published": 1934,
   "language": "eng",
   "description": "When first published in 1959, this book revolutionized contemporary thinking about science and knowledge. It remains one of the most widely read books about science to come out of the 20th century.",
   "isbn": "0415278449",
@@ -19,18 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=Yq6xeupNStMC&dq=The+Logic+of+Scientific+Discovery+Karl+Popper&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Science",
-    "Methodology",
-    "Logic",
-    "Research Design",
-    "Sciences",
-    "Méthodologie",
-    "Logique",
-    "Philosophy",
-    "Curricula",
-    "English literature"
-  ],
   "ddc": [
     "501.8",
     "530.01",
@@ -107,13 +95,19 @@
   "ol_work_key": "/works/OL1984582W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 63,
   "first_published_circa": false,
   "first_edition_isbn": "9783709120217",
-  "representative_edition_key": "/books/OL7489739M"
+  "representative_edition_key": "/books/OL7489739M",
+  "wikidata_qid": "Q1868040",
+  "original_title": "The logic of scientific discover",
+  "original_language": "ger"
 }

@@ -17,18 +17,6 @@
   "pages": 321,
   "google_books_url": "https://play.google.com/store/books/details?id=F1UVD-6MUAMC&source=gbs_api",
   "reading_status": "read",
-  "subjects": [
-    "Immigrants",
-    "Fiction",
-    "Kings and rulers",
-    "Assassination",
-    "American poetry",
-    "New York Times reviewed",
-    "Continental european fiction (fictional works by one author)",
-    "American literature",
-    "Kings and rulersxAssassination",
-    "Authors in literature"
-  ],
   "copyright_status": "likely_public_domain",
   "ddc": [
     "813.54",
@@ -75,10 +63,24 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 58,
   "first_published_circa": false,
   "first_edition_isbn": "9780297168157",
-  "representative_edition_key": "/books/OL7502507M"
+  "representative_edition_key": "/books/OL7502507M",
+  "wikidata_qid": "Q1229792",
+  "original_title": "Pale Fire",
+  "original_language": "eng",
+  "original_publisher": "G. P. Putnam's Sons",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

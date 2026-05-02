@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bruce_Schneier_at_CoPS2013-IMG_9174.jpg/400px-Bruce_Schneier_at_CoPS2013-IMG_9174.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Schneier",
   "open_library_url": "https://openlibrary.org/authors/OL442655A",
-  "birth_year": 1963
+  "birth_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q368328",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "24690424",
+  "ol_author_key": "/authors/OL442655A",
+  "awards": [
+    {
+      "name": "EFF Award",
+      "year": 2007
+    },
+    {
+      "name": "Norbert Wiener Award for Social and Professional Responsibility",
+      "year": 2008
+    }
+  ]
 }

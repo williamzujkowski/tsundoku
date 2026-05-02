@@ -1,7 +1,7 @@
 {
   "title": "The Book of Atrix Wolfe",
   "author": "Patricia A. McKillip",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-book-of-atrix-wolfe",
   "tags": [
@@ -19,12 +19,6 @@
   "google_books_url": "http://books.google.com/books?id=hfpdBAAAQBAJ&dq=The+Book+of+Atrix+Wolfe+Patricia+A.+McKillip&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Wolves",
-    "Fiction",
-    "Fiction, fantasy, general",
-    "Fiction, science fiction, general"
-  ],
   "ddc": [
     "813.54"
   ],
@@ -41,13 +35,21 @@
   "ol_work_key": "/works/OL92489W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "0441002110",
-  "representative_edition_key": "/books/OL10256221M"
+  "representative_edition_key": "/books/OL10256221M",
+  "wikidata_qid": "Q11897139",
+  "original_title": "The Book of Atrix Wolfe",
+  "original_language": "eng",
+  "original_publisher": "Ace Books"
 }

@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ross_Macdonald",
   "open_library_url": "https://openlibrary.org/authors/OL342146A",
   "birth_year": 1915,
-  "death_year": 1983
+  "death_year": 1983,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q318297",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Ross Macdonald"
+  ],
+  "viaf_id": "60355518",
+  "ol_author_key": "/authors/OL342146A",
+  "awards": [
+    {
+      "name": "The Grand Master",
+      "year": 1974
+    },
+    {
+      "name": "Gold Dagger",
+      "year": 1965
+    },
+    {
+      "name": "Shamus Award",
+      "year": 1982
+    }
+  ]
 }

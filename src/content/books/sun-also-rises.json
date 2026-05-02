@@ -22,27 +22,6 @@
   "gutenberg_id": 67138,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/67138",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/67138.html.images",
-  "subjects": [
-    "American fiction (fictional works by one author)",
-    "Americans",
-    "Americans -- France -- Fiction",
-    "Americans -- Spain -- Fiction",
-    "Ashley, Brett (Fictitious character)",
-    "Ashley, Brett (Fictitious character) -- Fiction",
-    "Ashley, brett (fictitious character), fiction",
-    "Brett Ashley (Fictitious character)",
-    "Category: American Literature",
-    "Category: Classics of Literature",
-    "Category: Novels",
-    "Expatriation -- Fiction",
-    "Expatriation, fiction",
-    "Fiction",
-    "Fiction, Historical",
-    "History",
-    "Nobel Prizes in Literature",
-    "Spain -- History -- Alfonso XIII, 1886-1931 -- Fiction",
-    "Spain, fiction"
-  ],
   "ddc": [
     "823.1",
     "813.52"
@@ -125,13 +104,25 @@
   "ol_work_key": "/works/OL62979W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 215,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7949109M"
+  "representative_edition_key": "/books/OL7949109M",
+  "wikidata_qid": "Q501351",
+  "original_title": "The Sun Also Rises",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
+    }
+  ]
 }

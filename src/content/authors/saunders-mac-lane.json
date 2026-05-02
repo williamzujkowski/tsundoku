@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Saunders_Mac_Lane",
   "open_library_url": "https://openlibrary.org/authors/OL401671A",
   "birth_year": 1909,
-  "death_year": 2005
+  "death_year": 2005,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q441223",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "101828380",
+  "ol_author_key": "/authors/OL401671A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1947
+    },
+    {
+      "name": "William Procter Prize for Scientific Achievement",
+      "year": 1979
+    },
+    {
+      "name": "National Medal of Science",
+      "year": 1989
+    },
+    {
+      "name": "Humboldt Research Fellowship",
+      "year": 1933
+    },
+    {
+      "name": "Leroy P. Steele Prize",
+      "year": 1986
+    },
+    {
+      "name": "Chauvenet Prize",
+      "year": 1941
+    }
+  ]
 }

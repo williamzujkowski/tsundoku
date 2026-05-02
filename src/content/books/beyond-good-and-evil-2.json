@@ -16,10 +16,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=pQqWigp1pv0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "014044923X",
   "pages": 244,
-  "subjects": [
-    "Fiction",
-    "Philosophy"
-  ],
   "google_books_url": "http://books.google.com/books?id=pQqWigp1pv0C&dq=Beyond+Good+and+Evil+Nietzsche&hl=&source=gbs_api",
   "reading_status": "read",
   "librivox_url": "https://librivox.org/beyond-good-and-evil-by-friedrich-nietzsche/",
@@ -99,13 +95,19 @@
   "ol_work_key": "/works/OL98174W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781548858599",
-  "representative_edition_key": "/books/OL3701482M"
+  "representative_edition_key": "/books/OL3701482M",
+  "wikidata_qid": "Q579794",
+  "original_title": "Jenseits von Gut und Böse",
+  "original_language": "ger"
 }

@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Margaret_Mitchell",
   "open_library_url": "https://openlibrary.org/authors/OL151749A",
   "birth_year": 1900,
-  "death_year": 1949
+  "death_year": 1949,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q173540",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Margaret Mitchell"
+  ],
+  "viaf_id": "27068921",
+  "ol_author_key": "/authors/OL151749A",
+  "awards": [
+    {
+      "name": "National Book Award",
+      "year": 1936
+    },
+    {
+      "name": "Georgia Women of Achievement",
+      "year": 1994
+    },
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1937
+    }
+  ]
 }

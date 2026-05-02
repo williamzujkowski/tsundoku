@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Patrick_White",
   "open_library_url": "https://openlibrary.org/authors/OL457723A",
   "birth_year": 1912,
-  "death_year": 1990
+  "death_year": 1990,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q129187",
+  "nationality": [
+    "AU"
+  ],
+  "viaf_id": "41847966",
+  "ol_author_key": "/authors/OL457723A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1973
+    },
+    {
+      "name": "Miles Franklin Literary Award",
+      "year": 1957
+    },
+    {
+      "name": "Australian of the Year",
+      "year": 1973
+    },
+    {
+      "name": "Miles Franklin Literary Award",
+      "year": 1961
+    },
+    {
+      "name": "Companion of the Order of Australia"
+    }
+  ]
 }

@@ -5,7 +5,9 @@
   "priority": 1,
   "slug": "watership-down",
   "tags": [
-    "npr-top-100-sff"
+    "fantasy",
+    "npr-top-100-sff",
+    "sci-fi"
   ],
   "reading_status": "read",
   "description": "EISNER AWARD WINNER • OHIO BOOK AWARD WINNER • A beautiful and faithful graphic novel adaptation of Richard Adams’s beloved story of a group of rabbits on an epic journey in search of home. NOMINATED FOR THE RINGO AWARD AND THE HARVEY AWARD “Every rabbit that stays behind is in great danger. We will welcome any rabbit who joins us.” Watership Down is a classic tale of survival, hope, courage, and friendship that has delighted and inspired readers around the world for more than fifty years. Masterfully adapted by award-winning author James Sturm and gorgeously illustrated by bestselling artist Joe Sutphin, this spectacular graphic novel will delight old fans and inspire new ones, bringing the joy of Watership Down to a new generation of readers.",
@@ -17,9 +19,6 @@
   "pages": 0,
   "first_published": 1972,
   "language": "eng",
-  "subjects": [
-    "NPR Top 100 Science Fiction and Fantasy"
-  ],
   "ddc": [
     "823.914",
     "[Fic]"
@@ -91,12 +90,36 @@
   "ol_work_key": "/works/OL2096536W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 97,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL12158614M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "wikidata_qid": "Q936801",
+  "original_title": "Watership Down",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Carnegie Medal",
+      "year": 1972
+    },
+    {
+      "name": "Guardian Children's Fiction Prize",
+      "year": 1973
+    },
+    {
+      "name": "California Young Reader Medal",
+      "year": 1977
+    }
+  ]
 }

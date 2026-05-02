@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Donoso",
   "open_library_url": "https://openlibrary.org/authors/OL4279328A",
   "birth_year": 1924,
-  "death_year": 1996
+  "death_year": 1996,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q439761",
+  "nationality": [
+    "CL"
+  ],
+  "viaf_id": "29601775",
+  "ol_author_key": "/authors/OL4279328A",
+  "awards": [
+    {
+      "name": "America Award in Literature",
+      "year": 1996
+    },
+    {
+      "name": "Knight Commander of the Order of Alfonso X"
+    },
+    {
+      "name": "National Prize for Literature (Chile)",
+      "year": 1990
+    },
+    {
+      "name": "Orden al Mérito Docente y Cultural Gabriela Mistral"
+    },
+    {
+      "name": "Grand Cross of the Order of Civil Merit",
+      "year": 1994
+    },
+    {
+      "name": "Chevalier des Arts et des Lettres"
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    }
+  ]
 }

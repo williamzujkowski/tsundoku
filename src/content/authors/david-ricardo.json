@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/David_Ricardo",
   "open_library_url": "https://openlibrary.org/authors/OL113475A",
   "birth_year": 1772,
-  "death_year": 1823
+  "death_year": 1823,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q160270",
+  "viaf_id": "34462180",
+  "ol_author_key": "/authors/OL113475A"
 }

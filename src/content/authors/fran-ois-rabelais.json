@@ -7,5 +7,29 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais",
   "open_library_url": "https://openlibrary.org/authors/OL4280600A",
   "birth_year": 1494,
-  "death_year": 1553
+  "death_year": 1553,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q131018",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Seraphin Calobarsy",
+    "Alcofribas Nasier",
+    "Maistre Alcofribas Nasier",
+    "M. Alcofribas"
+  ],
+  "viaf_id": "172635016",
+  "ol_author_key": "/authors/OL4280600A",
+  "movements": [
+    "freethought",
+    "renaissance humanism"
+  ]
 }

@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Philip_Pullman_2005-04-16.png/400px-Philip_Pullman_2005-04-16.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Pullman",
   "open_library_url": "https://openlibrary.org/authors/OL26545A",
-  "birth_year": 1946
+  "birth_year": 1946,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q190220",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "115199438",
+  "ol_author_key": "/authors/OL26545A",
+  "movements": [
+    "atheism"
+  ],
+  "awards": [
+    {
+      "name": "Astrid Lindgren Memorial Award",
+      "year": 2005
+    },
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 2004
+    },
+    {
+      "name": "Eleanor Farjeon Award",
+      "year": 2002
+    },
+    {
+      "name": "Carnegie Medal",
+      "year": 1995
+    },
+    {
+      "name": "Nestlé Children's Book Prize",
+      "year": 1996
+    },
+    {
+      "name": "Guardian Children's Fiction Prize",
+      "year": 1996
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2001
+    },
+    {
+      "name": "Knight Bachelor",
+      "year": 2019
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2008
+    }
+  ]
 }

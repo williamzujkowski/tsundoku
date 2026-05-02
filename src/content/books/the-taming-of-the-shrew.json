@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7889534-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7889534-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362690W",
-  "first_published": 1631,
+  "first_published": 1623,
   "language": "eng",
   "description": "The Taming of the Shrew begins with a framing device, often referred to as the Induction, in which a mischievous nobleman tricks a drunken tinker named Christopher Sly into believing he is actually a nobleman himself. The nobleman then has the play performed for Sly's diversion. The main plot depicts the courtship of Petruchio, a gentleman of Verona, and Katherina, the headstrong, obdurate shrew. Initially, Katherina is an unwilling participant in the relationship, but Petruchio tempers her with...",
   "isbn": "9798497791112",
@@ -19,16 +19,6 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-taming-of-the-shrew-by-william-shakespeare/",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Classics of Literature",
-    "Category: Plays/Films/Dramas",
-    "Comedy plays",
-    "Man-woman relationships -- Drama",
-    "Married people -- Drama",
-    "Padua (Italy) -- Drama",
-    "Sex role -- Drama"
-  ],
   "gutenberg_id": 1508,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1508",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1508.html.images",
@@ -263,11 +253,19 @@
   "ol_work_key": "/works/OL362690W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "first_published_circa": "wikidata_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34354379M"
+  "representative_edition_key": "/books/OL34354379M",
+  "wikidata_qid": "Q332387",
+  "original_title": "The Taming of the Shrew",
+  "original_language": "eng",
+  "first_published_circa": false
 }

@@ -5,5 +5,28 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7284372-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1394989A",
   "birth_year": 1974,
-  "bio": "American author of young adult fantasy and adult fiction"
+  "bio": "American author of young adult fantasy and adult fiction",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7488885",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "79204003",
+  "ol_author_key": "/authors/OL1394989A",
+  "awards": [
+    {
+      "name": "Newbery Medal",
+      "year": 2006
+    },
+    {
+      "name": "Whitney Awards",
+      "year": 2007
+    }
+  ]
 }

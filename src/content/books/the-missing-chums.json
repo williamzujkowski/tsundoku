@@ -20,26 +20,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=RzcTEQAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Brothers",
-    "Brothers -- Juvenile fiction",
-    "Category: Adventure",
-    "Category: American Literature",
-    "Category: Children & Young Adult Reading",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Children's stories",
-    "Fiction",
-    "Friendship",
-    "Hardy Boys (Fictitious characters)",
-    "Hardy Boys (Fictitious characters) -- Juvenile fiction",
-    "Juvenile fiction",
-    "Kidnapping",
-    "Missing persons",
-    "Missing persons -- Juvenile fiction",
-    "Mystery and detective stories",
-    "Mystery fiction"
-  ],
   "gutenberg_id": 72840,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72840",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72840.html.images",
@@ -87,13 +67,26 @@
   "ol_work_key": "/works/OL47899W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29550525M"
+  "representative_edition_key": "/books/OL29550525M",
+  "wikidata_qid": "Q7751726",
+  "original_title": "The Missing Chums",
+  "original_language": "eng",
+  "original_publisher": "Grosset & Dunlap",
+  "series": {
+    "name": "The Hardy Boys",
+    "position": 5
+  }
 }

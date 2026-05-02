@@ -6,20 +6,12 @@
   "slug": "the-gift-of-a-cow",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL13498618W",
-  "first_published": 1939,
+  "first_published": 1936,
   "language": "eng",
   "pages": 442,
   "google_books_url": "http://books.google.com/books?id=447ZngEACAAJ&dq=The+Gift+of+a+Cow+Premchand&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "subjects": [
-    "Peasantry",
-    "Fiction",
-    "Fiction, general",
-    "India, fiction",
-    "Peasants",
-    "Villages"
-  ],
   "description": "Godaan is a Hindi novel by Munshi Premchand. It was first published in 1936 and is considered one of the greatest novels of modern Indian literature. Themed around the socio-economic deprivation as well as the exploitation of the village poor, the novel was the last complete novel of Premchand. It follows the story of an old poor farmer, stuck in a debt trap, who wants to purchase a cow, but is unable to do so for lack of money.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Godaan_by_Munshi_Premchand.png/330px-Godaan_by_Munshi_Premchand.png",
   "isbn": "9780948924071",
@@ -54,16 +46,18 @@
   "ol_work_key": "/works/OL332076W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
   "original_language": "hin",
   "original_title": "Go-dāna",
-  "representative_edition_key": "/books/OL3560061M"
+  "representative_edition_key": "/books/OL3560061M",
+  "wikidata_qid": "Q904382"
 }

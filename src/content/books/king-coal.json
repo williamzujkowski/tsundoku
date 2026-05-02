@@ -15,18 +15,6 @@
   "pages": 477,
   "google_books_url": "https://play.google.com/store/books/details?id=WpW8EAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "subjects": [
-    "Fiction",
-    "Coal mines and mining",
-    "Coal miners",
-    "Labor movement",
-    "Coal Miners' Strike",
-    "Colorado",
-    "1913-1914",
-    "American fiction (fictional works by one author)",
-    "Fiction, historical, general",
-    "Fiction, political"
-  ],
   "gutenberg_id": 7522,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7522",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7522.html.images",
@@ -67,13 +55,21 @@
   "ol_work_key": "/works/OL115067W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 86,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32271577M"
+  "representative_edition_key": "/books/OL32271577M",
+  "wikidata_qid": "Q16386559",
+  "original_title": "King Coal",
+  "original_language": "eng",
+  "original_publisher": "Macmillan Inc."
 }

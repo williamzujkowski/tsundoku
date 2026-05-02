@@ -20,18 +20,6 @@
   "oclc_id": "1159487357",
   "worldcat_url": "https://www.worldcat.org/oclc/1159487357",
   "lccn": "2021001147",
-  "subjects": [
-    "American literature",
-    "Fiction",
-    "Science fiction",
-    "Space opera",
-    "Life on other planets",
-    "Human-alien encounters",
-    "Extraterrestrial beings",
-    "Imaginary wars and battles",
-    "Hugo Award Winner",
-    "award:hugo_award=2022"
-  ],
   "copyright_status": "in_copyright",
   "lcc": [
     "PS-3613.00000000.A786325D47",
@@ -54,11 +42,33 @@
   "ol_work_key": "/works/OL20832939W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29814374M"
+  "representative_edition_key": "/books/OL29814374M",
+  "wikidata_qid": "Q105722561",
+  "original_title": "A Desolation Called Peace",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2022
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2022
+    }
+  ],
+  "series": {
+    "name": "Teixcalaan",
+    "position": 2
+  }
 }

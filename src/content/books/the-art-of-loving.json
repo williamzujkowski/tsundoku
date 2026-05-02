@@ -5,6 +5,7 @@
   "priority": 1,
   "slug": "the-art-of-loving",
   "tags": [
+    "philosophy",
     "r-philosophy"
   ],
   "reading_status": "read",
@@ -17,9 +18,6 @@
   "pages": 0,
   "first_published": 1956,
   "language": "eng",
-  "subjects": [
-    "r/philosophy Reading List"
-  ],
   "ddc": [
     "152.4",
     "392",
@@ -73,10 +71,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 101,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL35707445M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "wikidata_qid": "Q973382",
+  "original_title": "The Art of Loving",
+  "original_language": "eng",
+  "original_publisher": "Harper"
 }

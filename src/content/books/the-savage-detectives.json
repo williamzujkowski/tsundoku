@@ -13,9 +13,6 @@
   "isbn": "1447202856",
   "first_published": 1998,
   "pages": 591,
-  "subjects": [
-    "Detective and mystery stories"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=Okf0pwAACAAJ&dq=The+Savage+Detectives+Roberto+Bola%C3%B1o&hl=&source=gbs_api",
   "reading_status": "want",
@@ -64,13 +61,16 @@
   "ol_work_key": "/works/OL712032W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 50,
   "first_published_circa": false,
@@ -78,5 +78,17 @@
   "original_title": "Los detectives salvajes",
   "first_edition_isbn": "8433910868",
   "representative_edition_key": "/books/OL28190069M",
-  "translator": "Natasha Wimmer"
+  "translator": "Natasha Wimmer",
+  "wikidata_qid": "Q898056",
+  "original_publisher": "Editorial Anagrama",
+  "awards": [
+    {
+      "name": "Premio Herralde",
+      "year": 1998
+    },
+    {
+      "name": "Rómulo Gallegos Prize",
+      "year": 1999
+    }
+  ]
 }

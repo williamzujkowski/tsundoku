@@ -7,5 +7,63 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
   "open_library_url": "https://openlibrary.org/authors/OL27363A",
   "birth_year": 1927,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q5878",
+  "nationality": [
+    "CO"
+  ],
+  "viaf_id": "54147956",
+  "ol_author_key": "/authors/OL4586796A",
+  "movements": [
+    "magic realism"
+  ],
+  "awards": [
+    {
+      "name": "Neustadt International Prize for Literature",
+      "year": 1971
+    },
+    {
+      "name": "Rómulo Gallegos Prize",
+      "year": 1972
+    },
+    {
+      "name": "Common Wealth Award of Distinguished Service",
+      "year": 1980
+    },
+    {
+      "name": "Grand Officer of the Legion of Honour",
+      "year": 1981
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1982
+    },
+    {
+      "name": "Simón Bolívar award"
+    },
+    {
+      "name": "Order of the Aztec Eagle",
+      "year": 1982
+    },
+    {
+      "name": "Orden al Mérito Docente y Cultural Gabriela Mistral",
+      "year": 1993
+    },
+    {
+      "name": "Order of Honour",
+      "year": 2012
+    },
+    {
+      "name": "Commander of the Legion of Honour",
+      "year": 1980
+    }
+  ]
 }

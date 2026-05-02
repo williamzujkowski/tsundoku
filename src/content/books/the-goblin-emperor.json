@@ -18,18 +18,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=NMVCAgAAQBAJ&source=gbs_api",
   "reading_status": "want",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fantasy fiction",
-    "Goblins",
-    "Kings and rules",
-    "Fiction",
-    "Kings and rulers",
-    "Man-woman relationships",
-    "Kings, queens, rulers",
-    "Choice",
-    "Survival",
-    "Secrets"
-  ],
   "lcc": [
     "PS-3601.00000000.D4655G63 2014",
     "PS-3601.00000000.D4655G63 2015",
@@ -53,11 +41,24 @@
   "ol_work_key": "/works/OL17270804W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26869849M"
+  "representative_edition_key": "/books/OL26869849M",
+  "wikidata_qid": "Q19364463",
+  "original_title": "The Goblin Emperor",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2015
+    }
+  ]
 }

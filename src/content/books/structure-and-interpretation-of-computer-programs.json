@@ -10,25 +10,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/149338-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/149338-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3267304W",
-  "first_published": 1985,
+  "first_published": 1984,
   "language": "eng",
   "description": "Structure and Interpretation of Computer Programs by Harold Abelson and Gerald Jay Sussman is licensed under a Creative Commons Attribution-NonCommercial 3.0 License.",
   "pages": 883,
   "google_books_url": "https://play.google.com/store/books/details?id=MXZQAwAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Computer programming",
-    "LISP (Computer program language)",
-    "mirror",
-    "pdf.yt",
-    "Computer science",
-    "Electronic digital computers, programming",
-    "LISP (Langage de programmation)",
-    "Programmeren (computers)",
-    "Computers",
-    "Programmation (Informatique)"
-  ],
   "isbn": "9780262011532",
   "ddc": [
     "005.1",
@@ -69,13 +57,21 @@
   "ol_work_key": "/works/OL3267304W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": "9780262010771",
-  "representative_edition_key": "/books/OL25083118M"
+  "representative_edition_key": "/books/OL25083118M",
+  "wikidata_qid": "Q1249747",
+  "original_title": "Structure and Interpretation of Computer Programs",
+  "original_language": "eng",
+  "original_publisher": "The MIT Press"
 }

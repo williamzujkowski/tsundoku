@@ -7,5 +7,76 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Vernor_Vinge",
   "open_library_url": "https://openlibrary.org/authors/OL2751197A",
   "birth_year": 1944,
-  "death_year": 2024
+  "death_year": 2024,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312405",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "79037788",
+  "ol_author_key": "/authors/OL2751197A",
+  "awards": [
+    {
+      "name": "Prometheus Award",
+      "year": 1987
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 1993
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2000
+    },
+    {
+      "name": "Prometheus Award",
+      "year": 2000
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2000
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2002
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2004
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2004
+    },
+    {
+      "name": "Kurd Lasswitz Award for Best Foreign Work",
+      "year": 2004
+    },
+    {
+      "name": "Cosmos 2000 Award",
+      "year": 1995
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2007
+    },
+    {
+      "name": "Premio Gigamesh",
+      "year": 1995
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1992
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2007
+    }
+  ]
 }

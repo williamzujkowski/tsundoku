@@ -13,9 +13,6 @@
   "isbn": "0131038052",
   "first_published": 1995,
   "pages": 932,
-  "subjects": [
-    "Artificial intelligence"
-  ],
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=CUVeMwAACAAJ&dq=Artificial+Intelligence:+A+Modern+Approach+Stuart+Russell+and+Peter+Norvig&hl=&source=gbs_api",
   "reading_status": "read",
@@ -74,13 +71,21 @@
   "ol_work_key": "/works/OL2896994W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1"
   },
   "editions_count": 39,
   "first_published_circa": false,
   "first_edition_isbn": "0131038052",
-  "representative_edition_key": "/books/OL1110673M"
+  "representative_edition_key": "/books/OL1110673M",
+  "wikidata_qid": "Q20049394",
+  "original_title": "Artificial Intelligence",
+  "original_language": "eng",
+  "original_publisher": "Prentice Hall"
 }

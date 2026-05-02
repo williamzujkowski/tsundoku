@@ -23,18 +23,6 @@
   "oclc_id": "468669350",
   "worldcat_url": "https://www.worldcat.org/oclc/468669350",
   "lccn": "99011685",
-  "subjects": [
-    "Fiction",
-    "World War, 1939-1945",
-    "World War, 1939-1945 in fiction",
-    "Data encryption (Computer science)",
-    "Cryptography",
-    "Literature",
-    "Science Fiction",
-    "Long Now Manual for Civilization",
-    "Code and cipher stories",
-    "Fiction, technological"
-  ],
   "copyright_status": "in_copyright",
   "ddc": [
     "813.54"
@@ -74,11 +62,31 @@
   "ol_work_key": "/works/OL38494W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "awards": "wikidata_v1"
   },
   "editions_count": 35,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9232188M"
+  "representative_edition_key": "/books/OL9232188M",
+  "wikidata_qid": "Q534975",
+  "original_title": "Cryptonomicon",
+  "original_language": "eng",
+  "awards": [
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2000
+    },
+    {
+      "name": "NPR Top 100 Science Fiction and Fantasy Books"
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 2013
+    }
+  ]
 }

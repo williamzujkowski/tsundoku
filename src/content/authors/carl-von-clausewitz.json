@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_von_Clausewitz",
   "open_library_url": "https://openlibrary.org/authors/OL18447A",
   "birth_year": 1780,
-  "death_year": 1831
+  "death_year": 1831,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76430",
+  "viaf_id": "61543895",
+  "ol_author_key": "/authors/OL18447A",
+  "awards": [
+    {
+      "name": "Gold Sword for Bravery"
+    },
+    {
+      "name": "Order of St. George, 4th class"
+    },
+    {
+      "name": "Order of the Red Eagle 2nd Class"
+    },
+    {
+      "name": "Iron Cross 1st Class"
+    },
+    {
+      "name": "Commander Cross of the Military Order of Maria Theresa"
+    },
+    {
+      "name": "Knight First Class of the Order of the Sword"
+    },
+    {
+      "name": "Order of St. Vladimir"
+    },
+    {
+      "name": "Order of Saint Anna"
+    },
+    {
+      "name": "Iron Cross 2nd Class"
+    }
+  ]
 }

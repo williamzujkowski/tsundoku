@@ -17,26 +17,6 @@
   "google_books_url": "http://books.google.com/books?id=BpySElV909IC&dq=intitle:Up+from+Slavery&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "African American Writers",
-    "African Americans",
-    "African Americans -- Biography",
-    "African americans, biography",
-    "Afro-Americans",
-    "Biography",
-    "Category: Biographies",
-    "Category: History - American",
-    "Educators",
-    "Educators -- United States -- Biography",
-    "Educators, united states",
-    "Juvenile literature",
-    "Slavery",
-    "Tuskegee Institute",
-    "Tuskegee Normal and Industrial Institute",
-    "Tuskegee institute",
-    "Washington, Booker T., 1856-1915",
-    "Washington, booker t., 1856-1915"
-  ],
   "gutenberg_id": 2376,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2376",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2376.html.images",
@@ -148,10 +128,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34220151M"
+  "representative_edition_key": "/books/OL34220151M",
+  "wikidata_qid": "Q1568126",
+  "original_title": "Up from Slavery",
+  "original_language": "eng"
 }

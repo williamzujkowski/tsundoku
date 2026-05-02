@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "npcs-spells-swords-stealth",
-  "tags": [],
+  "tags": [
+    "adventure"
+  ],
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
@@ -13,9 +15,6 @@
   "cover_url_large": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1499307713",
   "first_published": 2014,
-  "subjects": [
-    "Adventure stories"
-  ],
   "google_books_url": "http://books.google.com/books?id=X_24oAEACAAJ&dq=NPCs+(Spells+Swords+%26+Stealth)+Drew+Hayes&hl=&source=gbs_api",
   "lcc": [
     "PS-3608.00000000"

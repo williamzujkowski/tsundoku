@@ -20,24 +20,6 @@
   "cover_url_large": "https://covers.openlibrary.org/b/id/43793-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2234960W",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Crime, Thrillers and Mystery",
-    "Category: Novels",
-    "Detective and mystery stories",
-    "England, fiction",
-    "Fiction",
-    "Fiction, mystery & detective, general",
-    "Fiction, mystery & detective, traditional",
-    "Large type books",
-    "Lord Wimsey, Peter (Fictitious character)",
-    "Private investigators",
-    "Private investigators -- England -- Fiction",
-    "Private investigators, fiction",
-    "Vane, harriet (fictitious character), fiction",
-    "Wimsey, Peter, Lord (Fictitious character), 1890- -- Fiction",
-    "Wimsey, peter, lord (fictitious character), fiction"
-  ],
   "librivox_url": "https://librivox.org/the-unpleasantness-at-the-bellona-club-by-dorothy-l-sayers/",
   "gutenberg_id": 72855,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72855",
@@ -78,13 +60,25 @@
   "ol_work_key": "/works/OL2234960W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 67,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37610141M"
+  "representative_edition_key": "/books/OL37610141M",
+  "wikidata_qid": "Q2796032",
+  "original_title": "The Unpleasantness at the Bellona Club",
+  "original_language": "eng",
+  "original_publisher": "Ernest Benn",
+  "series": {
+    "name": "Lord Peter Wimsey mysteries"
+  }
 }

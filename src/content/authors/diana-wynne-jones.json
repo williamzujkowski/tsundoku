@@ -7,5 +7,48 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Diana_Wynne_Jones",
   "open_library_url": "https://openlibrary.org/authors/OL31384A",
   "birth_year": 1934,
-  "death_year": 2011
+  "death_year": 2011,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q236829",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "102067392",
+  "ol_author_key": "/authors/OL31384A",
+  "awards": [
+    {
+      "name": "Zilveren Griffel",
+      "year": 1981
+    },
+    {
+      "name": "Guardian Children's Fiction Prize",
+      "year": 1978
+    },
+    {
+      "name": "Mythopoeic Awards",
+      "year": 1996
+    },
+    {
+      "name": "British Fantasy Awards",
+      "year": 1999
+    },
+    {
+      "name": "World Fantasy Award for Life Achievement",
+      "year": 2007
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Children's Literature",
+      "year": 1996
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Children's Literature",
+      "year": 1999
+    }
+  ]
 }

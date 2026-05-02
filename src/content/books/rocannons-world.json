@@ -17,11 +17,6 @@
   "google_books_url": "http://books.google.com/books?id=eQdbAAAAMAAJ&dq=Rocannon%27s+World+Ursula+K.+Le+Guin&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "subjects": [
-    "Fiction in English",
-    "Fiction, science fiction, general",
-    "Science fiction"
-  ],
   "isbn": "9780441732944",
   "ddc": [
     "813.54"
@@ -43,13 +38,26 @@
   "ol_work_key": "/works/OL59850W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1",
+    "original_publisher": "wikidata_v1",
+    "series": "wikidata_v1"
   },
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": "9780441732944",
-  "representative_edition_key": "/books/OL26803540M"
+  "representative_edition_key": "/books/OL26803540M",
+  "wikidata_qid": "Q2453300",
+  "original_title": "Rocannon's World",
+  "original_language": "eng",
+  "original_publisher": "Ace Books",
+  "series": {
+    "name": "Hainish Cycle",
+    "position": 1
+  }
 }

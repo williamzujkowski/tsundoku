@@ -7,5 +7,33 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nathalie_Sarraute",
   "open_library_url": "https://openlibrary.org/authors/OL141657A",
   "birth_year": 1902,
-  "death_year": 1999
+  "death_year": 1999,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q297758",
+  "nationality": [
+    "RU",
+    "FR"
+  ],
+  "viaf_id": "100261678",
+  "ol_author_key": "/authors/OL141657A",
+  "movements": [
+    "Nouveau Roman"
+  ],
+  "awards": [
+    {
+      "name": "Prix Formentor",
+      "year": 1964
+    },
+    {
+      "name": "Grand prix national des Lettres",
+      "year": 1982
+    }
+  ]
 }

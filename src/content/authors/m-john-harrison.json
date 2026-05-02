@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/M._John_Harrison",
   "open_library_url": "https://openlibrary.org/authors/OL385254A",
   "birth_year": 1945,
-  "death_year": 1984
+  "death_year": 1984,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q963799",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "62080102",
+  "ol_author_key": "/authors/OL385254A",
+  "awards": [
+    {
+      "name": "Otherwise Award",
+      "year": 2002
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 2005
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2007
+    },
+    {
+      "name": "Philip K. Dick Award",
+      "year": 2008
+    }
+  ]
 }

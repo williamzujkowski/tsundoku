@@ -6,5 +6,13 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7063387-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL24761A",
   "birth_year": 1835,
-  "death_year": 1902
+  "death_year": 1902,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q312829",
+  "viaf_id": "49578292",
+  "ol_author_key": "/authors/OL24761A"
 }

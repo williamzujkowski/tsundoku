@@ -14,18 +14,6 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Drama",
-    "English Bible plays",
-    "Fiction",
-    "British and irish drama (dramatic works by one author)",
-    "English drama",
-    "Art",
-    "Théâtre anglais",
-    "18.05 English literature",
-    "Drama (dramatic works by one author)",
-    "English literature"
-  ],
   "gutenberg_id": 42704,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/42704",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/42704.html.images",
@@ -116,10 +104,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 174,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8841853M"
+  "representative_edition_key": "/books/OL8841853M",
+  "wikidata_qid": "Q1149498",
+  "original_title": "Salomé",
+  "original_language": "fre"
 }

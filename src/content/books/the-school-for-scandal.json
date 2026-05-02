@@ -10,23 +10,13 @@
   ],
   "reading_status": "read",
   "isbn": "0573013985",
-  "first_published": 1782,
+  "first_published": 1777,
   "pages": 69,
   "google_books_url": "http://books.google.com/books?id=5738PwAACAAJ&dq=intitle:The+School+for+Scandal&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/5853583-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/5853583-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1062586W",
-  "subjects": [
-    "Category: British Literature",
-    "Category: Plays/Films/Dramas",
-    "Comedy plays",
-    "Drama",
-    "England -- Social life and customs -- 18th century -- Drama",
-    "English drama -- 18th century",
-    "Harvard Classics",
-    "Nobility -- England -- History -- 18th century -- Drama"
-  ],
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-school-for-scandal-by-richard-brinsley-sheridan/",
   "gutenberg_id": 1929,
@@ -88,13 +78,19 @@
   "ol_work_key": "/works/OL1062586W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 164,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22316517M"
+  "representative_edition_key": "/books/OL22316517M",
+  "wikidata_qid": "Q471118",
+  "original_title": "The School for Scandal",
+  "original_language": "eng"
 }

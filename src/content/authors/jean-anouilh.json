@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Anouilh",
   "open_library_url": "https://openlibrary.org/authors/OL135256A",
   "birth_year": 1910,
-  "death_year": 1987
+  "death_year": 1987,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q179025",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "54143634",
+  "ol_author_key": "/authors/OL135256A",
+  "awards": [
+    {
+      "name": "Prix mondial Cino Del Duca",
+      "year": 1970
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 1961
+    },
+    {
+      "name": "Grand prix du théâtre",
+      "year": 1980
+    }
+  ]
 }

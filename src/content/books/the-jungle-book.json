@@ -17,18 +17,6 @@
   "google_books_url": "https://play.google.com/store/books/details?id=mipZDwAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
-  "subjects": [
-    "Jungles",
-    "Fiction",
-    "Juvenile fiction",
-    "Animals",
-    "Romans, nouvelles, etc. pour la jeunesse",
-    "Novela juvenil",
-    "Selvas",
-    "Animales",
-    "Jungle animals",
-    "Mowgli (Fictitious character)"
-  ],
   "gutenberg_id": 236,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/236",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/236.html.images",
@@ -165,13 +153,19 @@
   "ol_work_key": "/works/OL19870W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
-    "first_published": "ol_firstedition_v1",
-    "first_published_circa": "ol_firstedition_v1",
+    "first_published": "wikidata_v1",
+    "first_published_circa": "wikidata_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "wikidata_qid": "wikidata_v1",
+    "original_title": "wikidata_v1",
+    "original_language": "wikidata_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29700398M"
+  "representative_edition_key": "/books/OL29700398M",
+  "wikidata_qid": "Q189509",
+  "original_title": "The Jungle Book",
+  "original_language": "eng"
 }
