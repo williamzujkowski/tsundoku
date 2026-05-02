@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6786365-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6786365-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14944256W",
-  "first_published": 1962,
+  "first_published": 1961,
   "language": "eng",
   "description": "Friday's are different. Every other day of the week, the Colonel and his ailing wife fight a constant battle against poverty and monotony, scraping together the dregs of their savings for the food and medicine that keeps them alive. But on Fridays the postman comes - and that sets a fleeting wave of hope rushing through the Colonel's ageing heart. For fifteen years he's watched the mail launch come into harbour, hoping he'll be handed an envelope containing the army pension promised to him all t...",
   "isbn": "0140157492",
@@ -77,5 +77,16 @@
     "Spanish language",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL274509W"
+  "ol_work_key": "/works/OL274509W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 86,
+  "first_published_circa": false,
+  "first_edition_isbn": "9788439704102",
+  "representative_edition_key": "/books/OL9303639M"
 }

@@ -23,5 +23,14 @@
   "lcc": [
     "PZ-0007.00000000.B27539Pb 2015"
   ],
-  "ol_work_key": "/works/OL25417938W"
+  "ol_work_key": "/works/OL25417938W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34075075M"
 }

@@ -42,5 +42,14 @@
     "Poor",
     "Toronto (ont.), fiction"
   ],
-  "ol_work_key": "/works/OL53069W"
+  "ol_work_key": "/works/OL53069W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL21327433M"
 }

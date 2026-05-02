@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "likely_public_domain",
   "description": "On the Road is a 1957 novel by American author Jack Kerouac, inspired by his travels across the United States. It is widely regarded as a defining work of the postwar Beat Generation, following a group of friends living for the moment against a backdrop of jazz, poetry, and rebellion.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/On_the_Road_%281957%29_front_cover%2C_first_edition.jpg/330px-On_the_Road_%281957%29_front_cover%2C_first_edition.jpg",
   "isbn": "9789896412166",
@@ -102,5 +102,17 @@
   ],
   "ol_work_key": "/works/OL65906W",
   "first_published": 1957,
-  "pages": 310
+  "pages": 310,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 152,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL57424365M",
+  "translator": "Margarida Vale de Gato"
 }

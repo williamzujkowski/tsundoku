@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/2822355-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2822355-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26575653W",
-  "first_published": 2007,
+  "first_published": 1894,
   "language": "eng",
   "description": "Presented as a series of letters between the humble copying-clerk Devushkin and a distant relative of his, the young Varenka, Poor People brings to the fore the destitute of St Petersburg, who live at the margins of society in the most appalling conditions and abject poverty.",
   "isbn": "1843910233",
@@ -22,7 +22,7 @@
     "Russia -- Social life and customs -- 1533-1917 -- Fiction",
     "Poor -- Fiction"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "[Fic]",
     "891.733"
@@ -49,5 +49,15 @@
     "Translations into English"
   ],
   "pages": 156,
-  "ol_work_key": "/works/OL16444720W"
+  "ol_work_key": "/works/OL16444720W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 145,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL17072262M"
 }

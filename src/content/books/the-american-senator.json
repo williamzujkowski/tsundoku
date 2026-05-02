@@ -11,7 +11,7 @@
   "description": "I never could understand why anybody should ever have begun to live at Dillsborough, or why the population there should have been at any time recruited by new comers. That a man with a family should cling to a house in which he has once established himself is intelligible. The butcher who supplied Dillsborough, or the baker, or the ironmonger, though he might not drive what is called a roaring trade, nevertheless found himself probably able to live, and might well hesitate before he would encoun",
   "cover_url": "https://books.google.com/books/content?id=PNs0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781465584212",
-  "first_published": 2020,
+  "first_published": 1877,
   "pages": 828,
   "google_books_url": "https://play.google.com/store/books/details?id=PNs0DQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -74,5 +74,16 @@
     "marriage",
     "nobility"
   ],
-  "ol_work_key": "/works/OL109867W"
+  "ol_work_key": "/works/OL109867W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 39,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL23202085M"
 }

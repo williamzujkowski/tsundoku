@@ -12,7 +12,7 @@
   "description": "This enlarged edition of the most significant and celebrated slave narrative completes the Jacobs family saga, surely one of the most memorable in all of American history. John S. Jacobs’s short slave narrative, A True Tale of Slavery, published in London in 1861, adds a brother's perspective to Harriet A. Jacobs’s autobiography.",
   "cover_url": "https://books.google.com/books/content?id=BL_8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780674254695",
-  "first_published": 2009,
+  "first_published": 1861,
   "pages": 497,
   "google_books_url": "https://play.google.com/store/books/details?id=BL_8DwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -127,5 +127,16 @@
     "Women, united states, biography",
     "Women, united states, social conditions"
   ],
-  "ol_work_key": "/works/OL28623W"
+  "ol_work_key": "/works/OL28623W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 386,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL57531865M"
 }

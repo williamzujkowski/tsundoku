@@ -44,5 +44,12 @@
   "subject_facet": [
     "Fairy tales"
   ],
-  "ol_work_key": "/works/OL22609313W"
+  "ol_work_key": "/works/OL22609313W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL4430872M"
 }

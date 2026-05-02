@@ -1,7 +1,7 @@
 {
   "title": "Time Out of Joint",
   "author": "Philip K. Dick",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "time-out-of-joint",
   "tags": [
@@ -65,5 +65,16 @@
     "Suburban life",
     "Vie de la banlieue"
   ],
-  "ol_work_key": "/works/OL2172523W"
+  "ol_work_key": "/works/OL2172523W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 25,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL48140517M"
 }

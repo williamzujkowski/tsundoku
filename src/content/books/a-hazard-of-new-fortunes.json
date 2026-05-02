@@ -11,7 +11,7 @@
   "description": "No one can complain that in this story Mr. Howells has taken his type from the commonplace. It is a study of life in New York, and the author has brought together such a gallery of odd and strongly differentiated characters as could perhaps be found in no other city on the continent, while the conditions and phases of social life represented are not less distinctive and peculiar. The Marches, it is true, are from Boston, but they serve the purpose of external points of observation, whence to not",
   "cover_url": "https://books.google.com/books/content?id=kF7eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783849657499",
-  "first_published": 2020,
+  "first_published": 1889,
   "pages": 546,
   "google_books_url": "https://play.google.com/store/books/details?id=kF7eDwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -101,5 +101,16 @@
     "Social classes in fiction",
     "Vie urbaine"
   ],
-  "ol_work_key": "/works/OL69164W"
+  "ol_work_key": "/works/OL69164W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 100,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL55264663M"
 }

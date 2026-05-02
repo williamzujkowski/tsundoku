@@ -14,7 +14,7 @@
   "description": "After the long exile on Earth, John Carter finally returned to his beloved Mars. But beautiful Dejah Thoris, the woman he loved, had vanished. Now he was trapped in the legendary Eden of Mars -- an Eden from which none ever escaped alive. The Gods of Mars is a science fantasy novel by American writer Edgar Rice Burroughs, the second of his Barsoom series. It was first published in The All-Story as a five-part serial in the issues for January-May 1913.[1] It was later published as a complete nove",
   "cover_url": "https://books.google.com/books/content?id=j_SkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9786256407299",
-  "first_published": 2023,
+  "first_published": 1918,
   "pages": 264,
   "google_books_url": "https://play.google.com/store/books/details?id=j_SkEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -65,5 +65,16 @@
     "Science fiction",
     "Science fiction, American"
   ],
-  "ol_work_key": "/works/OL1417942W"
+  "ol_work_key": "/works/OL1417942W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 315,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33905524M"
 }

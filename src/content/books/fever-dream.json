@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1786072386",
-  "first_published": 2017,
+  "first_published": 2015,
   "pages": 192,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=osiyAQAACAAJ&dq=Fever+Dream+Samanta+Schweblin&hl=&source=gbs_api",
@@ -52,5 +52,14 @@
     "Romance literature",
     "Spanish"
   ],
-  "ol_work_key": "/works/OL17317216W"
+  "ol_work_key": "/works/OL17317216W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 29,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34114766M"
 }

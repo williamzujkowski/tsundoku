@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=WQjA6_cjp9UC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=WQjA6_cjp9UC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "0745300359",
-  "first_published": 1986,
+  "first_published": 1952,
   "pages": 260,
   "subjects": [
     "Social Science"
@@ -19,7 +19,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=WQjA6_cjp9UC&dq=Black+Skin,+White+Masks+Frantz+Fanon&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "305.896",
     "306.896",
@@ -73,5 +73,15 @@
     "Social conditions",
     "Svarta"
   ],
-  "ol_work_key": "/works/OL1323771W"
+  "ol_work_key": "/works/OL1323771W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 52,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7955009M"
 }

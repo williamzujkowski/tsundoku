@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "In \"Harding's Luck,\" E. Nesbit masterfully weaves a tale that combines elements of fantasy and everyday life, reflecting the late Victorian era's shifting social dynamics. The narrative follows the misadventures of Mr. Harding, an unassuming clerk whose life takes unexpected turns due to a series of lucky occurrences. Nesbit's prose is imbued with sharp wit and a keen understanding of human nature, showcasing her unique ability to blend humor with nuanced social commentary. The book sits comfort",
   "cover_url": "https://books.google.com/books/content?id=AaGKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 1961,
   "pages": 211,
   "google_books_url": "https://play.google.com/store/books/details?id=AaGKEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -33,5 +33,16 @@
   "subject_facet": [
     "Fantasy fiction"
   ],
-  "ol_work_key": "/works/OL7984876W"
+  "ol_work_key": "/works/OL7984876W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 79,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL41515907M"
 }

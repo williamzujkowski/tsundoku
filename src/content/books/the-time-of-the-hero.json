@@ -6,7 +6,7 @@
   "slug": "the-time-of-the-hero",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL27435074W",
-  "first_published": 2011,
+  "first_published": 1963,
   "language": "eng",
   "description": "\"The scene: a pitch-black lavatory after lights-out at the Leoncio Prado Military Academy in Lima, Peru. Four cadets are drawing lots for the night's mission. Their objective: the captain's office. Their target: to steal a copy of the next day's chemistry examination. In this microcosm, this city within a city, a group of cadets form still another circle in their attempt to break out of the vicious round of sadistic hazing, military discipline, confinement, and boredom. The cadets' rebellion is ...",
   "cover_url": "https://books.google.com/books/content?id=tuwtAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
@@ -17,7 +17,7 @@
   ],
   "google_books_url": "http://books.google.com/books?id=tuwtAAAAIAAJ&dq=The+Time+of+the+Hero+Mario+Vargas+Llosa&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "isbn": "9782070372713",
   "ddc": [
     "863",
@@ -61,5 +61,21 @@
     "Spanish literature",
     "Texts"
   ],
-  "ol_work_key": "/works/OL857544W"
+  "ol_work_key": "/works/OL857544W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 96,
+  "first_published_circa": false,
+  "original_language": "spa",
+  "original_title": "La ciudad y los perros",
+  "representative_edition_key": "/books/OL8838222M",
+  "translator": "Bernard Lesfargues"
 }

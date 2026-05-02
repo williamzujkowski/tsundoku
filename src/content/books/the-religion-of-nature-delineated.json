@@ -11,11 +11,11 @@
   "description": "The Religion of Nature Delineated is a book by Anglican cleric William Wollaston that describes a system of ethics that can be discerned without recourse to revealed religion. It was first published in 1722, two years before Wollaston's death. Due to its influence on eighteenth-century philosophy and his promotion of a natural religion, the book claims for Wollaston a ranking as one of the great British Enlightenment philosophers, along with John Locke, George Berkeley, and David Hume. It contri",
   "cover_url": "https://books.google.com/books/content?id=SQxuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9782382743393",
-  "first_published": 2022,
+  "first_published": 1722,
   "pages": 246,
   "google_books_url": "http://books.google.com/books?id=SQxuEAAAQBAJ&dq=intitle:The+Religion+of+Nature+Delineated&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Ethics",
     "Early works to 1800",
@@ -53,5 +53,15 @@
     "Harvard University",
     "Natural theology"
   ],
-  "ol_work_key": "/works/OL7001227W"
+  "ol_work_key": "/works/OL7001227W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 47,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL55255064M"
 }

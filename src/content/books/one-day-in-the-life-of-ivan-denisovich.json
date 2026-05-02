@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/13669266-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/13669266-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL29334387W",
-  "first_published": 1963,
+  "first_published": 1962,
   "language": "eng",
   "description": "“Stark . . . the story of how one falsely accused convict and his fellow prisoners survived or perished in an arctic slave labor camp after the war.”—Time From the icy blast of reveille through the sweet release of sleep, Ivan Denisovich endures. A common carpenter, he is one of millions viciously imprisoned for countless years on baseless charges,sentenced to the waking nightmare of the Soviet work camps in Siberia. Even in the face of degrading hatred, where life is reduced to a bowl of gruel ...",
   "isbn": "9780553247770",
@@ -139,5 +139,20 @@
     "Translations into English",
     "Travail forcé"
   ],
-  "ol_work_key": "/works/OL258329W"
+  "ol_work_key": "/works/OL258329W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 129,
+  "first_published_circa": false,
+  "original_language": "rus",
+  "original_title": "Odin denʹ Ivana Denisovicha",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL24215803M"
 }

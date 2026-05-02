@@ -1,7 +1,7 @@
 {
   "title": "The Monk",
   "author": "Matthew Lewis",
-  "category": "Literature",
+  "category": "Horror",
   "priority": 2,
   "slug": "the-monk",
   "tags": [
@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "Matthew Lewis's novel \"The Monk\" stands as a seminal work of Gothic literature, intricately weaving themes of forbidden desire, morality, and the supernatural. Published in 1796, this provocative text employs a compelling narrative style that blends the sensational with the philosophical, challenging the austere conventions of its time. Through the tragic descent of Ambrosio, a pious monk entangled in lust and ultimately in demonic influence, Lewis critiques the hypocrisy of religious institutio",
   "cover_url": "https://books.google.com/books/content?id=9zKcEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 1796,
   "pages": 338,
   "google_books_url": "https://play.google.com/store/books/details?id=9zKcEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -97,5 +97,16 @@
     "Sexual behavior",
     "Spain, fiction"
   ],
-  "ol_work_key": "/works/OL13116995W"
+  "ol_work_key": "/works/OL13116995W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 58,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22560963M"
 }

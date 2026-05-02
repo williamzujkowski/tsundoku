@@ -8,7 +8,7 @@
     "npr-top-100-sff"
   ],
   "open_library_url": "https://openlibrary.org/works/OL26548721W",
-  "first_published": 2012,
+  "first_published": 1938,
   "language": "eng",
   "description": "Satirical fantasy featuring the interplanetary adventures of the fabulous Dr. Ransom.",
   "cover_url": "https://books.google.com/books/content?id=0KoY9664480C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -20,7 +20,7 @@
   ],
   "google_books_url": "http://books.google.com/books?id=0KoY9664480C&dq=Out+of+the+Silent+Planet+C.S.+Lewis&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "428.64",
     "823.912"
@@ -77,5 +77,16 @@
     "Science fiction",
     "Space flight"
   ],
-  "ol_work_key": "/works/OL71166W"
+  "ol_work_key": "/works/OL71166W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 65,
+  "first_published_circa": false,
+  "first_edition_isbn": "0025707957",
+  "representative_edition_key": "/books/OL34241555M"
 }

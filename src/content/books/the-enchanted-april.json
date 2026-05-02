@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "A 1922 women's adventure and travel novel by British-American novelist Elizabeth von Arnim. It is said to be the author's lightest and most refreshing novel. The novel follows four dissimilar women in 1920s England who leave their rainy, grey environments to go on holiday in Italy. Mrs Arbuthnot and Mrs Wilkins, who belong to the same ladies' club but have never spoken, become acquainted after reading a newspaper advertisement for a small medieval castle on the Mediterranean to be let furnished ",
   "cover_url": "https://books.google.com/books/content?id=fqoTDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2021,
+  "first_published": 1923,
   "pages": 198,
   "google_books_url": "https://play.google.com/store/books/details?id=fqoTDgAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "Urlaub",
     "Women authors"
   ],
-  "ol_work_key": "/works/OL8202750W"
+  "ol_work_key": "/works/OL8202750W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 209,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33496774M"
 }

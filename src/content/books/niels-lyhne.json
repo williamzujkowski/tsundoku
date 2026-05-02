@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "Niels Lyhne is a young Danish man from a rural family. As time moves forward, we are living things with him: his first love, his setbacks, his joys, his sorrows, his friendships and his dreams of being a poet. Naturalism and romanticism are very present in Jacobsen's writing and scenery. His writing has high beauty and detail, and we have long passages of Lhyne's reflections on what is happening to him as he undergoes personal tragedies and is sent to war.",
   "cover_url": "https://books.google.com/books/content?id=gNthEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2020,
+  "first_published": 1900,
   "pages": 172,
   "google_books_url": "https://play.google.com/store/books/details?id=gNthEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -71,5 +71,18 @@
     "Translations into English",
     "Women"
   ],
-  "ol_work_key": "/works/OL3459530W"
+  "ol_work_key": "/works/OL3459530W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 91,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL37729321M"
 }

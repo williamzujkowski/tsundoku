@@ -1,7 +1,7 @@
 {
   "title": "The Darkness That Comes Before",
   "author": "R. Scott Bakker",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-darkness-that-comes-before",
   "tags": [
@@ -40,5 +40,12 @@
     "Fiction",
     "Fiction, fantasy, epic",
     "Science Fiction"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL33426927M"
 }

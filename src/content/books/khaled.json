@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "The Kite Runner is the story of Amir, a Sunni Muslim, who struggles to find his place in the world because of the aftereffects and fallout from a series of traumatic childhood events. An adult Amir opens the novel in the present-day United States with a vague reference to one of these events, and then the novel flashes back to Amir's childhood in Afghanistan. In addition to typical childhood experiences, Amir struggles with forging a closer relationship with his father, Baba; with determining th",
   "isbn": "151431097X",
-  "first_published": 2015,
+  "first_published": 2003,
   "pages": 212,
   "google_books_url": "http://books.google.com/books?id=uFpyuwEACAAJ&dq=intitle:Khaled&hl=&source=gbs_api",
   "language": "eng",
@@ -128,5 +128,14 @@
     "open_syllabus_project",
     "sadistic personality disorder"
   ],
-  "ol_work_key": "/works/OL5781992W"
+  "ol_work_key": "/works/OL5781992W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 125,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL57536861M"
 }

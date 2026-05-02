@@ -11,7 +11,7 @@
   "description": "Trollope's only Australian novel, Harry Heathcote of Gangoil deals with the problems facing a young sheepfarmer, or 'squatter' (modelled after Trollope's son Frederic) in outback Australia. Using conventions of the Christmas story established by Dickens in the late 1840s, the novel shows Harry Heathcote thwarting the envious ex-convict neighbors who harbor his disgruntled former employees and who attempt to set fire to his pastures. Trollope draws heavily on his knowledge of the social and econo",
   "cover_url": "https://books.google.com/books/content?id=fzaXDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781609779597",
-  "first_published": 2014,
+  "first_published": 1874,
   "pages": 131,
   "google_books_url": "https://play.google.com/store/books/details?id=fzaXDAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -56,5 +56,16 @@
     "Married people, fiction",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL109866W"
+  "ol_work_key": "/works/OL109866W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 129,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36789643M"
 }

@@ -14,7 +14,7 @@
   "description": "The Brood of The Witch Queen is a supernatural novel by Sax Rohmer. Sometimes called \"Rohmers masterpiece\" or \"the scariest book ever written.\" The story deals with Robert Cairn and his suspicions of Antony Ferrara, the adopted son of an old friend and colleague of Robert's father, Dr Bruce Cairn, of infernal magic and supernatural influence. The novel begins with the strange murder of Sir Michael Ferrara. A horrifying series of events follows, many of them take place in an inner secret chamber ",
   "cover_url": "https://books.google.com/books/content?id=jL8YBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781304969910",
-  "first_published": 2014,
+  "first_published": 1924,
   "pages": 253,
   "google_books_url": "http://books.google.com/books?id=jL8YBwAAQBAJ&dq=intitle:Brood+of+the+Witch-Queen&hl=&source=gbs_api",
   "language": "eng",
@@ -61,5 +61,16 @@
     "Witches",
     "Witches -- Fiction"
   ],
-  "ol_work_key": "/works/OL2288676W"
+  "ol_work_key": "/works/OL2288676W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 194,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL40015416M"
 }

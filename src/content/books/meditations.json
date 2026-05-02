@@ -49,5 +49,12 @@
     "Philosophy / General",
     "Western philosophy, c 1600 to c 1800"
   ],
-  "ol_work_key": "/works/OL15320183W"
+  "ol_work_key": "/works/OL15320183W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL7746302M"
 }

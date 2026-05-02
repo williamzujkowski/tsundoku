@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12007967-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12007967-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21784995W",
-  "first_published": 1982,
+  "first_published": 1979,
   "language": "eng",
   "description": "Italo Calvino's classic, multifaceted novel about writing and readers.",
   "isbn": "0156439611",
@@ -57,5 +57,18 @@
     "Spanish American drama",
     "Translations Into English"
   ],
-  "ol_work_key": "/works/OL15321W"
+  "ol_work_key": "/works/OL15321W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 31,
+  "first_published_circa": false,
+  "original_language": "ita",
+  "original_title": "Se una notte d'inverno un viaggiatore",
+  "representative_edition_key": "/books/OL13637479M"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=D5InAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1901,
+  "first_published": 1885,
   "pages": 472,
   "google_books_url": "https://play.google.com/store/books/details?id=D5InAAAAMAAJ&source=gbs_api",
   "language": "eng",
@@ -46,5 +46,16 @@
     "Man-woman relationships -- Fiction",
     "Nobility -- Fiction"
   ],
-  "ol_work_key": "/works/OL24149W"
+  "ol_work_key": "/works/OL24149W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 65,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11645326M"
 }

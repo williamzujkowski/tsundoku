@@ -10,7 +10,7 @@
   "reading_status": "read",
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL41345714W",
-  "first_published": 2017,
+  "first_published": 1895,
   "description": "The Hidden Goddess delves into the Bible to uncover the goddesses that have been buried within it. As well as discussing familiar figures such as Eve and Mary, the book also features Asherah, Sophia, Lilith, and others, exploring their histories, their roles in early Judaic Christian belief and their subsequent suppression. '...a readable and accessible antidote to the stereotype that the divine feminine is absent in the biblical traditions. A great resource for women and men seeking the Goddess...",
   "cover_url": "https://books.google.com/books/content?id=TRXGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=TRXGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -60,5 +60,16 @@
     "Nonfiction - General",
     "collection:Name"
   ],
-  "ol_work_key": "/works/OL15437W"
+  "ol_work_key": "/works/OL15437W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL57774195M"
 }

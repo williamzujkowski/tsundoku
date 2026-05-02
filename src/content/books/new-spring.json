@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "New Spring is a fantasy novel by American author Robert Jordan, a prequel in the Wheel of Time series. New Spring consists of 26 chapters and an epilogue.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/WoT00_NewSpring.jpg/250px-WoT00_NewSpring.jpg",
   "isbn": "9781559279529",
@@ -31,5 +31,14 @@
   ],
   "ol_work_key": "/works/OL1946682W",
   "first_published": 2004,
-  "pages": 336
+  "pages": 336,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 34,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL8609926M"
 }

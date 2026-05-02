@@ -50,5 +50,16 @@
     "PR-4185.00000000.A1 1979",
     "PR-4185.00000000.A2 R49 1996",
     "PR-4185.00000000.A1 1883"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 52,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780543652102",
+  "representative_edition_key": "/books/OL34037054M"
 }

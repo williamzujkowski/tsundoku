@@ -23,5 +23,14 @@
   "ddc": [
     "823.8"
   ],
-  "ol_work_key": "/works/OL41507926W"
+  "ol_work_key": "/works/OL41507926W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56373038M"
 }

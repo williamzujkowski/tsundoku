@@ -1,7 +1,7 @@
 {
   "title": "The Moon Is a Harsh Mistress",
   "author": "Robert A. Heinlein",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-moon-is-a-harsh-mistress",
   "tags": [
@@ -61,5 +61,16 @@
     "award:hugo_award=1967",
     "award:hugo_award=novel"
   ],
-  "ol_work_key": "/works/OL59704W"
+  "ol_work_key": "/works/OL59704W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 53,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL27365705M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Book of Atrix Wolfe",
   "author": "Patricia A. McKillip",
-  "category": "Fantasy",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-book-of-atrix-wolfe",
   "tags": [
@@ -38,5 +38,16 @@
     "Fiction, science fiction, general",
     "Wolves"
   ],
-  "ol_work_key": "/works/OL92489W"
+  "ol_work_key": "/works/OL92489W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 5,
+  "first_published_circa": false,
+  "first_edition_isbn": "0441002110",
+  "representative_edition_key": "/books/OL10256221M"
 }

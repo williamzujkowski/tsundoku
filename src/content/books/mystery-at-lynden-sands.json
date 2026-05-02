@@ -11,7 +11,7 @@
   "description": "When a body washes ashore at the idyllic Lynden Sands, Superintendent Ross finds himself entangled in a web of deceit, betrayal, and hidden identities. As he navigates through a maze of clues and red herrings, Ross must unravel the truth behind the enigmatic victim and the secrets that the seemingly tranquil seaside community harbors. J. J. Connington masterfully crafts a suspenseful narrative that keeps readers on the edge of their seats, blending classic detective elements with psychological i",
   "cover_url": "https://books.google.com/books/content?id=CmZdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783989733213",
-  "first_published": 2024,
+  "first_published": 1928,
   "pages": 330,
   "google_books_url": "https://play.google.com/store/books/details?id=CmZdEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -27,5 +27,16 @@
     "Mystery and detective stories",
     "Sir Clinton Driffield (fictitious character)"
   ],
-  "ol_work_key": "/works/OL11619998W"
+  "ol_work_key": "/works/OL11619998W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL52239902M"
 }

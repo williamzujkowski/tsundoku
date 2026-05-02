@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Dungeon Crawler Carl is a science fantasy LitRPG book series written by American author Matt Dinniman. Initially self published by Dinniman via online publisher Royal Road, it, and its six sequels, were acquired by Ace Books in 2024.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/DungeonCrawlerCarlBook1.png/120px-DungeonCrawlerCarlBook1.png",
   "isbn": "9780593820247",
@@ -24,5 +24,14 @@
   ],
   "ol_work_key": "/works/OL24593432W",
   "first_published": 2020,
-  "pages": 465
+  "pages": 465,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL51810161M"
 }

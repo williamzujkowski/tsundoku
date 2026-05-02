@@ -6,7 +6,7 @@
   "slug": "the-cheese-and-the-worms",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL43137290W",
-  "first_published": 1992,
+  "first_published": 1980,
   "language": "eng",
   "description": "A survey of popular culture in 16th century Italy.",
   "cover_url": "https://books.google.com/books/content?id=4IUREWq_o3MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -96,5 +96,14 @@
     "Vie religieuse",
     "Volkscultuur"
   ],
-  "ol_work_key": "/works/OL14872792W"
+  "ol_work_key": "/works/OL14872792W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 18,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7869984M"
 }

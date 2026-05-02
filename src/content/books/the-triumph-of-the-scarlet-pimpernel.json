@@ -13,11 +13,11 @@
   "reading_status": "read",
   "description": "In \"The Triumph of the Scarlet Pimpernel,\" Emmuska Orczy weaves a thrilling narrative set against the backdrop of the French Revolution, showcasing the heroism of the enigmatic Scarlet Pimpernel. The novel is characterized by its adventurous tone, intricate plots, and rich character development, combining elements of suspense and romance with historical authenticity. Orczy's prose is both elegant and accessible, reflecting the ideals and societal tensions of her time, while her exploration of th",
   "cover_url": "https://books.google.com/books/content?id=CMxNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2021,
+  "first_published": 1922,
   "pages": 324,
   "google_books_url": "https://play.google.com/store/books/details?id=CMxNEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Sir Blakeney, Percy (Fictitious character)",
     "Fiction",
@@ -57,5 +57,15 @@
     "History",
     "Sir Blakeney, Percy (Fictitious character)"
   ],
-  "ol_work_key": "/works/OL8125158W"
+  "ol_work_key": "/works/OL8125158W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 45,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL8624877M"
 }

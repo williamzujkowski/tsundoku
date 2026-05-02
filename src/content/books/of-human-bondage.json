@@ -11,7 +11,7 @@
   "description": "A masterpiece of modern literature that mirrors Maugham’s own career. Of Human Bondage is the first and most autobiographical of Maugham's novels. It is the story of Philip Carey, an orphan eager for life, love and adventure. After a few months studying in Heidelberg, and a brief spell in Paris as a would-be artist, Philip settles in London to train as a doctor. And that is where he meets Mildred, the loud but irresistible waitress with whom he plunges into a formative, tortured and masochistic ",
   "cover_url": "https://books.google.com/books/content?id=6_dvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780553213928",
-  "first_published": 1991,
+  "first_published": 1915,
   "pages": 736,
   "google_books_url": "http://books.google.com/books?id=6_dvDwAAQBAJ&dq=intitle:Of+Human+Bondage&hl=&source=gbs_api",
   "language": "eng",
@@ -113,5 +113,16 @@
     "Physicians, fiction",
     "Romans, nouvelles"
   ],
-  "ol_work_key": "/works/OL505781W"
+  "ol_work_key": "/works/OL505781W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7820510M"
 }

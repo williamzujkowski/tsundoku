@@ -56,5 +56,14 @@
     "Translations into English",
     "Unicorns in art"
   ],
-  "ol_work_key": "/works/OL3801001W"
+  "ol_work_key": "/works/OL3801001W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 30,
+  "representative_edition_key": "/books/OL16796988M",
+  "copyright_status": "public_domain"
 }

@@ -54,5 +54,14 @@
     "award:national_book_award=1995",
     "award:national_book_award=fiction"
   ],
-  "ol_work_key": "/works/OL74653W"
+  "ol_work_key": "/works/OL74653W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL27119010M"
 }

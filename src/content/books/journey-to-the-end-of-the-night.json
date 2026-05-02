@@ -27,5 +27,14 @@
   "subject_facet": [
     "French fiction",
     "Translations into English"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL47703388M",
+  "copyright_status": "likely_public_domain"
 }

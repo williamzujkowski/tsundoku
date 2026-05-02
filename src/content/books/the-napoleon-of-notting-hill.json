@@ -1,7 +1,7 @@
 {
   "title": "The Napoleon of Notting Hill",
   "author": "Gilbert Keith Chesterton",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-napoleon-of-notting-hill",
   "tags": [
@@ -13,7 +13,7 @@
   "description": "The human race, to which so many of my readers belong, has been playing at children's games from the beginning, and will probably do it till the end, which is a nuisance for the few people who grow up. And one of the games to which it is most attached is called Keep to-morrow dark, and which is also named (by the rustics in Shropshire, I have no doubt) Cheat the Prophet. The players listen very carefully and respectfully to all that the clever men have to say about what is to happen in the next ",
   "cover_url": "https://books.google.com/books/content?id=4jTjKcy7ufkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781421843575",
-  "first_published": 2007,
+  "first_published": 1904,
   "pages": 198,
   "google_books_url": "http://books.google.com/books?id=4jTjKcy7ufkC&dq=intitle:The+Napoleon+of+Notting+Hill&hl=&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "Science Fiction",
     "Translations into Russian"
   ],
-  "ol_work_key": "/works/OL76473W"
+  "ol_work_key": "/works/OL76473W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781544141350",
+  "representative_edition_key": "/books/OL34327856M"
 }

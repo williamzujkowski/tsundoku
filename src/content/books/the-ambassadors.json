@@ -13,7 +13,7 @@
   "description": "This complex tale of self-discovery -- considered by the author to be his best work -- traces the path of an aging idealist, Lambert Strether. Arriving in Paris with the intention of persuading his young charge to abandon an obsession with a French woman and return home, Strether reaches unexpected conclusions.",
   "cover_url": "https://books.google.com/books/content?id=2IWXeXVRD34C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "0395051371",
-  "first_published": 1960,
+  "first_published": 1903,
   "pages": 420,
   "google_books_url": "http://books.google.com/books?id=2IWXeXVRD34C&dq=intitle:The+Ambassadors&hl=&source=gbs_api",
   "language": "eng",
@@ -133,5 +133,16 @@
     "Social life and customs",
     "Young men"
   ],
-  "ol_work_key": "/works/OL276470W"
+  "ol_work_key": "/works/OL276470W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 231,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7465464M"
 }

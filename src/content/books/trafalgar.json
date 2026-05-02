@@ -11,7 +11,7 @@
   "description": "An explosive chronicle of history's greatest sea battle, from the co-author of the forthcoming Gibraltar: The Greatest Siege in British History (March 2018) In the tradition of Antony Beevor's Stalingrad, Nelson's Trafalgar presents the definitive blow-by-blow account of the world's most famous naval battle, when the British Royal Navy under Lord Horatio Nelson dealt a decisive blow to the forces of Napoleon. The Battle of Trafalgar comes boldly to life in this definitive work that re-creates th",
   "cover_url": "https://books.google.com/books/content?id=PuUe9Twa24MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781440627293",
-  "first_published": 2006,
+  "first_published": 2004,
   "pages": 436,
   "google_books_url": "https://play.google.com/store/books/details?id=PuUe9Twa24MC&source=gbs_api",
   "language": "eng",
@@ -55,5 +55,14 @@
     "Trafalgar, Bataille de, 1805",
     "Trafalgar, Battle of, 1805"
   ],
-  "ol_work_key": "/works/OL5835882W"
+  "ol_work_key": "/works/OL5835882W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33402437M"
 }

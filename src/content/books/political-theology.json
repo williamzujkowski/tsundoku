@@ -1,7 +1,7 @@
 {
   "title": "Political Theology",
   "author": "Carl Schmitt",
-  "category": "Political Theory",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "political-theology",
   "tags": [
@@ -29,5 +29,12 @@
   "lcc": [
     "JC-0263.00000000"
   ],
-  "ol_work_key": "/works/OL38127603W"
+  "ol_work_key": "/works/OL38127603W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL51815173M"
 }

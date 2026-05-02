@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "Siegfried Sassoon's 'Memoirs of a Fox-hunting Man' presents a semi-autobiographical glimpse into the pastoral pre-war British countryside and the subsequent visceral reality of World War I. Written with an elegiac tone that both mourns and cherishes a bygone era, Sassoon masterfully employs a narrative that is both intimate and evocative. Through its lyrical prose and deft character sketches, the novel exists not only as a literary memoir but as a poignant reflection on the contrasts between the",
   "cover_url": "https://books.google.com/books/content?id=hpmCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 1928,
   "pages": 267,
   "google_books_url": "http://books.google.com/books?id=hpmCEAAAQBAJ&dq=intitle:Memoirs+of+a+Foxhunting+Man&hl=&source=gbs_api",
   "language": "eng",
@@ -27,7 +27,7 @@
     "Biographies &amp; autobiographies",
     "Literary"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "isbn": "9780353280526",
   "ddc": [
     "823.91",
@@ -68,5 +68,15 @@
     "Literary",
     "World War, 1914-1918"
   ],
-  "ol_work_key": "/works/OL1249517W"
+  "ol_work_key": "/works/OL1249517W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 69,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32421602M"
 }

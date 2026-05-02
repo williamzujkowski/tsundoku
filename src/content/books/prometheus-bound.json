@@ -124,5 +124,14 @@
     "PA-3825.00000000.P8 1841",
     "PA-3411.00000000.C7 A35",
     "PA-3827.00000000.P8 S3 1989"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL48643515M"
 }

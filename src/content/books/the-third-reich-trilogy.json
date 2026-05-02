@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9371115-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9371115-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20695739W",
-  "first_published": 2008,
+  "first_published": 2005,
   "description": "The definitive account of Hitler's rise to power and the collapse of civilization in Nazi Germany, from the author of The Third Reich in Power, The Third Reich at War, and Hitler's People \"The clearest and most gripping account I've read of German life before and during the rise of the Nazis.\" —A. S Byatt, Times Literary Supplement \"Impressive in its command of an immense literature, perceptive in analysis, fluent in style, and humane in judgment, this work could only have been produced by a mas...",
   "isbn": "9780143034698",
   "pages": 673,
@@ -51,5 +51,16 @@
     "Politique et gouvernement",
     "World War, 1914-1918"
   ],
-  "ol_work_key": "/works/OL1745835W"
+  "ol_work_key": "/works/OL1745835W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "0143034693",
+  "representative_edition_key": "/books/OL24266178M"
 }

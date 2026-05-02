@@ -14,7 +14,7 @@
   "description": "The Beasts of Tarzan, the third book in the Tarzan series, was first published in All-Story Cavalier magazine in 1914. It was later published as a novel in 1916. Tarzan’s old enemy, Nikolas Rokoff, escapes prison and plans his revenge by kidnapping the Tarzan’s son, the heir of Greystoke. He also captures Tarzan and Jane, and takes them all back to Africa, where he strands the Ape-man on an island before continuing on with his dastardly plan. On the island prison Tarzan befriends a troop of apes",
   "cover_url": "https://books.google.com/books/content?id=YlfNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041804313",
-  "first_published": 2023,
+  "first_published": 1916,
   "pages": 236,
   "google_books_url": "http://books.google.com/books?id=YlfNEAAAQBAJ&dq=intitle:The+Beasts+of+Tarzan&hl=&source=gbs_api",
   "language": "eng",
@@ -69,5 +69,16 @@
     "Tarzan (Fictitious character) -- Fiction",
     "Tarzan (fictitious character), fiction"
   ],
-  "ol_work_key": "/works/OL1417916W"
+  "ol_work_key": "/works/OL1417916W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 188,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL37687562M"
 }

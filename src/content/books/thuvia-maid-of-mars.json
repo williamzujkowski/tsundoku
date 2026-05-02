@@ -1,7 +1,7 @@
 {
   "title": "Thuvia, Maid of Mars",
   "author": "Edgar Rice Burroughs",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "thuvia-maid-of-mars",
   "tags": [
@@ -15,7 +15,7 @@
   "description": "Thuvia, Maid of Mars Edgar Rice Burroughs - This installment shifts focus from John Carter and Dejah Thoris, protagonists of the first three books in the series, to their son Carthoris, prince of Helium, and to Thuvia, princess of Ptarth, and follows Carthoris' efforts to win the heart of Thuvia, who will have nothing to do with him. When Thuvia is kidnapped Carthoris is presented with an opportunity -- throw in an airship battle, lost cities, savage creatures, and the fabulous phantom bowmen of",
   "cover_url": "https://books.google.com/books/content?id=kAxHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783986475567",
-  "first_published": 2021,
+  "first_published": 1920,
   "pages": 150,
   "google_books_url": "https://play.google.com/store/books/details?id=kAxHEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -72,5 +72,16 @@
     "Science Fiction",
     "Science fiction, American"
   ],
-  "ol_work_key": "/works/OL1418128W"
+  "ol_work_key": "/works/OL1418128W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 206,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33908433M"
 }

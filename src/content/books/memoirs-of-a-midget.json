@@ -12,7 +12,7 @@
   "description": "This Is A New Release Of The Original 1922 Edition.",
   "cover_url": "https://books.google.com/books/content?id=wpWGoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1494145464",
-  "first_published": 2014,
+  "first_published": 1921,
   "pages": 432,
   "google_books_url": "http://books.google.com/books?id=wpWGoAEACAAJ&dq=intitle:Memoirs+of+a+Midget&hl=&source=gbs_api",
   "language": "eng",
@@ -28,7 +28,7 @@
     "Young women, fiction",
     "Fiction, psychological"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "823.912"
   ],
@@ -71,5 +71,15 @@
     "Young women",
     "Young women, fiction"
   ],
-  "ol_work_key": "/works/OL1098501W"
+  "ol_work_key": "/works/OL1098501W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 42,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL26644991M"
 }

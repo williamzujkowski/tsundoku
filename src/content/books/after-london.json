@@ -1,7 +1,7 @@
 {
   "title": "After London",
   "author": "Richard Jefferies",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "after-london",
   "tags": [
@@ -14,7 +14,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=Ma8cYJ4xpSIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781465504777",
-  "first_published": 1905,
+  "first_published": 1885,
   "pages": 322,
   "google_books_url": "https://play.google.com/store/books/details?id=Ma8cYJ4xpSIC&source=gbs_api",
   "language": "eng",
@@ -68,5 +68,16 @@
     "Science Fiction",
     "Speculative Fiction"
   ],
-  "ol_work_key": "/works/OL1176822W"
+  "ol_work_key": "/works/OL1176822W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 280,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34245519M"
 }

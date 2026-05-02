@@ -1,7 +1,7 @@
 {
   "title": "Theory of Literature",
   "author": "René Wellek and Austin Warren",
-  "category": "Literary Criticism",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "theory-of-literature",
   "tags": [
@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/15077582-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/15077582-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL33777444W",
-  "first_published": 1956,
+  "first_published": 1949,
   "language": "eng",
   "description": "Theory of Literature was born from the collaboration of Ren Wellek, a Vienna-born student of Prague School linguistics, and Austin Warren, an independently minded \"old New Critic.\" Unlike many other textbooks of its era, however, this classic kowtows to no dogma and toes no party line. Wellek and Warren looked at literature as both a social product--influenced by politics, economics, etc.--as well as a self-contained system of formal structures. Incorporating examples from Aristotle to Coleridge...",
   "isbn": "1628972831",
@@ -36,5 +36,16 @@
     "Philosophy",
     "Study and teaching"
   ],
-  "ol_work_key": "/works/OL20548730W"
+  "ol_work_key": "/works/OL20548730W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56180394M"
 }

@@ -29,5 +29,14 @@
   "lcc": [
     "PR-4748.00000000.M3"
   ],
-  "ol_work_key": "/works/OL6310023W"
+  "ol_work_key": "/works/OL6310023W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL4074804M"
 }

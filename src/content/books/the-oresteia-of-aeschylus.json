@@ -11,12 +11,12 @@
   "reading_status": "read",
   "description": "Hardcover reprint of the original 1922 edition - beautifully bound in brown cloth covers featuring titles stamped in gold, 8vo - 6x9\". No adjustments have been made to the original text, giving readers the full antiquarian experience. For quality purposes, all text and images are printed as black and white. This item is printed on demand. Book Information: Aeschylus. The Oresteia Of Aeschylus: Agamemnon, Choephori, Eumenides. Indiana: Repressed Publishing LLC, 2012. Original Publishing: Aeschylu",
   "isbn": "1462254799",
-  "first_published": 2013,
+  "first_published": 1845,
   "pages": 155,
   "google_books_url": "http://books.google.com/books?id=09ilngEACAAJ&dq=intitle:The+Oresteia+of+Aeschylus&hl=&source=gbs_api",
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL856767W",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Agamemnon (Greek mythology)",
     "Drama",
@@ -171,5 +171,19 @@
     "Translations into Italian",
     "Translations into Spanish"
   ],
-  "ol_work_key": "/works/OL10328829W"
+  "ol_work_key": "/works/OL10328829W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 133,
+  "first_published_circa": false,
+  "original_language": "lat",
+  "original_title": "Orestea, Agamemnon, Choephori, Eumenides.",
+  "representative_edition_key": "/books/OL23223263M"
 }

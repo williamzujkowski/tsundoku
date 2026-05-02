@@ -10,13 +10,13 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12840400-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12840400-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1190159W",
-  "first_published": 2003,
+  "first_published": 1923,
   "language": "eng",
   "description": "In \"The Prisoner,\" the fifth volume of Marcel Proust's monumental work, \"In Search of Lost Time,\" the author deftly explores themes of love, jealousy, and the complexities of human relationships. Written in Proust's signature style, the narrative is rich in introspective observations and intricate psychological insights, allowing the reader to traverse the labyrinth of the protagonist's mind. Proust's exploration of time and memory reaches new depths as he delves into the effects of obsession an...",
   "pages": 419,
   "google_books_url": "http://books.google.com/books?id=TflyEAAAQBAJ&dq=The+Prisoner+Marcel+Proust&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Social life and customs",
     "Fiction",
@@ -51,5 +51,19 @@
     "Romance literature",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL1190079W"
+  "ol_work_key": "/works/OL1190079W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 147,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "La prisonniere.",
+  "representative_edition_key": "/books/OL55112557M"
 }

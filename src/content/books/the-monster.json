@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "Edgar Saltus's \"The Monster\" delves into the psychological intricacies of obsession and obsession's transformative power, intertwining elements of Gothic literature with a distinctly modern sensibility. The novel presents a richly textured narrative that explores the titular monster not merely as a metaphor for physical deformity but as a reflection of society's moral decay and the grotesque nature of unbridled desire. Saltus's prose is characterized by its lush verbosity, reminiscent of the dec",
   "cover_url": "https://books.google.com/books/content?id=lbaKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 1912,
   "pages": 145,
   "google_books_url": "https://play.google.com/store/books/details?id=lbaKEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,16 @@
     "PS-2752.00000000 Mo6",
     "PS-2752.00000000 Mo3"
   ],
-  "ol_work_key": "/works/OL5684569W"
+  "ol_work_key": "/works/OL5684569W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 4,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9355971M"
 }

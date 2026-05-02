@@ -33,5 +33,16 @@
     "Daker, john (fictitious character), fiction",
     "Fiction, fantasy, general"
   ],
-  "ol_work_key": "/works/OL2697419W"
+  "ol_work_key": "/works/OL2697419W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780583117456",
+  "representative_edition_key": "/books/OL15189464M"
 }

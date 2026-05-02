@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/12174063-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/12174063-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20016684W",
-  "first_published": 2015,
+  "first_published": 1991,
   "language": "eng",
   "description": "The second volume in a series of revised editions of the horror story collections of Thomas Ligotti.",
   "isbn": "1596064099",
@@ -34,5 +34,16 @@
     "Fiction, short stories (single author)"
   ],
   "pages": 214,
-  "ol_work_key": "/works/OL3273776W"
+  "ol_work_key": "/works/OL3273776W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781854870902",
+  "representative_edition_key": "/books/OL7657398M"
 }

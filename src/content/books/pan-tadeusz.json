@@ -1,7 +1,7 @@
 {
   "title": "Pan Tadeusz",
   "author": "Adam Mickiewicz",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "pan-tadeusz",
   "tags": [
@@ -12,7 +12,7 @@
   "description": "An epic tale of country life among the Polish and Lithuanian gentry in 1811-1812, PAN TADEUSZ by Adam Mickiewicz is perhaps Poland's best-known literary work. This bilingual edition, with side by side Polish and English, is Kenneth R. Mackenzie's celebrated English translation.",
   "cover_url": "https://books.google.com/books/content?id=1KoRr7_4qR8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "0781800331",
-  "first_published": 2000,
+  "first_published": 1834,
   "pages": 620,
   "google_books_url": "http://books.google.com/books?id=1KoRr7_4qR8C&dq=intitle:Pan+Tadeusz&hl=&source=gbs_api",
   "language": "eng",
@@ -98,5 +98,18 @@
     "Study and teaching",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL1118880W"
+  "ol_work_key": "/works/OL1118880W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 100,
+  "first_published_circa": false,
+  "original_language": "pol",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL1512627M"
 }

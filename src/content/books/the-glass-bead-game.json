@@ -6,7 +6,7 @@
   "slug": "the-glass-bead-game",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL24842672W",
-  "first_published": 1972,
+  "first_published": 1943,
   "description": "Setting his story in the distant, post-Holocaust future, Hesse tells of an elite cult of intellectuals occupying themselves with an elaborate game that employs all the cultural and scientific knowledge of the ages. The most imaginative and prophetic of Hesse's works.",
   "cover_url": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -18,7 +18,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=ckqY4FjsObMC&dq=The+Glass+Bead+Game+Hermann+Hesse&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "833.912",
     "830",
@@ -69,5 +69,19 @@
     "Spiritual formation",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL872724W"
+  "ol_work_key": "/works/OL872724W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 73,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Das Glasperlenspiel",
+  "representative_edition_key": "/books/OL3564699M"
 }

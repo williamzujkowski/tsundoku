@@ -50,5 +50,14 @@
     "Science fiction",
     "Sprawl Trilogy"
   ],
-  "ol_work_key": "/works/OL27253W"
+  "ol_work_key": "/works/OL27253W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 32,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7824510M"
 }

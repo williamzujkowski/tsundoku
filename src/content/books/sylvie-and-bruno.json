@@ -11,7 +11,7 @@
   "description": "Sylvia and Bruno, first published in 1889, forms the last novel Lewis Carroll published during his lifetime. The volume was illustrated by Harry Furniss. The novel has two main plots; one set in the real world at the time the book was published (the Victorian era), the other in the fantasy world of Fairyland.",
   "cover_url": "https://books.google.com/books/content?id=sk-HDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783849699499",
-  "first_published": 1899,
+  "first_published": 1889,
   "pages": 184,
   "google_books_url": "http://books.google.com/books?id=sk-HDgAAQBAJ&dq=intitle:Sylvie+and+Bruno&hl=&source=gbs_api",
   "language": "eng",
@@ -65,5 +65,16 @@
     "Teachers",
     "Voyages and travels"
   ],
-  "ol_work_key": "/works/OL151430W"
+  "ol_work_key": "/works/OL151430W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 232,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38566851M"
 }

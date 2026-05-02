@@ -14,7 +14,7 @@
   "cover_url": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781429963930",
-  "first_published": 2010,
+  "first_published": 1985,
   "pages": 389,
   "subjects": [
     "Fiction"
@@ -92,5 +92,14 @@
     "science fiction",
     "space warfare"
   ],
-  "ol_work_key": "/works/OL49488W"
+  "ol_work_key": "/works/OL49488W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 104,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29567999M"
 }

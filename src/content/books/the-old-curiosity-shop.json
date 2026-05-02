@@ -12,7 +12,7 @@
   "description": "The Old Curiosity Shop is one of two novels (the other being Barnaby Rudge) which Charles Dickens published along with short stories in his weekly serial Master Humphrey's Clock, from 1840 to 1841. It was so popular that New York readers stormed the wharf when the ship bearing the final installment arrived in 1841. The Old Curiosity Shop was printed in book form in 1841.The Old Curiosity Shop tells the story of Nell Trent, a beautiful and virtuous young girl of \"not quite fourteen\". An orphan, s",
   "cover_url": "https://books.google.com/books/content?id=gASWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "9798653877605",
-  "first_published": 2020,
+  "first_published": 1800,
   "pages": 788,
   "google_books_url": "http://books.google.com/books?id=gASWzQEACAAJ&dq=intitle:The+Old+Curiosity+Shop&hl=&source=gbs_api",
   "language": "eng",
@@ -142,5 +142,16 @@
     "Social life and customs",
     "Translations into Russian"
   ],
-  "ol_work_key": "/works/OL14869167W"
+  "ol_work_key": "/works/OL14869167W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34198168M"
 }

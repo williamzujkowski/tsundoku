@@ -14,7 +14,7 @@
   "description": "\"Indian Fairy Tales,\" compiled by Joseph Jacobs, is a captivating anthology that brings together a diverse array of traditional stories from India. These tales, rich in cultural heritage and folklore, offer a glimpse into the vibrant storytelling traditions of the Indian subcontinent. The collection includes a variety of narratives, from moral fables to enchanting fairy tales, each imbued with evolving characters and imaginative plots. The stories often feature animals with human traits, magical",
   "cover_url": "https://books.google.com/books/content?id=LKnLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041801916",
-  "first_published": 2023,
+  "first_published": 1892,
   "pages": 258,
   "google_books_url": "http://books.google.com/books?id=LKnLEAAAQBAJ&dq=intitle:Indian+Fairy+Tales&hl=&source=gbs_api",
   "language": "eng",
@@ -58,5 +58,16 @@
     "Mythology",
     "Short Stories"
   ],
-  "ol_work_key": "/works/OL240336W"
+  "ol_work_key": "/works/OL240336W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 73,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34132846M"
 }

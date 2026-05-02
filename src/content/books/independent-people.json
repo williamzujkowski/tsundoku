@@ -6,7 +6,7 @@
   "slug": "independent-people",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL22804717M",
-  "first_published": 1946,
+  "first_published": 1945,
   "language": "eng",
   "description": "A beautifully jacketed hardcover edition of the Nobel Prize-winning author's beloved epic novel about a stubbornly independent Icelandic sheep farmer and his spirited daughter. Set in the early twentieth century, Independent People recalls both Iceland's medieval epics and such classics as Sigrid Undset's Kristin Lavransdatter. If Bjartur of Summerhouses, the book's protagonist, is an ordinary sheep farmer, his flinty determination to achieve independence is genuinely heroic and, at the same tim...",
   "cover_url": "https://books.google.com/books/content?id=A9D-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -45,5 +45,16 @@
     "Icelandic literature",
     "Sheep ranchers"
   ],
-  "ol_work_key": "/works/OL757983W"
+  "ol_work_key": "/works/OL757983W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 36,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL29856812M"
 }

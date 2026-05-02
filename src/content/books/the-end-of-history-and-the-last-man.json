@@ -1,7 +1,7 @@
 {
   "title": "The End of History and the Last Man",
   "author": "Francis Fukuyama",
-  "category": "History",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-end-of-history-and-the-last-man",
   "tags": [
@@ -72,5 +72,14 @@
     "World politics, 1989-",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL2670501W"
+  "ol_work_key": "/works/OL2670501W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7948702M"
 }

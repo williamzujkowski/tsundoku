@@ -14,7 +14,7 @@
   "description": "Domnei by James Branch Cabell is the fourth installment in his Biography of the Life of Manuel series, which follows the lives of Dom Manuel and his descendants in the fictional French county of Poictesme. It was initially published as The Soul of Melicent in 1913 under the erroneous advice of Cabell’s publisher, who suggested that the title would help sell more copies. But only 493 copies were sold of the original print run. In 1920 the book was republished as Domnei: A Comedy of Woman-Worship,",
   "cover_url": "https://books.google.com/books/content?id=sE3LEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791041801107",
-  "first_published": 2023,
+  "first_published": 2016,
   "pages": 162,
   "google_books_url": "http://books.google.com/books?id=sE3LEAAAQBAJ&dq=intitle:Domnei&hl=&source=gbs_api",
   "language": "eng",
@@ -32,5 +32,14 @@
   "ddc": [
     "800"
   ],
-  "ol_work_key": "/works/OL31403510W"
+  "ol_work_key": "/works/OL31403510W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL55755856M"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=oaQtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1797,
+  "first_published": 1747,
   "pages": 250,
   "google_books_url": "https://play.google.com/store/books/details?id=oaQtAAAAMAAJ&source=gbs_api",
   "language": "eng",
@@ -116,5 +116,20 @@
     "Spanish language",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL1430410W"
+  "ol_work_key": "/works/OL1430410W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 163,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Histoire de Gil Blas de Santillane",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30296082M"
 }

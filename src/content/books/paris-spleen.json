@@ -1,7 +1,7 @@
 {
   "title": "Paris Spleen",
   "author": "Charles Baudelaire",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "paris-spleen",
   "tags": [
@@ -38,5 +38,14 @@
     "Poetry (poetic works by one author)",
     "Romance literature"
   ],
-  "ol_work_key": "/works/OL22141519W"
+  "ol_work_key": "/works/OL22141519W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL32898151M"
 }

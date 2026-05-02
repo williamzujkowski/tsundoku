@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Agriculture",
     "English poetry",
@@ -26,7 +26,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/662209-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/662209-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL602588W",
-  "first_published": 1993,
+  "first_published": 1953,
   "pages": 133,
   "isbn": "9780941051002",
   "ddc": [
@@ -101,5 +101,15 @@
     "Translations into englishhesiod",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL602585W"
+  "ol_work_key": "/works/OL602585W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 28,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL23060220M"
 }

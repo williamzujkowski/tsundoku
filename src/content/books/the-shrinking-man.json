@@ -1,7 +1,7 @@
 {
   "title": "The Shrinking Man",
   "author": "Richard Matheson",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-shrinking-man",
   "tags": [
@@ -56,5 +56,16 @@
     "Science fiction",
     "Survival"
   ],
-  "ol_work_key": "/works/OL64219W"
+  "ol_work_key": "/works/OL64219W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 24,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9850827M"
 }

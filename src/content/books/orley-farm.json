@@ -11,7 +11,7 @@
   "description": "Books for All Kinds of Readers. ReadHowYouWant offers the widest selection of on-demand, accessible format editions on the market today. Our 7 different sizes of EasyRead are optimized by increasing the font size and spacing between the words and the letters. We partner with leading publishers around the globe. Our goal is to have accessible editions simultaneously released with publishers' new books so that all readers can have access to the books they want to read.",
   "cover_url": "https://books.google.com/books/content?id=lVCFFB-FRXAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781442927117",
-  "first_published": 2009,
+  "first_published": 1862,
   "pages": 474,
   "google_books_url": "http://books.google.com/books?id=lVCFFB-FRXAC&dq=intitle:Orley+Farm&hl=&source=gbs_api",
   "language": "eng",
@@ -72,5 +72,16 @@
     "Mothers and sons",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL109869W"
+  "ol_work_key": "/works/OL109869W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 66,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56310004M"
 }

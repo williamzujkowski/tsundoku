@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "\nThe Poetic Edda is the modern name for an untitled collection of Old Norse anonymous narrative poems in alliterative verse. It is distinct from the closely related Prose Edda, although both works are seminal to the study of Old Norse poetry. Several versions of the Poetic Edda exist; especially notable is the medieval Icelandic manuscript Codex Regius, which contains 31 poems.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/The_Tree_of_Yggdrasil.jpg/330px-The_Tree_of_Yggdrasil.jpg",
   "subjects": [
@@ -21,5 +21,16 @@
     "Religion & Spirituality"
   ],
   "first_published": 2009,
-  "ol_work_key": "/works/OL15176793W"
+  "ol_work_key": "/works/OL15176793W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780141956664",
+  "representative_edition_key": "/books/OL24308579M"
 }

@@ -10,7 +10,7 @@
   "description": "If there was any one man who articulated the anger, the struggle, and the beliefs of African Americans in the 1960s, that man was Malxolm X. His AUTOBIOGRAPHY is now an established classic of modern America, a book that expresses like none other the crucial truth about our times. \"Extraordinary. A brilliant, painful, important book.\" TEH NEW YORKTIMES",
   "cover_url": "https://books.google.com/books/content?id=YqgaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=YqgaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "first_published": 1999,
+  "first_published": 1965,
   "pages": 486,
   "subjects": [
     "Biography & Autobiography"
@@ -83,5 +83,16 @@
     "X, malcolm, 1925-1965",
     "Écrivains noirs américains"
   ],
-  "ol_work_key": "/works/OL1815443W"
+  "ol_work_key": "/works/OL1815443W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 70,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8229227M"
 }

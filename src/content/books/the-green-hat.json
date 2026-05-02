@@ -12,7 +12,7 @@
   "description": "The Green Hat is a novel written by Michael Arlen, first published in 1924. It is a work that gained significant attention during the Jazz Age and is notable for its portrayal of a glamorous and decadent world. The novel was adapted into a film in 1928, starring Greta Garbo. The film, titled \"A Woman of Affairs,\" had to tone down some of the more scandalous elements of the novel due to the censorship standards of the time. In summary, \"The Green Hat\" by Michael Arlen is a novel that explores the",
   "cover_url": "https://books.google.com/books/content?id=SCNdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783989730632",
-  "first_published": 2024,
+  "first_published": 1924,
   "pages": 329,
   "google_books_url": "https://play.google.com/store/books/details?id=SCNdEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -45,5 +45,16 @@
     "Man-woman relationships",
     "Nineteen twenties",
     "Widows"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 9,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL51118123M"
 }

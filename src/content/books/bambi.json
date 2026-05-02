@@ -12,7 +12,7 @@
   "description": "A riqueza dos ensinamentos e a fantasia que embala sonhos e conquista crianças em todo o mundo proporcionam momentos inesquecíveis de alegria e aventura. Esta é a maior coleção de clássicos infantis do Brasil! São mais de 70 histórias, dos mais consagrados nomes da literatura infantil mundial, reunidas aqui para encantar crianças de todas as idades. Contos de fadas e fábulas que ensinam, divertem e entretêm, trazendo um mundo mágico de sonhos e de pequenos ensinamentos para a vida toda. Um preci",
   "cover_url": "https://books.google.com/books/content?id=azI6BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788537609316",
-  "first_published": 2011,
+  "first_published": 1926,
   "pages": 15,
   "google_books_url": "https://play.google.com/store/books/details?id=azI6BAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -86,5 +86,18 @@
     "Детская литература -- Издания для младшего возраста -- Австрийская литература -- Переводы",
     "Филологические науки. Художественная литература --Детская литература -- Произведения зарубежной литературы, изданные в Российской Федерации -- Издания для младшего возраста -- Австрия -- Австрийская детская литература"
   ],
-  "ol_work_key": "/works/OL4459213W"
+  "ol_work_key": "/works/OL4459213W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 111,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33923573M"
 }

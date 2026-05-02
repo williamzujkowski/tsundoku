@@ -12,7 +12,7 @@
   "description": "Strange things are happening at Belpher Castle as the Earl's sister tries to pair off her stepson and niece. Her niece has other plans in mind, though. For she is more interested in Geoffrey Raymond and must get the unacceptable composer George Bevan off her back.",
   "cover_url": "https://books.google.com/books/content?id=kllyOAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1600962653",
-  "first_published": 2008,
+  "first_published": 1956,
   "pages": 308,
   "google_books_url": "http://books.google.com/books?id=kllyOAAACAAJ&dq=intitle:A+Damsel+in+Distress&hl=&source=gbs_api",
   "language": "eng",
@@ -61,5 +61,16 @@
     "Nobility -- England -- Fiction",
     "Nobility -- Fiction"
   ],
-  "ol_work_key": "/works/OL1337119W"
+  "ol_work_key": "/works/OL1337119W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 48,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9529840M"
 }

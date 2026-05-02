@@ -10,7 +10,7 @@
   "reading_status": "read",
   "description": "A Voice from the South was published in 1892 by Anna Julia Cooper, an educator who was one of the first two African-American women to be awarded a master’s degree. Since then it has been recognized as one of the first works of Black feminist theory. Setting forth a perspective that would be described as “intersectional” in contemporary terms, Cooper explores her own lived experience as an educated African-American woman, and advocates for the education of African-American women as a necessary me",
   "cover_url": "https://books.google.com/books/content?id=KywUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2024,
+  "first_published": 1988,
   "pages": 206,
   "google_books_url": "https://play.google.com/store/books/details?id=KywUEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -54,5 +54,16 @@
     "Women",
     "Women, united states"
   ],
-  "ol_work_key": "/works/OL2721707W"
+  "ol_work_key": "/works/OL2721707W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 14,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780199874286",
+  "representative_edition_key": "/books/OL34796073M"
 }

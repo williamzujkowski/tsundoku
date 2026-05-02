@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "King Coal explores the lives of coal miners in early 20th century America. The story follows a privileged student who takes a job as a miner to gain firsthand experience of harsh conditions and mistreatment of workers. The protagonist is shocked by what he discovers and becomes an advocate for the miners, leading them in their fight against the mine owners and the political system that supports them. Sinclair’s writing style is known for its vivid descriptions and its ability to bring to life th",
   "cover_url": "https://books.google.com/books/content?id=WpW8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2023,
+  "first_published": 1917,
   "pages": 477,
   "google_books_url": "https://play.google.com/store/books/details?id=WpW8EAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -64,5 +64,16 @@
     "Labor unions",
     "Organizing"
   ],
-  "ol_work_key": "/works/OL115067W"
+  "ol_work_key": "/works/OL115067W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 86,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL32271577M"
 }

@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "The Just Men of Cordova, the third novel in the Four Just Men series, finds the Just Men seeking to bring right the wrongs of criminals in the world of upper-class high finance and horse racing. Colonel Black, a notorious London financier, has moved up in the world due to the convenient deaths of his investment partners. The Just Men soon catch wind that Dr. Essley, a colleague of Dr. Black’s, has purchased a small supply of an extremely fatal poison that leaves no trace on the victim, and so th",
   "cover_url": "https://books.google.com/books/content?id=QzcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2024,
+  "first_published": 1931,
   "pages": 196,
   "google_books_url": "https://play.google.com/store/books/details?id=QzcTEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -42,5 +42,16 @@
     "Fiction",
     "Vigilantes"
   ],
-  "ol_work_key": "/works/OL1517988W"
+  "ol_work_key": "/works/OL1517988W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 76,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL49022450M"
 }

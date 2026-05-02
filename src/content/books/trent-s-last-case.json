@@ -13,7 +13,7 @@
   "description": "Get to know debonair sleuth Philip Trent in the first novel in which the beloved detective ever made an appearance. In Trent's Last Case, author E.C. Bentley pulls off a remarkable feat -- a detective novel that is a sophisticated and hilarious send-up of the detective fiction genre! A must-read for die-hard fans of detective stories, or for anyone craving an entertaining whodunit.",
   "cover_url": "https://books.google.com/books/content?id=ra8U3UMB3_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781775419341",
-  "first_published": 2010,
+  "first_published": 1913,
   "pages": 297,
   "google_books_url": "https://play.google.com/store/books/details?id=ra8U3UMB3_YC&source=gbs_api",
   "language": "eng",
@@ -79,5 +79,16 @@
     "Text-books for foreigners",
     "Trent, Philip (Fictitious character) -- Fiction"
   ],
-  "ol_work_key": "/works/OL1315930W"
+  "ol_work_key": "/works/OL1315930W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 356,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34336496M"
 }

@@ -35,5 +35,14 @@
   "subject_facet": [
     "Religion"
   ],
-  "ol_work_key": "/works/OL39184928W"
+  "ol_work_key": "/works/OL39184928W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL54875757M"
 }

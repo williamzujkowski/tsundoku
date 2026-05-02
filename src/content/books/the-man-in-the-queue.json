@@ -11,11 +11,11 @@
   "reading_status": "read",
   "description": "In \"The Man in the Queue,\" Josephine Tey crafts a brilliant and intricately woven mystery that deftly merges psychological depth with sharp social commentary. Set against the backdrop of 1920s Britain, the novel follows the investigation of a murder on the fringe of a queue for a theatre performance, illustrating Tey's ability to explore the human condition within a suspenseful narrative. The prose is marked by its elegant clarity and sardonic wit, reflecting Tey's keen observational skills as w",
   "cover_url": "https://books.google.com/books/content?id=AZ3hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2023,
+  "first_published": 1929,
   "pages": 215,
   "google_books_url": "https://play.google.com/store/books/details?id=AZ3hEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Police",
     "Alan Grant (Fictitious character)",
@@ -56,5 +56,15 @@
     "Murder",
     "Police"
   ],
-  "ol_work_key": "/works/OL80940W"
+  "ol_work_key": "/works/OL80940W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 75,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32123569M"
 }

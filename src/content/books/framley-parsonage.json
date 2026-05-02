@@ -11,7 +11,7 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=d6GeLtPGAY8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781427079022",
-  "first_published": 1927,
+  "first_published": 1861,
   "pages": 462,
   "google_books_url": "http://books.google.com/books?id=d6GeLtPGAY8C&dq=intitle:Framley+Parsonage&hl=&source=gbs_api",
   "language": "eng",
@@ -86,5 +86,16 @@
     "Romans, nouvelles",
     "Social life and customs"
   ],
-  "ol_work_key": "/works/OL109880W"
+  "ol_work_key": "/works/OL109880W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 317,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34297958M"
 }

@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "In 'Room 13', Edgar Wallace presents a gripping narrative that seamlessly weaves elements of mystery and suspense through a series of intricate plot twists and richly drawn characters. The novel unfolds within the atmospheric confines of a secluded hotel, where strange occurrences and the enigmatic nature of a seemingly innocuous room drive the tension. Wallace employs a vivid literary style characterized by his sharp dialogue and detailed descriptions, which situate the reader firmly within the",
   "cover_url": "https://books.google.com/books/content?id=1jKjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2022,
+  "first_published": 1920,
   "pages": 218,
   "google_books_url": "https://play.google.com/store/books/details?id=1jKjEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -42,5 +42,16 @@
     "Fiction",
     "Fiction, mystery & detective, general"
   ],
-  "ol_work_key": "/works/OL1517919W"
+  "ol_work_key": "/works/OL1517919W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 171,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38460794M"
 }

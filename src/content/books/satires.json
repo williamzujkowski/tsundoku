@@ -1,7 +1,7 @@
 {
   "title": "Satires",
   "author": "Horace",
-  "category": "Classics",
+  "category": "Poetry",
   "priority": 2,
   "slug": "satires",
   "tags": [
@@ -50,5 +50,12 @@
     "Satire, latin",
     "Saturae 1."
   ],
-  "ol_work_key": "/works/OL16568834W"
+  "ol_work_key": "/works/OL16568834W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL25256520M"
 }

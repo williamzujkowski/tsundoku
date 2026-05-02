@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14398204-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14398204-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL380162W",
-  "first_published": 1908,
+  "first_published": 1875,
   "language": "eng",
   "description": "Plato (428 - 347 B.C.) is one of the founding fathers of Philosophy. His work, Symposium, is a philosophical dialog between notable men of Greek history. It is considered both a philosophical and literary classic.",
   "isbn": "9781647981235",
@@ -162,5 +162,18 @@
     "Translations into french",
     "Âme"
   ],
-  "ol_work_key": "/works/OL51815W"
+  "ol_work_key": "/works/OL51815W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 351,
+  "first_published_circa": false,
+  "original_language": "lat",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38895404M"
 }

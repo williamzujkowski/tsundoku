@@ -72,5 +72,16 @@
     "PR-9199.30000000.L367 S8 1912a",
     "PR-6023.00000000.E15 S8 1970",
     "E--0748.00000000"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781489539724",
+  "representative_edition_key": "/books/OL45912065M"
 }

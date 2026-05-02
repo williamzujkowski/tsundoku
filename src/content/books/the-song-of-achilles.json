@@ -66,5 +66,14 @@
     "Trojan War. fast (OCoLC)fst01157294",
     "nyt:trade-fiction-paperback=2020-08-30"
   ],
-  "ol_work_key": "/works/OL16509148W"
+  "ol_work_key": "/works/OL16509148W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 42,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32158395M"
 }

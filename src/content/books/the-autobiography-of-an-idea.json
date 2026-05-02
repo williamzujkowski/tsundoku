@@ -10,11 +10,11 @@
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=RlZ3MQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1258428288",
-  "first_published": 2012,
+  "first_published": 1926,
   "pages": 378,
   "google_books_url": "http://books.google.com/books?id=RlZ3MQEACAAJ&dq=intitle:The+Autobiography+of+an+Idea&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "927.2"
   ],
@@ -37,5 +37,15 @@
     "Modern Architecture",
     "Sullivan, louis h., 1856-1924"
   ],
-  "ol_work_key": "/works/OL4798578W"
+  "ol_work_key": "/works/OL4798578W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL16201888M"
 }

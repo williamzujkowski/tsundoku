@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "On the City of God Against the Pagans, often called The City of God, is a book of Christian philosophy written in Latin by Augustine of Hippo in the early 5th century AD. Augustine wrote the book to refute allegations that Christianity initiated the decline of Rome and is considered one of his seminal works, standing alongside the Confessions, the Enchiridion, On Christian Doctrine, and On the Trinity.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/City_of_God_Manuscript.jpg/330px-City_of_God_Manuscript.jpg",
   "pages": 644,
@@ -22,5 +22,16 @@
   "subject_facet": [
     "Apologetics",
     "Kingdom of God"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781547278985",
+  "representative_edition_key": "/books/OL32693073M"
 }

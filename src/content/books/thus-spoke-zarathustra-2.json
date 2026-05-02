@@ -9,7 +9,7 @@
     "r-philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL30880017W",
-  "first_published": 2021,
+  "first_published": 1883,
   "language": "eng",
   "description": "'Enigmatic, vatic, emphatic, passionate . . . Nietzsche's works together make a unique statement in the literature of European ideas' A. C. Grayling Nietzsche was one of the most revolutionary thinkers in Western philosophy, and Thus Spoke Zarathustra remains his most influential work. It describes how the ancient Persian prophet Zarathustra descends from his solitude in the mountains to tell the world that God is dead and that the Superman, the human embodiment of divinity, is his successor. Wi...",
   "cover_url": "https://books.google.com/books/content?id=a9VxKgui0mEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -21,7 +21,7 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=a9VxKgui0mEC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "193.220",
     "193.9",
@@ -109,5 +109,16 @@
     "Translations into English",
     "Zoroaster"
   ],
-  "ol_work_key": "/works/OL98130W"
+  "ol_work_key": "/works/OL98130W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781543052473",
+  "representative_edition_key": "/books/OL38657948M"
 }

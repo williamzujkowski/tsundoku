@@ -1,14 +1,14 @@
 {
   "title": "Science and Hypothesis",
   "author": "Henri Poincaré",
-  "category": "Science",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "science-and-hypothesis",
   "tags": [
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL39607270W",
-  "first_published": 2008,
+  "first_published": 1905,
   "language": "eng",
   "description": "Nontechnical essays on hypothesis in physical theory, concept of number, magnitude, force, intuition vs. logic, more. Chapters include \"On the Nature of Mathematical Reasoning,\" \"Mathematical Magnitude and Experiment,\" and \"The Calculus of Probabilities.\"",
   "cover_url": "https://books.google.com/books/content?id=qvHDAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -54,5 +54,16 @@
     "Sciences",
     "Thermodynamics"
   ],
-  "ol_work_key": "/works/OL708894W"
+  "ol_work_key": "/works/OL708894W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 61,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL38358416M"
 }

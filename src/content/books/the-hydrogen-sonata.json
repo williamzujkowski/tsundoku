@@ -1,7 +1,7 @@
 {
   "title": "The Hydrogen Sonata",
   "author": "Iain M. Banks",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-hydrogen-sonata",
   "tags": [
@@ -51,5 +51,14 @@
     "Subversive activities",
     "[series:IMB_The_Culture]"
   ],
-  "ol_work_key": "/works/OL17346835W"
+  "ol_work_key": "/works/OL17346835W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL25924197M"
 }

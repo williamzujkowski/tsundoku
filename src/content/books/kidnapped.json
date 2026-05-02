@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=6To-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1921,
+  "first_published": 1886,
   "pages": 372,
   "google_books_url": "https://play.google.com/store/books/details?id=6To-AAAAYAAJ&source=gbs_api",
   "language": "eng",
@@ -203,5 +203,16 @@
     "Victimes d'enlèvement",
     "Voyages and travels"
   ],
-  "ol_work_key": "/works/OL24166W"
+  "ol_work_key": "/works/OL24166W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 352,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL10464970M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Analects",
   "author": "Confucius",
-  "category": "Literature",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-analects",
   "tags": [
@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/10578522-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/10578522-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24164899W",
-  "first_published": 2012,
+  "first_published": 1909,
   "language": "eng",
   "description": "Discourses of the Chinese sage with his disciples, with biographical introduction. For other editions, see Author Catalog.",
   "pages": 282,
@@ -128,5 +128,16 @@
     "哲學",
     "孔子"
   ],
-  "ol_work_key": "/works/OL15335450W"
+  "ol_work_key": "/works/OL15335450W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 103,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL11299685M"
 }

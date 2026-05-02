@@ -1,7 +1,7 @@
 {
   "title": "The Empire of Gold",
   "author": "S. A. Chakraborty",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-empire-of-gold",
   "tags": [
@@ -32,5 +32,14 @@
     "Fiction, fantasy, epic",
     "Fiction, fantasy, historical"
   ],
-  "ol_work_key": "/works/OL20789805W"
+  "ol_work_key": "/works/OL20789805W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL29806198M"
 }

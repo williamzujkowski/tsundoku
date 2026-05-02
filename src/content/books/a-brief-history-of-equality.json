@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=PzhjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=PzhjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780674275881",
-  "first_published": 2022,
+  "first_published": 2021,
   "pages": 289,
   "subjects": [
     "Business & Economics"
@@ -45,5 +45,20 @@
     "political power",
     "resource distribution"
   ],
-  "ol_work_key": "/works/OL26347574W"
+  "ol_work_key": "/works/OL26347574W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Une brève histoire de l'égalité",
+  "representative_edition_key": "/books/OL35577450M",
+  "translator": "Steven Rendall"
 }

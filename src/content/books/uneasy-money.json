@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "Prepare for a delightful romp through the world of high society and hijinks with \"Uneasy Money\" by P. G. Wodehouse, a hilarious comedy of errors that will leave you in stitches and longing for more. Join protagonist Lord Dawlish as he navigates the pitfalls of love and finance in this uproarious tale of mistaken identities and madcap schemes. From chance encounters to whirlwind romances, Wodehouse's witty prose and clever dialogue keep readers entertained from start to finish. Themes of love, mo",
   "cover_url": "https://books.google.com/books/content?id=Er5SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2009,
+  "first_published": 1958,
   "pages": 198,
   "google_books_url": "https://play.google.com/store/books/details?id=Er5SDwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -74,5 +74,16 @@
     "Love stories",
     "New York (N.Y.) -- Fiction"
   ],
-  "ol_work_key": "/works/OL286572W"
+  "ol_work_key": "/works/OL286572W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 34,
+  "first_published_circa": false,
+  "first_edition_isbn": "0140012737",
+  "representative_edition_key": "/books/OL8920776M"
 }

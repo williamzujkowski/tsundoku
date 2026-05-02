@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "cover_url": "https://books.google.com/books/content?id=5QpuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 1929,
+  "first_published": 1927,
   "pages": 634,
   "google_books_url": "https://play.google.com/store/books/details?id=5QpuAAAAMAAJ&source=gbs_api",
   "language": "eng",
@@ -139,5 +139,16 @@
     "Statesmen, india",
     "Truth"
   ],
-  "ol_work_key": "/works/OL298031W"
+  "ol_work_key": "/works/OL298031W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 140,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL33828514M"
 }

@@ -88,5 +88,14 @@
     "nyt:hardcover_political_books=2011-10-29",
     "nyt:paperback-nonfiction=2012-08-12"
   ],
-  "ol_work_key": "/works/OL16084255W"
+  "ol_work_key": "/works/OL16084255W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 16,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL24980696M"
 }

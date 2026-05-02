@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "English poetry",
     "Poetry",
@@ -32,5 +32,13 @@
     "Poetry",
     "Poetry (poetic works by one author)"
   ],
-  "ol_work_key": "/works/OL17535967W"
+  "ol_work_key": "/works/OL17535967W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL26125640M"
 }

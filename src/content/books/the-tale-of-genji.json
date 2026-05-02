@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/313084-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/313084-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7910145W",
-  "first_published": 2000,
+  "first_published": 1925,
   "language": "eng",
   "description": "An abridged edition of the world’s first novel, in a translation that is “likely to be the definitive edition . . . for many years to come” (The Wall Street Journal) A Penguin Classic Written in the eleventh century, this exquisite portrait of courtly life in medieval Japan is widely celebrated as the world’s first novel—and is certainly one of its finest. Genji, the Shining Prince, is the son of an emperor. He is a passionate character whose tempestuous nature, family circumstances, love affair...",
   "isbn": "9781101097397",
@@ -165,5 +165,16 @@
     "Social life and customs",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL2564006W"
+  "ol_work_key": "/works/OL2564006W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 121,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL24246901M"
 }

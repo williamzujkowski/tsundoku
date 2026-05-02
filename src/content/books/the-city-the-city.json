@@ -1,7 +1,7 @@
 {
   "title": "The City & The City",
   "author": "China Miéville",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-city-the-city",
   "tags": [
@@ -65,5 +65,14 @@
     "award:world_fantasy_award=2010",
     "award:world_fantasy_award=novel"
   ],
-  "ol_work_key": "/works/OL19341943W"
+  "ol_work_key": "/works/OL19341943W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 24,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL24056143M"
 }

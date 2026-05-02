@@ -1,7 +1,7 @@
 {
   "title": "Binti",
   "author": "Nnedi Okorafor",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "binti",
   "tags": [
@@ -51,5 +51,16 @@
     "general",
     "science fiction"
   ],
-  "ol_work_key": "/works/OL19330487W"
+  "ol_work_key": "/works/OL19330487W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780765384461",
+  "representative_edition_key": "/books/OL29720729M"
 }

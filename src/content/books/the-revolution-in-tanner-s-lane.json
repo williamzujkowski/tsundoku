@@ -11,11 +11,11 @@
   "description": "Excerpt: \"The 20th April 1814, an almost cloudless, perfectly sunny day, saw all London astir. On that day Lewis the Eighteenth was to come from Hartwell in triumph, summoned by France to the throne of his ancestors. London had not enjoyed too much gaiety that year. It was the year of the great frost. Nothing like it had been known in the memory of man. In the West of England, where snow is rare, roads were impassable and mails could not be delivered. Four dead men were dug out of a deep drift a",
   "cover_url": "https://books.google.com/books/content?id=bl9dEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9783962724078",
-  "first_published": 2018,
+  "first_published": 1887,
   "pages": 329,
   "google_books_url": "https://play.google.com/store/books/details?id=bl9dEQAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Fiction"
   ],
@@ -43,5 +43,15 @@
     "Religious fiction",
     "Roman anglais"
   ],
-  "ol_work_key": "/works/OL1112745W"
+  "ol_work_key": "/works/OL1112745W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 49,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL50968149M"
 }

@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Four Non-Player Characters (NPCs) find themselves forced to pretend they're adventurers in order to save their town and loved ones.",
   "cover_url": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
@@ -24,5 +24,16 @@
     "American literature"
   ],
   "ol_work_key": "/works/OL19325353W",
-  "pages": 288
+  "pages": 288,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781499307719",
+  "representative_edition_key": "/books/OL26783766M"
 }

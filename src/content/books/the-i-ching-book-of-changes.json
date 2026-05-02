@@ -1,7 +1,7 @@
 {
   "title": "The I Ching (Book of Changes)",
   "author": "King Wen (attributed)",
-  "category": "Religion",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-i-ching-book-of-changes",
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Asian Philosophy",
     "Chinese Philosophy",
@@ -25,7 +25,7 @@
   "description": "The Tao Te Ching is an ancient Chinese text consisting of spiritual teachings, folk wisdom, political instruction, cosmology observations of nature, anti-Confucian doctrine, and mystical insights.",
   "cover_url": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "first_published": 1977,
+  "first_published": 1934,
   "pages": 666,
   "google_books_url": "http://books.google.com/books?id=WwoRAAAAYAAJ&dq=The+I+Ching+(Book+of+Changes)+King+Wen+(attributed)&hl=&source=gbs_api",
   "isbn": "9780060171544",
@@ -321,5 +321,15 @@
     "Tau-te-tjing (Lau-tse)",
     "Translations into Russian"
   ],
-  "ol_work_key": "/works/OL45499W"
+  "ol_work_key": "/works/OL45499W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL52559900M"
 }

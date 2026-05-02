@@ -8,7 +8,7 @@
     "fantasy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL30176517W",
-  "first_published": 2018,
+  "first_published": 1951,
   "language": "eng",
   "cover_url": "https://books.google.com/books/content?id=G1vhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=G1vhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
@@ -18,7 +18,7 @@
   ],
   "google_books_url": "http://books.google.com/books?id=G1vhAAAAMAAJ&dq=Prince+Caspian+C.S.+Lewis&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "description": "Prince Caspian is a high fantasy novel written by British author C. S. Lewis and published by Geoffrey Bles in 1951. It was the second published of seven novels in The Chronicles of Narnia (1950–1956), and Lewis had finished writing it in 1949, before the first book was out. It is volume four in recent editions of the series, sequenced according to the internal chronology of the books. Like the others, it was illustrated by Pauline Baynes and her work has been retained in many later editions.",
   "isbn": "9782070619702",
   "ddc": [
@@ -103,5 +103,15 @@
     "Sprookjesfiguren",
     "Traducciones al español"
   ],
-  "ol_work_key": "/works/OL71069W"
+  "ol_work_key": "/works/OL71069W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 145,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32118095M"
 }

@@ -12,7 +12,7 @@
   "description": "The Lane Fleming collection of early pistols and revolvers was one of the best in the country. When Fleming was found dead on the floor of his locked gunroom, a Confederate-made Colt-type percussion .36 revolver in his hand, the coroner's verdict was \"death by accident.\" But Gladys Fleming had her doubts. Enough at any rate to engage Colonel Jefferson Davis Rand--better known just as Jeff--private detective and a pistol-collector himself, to catalogue, appraise, and negotiate the sale of her lat",
   "cover_url": "https://books.google.com/books/content?id=sXOAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9782322443604",
-  "first_published": 2022,
+  "first_published": 2006,
   "pages": 157,
   "google_books_url": "http://books.google.com/books?id=sXOAEAAAQBAJ&dq=intitle:Murder+in+the+Gunroom&hl=&source=gbs_api",
   "language": "eng",
@@ -50,5 +50,14 @@
     "Private investigators -- Fiction",
     "Private investigators, fiction"
   ],
-  "ol_work_key": "/works/OL579076W"
+  "ol_work_key": "/works/OL579076W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 64,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34304305M"
 }

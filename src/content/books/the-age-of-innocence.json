@@ -11,7 +11,7 @@
   "description": "Edith Wharton’s acclaimed novel of love, duty, and half-known truths in Gilded Age New York society, with a foreword by bestselling author Elif Batuman Dutiful Newland Archer, an eligible young man from New York high society, is about to announce his engagement to May Welland, a suitable match from a good family, when May’s cousin, the beautiful and exotic Countess Ellen Olenska, is introduced into their circle. The Countess brings with her an aura of European sophistication and a hint of percei",
   "cover_url": "https://books.google.com/books/content?id=djGgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780140189704",
-  "first_published": 1996,
+  "first_published": 1920,
   "pages": 370,
   "google_books_url": "http://books.google.com/books?id=djGgDwAAQBAJ&dq=intitle:The+Age+of+Innocence&hl=&source=gbs_api",
   "language": "eng",
@@ -178,5 +178,16 @@
     "welland",
     "young man"
   ],
-  "ol_work_key": "/works/OL98491W"
+  "ol_work_key": "/works/OL98491W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 301,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL52553194M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "The Restaurant at the End of the Universe",
   "author": "Douglas Adams",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-restaurant-at-the-end-of-the-universe",
   "tags": [
@@ -10,7 +10,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "Dent, arthur (fictitious character), fiction",
     "Fiction",
@@ -66,5 +66,14 @@
     "humorous stories"
   ],
   "first_published": 1980,
-  "ol_work_key": "/works/OL2163655W"
+  "ol_work_key": "/works/OL2163655W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 92,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL21237978M"
 }

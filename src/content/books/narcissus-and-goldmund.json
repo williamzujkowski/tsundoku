@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/8529776-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/8529776-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19581300W",
-  "first_published": 1971,
+  "first_published": 1930,
   "language": "eng",
   "description": "This is the story of a passionate yet uneasy friendship between two men of opposite character who set each other on different paths in life.",
   "isbn": "0312421672",
@@ -29,7 +29,7 @@
     "Fiction, general",
     "Continental european fiction (fictional works by one author)"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "833.912",
     "833.9"
@@ -77,5 +77,19 @@
     "Translations into English",
     "Vollkommenheit"
   ],
-  "ol_work_key": "/works/OL873100W"
+  "ol_work_key": "/works/OL873100W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 41,
+  "first_published_circa": false,
+  "original_language": "ger",
+  "original_title": "Narziss und Goldmund",
+  "representative_edition_key": "/books/OL9816734M"
 }

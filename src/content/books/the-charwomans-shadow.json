@@ -1,7 +1,7 @@
 {
   "title": "The Charwoman's Shadow",
   "author": "Lord Dunsany",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "the-charwomans-shadow",
   "tags": [
@@ -33,5 +33,16 @@
   "subject_facet": [
     "Fiction, fantasy, epic"
   ],
-  "ol_work_key": "/works/OL83864W"
+  "ol_work_key": "/works/OL83864W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 12,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9826086M"
 }

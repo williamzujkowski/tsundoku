@@ -12,7 +12,7 @@
   "description": "'She liked lies...To lie readily and cleverly, recklessly and yet successfully, was, according to the lessons which she had learned, a necessity in a woman' Lizzie Eustace is young, beautiful, and widowed. Her determination to hold on to the Eustace family's diamond necklace in the face of legal harassment by her brother-in-law's solicitor entangles her in a series of crimes - apparent and real - and contrived love-affairs. Her cousin Frank, Tory MP and struggling barrister, loyally assists her,",
   "cover_url": "https://books.google.com/books/content?id=cTntq2avq3gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780191620416",
-  "first_published": 2011,
+  "first_published": 1872,
   "pages": 1431,
   "google_books_url": "https://play.google.com/store/books/details?id=cTntq2avq3gC&source=gbs_api",
   "language": "eng",
@@ -89,5 +89,16 @@
     "Socialites",
     "Socialites -- Fiction"
   ],
-  "ol_work_key": "/works/OL109873W"
+  "ol_work_key": "/works/OL109873W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 102,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL56756607M"
 }

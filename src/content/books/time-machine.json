@@ -6,7 +6,7 @@
   "slug": "time-machine",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL38153300W",
-  "first_published": 2019,
+  "first_published": 1963,
   "language": "eng",
   "description": "'So, in the end, above ground you must have the Haves, pursuing pleasure and comfort and beauty, and below ground the Have-nots, the Workers...' At a Victorian dinner party, in Richmond, London, the Time Traveller returns to tell his extraordinary tale of mankind's future in the year 802,701 AD. It is a dystopian vision of Darwinian evolution, with humans split into an above-ground species of Eloi, and their troglodyte brothers. The first book H. G. Wells published, The Time Machine is a scienti...",
   "cover_url": "https://books.google.com/books/content?id=IMHXDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -180,5 +180,16 @@
     "Wells, h. g. (herbert george), 1866-1946",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL52267W"
+  "ol_work_key": "/works/OL52267W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL29464322M"
 }

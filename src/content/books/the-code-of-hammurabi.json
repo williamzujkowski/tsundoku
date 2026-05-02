@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "description": "The Code of Hammurabi is a Babylonian legal text composed during 1755–1751 BC. It is the longest, best-organized, and best-preserved legal text from the ancient Near East. It is written in the Old Babylonian dialect of Akkadian, purportedly by Hammurabi, sixth king of the First Dynasty of Babylon. The primary copy of the text is inscribed on a basalt stele 2.25 m tall.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
   "subjects": [
@@ -16,5 +16,16 @@
   "pages": 80,
   "isbn": "9781093957815",
   "first_published": 1790,
-  "ol_work_key": "/works/OL24497948W"
+  "ol_work_key": "/works/OL24497948W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 36,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781546455639",
+  "representative_edition_key": "/books/OL41178245M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Marina Tsvetaeva",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "selected-poems-17",
   "tags": [
@@ -34,5 +34,16 @@
     "Poetry (poetic works by one author)",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL857895W"
+  "ol_work_key": "/works/OL857895W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "019211803X",
+  "representative_edition_key": "/books/OL2413213M"
 }

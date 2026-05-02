@@ -11,7 +11,7 @@
   "reading_status": "read",
   "description": "A thrilling epic of a sea voyage and a complex novel of ideas, The Sea-Wolf is a standard-bearer of its genre. It is the vivid story of a gentleman scholar, Humphrey Van Weyden, who is rescued by a seal-hunting schooner after a ferryboat accident in San Francisco Bay. London uses Van Weyden's ordeal at the hands of a schooner's devious crew to explore powerful themes of ambition, courage, and the innate will to survive. The Sea-Wolf also introduces Jack London's most memorable, fully realized ch",
   "isbn": "0451515528",
-  "first_published": 1964,
+  "first_published": 1904,
   "google_books_url": "http://books.google.com/books?id=sGmt0AEACAAJ&dq=intitle:The+Sea-Wolf&hl=&source=gbs_api",
   "language": "eng",
   "cover_url": "https://covers.openlibrary.org/b/id/8236975-M.jpg",
@@ -133,5 +133,16 @@
     "Translations into Spanish",
     "Художественная литература -- США -- Американская литература -- нач. 20 в. -- Романы. Повести"
   ],
-  "ol_work_key": "/works/OL144824W"
+  "ol_work_key": "/works/OL144824W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 283,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL10274208M"
 }

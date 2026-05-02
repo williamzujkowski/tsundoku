@@ -12,7 +12,7 @@
   "description": "Brewster's Millions was originally published in 1902, and has been adapted into numerous plays and movies including the Richard Pryor film from the 1980s. In the novel, also a comedy, Montgomery Brewster inherits a million dollars from his grandfather, but shortly after that, his eccentric uncle passes away. The uncle hated the grandfather, so in his will he stipulates that Montgomery will inherit seven million dollars only if he can spend the million he already inherited within a year. Money we",
   "cover_url": "https://books.google.com/books/content?id=a5HGngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1494764784",
-  "first_published": 2013,
+  "first_published": 1902,
   "pages": 196,
   "google_books_url": "http://books.google.com/books?id=a5HGngEACAAJ&dq=intitle:Brewster%27s+Millions&hl=&source=gbs_api",
   "language": "eng",
@@ -64,5 +64,16 @@
     "Young men",
     "Young men in fiction"
   ],
-  "ol_work_key": "/works/OL24259W"
+  "ol_work_key": "/works/OL24259W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 120,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL30052834M"
 }

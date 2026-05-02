@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14650260-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14650260-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1599697W",
-  "first_published": 1993,
+  "first_published": 1989,
   "language": "eng",
   "description": "The first book of the Cairo Trilogy recreates turn-of-the-century Cairo, with characters who are simultaneously disciplined and sensual",
   "isbn": "9780385264662",
@@ -69,5 +69,18 @@
     "nationalism",
     "parables"
   ],
-  "ol_work_key": "/works/OL1599742W"
+  "ol_work_key": "/works/OL1599742W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 37,
+  "first_published_circa": false,
+  "original_language": "spa",
+  "original_title": "Entre dos palacios",
+  "representative_edition_key": "/books/OL7438439M"
 }

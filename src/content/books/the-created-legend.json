@@ -23,5 +23,12 @@
   "lcc": [
     "PZ-0003.00000000.T292 Cr"
   ],
-  "ol_work_key": "/works/OL44336850W"
+  "ol_work_key": "/works/OL44336850W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL60585596M"
 }

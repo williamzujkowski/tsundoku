@@ -1,7 +1,7 @@
 {
   "title": "Slaughterhouse-Five",
   "author": "Kurt Vonnegut",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "slaughterhouse-five",
   "tags": [
@@ -109,5 +109,16 @@
     "war",
     "war stories"
   ],
-  "ol_work_key": "/works/OL98459W"
+  "ol_work_key": "/works/OL98459W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 131,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7439293M"
 }

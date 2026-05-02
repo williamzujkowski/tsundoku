@@ -13,11 +13,11 @@
   "reading_status": "read",
   "description": "Set a mere three months after The Laughing Cavalier, the titular first Sir Percy is set to wed his love Gilda in a double wedding with her brother and his intended. The attendees include many of the rich and famous, including the Stadtholder himself. But immediately after the ceremony, bad news arrives, and Percy, A.K.A. Diogenes, is tasked with rushing to get messages to two of the Stadtholder’s divisions that are in peril from the enemy. But there are unknown enemies about as well as known one",
   "cover_url": "https://books.google.com/books/content?id=0hoZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2021,
+  "first_published": 1913,
   "pages": 323,
   "google_books_url": "https://play.google.com/store/books/details?id=0hoZEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "subjects": [
     "Classic Literature",
     "Adventure and adventurers",
@@ -103,5 +103,19 @@
     "Sir Blakeney, Percy (Fictitious character)",
     "Text-books for foreigners"
   ],
-  "ol_work_key": "/works/OL1253285W"
+  "ol_work_key": "/works/OL1253285W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Le mouron rouge 1792",
+  "representative_edition_key": "/books/OL38461599M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Rumi",
-  "category": "Poetry",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "selected-poems-10",
   "tags": [
@@ -43,5 +43,12 @@
   "lcc": [
     "PK-6480.00000000.E5 N5 2001",
     "PK-6480.00000000.E5N5 2001"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL38355813M"
 }

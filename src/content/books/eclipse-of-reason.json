@@ -8,7 +8,7 @@
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL39850855W",
-  "first_published": 2008,
+  "first_published": 1947,
   "language": "eng",
   "description": "In his most important work, Max Horkheimer surveys and demonstrates the gradual ascendancy of Reason in Western philosophy, its eventual total application to all spheres of life, and what he considers its present reified domination. First published in 1947, Horkheimer here explores the ways in Nazism - that most irrational of political movements - had co-opted ideas of rationality for its own ends. Ultimately, the book is a warning of the ways this might happen again and, as such, this is a book...",
   "cover_url": "https://books.google.com/books/content?id=G4kHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -20,7 +20,7 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=G4kHEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "193",
     "149.7"
@@ -47,5 +47,15 @@
     "Reason",
     "Sociology, philosophy"
   ],
-  "ol_work_key": "/works/OL1267977W"
+  "ol_work_key": "/works/OL1267977W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 24,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL31128186M"
 }

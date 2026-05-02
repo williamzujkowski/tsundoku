@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Czesław Miłosz",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "selected-poems-14",
   "tags": [
@@ -41,5 +41,16 @@
     "Polish poetry",
     "Translations into English"
   ],
-  "ol_work_key": "/works/OL136060W"
+  "ol_work_key": "/works/OL136060W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "first_edition_isbn": "0816491666",
+  "representative_edition_key": "/books/OL8132592M"
 }

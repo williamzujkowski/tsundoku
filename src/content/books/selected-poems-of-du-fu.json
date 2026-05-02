@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems of Du Fu",
   "author": "Du Fu",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 1,
   "slug": "selected-poems-of-du-fu",
   "tags": [
@@ -10,7 +10,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "subjects": [
     "Biography",
     "Chinese Poets",
@@ -27,7 +27,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/7929634-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/7929634-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL309328W",
-  "first_published": 1985,
+  "first_published": 1929,
   "pages": 265,
   "isbn": "9787119028897",
   "ddc": [
@@ -87,5 +87,15 @@
     "Translations into Indonesian",
     "Translations into Japanese"
   ],
-  "ol_work_key": "/works/OL309288W"
+  "ol_work_key": "/works/OL309288W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 45,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9067609M"
 }

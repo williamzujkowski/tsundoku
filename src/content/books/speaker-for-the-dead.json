@@ -12,7 +12,7 @@
   "description": "Ender Wiggin, the young military genius, discovers that a second alien war is inevitable and he must dismiss his fears to make peace with humanity's strange new brothers.",
   "cover_url": "https://books.google.com/books/content?id=5q6IPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1417648457",
-  "first_published": 1992,
+  "first_published": 1987,
   "pages": 280,
   "google_books_url": "http://books.google.com/books?id=5q6IPwAACAAJ&dq=intitle:Speaker+for+the+Dead&hl=&source=gbs_api",
   "language": "eng",
@@ -79,5 +79,14 @@
     "award:nebula_award=novel",
     "nyt:mass-market-paperback=2013-11-24"
   ],
-  "ol_work_key": "/works/OL49580W"
+  "ol_work_key": "/works/OL49580W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 39,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33413363M"
 }

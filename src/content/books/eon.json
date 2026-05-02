@@ -1,7 +1,7 @@
 {
   "title": "Eon",
   "author": "Greg Bear",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "eon",
   "tags": [
@@ -58,5 +58,14 @@
     "Science fiction",
     "Unidentified flying objects"
   ],
-  "ol_work_key": "/works/OL16518W"
+  "ol_work_key": "/works/OL16518W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 43,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL9769879M"
 }

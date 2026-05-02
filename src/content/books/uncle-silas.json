@@ -13,7 +13,7 @@
   "description": "'The old woman opened the door, and the next moment I was in the presence of Uncle Silas.' In Victorian Derbyshire, 17 year old orphan and heiress Maud Ruthyn is sent to live at the claustrophobic Bartram-Haugh house with her mysterious Uncle Silas. Silas has a reputation for gambling debts and past accusations of murder, but now lives as a reformed Christian. Sinister schemes and preternatural events unfold as Silas, his son, and a malevolent governess plot against Maud and her fortune. Uncle S",
   "cover_url": "https://books.google.com/books/content?id=AbOiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780192609960",
-  "first_published": 2022,
+  "first_published": 1864,
   "pages": 555,
   "google_books_url": "https://play.google.com/store/books/details?id=AbOiEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "Uncles",
     "Uncles -- Fiction"
   ],
-  "ol_work_key": "/works/OL2895543W"
+  "ol_work_key": "/works/OL2895543W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 214,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34294774M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Social Contract",
   "author": "Jean-Jacques Rousseau",
-  "category": "Political Theory",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "social-contract",
   "tags": [
@@ -13,7 +13,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/2292601-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2292601-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL80731W",
-  "first_published": 1913,
+  "first_published": 1762,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -162,5 +162,16 @@
     "The State",
     "USA United States of America"
   ],
-  "ol_work_key": "/works/OL80609W"
+  "ol_work_key": "/works/OL80609W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 216,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL35632342M"
 }

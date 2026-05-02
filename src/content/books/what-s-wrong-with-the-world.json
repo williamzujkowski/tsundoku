@@ -1,7 +1,7 @@
 {
   "title": "What's Wrong with the World",
   "author": "G. K. Chesterton",
-  "category": "Literature",
+  "category": "Philosophy",
   "priority": 2,
   "slug": "what-s-wrong-with-the-world",
   "tags": [
@@ -13,7 +13,7 @@
   "description": "In What's Wrong with the World, the brilliant G. K. Chesterton takes a hard look at what's wrong with England in 1910, and his insights are just as true for America in 2007. He rails against both capitalism and socialism, for both are equally dehumanizing. Politicians, thinkers, and civic leaders on both ends of the spectrum flail away at social problems by attacking symptoms--poverty, homelessness, and so on--but make the symptoms worse because they never see the underlying problem. What is the",
   "cover_url": "https://books.google.com/books/content?id=kUOcPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1600968791",
-  "first_published": 2008,
+  "first_published": 1910,
   "google_books_url": "http://books.google.com/books?id=kUOcPwAACAAJ&dq=intitle:What%27s+Wrong+with+the+World&hl=&source=gbs_api",
   "language": "eng",
   "copyright_status": "public_domain",
@@ -65,5 +65,16 @@
     "Suffrage",
     "Women"
   ],
-  "ol_work_key": "/works/OL76479W"
+  "ol_work_key": "/works/OL76479W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 213,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9647059M"
 }

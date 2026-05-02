@@ -10,7 +10,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "Cold War",
     "Fiction",
@@ -62,5 +62,14 @@
     "Undercover operations"
   ],
   "first_published": 1974,
-  "ol_work_key": "/works/OL15723131W"
+  "ol_work_key": "/works/OL15723131W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 23,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL10677122M"
 }

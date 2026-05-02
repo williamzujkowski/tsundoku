@@ -56,5 +56,14 @@
     "Shakespeare, william, 1564-1616, king henry v",
     "Stage history"
   ],
-  "ol_work_key": "/works/OL8199748W"
+  "ol_work_key": "/works/OL8199748W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 94,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL46204618M"
 }

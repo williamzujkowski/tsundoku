@@ -1,7 +1,7 @@
 {
   "title": "Wet Magic",
   "author": "Edith Nesbit",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "wet-magic",
   "tags": [
@@ -14,7 +14,7 @@
   "description": "When four siblings journey to the seashore for a holiday, one of them unwittingly summons the sister of a mermaid who is captured by a circus, and the children set out to save the imprisoned being. After a daring midnight rescue, the children's reward is an incredible journey beneath the waves and into the hidden kingdom of the mermaids. But they soon find themselves in a race against time as they struggle to prevent a war and save their new underwater companions Here is a triumphant tale by one",
   "cover_url": "https://books.google.com/books/content?id=HPmZDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781627937368",
-  "first_published": 2013,
+  "first_published": 1958,
   "pages": 180,
   "google_books_url": "https://play.google.com/store/books/details?id=HPmZDAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -53,5 +53,16 @@
     "Magic, fiction",
     "Mermaids, fiction"
   ],
-  "ol_work_key": "/works/OL99513W"
+  "ol_work_key": "/works/OL99513W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 166,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36787931M"
 }

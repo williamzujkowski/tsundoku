@@ -1,7 +1,7 @@
 {
   "title": "The Drowned World",
   "author": "J.G. Ballard",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-drowned-world",
   "tags": [
@@ -51,5 +51,14 @@
     "Natural disasters",
     "Science Fiction"
   ],
-  "ol_work_key": "/works/OL2745976W"
+  "ol_work_key": "/works/OL2745976W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 22,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL9002772M"
 }

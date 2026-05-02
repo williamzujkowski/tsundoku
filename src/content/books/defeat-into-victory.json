@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "open_library_url": "https://openlibrary.org/works/OL44573337W",
   "first_published": 2000,
   "description": "Field Marshal William Slim stands alongside Montgomery as the outstanding British field commander of World War II. Defeat Into Victory is his classic account of the Burma campaign: a story of retreat, attrition and final hard-fought victory over the Japanese. Told by a commander always at the centre of events, this is a narrative which captures both the high drama and the harsh reality of war.",
@@ -22,5 +22,16 @@
   "lcc": [
     "D--0767.60000000.S556 2000"
   ],
-  "ol_work_key": "/works/OL44573337W"
+  "ol_work_key": "/works/OL44573337W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781461660934",
+  "representative_edition_key": "/books/OL60877484M"
 }

@@ -12,7 +12,7 @@
   "description": "It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years. With the \"You Don’t Know JS\" book series, you’ll get a more complete understanding of JavaScript, including trickier parts of the language that many experienced JavaScript programmers simply avoid. The series’ first book, Up & Going, provides the necessary background for those of you with limited programming experience. By learning the ",
   "cover_url": "https://books.google.com/books/content?id=uSWABwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781491924426",
-  "first_published": 2015,
+  "first_published": 2014,
   "pages": 94,
   "google_books_url": "http://books.google.com/books?id=uSWABwAAQBAJ&dq=intitle:You+Don%27t+Know+JS:+Up+%26+Going&hl=&source=gbs_api",
   "language": "eng",
@@ -28,5 +28,14 @@
     "Java (Computer program language)",
     "JavaScript (Computer program language)"
   ],
-  "ol_work_key": "/works/OL17825963W"
+  "ol_work_key": "/works/OL17825963W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 13,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL36796179M"
 }

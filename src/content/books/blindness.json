@@ -6,7 +6,7 @@
   "slug": "blindness",
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL16212507W",
-  "first_published": 1999,
+  "first_published": 1995,
   "language": "eng",
   "description": "A chilling novel of a mysterious epidemic and a society's disintegration. What is it that makes man a social animal and where is the thin line between civilization and barbarity?",
   "cover_url": "https://books.google.com/books/content?id=tm7KGh9_QxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -57,5 +57,22 @@
     "Survival",
     "Violence"
   ],
-  "ol_work_key": "/works/OL27420W"
+  "ol_work_key": "/works/OL27420W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1",
+    "translator": "ol_firstedition_v1"
+  },
+  "editions_count": 40,
+  "first_published_circa": false,
+  "original_language": "por",
+  "original_title": "Ensaio Sobre a Cegueira",
+  "first_edition_isbn": "9788571644953",
+  "representative_edition_key": "/books/OL352517M",
+  "translator": "Giovanni Pontiero"
 }

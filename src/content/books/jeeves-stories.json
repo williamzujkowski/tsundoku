@@ -47,5 +47,12 @@
     "Single men",
     "Valets"
   ],
-  "ol_work_key": "/works/OL1336868W"
+  "ol_work_key": "/works/OL1336868W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL3691903M"
 }

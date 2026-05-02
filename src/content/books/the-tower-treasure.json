@@ -15,7 +15,7 @@
   "description": "Frank and Joe Hardy were driving along on their motorcycles one pleasant afternoon when a roadster driven by an apparent madman almost ran them down. The event happened so fast that all the boys noticed was the drivers' bright red hair. Later, that same red-haired driver attempted to rob a ferry boat office, and successfully made off with a yellow roadster called Queen from the Hardys' friend, Chet Morton. Since one witness reported that the villain had dark hair, the Hardy Boys assume The man w",
   "cover_url": "https://books.google.com/books/content?id=-IicEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781515458845",
-  "first_published": 2023,
+  "first_published": 1927,
   "pages": 152,
   "google_books_url": "https://play.google.com/store/books/details?id=-IicEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "series:HardyBoys",
     "siblings"
   ],
-  "ol_work_key": "/works/OL47915W"
+  "ol_work_key": "/works/OL47915W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 45,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL53390957M"
 }

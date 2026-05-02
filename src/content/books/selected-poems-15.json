@@ -1,7 +1,7 @@
 {
   "title": "Selected Poems",
   "author": "Gwendolyn Brooks",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "selected-poems-15",
   "tags": [
@@ -55,5 +55,16 @@
     "Pulitzer Prizes",
     "Women authors"
   ],
-  "ol_work_key": "/works/OL2008346W"
+  "ol_work_key": "/works/OL2008346W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 13,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL46985130M"
 }

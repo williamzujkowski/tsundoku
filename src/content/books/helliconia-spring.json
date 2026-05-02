@@ -1,7 +1,7 @@
 {
   "title": "Helliconia Spring",
   "author": "Brian Aldiss",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "helliconia-spring",
   "tags": [
@@ -41,5 +41,12 @@
     "PR-6051.00000000.L3",
     "PR-6051.00000000.L3 H4 1988",
     "PR-6051.00000000.L3 H4 1992"
-  ]
+  ],
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL29693894M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Matter",
   "author": "Iain M. Banks",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "matter",
   "tags": [
@@ -49,5 +49,14 @@
     "Science Fiction & Fantasy",
     "Space colonies"
   ],
-  "ol_work_key": "/works/OL100768W"
+  "ol_work_key": "/works/OL100768W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 13,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL24274905M"
 }

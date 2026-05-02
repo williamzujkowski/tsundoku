@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "Dick Martin is leaving Scotland Yard. His final job, investigating a stolen book, takes him to Gallows Cottage. Arriving home, Martin finds Lew Pheeney being followed by a man for whom he worked. 'Doing what?' demands Martin. Lew confesses. 'I was trying to open a dead man's tomb!' The telephone rings.",
   "cover_url": "https://books.google.com/books/content?id=K0odAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2011,
+  "first_published": 1926,
   "pages": 1062,
   "google_books_url": "https://play.google.com/store/books/details?id=K0odAwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -41,5 +41,16 @@
     "Fiction",
     "Fiction, mystery & detective, general"
   ],
-  "ol_work_key": "/works/OL1517869W"
+  "ol_work_key": "/works/OL1517869W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 119,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL37651945M"
 }

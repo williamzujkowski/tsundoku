@@ -48,5 +48,14 @@
     "Large type books",
     "Ojibwa Indians"
   ],
-  "ol_work_key": "/works/OL479024W"
+  "ol_work_key": "/works/OL479024W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 22,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL7285922M"
 }

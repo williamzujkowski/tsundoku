@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "After the fall of the Roman empire in the West, an interval of fifty years, till the memorable reign of Justinian, is faintly marked by the obscure names and imperfect annals of Zeno, Anastasius, and Justin, who successively ascended to the throne of Constantinople.",
   "open_library_url": "https://openlibrary.org/works/OL10327067W",
   "cover_url": "https://books.google.com/books/content?id=FoljDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -28,5 +28,12 @@
   "subject_facet": [
     "History"
   ],
-  "ol_work_key": "/works/OL43766083W"
+  "ol_work_key": "/works/OL43766083W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "representative_edition_key": "/books/OL59659589M"
 }

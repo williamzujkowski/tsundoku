@@ -13,7 +13,7 @@
   "description": "A complicated tale of murder, hidden identities, and buried secrets in London's fashionable neighborhood of Bayswater. Bayswater is a quiet neighborhood whose residents are successful lawyers or medical men, people of independent means, or wealthy colonials returned to their homeland. It is hardly the place to expect a brutal murder and robbery, yet that is exactly what Richard Viner finds himself caught up in when he discovers the body of a neighbor on his nightly stroll, after having spent an ",
   "cover_url": "https://books.google.com/books/content?id=MR-DAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781448213214",
-  "first_published": 2013,
+  "first_published": 1922,
   "pages": 262,
   "google_books_url": "https://play.google.com/store/books/details?id=MR-DAAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -42,5 +42,16 @@
     "Fiction, mystery & detective, general",
     "Women's literature"
   ],
-  "ol_work_key": "/works/OL242678W"
+  "ol_work_key": "/works/OL242678W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 261,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL36720793M"
 }

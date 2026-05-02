@@ -11,7 +11,7 @@
   "description": "Published in 1919, Winesburg, Ohio is Sherwood Anderson’s masterpiece, a work in which he achieved the goal to which he believed all true writers should aspire: to see and feel “all of life within.” In a perfectly imagined world, an archetypal small American town, he reveals the hidden passions that turn ordinary lives into unforgettable ones. Unified by the recurring presence of young George Willard, and played out against the backdrop of Winesburg, Anderson’s loosely connected chapters, or sto",
   "cover_url": "https://books.google.com/books/content?id=HFn21WxIuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781101191958",
-  "first_published": 1992,
+  "first_published": 1919,
   "pages": 257,
   "google_books_url": "https://play.google.com/store/books/details?id=HFn21WxIuLwC&source=gbs_api",
   "language": "eng",
@@ -107,5 +107,16 @@
     "Vie urbaine",
     "Winesburg, Ohio (Anderson, Sherwood)"
   ],
-  "ol_work_key": "/works/OL15212580W"
+  "ol_work_key": "/works/OL15212580W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 58,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22653582M"
 }

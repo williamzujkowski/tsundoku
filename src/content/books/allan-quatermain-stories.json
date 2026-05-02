@@ -13,7 +13,7 @@
   "description": "Allan Quatermain is the protagonist of the novel King Solomon's Mines and its sequels and prequels. Quatermain is an English-born professional big game hunter and occasional trader in southern Africa. He is famous for his unparalleled marksmanship.",
   "cover_url": "https://books.google.com/books/content?id=zMvAyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1692716018",
-  "first_published": 2019,
+  "first_published": 1887,
   "pages": 166,
   "google_books_url": "http://books.google.com/books?id=zMvAyQEACAAJ&dq=intitle:Allan+Quatermain+Stories&hl=&source=gbs_api",
   "language": "eng",
@@ -32,7 +32,7 @@
     "Literature",
     "Africa"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "public_domain",
   "ddc": [
     "823.8"
   ],
@@ -79,5 +79,15 @@
     "Swahili language",
     "allan"
   ],
-  "ol_work_key": "/works/OL17465W"
+  "ol_work_key": "/works/OL17465W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL34294600M"
 }

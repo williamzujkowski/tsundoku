@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "Another Fine Myth is a 1978 fantasy novel by American writer Robert Asprin, the first book in the Myth Adventures series.",
   "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Another_Fine_Myth.jpg/250px-Another_Fine_Myth.jpg",
   "isbn": "9780898653830",
@@ -31,5 +31,16 @@
   ],
   "ol_work_key": "/works/OL2485613W",
   "first_published": 1978,
-  "pages": 200
+  "pages": 200,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 10,
+  "first_published_circa": false,
+  "first_edition_isbn": "091544254X",
+  "representative_edition_key": "/books/OL7524295M"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Leviathan",
   "author": "Thomas Hobbes",
-  "category": "Political Theory",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "leviathan-2",
   "tags": [
@@ -116,5 +116,16 @@
     "open_syllabus_project",
     "État"
   ],
-  "ol_work_key": "/works/OL653987W"
+  "ol_work_key": "/works/OL653987W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 99,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL8014167M"
 }

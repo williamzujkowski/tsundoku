@@ -1,7 +1,7 @@
 {
   "title": "The Well Wrought Urn",
   "author": "Cleanth Brooks",
-  "category": "Literature",
+  "category": "Poetry",
   "priority": 2,
   "slug": "the-well-wrought-urn",
   "tags": [
@@ -43,5 +43,16 @@
     "Poetics",
     "Poetry"
   ],
-  "ol_work_key": "/works/OL1939473W"
+  "ol_work_key": "/works/OL1939473W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 15,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22840651M"
 }

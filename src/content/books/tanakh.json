@@ -8,7 +8,7 @@
   "description": "The Jewish Bible, Old Testamen translated according to the traditional Hebrew text.",
   "cover_url": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "first_published": 1985,
+  "first_published": 1961,
   "pages": 1766,
   "subjects": [
     "Bible"
@@ -16,7 +16,7 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=l9QkAQAAIAAJ&dq=Tanakh+The+Hebrew+Bible&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "isbn": "9781433600340",
   "ddc": [
     "220.561",
@@ -1687,5 +1687,15 @@
     "Étude et enseignement",
     "Übersetzung"
   ],
-  "ol_work_key": "/works/OL17732W"
+  "ol_work_key": "/works/OL17732W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL57548526M"
 }

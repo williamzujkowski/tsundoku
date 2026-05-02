@@ -1,7 +1,7 @@
 {
   "title": "The Fountains of Paradise",
   "author": "Arthur C. Clarke",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 1,
   "slug": "the-fountains-of-paradise",
   "tags": [
@@ -61,5 +61,14 @@
     "award:hugo_award=novel",
     "award:nebula_award=novel"
   ],
-  "ol_work_key": "/works/OL17403W"
+  "ol_work_key": "/works/OL17403W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 35,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL4726308M"
 }

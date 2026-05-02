@@ -1,7 +1,7 @@
 {
   "title": "The Subjection of Women",
   "author": "John Stuart Mill",
-  "category": "Political Theory",
+  "category": "Philosophy",
   "priority": 1,
   "slug": "the-subjection-of-women",
   "tags": [
@@ -12,7 +12,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/2992627-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/2992627-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1068105W",
-  "first_published": 1869,
+  "first_published": 1859,
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "public_domain",
@@ -125,5 +125,16 @@
     "Women's rights",
     "Yiddish poetry"
   ],
-  "ol_work_key": "/works/OL1068091W"
+  "ol_work_key": "/works/OL1068091W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34234024M"
 }

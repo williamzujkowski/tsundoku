@@ -12,7 +12,7 @@
   "description": "\"This book is a slice of intensified history—history as I saw it.” So begins John Reed’s first-hand account of the Bolshevik Revolution of 1917. Much anticipated when it was published in 1919, Reed’s narrative remains as riveting today as when the events he describes were still reverberating throughout the world. Reed was hardly a disinterested observer, and his involvement in the Communist labor movement lends urgency and passion to his classic account. He vividly describes events in Petrograd ",
   "cover_url": "https://books.google.com/books/content?id=32SCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781510716797",
-  "first_published": 2017,
+  "first_published": 1919,
   "pages": 434,
   "google_books_url": "https://play.google.com/store/books/details?id=32SCDwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -74,5 +74,20 @@
     "Soviet union, history, revolution, 1917-1921",
     "World history"
   ],
-  "ol_work_key": "/works/OL827976W"
+  "ol_work_key": "/works/OL827976W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 192,
+  "first_published_circa": false,
+  "original_language": "yid",
+  "original_title": "Tsen ṭeg ṿos hoben oyfgeruderṭ di ṿelṭ",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34077703M"
 }

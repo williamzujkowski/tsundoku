@@ -42,5 +42,16 @@
     "Fiction, science fiction, general",
     "Long Now Manual for Civilization"
   ],
-  "ol_work_key": "/works/OL2465670W"
+  "ol_work_key": "/works/OL2465670W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "first_edition_isbn": "9788415157052",
+  "representative_edition_key": "/books/OL33405380M"
 }

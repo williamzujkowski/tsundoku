@@ -1,7 +1,7 @@
 {
   "title": "The War of the Worlds",
   "author": "H.G. Wells",
-  "category": "Science Fiction",
+  "category": "Fantasy",
   "priority": 1,
   "slug": "the-war-of-the-worlds",
   "tags": [
@@ -183,5 +183,11 @@
     "Wells, h. g. (herbert george), 1866-1946",
     "open_syllabus_project"
   ],
-  "ol_work_key": "/works/OL52114W"
+  "ol_work_key": "/works/OL52114W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "representative_edition_key": "/books/OL59048283M"
 }

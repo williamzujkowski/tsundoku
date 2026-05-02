@@ -22,5 +22,14 @@
   "librivox_url": "https://librivox.org/in-search-of-the-castaways-by-jules-verne/",
   "copyright_status": "public_domain",
   "description": "In Search of the Castaways is a novel by the French writer Jules Verne, published in 1867–68. The original edition, published by Hetzel, contains illustrations by Édouard Riou. In 1876, it was republished by George Routledge & Sons as a three volume set titled A Voyage Round The World. The three volumes were subtitled South America, Australia, and New Zealand.",
-  "ol_work_key": "/works/OL1099786W"
+  "ol_work_key": "/works/OL1099786W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 1,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL23426478M"
 }

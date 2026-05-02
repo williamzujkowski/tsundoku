@@ -43,5 +43,14 @@
     "Science-fiction",
     "Science-fiction américaine"
   ],
-  "ol_work_key": "/works/OL1963251W"
+  "ol_work_key": "/works/OL1963251W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 29,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL28461742M"
 }

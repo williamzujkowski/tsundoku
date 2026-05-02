@@ -13,7 +13,7 @@
   "description": "The war for survival of the planet Lusitania will be fought in the heart of a child named Gloriously Bright. On Lusitania, Ender found a world where humans and pequininos and the Hive Queen could all live together; where three very different intelligent species could find common ground at last. Or so he thought. Lusitania also harbors the descolada, a virus that kills all humans it infects, but which the pequininos require in order to become adults. The Starways Congress so fears the effects of ",
   "cover_url": "https://books.google.com/books/content?id=FKkPEODeDT0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781429963961",
-  "first_published": 2009,
+  "first_published": 1991,
   "pages": 409,
   "google_books_url": "https://play.google.com/store/books/details?id=FKkPEODeDT0C&source=gbs_api",
   "language": "eng",
@@ -64,5 +64,14 @@
     "Viruses",
     "Wiggin, ender (fictitious character), fiction"
   ],
-  "ol_work_key": "/works/OL49604W"
+  "ol_work_key": "/works/OL49604W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 38,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33973324M"
 }

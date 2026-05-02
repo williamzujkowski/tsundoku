@@ -12,7 +12,7 @@
   "open_library_url": "https://openlibrary.org/works/OL5742702W",
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "subjects": [
     "Application software",
     "Development"
@@ -27,5 +27,16 @@
     "QA-0076.76000000.A65 F43 2005"
   ],
   "first_published": 2004,
-  "ol_work_key": "/works/OL25381590W"
+  "ol_work_key": "/works/OL25381590W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 3,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780132931755",
+  "representative_edition_key": "/books/OL34017486M"
 }

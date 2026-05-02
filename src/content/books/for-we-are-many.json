@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "in_copyright",
   "description": "An angry squeal erupted from the pile of deadwood.",
   "cover_url": "https://covers.openlibrary.org/b/id/11329842-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/11329842-L.jpg",
@@ -26,5 +26,14 @@
     "von Neumann probe"
   ],
   "ol_work_key": "/works/OL19742648W",
-  "pages": 351
+  "pages": 351,
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 6,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32705617M"
 }

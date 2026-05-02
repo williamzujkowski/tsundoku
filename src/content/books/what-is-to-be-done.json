@@ -43,5 +43,14 @@
     "State, The",
     "The State"
   ],
-  "ol_work_key": "/works/OL301436W"
+  "ol_work_key": "/works/OL301436W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL2736494M"
 }

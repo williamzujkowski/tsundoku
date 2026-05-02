@@ -11,7 +11,7 @@
   "description": "Stephen Gordon defies societal norms. An Englishwoman born in the late 19th century, Stephen struggles with navigating the isolation and the societal rejection she faces for loving women. As she explores her desires, love, friendship, and identity intertwine and her plea for acceptance echoes in the heart of readers. A groundbreaking and controversial novel that defied its time, ́The Well of Loneliness ́ is ideal for fans of Selby Wynn Schwartz's ́After Sappho ́ and the 2015 film ́Carol ́ starri",
   "cover_url": "https://books.google.com/books/content?id=Dw5-EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9788728475379",
-  "first_published": 2025,
+  "first_published": 1928,
   "pages": 551,
   "google_books_url": "https://play.google.com/store/books/details?id=Dw5-EQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -83,5 +83,16 @@
     "Social conditions",
     "Écrivains"
   ],
-  "ol_work_key": "/works/OL3297469W"
+  "ol_work_key": "/works/OL3297469W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 85,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL53380275M"
 }

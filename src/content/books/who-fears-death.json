@@ -1,7 +1,7 @@
 {
   "title": "Who Fears Death",
   "author": "Nnedi Okorafor",
-  "category": "Literature",
+  "category": "Fantasy",
   "priority": 2,
   "slug": "who-fears-death",
   "tags": [
@@ -53,5 +53,14 @@
     "Single women, fiction",
     "collection:otherwise_tiptree_award=honor"
   ],
-  "ol_work_key": "/works/OL15935869W"
+  "ol_work_key": "/works/OL15935869W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 18,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL32528307M"
 }

@@ -45,5 +45,14 @@
     "nyt:combined-print-and-e-book-fiction=2021-12-05",
     "technology"
   ],
-  "ol_work_key": "/works/OL24697326W"
+  "ol_work_key": "/works/OL24697326W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 7,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL35078792M"
 }

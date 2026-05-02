@@ -8,14 +8,14 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9000417-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9000417-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20336428W",
-  "first_published": 1990,
+  "first_published": 1935,
   "language": "eng",
   "description": "For nineteenth-century Swiss historian Jacob Burckhardt, the Italian Renaissance was nothing less than the beginning of the modern world - a world in which flourishing individualism and the competition for fame radically transformed science, the arts, and politics. In this landmark work he depicts the Italian city-states of Florence, Venice and Rome as providing the seeds of a new form of society, and traces the rise of the creative individual, from Dante to Michelangelo. A fascinating descripti...",
   "isbn": "014044534X",
   "pages": 404,
   "google_books_url": "http://books.google.com/books?id=gHy4PDwglzcC&dq=The+Civilization+of+the+Renaissance+in+Italy+Jacob+Burckhardt&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "subjects": [
     "Renaissance",
     "Civilization",
@@ -84,5 +84,15 @@
     "Renaissance, italy",
     "Renaissance--italy"
   ],
-  "ol_work_key": "/works/OL1156660W"
+  "ol_work_key": "/works/OL1156660W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 53,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL1593238M"
 }

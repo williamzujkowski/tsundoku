@@ -10,7 +10,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/9288686-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9288686-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1108085W",
-  "first_published": 1930,
+  "first_published": 1923,
   "language": "eng",
   "description": "A complete collection of Robert Frost's poetry.",
   "isbn": "0805005021",
@@ -79,5 +79,16 @@
     "Poetry (poetic works by one author)",
     "Poetry as Topic"
   ],
-  "ol_work_key": "/works/OL1108089W"
+  "ol_work_key": "/works/OL1108089W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 47,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL22478372M"
 }

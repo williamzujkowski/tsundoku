@@ -15,7 +15,7 @@
   "reading_status": "read",
   "description": "To their friends’ envy, Biff and Chet plan to take a boating vacation up the coast. The joy of sending them off soon turns to anxiety as neither of them make contact with home for several days. Convinced that something’s happened to them, the Hardy boys and their friends go on a search filled with adventure and peril in hopes of retrieving their missing chums. This is the fourth book of the Hardy boys series, first published in 1928. While the author is credited to be Franklin W. Dixon, in reali",
   "cover_url": "https://books.google.com/books/content?id=RzcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2024,
+  "first_published": 1928,
   "pages": 163,
   "google_books_url": "https://play.google.com/store/books/details?id=RzcTEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -84,5 +84,16 @@
     "collectionID:HBMS1",
     "series:HardyBoys"
   ],
-  "ol_work_key": "/works/OL47899W"
+  "ol_work_key": "/works/OL47899W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 26,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL29550525M"
 }

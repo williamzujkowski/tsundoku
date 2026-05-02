@@ -14,7 +14,7 @@
   "description": "Purchase one of 1st World Library's Classic Books and help support our free internet library of downloadable eBooks. Visit us online at www.1stWorldLibrary.ORG - - It is the fate of sequels to disappoint those who have waited for them; and my David, having been left to kick his heels for more than a lustre in the British Linen Company's office, must expect his late re-appearance to be greeted with hoots, if not with missiles. Yet, when I remember the days of our explo-rations, I am not without h",
   "cover_url": "https://books.google.com/books/content?id=EKS5BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781595405036",
-  "first_published": 2004,
+  "first_published": 1892,
   "pages": 386,
   "google_books_url": "https://play.google.com/store/books/details?id=EKS5BwAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -89,5 +89,16 @@
     "Scotland -- History -- 18th century -- Fiction",
     "Scotland, fiction"
   ],
-  "ol_work_key": "/works/OL24163W"
+  "ol_work_key": "/works/OL24163W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 280,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL12438662M"
 }

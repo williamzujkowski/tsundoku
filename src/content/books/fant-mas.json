@@ -14,7 +14,7 @@
   "description": "Fantômas was introduced a few years after Arsène Lupin, another well-known thief. But whereas Lupin draws the line at murder, Fantômas has no such qualms and is shown as a sociopath who enjoys killing in a sadistic fashion.He is totally ruthless, gives no mercy, and is loyal to none, not even his own children. He is a master of disguise, always appearing under an assumed identity, often that of a person whom he has murdered. Fantômas makes use of bizarre and improbable techniques in his crimes, ",
   "cover_url": "https://books.google.com/books/content?id=o7FdzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "isbn": "1676607536",
-  "first_published": 2020,
+  "first_published": 1961,
   "pages": 294,
   "google_books_url": "http://books.google.com/books?id=o7FdzQEACAAJ&dq=intitle:Fant%C3%B4mas&hl=&source=gbs_api",
   "language": "eng",
@@ -66,5 +66,20 @@
     "Suspense",
     "Thriller"
   ],
-  "ol_work_key": "/works/OL4516527W"
+  "ol_work_key": "/works/OL4516527W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 38,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Fantomas",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL7640044M"
 }

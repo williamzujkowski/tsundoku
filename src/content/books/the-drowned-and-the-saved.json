@@ -11,7 +11,7 @@
   "cover_url": "https://books.google.com/books/content?id=s90nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=s90nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9781501167638",
-  "first_published": 2017,
+  "first_published": 1988,
   "pages": 208,
   "subjects": [
     "Biography & Autobiography"
@@ -82,5 +82,14 @@
     "World War II",
     "World War, 1939-1945"
   ],
-  "ol_work_key": "/works/OL860027W"
+  "ol_work_key": "/works/OL860027W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 28,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL27403259M"
 }

@@ -12,7 +12,7 @@
   "reading_status": "read",
   "description": "As the fog and rain clear one Tuesday afternoon in October, four members of a village golf club decide to fit in a match before evening sets in. One of them slices his drive off the third tee. Following his ball to the foot of the neighboring railway viaduct, he stumbles upon a body. The police soon arrive, but they seem to ignore some odd circumstances noticed by the friends, and the four decide to investigate themselves. Ronald A. Knox was something of a polymath, who as a boy was fascinated b",
   "cover_url": "https://books.google.com/books/content?id=iRE1EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "first_published": 2024,
+  "first_published": 1926,
   "pages": 211,
   "google_books_url": "https://play.google.com/store/books/details?id=iRE1EQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -44,5 +44,16 @@
     "Fiction, mystery & detective, general",
     "Golden Age of detective fiction"
   ],
-  "ol_work_key": "/works/OL1283202W"
+  "ol_work_key": "/works/OL1283202W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL26701990M"
 }

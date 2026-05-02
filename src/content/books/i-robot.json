@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/6517784-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6517784-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1737302W",
-  "first_published": 1994,
+  "first_published": 1950,
   "language": "eng",
   "description": "This classic science fiction masterwork by Isaac Asimov weaves stories about robots, humanity, and the deep questions of existence into a novel of shocking intelligence and heart. “A must-read for science-fiction buffs and literature enjoyers alike.”—The Guardian I, Robot, the first and most widely read book in Asimov’s Robot series, forever changed the world’s perception of artificial intelligence. Here are stories of robots gone mad, of mind-reading robots, and robots with a sense of humor. Of...",
   "isbn": "9780553900330",
@@ -30,7 +30,7 @@
     "space stations",
     "space-based solar power"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "813.54",
     "813.52"
@@ -87,5 +87,15 @@
     "supercomputers",
     "three laws of robotics"
   ],
-  "ol_work_key": "/works/OL46241W"
+  "ol_work_key": "/works/OL46241W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 98,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL24287471M"
 }

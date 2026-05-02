@@ -11,7 +11,7 @@
   "description": "Uncle Tom’s Cabin tells the story of Uncle Tom, an enslaved person, depicted as saintly and dignified, noble and steadfast in his beliefs. While being transported by boat to auction in New Orleans, Tom saves the life of Little Eva, an angelic and forgiving young girl, whose grateful father then purchases Tom. Eva and Tom soon become great friends. Always frail, Eva’s health begins to decline rapidly, and on her deathbed she asks her father to free all his enslaved people. He makes plans to do so",
   "cover_url": "https://books.google.com/books/content?id=v4llEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9791191943542",
-  "first_published": 2021,
+  "first_published": 1852,
   "pages": 785,
   "google_books_url": "https://play.google.com/store/books/details?id=v4llEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -251,5 +251,16 @@
     "Vie dans les plantations",
     "Zhang pian xiao shuo"
   ],
-  "ol_work_key": "/works/OL152161W"
+  "ol_work_key": "/works/OL152161W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 400,
+  "first_published_circa": false,
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL34349860M"
 }

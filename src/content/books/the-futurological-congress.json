@@ -8,7 +8,7 @@
     "sci-fi"
   ],
   "open_library_url": "https://openlibrary.org/works/OL31490260W",
-  "first_published": 1976,
+  "first_published": 1975,
   "cover_url": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "pages": 166,
@@ -42,5 +42,14 @@
     "Slavic philology",
     "future"
   ],
-  "ol_work_key": "/works/OL2683552W"
+  "ol_work_key": "/works/OL2683552W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 25,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL35621282M"
 }

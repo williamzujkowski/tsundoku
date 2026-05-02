@@ -8,7 +8,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14771154-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14771154-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28347454W",
-  "first_published": 2006,
+  "first_published": 1959,
   "language": "eng",
   "description": "'Your Jacques is a tasteless mishmash of things that happen, some of them true, others made up, written without style and served up like a dog's breakfast.' Jacques the Fatalist is Diderot's answer to the problem of existence. If human beings are determined by their genes and their environment, how can they claim to be free to want or do anything? Where are Jacques and his Master going? Are they simply occupying space, living mechanically until they die, believing erroneously that they are in ch...",
   "isbn": "0192838741",
@@ -27,7 +27,7 @@
     "Diderot, Denis, 1713-1781. Jacques le fataliste et son maitre",
     "Free will and determinism"
   ],
-  "copyright_status": "in_copyright",
+  "copyright_status": "likely_public_domain",
   "ddc": [
     "848",
     "843.5"
@@ -77,5 +77,15 @@
     "Pq1979.a65 e5 1999",
     "Simone LeCointre"
   ],
-  "ol_work_key": "/works/OL74824W"
+  "ol_work_key": "/works/OL74824W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 33,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL370510M"
 }

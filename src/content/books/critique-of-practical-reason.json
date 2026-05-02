@@ -8,7 +8,7 @@
     "philosophy"
   ],
   "open_library_url": "https://openlibrary.org/works/OL27502496W",
-  "first_published": 2012,
+  "first_published": 2002,
   "language": "eng",
   "description": "With this volume, Werner Pluhar completes his work on Kant's three Critiques, an accomplishment unique among English language translators of Kant. At once accurate, fluent, and accessible, Pluhar's rendition of the Critique of Practical Reason meets the standards set in his widely respected translations of the Critique of Judgment (1987) and the Critique of Pure Reason (1996). Stephen Engstrom's Introduction discusses the place of the second Critique in Kant's critical philosophy, its relation t...",
   "cover_url": "https://books.google.com/books/content?id=gMhgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -34,5 +34,16 @@
     "Practical reason",
     "Reason"
   ],
-  "ol_work_key": "/works/OL99700W"
+  "ol_work_key": "/works/OL99700W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 2,
+  "first_published_circa": false,
+  "first_edition_isbn": "9780872206175",
+  "representative_edition_key": "/books/OL8374344M"
 }

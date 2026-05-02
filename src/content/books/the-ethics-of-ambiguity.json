@@ -11,7 +11,7 @@
   "cover_url": "https://covers.openlibrary.org/b/id/14956458-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/14956458-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL35304143W",
-  "first_published": 1962,
+  "first_published": 1947,
   "language": "eng",
   "description": "From the groundbreaking author of The Second Sex comes a radical argument for ethical responsibility and freedom. In this classic introduction to existentialist thought, French philosopher Simone de Beauvoir's The Ethics of Ambiguity simultaneously pays homage to and grapples with her French contemporaries, philosophers Jean-Paul Sartre and Maurice Merleau-Ponty, by arguing that the freedoms in existentialism carry with them certain ethical responsibilities. De Beauvoir outlines a series of \"way...",
   "isbn": "9781504054218",
@@ -50,5 +50,20 @@
     "Modern philosophy - general & miscellaneous",
     "Sartre, jean paul, 1905-1980"
   ],
-  "ol_work_key": "/works/OL767898W"
+  "ol_work_key": "/works/OL767898W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "original_language": "ol_firstedition_v1",
+    "original_title": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 28,
+  "first_published_circa": false,
+  "original_language": "fre",
+  "original_title": "Pour une morale de l'ambiguïté.",
+  "first_edition_isbn": null,
+  "representative_edition_key": "/books/OL35814421M"
 }

@@ -85,5 +85,14 @@
     "nyt:mass_market_paperback=2011-06-04",
     "series:A Song of Ice and Fire"
   ],
-  "ol_work_key": "/works/OL257914W"
+  "ol_work_key": "/works/OL257914W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 57,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL60291423M"
 }

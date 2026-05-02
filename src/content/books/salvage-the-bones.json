@@ -83,5 +83,14 @@
     "Teenagers",
     "collectionID:TexChallenge2021"
   ],
-  "ol_work_key": "/works/OL16086740W"
+  "ol_work_key": "/works/OL16086740W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 11,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL27466168M"
 }

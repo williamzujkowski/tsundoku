@@ -1,7 +1,7 @@
 {
   "title": "The Cassini Division",
   "author": "Ken MacLeod",
-  "category": "Literature",
+  "category": "Science Fiction",
   "priority": 2,
   "slug": "the-cassini-division",
   "tags": [
@@ -50,5 +50,14 @@
     "Virtual reality",
     "Women and the military"
   ],
-  "ol_work_key": "/works/OL14871187W"
+  "ol_work_key": "/works/OL14871187W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "representative_edition_key": "/books/OL33472065M"
 }

@@ -12,7 +12,7 @@
   "description": "A masterful new translation of Suetonius' renowned biography of the twelve Caesars, bringing to life a portrait of the first Roman emperors in stunning detail A Penguin Classic The ancient Roman empire was the supreme arena, where emperors had no choice but to fight, to thrill, to dazzle. To rule as a Caesar was to stand as an actor upon the great stage of the world. No biographies invite us into the lives of the Caesars more vividly or intimately than those by Gaius Suetonius Tranquillus, writt",
   "cover_url": "https://books.google.com/books/content?id=o_cNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780698406650",
-  "first_published": 2025,
+  "first_published": 2004,
   "pages": 433,
   "google_books_url": "https://play.google.com/store/books/details?id=o_cNEQAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -53,5 +53,16 @@
     "Rome, history, empire, 30 b.c.-476 a.d.",
     "Sources"
   ],
-  "ol_work_key": "/works/OL15404890W"
+  "ol_work_key": "/works/OL15404890W",
+  "_provenance": {
+    "editions_count": "ol_firstedition_v1",
+    "first_published": "ol_firstedition_v1",
+    "first_published_circa": "ol_firstedition_v1",
+    "first_edition_isbn": "ol_firstedition_v1",
+    "representative_edition_key": "ol_firstedition_v1"
+  },
+  "editions_count": 8,
+  "first_published_circa": false,
+  "first_edition_isbn": "9781419170416",
+  "representative_edition_key": "/books/OL8501620M"
 }
