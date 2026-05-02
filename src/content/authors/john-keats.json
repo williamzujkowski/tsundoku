@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Keats",
   "open_library_url": "https://openlibrary.org/authors/OL153488A",
   "birth_year": 1795,
-  "death_year": 1821
+  "death_year": 1821,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q82083",
+  "viaf_id": "66508882",
+  "ol_author_key": "/authors/OL153488A",
+  "movements": [
+    "Romanticism"
+  ]
 }

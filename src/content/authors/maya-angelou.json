@@ -7,5 +7,108 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Maya_Angelou",
   "open_library_url": "https://openlibrary.org/authors/OL28885A",
   "birth_year": 1928,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q19526",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "7386077",
+  "ol_author_key": "/authors/OL28885A",
+  "awards": [
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1998
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 1991
+    },
+    {
+      "name": "Grammy Award for Best Audio Book, Narration & Storytelling Recording",
+      "year": 1993
+    },
+    {
+      "name": "Spingarn Medal",
+      "year": 1994
+    },
+    {
+      "name": "Grammy Award for Best Audio Book, Narration & Storytelling Recording",
+      "year": 1995
+    },
+    {
+      "name": "Grammy Award for Best Audio Book, Narration & Storytelling Recording",
+      "year": 2002
+    },
+    {
+      "name": "NAACP Image Award for Outstanding Literary Work, Nonfiction",
+      "year": 2005
+    },
+    {
+      "name": "Marian Anderson Award",
+      "year": 2008
+    },
+    {
+      "name": "NAACP Image Award for Outstanding Literary Work, Nonfiction",
+      "year": 2009
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 2010
+    },
+    {
+      "name": "Literarian Award for Outstanding Service to the American Literary Community",
+      "year": 2013
+    },
+    {
+      "name": "Candace Award",
+      "year": 1990
+    },
+    {
+      "name": "Horatio Alger Award",
+      "year": 1992
+    },
+    {
+      "name": "Arkansas Black Hall of Fame",
+      "year": 1993
+    },
+    {
+      "name": "Paul Robeson Award",
+      "year": 1990
+    },
+    {
+      "name": "Crystal Award",
+      "year": 1992
+    },
+    {
+      "name": "National Medal of Arts",
+      "year": 2000
+    },
+    {
+      "name": "honorary doctorate of the University of South Carolina",
+      "year": 1989
+    },
+    {
+      "name": "honorary citizen of Baltimore",
+      "year": 1990
+    },
+    {
+      "name": "North Carolina Award for Literature",
+      "year": 1987
+    },
+    {
+      "name": "honorary degree from Spelman College",
+      "year": 1983
+    },
+    {
+      "name": "Arkansas Women's Hall of Fame",
+      "year": 2017
+    }
+  ]
 }

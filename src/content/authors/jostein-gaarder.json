@@ -6,5 +6,51 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Jostein_Gaarder_Leipziger_Buchmesse_2017.jpg/400px-Jostein_Gaarder_Leipziger_Buchmesse_2017.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jostein_Gaarder",
   "open_library_url": "https://openlibrary.org/authors/OL81486A",
-  "birth_year": 1952
+  "birth_year": 1952,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q185548",
+  "nationality": [
+    "NO"
+  ],
+  "viaf_id": "54345762",
+  "ol_author_key": "/authors/OL81486A",
+  "awards": [
+    {
+      "name": "Commander of the Order of St. Olav",
+      "year": 2005
+    },
+    {
+      "name": "Norwegian Booksellers' Prize",
+      "year": 1993
+    },
+    {
+      "name": "Peer Gynt Literary Award",
+      "year": 1996
+    },
+    {
+      "name": "Norwegian School Librarians Association Literature Award",
+      "year": 1993
+    },
+    {
+      "name": "Brage Prize honorary award",
+      "year": 2002
+    },
+    {
+      "name": "International Literary Award Janusz Korczak",
+      "year": 1996
+    },
+    {
+      "name": "Riksmålsforbundets barne- og ungdomsbokpris"
+    },
+    {
+      "name": "Bancarella Literary Prize",
+      "year": 1995
+    }
+  ]
 }

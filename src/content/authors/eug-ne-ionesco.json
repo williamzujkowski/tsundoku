@@ -7,5 +7,55 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Ionesco",
   "open_library_url": "https://openlibrary.org/authors/OL52830A",
   "birth_year": 1912,
-  "death_year": 1994
+  "death_year": 1994,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q46706",
+  "nationality": [
+    "RO",
+    "FR"
+  ],
+  "viaf_id": "17224288",
+  "ol_author_key": "/authors/OL52830A",
+  "movements": [
+    "theatre of the absurd",
+    "Dada"
+  ],
+  "awards": [
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    },
+    {
+      "name": "Prince Pierre Award"
+    },
+    {
+      "name": "Commander of the National Order of Merit"
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1973
+    },
+    {
+      "name": "Pour le Mérite for Sciences and Arts order"
+    },
+    {
+      "name": "Prix du Brigadier"
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 1971
+    },
+    {
+      "name": "Officer of the Legion of Honour"
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

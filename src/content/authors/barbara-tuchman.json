@@ -7,5 +7,43 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_W._Tuchman",
   "open_library_url": "https://openlibrary.org/authors/OL551291A",
   "birth_year": 1912,
-  "death_year": 1989
+  "death_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q59112",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "64012591",
+  "ol_author_key": "/authors/OL551291A",
+  "awards": [
+    {
+      "name": "National Book Award",
+      "year": 1980
+    },
+    {
+      "name": "Pulitzer Prize for General Nonfiction",
+      "year": 1963
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1971
+    },
+    {
+      "name": "Pulitzer Prize for General Nonfiction",
+      "year": 1972
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1980
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    }
+  ]
 }

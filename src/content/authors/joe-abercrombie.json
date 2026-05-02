@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Joe_Abercrombie_at_Swecon_October_2012.jpg/400px-Joe_Abercrombie_at_Swecon_October_2012.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Abercrombie",
   "open_library_url": "https://openlibrary.org/authors/OL2801083A",
-  "birth_year": 1974
+  "birth_year": 1974,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q515421",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "85800591",
+  "ol_author_key": "/authors/OL2801083A",
+  "awards": [
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 2015
+    },
+    {
+      "name": "Locus Award for Best Young Adult Book",
+      "year": 2015
+    }
+  ]
 }

@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bell_hooks",
   "open_library_url": "https://openlibrary.org/authors/OL2631291A",
   "birth_year": 1952,
-  "death_year": 2021
+  "death_year": 2021,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q259507",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "bell hooks"
+  ],
+  "viaf_id": "79115934",
+  "ol_author_key": "/authors/OL2631291A",
+  "awards": [
+    {
+      "name": "American Book Awards",
+      "year": 1991
+    }
+  ]
 }

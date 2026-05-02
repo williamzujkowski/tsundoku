@@ -6,5 +6,56 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Jeff_VanderMeer.jpg/400px-Jeff_VanderMeer.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_VanderMeer",
   "open_library_url": "https://openlibrary.org/authors/OL359235A",
-  "birth_year": 1968
+  "birth_year": 1968,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1038440",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "47888668",
+  "ol_author_key": "/authors/OL359235A",
+  "awards": [
+    {
+      "name": "World Fantasy Award for Best Novella",
+      "year": 2000
+    },
+    {
+      "name": "World Fantasy Award for Best Anthology",
+      "year": 2003
+    },
+    {
+      "name": "Tähtifantasia Award",
+      "year": 2007
+    },
+    {
+      "name": "Shirley Jackson Award for Novel",
+      "year": 2014
+    },
+    {
+      "name": "Locus Award for Best Anthology",
+      "year": 2017
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2015
+    },
+    {
+      "name": "British Fantasy Award for Best Anthology",
+      "year": 2012
+    },
+    {
+      "name": "World Fantasy Award for Best Anthology",
+      "year": 2012
+    },
+    {
+      "name": "World Fantasy Award for Best Anthology",
+      "year": 2021
+    }
+  ]
 }

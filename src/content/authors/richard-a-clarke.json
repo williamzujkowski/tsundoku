@@ -5,5 +5,27 @@
   "open_library_url": "https://openlibrary.org/authors/OL1398752A",
   "bio": "American counter-terrorism expert; former National Coordinator for Security, Infrastructure Protection and Counter-terrorism for the United States",
   "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20clarke.jpg?width=400",
-  "birth_year": 1950
+  "birth_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q560747",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "84629123",
+  "ol_author_key": "/authors/OL1398752A",
+  "awards": [
+    {
+      "name": "American Book Awards",
+      "year": 2005
+    },
+    {
+      "name": "Audie Award for Narration by the Author or Authors"
+    }
+  ]
 }

@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Eugene_O'Neill",
   "open_library_url": "https://openlibrary.org/authors/OL28035A",
   "birth_year": 1888,
-  "death_year": 1953
+  "death_year": 1953,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q93157",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "24615441",
+  "ol_author_key": "/authors/OL28035A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1936
+    },
+    {
+      "name": "Laurence Olivier Awards"
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1957
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1928
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1922
+    },
+    {
+      "name": "Pulitzer Prize for Drama",
+      "year": 1920
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    },
+    {
+      "name": "Tony Award for Best Play",
+      "year": 1957
+    }
+  ]
 }

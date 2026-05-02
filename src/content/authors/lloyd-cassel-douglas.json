@@ -6,5 +6,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lloyd_C._Douglas",
   "open_library_url": "https://openlibrary.org/authors/OL22554A",
   "birth_year": 1877,
-  "death_year": 1951
+  "death_year": 1951,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1318617",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "76521596",
+  "ol_author_key": "/authors/OL22554A"
 }

@@ -6,5 +6,29 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Emily_St_John_Mandel_-_2017.jpg/400px-Emily_St_John_Mandel_-_2017.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Emily_St._John_Mandel",
   "open_library_url": "https://openlibrary.org/authors/OL6538530A",
-  "birth_year": 1979
+  "birth_year": 1979,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3052385",
+  "nationality": [
+    "CA",
+    "US"
+  ],
+  "viaf_id": "26544203",
+  "ol_author_key": "/authors/OL6538530A",
+  "awards": [
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2015
+    },
+    {
+      "name": "Toronto Book Awards",
+      "year": 2015
+    }
+  ]
 }

@@ -7,5 +7,26 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Morris_Kline",
   "open_library_url": "https://openlibrary.org/authors/OL233752A",
   "birth_year": 1908,
-  "death_year": 1992
+  "death_year": 1992,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q222850",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "59116073",
+  "ol_author_key": "/authors/OL233752A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Fulbright Scholarship"
+    }
+  ]
 }

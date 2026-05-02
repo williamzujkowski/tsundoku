@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire",
   "open_library_url": "https://openlibrary.org/authors/OL5110462A",
   "birth_year": 1913,
-  "death_year": 2008
+  "death_year": 2008,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q223955",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "109520593",
+  "ol_author_key": "/authors/OL5110462A",
+  "movements": [
+    "Négritude"
+  ],
+  "awards": [
+    {
+      "name": "Grand prix national de la poésie"
+    },
+    {
+      "name": "America Award in Literature",
+      "year": 1994
+    },
+    {
+      "name": "Viareggio-Versilia International Prize",
+      "year": 1968
+    }
+  ]
 }

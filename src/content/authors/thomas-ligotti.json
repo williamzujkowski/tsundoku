@@ -6,5 +6,32 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Thomas_Ligotti_signature.png/400px-Thomas_Ligotti_signature.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Ligotti",
   "open_library_url": "https://openlibrary.org/authors/OL534271A",
-  "birth_year": 1953
+  "birth_year": 1953,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1062799",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "85862738",
+  "ol_author_key": "/authors/OL534271A",
+  "awards": [
+    {
+      "name": "British Fantasy Award for Best Anthology or Collection",
+      "year": 1997
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 2019
+    },
+    {
+      "name": "Bram Stoker Award for Best Fiction Collection",
+      "year": 1996
+    }
+  ]
 }

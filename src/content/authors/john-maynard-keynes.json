@@ -7,5 +7,42 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Maynard_Keynes",
   "open_library_url": "https://openlibrary.org/authors/OL33956A",
   "birth_year": 1883,
-  "death_year": 1946
+  "death_year": 1946,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9317",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "29551966",
+  "ol_author_key": "/authors/OL33956A",
+  "movements": [
+    "Bloomsbury Group"
+  ],
+  "awards": [
+    {
+      "name": "Companion of the Order of the Bath"
+    },
+    {
+      "name": "Adam Smith Prize",
+      "year": 1909
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 1933
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "doctor honoris causa from the University of Paris",
+      "year": 1945
+    }
+  ]
 }

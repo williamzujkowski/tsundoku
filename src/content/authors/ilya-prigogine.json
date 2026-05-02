@@ -6,5 +6,93 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7361264-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2677387A",
   "birth_year": 1917,
-  "death_year": 2003
+  "death_year": 2003,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q183509",
+  "nationality": [
+    "BE",
+    "RU"
+  ],
+  "viaf_id": "99876969",
+  "ol_author_key": "/authors/OL2677387A",
+  "awards": [
+    {
+      "name": "Francqui Prize",
+      "year": 1955
+    },
+    {
+      "name": "honorary doctor of the University of Poitiers",
+      "year": 1966
+    },
+    {
+      "name": "Bourke Award",
+      "year": 1972
+    },
+    {
+      "name": "honorary doctorate from University of Bordeaux-I",
+      "year": 1972
+    },
+    {
+      "name": "Cothenius Medal",
+      "year": 1975
+    },
+    {
+      "name": "Rumford Medal",
+      "year": 1976
+    },
+    {
+      "name": "Nobel Prize in Chemistry",
+      "year": 1977
+    },
+    {
+      "name": "honorary doctor of the Paul Cézanne University",
+      "year": 1978
+    },
+    {
+      "name": "Honda Prize",
+      "year": 1983
+    },
+    {
+      "name": "honorary doctorate of Tours University",
+      "year": 1986
+    },
+    {
+      "name": "honorary doctorate from the University of Nice-Sophia Antipolis",
+      "year": 1991
+    },
+    {
+      "name": "Kampé de Fériet Award",
+      "year": 1994
+    },
+    {
+      "name": "honorary doctor of the National Polytechnic Institute of Lorraine",
+      "year": 1994
+    },
+    {
+      "name": "honorary doctorate of the University of Valladolid",
+      "year": 1995
+    },
+    {
+      "name": "honorary doctorate of the Vrije Universiteit Brussel",
+      "year": 1995
+    },
+    {
+      "name": "Bogolyubov Prize"
+    },
+    {
+      "name": "Commander of the Legion of Honour"
+    },
+    {
+      "name": "Order of Friendship"
+    },
+    {
+      "name": "honorary doctor of the Jagiellonian University of Krakow"
+    }
+  ]
 }

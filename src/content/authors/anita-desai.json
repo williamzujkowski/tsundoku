@@ -6,5 +6,47 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL34163A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anita_Desai",
   "open_library_url": "https://openlibrary.org/authors/OL34163A",
-  "birth_year": 1937
+  "birth_year": 1937,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q268495",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "54161277",
+  "ol_author_key": "/authors/OL34163A",
+  "awards": [
+    {
+      "name": "Padma Bhushan in literature & education",
+      "year": 2014
+    },
+    {
+      "name": "Padma Shri in literature and education",
+      "year": 1989
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1978
+    },
+    {
+      "name": "Sahitya Akademi Award",
+      "year": 1978
+    },
+    {
+      "name": "Winifred Holtby Memorial Prize",
+      "year": 1977
+    },
+    {
+      "name": "Guardian Children's Fiction Prize",
+      "year": 1983
+    },
+    {
+      "name": "honorary degree of the University of Leeds"
+    }
+  ]
 }

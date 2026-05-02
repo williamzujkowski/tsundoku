@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Robert_Charles_Wilson.jpg/400px-Robert_Charles_Wilson.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Charles_Wilson",
   "open_library_url": "https://openlibrary.org/authors/OL28371A",
-  "birth_year": 1953
+  "birth_year": 1953,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q240786",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "85362085",
+  "ol_author_key": "/authors/OL28371A",
+  "awards": [
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 2008
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2006
+    },
+    {
+      "name": "Geffen Award",
+      "year": 2006
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2002
+    },
+    {
+      "name": "Philip K. Dick Award",
+      "year": 1995
+    },
+    {
+      "name": "Theodore Sturgeon Award",
+      "year": 2007
+    }
+  ]
 }

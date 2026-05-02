@@ -6,5 +6,17 @@
   "photo_url": "https://covers.openlibrary.org/a/id/8745466-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL113544A",
   "birth_year": 1808,
-  "death_year": 1887
+  "death_year": 1887,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q538091",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "46804637",
+  "ol_author_key": "/authors/OL113544A"
 }

@@ -7,5 +7,46 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Bloch",
   "open_library_url": "https://openlibrary.org/authors/OL119624A",
   "birth_year": 1886,
-  "death_year": 1944
+  "death_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q156585",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Marc Fougères",
+    "Narbonne"
+  ],
+  "viaf_id": "46757545",
+  "ol_author_key": "/authors/OL119624A",
+  "movements": [
+    "Annales school"
+  ],
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1920
+    },
+    {
+      "name": "Croix de guerre 1914–1918"
+    },
+    {
+      "name": "mort pour la France"
+    },
+    {
+      "name": "Croix de guerre 1939–1945"
+    },
+    {
+      "name": "Resistance Medal",
+      "year": 1946
+    }
+  ]
 }

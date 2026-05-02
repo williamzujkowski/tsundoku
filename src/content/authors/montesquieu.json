@@ -7,5 +7,20 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Montesquieu",
   "open_library_url": "https://openlibrary.org/authors/OL25573A",
   "birth_year": 1689,
-  "death_year": 1755
+  "death_year": 1755,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q15975",
+  "viaf_id": "27069096",
+  "ol_author_key": "/authors/OL25573A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1730
+    }
+  ]
 }

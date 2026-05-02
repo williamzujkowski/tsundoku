@@ -6,5 +6,52 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Finncon_2019_17.jpg/400px-Finncon_2019_17.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Stross",
   "open_library_url": "https://openlibrary.org/authors/OL343157A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q345249",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "10094371",
+  "ol_author_key": "/authors/OL343157A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2005
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2010
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2014
+    },
+    {
+      "name": "Sidewise Award for Alternate History",
+      "year": 2006
+    },
+    {
+      "name": "Edward E. Smith Memorial Award",
+      "year": 2008
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2006
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2013
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2007
+    }
+  ]
 }

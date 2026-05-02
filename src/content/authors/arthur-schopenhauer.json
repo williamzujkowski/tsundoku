@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
   "open_library_url": "https://openlibrary.org/authors/OL119580A",
   "birth_year": 1788,
-  "death_year": 1860
+  "death_year": 1860,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q38193",
+  "viaf_id": "17229367",
+  "ol_author_key": "/authors/OL119580A",
+  "movements": [
+    "irrationalism"
+  ]
 }

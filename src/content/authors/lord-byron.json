@@ -7,5 +7,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lord_Byron",
   "open_library_url": "https://openlibrary.org/authors/OL113143A",
   "birth_year": 1788,
-  "death_year": 1824
+  "death_year": 1824,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q5679",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "95230688",
+  "ol_author_key": "/authors/OL113143A",
+  "movements": [
+    "Romanticism"
+  ],
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society"
+    }
+  ]
 }

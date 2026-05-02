@@ -7,5 +7,46 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Rawls",
   "open_library_url": "https://openlibrary.org/authors/OL27530A",
   "birth_year": 1921,
-  "death_year": 2002
+  "death_year": 2002,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q172544",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "54168677",
+  "ol_author_key": "/authors/OL27530A",
+  "movements": [
+    "analytic philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1964
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 1999
+    },
+    {
+      "name": "Rolf Schock Prize in Logic and Philosophy",
+      "year": 1999
+    },
+    {
+      "name": "Ralph Waldo Emerson Award",
+      "year": 1972
+    },
+    {
+      "name": "Fulbright Scholarship"
+    },
+    {
+      "name": "Spitz Prize"
+    }
+  ]
 }

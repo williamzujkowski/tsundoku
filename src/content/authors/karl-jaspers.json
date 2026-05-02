@@ -7,5 +7,51 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karl_Jaspers",
   "open_library_url": "https://openlibrary.org/authors/OL41476A",
   "birth_year": 1883,
-  "death_year": 1969
+  "death_year": 1969,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76509",
+  "nationality": [
+    "DE",
+    "CH"
+  ],
+  "viaf_id": "31998030",
+  "ol_author_key": "/authors/OL41476A",
+  "movements": [
+    "continental philosophy"
+  ],
+  "awards": [
+    {
+      "name": "Pour le Mérite for Sciences and Arts order"
+    },
+    {
+      "name": "Goethe Prize of the City of Frankfurt",
+      "year": 1947
+    },
+    {
+      "name": "Erasmus Prize",
+      "year": 1959
+    },
+    {
+      "name": "Peace Prize of the German Publishers' and Booksellers' Association",
+      "year": 1958
+    },
+    {
+      "name": "Pour le Mérite"
+    },
+    {
+      "name": "doctor honoris causa from the University of Paris",
+      "year": 1959
+    },
+    {
+      "name": "honorary citizen of Oldenburg (Oldb)",
+      "year": 1963
+    }
+  ]
 }

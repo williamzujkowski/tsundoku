@@ -7,5 +7,108 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Jay_Gould",
   "open_library_url": "https://openlibrary.org/authors/OL27964A",
   "birth_year": 1941,
-  "death_year": 2002
+  "death_year": 2002,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q180619",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108205470",
+  "ol_author_key": "/authors/OL27964A",
+  "awards": [
+    {
+      "name": "National Book Award",
+      "year": 1981
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 2001
+    },
+    {
+      "name": "William Procter Prize for Scientific Achievement",
+      "year": 1994
+    },
+    {
+      "name": "Paleontological Society Medal",
+      "year": 2002
+    },
+    {
+      "name": "Library of Congress Living Legend"
+    },
+    {
+      "name": "Charles Schuchert Award",
+      "year": 1975
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 1981
+    },
+    {
+      "name": "Phi Beta Kappa Award in Science",
+      "year": 1983
+    },
+    {
+      "name": "Silver Medal of the Zoological Society of London",
+      "year": 1984
+    },
+    {
+      "name": "Sue Tyler Friedman Medal",
+      "year": 1989
+    },
+    {
+      "name": "Phi Beta Kappa Award in Science",
+      "year": 1990
+    },
+    {
+      "name": "Royal Society Science Books Prize",
+      "year": 1991
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1994
+    },
+    {
+      "name": "Darwin–Wallace Medal",
+      "year": 2008
+    },
+    {
+      "name": "Linnean Medal",
+      "year": 1992
+    },
+    {
+      "name": "Hayden Memorial Geological Award",
+      "year": 1982
+    },
+    {
+      "name": "Mary C. Rabbitt History And Philosophy of Geology Award",
+      "year": 1988
+    },
+    {
+      "name": "Fellow of the Committee for Skeptical Inquiry"
+    },
+    {
+      "name": "Fellow of the American Association for the Advancement of Science"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Tinbergen Lecture",
+      "year": 1981
+    },
+    {
+      "name": "Edinburgh Medal",
+      "year": 1990
+    },
+    {
+      "name": "National Book Critics Circle Award in Nonfiction",
+      "year": 1981
+    }
+  ]
 }

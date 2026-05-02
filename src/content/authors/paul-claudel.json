@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Claudel",
   "open_library_url": "https://openlibrary.org/authors/OL113600A",
   "birth_year": 1868,
-  "death_year": 1955
+  "death_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q295830",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Delachapelle"
+  ],
+  "viaf_id": "100163516",
+  "ol_author_key": "/authors/OL113600A",
+  "awards": [
+    {
+      "name": "Grand Cross of the Legion of Honour"
+    },
+    {
+      "name": "honorary doctorate at the Laval University",
+      "year": 1928
+    },
+    {
+      "name": "Prix Narcisse Michaut",
+      "year": 1913
+    },
+    {
+      "name": "Grand Cross of the Order of Isabella the Catholic"
+    }
+  ]
 }

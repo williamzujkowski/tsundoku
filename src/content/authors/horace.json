@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Horace",
   "open_library_url": "https://openlibrary.org/authors/OL1247722A",
   "birth_year": 1898,
-  "death_year": 1982
+  "death_year": 1982,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q13891091",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110610574",
+  "ol_author_key": "/authors/OL1247722A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1951
+    },
+    {
+      "name": "Bollingen Prize",
+      "year": 1965
+    },
+    {
+      "name": "Fellowship of the Academy of American Poets",
+      "year": 1961
+    },
+    {
+      "name": "Russell Loines Award for Poetry"
+    }
+  ]
 }

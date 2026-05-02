@@ -7,5 +7,66 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Isaiah_Berlin",
   "open_library_url": "https://openlibrary.org/authors/OL2657453A",
   "birth_year": 1909,
-  "death_year": 1997
+  "death_year": 1997,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q205162",
+  "nationality": [
+    "GB",
+    "RU"
+  ],
+  "viaf_id": "27076924",
+  "ol_author_key": "/authors/OL2657453A",
+  "awards": [
+    {
+      "name": "Commander of the Order of the British Empire"
+    },
+    {
+      "name": "Erasmus Prize",
+      "year": 1983
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1979
+    },
+    {
+      "name": "honorary doctor of Tel Aviv University"
+    },
+    {
+      "name": "honorary doctorate from the University of Cambridge"
+    },
+    {
+      "name": "Honorary doctor of the University of Oxford"
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 1979
+    },
+    {
+      "name": "Honorary doctor of the University of Bologna"
+    },
+    {
+      "name": "honorary doctor of the University of Athens"
+    },
+    {
+      "name": "Honorary doctorate from University of Toronto"
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Knight Bachelor"
+    },
+    {
+      "name": "Order of Merit"
+    }
+  ]
 }

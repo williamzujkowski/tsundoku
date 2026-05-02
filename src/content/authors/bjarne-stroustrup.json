@@ -6,5 +6,62 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bjarne_Stroustrup_%282013%29.jpg/400px-Bjarne_Stroustrup_%282013%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup",
   "open_library_url": "https://openlibrary.org/authors/OL34366A",
-  "birth_year": 1950
+  "birth_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92620",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "22176466",
+  "ol_author_key": "/authors/OL34366A",
+  "awards": [
+    {
+      "name": "William Procter Prize for Scientific Achievement",
+      "year": 2005
+    },
+    {
+      "name": "Grace Murray Hopper Award",
+      "year": 1993
+    },
+    {
+      "name": "Dahl–Nygaard Prize",
+      "year": 2015
+    },
+    {
+      "name": "Computer History Museum Fellow"
+    },
+    {
+      "name": "Faraday Medal",
+      "year": 2017
+    },
+    {
+      "name": "Charles Stark Draper Prize",
+      "year": 2018
+    },
+    {
+      "name": "Computer Pioneer Award",
+      "year": 2018
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 1994
+    },
+    {
+      "name": "IEEE Fellow"
+    },
+    {
+      "name": "Rigmor and Carl Holst-Knudsen Award for Scientific Research",
+      "year": 2010
+    },
+    {
+      "name": "John Scott Award",
+      "year": 2018
+    }
+  ]
 }

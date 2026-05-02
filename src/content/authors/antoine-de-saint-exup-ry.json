@@ -7,5 +7,64 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
   "open_library_url": "https://openlibrary.org/authors/OL31901A",
   "birth_year": 1900,
-  "death_year": 1944
+  "death_year": 1944,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2908",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "93810507",
+  "ol_author_key": "/authors/OL31901A",
+  "awards": [
+    {
+      "name": "mort pour la France",
+      "year": 1948
+    },
+    {
+      "name": "Croix de guerre 1939–1945",
+      "year": 1940
+    },
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1930
+    },
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 1939
+    },
+    {
+      "name": "Prix Femina",
+      "year": 1931
+    },
+    {
+      "name": "Grand Prix du roman de l'Académie française",
+      "year": 1939
+    },
+    {
+      "name": "National Book Award for Nonfiction",
+      "year": 1939
+    },
+    {
+      "name": "Retro Hugo Award for Best Novella",
+      "year": 2019
+    },
+    {
+      "name": "Ambassadors' Prize",
+      "year": 1948
+    },
+    {
+      "name": "Retro Hugo Award for Best Novella",
+      "year": 2019
+    },
+    {
+      "name": "National Book Award",
+      "year": 1939
+    }
+  ]
 }

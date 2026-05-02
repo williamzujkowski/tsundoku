@@ -7,5 +7,48 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joanna_Russ",
   "open_library_url": "https://openlibrary.org/authors/OL539879A",
   "birth_year": 1937,
-  "death_year": 2011
+  "death_year": 2011,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q265270",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "109024489",
+  "ol_author_key": "/authors/OL539879A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Short Story",
+      "year": 1973
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 1983
+    },
+    {
+      "name": "Tähtivaeltaja Award",
+      "year": 1987
+    },
+    {
+      "name": "Pilgrim Award",
+      "year": 1988
+    },
+    {
+      "name": "Otherwise Retrospective Award",
+      "year": 1995
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2013
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 1983
+    }
+  ]
 }

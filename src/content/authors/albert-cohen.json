@@ -6,5 +6,24 @@
   "open_library_url": "https://openlibrary.org/authors/OL2657689A",
   "birth_year": 1895,
   "death_year": 1981,
-  "bio": "Swiss writer (1895-1981)"
+  "bio": "Swiss writer (1895-1981)",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q123553",
+  "nationality": [
+    "CH"
+  ],
+  "viaf_id": "2468375",
+  "ol_author_key": "/authors/OL2657689A",
+  "awards": [
+    {
+      "name": "Grand Prix du roman de l'Académie française",
+      "year": 1968
+    }
+  ]
 }

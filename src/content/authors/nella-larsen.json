@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nella_Larsen",
   "open_library_url": "https://openlibrary.org/authors/OL385592A",
   "birth_year": 1893,
-  "death_year": 1963
+  "death_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q453665",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "66606242",
+  "ol_author_key": "/authors/OL4729827A",
+  "movements": [
+    "Harlem Renaissance"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1930
+    },
+    {
+      "name": "William E. Harmon Foundation award for distinguished achievement among Negroes"
+    }
+  ]
 }

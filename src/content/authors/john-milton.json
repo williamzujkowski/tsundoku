@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Milton",
   "open_library_url": "https://openlibrary.org/authors/OL68333A",
   "birth_year": 1608,
-  "death_year": 1674
+  "death_year": 1674,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q79759",
+  "viaf_id": "17226855",
+  "ol_author_key": "/authors/OL68333A"
 }

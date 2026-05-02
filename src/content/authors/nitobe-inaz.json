@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nitobe_Inaz%C5%8D",
   "open_library_url": "https://openlibrary.org/authors/OL117159A",
   "birth_year": 1862,
-  "death_year": 1933
+  "death_year": 1933,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q12696",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "19682023",
+  "ol_author_key": "/authors/OL117159A",
+  "awards": [
+    {
+      "name": "Order of the Sacred Treasure, 1st Class"
+    }
+  ]
 }

@@ -6,5 +6,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Condon",
   "open_library_url": "https://openlibrary.org/authors/OL554759A",
   "birth_year": 1915,
-  "death_year": 1996
+  "death_year": 1996,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q344955",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "63975603",
+  "ol_author_key": "/authors/OL554759A",
+  "awards": [
+    {
+      "name": "Writers Guild of America Award"
+    }
+  ]
 }

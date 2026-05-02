@@ -7,5 +7,34 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jane_Jacobs",
   "open_library_url": "https://openlibrary.org/authors/OL29371A",
   "birth_year": 1916,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q234335",
+  "nationality": [
+    "CA",
+    "US"
+  ],
+  "viaf_id": "90712053",
+  "ol_author_key": "/authors/OL29371A",
+  "awards": [
+    {
+      "name": "Officer of the Order of Canada"
+    },
+    {
+      "name": "Order of Ontario"
+    },
+    {
+      "name": "Shaughnessy Cohen Prize for Political Writing"
+    },
+    {
+      "name": "The Hillman Prize for Book Journalism",
+      "year": 1962
+    }
+  ]
 }

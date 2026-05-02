@@ -6,5 +6,40 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL7437544A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yoon_Ha_Lee",
   "open_library_url": "https://openlibrary.org/authors/OL7437544A",
-  "birth_year": 1979
+  "birth_year": 1979,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q16204372",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "300059215",
+  "ol_author_key": "/authors/OL7437544A",
+  "awards": [
+    {
+      "name": "Mythopoeic Awards",
+      "year": 2020
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2017
+    },
+    {
+      "name": "Locus Award for Best Young Adult Book",
+      "year": 2020
+    },
+    {
+      "name": "Locus Award for Best Young Adult Book",
+      "year": 2025
+    },
+    {
+      "name": "Mythopoeic Fantasy Award for Children's Literature",
+      "year": 2020
+    }
+  ]
 }

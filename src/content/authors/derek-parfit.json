@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Derek_Parfit",
   "open_library_url": "https://openlibrary.org/authors/OL502078A",
   "birth_year": 1942,
-  "death_year": 2017
+  "death_year": 2017,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q962160",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "79144085",
+  "ol_author_key": "/authors/OL502078A",
+  "awards": [
+    {
+      "name": "Rolf Schock Prize in Logic and Philosophy",
+      "year": 2014
+    }
+  ]
 }

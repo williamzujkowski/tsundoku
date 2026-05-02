@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sheldon_Wolin",
   "open_library_url": "https://openlibrary.org/authors/OL1002199A",
   "birth_year": 1922,
-  "death_year": 2015
+  "death_year": 2015,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3481823",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108345325",
+  "ol_author_key": "/authors/OL1002199A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    }
+  ]
 }

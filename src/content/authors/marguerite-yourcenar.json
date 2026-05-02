@@ -7,5 +7,57 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marguerite_Yourcenar",
   "open_library_url": "https://openlibrary.org/authors/OL20371A",
   "birth_year": 1903,
-  "death_year": 1987
+  "death_year": 1987,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q163118",
+  "nationality": [
+    "FR",
+    "US",
+    "BE"
+  ],
+  "viaf_id": "105154898",
+  "ol_author_key": "/authors/OL20371A",
+  "awards": [
+    {
+      "name": "Commander of the Legion of Honour",
+      "year": 1986
+    },
+    {
+      "name": "Prix Femina",
+      "year": 1968
+    },
+    {
+      "name": "Erasmus Prize",
+      "year": 1983
+    },
+    {
+      "name": "Prince Pierre Award",
+      "year": 1972
+    },
+    {
+      "name": "Grand prix de littérature de l'Académie française",
+      "year": 1977
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Grand prix national des Lettres",
+      "year": 1974
+    },
+    {
+      "name": "Femina Vacaresco award",
+      "year": 1968
+    },
+    {
+      "name": "Prix Renée Vivien",
+      "year": 1958
+    }
+  ]
 }

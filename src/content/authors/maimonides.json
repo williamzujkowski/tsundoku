@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Maimonides",
   "open_library_url": "https://openlibrary.org/authors/OL45280A",
   "birth_year": 1135,
-  "death_year": 1204
+  "death_year": 1204,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q127398",
+  "viaf_id": "100185495",
+  "ol_author_key": "/authors/OL45280A"
 }

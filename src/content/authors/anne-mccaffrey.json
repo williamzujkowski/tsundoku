@@ -7,5 +7,68 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_McCaffrey",
   "open_library_url": "https://openlibrary.org/authors/OL19880A",
   "birth_year": 1926,
-  "death_year": 2011
+  "death_year": 2011,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q233046",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110586836",
+  "ol_author_key": "/authors/OL2712213A",
+  "awards": [
+    {
+      "name": "Margaret Edwards Award",
+      "year": 1999
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 1968
+    },
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1969
+    },
+    {
+      "name": "Edward E. Smith Memorial Award",
+      "year": 1976
+    },
+    {
+      "name": "Balrog Awards",
+      "year": 1980
+    },
+    {
+      "name": "Eurocon",
+      "year": 1980
+    },
+    {
+      "name": "Robert A. Heinlein Award",
+      "year": 2007
+    },
+    {
+      "name": "Ditmar Award",
+      "year": 1979
+    },
+    {
+      "name": "Gandalf Award",
+      "year": 1979
+    },
+    {
+      "name": "Writers and Illustrators of the Future",
+      "year": 2004
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2005
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2006
+    }
+  ]
 }

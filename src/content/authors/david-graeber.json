@@ -7,5 +7,32 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/David_Graeber",
   "open_library_url": "https://openlibrary.org/authors/OL1395062A",
   "birth_year": 1961,
-  "death_year": 2020
+  "death_year": 2020,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1174579",
+  "nationality": [
+    "US",
+    "GB"
+  ],
+  "viaf_id": "12531284",
+  "ol_author_key": "/authors/OL1395062A",
+  "movements": [
+    "libertarian socialism",
+    "anarchist anthropology"
+  ],
+  "awards": [
+    {
+      "name": "Fulbright Scholarship"
+    },
+    {
+      "name": "Bread and Roses Award"
+    }
+  ]
 }

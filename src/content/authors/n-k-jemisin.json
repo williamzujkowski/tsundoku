@@ -6,5 +6,80 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/N._K._Jemisin_%28cropped%29.jpg/400px-N._K._Jemisin_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/N._K._Jemisin",
   "open_library_url": "https://openlibrary.org/authors/OL6575473A",
-  "birth_year": 1972
+  "birth_year": 1972,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2427544",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "N. K. Jemisin"
+  ],
+  "viaf_id": "160100764",
+  "ol_author_key": "/authors/OL6575473A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2016
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2011
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2017
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2018
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 2019
+    },
+    {
+      "name": "Hugo Award for Best Novelette",
+      "year": 2020
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2020
+    },
+    {
+      "name": "Ignyte Award for Best Novelette",
+      "year": 2020
+    },
+    {
+      "name": "Time 100",
+      "year": 2021
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2021
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2021
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 2020
+    }
+  ]
 }

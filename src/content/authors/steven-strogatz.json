@@ -6,5 +6,45 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Steven_Strogatz_in_2025.jpg/400px-Steven_Strogatz_in_2025.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Strogatz",
   "open_library_url": "https://openlibrary.org/authors/OL710984A",
-  "birth_year": 1959
+  "birth_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1384920",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "67081737",
+  "ol_author_key": "/authors/OL710984A",
+  "awards": [
+    {
+      "name": "Presidential Young Investigator Award",
+      "year": 1990
+    },
+    {
+      "name": "Marshall Scholarship"
+    },
+    {
+      "name": "Fellow of the American Physical Society"
+    },
+    {
+      "name": "Fellow of the Society for Industrial and Applied Mathematics",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the American Mathematical Society",
+      "year": 2016
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "George Pólya Prize",
+      "year": 2019
+    }
+  ]
 }

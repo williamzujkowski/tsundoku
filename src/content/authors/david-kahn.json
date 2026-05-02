@@ -6,5 +6,24 @@
   "open_library_url": "https://openlibrary.org/authors/OL2625289A",
   "birth_year": 1930,
   "bio": "American historian, journalist and writer (1930-2024)",
-  "death_year": 2024
+  "death_year": 2024,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q686493",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "97941449",
+  "ol_author_key": "/authors/OL2625289A",
+  "awards": [
+    {
+      "name": "IACR Fellow",
+      "year": 2011
+    }
+  ]
 }

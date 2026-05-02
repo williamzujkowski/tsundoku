@@ -6,5 +6,17 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Charles_Petzold_in_2015_%28cropped%29.jpg/400px-Charles_Petzold_in_2015_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Petzold",
   "open_library_url": "https://openlibrary.org/authors/OL236999A",
-  "birth_year": 1953
+  "birth_year": 1953,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q93023",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "9999889",
+  "ol_author_key": "/authors/OL236999A"
 }

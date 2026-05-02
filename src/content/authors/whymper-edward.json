@@ -4,5 +4,20 @@
   "book_count": 1,
   "open_library_url": "https://openlibrary.org/authors/OL2746113A",
   "birth_year": 1840,
-  "death_year": 1911
+  "death_year": 1911,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q319974",
+  "viaf_id": "95214840",
+  "ol_author_key": "/authors/OL2746113A",
+  "awards": [
+    {
+      "name": "Patron’s Medal",
+      "year": 1892
+    }
+  ]
 }

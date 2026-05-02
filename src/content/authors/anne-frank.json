@@ -7,5 +7,20 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Frank",
   "open_library_url": "https://openlibrary.org/authors/OL446842A",
   "birth_year": 1929,
-  "death_year": 1945
+  "death_year": 1945,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q4583",
+  "viaf_id": "27064673",
+  "ol_author_key": "/authors/OL446842A",
+  "awards": [
+    {
+      "name": "Bancarella Selection Prize",
+      "year": 1955
+    }
+  ]
 }

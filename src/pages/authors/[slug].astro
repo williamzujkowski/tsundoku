@@ -3,6 +3,24 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches } from '../../utils/formatting';
 
+// ISO 3166-1 alpha-2 → human-readable nationality. Subset matches what
+// the wikidata enricher emits.
+const COUNTRY_NAMES: Record<string, string> = {
+  GB: 'British', US: 'American', CA: 'Canadian', AU: 'Australian', NZ: 'New Zealander',
+  IE: 'Irish', FR: 'French', DE: 'German', IT: 'Italian', ES: 'Spanish',
+  PT: 'Portuguese', NL: 'Dutch', BE: 'Belgian', CH: 'Swiss', AT: 'Austrian',
+  SE: 'Swedish', NO: 'Norwegian', DK: 'Danish', FI: 'Finnish', IS: 'Icelandic',
+  RU: 'Russian', PL: 'Polish', CZ: 'Czech', HU: 'Hungarian', GR: 'Greek',
+  RO: 'Romanian', BG: 'Bulgarian', HR: 'Croatian', RS: 'Serbian', UA: 'Ukrainian',
+  TR: 'Turkish', JP: 'Japanese', CN: 'Chinese', KR: 'Korean', IN: 'Indian',
+  IL: 'Israeli', IR: 'Iranian', EG: 'Egyptian', ZA: 'South African', NG: 'Nigerian',
+  BR: 'Brazilian', AR: 'Argentine', CL: 'Chilean', MX: 'Mexican', CO: 'Colombian',
+  PE: 'Peruvian',
+};
+function nationalityLabel(code: string): string {
+  return COUNTRY_NAMES[code] ?? code;
+}
+
 export async function getStaticPaths() {
   const allAuthors = await getCollection('authors');
   const allBooks = await getCollection('books');
@@ -27,6 +45,15 @@ const lifespan = author.birth_year
     ? `${author.birth_year}\u2013${author.death_year}`
     : `b. ${author.birth_year}`
   : null;
+
+// Filter alternate_names: drop entries that match the canonical name
+// (Wikidata's P742 often includes the catalog name as a "pseudonym").
+const altNames = (author.alternate_names ?? [])
+  .filter(n => n.toLowerCase() !== author.name.toLowerCase());
+
+const nationalityLine = (author.nationality ?? [])
+  .map(nationalityLabel)
+  .join(' / ');
 ---
 
 <Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={author.photo_url}>
@@ -34,9 +61,10 @@ const lifespan = author.birth_year
     "@context": "https://schema.org",
     "@type": "Person",
     "name": author.name,
+    ...(altNames.length > 0 ? { "alternateName": altNames } : {}),
     ...(author.bio ? { "description": author.bio } : {}),
     ...(author.photo_url ? { "image": author.photo_url } : {}),
-    ...(author.wikipedia_url ? { "sameAs": [author.wikipedia_url] } : {}),
+    ...(author.wikipedia_url ? { "sameAs": [author.wikipedia_url, ...(author.viaf_id ? [`https://viaf.org/viaf/${author.viaf_id}`] : [])] } : (author.viaf_id ? { "sameAs": [`https://viaf.org/viaf/${author.viaf_id}`] } : {})),
     ...(author.birth_year ? { "birthDate": String(author.birth_year) } : {}),
     ...(author.death_year ? { "deathDate": String(author.death_year) } : {}),
   })} />
@@ -70,12 +98,45 @@ const lifespan = author.birth_year
     <div class="author-info">
       <h1 class="heading-xl mb-2">{author.name}</h1>
 
-      {lifespan && (
-        <p class="text-muted text-sm mb-4">{lifespan}</p>
+      {(lifespan || nationalityLine) && (
+        <p class="text-muted text-sm mb-2">
+          {lifespan}
+          {lifespan && nationalityLine && <span> · </span>}
+          {nationalityLine}
+        </p>
+      )}
+
+      {altNames.length > 0 && (
+        <p class="text-dim text-sm mb-3">
+          Also known as {altNames.slice(0, 4).map((n, i) => (
+            <>
+              {i > 0 && <span>, </span>}
+              <i>{n}</i>
+            </>
+          ))}
+        </p>
       )}
 
       {author.bio && (
         <p class="text-muted text-sm mb-4 author-bio">{author.bio}</p>
+      )}
+
+      {author.movements && author.movements.length > 0 && (
+        <div class="flex flex-wrap gap-2 mb-3">
+          {author.movements.slice(0, 5).map(m => (
+            <span class="meta-tag">{m}</span>
+          ))}
+        </div>
+      )}
+
+      {author.awards && author.awards.length > 0 && (
+        <div class="flex flex-wrap gap-2 mb-3">
+          {author.awards.slice(0, 5).map(a => (
+            <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
+              🏆 {a.name}{a.year ? ` (${a.year})` : ''}
+            </span>
+          ))}
+        </div>
       )}
 
       <div class="flex flex-wrap gap-2">

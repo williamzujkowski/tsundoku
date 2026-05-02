@@ -7,5 +7,38 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Margaret_Laurence",
   "open_library_url": "https://openlibrary.org/authors/OL203016A",
   "birth_year": 1926,
-  "death_year": 1987
+  "death_year": 1987,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q443591",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "44317974",
+  "ol_author_key": "/authors/OL4415491A",
+  "awards": [
+    {
+      "name": "Molson Prize",
+      "year": 1975
+    },
+    {
+      "name": "Companion of the Order of Canada"
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1974
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1966
+    },
+    {
+      "name": "Person of National Historic Significance"
+    }
+  ]
 }

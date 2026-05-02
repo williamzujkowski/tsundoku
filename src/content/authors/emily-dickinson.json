@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Emily_Dickinson",
   "open_library_url": "https://openlibrary.org/authors/OL19512A",
   "birth_year": 1830,
-  "death_year": 1886
+  "death_year": 1886,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q4441",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "31995584",
+  "ol_author_key": "/authors/OL19512A",
+  "awards": [
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1973
+    }
+  ]
 }

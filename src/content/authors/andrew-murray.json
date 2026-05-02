@@ -6,5 +6,26 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7409448-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL827944A",
   "birth_year": 1828,
-  "death_year": 1917
+  "death_year": 1917,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q506510",
+  "nationality": [
+    "ZA"
+  ],
+  "viaf_id": "100204832",
+  "ol_author_key": "/authors/OL827944A",
+  "awards": [
+    {
+      "name": "honorary doctor of the University of Aberdeen"
+    },
+    {
+      "name": "honorary doctorate of the University of Cape Town"
+    }
+  ]
 }

@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tarjei_Vesaas",
   "open_library_url": "https://openlibrary.org/authors/OL131225A",
   "birth_year": 1897,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q381443",
+  "nationality": [
+    "NO"
+  ],
+  "viaf_id": "32004086",
+  "ol_author_key": "/authors/OL131225A",
+  "awards": [
+    {
+      "name": "Gyldendal's Endowment",
+      "year": 1943
+    },
+    {
+      "name": "Dobloug Prize",
+      "year": 1957
+    },
+    {
+      "name": "Nordic Council Literature Prize",
+      "year": 1964
+    },
+    {
+      "name": "Norwegian Booksellers' Prize",
+      "year": 1967
+    }
+  ]
 }

@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Banana_Yosimoto.jpg/400px-Banana_Yosimoto.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Banana_Yoshimoto",
   "open_library_url": "https://openlibrary.org/authors/OL384307A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q238970",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "97227870",
+  "ol_author_key": "/authors/OL384307A",
+  "awards": [
+    {
+      "name": "Kaien Shinjin Bungakusho",
+      "year": 1987
+    },
+    {
+      "name": "Izumi Kyōka Prize for Literature",
+      "year": 1988
+    },
+    {
+      "name": "Yamamoto Shūgorō Prize",
+      "year": 1989
+    },
+    {
+      "name": "Murasaki Shikibu Prize",
+      "year": 1995
+    },
+    {
+      "name": "Bunkamura Les Deux Magots Literature Award",
+      "year": 2000
+    },
+    {
+      "name": "Tanizaki Prize",
+      "year": 2022
+    }
+  ]
 }

@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Robert_caro_2012.jpg/400px-Robert_caro_2012.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Caro",
   "open_library_url": "https://openlibrary.org/authors/OL797731A",
-  "birth_year": 1935
+  "birth_year": 1935,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q373423",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "44312399",
+  "ol_author_key": "/authors/OL797731A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for Biography",
+      "year": 1975
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 2009
+    },
+    {
+      "name": "Carl Sandburg Literary Award",
+      "year": 2003
+    },
+    {
+      "name": "Pulitzer Prize for Biography",
+      "year": 2003
+    },
+    {
+      "name": "Francis Parkman Prize",
+      "year": 1975
+    },
+    {
+      "name": "Bodley Medal",
+      "year": 2022
+    },
+    {
+      "name": "National Book Award",
+      "year": 2002
+    },
+    {
+      "name": "National Book Critics Circle Award in Nonfiction",
+      "year": 1982
+    },
+    {
+      "name": "National Book Critics Circle Award in Biography",
+      "year": 1990
+    },
+    {
+      "name": "American History Book Prize",
+      "year": 2013
+    }
+  ]
 }

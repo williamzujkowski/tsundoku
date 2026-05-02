@@ -7,5 +7,19 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
   "open_library_url": "https://openlibrary.org/authors/OL38887A",
   "birth_year": 1225,
-  "death_year": 1274
+  "death_year": 1274,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9438",
+  "viaf_id": "100910150",
+  "ol_author_key": "/authors/OL38887A",
+  "movements": [
+    "Thomism",
+    "just war theory",
+    "scholasticism"
+  ]
 }

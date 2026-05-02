@@ -5,5 +5,37 @@
   "open_library_url": "https://openlibrary.org/authors/OL614941A",
   "bio": "American physicist",
   "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerry%20Friedman%20in%20Valencia%2C%20Rey%20Jaime%20event%2C%20June%202016.jpg?width=400",
-  "birth_year": 1930
+  "birth_year": 1930,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3938444",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "94025833",
+  "ol_author_key": "/authors/OL614941A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Fellow of the Institute of Mathematical Statistics",
+      "year": 1994
+    },
+    {
+      "name": "Fellow of the Royal Society of Canada"
+    },
+    {
+      "name": "Fellow of the American Statistical Association"
+    },
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 2019
+    }
+  ]
 }

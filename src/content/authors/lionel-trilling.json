@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lionel_Trilling",
   "open_library_url": "https://openlibrary.org/authors/OL39314A",
   "birth_year": 1905,
-  "death_year": 1975
+  "death_year": 1975,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1827287",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "7458867",
+  "ol_author_key": "/authors/OL39314A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1947
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1972
+    }
+  ]
 }

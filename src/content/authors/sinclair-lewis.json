@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sinclair_Lewis",
   "open_library_url": "https://openlibrary.org/authors/OL19493A",
   "birth_year": 1885,
-  "death_year": 1951
+  "death_year": 1951,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q123469",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Tom Graham"
+  ],
+  "viaf_id": "39380311",
+  "ol_author_key": "/authors/OL19493A",
+  "movements": [
+    "literary realism"
+  ],
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1930
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame"
+    }
+  ]
 }

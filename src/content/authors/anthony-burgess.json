@@ -7,5 +7,50 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Burgess",
   "open_library_url": "https://openlibrary.org/authors/OL142238A",
   "birth_year": 1917,
-  "death_year": 1993
+  "death_year": 1993,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q217619",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Джозеф Келл",
+    "Энтони Пауэл",
+    "Энтони Джилверн",
+    "Anthony Burgess"
+  ],
+  "viaf_id": "71388189",
+  "ol_author_key": "/authors/OL2623074A",
+  "awards": [
+    {
+      "name": "Prometheus Award - Hall of Fame"
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Companion of Literature",
+      "year": 1991
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 1972
+    },
+    {
+      "name": "Ackerley Prize"
+    },
+    {
+      "name": "Christopher Award"
+    }
+  ]
 }

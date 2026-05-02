@@ -6,5 +6,63 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Amitav_Ghosh_by_Gage_Skidmore.jpg/400px-Amitav_Ghosh_by_Gage_Skidmore.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Amitav_Ghosh",
   "open_library_url": "https://openlibrary.org/authors/OL105306A",
-  "birth_year": 1956
+  "birth_year": 1956,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q336125",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "261269554",
+  "ol_author_key": "/authors/OL105306A",
+  "awards": [
+    {
+      "name": "Sahitya Akademi Award in English",
+      "year": 1989
+    },
+    {
+      "name": "Ananda Puraskar",
+      "year": 1989
+    },
+    {
+      "name": "Prix Médicis étranger",
+      "year": 1990
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 1997
+    },
+    {
+      "name": "Asian American Literary Awards",
+      "year": 2007
+    },
+    {
+      "name": "Dan David Prize",
+      "year": 2010
+    },
+    {
+      "name": "doctor honoris causa from the Paris-Sorbonne University",
+      "year": 2010
+    },
+    {
+      "name": "Erasmus Prize",
+      "year": 2024
+    },
+    {
+      "name": "Padma Shri in literature and education"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 2009
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2026
+    }
+  ]
 }

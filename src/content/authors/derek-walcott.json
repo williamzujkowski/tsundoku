@@ -7,5 +7,68 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Derek_Walcott",
   "open_library_url": "https://openlibrary.org/authors/OL32247A",
   "birth_year": 1930,
-  "death_year": 2017
+  "death_year": 2017,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q132701",
+  "viaf_id": "39391959",
+  "ol_author_key": "/authors/OL32247A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1992
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "MacArthur Fellows Program"
+    },
+    {
+      "name": "Officer of the Order of the British Empire"
+    },
+    {
+      "name": "Cholmondeley Award",
+      "year": 1969
+    },
+    {
+      "name": "King’s / Queen’s Gold Medal for Poetry"
+    },
+    {
+      "name": "PEN Oakland/Josephine Miles Literary Award",
+      "year": 2005
+    },
+    {
+      "name": "Musgrave Medal"
+    },
+    {
+      "name": "Preis der Stadt Münster für Europäische Poesie",
+      "year": 2013
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 2004
+    },
+    {
+      "name": "honorary doctorate of the University of Alcala",
+      "year": 1994
+    },
+    {
+      "name": "Order of Merit"
+    },
+    {
+      "name": "T. S. Eliot Prize"
+    },
+    {
+      "name": "Heinemann Award",
+      "year": 1983
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

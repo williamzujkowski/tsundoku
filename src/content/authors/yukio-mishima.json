@@ -7,5 +7,60 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Yukio_Mishima",
   "open_library_url": "https://openlibrary.org/authors/OL220942A",
   "birth_year": 1925,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q134456",
+  "nationality": [
+    "JP"
+  ],
+  "alternate_names": [
+    "Yukio Mishima",
+    "榊山保",
+    "三島由紀夫"
+  ],
+  "viaf_id": "122035954",
+  "ol_author_key": "/authors/OL220942A",
+  "movements": [
+    "Japanese nationalism",
+    "Japan Romantic School",
+    "Second Generation of Postwar Writers",
+    "Aestheticism",
+    "Postmodernism"
+  ],
+  "awards": [
+    {
+      "name": "Shinchosha literature award",
+      "year": 1954
+    },
+    {
+      "name": "Kishida Theatre Award",
+      "year": 1955
+    },
+    {
+      "name": "Yomiuri Prize",
+      "year": 1956
+    },
+    {
+      "name": "Mainichi art award",
+      "year": 1964
+    },
+    {
+      "name": "ACA National Arts Festival",
+      "year": 1965
+    },
+    {
+      "name": "Golden Arrow Award"
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

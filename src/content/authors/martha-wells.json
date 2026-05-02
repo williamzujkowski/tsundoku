@@ -6,5 +6,76 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Martha_Wells_2018.jpg/400px-Martha_Wells_2018.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Martha_Wells",
   "open_library_url": "https://openlibrary.org/authors/OL221294A",
-  "birth_year": 1964
+  "birth_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q6774606",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "32179704",
+  "ol_author_key": "/authors/OL221294A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2018
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2019
+    },
+    {
+      "name": "Hugo Award for Best Novella",
+      "year": 2019
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2021
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2021
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2021
+    },
+    {
+      "name": "Hugo Award for Best Series",
+      "year": 2021
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2024
+    },
+    {
+      "name": "Julia-Verlanger Award",
+      "year": 2020
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2024
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2022
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2020
+    }
+  ]
 }

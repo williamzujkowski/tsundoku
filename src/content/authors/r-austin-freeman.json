@@ -7,5 +7,17 @@
   "photo_url": "https://covers.openlibrary.org/a/id/7260799-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL771377A",
   "birth_year": 1862,
-  "death_year": 1943
+  "death_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2065950",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "125144814461944904157",
+  "ol_author_key": "/authors/OL771377A"
 }

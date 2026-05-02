@@ -6,5 +6,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Malory",
   "open_library_url": "https://openlibrary.org/authors/OL170469A",
   "birth_year": 1405,
-  "death_year": 1471
+  "death_year": 1471,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q309907",
+  "viaf_id": "54166393",
+  "ol_author_key": "/authors/OL170469A"
 }

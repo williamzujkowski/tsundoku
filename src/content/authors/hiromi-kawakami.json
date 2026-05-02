@@ -6,5 +6,60 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Hiromi_Kawakami_DSC01346_LiteratureXchange_Festival_%28cropped%29.jpg/400px-Hiromi_Kawakami_DSC01346_LiteratureXchange_Festival_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hiromi_Kawakami",
   "open_library_url": "https://openlibrary.org/authors/OL5613770A",
-  "birth_year": 1958
+  "birth_year": 1958,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q286701",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "98449089",
+  "ol_author_key": "/authors/OL5613770A",
+  "awards": [
+    {
+      "name": "Akutagawa Prize",
+      "year": 1996
+    },
+    {
+      "name": "Murasaki Shikibu Prize",
+      "year": 1999
+    },
+    {
+      "name": "Bunkamura Les Deux Magots Literature Award",
+      "year": 1999
+    },
+    {
+      "name": "Women's Literature Prize",
+      "year": 2000
+    },
+    {
+      "name": "Sei Itō Award",
+      "year": 2000
+    },
+    {
+      "name": "Tanizaki Prize",
+      "year": 2001
+    },
+    {
+      "name": "Yomiuri Prize",
+      "year": 2015
+    },
+    {
+      "name": "Izumi Kyōka Prize for Literature",
+      "year": 2016
+    },
+    {
+      "name": "Noma Literary Prize",
+      "year": 2023
+    },
+    {
+      "name": "Officer of Arts and Letters",
+      "year": 2023
+    }
+  ]
 }

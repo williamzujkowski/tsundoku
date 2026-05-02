@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
   "open_library_url": "https://openlibrary.org/authors/OL18283A",
   "birth_year": 1661,
-  "death_year": 1731
+  "death_year": 1731,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q40946",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "39375774",
+  "ol_author_key": "/authors/OL18283A"
 }

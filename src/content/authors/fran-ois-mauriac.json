@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mauriac",
   "open_library_url": "https://openlibrary.org/authors/OL4280625A",
   "birth_year": 1885,
-  "death_year": 1970
+  "death_year": 1970,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q81685",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Forez",
+    "François Sturel"
+  ],
+  "viaf_id": "9850407",
+  "ol_author_key": "/authors/OL4280625A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1952
+    },
+    {
+      "name": "Grand Cross of the Legion of Honour",
+      "year": 1958
+    },
+    {
+      "name": "Grand Prix du roman de l'Académie française",
+      "year": 1926
+    },
+    {
+      "name": "Prix Émile Augier",
+      "year": 1938
+    },
+    {
+      "name": "Grand Prize for the Best Novels of the Half-Century"
+    }
+  ]
 }

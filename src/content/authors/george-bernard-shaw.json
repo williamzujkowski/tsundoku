@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Bernard_Shaw",
   "open_library_url": "https://openlibrary.org/authors/OL107911A",
   "birth_year": 1856,
-  "death_year": 1950
+  "death_year": 1950,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q19185",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "89019752",
+  "ol_author_key": "/authors/OL2742646A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1925
+    },
+    {
+      "name": "Academy Award for Best Writing, Adapted Screenplay",
+      "year": 1939
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    }
+  ]
 }

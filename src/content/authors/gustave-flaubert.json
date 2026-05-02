@@ -7,5 +7,28 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gustave_Flaubert",
   "open_library_url": "https://openlibrary.org/authors/OL79039A",
   "birth_year": 1821,
-  "death_year": 1880
+  "death_year": 1880,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q43444",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "9846192",
+  "ol_author_key": "/authors/OL79039A",
+  "movements": [
+    "literary realism"
+  ],
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1866
+    }
+  ]
 }

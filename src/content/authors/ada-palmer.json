@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Portrait_photoshoot_at_Worldcon_75%2C_Helsinki%2C_before_the_Hugo_Awards_%E2%80%93_Ada_Palmer.jpg/400px-Portrait_photoshoot_at_Worldcon_75%2C_Helsinki%2C_before_the_Hugo_Awards_%E2%80%93_Ada_Palmer.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ada_Palmer",
   "open_library_url": "https://openlibrary.org/authors/OL7475792A",
-  "birth_year": 1981
+  "birth_year": 1981,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q29649607",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "17037845",
+  "ol_author_key": "/authors/OL7475792A",
+  "awards": [
+    {
+      "name": "Astounding Award for Best New Writer",
+      "year": 2017
+    },
+    {
+      "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
+      "year": 2023
+    }
+  ]
 }

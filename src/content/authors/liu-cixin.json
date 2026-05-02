@@ -6,5 +6,40 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Cixin_Liu_at_Worldcon_75%2C_Helsinki%2C_before_the_Hugo_Awards.jpg/400px-Cixin_Liu_at_Worldcon_75%2C_Helsinki%2C_before_the_Hugo_Awards.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Liu_Cixin",
   "open_library_url": "https://openlibrary.org/authors/OL7044246A",
-  "birth_year": 1963
+  "birth_year": 1963,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q607588",
+  "nationality": [
+    "CN"
+  ],
+  "viaf_id": "78192675",
+  "ol_author_key": "/authors/OL7044246A",
+  "awards": [
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2015
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2017
+    },
+    {
+      "name": "Ignotus Award for Best Foreign Novel",
+      "year": 2017
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 2020
+    },
+    {
+      "name": "Seiun Award for Best Translated Long Work",
+      "year": 2021
+    }
+  ]
 }

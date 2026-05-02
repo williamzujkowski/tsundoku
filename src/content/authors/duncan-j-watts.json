@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Duncan_Watts.jpg/400px-Duncan_Watts.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Duncan_J._Watts",
   "open_library_url": "https://openlibrary.org/authors/OL242261A",
-  "birth_year": 1971
+  "birth_year": 1971,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1265475",
+  "nationality": [
+    "AU"
+  ],
+  "viaf_id": "117258368",
+  "ol_author_key": "/authors/OL242261A",
+  "awards": [
+    {
+      "name": "Fellow of the American Association for the Advancement of Science",
+      "year": 2021
+    },
+    {
+      "name": "Carnegie Fellow",
+      "year": 2020
+    }
+  ]
 }

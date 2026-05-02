@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stefan_Zweig",
   "open_library_url": "https://openlibrary.org/authors/OL26439A",
   "birth_year": 1881,
-  "death_year": 1942
+  "death_year": 1942,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q78491",
+  "nationality": [
+    "AT"
+  ],
+  "viaf_id": "19685936",
+  "ol_author_key": "/authors/OL26439A",
+  "awards": [
+    {
+      "name": "Order of the Southern Cross"
+    }
+  ]
 }

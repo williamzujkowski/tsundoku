@@ -7,5 +7,18 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
   "open_library_url": "https://openlibrary.org/authors/OL18074A",
   "birth_year": 1724,
-  "death_year": 1804
+  "death_year": 1804,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9312",
+  "viaf_id": "82088490",
+  "ol_author_key": "/authors/OL18074A",
+  "movements": [
+    "German idealism",
+    "Age of Enlightenment"
+  ]
 }

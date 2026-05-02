@@ -7,5 +7,85 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gwendolyn_Brooks",
   "open_library_url": "https://openlibrary.org/authors/OL241940A",
   "birth_year": 1917,
-  "death_year": 2000
+  "death_year": 2000,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q270715",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "113723435",
+  "ol_author_key": "/authors/OL241940A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1946
+    },
+    {
+      "name": "National Medal of Arts"
+    },
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1988
+    },
+    {
+      "name": "Pulitzer Prize for Poetry",
+      "year": 1950
+    },
+    {
+      "name": "Library of Congress Living Legend"
+    },
+    {
+      "name": "Langston Hughes Medal",
+      "year": 1979
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1969
+    },
+    {
+      "name": "United States Poet Laureate",
+      "year": 1985
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 1989
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1994
+    },
+    {
+      "name": "Eunice Tietjens Memorial Prize",
+      "year": 1949
+    },
+    {
+      "name": "Black Literary Hall of Fame",
+      "year": 1998
+    },
+    {
+      "name": "Kuumba Liberation Award",
+      "year": 1969
+    },
+    {
+      "name": "Fellowship of the Academy of American Poets",
+      "year": 1999
+    },
+    {
+      "name": "Shelley Memorial Award",
+      "year": 1976
+    },
+    {
+      "name": "honorary degree from Spelman College",
+      "year": 1986
+    },
+    {
+      "name": "Order of Lincoln"
+    }
+  ]
 }

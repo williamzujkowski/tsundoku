@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Burckhardt",
   "open_library_url": "https://openlibrary.org/authors/OL117298A",
   "birth_year": 1818,
-  "death_year": 1897
+  "death_year": 1897,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q59945",
+  "nationality": [
+    "CH"
+  ],
+  "viaf_id": "51686578",
+  "ol_author_key": "/authors/OL117298A"
 }

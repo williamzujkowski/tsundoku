@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sigrid_Undset",
   "open_library_url": "https://openlibrary.org/authors/OL23696A",
   "birth_year": 1882,
-  "death_year": 1949
+  "death_year": 1949,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q80889",
+  "nationality": [
+    "NO"
+  ],
+  "viaf_id": "73860916",
+  "ol_author_key": "/authors/OL23696A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1928
+    },
+    {
+      "name": "Knight Grand Cross of the Order of St. Olav",
+      "year": 1947
+    },
+    {
+      "name": "Order of the Falcon"
+    }
+  ]
 }

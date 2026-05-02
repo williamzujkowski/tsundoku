@@ -7,5 +7,27 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Smith",
   "open_library_url": "https://openlibrary.org/authors/OL39302A",
   "birth_year": 1723,
-  "death_year": 1790
+  "death_year": 1790,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q9381",
+  "viaf_id": "49231791",
+  "ol_author_key": "/authors/OL39302A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society",
+      "year": 1767
+    },
+    {
+      "name": "Fellow of the Royal Society of Arts"
+    },
+    {
+      "name": "Fellow of the Royal Society of Edinburgh",
+      "year": 1783
+    }
+  ]
 }

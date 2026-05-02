@@ -7,5 +7,88 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
   "open_library_url": "https://openlibrary.org/authors/OL26320A",
   "birth_year": 1892,
-  "death_year": 1973
+  "death_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q892",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Oxymore"
+  ],
+  "viaf_id": "95218067",
+  "ol_author_key": "/authors/OL26320A",
+  "movements": [
+    "Inklings"
+  ],
+  "awards": [
+    {
+      "name": "Commander of the Order of the British Empire",
+      "year": 1972
+    },
+    {
+      "name": "Prometheus Award - Hall of Fame",
+      "year": 2009
+    },
+    {
+      "name": "Nebula Award for Best Script",
+      "year": 2003
+    },
+    {
+      "name": "Nebula Award for Best Script",
+      "year": 2004
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 1978
+    },
+    {
+      "name": "Nebula Award for Best Script",
+      "year": 2002
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation",
+      "year": 2002
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation, Long Form",
+      "year": 2003
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature",
+      "year": 1957
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2013
+    },
+    {
+      "name": "Hugo Award for Best Dramatic Presentation, Long Form",
+      "year": 2004
+    },
+    {
+      "name": "Ditmar Award",
+      "year": 1978
+    },
+    {
+      "name": "Mythopoeic Awards",
+      "year": 1980
+    },
+    {
+      "name": "International Fantasy Award for Best Fiction",
+      "year": 1957
+    },
+    {
+      "name": "Mythopoeic Fantasy Award",
+      "year": 1981
+    }
+  ]
 }

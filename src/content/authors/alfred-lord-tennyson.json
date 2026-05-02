@@ -7,5 +7,22 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alfred%2C_Lord_Tennyson",
   "open_library_url": "https://openlibrary.org/authors/OL30664A",
   "birth_year": 1809,
-  "death_year": 1892
+  "death_year": 1892,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q173869",
+  "viaf_id": "61540536",
+  "ol_author_key": "/authors/OL30664A",
+  "awards": [
+    {
+      "name": "Fellow of the Royal Society"
+    },
+    {
+      "name": "Chancellor's Gold Medal"
+    }
+  ]
 }

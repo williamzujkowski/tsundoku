@@ -6,5 +6,42 @@
   "photo_url": "https://covers.openlibrary.org/a/id/15114741-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL70857A",
   "birth_year": 1888,
-  "death_year": 1935
+  "death_year": 1935,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q170596",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "John Hume Ross",
+    "Thomas Edward Shaw",
+    "Laurence d'Arabie"
+  ],
+  "viaf_id": "100164858",
+  "ol_author_key": "/authors/OL70857A",
+  "awards": [
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1916
+    },
+    {
+      "name": "Croix de guerre 1914–1918",
+      "year": 1918
+    },
+    {
+      "name": "Companion of the Order of the Bath",
+      "year": 1917
+    },
+    {
+      "name": "Distinguished Service Order",
+      "year": 1918
+    }
+  ]
 }

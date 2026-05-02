@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fernando_Pessoa",
   "open_library_url": "https://openlibrary.org/authors/OL73160A",
   "birth_year": 1888,
-  "death_year": 1935
+  "death_year": 1935,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q173481",
+  "nationality": [
+    "PT"
+  ],
+  "alternate_names": [
+    "Alberto Caeiro",
+    "Álvaro de Campos",
+    "Ricardo Reis",
+    "Bernardo Soares"
+  ],
+  "viaf_id": "126144814444407525004",
+  "ol_author_key": "/authors/OL73160A"
 }

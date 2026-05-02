@@ -6,5 +6,75 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Headshot_8_Samuel_Delany.jpg/400px-Headshot_8_Samuel_Delany.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_R._Delany",
   "open_library_url": "https://openlibrary.org/authors/OL4391444A",
-  "birth_year": 1942
+  "birth_year": 1942,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q438164",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "84979632",
+  "ol_author_key": "/authors/OL4391444A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1967
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1968
+    },
+    {
+      "name": "Nebula Award for Best Short Story",
+      "year": 1968
+    },
+    {
+      "name": "Nebula Award for Best Novelette",
+      "year": 1970
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1970
+    },
+    {
+      "name": "Golden Graoully for Best Foreign Novel",
+      "year": 1978
+    },
+    {
+      "name": "Pilgrim Award",
+      "year": 1985
+    },
+    {
+      "name": "Hugo Award for Best Related Work",
+      "year": 1989
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1999
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2002
+    },
+    {
+      "name": "Brudner Prize",
+      "year": 2012
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2014
+    },
+    {
+      "name": "Stonewall Book Award"
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 2018
+    }
+  ]
 }

@@ -6,5 +6,44 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paul_McAuley_2005.JPG/400px-Paul_McAuley_2005.JPG",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_J._McAuley",
   "open_library_url": "https://openlibrary.org/authors/OL22866A",
-  "birth_year": 1955
+  "birth_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q187085",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "98998174",
+  "ol_author_key": "/authors/OL22866A",
+  "awards": [
+    {
+      "name": "Philip K. Dick Award",
+      "year": 1989
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 1996
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1997
+    },
+    {
+      "name": "Theodore Sturgeon Award",
+      "year": 2012
+    },
+    {
+      "name": "Sidewise Award for Alternate History",
+      "year": 1995
+    },
+    {
+      "name": "British Fantasy Award for Best Short Fiction",
+      "year": 1995
+    }
+  ]
 }

@@ -6,5 +6,83 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Louise_erdrich_8199_%28cropped%29.jpg/400px-Louise_erdrich_8199_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Louise_Erdrich",
   "open_library_url": "https://openlibrary.org/authors/OL30011A",
-  "birth_year": 1954
+  "birth_year": 1954,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q442679",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "110425107",
+  "ol_author_key": "/authors/OL30011A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1985
+    },
+    {
+      "name": "National Book Award",
+      "year": 2012
+    },
+    {
+      "name": "American Book Awards",
+      "year": 2013
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 2012
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 2009
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1987
+    },
+    {
+      "name": "Sue Kaufman Prize for First Fiction",
+      "year": 1985
+    },
+    {
+      "name": "Library of Congress Prize for American Fiction",
+      "year": 2015
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 1984
+    },
+    {
+      "name": "Owen Wister Award",
+      "year": 2017
+    },
+    {
+      "name": "WILLA Literary Award",
+      "year": 2000
+    },
+    {
+      "name": "Aspen Words Literary Prize"
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2016
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 1999
+    },
+    {
+      "name": "Prix Femina étranger",
+      "year": 2023
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 2021
+    }
+  ]
 }

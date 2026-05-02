@@ -7,5 +7,41 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Serge_Lang",
   "open_library_url": "https://openlibrary.org/authors/OL21478A",
   "birth_year": 1927,
-  "death_year": 2005
+  "death_year": 2005,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q371948",
+  "nationality": [
+    "FR",
+    "US"
+  ],
+  "viaf_id": "107030972",
+  "ol_author_key": "/authors/OL21478A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1965
+    },
+    {
+      "name": "Cole Prize in Algebra",
+      "year": 1959
+    },
+    {
+      "name": "Petit d'Ormoy, Carriere, Thebault Award",
+      "year": 1967
+    },
+    {
+      "name": "Humboldt Prize",
+      "year": 1984
+    },
+    {
+      "name": "Steele Prize for Mathematical Exposition",
+      "year": 1999
+    }
+  ]
 }

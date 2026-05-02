@@ -7,5 +7,42 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Langston_Hughes",
   "open_library_url": "https://openlibrary.org/authors/OL26459A",
   "birth_year": 1902,
-  "death_year": 1967
+  "death_year": 1967,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q188093",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "44315795",
+  "ol_author_key": "/authors/OL26459A",
+  "movements": [
+    "Harlem Renaissance",
+    "jazz poetry"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Spingarn Medal",
+      "year": 1960
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1954
+    },
+    {
+      "name": "William E. Harmon Foundation award for distinguished achievement among Negroes"
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

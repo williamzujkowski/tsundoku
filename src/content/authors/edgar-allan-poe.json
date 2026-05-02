@@ -7,5 +7,25 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe",
   "open_library_url": "https://openlibrary.org/authors/OL28127A",
   "birth_year": 1809,
-  "death_year": 1849
+  "death_year": 1849,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q16867",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Edgar A. Perry"
+  ],
+  "viaf_id": "60351476",
+  "ol_author_key": "/authors/OL28127A",
+  "movements": [
+    "Romanticism"
+  ]
 }

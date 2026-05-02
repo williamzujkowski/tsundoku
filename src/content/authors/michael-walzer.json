@@ -6,5 +6,30 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/MichaelWalzer-USNA-Lecture.jpg/400px-MichaelWalzer-USNA-Lecture.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Walzer",
   "open_library_url": "https://openlibrary.org/authors/OL543862A",
-  "birth_year": 1935
+  "birth_year": 1935,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q445511",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27048329",
+  "ol_author_key": "/authors/OL543862A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Fulbright Scholarship"
+    },
+    {
+      "name": "Dr. Leopold Lucas Prize",
+      "year": 1998
+    }
+  ]
 }

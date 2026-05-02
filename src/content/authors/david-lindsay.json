@@ -6,5 +6,17 @@
   "photo_url": "https://covers.openlibrary.org/a/id/14415776-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL756864A",
   "birth_year": 1876,
-  "death_year": 1945
+  "death_year": 1945,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1175275",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "67278926",
+  "ol_author_key": "/authors/OL756864A"
 }

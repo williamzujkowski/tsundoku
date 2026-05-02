@@ -6,5 +6,21 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jim_Butcher_by_Gage_Skidmore.jpg/400px-Jim_Butcher_by_Gage_Skidmore.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Butcher",
   "open_library_url": "https://openlibrary.org/authors/OL5152266A",
-  "birth_year": 1971
+  "birth_year": 1971,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1367995",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "32309016",
+  "ol_author_key": "/authors/OL5152266A",
+  "movements": [
+    "mysticism"
+  ]
 }

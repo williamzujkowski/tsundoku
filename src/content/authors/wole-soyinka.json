@@ -6,5 +6,80 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Wole_Soyinka_in_2018_%283x4_cropped%29.jpg/400px-Wole_Soyinka_in_2018_%283x4_cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Wole_Soyinka",
   "open_library_url": "https://openlibrary.org/authors/OL67096A",
-  "birth_year": 1934
+  "birth_year": 1934,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q41488",
+  "nationality": [
+    "NG"
+  ],
+  "viaf_id": "105939176",
+  "ol_author_key": "/authors/OL67096A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1986
+    },
+    {
+      "name": "Nigerian National Order of Merit Award"
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1983
+    },
+    {
+      "name": "Benson Medal",
+      "year": 1990
+    },
+    {
+      "name": "honorary doctor of Harvard University"
+    },
+    {
+      "name": "Weilheim Literature Prize",
+      "year": 2006
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Fellow of the African Academy of Sciences",
+      "year": 1991
+    },
+    {
+      "name": "Doctor honoris causa at University of Bayreuth"
+    },
+    {
+      "name": "honorary doctorate from Princeton University"
+    },
+    {
+      "name": "Order of the Federal Republic"
+    },
+    {
+      "name": "John Whiting Award"
+    },
+    {
+      "name": "Europe Theatre Prize",
+      "year": 2017
+    },
+    {
+      "name": "honorary doctorate from the University of Paris-VII",
+      "year": 1996
+    },
+    {
+      "name": "honorary doctorate from the University of Montpellier-III",
+      "year": 1985
+    },
+    {
+      "name": "Golden Magnolia",
+      "year": 2023
+    },
+    {
+      "name": "Grand Commander of the Order of the Niger, Civil Division"
+    }
+  ]
 }

@@ -6,5 +6,28 @@
   "birth_year": 1873,
   "death_year": 1945,
   "bio": "Novelist, short story writer (1873–1945)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Ellen%20Glasgow.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Ellen%20Glasgow.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q433325",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "69040787",
+  "ol_author_key": "/authors/OL32115A",
+  "awards": [
+    {
+      "name": "Pulitzer Prize for the Novel",
+      "year": 1942
+    },
+    {
+      "name": "William Dean Howells Medal of the American Academy of Arts and Letters",
+      "year": 1940
+    }
+  ]
 }

@@ -7,5 +7,71 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Pablo_Neruda",
   "open_library_url": "https://openlibrary.org/authors/OL89930A",
   "birth_year": 1904,
-  "death_year": 1973
+  "death_year": 1973,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q34189",
+  "nationality": [
+    "CL"
+  ],
+  "alternate_names": [
+    "Pablo Neruda"
+  ],
+  "viaf_id": "95126958",
+  "ol_author_key": "/authors/OL89930A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1971
+    },
+    {
+      "name": "National Prize for Literature (Chile)",
+      "year": 1945
+    },
+    {
+      "name": "World Peace Council prizes",
+      "year": 1955
+    },
+    {
+      "name": "International Stalin Prize for Peace",
+      "year": 1953
+    },
+    {
+      "name": "honorary doctorate of the National University of San Marcos"
+    },
+    {
+      "name": "Atenea Award",
+      "year": 1964
+    },
+    {
+      "name": "Commander of the Order of the Sun of Peru"
+    },
+    {
+      "name": "Viareggio-Versilia International Prize",
+      "year": 1967
+    },
+    {
+      "name": "Grawemeyer Award for Music Composition",
+      "year": 2008
+    },
+    {
+      "name": "honorary doctor of the Pontifical Catholic University of Chile"
+    },
+    {
+      "name": "Golden Wreath",
+      "year": 1972
+    },
+    {
+      "name": "Order of the Sun of Peru"
+    },
+    {
+      "name": "Order of the Aztec Eagle"
+    }
+  ]
 }

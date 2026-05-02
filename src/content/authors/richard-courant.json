@@ -6,5 +6,27 @@
   "photo_url": "https://covers.openlibrary.org/a/id/12768982-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL68351A",
   "birth_year": 1888,
-  "death_year": 1972
+  "death_year": 1972,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q61046",
+  "nationality": [
+    "DE",
+    "US"
+  ],
+  "viaf_id": "54212371",
+  "ol_author_key": "/authors/OL68351A",
+  "awards": [
+    {
+      "name": "Knight Commander's Cross of the Order of Merit of the Federal Republic of Germany"
+    },
+    {
+      "name": "Fellow of the American Physical Society"
+    }
+  ]
 }

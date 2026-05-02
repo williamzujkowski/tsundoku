@@ -5,5 +5,35 @@
   "open_library_url": "https://openlibrary.org/authors/OL830541A",
   "birth_year": 1922,
   "bio": "English military historian (1922–2019)",
-  "death_year": 2019
+  "death_year": 2019,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q431106",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "100248240",
+  "ol_author_key": "/authors/OL830541A",
+  "awards": [
+    {
+      "name": "Military Cross"
+    },
+    {
+      "name": "Commander of the Order of the British Empire"
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "Fellow of the Royal Historical Society"
+    },
+    {
+      "name": "Knight Bachelor"
+    }
+  ]
 }

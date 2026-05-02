@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dashiell_Hammett",
   "open_library_url": "https://openlibrary.org/authors/OL28314A",
   "birth_year": 1894,
-  "death_year": 1961
+  "death_year": 1961,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q186335",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "73854531",
+  "ol_author_key": "/authors/OL28314A"
 }

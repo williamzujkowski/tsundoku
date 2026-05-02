@@ -7,5 +7,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Algernon_Blackwood",
   "open_library_url": "https://openlibrary.org/authors/OL394726A",
   "birth_year": 1869,
-  "death_year": 1951
+  "death_year": 1951,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q507991",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "51685890",
+  "ol_author_key": "/authors/OL394726A",
+  "awards": [
+    {
+      "name": "Commander of the Order of the British Empire"
+    }
+  ]
 }

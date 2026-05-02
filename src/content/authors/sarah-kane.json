@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Kane",
   "open_library_url": "https://openlibrary.org/authors/OL1614632A",
   "birth_year": 1971,
-  "death_year": 1999
+  "death_year": 1999,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q231141",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "5087358",
+  "ol_author_key": "/authors/OL1614632A",
+  "awards": [
+    {
+      "name": "Europe Theatre Prize",
+      "year": 1999
+    }
+  ]
 }

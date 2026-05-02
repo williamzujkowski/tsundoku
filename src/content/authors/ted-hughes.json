@@ -7,5 +7,65 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ted_Hughes",
   "open_library_url": "https://openlibrary.org/authors/OL29871A",
   "birth_year": 1930,
-  "death_year": 1998
+  "death_year": 1998,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q272194",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "108232871",
+  "ol_author_key": "/authors/OL29871A",
+  "awards": [
+    {
+      "name": "King’s / Queen’s Gold Medal for Poetry",
+      "year": 1974
+    },
+    {
+      "name": "Order of Merit",
+      "year": 1998
+    },
+    {
+      "name": "Officer of the Order of the British Empire",
+      "year": 1977
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Guardian Children's Fiction Prize",
+      "year": 1985
+    },
+    {
+      "name": "Golden Wreath",
+      "year": 1994
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Somerset Maugham Award",
+      "year": 1960
+    },
+    {
+      "name": "T. S. Eliot Prize"
+    },
+    {
+      "name": "Hawthornden Prize",
+      "year": 1961
+    },
+    {
+      "name": "Heinemann Award",
+      "year": 1980
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 1983
+    }
+  ]
 }

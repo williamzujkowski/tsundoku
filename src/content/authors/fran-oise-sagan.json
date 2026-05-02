@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Sagan",
   "open_library_url": "https://openlibrary.org/authors/OL42805A",
   "birth_year": 1935,
-  "death_year": 2004
+  "death_year": 2004,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1646",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Françoise Sagan"
+  ],
+  "viaf_id": "96464325",
+  "ol_author_key": "/authors/OL42805A",
+  "awards": [
+    {
+      "name": "Prince Pierre Award",
+      "year": 1985
+    },
+    {
+      "name": "Prix du Brigadier",
+      "year": 1960
+    },
+    {
+      "name": "Prix des Critiques",
+      "year": 1954
+    },
+    {
+      "name": "Bancarella Selection Prize",
+      "year": 1955
+    }
+  ]
 }

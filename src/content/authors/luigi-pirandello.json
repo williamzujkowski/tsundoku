@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Luigi_Pirandello",
   "open_library_url": "https://openlibrary.org/authors/OL32292A",
   "birth_year": 1867,
-  "death_year": 1936
+  "death_year": 1936,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1403",
+  "alternate_names": [
+    "Caliban",
+    "Giulian Dorpelli",
+    "Fernando",
+    "Emma Nevini",
+    "Paulo Post"
+  ],
+  "viaf_id": "64010465",
+  "ol_author_key": "/authors/OL32292A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1934
+    },
+    {
+      "name": "Equestrian Order of the Holy Sepulchre"
+    }
+  ]
 }

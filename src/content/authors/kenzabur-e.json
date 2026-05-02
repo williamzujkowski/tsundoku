@@ -7,5 +7,76 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kenzabur%C5%8D_%C5%8Ce",
   "open_library_url": "https://openlibrary.org/authors/OL2781343A",
   "birth_year": 1935,
-  "death_year": 2023
+  "death_year": 2023,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q80095",
+  "nationality": [
+    "JP"
+  ],
+  "viaf_id": "97169275",
+  "ol_author_key": "/authors/OL4280455A",
+  "movements": [
+    "existentialism"
+  ],
+  "awards": [
+    {
+      "name": "Akutagawa Prize",
+      "year": 1958
+    },
+    {
+      "name": "Shinchosha literature award",
+      "year": 1964
+    },
+    {
+      "name": "Tanizaki Prize",
+      "year": 1967
+    },
+    {
+      "name": "Noma Literary Prize",
+      "year": 1973
+    },
+    {
+      "name": "Yomiuri Prize",
+      "year": 1983
+    },
+    {
+      "name": "Osaragi Jirō Award",
+      "year": 1983
+    },
+    {
+      "name": "Kawabata award",
+      "year": 1984
+    },
+    {
+      "name": "Sei Itō Award",
+      "year": 1990
+    },
+    {
+      "name": "Order of Culture",
+      "year": 1994
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1994
+    },
+    {
+      "name": "Asahi Prize",
+      "year": 1994
+    },
+    {
+      "name": "Grinzane Cavour Prize",
+      "year": 1996
+    },
+    {
+      "name": "Commander of the Legion of Honour",
+      "year": 2002
+    }
+  ]
 }

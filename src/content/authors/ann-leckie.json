@@ -6,5 +6,68 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/AnnLeckie.jpeg/400px-AnnLeckie.jpeg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ann_Leckie",
   "open_library_url": "https://openlibrary.org/authors/OL3399168A",
-  "birth_year": 1966
+  "birth_year": 1966,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q16204354",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "73520345",
+  "ol_author_key": "/authors/OL3399168A",
+  "awards": [
+    {
+      "name": "Sydney J. Bounds Award For Best Newcomer",
+      "year": 2014
+    },
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 2014
+    },
+    {
+      "name": "Hugo Award for Best Novel",
+      "year": 2014
+    },
+    {
+      "name": "Arthur C. Clarke Award",
+      "year": 2014
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 2013
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2014
+    },
+    {
+      "name": "Hugo Award for Best Series",
+      "year": 2024
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2015
+    },
+    {
+      "name": "Locus Award for Best Science Fiction Novel",
+      "year": 2016
+    },
+    {
+      "name": "Bob Morane award for best foreign novel",
+      "year": 2016
+    },
+    {
+      "name": "BSFA Award for Best Novel",
+      "year": 2014
+    },
+    {
+      "name": "Locus Award for Best Collection",
+      "year": 2025
+    }
+  ]
 }

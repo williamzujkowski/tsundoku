@@ -6,5 +6,77 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Re_publica_faces_2019_%2832858497617%29.jpg/400px-Re_publica_faces_2019_%2832858497617%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Cory_Doctorow",
   "open_library_url": "https://openlibrary.org/authors/OL1394244A",
-  "birth_year": 1971
+  "birth_year": 1971,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q110436",
+  "nationality": [
+    "CA",
+    "GB",
+    "US"
+  ],
+  "viaf_id": "12632978",
+  "ol_author_key": "/authors/OL1394244A",
+  "awards": [
+    {
+      "name": "EFF Award",
+      "year": 2007
+    },
+    {
+      "name": "Astounding Award for Best New Writer",
+      "year": 2000
+    },
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2004
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 2009
+    },
+    {
+      "name": "Theodore Sturgeon Award",
+      "year": 2015
+    },
+    {
+      "name": "Fulbright Scholarship"
+    },
+    {
+      "name": "Prometheus Award",
+      "year": 2009
+    },
+    {
+      "name": "Prometheus Award",
+      "year": 2013
+    },
+    {
+      "name": "Prometheus Award",
+      "year": 2014
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Novella",
+      "year": 2008
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 2006
+    },
+    {
+      "name": "Locus Award for Best Novelette",
+      "year": 2007
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 2012
+    }
+  ]
 }

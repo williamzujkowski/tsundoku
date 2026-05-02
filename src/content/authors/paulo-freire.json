@@ -7,5 +7,39 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Paulo_Freire",
   "open_library_url": "https://openlibrary.org/authors/OL223954A",
   "birth_year": 1921,
-  "death_year": 1997
+  "death_year": 1997,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q164797",
+  "nationality": [
+    "BR"
+  ],
+  "viaf_id": "90070192",
+  "ol_author_key": "/authors/OL223954A",
+  "awards": [
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 1991
+    },
+    {
+      "name": "Order of Cultural Merit (Brazil)",
+      "year": 2011
+    },
+    {
+      "name": "honorary doctor of the University of Brasília"
+    },
+    {
+      "name": "UNESCO Prize for Peace Education",
+      "year": 1986
+    },
+    {
+      "name": "honorary doctorate",
+      "year": 1973
+    }
+  ]
 }

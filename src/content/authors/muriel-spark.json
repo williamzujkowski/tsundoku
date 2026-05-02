@@ -7,5 +7,65 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Muriel_Spark",
   "open_library_url": "https://openlibrary.org/authors/OL26160A",
   "birth_year": 1918,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q233956",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "108218531",
+  "ol_author_key": "/authors/OL26160A",
+  "awards": [
+    {
+      "name": "Dame Commander of the Order of the British Empire",
+      "year": 1993
+    },
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 1965
+    },
+    {
+      "name": "honorary doctor of the University of Aberdeen"
+    },
+    {
+      "name": "Honorary doctor of the University of Oxford"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres",
+      "year": 1996
+    },
+    {
+      "name": "Golden PEN Award",
+      "year": 1998
+    },
+    {
+      "name": "Lost Man Booker Prize",
+      "year": 2010
+    },
+    {
+      "name": "Bram Stoker Award for Best Non-Fiction",
+      "year": 1987
+    },
+    {
+      "name": "Saltire Awards",
+      "year": 1987
+    },
+    {
+      "name": "David Cohen Prize",
+      "year": 1997
+    },
+    {
+      "name": "Officer of the Order of the British Empire",
+      "year": 1967
+    }
+  ]
 }

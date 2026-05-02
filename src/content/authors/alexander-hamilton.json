@@ -6,5 +6,31 @@
   "photo_url": "https://covers.openlibrary.org/a/id/14850191-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL363754A",
   "birth_year": 1757,
-  "death_year": 1804
+  "death_year": 1804,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q178903",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "Publius"
+  ],
+  "viaf_id": "66496514",
+  "ol_author_key": "/authors/OL363754A",
+  "awards": [
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "New Jersey Hall of Fame",
+      "year": 2021
+    }
+  ]
 }

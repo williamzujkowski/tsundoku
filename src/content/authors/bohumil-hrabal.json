@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bohumil_Hrabal",
   "open_library_url": "https://openlibrary.org/authors/OL73209A",
   "birth_year": 1914,
-  "death_year": 1997
+  "death_year": 1997,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q242130",
+  "nationality": [
+    "CZ"
+  ],
+  "viaf_id": "34458072",
+  "ol_author_key": "/authors/OL73209A",
+  "awards": [
+    {
+      "name": "Czech Medal of Merit",
+      "year": 1996
+    },
+    {
+      "name": "Jaroslav Seifert Prize",
+      "year": 1993
+    },
+    {
+      "name": "honorary doctor of the University of Padua",
+      "year": 1996
+    },
+    {
+      "name": "Klement Gottwald State Prize",
+      "year": 1968
+    },
+    {
+      "name": "Merited Artist of Czechoslovakia",
+      "year": 1989
+    }
+  ]
 }

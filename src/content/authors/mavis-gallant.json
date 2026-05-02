@@ -7,5 +7,54 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mavis_Gallant",
   "open_library_url": "https://openlibrary.org/authors/OL499566A",
   "birth_year": 1922,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q2550824",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "92466956",
+  "ol_author_key": "/authors/OL499566A",
+  "awards": [
+    {
+      "name": "Molson Prize",
+      "year": 1996
+    },
+    {
+      "name": "Companion of the Order of Canada"
+    },
+    {
+      "name": "Governor General's Award for English-language fiction",
+      "year": 1981
+    },
+    {
+      "name": "Rea Award for the Short Story",
+      "year": 2002
+    },
+    {
+      "name": "PEN/Nabokov Award",
+      "year": 2004
+    },
+    {
+      "name": "Prix Athanase-David",
+      "year": 2006
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Matt Cohen Award",
+      "year": 2000
+    },
+    {
+      "name": "Governor General's Literary Awards",
+      "year": 1982
+    }
+  ]
 }

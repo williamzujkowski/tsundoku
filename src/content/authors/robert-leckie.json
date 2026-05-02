@@ -6,5 +6,23 @@
   "photo_url": "https://covers.openlibrary.org/a/id/8142995-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL231484A",
   "birth_year": 1920,
-  "death_year": 2001
+  "death_year": 2001,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q1332253",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "38162728",
+  "ol_author_key": "/authors/OL5232793A",
+  "awards": [
+    {
+      "name": "Purple Heart"
+    }
+  ]
 }

@@ -5,5 +5,28 @@
   "photo_url": "https://covers.openlibrary.org/a/id/8085718-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL772166A",
   "bio": "American computer scientist",
-  "birth_year": 1956
+  "birth_year": 1956,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q92832",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "85294319",
+  "ol_author_key": "/authors/OL772166A",
+  "awards": [
+    {
+      "name": "AAAI Fellow",
+      "year": 2001
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 2006
+    }
+  ]
 }

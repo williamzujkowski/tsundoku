@@ -7,5 +7,46 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hilary_Putnam",
   "open_library_url": "https://openlibrary.org/authors/OL582059A",
   "birth_year": 1926,
-  "death_year": 2016
+  "death_year": 2016,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q221697",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108290352",
+  "ol_author_key": "/authors/OL582059A",
+  "movements": [
+    "scientific realism"
+  ],
+  "awards": [
+    {
+      "name": "Nicholas Rescher Prize for Systematic Philosophy",
+      "year": 2014
+    },
+    {
+      "name": "Rolf Schock Prize in Logic and Philosophy",
+      "year": 2011
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Lauener Prize",
+      "year": 2012
+    },
+    {
+      "name": "Carus Lectures",
+      "year": 1985
+    }
+  ]
 }

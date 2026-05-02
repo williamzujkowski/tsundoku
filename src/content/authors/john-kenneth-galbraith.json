@@ -7,5 +7,87 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Kenneth_Galbraith",
   "open_library_url": "https://openlibrary.org/authors/OL22553A",
   "birth_year": 1908,
-  "death_year": 2006
+  "death_year": 2006,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q186042",
+  "nationality": [
+    "CA",
+    "US"
+  ],
+  "viaf_id": "108307703",
+  "ol_author_key": "/authors/OL22553A",
+  "movements": [
+    "institutional economics",
+    "Keynesian economics"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1955
+    },
+    {
+      "name": "The Hillman Prize for Book Journalism",
+      "year": 1959
+    },
+    {
+      "name": "honorary doctor of the Katholieke Universiteit Leuven",
+      "year": 1972
+    },
+    {
+      "name": "honorary doctorate from University of Paris-II",
+      "year": 1974
+    },
+    {
+      "name": "Humanist of the Year",
+      "year": 1985
+    },
+    {
+      "name": "Lomonosov Gold Medal",
+      "year": 1993
+    },
+    {
+      "name": "Lysenko Prize",
+      "year": 1994
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 2000
+    },
+    {
+      "name": "Library of Congress Living Legend"
+    },
+    {
+      "name": "Leontief Prize for Advancing the Frontiers of Economic Thought",
+      "year": 2000
+    },
+    {
+      "name": "Officer of the Order of Canada"
+    },
+    {
+      "name": "Four Freedoms Award – Freedom from Want"
+    },
+    {
+      "name": "honorary citizenship"
+    },
+    {
+      "name": "Padma Vibhushan in literature & education"
+    },
+    {
+      "name": "Distinguished Fellow of the American Economic Association"
+    },
+    {
+      "name": "Padma Bhushan"
+    },
+    {
+      "name": "Medal of Freedom",
+      "year": 1946
+    }
+  ]
 }

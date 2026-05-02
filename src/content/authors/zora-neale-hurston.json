@@ -7,5 +7,51 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston",
   "open_library_url": "https://openlibrary.org/authors/OL226273A",
   "birth_year": 1891,
-  "death_year": 1960
+  "death_year": 1960,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q220480",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "62824341",
+  "ol_author_key": "/authors/OL6841734A",
+  "movements": [
+    "Harlem Renaissance"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1936
+    },
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1994
+    },
+    {
+      "name": "Florida Women's Hall of Fame",
+      "year": 1984
+    },
+    {
+      "name": "Florida Artists Hall of Fame"
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1943
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1937
+    },
+    {
+      "name": "Alabama Women's Hall of Fame",
+      "year": 2013
+    }
+  ]
 }

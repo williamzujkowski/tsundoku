@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Keyes",
   "open_library_url": "https://openlibrary.org/authors/OL35895A",
   "birth_year": 1927,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q185714",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "12426914",
+  "ol_author_key": "/authors/OL35895A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novel",
+      "year": 1967
+    },
+    {
+      "name": "Hugo Award for Best Short Story",
+      "year": 1960
+    },
+    {
+      "name": "Author Emeritus"
+    }
+  ]
 }

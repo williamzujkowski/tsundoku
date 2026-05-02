@@ -5,5 +5,39 @@
   "photo_url": "https://covers.openlibrary.org/a/id/8270492-M.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL717241A",
   "birth_year": 1945,
-  "bio": "American economist"
+  "bio": "American economist",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q371212",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "112163776",
+  "ol_author_key": "/authors/OL717241A",
+  "awards": [
+    {
+      "name": "Global Economy Prize",
+      "year": 2014
+    },
+    {
+      "name": "Prize in Economic Sciences in Memory of Alfred Nobel",
+      "year": 2017
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 2012
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Clarivate Citation Laureates",
+      "year": 2002
+    }
+  ]
 }

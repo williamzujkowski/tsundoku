@@ -7,5 +7,36 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/A._K._Ramanujan",
   "open_library_url": "https://openlibrary.org/authors/OL7474A",
   "birth_year": 1929,
-  "death_year": 1993
+  "death_year": 1993,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3519662",
+  "nationality": [
+    "IN"
+  ],
+  "viaf_id": "76344110",
+  "ol_author_key": "/authors/OL7474A",
+  "awards": [
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 1983
+    },
+    {
+      "name": "Sahitya Akademi Award",
+      "year": 1999
+    },
+    {
+      "name": "Fulbright Scholarship",
+      "year": 1959
+    },
+    {
+      "name": "Padma Shri in literature and education",
+      "year": 1976
+    }
+  ]
 }

@@ -7,5 +7,31 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Bernanos",
   "open_library_url": "https://openlibrary.org/authors/OL28989A",
   "birth_year": 1888,
-  "death_year": 1948
+  "death_year": 1948,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q315072",
+  "nationality": [
+    "FR"
+  ],
+  "viaf_id": "44295297",
+  "ol_author_key": "/authors/OL28989A",
+  "awards": [
+    {
+      "name": "Prix Femina",
+      "year": 1929
+    },
+    {
+      "name": "Grand Prix du roman de l'Académie française",
+      "year": 1936
+    },
+    {
+      "name": "Grand Prize for the Best Novels of the Half-Century"
+    }
+  ]
 }

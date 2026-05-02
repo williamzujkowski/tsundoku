@@ -6,5 +6,24 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tamsyn_Muir_at_BookExpo_%2815987%29.jpg/400px-Tamsyn_Muir_at_BookExpo_%2815987%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tamsyn_Muir",
   "open_library_url": "https://openlibrary.org/authors/OL7483937A",
-  "birth_year": 1985
+  "birth_year": 1985,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q65969383",
+  "nationality": [
+    "NZ"
+  ],
+  "viaf_id": "26156856244449600256",
+  "ol_author_key": "/authors/OL7483937A",
+  "awards": [
+    {
+      "name": "Locus Award for Best First Novel",
+      "year": 2020
+    }
+  ]
 }

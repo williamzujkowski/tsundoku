@@ -6,5 +6,51 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mia_Couto_%28cropped%29.jpg/400px-Mia_Couto_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mia_Couto",
   "open_library_url": "https://openlibrary.org/authors/OL85528A",
-  "birth_year": 1955
+  "birth_year": 1955,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q382101",
+  "nationality": [
+    "MZ"
+  ],
+  "viaf_id": "51713331",
+  "ol_author_key": "/authors/OL85528A",
+  "awards": [
+    {
+      "name": "Camões Prize",
+      "year": 2013
+    },
+    {
+      "name": "Neustadt International Prize for Literature",
+      "year": 2014
+    },
+    {
+      "name": "Order of Cultural Merit (Brazil)",
+      "year": 2009
+    },
+    {
+      "name": "Commander of the Military Order of Saint James of the Sword"
+    },
+    {
+      "name": "Prémio Vergílio Ferreira",
+      "year": 1999
+    },
+    {
+      "name": "Prix Tropiques",
+      "year": 2012
+    },
+    {
+      "name": "Prix Albert-Bernard",
+      "year": 2020
+    },
+    {
+      "name": "FIL Award",
+      "year": 2024
+    }
+  ]
 }

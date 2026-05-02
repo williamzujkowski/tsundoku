@@ -7,5 +7,88 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Adrienne_Rich",
   "open_library_url": "https://openlibrary.org/authors/OL225221A",
   "birth_year": 1929,
-  "death_year": 2012
+  "death_year": 2012,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q270705",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "16565",
+  "ol_author_key": "/authors/OL225221A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1952
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 1994
+    },
+    {
+      "name": "Bollingen Prize",
+      "year": 2003
+    },
+    {
+      "name": "Lambda Literary Award"
+    },
+    {
+      "name": "National Book Award",
+      "year": 1974
+    },
+    {
+      "name": "Ruth Lilly Poetry Prize",
+      "year": 1986
+    },
+    {
+      "name": "Common Wealth Award of Distinguished Service",
+      "year": 1991
+    },
+    {
+      "name": "Poets' Prize",
+      "year": 1992
+    },
+    {
+      "name": "Robert Frost Medal",
+      "year": 1992
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "honorary doctor of Brandeis University"
+    },
+    {
+      "name": "honorary doctor of Harvard University"
+    },
+    {
+      "name": "Fellowship of the Academy of American Poets",
+      "year": 1992
+    },
+    {
+      "name": "Shelley Memorial Award",
+      "year": 1971
+    },
+    {
+      "name": "Wallace Stevens Award",
+      "year": 1996
+    },
+    {
+      "name": "National Book Critics Circle Award for Poetry",
+      "year": 2004
+    },
+    {
+      "name": "Lenore Marshall Poetry Prize",
+      "year": 1992
+    },
+    {
+      "name": "National Book Award",
+      "year": 2006
+    }
+  ]
 }

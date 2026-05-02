@@ -6,5 +6,59 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Maxine_Hong_Kingston_by_David_Shankbone.jpg/400px-Maxine_Hong_Kingston_by_David_Shankbone.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Maxine_Hong_Kingston",
   "open_library_url": "https://openlibrary.org/authors/OL218453A",
-  "birth_year": 1940
+  "birth_year": 1940,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q19330",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "108862703",
+  "ol_author_key": "/authors/OL218453A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1982
+    },
+    {
+      "name": "National Book Award",
+      "year": 1981
+    },
+    {
+      "name": "National Humanities Medal",
+      "year": 1997
+    },
+    {
+      "name": "National Medal of Arts",
+      "year": 2013
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1978
+    },
+    {
+      "name": "Dos Passos Prize",
+      "year": 1998
+    },
+    {
+      "name": "honorary doctor of Brandeis University"
+    },
+    {
+      "name": "National Book Critics Circle Award in Nonfiction",
+      "year": 1976
+    },
+    {
+      "name": "Asian American Literary Awards",
+      "year": 2006
+    },
+    {
+      "name": "Medal for Distinguished Contribution to American Letters",
+      "year": 2008
+    }
+  ]
 }

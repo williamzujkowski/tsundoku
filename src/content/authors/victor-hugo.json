@@ -7,5 +7,35 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Hugo",
   "open_library_url": "https://openlibrary.org/authors/OL107571A",
   "birth_year": 1802,
-  "death_year": 1885
+  "death_year": 1885,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q535",
+  "nationality": [
+    "FR",
+    "BE",
+    "GB"
+  ],
+  "viaf_id": "9847974",
+  "ol_author_key": "/authors/OL107571A",
+  "movements": [
+    "freethought",
+    "French Romanticism"
+  ],
+  "awards": [
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 1837
+    },
+    {
+      "name": "Knight of the Legion of Honour",
+      "year": 1825
+    }
+  ]
 }

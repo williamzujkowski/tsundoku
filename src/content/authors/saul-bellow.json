@@ -7,5 +7,89 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Saul_Bellow",
   "open_library_url": "https://openlibrary.org/authors/OL33600A",
   "birth_year": 1915,
-  "death_year": 2005
+  "death_year": 2005,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q83059",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "27060791",
+  "ol_author_key": "/authors/OL33600A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1976
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1948
+    },
+    {
+      "name": "National Medal of Arts"
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 1954
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 1965
+    },
+    {
+      "name": "National Book Award for Fiction",
+      "year": 1971
+    },
+    {
+      "name": "Pulitzer Prize for Fiction",
+      "year": 1976
+    },
+    {
+      "name": "Jefferson Lecture",
+      "year": 1977
+    },
+    {
+      "name": "St. Louis Literary Award",
+      "year": 1986
+    },
+    {
+      "name": "PEN/Malamud Award",
+      "year": 1989
+    },
+    {
+      "name": "Helmerich Award",
+      "year": 1989
+    },
+    {
+      "name": "Common Wealth Award of Distinguished Service",
+      "year": 1998
+    },
+    {
+      "name": "Emerson-Thoreau Medal",
+      "year": 1977
+    },
+    {
+      "name": "Prix Formentor",
+      "year": 1965
+    },
+    {
+      "name": "Officer of the Legion of Honour"
+    },
+    {
+      "name": "O. Henry Award",
+      "year": 1980
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences"
+    },
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1955
+    }
+  ]
 }

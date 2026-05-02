@@ -7,5 +7,20 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Danilo_Ki%C5%A1",
   "open_library_url": "https://openlibrary.org/authors/OL228405A",
   "birth_year": 1935,
-  "death_year": 1989
+  "death_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3932941",
+  "viaf_id": "73892940",
+  "ol_author_key": "/authors/OL228405A",
+  "awards": [
+    {
+      "name": "Andrić Prize",
+      "year": 2003
+    }
+  ]
 }

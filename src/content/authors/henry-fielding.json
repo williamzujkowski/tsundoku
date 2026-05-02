@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Fielding",
   "open_library_url": "https://openlibrary.org/authors/OL18298A",
   "birth_year": 1707,
-  "death_year": 1754
+  "death_year": 1754,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q34190",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "61545697",
+  "ol_author_key": "/authors/OL3894951A"
 }

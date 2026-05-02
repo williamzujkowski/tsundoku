@@ -7,5 +7,56 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Carson",
   "open_library_url": "https://openlibrary.org/authors/OL225621A",
   "birth_year": 1907,
-  "death_year": 1964
+  "death_year": 1964,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q100948",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "4927694",
+  "ol_author_key": "/authors/OL225621A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1951
+    },
+    {
+      "name": "John Burroughs Medal",
+      "year": 1952
+    },
+    {
+      "name": "National Women's Hall of Fame",
+      "year": 1973
+    },
+    {
+      "name": "Presidential Medal of Freedom",
+      "year": 1980
+    },
+    {
+      "name": "National Book Award for Nonfiction",
+      "year": 1952
+    },
+    {
+      "name": "Cullum Geographical Medal",
+      "year": 1963
+    },
+    {
+      "name": "Audubon Medal",
+      "year": 1963
+    },
+    {
+      "name": "AAAS Kavli Science Journalism Award",
+      "year": 1950
+    },
+    {
+      "name": "Maryland Women's Hall of Fame",
+      "year": 1985
+    }
+  ]
 }

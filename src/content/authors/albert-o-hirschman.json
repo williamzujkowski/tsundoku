@@ -7,5 +7,66 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Albert_O._Hirschman",
   "open_library_url": "https://openlibrary.org/authors/OL402777A",
   "birth_year": 1915,
-  "death_year": 2012
+  "death_year": 2012,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q215949",
+  "nationality": [
+    "US",
+    "DE"
+  ],
+  "alternate_names": [
+    "Albert Hermant"
+  ],
+  "viaf_id": "71402210",
+  "ol_author_key": "/authors/OL402777A",
+  "awards": [
+    {
+      "name": "Leontief Prize for Advancing the Frontiers of Economic Thought",
+      "year": 2013
+    },
+    {
+      "name": "Honorary doctor of the Free University of Berlin"
+    },
+    {
+      "name": "Distinguished Fellow of the American Economic Association"
+    },
+    {
+      "name": "Silvert Award",
+      "year": 1986
+    },
+    {
+      "name": "honorary doctor of the University of Trier"
+    },
+    {
+      "name": "honorary doctor of the University of Madrid Complutense",
+      "year": 2001
+    },
+    {
+      "name": "Great Immigrants Award",
+      "year": 2007
+    },
+    {
+      "name": "honorary doctorate of Paris Nanterre University",
+      "year": 1992
+    },
+    {
+      "name": "honorary doctorate from University of Grenoble-II",
+      "year": 1996
+    },
+    {
+      "name": "honorary doctorate from Sciences Po",
+      "year": 1989
+    },
+    {
+      "name": "Toynbee Prize",
+      "year": 1997
+    }
+  ]
 }

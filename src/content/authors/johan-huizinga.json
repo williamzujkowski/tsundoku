@@ -7,5 +7,20 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Johan_Huizinga",
   "open_library_url": "https://openlibrary.org/authors/OL116241A",
   "birth_year": 1872,
-  "death_year": 1945
+  "death_year": 1945,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q276280",
+  "viaf_id": "66468881",
+  "ol_author_key": "/authors/OL116241A",
+  "awards": [
+    {
+      "name": "D.A. Thiemeprijs",
+      "year": 1920
+    }
+  ]
 }

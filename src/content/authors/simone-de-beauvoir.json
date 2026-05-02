@@ -7,5 +7,45 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
   "open_library_url": "https://openlibrary.org/authors/OL63285A",
   "birth_year": 1908,
-  "death_year": 1986
+  "death_year": 1986,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q7197",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Le Castor"
+  ],
+  "viaf_id": "2466221",
+  "ol_author_key": "/authors/OL63285A",
+  "movements": [
+    "atheism",
+    "feminism",
+    "existentialism"
+  ],
+  "awards": [
+    {
+      "name": "Prix Goncourt",
+      "year": 1954
+    },
+    {
+      "name": "Jerusalem Prize",
+      "year": 1975
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 1978
+    },
+    {
+      "name": "honorary doctorate of Concordia University"
+    }
+  ]
 }

@@ -7,5 +7,22 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
   "open_library_url": "https://openlibrary.org/authors/OL673325A",
   "birth_year": 1875,
-  "death_year": 1926
+  "death_year": 1926,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76483",
+  "nationality": [
+    "DE",
+    "AT"
+  ],
+  "viaf_id": "46897170",
+  "ol_author_key": "/authors/OL673325A",
+  "movements": [
+    "Symbolism"
+  ]
 }

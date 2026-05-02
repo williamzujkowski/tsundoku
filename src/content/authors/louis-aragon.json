@@ -7,5 +7,63 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_Aragon",
   "open_library_url": "https://openlibrary.org/authors/OL52836A",
   "birth_year": 1897,
-  "death_year": 1982
+  "death_year": 1982,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q4128",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Arnaud Saint Romain",
+    "Arnaud de Saint-Roman",
+    "François la Colère",
+    "Témoin des martyrs",
+    "Albert de Routisie"
+  ],
+  "viaf_id": "8178518",
+  "ol_author_key": "/authors/OL2809202A",
+  "movements": [
+    "Dada",
+    "surrealism",
+    "socialist realism"
+  ],
+  "awards": [
+    {
+      "name": "Prix Renaudot",
+      "year": 1936
+    },
+    {
+      "name": "Order of the October Revolution",
+      "year": 1972
+    },
+    {
+      "name": "Order of Friendship of Peoples",
+      "year": 1977
+    },
+    {
+      "name": "Lenin Peace Prize",
+      "year": 1957
+    },
+    {
+      "name": "Croix de guerre 1939–1945"
+    },
+    {
+      "name": "Croix de guerre 1914–1918"
+    },
+    {
+      "name": "Médaille militaire"
+    },
+    {
+      "name": "honorary doctorate of the University of Moscow",
+      "year": 1965
+    }
+  ]
 }

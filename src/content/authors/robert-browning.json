@@ -7,5 +7,17 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Browning",
   "open_library_url": "https://openlibrary.org/authors/OL48850A",
   "birth_year": 1812,
-  "death_year": 1889
+  "death_year": 1889,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q233265",
+  "nationality": [
+    "GB"
+  ],
+  "viaf_id": "24598774",
+  "ol_author_key": "/authors/OL48850A"
 }

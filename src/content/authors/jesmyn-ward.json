@@ -6,5 +6,40 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Jesmyn_Ward.jpeg/400px-Jesmyn_Ward.jpeg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jesmyn_Ward",
   "open_library_url": "https://openlibrary.org/authors/OL5148378A",
-  "birth_year": 1977
+  "birth_year": 1977,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3177574",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "48698155",
+  "ol_author_key": "/authors/OL5148378A",
+  "awards": [
+    {
+      "name": "National Book Award",
+      "year": 2011
+    },
+    {
+      "name": "PEN Oakland/Josephine Miles Literary Award",
+      "year": 2012
+    },
+    {
+      "name": "MacArthur Fellows Program",
+      "year": 2017
+    },
+    {
+      "name": "Time 100",
+      "year": 2018
+    },
+    {
+      "name": "National Book Award",
+      "year": 2017
+    }
+  ]
 }

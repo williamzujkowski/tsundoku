@@ -7,5 +7,52 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/James_C._Scott",
   "open_library_url": "https://openlibrary.org/authors/OL2444127A",
   "birth_year": 1936,
-  "death_year": 2024
+  "death_year": 2024,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3025403",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "47858502",
+  "ol_author_key": "/authors/OL4398216A",
+  "movements": [
+    "anarchist anthropology"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship"
+    },
+    {
+      "name": "Sterling Professor"
+    },
+    {
+      "name": "Fukuoka Asian Culture Prize",
+      "year": 2010
+    },
+    {
+      "name": "honorary doctor of the University of Uppsala"
+    },
+    {
+      "name": "A.SK Social Science Award",
+      "year": 2021
+    },
+    {
+      "name": "Benjamin E. Lippincott Award",
+      "year": 2015
+    },
+    {
+      "name": "Albert O. Hirschman Prize"
+    },
+    {
+      "name": "John K. Fairbank Prize",
+      "year": 2010
+    }
+  ]
 }

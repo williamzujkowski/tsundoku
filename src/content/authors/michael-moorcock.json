@@ -6,5 +6,83 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Michael_Moorcock_2012_%28cropped%29.jpg/400px-Michael_Moorcock_2012_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Moorcock",
   "open_library_url": "https://openlibrary.org/authors/OL394285A",
-  "birth_year": 1939
+  "birth_year": 1939,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q316138",
+  "nationality": [
+    "GB"
+  ],
+  "alternate_names": [
+    "Bill Barclay",
+    "William Ewert Barclay",
+    "Michael Barrington",
+    "Edward P. Bradbury",
+    "James Colvin",
+    "Warwick Colvin, Jr.",
+    "Philip James",
+    "Desmond Reid"
+  ],
+  "viaf_id": "109785773",
+  "ol_author_key": "/authors/OL394285A",
+  "awards": [
+    {
+      "name": "Nebula Award for Best Novella",
+      "year": 1968
+    },
+    {
+      "name": "August Derleth Award",
+      "year": 1972
+    },
+    {
+      "name": "August Derleth Award",
+      "year": 1973
+    },
+    {
+      "name": "August Derleth Award",
+      "year": 1975
+    },
+    {
+      "name": "August Derleth Award",
+      "year": 1976
+    },
+    {
+      "name": "Guardian Fiction Prize",
+      "year": 1977
+    },
+    {
+      "name": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "year": 1979
+    },
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 1979
+    },
+    {
+      "name": "Bram Stoker Award for Lifetime Achievement",
+      "year": 2004
+    },
+    {
+      "name": "Damon Knight Memorial Grand Master Award",
+      "year": 2008
+    },
+    {
+      "name": "Science Fiction and Fantasy Hall of Fame",
+      "year": 2002
+    },
+    {
+      "name": "Inkpot Award",
+      "year": 1997
+    },
+    {
+      "name": "British Fantasy Award for Best Short Fiction",
+      "year": 1974
+    }
+  ]
 }

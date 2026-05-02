@@ -7,5 +7,24 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lorraine_Hansberry",
   "open_library_url": "https://openlibrary.org/authors/OL444165A",
   "birth_year": 1930,
-  "death_year": 1965
+  "death_year": 1965,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q461758",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "71424350",
+  "ol_author_key": "/authors/OL444165A",
+  "awards": [
+    {
+      "name": "Chicago Gay and Lesbian Hall of Fame",
+      "year": 1999
+    }
+  ]
 }

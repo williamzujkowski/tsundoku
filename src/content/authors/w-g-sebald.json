@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/W._G._Sebald",
   "open_library_url": "https://openlibrary.org/authors/OL34270A",
   "birth_year": 1944,
-  "death_year": 2001
+  "death_year": 2001,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q76952",
+  "nationality": [
+    "DE"
+  ],
+  "viaf_id": "7399859",
+  "ol_author_key": "/authors/OL34270A",
+  "awards": [
+    {
+      "name": "Heinrich-Böll-Preis",
+      "year": 1997
+    },
+    {
+      "name": "Joseph-Breitbach-Preis",
+      "year": 2000
+    },
+    {
+      "name": "Literaturpreis der Stadt Bremen",
+      "year": 2002
+    },
+    {
+      "name": "Berliner Literaturpreis",
+      "year": 1994
+    },
+    {
+      "name": "Johannes Bobrowski Medal",
+      "year": 1994
+    },
+    {
+      "name": "National Book Critics Circle Award for Fiction",
+      "year": 2001
+    }
+  ]
 }

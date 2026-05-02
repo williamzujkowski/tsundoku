@@ -5,5 +5,17 @@
   "bio": "Epicurus was an ancient Greek philosopher who founded Epicureanism, a highly influential school of philosophy; it asserted that philosophy's purpose is to attain as well as to help others attain tranquil lives, characterized by freedom from fear and the absence of pain.",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Epikouros_BM_1843.jpg/400px-Epikouros_BM_1843.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Epicurus",
-  "open_library_url": "https://openlibrary.org/authors/OL269978A"
+  "open_library_url": "https://openlibrary.org/authors/OL269978A",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1"
+  },
+  "wikidata_qid": "Q43216",
+  "viaf_id": "64141756",
+  "ol_author_key": "/authors/OL269978A",
+  "movements": [
+    "Epicureanism"
+  ]
 }

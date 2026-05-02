@@ -6,5 +6,32 @@
   "birth_year": 1892,
   "death_year": 1942,
   "bio": "Novelist, children's writer, artist (1892-1942)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Will%20James%2C%20artist.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Will%20James%2C%20artist.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q3568291",
+  "nationality": [
+    "CA"
+  ],
+  "alternate_names": [
+    "Will James"
+  ],
+  "viaf_id": "54949326",
+  "ol_author_key": "/authors/OL20216A",
+  "awards": [
+    {
+      "name": "member of the Nevada Writers Hall of Fame",
+      "year": 1991
+    },
+    {
+      "name": "Newbery Medal",
+      "year": 1927
+    }
+  ]
 }

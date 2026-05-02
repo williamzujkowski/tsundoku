@@ -7,5 +7,68 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nadine_Gordimer",
   "open_library_url": "https://openlibrary.org/authors/OL20580A",
   "birth_year": 1923,
-  "death_year": 2014
+  "death_year": 2014,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q47619",
+  "nationality": [
+    "ZA"
+  ],
+  "viaf_id": "86692340",
+  "ol_author_key": "/authors/OL20580A",
+  "awards": [
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1991
+    },
+    {
+      "name": "Officer of the Legion of Honour"
+    },
+    {
+      "name": "Commandeur des Arts et des Lettres"
+    },
+    {
+      "name": "WH Smith Literary Award",
+      "year": 1961
+    },
+    {
+      "name": "James Tait Black Memorial Prize",
+      "year": 1971
+    },
+    {
+      "name": "Booker Prize",
+      "year": 1974
+    },
+    {
+      "name": "Central News Agency Literary Award",
+      "year": 1974
+    },
+    {
+      "name": "Nelly Sachs Prize",
+      "year": 1985
+    },
+    {
+      "name": "Anisfield-Wolf Book Awards",
+      "year": 1988
+    },
+    {
+      "name": "Rome Prize"
+    },
+    {
+      "name": "Fellow of the Royal Society of Literature"
+    },
+    {
+      "name": "Central News Agency Literary Award",
+      "year": 1981
+    },
+    {
+      "name": "Central News Agency Literary Award",
+      "year": 1979
+    }
+  ]
 }

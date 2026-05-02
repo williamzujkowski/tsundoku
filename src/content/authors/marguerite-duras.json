@@ -7,5 +7,40 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marguerite_Duras",
   "open_library_url": "https://openlibrary.org/authors/OL45468A",
   "birth_year": 1914,
-  "death_year": 1996
+  "death_year": 1996,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q153248",
+  "nationality": [
+    "FR"
+  ],
+  "alternate_names": [
+    "Marguerite Duras"
+  ],
+  "viaf_id": "97785734",
+  "ol_author_key": "/authors/OL45468A",
+  "movements": [
+    "Nouveau Roman"
+  ],
+  "awards": [
+    {
+      "name": "Prix Goncourt",
+      "year": 1984
+    },
+    {
+      "name": "Grand prix du théâtre",
+      "year": 1983
+    },
+    {
+      "name": "Austrian State Prize for European Literature",
+      "year": 1989
+    }
+  ]
 }

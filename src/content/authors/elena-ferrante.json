@@ -6,5 +6,21 @@
   "photo_url": "https://covers.openlibrary.org/a/olid/OL3105889A-M.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Elena_Ferrante",
   "open_library_url": "https://openlibrary.org/authors/OL3105889A",
-  "birth_year": 1943
+  "birth_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q368127",
+  "nationality": [
+    "IT"
+  ],
+  "alternate_names": [
+    "Elena Ferrante"
+  ],
+  "viaf_id": "32103009",
+  "ol_author_key": "/authors/OL3105889A"
 }

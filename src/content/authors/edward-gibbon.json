@@ -7,5 +7,13 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Gibbon",
   "open_library_url": "https://openlibrary.org/authors/OL322112A",
   "birth_year": 1796,
-  "death_year": 1862
+  "death_year": 1862,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1"
+  },
+  "wikidata_qid": "Q255492",
+  "viaf_id": "45354198",
+  "ol_author_key": "/authors/OL322112A"
 }

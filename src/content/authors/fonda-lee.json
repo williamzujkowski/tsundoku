@@ -6,5 +6,36 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Fonda_Lee_by_Gage_Skidmore.jpg/400px-Fonda_Lee_by_Gage_Skidmore.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fonda_Lee",
   "open_library_url": "https://openlibrary.org/authors/OL7469465A",
-  "birth_year": 1979
+  "birth_year": 1979,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q50379894",
+  "nationality": [
+    "CA"
+  ],
+  "viaf_id": "313288274",
+  "ol_author_key": "/authors/OL7469465A",
+  "awards": [
+    {
+      "name": "World Fantasy Award for Best Novel",
+      "year": 2018
+    },
+    {
+      "name": "Locus Award for Best Fantasy Novel",
+      "year": 2022
+    },
+    {
+      "name": "Aurora Award for Best Novel",
+      "year": 2022
+    },
+    {
+      "name": "Aurora Award for Best Novel",
+      "year": 2018
+    }
+  ]
 }

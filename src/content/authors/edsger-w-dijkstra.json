@@ -7,5 +7,44 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra",
   "open_library_url": "https://openlibrary.org/authors/OL1004383A",
   "birth_year": 1930,
-  "death_year": 2002
+  "death_year": 2002,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q8556",
+  "viaf_id": "17820452",
+  "ol_author_key": "/authors/OL1004383A",
+  "awards": [
+    {
+      "name": "Turing Award",
+      "year": 1972
+    },
+    {
+      "name": "ACM Fellow",
+      "year": 1994
+    },
+    {
+      "name": "Dijkstra Prize",
+      "year": 2002
+    },
+    {
+      "name": "Harry H. Goode Memorial Award",
+      "year": 1974
+    },
+    {
+      "name": "Fellow of the British Computer Society",
+      "year": 1971
+    },
+    {
+      "name": "Computer Pioneer Award",
+      "year": 1982
+    },
+    {
+      "name": "C&C Prize",
+      "year": 2002
+    }
+  ]
 }

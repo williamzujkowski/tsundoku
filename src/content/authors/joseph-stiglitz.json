@@ -6,5 +6,125 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Joseph_E._Stiglitz%2C_2019_%28cropped%29.jpg/400px-Joseph_E._Stiglitz%2C_2019_%28cropped%29.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Stiglitz",
   "open_library_url": "https://openlibrary.org/authors/OL3012085A",
-  "birth_year": 1943
+  "birth_year": 1943,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q18430",
+  "nationality": [
+    "US"
+  ],
+  "viaf_id": "32057966",
+  "ol_author_key": "/authors/OL4443350A",
+  "movements": [
+    "New Keynesian economics"
+  ],
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 1969
+    },
+    {
+      "name": "John Bates Clark Medal",
+      "year": 1979
+    },
+    {
+      "name": "H. C. Recktenwald Prize in Economics",
+      "year": 1997
+    },
+    {
+      "name": "Prize in Economic Sciences in Memory of Alfred Nobel",
+      "year": 2001
+    },
+    {
+      "name": "Global Economy Prize",
+      "year": 2013
+    },
+    {
+      "name": "Fulbright Scholarship",
+      "year": 1967
+    },
+    {
+      "name": "Daniel Patrick Moynihan Prize",
+      "year": 2014
+    },
+    {
+      "name": "Gerald Loeb Award",
+      "year": 2010
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 1973
+    },
+    {
+      "name": "Fellow of the British Academy"
+    },
+    {
+      "name": "honorary doctor of the Renmin University of China",
+      "year": 2006
+    },
+    {
+      "name": "Foreign Member of the Royal Society",
+      "year": 2009
+    },
+    {
+      "name": "honorary doctor of Harvard University",
+      "year": 2014
+    },
+    {
+      "name": "Officer of the Legion of Honour",
+      "year": 2013
+    },
+    {
+      "name": "Honorary doctor of the Catholic University of Louvain",
+      "year": 2003
+    },
+    {
+      "name": "Paul A. Volcker Lifetime Achievement Award for Economic Policy",
+      "year": 2017
+    },
+    {
+      "name": "honorary degree of HEC Paris",
+      "year": 2015
+    },
+    {
+      "name": "honorary doctor of the Charles University of Prague",
+      "year": 2001
+    },
+    {
+      "name": "honorary doctorate at École Normale Supérieure de Lyon",
+      "year": 2019
+    },
+    {
+      "name": "Sydney Peace Prize",
+      "year": 2018
+    },
+    {
+      "name": "Fisher-Schultz Lecture"
+    },
+    {
+      "name": "Grotius Lectures"
+    },
+    {
+      "name": "honorary doctorate from Sciences Po",
+      "year": 2019
+    },
+    {
+      "name": "honorary doctor of Paris Dauphine University",
+      "year": 2013
+    },
+    {
+      "name": "Catalonia International Prize",
+      "year": 2023
+    },
+    {
+      "name": "Manpower-HEC price",
+      "year": 2007
+    }
+  ]
 }

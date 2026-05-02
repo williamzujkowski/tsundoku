@@ -7,5 +7,71 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Beckett",
   "open_library_url": "https://openlibrary.org/authors/OL29858A",
   "birth_year": 1906,
-  "death_year": 1989
+  "death_year": 1989,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "movements": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q37327",
+  "alternate_names": [
+    "Andrew Belis"
+  ],
+  "viaf_id": "7386737",
+  "ol_author_key": "/authors/OL29858A",
+  "movements": [
+    "Nouveau Roman"
+  ],
+  "awards": [
+    {
+      "name": "Scholar of Trinity College, Dublin",
+      "year": 1926
+    },
+    {
+      "name": "honorary doctorate of Trinity College, Dublin",
+      "year": 1959
+    },
+    {
+      "name": "Obie Award",
+      "year": 1958
+    },
+    {
+      "name": "Obie Award",
+      "year": 1960
+    },
+    {
+      "name": "Prix Formentor",
+      "year": 1961
+    },
+    {
+      "name": "Obie Award",
+      "year": 1962
+    },
+    {
+      "name": "Obie Award",
+      "year": 1964
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 1968
+    },
+    {
+      "name": "Nobel Prize in Literature",
+      "year": 1969
+    },
+    {
+      "name": "Obie Award",
+      "year": 1984
+    },
+    {
+      "name": "Saoi",
+      "year": 1985
+    },
+    {
+      "name": "star on Playwrights' Sidewalk"
+    }
+  ]
 }

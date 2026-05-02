@@ -6,5 +6,28 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/RA_Salvatore%2C_convention.jpg/400px-RA_Salvatore%2C_convention.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/R._A._Salvatore",
   "open_library_url": "https://openlibrary.org/authors/OL35996A",
-  "birth_year": 1959
+  "birth_year": 1959,
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "alternate_names": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q316431",
+  "nationality": [
+    "US"
+  ],
+  "alternate_names": [
+    "R.A. Salvatore"
+  ],
+  "viaf_id": "112374441",
+  "ol_author_key": "/authors/OL35996A",
+  "awards": [
+    {
+      "name": "Inkpot Award",
+      "year": 2018
+    }
+  ]
 }

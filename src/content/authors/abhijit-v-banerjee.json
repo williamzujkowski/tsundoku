@@ -5,5 +5,65 @@
   "open_library_url": "https://openlibrary.org/authors/OL2668874A",
   "birth_year": 1961,
   "bio": "Indian American economist",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abhijit%20Banerjee%20at%20the%202025%20Jaipur%20Literature%20Festival.jpg?width=400"
+  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abhijit%20Banerjee%20at%20the%202025%20Jaipur%20Literature%20Festival.jpg?width=400",
+  "_provenance": {
+    "wikidata_qid": "wikidata_v1",
+    "nationality": "wikidata_v1",
+    "viaf_id": "wikidata_v1",
+    "ol_author_key": "wikidata_v1",
+    "awards": "wikidata_v1"
+  },
+  "wikidata_qid": "Q320578",
+  "nationality": [
+    "US",
+    "IN"
+  ],
+  "viaf_id": "84184001",
+  "ol_author_key": "/authors/OL5203893A",
+  "awards": [
+    {
+      "name": "Guggenheim Fellowship",
+      "year": 2000
+    },
+    {
+      "name": "Michael Wallerstein Award",
+      "year": 2006
+    },
+    {
+      "name": "Infosys Prize",
+      "year": 2009
+    },
+    {
+      "name": "Fellow of the Econometric Society",
+      "year": 1995
+    },
+    {
+      "name": "Fellow of the American Academy of Arts and Sciences",
+      "year": 2004
+    },
+    {
+      "name": "Prize in Economic Sciences in Memory of Alfred Nobel",
+      "year": 2019
+    },
+    {
+      "name": "honorary doctor of the Katholieke Universiteit Leuven",
+      "year": 2014
+    },
+    {
+      "name": "BBVA Foundation Frontiers of Knowledge Award",
+      "year": 2008
+    },
+    {
+      "name": "Albert O. Hirschman Prize",
+      "year": 2014
+    },
+    {
+      "name": "honorary doctorate at École Normale Supérieure de Lyon",
+      "year": 2022
+    },
+    {
+      "name": "Bernhard Harms medal",
+      "year": 2014
+    }
+  ]
 }
