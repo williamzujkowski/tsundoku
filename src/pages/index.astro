@@ -99,7 +99,12 @@ const yearSpan = stats.newest_year - stats.oldest_year;
       <>
         <hr class="section-divider" />
         <section class="py-8">
-          <h2 class="heading-md mb-6">Must-Reads (Allegedly)</h2>
+          <div class="flex items-center justify-between mb-6 flex-wrap gap-2">
+            <h2 class="heading-md">Must-Reads (Allegedly)</h2>
+            <a href={`${base}browse/`} class="ext-link text-sm" style="text-decoration: underline">
+              See all {mustReads.length.toLocaleString()} must-reads →
+            </a>
+          </div>
           <div class="grid grid-2 sm-grid-4 lg-grid-8 gap-4">
             {featured.map(b => (
               <a href={`${base}books/${b.data.slug}/`} class="book-cover-group">
