@@ -1,37 +1,62 @@
 /* ===== Neo-Brutalist Pop Art Design System ===== */
 
-/* ===== Design Tokens — Dark (default) ===== */
+/* ===== Design Tokens — Dark (default) =====
+   Theme: Kanagawa Paper Ink (oklch-terminal-themes, AAA contrast 11.3:1).
+   The "ink on aged paper" palette pairs a warm-beige fg with cool-indigo
+   bg — designed for prose reading, not terminal UI. Gives the catalog
+   library gravity without going clinical. See feat/library-dark-theme.
+*/
 :root {
   color-scheme: dark;
 
-  /* Base palette */
-  --bg: #0f0f0f;
-  --bg-surface: #1a1a1a;
-  --bg-elevated: #242424;
-  --text: #f0f0f0;
-  --text-muted: #999;
-  --text-dim: #888;
+  /* Base palette — Kanagawa Paper Ink */
+  --bg: oklch(0.243 0.017 285.1);          /* ink */
+  --bg-surface: oklch(0.285 0.018 285.1);  /* +L for cards */
+  --bg-elevated: oklch(0.325 0.019 285.1); /* +L for popovers */
+  --text: oklch(0.876 0.039 99.1);         /* aged paper */
+  --text-muted: oklch(0.760 0.030 99.1);   /* ≈7.4:1 — AAA */
+  --text-dim: oklch(0.665 0.025 99.1);     /* ≈5.6:1 — AA, large-text safe */
 
-  /* Brutalist structure */
-  --border: #333;
-  --border-strong: #f0f0f0;
+  /* Structural lines — passes WCAG 1.4.11 (3:1 vs bg) */
+  --border: oklch(0.420 0.015 285.1);
+  --border-strong: oklch(0.760 0.030 99.1);
   --border-width: 2px;
-  --shadow-color: #000;
+  --shadow-color: oklch(0 0 0 / 0.55);
   --shadow: 4px 4px 0 var(--shadow-color);
   --shadow-sm: 2px 2px 0 var(--shadow-color);
+  /* Soft elevation scale — for cards/sections that don't need brutalist offset */
+  --shadow-1: 0 1px 2px oklch(0 0 0 / 0.4);
+  --shadow-2: 0 4px 12px oklch(0 0 0 / 0.4);
+  --shadow-3: 0 12px 32px oklch(0 0 0 / 0.45);
+
+  /* Aliases consumed by component-specific styles — kept here so the
+     stats world-map default-country fill, etc. don't fall through to a
+     hardcoded light fallback in dark mode. */
+  --card-bg: var(--bg-surface);
+
+  /* World-map gradient endpoints. The stats page color-mixes between
+     these in OKLCH for per-country fills, so the gradient adapts to the
+     active theme automatically. Dark: muted slate → saturated purple. */
+  --map-low: oklch(0.32 0.02 305);
+  --map-high: oklch(0.74 0.16 305);
 
   /* Color used for text on filled accent backgrounds (e.g. .btn on pop-pink) */
-  --on-accent: #000;
+  --on-accent: oklch(0.243 0.017 285.1);
 
-  /* Pop Art accent palette — CMYK-inspired, high saturation */
-  --pop-pink: oklch(70% 0.22 350);
-  --pop-blue: oklch(65% 0.2 250);
-  --pop-green: oklch(75% 0.2 145);
-  --pop-yellow: oklch(85% 0.18 90);
-  --pop-orange: oklch(75% 0.2 55);
-  --pop-purple: oklch(72% 0.18 300);
-  --pop-red: oklch(70% 0.2 25);
-  --pop-cyan: oklch(75% 0.15 200);
+  /* Accent palette — chroma capped at 0.14 in dark mode to prevent
+     vibration against the warm-beige fg. Hue identity preserved so
+     category recognition (pink≈literature, blue≈sci-fi, …) still works. */
+  --pop-pink: oklch(0.74 0.13 350);
+  --pop-blue: oklch(0.72 0.12 250);
+  --pop-green: oklch(0.78 0.12 145);
+  --pop-yellow: oklch(0.86 0.11 90);
+  --pop-orange: oklch(0.78 0.13 55);
+  --pop-purple: oklch(0.74 0.12 300);
+  --pop-red: oklch(0.72 0.13 25);
+  --pop-cyan: oklch(0.78 0.10 200);
+
+  /* Focus ring — distinct from accents so it pops on tinted surfaces */
+  --ring: oklch(0.78 0.10 200 / 0.6);
 
   /* Typography */
   --font-body: system-ui, -apple-system, sans-serif;
@@ -57,6 +82,11 @@
     --border: #1a1a1a;
     --border-strong: #0f0f0f;
     --shadow-color: #0f0f0f;
+    --card-bg: var(--bg-surface);
+    --on-accent: #ffffff;
+    --ring: oklch(0.55 0.18 230 / 0.6);
+    --map-low: oklch(0.94 0.02 305);
+    --map-high: oklch(0.50 0.20 305);
     /* Slightly darker pop colors for sufficient contrast on light surfaces */
     --pop-pink: oklch(55% 0.22 350);
     --pop-blue: oklch(48% 0.2 250);
@@ -79,6 +109,11 @@
   --border: #1a1a1a;
   --border-strong: #0f0f0f;
   --shadow-color: #0f0f0f;
+  --card-bg: var(--bg-surface);
+  --on-accent: #ffffff;
+  --ring: oklch(0.55 0.18 230 / 0.6);
+  --map-low: oklch(0.94 0.02 305);
+  --map-high: oklch(0.50 0.20 305);
   --pop-pink: oklch(55% 0.22 350);
   --pop-blue: oklch(48% 0.2 250);
   --pop-green: oklch(48% 0.18 145);
@@ -139,7 +174,7 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Focus (WCAG) ===== */
 *:focus { outline: none; }
-*:focus-visible { outline: 3px solid var(--pop-yellow); outline-offset: 2px; }
+*:focus-visible { outline: 3px solid var(--ring, var(--pop-yellow)); outline-offset: 2px; }
 
 /* ===== Skip Link ===== */
 .skip-link {
