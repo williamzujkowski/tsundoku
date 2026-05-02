@@ -42,5 +42,35 @@
   "librivox_url": "https://librivox.org/thuvia-maid-of-mars-by-edgar-rice-burroughs/",
   "gutenberg_id": 72,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72.html.images",
+  "ddc": [
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B944 Th",
+    "PS-3503.00000000.U687 T5 1963",
+    "PS-3503.00000000.U687",
+    "PS-3503.00000000.U687 Th",
+    "PS-3503.00000000.U687 T5 2005"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "American literature",
+    "Barsoom (imaginary place), fiction",
+    "Carter, john (fictitious character), fiction",
+    "Classic Literature",
+    "Extraterrestrial beings",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "John Carter (Fictitious character)",
+    "Mars (Planet)",
+    "Mars (Planet) -- Fiction",
+    "Martians",
+    "Martians -- Fiction",
+    "Science Fiction",
+    "Science fiction, American"
+  ],
+  "ol_work_key": "/works/OL1418128W"
 }

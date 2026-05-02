@@ -28,5 +28,30 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/27432",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/27432.html.images",
   "librivox_url": "https://librivox.org/the-fifth-queen-by-ford-madox-ford/",
-  "ol_work_key": "/works/OL26682708W"
+  "ol_work_key": "/works/OL26682708W",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6011.00000000.O53 A6 1999",
+    "PR-6011.00000000 O53 F5 1963",
+    "PR-6011.00000000.O53",
+    "PR-6011.00000000.O53 F",
+    "PR-6011.00000000.O53 F49 2011",
+    "PR-6011.00000000.O53 F49 1984",
+    "PR-6011.00000000.O53F49 2011",
+    "PZ-0003.00000000.H8704 F"
+  ],
+  "subject_facet": [
+    "Belletristische Darstellung",
+    "British and irish fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, biographical",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Great britain, fiction",
+    "Queens",
+    "Reines",
+    "Roman anglais"
+  ]
 }

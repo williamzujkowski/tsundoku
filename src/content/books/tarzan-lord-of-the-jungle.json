@@ -21,5 +21,24 @@
   "librivox_url": "https://librivox.org/tarzan-lord-of-the-jungle-er-burroughs/",
   "gutenberg_id": 72938,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72938",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72938.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72938.html.images",
+  "ddc": [
+    "823.91",
+    "813.52"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.B944 Tap11",
+    "PS-3503.00000000.U687 Tap11",
+    "PS-3503.00000000.U687 Tap",
+    "PZ-0003.00000000.B944 Tap"
+  ],
+  "subject_facet": [
+    "Africa, fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, action & adventure",
+    "Tarzan (Fictitious character)",
+    "Tarzan (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL1418062W"
 }

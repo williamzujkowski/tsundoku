@@ -19,5 +19,21 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=ZulZEQAAQBAJ&dq=Functional+Differential+Geometry+Gerald+Jay+Sussman+and+Jack+Wisdom&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "QC-0020.70000000.D52S87 2013",
+    "QC-0020.70000000.D52 S87 2013",
+    "QC-0020.70000000.D52.S87 2013"
+  ],
+  "subject_facet": [
+    "Differential & Riemannian geometry",
+    "Differential Geometry",
+    "Differential equations",
+    "Functional differential equations",
+    "Functional equations",
+    "Geometry, differential",
+    "Mathematical physics",
+    "Relativity physics"
+  ],
+  "ol_work_key": "/works/OL20928782W"
 }

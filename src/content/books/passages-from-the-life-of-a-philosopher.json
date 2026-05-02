@@ -36,5 +36,37 @@
   "cover_url_large": "https://books.google.com/books/content?id=-Mod6ePT28kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "pages": 520,
   "isbn": "9781444648881",
-  "ol_work_key": "/works/OL39623773W"
+  "ol_work_key": "/works/OL39623773W",
+  "ddc": [
+    "509.24",
+    "681.140924",
+    "510.92",
+    "510 s",
+    "510.924"
+  ],
+  "lcc": [
+    "QA-0029.00000000.B2 A2 1864a",
+    "QA-0029.00000000.B2A3 1994",
+    "QA-0003.00000000.B18 1989 vol. 11",
+    "QA-0029.00000000.B2 A3 1994",
+    "QA-0029.00000000.B2 A2 1969",
+    "QA-0029.00000000.B2 A2",
+    "QA-0029.00000000.B2A3 .B18 1989 vol. 11",
+    "QA-0003.00000000.B18 2011"
+  ],
+  "subject_facet": [
+    "Babbage, charles, 1792-1871",
+    "Biografias de matematicos",
+    "Biografie",
+    "Biographie",
+    "Biography",
+    "Computers",
+    "England",
+    "Great britain, biography",
+    "History",
+    "Mathematicians",
+    "Mathematicians, biography",
+    "Ophthalmoscopy",
+    "Wiskundigen"
+  ]
 }

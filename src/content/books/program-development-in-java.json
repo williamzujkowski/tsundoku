@@ -21,5 +21,15 @@
   "google_books_url": "http://books.google.com/books?id=I0xnnSTMyjwC&dq=Program+Development+in+Java+Barbara+Liskov&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL26305453W"
+  "ol_work_key": "/works/OL26305453W",
+  "lcc": [
+    "QA-0076.73000000.J38 L58 2000",
+    "QA-0076.73000000.J38L58 2000",
+    "QA-0076.73000000.J38 L58 2001"
+  ],
+  "subject_facet": [
+    "Computer programs, design",
+    "Java (Computer program language)",
+    "Object-oriented programming (Computer science)"
+  ]
 }

@@ -32,5 +32,36 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2885",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2885.html.images",
   "librivox_url": "https://librivox.org/the-house-of-the-wolfings-by-william-morris/",
-  "description": "'Othello', in the words of Edward Pechter, 'has become the tragedy of choice for the present generation.'"
+  "description": "'Othello', in the words of Edward Pechter, 'has become the tragedy of choice for the present generation.'",
+  "ddc": [
+    "821.8",
+    "[Fic]",
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5079.00000000.T34 1889",
+    "PR-5079.00000000.T34 1901",
+    "PR-5079.00000000 H6 1979",
+    "PR-5079.00000000.T34 1980",
+    "PR-5079.00000000.H6 1979",
+    "PR-5079.00000000.T34 1978",
+    "PR-5079.00000000.H67 2003",
+    "PZ-0003.00000000.M8345T",
+    "PR-5079.00000000 W6 1900",
+    "PR-5079.00000000.S7 1979"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "English fiction",
+    "Fantasy",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction in English",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, horror",
+    "Fiction, romance, fantasy"
+  ],
+  "ol_work_key": "/works/OL47670W"
 }

@@ -18,5 +18,31 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=fUYPAQAAMAAJ&dq=The+Mythical+Man-Month+Fred+Brooks&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "005.1068",
+    "001.6425"
+  ],
+  "lcc": [
+    "QA-0076.60000000.B75",
+    "QA-0076.75800000.B75 1995"
+  ],
+  "subject_facet": [
+    "Addresses, essays, lectures",
+    "Computer programming",
+    "Computer programming management",
+    "Computer programming--management",
+    "Electronic digital computers",
+    "Gestion",
+    "Gestion projet",
+    "IBM 360",
+    "MULTICS",
+    "Management",
+    "Programmation (Informatique)",
+    "Programming",
+    "Software engineering",
+    "Système exploitation 360",
+    "Technologie logiciel"
+  ],
+  "ol_work_key": "/works/OL3510570W"
 }

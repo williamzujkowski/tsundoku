@@ -18,5 +18,26 @@
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=poFQAAAAMAAJ&dq=The+Unix+Programming+Environment+Brian+W.+Kernighan+and+Rob+Pike&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "ddc": [
+    "001.6425"
+  ],
+  "lcc": [
+    "QA-0076.60000000.K495 1984"
+  ],
+  "subject_facet": [
+    "Computer programming",
+    "Foreign relations",
+    "French Participation",
+    "History",
+    "Linguagem De Programacao (Outras)",
+    "Programacao De Computadores",
+    "Programmation (Informatique)",
+    "Qa76.6 .k495 1984",
+    "Sistemas Operacionais (Computadores)",
+    "Software Basico",
+    "UNIX",
+    "UNIX (Computer file)"
+  ],
+  "ol_work_key": "/works/OL4617636W"
 }

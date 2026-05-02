@@ -28,5 +28,30 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/2005",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/2005.html.images",
   "librivox_url": "https://librivox.org/piccadilly-jim-by-p-g-wodehouse/",
-  "ol_work_key": "/works/OL32389822W"
+  "ol_work_key": "/works/OL32389822W",
+  "ddc": [
+    "823.912"
+  ],
+  "lcc": [
+    "PR-6045.00000000.O53 P45 2004",
+    "PR-6045.00000000.O53 Pi4",
+    "PR-6045.00000000.O53",
+    "PZ-0003.00000000.W817 Pi",
+    "PR-6045.00000000.O53 Pi13",
+    "PZ-0003.00000000.W817 Pi13",
+    "PZ-0003.00000000.W817 Pi4",
+    "PR-6045.00000000.O53 Pi16",
+    "PR-6045.00000000.O53 P45 2001",
+    "PR-6045.00000000.O53P45 2004",
+    "PR-6045.00000000.O53 Pi",
+    "PR-6045.00000000.O53P45 2001",
+    "PZ-0003.00000000.W817 Pi16"
+  ],
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, humorous",
+    "Fiction, humorous, general",
+    "London (england), fiction"
+  ]
 }

@@ -29,5 +29,31 @@
   "gutenberg_id": 18972,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/18972",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/18972.html.images",
-  "ol_work_key": "/works/OL41385883W"
+  "ol_work_key": "/works/OL41385883W",
+  "ddc": [
+    "843.5",
+    "843",
+    "843.54"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.V89 Za5",
+    "PQ-2082.00000000 Z4 S2 1965",
+    "PQ-2082.00000000 Z3 1929",
+    "PQ-2082.00000000 Z3 1969",
+    "PQ-2081.00000000.A2 1968",
+    "PQ-2082.00000000",
+    "PQ-2082.00000000.Z5 E5 1964",
+    "PQ-2082.00000000 Z3 1962",
+    "PQ-2082.00000000.Z4 N3",
+    "PQ-2082.00000000.Z4 C45 2006",
+    "PQ-2070.00000000",
+    "PQ-2082.00000000 Za5",
+    "PQ-2082.00000000 Z3 1787"
+  ],
+  "subject_facet": [
+    "Classic Literature",
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Literature"
+  ]
 }

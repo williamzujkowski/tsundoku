@@ -22,5 +22,15 @@
   "cover_url_large": "https://books.google.com/books/content?id=-eVJAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "isbn": "9780811223089",
   "pages": 179,
-  "google_books_url": "https://play.google.com/store/books/details?id=-eVJAAAAQBAJ&source=gbs_api"
+  "google_books_url": "https://play.google.com/store/books/details?id=-eVJAAAAQBAJ&source=gbs_api",
+  "lcc": [
+    "PR-6039.00000000.H52 A17 2014",
+    "PR-6039.00000000.H52 2014",
+    "PR-6039.00000000.H52"
+  ],
+  "subject_facet": [
+    "Poetry",
+    "Poetry (poetic works by one author)"
+  ],
+  "ol_work_key": "/works/OL17535967W"
 }

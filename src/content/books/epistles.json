@@ -31,5 +31,23 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/5419",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/5419.html.images",
   "copyright_status": "public_domain",
-  "ol_work_key": "/works/OL40175606W"
+  "ol_work_key": "/works/OL40175606W",
+  "ddc": [
+    "871.01"
+  ],
+  "lcc": [
+    "PA-6393.00000000 E2 1968",
+    "PA-6396.00000000.E5F45 2001",
+    "PA-6393.00000000.E5 1902",
+    "PA-6396.00000000.E5 F45 2001"
+  ],
+  "subject_facet": [
+    "Latin Epistolary poetry",
+    "Latin Political poetry",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Politics and government",
+    "Rome",
+    "Translations into English"
+  ]
 }

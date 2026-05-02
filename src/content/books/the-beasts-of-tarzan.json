@@ -38,5 +38,36 @@
   "librivox_url": "https://librivox.org/the-beasts-of-tarzan/",
   "gutenberg_id": 85,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/85",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/85.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/85.html.images",
+  "ddc": [
+    "813.5"
+  ],
+  "lcc": [
+    "PS-3503.00000000.U687",
+    "PS-3503.00000000.U687 B4",
+    "PS-3503.00000000.U687 B45 2005",
+    "PS-3503.00000000.U687 Be 2",
+    "PZ-0003.00000000.B944 Be 2",
+    "PZ-0003.00000000.B87 B35 1916b"
+  ],
+  "subject_facet": [
+    "Adventure",
+    "Adventure stories",
+    "Africa, fiction",
+    "American literature",
+    "Classic Literature",
+    "Fantasy fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, general",
+    "Jungle animals",
+    "Jungle animals -- Fiction",
+    "Non-Classifiable",
+    "Open Library Staff Picks",
+    "Science Fiction",
+    "Tarzan (Fictitious character)",
+    "Tarzan (Fictitious character) -- Fiction",
+    "Tarzan (fictitious character), fiction"
+  ],
+  "ol_work_key": "/works/OL1417916W"
 }

@@ -14,9 +14,9 @@
     "descriptions_pct": 97.5,
     "isbns": 3553,
     "isbns_pct": 98.2,
-    "pages": 3473,
-    "pages_pct": 96.0,
-    "years": 3600,
+    "pages": 3495,
+    "pages_pct": 96.6,
+    "years": 3606,
     "subjects": 3275
   },
   "top_authors": [
@@ -217,8 +217,8 @@
   ],
   "year_distribution": {
     "before_1800": 161,
-    "1800_1899": 255,
-    "1900_1949": 469,
+    "1800_1899": 257,
+    "1900_1949": 473,
     "1950_1999": 1210,
     "2000_plus": 1505
   },
@@ -237,10 +237,10 @@
   "oldest_year": -400,
   "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1285741,
-    "estimated_reading_hours": 21429,
+    "total_pages": 1292916,
+    "estimated_reading_hours": 21549,
     "shelf_meters": 90.5,
-    "books_with_pages": 3473
+    "books_with_pages": 3495
   },
-  "generated_at": "2026-05-01T23:41:51.599595"
+  "generated_at": "2026-05-02T04:33:14.341873"
 }

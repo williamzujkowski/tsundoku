@@ -17,5 +17,13 @@
   "language": "eng",
   "copyright_status": "in_copyright",
   "cover_url_large": "https://covers.openlibrary.org/b/id/1984290-L.jpg",
-  "open_library_url": "https://openlibrary.org/works/OL16948657W"
+  "open_library_url": "https://openlibrary.org/works/OL16948657W",
+  "lcc": [
+    "TK-5105.55000000.S265 2007"
+  ],
+  "subject_facet": [
+    "Computer network protocols",
+    "Packet switching (Data transmission)"
+  ],
+  "ol_work_key": "/works/OL16948657W"
 }

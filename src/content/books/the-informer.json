@@ -32,5 +32,37 @@
   "gutenberg_id": 75583,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/75583",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/75583.html.images",
-  "pages": 256
+  "pages": 256,
+  "ddc": [
+    "823.912",
+    "823.91",
+    "828"
+  ],
+  "lcc": [
+    "PR-6029.00000000.F5I6 1999",
+    "PZ-0003.00000000.O33 In7",
+    "PR-6029.00000000 F5 I5",
+    "PZ-0003.00000000.O33 In6",
+    "PZ-0003.00000000.O33 In",
+    "PR-6029.00000000.F5 In7",
+    "PR-6029.00000000.F5 I6 1949",
+    "PR-6029.00000000.F5 In6",
+    "PR-6029.00000000.F5 I6 1980",
+    "PR-6029.00000000.F5 I6 1999",
+    "PR-6029.00000000.F5 In"
+  ],
+  "subject_facet": [
+    "Fiction",
+    "Fiction, historical",
+    "Fiction, historical, general",
+    "Fiction, thrillers, general",
+    "Fiction, war & military",
+    "History",
+    "Ireland",
+    "Ireland, fiction",
+    "Ireland, history, easter rising, 1916, fiction",
+    "Irish Authors",
+    "Revolutionaries"
+  ],
+  "ol_work_key": "/works/OL109344W"
 }

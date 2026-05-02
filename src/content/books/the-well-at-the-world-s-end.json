@@ -28,5 +28,40 @@
     "English literature",
     "Fiction, fantasy, epic"
   ],
-  "pages": 448
+  "pages": 448,
+  "ddc": [
+    "813.4",
+    "800",
+    "823.8"
+  ],
+  "lcc": [
+    "PR-5079.00000000.W45 1896",
+    "PR-5079.00000000.W45 1996",
+    "PZ-0003.00000000.M8345 We6",
+    "PR-5079.00000000 W",
+    "PR-5079.00000000.W4 We6",
+    "PR-5072.00000000",
+    "PR-5080.00000000.W4 1896",
+    "PR-5079.00000000.W4 1896"
+  ],
+  "subject_facet": [
+    "Children",
+    "Classic Literature",
+    "English literature",
+    "Fantasy",
+    "Fantasy anglaise",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, fantasy, epic",
+    "Fiction, fantasy, general",
+    "Fiction, fantasy, historical",
+    "Fiction, general",
+    "Fine books",
+    "Hermits",
+    "Kings and rulers",
+    "Private press books",
+    "Quests (Expeditions)",
+    "Specimens"
+  ],
+  "ol_work_key": "/works/OL47750W"
 }

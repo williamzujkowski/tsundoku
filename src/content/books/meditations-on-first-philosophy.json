@@ -16,5 +16,17 @@
   "google_books_url": "https://play.google.com/store/books/details?id=SoucEQAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "librivox_url": "https://librivox.org/meditations-on-first-philosophy-by-rene-descartes/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "lcc": [
+    "B--1853.00000000.E5 J64 2013"
+  ],
+  "subject_facet": [
+    "First philosophy",
+    "God",
+    "Methodology",
+    "Ontological Proof",
+    "Philosophy",
+    "Theory of Knowledge"
+  ],
+  "ol_work_key": "/works/OL27223666W"
 }

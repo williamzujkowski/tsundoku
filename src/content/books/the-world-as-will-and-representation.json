@@ -21,5 +21,14 @@
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=qywdvi7bRAgC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "B--3136.00000000"
+  ],
+  "subject_facet": [
+    "Metaphysics",
+    "Philosophy",
+    "Will"
+  ],
+  "ol_work_key": "/works/OL20176956W"
 }

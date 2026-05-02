@@ -31,5 +31,46 @@
   "gutenberg_id": 1840,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1840",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1840.html.images",
-  "librivox_url": "https://librivox.org/the-financier-by-theodore-dreiser/"
+  "librivox_url": "https://librivox.org/the-financier-by-theodore-dreiser/",
+  "ddc": [
+    "813.5",
+    "813.52"
+  ],
+  "lcc": [
+    "PS-3507.00000000.R77 F5",
+    "PS-3507.00000000.R55 F47 1927b",
+    "PS-3507.00000000 R55 F5 1940",
+    "PZ-0003.00000000.D814 Fi12",
+    "PS-3507.00000000.R55",
+    "PS-3507.00000000.R55 F476",
+    "PS-3507.00000000.R55 F47 2010",
+    "PZ-0003.00000000.D814 Fi13",
+    "PS-3507.00000000.R55 Fi13",
+    "PS-3507.00000000.R55 Fi",
+    "PS-3507.00000000.R55 F47 2008",
+    "PZ-0003.00000000.D814 Fi",
+    "PS-3507.00000000",
+    "PS-3507.00000000.R55F47 2008",
+    "PS-3507.00000000.R55F47 2010",
+    "PS-3507.00000000.R55 Fi12",
+    "PS-3507.00000000.R55 F47 1925",
+    "PS-3507.00000000.R55 Fi6",
+    "PZ-0003.00000000.D814 Fi6",
+    "PS-3507.00000000.R55 F48 1995"
+  ],
+  "subject_facet": [
+    "813/.52",
+    "American fiction (fictional works by one author)",
+    "Capitalists and financiers",
+    "Capitalists and financiers--fiction",
+    "Classics",
+    "Fiction",
+    "Fiction, psychological",
+    "Ps3507.r55 f47 2008",
+    "Psychological fiction",
+    "Trilogy of Desire",
+    "literature",
+    "Художественная литература -- США -- Американская литература -- 1-ая пол. 20 в. -- Романы"
+  ],
+  "ol_work_key": "/works/OL100237W"
 }

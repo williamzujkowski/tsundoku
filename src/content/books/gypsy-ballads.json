@@ -16,5 +16,13 @@
   "google_books_url": "http://books.google.com/books?id=6mE4tAEACAAJ&dq=Gypsy+Ballads+Federico+Garc%C3%ADa+Lorca&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "ol_work_key": "/works/OL27708316W"
+  "ol_work_key": "/works/OL27708316W",
+  "lcc": [
+    "PQ-6613.00000000.A763 P72",
+    "PQ-6613.00000000.A763"
+  ],
+  "subject_facet": [
+    "Ballads",
+    "Spanish poetry"
+  ]
 }

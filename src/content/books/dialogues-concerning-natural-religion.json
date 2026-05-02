@@ -22,5 +22,51 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/4583",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/4583.html.images",
   "librivox_url": "https://librivox.org/dialogues-concerning-natural-religion-by-david-hume/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "ddc": [
+    "192",
+    "210"
+  ],
+  "lcc": [
+    "B--1493.00000000.D52 2008",
+    "B--1493.00000000.D523",
+    "BL-0180.00000000.H8 1970",
+    "BL-0180.00000000",
+    "B--1493.00000000.D52 1990",
+    "B--1499.00000000.N37 P95 2006",
+    "B--1493.00000000.D52 2006",
+    "BL-0180.00000000.H8 1948a",
+    "BL-0180.00000000.H8",
+    "BL-0180.00000000.H8 1948",
+    "B--1493.00000000.A",
+    "BL-0180.00000000.H8 1947",
+    "B--1493.00000000.D523 P95 2006",
+    "BL-0180.00000000.H8 1951",
+    "BL-0180.00000000 H8 1948",
+    "B--1493.00000000 D536 F7 1987",
+    "BL-0180.00000000 H8 1947",
+    "B--1401.00000000",
+    "B--1493.00000000.D52 2000",
+    "B--1499.00000000.R45H83 2008",
+    "B--1493.00000000.D52 2006b",
+    "BL-0183.00000000.H8514 2005",
+    "BL-0180.00000000 H8 1779",
+    "BL-0180.00000000 H8 1948a"
+  ],
+  "subject_facet": [
+    "Early works to 1800",
+    "Early works to 1900",
+    "Enlightenment",
+    "History",
+    "Hume, david, 1711-1776",
+    "Intellectual life",
+    "Natural theology",
+    "Natural theology -- Early works to 1800",
+    "Philosophy",
+    "Religion",
+    "Scottish Philosophy",
+    "Théologie naturelle",
+    "open_syllabus_project"
+  ],
+  "ol_work_key": "/works/OL93568W"
 }

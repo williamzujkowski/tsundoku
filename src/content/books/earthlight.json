@@ -16,5 +16,23 @@
   "google_books_url": "https://play.google.com/store/books/details?id=RUYqAAAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "ol_work_key": "/works/OL19871861W"
+  "ol_work_key": "/works/OL19871861W",
+  "ddc": [
+    "823.914",
+    "823.91"
+  ],
+  "lcc": [
+    "PZ-0003.00000000.C551205 Ear5",
+    "PR-6005.00000000.L36 Ear",
+    "PR-6005.00000000.L36 Ear5",
+    "PR-6005.00000000.L365 E3 1983",
+    "PZ-0003.00000000.C551205 Ear",
+    "PR-6005.00000000.L36 E18 1998"
+  ],
+  "subject_facet": [
+    "English Science fiction",
+    "Fiction",
+    "Fiction, science fiction, general",
+    "Science fiction"
+  ]
 }

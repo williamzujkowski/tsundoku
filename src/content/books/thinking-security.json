@@ -20,5 +20,18 @@
   "google_books_url": "https://play.google.com/store/books/details?id=r3seCwAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL25385007W"
+  "ol_work_key": "/works/OL25385007W",
+  "lcc": [
+    "TK-5105.59000000",
+    "TK-5105.59000000.B45154 2016"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computer security",
+    "Medidas de seguridad",
+    "Redes de computadoras",
+    "Security measures",
+    "Seguridad computacional"
+  ]
 }

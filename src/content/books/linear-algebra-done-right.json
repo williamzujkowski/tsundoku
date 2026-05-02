@@ -16,5 +16,27 @@
   "google_books_url": "https://play.google.com/store/books/details?id=5qYxBQAAQBAJ&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL8059441W"
+  "ol_work_key": "/works/OL8059441W",
+  "ddc": [
+    "512.5"
+  ],
+  "lcc": [
+    "QA-0184.00000000.A96 1997",
+    "QA-0184.00000000.A96 1996",
+    "QA-0184.00000000.A96 1997eb"
+  ],
+  "subject_facet": [
+    "512/.5",
+    "Algebra",
+    "Algebras, Linear",
+    "Algèbre linéaire",
+    "Lineaire algebra",
+    "Linear",
+    "Linear Algebras",
+    "Linear algebra",
+    "Lineare Algebra",
+    "MATHEMATICS",
+    "Matrix theory",
+    "Qa184 .a96 1997"
+  ]
 }

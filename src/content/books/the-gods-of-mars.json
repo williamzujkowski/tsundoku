@@ -34,5 +34,36 @@
   "gutenberg_id": 64,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/64",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/64.html.images",
-  "librivox_url": "https://librivox.org/the-gods-of-mars-by-edgar-rice-burroughs/"
+  "librivox_url": "https://librivox.org/the-gods-of-mars-by-edgar-rice-burroughs/",
+  "ddc": [
+    "[Fic]",
+    "810",
+    "823.91"
+  ],
+  "lcc": [
+    "PS-3503.00000000.U687 1979",
+    "PZ-0003.00000000.B944 Go7",
+    "PS-3503.00000000.U687 Go7",
+    "PZ-0003.00000000.B944 Go",
+    "PS-3503.00000000.U687 Go",
+    "PS-3503.00000000.U687",
+    "PS-3503.00000000.U687 G63 1963"
+  ],
+  "subject_facet": [
+    "American Science fiction",
+    "Classic Literature",
+    "English Science fiction",
+    "Fiction",
+    "Fiction, action & adventure",
+    "Fiction, classics",
+    "Fiction, science fiction, action & adventure",
+    "Fiction, science fiction, general",
+    "Fiction, science fiction, space opera",
+    "Historical Fiction",
+    "John Carter (Fictitious character)",
+    "Life on other planets",
+    "Science fiction",
+    "Science fiction, American"
+  ],
+  "ol_work_key": "/works/OL1417942W"
 }

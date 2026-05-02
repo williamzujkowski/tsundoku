@@ -16,5 +16,16 @@
   "copyright_status": "public_domain",
   "description": "Diogenes Laërtius was a biographer of the Greek philosophers. Little is definitively known about his life, but his surviving work, Lives and Opinions of Eminent Philosophers, remains a primary source for the history of ancient Greek philosophy. His reputation is controversial among scholars because he often repeats information from his sources without critically evaluating it.",
   "isbn": "9781110299355",
-  "ol_work_key": "/works/OL34140199W"
+  "ol_work_key": "/works/OL34140199W",
+  "lcc": [
+    "B--0168.00000000.D5 1853",
+    "B--0168.00000000.D6",
+    "B--0168.00000000.D5"
+  ],
+  "subject_facet": [
+    "Ancient Philosophers",
+    "Ancient Philosophy",
+    "Biography",
+    "Philosophers"
+  ]
 }

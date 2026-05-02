@@ -16,5 +16,24 @@
   "google_books_url": "https://play.google.com/store/books/details?id=1N-fEAAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL23554255W"
+  "ol_work_key": "/works/OL23554255W",
+  "lcc": [
+    "HV-8073.00000000"
+  ],
+  "subject_facet": [
+    "BUSINESS & ECONOMICS / Infrastructure",
+    "COMPUTERS",
+    "Computer crimes",
+    "Computer networks",
+    "Computer networks, security measures",
+    "Data processing",
+    "Forensic sciences",
+    "General",
+    "Investigation",
+    "Networking",
+    "SOCIAL SCIENCE / General",
+    "Security",
+    "Security measures",
+    "Viruses & Malware"
+  ]
 }

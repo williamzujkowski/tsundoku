@@ -20,5 +20,16 @@
   ],
   "google_books_url": "https://play.google.com/store/books/details?id=VgYvDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "lcc": [
+    "TK-5105.59000000.B436 2013",
+    "TK-5105.59000000"
+  ],
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Electronic countermeasures",
+    "Security measures"
+  ],
+  "ol_work_key": "/works/OL17582308W"
 }

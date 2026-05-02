@@ -29,5 +29,30 @@
   "gutenberg_id": 8606,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8606",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8606.html.images",
-  "pages": 241
+  "pages": 241,
+  "ddc": [
+    "842",
+    "842.8",
+    "842.32"
+  ],
+  "lcc": [
+    "PQ-2625.00000000.A5 O6 1909",
+    "PQ-2625.00000000 A5 O6 1910",
+    "PQ-2625.00000000.A5 O6 1910",
+    "PQ-2625.00000000.A5 O6 1911",
+    "PQ-2625.00000000.A5 O6 1911a",
+    "PQ-2625.00000000 A5 O6 1910A",
+    "PQ-2625.00000000.A5 O6 1911b"
+  ],
+  "subject_facet": [
+    "Diseases and pests",
+    "Drama",
+    "Fairy plays",
+    "Fairy tales",
+    "Fiction",
+    "French Fairy plays",
+    "Sugar beet",
+    "Translations into English"
+  ],
+  "ol_work_key": "/works/OL10449613W"
 }
