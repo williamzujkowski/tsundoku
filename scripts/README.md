@@ -27,8 +27,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `enrich-copyright.py` | Internal (metadata) | Computes copyright_status from existing fields (no API calls) |
 | `enrich-tags.py` | Internal (subjects) | Maps Open Library subjects to normalized genre tags (35 genres) |
 | `enrich-wikipedia-books.py` | Wikipedia | Descriptions + covers for books missing them |
-| `enrich-descriptions-fallback.py` | OL Works API | Last-resort descriptions via editions endpoint |
-| `enrich-descriptions-lastmile.py` | Gutenberg text + OL + Google | Gutenberg first-paragraph + OL editions + Google ISBN |
+| `enrich-descriptions.py` | OL works + editions, Google Books, Gutenberg | Consolidated five-strategy fallback for missing descriptions |
 
 ## Build Pipeline (run automatically by `npm run build`)
 

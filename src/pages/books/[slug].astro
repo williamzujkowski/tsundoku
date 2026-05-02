@@ -148,7 +148,7 @@ const categorySlug = toSlug(book.category);
           <div class="flex flex-wrap gap-2 mt-3">
             {book.awards.slice(0, 6).map(a => (
               <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
-                🏆 {a.name}{a.year ? ` (${a.year})` : ''}
+                {a.name}{a.year ? ` (${a.year})` : ''}
               </span>
             ))}
           </div>
@@ -219,16 +219,6 @@ const categorySlug = toSlug(book.category);
         </div>
       )}
 
-      {book.subject_facet && book.subject_facet.length === 0 && book.subjects && book.subjects.length > 0 && (
-        <dl class="detail-section">
-          <dt class="text-dim text-sm mb-2">Subjects</dt>
-          <dd class="flex flex-wrap gap-2">
-            {book.subjects.slice(0, 10).map(s => (
-              <span class="meta-tag">{s}</span>
-            ))}
-          </dd>
-        </dl>
-      )}
 
       {(book.gutenberg_url || book.hathitrust_url || book.librivox_url) && (
         <div class="detail-section flex flex-wrap gap-2">

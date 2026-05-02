@@ -133,7 +133,7 @@ const nationalityLine = (author.nationality ?? [])
         <div class="flex flex-wrap gap-2 mb-3">
           {author.awards.slice(0, 5).map(a => (
             <span class="meta-tag" title={a.year ? `${a.name} (${a.year})` : a.name}>
-              🏆 {a.name}{a.year ? ` (${a.year})` : ''}
+              {a.name}{a.year ? ` (${a.year})` : ''}
             </span>
           ))}
         </div>

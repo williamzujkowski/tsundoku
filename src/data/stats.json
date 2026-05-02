@@ -10,14 +10,13 @@
   "enrichment": {
     "covers": 3556,
     "covers_pct": 98.3,
-    "descriptions": 3530,
-    "descriptions_pct": 97.5,
+    "descriptions": 3573,
+    "descriptions_pct": 98.7,
     "isbns": 3553,
     "isbns_pct": 98.2,
     "pages": 3495,
     "pages_pct": 96.6,
     "years": 3609,
-    "subjects": 3275,
     "subject_facet": 3243,
     "ddc": 2754,
     "lcc": 3222,
@@ -563,5 +562,5 @@
     "shelf_meters": 90.5,
     "books_with_pages": 3495
   },
-  "generated_at": "2026-05-02T07:37:18.129217"
+  "generated_at": "2026-05-02T08:05:13.044536"
 }
