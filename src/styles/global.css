@@ -173,8 +173,10 @@ body {
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
+  font-size: 1.0625rem; /* 17px — library-readable without overshooting */
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 img, svg { max-width: 100%; height: auto; display: block; }
@@ -277,24 +279,30 @@ a:hover { color: var(--pop-pink); }
 .site-footer a { color: var(--text-muted); }
 .site-footer a:hover { color: var(--pop-pink); }
 
-/* ===== Typography ===== */
+/* ===== Typography =====
+   Reading-room scale per #129 Sub-epic A. Headings use Fraunces
+   (display serif) for the Tsundoku brand voice. Sizes pulled in from
+   the prior poster scale (h1 was 4.25rem) to a calmer catalog scale
+   that lets content keep priority on long browse pages.
+   1.25 modular scale: h1=3rem, h2=2rem, h3=1.5rem at desktop.
+*/
 .heading-xl {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(2.5rem, 8vw, 4.25rem);
-  font-weight: 800; letter-spacing: -0.025em; line-height: 0.98;
+  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+  font-weight: 800; letter-spacing: -0.02em; line-height: 1.05;
 }
 .heading-lg {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(1.5rem, 4vw, 2.25rem);
-  font-weight: 700; letter-spacing: -0.015em; line-height: 1.1;
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  font-weight: 700; letter-spacing: -0.012em; line-height: 1.15;
 }
 .heading-md {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 700; line-height: 1.2;
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  font-weight: 700; line-height: 1.25;
 }
 .text-mono {
   font-family: var(--font-mono); font-size: 0.85em;
@@ -308,19 +316,57 @@ a:hover { color: var(--pop-pink); }
 .font-bold { font-weight: 700; }
 .font-black { font-weight: 900; }
 
-/* ===== Neo-Brutalist Cards ===== */
+/* Long-form prose (descriptions, bios). Caps line length at the
+   readability sweet spot (~65ch), bumps body to 17px, opens line-height
+   to 1.65 for sustained reading. Old-style numerals when present. */
+.prose, .prose-text {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  max-width: 65ch;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+.prose p + p { margin-top: 1em; }
+.prose a { color: var(--pop-blue); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+/* Tabular numerals on places that read like a table or call number —
+   stats grids, classification cards, ISBN runs, page counts. */
+.text-mono,
+.classification-card,
+.stat-badge-number {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* ===== Cards =====
+   Toned from 3px brutalist to 2px + soft elevation per #129 Sub-epic A.
+   The brand brutalism (4px hard-offset shadow) is reserved for stat
+   badges and an explicit `.card-brutalist` modifier so it can be applied
+   to specific home-page callouts only.
+*/
 .card {
-  border: 3px solid var(--border);
+  border: 2px solid var(--border);
   background: var(--bg-surface);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-1);
   text-decoration: none;
   color: var(--text);
-  transition: transform 100ms ease, box-shadow 100ms ease;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
 }
 .card:hover {
+  transform: translate(-1px, -2px);
+  box-shadow: var(--shadow-2);
+  border-color: var(--pop-pink);
+}
+
+/* Brutalist signature — opt-in. Apply to one home-page callout
+   (currently-reading / featured) so the original 4px-offset hard
+   shadow stays as brand identity without dominating long-list
+   browsing surfaces. */
+.card-brutalist {
+  border-width: 3px;
+  box-shadow: var(--shadow);
+}
+.card-brutalist:hover {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px 0 var(--shadow-color);
-  border-color: var(--pop-pink);
 }
 
 .card-accent {
