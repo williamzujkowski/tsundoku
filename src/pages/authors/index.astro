@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { toSlug } from '../../utils/formatting';
+import { toSlug, isJointAlias } from '../../utils/formatting';
 
 const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');
@@ -21,16 +21,23 @@ for (const book of books) {
   authorMap.set(author, (authorMap.get(author) ?? 0) + 1);
 }
 
-const allAuthors = [...authorMap.entries()].map(([name, count]) => {
-  const enriched = enrichedMap.get(name);
-  return {
-    name,
-    count,
-    slug: enriched?.slug ?? toSlug(name),
-    photo_url: enriched?.photo_url,
-    hasDetailPage: enrichedMap.has(name),
-  };
-});
+// Hide joint-name aliases (e.g. "Robert Jordan & Brandon Sanderson") from
+// listings — each component has its own record per the splitting in #108.
+// URLs still work for back-compat.
+const knownAuthorNames = new Set(enrichedAuthors.map(a => a.data.name));
+
+const allAuthors = [...authorMap.entries()]
+  .filter(([name]) => !isJointAlias(name, knownAuthorNames))
+  .map(([name, count]) => {
+    const enriched = enrichedMap.get(name);
+    return {
+      name,
+      count,
+      slug: enriched?.slug ?? toSlug(name),
+      photo_url: enriched?.photo_url,
+      hasDetailPage: enrichedMap.has(name),
+    };
+  });
 
 function letterKey(c: string): string {
   const lc = c.toLowerCase();

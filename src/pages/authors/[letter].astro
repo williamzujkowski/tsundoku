@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { toSlug } from '../../utils/formatting';
+import { toSlug, isJointAlias } from '../../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
 
@@ -22,16 +22,24 @@ export async function getStaticPaths() {
     authorMap.set(book.data.author, (authorMap.get(book.data.author) ?? 0) + 1);
   }
 
-  const allAuthors = [...authorMap.entries()].map(([name, count]) => {
-    const enriched = enrichedMap.get(name);
-    return {
-      name,
-      count,
-      slug: enriched?.slug ?? toSlug(name),
-      photo_url: enriched?.photo_url,
-      hasDetailPage: enrichedMap.has(name),
-    };
-  });
+  // Set of all author records by name — used to detect joint-name aliases
+  // ("Robert Jordan & Brandon Sanderson") whose components have their own
+  // records. We hide aliases from the listing to reduce noise; the URLs
+  // still work for back-compat with anyone holding a bookmark.
+  const knownAuthorNames = new Set(enrichedAuthors.map(a => a.data.name));
+
+  const allAuthors = [...authorMap.entries()]
+    .filter(([name]) => !isJointAlias(name, knownAuthorNames))
+    .map(([name, count]) => {
+      const enriched = enrichedMap.get(name);
+      return {
+        name,
+        count,
+        slug: enriched?.slug ?? toSlug(name),
+        photo_url: enriched?.photo_url,
+        hasDetailPage: enrichedMap.has(name),
+      };
+    });
 
   const groups = new Map<string, typeof allAuthors>();
   for (const a of allAuthors) {

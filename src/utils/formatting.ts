@@ -127,3 +127,17 @@ export function authorMatches(bookAuthor: string, authorName: string): boolean {
   if (bookAuthor === authorName) return true;
   return parseAuthors(bookAuthor).parts.includes(authorName);
 }
+
+/**
+ * True when this author record is a joint-name alias (e.g. "Robert Jordan &
+ * Brandon Sanderson") AND each component author has its own record. Such
+ * aliases are effectively duplicates of their component records — useful for
+ * URL back-compat but noise in author listings.
+ *
+ * Pass `knownAuthorNames` as a Set for O(1) lookup.
+ */
+export function isJointAlias(name: string, knownAuthorNames: Set<string>): boolean {
+  const { isJoint, parts } = parseAuthors(name);
+  if (!isJoint) return false;
+  return parts.every((p) => knownAuthorNames.has(p));
+}
