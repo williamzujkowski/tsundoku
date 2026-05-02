@@ -4,7 +4,9 @@
   "category": "Literature",
   "priority": 2,
   "slug": "the-lower-depths",
-  "tags": [],
+  "tags": [
+    "drama"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/6711131-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/6711131-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL289013W",
@@ -27,6 +29,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL50962797M"
 }

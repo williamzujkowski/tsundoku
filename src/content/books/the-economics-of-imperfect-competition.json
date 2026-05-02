@@ -4,7 +4,9 @@
   "category": "Economics",
   "priority": 2,
   "slug": "the-economics-of-imperfect-competition",
-  "tags": [],
+  "tags": [
+    "economics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/9288611-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/9288611-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1197187W",
@@ -29,6 +31,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL46860334M"
 }

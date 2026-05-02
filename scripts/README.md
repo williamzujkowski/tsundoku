@@ -13,12 +13,17 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | Script | Source | What it adds |
 |---|---|---|
 | `enrich.py` | Open Library + Google Books | Covers, descriptions, ISBNs, page counts, subjects, first published year |
+| `enrich-ol-classification.py` | Open Library | DDC, LCC, ISBN, subject_facet, language, pages, first_published year (work-level) |
+| `enrich-ol-fuzzy-retry.py` | Open Library | Multi-strategy fuzzy retry for books missing classification |
+| `enrich-ol-firstedition.py` | Open Library | First-edition anchor: editions consensus, original_*, representative_edition |
+| `enrich-wikidata-book.py` | Wikidata SPARQL | Year corrections, original_publisher, awards, series via P648 |
+| `enrich-wikidata-author.py` | Wikidata SPARQL | Nationality, alternate names, movements, awards, VIAF via P648 |
+| `recategorize.py` | Internal (DDC/LCC + tags) | Computes category from DDC/LCC primary, falls back to tag heuristics |
 | `enrich-gutenberg.py` | Project Gutenberg (Gutendex) | Free reading links for public domain books |
 | `enrich-librivox.py` | LibriVox | Free audiobook links for public domain books |
 | `enrich-hathitrust.py` | HathiTrust | Digitized text links (via OCLC/ISBN lookup) |
 | `enrich-authors.py` | Wikipedia + Open Library | Author bios, photos, birth/death years |
 | `enrich-gaps.py` | Open Library + Google Books | Multi-source gap filler — fills missing fields with fallback |
-| `enrich-categories.py` | Internal (subjects+tags) | Suggests category changes based on subject keywords and genre tags |
 | `enrich-copyright.py` | Internal (metadata) | Computes copyright_status from existing fields (no API calls) |
 | `enrich-tags.py` | Internal (subjects) | Maps Open Library subjects to normalized genre tags (35 genres) |
 | `enrich-wikipedia-books.py` | Wikipedia | Descriptions + covers for books missing them |
@@ -99,5 +104,5 @@ python3 scripts/enrich-gaps.py --limit 500 --field subjects
 # Recompute copyright/tags/categories independently
 python3 scripts/enrich-copyright.py --apply
 python3 scripts/enrich-tags.py --apply
-python3 scripts/enrich-categories.py --apply
+python3 scripts/recategorize.py --apply
 ```

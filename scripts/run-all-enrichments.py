@@ -145,7 +145,7 @@ def main() -> None:
     post_scripts = [
         ("enrich-tags.py", ["--apply"], "Populate genre tags from subjects"),
         ("enrich-copyright.py", ["--apply"], "Compute copyright status"),
-        ("enrich-categories.py", ["--apply"], "Recategorize by genre/subject"),
+        ("recategorize.py", ["--apply"], "Recategorize via DDC/LCC + tags"),
         ("dedupe-books.py", ["--apply"], "Merge duplicate books"),
         ("generate-author-stubs.py", [], "Generate missing author pages"),
         ("generate-stats.py", [], "Regenerate collection stats"),

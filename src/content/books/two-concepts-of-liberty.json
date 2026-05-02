@@ -4,7 +4,9 @@
   "category": "Political Theory",
   "priority": 1,
   "slug": "two-concepts-of-liberty",
-  "tags": [],
+  "tags": [
+    "politics"
+  ],
   "cover_url": "https://covers.openlibrary.org/b/id/3325331-M.jpg",
   "cover_url_large": "https://covers.openlibrary.org/b/id/3325331-L.jpg",
   "open_library_url": "https://openlibrary.org/works/OL930390W",
@@ -36,6 +38,5 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 6,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL33602782M"
 }
