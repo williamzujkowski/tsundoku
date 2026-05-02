@@ -51,10 +51,12 @@ function compareLcc(a: string, b: string): number {
   return ka[2].localeCompare(kb[2]);
 }
 function lccDisplay(lcc: string): string {
-  // OL pads LCC for sorting — strip leading hyphen between class+number,
-  // collapse all-zero fractional padding, normalize internal whitespace.
+  // OL pads LCC for sorting — single-letter classes get 1-2 dashes
+  // between class and number (e.g. "E--0061..."). Strip ALL leading
+  // dashes between class and number, collapse all-zero fractional
+  // padding, normalize internal whitespace.
   return lcc
-    .replace(/^([A-Z]+)-(\d)/, '$1$2')
+    .replace(/^([A-Z]+)-+(\d)/, '$1$2')
     .replace(/\.0+(?=\D|$)/g, '')
     .replace(/\s+/g, ' ')
     .trim();
