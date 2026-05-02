@@ -50,6 +50,37 @@ const books = defineCollection({
     lcc: z.array(z.string()).optional(),
     subject_facet: z.array(z.string()).optional(),
     ol_work_key: z.string().optional(),
+    // First-edition anchored fields (populated by scripts/enrich-ol-firstedition.py — see epic #124).
+    // first_published refers to the WORK's earliest known publication year.
+    // The original_* fields capture the work's original-language publication
+    // metadata, distinct from the representative edition we link to (which
+    // may be a modern English reprint).
+    original_title: z.string().optional(),
+    original_language: z.string().optional(),         // ISO 639-3 code
+    original_publisher: z.string().optional(),
+    original_pages: z.number().optional(),
+    first_edition_isbn: z.string().nullable().optional(),  // explicit null for pre-ISBN works
+    first_published_circa: z.boolean().optional(),    // for "ca. 1850" / "[1900?]"
+    translator: z.string().optional(),                // when original_language differs from language
+    editions_count: z.number().optional(),
+    // Representative-edition anchored fields. The edition we link to via isbn/pages.
+    representative_edition_key: z.string().optional(),  // OL /books/OL...M
+    // Wikidata enrichment (populated by scripts/enrich-wikidata-book.py — Epic B in #124)
+    wikidata_qid: z.string().optional(),  // Q12345
+    awards: z.array(z.object({
+      name: z.string(),
+      year: z.number().optional(),
+    })).optional(),
+    series: z.object({
+      name: z.string(),
+      position: z.number().optional(),
+      total: z.number().optional(),
+    }).optional(),
+    adaptations: z.array(z.object({
+      type: z.enum(['film', 'tv', 'stage', 'radio', 'opera', 'other']),
+      title: z.string(),
+      year: z.number().optional(),
+    })).optional(),
   }),
 });
 
@@ -68,6 +99,18 @@ const authors = defineCollection({
     // Local photo cache (populated by scripts/cache-photos.py — see #94)
     photo_url_source: z.string().optional(),
     photo_cached_at: z.string().optional(),
+    // Open Library author identity (populated by enrich-authors.py)
+    ol_author_key: z.string().optional(),
+    // Wikidata enrichment (Epic B in #124)
+    wikidata_qid: z.string().optional(),
+    nationality: z.array(z.string()).optional(),     // ISO 3166-1 alpha-2 codes
+    alternate_names: z.array(z.string()).optional(),  // pen names, transliterations
+    awards: z.array(z.object({
+      name: z.string(),
+      year: z.number().optional(),
+    })).optional(),
+    movements: z.array(z.string()).optional(),       // "Beat Generation", "Modernism", etc.
+    viaf_id: z.string().optional(),                  // canonical author cross-reference
   }),
 });
 
