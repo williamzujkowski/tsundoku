@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 sys.path.insert(0, os.path.dirname(__file__))
-from json_merge import additive_merge, is_empty, load_existing, save_json
+from json_merge import additive_merge, is_empty, load_existing, provenance_merge, save_json
 
 
 class TestIsEmpty:
@@ -128,3 +128,126 @@ class TestRoundtrip:
         assert roundtripped["name"] == "Albert‑László Barabási"
         # Make sure ensure_ascii=False is in effect
         assert "Albert" in f.read_text()
+
+
+class TestProvenanceMerge:
+    """Provenance-aware merge — overwrites only when incoming source rank
+    exceeds existing field's recorded provenance. Existing untagged fields
+    default to rank 0 (legacy), so any tagged source can correct them."""
+
+    def test_fills_empty_field_records_provenance(self):
+        book = {"title": "X"}
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+        )
+        assert changed
+        assert book["first_published"] == 1949
+        assert book["_provenance"]["first_published"] == "ol_firstedition_v1"
+        assert audit == {}
+
+    def test_preserves_existing_when_not_in_overwritable(self):
+        book = {"first_published": 1950}
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+        )
+        assert not changed
+        assert book["first_published"] == 1950
+        assert "_provenance" not in book
+
+    def test_overwrites_legacy_when_overwritable(self):
+        # Untagged existing = legacy rank 0, overwritable beats it
+        book = {"first_published": 1950}
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+            fields_overwritable={"first_published"},
+        )
+        assert changed
+        assert book["first_published"] == 1949
+        assert audit["first_published"]["from"] == 1950
+        assert audit["first_published"]["new_source"] == "ol_firstedition_v1"
+
+    def test_does_not_overwrite_higher_rank(self):
+        book = {"first_published": 1950, "_provenance": {"first_published": "manual"}}
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+            fields_overwritable={"first_published"},
+        )
+        assert not changed
+        assert book["first_published"] == 1950
+        assert audit == {}
+
+    def test_overwrites_lower_rank_source(self):
+        book = {
+            "first_published": 1950,
+            "_provenance": {"first_published": "ol_classification_v2"},
+        }
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+            fields_overwritable={"first_published"},
+        )
+        assert changed
+        assert book["first_published"] == 1949
+        assert book["_provenance"]["first_published"] == "ol_firstedition_v1"
+
+    def test_skips_empty_incoming(self):
+        book = {}
+        changed, _ = provenance_merge(
+            book,
+            {"a": "", "b": [], "c": "ok"},
+            source="ol_firstedition_v1",
+        )
+        assert changed
+        assert book == {"c": "ok", "_provenance": {"c": "ol_firstedition_v1"}}
+
+    def test_explicit_null_for_first_edition_isbn_is_meaningful(self):
+        """Pre-ISBN works: first_edition_isbn should be writable as explicit None."""
+        book = {}
+        changed, _ = provenance_merge(
+            book,
+            {"first_edition_isbn": None},
+            source="ol_firstedition_v1",
+        )
+        assert changed
+        assert book["first_edition_isbn"] is None
+        assert book["_provenance"]["first_edition_isbn"] == "ol_firstedition_v1"
+
+    def test_no_audit_row_when_value_unchanged(self):
+        book = {"first_published": 1949}
+        changed, audit = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="ol_firstedition_v1",
+            fields_overwritable={"first_published"},
+        )
+        # Provenance got recorded even though value matched
+        assert changed
+        assert audit == {}
+        assert book["_provenance"]["first_published"] == "ol_firstedition_v1"
+
+    def test_empty_provenance_dict_pruned(self):
+        book = {"title": "X"}
+        provenance_merge(book, {}, source="ol_firstedition_v1")
+        assert "_provenance" not in book
+
+    def test_unknown_source_acts_as_rank_zero(self):
+        # Sources not in SOURCE_RANK can fill empties but never overwrite.
+        book = {"first_published": 1950}
+        changed, _ = provenance_merge(
+            book,
+            {"first_published": 1949},
+            source="unregistered_source",
+            fields_overwritable={"first_published"},
+        )
+        # rank 0 vs existing rank 0 — strict > comparison, no overwrite
+        assert not changed
+        assert book["first_published"] == 1950

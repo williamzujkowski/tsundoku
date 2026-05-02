@@ -81,6 +81,11 @@ const books = defineCollection({
       title: z.string(),
       year: z.number().optional(),
     })).optional(),
+    // Per-field source-of-truth tags for provenance-aware merge.
+    // Maps field name → source identifier (e.g. "ol_firstedition_v1", "manual").
+    // Records without `_provenance` are treated as legacy/rank 0 and any
+    // tagged enricher can correct them. See scripts/json_merge.py.
+    _provenance: z.record(z.string(), z.string()).optional(),
   }),
 });
 
@@ -111,6 +116,7 @@ const authors = defineCollection({
     })).optional(),
     movements: z.array(z.string()).optional(),       // "Beat Generation", "Modernism", etc.
     viaf_id: z.string().optional(),                  // canonical author cross-reference
+    _provenance: z.record(z.string(), z.string()).optional(),
   }),
 });
 

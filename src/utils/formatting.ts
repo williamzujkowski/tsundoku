@@ -141,3 +141,62 @@ export function isJointAlias(name: string, knownAuthorNames: Set<string>): boole
   if (!isJoint) return false;
   return parts.every((p) => knownAuthorNames.has(p));
 }
+
+/**
+ * ISO 639-3 language code → human-readable English name.
+ * We only enumerate languages that actually appear in the catalog;
+ * unknown codes pass through uppercased so the UI is never blank.
+ */
+const LANGUAGE_NAMES: Record<string, string> = {
+  eng: 'English',
+  fre: 'French', fra: 'French',
+  ger: 'German', deu: 'German',
+  spa: 'Spanish',
+  ita: 'Italian',
+  por: 'Portuguese',
+  rus: 'Russian',
+  jpn: 'Japanese',
+  chi: 'Chinese', zho: 'Chinese',
+  kor: 'Korean',
+  ara: 'Arabic',
+  heb: 'Hebrew',
+  lat: 'Latin',
+  grc: 'Ancient Greek',
+  gre: 'Greek', ell: 'Greek',
+  pol: 'Polish',
+  swe: 'Swedish',
+  nor: 'Norwegian',
+  dan: 'Danish',
+  fin: 'Finnish',
+  dut: 'Dutch', nld: 'Dutch',
+  cze: 'Czech', ces: 'Czech',
+  hun: 'Hungarian',
+  tur: 'Turkish',
+  hin: 'Hindi',
+  san: 'Sanskrit',
+  per: 'Persian', fas: 'Persian',
+  vie: 'Vietnamese',
+  tha: 'Thai',
+  yid: 'Yiddish',
+  ice: 'Icelandic', isl: 'Icelandic',
+  ron: 'Romanian', rum: 'Romanian',
+  ukr: 'Ukrainian',
+  cat: 'Catalan',
+};
+
+export function languageLabel(code: string | undefined | null): string {
+  if (!code) return '';
+  const lc = code.toLowerCase();
+  return LANGUAGE_NAMES[lc] ?? lc.toUpperCase();
+}
+
+/**
+ * Format a publication year, accommodating BCE (negative ints) and the
+ * `circa` flag for approximate dates.
+ */
+export function formatYear(year: number | undefined | null, circa?: boolean): string {
+  if (year === undefined || year === null) return '';
+  const prefix = circa ? 'c. ' : '';
+  if (year < 0) return `${prefix}${Math.abs(year)} BCE`;
+  return `${prefix}${year}`;
+}
