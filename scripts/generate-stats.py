@@ -15,14 +15,18 @@ from collections import Counter
 from pathlib import Path
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
+AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 STATS_PATH = Path(__file__).parent.parent / "src" / "data" / "stats.json"
 
 
 def generate_stats() -> dict:
-    """Generate comprehensive statistics from book data."""
+    """Generate comprehensive statistics from book + author data."""
     books = []
     for bp in sorted(BOOKS_DIR.glob("*.json")):
         books.append(json.loads(bp.read_text()))
+    authors_data = []
+    for ap in sorted(AUTHORS_DIR.glob("*.json")):
+        authors_data.append(json.loads(ap.read_text()))
 
     # Basic counts
     total = len(books)
@@ -37,6 +41,14 @@ def generate_stats() -> dict:
     has_pages = sum(1 for b in books if b.get("pages"))
     has_year = sum(1 for b in books if b.get("first_published"))
     has_subjects = sum(1 for b in books if b.get("subjects"))
+    has_subject_facet = sum(1 for b in books if b.get("subject_facet"))
+    has_ddc = sum(1 for b in books if b.get("ddc"))
+    has_lcc = sum(1 for b in books if b.get("lcc"))
+    has_wikidata = sum(1 for b in books if b.get("wikidata_qid"))
+    has_orig_lang = sum(1 for b in books if b.get("original_language"))
+    has_orig_pub = sum(1 for b in books if b.get("original_publisher"))
+    has_awards_book = sum(1 for b in books if b.get("awards"))
+    has_series = sum(1 for b in books if b.get("series"))
 
     # Top authors by book count
     top_authors = [
@@ -50,7 +62,33 @@ def generate_stats() -> dict:
         key=lambda x: -x["count"],
     )
 
-    # Year distribution
+    # Author-level Wikidata enrichment
+    has_nationality = sum(1 for a in authors_data if a.get("nationality"))
+    has_alt_names = sum(1 for a in authors_data if a.get("alternate_names"))
+    has_movements = sum(1 for a in authors_data if a.get("movements"))
+    has_awards_author = sum(1 for a in authors_data if a.get("awards"))
+    has_viaf = sum(1 for a in authors_data if a.get("viaf_id"))
+    has_wd_author = sum(1 for a in authors_data if a.get("wikidata_qid"))
+
+    # Nationality distribution (top 12). Books inherit from their authors,
+    # which is more meaningful than counting authors-with-nationality.
+    author_nationality = {}
+    for a in authors_data:
+        nats = a.get("nationality") or []
+        if nats:
+            # Primary nationality only (first listed)
+            author_nationality[a["name"]] = nats[0]
+    book_nationality = Counter()
+    for b in books:
+        nat = author_nationality.get(b["author"])
+        if nat:
+            book_nationality[nat] += 1
+    nationality_distribution = [
+        {"code": code, "count": count}
+        for code, count in book_nationality.most_common(12)
+    ]
+
+    # Year distribution — coarse buckets
     years = [b["first_published"] for b in books if b.get("first_published")]
     year_ranges = {
         "before_1800": sum(1 for y in years if y < 1800),
@@ -59,6 +97,15 @@ def generate_stats() -> dict:
         "1950_1999": sum(1 for y in years if 1950 <= y < 2000),
         "2000_plus": sum(1 for y in years if y >= 2000),
     }
+
+    # Decade timeline — for the visualization we want every decade with a count
+    decade_counts: Counter = Counter()
+    for y in years:
+        if y is None:
+            continue
+        decade = (y // 10) * 10  # 1949 → 1940
+        decade_counts[decade] += 1
+    timeline = [{"decade": d, "count": decade_counts[d]} for d in sorted(decade_counts)]
 
     # Oldest and newest
     oldest = min(years) if years else None
@@ -104,7 +151,26 @@ def generate_stats() -> dict:
             "pages_pct": round(100 * has_pages / total, 1),
             "years": has_year,
             "subjects": has_subjects,
+            "subject_facet": has_subject_facet,
+            "ddc": has_ddc,
+            "lcc": has_lcc,
+            "wikidata": has_wikidata,
+            "original_language": has_orig_lang,
+            "original_publisher": has_orig_pub,
+            "awards": has_awards_book,
+            "series": has_series,
         },
+        "author_enrichment": {
+            "total_authors": len(authors_data),
+            "wikidata": has_wd_author,
+            "nationality": has_nationality,
+            "alternate_names": has_alt_names,
+            "movements": has_movements,
+            "awards": has_awards_author,
+            "viaf": has_viaf,
+        },
+        "nationality_distribution": nationality_distribution,
+        "timeline": timeline,
         "top_authors": top_authors,
         "categories": category_stats,
         "year_distribution": year_ranges,
