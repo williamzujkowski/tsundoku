@@ -19,10 +19,16 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL49942557M",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NCL-002573113_%E5%AE%B6.pdf/page1-330px-NCL-002573113_%E5%AE%B6.pdf.jpg",
-  "cover_cached_at": "2026-05-03T01:14:13+00:00"
+  "cover_cached_at": "2026-05-03T01:14:13+00:00",
+  "subject_facet": [
+    "Chinese language materials",
+    "Fiction",
+    "Social life and customs"
+  ]
 }

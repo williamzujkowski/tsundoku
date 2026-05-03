@@ -26,7 +26,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 3,
   "first_published_circa": false,
@@ -34,5 +35,14 @@
   "representative_edition_key": "/books/OL19550381M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/5567192-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/5567192-L.jpg",
-  "cover_cached_at": "2026-05-03T01:22:15+00:00"
+  "cover_cached_at": "2026-05-03T01:22:15+00:00",
+  "subject_facet": [
+    "American poetry",
+    "Greek poetry",
+    "Poetry",
+    "Poetry (poetic works by one author)",
+    "Translations from English",
+    "Translations into Greek",
+    "Translations into Portuguese"
+  ]
 }

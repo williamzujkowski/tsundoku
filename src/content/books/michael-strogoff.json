@@ -27,11 +27,24 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL56233985M",
   "cover_url_source": "https://books.google.com/books/content?id=KPoLAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:32:35+00:00"
+  "cover_cached_at": "2026-05-03T01:32:35+00:00",
+  "subject_facet": [
+    "Classic Literature",
+    "Fiction",
+    "French Science fiction",
+    "Heroes",
+    "Heroes, fiction",
+    "History",
+    "Soviet union, fiction",
+    "Soviet union, history, fiction",
+    "Tatars",
+    "Thriller"
+  ]
 }

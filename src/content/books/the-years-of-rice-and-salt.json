@@ -25,11 +25,22 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL60903326M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/368194-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/368194-L.jpg",
-  "cover_cached_at": "2026-05-03T02:18:50+00:00"
+  "cover_cached_at": "2026-05-03T02:18:50+00:00",
+  "subject_facet": [
+    "American literature",
+    "Black Death",
+    "Fiction",
+    "Fiction - Science Fiction",
+    "Fiction, alternative history",
+    "Long Now Manual for Civilization",
+    "Science Fiction",
+    "Science Fiction - General"
+  ]
 }

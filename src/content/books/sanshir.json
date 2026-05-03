@@ -23,11 +23,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 5,
   "representative_edition_key": "/books/OL19089822M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12636960-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12636960-L.jpg",
-  "cover_cached_at": "2026-05-03T01:49:02+00:00"
+  "cover_cached_at": "2026-05-03T01:49:02+00:00",
+  "subject_facet": [
+    "Criticism and interpretation"
+  ]
 }

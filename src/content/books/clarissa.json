@@ -27,12 +27,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL54881661M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/5573168-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/5573168-L.jpg",
-  "cover_cached_at": "2026-05-03T01:02:27+00:00"
+  "cover_cached_at": "2026-05-03T01:02:27+00:00",
+  "subject_facet": [
+    "Conflict of generations",
+    "Crimes against",
+    "England in fiction",
+    "Fiction",
+    "Kidnapping victims",
+    "Kidnapping victims in fiction",
+    "Rape victims",
+    "Rape victims in fiction",
+    "Young women",
+    "Young women in fiction"
+  ]
 }

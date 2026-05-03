@@ -19,5 +19,20 @@
   "copyright_status": "in_copyright",
   "cover_url_source": "https://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:26:00+00:00"
+  "cover_cached_at": "2026-05-03T01:26:00+00:00",
+  "_provenance": {
+    "subject_facet": "open_library"
+  },
+  "subject_facet": [
+    "Com051260",
+    "Cs.cmp_sc.app_sw",
+    "Games",
+    "General",
+    "JavaScript (Computer language)",
+    "JavaScript (Computer program language)",
+    "browsers",
+    "javascript",
+    "programming",
+    "web"
+  ]
 }

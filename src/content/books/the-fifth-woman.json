@@ -25,7 +25,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 2,
   "first_published_circa": false,
@@ -33,5 +34,17 @@
   "representative_edition_key": "/books/OL32181781M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/10837394-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10837394-L.jpg",
-  "cover_cached_at": "2026-05-03T02:04:31+00:00"
+  "cover_cached_at": "2026-05-03T02:04:31+00:00",
+  "subject_facet": [
+    "Fiction, mystery & detective, hard-boiled",
+    "Fiction, mystery & detective, police procedural",
+    "Germanic literature",
+    "Kurt Wallander (Fictitious character)",
+    "Kurt Wallander (fictitious person)",
+    "Police",
+    "Sweden, fiction",
+    "Wallander, kurt (fictitious character), fiction",
+    "mystery",
+    "thriller"
+  ]
 }

@@ -26,9 +26,22 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/13726.html.images",
   "copyright_status": "public_domain",
   "_provenance": {
-    "first_published": "manual"
+    "first_published": "manual",
+    "subject_facet": "open_library"
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
-  "cover_cached_at": "2026-05-03T01:05:57+00:00"
+  "cover_cached_at": "2026-05-03T01:05:57+00:00",
+  "subject_facet": [
+    "Biography",
+    "Body, Mind & Spirit",
+    "History & Surveys - Ancient & Classical",
+    "History of ideas, intellectual history",
+    "Mysticism",
+    "Philosophers",
+    "Philosophy",
+    "Religion",
+    "Socrates",
+    "Socrates."
+  ]
 }

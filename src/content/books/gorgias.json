@@ -31,12 +31,25 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 6,
   "first_edition_isbn": "9781502354822",
   "representative_edition_key": "/books/OL55039831M",
   "cover_url_source": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:18:29+00:00"
+  "cover_cached_at": "2026-05-03T01:18:29+00:00",
+  "subject_facet": [
+    "Ancient Philosophy",
+    "Classic Literature",
+    "Early works to 1800",
+    "Ethics",
+    "Fiction",
+    "Greek language materials",
+    "Love",
+    "Political science",
+    "great_books_of_the_western_world",
+    "open_syllabus_project"
+  ]
 }

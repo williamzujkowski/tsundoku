@@ -19,8 +19,21 @@
   "language": "eng",
   "copyright_status": "in_copyright",
   "_provenance": {
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "subject_facet": "open_library"
   },
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/e1/Life_A_User%27s_Manual.jpg",
-  "cover_cached_at": "2026-05-03T01:30:31+00:00"
+  "cover_cached_at": "2026-05-03T01:30:31+00:00",
+  "subject_facet": [
+    "Création (esthétique)",
+    "Fac-similés",
+    "Facsimile",
+    "Facsimiles",
+    "French fiction",
+    "History and criticism",
+    "Manuscrits",
+    "Notebooks, sketchbooks",
+    "Notes, esquisses",
+    "Vie mode d'emploi"
+  ]
 }

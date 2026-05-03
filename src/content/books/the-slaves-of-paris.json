@@ -18,5 +18,11 @@
   "description": "<p>In this, <a href=\"https://standardebooks.org/ebooks/emile-gaboriau\">Gaboriau’s</a> penultimate <a href=\"https://standardebooks.org/collections/monsieur-lecoq\">Lecoq</a> novel, Lecoq doesn’t make an appearance until the last few chapters of the book. In fact, the protagonists’ identity remains unclear until almost halfway through.",
   "isbn": "9798564644686",
   "cover_url_source": "https://books.google.com/books/content?id=vmDYWO2SD5AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:13:48+00:00"
+  "cover_cached_at": "2026-05-03T02:13:48+00:00",
+  "_provenance": {
+    "subject_facet": "open_library"
+  },
+  "subject_facet": [
+    "Fiction, mystery & detective, general"
+  ]
 }

@@ -21,13 +21,13 @@ import json
 import sys
 import time
 from pathlib import Path
-from urllib.request import urlopen, Request
 from urllib.parse import quote_plus
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 from book_sources import cover_via_chain
 from enrichment_state import EnrichmentState
+from http_retry import fetch_json as http_fetch_json
 from json_merge import provenance_merge, save_json
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
@@ -60,43 +60,35 @@ def query_open_library(title: str, author: str) -> dict:
     query = quote_plus(f"{title} {author}")
     url = f"https://openlibrary.org/search.json?q={query}&fields=title,author_name,subject,number_of_pages_median,isbn,cover_i,first_publish_year&limit=3"
 
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-            docs = data.get("docs", [])
-            if not docs:
-                return {}
+    data = http_fetch_json(url)
+    if not data:
+        return {}
+    docs = data.get("docs", [])
+    if not docs:
+        return {}
 
-            # Use first result (best match)
-            doc = docs[0]
-            result = {}
+    doc = docs[0]
+    result: dict = {}
 
-            subjects = doc.get("subject", [])
-            if subjects:
-                # Take top 10 subjects, clean up
-                result["subject_facet"] = [s for s in subjects[:10] if len(s) < 100]
+    subjects = doc.get("subject", [])
+    if subjects:
+        result["subject_facet"] = [s for s in subjects[:10] if len(s) < 100]
 
-            pages = doc.get("number_of_pages_median")
-            if pages and pages > 0:
-                result["pages"] = pages
+    pages = doc.get("number_of_pages_median")
+    if pages and pages > 0:
+        result["pages"] = pages
 
-            isbns = doc.get("isbn", [])
-            if isbns:
-                # Prefer ISBN-13
-                isbn13 = [i for i in isbns if len(i) == 13]
-                result["isbn"] = isbn13[0] if isbn13 else isbns[0]
+    isbns = doc.get("isbn", [])
+    if isbns:
+        isbn13 = [i for i in isbns if len(i) == 13]
+        result["isbn"] = isbn13[0] if isbn13 else isbns[0]
 
-            cover_id = doc.get("cover_i")
-            if cover_id:
-                result["cover_url"] = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg"
-                result["cover_url_large"] = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
+    cover_id = doc.get("cover_i")
+    if cover_id:
+        result["cover_url"] = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg"
+        result["cover_url_large"] = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
 
-            return result
-
-    except Exception as e:
-        print(f"    OL error: {e}")
-    return {}
+    return result
 
 
 def query_google_books(title: str, author: str, isbn: str | None = None) -> dict:
@@ -107,44 +99,38 @@ def query_google_books(title: str, author: str, isbn: str | None = None) -> dict
         query = quote_plus(f"intitle:{title} inauthor:{author}")
     url = f"https://www.googleapis.com/books/v1/volumes?q={query}&maxResults=1"
 
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-            items = data.get("items", [])
-            if not items:
-                return {}
+    data = http_fetch_json(url)
+    if not data:
+        return {}
+    items = data.get("items", [])
+    if not items:
+        return {}
 
-            info = items[0].get("volumeInfo", {})
-            result = {}
+    info = items[0].get("volumeInfo", {})
+    result: dict = {}
 
-            desc = info.get("description", "")
-            if desc and len(desc) > 20:
-                # Strip HTML tags for clean text
-                import re
-                result["description"] = re.sub(r'<[^>]+>', '', desc).strip()
+    desc = info.get("description", "")
+    if desc and len(desc) > 20:
+        import re
+        result["description"] = re.sub(r"<[^>]+>", "", desc).strip()
 
-            pages = info.get("pageCount")
-            if pages and pages > 0:
-                result["pages"] = pages
+    pages = info.get("pageCount")
+    if pages and pages > 0:
+        result["pages"] = pages
 
-            categories = info.get("categories", [])
-            if categories:
-                result["subject_facet"] = categories
+    categories = info.get("categories", [])
+    if categories:
+        result["subject_facet"] = categories
 
-            identifiers = info.get("industryIdentifiers", [])
-            for ident in identifiers:
-                if ident.get("type") == "ISBN_13":
-                    result["isbn"] = ident["identifier"]
-                    break
-                elif ident.get("type") == "ISBN_10":
-                    result["isbn"] = ident["identifier"]
+    identifiers = info.get("industryIdentifiers", [])
+    for ident in identifiers:
+        if ident.get("type") == "ISBN_13":
+            result["isbn"] = ident["identifier"]
+            break
+        elif ident.get("type") == "ISBN_10":
+            result["isbn"] = ident["identifier"]
 
-            return result
-
-    except Exception as e:
-        print(f"    Google error: {e}")
-    return {}
+    return result
 
 
 def fill_gaps(book: dict, gaps: list[str]) -> tuple[dict, dict[str, str]]:

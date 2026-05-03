@@ -30,12 +30,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL56240954M",
   "cover_url_source": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:53:00+00:00"
+  "cover_cached_at": "2026-05-03T01:53:00+00:00",
+  "subject_facet": [
+    "Children's fiction",
+    "Criticism and interpretation",
+    "Early works to 1800",
+    "Natural law",
+    "Philosophy",
+    "Political science",
+    "Political science & theory",
+    "State, the",
+    "The State",
+    "Utopias"
+  ]
 }

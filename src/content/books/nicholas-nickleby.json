@@ -27,12 +27,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL54664617M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9283905-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9283905-L.jpg",
-  "cover_cached_at": "2026-05-03T01:34:26+00:00"
+  "cover_cached_at": "2026-05-03T01:34:26+00:00",
+  "subject_facet": [
+    "Boarding schools",
+    "Death",
+    "Fathers",
+    "Fiction",
+    "Poor families",
+    "Social life and customs",
+    "Theatrical companies",
+    "Uncles",
+    "Widows",
+    "Young men"
+  ]
 }

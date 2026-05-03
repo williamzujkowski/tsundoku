@@ -20,11 +20,24 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL37579691M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/10437930-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10437930-L.jpg",
-  "cover_cached_at": "2026-05-03T00:52:31+00:00"
+  "cover_cached_at": "2026-05-03T00:52:31+00:00",
+  "subject_facet": [
+    "African American police",
+    "African Americans",
+    "African americans, fiction",
+    "Coffin Ed Johnson (Fictitious character)",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Grave Digger Jones (Fictitious character)",
+    "Jones, grave digger (fictitious character), fiction",
+    "New york (n.y.), fiction",
+    "Police"
+  ]
 }

@@ -32,12 +32,25 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 10,
   "first_edition_isbn": "9781503043299",
   "representative_edition_key": "/books/OL55585792M",
   "cover_url_source": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:20:57+00:00"
+  "cover_cached_at": "2026-05-03T02:20:57+00:00",
+  "subject_facet": [
+    "Ancient Cosmology",
+    "Ancient Philosophy",
+    "Cosmology",
+    "Cosmology, ancient",
+    "Early works to 1800",
+    "General",
+    "Metaphysics",
+    "Philosophy",
+    "Philosophy, ancient",
+    "Political science"
+  ]
 }

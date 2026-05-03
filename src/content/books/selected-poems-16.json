@@ -20,11 +20,18 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL29819049M",
   "cover_url_source": "https://books.google.com/books/content?id=yqtfxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=yqtfxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:49:50+00:00"
+  "cover_cached_at": "2026-05-03T01:49:50+00:00",
+  "subject_facet": [
+    "English poetry",
+    "Persian Sufi poetry",
+    "Persian poetry",
+    "Translations into English"
+  ]
 }

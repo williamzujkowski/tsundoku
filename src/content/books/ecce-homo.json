@@ -28,12 +28,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 2,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL38356490M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/15157779-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/15157779-L.jpg",
-  "cover_cached_at": "2026-05-03T01:10:25+00:00"
+  "cover_cached_at": "2026-05-03T01:10:25+00:00",
+  "subject_facet": [
+    "Aesthetics",
+    "Antichrist",
+    "Biografía",
+    "Biography",
+    "Christianity",
+    "Christianity, controversial literature",
+    "Controversial literature",
+    "Large type books",
+    "Philosophy",
+    "Religion"
+  ]
 }

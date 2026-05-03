@@ -25,12 +25,25 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "cover_url": "ol_editions_v1",
-    "cover_url_large": "ol_editions_v1"
+    "cover_url_large": "ol_editions_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL33090134M",
   "copyright_status": "public_domain",
   "cover_url_source": "https://covers.openlibrary.org/b/id/11792982-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/11792982-L.jpg",
-  "cover_cached_at": "2026-05-03T01:01:37+00:00"
+  "cover_cached_at": "2026-05-03T01:01:37+00:00",
+  "subject_facet": [
+    "Capital",
+    "Communism",
+    "Economics",
+    "History",
+    "Marxian economics",
+    "One-act plays, American",
+    "One-act plays, English",
+    "Scientific socialism",
+    "Socialism",
+    "Économie politique"
+  ]
 }

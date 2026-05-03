@@ -30,12 +30,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL15026660M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6276041-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6276041-L.jpg",
-  "cover_cached_at": "2026-05-03T01:49:47+00:00"
+  "cover_cached_at": "2026-05-03T01:49:47+00:00",
+  "subject_facet": [
+    "Children's poetry, English",
+    "English Love poetry",
+    "English poetry",
+    "Facsimiles",
+    "Gift books",
+    "Juvenile literature",
+    "Manuscripts",
+    "Nature",
+    "Poetry",
+    "Specimens"
+  ]
 }

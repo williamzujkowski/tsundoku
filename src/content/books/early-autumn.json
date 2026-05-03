@@ -20,5 +20,15 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72406.html.images",
   "copyright_status": "public_domain",
   "cover_url_source": "https://books.google.com/books/content?id=7dAsEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:10:02+00:00"
+  "cover_cached_at": "2026-05-03T01:10:02+00:00",
+  "_provenance": {
+    "subject_facet": "open_library"
+  },
+  "subject_facet": [
+    "Fiction",
+    "Pulitzer Prize Winner",
+    "Women",
+    "award:pulitzer_prize=1927",
+    "award:pulitzer_prize=fiction"
+  ]
 }

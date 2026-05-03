@@ -23,12 +23,19 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780815624448",
   "representative_edition_key": "/books/OL8049265M",
   "cover_url_source": "https://books.google.com/books/content?id=ok93aZ27r-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:52:07+00:00"
+  "cover_cached_at": "2026-05-03T01:52:07+00:00",
+  "subject_facet": [
+    "History and criticism",
+    "In literature",
+    "Marko, prince of serbia, 1335?-1394, poetry",
+    "Southern Slavic Epic poetry"
+  ]
 }

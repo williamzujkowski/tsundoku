@@ -23,11 +23,24 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL50962797M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6711131-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6711131-L.jpg",
-  "cover_cached_at": "2026-05-03T02:09:21+00:00"
+  "cover_cached_at": "2026-05-03T02:09:21+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Criticism and interpretation",
+    "Russian drama",
+    "Sports",
+    "Study and teaching",
+    "flophouse",
+    "homeless",
+    "illusions",
+    "outcasts",
+    "tramps"
+  ]
 }

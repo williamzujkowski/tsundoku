@@ -29,12 +29,21 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 38,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL55697334M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/4813754-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/4813754-L.jpg",
-  "cover_cached_at": "2026-05-03T01:45:10+00:00"
+  "cover_cached_at": "2026-05-03T01:45:10+00:00",
+  "subject_facet": [
+    "Church of England",
+    "Lord's prayer",
+    "Lord's prayer, meditations",
+    "Meditations",
+    "Mysticism",
+    "Spiritual life"
+  ]
 }

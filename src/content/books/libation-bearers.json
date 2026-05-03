@@ -30,7 +30,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 3,
   "first_published_circa": false,
@@ -38,5 +39,17 @@
   "representative_edition_key": "/books/OL55953872M",
   "cover_url_source": "https://books.google.com/books/content?id=8kdZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=8kdZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:30:27+00:00"
+  "cover_cached_at": "2026-05-03T01:30:27+00:00",
+  "subject_facet": [
+    "Agamemnon (Greek mythology)",
+    "Drama",
+    "Electra (Greek mythology)",
+    "Greek drama",
+    "Greek drama (Tragedy)",
+    "Orestes (Greek mythology)",
+    "Translations into English",
+    "Translations into Icelandic",
+    "Translations into Italian",
+    "Translations into Spanish"
+  ]
 }

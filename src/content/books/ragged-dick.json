@@ -26,12 +26,25 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "0020413904",
   "representative_edition_key": "/books/OL39227765M",
   "cover_url_source": "https://books.google.com/books/content?id=yeNC1mb8hosC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:46:40+00:00"
+  "cover_cached_at": "2026-05-03T01:46:40+00:00",
+  "subject_facet": [
+    "Boys",
+    "Boys in fiction",
+    "Fiction",
+    "Friendship in fiction",
+    "Poor children",
+    "Poor children in fiction",
+    "Shoe shiners",
+    "Shoe shiners in fiction",
+    "Street children",
+    "Street children in fiction"
+  ]
 }

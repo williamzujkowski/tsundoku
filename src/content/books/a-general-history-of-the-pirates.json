@@ -22,10 +22,23 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL36671131M",
   "cover_url_source": "https://books.google.com/books/content?id=6UjmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:51:54+00:00"
+  "cover_cached_at": "2026-05-03T00:51:54+00:00",
+  "subject_facet": [
+    "British",
+    "Children of prisoners",
+    "Criminals",
+    "English Adventure stories",
+    "English Picaresque literature",
+    "Fiction",
+    "Prostitutes",
+    "Repentance",
+    "Social life and customs",
+    "Women"
+  ]
 }

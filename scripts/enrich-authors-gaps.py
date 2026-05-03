@@ -70,18 +70,17 @@ def _wiki_title_from_url(url: str) -> str | None:
     return unquote(m.group(1)).replace("_", " ")
 
 
-def _resolve_wiki_title_from_ol_key(olid: str | None) -> str | None:
-    """OL author key → Wikidata QID (via P648) → enwiki sitelink → article title.
-
-    For records that only have an OL key (most of the residual gap set),
-    this gives us a curated Wikipedia article title to feed into the REST
-    summary lookup, bypassing the unreliable by-name fallback.
-    """
+def _qid_from_ol_key(olid: str | None) -> str | None:
+    """OL author key → Wikidata QID via P648. Cached upstream."""
     if not olid:
         return None
     full_key = olid if olid.startswith("/authors/") else f"/authors/{olid}"
     qids = qids_by_ol_author_keys([full_key])
-    qid = qids.get(full_key)
+    return qids.get(full_key)
+
+
+def _resolve_wiki_title_from_qid(qid: str | None) -> str | None:
+    """QID → enwiki sitelink → article title."""
     if not qid:
         return None
     entity = fetch_entity(qid)
@@ -91,20 +90,19 @@ def _resolve_wiki_title_from_ol_key(olid: str | None) -> str | None:
 def _wiki_then_variants(
     name: str,
     curated_wiki_title: str | None,
-    olid: str | None,
+    resolved_wiki_title: str | None,
 ) -> dict:
     """Wikipedia REST lookups in priority order:
       1. Curated wiki URL on the record (most trusted)
-      2. OL key → Wikidata QID → enwiki sitelink (authoritative cross-walk)
+      2. OL→QID→enwiki sitelink resolved by caller (authoritative cross-walk)
       3. Name variants (cataloging-artifact fallback — least reliable)
     """
     titles: list[str] = []
     if curated_wiki_title:
         titles.append(curated_wiki_title)
-    resolved = _resolve_wiki_title_from_ol_key(olid)
-    if resolved and resolved not in titles:
-        titles.append(resolved)
-    if not curated_wiki_title and not resolved:
+    if resolved_wiki_title and resolved_wiki_title not in titles:
+        titles.append(resolved_wiki_title)
+    if not curated_wiki_title and not resolved_wiki_title:
         titles.extend(candidate_names(name))
 
     for t in titles:
@@ -127,25 +125,39 @@ def _wikidata_with_variants(name: str) -> dict:
 
 def try_sources_for(doc: dict) -> dict:
     """Fire all sources in parallel through their per-source rate buckets,
-    then merge results in priority order: Wikipedia first (richest bio +
-    photo when it resolves), then OL author page, then Wikidata."""
+    then merge results in priority order. The Wikidata QID resolved via
+    OL key (P648) is the authoritative bridge — used to trust both the
+    enwiki sitelink (for Wikipedia REST) and the entity itself (for
+    description + P18 photo even when there's no Wikipedia article).
+
+    Priority: Wikipedia → OL author page → Wikidata-via-QID → Wikidata-
+    by-name. Wikidata-via-QID outranks the by-name fallback because the
+    cross-walk eliminates same-name disambiguation.
+    """
     name = doc.get("name", "")
     olid = _olid_from_url(doc.get("open_library_url", ""))
     curated_wiki_title = _wiki_title_from_url(doc.get("wikipedia_url", ""))
 
+    # Resolve QID and the enwiki title once — both downstream sources
+    # may need them, and the SPARQL/entity calls are cached upstream
+    # so this isn't extra latency on subsequent uses.
+    qid = _qid_from_ol_key(olid)
+    resolved_wiki_title = _resolve_wiki_title_from_qid(qid)
+
     sources = [
-        ("wikipedia", lambda: _wiki_then_variants(name, curated_wiki_title, olid)),
+        ("wikipedia", lambda: _wiki_then_variants(
+            name, curated_wiki_title, resolved_wiki_title
+        )),
         ("open_library_author", lambda: from_open_library_author_page(
             olid=olid, name=name if not olid else None
         )),
+        ("wikidata_qid", lambda: from_wikidata(qid=qid) if qid else {}),
         ("wikidata", lambda: _wikidata_with_variants(name)),
     ]
     results = parallel_sources(sources, buckets=DEFAULT_BUCKETS)
 
     aggregated: dict = {}
-    # Priority: Wikipedia → OL → Wikidata. setdefault preserves the highest-
-    # priority value when multiple sources contribute the same field.
-    for src in ("wikipedia", "open_library_author", "wikidata"):
+    for src in ("wikipedia", "open_library_author", "wikidata_qid", "wikidata"):
         for k, v in (results.get(src) or {}).items():
             aggregated.setdefault(k, v)
     return aggregated
