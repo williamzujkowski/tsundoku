@@ -214,3 +214,150 @@ class TestWikidata:
         result = src.from_wikidata(name="Plato")
         # Year extraction takes the digits — sign is preserved by the regex
         assert result["birth_year"] == 428
+
+
+class TestWikipedia:
+    def test_parses_extract_image_url_years(self, monkeypatch):
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "extract": "Hannah Arendt was a German-American political philosopher, "
+                           "author and Holocaust survivor. " * 2,
+                "description": "American political theorist (1906–1975)",
+                "originalimage": {
+                    "source": "https://upload.wikimedia.org/wikipedia/commons/x.jpg"
+                },
+                "thumbnail": {"source": "https://upload.wikimedia.org/x/200px-x.jpg"},
+                "content_urls": {"desktop": {"page": "https://en.wikipedia.org/wiki/Hannah_Arendt"}},
+            },
+        )
+        out = src.from_wikipedia(name="Hannah Arendt")
+        assert "political philosopher" in out["bio"]
+        assert out["photo_url"].startswith("https://upload.wikimedia.org/")
+        # originalimage preferred over thumbnail
+        assert "200px" not in out["photo_url"]
+        assert out["wikipedia_url"].endswith("Hannah_Arendt")
+        assert out["birth_year"] == 1906
+        assert out["death_year"] == 1975
+
+    def test_falls_back_to_thumbnail_when_no_originalimage(self, monkeypatch):
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "extract": "x" * 200,
+                "thumbnail": {"source": "https://upload.wikimedia.org/x/120px-foo.jpg"},
+            },
+        )
+        out = src.from_wikipedia(name="Anyone")
+        # Thumbnail size upscaled from 120 → 400
+        assert "400px" in out["photo_url"]
+
+    def test_skips_disambiguation(self, monkeypatch):
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {"type": "disambiguation", "extract": "Many people named X."},
+        )
+        assert src.from_wikipedia(name="John Smith") == {}
+
+    def test_year_uses_description_over_extract(self, monkeypatch):
+        """Regression: lifespan was being clobbered by publication-date ranges
+        in the extract. Description (curated one-liner) should win."""
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "extract": "Italo Calvino was an Italian writer. The Our Ancestors "
+                           "trilogy (1952–1959) is his best-known work.",
+                "description": "Italian author (1923–1985)",
+            },
+        )
+        out = src.from_wikipedia(name="Italo Calvino")
+        assert out["birth_year"] == 1923
+        assert out["death_year"] == 1985
+
+    def test_returns_empty_on_404(self, monkeypatch):
+        monkeypatch.setattr(src, "_fetch_json", lambda url: None)
+        assert src.from_wikipedia(name="Nobody") == {}
+
+    def test_returns_empty_on_blank_name(self):
+        assert src.from_wikipedia(name="") == {}
+
+    def test_skips_short_extracts(self, monkeypatch):
+        """Don't write a 'bio' that's just a stub."""
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {"type": "standard", "extract": "Short."},
+        )
+        assert "bio" not in src.from_wikipedia(name="X")
+
+    def test_rejects_non_wiki_image(self, monkeypatch):
+        """Sanity check — only accept Wikimedia-hosted images."""
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "extract": "x" * 200,
+                "originalimage": {"source": "https://example.com/photo.jpg"},
+            },
+        )
+        assert "photo_url" not in src.from_wikipedia(name="X")
+
+    @pytest.mark.parametrize("description", [
+        "1860 novel by Charles Dickens",
+        "Book by Pedro Carolino",
+        "1942 American film",
+        "Song by The Beatles",
+        "Album by Pink Floyd",
+        "Television series",
+        "Manga series",
+        "family name",
+        "Surname",
+        "1923 short story collection",
+        "1960 play by Jean Anouilh",
+    ])
+    def test_rejects_work_descriptions(self, monkeypatch, description):
+        """REST returns book/film/song articles when an obscure author has
+        no own page. Reject when description identifies the article as a
+        work or as a name category."""
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "description": description,
+                "extract": "Long enough extract to pass the length filter " * 5,
+                "originalimage": {"source": "https://upload.wikimedia.org/x.jpg"},
+            },
+        )
+        assert src.from_wikipedia(name="Anyone") == {}
+
+    @pytest.mark.parametrize("description", [
+        "American novelist",
+        "British poet (1564-1616)",
+        "Italian author",
+        "Greek philosopher",
+        "Argentine writer",
+        "",
+    ])
+    def test_accepts_person_descriptions(self, monkeypatch, description):
+        monkeypatch.setattr(
+            src,
+            "_fetch_json",
+            lambda url: {
+                "type": "standard",
+                "description": description,
+                "extract": "Some person who wrote things, plenty of body content here." * 3,
+                "originalimage": {"source": "https://upload.wikimedia.org/x.jpg"},
+            },
+        )
+        out = src.from_wikipedia(name="Anyone")
+        assert out  # non-empty
+        assert "photo_url" in out

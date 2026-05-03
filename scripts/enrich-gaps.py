@@ -8,7 +8,8 @@ Sources queried (in priority order per field):
   - subjects: Open Library → Google Books
   - pages: Open Library → Google Books
   - isbn: Open Library → Google Books
-  - cover_url: Open Library (by title/author)
+  - cover_url: Wikidata P18 → Wikipedia → OL editions → Google Books
+              (delegated to book_sources.cover_via_chain — provenance-tagged)
 
 Usage:
   python scripts/enrich-gaps.py --limit 100          # fill gaps for 100 books
@@ -17,24 +18,30 @@ Usage:
 """
 
 import json
+import sys
 import time
 from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.parse import quote_plus
 
+sys.path.insert(0, str(Path(__file__).parent))
+
+from book_sources import cover_via_chain
 from enrichment_state import EnrichmentState
+from json_merge import provenance_merge, save_json
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
 RATE_LIMIT = 1.0  # Be conservative across all sources
 
-# Fields we can fill and their priority sources
+# Fields we can fill and their priority sources. cover_url is handled
+# separately via book_sources.cover_via_chain (multi-source).
 FILLABLE_FIELDS = {
     "description": ["google_books", "open_library"],
     "subject_facet": ["open_library", "google_books"],
     "pages": ["open_library", "google_books"],
     "isbn": ["open_library", "google_books"],
-    "cover_url": ["open_library"],
+    "cover_url": ["multi_chain"],
 }
 
 
@@ -140,20 +147,33 @@ def query_google_books(title: str, author: str, isbn: str | None = None) -> dict
     return {}
 
 
-def fill_gaps(book: dict, gaps: list[str]) -> dict:
-    """Try to fill missing fields from multiple sources."""
-    filled = {}
+def fill_gaps(book: dict, gaps: list[str]) -> tuple[dict, dict[str, str]]:
+    """Try to fill missing fields from multiple sources.
+
+    Returns (filled_fields, source_per_field) so the caller can apply
+    provenance tags. cover_url uses the multi-source chain delegated to
+    book_sources; everything else uses the OL/Google search dispatch.
+    """
+    filled: dict = {}
+    sources_used: dict[str, str] = {}
     title = book["title"]
     author = book["author"]
     isbn = book.get("isbn")
 
-    # Track which sources we've queried to avoid duplicate calls
     source_cache: dict[str, dict] = {}
 
     for field in gaps:
+        if field == "cover_url":
+            new, src = cover_via_chain(book)
+            time.sleep(RATE_LIMIT)
+            if new:
+                for k, v in new.items():
+                    filled[k] = v
+                    sources_used[k] = src or "multi_chain"
+            continue
+
         sources = FILLABLE_FIELDS.get(field, [])
         for source in sources:
-            # Query source if not cached
             if source not in source_cache:
                 if source == "open_library":
                     source_cache[source] = query_open_library(title, author)
@@ -162,24 +182,21 @@ def fill_gaps(book: dict, gaps: list[str]) -> dict:
                     source_cache[source] = query_google_books(title, author, isbn)
                     time.sleep(RATE_LIMIT)
 
-            # Check if this source has the field
             data = source_cache.get(source, {})
             if field in data:
                 if field == "subject_facet":
-                    # Merge from multiple sources rather than replacing
                     existing = set(book.get("subject_facet") or [])
                     new_facets = set(data[field])
                     merged = sorted(existing | new_facets)
                     if merged != sorted(existing):
                         filled[field] = merged
+                        sources_used[field] = source
                 else:
                     filled[field] = data[field]
-                # Also grab cover_url_large if we got cover_url from OL
-                if field == "cover_url" and "cover_url_large" in data:
-                    filled["cover_url_large"] = data["cover_url_large"]
-                break  # Got it from this source, no need for fallback
+                    sources_used[field] = source
+                break
 
-    return filled
+    return filled, sources_used
 
 
 def gap_report() -> None:
@@ -211,6 +228,13 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=50, help="Max books to process")
     parser.add_argument("--field", type=str, help="Only fill this specific field")
     parser.add_argument("--report", action="store_true", help="Show gap report only")
+    parser.add_argument(
+        "--rescan",
+        action="store_true",
+        help="Reset the scan position before running. Use for targeted "
+             "field backfills after a prior full scan has already moved "
+             "the cursor past books that still have field-specific gaps.",
+    )
     args = parser.parse_args()
 
     if args.report:
@@ -218,6 +242,8 @@ def main() -> None:
         return
 
     state = EnrichmentState("gap-filler")
+    if args.rescan:
+        state.reset()
     book_files = sorted(BOOKS_DIR.glob("*.json"))
     state.set_total_books(len(book_files))
 
@@ -240,17 +266,35 @@ def main() -> None:
     for i, (bp, book, gaps) in enumerate(candidates, 1):
         print(f"[{i}/{len(candidates)}] {book['title'][:50]}... gaps: {','.join(gaps)}", end=" ", flush=True)
 
-        filled = fill_gaps(book, gaps)
+        filled, sources_used = fill_gaps(book, gaps)
         if filled:
-            # Only update missing fields
-            for key, val in filled.items():
-                if key not in book or book[key] is None or book[key] == "" or book[key] == []:
-                    book[key] = val
+            # Snapshot fields that were empty before so we can report what
+            # actually got added (provenance_merge returns a bool, not a
+            # diff). Group by source so each tag is recorded correctly.
+            empty_before = {
+                k for k in filled
+                if k not in book or book[k] is None or book[k] == "" or book[k] == []
+            }
+            any_changed = False
+            for src in sorted(set(sources_used.values()) | {"enrich_gaps_v1"}):
+                if src == "enrich_gaps_v1":
+                    bucket = {k: v for k, v in filled.items() if k not in sources_used}
+                else:
+                    bucket = {k: v for k, v in filled.items() if sources_used.get(k) == src}
+                if not bucket:
+                    continue
+                changed, _ = provenance_merge(book, bucket, source=src)
+                any_changed = any_changed or changed
 
-            bp.write_text(json.dumps(book, indent=2, ensure_ascii=False))
-            filled_count += 1
-            state.record_scan(book.get("slug", ""), matched=True)
-            print(f"✓ filled: {','.join(filled.keys())}")
+            if any_changed:
+                applied = sorted(empty_before & set(filled.keys()))
+                save_json(bp, book)
+                filled_count += 1
+                state.record_scan(book.get("slug", ""), matched=True)
+                print(f"✓ filled: {','.join(applied) if applied else '(rerank)'}")
+            else:
+                state.record_scan(book.get("slug", ""), matched=False)
+                print("— (already had non-empty values)")
         else:
             state.record_scan(book.get("slug", ""), matched=False)
             print("—")

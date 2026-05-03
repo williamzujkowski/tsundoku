@@ -99,6 +99,93 @@ def from_open_library_author_page(*, olid: Optional[str] = None, name: Optional[
 
 
 # ---------------------------------------------------------------------------
+# Wikipedia REST summary — bio + thumbnail + canonical URL
+# ---------------------------------------------------------------------------
+
+_YEAR_RANGE = re.compile(r"\((\d{4})\s*[-–]\s*(\d{4})\)")
+_BORN_ONLY = re.compile(r"\(born\s+.*?(\d{4})\)", re.I)
+
+# Wikipedia REST returns the most relevant article when there's no exact
+# match for a name — often a book/song/film the person wrote, not the
+# person. The `description` field reliably names the article kind:
+# "novel by X", "1987 book", "American film", etc. Reject those.
+_WORK_DESC = re.compile(
+    r"\b(novel|book|short\s*story|memoir|essay|treatise|play|poem|"
+    r"film|movie|song|album|musical|opera|"
+    r"television|TV\s*(?:series|show|episode)|manga|anime|"
+    r"video\s*game|comic(?:\s*book)?|graphic\s*novel|"
+    r"manuscript|edition|publication|magazine|newspaper|periodical|"
+    r"family\s*name|surname|given\s*name|disambiguation|species|genus|"
+    r"album\s*by|song\s*by|film\s*by|book\s*by)\b",
+    re.I,
+)
+
+
+def from_wikipedia(*, name: str) -> dict:
+    """Fetch the Wikipedia REST summary for a person.
+
+    Returns whatever fields are usable: bio (extract), photo_url
+    (originalimage > thumbnail.source, upscaled), wikipedia_url, and
+    birth_year/death_year extracted from the lede when available.
+
+    Returns {} for:
+      * disambiguation pages
+      * articles whose `description` identifies them as a work (novel,
+        film, song…) or as a name/category — these are returned by the
+        REST API when an obscure author has no article of their own and
+        Wikipedia auto-redirects to a related article instead.
+    """
+    if not name:
+        return {}
+    encoded = quote(name.replace(" ", "_"), safe="")
+    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
+    data = cached_fetch("wikipedia", name, lambda: _fetch_json(url), url=url)
+    if not data or data.get("type") == "disambiguation":
+        return {}
+
+    description = (data.get("description") or "").strip()
+    if description and _WORK_DESC.search(description):
+        return {}
+
+    out: dict = {}
+
+    extract = data.get("extract")
+    if extract and isinstance(extract, str) and len(extract.strip()) > 50:
+        out["bio"] = extract.strip()
+
+    # Prefer the full-resolution originalimage; fall back to the upscaled thumbnail
+    img = (data.get("originalimage") or {}).get("source")
+    if not img:
+        thumb = (data.get("thumbnail") or {}).get("source")
+        if thumb:
+            # Wikipedia thumb URLs look like .../NNNpx-... — ask for 400px
+            img = re.sub(r"/\d+px-", "/400px-", thumb)
+    if img and "wiki" in img.lower():
+        out["photo_url"] = img
+
+    desktop = (data.get("content_urls") or {}).get("desktop") or {}
+    page_url = desktop.get("page")
+    if page_url:
+        out["wikipedia_url"] = page_url
+
+    # Years: try the curated `description` field first ("Italian author
+    # (1923–1985)") — it's short and almost always names the lifespan
+    # cleanly. The extract often lists work-publication ranges that look
+    # the same and would otherwise win the regex.
+    desc = data.get("description") or ""
+    m = _YEAR_RANGE.search(desc) or _YEAR_RANGE.search(extract or "")
+    if m:
+        out["birth_year"] = int(m.group(1))
+        out["death_year"] = int(m.group(2))
+    else:
+        m = _BORN_ONLY.search(desc) or _BORN_ONLY.search(extract or "")
+        if m:
+            out["birth_year"] = int(m.group(1))
+
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Wikidata (description + image — last-mile fallback)
 # ---------------------------------------------------------------------------
 

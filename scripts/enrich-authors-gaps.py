@@ -6,12 +6,11 @@ walks existing src/content/authors/*.json records that are missing fields
 and tries each source in order, additive-merging in only the empty fields.
 
 Sources tried, in order:
-  1. Open Library author page (richer than search.json — includes bio, photos array)
-  2. Wikidata (description + P18 image — last-mile fallback)
-
-Wikipedia (already used by enrich-authors.py) is skipped here because the
-records being filled are the ones where Wikipedia *already failed* — usually
-disambiguation pages, multi-author entries, or cataloging-artifact names.
+  1. Wikipedia REST summary (richest bio + best-quality thumbnail when the
+     name resolves cleanly — and for "stuck" records we now retry with
+     candidate_names() variants to dodge the cataloging-artifact misses)
+  2. Open Library author page (bio + photos array)
+  3. Wikidata (description + P18 image — last-mile fallback)
 
 For each "stuck" name, we also try cleaned variants:
   - "Robert Jordan & Brandon Sanderson" → also try "Robert Jordan"
@@ -29,6 +28,7 @@ overwrites a non-empty field.
 
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -40,6 +40,7 @@ from author_sources import (
     candidate_names,
     from_open_library_author_page,
     from_wikidata,
+    from_wikipedia,
 )
 from enrichment_config import AUTHORS_DIR
 from json_merge import additive_merge, save_json
@@ -53,27 +54,63 @@ def has_any_gap(doc: dict) -> bool:
     return any(not doc.get(f) for f in GAP_FIELDS)
 
 
+def _still_missing(doc: dict, aggregated: dict) -> bool:
+    return any(f not in aggregated and not doc.get(f) for f in GAP_FIELDS)
+
+
+_WIKI_TITLE_RE = re.compile(r"/wiki/([^/?#]+)")
+
+
+def _wiki_title_from_url(url: str) -> str | None:
+    """Extract the article title from a Wikipedia URL."""
+    if not url:
+        return None
+    m = _WIKI_TITLE_RE.search(url)
+    if not m:
+        return None
+    from urllib.parse import unquote
+    return unquote(m.group(1)).replace("_", " ")
+
+
 def try_sources_for(doc: dict) -> dict:
     """Walk sources in order, returning aggregated fields to add (additive)."""
     name = doc.get("name", "")
     olid = _olid_from_url(doc.get("open_library_url", ""))
+    curated_wiki_title = _wiki_title_from_url(doc.get("wikipedia_url", ""))
 
     aggregated: dict = {}
 
-    # Source 1 — Open Library author page (use cached OLID if we have one)
-    new = from_open_library_author_page(olid=olid, name=name if not olid else None)
-    if new:
-        for k, v in new.items():
-            aggregated.setdefault(k, v)
+    # Source 1 — Wikipedia REST summary. If the record has an existing
+    # wikipedia_url (from a prior enrich-authors.py run), trust that
+    # title over a by-name lookup — this avoids same-name collisions
+    # like security-author Michael Howard vs UK politician Lord Howard.
+    # Fall through to candidate_names variants only when there's no
+    # curated link.
+    wiki_lookups = [curated_wiki_title] if curated_wiki_title else candidate_names(name)
+    for variant in wiki_lookups:
+        if not variant:
+            continue
+        new = from_wikipedia(name=variant)
+        if new:
+            for k, v in new.items():
+                aggregated.setdefault(k, v)
+            break
 
-    # Source 2 — Wikidata, with name-variant fallback
-    if any(f not in aggregated and not doc.get(f) for f in GAP_FIELDS):
+    # Source 2 — Open Library author page (use cached OLID if we have one)
+    if _still_missing(doc, aggregated):
+        new = from_open_library_author_page(olid=olid, name=name if not olid else None)
+        if new:
+            for k, v in new.items():
+                aggregated.setdefault(k, v)
+
+    # Source 3 — Wikidata, with name-variant fallback
+    if _still_missing(doc, aggregated):
         for variant in candidate_names(name):
             new = from_wikidata(name=variant)
             if new:
                 for k, v in new.items():
                     aggregated.setdefault(k, v)
-                break  # took whatever the first matching variant gave us
+                break
 
     return aggregated
 
