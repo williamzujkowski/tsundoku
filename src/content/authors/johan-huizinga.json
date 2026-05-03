@@ -3,7 +3,7 @@
   "slug": "johan-huizinga",
   "book_count": 2,
   "bio": "Johan Huizinga was a Dutch historian and one of the founders of modern cultural history.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/400px-Johan-huizinga1.jpg",
+  "photo_url": "/tsundoku/cached/authors/johan-huizinga.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Johan_Huizinga",
   "open_library_url": "https://openlibrary.org/authors/OL116241A",
   "birth_year": 1872,
@@ -22,5 +22,7 @@
       "name": "D.A. Thiemeprijs",
       "year": 1920
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/400px-Johan-huizinga1.jpg",
+  "photo_cached_at": "2026-05-03T03:04:50+00:00"
 }

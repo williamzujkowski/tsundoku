@@ -3,7 +3,7 @@
   "slug": "morris-kline",
   "book_count": 2,
   "bio": "Morris Kline was a professor of mathematics, a writer on the history, philosophy, and teaching of mathematics, and also a popularizer of mathematical subjects.",
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL233752A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/morris-kline.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Morris_Kline",
   "open_library_url": "https://openlibrary.org/authors/OL233752A",
   "birth_year": 1908,
@@ -28,5 +28,7 @@
     {
       "name": "Fulbright Scholarship"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL233752A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:46:31+00:00"
 }

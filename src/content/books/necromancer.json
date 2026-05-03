@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The machine that controlled all life wouldn't tolerate any interference. People who refused to be regulated had to be disposed of - isolated, driven insane, murdered. A small group of men had dedicated themselves to fighting this Frankenstein of man's technological achievement. Secretly they laid plans to destroy the machine and all its worksincluding the millions of people who had accepted their robot-like existence. Either way, the human race was doomed!",
-  "cover_url": "https://books.google.com/books/content?id=4zcfAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/necromancer.jpg",
   "isbn": "9781627934800",
   "first_published": 2013,
   "pages": 188,
@@ -39,5 +39,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781627934800",
-  "representative_edition_key": "/books/OL36795237M"
+  "representative_edition_key": "/books/OL36795237M",
+  "cover_url_source": "https://books.google.com/books/content?id=4zcfAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:00+00:00"
 }

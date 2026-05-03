@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10793268-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10793268-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-revolution.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-revolution.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10460639W",
   "first_published": 1956,
   "language": "eng",
@@ -69,5 +69,8 @@
   "wikidata_qid": "Q331111",
   "original_title": "On Revolution",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10793268-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10793268-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:52+00:00"
 }

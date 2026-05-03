@@ -3,7 +3,7 @@
   "slug": "alice-munro",
   "book_count": 4,
   "bio": "Alice Ann Munro was a Canadian short story writer who was awarded the Nobel Prize in Literature in 2013. Her work tends to move forward and backward in time, with integrated short story cycles.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Alice_Munro_2006_%28cropped%29.jpg/400px-Alice_Munro_2006_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/alice-munro.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Munro",
   "open_library_url": "https://openlibrary.org/authors/OL82236A",
   "birth_year": 1931,
@@ -109,5 +109,7 @@
       "name": "Lorne Pierce Medal",
       "year": 1993
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Alice_Munro_2006_%28cropped%29.jpg/400px-Alice_Munro_2006_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:51:06+00:00"
 }

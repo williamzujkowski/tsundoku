@@ -6,8 +6,8 @@
   "slug": "woman-on-the-edge-of-time",
   "tags": [],
   "description": "Hailed as a classic of speculative fiction, Marge Piercy’s landmark novel is a transformative vision of two futures—and what it takes to will one or the other into reality. Harrowing and prescient, Woman on the Edge of Time speaks to a new generation on whom these choices weigh more heavily than ever before. Connie Ramos is a Mexican American woman living on the streets of New York. Once ambitious and proud, she has lost her child, her husband, her dignity—and now they want to take her sanity. A...",
-  "cover_url": "https://books.google.com/books/content?id=e6HZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=e6HZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/woman-on-the-edge-of-time.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/woman-on-the-edge-of-time.jpg",
   "isbn": "9780449000946",
   "first_published": 1976,
   "pages": 434,
@@ -47,5 +47,8 @@
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7563034M"
+  "representative_edition_key": "/books/OL7563034M",
+  "cover_url_source": "https://books.google.com/books/content?id=e6HZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=e6HZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:17+00:00"
 }

@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Best-selling guide to the inner workings of the Linux operating system with over 50,000 copies sold since its original release in 2014. Linux for the Superuser Unlike some operating systems, Linux doesn’t try to hide the important bits from you—it gives you full control of your computer. But to truly master Linux, you need to understand its internals, like how the system boots, how networking works, and what the kernel actually does. In this third edition of the bestselling How Linux Works, auth",
-  "cover_url": "https://books.google.com/books/content?id=73okEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/how-linux-works-what-every-superuser-should-know.jpg",
   "isbn": "9781718500402",
   "first_published": 2004,
   "pages": 466,
@@ -48,5 +48,7 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "1593270356",
-  "representative_edition_key": "/books/OL29462444M"
+  "representative_edition_key": "/books/OL29462444M",
+  "cover_url_source": "https://books.google.com/books/content?id=73okEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:21:32+00:00"
 }

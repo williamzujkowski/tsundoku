@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/phaedo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/phaedo.jpg",
   "open_library_url": "https://openlibrary.org/works/OL379949W",
   "first_published": -380,
   "language": "eng",
@@ -36,9 +36,16 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 17,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33030804M"
+  "representative_edition_key": "/books/OL33030804M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:59+00:00",
+  "ddc": [
+    "100"
+  ]
 }

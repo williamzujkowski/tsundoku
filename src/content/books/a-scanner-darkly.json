@@ -9,8 +9,8 @@
     "mystery",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/911131-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/911131-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-scanner-darkly.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-scanner-darkly.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2172433W",
   "first_published": 1977,
   "language": "eng",
@@ -70,5 +70,8 @@
   },
   "editions_count": 28,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24840090M"
+  "representative_edition_key": "/books/OL24840090M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/911131-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/911131-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:36+00:00"
 }

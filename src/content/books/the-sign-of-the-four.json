@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A young woman's puzzling inheritance, a sinister peg-legged man and his Pygmy sidekick, a boat chase down the Thames and a romance for Watson all stem from the mystery surrounding the \"Sign of Four.\"",
-  "cover_url": "https://books.google.com/books/content?id=sAL1XY0dH4YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-sign-of-the-four.jpg",
   "isbn": "1583422854",
   "first_published": 1890,
   "pages": 124,
@@ -131,5 +131,7 @@
   "original_publisher": "Lippincott's Monthly Magazine",
   "series": {
     "name": "Sherlock Holmes novels"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=sAL1XY0dH4YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:43+00:00"
 }

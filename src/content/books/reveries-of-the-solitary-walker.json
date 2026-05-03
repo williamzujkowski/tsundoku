@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "reveries-of-the-solitary-walker",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11466368-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11466368-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/reveries-of-the-solitary-walker.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/reveries-of-the-solitary-walker.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13100730W",
   "first_published": 1783,
   "language": "eng",
@@ -15,5 +15,18 @@
   "pages": 160,
   "google_books_url": "https://play.google.com/store/books/details?id=IimQDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11466368-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11466368-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:38+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

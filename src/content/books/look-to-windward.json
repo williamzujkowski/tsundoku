@@ -7,8 +7,8 @@
   "tags": [
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/476421-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/476421-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/look-to-windward.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/look-to-windward.jpg",
   "open_library_url": "https://openlibrary.org/works/OL100773W",
   "first_published": 2000,
   "language": "eng",
@@ -60,5 +60,8 @@
   "series": {
     "name": "Culture series",
     "position": 7
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/476421-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/476421-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:57+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Private William Mandella is a hero in spite of himself. He never wanted to go to war, but the leaders on Earth have drawn a line in the interstellar sand.",
-  "cover_url": "https://covers.openlibrary.org/b/id/10693768-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10693768-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-forever-war.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-forever-war.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9788467905809",
@@ -101,5 +101,8 @@
   "series": {
     "name": "The Forever War series",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10693768-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10693768-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:49+00:00"
 }

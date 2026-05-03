@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "howards-end",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8235207-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8235207-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/howards-end.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/howards-end.jpg",
   "open_library_url": "https://openlibrary.org/works/OL88881W",
   "first_published": 1910,
   "language": "eng",
@@ -146,5 +146,8 @@
   "wikidata_qid": "Q1146642",
   "original_title": "Howards End",
   "original_language": "eng",
-  "original_publisher": "Edward Arnold Publishers"
+  "original_publisher": "Edward Arnold Publishers",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8235207-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8235207-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:10+00:00"
 }

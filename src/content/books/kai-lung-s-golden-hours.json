@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Ernest Bramah’s Kai Lung stories are set in a fantastical ancient China and written with an oblique, ornate prose style that serves to mimic that of Chinese folk tales. The titular character is an itinerant storyteller and the books themselves are mostly collections of stories presented as if he were narrating. Kai Lung’s Golden Hours, published in 1922, is the second of the Kai Lung books, and the first to have an overarching framing narrative and thus be published as a novel. In it we see Kai ",
-  "cover_url": "https://books.google.com/books/content?id=hx0ZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/kai-lung-s-golden-hours.jpg",
   "first_published": 1922,
   "pages": 284,
   "google_books_url": "https://play.google.com/store/books/details?id=hx0ZEAAAQBAJ&source=gbs_api",
@@ -64,5 +64,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL41958144M",
   "wikidata_qid": "Q6347444",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=hx0ZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:26:31+00:00"
 }

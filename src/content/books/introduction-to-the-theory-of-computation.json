@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "introduction-to-the-theory-of-computation",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8665615-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8665615-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/introduction-to-the-theory-of-computation.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/introduction-to-the-theory-of-computation.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19859284W",
   "first_published": 2013,
   "language": "eng",
@@ -36,5 +36,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781133187813",
-  "representative_edition_key": "/books/OL28326428M"
+  "representative_edition_key": "/books/OL28326428M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8665615-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8665615-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:21+00:00"
 }

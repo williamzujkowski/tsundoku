@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5700984-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5700984-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-treatise-concerning-the-principles-of-human-knowledge.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-treatise-concerning-the-principles-of-human-knowledge.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1066805W",
   "first_published": 1710,
   "language": "eng",
@@ -40,9 +40,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7639185M"
+  "representative_edition_key": "/books/OL7639185M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5700984-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5700984-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:54+00:00",
+  "ddc": [
+    "100"
+  ]
 }

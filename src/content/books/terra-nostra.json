@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "terra-nostra",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/224677-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/224677-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/terra-nostra.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/terra-nostra.jpg",
   "open_library_url": "https://openlibrary.org/works/OL872223W",
   "first_published": 1975,
   "language": "eng",
@@ -63,5 +63,8 @@
       "name": "Rómulo Gallegos Prize",
       "year": 1977
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/224677-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/224677-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:02+00:00"
 }

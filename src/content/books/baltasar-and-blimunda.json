@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1318305-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1318305-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/baltasar-and-blimunda.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/baltasar-and-blimunda.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7922578W",
   "first_published": 1988,
   "language": "eng",
@@ -40,5 +40,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL34447093M"
+  "representative_edition_key": "/books/OL34447093M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1318305-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1318305-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:39+00:00"
 }

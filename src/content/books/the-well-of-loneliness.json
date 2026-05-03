@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Stephen Gordon defies societal norms. An Englishwoman born in the late 19th century, Stephen struggles with navigating the isolation and the societal rejection she faces for loving women. As she explores her desires, love, friendship, and identity intertwine and her plea for acceptance echoes in the heart of readers. A groundbreaking and controversial novel that defied its time, ́The Well of Loneliness ́ is ideal for fans of Selby Wynn Schwartz's ́After Sappho ́ and the 2015 film ́Carol ́ starri",
-  "cover_url": "https://books.google.com/books/content?id=Dw5-EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-well-of-loneliness.jpg",
   "isbn": "9788728475379",
   "first_published": 1928,
   "pages": 551,
@@ -86,5 +86,7 @@
   "wikidata_qid": "Q1514807",
   "original_title": "The Well of Loneliness",
   "original_language": "eng",
-  "original_publisher": "Jonathan Cape"
+  "original_publisher": "Jonathan Cape",
+  "cover_url_source": "https://books.google.com/books/content?id=Dw5-EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:09+00:00"
 }

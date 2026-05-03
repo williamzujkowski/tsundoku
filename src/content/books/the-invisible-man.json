@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6419199-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6419199-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-invisible-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-invisible-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52266W",
   "language": "eng",
   "description": "The stranger came early in February, one wintry day, through a biting wind and a driving snow, the last snowfall of the year, over the down, walking from Bramblehurst railway station, and carrying a little black portmanteau in his thickly gloved hand. He was wrapped up from head to foot, and the brim of his soft felt hat hid every inch of his face but the shiny tip of his nose; the snow had piled itself against his shoulders and chest, and added a white crest to the burden he carried. He stagger...",
@@ -133,5 +133,8 @@
   "original_title": "The Invisible Man",
   "original_language": "eng",
   "first_published": 1897,
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6419199-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6419199-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:59+00:00"
 }

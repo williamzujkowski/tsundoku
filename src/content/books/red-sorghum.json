@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "red-sorghum",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4009437-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4009437-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/red-sorghum.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/red-sorghum.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3507684W",
   "first_published": 1986,
   "language": "eng",
@@ -54,5 +54,8 @@
   "original_title": "Hong gao liang jia zhu ('Red Sorghum: A Novel of China' in Traditional Chinese Characters)",
   "first_edition_isbn": "9789579525442",
   "representative_edition_key": "/books/OL34474978M",
-  "wikidata_qid": "Q1766205"
+  "wikidata_qid": "Q1766205",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4009437-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4009437-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:03+00:00"
 }

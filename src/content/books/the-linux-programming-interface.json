@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Linux Programming Interface (TLPI) is the definitive guide to the Linux and UNIX programming interface—the interface employed by nearly every application that runs on a Linux or UNIX system. In this authoritative work, Linux programming expert Michael Kerrisk provides detailed descriptions of the system calls and library functions that you need in order to master the craft of system programming, and accompanies his explanations with clear, complete example programs. You'll find descriptions ",
-  "cover_url": "https://books.google.com/books/content?id=2SAQAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-linux-programming-interface.jpg",
   "isbn": "9781593272203",
   "first_published": 2010,
   "pages": 1556,
@@ -47,5 +47,7 @@
   "representative_edition_key": "/books/OL24880056M",
   "wikidata_qid": "Q17064840",
   "original_title": "The Linux Programming Interface",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=2SAQAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:55+00:00"
 }

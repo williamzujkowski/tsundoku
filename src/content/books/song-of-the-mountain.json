@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Well-written fiction provides a powerful teaching platform, not only to improve reading and comprehension, but to create better writers by providing the opportunity to study composition and literary techniques. The materials collected within this booklet are designed to help teachers get maximum mileage out of Song of the Mountain, my middle grade fantasy novel. They include chapter-by-chapter discussion/study questions, vocabulary, and social studies extension ideas, all aligned with GLCE's and",
-  "cover_url": "https://books.google.com/books/content?id=-tUqlAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/song-of-the-mountain.jpg",
   "isbn": "1481817264",
   "first_published": 2012,
   "pages": 38,
@@ -22,10 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781480213784",
-  "representative_edition_key": "/books/OL55446737M"
+  "representative_edition_key": "/books/OL55446737M",
+  "cover_url_source": "https://books.google.com/books/content?id=-tUqlAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:32+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

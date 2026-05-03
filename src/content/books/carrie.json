@@ -8,8 +8,8 @@
     "horror",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9256043-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9256043-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/carrie.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/carrie.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81626W",
   "first_published": 1974,
   "language": "eng",
@@ -129,5 +129,8 @@
   "wikidata_qid": "Q623394",
   "original_title": "Carrie",
   "original_language": "eng",
-  "original_publisher": "Doubleday"
+  "original_publisher": "Doubleday",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9256043-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9256043-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:43+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "New edition of the bestselling guide to artificial intelligence with Python, updated to Python 3.x, with seven new chapters that cover RNNs, AI and Big Data, fundamental use cases, chatbots, and more. Key FeaturesCompletely updated and revised to Python 3.xNew chapters for AI on the cloud, recurrent neural networks, deep learning models, and feature selection and engineeringLearn more about deep learning algorithms, machine learning data pipelines, and chatbotsBook Description Artificial Intelli",
-  "cover_url": "https://books.google.com/books/content?id=P0fODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/artificial-intelligence-with-python.jpg",
   "isbn": "9781839216077",
   "first_published": 2020,
   "pages": 619,
@@ -22,10 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781839216077",
-  "representative_edition_key": "/books/OL54006529M"
+  "representative_edition_key": "/books/OL54006529M",
+  "cover_url_source": "https://books.google.com/books/content?id=P0fODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:06+00:00",
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

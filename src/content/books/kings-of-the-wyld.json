@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Kings of the Wyld is a 2017 fantasy novel by Nicholas Eames. It is the first in the trilogy, The Band. The book is about a retired band of mercenaries that come out of retirement to save the daughter of one member.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Kings_of_the_Wyld.jpg/250px-Kings_of_the_Wyld.jpg",
+  "cover_url": "/tsundoku/cached/covers/kings-of-the-wyld.jpg",
   "isbn": "9780356509037",
   "ddc": [
     "813.6"
@@ -52,5 +52,7 @@
   "series": {
     "name": "The Band",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Kings_of_the_Wyld.jpg/250px-Kings_of_the_Wyld.jpg",
+  "cover_cached_at": "2026-05-03T01:27:29+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/211008-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/211008-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-conquering-sword-of-conan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-conquering-sword-of-conan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3384232W",
   "first_published": 2005,
   "language": "eng",
@@ -39,7 +39,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
@@ -48,5 +49,11 @@
   "wikidata_qid": "Q2991581",
   "original_title": "The Conquering Sword of Conan",
   "original_language": "eng",
-  "original_publisher": "Del Rey Books"
+  "original_publisher": "Del Rey Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/211008-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/211008-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:14+00:00",
+  "ddc": [
+    "808.83766"
+  ]
 }

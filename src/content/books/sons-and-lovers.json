@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "sons-and-lovers",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8246175-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8246175-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sons-and-lovers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sons-and-lovers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81295W",
   "first_published": 1913,
   "language": "eng",
@@ -29,9 +29,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL5585551M"
+  "representative_edition_key": "/books/OL5585551M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8246175-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8246175-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:00+00:00",
+  "subject_facet": [
+    "England",
+    "England in fiction",
+    "Facsimiles",
+    "Fiction",
+    "Manuscripts",
+    "Social life and customs",
+    "Working class families",
+    "Working class families in fiction",
+    "Young men",
+    "Young men in fiction"
+  ]
 }

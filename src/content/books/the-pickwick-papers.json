@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/10904408-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10904408-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-pickwick-papers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-pickwick-papers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24373875W",
   "first_published": 1836,
   "copyright_status": "public_domain",
@@ -185,5 +185,8 @@
   "wikidata_qid": "Q460583",
   "original_title": "The Posthumous Papers of the Pickwick Club, Containing a Faithful Record of the Perambulations, Perils, Travels, Adventures and Sporting Transactions of the Corresponding Members",
   "original_language": "eng",
-  "original_publisher": "Chapman and Hall"
+  "original_publisher": "Chapman and Hall",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10904408-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10904408-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:22+00:00"
 }

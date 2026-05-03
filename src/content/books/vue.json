@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Vue.js is the latest trending frontend framework. Simplicity, reactivity, and flexibility are some of the key benefits that Vue offers to developers. This book will help you learn everything you need to know to build stunning reactive web apps with Vue.js 2 quickly and easily.",
-  "cover_url": "https://books.google.com/books/content?id=0f50DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/vue.jpg",
   "isbn": "9781789344172",
   "first_published": 2018,
   "pages": 179,
@@ -23,10 +23,25 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781789344172",
-  "representative_edition_key": "/books/OL53977702M"
+  "representative_edition_key": "/books/OL53977702M",
+  "cover_url_source": "https://books.google.com/books/content?id=0f50DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:25:13+00:00",
+  "subject_facet": [
+    "Javascript (computer program language)",
+    "Web site development"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

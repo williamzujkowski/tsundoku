@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Using Scalable Vector Graphics (SVG) for illustrations only scratches the surface of this format’s potential on the web. With this practical guide, you’ll learn how to use SVG not only for illustrations but also as graphical documents that you can integrate into complex HTML5 web pages, and style with custom CSS. Web developers will discover ways to adapt designs by adding data based graphics, dynamic styles, interaction, or animation. Divided into five parts, this book includes: SVG on the web:",
-  "cover_url": "https://books.google.com/books/content?id=yWU6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/using-svg-with-css3-and-html5.jpg",
   "isbn": "9781491921920",
   "first_published": 2017,
   "pages": 648,
@@ -36,10 +36,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781491921975",
-  "representative_edition_key": "/books/OL26836831M"
+  "representative_edition_key": "/books/OL26836831M",
+  "cover_url_source": "https://books.google.com/books/content?id=yWU6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:23:13+00:00",
+  "ddc": [
+    "005"
+  ]
 }

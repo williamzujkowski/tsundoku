@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Salem Chapel tells the story of Arthur Vincent, recent graduate of Homerton College, Cambridge, who has been called to pastor Salem Chapel upon the retirement of its previous minister, Mr Tufton. Salem belongs to the Dissenters of Carlingford, to whom Oliphant attributes varying degrees of kindness, hospitality, generosity, commercial acumen, stubbornness, and complacency. Chapel life is naturally rooted in Carlingford's mercantile center, and the cheerful bustle of tea-meetings, singing classes",
-  "cover_url": "https://books.google.com/books/content?id=LdnQAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/salem-chapel.jpg",
   "isbn": "9781105892868",
   "first_published": 1863,
   "pages": 393,
@@ -50,5 +50,7 @@
   "editions_count": 40,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL49708367M"
+  "representative_edition_key": "/books/OL49708367M",
+  "cover_url_source": "https://books.google.com/books/content?id=LdnQAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:50+00:00"
 }

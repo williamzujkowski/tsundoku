@@ -6,8 +6,8 @@
   "slug": "the-wretched-of-the-earth",
   "tags": [],
   "description": "A distinguished psychiatrist from Martinique who took part in the Algerian Nationalist Movement, Frantz Fanon was one of the most important theorists of revolutionary struggle, colonialism, and racial difference in history. Fanon's masterwork is a classic alongside Edward Said's Orientalism or The Autobiography of Malcolm X, and it is now available in a new translation that updates its language for a new generation of readers. The Wretched of the Earth is a brilliant analysis of the psychology o...",
-  "cover_url": "https://books.google.com/books/content?id=9hWN0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=9hWN0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wretched-of-the-earth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wretched-of-the-earth.jpg",
   "isbn": "0802141323",
   "first_published": 1961,
   "language": "eng",
@@ -119,5 +119,8 @@
   "representative_edition_key": "/books/OL3302429M",
   "translator": "Richard Philcox",
   "wikidata_qid": "Q2741364",
-  "original_publisher": "Grove Press"
+  "original_publisher": "Grove Press",
+  "cover_url_source": "https://books.google.com/books/content?id=9hWN0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=9hWN0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:45+00:00"
 }

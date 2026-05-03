@@ -8,8 +8,8 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "cover_url": "https://covers.openlibrary.org/b/id/8487683-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8487683-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/kill-process.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kill-process.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19366239W",
   "first_published": 2016,
   "isbn": "9781942097037",
@@ -24,11 +24,22 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781942097037",
   "representative_edition_key": "/books/OL26821765M",
-  "description": "By day, Angie, a twenty-year veteran of the tech industry, is a data analyst at Tomo, the world's largest social networking company; by night, she exploits her database access to profile domestic abusers and kill the worst of them. She can't change her own traumatic past, but she can save other women. When Tomo introduces a deceptive new product that preys on users' fears to drive up its own revenue, Angie sees Tomo for what it really is--another evil abuser."
+  "description": "By day, Angie, a twenty-year veteran of the tech industry, is a data analyst at Tomo, the world's largest social networking company; by night, she exploits her database access to profile domestic abusers and kill the worst of them. She can't change her own traumatic past, but she can save other women. When Tomo introduces a deceptive new product that preys on users' fears to drive up its own revenue, Angie sees Tomo for what it really is--another evil abuser.",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8487683-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8487683-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:35+00:00",
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

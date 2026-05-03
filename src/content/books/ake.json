@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/419913-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/419913-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ake.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ake.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15125397W",
   "first_published": 1982,
   "language": "eng",
@@ -50,5 +50,8 @@
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9271766M"
+  "representative_edition_key": "/books/OL9271766M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/419913-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/419913-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:37+00:00"
 }

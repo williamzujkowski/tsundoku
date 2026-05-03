@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6738229-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6738229-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/love-in-a-fallen-city.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/love-in-a-fallen-city.jpg",
   "open_library_url": "https://openlibrary.org/works/OL128527W",
   "first_published": 1985,
   "language": "eng",
@@ -35,10 +35,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "translator": "ol_firstedition_v1"
+    "translator": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL31362428M",
-  "translator": "Karen S. Kinsbury"
+  "translator": "Karen S. Kinsbury",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6738229-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6738229-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:13+00:00",
+  "ddc": [
+    "800"
+  ]
 }

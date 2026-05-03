@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The story picks up with the Clayton family, Tarzan, Jane Porter and their son Korak, returning from their adventures in the previous novel (#8). Along the way they find an orphaned lion cub, which Tarzan takes home and trains. Flora Hawkes, a previous housemaid of the Clayton's had overheard of Tarzan's discovery of the treasure chamber in the lost city of Opar (from The Return of Tarzan and Tarzan and the Jewels of Opar) and had managed to copy his map to it. She concocted a plan to lead an exp",
-  "cover_url": "https://books.google.com/books/content?id=sgV5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tarzan-and-the-golden-lion.jpg",
   "isbn": "9783962559861",
   "first_published": 1923,
   "pages": 263,
@@ -49,5 +49,7 @@
   "editions_count": 40,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34145865M"
+  "representative_edition_key": "/books/OL34145865M",
+  "cover_url_source": "https://books.google.com/books/content?id=sgV5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:50+00:00"
 }

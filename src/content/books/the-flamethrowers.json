@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-flamethrowers",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9036741-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9036741-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-flamethrowers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-flamethrowers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16726647W",
   "first_published": 2013,
   "language": "eng",
@@ -56,5 +56,8 @@
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25393655M"
+  "representative_edition_key": "/books/OL25393655M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9036741-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9036741-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:37+00:00"
 }

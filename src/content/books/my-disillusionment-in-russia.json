@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=UaHMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/my-disillusionment-in-russia.jpg",
   "isbn": "9783368903077",
   "first_published": 1925,
   "pages": 114,
@@ -58,5 +58,7 @@
   "editions_count": 12,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3688842M"
+  "representative_edition_key": "/books/OL3688842M",
+  "cover_url_source": "https://books.google.com/books/content?id=UaHMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:39+00:00"
 }

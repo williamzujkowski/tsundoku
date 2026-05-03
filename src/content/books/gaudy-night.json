@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5343404-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5343404-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gaudy-night.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gaudy-night.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2234851W",
   "first_published": 1935,
   "language": "eng",
@@ -91,5 +91,8 @@
   },
   "editions_count": 11,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL49247353M"
+  "representative_edition_key": "/books/OL49247353M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5343404-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5343404-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:48+00:00"
 }

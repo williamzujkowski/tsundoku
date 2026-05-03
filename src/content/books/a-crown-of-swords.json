@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "A Crown of Swords is a fantasy novel by American author Robert Jordan, the seventh book of The Wheel of Time. It was published by Tor Books and released on May 15, 1996. A Crown of Swords consists of a prologue and 41 chapters.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/WoT07_ACrownOfSwords.jpg/120px-WoT07_ACrownOfSwords.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-crown-of-swords.jpg",
   "isbn": "9781590073971",
   "ddc": [
     "813.54"
@@ -48,5 +48,7 @@
   },
   "editions_count": 35,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8845046M"
+  "representative_edition_key": "/books/OL8845046M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/WoT07_ACrownOfSwords.jpg/120px-WoT07_ACrownOfSwords.jpg",
+  "cover_cached_at": "2026-05-03T00:51:33+00:00"
 }

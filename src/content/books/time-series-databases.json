@@ -12,8 +12,8 @@
   "isbn": "1491920904",
   "google_books_url": "http://books.google.com/books?id=3CepAQAACAAJ&dq=intitle:Time+Series+Databases&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/13197371-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13197371-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/time-series-databases.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/time-series-databases.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21563929W",
   "first_published": 2014,
   "description": "Time series data is of growing importance, especially with the rapid expansion of the Internet of Things. This concise guide shows you effective ways to collect, persist, and access large-scale time series data for analysis. You'll explore the theory behind time series databases and learn practical methods for implementing them. Authors Ted Dunning and Ellen Friedman provide a detailed examination of open source tools such as OpenTSDB and new modifications that greatly speed up data ingestion. Y...",
@@ -35,10 +35,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781491914724",
-  "representative_edition_key": "/books/OL29260515M"
+  "representative_edition_key": "/books/OL29260515M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13197371-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13197371-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:19+00:00",
+  "ddc": [
+    "800"
+  ]
 }

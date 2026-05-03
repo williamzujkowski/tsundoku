@@ -6,8 +6,8 @@
   "slug": "the-copenhagen-trilogy",
   "tags": [],
   "description": "'Utterly, agonisingly compulsive ... a masterpiece' Liz Jensen, Guardian The first volume in The Copenhagen Trilogy, the searing portrait of a woman's journey through love, friendship, ambition and addiction, from one of Denmark's most celebrated twentieth-century writers Tove knows she is a misfit, whose childhood is made for a completely different girl. In her working-class neighbourhood in Copenhagen, she is enthralled by her wild, red-headed friend Ruth, who initiates her into adult secrets....",
-  "cover_url": "https://books.google.com/books/content?id=a36IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=a36IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-copenhagen-trilogy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-copenhagen-trilogy.jpg",
   "isbn": "9780241391945",
   "first_published": 2019,
   "pages": 82,
@@ -28,10 +28,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "9780241391938",
-  "representative_edition_key": "/books/OL38793192M"
+  "representative_edition_key": "/books/OL38793192M",
+  "cover_url_source": "https://books.google.com/books/content?id=a36IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=a36IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:22+00:00",
+  "ddc": [
+    "800"
+  ]
 }

@@ -3,7 +3,7 @@
   "slug": "rabindranath-tagore",
   "book_count": 4,
   "bio": "Rabindranath Thakur, also known by his pseudonym Bhanusimha was a Bengali polymath of the Bengal Renaissance period. In 1913, Tagore became the first Asian to win a Nobel Prize in any category, and also the first lyricist and non-European to win the Nobel Prize in Literature. A significant moulder of culture within the Indian subcontinent, he has written and composed the national anthems of India and Bangladesh.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1926_Rabindrath_Tagore.jpg/400px-1926_Rabindrath_Tagore.jpg",
+  "photo_url": "/tsundoku/cached/authors/rabindranath-tagore.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
   "open_library_url": "https://openlibrary.org/authors/OL1770A",
   "birth_year": 1861,
@@ -39,5 +39,7 @@
     {
       "name": "Knight Bachelor"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1926_Rabindrath_Tagore.jpg/400px-1926_Rabindrath_Tagore.jpg",
+  "photo_cached_at": "2026-05-03T03:13:49+00:00"
 }

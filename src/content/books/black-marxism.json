@@ -7,8 +7,8 @@
   "tags": [
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14330911-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14330911-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/black-marxism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/black-marxism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3274367W",
   "first_published": 1983,
   "language": "eng",
@@ -60,5 +60,8 @@
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": "0863231263",
-  "representative_edition_key": "/books/OL7972655M"
+  "representative_edition_key": "/books/OL7972655M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14330911-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14330911-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:28+00:00"
 }

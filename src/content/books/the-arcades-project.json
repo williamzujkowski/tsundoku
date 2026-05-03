@@ -6,8 +6,8 @@
   "slug": "the-arcades-project",
   "tags": [],
   "description": "Focusing on the arcades of 19th-century Paris--glass-roofed rows of shops that were early centers of consumerism--Benjamin presents a montage of quotations from, and reflections on, hundreds of published sources. 46 illustrations.",
-  "cover_url": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-arcades-project.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-arcades-project.jpg",
   "isbn": "067404326X",
   "first_published": 1939,
   "pages": 1100,
@@ -67,5 +67,8 @@
   "representative_edition_key": "/books/OL38951M",
   "wikidata_qid": "Q4785097",
   "original_title": "The arcades project",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=tdM9Hn7pzrsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:04+00:00"
 }

@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=PIUvAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-g-sta-berling.jpg",
   "first_published": 1898,
   "pages": 492,
   "google_books_url": "https://play.google.com/store/books/details?id=PIUvAQAAMAAJ&source=gbs_api",
@@ -49,5 +49,7 @@
   "editions_count": 20,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL10567479M"
+  "representative_edition_key": "/books/OL10567479M",
+  "cover_url_source": "https://books.google.com/books/content?id=PIUvAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:13+00:00"
 }

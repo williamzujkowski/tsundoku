@@ -9,8 +9,8 @@
     "children",
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8236937-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8236937-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-last-of-the-mohicans.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-last-of-the-mohicans.jpg",
   "open_library_url": "https://openlibrary.org/works/OL77958W",
   "first_published": 1824,
   "language": "eng",
@@ -253,5 +253,8 @@
   "series": {
     "name": "Leatherstocking Tales",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8236937-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8236937-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:30+00:00"
 }

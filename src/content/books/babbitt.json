@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "babbitt",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6376827-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6376827-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/babbitt.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/babbitt.jpg",
   "open_library_url": "https://openlibrary.org/works/OL51148W",
   "first_published": 1922,
   "language": "eng",
@@ -121,5 +121,8 @@
   "representative_edition_key": "/books/OL53387829M",
   "wikidata_qid": "Q1107000",
   "original_title": "Babbitt",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6376827-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6376827-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:34+00:00"
 }

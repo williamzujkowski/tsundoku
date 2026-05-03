@@ -10,11 +10,23 @@
   ],
   "reading_status": "read",
   "description": "This is it. The complete and definitive guide to Inkscape, the free, vector-based graphics editor that competes with expensive drawing programs like Adobe Illustrator and CorelDRAW. In The Book of Inkscape, core Inkscape developer Dmitry Kirsanov shares his design experience and knowledge of Inkscape's inner workings as he walks you through the basics of using the program: drawing, working with objects, transformations and styling, adding text and shapes, and more. Kirsanov couples his detailed ",
-  "cover_url": "https://books.google.com/books/content?id=tgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-inkscape-the-definitive-guide-to-the-free-graphics-editor.jpg",
   "isbn": "9781593272630",
   "first_published": 2009,
   "pages": 475,
   "google_books_url": "http://books.google.com/books?id=tgYvDwAAQBAJ&dq=intitle:The+Book+of%E2%84%A2+Inkscape:+The+Definitive+Guide+to+the+Free+Graphics+Editor&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=tgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:57+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

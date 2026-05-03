@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/477414-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/477414-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lions-of-al-rassan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lions-of-al-rassan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1988289W",
   "first_published": 1995,
   "language": "eng",
@@ -36,5 +36,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29662759M"
+  "representative_edition_key": "/books/OL29662759M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/477414-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/477414-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:57+00:00"
 }

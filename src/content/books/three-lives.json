@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Three, Lives 2:B -...thE third bOOk in thE Three, Lives SeRieS ... continues where Three, Lives II:A ends...",
-  "cover_url": "https://books.google.com/books/content?id=RfwFoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/three-lives.jpg",
   "isbn": "1500358576",
   "first_published": 2014,
   "pages": 222,
@@ -22,10 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781500358570",
-  "representative_edition_key": "/books/OL55878074M"
+  "representative_edition_key": "/books/OL55878074M",
+  "cover_url_source": "https://books.google.com/books/content?id=RfwFoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:20:22+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

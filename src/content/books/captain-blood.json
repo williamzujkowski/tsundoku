@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Captain Blood - By Rafael Sabatini - Captain Blood His Odyssey. Captain Blood: His Odyssey is an adventure novel by Rafael Sabatini, originally published in 1922. Sabatini was a proponent of basing historical fiction as closely as possible on history, and so while Blood is a fictional character, much of the historical background of the novel is based on fact. The Monmouth rebels were sold into slavery as described in the book; and the shifting political alliances of the Glorious Revolution of 16",
-  "cover_url": "https://books.google.com/books/content?id=zWKbngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/captain-blood.jpg",
   "isbn": "1495949648",
   "first_published": 1922,
   "pages": 340,
@@ -91,5 +91,7 @@
   "wikidata_qid": "Q2621164",
   "original_title": "Captain Blood",
   "original_language": "eng",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://books.google.com/books/content?id=zWKbngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:41+00:00"
 }

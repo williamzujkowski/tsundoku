@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/15005499-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15005499-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-life-of-teresa-of-jesus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-life-of-teresa-of-jesus.jpg",
   "open_library_url": "https://openlibrary.org/works/OL37468477W",
   "first_published": 1904,
   "language": "eng",
@@ -27,9 +27,20 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38355095M"
+  "representative_edition_key": "/books/OL38355095M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15005499-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15005499-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:53+00:00",
+  "ddc": [
+    "200"
+  ],
+  "lcc": [
+    "BL"
+  ]
 }

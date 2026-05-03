@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL11277579W",
   "first_published": 1982,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=-H_YAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-H_YAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-marriage-of-east-and-west.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-marriage-of-east-and-west.jpg",
   "pages": 232,
   "subjects": [
     "Religion"
@@ -37,5 +37,8 @@
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL8578566M",
-  "description": "Bede Griffiths was a Benedictine monk who achieved worldwide recognition for his pioneering efforts to bridge the great traditions of Christian and Hindu faith. He advocates a global spiritual friendship, rather than a global religion, cultivating respct for each other's spiritual practices."
+  "description": "Bede Griffiths was a Benedictine monk who achieved worldwide recognition for his pioneering efforts to bridge the great traditions of Christian and Hindu faith. He advocates a global spiritual friendship, rather than a global religion, cultivating respct for each other's spiritual practices.",
+  "cover_url_source": "https://books.google.com/books/content?id=-H_YAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-H_YAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:50+00:00"
 }

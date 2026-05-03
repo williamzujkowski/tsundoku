@@ -8,8 +8,8 @@
     "math",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/442197-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/442197-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mathematics-and-plausible-reasoning.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mathematics-and-plausible-reasoning.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1213680W",
   "first_published": 1954,
   "language": "eng",
@@ -63,5 +63,8 @@
   "representative_edition_key": "/books/OL34133228M",
   "wikidata_qid": "Q25051573",
   "original_title": "Mathematics and plausible reasoning",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/442197-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/442197-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:00+00:00"
 }

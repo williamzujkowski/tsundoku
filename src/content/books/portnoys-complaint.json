@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "portnoys-complaint",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6458427-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6458427-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/portnoys-complaint.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/portnoys-complaint.jpg",
   "open_library_url": "https://openlibrary.org/works/OL74676W",
   "first_published": 1969,
   "language": "eng",
@@ -98,5 +98,8 @@
   "wikidata_qid": "Q2707531",
   "original_title": "Portnoy's Complaint",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6458427-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6458427-L.jpg",
+  "cover_cached_at": "2026-05-03T01:44:43+00:00"
 }

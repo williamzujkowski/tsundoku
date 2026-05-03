@@ -11,8 +11,8 @@
   "first_published": 2021,
   "language": "eng",
   "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work. This work is in the public domain in the United States of ...",
-  "cover_url": "https://books.google.com/books/content?id=0G-uyuSYAyUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=0G-uyuSYAyUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/prolegomena-to-any-future-metaphysics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/prolegomena-to-any-future-metaphysics.jpg",
   "pages": 340,
   "google_books_url": "https://play.google.com/store/books/details?id=0G-uyuSYAyUC&source=gbs_api",
   "reading_status": "read",
@@ -33,8 +33,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL7668938M"
+  "representative_edition_key": "/books/OL7668938M",
+  "cover_url_source": "https://books.google.com/books/content?id=0G-uyuSYAyUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=0G-uyuSYAyUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:48+00:00",
+  "ddc": [
+    "100"
+  ]
 }

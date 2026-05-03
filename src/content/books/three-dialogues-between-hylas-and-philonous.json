@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4403809-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4403809-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/three-dialogues-between-hylas-and-philonous.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/three-dialogues-between-hylas-and-philonous.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1066804W",
   "first_published": 1713,
   "language": "eng",
@@ -68,5 +68,8 @@
   "editions_count": 23,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL17156696M"
+  "representative_edition_key": "/books/OL17156696M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4403809-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4403809-L.jpg",
+  "cover_cached_at": "2026-05-03T02:20:22+00:00"
 }

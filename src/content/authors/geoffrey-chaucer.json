@@ -3,7 +3,7 @@
   "slug": "geoffrey-chaucer",
   "book_count": 3,
   "bio": "Geoffrey Chaucer was an English poet, writer and civil servant best known for The Canterbury Tales. He has been called the 'father of English literature', or alternatively, the 'father of English poetry'. He was the first writer to be buried in what has since become Poets' Corner in Westminster Abbey.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/400px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg",
+  "photo_url": "/tsundoku/cached/authors/geoffrey-chaucer.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer",
   "open_library_url": "https://openlibrary.org/authors/OL37436A",
   "birth_year": 1343,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q5683",
   "viaf_id": "100185203",
-  "ol_author_key": "/authors/OL37436A"
+  "ol_author_key": "/authors/OL37436A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/400px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg",
+  "photo_cached_at": "2026-05-03T02:59:58+00:00"
 }

@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The nonfiction book The Last Stand of the Tin Can Sailors: The Extraordinary World War II Story of the U.S. Navy's Finest Hour is a narrative account of the Battle off Samar, an event which the book's author, James D. Hornfischer, calls the greatest upset in the history of naval warfare. Published by Bantam Books in February 2004, the book won the Samuel Eliot Morison Award for Naval Literature in 2004 from the Naval Order of the United States.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Last_Stand_of_the_Tin_Can_Sailors.jpg/250px-The_Last_Stand_of_the_Tin_Can_Sailors.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-last-stand-of-the-tin-can-sailors.jpg",
   "pages": 499,
   "isbn": "9780553381481",
   "ddc": [
@@ -51,5 +51,7 @@
   "wikidata_qid": "Q7746050",
   "original_title": "The Last Stand of the Tin Can Sailors",
   "original_language": "eng",
-  "original_publisher": "Bantam Books"
+  "original_publisher": "Bantam Books",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Last_Stand_of_the_Tin_Can_Sailors.jpg/250px-The_Last_Stand_of_the_Tin_Can_Sailors.jpg",
+  "cover_cached_at": "2026-05-03T02:08:31+00:00"
 }

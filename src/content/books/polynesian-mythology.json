@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "An accessible, concise reference source on Polynesia's complex mythology, product of a culture little known outside its home. Encounters with the West introduced Polynesian mythology to the world—and sealed its fate as a casualty of colonialism. But for centuries before the Europeans came, that mythology was as vast as the triangle of ocean in which it flourished, as diverse as the people it served, and as complex as the mythologies of Greece and Rome. Students, researchers, and enthusiasts can ",
-  "cover_url": "https://books.google.com/books/content?id=nb7OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/polynesian-mythology.jpg",
   "isbn": "9781576078952",
   "first_published": 2004,
   "pages": 370,
@@ -35,10 +35,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781576078945",
-  "representative_edition_key": "/books/OL24263191M"
+  "representative_edition_key": "/books/OL24263191M",
+  "cover_url_source": "https://books.google.com/books/content?id=nb7OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:40+00:00",
+  "ddc": [
+    "200"
+  ]
 }

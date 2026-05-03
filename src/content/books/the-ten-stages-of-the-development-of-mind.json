@@ -6,8 +6,8 @@
   "slug": "the-ten-stages-of-the-development-of-mind",
   "tags": [],
   "description": "Kukai, more commonly known by the honorific Kobo Daishi, was one of the great characters in the development of Janpanese culture. He was active in literature, engineering, calligraphy, and architecture and is represented in this work in terms of his major effort--the introduction of esoteric Buddhism from China, which resulted in the formation of the Shingou sect still active in Japan. Eight of his works are presented here.",
-  "cover_url": "https://books.google.com/books/content?id=FGtbmTMf3r4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=FGtbmTMf3r4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ten-stages-of-the-development-of-mind.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-ten-stages-of-the-development-of-mind.jpg",
   "isbn": "0231059337",
   "first_published": 1972,
   "pages": 328,
@@ -21,10 +21,21 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780231059336",
-  "representative_edition_key": "/books/OL9418715M"
+  "representative_edition_key": "/books/OL9418715M",
+  "cover_url_source": "https://books.google.com/books/content?id=FGtbmTMf3r4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=FGtbmTMf3r4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:41+00:00",
+  "ddc": [
+    "181"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-assistant",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/224573-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/224573-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-assistant.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-assistant.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1937852W",
   "first_published": 1957,
   "language": "eng",
@@ -96,5 +96,8 @@
   "wikidata_qid": "Q7714719",
   "original_title": "The Assistant",
   "original_language": "eng",
-  "original_publisher": "Farrar, Straus and Giroux"
+  "original_publisher": "Farrar, Straus and Giroux",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/224573-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/224573-L.jpg",
+  "cover_cached_at": "2026-05-03T01:56:26+00:00"
 }

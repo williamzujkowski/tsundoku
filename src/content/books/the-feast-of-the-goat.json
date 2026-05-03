@@ -6,8 +6,8 @@
   "slug": "the-feast-of-the-goat",
   "tags": [],
   "description": "A tyrant's last days are the focus of this magisterial, long-awaited novel, as Mario Vargas Llosa recounts the end of a regime in the Dominican Republic and the terrible birth of a democracy.",
-  "cover_url": "https://books.google.com/books/content?id=8aDmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8aDmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-feast-of-the-goat.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-feast-of-the-goat.jpg",
   "isbn": "9780374154769",
   "first_published": 2000,
   "pages": 416,
@@ -89,5 +89,8 @@
   "representative_edition_key": "/books/OL7423076M",
   "translator": "Edith Grossman",
   "wikidata_qid": "Q650314",
-  "original_publisher": "Alfaguara"
+  "original_publisher": "Alfaguara",
+  "cover_url_source": "https://books.google.com/books/content?id=8aDmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8aDmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:54+00:00"
 }

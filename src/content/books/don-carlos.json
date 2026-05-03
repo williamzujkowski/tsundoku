@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243640-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243640-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/don-carlos.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/don-carlos.jpg",
   "open_library_url": "https://openlibrary.org/works/OL207631W",
   "first_published": 1787,
   "language": "eng",
@@ -74,5 +74,8 @@
   "original_language": "ger",
   "original_title": "Dom Karlos, infant von Spanien",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL17011326M"
+  "representative_edition_key": "/books/OL17011326M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243640-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243640-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:04+00:00"
 }

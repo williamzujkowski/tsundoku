@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The classic book, Lorna Doone by R.D. Blackmore! There's a reason why Lorna Doone is one of the best books of all time. If you haven't read this classic, then you'd better pick up a copy of Lorna Doone by R.D. Blackmore today!",
-  "cover_url": "https://books.google.com/books/content?id=HQEjngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lorna-doone.jpg",
   "isbn": "1493790838",
   "first_published": 1869,
   "pages": 382,
@@ -151,5 +151,7 @@
   "representative_edition_key": "/books/OL46904261M",
   "wikidata_qid": "Q3400981",
   "original_title": "Lorna Doone",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=HQEjngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:05+00:00"
 }

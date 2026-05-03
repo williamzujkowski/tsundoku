@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Enrich author data from Wikipedia and Open Library APIs.
+Enrich author data via the shared author_sources module.
 
 Usage:
   python scripts/enrich-authors.py                # enrich all authors
   python scripts/enrich-authors.py --limit 100    # enrich top 100 authors (most books first)
 
-APIs used (free, no keys required):
-  Wikipedia: https://en.wikipedia.org/api/rest_v1/page/summary/{name}
-  Open Library: https://openlibrary.org/search/authors.json?q={name}
+Routes through the same Wikipedia / Open Library / Wikidata sources
+that enrich-authors-gaps.py uses, so the create-new and fill-gaps
+flows stay in lockstep when sources change shape upstream.
 """
 
 import json
@@ -17,16 +17,18 @@ import sys
 import time
 import argparse
 from pathlib import Path
-from urllib.request import urlopen, Request
-from urllib.error import URLError, HTTPError
-from urllib.parse import quote
 
+sys.path.insert(0, str(Path(__file__).parent))
+
+from author_sources import (
+    from_open_library_author_page,
+    from_wikidata,
+    from_wikipedia,
+)
 from json_merge import additive_merge, load_existing, save_json
-from http_cache import cached_fetch
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
-USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
 RATE_LIMIT_SECONDS = 1.0
 
 
@@ -62,117 +64,14 @@ def get_all_authors() -> list[dict]:
     return authors
 
 
-def fetch_json(url: str) -> dict | None:
-    """Fetch JSON from a URL with error handling."""
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=15) as resp:
-            return json.loads(resp.read())
-    except HTTPError as e:
-        if e.code == 404:
-            return None
-        print(f"  HTTP {e.code} for {url}")
-        return None
-    except (URLError, TimeoutError, json.JSONDecodeError) as e:
-        print(f"  Error fetching {url}: {e}")
-        return None
-
-
-def fetch_wikipedia(author_name: str) -> dict:
-    """Fetch author info from Wikipedia REST API."""
-    result = {}
-    # Try the name as-is first, then with underscores
-    encoded = quote(author_name.replace(" ", "_"), safe="")
-    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
-    data = cached_fetch("wikipedia", author_name, lambda: fetch_json(url), url=url)
-
-    if not data or data.get("type") == "disambiguation":
-        return result
-
-    extract = data.get("extract", "")
-    if extract:
-        result["bio"] = extract
-
-    thumbnail = data.get("thumbnail", {})
-    if thumbnail and thumbnail.get("source"):
-        # Get a larger version by replacing size in URL
-        photo = thumbnail["source"]
-        # Wikipedia thumbnails often have /NNNpx- in URL, try to get larger
-        photo = re.sub(r"/\d+px-", "/400px-", photo)
-        result["photo_url"] = photo
-
-    content_urls = data.get("content_urls", {})
-    desktop = content_urls.get("desktop", {})
-    if desktop.get("page"):
-        result["wikipedia_url"] = desktop["page"]
-
-    # Try to extract birth/death years from description
-    desc = data.get("description", "")
-    extract_text = data.get("extract", "")
-
-    # Look for year patterns like (1564-1616) or (born 1947)
-    year_pattern = r"\((\d{4})\s*[-–]\s*(\d{4})\)"
-    match = re.search(year_pattern, extract_text)
-    if match:
-        result["birth_year"] = int(match.group(1))
-        result["death_year"] = int(match.group(2))
-    else:
-        born_pattern = r"\(born\s+.*?(\d{4})\)"
-        match = re.search(born_pattern, extract_text, re.IGNORECASE)
-        if match:
-            result["birth_year"] = int(match.group(1))
-
-    # Also check description for years
-    if "birth_year" not in result:
-        match = re.search(year_pattern, desc)
-        if match:
-            result["birth_year"] = int(match.group(1))
-            result["death_year"] = int(match.group(2))
-
-    return result
-
-
-def fetch_open_library(author_name: str) -> dict:
-    """Fetch author info from Open Library Authors API."""
-    result = {}
-    encoded = quote(author_name, safe="")
-    url = f"https://openlibrary.org/search/authors.json?q={encoded}"
-    data = cached_fetch("open_library", author_name, lambda: fetch_json(url), url=url)
-
-    if not data or not data.get("docs"):
-        return result
-
-    # Take the first (best match) result
-    author = data["docs"][0]
-    author_key = author.get("key", "")
-
-    if author_key:
-        result["open_library_url"] = f"https://openlibrary.org/authors/{author_key}"
-
-        # Open Library author photos
-        # https://covers.openlibrary.org/a/olid/{OLID}-M.jpg
-        result["open_library_photo_url"] = (
-            f"https://covers.openlibrary.org/a/olid/{author_key}-M.jpg"
-        )
-
-    birth = author.get("birth_date", "")
-    death = author.get("death_date", "")
-
-    if birth:
-        year_match = re.search(r"\d{4}", birth)
-        if year_match:
-            result["birth_year"] = int(year_match.group())
-
-    if death:
-        year_match = re.search(r"\d{4}", death)
-        if year_match:
-            result["death_year"] = int(year_match.group())
-
-    return result
-
-
 def enrich_author(name: str, book_count: int) -> dict:
-    """Enrich a single author with data from multiple APIs."""
+    """Enrich a single author by walking the shared source chain.
+
+    Wikipedia → Open Library author page → Wikidata. Wikipedia wins for
+    bio + photo + canonical URL. OL contributes structured birth/death
+    dates when Wikipedia's regex didn't get them. Wikidata is the
+    last-mile fallback when the first two miss outright.
+    """
     slug = slugify(name)
     author_data = {
         "name": name,
@@ -180,42 +79,36 @@ def enrich_author(name: str, book_count: int) -> dict:
         "book_count": book_count,
     }
 
-    # Fetch from Wikipedia
-    print(f"  Fetching Wikipedia...")
-    wiki = fetch_wikipedia(name)
+    print("  Fetching Wikipedia...")
+    wiki = from_wikipedia(name=name)
     time.sleep(RATE_LIMIT_SECONDS)
 
-    # Fetch from Open Library
-    print(f"  Fetching Open Library...")
-    ol = fetch_open_library(name)
+    print("  Fetching Open Library...")
+    ol = from_open_library_author_page(name=name)
     time.sleep(RATE_LIMIT_SECONDS)
 
-    # Merge data — Wikipedia takes priority for bio and photo
-    if wiki.get("bio"):
-        author_data["bio"] = wiki["bio"]
+    wikidata: dict = {}
+    if not (wiki or ol):
+        print("  Falling back to Wikidata...")
+        wikidata = from_wikidata(name=name)
+        time.sleep(RATE_LIMIT_SECONDS)
 
-    # Prefer Wikipedia photo, fall back to Open Library
-    if wiki.get("photo_url"):
-        author_data["photo_url"] = wiki["photo_url"]
-    elif ol.get("open_library_photo_url"):
-        author_data["photo_url"] = ol["open_library_photo_url"]
+    # Wikipedia first for narrative fields
+    for field in ("bio", "photo_url", "wikipedia_url"):
+        for src_dict in (wiki, ol, wikidata):
+            if src_dict.get(field):
+                author_data[field] = src_dict[field]
+                break
 
-    if wiki.get("wikipedia_url"):
-        author_data["wikipedia_url"] = wiki["wikipedia_url"]
+    # OL structured dates win, with Wikipedia/Wikidata as fallbacks
+    for field in ("birth_year", "death_year"):
+        for src_dict in (ol, wiki, wikidata):
+            if src_dict.get(field):
+                author_data[field] = src_dict[field]
+                break
 
     if ol.get("open_library_url"):
         author_data["open_library_url"] = ol["open_library_url"]
-
-    # Prefer Open Library birth/death years (more structured), fall back to Wikipedia
-    if ol.get("birth_year"):
-        author_data["birth_year"] = ol["birth_year"]
-    elif wiki.get("birth_year"):
-        author_data["birth_year"] = wiki["birth_year"]
-
-    if ol.get("death_year"):
-        author_data["death_year"] = ol["death_year"]
-    elif wiki.get("death_year"):
-        author_data["death_year"] = wiki["death_year"]
 
     return author_data
 

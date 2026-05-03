@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/696629-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/riceyman-steps.jpg",
   "first_published": 1923,
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/riceyman-steps-by-arnold-bennett/",
@@ -78,5 +78,7 @@
   "representative_edition_key": "/books/OL56494254M",
   "wikidata_qid": "Q7323142",
   "original_language": "eng",
-  "original_publisher": "Cassell & Co"
+  "original_publisher": "Cassell & Co",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/696629-M.jpg",
+  "cover_cached_at": "2026-05-03T01:48:01+00:00"
 }

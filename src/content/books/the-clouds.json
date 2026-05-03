@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1260469-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1260469-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-clouds.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-clouds.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193498W",
   "first_published": -423,
   "language": "eng",
@@ -34,8 +34,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 7,
-  "representative_edition_key": "/books/OL7652666M"
+  "representative_edition_key": "/books/OL7652666M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1260469-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1260469-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:45+00:00",
+  "lcc": [
+    "PA"
+  ]
 }

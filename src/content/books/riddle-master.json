@@ -8,8 +8,8 @@
     "children",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10104099-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10104099-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/riddle-master.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/riddle-master.jpg",
   "open_library_url": "https://openlibrary.org/works/OL92495W",
   "first_published": 1976,
   "language": "eng",
@@ -45,5 +45,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL83127M"
+  "representative_edition_key": "/books/OL83127M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10104099-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10104099-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:12+00:00"
 }

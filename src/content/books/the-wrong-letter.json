@@ -14,7 +14,7 @@
   "google_books_url": "http://books.google.com/books?id=R8osPAAACAAJ&dq=intitle:The+Wrong+Letter&hl=&source=gbs_api",
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL28555122W",
-  "cover_url": "https://covers.openlibrary.org/b/id/14634181-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-wrong-letter.jpg",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-wrong-letter-by-walter-s-masterman/",
   "gutenberg_id": 70964,
@@ -45,9 +45,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51733568M"
+  "representative_edition_key": "/books/OL51733568M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14634181-M.jpg",
+  "cover_cached_at": "2026-05-03T02:18:46+00:00",
+  "ddc": [
+    "808.83872"
+  ]
 }

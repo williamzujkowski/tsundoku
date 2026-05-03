@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Attacking Network Protocols is a deep dive into network protocol security from James ­Forshaw, one of the world’s leading bug ­hunters. This comprehensive guide looks at networking from an attacker’s perspective to help you discover, exploit, and ultimately ­protect vulnerabilities. You’ll start with a rundown of networking basics and protocol traffic capture before moving on to static and dynamic protocol analysis, common protocol structures, cryptography, and protocol security. Then you’ll tur",
-  "cover_url": "https://books.google.com/books/content?id=kLgrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/attacking-network-protocols.jpg",
   "isbn": "9781593278441",
   "first_published": 2018,
   "pages": 338,
@@ -32,10 +32,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593277505",
-  "representative_edition_key": "/books/OL26834003M"
+  "representative_edition_key": "/books/OL26834003M",
+  "cover_url_source": "https://books.google.com/books/content?id=kLgrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:19+00:00",
+  "ddc": [
+    "005"
+  ]
 }

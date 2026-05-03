@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "This Georgian-era romance “with elopements, rescues, duels, and cards . . . [is] a picturesque and engaging story” from the acclaimed master of the genre (The Spectator). When Prudence and Robin Tremaine find themselves on the wrong side of the Jacobite rebellion, the siblings follow their infamous father’s cunning footsteps and switch identities, escaping to London with Prudence posing as a dashing gentleman and Robin as a lovely young woman. They are so skillful, in fact, that they are warmly ",
-  "cover_url": "https://books.google.com/books/content?id=S6frEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-masqueraders.jpg",
   "isbn": "9781504082259",
   "first_published": 1928,
   "pages": 295,
@@ -47,5 +47,7 @@
   },
   "editions_count": 41,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51113129M"
+  "representative_edition_key": "/books/OL51113129M",
+  "cover_url_source": "https://books.google.com/books/content?id=S6frEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:57+00:00"
 }

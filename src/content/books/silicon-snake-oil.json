@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/3910892-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3910892-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/silicon-snake-oil.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/silicon-snake-oil.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3741564W",
   "first_published": 1995,
   "language": "eng",
@@ -52,5 +52,8 @@
   "wikidata_qid": "Q15052196",
   "original_title": "Silicon Snake Oil",
   "original_language": "eng",
-  "original_publisher": "Doubleday"
+  "original_publisher": "Doubleday",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3910892-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3910892-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:51+00:00"
 }

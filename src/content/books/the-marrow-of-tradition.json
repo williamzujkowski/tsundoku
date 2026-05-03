@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Marrow of Tradition (1901), Charles Chesnutt’s second novel, is one of the most prominent entries in the canon of post-bellum, pre-Harlem Black writing. Notable for its fictionalized retelling of the 1898 Wilmington Race Riots, the novel is called to by scholars and readers for its acute depiction of America's turn-of-the-century racial atmosphere. The Norton Library edition features the original 1901 text, explanatory endnotes, and a sweeping introduction by Autumn Womack (Princeton Univers",
-  "cover_url": "https://books.google.com/books/content?id=aR7QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-marrow-of-tradition.jpg",
   "isbn": "9780393888287",
   "first_published": 1901,
   "google_books_url": "http://books.google.com/books?id=aR7QEAAAQBAJ&dq=intitle:The+Marrow+of+Tradition&hl=&source=gbs_api",
@@ -81,5 +81,7 @@
   "editions_count": 144,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33923739M"
+  "representative_edition_key": "/books/OL33923739M",
+  "cover_url_source": "https://books.google.com/books/content?id=aR7QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:53+00:00"
 }

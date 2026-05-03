@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The Art of Computer Programming is Knuth's multivolume analysis of algorithms. With the addition of this new volume, it continues to be the definitive description of classical computer science. Volume 4B, the sequel to Volume 4A, extends Knuth's exploration of combinatorial algorithms. These algorithms are of keen interest to software designers because \". . . a single good idea can save years or even centuries of computer time.\" The book begins with coverage of Backtrack Programming, together wi...",
-  "cover_url": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-art-of-computer-programming-vol-4b.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-art-of-computer-programming-vol-4b.jpg",
   "isbn": "9780137926817",
   "first_published": 2022,
   "pages": 677,
@@ -44,5 +44,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780137926794",
-  "representative_edition_key": "/books/OL44188375M"
+  "representative_edition_key": "/books/OL44188375M",
+  "cover_url_source": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6tnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:06+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"Sartor Resartus is the 'sunniest and most philosophical' of Carlyle's works.\"—Henry David Thoreau \"The way to test how much [Carlyle] has left us all were to consider, or try to consider, for the moment the array of British thought, the resultant and ensemble of the last fifty years, as existing today, but with Carlyle left out.\"—Walt Whitman \"How great he was! He made history a song for the first time in our language. He was our English Tacitus.\"—Oscar Wilde",
-  "cover_url": "https://books.google.com/books/content?id=ModYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/sartor-resartus.jpg",
   "isbn": "9780520209282",
   "first_published": 1800,
   "pages": 788,
@@ -115,5 +115,7 @@
   "representative_edition_key": "/books/OL12557794M",
   "wikidata_qid": "Q1134140",
   "original_title": "Sartor Resartus",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=ModYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:04+00:00"
 }

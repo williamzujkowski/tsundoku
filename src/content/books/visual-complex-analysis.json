@@ -7,8 +7,8 @@
   "tags": [
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/131135-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/131135-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/visual-complex-analysis.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/visual-complex-analysis.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2882085W",
   "first_published": 1997,
   "language": "eng",
@@ -58,5 +58,8 @@
   "representative_edition_key": "/books/OL17604507M",
   "wikidata_qid": "Q51131766",
   "original_title": "Visual Complex Analysis",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/131135-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/131135-L.jpg",
+  "cover_cached_at": "2026-05-03T02:25:11+00:00"
 }

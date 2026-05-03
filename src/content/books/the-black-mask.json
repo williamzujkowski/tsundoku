@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/10557056-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-black-mask.jpg",
   "first_published": 1975,
   "copyright_status": "in_copyright",
   "description": "The Black Mask is a 1901 short story collection by E. W. Hornung. It was published in the UK by Grant Richards, London, and in the US by Scribner's, New York under the title Raffles: Further Adventures of the Amateur Cracksman. It is the second collection of stories in Hornung's series concerning A. J. Raffles, a gentleman thief in late Victorian London.",
@@ -51,5 +51,7 @@
   "editions_count": 42,
   "first_published_circa": false,
   "first_edition_isbn": "0241891698",
-  "representative_edition_key": "/books/OL41803279M"
+  "representative_edition_key": "/books/OL41803279M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10557056-M.jpg",
+  "cover_cached_at": "2026-05-03T01:58:01+00:00"
 }

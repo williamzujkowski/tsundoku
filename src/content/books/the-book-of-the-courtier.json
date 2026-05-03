@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/313747-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/313747-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-the-courtier.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-the-courtier.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8253426W",
   "first_published": 1959,
   "language": "eng",
@@ -26,10 +26,30 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780804421157",
-  "representative_edition_key": "/books/OL55522157M"
+  "representative_edition_key": "/books/OL55522157M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/313747-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/313747-L.jpg",
+  "cover_cached_at": "2026-05-03T01:59:02+00:00",
+  "subject_facet": [
+    "Castiglione, baldassare, conte, 1478-1529",
+    "Congregational churches",
+    "Continental european fiction (fictional works by one author)",
+    "Court and courtiers",
+    "Courtesy",
+    "Courts and courtiers",
+    "Early works to 1800",
+    "Latin American literature",
+    "Medieval and modern Latin literature",
+    "Theology"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

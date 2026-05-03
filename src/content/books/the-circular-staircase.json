@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In her groundbreaking work, \"The Circular Staircase,\" Mary Roberts Rinehart pioneers the modern detective novel, blending elements of suspense, mystery, and the uncanny. The narrative unfolds within the atmospheric confines of a decaying mansion, where the protagonist, Gertrude, confronts a series of perplexing events following the unexpected return to her family home. Rinehart's deft use of first-person narration imbues the story with immediacy and intimacy, inviting readers to experience Gertr",
-  "cover_url": "https://books.google.com/books/content?id=OkeVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-circular-staircase.jpg",
   "first_published": 1908,
   "pages": 362,
   "google_books_url": "https://play.google.com/store/books/details?id=OkeVEAAAQBAJ&source=gbs_api",
@@ -74,5 +74,7 @@
   "editions_count": 182,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42343586M"
+  "representative_edition_key": "/books/OL42343586M",
+  "cover_url_source": "https://books.google.com/books/content?id=OkeVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:00:15+00:00"
 }

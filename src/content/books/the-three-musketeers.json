@@ -10,8 +10,8 @@
     "drama",
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14564075-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14564075-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-three-musketeers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-three-musketeers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15196889W",
   "first_published": 1999,
   "language": "eng",
@@ -38,8 +38,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL31910374M"
+  "representative_edition_key": "/books/OL31910374M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14564075-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14564075-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:15+00:00",
+  "lcc": [
+    "D"
+  ]
 }

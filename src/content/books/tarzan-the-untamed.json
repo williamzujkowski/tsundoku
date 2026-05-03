@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Hauptmann Fritz Schneider trudged wearily through the somber aisles of the dark forest. Sweat rolled down his bullet head and stood upon his heavy jowls and bull neck.' (Excerpt from Chapter 1)",
-  "cover_url": "https://books.google.com/books/content?id=ZWNUPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tarzan-the-untamed.jpg",
   "isbn": "1605976482",
   "first_published": 1920,
   "pages": 264,
@@ -75,5 +75,7 @@
   "series": {
     "name": "Tarzan",
     "position": 7
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=ZWNUPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:53+00:00"
 }

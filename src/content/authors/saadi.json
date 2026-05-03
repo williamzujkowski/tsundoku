@@ -2,7 +2,7 @@
   "name": "Saadi",
   "slug": "saadi",
   "book_count": 2,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2108A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/saadi.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2108A",
   "birth_year": 1210,
   "death_year": 1292,
@@ -18,5 +18,7 @@
     "سعدی"
   ],
   "viaf_id": "100206721",
-  "ol_author_key": "/authors/OL4911929A"
+  "ol_author_key": "/authors/OL4911929A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2108A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:48:09+00:00"
 }

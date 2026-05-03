@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5540237-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5540237-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-death-and-life-of-great-american-cities.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-death-and-life-of-great-american-cities.jpg",
   "open_library_url": "https://openlibrary.org/works/OL93641W",
   "first_published": 1961,
   "language": "eng",
@@ -77,5 +77,8 @@
   "wikidata_qid": "Q2918023",
   "original_title": "The Death and Life of Great American Cities",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5540237-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5540237-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:27+00:00"
 }

@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=RlZ3MQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-autobiography-of-an-idea.jpg",
   "isbn": "1258428288",
   "first_published": 1926,
   "pages": 378,
@@ -47,5 +47,7 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL16201888M"
+  "representative_edition_key": "/books/OL16201888M",
+  "cover_url_source": "https://books.google.com/books/content?id=RlZ3MQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:27+00:00"
 }

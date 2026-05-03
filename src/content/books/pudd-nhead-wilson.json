@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "This Prestwick House Literary Touchstone Classic includes a glossary and reader's notes to help the modern reader appreciate Twain's perspective on the human race.UNLEASHING THE ACERBIC WIT for which he was already famous, Mark Twain released Pudd'nhead Wilson in 1894 to a public not quite prepared for the American satirist's dark attack on lingering racism following the Civil War and the failure of Reconstruction. The stories of twin Italian circus performers, a beautiful slave, and a lawyer wh",
-  "cover_url": "https://books.google.com/books/content?id=TKztMdJxC9gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/pudd-nhead-wilson.jpg",
   "isbn": "9781580493383",
   "first_published": 1894,
   "pages": 146,
@@ -101,5 +101,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL12276650M",
   "wikidata_qid": "Q1776855",
-  "original_title": "Pudd'nhead Wilson"
+  "original_title": "Pudd'nhead Wilson",
+  "cover_url_source": "https://books.google.com/books/content?id=TKztMdJxC9gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:15+00:00"
 }

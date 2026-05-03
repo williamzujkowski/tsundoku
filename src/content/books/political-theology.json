@@ -8,8 +8,8 @@
     "philosophy",
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/142869-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/142869-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/political-theology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/political-theology.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3586431W",
   "first_published": 1986,
   "language": "eng",
@@ -26,8 +26,20 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL51815173M"
+  "representative_edition_key": "/books/OL51815173M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/142869-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/142869-L.jpg",
+  "cover_cached_at": "2026-05-03T01:44:35+00:00",
+  "subject_facet": [
+    "Political Science",
+    "Religion and politics"
+  ],
+  "ddc": [
+    "100"
+  ]
 }

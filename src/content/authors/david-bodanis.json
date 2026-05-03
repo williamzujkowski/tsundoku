@@ -4,7 +4,7 @@
   "book_count": 1,
   "bio": "David Bodanis is an American speaker, business advisor and writer of bestselling nonfiction books, notably E=mc2: A Biography of the World's Most Famous Equation, which was translated into 26 languages. Originally from Chicago, he received an undergraduate education in mathematics, physics and economics at the University of Chicago. He lived in France for ten years from his early twenties and has since been based in London.",
   "wikipedia_url": "https://en.wikipedia.org/wiki/David_Bodanis",
-  "photo_url": "https://covers.openlibrary.org/a/id/7435686-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/david-bodanis.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL388017A",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
@@ -17,5 +17,7 @@
     "US"
   ],
   "viaf_id": "69108755",
-  "ol_author_key": "/authors/OL388017A"
+  "ol_author_key": "/authors/OL388017A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7435686-M.jpg",
+  "photo_cached_at": "2026-05-03T00:41:14+00:00"
 }

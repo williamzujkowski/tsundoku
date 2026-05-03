@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Seemingly simple bugs can have drastic consequences, allowing attackers to compromise systems, escalate local privileges, and otherwise wreak havoc on a system. A Bug Hunter's Diary follows security expert Tobias Klein as he tracks down and exploits bugs in some of the world's most popular software, like Apple's iOS, the VLC media player, web browsers, and even the Mac OS X kernel. In this one-of-a-kind account, you'll see how the developers responsible for these flaws patched the bugs—or failed",
-  "cover_url": "https://books.google.com/books/content?id=XysU7oGYRr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-bug-hunter-s-diary.jpg",
   "isbn": "9781593274153",
   "first_published": 2011,
   "pages": 212,
@@ -44,5 +44,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593273859",
-  "representative_edition_key": "/books/OL25005401M"
+  "representative_edition_key": "/books/OL25005401M",
+  "cover_url_source": "https://books.google.com/books/content?id=XysU7oGYRr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:22+00:00"
 }

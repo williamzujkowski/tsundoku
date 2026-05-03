@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9367075-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9367075-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/i-know-why-the-caged-bird-sings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/i-know-why-the-caged-bird-sings.jpg",
   "open_library_url": "https://openlibrary.org/works/OL80021W",
   "first_published": 1969,
   "language": "eng",
@@ -115,5 +115,8 @@
   "wikidata_qid": "Q3163506",
   "original_title": "I Know Why the Caged Bird Sings",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9367075-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9367075-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:51+00:00"
 }

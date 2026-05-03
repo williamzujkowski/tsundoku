@@ -7,8 +7,8 @@
   "tags": [
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/582109-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/582109-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-feynman-lectures-on-physics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-feynman-lectures-on-physics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL514630W",
   "first_published": 1963,
   "language": "eng",
@@ -40,5 +40,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36312101M"
+  "representative_edition_key": "/books/OL36312101M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/582109-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/582109-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:31+00:00"
 }

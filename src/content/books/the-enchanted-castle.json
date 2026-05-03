@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Enchanted Castle is a fantasy book by Edith Nesbit about three children, who, while playing in the forest, discover a secret passageway into the garden of a castle. They make believe that it is enchanted, and wake a young girl sleeping there, who they pretend is a princess.",
-  "cover_url": "https://books.google.com/books/content?id=uVpdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-enchanted-castle.jpg",
   "isbn": "9783987440939",
   "first_published": 1907,
   "pages": 320,
@@ -91,5 +91,7 @@
   "wikidata_qid": "Q2920166",
   "original_title": "The Enchanted Castle",
   "original_language": "eng",
-  "original_publisher": "George Allen & Unwin Limited"
+  "original_publisher": "George Allen & Unwin Limited",
+  "cover_url_source": "https://books.google.com/books/content?id=uVpdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:14+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-god-of-small-things",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10513792-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10513792-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-god-of-small-things.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-god-of-small-things.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1052133W",
   "first_published": 1997,
   "language": "eng",
@@ -89,5 +89,8 @@
   },
   "editions_count": 65,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27404212M"
+  "representative_edition_key": "/books/OL27404212M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10513792-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10513792-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:37+00:00"
 }

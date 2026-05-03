@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Published in 1896, The Damnation of Theron Ware or Illumination is a profound psychological portrait of the spiritual undoing of a guileless Methodist minister who is taken in by a rural townspeople’s various progressive ideas, from liberalism to bohemianism, only to be spurned by them for being too conventional. Described by Everett Carter as “among the four or five best novels written by an American during the nineteenth century,” the novel, as Joyce Carol Oates writes in her Introduction, has",
-  "cover_url": "https://books.google.com/books/content?id=h31jSUgkkWQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-damnation-of-theron-ware.jpg",
   "isbn": "9780375760358",
   "first_published": 1896,
   "pages": 370,
@@ -84,5 +84,7 @@
   "editions_count": 118,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33941607M"
+  "representative_edition_key": "/books/OL33941607M",
+  "cover_url_source": "https://books.google.com/books/content?id=h31jSUgkkWQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:19+00:00"
 }

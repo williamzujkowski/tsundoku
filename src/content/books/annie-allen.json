@@ -9,8 +9,8 @@
   "first_published": 1949,
   "language": "eng",
   "description": "A loosely connected series of poems about Annie Allen, a Black girl growing up in Chicago. The first part, \"Notes from the Childhood and Girlhood,\" provides glimpses into Annie's birth, her mother, and her responses to racism, killing, and death. \"The Anniad,\" a mock heroic poem, describes Annie's dreams of a lover who goes to war, returns, marries and leaves her, and finally comes home to die. The last section, \"The Womanhood,\" gives a broader view of Annie's outlook on the world and the things...",
-  "cover_url": "https://books.google.com/books/content?id=MzMEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=MzMEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/annie-allen.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/annie-allen.jpg",
   "pages": 80,
   "google_books_url": "http://books.google.com/books?id=MzMEAQAAIAAJ&dq=Annie+Allen+Gwendolyn+Brooks&hl=&source=gbs_api",
   "reading_status": "read",
@@ -45,5 +45,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8207003M"
+  "representative_edition_key": "/books/OL8207003M",
+  "cover_url_source": "https://books.google.com/books/content?id=MzMEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=MzMEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:55:11+00:00"
 }

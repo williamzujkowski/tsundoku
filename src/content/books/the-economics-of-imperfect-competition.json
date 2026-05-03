@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9288611-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9288611-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-economics-of-imperfect-competition.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-economics-of-imperfect-competition.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1197187W",
   "first_published": 1933,
   "language": "eng",
@@ -25,8 +25,26 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL46860334M"
+  "representative_edition_key": "/books/OL46860334M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9288611-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9288611-L.jpg",
+  "cover_cached_at": "2026-05-03T02:03:10+00:00",
+  "subject_facet": [
+    "Competition",
+    "Competition, Imperfect",
+    "Economics, Mathematical",
+    "Imperfect Competition",
+    "Mathematical Economics",
+    "Monopolies",
+    "Prices",
+    "Value"
+  ],
+  "ddc": [
+    "330"
+  ]
 }

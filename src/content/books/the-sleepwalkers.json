@@ -9,8 +9,8 @@
   "first_published": 1932,
   "language": "eng",
   "description": "With his epic trilogy, The Sleepwalkers, Hermann Broch established himself as one of the great innovators of modern literature, a visionary writer-philosopher the equal of James Joyce, Thomas Mann, or Robert Musil. Even as he grounded his narratives in the intimate daily life of Germany, Broch was identifying the oceanic changes that would shortly sweep that life into the abyss. Whether he is writing about a neurotic army officer (The Romantic), a disgruntled bookkeeper and would-be assassin (Th...",
-  "cover_url": "https://books.google.com/books/content?id=ljWlav3CX3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ljWlav3CX3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-sleepwalkers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sleepwalkers.jpg",
   "isbn": "9780307789167",
   "pages": 657,
   "google_books_url": "https://play.google.com/store/books/details?id=ljWlav3CX3YC&source=gbs_api",
@@ -24,9 +24,25 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL52791203M"
+  "representative_edition_key": "/books/OL52791203M",
+  "cover_url_source": "https://books.google.com/books/content?id=ljWlav3CX3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ljWlav3CX3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:49+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, general",
+    "German fiction",
+    "Social conditions",
+    "Translations into English"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

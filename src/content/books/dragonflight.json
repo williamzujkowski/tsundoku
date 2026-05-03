@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/dragonflight.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dragonflight.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781560600756",
@@ -81,7 +81,9 @@
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 78,
   "first_published_circa": false,
@@ -100,5 +102,8 @@
   "series": {
     "name": "Dragonriders of Pern",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15141193-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15141193-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:14+00:00"
 }

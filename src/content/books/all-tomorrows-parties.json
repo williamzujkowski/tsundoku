@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "all-tomorrows-parties",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/258725-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/258725-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/all-tomorrows-parties.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/all-tomorrows-parties.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27251W",
   "first_published": 1999,
   "language": "eng",
@@ -56,5 +56,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL43552261M"
+  "representative_edition_key": "/books/OL43552261M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/258725-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/258725-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:55+00:00"
 }

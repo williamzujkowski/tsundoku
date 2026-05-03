@@ -12,7 +12,7 @@
   "reading_status": "want",
   "copyright_status": "in_copyright",
   "description": "The Crystal World is a 1966 novel by British writer J. G. Ballard. It was first published in serialized form under the title \"The Equinox\" in New Worlds in 1964, before appearing in hardcover from Jonathan Cape in the United Kingdom and Farrar, Straus and Giroux in the United States in 1966. Contemporary reviewers including Brian Aldiss and Judith Merril discussed the novel as a distinctive entry in Ballard’s early catastrophe fiction.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Crystal_world.jpg/250px-Crystal_world.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-crystal-world.jpg",
   "pages": 210,
   "isbn": "9780224610445",
   "ddc": [
@@ -46,5 +46,7 @@
   },
   "editions_count": 23,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7414885M"
+  "representative_edition_key": "/books/OL7414885M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Crystal_world.jpg/250px-Crystal_world.jpg",
+  "cover_cached_at": "2026-05-03T02:02:14+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Build Machine Learning models with a sound statistical understanding.About This Book* Learn about the statistics behind powerful predictive models with p-value, ANOVA, and F- statistics.* Implement statistical computations programmatically for supervised and unsupervised learning through K-means clustering.* Master the statistical aspect of Machine Learning with the help of this example-rich guide to R and Python.Who This Book Is ForThis book is intended for developers with little to no backgrou",
-  "cover_url": "https://books.google.com/books/content?id=f2rpswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/statistics-for-machine-learning.jpg",
   "isbn": "1788295757",
   "first_published": 2017,
   "pages": 442,
@@ -27,10 +27,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781788295758",
-  "representative_edition_key": "/books/OL26834393M"
+  "representative_edition_key": "/books/OL26834393M",
+  "cover_url_source": "https://books.google.com/books/content?id=f2rpswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:53:09+00:00",
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

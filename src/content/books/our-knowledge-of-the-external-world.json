@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "our-knowledge-of-the-external-world",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/263151-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/263151-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/our-knowledge-of-the-external-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/our-knowledge-of-the-external-world.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1088536W",
   "first_published": 1926,
   "language": "eng",
@@ -58,5 +58,8 @@
   "first_published_circa": false,
   "first_edition_isbn": "9780041210088",
   "representative_edition_key": "/books/OL23161482M",
-  "wikidata_qid": "Q5582910"
+  "wikidata_qid": "Q5582910",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/263151-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/263151-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:25+00:00"
 }

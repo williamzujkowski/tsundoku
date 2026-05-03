@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31964906W",
   "first_published": 2005,
   "description": "Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. Her uncle is convinced that she was murdered by someone in her own family, the deeply dysfunctional Vanger clan. Journalist Mikael Blomkvist is hired to investigate.",
-  "cover_url": "https://books.google.com/books/content?id=IjbriOVmTsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=IjbriOVmTsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-girl-with-the-dragon-tattoo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-girl-with-the-dragon-tattoo.jpg",
   "isbn": "9780307455352",
   "pages": 642,
   "language": "eng",
@@ -159,5 +159,8 @@
   "original_language": "fre",
   "original_title": "Les hommes qui n'aimaient pas les femmes",
   "representative_edition_key": "/books/OL25168821M",
-  "translator": "Reg Keeland"
+  "translator": "Reg Keeland",
+  "cover_url_source": "https://books.google.com/books/content?id=IjbriOVmTsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=IjbriOVmTsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:31+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "bruce-schneier",
   "book_count": 4,
   "bio": "Bruce Schneier is an American cryptographer, computer security professional, privacy specialist, and writer. Schneier is an Adjunct Lecturer in Public Policy at the Harvard Kennedy School and a Fellow at the Berkman Klein Center for Internet & Society as of November, 2013. He is a board member of the Electronic Frontier Foundation, Access Now, and The Tor Project; and an advisory board member of Electronic Privacy Information Center and VerifiedVoting.org. He is the author of several books on general security topics, computer security and cryptography and is a squid enthusiast.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bruce_Schneier_at_CoPS2013-IMG_9174.jpg/400px-Bruce_Schneier_at_CoPS2013-IMG_9174.jpg",
+  "photo_url": "/tsundoku/cached/authors/bruce-schneier.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Schneier",
   "open_library_url": "https://openlibrary.org/authors/OL442655A",
   "birth_year": 1963,
@@ -29,5 +29,7 @@
       "name": "Norbert Wiener Award for Social and Professional Responsibility",
       "year": 2008
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bruce_Schneier_at_CoPS2013-IMG_9174.jpg/400px-Bruce_Schneier_at_CoPS2013-IMG_9174.jpg",
+  "photo_cached_at": "2026-05-03T02:54:10+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6550324-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6550324-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pens-es.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pens-es.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1262495W",
   "first_published": 1670,
   "language": "eng",
@@ -47,5 +47,8 @@
   },
   "editions_count": 6,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56103349M"
+  "representative_edition_key": "/books/OL56103349M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6550324-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6550324-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:10+00:00"
 }

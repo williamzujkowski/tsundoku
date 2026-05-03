@@ -8,8 +8,8 @@
     "children",
     "ecology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/125545-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/125545-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sea-around-us.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sea-around-us.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1884867W",
   "first_published": 1950,
   "language": "eng",
@@ -73,5 +73,8 @@
   "original_language": "fre",
   "original_title": "Cette mer qui nous entoure",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7386971M"
+  "representative_edition_key": "/books/OL7386971M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/125545-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/125545-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:07+00:00"
 }

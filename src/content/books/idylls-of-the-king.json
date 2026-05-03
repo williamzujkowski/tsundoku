@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/102890-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/102890-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/idylls-of-the-king.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/idylls-of-the-king.jpg",
   "open_library_url": "https://openlibrary.org/works/OL490919W",
   "first_published": 1859,
   "language": "eng",
@@ -33,9 +33,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38640661M"
+  "representative_edition_key": "/books/OL38640661M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/102890-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/102890-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:14+00:00",
+  "ddc": [
+    "800"
+  ]
 }

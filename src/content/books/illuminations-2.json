@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "illuminations-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/991720-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/991720-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/illuminations-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/illuminations-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL156818W",
   "first_published": 1949,
   "language": "eng",
@@ -55,5 +55,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL25959639M"
+  "representative_edition_key": "/books/OL25959639M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/991720-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/991720-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:25+00:00"
 }

@@ -15,8 +15,8 @@
   "pages": 226,
   "google_books_url": "http://books.google.com/books?id=5eVMzQEACAAJ&dq=intitle:Think+Stats&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/6956191-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6956191-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/think-stats.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/think-stats.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16223034W",
   "copyright_status": "in_copyright",
   "isbn": "9781491907337",
@@ -57,10 +57,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9781449307110",
-  "representative_edition_key": "/books/OL26837972M"
+  "representative_edition_key": "/books/OL26837972M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6956191-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6956191-L.jpg",
+  "cover_cached_at": "2026-05-03T02:19:07+00:00",
+  "ddc": [
+    "510"
+  ]
 }

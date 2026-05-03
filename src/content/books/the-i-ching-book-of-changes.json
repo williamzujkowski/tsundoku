@@ -11,8 +11,8 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Tao Te Ching is an ancient Chinese text consisting of spiritual teachings, folk wisdom, political instruction, cosmology observations of nature, anti-Confucian doctrine, and mystical insights.",
-  "cover_url": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-i-ching-book-of-changes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-i-ching-book-of-changes.jpg",
   "first_published": 1934,
   "pages": 666,
   "google_books_url": "http://books.google.com/books?id=WwoRAAAAYAAJ&dq=The+I+Ching+(Book+of+Changes)+King+Wen+(attributed)&hl=&source=gbs_api",
@@ -319,5 +319,8 @@
   },
   "editions_count": 400,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL52559900M"
+  "representative_edition_key": "/books/OL52559900M",
+  "cover_url_source": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=WwoRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:13+00:00"
 }

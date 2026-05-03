@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "\"What am I writing? A historical tale of 300 years ago, simply for the love of it.\" Mark Twain’s \"tale\" became his first historical novel, The Prince and the Pauper, published in 1881. Intricately plotted, it was intended to have the feel of history even though it was only the stuff of legend. In sixteenth-century England, young Prince Edward (son of Henry VIII) and Tom Canty, a pauper boy who looks exactly like him, are suddenly forced to change places. The prince endures \"rags & hardships\" whi",
-  "cover_url": "https://books.google.com/books/content?id=S4vfq8GKbfIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-prince-and-the-pauper.jpg",
   "isbn": "9780520949584",
   "first_published": 1881,
   "pages": 344,
@@ -189,5 +189,7 @@
   "wikidata_qid": "Q869725",
   "original_title": "The Prince and the Pauper",
   "original_language": "eng",
-  "original_publisher": "James R. Osgood"
+  "original_publisher": "James R. Osgood",
+  "cover_url_source": "https://books.google.com/books/content?id=S4vfq8GKbfIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:48+00:00"
 }

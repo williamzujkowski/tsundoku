@@ -13,8 +13,8 @@
   "google_books_url": "http://books.google.com/books?id=wAqptAEACAAJ&dq=intitle:The+Plastic+Age&hl=&source=gbs_api",
   "language": "eng",
   "description": "\"Student life in a New England college. Sequel: Lord of himself.\" Cf. Hanna, A. Mirror for the nation.",
-  "cover_url": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-plastic-age.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-plastic-age.jpg",
   "copyright_status": "public_domain",
   "gutenberg_id": 16532,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/16532",
@@ -55,5 +55,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL48318023M",
   "wikidata_qid": "Q7757399",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=BhE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:27+00:00"
 }

@@ -6,8 +6,8 @@
   "slug": "records-of-the-grand-historian",
   "tags": [],
   "description": "Sima Qian (145?-90? BCE) was the first major Chinese historian. His Shiji, or Records of the Grand Historian, documents the history of China and its neighboring countries from the ancient past to his own time. These three volumes cover the Qin and Han dynasties.",
-  "cover_url": "https://books.google.com/books/content?id=8SZeTl90IA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8SZeTl90IA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/records-of-the-grand-historian.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/records-of-the-grand-historian.jpg",
   "isbn": "0231081685",
   "first_published": 1876,
   "pages": 246,
@@ -135,5 +135,8 @@
   "first_published_circa": false,
   "original_language": "chi",
   "original_title": "Shi ji 130 juan",
-  "representative_edition_key": "/books/OL16331418M"
+  "representative_edition_key": "/books/OL16331418M",
+  "cover_url_source": "https://books.google.com/books/content?id=8SZeTl90IA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8SZeTl90IA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:52+00:00"
 }

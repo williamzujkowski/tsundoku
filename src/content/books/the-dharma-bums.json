@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Dharma Bums is a 1958 novel by Beat Generation author Jack Kerouac. The basis for the novel's semi-fictional accounts are events occurring years after the events of On the Road. The main characters are the narrator Ray Smith, based on Kerouac, and Japhy Ryder, based on the poet and essayist Gary Snyder, who was instrumental in Kerouac's introduction to Buddhism in the mid-1950s.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/DharmaBums.JPG/250px-DharmaBums.JPG",
+  "cover_url": "/tsundoku/cached/covers/the-dharma-bums.jpg",
   "pages": 224,
   "isbn": "9780451165572",
   "ddc": [
@@ -70,5 +70,7 @@
   "wikidata_qid": "Q1493270",
   "original_title": "The Dharma Bums",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/DharmaBums.JPG/250px-DharmaBums.JPG",
+  "cover_cached_at": "2026-05-03T02:02:43+00:00"
 }

@@ -8,12 +8,31 @@
     "computing"
   ],
   "description": "Up-to-date coverage of the latest development in this fast moving area, including the debate between components and web services as the way for the industry to go, increased emphasis on security and the arrival of ubiquitous computing in the form of, among other things, The Grid.",
-  "cover_url": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/distributed-systems-concepts-and-design.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/distributed-systems-concepts-and-design.jpg",
   "first_published": 2005,
   "pages": 952,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=8N9QAAAAMAAJ&dq=Distributed+Systems:+Concepts+and+Design+George+Coulouris+et+al.&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8N9QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:48+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Informática",
+    "Proceso distribuído",
+    "Redes de ordenadores"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

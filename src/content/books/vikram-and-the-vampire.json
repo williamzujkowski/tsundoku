@@ -11,7 +11,7 @@
     "historical-fiction"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=c3pFSAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/vikram-and-the-vampire.jpg",
   "isbn": "1605978450",
   "first_published": 1870,
   "pages": 200,
@@ -72,5 +72,7 @@
   "editions_count": 85,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30365299M"
+  "representative_edition_key": "/books/OL30365299M",
+  "cover_url_source": "https://books.google.com/books/content?id=c3pFSAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:24:13+00:00"
 }

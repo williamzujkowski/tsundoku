@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Where Angels Fear to Tread (1905) is a novel by E. M. Forster, originally entitled Monteriano. The title comes from a line in Alexander Pope's An Essay on Criticism: \"For fools rush in where angels fear to tread\".",
-  "cover_url": "https://books.google.com/books/content?id=0C-YDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/where-angels-fear-to-tread.jpg",
   "isbn": "9781627938778",
   "first_published": 1920,
   "pages": 183,
@@ -85,5 +85,7 @@
   "editions_count": 382,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36786460M"
+  "representative_edition_key": "/books/OL36786460M",
+  "cover_url_source": "https://books.google.com/books/content?id=0C-YDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:49+00:00"
 }

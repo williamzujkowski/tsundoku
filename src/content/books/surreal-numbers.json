@@ -7,8 +7,8 @@
   "tags": [
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/134026-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/134026-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/surreal-numbers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/surreal-numbers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1915643W",
   "first_published": 1974,
   "language": "eng",
@@ -47,5 +47,8 @@
   "representative_edition_key": "/books/OL5045774M",
   "wikidata_qid": "Q24845083",
   "original_title": "Surreal Numbers",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/134026-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/134026-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:35+00:00"
 }

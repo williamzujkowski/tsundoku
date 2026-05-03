@@ -11,8 +11,8 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "cover_url": "https://covers.openlibrary.org/b/id/9997319-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9997319-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/trojan-horse.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/trojan-horse.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16769295W",
   "first_published": 2012,
   "description": "It's two years after the Zero Day attacks, and cyber-security analyst Jeff Aiken is reaping the rewards for crippling Al-Qaida's assault on the computer infrastructure of the Western world. His company is flourishing, and his relationship with former government agent Daryl Haugen has intensified since she became a part of his team. But the West is under its greatest threat yet. A revolutionary, invisible trojan that alters data without leaving a trace---more sophisticated than any virus seen before---has been identified, roiling international politics. Jeff and Daryl are summoned to root it out and discover its source. As the trojan penetrates Western intelligence, and the terrifying truth about its creator is revealed, Jeff and Daryl find themselves in a desperate race to reverse it as the fate of both East and West hangs in the balance. A thrilling suspense story and a sober warning from one of the world's leading experts on cyber-security, Trojan Horse exposes the already widespread use of international cyber-espionage as a powerful and dangerous weapon, and the lengths to which one man will go to stop it.",
@@ -46,5 +46,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781250010483",
-  "representative_edition_key": "/books/OL25404552M"
+  "representative_edition_key": "/books/OL25404552M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9997319-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9997319-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:56+00:00"
 }

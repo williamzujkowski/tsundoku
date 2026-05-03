@@ -6,8 +6,8 @@
   "slug": "the-island-of-the-day-before",
   "tags": [],
   "description": "A panoramic historical novel set in the seventeenth century follows a young aristocrat who goes to sea to find love and an old Jesuit with a boundless scientific knowledge.",
-  "cover_url": "https://books.google.com/books/content?id=UVddAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=UVddAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-island-of-the-day-before.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-island-of-the-day-before.jpg",
   "first_published": 1994,
   "pages": 536,
   "language": "eng",
@@ -64,5 +64,8 @@
   "first_published_circa": false,
   "original_language": "ita",
   "original_title": "L' isola del giorno prima",
-  "representative_edition_key": "/books/OL31935690M"
+  "representative_edition_key": "/books/OL31935690M",
+  "cover_url_source": "https://books.google.com/books/content?id=UVddAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=UVddAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:03+00:00"
 }

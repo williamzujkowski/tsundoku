@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-narrow-road-to-the-deep-north",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6543070-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6543070-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-narrow-road-to-the-deep-north.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-narrow-road-to-the-deep-north.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1758674W",
   "first_published": 1966,
   "language": "eng",
@@ -49,5 +49,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL15514421M"
+  "representative_edition_key": "/books/OL15514421M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6543070-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6543070-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:42+00:00"
 }

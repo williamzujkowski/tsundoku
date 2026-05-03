@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The New York Times bestseller Daemon unleashed a terrifying technological vision of an all-powerful, malicious computer program. Now, our world is the Daemon's world—unless someone stops it once and for all... The Daemon is in absolute control, using an expanded network of shadowy operatives to tear apart civilization and build it anew. Even as civil war breaks out in the American Midwest in a wave of nightmarish violence, former detective Pete Sebeck—the Daemon's most powerful, though reluctant",
-  "cover_url": "https://books.google.com/books/content?id=uXsixF-yclAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/freedom-tm.jpg",
   "isbn": "9781101184608",
   "first_published": 2010,
   "pages": 338,
@@ -56,5 +56,7 @@
   "wikidata_qid": "Q16834408",
   "original_title": "Freedom™",
   "original_language": "eng",
-  "original_publisher": "Dutton"
+  "original_publisher": "Dutton",
+  "cover_url_source": "https://books.google.com/books/content?id=uXsixF-yclAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:34+00:00"
 }

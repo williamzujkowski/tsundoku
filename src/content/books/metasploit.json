@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Metasploit Framework makes discovering, exploiting, and sharing vulnerabilities quick and relatively painless. But while Metasploit is used by security professionals everywhere, the tool can be hard to grasp for first-time users. Metasploit: The Penetration Tester's Guide fills this gap by teaching you how to harness the Framework and interact with the vibrant community of Metasploit contributors. Once you've built your foundation for penetration testing, you’ll learn the Framework's convent",
-  "cover_url": "https://books.google.com/books/content?id=T9HKgEOCYZEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/metasploit.jpg",
   "isbn": "9781593274023",
   "first_published": 2011,
   "pages": 332,
@@ -49,5 +49,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593272883",
-  "representative_edition_key": "/books/OL24896075M"
+  "representative_edition_key": "/books/OL24896075M",
+  "cover_url_source": "https://books.google.com/books/content?id=T9HKgEOCYZEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:34+00:00"
 }

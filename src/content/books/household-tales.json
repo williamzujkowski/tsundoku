@@ -15,8 +15,8 @@
   "pages": 630,
   "google_books_url": "http://books.google.com/books?id=WXLrkwEACAAJ&dq=intitle:Household+Tales&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/13454717-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13454717-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/household-tales.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/household-tales.jpg",
   "open_library_url": "https://openlibrary.org/works/OL25660346W",
   "librivox_url": "https://librivox.org/household-tales-by-jacob-wilhelm-grimm/",
   "gutenberg_id": 5314,
@@ -39,5 +39,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL4430872M"
+  "representative_edition_key": "/books/OL4430872M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13454717-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13454717-L.jpg",
+  "cover_cached_at": "2026-05-03T01:21:29+00:00"
 }

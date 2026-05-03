@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/conan-the-barbarian.png",
+  "cover_url_large": "/tsundoku/cached/covers/conan-the-barbarian.png",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9798514559527",
@@ -36,9 +36,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 20,
   "representative_edition_key": "/books/OL48489880M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/7/7e/Conan9.png",
+  "cover_cached_at": "2026-05-03T01:03:36+00:00",
+  "ddc": [
+    "800"
+  ]
 }

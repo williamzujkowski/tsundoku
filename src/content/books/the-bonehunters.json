@@ -6,8 +6,8 @@
   "slug": "the-bonehunters",
   "tags": [],
   "description": "The sixth volume in Eriksons truly epic fantasy sequence begins as The Seven Cities Rebellion has been crushed. Dogged by self-doubt and ill omens, the 14th Army must lay siege to the city, and Adjunct Tavore must seek to outwit Leoman of the Flails, the deadliest foe she has ever faced.",
-  "cover_url": "https://books.google.com/books/content?id=glIsgJu77iMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=glIsgJu77iMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-bonehunters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-bonehunters.jpg",
   "isbn": "0765316528",
   "first_published": 2006,
   "pages": 804,
@@ -43,5 +43,8 @@
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9680521M"
+  "representative_edition_key": "/books/OL9680521M",
+  "cover_url_source": "https://books.google.com/books/content?id=glIsgJu77iMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=glIsgJu77iMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:48+00:00"
 }

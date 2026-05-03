@@ -8,8 +8,8 @@
     "adventure",
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9295676-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9295676-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-baroque-cycle.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-baroque-cycle.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38483W",
   "first_published": 2003,
   "language": "eng",
@@ -80,5 +80,8 @@
   "series": {
     "name": "The Baroque Cycle",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9295676-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9295676-L.jpg",
+  "cover_cached_at": "2026-05-03T01:57:11+00:00"
 }

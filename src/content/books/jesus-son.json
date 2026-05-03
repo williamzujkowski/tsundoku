@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/42596-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/42596-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/jesus-son.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/jesus-son.jpg",
   "open_library_url": "https://openlibrary.org/works/OL545418W",
   "first_published": 1992,
   "language": "eng",
@@ -42,5 +42,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 8,
-  "representative_edition_key": "/books/OL24084945M"
+  "representative_edition_key": "/books/OL24084945M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/42596-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/42596-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:06+00:00"
 }

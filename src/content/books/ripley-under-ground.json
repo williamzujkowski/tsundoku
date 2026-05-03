@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/93396-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/93396-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ripley-under-ground.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ripley-under-ground.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59495W",
   "first_published": 1970,
   "language": "eng",
@@ -26,9 +26,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29653336M"
+  "representative_edition_key": "/books/OL29653336M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/93396-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/93396-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:16+00:00",
+  "subject_facet": [
+    "Criminals",
+    "Criminals, fiction",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Fiction, psychological",
+    "Psychopaths",
+    "Ripley, tom (fictitious character), fiction",
+    "Serial murderers",
+    "Serial murders, fiction",
+    "Tom Ripley (Fictitious character)"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

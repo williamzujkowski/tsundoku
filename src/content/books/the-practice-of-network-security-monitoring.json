@@ -11,8 +11,8 @@
   "first_published": 2013,
   "language": "eng",
   "description": "Network security is not simply about building impenetrable walls—determined attackers will eventually overcome traditional defenses. The most effective computer security strategies integrate network security monitoring (NSM): the collection and analysis of data to help you detect and respond to intrusions. In The Practice of Network Security Monitoring, Mandiant CSO Richard Bejtlich shows you how to use NSM to add a robust layer of protection around your networks—no prior experience required. To...",
-  "cover_url": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-practice-of-network-security-monitoring.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-practice-of-network-security-monitoring.jpg",
   "isbn": "9781593275341",
   "pages": 436,
   "google_books_url": "https://play.google.com/store/books/details?id=VgYvDwAAQBAJ&source=gbs_api",
@@ -34,10 +34,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593275099",
-  "representative_edition_key": "/books/OL26185467M"
+  "representative_edition_key": "/books/OL26185467M",
+  "cover_url_source": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=VgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:40+00:00",
+  "ddc": [
+    "005.8"
+  ]
 }

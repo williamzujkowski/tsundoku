@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "diary-of-a-madman",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14193339-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14193339-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/diary-of-a-madman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/diary-of-a-madman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL270283W",
   "first_published": 1961,
   "description": "The book centers on the life of Poprishchin, a low-ranking civil servant and titular counsellor who yearns to be noticed by a beautiful woman, the daughter of a senior official, with whom he has fallen in love. His diary records his gradual slide into insanity. As his madness deepens, he begins to suspect two dogs of having a love affair and believes he has discovered letters sent between them. Finally, he begins to believe himself to be the heir to the throne of Spain. When he is hauled off and...",
@@ -26,9 +26,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 9,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55180828M"
+  "representative_edition_key": "/books/OL55180828M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14193339-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14193339-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:27+00:00",
+  "lcc": [
+    "P"
+  ]
 }

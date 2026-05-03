@@ -3,7 +3,7 @@
   "slug": "maimonides",
   "book_count": 2,
   "bio": "Moses ben Maimon, commonly known as Maimonides and also referred to by the Hebrew acronym Rambam, was a Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages. Originally from Córdoba, where he was born on Passover Eve of 1135 or 1138, his family was exiled from Muslim-ruled Spain when they refused to convert to Islam shortly after the Almohad Caliphate conquered the Almoravid dynasty in 1148. Over the course of the next two decades, Maimonides resided in Fez, Acre, Jerusalem, Alexandria, and Cairo before finally settling in Fustat between 1168 and 1171. During this period, he advanced his vocations and became renowned for his achievements as an astronomer, philosopher, and physician—even being appointed to serve as personal physician to Saladin of the Ayyubid Sultanate.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif/lossy-page1-330px-Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif.jpg",
+  "photo_url": "/tsundoku/cached/authors/maimonides.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Maimonides",
   "open_library_url": "https://openlibrary.org/authors/OL45280A",
   "birth_year": 1135,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q127398",
   "viaf_id": "100185495",
-  "ol_author_key": "/authors/OL45280A"
+  "ol_author_key": "/authors/OL45280A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif/lossy-page1-330px-Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif.jpg",
+  "photo_cached_at": "2026-05-03T03:08:30+00:00"
 }

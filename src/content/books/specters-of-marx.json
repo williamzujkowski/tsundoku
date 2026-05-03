@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/268383-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/268383-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/specters-of-marx.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/specters-of-marx.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15243W",
   "first_published": 1994,
   "language": "eng",
@@ -55,5 +55,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0415910447",
-  "representative_edition_key": "/books/OL22117321M"
+  "representative_edition_key": "/books/OL22117321M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/268383-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/268383-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:12+00:00"
 }

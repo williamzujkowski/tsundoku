@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "antigone-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/116843-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/116843-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/antigone-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/antigone-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1326949W",
   "first_published": 1944,
   "language": "eng",
@@ -65,5 +65,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL28954293M",
   "wikidata_qid": "Q1823045",
-  "original_language": "fre"
+  "original_language": "fre",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/116843-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/116843-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:33+00:00"
 }

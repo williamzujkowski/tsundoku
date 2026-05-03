@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-midsummer-nights-dream",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7205924-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7205924-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-midsummer-nights-dream.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-midsummer-nights-dream.jpg",
   "open_library_url": "https://openlibrary.org/works/OL259010W",
   "first_published": 1600,
   "language": "eng",
@@ -424,5 +424,8 @@
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57786764M"
+  "representative_edition_key": "/books/OL57786764M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7205924-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7205924-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:16+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Analyzing how hacks are done, so as to stop them in the future Reverse engineering is the process of analyzing hardware or software and understanding it, without having access to the source code or design documents. Hackers are able to reverse engineer systems and exploit what they find with scary results. Now the good guys can use the same tools to thwart these threats. Practical Reverse Engineering goes under the hood of reverse engineering for security analysts, security engineers, and system",
-  "cover_url": "https://books.google.com/books/content?id=f-vOAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-reverse-engineering.jpg",
   "isbn": "9781118787397",
   "first_published": 2014,
   "pages": 384,
@@ -42,5 +42,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781118787311",
-  "representative_edition_key": "/books/OL27158677M"
+  "representative_edition_key": "/books/OL27158677M",
+  "cover_url_source": "https://books.google.com/books/content?id=f-vOAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:11+00:00"
 }

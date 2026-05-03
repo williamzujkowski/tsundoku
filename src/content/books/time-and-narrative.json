@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8728097-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8728097-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/time-and-narrative.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/time-and-narrative.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8018160W",
   "first_published": 1985,
   "language": "eng",
@@ -45,8 +45,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL51665232M"
+  "representative_edition_key": "/books/OL51665232M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8728097-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8728097-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:11+00:00",
+  "ddc": [
+    "100"
+  ]
 }

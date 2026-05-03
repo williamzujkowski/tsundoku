@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "Freud's seminal volume of 20th-century cultural thought grounded in psychoanalytic theory, now with a new Introduction by Christopher Hitchens.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/civilization-and-its-discontents.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/civilization-and-its-discontents.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780141395890",
@@ -35,9 +35,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "representative_edition_key": "/books/OL28540873M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Freud_Unbehagen_Kultur_1930.jpg",
+  "cover_cached_at": "2026-05-03T01:02:24+00:00",
+  "ddc": [
+    "100"
+  ]
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "v",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6678023-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6678023-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/v.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/v.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636676W",
   "first_published": 1963,
   "language": "eng",
@@ -62,5 +62,8 @@
   "representative_edition_key": "/books/OL7284980M",
   "wikidata_qid": "Q1191071",
   "original_title": "V.",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6678023-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6678023-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:37+00:00"
 }

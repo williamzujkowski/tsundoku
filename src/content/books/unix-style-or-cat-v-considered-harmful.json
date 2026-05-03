@@ -8,13 +8,26 @@
     "computing"
   ],
   "description": "An industry insider explains why there is so much bad software—and why academia doesn't teach programmers what industry wants them to know. Why is software so prone to bugs? So vulnerable to viruses? Why are software products so often delayed, or even canceled? Is software development really hard, or are software developers just not that good at it? In The Problem with Software, Adam Barr examines the proliferation of bad software, explains what causes it, and offers some suggestions on how to i...",
-  "cover_url": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/unix-style-or-cat-v-considered-harmful.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/unix-style-or-cat-v-considered-harmful.jpg",
   "isbn": "9780262348218",
   "first_published": 2018,
   "pages": 317,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=BxdxDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=BxdxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:23:01+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

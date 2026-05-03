@@ -9,8 +9,8 @@
   ],
   "open_library_url": "https://openlibrary.org/works/OL31490260W",
   "first_published": 1971,
-  "cover_url": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-futurological-congress.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-futurological-congress.jpg",
   "pages": 166,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=CjljAAAAMAAJ&dq=The+Futurological+Congress+Stanis%C5%82aw+Lem&hl=&source=gbs_api",
@@ -56,5 +56,8 @@
   "wikidata_qid": "Q1198633",
   "original_title": "Ze wspomnien Ijona Tichego Kongres futurologiczny",
   "original_language": "pol",
-  "original_publisher": "Schocken Books"
+  "original_publisher": "Schocken Books",
+  "cover_url_source": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=CjljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:00+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "philosophi-naturalis-principia-mathematica",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7122145-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7122145-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/philosophi-naturalis-principia-mathematica.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/philosophi-naturalis-principia-mathematica.jpg",
   "open_library_url": "https://openlibrary.org/works/OL104736W",
   "first_published": 1687,
   "language": "eng",
@@ -112,5 +112,8 @@
   "original_title": "Philosophiae naturalis principia mathematica",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8058209M",
-  "wikidata_qid": "Q108524834"
+  "wikidata_qid": "Q108524834",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7122145-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7122145-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:36+00:00"
 }

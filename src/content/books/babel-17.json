@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12375569-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12375569-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/babel-17.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/babel-17.jpg",
   "open_library_url": "https://openlibrary.org/works/OL56834W",
   "first_published": 1966,
   "language": "eng",
@@ -86,5 +86,8 @@
       "name": "Nebula Award for Best Novel",
       "year": 1967
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12375569-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12375569-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:36+00:00"
 }

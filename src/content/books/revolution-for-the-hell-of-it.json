@@ -12,8 +12,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Revolution for the hell of it?",
-  "cover_url": "https://covers.openlibrary.org/b/id/789739-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/789739-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/revolution-for-the-hell-of-it.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/revolution-for-the-hell-of-it.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3744647W",
   "first_published": 1968,
   "pages": 245,
@@ -45,5 +45,8 @@
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8615392M"
+  "representative_edition_key": "/books/OL8615392M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/789739-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/789739-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:46+00:00"
 }

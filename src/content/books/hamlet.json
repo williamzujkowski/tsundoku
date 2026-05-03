@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "hamlet",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8281954-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8281954-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hamlet.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hamlet.jpg",
   "open_library_url": "https://openlibrary.org/works/OL9170454W",
   "first_published": 1603,
   "language": "eng",
@@ -628,5 +628,8 @@
   "representative_edition_key": "/books/OL50657986M",
   "wikidata_qid": "Q54800666",
   "original_title": "The Klingon Hamlet",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8281954-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8281954-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:51+00:00"
 }

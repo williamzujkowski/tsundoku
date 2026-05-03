@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch is a 1990 novel written by the English authors Terry Pratchett and Neil Gaiman.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Goodomenscover.jpg/250px-Goodomenscover.jpg",
+  "cover_url": "/tsundoku/cached/covers/good-omens.jpg",
   "isbn": "9788479048778",
   "ddc": [
     "813.54",
@@ -75,5 +75,7 @@
   "wikidata_qid": "Q1052459",
   "original_title": "Good Omens",
   "original_language": "eng",
-  "original_publisher": "Gollancz"
+  "original_publisher": "Gollancz",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Goodomenscover.jpg/250px-Goodomenscover.jpg",
+  "cover_cached_at": "2026-05-03T01:18:29+00:00"
 }

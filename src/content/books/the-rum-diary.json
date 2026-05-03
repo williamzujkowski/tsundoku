@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Rum Diary is an early novel by American writer Hunter S. Thompson. It was written in the early 1960s but was not published until 1998. The manuscript, begun in 1959, was discovered among Thompson's papers by Johnny Depp. The story involves a journalist named Paul Kemp who, in the 1950s, moves from New York to work for a major newspaper, The Daily News, in San Juan, Puerto Rico. It is Thompson's second novel, preceded by the still-unpublished Prince Jellyfish.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/The_Rum_Diary.jpg/120px-The_Rum_Diary.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-rum-diary.jpg",
   "pages": 204,
   "isbn": "9780786144358",
   "ddc": [
@@ -50,5 +50,7 @@
   "wikidata_qid": "Q840085",
   "original_title": "The Rum Diary",
   "original_language": "eng",
-  "original_publisher": "Simon & Schuster"
+  "original_publisher": "Simon & Schuster",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/The_Rum_Diary.jpg/120px-The_Rum_Diary.jpg",
+  "cover_cached_at": "2026-05-03T02:12:53+00:00"
 }

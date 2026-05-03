@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "mrs-dalloway",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6397580-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6397580-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mrs-dalloway.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mrs-dalloway.jpg",
   "open_library_url": "https://openlibrary.org/works/OL39349W",
   "first_published": 1925,
   "language": "eng",
@@ -141,5 +141,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL48808599M",
   "wikidata_qid": "Q752584",
-  "original_title": "Mrs Dalloway"
+  "original_title": "Mrs Dalloway",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6397580-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6397580-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:29+00:00"
 }

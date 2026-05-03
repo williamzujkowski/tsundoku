@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "oliver-twist",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13300802-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13300802-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/oliver-twist.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/oliver-twist.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193478W",
   "first_published": 1800,
   "language": "eng",
@@ -262,5 +262,8 @@
   "wikidata_qid": "Q164974",
   "original_title": "Oliver Twist",
   "original_language": "eng",
-  "original_publisher": "Richard Bentley"
+  "original_publisher": "Richard Bentley",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13300802-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13300802-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:22+00:00"
 }

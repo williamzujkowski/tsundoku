@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9069548-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9069548-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/richard-ii.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/richard-ii.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362665W",
   "first_published": 1597,
   "language": "eng",
@@ -218,5 +218,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL55461186M"
+  "representative_edition_key": "/books/OL55461186M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9069548-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9069548-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:02+00:00"
 }

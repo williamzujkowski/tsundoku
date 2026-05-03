@@ -3,7 +3,7 @@
   "slug": "samuel-butler",
   "book_count": 4,
   "bio": "English composer, novelist, and satiric author",
-  "photo_url": "https://covers.openlibrary.org/a/id/7063387-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/samuel-butler.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL24761A",
   "birth_year": 1835,
   "death_year": 1902,
@@ -14,5 +14,7 @@
   },
   "wikidata_qid": "Q312829",
   "viaf_id": "49578292",
-  "ol_author_key": "/authors/OL24761A"
+  "ol_author_key": "/authors/OL24761A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7063387-M.jpg",
+  "photo_cached_at": "2026-05-03T00:48:12+00:00"
 }

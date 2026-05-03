@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Hugh \"Bulldog\" Drummond, wealthy former officer of the Loamshire Regiment, dashing and strong (but not particularly handsome), places an advertisement in The Times expressing his desire for an adventure -- which arrives in the form of a reply from a young woman concerned for her father. Blackmailers, communist conspiracy, and foreign paymasters of the arch-villain Carl Peterson are encountered and lead to more adventure than Drummond ever dreamed of!",
-  "cover_url": "https://books.google.com/books/content?id=fyJEAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bulldog-drummond.jpg",
   "isbn": "9781627938426",
   "first_published": 1920,
   "pages": 369,
@@ -67,5 +67,7 @@
   "editions_count": 101,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36793772M"
+  "representative_edition_key": "/books/OL36793772M",
+  "cover_url_source": "https://books.google.com/books/content?id=fyJEAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:16+00:00"
 }

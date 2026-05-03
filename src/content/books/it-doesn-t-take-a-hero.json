@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Herbert Norman Schwarzkopf Jr. was a United States Army general. While serving as the commander of United States Central Command, he led all coalition forces in the Gulf War against Ba'athist Iraq.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/NormanSchwarzkopf.jpg/330px-NormanSchwarzkopf.jpg",
+  "cover_url": "/tsundoku/cached/covers/it-doesn-t-take-a-hero.jpg",
   "isbn": "9780553745290",
   "subject_facet": [
     "Generals, biography",
@@ -38,5 +38,7 @@
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7850242M"
+  "representative_edition_key": "/books/OL7850242M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/NormanSchwarzkopf.jpg/330px-NormanSchwarzkopf.jpg",
+  "cover_cached_at": "2026-05-03T01:25:48+00:00"
 }

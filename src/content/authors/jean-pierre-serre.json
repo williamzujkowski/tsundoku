@@ -3,7 +3,7 @@
   "slug": "jean-pierre-serre",
   "book_count": 1,
   "bio": "Jean-Pierre Serre is a French mathematician who has made contributions to algebraic topology, algebraic geometry and algebraic number theory. He was awarded the Fields Medal in 1954 and the inaugural Abel Prize in 2003.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Jean-Pierre_Serre_2003.jpg/400px-Jean-Pierre_Serre_2003.jpg",
+  "photo_url": "/tsundoku/cached/authors/jean-pierre-serre.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean-Pierre_Serre",
   "open_library_url": "https://openlibrary.org/authors/OL6933705A",
   "birth_year": 1926,
@@ -96,5 +96,7 @@
       "name": "honorary doctorate of Barcelona University",
       "year": 2004
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Jean-Pierre_Serre_2003.jpg/400px-Jean-Pierre_Serre_2003.jpg",
+  "photo_cached_at": "2026-05-03T03:04:15+00:00"
 }

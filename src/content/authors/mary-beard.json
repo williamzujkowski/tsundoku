@@ -3,7 +3,7 @@
   "slug": "mary-beard",
   "book_count": 2,
   "bio": "Dame Winifred Mary Beard is an English classicist specialising in Ancient Rome. She is a trustee of the British Museum and formerly held a personal professorship of classics at the University of Cambridge. She is a fellow of Newnham College, Cambridge, and Royal Academy of Arts Professor of Ancient Literature.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mary_Beard_UC3M_2017_%28cropped%29.JPG/400px-Mary_Beard_UC3M_2017_%28cropped%29.JPG",
+  "photo_url": "/tsundoku/cached/authors/mary-beard.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Beard",
   "open_library_url": "https://openlibrary.org/authors/OL39017A",
   "birth_year": 1955,
@@ -63,5 +63,7 @@
       "name": "Fellow of the Royal Society of Literature",
       "year": 2019
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mary_Beard_UC3M_2017_%28cropped%29.JPG/400px-Mary_Beard_UC3M_2017_%28cropped%29.JPG",
+  "photo_cached_at": "2026-05-03T03:09:27+00:00"
 }

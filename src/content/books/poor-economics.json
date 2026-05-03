@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "From the award-winning founders of the Abdul Latif Jameel Poverty Action Lab at MIT: A transformative reappraisal of the world of the extreme poor, their lives, desires, and frustrations.",
-  "cover_url": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/poor-economics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/poor-economics.jpg",
   "isbn": "9781586487980",
   "first_published": 2011,
   "pages": 321,
@@ -56,7 +56,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
@@ -64,5 +65,11 @@
   "wikidata_qid": "Q7228769",
   "original_title": "Poor Economics",
   "original_language": "eng",
-  "original_publisher": "PublicAffairs"
+  "original_publisher": "PublicAffairs",
+  "cover_url_source": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=em3_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:41+00:00",
+  "ddc": [
+    "330"
+  ]
 }

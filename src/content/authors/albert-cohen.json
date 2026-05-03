@@ -2,7 +2,7 @@
   "name": "Albert Cohen",
   "slug": "albert-cohen",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2657689A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/albert-cohen.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2657689A",
   "birth_year": 1895,
   "death_year": 1981,
@@ -25,5 +25,7 @@
       "name": "Grand Prix du roman de l'Académie française",
       "year": 1968
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2657689A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:39:21+00:00"
 }

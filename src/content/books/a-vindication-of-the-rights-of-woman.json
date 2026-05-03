@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "(Book Jacket Status: Not Jacketed) The first great manifesto of women’s rights, published in 1792 and an immediate best seller, made its author the toast of radical circles and the target of reactionary ones. Writing just after the French and American revolutions, Mary Wollstonecraft firmly established the demand for women’s emancipation in the context of the ever-widening urge for human rights and individual freedom that surrounded those two great upheavals. She thereby opened the richest, most",
-  "cover_url": "https://books.google.com/books/content?id=uXmJDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-vindication-of-the-rights-of-woman.jpg",
   "isbn": "9780679413370",
   "first_published": 1792,
   "pages": 282,
@@ -124,5 +124,7 @@
   "editions_count": 309,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34295027M"
+  "representative_edition_key": "/books/OL34295027M",
+  "cover_url_source": "https://books.google.com/books/content?id=uXmJDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:57+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Titan (1914) is a novel by Theodore Dreiser. The second installment of Dreiser’s Trilogy of Desire, The Financier has endured as a classic of naturalist fiction and remains a powerful example of social critique over a century after its publication. Preceded by The Financier (1914) and followed by The Stoic (1947), The Titan captures the greed at the heart of the Gilded Age, a time when tycoons rose with total impunity to take over swaths of American industry. Based on the life of Charles Yer",
-  "cover_url": "https://books.google.com/books/content?id=ZW8vEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-titan.jpg",
   "isbn": "9781513287386",
   "first_published": 1914,
   "pages": 418,
@@ -65,5 +65,7 @@
   "editions_count": 351,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34268119M"
+  "representative_edition_key": "/books/OL34268119M",
+  "cover_url_source": "https://books.google.com/books/content?id=ZW8vEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:54+00:00"
 }

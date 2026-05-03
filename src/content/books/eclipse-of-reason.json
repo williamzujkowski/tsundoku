@@ -11,8 +11,8 @@
   "first_published": 1947,
   "language": "eng",
   "description": "In his most important work, Max Horkheimer surveys and demonstrates the gradual ascendancy of Reason in Western philosophy, its eventual total application to all spheres of life, and what he considers its present reified domination. First published in 1947, Horkheimer here explores the ways in Nazism - that most irrational of political movements - had co-opted ideas of rationality for its own ends. Ultimately, the book is a warning of the ways this might happen again and, as such, this is a book...",
-  "cover_url": "https://books.google.com/books/content?id=G4kHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=G4kHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/eclipse-of-reason.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/eclipse-of-reason.jpg",
   "isbn": "9781472504579",
   "pages": 145,
   "google_books_url": "https://play.google.com/store/books/details?id=G4kHEAAAQBAJ&source=gbs_api",
@@ -54,5 +54,8 @@
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL31128186M"
+  "representative_edition_key": "/books/OL31128186M",
+  "cover_url_source": "https://books.google.com/books/content?id=G4kHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=G4kHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:10:27+00:00"
 }

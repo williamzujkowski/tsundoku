@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8236916-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8236916-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hard-times.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hard-times.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193387W",
   "first_published": 1854,
   "language": "eng",
@@ -190,5 +190,8 @@
   "original_publisher": "Bradbury and Evans",
   "series": {
     "name": "Household Words"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8236916-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8236916-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:54+00:00"
 }

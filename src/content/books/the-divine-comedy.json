@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Journey through Inferno, Purgatorio, and Paradiso in this stunning gift edition of Dante's epic poems. The next elegant edition in the Knickerbocker Classic series, The Divine Comedy is unabridged and complete, and comprised of all three sections of this epic trilogy by Dante Alighieri: Inferno, Purgatorio, and Paradiso. For Dante fans worldwide, this stunning gift edition has a cloth binding, ribbon marker, and is packaged neatly in an elegant slipcase. Featuring a new introduction, the classic",
-  "cover_url": "https://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-divine-comedy.jpg",
   "isbn": "9781631061561",
   "first_published": 1320,
   "pages": 738,
@@ -23,7 +23,7 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8800.html.images",
   "librivox_url": "https://librivox.org/the-divine-comedy-by-dante-alighieri/",
   "open_library_url": "https://openlibrary.org/works/OL40125240W",
-  "cover_url_large": "https://books.google.com/books/content?id=wmacUwleJv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large": "/tsundoku/cached/covers/the-divine-comedy.jpg",
   "lcc": [
     "PQ-4315.00000000.E45 2019",
     "PQ-4315.00000000",
@@ -46,9 +46,16 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 11,
   "first_edition_isbn": "9781627936552",
-  "representative_edition_key": "/books/OL29266266M"
+  "representative_edition_key": "/books/OL29266266M",
+  "cover_url_source": "https://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=wmacUwleJv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:50+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

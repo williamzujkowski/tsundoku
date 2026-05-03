@@ -8,8 +8,8 @@
     "computing",
     "security"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/3930979-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3930979-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/applied-cryptography.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/applied-cryptography.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2905639W",
   "first_published": 1994,
   "language": "eng",
@@ -46,5 +46,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL39922445M"
+  "representative_edition_key": "/books/OL39922445M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3930979-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3930979-L.jpg",
+  "cover_cached_at": "2026-05-03T03:21:48+00:00"
 }

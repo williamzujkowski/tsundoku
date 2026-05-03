@@ -13,8 +13,8 @@
   "copyright_status": "likely_public_domain",
   "description": "The story of a dying marriage, told in the form of parallel diaries. After nearly 30 years of marriage, a dried-up, middle-aged professor frenziedly strives for new heights of carnal pleasure with his repressed, dissatisfied wife, resorting to stimulants galore for her. During the day, they record their adventures of the previous night.",
   "isbn": "9780679730231",
-  "cover_url": "https://covers.openlibrary.org/b/id/746978-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/746978-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-key.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-key.jpg",
   "ddc": [
     "895.634",
     "895.6344"
@@ -61,5 +61,8 @@
   "representative_edition_key": "/books/OL1889054M",
   "wikidata_qid": "Q467971",
   "original_language": "jpn",
-  "original_publisher": "Chuokoron-Shinsha"
+  "original_publisher": "Chuokoron-Shinsha",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/746978-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/746978-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:09+00:00"
 }

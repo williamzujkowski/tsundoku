@@ -8,8 +8,8 @@
     "horror",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/477355-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/477355-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-good-house.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-good-house.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2632192W",
   "first_published": 2003,
   "language": "eng",
@@ -55,5 +55,8 @@
   "representative_edition_key": "/books/OL7949067M",
   "wikidata_qid": "Q7737226",
   "original_title": "The Good House",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/477355-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/477355-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:46+00:00"
 }

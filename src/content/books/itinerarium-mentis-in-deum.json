@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "itinerarium-mentis-in-deum",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12899947-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12899947-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/itinerarium-mentis-in-deum.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/itinerarium-mentis-in-deum.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10431632W",
   "first_published": 1998,
   "language": "eng",
@@ -29,8 +29,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL37747440M"
+  "representative_edition_key": "/books/OL37747440M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12899947-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12899947-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:51+00:00",
+  "ddc": [
+    "200"
+  ]
 }

@@ -8,8 +8,8 @@
     "fantasy",
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11226731-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11226731-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/life-and-death-are-wearing-me-out.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/life-and-death-are-wearing-me-out.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24573409W",
   "first_published": 2006,
   "description": "One of the Nobel Prize Winners in Literature Ideal for fans of Chinese Playground, We Are Party People, Death of Me, Skate with Me, A Farmer’s Life for Me, and similar works Written by today’s most revered, controversial, and feared Chinese novelist Mo Yan’s Life and Death Are Wearing Me Out is a remarkable story. The absurd, real, comical, and tragic are combined into a fantastic read. The hero—or antihero—is Ximen Nao, a landowner known for his kindness to his peasants. His tale is a heart-wre...",
@@ -56,5 +56,8 @@
   "original_language": "chi",
   "original_title": "生死疲劳",
   "first_edition_isbn": "7506335050",
-  "representative_edition_key": "/books/OL29175227M"
+  "representative_edition_key": "/books/OL29175227M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11226731-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11226731-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:32+00:00"
 }

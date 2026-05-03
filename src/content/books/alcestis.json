@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5747812-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5747812-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/alcestis.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/alcestis.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10306672W",
   "first_published": 1818,
   "language": "eng",
@@ -35,9 +35,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54669955M"
+  "representative_edition_key": "/books/OL54669955M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5747812-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5747812-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:39+00:00",
+  "subject_facet": [
+    "Alcestis (Greek mythology)",
+    "Alcestis (Greek mythology) -- Drama.",
+    "Alcestis (Greek mythology) in literature",
+    "Continental european drama (dramatic works by one author)",
+    "Drama",
+    "Drama (dramatic works by one author)",
+    "Greek drama",
+    "Greek drama (Tragedy)",
+    "great_books_of_the_western_world",
+    "open_syllabus_project"
+  ],
+  "lcc": [
+    "PN"
+  ]
 }

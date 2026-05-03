@@ -8,8 +8,8 @@
     "sci-fi",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8793546-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8793546-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/exhalation.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/exhalation.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20149336W",
   "first_published": 2019,
   "language": "eng",
@@ -52,7 +52,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
@@ -66,5 +67,11 @@
       "name": "Locus Award for Best Collection",
       "year": 2020
     }
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8793546-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8793546-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:00+00:00",
+  "ddc": [
+    "808.83876"
   ]
 }

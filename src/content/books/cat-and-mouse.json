@@ -9,8 +9,8 @@
   "first_published": 1961,
   "language": "eng",
   "description": "The setting is Danzig during World War II. The narrator recalls a boyhood scene in which a black cat pounces on his friend Mahlke's \"mouse\"-his prominent Adam's apple. This incident sets off a wild series of events that ultimately leads to Mahlke's becoming a national hero. Translated by Ralph Manheim. A Helen and Kurt Wolff Book",
-  "cover_url": "https://books.google.com/books/content?id=-HQZ-dKT8tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-HQZ-dKT8tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cat-and-mouse.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cat-and-mouse.jpg",
   "isbn": "0156155516",
   "pages": 196,
   "google_books_url": "http://books.google.com/books?id=-HQZ-dKT8tkC&dq=Cat+and+Mouse+G%C3%BCnter+Grass&hl=&source=gbs_api",
@@ -65,5 +65,8 @@
   "original_language": "ger",
   "original_title": "Katz und Maus",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL1543872M"
+  "representative_edition_key": "/books/OL1543872M",
+  "cover_url_source": "https://books.google.com/books/content?id=-HQZ-dKT8tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-HQZ-dKT8tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:45+00:00"
 }

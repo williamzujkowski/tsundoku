@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12736769-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12736769-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/time-enough-for-love.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/time-enough-for-love.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59739W",
   "first_published": 1973,
   "language": "eng",
@@ -46,5 +46,8 @@
   },
   "editions_count": 32,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7526988M"
+  "representative_edition_key": "/books/OL7526988M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12736769-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12736769-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:13+00:00"
 }

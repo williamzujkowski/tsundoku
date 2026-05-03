@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-heart-is-a-lonely-hunter",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/394799-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/394799-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-heart-is-a-lonely-hunter.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-heart-is-a-lonely-hunter.jpg",
   "open_library_url": "https://openlibrary.org/works/OL11081469W",
   "first_published": 1940,
   "language": "eng",
@@ -85,5 +85,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7605642M",
   "wikidata_qid": "Q1645466",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/394799-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/394799-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:27+00:00"
 }

@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=PeJPAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/through-the-brazilian-wilderness.jpg",
   "first_published": 1914,
   "pages": 452,
   "google_books_url": "https://play.google.com/store/books/details?id=PeJPAAAAYAAJ&source=gbs_api",
@@ -66,5 +66,7 @@
   "editions_count": 46,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9632653M"
+  "representative_edition_key": "/books/OL9632653M",
+  "cover_url_source": "https://books.google.com/books/content?id=PeJPAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:20:25+00:00"
 }

@@ -6,8 +6,8 @@
   "slug": "the-white-plague",
   "tags": [],
   "description": "From Science fiction grandmaster Frank Herbert, creator of the Dune universe, comes this novel of bioterrorism and gendercide. What if women were an endangered species? It begins in Ireland, but soon spreads throughout the entire world: a virulent new disease expressly designed to target only women. As fully half of the human race dies off at a frightening pace and life on Earth faces extinction, panicked people and governments struggle to cope with the global crisis. Infected areas are quaranti...",
-  "cover_url": "https://books.google.com/books/content?id=6dgtUfHS2r8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6dgtUfHS2r8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-white-plague.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-white-plague.jpg",
   "isbn": "9781429989640",
   "first_published": 2007,
   "pages": 450,
@@ -24,10 +24,21 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781429989640",
-  "representative_edition_key": "/books/OL36291694M"
+  "representative_edition_key": "/books/OL36291694M",
+  "cover_url_source": "https://books.google.com/books/content?id=6dgtUfHS2r8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6dgtUfHS2r8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:14+00:00",
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

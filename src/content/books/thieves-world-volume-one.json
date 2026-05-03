@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Experience \"a bold and daring experiment in fantasy storytelling\" with the first three books in the bestselling Thieves' World® series ( Fantasy-Faction ). Created by the New York Times–bestselling author of the Myth series, as well as the Phule's Company series, Thieves' World® brings together classic fantasy's finest authors to flesh out the shared world with their own unforgettable characters and epic worldbuilding. The first three books include stories by Lynn Abbey, Poul Anderson, Robert Ly",
-  "cover_url": "https://books.google.com/books/content?id=xenEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/thieves-world-volume-one.jpg",
   "isbn": "9781504060455",
   "first_published": 2020,
   "pages": 701,
@@ -44,5 +44,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781504060455",
-  "representative_edition_key": "/books/OL35845761M"
+  "representative_edition_key": "/books/OL35845761M",
+  "cover_url_source": "https://books.google.com/books/content?id=xenEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:19:02+00:00"
 }

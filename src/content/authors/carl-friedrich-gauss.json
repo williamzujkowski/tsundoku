@@ -3,7 +3,7 @@
   "slug": "carl-friedrich-gauss",
   "book_count": 1,
   "bio": "Johann Carl Friedrich Gauss was a German mathematician, astronomer, geodesist, and physicist, who contributed to many fields in mathematics and science. His mathematical contributions spanned the branches of number theory, algebra, analysis, geometry, statistics, and probability. Gauss was director of the Göttingen Observatory in Germany and professor of astronomy from 1807 until his death in 1855.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/400px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+  "photo_url": "/tsundoku/cached/authors/carl-friedrich-gauss.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
   "open_library_url": "https://openlibrary.org/authors/OL327681A",
   "birth_year": 1777,
@@ -45,5 +45,7 @@
     {
       "name": "Pour le Mérite"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/400px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+  "photo_cached_at": "2026-05-03T02:54:30+00:00"
 }

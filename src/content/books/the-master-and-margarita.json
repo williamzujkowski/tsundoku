@@ -9,8 +9,8 @@
     "satire",
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/15013644-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15013644-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-master-and-margarita.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-master-and-margarita.jpg",
   "open_library_url": "https://openlibrary.org/works/OL36999384W",
   "first_published": 1967,
   "language": "eng",
@@ -19,5 +19,31 @@
   "pages": 141,
   "google_books_url": "https://play.google.com/store/books/details?id=ZJ38DwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15013644-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15013644-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:57+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Alienation",
+    "Good and evil",
+    "Politicians",
+    "allegories",
+    "atheism",
+    "bands",
+    "humor",
+    "magicians",
+    "political fiction",
+    "satire"
+  ],
+  "ddc": [
+    "808.83766"
+  ],
+  "lcc": [
+    "PN3435"
+  ]
 }

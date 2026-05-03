@@ -3,7 +3,7 @@
   "slug": "saunders-mac-lane",
   "book_count": 1,
   "bio": "Saunders Mac Lane, born Leslie Saunders MacLane, was an American mathematician who co-founded category theory with Samuel Eilenberg.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Saunders_MacLane.jpg/400px-Saunders_MacLane.jpg",
+  "photo_url": "/tsundoku/cached/authors/saunders-mac-lane.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Saunders_Mac_Lane",
   "open_library_url": "https://openlibrary.org/authors/OL401671A",
   "birth_year": 1909,
@@ -46,5 +46,7 @@
       "name": "Chauvenet Prize",
       "year": 1941
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Saunders_MacLane.jpg/400px-Saunders_MacLane.jpg",
+  "photo_cached_at": "2026-05-03T03:16:13+00:00"
 }

@@ -24,14 +24,13 @@ import json
 import sys
 import time
 from pathlib import Path
-from urllib.error import HTTPError, URLError
 from urllib.parse import quote_plus
-from urllib.request import urlopen, Request
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 from enrichment_config import BOOKS_DIR, USER_AGENT
 from http_cache import cached_fetch
+from http_retry import fetch_json
 from json_merge import additive_merge, save_json
 
 
@@ -52,12 +51,7 @@ FIELDS = ",".join([
 
 
 def _fetch(url: str) -> dict | None:
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-            return json.loads(resp.read())
-    except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError):
-        return None
+    return fetch_json(url, timeout=REQUEST_TIMEOUT)
 
 
 def fetch_ol_work(*, isbn: str | None, title: str, author: str) -> dict | None:

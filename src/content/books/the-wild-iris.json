@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/676381-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/676381-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-wild-iris.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wild-iris.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1807332W",
   "first_published": 1992,
   "language": "eng",
@@ -64,5 +64,8 @@
       "name": "William Carlos Williams Award",
       "year": 1992
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/676381-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/676381-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:33+00:00"
 }

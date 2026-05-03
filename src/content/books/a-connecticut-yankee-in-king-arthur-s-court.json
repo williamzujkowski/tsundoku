@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Hank Morgan awakens one morning to find he has been transported from nineteenth-century New England to sixth-century England and the reign of King Arthur and the Knights of the Round Table. Morgan brings to King Arthur’s utopian court the ingenuity of the future, resulting in a culture clash that is at once satiric, anarchic, and darkly comic. Critically deemed one of Twain’s finest and most caustic works, A Connecticut Yankee in King Arthur’s Court is both a delightfully entertaining story and ",
-  "cover_url": "https://books.google.com/books/content?id=yTXKP6sCic8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-connecticut-yankee-in-king-arthur-s-court.jpg",
   "isbn": "9780553901573",
   "first_published": 1889,
   "pages": 338,
@@ -180,5 +180,7 @@
   "representative_edition_key": "/books/OL42818697M",
   "wikidata_qid": "Q848612",
   "original_title": "A Connecticut Yankee in King Arthur's Court",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=yTXKP6sCic8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:32+00:00"
 }

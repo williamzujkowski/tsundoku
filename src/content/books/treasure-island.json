@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Treasure Island is an adventure novel by Scottish author Robert Louis Stevenson, narrating a tale of \"pirates and buried gold\". First published as a book in 1883, it was originally serialized in the children's magazine Young Folks between 1881-82 under the title Treasure Island; or, the mutiny of the Hispaniola and the pseudonym Captain George North.Traditionally considered a coming-of-age story, it is an adventure tale known for its atmosphere, character and action, and also a wry commentary on",
-  "cover_url": "https://books.google.com/books/content?id=G0KJzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/treasure-island.jpg",
   "isbn": "1456388118",
   "first_published": 1883,
   "pages": 174,
@@ -469,5 +469,7 @@
   "representative_edition_key": "/books/OL40812029M",
   "wikidata_qid": "Q185118",
   "original_title": "Treasure Island",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=G0KJzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:51+00:00"
 }

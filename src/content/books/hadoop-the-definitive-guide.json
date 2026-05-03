@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "With the latest edition of this comprehensive resource, readers will learn how to use Apache Hadoop to build and maintain reliable, scalable, distributed systems. Ideal for programmers and administrators wanting to set up and analyze datasets of any size.",
-  "cover_url": "https://books.google.com/books/content?id=drbI_aro20oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/hadoop-the-definitive-guide.jpg",
   "isbn": "9781449311520",
   "first_published": 2009,
   "pages": 687,
@@ -63,5 +63,7 @@
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25444239M"
+  "representative_edition_key": "/books/OL25444239M",
+  "cover_url_source": "https://books.google.com/books/content?id=drbI_aro20oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:48+00:00"
 }

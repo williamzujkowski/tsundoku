@@ -8,7 +8,8 @@ Sources queried (in priority order per field):
   - subjects: Open Library → Google Books
   - pages: Open Library → Google Books
   - isbn: Open Library → Google Books
-  - cover_url: Open Library (by title/author)
+  - cover_url: Wikidata P18 → Wikipedia → OL editions → Google Books
+              (delegated to book_sources.cover_via_chain — provenance-tagged)
 
 Usage:
   python scripts/enrich-gaps.py --limit 100          # fill gaps for 100 books
@@ -17,24 +18,30 @@ Usage:
 """
 
 import json
+import sys
 import time
 from pathlib import Path
-from urllib.request import urlopen, Request
 from urllib.parse import quote_plus
 
+sys.path.insert(0, str(Path(__file__).parent))
+
+from book_sources import cover_via_chain
 from enrichment_state import EnrichmentState
+from http_retry import fetch_json as http_fetch_json
+from json_merge import provenance_merge, save_json
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
 RATE_LIMIT = 1.0  # Be conservative across all sources
 
-# Fields we can fill and their priority sources
+# Fields we can fill and their priority sources. cover_url is handled
+# separately via book_sources.cover_via_chain (multi-source).
 FILLABLE_FIELDS = {
     "description": ["google_books", "open_library"],
     "subject_facet": ["open_library", "google_books"],
     "pages": ["open_library", "google_books"],
     "isbn": ["open_library", "google_books"],
-    "cover_url": ["open_library"],
+    "cover_url": ["multi_chain"],
 }
 
 
@@ -53,43 +60,35 @@ def query_open_library(title: str, author: str) -> dict:
     query = quote_plus(f"{title} {author}")
     url = f"https://openlibrary.org/search.json?q={query}&fields=title,author_name,subject,number_of_pages_median,isbn,cover_i,first_publish_year&limit=3"
 
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-            docs = data.get("docs", [])
-            if not docs:
-                return {}
+    data = http_fetch_json(url)
+    if not data:
+        return {}
+    docs = data.get("docs", [])
+    if not docs:
+        return {}
 
-            # Use first result (best match)
-            doc = docs[0]
-            result = {}
+    doc = docs[0]
+    result: dict = {}
 
-            subjects = doc.get("subject", [])
-            if subjects:
-                # Take top 10 subjects, clean up
-                result["subject_facet"] = [s for s in subjects[:10] if len(s) < 100]
+    subjects = doc.get("subject", [])
+    if subjects:
+        result["subject_facet"] = [s for s in subjects[:10] if len(s) < 100]
 
-            pages = doc.get("number_of_pages_median")
-            if pages and pages > 0:
-                result["pages"] = pages
+    pages = doc.get("number_of_pages_median")
+    if pages and pages > 0:
+        result["pages"] = pages
 
-            isbns = doc.get("isbn", [])
-            if isbns:
-                # Prefer ISBN-13
-                isbn13 = [i for i in isbns if len(i) == 13]
-                result["isbn"] = isbn13[0] if isbn13 else isbns[0]
+    isbns = doc.get("isbn", [])
+    if isbns:
+        isbn13 = [i for i in isbns if len(i) == 13]
+        result["isbn"] = isbn13[0] if isbn13 else isbns[0]
 
-            cover_id = doc.get("cover_i")
-            if cover_id:
-                result["cover_url"] = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg"
-                result["cover_url_large"] = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
+    cover_id = doc.get("cover_i")
+    if cover_id:
+        result["cover_url"] = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg"
+        result["cover_url_large"] = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
 
-            return result
-
-    except Exception as e:
-        print(f"    OL error: {e}")
-    return {}
+    return result
 
 
 def query_google_books(title: str, author: str, isbn: str | None = None) -> dict:
@@ -100,60 +99,67 @@ def query_google_books(title: str, author: str, isbn: str | None = None) -> dict
         query = quote_plus(f"intitle:{title} inauthor:{author}")
     url = f"https://www.googleapis.com/books/v1/volumes?q={query}&maxResults=1"
 
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-            items = data.get("items", [])
-            if not items:
-                return {}
+    data = http_fetch_json(url)
+    if not data:
+        return {}
+    items = data.get("items", [])
+    if not items:
+        return {}
 
-            info = items[0].get("volumeInfo", {})
-            result = {}
+    info = items[0].get("volumeInfo", {})
+    result: dict = {}
 
-            desc = info.get("description", "")
-            if desc and len(desc) > 20:
-                # Strip HTML tags for clean text
-                import re
-                result["description"] = re.sub(r'<[^>]+>', '', desc).strip()
+    desc = info.get("description", "")
+    if desc and len(desc) > 20:
+        import re
+        result["description"] = re.sub(r"<[^>]+>", "", desc).strip()
 
-            pages = info.get("pageCount")
-            if pages and pages > 0:
-                result["pages"] = pages
+    pages = info.get("pageCount")
+    if pages and pages > 0:
+        result["pages"] = pages
 
-            categories = info.get("categories", [])
-            if categories:
-                result["subject_facet"] = categories
+    categories = info.get("categories", [])
+    if categories:
+        result["subject_facet"] = categories
 
-            identifiers = info.get("industryIdentifiers", [])
-            for ident in identifiers:
-                if ident.get("type") == "ISBN_13":
-                    result["isbn"] = ident["identifier"]
-                    break
-                elif ident.get("type") == "ISBN_10":
-                    result["isbn"] = ident["identifier"]
+    identifiers = info.get("industryIdentifiers", [])
+    for ident in identifiers:
+        if ident.get("type") == "ISBN_13":
+            result["isbn"] = ident["identifier"]
+            break
+        elif ident.get("type") == "ISBN_10":
+            result["isbn"] = ident["identifier"]
 
-            return result
-
-    except Exception as e:
-        print(f"    Google error: {e}")
-    return {}
+    return result
 
 
-def fill_gaps(book: dict, gaps: list[str]) -> dict:
-    """Try to fill missing fields from multiple sources."""
-    filled = {}
+def fill_gaps(book: dict, gaps: list[str]) -> tuple[dict, dict[str, str]]:
+    """Try to fill missing fields from multiple sources.
+
+    Returns (filled_fields, source_per_field) so the caller can apply
+    provenance tags. cover_url uses the multi-source chain delegated to
+    book_sources; everything else uses the OL/Google search dispatch.
+    """
+    filled: dict = {}
+    sources_used: dict[str, str] = {}
     title = book["title"]
     author = book["author"]
     isbn = book.get("isbn")
 
-    # Track which sources we've queried to avoid duplicate calls
     source_cache: dict[str, dict] = {}
 
     for field in gaps:
+        if field == "cover_url":
+            new, src = cover_via_chain(book)
+            time.sleep(RATE_LIMIT)
+            if new:
+                for k, v in new.items():
+                    filled[k] = v
+                    sources_used[k] = src or "multi_chain"
+            continue
+
         sources = FILLABLE_FIELDS.get(field, [])
         for source in sources:
-            # Query source if not cached
             if source not in source_cache:
                 if source == "open_library":
                     source_cache[source] = query_open_library(title, author)
@@ -162,24 +168,21 @@ def fill_gaps(book: dict, gaps: list[str]) -> dict:
                     source_cache[source] = query_google_books(title, author, isbn)
                     time.sleep(RATE_LIMIT)
 
-            # Check if this source has the field
             data = source_cache.get(source, {})
             if field in data:
                 if field == "subject_facet":
-                    # Merge from multiple sources rather than replacing
                     existing = set(book.get("subject_facet") or [])
                     new_facets = set(data[field])
                     merged = sorted(existing | new_facets)
                     if merged != sorted(existing):
                         filled[field] = merged
+                        sources_used[field] = source
                 else:
                     filled[field] = data[field]
-                # Also grab cover_url_large if we got cover_url from OL
-                if field == "cover_url" and "cover_url_large" in data:
-                    filled["cover_url_large"] = data["cover_url_large"]
-                break  # Got it from this source, no need for fallback
+                    sources_used[field] = source
+                break
 
-    return filled
+    return filled, sources_used
 
 
 def gap_report() -> None:
@@ -211,6 +214,13 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=50, help="Max books to process")
     parser.add_argument("--field", type=str, help="Only fill this specific field")
     parser.add_argument("--report", action="store_true", help="Show gap report only")
+    parser.add_argument(
+        "--rescan",
+        action="store_true",
+        help="Reset the scan position before running. Use for targeted "
+             "field backfills after a prior full scan has already moved "
+             "the cursor past books that still have field-specific gaps.",
+    )
     args = parser.parse_args()
 
     if args.report:
@@ -218,6 +228,8 @@ def main() -> None:
         return
 
     state = EnrichmentState("gap-filler")
+    if args.rescan:
+        state.reset()
     book_files = sorted(BOOKS_DIR.glob("*.json"))
     state.set_total_books(len(book_files))
 
@@ -240,17 +252,35 @@ def main() -> None:
     for i, (bp, book, gaps) in enumerate(candidates, 1):
         print(f"[{i}/{len(candidates)}] {book['title'][:50]}... gaps: {','.join(gaps)}", end=" ", flush=True)
 
-        filled = fill_gaps(book, gaps)
+        filled, sources_used = fill_gaps(book, gaps)
         if filled:
-            # Only update missing fields
-            for key, val in filled.items():
-                if key not in book or book[key] is None or book[key] == "" or book[key] == []:
-                    book[key] = val
+            # Snapshot fields that were empty before so we can report what
+            # actually got added (provenance_merge returns a bool, not a
+            # diff). Group by source so each tag is recorded correctly.
+            empty_before = {
+                k for k in filled
+                if k not in book or book[k] is None or book[k] == "" or book[k] == []
+            }
+            any_changed = False
+            for src in sorted(set(sources_used.values()) | {"enrich_gaps_v1"}):
+                if src == "enrich_gaps_v1":
+                    bucket = {k: v for k, v in filled.items() if k not in sources_used}
+                else:
+                    bucket = {k: v for k, v in filled.items() if sources_used.get(k) == src}
+                if not bucket:
+                    continue
+                changed, _ = provenance_merge(book, bucket, source=src)
+                any_changed = any_changed or changed
 
-            bp.write_text(json.dumps(book, indent=2, ensure_ascii=False))
-            filled_count += 1
-            state.record_scan(book.get("slug", ""), matched=True)
-            print(f"✓ filled: {','.join(filled.keys())}")
+            if any_changed:
+                applied = sorted(empty_before & set(filled.keys()))
+                save_json(bp, book)
+                filled_count += 1
+                state.record_scan(book.get("slug", ""), matched=True)
+                print(f"✓ filled: {','.join(applied) if applied else '(rerank)'}")
+            else:
+                state.record_scan(book.get("slug", ""), matched=False)
+                print("— (already had non-empty values)")
         else:
             state.record_scan(book.get("slug", ""), matched=False)
             print("—")

@@ -3,7 +3,7 @@
   "slug": "john-steinbeck",
   "book_count": 6,
   "bio": "John Ernst Steinbeck was an American writer and novelist. He won the 1962 Nobel Prize in Literature \"for his realistic and imaginative writings, combining as they do sympathetic humor and keen social perception\". He has been called \"a giant of American letters\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/John_Steinbeck_1939_%28cropped%29.jpg/400px-John_Steinbeck_1939_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-steinbeck.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Steinbeck",
   "open_library_url": "https://openlibrary.org/authors/OL25788A",
   "birth_year": 1902,
@@ -49,5 +49,7 @@
       "name": "Bancarella Selection Prize",
       "year": 1955
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/John_Steinbeck_1939_%28cropped%29.jpg/400px-John_Steinbeck_1939_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:05:27+00:00"
 }

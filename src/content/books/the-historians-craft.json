@@ -6,8 +6,8 @@
   "slug": "the-historians-craft",
   "tags": [],
   "description": "This work, by the co-founder of the \"Annales School\" deals with the uses and methods of history. It is useful for students of history, teachers of historiography and all those interested in the writings of the Annales school.",
-  "cover_url": "https://books.google.com/books/content?id=YZdCcT_1Z8YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=YZdCcT_1Z8YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-historians-craft.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-historians-craft.jpg",
   "isbn": "071903292X",
   "first_published": 1949,
   "pages": 196,
@@ -84,5 +84,8 @@
   "original_language": "fre",
   "original_title": "Apologie pour l'histoire",
   "representative_edition_key": "/books/OL7839377M",
-  "wikidata_qid": "Q17122272"
+  "wikidata_qid": "Q17122272",
+  "cover_url_source": "https://books.google.com/books/content?id=YZdCcT_1Z8YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=YZdCcT_1Z8YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:06:34+00:00"
 }

@@ -2,7 +2,7 @@
   "name": "Richard Bejtlich",
   "slug": "richard-bejtlich",
   "book_count": 2,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL1430632A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/richard-bejtlich.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1430632A",
   "bio": "American security strategist",
   "_provenance": {
@@ -16,5 +16,7 @@
     "US"
   ],
   "viaf_id": "163880229",
-  "ol_author_key": "/authors/OL1430632A"
+  "ol_author_key": "/authors/OL1430632A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL1430632A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:35+00:00"
 }

@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Under the Volcano was voted No. 11 in the Modern Library 100 Best Novels list. Geoffrey Firmin, a former British consul, has come to Quauhnahuac, Mexico. Here the consul's debilitating malaise is drinking, an activity that has overshadowed his life. Under the Volcano is set during the most fateful day of the consul's life—the Day of the Dead, 1938. His wife, Yvonne, arrives in Quauhnahuac to rescue him and their failing marriage, inspired by a vision of life together away from Mexico and the circumstances that have driven their relationship to the brink of collapse. Yvonne's mission is to save the consul is further complicated by the presence of Hugh, the consul's half-brother, and Jacques, a childhood friend. The events of this one day unfold against a backdrop unforgettable for its evocation of a Mexico at once magical and diabolical.",
-  "cover_url": "https://covers.openlibrary.org/b/id/4197484-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4197484-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/under-the-volcano.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/under-the-volcano.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9789684112001",
@@ -86,5 +86,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4197484-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4197484-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:48+00:00"
 }

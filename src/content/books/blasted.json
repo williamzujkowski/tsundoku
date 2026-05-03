@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/261719-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/261719-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/blasted.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/blasted.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6233791W",
   "first_published": 2002,
   "language": "eng",
@@ -33,10 +33,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780413766205",
-  "representative_edition_key": "/books/OL7480434M"
+  "representative_edition_key": "/books/OL7480434M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/261719-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/261719-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:37+00:00",
+  "ddc": [
+    "808.82"
+  ]
 }

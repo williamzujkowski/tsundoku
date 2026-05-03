@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "Discusses voting, tax policy, government regulation, redistribution of wealth, and international negotiation in a new approach to government",
-  "cover_url": "https://books.google.com/books/content?id=bX3TbknHJj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=bX3TbknHJj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/public-choice-ii.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/public-choice-ii.jpg",
   "isbn": "0472080415",
   "first_published": 1984,
   "pages": 468,
@@ -39,5 +39,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "0472100408",
-  "representative_edition_key": "/books/OL3180694M"
+  "representative_edition_key": "/books/OL3180694M",
+  "cover_url_source": "https://books.google.com/books/content?id=bX3TbknHJj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=bX3TbknHJj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:15+00:00"
 }

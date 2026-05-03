@@ -11,8 +11,8 @@
   "first_published": 2000,
   "language": "eng",
   "description": "Written by a world-renowned expert on programming methodology, and the winner of the 2008 Turing Award, this book shows how to build production-quality programs--programs that are reliable, easy to maintain, and quick to modify. Its emphasis is on modular program construction: how to get the modules right and how to organize a program as a collection of modules. The book presents a methodology effective for either an individual programmer, who may be writing a small program or a single module in...",
-  "cover_url": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/program-development-in-java.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/program-development-in-java.jpg",
   "isbn": "9780768684964",
   "pages": 467,
   "google_books_url": "http://books.google.com/books?id=I0xnnSTMyjwC&dq=Program+Development+in+Java+Barbara+Liskov&hl=&source=gbs_api",
@@ -34,10 +34,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780768684698",
-  "representative_edition_key": "/books/OL35475132M"
+  "representative_edition_key": "/books/OL35475132M",
+  "cover_url_source": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=I0xnnSTMyjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:44+00:00",
+  "ddc": [
+    "005"
+  ]
 }

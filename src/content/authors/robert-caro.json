@@ -3,7 +3,7 @@
   "slug": "robert-caro",
   "book_count": 2,
   "bio": "Robert Allan Caro is an American journalist and author known for his biographies of United States political figures Robert Moses and Lyndon Johnson.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Robert_caro_2012.jpg/400px-Robert_caro_2012.jpg",
+  "photo_url": "/tsundoku/cached/authors/robert-caro.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Caro",
   "open_library_url": "https://openlibrary.org/authors/OL797731A",
   "birth_year": 1935,
@@ -61,5 +61,7 @@
       "name": "American History Book Prize",
       "year": 2013
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Robert_caro_2012.jpg/400px-Robert_caro_2012.jpg",
+  "photo_cached_at": "2026-05-03T03:14:55+00:00"
 }

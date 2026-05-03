@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7561484-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7561484-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lottery-and-other-stories.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lottery-and-other-stories.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17429574W",
   "first_published": 2010,
   "description": "One of the most terrifying stories of the twentieth century, Shirley Jackson’s “The Lottery” created a sensation when it was first published in The New Yorker in 1948. \"Power and haunting,\" and \"nights of unrest\" were typical reader responses. Today it is considered a classic work of short fiction, a story remarkable for its combination of subtle suspense and pitch-perfect descriptions of both the chilling and the mundane. The Lottery and Other Stories, the only one to appear during Shirley Jack...",
@@ -33,8 +33,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 4,
-  "representative_edition_key": "/books/OL29605976M"
+  "representative_edition_key": "/books/OL29605976M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7561484-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7561484-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:20+00:00",
+  "ddc": [
+    "808.8387"
+  ]
 }

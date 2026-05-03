@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "sapiens",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8634250-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sapiens.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sapiens.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17075811W",
   "first_published": 2011,
   "language": "eng",
@@ -96,5 +96,8 @@
   "editions_count": 86,
   "first_published_circa": false,
   "first_edition_isbn": "9780062316097",
-  "representative_edition_key": "/books/OL57566394M"
+  "representative_edition_key": "/books/OL57566394M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8634250-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:03+00:00"
 }

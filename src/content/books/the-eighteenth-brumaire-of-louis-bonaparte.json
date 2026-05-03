@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL42215515W",
   "first_published": 1852,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=yi1-_WGiVaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=yi1-_WGiVaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-eighteenth-brumaire-of-louis-bonaparte.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-eighteenth-brumaire-of-louis-bonaparte.jpg",
   "pages": 136,
   "google_books_url": "http://books.google.com/books?id=yi1-_WGiVaYC&dq=The+Eighteenth+Brumaire+of+Louis+Bonaparte+Karl+Marx&hl=&source=gbs_api",
   "reading_status": "read",
@@ -68,5 +68,8 @@
   "original_title": "Der achtzehnte Brumaire des Louis Bonaparte ...",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL48709264M",
-  "wikidata_qid": "Q1198259"
+  "wikidata_qid": "Q1198259",
+  "cover_url_source": "https://books.google.com/books/content?id=yi1-_WGiVaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=yi1-_WGiVaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:11+00:00"
 }

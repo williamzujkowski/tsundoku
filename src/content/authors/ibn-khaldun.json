@@ -3,7 +3,7 @@
   "slug": "ibn-khaldun",
   "book_count": 1,
   "bio": "Ibn Khaldun was an Arab scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of scholars to be a major forerunner of historiography, sociology, economics, and demography studies.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg/400px-Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/ibn-khaldun.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
   "open_library_url": "https://openlibrary.org/authors/OL173442A",
   "birth_year": 1332,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q9294",
   "viaf_id": "41841661",
-  "ol_author_key": "/authors/OL173442A"
+  "ol_author_key": "/authors/OL173442A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg/400px-Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg",
+  "photo_cached_at": "2026-05-03T03:02:40+00:00"
 }

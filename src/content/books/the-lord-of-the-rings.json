@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Darkness Will Bind Them... watch The Lord of the Rings: The Rings of Power season 2 on Prime Video",
-  "cover_url": "https://covers.openlibrary.org/b/id/6783472-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6783472-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lord-of-the-rings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lord-of-the-rings.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781586637903",
@@ -45,5 +45,8 @@
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL24711910M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6783472-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6783472-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:17+00:00"
 }

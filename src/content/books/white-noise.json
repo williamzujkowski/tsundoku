@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "white-noise",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/94015-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/94015-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/white-noise.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/white-noise.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1921196W",
   "first_published": 1985,
   "language": "eng",
@@ -83,5 +83,8 @@
       "name": "National Book Award for Fiction",
       "year": 1985
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/94015-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/94015-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:51+00:00"
 }

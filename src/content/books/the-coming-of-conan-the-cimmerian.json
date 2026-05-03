@@ -6,8 +6,8 @@
   "slug": "the-coming-of-conan-the-cimmerian",
   "tags": [],
   "description": "Conan is one of the greatest fictional heroes ever created–a swordsman who cuts a swath across the lands of the Hyborian Age, facing powerful sorcerers, deadly creatures, and ruthless armies of thieves and reavers. “Between the years when the oceans drank Atlantis and the gleaming cities . . . there was an Age undreamed of, when shining kingdoms lay spread across the world like blue mantles beneath the stars. . . . Hither came Conan, the Cimmerian, black-haired, sullen-eyed, sword in hand . . . ...",
-  "cover_url": "https://books.google.com/books/content?id=bYQeX5a-PVoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=bYQeX5a-PVoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-coming-of-conan-the-cimmerian.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-coming-of-conan-the-cimmerian.jpg",
   "isbn": "9780345469953",
   "first_published": 1953,
   "pages": 498,
@@ -40,7 +40,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
@@ -53,5 +54,11 @@
   "series": {
     "name": "Gnome Conan Series",
     "position": 4
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=bYQeX5a-PVoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=bYQeX5a-PVoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:03+00:00",
+  "ddc": [
+    "800"
+  ]
 }

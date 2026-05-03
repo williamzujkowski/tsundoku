@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Narrative of Scott's last expedition from its departure from England in 1910 to its return to New Zealand in 1913.",
-  "cover_url": "https://books.google.com/books/content?id=m-bRAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-worst-journey-in-the-world.jpg",
   "first_published": 1922,
   "pages": 444,
   "google_books_url": "https://play.google.com/store/books/details?id=m-bRAAAAMAAJ&source=gbs_api",
@@ -159,5 +159,7 @@
   "editions_count": 67,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27153536M"
+  "representative_edition_key": "/books/OL27153536M",
+  "cover_url_source": "https://books.google.com/books/content?id=m-bRAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:44+00:00"
 }

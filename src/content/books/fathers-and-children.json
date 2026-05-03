@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "CHAPTER I 'Well, Piotr, not in sight yet?' was the question asked on May the 20th, 1859, by a gentleman of a little over forty, in a dusty coat and checked trousers, who came out without his hat on to the low steps of the posting station at S——. He was addressing his servant, a chubby young fellow, with whitish down on his chin, and little, lack-lustre eyes. The servant, in whom everything—the turquoise ring in his ear, the streaky hair plastered with grease, and the civility of his movements—in",
-  "cover_url": "https://books.google.com/books/content?id=721UCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/fathers-and-children.jpg",
   "first_published": 2016,
   "pages": 207,
   "google_books_url": "https://play.google.com/store/books/details?id=721UCwAAQBAJ&source=gbs_api",
@@ -27,8 +27,27 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 45,
-  "representative_edition_key": "/books/OL41578362M"
+  "representative_edition_key": "/books/OL41578362M",
+  "cover_url_source": "https://books.google.com/books/content?id=721UCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:20+00:00",
+  "subject_facet": [
+    "Correspondence",
+    "Fathers and sons",
+    "Fiction",
+    "Nihilism (Philosophy)",
+    "Readers",
+    "Russian language",
+    "Social conditions",
+    "Social life and customs",
+    "Texts",
+    "Translations into English"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

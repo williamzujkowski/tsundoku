@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-pillow-book",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6938306-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6938306-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-pillow-book.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-pillow-book.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4087156W",
   "first_published": 1967,
   "language": "eng",
@@ -33,9 +33,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38644896M"
+  "representative_edition_key": "/books/OL38644896M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6938306-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6938306-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:25+00:00",
+  "ddc": [
+    "800"
+  ]
 }

@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9260689-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9260689-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/planet-of-exile.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/planet-of-exile.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59836W",
   "first_published": 1966,
   "language": "eng",
@@ -60,5 +60,8 @@
   "series": {
     "name": "Hainish Cycle",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9260689-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9260689-L.jpg",
+  "cover_cached_at": "2026-05-03T01:43:16+00:00"
 }

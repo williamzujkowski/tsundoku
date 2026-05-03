@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=kaYNAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-my-life.jpg",
   "first_published": 1885,
   "pages": 482,
   "google_books_url": "https://play.google.com/store/books/details?id=kaYNAAAAYAAJ&source=gbs_api",
@@ -29,8 +29,14 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 11,
-  "representative_edition_key": "/books/OL32421946M"
+  "representative_edition_key": "/books/OL32421946M",
+  "cover_url_source": "https://books.google.com/books/content?id=kaYNAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:15+00:00",
+  "ddc": [
+    "800"
+  ]
 }

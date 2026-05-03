@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12426169-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12426169-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/windows-internals.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/windows-internals.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21332788W",
   "first_published": 2012,
   "language": "eng",
@@ -35,5 +35,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL26858876M"
+  "representative_edition_key": "/books/OL26858876M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12426169-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12426169-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:05+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/911109-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/911109-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/i-am-legend.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/i-am-legend.jpg",
   "open_library_url": "https://openlibrary.org/works/OL11374287W",
   "first_published": 1954,
   "language": "eng",
@@ -53,5 +53,8 @@
   "editions_count": 55,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29638130M"
+  "representative_edition_key": "/books/OL29638130M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/911109-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/911109-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:50+00:00"
 }

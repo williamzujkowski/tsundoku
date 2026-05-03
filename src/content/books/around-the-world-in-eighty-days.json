@@ -9,8 +9,8 @@
   "first_published": 1872,
   "language": "eng",
   "description": "An Englishman makes a bet he can travel around the world in 80 days. Tr. by George Makepeace Towle.",
-  "cover_url": "https://books.google.com/books/content?id=vGybY0x1XzcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=vGybY0x1XzcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/around-the-world-in-eighty-days.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/around-the-world-in-eighty-days.jpg",
   "isbn": "0792712722",
   "pages": 348,
   "google_books_url": "http://books.google.com/books?id=vGybY0x1XzcC&dq=Around+the+World+in+Eighty+Days+Jules+Verne&hl=&source=gbs_api",
@@ -238,5 +238,8 @@
   "series": {
     "name": "Voyages Extraordinaires",
     "position": 11
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=vGybY0x1XzcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=vGybY0x1XzcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:56:49+00:00"
 }

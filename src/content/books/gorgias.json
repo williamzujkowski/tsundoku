@@ -11,8 +11,8 @@
   "first_published": -380,
   "language": "eng",
   "description": "The struggle which Plato has Socrates recommend to his interlocutors in Gorgias - and to his readers - is the struggle to overcome the temptations of worldly success and to concentrate on genuine morality. Ostensibly an enquiry into the value of rhetoric, the dialogue soon becomes an investigation into the value of these two contrasting ways of life. In a series of dazzling and bold arguments, Plato attempts to establish that only morality can bring a person true happiness, and to demolish alter...",
-  "cover_url": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/gorgias.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gorgias.jpg",
   "isbn": "9780192656216",
   "pages": 225,
   "google_books_url": "https://play.google.com/store/books/details?id=XANUEAAAQBAJ&source=gbs_api",
@@ -31,9 +31,29 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 6,
   "first_edition_isbn": "9781502354822",
-  "representative_edition_key": "/books/OL55039831M"
+  "representative_edition_key": "/books/OL55039831M",
+  "cover_url_source": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=XANUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:29+00:00",
+  "subject_facet": [
+    "Ancient Philosophy",
+    "Classic Literature",
+    "Early works to 1800",
+    "Ethics",
+    "Fiction",
+    "Greek language materials",
+    "Love",
+    "Political science",
+    "great_books_of_the_western_world",
+    "open_syllabus_project"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

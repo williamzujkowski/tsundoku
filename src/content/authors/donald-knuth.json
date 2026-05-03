@@ -2,7 +2,7 @@
   "name": "Donald Knuth",
   "slug": "donald-knuth",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/3365456-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/donald-knuth.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL229501A",
   "birth_year": 1938,
   "bio": "American computer scientist and mathematician (born 1938)",
@@ -148,5 +148,7 @@
       "name": "honorary doctor of the University of Antwerp",
       "year": 2003
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/3365456-M.jpg",
+  "photo_cached_at": "2026-05-03T00:41:30+00:00"
 }

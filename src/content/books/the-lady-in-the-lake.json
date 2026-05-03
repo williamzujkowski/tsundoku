@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/254507-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/254507-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lady-in-the-lake.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lady-in-the-lake.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3295516W",
   "first_published": 1943,
   "language": "eng",
@@ -71,5 +71,8 @@
   "representative_edition_key": "/books/OL10488026M",
   "wikidata_qid": "Q677978",
   "original_title": "The Lady in the Lake",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/254507-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/254507-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:16+00:00"
 }

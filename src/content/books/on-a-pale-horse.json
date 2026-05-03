@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "In this first novel of the Incarnations of Immortality, Piers Anthony combines a gripping story of romance and conflicting loyalties with a deeply moving examination of the meaning of life and death. This is a novel that will long linger in the reader's mind. Shooting Death was a mistake, as Zane soon discovered. For the man who killed the Incarnation of Death was immediately forced to assume the vacant position! Thereafter, he must speed over the world, riding his pale horse, and ending the liv",
-  "cover_url": "https://books.google.com/books/content?id=27UFpADsJNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/on-a-pale-horse.jpg",
   "isbn": "9780307815651",
   "first_published": 1983,
   "pages": 338,
@@ -55,5 +55,7 @@
   "series": {
     "name": "Incarnations of Immortality",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=27UFpADsJNkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:36:37+00:00"
 }

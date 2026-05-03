@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-hunchback-of-notre-dame",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8015311-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8015311-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hunchback-of-notre-dame.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hunchback-of-notre-dame.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17736010W",
   "first_published": 1831,
   "language": "eng",
@@ -142,5 +142,8 @@
   "original_title": "Notre-dame de Paris.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL1129144M",
-  "wikidata_qid": "Q191380"
+  "wikidata_qid": "Q191380",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8015311-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8015311-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:11+00:00"
 }

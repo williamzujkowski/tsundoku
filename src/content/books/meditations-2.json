@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/211529-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/211529-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/meditations-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/meditations-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1317211W",
   "first_published": 170,
   "language": "eng",
@@ -220,5 +220,8 @@
   "original_title": "Markou Antōninou autokratoros kai philosophou tōn eis heauton, biblia 12 =",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8978828M",
-  "wikidata_qid": "Q1152283"
+  "wikidata_qid": "Q1152283",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/211529-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/211529-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:12+00:00"
 }

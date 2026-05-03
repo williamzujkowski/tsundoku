@@ -3,7 +3,7 @@
   "slug": "karl-popper",
   "book_count": 4,
   "bio": "Sir Karl Raimund Popper was an Austrian–British philosopher, academic and social commentator. One of the 20th century's most influential philosophers of science, Popper is known for his rejection of the classical inductivist views on the scientific method in favour of empirical falsification made possible by his falsifiability criterion, and for founding the Department of Philosophy at the London School of Economics and Political Science. According to Popper, a theory in the empirical sciences can never be proven, but it can be falsified, meaning that it can be scrutinised with decisive experiments. Popper was opposed to the classical justificationist account of knowledge, which he replaced with \"the first non-justificational philosophy of criticism in the history of philosophy\", namely critical rationalism.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/400px-Karl_Popper.jpg",
+  "photo_url": "/tsundoku/cached/authors/karl-popper.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karl_Popper",
   "open_library_url": "https://openlibrary.org/authors/OL238785A",
   "birth_year": 1902,
@@ -110,5 +110,7 @@
       "name": "honorary doctor of the University of Canterbury",
       "year": 1973
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/400px-Karl_Popper.jpg",
+  "photo_cached_at": "2026-05-03T03:06:13+00:00"
 }

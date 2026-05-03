@@ -8,8 +8,8 @@
     "children",
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/116833-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/116833-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/henry-iv-part-1.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/henry-iv-part-1.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1348798W",
   "first_published": 1598,
   "language": "eng",
@@ -232,5 +232,8 @@
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56588022M"
+  "representative_edition_key": "/books/OL56588022M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/116833-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/116833-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:05+00:00"
 }

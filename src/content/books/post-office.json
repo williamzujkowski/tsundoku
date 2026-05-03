@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Post Office is the first novel written by American writer Charles Bukowski, published in 1971. The book is an autobiographical memoir of Bukowski's years working at the United States Postal Service. The film rights to the novel were sold in the early 1970s, but a film has not been made thus far.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Post_Office_%28Charles_Bukowski_novel_-_front_cover%29.jpg/120px-Post_Office_%28Charles_Bukowski_novel_-_front_cover%29.jpg",
+  "cover_url": "/tsundoku/cached/covers/post-office.jpg",
   "isbn": "9780061492570",
   "ddc": [
     "813.54"
@@ -53,5 +53,7 @@
   "representative_edition_key": "/books/OL24272426M",
   "wikidata_qid": "Q2290467",
   "original_title": "Post Office",
-  "original_publisher": "Black Sparrow Books"
+  "original_publisher": "Black Sparrow Books",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Post_Office_%28Charles_Bukowski_novel_-_front_cover%29.jpg/120px-Post_Office_%28Charles_Bukowski_novel_-_front_cover%29.jpg",
+  "cover_cached_at": "2026-05-03T01:44:44+00:00"
 }

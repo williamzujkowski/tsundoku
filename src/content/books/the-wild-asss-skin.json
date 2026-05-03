@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL20896017M",
   "language": "eng",
   "description": "\"The Magic Skin\" also known as \"The Wild Ass's Skin\" is Honor� de Balzac's 1831 novel that tells the story of a young man, Rapha�l de Valentin, who discovers a piece of shagreen, in this case a rough untanned piece of a wild ass's skin, which has the magical property of granting wishes. However the fulfilment of the wisher's desire comes at a cost, after each wish the skin shrinks a little bit and consumes the physical energy of the wisher. \"The Wild Ass's Skin\" is at once both a work of incredi...",
-  "cover_url": "https://books.google.com/books/content?id=A11PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=A11PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wild-asss-skin.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wild-asss-skin.jpg",
   "first_published": 2017,
   "pages": 227,
   "google_books_url": "https://play.google.com/store/books/details?id=A11PDwAAQBAJ&source=gbs_api",
@@ -22,10 +22,28 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780344338175",
-  "representative_edition_key": "/books/OL32268222M"
+  "representative_edition_key": "/books/OL32268222M",
+  "cover_url_source": "https://books.google.com/books/content?id=A11PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=A11PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:14+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "France in fiction",
+    "Social life and customs"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

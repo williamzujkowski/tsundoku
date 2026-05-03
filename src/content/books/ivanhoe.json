@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "ivanhoe",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/314235-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/314235-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ivanhoe.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ivanhoe.jpg",
   "open_library_url": "https://openlibrary.org/works/OL863808W",
   "first_published": 1800,
   "language": "eng",
@@ -212,5 +212,8 @@
   "series": {
     "name": "Waverley Novels",
     "position": 5
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/314235-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/314235-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:52+00:00"
 }

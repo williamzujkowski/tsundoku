@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "no-one-writes-to-the-colonel",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6786365-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6786365-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/no-one-writes-to-the-colonel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/no-one-writes-to-the-colonel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14944256W",
   "first_published": 1961,
   "language": "eng",
@@ -76,5 +76,8 @@
   "editions_count": 86,
   "first_published_circa": false,
   "first_edition_isbn": "9788439704102",
-  "representative_edition_key": "/books/OL9303639M"
+  "representative_edition_key": "/books/OL9303639M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6786365-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6786365-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:50+00:00"
 }

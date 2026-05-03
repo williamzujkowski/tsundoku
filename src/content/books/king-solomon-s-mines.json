@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Touted by its 1885 publisher as “the most amazing story ever written,” King Solomon’s Mines was one of the bestselling novels of the nineteenth century. H. Rider Haggard’s thrilling saga of elephant hunter Allan Quatermain and his search for fabled treasure is more than just an adventure story, though: As Alexandra Fuller explains in her Introduction, in its vivid portrayal of the alliances and battles of white colonials and African tribesmen, King Solomon’s Mines “brings us the world of extreme",
-  "cover_url": "https://books.google.com/books/content?id=OpxXIDxVWwwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/king-solomon-s-mines.jpg",
   "isbn": "9780307431349",
   "first_published": 1955,
   "pages": 301,
@@ -164,5 +164,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9780304922727",
-  "representative_edition_key": "/books/OL55222968M"
+  "representative_edition_key": "/books/OL55222968M",
+  "cover_url_source": "https://books.google.com/books/content?id=OpxXIDxVWwwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:27:28+00:00"
 }

@@ -15,8 +15,8 @@
   "copyright_status": "public_domain",
   "description": "MOSES BEN MAIMON, commonly called Maimonides (1135-1204), is the leading Jewish thinker of the Middle Ages.",
   "isbn": "9789652264763",
-  "cover_url": "https://covers.openlibrary.org/b/id/2292521-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2292521-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selections-from-the-talmud.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selections-from-the-talmud.jpg",
   "ddc": [
     "181.06",
     "296.3",
@@ -143,5 +143,8 @@
   "original_language": "heb",
   "original_title": "More Nevukhim",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44585772M"
+  "representative_edition_key": "/books/OL44585772M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2292521-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2292521-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:15+00:00"
 }

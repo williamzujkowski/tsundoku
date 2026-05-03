@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Introducing an exciting new series! Steeped in Victorian atmosphere and intrigue, this diverting mystery trails a feisty heroine as she takes on a precarious secret assignment. (Age 12 and up) Rescued from the gallows in 1850s London, young orphan (and thief) Mary Quinn is surprised to be offered a singular education, instruction in fine manners -- and an unusual vocation. Miss Scrimshaw’s Academy for Girls is a cover for an all-female investigative unit called The Agency, and at seventeen, Mary",
-  "cover_url": "https://books.google.com/books/content?id=lW3QXbnNvnwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-agency-a-spy-in-the-house.jpg",
   "isbn": "9780763651824",
   "first_published": 2010,
   "pages": 341,
@@ -54,5 +54,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780763651824",
-  "representative_edition_key": "/books/OL29584371M"
+  "representative_edition_key": "/books/OL29584371M",
+  "cover_url_source": "https://books.google.com/books/content?id=lW3QXbnNvnwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:55:53+00:00"
 }

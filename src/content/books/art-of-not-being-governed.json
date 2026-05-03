@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6289268-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6289268-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/art-of-not-being-governed.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/art-of-not-being-governed.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2692034W",
   "first_published": 2009,
   "language": "eng",
@@ -77,5 +77,8 @@
   "wikidata_qid": "Q7714471",
   "original_title": "The Art of Not Being Governed",
   "original_language": "eng",
-  "original_publisher": "Yale University Press"
+  "original_publisher": "Yale University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6289268-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6289268-L.jpg",
+  "cover_cached_at": "2026-05-03T00:56:54+00:00"
 }

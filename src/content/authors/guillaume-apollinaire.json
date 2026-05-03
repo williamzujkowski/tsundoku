@@ -3,7 +3,7 @@
   "slug": "guillaume-apollinaire",
   "book_count": 1,
   "bio": "Guillaume Apollinaire was a Polish-French poet, playwright, short story writer, novelist and art critic of Polish, Swiss and Italian descent.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Guillaume_Apollinaire_foto.jpg/400px-Guillaume_Apollinaire_foto.jpg",
+  "photo_url": "/tsundoku/cached/authors/guillaume-apollinaire.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Guillaume_Apollinaire",
   "open_library_url": "https://openlibrary.org/authors/OL127193A",
   "birth_year": 1880,
@@ -29,5 +29,7 @@
     {
       "name": "mort pour la France"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Guillaume_Apollinaire_foto.jpg/400px-Guillaume_Apollinaire_foto.jpg",
+  "photo_cached_at": "2026-05-03T03:00:41+00:00"
 }

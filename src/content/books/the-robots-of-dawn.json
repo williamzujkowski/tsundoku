@@ -8,8 +8,8 @@
     "mystery",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14372309-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14372309-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-robots-of-dawn.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-robots-of-dawn.jpg",
   "open_library_url": "https://openlibrary.org/works/OL46377W",
   "first_published": 1983,
   "language": "eng",
@@ -59,5 +59,8 @@
   "original_language": "eng",
   "series": {
     "name": "Robot series"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14372309-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14372309-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:47+00:00"
 }

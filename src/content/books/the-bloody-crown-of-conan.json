@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/211007-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/211007-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-bloody-crown-of-conan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-bloody-crown-of-conan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2848480W",
   "first_published": 2004,
   "language": "eng",
@@ -52,5 +52,8 @@
   "wikidata_qid": "Q2991583",
   "original_title": "The Bloody Crown of Conan",
   "original_language": "eng",
-  "original_publisher": "Del Rey Books"
+  "original_publisher": "Del Rey Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/211007-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/211007-L.jpg",
+  "cover_cached_at": "2026-05-03T01:58:12+00:00"
 }

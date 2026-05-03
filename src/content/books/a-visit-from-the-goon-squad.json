@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6452334-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6452334-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-visit-from-the-goon-squad.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-visit-from-the-goon-squad.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15026613W",
   "first_published": 2010,
   "language": "eng",
@@ -77,5 +77,8 @@
       "name": "Pulitzer Prize for Fiction",
       "year": 2011
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6452334-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6452334-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:59+00:00"
 }

@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Doing Math with Python shows you how to use Python to delve into high school–level math topics like statistics, geometry, probability, and calculus. You’ll start with simple projects, like a factoring program and a quadratic-equation solver, and then create more complex projects once you’ve gotten the hang of things. Along the way, you’ll discover new ways to explore math and gain valuable programming skills that you’ll use throughout your study of math and computer science. Learn how to: –Descr",
-  "cover_url": "https://books.google.com/books/content?id=EvWbCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/doing-math-with-python.jpg",
   "isbn": "9781593276409",
   "first_published": 2015,
   "pages": 265,
@@ -46,5 +46,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781457189982",
-  "representative_edition_key": "/books/OL27178872M"
+  "representative_edition_key": "/books/OL27178872M",
+  "cover_url_source": "https://books.google.com/books/content?id=EvWbCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:09:00+00:00"
 }

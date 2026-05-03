@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "New York Times bestseller Cory Doctorow's Red Team Blues is a grabby next-Tuesday thriller about cryptocurrency shenanigans that will awaken you to how the world really works. Martin Hench is 67 years old, single, and successful in a career stretching back to the beginnings of Silicon Valley. He lives and roams California in a very comfortable fully-furnished touring bus, The Unsalted Hash, that he bought years ago from a fading rock star. He knows his way around good food and fine drink. He lik",
-  "cover_url": "https://books.google.com/books/content?id=hptsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/red-team-blues.jpg",
   "isbn": "9781250865861",
   "first_published": 2023,
   "pages": 191,
@@ -38,12 +38,18 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL57867883M",
   "wikidata_qid": "Q130036358",
   "original_title": "Red Team Blues",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=hptsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:47:04+00:00",
+  "ddc": [
+    "800"
+  ]
 }

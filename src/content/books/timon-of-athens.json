@@ -8,8 +8,8 @@
     "drama",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7329261-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7329261-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/timon-of-athens.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/timon-of-athens.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362223W",
   "first_published": 1734,
   "language": "eng",
@@ -131,5 +131,8 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34338764M"
+  "representative_edition_key": "/books/OL34338764M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7329261-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7329261-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:20+00:00"
 }

@@ -9,8 +9,8 @@
   "first_published": 1979,
   "language": "eng",
   "description": "The story of Layla and Majnun is the classic Islamic story of doomed love. The young Bedouin poet Qays fell in love with Layla, a woman of his own tribe, and wrote her many celebrated love poems. When his father forbade the marriage, Qays went mad and began to wander the desert (Majnun is Arabic for 'madman'). Five centuries later, the Persian author Nezami wrote what is generally regarded as the finest version of their story, presented here in a new English translation.",
-  "cover_url": "https://books.google.com/books/content?id=Tc2ieu-ILakC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Tc2ieu-ILakC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/layla-and-majnun.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/layla-and-majnun.jpg",
   "isbn": "0930872525",
   "pages": 204,
   "google_books_url": "http://books.google.com/books?id=Tc2ieu-ILakC&dq=Layla+and+Majnun+Nizami+Ganjavi&hl=&source=gbs_api",
@@ -45,5 +45,8 @@
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "0877731330",
-  "representative_edition_key": "/books/OL18821511M"
+  "representative_edition_key": "/books/OL18821511M",
+  "cover_url_source": "https://books.google.com/books/content?id=Tc2ieu-ILakC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Tc2ieu-ILakC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:29:02+00:00"
 }

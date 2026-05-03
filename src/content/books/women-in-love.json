@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "women-in-love",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13140934-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13140934-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/women-in-love.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/women-in-love.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81294W",
   "first_published": 1877,
   "language": "eng",
@@ -122,5 +122,8 @@
   "representative_edition_key": "/books/OL46064672M",
   "wikidata_qid": "Q111271938",
   "original_title": "Women in love",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13140934-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13140934-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:18+00:00"
 }

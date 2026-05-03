@@ -9,8 +9,8 @@
     "humor",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9164869-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9164869-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/maddaddam.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/maddaddam.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20513408W",
   "first_published": 2014,
   "description": "NATIONAL BESTSELLER • From the bestselling author of The Handmaid's Tale and The Testamants—this final volume of the internationally celebrated MaddAddam trilogy \"has brought the previous two books together in a fitting and joyous conclusion that’s an epic not only of an imagined future but of our own past\" (The New York Times Book Review). The Waterless Flood pandemic has wiped out most of the population. Toby is part of a small band of survivors, along with the Children of Crake: the gentle, b...",
@@ -19,5 +19,31 @@
   "google_books_url": "https://play.google.com/store/books/details?id=9FlmLA3_ficC&source=gbs_api",
   "language": "eng",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9164869-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9164869-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:26+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Adventure",
+    "Adventure fiction",
+    "FICTION / Humorous",
+    "FICTION / Science Fiction / Adventure",
+    "Fiction",
+    "Humorous",
+    "Natural disasters",
+    "New York Times bestseller",
+    "Science fiction",
+    "nyt:hardcover-fiction=2013-09-22"
+  ],
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

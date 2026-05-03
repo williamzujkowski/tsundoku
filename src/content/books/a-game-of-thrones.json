@@ -9,8 +9,8 @@
     "fantasy",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9269962-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9269962-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-game-of-thrones.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-game-of-thrones.jpg",
   "open_library_url": "https://openlibrary.org/works/OL257943W",
   "first_published": 1996,
   "language": "eng",
@@ -142,5 +142,8 @@
   "series": {
     "name": "A Song of Ice and Fire",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9269962-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9269962-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:54+00:00"
 }

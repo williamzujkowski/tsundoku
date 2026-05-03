@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cyropaedia",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6062894-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6062894-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cyropaedia.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cyropaedia.jpg",
   "open_library_url": "https://openlibrary.org/works/OL687224W",
   "first_published": 1527,
   "language": "eng",
@@ -99,5 +99,8 @@
   "original_language": "ita",
   "original_title": "Xenophonte Della vita di Cyro re de Persia",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11684138M"
+  "representative_edition_key": "/books/OL11684138M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6062894-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6062894-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:20+00:00"
 }

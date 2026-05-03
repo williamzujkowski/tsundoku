@@ -9,8 +9,8 @@
     "philosophy",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6528920-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6528920-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/poetics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/poetics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13703833W",
   "first_published": -335,
   "language": "eng",
@@ -238,5 +238,8 @@
   "original_language": "grc",
   "original_title": "Aristotelis Poetica",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3542810M"
+  "representative_edition_key": "/books/OL3542810M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6528920-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6528920-L.jpg",
+  "cover_cached_at": "2026-05-03T01:44:14+00:00"
 }

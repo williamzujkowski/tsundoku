@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=Fd8zAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/mauprat.jpg",
   "first_published": 1837,
   "pages": 466,
   "google_books_url": "https://play.google.com/store/books/details?id=Fd8zAQAAMAAJ&source=gbs_api",
@@ -67,5 +67,7 @@
   "representative_edition_key": "/books/OL11975935M",
   "wikidata_qid": "Q3300215",
   "original_title": "Mauprat",
-  "original_language": "fre"
+  "original_language": "fre",
+  "cover_url_source": "https://books.google.com/books/content?id=Fd8zAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:04+00:00"
 }

@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Baroness Emma Magdolna Rozália Mária Jozefa Borbála \"Emmuska\" Orczy de Orczi (23 September 1865 - 12 November 1947) was a Hungarian-born British novelist, playwright and artist of noble origin. She is most known for her series of novels featuring the Scarlet Pimpernel. This is one of her novels.",
-  "cover_url": "https://books.google.com/books/content?id=dLqXDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-league-of-the-scarlet-pimpernel.jpg",
   "isbn": "9781609777623",
   "first_published": 1919,
   "pages": 257,
@@ -69,5 +69,7 @@
   "original_publisher": "Cassell & Co",
   "series": {
     "name": "The Scarlet Pimpernel"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=dLqXDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:43+00:00"
 }

@@ -8,8 +8,8 @@
     "adventure",
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/37124-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/37124-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-thief.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-thief.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14872532W",
   "first_published": 1996,
   "language": "eng",
@@ -65,5 +65,8 @@
   "wikidata_qid": "Q7768674",
   "original_title": "The Thief",
   "original_language": "eng",
-  "original_publisher": "HarperCollins"
+  "original_publisher": "HarperCollins",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/37124-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/37124-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:07+00:00"
 }

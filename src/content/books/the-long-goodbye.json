@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1284561-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1284561-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-long-goodbye.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-long-goodbye.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15400581W",
   "first_published": 1953,
   "language": "eng",
@@ -83,5 +83,8 @@
       "name": "Edgar Allan Poe Award for Best Novel",
       "year": 1955
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1284561-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1284561-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:12+00:00"
 }

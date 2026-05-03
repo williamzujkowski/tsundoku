@@ -8,8 +8,8 @@
     "fantasy",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4915230-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4915230-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/assassins-apprentice.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/assassins-apprentice.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2707183W",
   "first_published": 1995,
   "language": "eng",
@@ -55,5 +55,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 4,
-  "representative_edition_key": "/books/OL38366640M"
+  "representative_edition_key": "/books/OL38366640M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4915230-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4915230-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:15+00:00"
 }

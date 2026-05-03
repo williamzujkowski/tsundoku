@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "our-mutual-friend",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13136200-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13136200-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/our-mutual-friend.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/our-mutual-friend.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13162727W",
   "first_published": 1800,
   "language": "eng",
@@ -135,5 +135,8 @@
   "wikidata_qid": "Q1557935",
   "original_title": "Our Mutual Friend",
   "original_language": "eng",
-  "original_publisher": "Chapman and Hall"
+  "original_publisher": "Chapman and Hall",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13136200-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13136200-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:27+00:00"
 }

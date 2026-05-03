@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Impish, foul-mouthed Zazie arrives in Paris from the country to stay with Gabriel, her female-impersonator uncle. All she really wants to do is ride the metro, but finding it shut because of a strike, Zazie looks for other means of amusement and is soon caught up in a comic adventure that becomes wilder and more manic by the minute. In 1960 Queneau's cult classic was made into a hugely successful film by Louis Malle. Packed full of word play and phonetic games, Zazie in the Metro remains as stylish and witty as ever. For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
-  "cover_url": "https://covers.openlibrary.org/b/id/4667336-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4667336-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/zazie-in-the-metro.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/zazie-in-the-metro.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9789755701967",
@@ -76,5 +76,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4667336-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4667336-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:41+00:00"
 }

@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "\"Often likened to Kafka's The Castle, The Tartar Steppe is both a scathing critique of military life and a meditation on the human thirst for glory. It tells of young Giovanni Drogo, who is posted to a distant fort overlooking the vast Tartar steppe. Although not intending to stay, Giovanni suddenly finds that years have passed, as, almost without his noticing, he has come to share the others' wait for a foreign invasion that never happens. Over time the fort is downgraded and Giovanni's ambitions fade until the day the enemy begins massing on the desolate steppe...\"--Goodreads",
-  "cover_url": "https://covers.openlibrary.org/b/id/3942767-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3942767-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tartar-steppe.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tartar-steppe.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780856355769",
@@ -69,5 +69,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3942767-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3942767-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:35+00:00"
 }

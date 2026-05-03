@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "“After reading Mitchell’s guide, you’ll know what you don’t know and what other people don’t know, even though they claim to know it. And that’s invaluable.” —The New York Times A leading computer scientist brings human sense to the AI bubble. No recent scientific enterprise has proved as alluring, terrifying, and filled with extravagant promise and frustrating setbacks as artificial intelligence. The award-winning author Melanie Mitchell, a leading computer scientist, now reveals AI’s turbulent...",
-  "cover_url": "https://books.google.com/books/content?id=65iEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=65iEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/artificial-intelligence-a-guide-for-thinking-humans.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/artificial-intelligence-a-guide-for-thinking-humans.jpg",
   "isbn": "9780374715236",
   "first_published": 2019,
   "pages": 209,
@@ -27,10 +27,21 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780374715236",
-  "representative_edition_key": "/books/OL29808334M"
+  "representative_edition_key": "/books/OL29808334M",
+  "cover_url_source": "https://books.google.com/books/content?id=65iEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=65iEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:05+00:00",
+  "ddc": [
+    "003"
+  ],
+  "lcc": [
+    "Q295"
+  ]
 }

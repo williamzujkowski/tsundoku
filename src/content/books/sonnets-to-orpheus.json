@@ -8,8 +8,8 @@
     "math",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8069479-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8069479-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sonnets-to-orpheus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sonnets-to-orpheus.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17789416W",
   "first_published": 1992,
   "language": "eng",
@@ -35,8 +35,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 4,
-  "representative_edition_key": "/books/OL37386676M"
+  "representative_edition_key": "/books/OL37386676M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8069479-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8069479-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:59+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

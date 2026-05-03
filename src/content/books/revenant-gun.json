@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10521965-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10521965-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/revenant-gun.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/revenant-gun.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19751046W",
   "first_published": 2018,
   "language": "eng",
@@ -56,5 +56,8 @@
   "series": {
     "name": "Machineries of Empire",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10521965-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10521965-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:36+00:00"
 }

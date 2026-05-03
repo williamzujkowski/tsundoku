@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/667332-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/667332-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/theodicy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/theodicy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1146880W",
   "first_published": 1951,
   "language": "eng",
@@ -26,9 +26,32 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56511823M"
+  "representative_edition_key": "/books/OL56511823M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/667332-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/667332-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:54+00:00",
+  "subject_facet": [
+    "B2590 .e5 1985",
+    "Early works",
+    "Early works to 1800",
+    "Free will and determinism",
+    "Suffering, religious aspects",
+    "Theism",
+    "Theodicy",
+    "Theodicy -- Early works to 1800",
+    "Theodicy--early works to 1800"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

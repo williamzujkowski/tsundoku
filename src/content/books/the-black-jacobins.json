@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14349219-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14349219-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-black-jacobins.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-black-jacobins.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1155988W",
   "first_published": 1935,
   "language": "eng",
@@ -78,5 +78,8 @@
   "representative_edition_key": "/books/OL7699827M",
   "wikidata_qid": "Q7718352",
   "original_title": "The Black Jacobins. Toussaint L'Ouverture and the San Domingo Revolution",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14349219-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14349219-L.jpg",
+  "cover_cached_at": "2026-05-03T01:57:59+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"This is the saddest story,\" the narrator notes of his friend Edward Ashburham's life. A superb soldier and the perfect English gentleman, the Ashburham has one fatal flaw with regard to affairs of love. Ford weaves a brilliant tale-long recognized as one of the masterpieces of twentieth century fiction-in which nothing is quite what it seems, including the narrator's telling of the tale.",
-  "cover_url": "https://books.google.com/books/content?id=U3s7PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-good-soldier.jpg",
   "isbn": "1404305890",
   "first_published": 1915,
   "pages": 180,
@@ -123,5 +123,7 @@
   "representative_edition_key": "/books/OL8402630M",
   "wikidata_qid": "Q767802",
   "original_language": "eng",
-  "original_publisher": "John Lane"
+  "original_publisher": "John Lane",
+  "cover_url_source": "https://books.google.com/books/content?id=U3s7PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:47+00:00"
 }

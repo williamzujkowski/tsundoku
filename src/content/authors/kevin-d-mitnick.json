@@ -3,7 +3,7 @@
   "slug": "kevin-d-mitnick",
   "book_count": 2,
   "bio": "American computer security consultant, author, and convicted hacker.",
-  "photo_url": "https://covers.openlibrary.org/a/id/6737403-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/kevin-d-mitnick.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2737351A",
   "birth_year": 1963,
   "death_year": 2023,
@@ -28,5 +28,7 @@
     "David Stanfill"
   ],
   "viaf_id": "79185196",
-  "ol_author_key": "/authors/OL2737351A"
+  "ol_author_key": "/authors/OL2737351A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/6737403-M.jpg",
+  "photo_cached_at": "2026-05-03T00:45:11+00:00"
 }

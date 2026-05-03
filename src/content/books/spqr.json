@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "spqr",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10382021-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10382021-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/spqr.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/spqr.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21562242W",
   "first_published": 2015,
   "language": "eng",
@@ -38,7 +38,8 @@
     "original_title": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -46,5 +47,11 @@
   "original_title": "SPQR Die tausendjährige Geschichte Roms",
   "representative_edition_key": "/books/OL27511331M",
   "wikidata_qid": "Q22075203",
-  "original_publisher": "W. W. Norton & Company"
+  "original_publisher": "W. W. Norton & Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10382021-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10382021-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:35+00:00",
+  "ddc": [
+    "900"
+  ]
 }

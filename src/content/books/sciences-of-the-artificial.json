@@ -8,8 +8,8 @@
     "philosophy",
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/152472-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/152472-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sciences-of-the-artificial.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sciences-of-the-artificial.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1205035W",
   "first_published": 1969,
   "language": "eng",
@@ -47,5 +47,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL975566M"
+  "representative_edition_key": "/books/OL975566M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/152472-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/152472-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:20+00:00"
 }

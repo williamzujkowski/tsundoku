@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The definitive book on UNIX security, this volume covers every aspect of computer security on UNIX machines and the Internet.",
-  "cover_url": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-unix-and-internet-security.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/practical-unix-and-internet-security.jpg",
   "isbn": "9780596003234",
   "first_published": 2003,
   "pages": 989,
@@ -91,5 +91,8 @@
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "0596003234",
-  "representative_edition_key": "/books/OL3383014M"
+  "representative_edition_key": "/books/OL3383014M",
+  "cover_url_source": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-aIKj0lbADIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:12+00:00"
 }

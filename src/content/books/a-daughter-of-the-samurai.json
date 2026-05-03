@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A young Japanese woman leaves the only home she’s ever known for married life in nineteenth-century Ohio in this delightful, charming memoir, a tribute to the struggles of the first generation of Japanese immigrants—with an introduction by Karen Tei Yamashita and Yuki Obayashi The youngest daughter of a high-ranking samurai in late-nineteenth-century Japan, Etsu Inagaki Sugimoto is originally destined to be a Buddhist priestess. She grows up a curly haired tomboy in snowy Echigo, certain of her ",
-  "cover_url": "https://books.google.com/books/content?id=-6kBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-daughter-of-the-samurai.jpg",
   "isbn": "9780593242674",
   "first_published": 2021,
   "pages": 305,
@@ -41,5 +41,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 11,
-  "representative_edition_key": "/books/OL8272314M"
+  "representative_edition_key": "/books/OL8272314M",
+  "cover_url_source": "https://books.google.com/books/content?id=-6kBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:36+00:00"
 }

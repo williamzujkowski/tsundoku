@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/115288-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/115288-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-waste-land.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-waste-land.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1142292W",
   "first_published": 1922,
   "language": "eng",
@@ -45,5 +45,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3950288M"
+  "representative_edition_key": "/books/OL3950288M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/115288-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/115288-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:59+00:00"
 }

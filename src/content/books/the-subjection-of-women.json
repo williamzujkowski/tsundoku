@@ -9,8 +9,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2992627-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2992627-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-subjection-of-women.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-subjection-of-women.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1068105W",
   "first_published": 1859,
   "language": "eng",
@@ -124,5 +124,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34234024M",
   "wikidata_qid": "Q1055881",
-  "original_title": "On liberty"
+  "original_title": "On liberty",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2992627-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2992627-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:21+00:00"
 }

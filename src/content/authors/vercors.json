@@ -2,7 +2,7 @@
   "name": "Vercors",
   "slug": "vercors",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL120957A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/vercors.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL120957A",
   "birth_year": 1902,
   "death_year": 1991,
@@ -23,5 +23,7 @@
     "Joë Mab"
   ],
   "viaf_id": "54122148",
-  "ol_author_key": "/authors/OL120957A"
+  "ol_author_key": "/authors/OL120957A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL120957A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:49:56+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "William and Ellen Craft were slaves from Macon who gained celebrity after a daring public escape in December 1848. The light-skinned Ellen Craft posed as a white woman traveling with her valet. The bold ruse worked and the couple were able to elude slave hunters and eventually cross the Mason-Dixon line. After many trials and tribulations, including pretending to be a married interracial couple, they eventually settled outside Savannah, Georgia where they were able to purchase land. Running a Th",
-  "cover_url": "https://books.google.com/books/content?id=QWyVDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/running-a-thousand-miles-for-freedom.jpg",
   "isbn": "9781365768156",
   "first_published": 1860,
   "pages": 60,
@@ -64,5 +64,7 @@
   "editions_count": 72,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40049032M"
+  "representative_edition_key": "/books/OL40049032M",
+  "cover_url_source": "https://books.google.com/books/content?id=QWyVDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:40+00:00"
 }

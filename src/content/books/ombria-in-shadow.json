@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/283964-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/283964-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ombria-in-shadow.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ombria-in-shadow.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15722132W",
   "first_published": 2002,
   "language": "eng",
@@ -74,5 +74,8 @@
       "name": "Mythopoeic Fantasy Award for Adult Literature",
       "year": 2003
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/283964-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/283964-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:31+00:00"
 }

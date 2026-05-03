@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Quite simply, test-driven development is meant to eliminate fear in application development. While some fear is healthy (often viewed as a conscience that tells programmers to \"be careful!\"), the author believes that byproducts of fear include tentative, grumpy, and uncommunicative programmers who are unable to absorb constructive criticism. When programming teams buy into TDD, they immediately see positive results. They eliminate the fear involved in their jobs, and are better equipped to tackl...",
-  "cover_url": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/test-driven-development-by-example.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/test-driven-development-by-example.jpg",
   "isbn": "9780137585236",
   "first_published": 2002,
   "pages": 241,
@@ -43,10 +43,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9780321146533",
-  "representative_edition_key": "/books/OL38009616M"
+  "representative_edition_key": "/books/OL38009616M",
+  "cover_url_source": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=zNnPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:55:22+00:00",
+  "ddc": [
+    "510"
+  ]
 }

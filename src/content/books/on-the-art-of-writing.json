@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "There is nothing more disenchanting to man than to be shown the springs and mechanism of any art. All our arts and occupations lie wholly on the surface; it is on the surface that we perceive their beauty, fitness, and significance; and to pry below is to be appalled by their emptiness and shocked by the coarseness of the strings and pulleys. In a similar way, psychology itself, when pushed to any nicety, discovers an abhorrent baldness, but rather from the fault of our analysis than from any po",
-  "cover_url": "https://books.google.com/books/content?id=FJgmswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/on-the-art-of-writing.png",
   "isbn": "1515366049",
   "first_published": 2015,
   "pages": 68,
@@ -35,5 +35,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL3315141M"
+  "representative_edition_key": "/books/OL3315141M",
+  "cover_url_source": "https://books.google.com/books/content?id=FJgmswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:36:54+00:00"
 }

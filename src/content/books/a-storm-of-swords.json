@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/15124196-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15124196-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-storm-of-swords.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-storm-of-swords.jpg",
   "open_library_url": "https://openlibrary.org/works/OL257914W",
   "first_published": 2000,
   "language": "eng",
@@ -106,5 +106,8 @@
   "series": {
     "name": "A Song of Ice and Fire",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15124196-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15124196-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:43+00:00"
 }

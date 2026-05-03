@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The second of Trollope's \"Palliser\" novels introduces its title character, Phineas Finn, a talented but naive doctor's son from Ireland with Parliamentary aspirations. He must make numerous practical and ethical choices regarding his career, his political beliefs, and his romantic life, in hopes of emerging with his character, reputation, and prospects intact.",
-  "cover_url": "https://books.google.com/books/content?id=KI9vED-vlDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/phineas-finn.jpg",
   "isbn": "9781425092542",
   "first_published": 1949,
   "pages": 394,
@@ -27,9 +27,28 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 14,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55440164M"
+  "representative_edition_key": "/books/OL55440164M",
+  "cover_url_source": "https://books.google.com/books/content?id=KI9vED-vlDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:42:47+00:00",
+  "subject_facet": [
+    "British and irish fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, political",
+    "Ireland in fiction",
+    "Ireland, fiction",
+    "Legislators",
+    "Legislators in fiction",
+    "London (england), fiction",
+    "Palliser, plantagenet (fictitious character), fiction",
+    "Plantagenet Palliser (Fictitious character)"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

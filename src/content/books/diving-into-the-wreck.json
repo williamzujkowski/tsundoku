@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/248817-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/248817-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/diving-into-the-wreck.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/diving-into-the-wreck.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1881414W",
   "first_published": 1973,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29718032M"
+  "representative_edition_key": "/books/OL29718032M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/248817-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/248817-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:51+00:00"
 }

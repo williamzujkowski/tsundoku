@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The most famous anti-war novel ever written.In 1914 a room full of German schoolboys, fresh-faced and idealistic, are goaded by their schoolmaster to troop off to the 'glorious war'. With the fire and patriotism of youth they sign up. What follows is the moving story of a young 'unknown soldier' experiencing the horror and disillusionment of life in the trenches.",
-  "cover_url": "https://books.google.com/books/content?id=1KiP0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/all-quiet-on-the-western-front.jpg",
   "isbn": "1784879800",
   "first_published": 2024,
   "google_books_url": "http://books.google.com/books?id=1KiP0AEACAAJ&dq=intitle:All+Quiet+on+the+Western+Front&hl=&source=gbs_api",
@@ -34,9 +34,24 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL57759942M"
+  "representative_edition_key": "/books/OL57759942M",
+  "cover_url_source": "https://books.google.com/books/content?id=1KiP0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:51+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, war & military",
+    "German fiction",
+    "German language",
+    "History",
+    "Open Library Staff Picks",
+    "Soldiers",
+    "Translations into English",
+    "World War, 1914-1918"
+  ]
 }

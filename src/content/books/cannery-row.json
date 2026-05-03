@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cannery-row",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/100939-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/100939-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cannery-row.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cannery-row.jpg",
   "open_library_url": "https://openlibrary.org/works/OL23199W",
   "first_published": 1945,
   "language": "eng",
@@ -82,5 +82,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL27541339M",
   "wikidata_qid": "Q1216542",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/100939-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/100939-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:33+00:00"
 }

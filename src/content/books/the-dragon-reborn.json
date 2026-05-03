@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Dragon Reborn is a fantasy novel by American writer Robert Jordan, the third in his series The Wheel of Time. It was published by Tor Books and released on September 15, 1991. The unabridged audio book is read by Michael Kramer and Kate Reading. The Dragon Reborn consists of a prologue and 56 chapters.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/WoT03_TheDragonReborn.jpg/250px-WoT03_TheDragonReborn.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-dragon-reborn.jpg",
   "pages": 672,
   "isbn": "9780356525235",
   "ddc": [
@@ -43,5 +43,7 @@
   },
   "editions_count": 38,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51062109M"
+  "representative_edition_key": "/books/OL51062109M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/WoT03_TheDragonReborn.jpg/250px-WoT03_TheDragonReborn.jpg",
+  "cover_cached_at": "2026-05-03T02:02:55+00:00"
 }

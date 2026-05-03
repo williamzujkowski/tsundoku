@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "anthills-of-the-savannah",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8372206-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8372206-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/anthills-of-the-savannah.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/anthills-of-the-savannah.jpg",
   "open_library_url": "https://openlibrary.org/works/OL891768W",
   "first_published": 1987,
   "language": "eng",
@@ -61,5 +61,8 @@
   "wikidata_qid": "Q4011016",
   "original_title": "Anthills of the Savannah",
   "original_language": "eng",
-  "original_publisher": "Heinemann"
+  "original_publisher": "Heinemann",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8372206-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8372206-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:18+00:00"
 }

@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "In \"I Will Repay,\" Baroness Emmuska Orczy delivers a captivating sequel to her renowned novel \"The Scarlet Pimpernel.\" Set against the turbulent backdrop of the French Revolution, this novel intertwines themes of love, loyalty, and vengeance. The narrative unfolds with rich, atmospheric prose, showcasing Orczy's mastery in creating suspenseful plots and well-drawn characters. The story centers on the enigmatic Sir Percy Blakeney, whose daring exploits to rescue aristocrats from the guillotine be",
-  "cover_url": "https://books.google.com/books/content?id=8MtNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/i-will-repay.jpg",
   "first_published": 1906,
   "pages": 204,
   "google_books_url": "https://play.google.com/store/books/details?id=8MtNEAAAQBAJ&source=gbs_api",
@@ -49,12 +49,18 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 270,
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL56168608M",
   "wikidata_qid": "Q5979829",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=8MtNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:22:53+00:00",
+  "lcc": [
+    "P"
+  ]
 }

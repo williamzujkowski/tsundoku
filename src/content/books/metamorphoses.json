@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7212118-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7212118-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/metamorphoses.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/metamorphoses.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15292640W",
   "first_published": 8,
   "language": "eng",
@@ -43,9 +43,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "manual",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL61394993M"
+  "representative_edition_key": "/books/OL61394993M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7212118-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7212118-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:32+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

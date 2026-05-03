@@ -10,7 +10,7 @@
     "romance"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=gOENAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-last-chronicle-of-barset.jpg",
   "first_published": 1867,
   "pages": 432,
   "google_books_url": "https://play.google.com/store/books/details?id=gOENAAAAQAAJ&source=gbs_api",
@@ -91,5 +91,7 @@
   "editions_count": 97,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11858992M"
+  "representative_edition_key": "/books/OL11858992M",
+  "cover_url_source": "https://books.google.com/books/content?id=gOENAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:27+00:00"
 }

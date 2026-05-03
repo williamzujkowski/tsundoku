@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=wBlHAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/b-atrix.jpg",
   "first_published": 1839,
   "pages": 416,
   "google_books_url": "https://play.google.com/store/books/details?id=wBlHAQAAMAAJ&source=gbs_api",
@@ -59,5 +59,7 @@
   "wikidata_qid": "Q2718331",
   "series": {
     "name": "The Human Comedy"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=wBlHAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:33+00:00"
 }

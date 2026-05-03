@@ -7,8 +7,8 @@
   "tags": [
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14627042-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14627042-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-silmarillion.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-silmarillion.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27495W",
   "first_published": 1977,
   "language": "eng",
@@ -94,5 +94,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14627042-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14627042-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:45+00:00"
 }

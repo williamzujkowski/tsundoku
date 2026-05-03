@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dom-casmurro",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/647501-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/647501-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dom-casmurro.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dom-casmurro.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1003040W",
   "first_published": 1899,
   "language": "eng",
@@ -90,5 +90,8 @@
   "wikidata_qid": "Q1236531",
   "series": {
     "name": "Realist Trilogy"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/647501-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/647501-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:01+00:00"
 }

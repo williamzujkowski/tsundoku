@@ -9,8 +9,8 @@
   "first_published": 2016,
   "language": "eng",
   "description": "This antiquarian book contains the fourth instalment of the final episode in the fantastic d'Artagnan Romances, \"The Man in the Iron Mask\". Thirty-five years after the events of the last episode, the famous foursome become divided when they find themselves on opposing sides in a fierce struggle for power that threatens to undermine the young king and revolutionise the French monarchy. A masterful retelling of a true account, \"The Man in the Iron Mask\" constitutes a must-read for fans of Dumas's ...",
-  "cover_url": "https://books.google.com/books/content?id=i7d9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=i7d9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-man-in-the-iron-mask.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-man-in-the-iron-mask.jpg",
   "isbn": "9781473376205",
   "pages": 539,
   "google_books_url": "https://play.google.com/store/books/details?id=i7d9CgAAQBAJ&source=gbs_api",
@@ -26,10 +26,30 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781979040587",
-  "representative_edition_key": "/books/OL54719233M"
+  "representative_edition_key": "/books/OL54719233M",
+  "cover_url_source": "https://books.google.com/books/content?id=i7d9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=i7d9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:43+00:00",
+  "subject_facet": [
+    "Adventure stories",
+    "Brothers",
+    "Classic Literature",
+    "Fiction",
+    "Fiction, general",
+    "History",
+    "Juvenile fiction",
+    "Literature and fiction, historical fiction",
+    "Prisoners",
+    "Twins"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

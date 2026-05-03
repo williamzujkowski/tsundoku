@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Books for All Kinds of Readers. ReadHowYouWant offers the widest selection of on-demand, accessible format editions on the market today. Our 7 different sizes of EasyRead are optimized by increasing the font size and spacing between the words and the letters. We partner with leading publishers around the globe. Our goal is to have accessible editions simultaneously released with publishers new books so that all readers can have access to the books they want to read.",
-  "cover_url": "https://books.google.com/books/content?id=GpYhAmRr9VkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/piccadilly-jim.jpg",
   "isbn": "9781442931671",
   "first_published": 2009,
   "pages": 446,
@@ -57,5 +57,7 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9781458704184",
-  "representative_edition_key": "/books/OL44150089M"
+  "representative_edition_key": "/books/OL44150089M",
+  "cover_url_source": "https://books.google.com/books/content?id=GpYhAmRr9VkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:42:49+00:00"
 }

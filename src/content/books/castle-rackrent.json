@@ -12,7 +12,7 @@
   "first_published": 1800,
   "pages": 214,
   "google_books_url": "http://books.google.com/books?id=RcntMgEACAAJ&dq=Castle+Rackrent+Unknown&hl=&source=gbs_api",
-  "cover_url": "https://covers.openlibrary.org/b/id/8242217-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/castle-rackrent.jpg",
   "oclc_id": "70244096",
   "worldcat_url": "https://www.worldcat.org/oclc/70244096",
   "lccn": "78311115",
@@ -99,5 +99,7 @@
   "editions_count": 170,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36418137M"
+  "representative_edition_key": "/books/OL36418137M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8242217-M.jpg",
+  "cover_cached_at": "2026-05-03T01:01:45+00:00"
 }

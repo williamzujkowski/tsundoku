@@ -3,7 +3,7 @@
   "slug": "amin-maalouf",
   "book_count": 2,
   "bio": "Amin Maalouf is a Lebanese-born French author who has lived in France since 1976. Although his native language is Arabic, he writes in French, and his works have been translated into over 40 languages.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Amin_Maalouf_05.jpg/400px-Amin_Maalouf_05.jpg",
+  "photo_url": "/tsundoku/cached/authors/amin-maalouf.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Amin_Maalouf",
   "open_library_url": "https://openlibrary.org/authors/OL46671A",
   "birth_year": 1949,
@@ -117,5 +117,7 @@
     {
       "name": "FIL Award"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Amin_Maalouf_05.jpg/400px-Amin_Maalouf_05.jpg",
+  "photo_cached_at": "2026-05-03T02:51:20+00:00"
 }

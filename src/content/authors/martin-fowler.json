@@ -2,7 +2,7 @@
   "name": "Martin Fowler",
   "slug": "martin-fowler",
   "book_count": 2,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL27090A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/martin-fowler.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL27090A",
   "birth_year": 1963,
   "bio": "British programmer",
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "5145169",
-  "ol_author_key": "/authors/OL27090A"
+  "ol_author_key": "/authors/OL27090A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL27090A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:45:59+00:00"
 }

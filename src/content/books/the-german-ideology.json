@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31248389W",
   "first_published": 1848,
   "description": "\"In Brussels, in 1845-46, Marx and Engels labored on this detailed criticism of post-Hegelian thought. The manuscript was not published during their lifetime, being abandoned, as Marx once said, 'to the gnawing criticism of the mice.' Almost ninety years after it was written, the manuscript was recovered and published. This work was Marx' and Engels' first comprehensive statement on historical materialism. The product of a period of undisturbed cooperation, it is a systematic account of their th...",
-  "cover_url": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-german-ideology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-german-ideology.jpg",
   "pages": 246,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=jxpwAAAAIAAJ&dq=The+German+Ideology+Karl+Marx+and+Friedrich+Engels&hl=&source=gbs_api",
@@ -219,5 +219,8 @@
   "representative_edition_key": "/books/OL34077699M",
   "wikidata_qid": "Q40591",
   "original_title": "Das Kommunistische Manifest",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=jxpwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:18+00:00"
 }

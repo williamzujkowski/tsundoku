@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work. This work is in the public domain in the United States of ...",
-  "cover_url": "https://books.google.com/books/content?id=IskbvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=IskbvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/confessions-of-an-english-opium-eater.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/confessions-of-an-english-opium-eater.jpg",
   "isbn": "1361215062",
   "first_published": 1822,
   "pages": 212,
@@ -93,5 +93,8 @@
   "editions_count": 73,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11859401M"
+  "representative_edition_key": "/books/OL11859401M",
+  "cover_url_source": "https://books.google.com/books/content?id=IskbvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=IskbvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:03:43+00:00"
 }

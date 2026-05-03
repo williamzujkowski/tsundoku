@@ -9,13 +9,26 @@
   ],
   "open_library_url": "https://openlibrary.org/works/OL26509025W",
   "description": "An essay on aesthetics by the Japanese novelist, this book explores architecture, jade, food, and even toilets, combining an acute sense of the use of space in buildings. The book also includes descriptions of laquerware under candlelight and women in the darkness of the house of pleasure.",
-  "cover_url": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/in-praise-of-shadows.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/in-praise-of-shadows.jpg",
   "first_published": 1991,
   "pages": 78,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=xaOBAAAAIAAJ&dq=In+Praise+of+Shadows+Jun%27ichir%C5%8D+Tanizaki&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "ol_work_key": "/works/OL26509025W"
+  "ol_work_key": "/works/OL26509025W",
+  "cover_url_source": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:39+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

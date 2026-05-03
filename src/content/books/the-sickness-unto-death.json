@@ -12,8 +12,8 @@
   "first_published": 1954,
   "language": "eng",
   "description": "One of the most remarkable philosophical works of the nineteenth century, The Sickness Unto Death is also famed for the depth and acuity of its modern psychological insights. Writing under the pseudonym Anti-Climacus, Kierkegaard explores the concept of 'despair', alerting readers to the diversity of ways in which they may be described as living in this state of bleak abandonment - including some that may seem just the opposite - and offering a much-discussed formula for the eradication of despa...",
-  "cover_url": "https://books.google.com/books/content?id=t3ckc5MEJkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=t3ckc5MEJkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-sickness-unto-death.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sickness-unto-death.jpg",
   "isbn": "9780141928449",
   "pages": 228,
   "google_books_url": "https://play.google.com/store/books/details?id=t3ckc5MEJkEC&source=gbs_api",
@@ -24,9 +24,33 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38651631M"
+  "representative_edition_key": "/books/OL38651631M",
+  "cover_url_source": "https://books.google.com/books/content?id=t3ckc5MEJkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=t3ckc5MEJkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:41+00:00",
+  "subject_facet": [
+    "Abnégation de soi",
+    "Abnégation de soi.",
+    "Bible",
+    "Christelijke ethiek",
+    "Christianity",
+    "Criticism, interpretation",
+    "Danish Sermons",
+    "Faith and reason",
+    "Foi",
+    "Gehoorzaamheid"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

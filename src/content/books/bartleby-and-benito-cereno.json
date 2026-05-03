@@ -9,7 +9,7 @@
     "psychology"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=-Unixx4j7IUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bartleby-and-benito-cereno.jpg",
   "isbn": "8809020839",
   "first_published": 1990,
   "pages": 150,
@@ -50,5 +50,7 @@
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9780486264738",
-  "representative_edition_key": "/books/OL9176652M"
+  "representative_edition_key": "/books/OL9176652M",
+  "cover_url_source": "https://books.google.com/books/content?id=-Unixx4j7IUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:51+00:00"
 }

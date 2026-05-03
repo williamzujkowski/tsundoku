@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "what-is-history",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14772094-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14772094-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/what-is-history.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/what-is-history.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28351037W",
   "first_published": 2018,
   "language": "eng",
@@ -64,5 +64,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780241351901",
-  "representative_edition_key": "/books/OL38800264M"
+  "representative_edition_key": "/books/OL38800264M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14772094-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14772094-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:46+00:00"
 }

@@ -11,8 +11,8 @@
   "first_published": 1973,
   "language": "eng",
   "description": "Osip Mandelstam is a central figure not only in modern Russian but in world poetry, the author of some of the most haunting and memorable poems of the twentieth century. A contemporary of Anna Akhmatova, Marina Tsvetayeva, and Boris Pasternak, a touchstone for later masters such as Paul Celan and Robert Lowell, Mandelstam was a crucial instigator of the \"revolution of the word\" that took place in St. Petersburg, only to be crushed by the Bolshevik Revolution. Mandelstam's last poems, written in ...",
-  "cover_url": "https://books.google.com/books/content?id=m01SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=m01SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/selected-poems-8.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems-8.jpg",
   "isbn": "9781590170915",
   "pages": 193,
   "google_books_url": "http://books.google.com/books?id=m01SDwAAQBAJ&dq=Selected+Poems+Osip+Mandelstam&hl=&source=gbs_api",
@@ -65,5 +65,8 @@
   "editions_count": 25,
   "first_published_circa": false,
   "first_edition_isbn": "0192118269",
-  "representative_edition_key": "/books/OL8845257M"
+  "representative_edition_key": "/books/OL8845257M",
+  "cover_url_source": "https://books.google.com/books/content?id=m01SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=m01SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:00+00:00"
 }

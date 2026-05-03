@@ -11,8 +11,8 @@
   "first_published": 1968,
   "language": "eng",
   "description": "In this work, Habermas retraces the emergence and development of the bourgeois public sphere, focusing on Europe in the early modern period. He examines the writing of political theorists and the specific institutions and social forms in which the public sphere was realized.",
-  "cover_url": "https://books.google.com/books/content?id=3iIVnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=3iIVnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-structural-transformation-of-the-public-sphere.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-structural-transformation-of-the-public-sphere.jpg",
   "isbn": "0745602746",
   "pages": 301,
   "google_books_url": "http://books.google.com/books?id=3iIVnwEACAAJ&dq=The+Structural+Transformation+of+the+Public+Sphere+J%C3%BCrgen+Habermas&hl=&source=gbs_api",
@@ -81,5 +81,8 @@
   "original_language": "ger",
   "original_title": "Strukturwandel der Offentlichkeit",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22822523M"
+  "representative_edition_key": "/books/OL22822523M",
+  "cover_url_source": "https://books.google.com/books/content?id=3iIVnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=3iIVnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:20+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Bambi, a Life in the Woods is a 1923 Austrian coming-of-age novel written by Felix Salten, and originally published in Berlin by Ullstein Verlag. The novel traces the life of Bambi, a male roe deer, from his birth through childhood, the loss of his mother, the finding of a mate, the lessons he learns from his father, and the experience he gains about the dangers posed by human hunters in the forest. It is also seen as a parable of the dangers and persecution faced by Jews in Europe.",
-  "cover_url": "https://books.google.com/books/content?id=azI6BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bambi.jpg",
   "isbn": "9788537609316",
   "first_published": 1926,
   "pages": 15,
@@ -88,5 +88,7 @@
   "first_published_circa": false,
   "original_language": "ger",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33923573M"
+  "representative_edition_key": "/books/OL33923573M",
+  "cover_url_source": "https://books.google.com/books/content?id=azI6BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:40+00:00"
 }

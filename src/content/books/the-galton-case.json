@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/421509-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/421509-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-galton-case.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-galton-case.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2460943W",
   "first_published": 1959,
   "language": "eng",
@@ -50,5 +50,8 @@
   "editions_count": 18,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL729382M"
+  "representative_edition_key": "/books/OL729382M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/421509-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/421509-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:11+00:00"
 }

@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=h-lBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/religion-and-the-rise-of-capitalism.jpg",
   "first_published": 1926,
   "pages": 356,
   "google_books_url": "https://play.google.com/store/books/details?id=h-lBAAAAIAAJ&source=gbs_api",
@@ -91,5 +91,7 @@
   "editions_count": 96,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44224229M"
+  "representative_edition_key": "/books/OL44224229M",
+  "cover_url_source": "https://books.google.com/books/content?id=h-lBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:47:11+00:00"
 }

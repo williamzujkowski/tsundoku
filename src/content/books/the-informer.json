@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "\"The informer\" by acclaimed author Liam O'Flaherty is a gripping work of literature set against the turbulent backdrop of Dublin, Ireland. This powerful novel plunges readers into a world of intense suspense, where the stakes are life and death, and loyalty is a dangerous commodity. At its heart, \"The informer\" explores the perilous depths of betrayal and the insidious nature of political intrigue. The story masterfully navigates the tense landscape where individuals are caught between their con",
-  "cover_url": "https://books.google.com/books/content?id=Hh3W0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-informer.jpg",
   "isbn": "1025239768",
   "first_published": 1925,
   "google_books_url": "http://books.google.com/books?id=Hh3W0QEACAAJ&dq=intitle:The+Informer&hl=&source=gbs_api",
@@ -63,5 +63,7 @@
   "editions_count": 41,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33860430M"
+  "representative_edition_key": "/books/OL33860430M",
+  "cover_url_source": "https://books.google.com/books/content?id=Hh3W0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:50+00:00"
 }

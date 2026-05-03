@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12679584-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12679584-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/civil-disobedience.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/civil-disobedience.jpg",
   "open_library_url": "https://openlibrary.org/works/OL55631W",
   "first_published": 1800,
   "language": "eng",
@@ -77,5 +77,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37201840M"
+  "representative_edition_key": "/books/OL37201840M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12679584-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12679584-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:22+00:00"
 }

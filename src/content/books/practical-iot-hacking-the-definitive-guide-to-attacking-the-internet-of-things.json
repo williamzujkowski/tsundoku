@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "The definitive guide to hacking the world of the Internet of Things (IoT) -- Internet connected devices such as medical devices, home assistants, smart home appliances and more. Drawing from the real-life exploits of five highly regarded IoT security researchers, Practical IoT Hacking teaches you how to test IoT systems, devices, and protocols to mitigate risk. The book begins by walking you through common threats and a threat modeling framework. You’ll develop a security testing methodology, di",
-  "cover_url": "https://books.google.com/books/content?id=GbYEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-iot-hacking-the-definitive-guide-to-attacking-the-internet-of-things.jpg",
   "isbn": "9781718500914",
   "first_published": 2021,
   "pages": 466,
   "google_books_url": "https://play.google.com/store/books/details?id=GbYEEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=GbYEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:51+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

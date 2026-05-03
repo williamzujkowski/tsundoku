@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=UjpoWHW3awIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-able-mclaughlins.jpg",
   "first_published": 1923,
   "pages": 280,
   "google_books_url": "https://play.google.com/store/books/details?id=UjpoWHW3awIC&source=gbs_api",
@@ -53,5 +53,7 @@
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL41458838M"
+  "representative_edition_key": "/books/OL41458838M",
+  "cover_url_source": "https://books.google.com/books/content?id=UjpoWHW3awIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:55:24+00:00"
 }

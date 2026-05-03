@@ -9,8 +9,8 @@
     "horror",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/45221-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/45221-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/imajica.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/imajica.jpg",
   "open_library_url": "https://openlibrary.org/works/OL257765W",
   "first_published": 1991,
   "language": "eng",
@@ -66,5 +66,8 @@
       "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
       "year": 1998
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/45221-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/45221-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:35+00:00"
 }

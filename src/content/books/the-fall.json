@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-fall",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/745331-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/745331-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fall.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fall.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1230720W",
   "first_published": 1956,
   "language": "eng",
@@ -96,5 +96,8 @@
   "wikidata_qid": "Q690362",
   "original_title": "La Chute",
   "original_language": "fre",
-  "original_publisher": "Éditions Gallimard"
+  "original_publisher": "Éditions Gallimard",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/745331-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/745331-L.jpg",
+  "cover_cached_at": "2026-05-03T02:03:51+00:00"
 }

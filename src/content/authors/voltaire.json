@@ -3,7 +3,7 @@
   "slug": "voltaire",
   "book_count": 4,
   "bio": "François-Marie Arouet, known by his pen name Voltaire, was a French Enlightenment writer, philosopher (philosophe), satirist, and historian. Famous for his wit and his criticism of Christianity and of slavery, Voltaire was an advocate of freedom of speech, freedom of religion, and separation of church and state.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/400px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg",
+  "photo_url": "/tsundoku/cached/authors/voltaire.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Voltaire",
   "open_library_url": "https://openlibrary.org/authors/OL32293A",
   "birth_year": 1694,
@@ -40,5 +40,7 @@
       "name": "Fellow of the Royal Society",
       "year": 1743
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/400px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg",
+  "photo_cached_at": "2026-05-03T03:20:05+00:00"
 }

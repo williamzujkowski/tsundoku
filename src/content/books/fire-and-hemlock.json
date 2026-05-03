@@ -8,8 +8,8 @@
     "children",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8783949-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8783949-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/fire-and-hemlock.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fire-and-hemlock.jpg",
   "open_library_url": "https://openlibrary.org/works/OL60148W",
   "first_published": 1970,
   "language": "eng",
@@ -58,5 +58,8 @@
   "wikidata_qid": "Q5451523",
   "original_title": "Fire and Hemlock",
   "original_language": "eng",
-  "original_publisher": "HarperCollins"
+  "original_publisher": "HarperCollins",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8783949-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8783949-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:35+00:00"
 }

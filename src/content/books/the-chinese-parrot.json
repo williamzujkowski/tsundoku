@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "\" Return to the Charlie Chan Mystery Series with Earl Bigger's fantastic sophomore outing, The Chinese Parrot. After the events of The House Without a Key, Charlie Chan is ready for a vacation. But before he can relax in the Golden State he must follow through on a promise he made to an old friend-transporting her priceless pearl necklace to its new owner. Accompanying Bob Eden, son of the jeweler who brokered the deal, Chan will stop at nothing to ensure the necklace reaches its final destinati",
-  "cover_url": "https://books.google.com/books/content?id=tYgX0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-chinese-parrot.jpg",
   "isbn": "9798888975671",
   "first_published": 2024,
   "google_books_url": "http://books.google.com/books?id=tYgX0AEACAAJ&dq=intitle:The+Chinese+Parrot&hl=&source=gbs_api",
@@ -26,10 +26,26 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9798888975671",
-  "representative_edition_key": "/books/OL50730008M"
+  "representative_edition_key": "/books/OL50730008M",
+  "cover_url_source": "https://books.google.com/books/content?id=tYgX0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:00:13+00:00",
+  "subject_facet": [
+    "California, fiction",
+    "Chan, charlie (fictitious character), fiction",
+    "Charlie Chan (Fictitious character)",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "Hawaii, fiction",
+    "Police"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

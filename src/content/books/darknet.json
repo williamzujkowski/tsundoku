@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nA darknet or dark net is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization, and often uses a unique customized communication protocol. Two typical darknet types are social networks, and anonymity proxy networks such as Tor via an anonymized series of connections.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Iceberg_of_Webs.svg/330px-Iceberg_of_Webs.svg.png",
+  "cover_url": "/tsundoku/cached/covers/darknet.png",
   "isbn": "9781987942002",
   "ol_work_key": "/works/OL22016422W",
   "first_published": 2015,
@@ -19,10 +19,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781481523813",
-  "representative_edition_key": "/books/OL30031447M"
+  "representative_edition_key": "/books/OL30031447M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Iceberg_of_Webs.svg/330px-Iceberg_of_Webs.svg.png",
+  "cover_cached_at": "2026-05-03T01:07:32+00:00",
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

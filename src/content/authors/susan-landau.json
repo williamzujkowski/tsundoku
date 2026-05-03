@@ -5,7 +5,7 @@
   "bio": "American mathematician and engineer.",
   "open_library_url": "https://openlibrary.org/authors/OL3270121A",
   "birth_year": 1954,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Landau%20%28cropped%29.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/susan-landau.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -39,5 +39,7 @@
       "name": "ACM Distinguished Member",
       "year": 2006
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Landau%20%28cropped%29.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:17:14+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "richard-courant",
   "book_count": 1,
   "bio": "Richard Courant was a German American mathematician. *--Wikipedia*",
-  "photo_url": "https://covers.openlibrary.org/a/id/12768982-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/richard-courant.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL68351A",
   "birth_year": 1888,
   "death_year": 1972,
@@ -28,5 +28,7 @@
     {
       "name": "Fellow of the American Physical Society"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/12768982-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:37+00:00"
 }

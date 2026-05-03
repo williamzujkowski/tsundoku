@@ -6,8 +6,8 @@
   "slug": "the-death-of-the-author",
   "tags": [],
   "description": "Roland Barthes’s 1967 essay, \"The Death of the Author,\" argues against the traditional practice of incorporating the intentions and biographical context of an author into textual interpretation because of the resultant limitations imposed on a text. Hailing \"the birth of the reader,\" Barthes posits a new abstract notion of the reader as the conceptual space containing all the text’s possible meanings. The essay has become one of the most cited works in literary criticism and is a key text for an...",
-  "cover_url": "https://books.google.com/books/content?id=GX1aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=GX1aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-death-of-the-author.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-death-of-the-author.jpg",
   "isbn": "9780429818868",
   "first_published": 2018,
   "pages": 100,
@@ -21,10 +21,31 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780429818851",
-  "representative_edition_key": "/books/OL40298784M"
+  "representative_edition_key": "/books/OL40298784M",
+  "cover_url_source": "https://books.google.com/books/content?id=GX1aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=GX1aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:29+00:00",
+  "subject_facet": [
+    "Arts, philosophy",
+    "Collections",
+    "Literature",
+    "P99",
+    "Performing arts",
+    "Pn37 .b29 1977b",
+    "open_syllabus_project"
+  ],
+  "ddc": [
+    "809"
+  ],
+  "lcc": [
+    "PN"
+  ]
 }

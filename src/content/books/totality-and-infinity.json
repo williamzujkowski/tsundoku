@@ -11,8 +11,8 @@
   "first_published": 1961,
   "language": "eng",
   "description": "First published in English by Duquesne in 1969, this has become one of the classics of modern philosophy.",
-  "cover_url": "https://books.google.com/books/content?id=JNAJngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=JNAJngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/totality-and-infinity.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/totality-and-infinity.jpg",
   "isbn": "0820702455",
   "pages": 314,
   "google_books_url": "http://books.google.com/books?id=JNAJngEACAAJ&dq=Totality+and+Infinity+Emmanuel+Levinas&hl=&source=gbs_api",
@@ -73,5 +73,8 @@
   "original_language": "fre",
   "original_title": "Totalité et infini essai sur l'extériorité",
   "representative_edition_key": "/books/OL15995585M",
-  "wikidata_qid": "Q3532704"
+  "wikidata_qid": "Q3532704",
+  "cover_url_source": "https://books.google.com/books/content?id=JNAJngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=JNAJngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:40+00:00"
 }

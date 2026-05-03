@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "« The Perpetual Curate » by Margaret Oliphant is a classic Victorian novel that offers a nuanced portrait of church life and the challenges faced by English clergy in the 19th century. The story revolves around Frank Wentworth, the young perpetual curate of Carlingford, a fictional small town where religious and social tensions simmer beneath the surface. As a clergyman, Frank is dedicated to his parishioners and committed to his spiritual duties, but he finds himself entangled in a web of famil",
-  "cover_url": "https://books.google.com/books/content?id=WGyHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-perpetual-curate.jpg",
   "isbn": "9782322535385",
   "first_published": 1864,
   "pages": 686,
@@ -49,5 +49,7 @@
   "editions_count": 47,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55323767M"
+  "representative_edition_key": "/books/OL55323767M",
+  "cover_url_source": "https://books.google.com/books/content?id=WGyHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:19+00:00"
 }

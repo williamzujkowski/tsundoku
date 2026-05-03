@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8155661-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8155661-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tempest.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tempest.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362699W",
   "first_published": 1611,
   "language": "eng",
@@ -374,5 +374,8 @@
   "wikidata_qid": "Q86440",
   "original_title": "The Tempest",
   "original_language": "eng",
-  "original_publisher": "Edward Blunt"
+  "original_publisher": "Edward Blunt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8155661-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8155661-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:38+00:00"
 }

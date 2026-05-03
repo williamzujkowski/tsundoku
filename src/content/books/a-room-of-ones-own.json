@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-room-of-ones-own",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6559057-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6559057-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-room-of-ones-own.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-room-of-ones-own.jpg",
   "open_library_url": "https://openlibrary.org/works/OL39379W",
   "first_published": 1929,
   "language": "eng",
@@ -145,5 +145,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6559057-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6559057-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:34+00:00"
 }

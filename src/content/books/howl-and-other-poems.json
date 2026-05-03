@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/662901-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/662901-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/howl-and-other-poems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/howl-and-other-poems.jpg",
   "open_library_url": "https://openlibrary.org/works/OL102483W",
   "first_published": 1956,
   "language": "eng",
@@ -47,5 +47,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38807755M"
+  "representative_edition_key": "/books/OL38807755M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/662901-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/662901-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:11+00:00"
 }

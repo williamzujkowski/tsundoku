@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "For generations, four clans of wild cats have shared the forest. When their warrior code is threatened by mysterious deaths, a house cat named Rusty may turn out to be the bravest warrior of all.",
-  "cover_url": "https://books.google.com/books/content?id=F_acEmeuf9sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/summer.jpg",
   "isbn": "9780061284205",
   "first_published": 2003,
   "pages": 292,
@@ -72,5 +72,7 @@
   },
   "editions_count": 48,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9244352M"
+  "representative_edition_key": "/books/OL9244352M",
+  "cover_url_source": "https://books.google.com/books/content?id=F_acEmeuf9sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:18+00:00"
 }

@@ -8,8 +8,8 @@
     "biography",
     "memoir"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11328078-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11328078-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/between-the-world-and-me.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/between-the-world-and-me.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17201654W",
   "first_published": 2015,
   "language": "eng",
@@ -119,5 +119,8 @@
   "representative_edition_key": "/books/OL26378030M",
   "wikidata_qid": "Q20669329",
   "original_language": "eng",
-  "original_publisher": "Spiegel & Grau"
+  "original_publisher": "Spiegel & Grau",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11328078-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11328078-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:16+00:00"
 }

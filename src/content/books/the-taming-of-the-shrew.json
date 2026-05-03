@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7889534-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7889534-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-taming-of-the-shrew.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-taming-of-the-shrew.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362690W",
   "first_published": 1623,
   "language": "eng",
@@ -267,5 +267,8 @@
   "wikidata_qid": "Q332387",
   "original_title": "The Taming of the Shrew",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7889534-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7889534-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:32+00:00"
 }

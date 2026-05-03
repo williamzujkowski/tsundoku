@@ -11,8 +11,8 @@
   "first_published": 1929,
   "language": "eng",
   "description": "Originally published: London: Macmillan, 1933.",
-  "cover_url": "https://books.google.com/books/content?id=3VVAabOTQcgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=3VVAabOTQcgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-winding-stair.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-winding-stair.jpg",
   "isbn": "9781416589921",
   "pages": 178,
   "google_books_url": "http://books.google.com/books?id=3VVAabOTQcgC&dq=The+Winding+Stair+W.B.+Yeats&hl=&source=gbs_api",
@@ -36,5 +36,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24412311M"
+  "representative_edition_key": "/books/OL24412311M",
+  "cover_url_source": "https://books.google.com/books/content?id=3VVAabOTQcgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=3VVAabOTQcgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:03+00:00"
 }

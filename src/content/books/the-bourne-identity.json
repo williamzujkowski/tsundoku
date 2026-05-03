@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Bourne Identity is a 1980 spy fiction thriller novel by Robert Ludlum that tells the story of Jason Bourne, a man with remarkable survival abilities who has retrograde amnesia, and must seek to discover his true identity. In the process, he must also determine why several shadowy groups, a professional assassin, and the CIA want him dead. It is the first novel of the original Bourne Trilogy, which also includes The Bourne Supremacy and The Bourne Ultimatum.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ludlum_-_The_Bourne_Identity_Coverart.png/120px-Ludlum_-_The_Bourne_Identity_Coverart.png",
+  "cover_url": "/tsundoku/cached/covers/the-bourne-identity.png",
   "isbn": "9780553260113",
   "ddc": [
     "813.54"
@@ -48,5 +48,7 @@
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL22469633M"
+  "representative_edition_key": "/books/OL22469633M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ludlum_-_The_Bourne_Identity_Coverart.png/120px-Ludlum_-_The_Bourne_Identity_Coverart.png",
+  "cover_cached_at": "2026-05-03T01:59:06+00:00"
 }

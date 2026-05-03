@@ -9,8 +9,8 @@
   "first_published": 2023,
   "language": "eng",
   "description": "An authoritative new edition of the fourth volume in Marcel Proust's epic masterwork, In Search of Lost Time series Marcel Proust’s monumental seven-part novel In Search of Lost Time is considered by many to be the greatest novel of the twentieth century. The fourth volume, Sodom and Gomorrah, is notable for its pioneering discussion of homosexuality. After its publication, Colette wrote to Proust, “No one has written pages such as these on homosexuals, no one!” This edition is edited and annota...",
-  "cover_url": "https://books.google.com/books/content?id=hZQwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=hZQwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/sodom-and-gomorrah.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sodom-and-gomorrah.jpg",
   "isbn": "9780300189636",
   "pages": 610,
   "google_books_url": "https://play.google.com/store/books/details?id=hZQwEAAAQBAJ&source=gbs_api",
@@ -23,8 +23,28 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL54747938M"
+  "representative_edition_key": "/books/OL54747938M",
+  "cover_url_source": "https://books.google.com/books/content?id=hZQwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=hZQwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:11+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Ficción",
+    "Fiction",
+    "Fiction, general",
+    "Novela autobiográfica",
+    "Obsessive-compulsive disorder",
+    "Social conditions",
+    "Social life and customs",
+    "Vida social y costumbres",
+    "Villages"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

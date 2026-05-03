@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=XdwpAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/progress-and-poverty.jpg",
   "first_published": 1678,
   "pages": 600,
   "google_books_url": "https://play.google.com/store/books/details?id=XdwpAAAAYAAJ&source=gbs_api",
@@ -356,5 +356,7 @@
   "first_edition_isbn": "9780231939522",
   "representative_edition_key": "/books/OL8624858M",
   "wikidata_qid": "Q20566823",
-  "original_title": "Taith y pererin i'r teulu"
+  "original_title": "Taith y pererin i'r teulu",
+  "cover_url_source": "https://books.google.com/books/content?id=XdwpAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:47+00:00"
 }

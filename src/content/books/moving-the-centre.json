@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "moving-the-centre",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4628300-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4628300-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/moving-the-centre.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/moving-the-centre.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7972198W",
   "first_published": 1992,
   "language": "eng",
@@ -37,5 +37,8 @@
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL17349700M"
+  "representative_edition_key": "/books/OL17349700M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4628300-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4628300-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:27+00:00"
 }

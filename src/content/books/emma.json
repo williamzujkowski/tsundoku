@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "emma",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9278312-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9278312-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/emma.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/emma.jpg",
   "open_library_url": "https://openlibrary.org/works/OL66513W",
   "first_published": 1815,
   "language": "eng",
@@ -257,5 +257,8 @@
   "original_title": "Emma",
   "original_language": "eng",
   "first_published_circa": false,
-  "original_publisher": "John Murray"
+  "original_publisher": "John Murray",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9278312-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9278312-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:57+00:00"
 }

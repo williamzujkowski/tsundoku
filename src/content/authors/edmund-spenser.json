@@ -3,7 +3,7 @@
   "slug": "edmund-spenser",
   "book_count": 2,
   "bio": "Edmund Spenser was an English poet best known for The Faerie Queene, an epic poem and fantastical allegory celebrating the Tudor dynasty and Elizabeth I. He is recognized as one of the premier craftsmen of nascent Modern English verse, and he is considered one of the great poets in the English language.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Edmund_Spenser_oil_painting.JPG/400px-Edmund_Spenser_oil_painting.JPG",
+  "photo_url": "/tsundoku/cached/authors/edmund-spenser.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edmund_Spenser",
   "open_library_url": "https://openlibrary.org/authors/OL116412A",
   "birth_year": 1552,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q4352055",
   "viaf_id": "100170015",
-  "ol_author_key": "/authors/OL116412A"
+  "ol_author_key": "/authors/OL116412A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Edmund_Spenser_oil_painting.JPG/400px-Edmund_Spenser_oil_painting.JPG",
+  "photo_cached_at": "2026-05-03T02:57:32+00:00"
 }

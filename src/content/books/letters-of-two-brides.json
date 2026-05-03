@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "In \"Letters of Two Brides,\" Honoré de Balzac presents a fascinating epistolary novel that delves into the complexities of love, marriage, and social dynamics in 19th-century France. The narrative unfolds through a correspondence between two brides, whose differing perspectives illuminate the constraints of societal expectations on women. Balzac's literary style is marked by psychological realism and acute social observation, embracing the nuances of human emotions against the backdrop of the bur",
-  "cover_url": "https://books.google.com/books/content?id=llqLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/letters-of-two-brides.jpg",
   "first_published": 2002,
   "pages": 239,
   "google_books_url": "https://play.google.com/store/books/details?id=llqLEAAAQBAJ&source=gbs_api",
@@ -28,9 +28,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9737625M"
+  "representative_edition_key": "/books/OL9737625M",
+  "cover_url_source": "https://books.google.com/books/content?id=llqLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:21+00:00",
+  "lcc": [
+    "P"
+  ]
 }

@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "death-comes-for-the-archbishop",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6833506-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6833506-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/death-comes-for-the-archbishop.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/death-comes-for-the-archbishop.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12832W",
   "first_published": 1732,
   "language": "eng",
@@ -99,5 +99,8 @@
   "editions_count": 339,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46710142M"
+  "representative_edition_key": "/books/OL46710142M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6833506-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6833506-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:50+00:00"
 }

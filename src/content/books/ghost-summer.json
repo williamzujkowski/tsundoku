@@ -7,8 +7,8 @@
   "tags": [
     "horror"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8576725-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8576725-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ghost-summer.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ghost-summer.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19702123W",
   "first_published": 2015,
   "description": "\"In her debut collection of short fiction, Due takes us to Gracetown, a small Florida town that has both literal and figurative ghost; into future scenarios that seem all too real; and provides empathetic portraits of those whose lives are touched by Otherness\"--Amazon.com.",
@@ -36,10 +36,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781607014614",
-  "representative_edition_key": "/books/OL26915357M"
+  "representative_edition_key": "/books/OL26915357M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8576725-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8576725-L.jpg",
+  "cover_cached_at": "2026-05-03T01:17:31+00:00",
+  "ddc": [
+    "808.8387"
+  ]
 }

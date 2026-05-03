@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "linear-algebra-done-right",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/246056-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/246056-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/linear-algebra-done-right.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/linear-algebra-done-right.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8059441W",
   "first_published": 2004,
   "language": "eng",
@@ -49,5 +49,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780387982588",
-  "representative_edition_key": "/books/OL35792181M"
+  "representative_edition_key": "/books/OL35792181M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/246056-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/246056-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:40+00:00"
 }

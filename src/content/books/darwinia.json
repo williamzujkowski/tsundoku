@@ -8,8 +8,8 @@
     "sci-fi",
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8128329-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8128329-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/darwinia.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/darwinia.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8339326W",
   "first_published": 1998,
   "language": "eng",
@@ -53,5 +53,8 @@
   "representative_edition_key": "/books/OL8053734M",
   "wikidata_qid": "Q3016630",
   "original_title": "Darwinia",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8128329-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8128329-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:33+00:00"
 }

@@ -8,13 +8,26 @@
     "computing"
   ],
   "description": "This book offers a systematic explanation of cybersecurity protection of electricity supply facilities, including discussion of related costs, relevant standards, and recent solutions. The author explains the current state of cybersecurity in the electricity market, and cybersecurity standards that apply in that sector. He then offers a systematic approach to cybersecurity management, including new methods of cybersecurity assessment, cost evaluation and comprehensive defence. This monograph is ...",
-  "cover_url": "https://books.google.com/books/content?id=Q1KsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Q1KsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/information-security-economics-and-beyond.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/information-security-economics-and-beyond.jpg",
   "isbn": "9783030195380",
   "first_published": 2019,
   "pages": 221,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=Q1KsDwAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=Q1KsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Q1KsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:51+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA76.9"
+  ]
 }

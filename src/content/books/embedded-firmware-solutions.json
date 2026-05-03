@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Embedded Firmware Solutions is the perfect introduction and daily-use field guide--for the thousands of firmware designers, hardware engineers, architects, managers, and developers--to Intel’s new firmware direction (including Quark coverage), showing how to integrate Intel® Architecture designs into their plans. Featuring hands-on examples and exercises using Open Source codebases, like Coreboot and EFI Development Kit (tianocore) and Chromebook, this is the first book that combines a timely an",
-  "cover_url": "https://books.google.com/books/content?id=qVMnCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/embedded-firmware-solutions.jpg",
   "isbn": "9781484200704",
   "first_published": 2015,
   "pages": 215,
@@ -28,8 +28,14 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28356626M"
+  "representative_edition_key": "/books/OL28356626M",
+  "cover_url_source": "https://books.google.com/books/content?id=qVMnCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:47+00:00",
+  "ddc": [
+    "005"
+  ]
 }

@@ -3,7 +3,7 @@
   "slug": "edsger-w-dijkstra",
   "book_count": 3,
   "bio": "Edsger Wybe Dijkstra was a Dutch computer scientist, programmer, mathematician, and science essayist.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/400px-Edsger_Wybe_Dijkstra.jpg",
+  "photo_url": "/tsundoku/cached/authors/edsger-w-dijkstra.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra",
   "open_library_url": "https://openlibrary.org/authors/OL1004383A",
   "birth_year": 1930,
@@ -46,5 +46,7 @@
       "name": "C&C Prize",
       "year": 2002
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/400px-Edsger_Wybe_Dijkstra.jpg",
+  "photo_cached_at": "2026-05-03T02:57:34+00:00"
 }

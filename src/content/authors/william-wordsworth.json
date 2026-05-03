@@ -3,7 +3,7 @@
   "slug": "william-wordsworth",
   "book_count": 3,
   "bio": "William Wordsworth was an English Romantic poet who, with Samuel Taylor Coleridge, helped to launch the Romantic Age in English literature with their joint publication Lyrical Ballads (1798).",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/400px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg",
+  "photo_url": "/tsundoku/cached/authors/william-wordsworth.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Wordsworth",
   "open_library_url": "https://openlibrary.org/authors/OL26159A",
   "birth_year": 1770,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q45546",
   "viaf_id": "35723133",
-  "ol_author_key": "/authors/OL26159A"
+  "ol_author_key": "/authors/OL26159A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/400px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg",
+  "photo_cached_at": "2026-05-03T03:21:04+00:00"
 }

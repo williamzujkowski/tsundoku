@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/604095-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/604095-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/maelstrom.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/maelstrom.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8514685W",
   "first_published": 2001,
   "language": "eng",
@@ -56,5 +56,8 @@
   "series": {
     "name": "Rifters",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/604095-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/604095-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:28+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "probability-theory",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/302683-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/302683-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/probability-theory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/probability-theory.jpg",
   "open_library_url": "https://openlibrary.org/works/OL146759W",
   "first_published": 1950,
   "language": "eng",
@@ -50,5 +50,8 @@
   "representative_edition_key": "/books/OL13305286M",
   "wikidata_qid": "Q114946803",
   "original_title": "An introduction to probability theory and its applications",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/302683-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/302683-L.jpg",
+  "cover_cached_at": "2026-05-03T01:45:40+00:00"
 }

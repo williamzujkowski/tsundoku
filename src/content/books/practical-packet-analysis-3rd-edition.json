@@ -9,14 +9,14 @@
   ],
   "reading_status": "read",
   "description": "It’s easy to capture packets with Wireshark, the world’s most popular network sniffer, whether off the wire or from the air. But how do you use those packets to understand what’s happening on your network? Updated to cover Wireshark 2.x, the third edition of Practical Packet Analysis will teach you to make sense of your packet captures so that you can better troubleshoot network problems. You’ll find added coverage of IPv6 and SMTP, a new chapter on the powerful command line packet analyzers tcp",
-  "cover_url": "https://books.google.com/books/content?id=AwgvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-packet-analysis-3rd-edition.jpg",
   "isbn": "9781593278298",
   "first_published": 2017,
   "pages": 370,
   "google_books_url": "https://play.google.com/store/books/details?id=AwgvDwAAQBAJ&source=gbs_api",
   "language": "eng",
   "copyright_status": "in_copyright",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1984290-L.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/practical-packet-analysis-3rd-edition.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16948657W",
   "lcc": [
     "TK-5105.55000000.S265 2007"
@@ -29,8 +29,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL8871441M"
+  "representative_edition_key": "/books/OL8871441M",
+  "cover_url_source": "https://books.google.com/books/content?id=AwgvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1984290-L.jpg",
+  "cover_cached_at": "2026-05-03T01:45:11+00:00",
+  "ddc": [
+    "005"
+  ]
 }

@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8747820-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8747820-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-nickel-boys.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-nickel-boys.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20072032W",
   "first_published": 2019,
   "language": "eng",
@@ -61,9 +61,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29450823M"
+  "representative_edition_key": "/books/OL29450823M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8747820-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8747820-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:52+00:00",
+  "ddc": [
+    "900"
+  ]
 }

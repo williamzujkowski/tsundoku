@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-satanic-verses",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8312209-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8312209-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-satanic-verses.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-satanic-verses.jpg",
   "open_library_url": "https://openlibrary.org/works/OL457175W",
   "first_published": 1988,
   "language": "eng",
@@ -91,5 +91,8 @@
   "wikidata_qid": "Q191288",
   "original_title": "The Satanic Verses",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8312209-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8312209-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:00+00:00"
 }

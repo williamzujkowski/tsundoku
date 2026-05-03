@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Known for his keen observations and finely drawn characters, Honore de Balzac is regarded as one of the forerunners of the literary realism movement that swept Europe in the nineteenth century. A Woman of Thirty offers an unflinching look at the layers of social oppression that dictated the course of many women's lives during the era.",
-  "cover_url": "https://books.google.com/books/content?id=jHk_t_xVkNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-woman-of-thirty.jpg",
   "isbn": "9781775453598",
   "first_published": 2011,
   "pages": 236,
@@ -27,8 +27,21 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL58529722M"
+  "representative_edition_key": "/books/OL58529722M",
+  "cover_url_source": "https://books.google.com/books/content?id=jHk_t_xVkNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:04+00:00",
+  "subject_facet": [
+    "Classic Literature",
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Fiction, romance, general"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

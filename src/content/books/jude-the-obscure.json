@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "jude-the-obscure",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12973053-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12973053-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/jude-the-obscure.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/jude-the-obscure.jpg",
   "open_library_url": "https://openlibrary.org/works/OL44986W",
   "first_published": 1895,
   "language": "eng",
@@ -219,5 +219,8 @@
   "representative_edition_key": "/books/OL27057800M",
   "wikidata_qid": "Q1248773",
   "original_title": "The Simpletons",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12973053-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12973053-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:17+00:00"
 }

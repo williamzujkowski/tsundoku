@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/222747-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/222747-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/birthday-letters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/birthday-letters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16468873W",
   "first_published": 1998,
   "language": "eng",
@@ -65,5 +65,8 @@
   "wikidata_qid": "Q4917058",
   "original_title": "Birthday Letters",
   "original_language": "eng",
-  "original_publisher": "Faber & Faber"
+  "original_publisher": "Faber & Faber",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/222747-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/222747-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:22+00:00"
 }

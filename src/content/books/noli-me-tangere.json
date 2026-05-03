@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=6fgNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6fgNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/noli-me-tangere.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/noli-me-tangere.jpg",
   "first_published": 1887,
   "pages": 310,
   "google_books_url": "http://books.google.com/books?id=6fgNAQAAMAAJ&dq=Noli+Me+Tangere+Unknown&hl=&source=gbs_api",
@@ -97,5 +97,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL32295051M",
   "wikidata_qid": "Q568299",
-  "original_title": "Nōlī mē tangere"
+  "original_title": "Nōlī mē tangere",
+  "cover_url_source": "https://books.google.com/books/content?id=6fgNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6fgNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:53+00:00"
 }

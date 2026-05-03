@@ -9,8 +9,8 @@
   "first_published": 1999,
   "language": "eng",
   "description": "A remote 18th-century Hungarian castle is the setting for a dramatic meeting. Forty-one years after a tragic event two former friends must confront each other in a devastating bid to lay the past to rest. Betrayal, love, truth and friendship all come to the fore in this unforgettable play based on Sándor Márai's bestselling novel. Embers premiered at the Duke of York's Theatre in London's West End in February 2006.",
-  "cover_url": "https://books.google.com/books/content?id=BdrdAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=BdrdAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/embers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/embers.jpg",
   "isbn": "9780571318834",
   "pages": 62,
   "google_books_url": "https://play.google.com/store/books/details?id=BdrdAwAAQBAJ&source=gbs_api",
@@ -74,5 +74,8 @@
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "El último encuentro",
-  "representative_edition_key": "/books/OL44160736M"
+  "representative_edition_key": "/books/OL44160736M",
+  "cover_url_source": "https://books.google.com/books/content?id=BdrdAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=BdrdAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:48+00:00"
 }

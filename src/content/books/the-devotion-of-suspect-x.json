@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-devotion-of-suspect-x",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6677764-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6677764-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-devotion-of-suspect-x.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-devotion-of-suspect-x.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15637392W",
   "first_published": 2011,
   "language": "eng",
@@ -29,10 +29,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781429992312",
-  "representative_edition_key": "/books/OL31871471M"
+  "representative_edition_key": "/books/OL31871471M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6677764-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6677764-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:41+00:00",
+  "ddc": [
+    "808.83872"
+  ]
 }

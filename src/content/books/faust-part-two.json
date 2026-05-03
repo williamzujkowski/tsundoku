@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/160327-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/160327-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/faust-part-two.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/faust-part-two.jpg",
   "open_library_url": "https://openlibrary.org/works/OL382711W",
   "first_published": 1800,
   "language": "eng",
@@ -277,5 +277,8 @@
   "representative_edition_key": "/books/OL7384196M",
   "wikidata_qid": "Q29478",
   "original_title": "Faust",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/160327-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/160327-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:23+00:00"
 }

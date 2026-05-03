@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "A League of Nations official has an affair with a Genevan woman through which he attempts to achieve the Absolute. A love story, it is also a satiric commentary on middle class manners.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/belle-du-seigneur.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/belle-du-seigneur.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780670821877",
@@ -51,12 +51,15 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "original_language": "fre",
   "original_title": "Belle du seigneur.",
   "representative_edition_key": "/books/OL7642762M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/e5/Belle_du_Seigneur.jpeg",
+  "cover_cached_at": "2026-05-03T00:59:33+00:00"
 }

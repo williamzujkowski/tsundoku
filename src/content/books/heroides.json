@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/341046-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/341046-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/heroides.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/heroides.jpg",
   "open_library_url": "https://openlibrary.org/works/OL97776W",
   "first_published": 1502,
   "language": "eng",
@@ -127,5 +127,8 @@
   "representative_edition_key": "/books/OL12291603M",
   "wikidata_qid": "Q1236672",
   "original_title": "Heroides",
-  "original_language": "lat"
+  "original_language": "lat",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/341046-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/341046-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:28+00:00"
 }

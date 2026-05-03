@@ -8,8 +8,8 @@
     "philosophy"
   ],
   "description": "The first book to examine in detail Benjamin's Theses on the Philosophy of History Benjamin's collection of fragments, Theses on the Philosophy of History, play a determining role in how Benjamin's thought is understood, as well as in the debate about the interplay between politics, history and time. Walter Benjamin and History is the first volume to give access to the themes and problems raised by the Theses, providing valuable exegetical and historical work on the text. The essays collected he...",
-  "cover_url": "https://books.google.com/books/content?id=N7evAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=N7evAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/theses-on-the-philosophy-of-history.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/theses-on-the-philosophy-of-history.jpg",
   "isbn": "9781847143303",
   "first_published": 2005,
   "pages": 269,
@@ -29,10 +29,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781847143303",
-  "representative_edition_key": "/books/OL36187507M"
+  "representative_edition_key": "/books/OL36187507M",
+  "cover_url_source": "https://books.google.com/books/content?id=N7evAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=N7evAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:19:02+00:00",
+  "ddc": [
+    "100"
+  ]
 }

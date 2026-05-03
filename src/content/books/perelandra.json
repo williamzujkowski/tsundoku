@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "perelandra",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11532797-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11532797-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/perelandra.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/perelandra.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21171858W",
   "first_published": 1943,
   "language": "eng",
@@ -90,5 +90,8 @@
   "series": {
     "name": "The Space Trilogy",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11532797-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11532797-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:42+00:00"
 }

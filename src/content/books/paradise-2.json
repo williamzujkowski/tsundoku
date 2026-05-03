@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "paradise-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/488279-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/488279-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/paradise-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/paradise-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3958403W",
   "first_published": 1994,
   "language": "eng",
@@ -54,5 +54,8 @@
   "wikidata_qid": "Q20875782",
   "original_title": "Paradise",
   "original_language": "eng",
-  "original_publisher": "Chatto & Windus"
+  "original_publisher": "Chatto & Windus",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/488279-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/488279-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:45+00:00"
 }

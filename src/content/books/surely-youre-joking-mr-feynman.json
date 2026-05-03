@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9274698-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9274698-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/surely-youre-joking-mr-feynman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/surely-youre-joking-mr-feynman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL514629W",
   "first_published": 1985,
   "language": "eng",
@@ -83,5 +83,8 @@
   "wikidata_qid": "Q2743592",
   "original_title": "“Surely You're Joking, Mr. Feynman!”",
   "original_language": "eng",
-  "original_publisher": "W. W. Norton & Company"
+  "original_publisher": "W. W. Norton & Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9274698-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9274698-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:25+00:00"
 }

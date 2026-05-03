@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"Indiscretions of Archie\" by P. G. Wodehouse is a humorous novel written in the early 20th century. The story revolves around Archie Moffam, an Englishman who travels to America, falls in love with a hotelier's daughter named Lucille, and faces the subsequent challenges posed by his disapproving father-in-law, Mr. Brewster. As Archie navigates the complexities of his newfound marriage and the expectations of his wealthy in-laws, readers are treated to a comedic exploration of misunderstandings, ",
-  "cover_url": "https://books.google.com/books/content?id=R3xlRY8l_fIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/indiscretions-of-archie.jpg",
   "isbn": "9781442915039",
   "pages": 302,
   "google_books_url": "http://books.google.com/books?id=R3xlRY8l_fIC&dq=intitle:Indiscretions+of+Archie&hl=&source=gbs_api",
@@ -49,5 +49,7 @@
   "editions_count": 37,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28445809M"
+  "representative_edition_key": "/books/OL28445809M",
+  "cover_url_source": "https://books.google.com/books/content?id=R3xlRY8l_fIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:48+00:00"
 }

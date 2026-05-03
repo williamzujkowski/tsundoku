@@ -3,7 +3,7 @@
   "slug": "thomas-hobbes",
   "book_count": 3,
   "bio": "Thomas Hobbes was an English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory. He is considered to be one of the founders of modern political philosophy.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/400px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/thomas-hobbes.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
   "open_library_url": "https://openlibrary.org/authors/OL50870A",
   "birth_year": 1588,
@@ -21,5 +21,7 @@
     "empiricism",
     "determinism",
     "legal positivism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/400px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:18:22+00:00"
 }

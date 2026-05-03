@@ -8,8 +8,8 @@
     "historical-fiction",
     "war"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12621906-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/war-and-peace-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/war-and-peace-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL267171W",
   "first_published": 1864,
   "language": "eng",
@@ -206,5 +206,8 @@
   "wikidata_qid": "Q161531",
   "original_title": "War and Peace",
   "original_language": "rus",
-  "original_publisher": "The Russian Messenger"
+  "original_publisher": "The Russian Messenger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12621906-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:28+00:00"
 }

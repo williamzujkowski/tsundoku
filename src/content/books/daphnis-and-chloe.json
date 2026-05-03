@@ -8,8 +8,8 @@
     "fantasy",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8246251-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8246251-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/daphnis-and-chloe.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/daphnis-and-chloe.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2156811W",
   "first_published": 1717,
   "language": "eng",
@@ -126,5 +126,8 @@
   "original_title": "Les amours pastorales de Daphnis et Chloé",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL28587999M",
-  "wikidata_qid": "Q318333"
+  "wikidata_qid": "Q318333",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8246251-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8246251-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:27+00:00"
 }

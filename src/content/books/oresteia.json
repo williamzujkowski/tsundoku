@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6548168-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6548168-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/oresteia.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/oresteia.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10328829W",
   "first_published": 1845,
   "language": "eng",
@@ -51,5 +51,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL31016238M"
+  "representative_edition_key": "/books/OL31016238M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6548168-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6548168-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:26+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Devil'S Pool by George Sand, first published in 1894, is a rare manuscript, the original residing in one of the great libraries of the world. This book is a reproduction of that original, which has been scanned and cleaned by state-of-the-art publishing tools for better readability and enhanced appreciation. Restoration Editors' mission is to bring long out of print manuscripts back to life. Some smudges, annotations or unclear text may still exist, due to permanent damage to the original wo",
-  "cover_url": "https://books.google.com/books/content?id=Bv7k6oJ3mE8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-devil-s-pool.jpg",
   "first_published": 1892,
   "pages": 208,
   "google_books_url": "https://play.google.com/store/books/details?id=Bv7k6oJ3mE8C&source=gbs_api",
@@ -93,5 +93,7 @@
   "original_language": "fre",
   "original_title": "La mare au diable",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11977511M"
+  "representative_edition_key": "/books/OL11977511M",
+  "cover_url_source": "https://books.google.com/books/content?id=Bv7k6oJ3mE8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:39+00:00"
 }

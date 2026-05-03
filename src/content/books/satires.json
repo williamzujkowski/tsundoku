@@ -8,8 +8,8 @@
     "poetry",
     "satire"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1814767-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1814767-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/satires.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/satires.jpg",
   "open_library_url": "https://openlibrary.org/works/OL88201W",
   "first_published": 2004,
   "language": "eng",
@@ -45,5 +45,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL25256520M"
+  "representative_edition_key": "/books/OL25256520M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1814767-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1814767-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:12+00:00"
 }

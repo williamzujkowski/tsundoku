@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "ficciones-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10832290-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10832290-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ficciones-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ficciones-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL110971W",
   "first_published": 1945,
   "language": "eng",
@@ -90,5 +90,8 @@
     "philanthropy",
     "speculative fiction",
     "subjective idealism"
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10832290-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10832290-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:31+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Amity Shlaes reclaimed a misunderstood president with her bestselling biography Coolidge. Now she presents an expanded and annotated edition of that president’s masterful memoir. The Autobiography of Calvin Coolidge is as unjustly neglected as Calvin Coolidge himself. The man caricatured as “Silent Cal” was a gifted writer. The New York Times called him “the most literary man who has occupied the White House since 1865.” One biographer wrote that Coolidge’s autobiography “displays a literary gra",
-  "cover_url": "https://books.google.com/books/content?id=-0kQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-autobiography-of-calvin-coolidge.jpg",
   "isbn": "9781504066433",
   "first_published": 2021,
   "pages": 195,
@@ -44,5 +44,7 @@
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9781610171632",
-  "representative_edition_key": "/books/OL36260818M"
+  "representative_edition_key": "/books/OL36260818M",
+  "cover_url_source": "https://books.google.com/books/content?id=-0kQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:28+00:00"
 }

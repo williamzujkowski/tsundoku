@@ -3,7 +3,7 @@
   "slug": "erskine-childers",
   "book_count": 1,
   "bio": "Robert Erskine Childers, the author of the influential novel <i>The Riddle of the Sands</i> and an Irish nationalist who smuggled guns to Ireland in his sailing yacht <i>Asgard</i> (<a href=https://en.wikipedia.org/wiki/Robert_Erskine_Childers>Wikipedia</a>).",
-  "photo_url": "https://covers.openlibrary.org/a/id/14423639-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/erskine-childers.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL25918A",
   "birth_year": 1870,
   "death_year": 1922,
@@ -21,5 +21,7 @@
       "name": "Distinguished Service Cross",
       "year": 1917
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/14423639-M.jpg",
+  "photo_cached_at": "2026-05-03T00:42:41+00:00"
 }

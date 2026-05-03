@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Jungle Upton Sinclair - The Jungle is a 1906 novel written by the American journalist and novelist Upton Sinclair (18781968). Sinclair wrote the novel to portray the harsh conditions and exploited lives of immigrants in the United States in Chicago and similar industrialized cities. However, most readers were more concerned with his exposure of health violations and unsanitary practices in the American meatpacking industry during the early 20th century, based on an investigation he did for a",
-  "cover_url": "https://books.google.com/books/content?id=4W5MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-jungle.jpg",
   "isbn": "9783986478780",
   "first_published": 1905,
   "pages": 393,
@@ -190,5 +190,7 @@
   "representative_edition_key": "/books/OL57576432M",
   "wikidata_qid": "Q260205",
   "original_title": "The Jungle",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=4W5MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:07+00:00"
 }

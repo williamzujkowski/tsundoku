@@ -3,7 +3,7 @@
   "slug": "petronius",
   "book_count": 1,
   "bio": "Gaius Petronius Arbiter was a Roman courtier during the reign of Nero. He is generally believed to be the author of the Satyricon, a satirical novel believed to have been written during the Neronian era. He is one of the most important characters in Henryk Sienkiewicz' historical novel Quo Vadis (1895). Leo Genn portrays him in the 1951 film of the same name.",
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL33452A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/petronius.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Petronius",
   "open_library_url": "https://openlibrary.org/authors/OL33452A",
   "_provenance": {
@@ -17,5 +17,7 @@
     "arbiter elegantiae"
   ],
   "viaf_id": "95155909",
-  "ol_author_key": "/authors/OL33452A"
+  "ol_author_key": "/authors/OL33452A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL33452A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:15+00:00"
 }

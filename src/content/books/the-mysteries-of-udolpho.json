@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "This gothic horror by Radcliffe is considered an evolutionary work between the enlightenment and idealism, as it is an established horror story. Emily, the protagonist is a young woman of mature thoughts and has deep love for the sublimity of nature. The novel pursues her struggle as she tries to resolve her father's teachings of reserve and temperance with the reckless passions of love and fear. Thrilling!",
-  "cover_url": "https://books.google.com/books/content?id=DMrNSmPEolUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mysteries-of-udolpho.jpg",
   "isbn": "9781425046941",
   "first_published": 2006,
   "pages": 382,
@@ -71,5 +71,7 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8501939M"
+  "representative_edition_key": "/books/OL8501939M",
+  "cover_url_source": "https://books.google.com/books/content?id=DMrNSmPEolUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:33+00:00"
 }

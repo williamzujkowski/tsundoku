@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "'What do we seek through millions of pages? Still hopefully turning the pages -- oh, here is Jacob's room.' Who is Jacob Flanders? Virginia Woolf's third novel, published in 1922 alongside James Joyce's Ulysses and T.S. Eliot's The Waste Land, follows this elusive title character from a sunlit childhood on the Cornwall coast to adventures in Cambridge, London, and Athens. Women fall in love with Jacob; young men desire his company and conversation. But Woolf keeps her scornful, charming protagon",
-  "cover_url": "https://books.google.com/books/content?id=wnC9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/jacob-s-room.jpg",
   "isbn": "9780192671837",
   "first_published": 1922,
   "pages": 241,
@@ -111,5 +111,7 @@
   "representative_edition_key": "/books/OL30332702M",
   "wikidata_qid": "Q1677745",
   "original_title": "Jacob's Room",
-  "original_publisher": "Hogarth Press"
+  "original_publisher": "Hogarth Press",
+  "cover_url_source": "https://books.google.com/books/content?id=wnC9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:25:53+00:00"
 }

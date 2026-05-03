@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "The Supreme Anarchists Council is dedicated to overthrowing the world order. To keep their identities a secret, each of the members has been named after a day of the week. Gabriel Syme, an eccentric poet, is recruited by Scotland Yard to infiltrate the group. He tracks down the six other men and manages to win a place on the council. But after a bizarre twist of events, Syme quickly realizes that appearances are never what they seem in the dangerous world of the political underground.",
-  "cover_url": "https://books.google.com/books/content?id=Z6iXSgCSmzwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-man-who-was-thursday.jpg",
   "isbn": "0140183884",
   "first_published": 1908,
   "pages": 196,
@@ -138,5 +138,7 @@
   "wikidata_qid": "Q959816",
   "original_title": "The Man Who Was Thursday",
   "original_language": "eng",
-  "original_publisher": "J. W. Arrowsmith"
+  "original_publisher": "J. W. Arrowsmith",
+  "cover_url_source": "https://books.google.com/books/content?id=Z6iXSgCSmzwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:45+00:00"
 }

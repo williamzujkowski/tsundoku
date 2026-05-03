@@ -6,13 +6,39 @@
   "slug": "fair-play",
   "tags": [],
   "description": "\"So what can happen when Tove Jansson turns her attention to her own favourite subjects, love and work, in the form of this novel about two women, lifelong partners and friends? Expect something philosophically calm - and discreetly radical. Its publication is cause for huge celebration.\" Ali Smith, from her Introduction to Fair Play What mattered most to Tove Jansson, she explained in her eighties, was work and love, a sentiment she echoes in this tender and original novel. Translated for the f...",
-  "cover_url": "https://books.google.com/books/content?id=uLuqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=uLuqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/fair-play.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fair-play.jpg",
   "isbn": "9781908745200",
   "first_published": 2011,
   "pages": 89,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=uLuqEAAAQBAJ&dq=Fair+Play+Tove+Jansson&hl=&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=uLuqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=uLuqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:10+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Female friendship",
+    "Female friendship--fiction",
+    "Fiction",
+    "Fiction, general",
+    "Finland, fiction",
+    "Friendship, fiction",
+    "Pt9875.j37 r4613 2010",
+    "Women artists",
+    "Women artists, fiction",
+    "Women artists--finland--helsinki--fiction"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "works-and-days",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4654872-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4654872-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/works-and-days.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/works-and-days.jpg",
   "open_library_url": "https://openlibrary.org/works/OL602616W",
   "first_published": -700,
   "language": "eng",
@@ -78,5 +78,8 @@
   "original_title": "Opera [et] dies",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7710189M",
-  "wikidata_qid": "Q667285"
+  "wikidata_qid": "Q667285",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4654872-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4654872-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:25+00:00"
 }

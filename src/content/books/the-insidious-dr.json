@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This first novel in Sax Rohmer's series, The Insidious Dr. Fu Manchu combined together previously written short stories into a single story about the dealings of this criminal mastermind. Master poisoner, chemist, member of the \"Yellow Peril\", and wearer of iconographic facial hair, Fu Manchu is \"the greatest genius which the powers of evil have put on the earth for centuries.\" Although his dark purpose is not yet clear, Fu Manchu seems determined to abduct Europe's greatest engineers and take t",
-  "cover_url": "https://books.google.com/books/content?id=jA4tjeg_71EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-insidious-dr.jpg",
   "isbn": "9781775416128",
   "first_published": 1913,
   "pages": 403,
@@ -76,5 +76,7 @@
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL24296880M",
-  "wikidata_qid": "Q19090776"
+  "wikidata_qid": "Q19090776",
+  "cover_url_source": "https://books.google.com/books/content?id=jA4tjeg_71EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:52+00:00"
 }

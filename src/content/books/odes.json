@@ -8,8 +8,8 @@
     "poetry",
     "satire"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243308-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243308-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/odes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/odes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL88216W",
   "first_published": 1635,
   "language": "eng",
@@ -131,5 +131,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL18632625M",
   "wikidata_qid": "Q54645199",
-  "original_publisher": "Harvard University Press"
+  "original_publisher": "Harvard University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243308-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243308-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:52+00:00"
 }

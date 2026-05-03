@@ -9,8 +9,8 @@
   "first_published": 1903,
   "language": "eng",
   "description": "\"First published in 1903, this volume revolutionized philosophy and forever altered the direction of ethical studies. A philosopher's philosopher, G. E. Moore was the idol of the Bloomsbury group, and Lytton Strachey declared that Principia Ethica marked the rebirth of the Age of Reason. G.E. (George Edward) Moore is regarded, along with Bertrand Russell and Ludwig Wittgenstein, as a founder of 20th century analytic philosophy. Moore was appointed a fellow at Trinity College, Cambridge in 1898 a...",
-  "cover_url": "https://books.google.com/books/content?id=t1zbK2Kj3oIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=t1zbK2Kj3oIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/principia-ethica.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/principia-ethica.jpg",
   "isbn": "0760765464",
   "pages": 266,
   "google_books_url": "http://books.google.com/books?id=t1zbK2Kj3oIC&dq=Principia+Ethica+G.E.+Moore&hl=&source=gbs_api",
@@ -62,5 +62,8 @@
   "representative_edition_key": "/books/OL8014494M",
   "wikidata_qid": "Q2344885",
   "original_title": "Principia Ethica",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=t1zbK2Kj3oIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=t1zbK2Kj3oIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:20+00:00"
 }

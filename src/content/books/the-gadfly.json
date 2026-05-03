@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Gadfly is a novel by Irish-born writer Ethel Voynich, published in 1897, set in 1840s Italy under the dominance of Austria, a time of tumultuous revolt and uprisings. The story centres on the life of the protagonist, Arthur Burton. A thread of a tragic relationship between Arthur and his love, Gemma, simultaneously runs through the story. It is a tale of faith, disillusionment, revolution, romance, and heroism.",
-  "cover_url": "https://books.google.com/books/content?id=3BULEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-gadfly.jpg",
   "first_published": 2010,
   "pages": 164,
   "google_books_url": "https://play.google.com/store/books/details?id=3BULEQAAQBAJ&source=gbs_api",
@@ -17,6 +17,16 @@
   "copyright_status": "in_copyright",
   "isbn": "9781310789182",
   "_provenance": {
-    "description": "fix_non_english_v1_wikipedia"
-  }
+    "description": "fix_non_english_v1_wikipedia",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=3BULEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:00+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

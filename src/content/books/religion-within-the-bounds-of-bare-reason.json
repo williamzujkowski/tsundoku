@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8714731-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8714731-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/religion-within-the-bounds-of-bare-reason.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/religion-within-the-bounds-of-bare-reason.jpg",
   "open_library_url": "https://openlibrary.org/works/OL408085W",
   "first_published": 2009,
   "language": "eng",
@@ -42,8 +42,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL15500667M"
+  "representative_edition_key": "/books/OL15500667M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8714731-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8714731-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:13+00:00",
+  "ddc": [
+    "100"
+  ]
 }

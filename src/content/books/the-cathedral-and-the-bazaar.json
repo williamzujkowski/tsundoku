@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/805932-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/805932-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-cathedral-and-the-bazaar.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-cathedral-and-the-bazaar.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6036025W",
   "first_published": 1997,
   "language": "eng",
@@ -66,5 +66,8 @@
   "representative_edition_key": "/books/OL29139003M",
   "wikidata_qid": "Q467363",
   "original_title": "The Cathedral and the Bazaar",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/805932-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/805932-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:01+00:00"
 }

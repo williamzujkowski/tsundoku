@@ -8,8 +8,8 @@
     "adventure",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/911114-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/911114-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-stars-my-destination.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-stars-my-destination.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1819353W",
   "first_published": 1956,
   "language": "eng",
@@ -73,5 +73,8 @@
       "name": "Prometheus Award - Hall of Fame",
       "year": 1988
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/911114-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/911114-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:07+00:00"
 }

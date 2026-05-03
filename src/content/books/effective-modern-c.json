@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8513620-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8513620-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/effective-modern-c.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/effective-modern-c.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19547402W",
   "first_published": 2014,
   "description": "Effective Modern C++ follows the proven guideline-based, example-driven format of Scott Meyers' earlier books, but covers entirely new material.\"After I learned the C++ basics, I then learned how to use C++ in production code from Steven's series of Effective C++ books. Effective Modern C++ is the most important how-to book for advice on key guidelines, styles, and idioms to use modern C++ effectively and well. Don't own it yet? Buy this one. Now\".",
@@ -49,8 +49,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL55021549M"
+  "representative_edition_key": "/books/OL55021549M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8513620-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8513620-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:01+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

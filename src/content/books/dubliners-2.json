@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dubliners-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8216412-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8216412-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dubliners-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dubliners-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL86320W",
   "first_published": 1914,
   "language": "eng",
@@ -248,5 +248,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8216412-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8216412-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:48+00:00"
 }

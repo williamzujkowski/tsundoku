@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "americana",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/94789-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/94789-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/americana.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/americana.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1921186W",
   "first_published": 1971,
   "language": "eng",
@@ -60,5 +60,8 @@
   "wikidata_qid": "Q3614114",
   "original_title": "Americana",
   "original_language": "eng",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/94789-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/94789-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:05+00:00"
 }

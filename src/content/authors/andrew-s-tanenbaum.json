@@ -3,7 +3,7 @@
   "slug": "andrew-s-tanenbaum",
   "book_count": 4,
   "bio": "Andrew Stuart Tanenbaum, sometimes referred to by the handle AST, is an American-born Dutch computer scientist and retired professor emeritus of computer science at the Vrije Universiteit Amsterdam in the Netherlands.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Andrew_S._Tanenbaum_2012.jpg/400px-Andrew_S._Tanenbaum_2012.jpg",
+  "photo_url": "/tsundoku/cached/authors/andrew-s-tanenbaum.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum",
   "open_library_url": "https://openlibrary.org/authors/OL236786A",
   "birth_year": 1944,
@@ -36,5 +36,7 @@
       "name": "SIGCSE Outstanding Contribution to Computer Science Education",
       "year": 1997
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Andrew_S._Tanenbaum_2012.jpg/400px-Andrew_S._Tanenbaum_2012.jpg",
+  "photo_cached_at": "2026-05-03T02:51:37+00:00"
 }

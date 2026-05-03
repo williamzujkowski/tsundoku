@@ -3,7 +3,7 @@
   "slug": "steven-strogatz",
   "book_count": 2,
   "bio": "Steven Henry Strogatz is an American mathematician and author, and the Susan and Barton Winokur Distinguished Professor for the Public Understanding of Science and Mathematics at Cornell University.\nHe is known for his work on nonlinear systems, including contributions to the study of synchronization in dynamical systems, and his research in a variety of areas of applied mathematics, including mathematical biology and complex network theory. With Duncan Watts, he developed the Watts–Strogatz model to explain how nodes in a small-world network have in average a small number of degrees of separation.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Steven_Strogatz_in_2025.jpg/400px-Steven_Strogatz_in_2025.jpg",
+  "photo_url": "/tsundoku/cached/authors/steven-strogatz.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Strogatz",
   "open_library_url": "https://openlibrary.org/authors/OL710984A",
   "birth_year": 1959,
@@ -46,5 +46,7 @@
       "name": "George Pólya Prize",
       "year": 2019
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Steven_Strogatz_in_2025.jpg/400px-Steven_Strogatz_in_2025.jpg",
+  "photo_cached_at": "2026-05-03T03:17:09+00:00"
 }

@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=6M5HDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/elizabeth-and-her-german-garden.jpg",
   "isbn": "9783732625093",
   "first_published": 1898,
   "pages": 102,
@@ -82,5 +82,7 @@
   "editions_count": 144,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56125368M"
+  "representative_edition_key": "/books/OL56125368M",
+  "cover_url_source": "https://books.google.com/books/content?id=6M5HDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:44+00:00"
 }

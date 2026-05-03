@@ -3,7 +3,7 @@
   "slug": "arthur-c-clarke",
   "book_count": 7,
   "bio": "Sir Arthur Charles Clarke was an English science fiction writer, science writer, futurist, inventor, undersea explorer, and television series host.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Arthur_C._Clarke_1965_%28cropped%29.jpg/400px-Arthur_C._Clarke_1965_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/arthur-c-clarke.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_C._Clarke",
   "open_library_url": "https://openlibrary.org/authors/OL2623461A",
   "birth_year": 1917,
@@ -119,5 +119,7 @@
       "name": "International Fantasy Award for Best Non Fiction",
       "year": 1952
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Arthur_C._Clarke_1965_%28cropped%29.jpg/400px-Arthur_C._Clarke_1965_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:52:34+00:00"
 }

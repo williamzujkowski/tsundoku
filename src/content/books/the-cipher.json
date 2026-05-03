@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-cipher",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9437902-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9437902-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-cipher.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-cipher.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1885990W",
   "first_published": 1991,
   "language": "eng",
@@ -32,7 +32,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
@@ -50,5 +51,11 @@
       "name": "Bram Stoker Award for Best First Novel",
       "year": 1991
     }
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9437902-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9437902-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:15+00:00",
+  "ddc": [
+    "808.8387"
   ]
 }

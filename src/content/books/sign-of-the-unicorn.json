@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/535149-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/535149-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sign-of-the-unicorn.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sign-of-the-unicorn.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13989W",
   "first_published": 1975,
   "language": "eng",
@@ -69,5 +69,8 @@
   "series": {
     "name": "The Chronicles of Amber",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/535149-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/535149-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:46+00:00"
 }

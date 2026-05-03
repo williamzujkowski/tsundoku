@@ -6,8 +6,8 @@
   "slug": "death-comes-to-pemberley",
   "tags": [],
   "description": "In a marvellous, thrilling re-creation of the world of Pride and Prejudice, P.D. James fuses the work of Jane Austen with her own great talent for writing crime fiction. The year is 1803, and Darcy and Elizabeth have been married for six years. There are now two handsome, healthy sons in the Pemberley nursery, Elizabeth's beloved sister Jane and her husband, Bingley, live within seventeen miles, the ordered and secure life of Pemberley seems unassailable, and Elizabeth's happiness in her marriag...",
-  "cover_url": "https://books.google.com/books/content?id=JDBBJjXPLb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=JDBBJjXPLb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/death-comes-to-pemberley.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/death-comes-to-pemberley.jpg",
   "isbn": "9780307362056",
   "first_published": 2011,
   "pages": 293,
@@ -72,5 +72,8 @@
   },
   "editions_count": 30,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28647608M"
+  "representative_edition_key": "/books/OL28647608M",
+  "cover_url_source": "https://books.google.com/books/content?id=JDBBJjXPLb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=JDBBJjXPLb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:50+00:00"
 }

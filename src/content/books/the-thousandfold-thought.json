@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11729111-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11729111-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-thousandfold-thought.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-thousandfold-thought.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12930144W",
   "first_published": 2006,
   "language": "eng",
@@ -45,5 +45,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL39531062M"
+  "representative_edition_key": "/books/OL39531062M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11729111-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11729111-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:11+00:00"
 }

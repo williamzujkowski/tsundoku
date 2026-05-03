@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This vintage book contains a collection of short stories by American writer Jack London. The stories include: “When God Laughs”, “The Apostate”, “A Wicked Woman”, “Just Meat”, “Created He Them”, “The Chinago”, “Make Westing”, “Semper Idem”, “A Nose For The King”, “The 'Frances Spaight'”, “A Curious Fragment”, “A Piece Of Steak”, etc. John Griffith London (1876 – 1916), commonly known as Jack London, was an American journalist, social activist, and novelist. He was an early pioneer of commercial ",
-  "cover_url": "https://books.google.com/books/content?id=h96dDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/when-god-laughs.jpg",
   "isbn": "9781528787284",
   "first_published": 2019,
   "pages": 124,
@@ -27,8 +27,23 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL59822727M"
+  "representative_edition_key": "/books/OL59822727M",
+  "cover_url_source": "https://books.google.com/books/content?id=h96dDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:47+00:00",
+  "subject_facet": [
+    "American Short stories",
+    "American fiction -- 20th century",
+    "English Short stories",
+    "Fiction, short stories (single author)",
+    "Publishers' advertisements",
+    "Short stories"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

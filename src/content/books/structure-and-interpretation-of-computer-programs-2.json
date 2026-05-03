@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Structure and Interpretation of Computer Programs has had a dramatic impact on computer science curricula over the past decade. This long-awaited revision contains changes throughout the text. There are new implementations of most of the major programming systems in the book, including the interpreters and compilers, and the authors have incorporated many small changes that reflect their experience teaching the course at MIT since the first edition was published. A new theme has been introduced ...",
-  "cover_url": "https://books.google.com/books/content?id=iL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=iL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/structure-and-interpretation-of-computer-programs-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/structure-and-interpretation-of-computer-programs-2.jpg",
   "isbn": "9780262510875",
   "first_published": 1984,
   "pages": 685,
@@ -72,5 +72,8 @@
   "wikidata_qid": "Q1249747",
   "original_title": "Structure and Interpretation of Computer Programs",
   "original_language": "eng",
-  "original_publisher": "The MIT Press"
+  "original_publisher": "The MIT Press",
+  "cover_url_source": "https://books.google.com/books/content?id=iL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=iL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:53:36+00:00"
 }

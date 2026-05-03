@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Alcools is a collection of poems by the French author Guillaume Apollinaire. His first major collection, it was published in 1913.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/alcools.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/alcools.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9783472611929",
@@ -60,9 +60,14 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "description": "fix_non_english_v1_wikipedia"
+    "description": "fix_non_english_v1_wikipedia",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 53,
   "representative_edition_key": "/books/OL22156354M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13766509-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13766509-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:40+00:00"
 }

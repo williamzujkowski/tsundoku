@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "\"Soon to be a major motion picture\"--Cover.",
-  "cover_url": "https://covers.openlibrary.org/b/id/8396638-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8396638-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-gunslinger.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-gunslinger.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9789024526888",
@@ -87,5 +87,8 @@
   "copyright_status": "in_copyright",
   "wikidata_qid": "Q7738537",
   "original_title": "The Gunslinger",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8396638-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8396638-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:15+00:00"
 }

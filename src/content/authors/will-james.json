@@ -6,7 +6,7 @@
   "birth_year": 1892,
   "death_year": 1942,
   "bio": "Novelist, children's writer, artist (1892-1942)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Will%20James%2C%20artist.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/will-james.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -33,5 +33,7 @@
       "name": "Newbery Medal",
       "year": 1927
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Will%20James%2C%20artist.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:20:28+00:00"
 }

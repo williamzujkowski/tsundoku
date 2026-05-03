@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9078103-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9078103-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/oedipus-rex.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/oedipus-rex.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20409541W",
   "first_published": -429,
   "description": "One of the greatest of the classic Greek tragedies and a masterpiece of dramatic construction. Catastrophe ensues when King Oedipus discovers he has inadvertently killed his father and married his mother. Masterly use of dramatic irony greatly intensifies impact of agonizing events. Sophocles' finest play, Oedipus Rex ranks as a towering landmark of Western drama. A selection of the Common Core State Standards Initiative.",
@@ -155,5 +155,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 188,
-  "representative_edition_key": "/books/OL23725592M"
+  "representative_edition_key": "/books/OL23725592M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9078103-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9078103-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:57+00:00"
 }

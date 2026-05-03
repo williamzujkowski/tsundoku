@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4970809-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4970809-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/security-engineering.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/security-engineering.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8229364W",
   "first_published": 2001,
   "language": "eng",
@@ -65,5 +65,8 @@
   "representative_edition_key": "/books/OL29490753M",
   "wikidata_qid": "Q47482099",
   "original_title": "Security Engineering",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4970809-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4970809-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:32+00:00"
 }

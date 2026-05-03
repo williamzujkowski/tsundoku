@@ -9,7 +9,7 @@
     "poetry"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=n6HpeimltpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/songs-of-a-sourdough.jpg",
   "first_published": 1907,
   "pages": 172,
   "google_books_url": "https://play.google.com/store/books/details?id=n6HpeimltpIC&source=gbs_api",
@@ -56,5 +56,7 @@
   "editions_count": 54,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL41544886M"
+  "representative_edition_key": "/books/OL41544886M",
+  "cover_url_source": "https://books.google.com/books/content?id=n6HpeimltpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:38+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "In \"Parisians in the Country,\" Honor√© de Balzac explores the intricate dynamics of French society through the prism of the provincial experience. This novella deftly combines humorous and poignant elements, showcasing Balzac's hallmark vivid characterizations and intricate social observation. Set against the backdrop of rural France, the novel contrasts the bustling life of Paris with the seemingly tranquil, yet often tumultuous, existence of the countryside. Balzac's use of realism serves to i",
-  "cover_url": "https://books.google.com/books/content?id=kynDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/parisians-in-the-country.jpg",
   "first_published": 2003,
   "pages": 269,
   "google_books_url": "https://play.google.com/store/books/details?id=kynDDwAAQBAJ&source=gbs_api",
@@ -28,10 +28,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9781404388482",
-  "representative_edition_key": "/books/OL11648778M"
+  "representative_edition_key": "/books/OL11648778M",
+  "cover_url_source": "https://books.google.com/books/content?id=kynDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:40:18+00:00",
+  "ddc": [
+    "800"
+  ]
 }

@@ -8,13 +8,26 @@
     "computing"
   ],
   "description": "The Gang of Four’s seminal catalog of 23 patterns to solve commonly occurring design problems Patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves. Highly influential, Design Patterns is a modern classic that introduces what patterns are and how they can help you design object-oriented software and provides a catalog of simple solutions for those already programming in at last one object-oriented p...",
-  "cover_url": "https://books.google.com/books/content?id=6oHuKQe3TjQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6oHuKQe3TjQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/design-patterns.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/design-patterns.jpg",
   "isbn": "9780321700698",
   "first_published": 1994,
   "pages": 496,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=6oHuKQe3TjQC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=6oHuKQe3TjQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6oHuKQe3TjQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:07+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "In this sequel to Anne of Green Gables, teenage Anne Shirley becomes a schoolteacher in a small village on Prince Edward Island.",
-  "cover_url": "https://books.google.com/books/content?id=F2ChYwN7lGYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/anne-of-avonlea.jpg",
   "isbn": "1595401091",
   "first_published": 1909,
   "pages": 356,
@@ -104,5 +104,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34162903M"
+  "representative_edition_key": "/books/OL34162903M",
+  "cover_url_source": "https://books.google.com/books/content?id=F2ChYwN7lGYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:55:10+00:00"
 }

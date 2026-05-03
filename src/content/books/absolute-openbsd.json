@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "OpenBSD, the elegant, highly secure Unix-like operating system, is widely used as the basis for critical DNS servers, routers, firewalls, and more. This long-awaited second edition of Absolute OpenBSD maintains author Michael Lucas's trademark straightforward and practical approach that readers have enjoyed for years. You'll learn the intricacies of the platform, the technical details behind certain design decisions, and best practices, with bits of humor sprinkled throughout. This edition has b",
-  "cover_url": "https://books.google.com/books/content?id=PN6Xy9zWAbsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/absolute-openbsd.jpg",
   "isbn": "9781593274764",
   "first_published": 2013,
   "pages": 540,
@@ -37,10 +37,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781593274764",
-  "representative_edition_key": "/books/OL26838904M"
+  "representative_edition_key": "/books/OL26838904M",
+  "cover_url_source": "https://books.google.com/books/content?id=PN6Xy9zWAbsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:09+00:00",
+  "ddc": [
+    "510"
+  ]
 }

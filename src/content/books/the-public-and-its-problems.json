@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Written in 1927, The Public and Its Problems is John Dewey’s defense of the democratic society in the post World War I era. Written largely as a response to Walter Lippmann’s popular Public Opinion and The Phantom Public, Dewey wished to set out his view of the numerous challenges facing the political aspect of democracy, as well as potential remedies. Regarding the problems, Dewey actually agrees with Lippmann. “The Public,” as defined by Dewey, has become confused to its purpose and is easily ",
-  "cover_url": "https://books.google.com/books/content?id=C0_IEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-public-and-its-problems.jpg",
   "first_published": 1927,
   "pages": 179,
   "google_books_url": "https://play.google.com/store/books/details?id=C0_IEAAAQBAJ&source=gbs_api",
@@ -62,5 +62,7 @@
   "wikidata_qid": "Q10855412",
   "original_title": "The Public and its Problems",
   "original_language": "eng",
-  "original_publisher": "Henry Holt and Company"
+  "original_publisher": "Henry Holt and Company",
+  "cover_url_source": "https://books.google.com/books/content?id=C0_IEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:01+00:00"
 }

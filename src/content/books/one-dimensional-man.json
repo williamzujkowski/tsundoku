@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5290889-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5290889-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/one-dimensional-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/one-dimensional-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL98205W",
   "first_published": 1964,
   "language": "eng",
@@ -101,5 +101,8 @@
   "wikidata_qid": "Q914217",
   "original_title": "One-Dimensional Man",
   "original_language": "eng",
-  "original_publisher": "Beacon Press"
+  "original_publisher": "Beacon Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5290889-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5290889-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:09+00:00"
 }

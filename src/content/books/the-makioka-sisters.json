@@ -6,8 +6,8 @@
   "slug": "the-makioka-sisters",
   "tags": [],
   "description": "The novel primarily focuses on the intricacies of the sisters' relationships, their struggles with tradition, modernity, and familial obligations, and their attempts to find suitable husbands for Yukiko, the third sister, who remains unmarried. Yukiko's marriage prospects become a central concern for the family, and much of the plot revolves around their efforts to arrange a suitable match for her despite the challenges posed by societal changes and the family's declining fortunes. Through the l...",
-  "cover_url": "https://books.google.com/books/content?id=E3b9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=E3b9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-makioka-sisters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-makioka-sisters.jpg",
   "first_published": 1948,
   "pages": 694,
   "language": "eng",
@@ -75,5 +75,8 @@
   "original_language": "jpn",
   "original_title": "Sasameyuki",
   "representative_edition_key": "/books/OL29422993M",
-  "wikidata_qid": "Q2354342"
+  "wikidata_qid": "Q2354342",
+  "cover_url_source": "https://books.google.com/books/content?id=E3b9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=E3b9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:36+00:00"
 }

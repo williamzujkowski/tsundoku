@@ -3,7 +3,7 @@
   "slug": "charles-sanders-peirce",
   "book_count": 1,
   "bio": "Charles Sanders Peirce was an American scientist, mathematician, logician, and philosopher who is sometimes known as \"the father of pragmatism\". According to philosopher Paul Weiss, writing in 1934, Peirce was \"the most original and versatile of America's philosophers and America's greatest logician\". Bertrand Russell wrote in 1959, \"he was one of the most original minds of the later nineteenth century and certainly the greatest American thinker ever\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Charles_Sanders_Peirce.png/400px-Charles_Sanders_Peirce.png",
+  "photo_url": "/tsundoku/cached/authors/charles-sanders-peirce.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Sanders_Peirce",
   "open_library_url": "https://openlibrary.org/authors/OL676452A",
   "birth_year": 1839,
@@ -29,5 +29,7 @@
     {
       "name": "Fellow of the American Academy of Arts and Sciences"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Charles_Sanders_Peirce.png/400px-Charles_Sanders_Peirce.png",
+  "photo_cached_at": "2026-05-03T02:55:07+00:00"
 }

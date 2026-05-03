@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "New York Times bestselling author Orson Scott Card’s Hugo and Nebula Award-winning science fiction classic Ender’s Game launched the Enderverse novels. Andrew “Ender” Wiggin is six-years-old when he’s recruited into Earth’s elite military academy. He thinks he’s playing computer simulated war games, but he is actually engaged in something far more desperate. Ender may be the military genius Earth desperately needs in a war against an inscrutable alien that seeks to destroy all human life. The on",
-  "cover_url": "https://books.google.com/books/content?id=FeTZAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ender-quintet.jpg",
   "isbn": "9780765376824",
   "first_published": 2013,
   "pages": 2070,
@@ -26,10 +26,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780765376824",
-  "representative_edition_key": "/books/OL34856959M"
+  "representative_edition_key": "/books/OL34856959M",
+  "cover_url_source": "https://books.google.com/books/content?id=FeTZAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:34+00:00",
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

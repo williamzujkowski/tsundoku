@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Shadow Rising is a fantasy novel by American author Robert Jordan, the fourth book in his series The Wheel of Time. It was published by Tor Books and released on September 15, 1992. The unabridged audio book is read by Michael Kramer and Kate Reading.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/WoT04_TheShadowRising.jpg/250px-WoT04_TheShadowRising.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-shadow-rising.jpg",
   "pages": 960,
   "isbn": "9789752730458",
   "ddc": [
@@ -47,5 +47,7 @@
   },
   "editions_count": 34,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL35599665M"
+  "representative_edition_key": "/books/OL35599665M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/WoT04_TheShadowRising.jpg/250px-WoT04_TheShadowRising.jpg",
+  "cover_cached_at": "2026-05-03T02:13:29+00:00"
 }

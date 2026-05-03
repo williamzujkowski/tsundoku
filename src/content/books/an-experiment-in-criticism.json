@@ -10,8 +10,8 @@
     "drama",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9321714-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9321714-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/an-experiment-in-criticism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-experiment-in-criticism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17984009W",
   "first_published": 1961,
   "language": "eng",
@@ -47,5 +47,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35779919M"
+  "representative_edition_key": "/books/OL35779919M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9321714-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9321714-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:20+00:00"
 }

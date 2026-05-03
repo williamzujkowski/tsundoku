@@ -10,8 +10,8 @@
     "security",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6424001-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6424001-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cryptonomicon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cryptonomicon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38494W",
   "first_published": 1999,
   "language": "eng",
@@ -88,5 +88,8 @@
       "name": "Prometheus Award - Hall of Fame",
       "year": 2013
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6424001-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6424001-L.jpg",
+  "cover_cached_at": "2026-05-03T01:06:19+00:00"
 }

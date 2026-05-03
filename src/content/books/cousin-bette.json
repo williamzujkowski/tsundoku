@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cousin-bette",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243268-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243268-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cousin-bette.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cousin-bette.jpg",
   "open_library_url": "https://openlibrary.org/works/OL85231W",
   "first_published": 1888,
   "language": "eng",
@@ -77,5 +77,8 @@
   "editions_count": 45,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23109622M"
+  "representative_edition_key": "/books/OL23109622M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243268-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243268-L.jpg",
+  "cover_cached_at": "2026-05-03T01:04:45+00:00"
 }

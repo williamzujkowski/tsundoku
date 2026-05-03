@@ -16,8 +16,8 @@
   "google_books_url": "http://books.google.com/books?id=Go9cLwEACAAJ&dq=intitle:Children+of+the+Mind&hl=&source=gbs_api",
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL39696055W",
-  "cover_url": "https://books.google.com/books/content?id=r9jQjDRDEhkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=r9jQjDRDEhkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/children-of-the-mind.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/children-of-the-mind.jpg",
   "copyright_status": "in_copyright",
   "ol_work_key": "/works/OL39696055W",
   "_provenance": {
@@ -25,10 +25,25 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781470159283",
-  "representative_edition_key": "/books/OL54094454M"
+  "representative_edition_key": "/books/OL54094454M",
+  "cover_url_source": "https://books.google.com/books/content?id=r9jQjDRDEhkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=r9jQjDRDEhkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:10+00:00",
+  "subject_facet": [
+    "Biography"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

@@ -11,8 +11,8 @@
   "first_published": 2012,
   "language": "eng",
   "description": "Ibn Rushd, known to Christian Europe as Averroes, came from Córdoba in Spain and lived from 1126 to 1198. He is regarded as the last great Arab philosopher in the Classical tradition, and, under the patronage of the Almohad ruler Abu Ya'quib Yusuf, was a very prolific one. The Tahafut al-Tahafut, written not long after 1180, is his major work and the one in which his original philosophical doctrine is to be found. It takes the form of a refutation of Ghazali's Tahafut al-Falasifa (The Incoherenc...",
-  "cover_url": "https://books.google.com/books/content?id=XMkeAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=XMkeAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-incoherence-of-the-incoherence.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-incoherence-of-the-incoherence.jpg",
   "pages": 644,
   "google_books_url": "http://books.google.com/books?id=XMkeAQAAMAAJ&dq=The+Incoherence+of+the+Incoherence+Averroes&hl=&source=gbs_api",
   "reading_status": "want",
@@ -24,10 +24,27 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781790939558",
-  "representative_edition_key": "/books/OL56858657M"
+  "representative_edition_key": "/books/OL56858657M",
+  "cover_url_source": "https://books.google.com/books/content?id=XMkeAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=XMkeAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:47+00:00",
+  "subject_facet": [
+    "Arab Philosophy",
+    "Islamic Philosophy",
+    "Islamic theology"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

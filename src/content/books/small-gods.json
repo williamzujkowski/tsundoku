@@ -11,8 +11,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14648232-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14648232-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/small-gods.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/small-gods.jpg",
   "open_library_url": "https://openlibrary.org/works/OL453697W",
   "first_published": 1992,
   "language": "eng",
@@ -72,5 +72,8 @@
   "series": {
     "name": "Discworld",
     "position": 13
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14648232-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14648232-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:05+00:00"
 }

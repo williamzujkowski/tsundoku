@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Early Autumn is a profound exploration of love, loss, and the complexities of human relationships. Louis Bromfield delves into the emotional turmoil faced by his characters, capturing the essence of their struggles amidst the backdrop of rural life. The novel portrays the intricacies of romance and the lingering effects of past decisions, emphasizing how choices shape one's future. From its publication, Early Autumn has been celebrated for its vivid depiction of character interactions and the su",
-  "cover_url": "https://books.google.com/books/content?id=7dAsEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/early-autumn.jpg",
   "isbn": "9786558946496",
   "first_published": 2024,
   "pages": 363,
@@ -18,5 +18,25 @@
   "gutenberg_id": 72406,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/72406",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/72406.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=7dAsEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:10:02+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Fiction",
+    "Pulitzer Prize Winner",
+    "Women",
+    "award:pulitzer_prize=1927",
+    "award:pulitzer_prize=fiction"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

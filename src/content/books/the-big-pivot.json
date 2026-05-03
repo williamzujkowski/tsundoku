@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A best-selling author and business expert discusses emerging opportunities for companies in the face of climate change, the growth of a global middle class and supply chain scrutiny and explains strategies used by Unilever, Nike, Ford and others to adapt the new challenges. 20,000 first printing.",
-  "cover_url": "https://books.google.com/books/content?id=CgjyAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-big-pivot.jpg",
   "isbn": "9781422167816",
   "first_published": 2014,
   "pages": 354,
@@ -44,5 +44,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781422167816",
-  "representative_edition_key": "/books/OL27182675M"
+  "representative_edition_key": "/books/OL27182675M",
+  "cover_url_source": "https://books.google.com/books/content?id=CgjyAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:57:50+00:00"
 }

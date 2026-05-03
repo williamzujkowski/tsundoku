@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The story centers on wealthy old Martin Chuzzlewit. His many relatives believe that he is at death's door, so they swarm about him like bees angling to get a piece of his fortune. The main theme of the novel is selfishness, which is portrayed in a satirical fashion using all the members of the Chuzzlewit family.",
-  "cover_url": "https://books.google.com/books/content?id=bF2clH62b3oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/martin-chuzzlewit.jpg",
   "isbn": "9781427045423",
   "first_published": 1844,
   "pages": 538,
@@ -114,5 +114,7 @@
   "wikidata_qid": "Q1903609",
   "original_title": "The Life and Adventures of Martin Chuzzlewit",
   "original_language": "eng",
-  "original_publisher": "Chapman and Hall"
+  "original_publisher": "Chapman and Hall",
+  "cover_url_source": "https://books.google.com/books/content?id=bF2clH62b3oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:51+00:00"
 }

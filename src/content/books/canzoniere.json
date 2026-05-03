@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4601329-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4601329-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/canzoniere.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/canzoniere.jpg",
   "open_library_url": "https://openlibrary.org/works/OL878566W",
   "first_published": 1533,
   "language": "eng",
@@ -135,5 +135,8 @@
   "original_language": "ita",
   "original_title": "Il Petrarcha colla spositione di Misser Giovanni Andrea Gesvaldo ...",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22460983M"
+  "representative_edition_key": "/books/OL22460983M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4601329-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4601329-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:35+00:00"
 }

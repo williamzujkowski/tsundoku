@@ -12,7 +12,7 @@
     "sci-fi"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=Ma8cYJ4xpSIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/after-london.jpg",
   "isbn": "9781465504777",
   "first_published": 1885,
   "pages": 322,
@@ -67,5 +67,7 @@
   "editions_count": 280,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34245519M"
+  "representative_edition_key": "/books/OL34245519M",
+  "cover_url_source": "https://books.google.com/books/content?id=Ma8cYJ4xpSIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:23+00:00"
 }

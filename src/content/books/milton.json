@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5907198-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5907198-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/milton.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/milton.jpg",
   "open_library_url": "https://openlibrary.org/works/OL575435W",
   "first_published": 1810,
   "language": "eng",
@@ -48,5 +48,8 @@
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": "9789726082095",
-  "representative_edition_key": "/books/OL4728657M"
+  "representative_edition_key": "/books/OL4728657M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5907198-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5907198-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:44+00:00"
 }

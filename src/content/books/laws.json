@@ -10,8 +10,8 @@
     "politics",
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14385278-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14385278-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/laws.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/laws.jpg",
   "open_library_url": "https://openlibrary.org/works/OL25713040W",
   "first_published": 1921,
   "language": "eng",
@@ -33,9 +33,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 5,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55575935M"
+  "representative_edition_key": "/books/OL55575935M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14385278-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14385278-L.jpg",
+  "cover_cached_at": "2026-05-03T01:29:01+00:00",
+  "subject_facet": [
+    "Children's fiction",
+    "Criticism and interpretation",
+    "Early works to 1800",
+    "Natural law",
+    "Philosophy",
+    "Political science",
+    "Political science & theory",
+    "State, the",
+    "The State",
+    "Utopias"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

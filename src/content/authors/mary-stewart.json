@@ -2,7 +2,7 @@
   "name": "Mary Stewart",
   "slug": "mary-stewart",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2390848A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/mary-stewart.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2390848A",
   "birth_year": 1851,
   "death_year": 1924,
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "57856081",
-  "ol_author_key": "/authors/OL2390848A"
+  "ol_author_key": "/authors/OL2390848A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2390848A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:46:06+00:00"
 }

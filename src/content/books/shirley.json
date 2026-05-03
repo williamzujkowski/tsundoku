@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11024634-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11024634-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/shirley.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/shirley.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1095397W",
   "first_published": 1800,
   "language": "eng",
@@ -99,5 +99,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34198547M",
   "wikidata_qid": "Q615175",
-  "original_publisher": "Smith, Elder & Co."
+  "original_publisher": "Smith, Elder & Co.",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11024634-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11024634-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:43+00:00"
 }

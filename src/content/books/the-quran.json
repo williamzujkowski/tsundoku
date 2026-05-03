@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11584348-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11584348-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-quran.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-quran.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24812493W",
   "first_published": 2019,
   "description": "Millions of non-Muslims know the name of the Muslim scripture, whether it is written as \"Qur'an\" or \"Quran\" or \"Koran.\" But for most, that is all they know. Many have fallen victim to the mass of misinformation that circulates about the Qur'an. Others may have tried to read the Qur'an, but the text itself is tough to decipher. With no sense of context, chronology, or interpretive history, many would-be readers of the Qur'an quickly give up the effort. As for those trying to find out what the Qur...",
@@ -36,10 +36,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780190867683",
-  "representative_edition_key": "/books/OL28059978M"
+  "representative_edition_key": "/books/OL28059978M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11584348-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11584348-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:12+00:00",
+  "ddc": [
+    "200"
+  ]
 }

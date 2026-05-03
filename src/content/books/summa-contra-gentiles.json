@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "summa-contra-gentiles",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6489174-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6489174-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/summa-contra-gentiles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/summa-contra-gentiles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL546929W",
   "first_published": 1475,
   "language": "eng",
@@ -182,5 +182,8 @@
   },
   "editions_count": 277,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23016147M"
+  "representative_edition_key": "/books/OL23016147M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6489174-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6489174-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:16+00:00"
 }

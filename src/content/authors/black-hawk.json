@@ -3,7 +3,7 @@
   "slug": "black-hawk",
   "book_count": 1,
   "bio": "Sauk chief",
-  "photo_url": "https://covers.openlibrary.org/a/id/14420167-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/black-hawk.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL27859A",
   "birth_year": 1767,
   "death_year": 1838,
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "92950251",
-  "ol_author_key": "/authors/OL6298199A"
+  "ol_author_key": "/authors/OL6298199A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/14420167-M.jpg",
+  "photo_cached_at": "2026-05-03T00:40:19+00:00"
 }

@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "The Abyss is a 1989 American science fiction film written and directed by James Cameron and starring Ed Harris, Mary Elizabeth Mastrantonio, and Michael Biehn. When an American submarine sinks in the Caribbean, a U.S. search and recovery team works with an oil platform crew, racing against Soviet vessels to recover the boat. Deep in the ocean, they encounter something unexpected.",
-  "cover_url": "https://covers.openlibrary.org/b/id/966139-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/966139-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-abyss.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-abyss.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9788466321679",
@@ -84,5 +84,8 @@
       "name": "Prix Femina",
       "year": 1968
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/966139-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/966139-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:26+00:00"
 }

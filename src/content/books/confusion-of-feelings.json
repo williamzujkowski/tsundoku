@@ -9,13 +9,26 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/confusion-of-feelings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/confusion-of-feelings.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "",
   "pages": 0,
   "first_published": 1927,
   "language": "eng",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "_provenance": {
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/b/bd/%22Confusion%22_%28novella%29.jpg",
+  "cover_cached_at": "2026-05-03T01:03:45+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

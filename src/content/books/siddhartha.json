@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "siddhartha",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6562535-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6562535-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/siddhartha.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/siddhartha.jpg",
   "open_library_url": "https://openlibrary.org/works/OL872932W",
   "first_published": 1922,
   "language": "eng",
@@ -154,5 +154,8 @@
   "representative_edition_key": "/books/OL21265353M",
   "wikidata_qid": "Q457289",
   "original_title": "Siddhartha",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6562535-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6562535-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:45+00:00"
 }

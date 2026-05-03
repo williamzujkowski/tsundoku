@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL24842672W",
   "first_published": 1943,
   "description": "Setting his story in the distant, post-Holocaust future, Hesse tells of an elite cult of intellectuals occupying themselves with an elaborate game that employs all the cultural and scientific knowledge of the ages. The most imaginative and prophetic of Hesse's works.",
-  "cover_url": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-glass-bead-game.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-glass-bead-game.jpg",
   "isbn": "0312278497",
   "pages": 580,
   "language": "eng",
@@ -80,5 +80,8 @@
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Das Glasperlenspiel",
-  "representative_edition_key": "/books/OL3564699M"
+  "representative_edition_key": "/books/OL3564699M",
+  "cover_url_source": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ckqY4FjsObMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:31+00:00"
 }

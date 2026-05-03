@@ -8,13 +8,39 @@
     "le-monde-100"
   ],
   "description": "Unlock the more straightforward side of If This Is a Man with this concise and insightful summary and analysis! This engaging summary presents an analysis of If This Is a Man by Primo Levi, which details the author’s experiences in Buna-Monowitz, one of the subcamps of the notorious Auschwitz concentration camp. Levi was captured in 1944 while fighting with the Italian Resistance and deported to Buna-Monowitz, where he remained until the camp was liberated by the Red Army the following year. As ...",
-  "cover_url": "https://books.google.com/books/content?id=lo60CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=lo60CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/if-this-is-a-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/if-this-is-a-man.jpg",
   "isbn": "9782806270238",
   "first_published": 2015,
   "pages": 23,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=lo60CgAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=lo60CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=lo60CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:21+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Auschwitz (Concentration camp)",
+    "Biography",
+    "Concentration camps",
+    "German Prisoners and prisons",
+    "Italian Personal narratives",
+    "Personal narratives",
+    "Personal narratives, Italian",
+    "Prisoners and prisons, German",
+    "Prisoners of war",
+    "World War, 1939-1945"
+  ],
+  "ddc": [
+    "920"
+  ],
+  "lcc": [
+    "CT"
+  ]
 }

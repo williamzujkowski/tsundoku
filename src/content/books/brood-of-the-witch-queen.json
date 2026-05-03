@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Brood of The Witch Queen is a supernatural novel by Sax Rohmer. Sometimes called \"Rohmers masterpiece\" or \"the scariest book ever written.\" The story deals with Robert Cairn and his suspicions of Antony Ferrara, the adopted son of an old friend and colleague of Robert's father, Dr Bruce Cairn, of infernal magic and supernatural influence. The novel begins with the strange murder of Sir Michael Ferrara. A horrifying series of events follows, many of them take place in an inner secret chamber ",
-  "cover_url": "https://books.google.com/books/content?id=jL8YBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/brood-of-the-witch-queen.jpg",
   "isbn": "9781304969910",
   "first_published": 1924,
   "pages": 253,
@@ -60,5 +60,7 @@
   "editions_count": 194,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40015416M"
+  "representative_edition_key": "/books/OL40015416M",
+  "cover_url_source": "https://books.google.com/books/content?id=jL8YBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:12+00:00"
 }

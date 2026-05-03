@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "In the year 2035, robots, artificial intelligences, and neural implants have become commonplace. The Institute for Ethics keeps the peace, using social reputation to ensure that robots and humans don't harm society or each other. But a powerful AI named Adam has found a way around the restrictions. Catherine Matthews, nineteen years old, has a unique gift: the ability to manipulate the net with her neural implant. Yanked out of her perfectly ordinary life, Catherine becomes the last firewall sta",
-  "cover_url": "https://books.google.com/books/content?id=E1BTAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-last-firewall.jpg",
   "isbn": "9780984755783",
   "first_published": 2014,
   "pages": 471,
   "google_books_url": "https://play.google.com/store/books/details?id=E1BTAwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=E1BTAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:27+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

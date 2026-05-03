@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "great-expectations",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13322313-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13322313-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/great-expectations.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/great-expectations.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8721462W",
   "first_published": 1861,
   "language": "eng",
@@ -242,5 +242,8 @@
   "wikidata_qid": "Q219552",
   "original_title": "Great Expectations",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13322313-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13322313-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:33+00:00"
 }

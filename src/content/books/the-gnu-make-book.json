@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "GNU make is the most widely used build automation tool, but it can be challenging to master and its terse language can be tough to parse for even experienced programmers. Those who run into difficulties face a long, involved struggle, often leaving unsolved problems behind and GNU make's vast potential untapped. The GNU Make Book demystifies GNU make and shows you how to use its best features. You'll find a fast, thorough rundown of the basics of variables, rules, targets, and makefiles. Learn h",
-  "cover_url": "https://books.google.com/books/content?id=8gcvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-gnu-make-book.jpg",
   "isbn": "9781593276836",
   "first_published": 2015,
   "pages": 256,
@@ -42,5 +42,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781593276843",
-  "representative_edition_key": "/books/OL34020111M"
+  "representative_edition_key": "/books/OL34020111M",
+  "cover_url_source": "https://books.google.com/books/content?id=8gcvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:35+00:00"
 }

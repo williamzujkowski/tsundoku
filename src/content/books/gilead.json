@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1472533-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1472533-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gilead.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gilead.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1875009W",
   "first_published": 2004,
   "language": "eng",
@@ -82,5 +82,8 @@
       "name": "Pulitzer Prize for Fiction",
       "year": 2005
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1472533-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1472533-L.jpg",
+  "cover_cached_at": "2026-05-03T01:17:47+00:00"
 }

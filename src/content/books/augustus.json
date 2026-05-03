@@ -8,8 +8,8 @@
     "drama",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/746850-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/746850-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/augustus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/augustus.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3511458W",
   "first_published": 1972,
   "language": "eng",
@@ -65,5 +65,8 @@
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24711441M"
+  "representative_edition_key": "/books/OL24711441M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/746850-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/746850-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:20+00:00"
 }

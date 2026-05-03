@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "babel",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12468631-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12468631-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/babel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/babel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26443093W",
   "first_published": 2022,
   "language": "eng",
@@ -47,7 +47,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 13,
   "first_published_circa": false,
@@ -65,5 +66,11 @@
       "name": "Nebula Award for Best Novel",
       "year": 2023
     }
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12468631-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12468631-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:37+00:00",
+  "ddc": [
+    "800"
   ]
 }

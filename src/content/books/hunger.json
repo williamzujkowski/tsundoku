@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "This Special Edition of The Hunger Games includes the most extensive interview Suzanne Collins has given since the publication of The Hunger Games; an absorbing behind-the-scenes look at the creation of the series; and an engaging archival conversation between Suzanne Collins and YA legend Walter Dean Myers on writing about war. The Special Edition answers many questions fans have had over the years, and gives great insight into the creation of this era-defining work. In the ruins of a place onc",
-  "cover_url": "https://books.google.com/books/content?id=Yz8Fnw0PlEQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/hunger.jpg",
   "isbn": "9780545229937",
   "first_published": 2008,
   "pages": 387,
@@ -157,5 +157,7 @@
   "series": {
     "name": "The Hunger Games",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=Yz8Fnw0PlEQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:22:24+00:00"
 }

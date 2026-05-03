@@ -13,7 +13,7 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "description": "The Autumn of the Middle Ages, The Waning of the Middle Ages, or Autumntide of the Middle Ages, is the best-known work by the Dutch historian Johan Huizinga.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Herfsttij_der_Middeleeuwen_kaft.gif/330px-Herfsttij_der_Middeleeuwen_kaft.gif",
+  "cover_url": "/tsundoku/cached/covers/the-waning-of-the-middle-ages.gif",
   "isbn": "9788448702113",
   "ddc": [
     "944.025",
@@ -106,5 +106,7 @@
   "representative_edition_key": "/books/OL29467393M",
   "wikidata_qid": "Q2599259",
   "original_title": "Herfsttĳ der Middeleeuwen",
-  "original_language": "dut"
+  "original_language": "dut",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Herfsttij_der_Middeleeuwen_kaft.gif/330px-Herfsttij_der_Middeleeuwen_kaft.gif",
+  "cover_cached_at": "2026-05-03T02:16:53+00:00"
 }

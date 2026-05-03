@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/133936-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/133936-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-selfish-gene.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-selfish-gene.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1966488W",
   "first_published": 1976,
   "language": "eng",
@@ -98,5 +98,8 @@
   "representative_edition_key": "/books/OL28000467M",
   "wikidata_qid": "Q212789",
   "original_title": "The Selfish Gene",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/133936-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/133936-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:24+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10296774-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10296774-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-wizards-guide-to-defensive-baking.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-wizards-guide-to-defensive-baking.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20924196W",
   "first_published": 2020,
   "language": "eng",
@@ -39,7 +39,9 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -55,5 +57,14 @@
       "name": "Mythopoeic Fantasy Award for Children's Literature",
       "year": 2021
     }
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10296774-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10296774-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:03+00:00",
+  "ddc": [
+    "808.83766"
+  ],
+  "lcc": [
+    "PN3435"
   ]
 }

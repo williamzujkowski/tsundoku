@@ -2,7 +2,7 @@
   "name": "Richard H. Thaler",
   "slug": "richard-h-thaler",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/8270492-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/richard-h-thaler.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL717241A",
   "birth_year": 1945,
   "bio": "American economist",
@@ -39,5 +39,7 @@
       "name": "Clarivate Citation Laureates",
       "year": 2002
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/8270492-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:40+00:00"
 }

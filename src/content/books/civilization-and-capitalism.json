@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "civilization-and-capitalism",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/889129-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/889129-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/civilization-and-capitalism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/civilization-and-capitalism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL771507W",
   "first_published": 1981,
   "language": "eng",
@@ -57,5 +57,8 @@
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL1708585M"
+  "representative_edition_key": "/books/OL1708585M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/889129-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/889129-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:23+00:00"
 }

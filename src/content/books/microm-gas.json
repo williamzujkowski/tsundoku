@@ -11,8 +11,8 @@
   "first_published": 2019,
   "language": "eng",
   "description": "Micromegas is an inhabitant of the star Sirius, 120,000 feet tall and accompanied by a dwarf from Saturn who is 6000 feet tall. During a grand tour of the universe they visit Earth in 1737 and, using makeshift microscopes, they detect a boating party of tiny human philosophers.",
-  "cover_url": "https://books.google.com/books/content?id=D11NxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=D11NxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/microm-gas.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/microm-gas.jpg",
   "isbn": "1095905449",
   "pages": 28,
   "google_books_url": "http://books.google.com/books?id=D11NxQEACAAJ&dq=Microm%C3%A9gas+Voltaire&hl=&source=gbs_api",
@@ -33,9 +33,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL41294233M"
+  "representative_edition_key": "/books/OL41294233M",
+  "cover_url_source": "https://books.google.com/books/content?id=D11NxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=D11NxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:36+00:00",
+  "ddc": [
+    "800"
+  ]
 }

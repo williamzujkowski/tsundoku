@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6822183-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6822183-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/herzog.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/herzog.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15859552W",
   "first_published": 1961,
   "language": "eng",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q1424503",
   "original_title": "Herzog",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6822183-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6822183-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:32+00:00"
 }

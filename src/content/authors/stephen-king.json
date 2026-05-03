@@ -3,7 +3,7 @@
   "slug": "stephen-king",
   "book_count": 9,
   "bio": "Stephen Edwin King is an American author. Dubbed the \"King of Horror\", he is widely known for his horror novels and has also explored other genres, among them suspense, crime, science-fiction, fantasy, and mystery. Though known primarily for his novels, he has written approximately 200 short stories, most of which have been published in collections.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/400px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/stephen-king.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_King",
   "open_library_url": "https://openlibrary.org/authors/OL19981A",
   "birth_year": 1947,
@@ -181,5 +181,7 @@
       "name": "Bram Stoker Award for Best Fiction Collection",
       "year": 2010
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/400px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:17:00+00:00"
 }

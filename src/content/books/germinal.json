@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=8foSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8foSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/germinal.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/germinal.jpg",
   "first_published": 1885,
   "pages": 900,
   "google_books_url": "https://play.google.com/store/books/details?id=8foSAAAAYAAJ&source=gbs_api",
@@ -123,5 +123,8 @@
   "series": {
     "name": "Les Rougon-Macquart",
     "position": 13
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=8foSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8foSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:57+00:00"
 }

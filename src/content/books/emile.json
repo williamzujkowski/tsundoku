@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "The MacMahons are the central characters and even more so when Helen the wife & mother disappears..everyone assumes that she has drowned in the lake.Thus beginsa tangles,touching,& sometimes tragis story of love,loss & misunderstanding.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/emile.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/emile.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780460873802",
@@ -93,7 +93,8 @@
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "wikidata_qid": "wikidata_v1"
+    "wikidata_qid": "wikidata_v1",
+    "cover_url": "wikidata_book_v1"
   },
   "editions_count": 182,
   "first_published_circa": false,
@@ -101,5 +102,7 @@
   "original_title": "Emile, ou, De l'éducation",
   "representative_edition_key": "/books/OL24116962M",
   "copyright_status": "public_domain",
-  "wikidata_qid": "Q913599"
+  "wikidata_qid": "Q913599",
+  "cover_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/EmileTitle.jpeg?width=600",
+  "cover_cached_at": "2026-05-03T01:11:55+00:00"
 }

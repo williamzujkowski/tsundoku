@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Early in the twenty-first century, a quiet revolution occurred. For the first time, the major developed economies began to invest more in intangible assets, like design, branding, and software, than in tangible assets, like machinery, buildings, and computers. For all sorts of businesses, the ability to deploy assets that one can neither see nor touch is increasingly the main source of long-term success. But this is not just a familiar story of the so-called new economy. Capitalism without Capit",
-  "cover_url": "https://books.google.com/books/content?id=J3SYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/capitalism-without-capital.jpg",
   "isbn": "9780691183299",
   "first_published": 2018,
   "pages": 292,
@@ -30,10 +30,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781664466142",
-  "representative_edition_key": "/books/OL27372292M"
+  "representative_edition_key": "/books/OL27372292M",
+  "cover_url_source": "https://books.google.com/books/content?id=J3SYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:41+00:00",
+  "ddc": [
+    "330"
+  ]
 }

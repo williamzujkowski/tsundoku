@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "biographia-literaria",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1813198-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1813198-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/biographia-literaria.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/biographia-literaria.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26034W",
   "first_published": 1817,
   "language": "eng",
@@ -100,5 +100,8 @@
   "editions_count": 100,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7591724M"
+  "representative_edition_key": "/books/OL7591724M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1813198-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1813198-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:21+00:00"
 }

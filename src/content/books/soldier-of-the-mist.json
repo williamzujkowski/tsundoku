@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10252689-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10252689-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/soldier-of-the-mist.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/soldier-of-the-mist.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14871980W",
   "first_published": 1986,
   "language": "eng",
@@ -60,5 +60,8 @@
       "name": "Locus Award for Best Fantasy Novel",
       "year": 1987
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10252689-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10252689-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:14+00:00"
 }

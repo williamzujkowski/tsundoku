@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-sportsmans-sketches",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14520402-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14520402-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-sportsmans-sketches.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-sportsmans-sketches.jpg",
   "open_library_url": "https://openlibrary.org/works/OL32961526W",
   "first_published": 2014,
   "isbn": "9783387318494",
@@ -19,5 +19,31 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8744.html.images",
   "librivox_url": "https://librivox.org/a-sportsmans-sketches-by-ivan-turgenev/",
   "copyright_status": "public_domain",
-  "description": "Anyone who has chanced to pass from the Bolhovsky district into the Zhizdrinsky district, must have been impressed by the striking difference between the race of people in the province of Orel and the population of the province of Kaluga."
+  "description": "Anyone who has chanced to pass from the Bolhovsky district into the Zhizdrinsky district, must have been impressed by the striking difference between the race of people in the province of Orel and the population of the province of Kaluga.",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14520402-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14520402-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:42+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Country life",
+    "Country life in fiction",
+    "Fiction",
+    "Peasantry",
+    "Peasantry in fiction",
+    "Peasants",
+    "Peasants in fiction",
+    "Russia in fiction",
+    "Social conditions",
+    "Social life and customs"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

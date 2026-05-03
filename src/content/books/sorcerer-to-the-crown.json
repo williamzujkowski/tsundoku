@@ -8,8 +8,8 @@
     "fantasy",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8579692-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8579692-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sorcerer-to-the-crown.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sorcerer-to-the-crown.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19759589W",
   "first_published": 2016,
   "language": "eng",
@@ -63,5 +63,8 @@
   "series": {
     "name": "Sorcerer to the Crown",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8579692-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8579692-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:05+00:00"
 }

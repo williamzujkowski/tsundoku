@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "thinking-in-systems",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14420637-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14420637-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/thinking-in-systems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/thinking-in-systems.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3737036W",
   "first_published": 2008,
   "language": "eng",
@@ -79,5 +79,8 @@
   "representative_edition_key": "/books/OL38825565M",
   "wikidata_qid": "Q111945826",
   "original_title": "Thinking In Systems",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14420637-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14420637-L.jpg",
+  "cover_cached_at": "2026-05-03T02:19:09+00:00"
 }

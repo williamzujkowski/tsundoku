@@ -12,8 +12,8 @@
   "first_published": 1971,
   "language": "eng",
   "description": "Compendium of poems which powerfully explores the realm of primeval consciousness.",
-  "cover_url": "https://books.google.com/books/content?id=GyrPAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=GyrPAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/crow.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/crow.jpg",
   "pages": 104,
   "google_books_url": "http://books.google.com/books?id=GyrPAAAAIAAJ&dq=Crow+Ted+Hughes&hl=&source=gbs_api",
   "reading_status": "read",
@@ -43,5 +43,8 @@
   },
   "editions_count": 4,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7275137M"
+  "representative_edition_key": "/books/OL7275137M",
+  "cover_url_source": "https://books.google.com/books/content?id=GyrPAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=GyrPAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:05:59+00:00"
 }

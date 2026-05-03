@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "les-mis-rables",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12721865-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/les-mis-rables.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/les-mis-rables.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1063588W",
   "first_published": 1862,
   "language": "eng",
@@ -240,5 +240,8 @@
   "representative_edition_key": "/books/OL29953368M",
   "wikidata_qid": "Q180736",
   "original_title": "Les Misérables",
-  "original_language": "fre"
+  "original_language": "fre",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12721865-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:02+00:00"
 }

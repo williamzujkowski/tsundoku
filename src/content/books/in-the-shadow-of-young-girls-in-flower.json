@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "in-the-shadow-of-young-girls-in-flower",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/400407-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/400407-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/in-the-shadow-of-young-girls-in-flower.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/in-the-shadow-of-young-girls-in-flower.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1190226W",
   "first_published": 2004,
   "language": "eng",
@@ -33,8 +33,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL49574322M"
+  "representative_edition_key": "/books/OL49574322M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/400407-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/400407-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:41+00:00",
+  "ddc": [
+    "800"
+  ]
 }

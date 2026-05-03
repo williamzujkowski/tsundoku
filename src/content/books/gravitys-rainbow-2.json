@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "gravitys-rainbow-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/97894-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97894-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gravitys-rainbow-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gravitys-rainbow-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636675W",
   "first_published": 1973,
   "language": "eng",
@@ -110,5 +110,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97894-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97894-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:32+00:00"
 }

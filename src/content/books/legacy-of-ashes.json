@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "legacy-of-ashes",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1860479-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1860479-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/legacy-of-ashes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/legacy-of-ashes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3236899W",
   "first_published": 2007,
   "language": "eng",
@@ -73,5 +73,8 @@
   "original_language": "dut",
   "original_title": "Een spoor van vernieling",
   "representative_edition_key": "/books/OL21097347M",
-  "wikidata_qid": "Q2896334"
+  "wikidata_qid": "Q2896334",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1860479-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1860479-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:18+00:00"
 }

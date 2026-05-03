@@ -3,7 +3,7 @@
   "slug": "antoine-de-saint-exup-ry",
   "book_count": 1,
   "bio": "Antoine Marie Jean-Baptiste Roger, vicomte de Saint-Exupéry, known simply as Antoine de Saint-Exupéry, was a French writer, poet, journalist and aviator.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/11exupery-inline1-500_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/antoine-de-saint-exup-ry.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
   "open_library_url": "https://openlibrary.org/authors/OL31901A",
   "birth_year": 1900,
@@ -66,5 +66,7 @@
       "name": "National Book Award",
       "year": 1939
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/4/4a/11exupery-inline1-500_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T00:39:53+00:00"
 }

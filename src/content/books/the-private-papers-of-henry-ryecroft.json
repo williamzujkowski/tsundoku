@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Private Papers of Henry Ryecroft is a semi-fictional autobiographical work by George Gissing in which the author casts himself as the editor of the diary of a deceased acquaintance, selecting essays for posthumous publication. Observing \"how suitable many of the reflections were to the month with which they were dated\", he explains that he \"hit upon the thought of dividing the little book into four chapters, named after the seasons\".",
-  "cover_url": "https://books.google.com/books/content?id=xpHBtQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-private-papers-of-henry-ryecroft.jpg",
   "isbn": "1986931536",
   "first_published": 2018,
   "pages": 108,
@@ -69,5 +69,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781986931533",
-  "representative_edition_key": "/books/OL43691621M"
+  "representative_edition_key": "/books/OL43691621M",
+  "cover_url_source": "https://books.google.com/books/content?id=xpHBtQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:55+00:00"
 }

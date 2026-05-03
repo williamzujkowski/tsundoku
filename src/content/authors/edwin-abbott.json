@@ -2,7 +2,7 @@
   "name": "Edwin Abbott",
   "slug": "edwin-abbott",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL20585A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/edwin-abbott.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL20585A",
   "birth_year": 1838,
   "death_year": 1926,
@@ -27,5 +27,7 @@
     {
       "name": "Fellow of the British Academy"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL20585A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:42:21+00:00"
 }

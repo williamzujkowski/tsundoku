@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "In A General View of Positivism French philosopher Auguste Comte (1798 1857) gives an overview of his social philosophy known as Positivism. Comte, credited with coining the term 'sociology' and one of the first to argue for it as a science, is concerned with reform, progress and the problem of social order in society. In this English edition of the work, published in 1865, he addresses the practical problems of implementing his philosophy or doctrine, as he also refers to Positivism, into socie",
-  "cover_url": "https://books.google.com/books/content?id=7a3vDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-general-view-of-positivism.jpg",
   "first_published": 2021,
   "pages": 305,
   "google_books_url": "https://play.google.com/store/books/details?id=7a3vDQAAQBAJ&source=gbs_api",
@@ -19,5 +19,28 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/53799",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/53799.html.images",
   "librivox_url": "https://librivox.org/a-general-view-of-positivism-by-auguste-comte/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=7a3vDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:55+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Auguste Comte",
+    "General",
+    "History & Surveys",
+    "PHILOSOPHY",
+    "Positivism",
+    "Positivisme",
+    "Positivismo",
+    "Sociology"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

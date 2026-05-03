@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "A free two-book mystery bundle by #1 bestselling author Blake Pierce, author of ONCE GONE, a #1 bestseller on Amazon with over 350 five star reviews! Here is a bundle of the first books in two Blake Pierce series—the Riley Paige and Mackenzie White series—all here in one convenient place. This bundle offers a great introduction to Blake Pierce’s series with over 140,000 words of reading. In BEFORE HE KILLS, a woman is found murdered in the cornfields of Nebraska, strung up on a pole, the victim ",
-  "cover_url": "https://books.google.com/books/content?id=UF0yDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/blake-pierce-mystery-bundle.jpg",
   "isbn": "9781632916815",
   "first_published": 2016,
   "pages": 591,
   "google_books_url": "https://play.google.com/store/books/details?id=UF0yDAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=UF0yDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:34+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

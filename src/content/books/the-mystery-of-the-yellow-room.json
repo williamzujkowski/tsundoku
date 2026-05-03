@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Mystery of the Yellow Room is a mystery novel written by French author Gaston Leroux. One of the first locked-room mystery novels, it was first published serially in France in the periodical L'Illustration from September 1907 to November 1907, then in its own right in 1908.",
-  "cover_url": "https://books.google.com/books/content?id=EvplxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mystery-of-the-yellow-room.jpg",
   "isbn": "1097197298",
   "first_published": 2018,
   "pages": 204,
@@ -30,9 +30,28 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL41163850M"
+  "representative_edition_key": "/books/OL41163850M",
+  "cover_url_source": "https://books.google.com/books/content?id=EvplxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:36+00:00",
+  "subject_facet": [
+    "Classic Literature",
+    "Fiction",
+    "Fiction, mystery & detective, collections & anthologies",
+    "Fiction, mystery & detective, general",
+    "Fiction, thrillers, suspense",
+    "Journalists, fiction",
+    "Large type books",
+    "Policier",
+    "Romance literature",
+    "Rouletabille"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

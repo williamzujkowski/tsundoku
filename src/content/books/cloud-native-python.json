@@ -10,11 +10,28 @@
   ],
   "reading_status": "read",
   "description": "Build cloud native applications in Python About This Book This is the only reliable resource that showcases the tools and techniques you need build robust and resilient cloud native applications in Python Learn how to architect your application on both, the AWS and Azure clouds for high availability Assess, monitor, and troubleshoot your applications in the cloud Who This Book Is For This book is ideal for developers with a basic knowledge of Python who want to learn to build, test, and scale th",
-  "cover_url": "https://books.google.com/books/content?id=GedDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cloud-native-python.jpg",
   "isbn": "9781787129542",
   "first_published": 2017,
   "pages": 367,
   "google_books_url": "https://play.google.com/store/books/details?id=GedDDwAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=GedDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:36+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Electronic data processing",
+    "Python (computer program language)"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

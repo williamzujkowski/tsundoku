@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This is a tale of two magicians, of high school extortion and violence, and of a criminal trial in which the guilty go free. Selected by the Book-of-the-Month Club, The Magician has sold over one million copies. Webster Schott wrote in the New York Times Book Review, “I cannot recall a novel of this type with greater pleasure. Beautiful and gripping.”",
-  "cover_url": "https://books.google.com/books/content?id=EzVDPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-magician.jpg",
   "isbn": "0595093167",
   "first_published": 1971,
   "google_books_url": "http://books.google.com/books?id=EzVDPgAACAAJ&dq=intitle:The+Magician&hl=&source=gbs_api",
@@ -49,5 +49,7 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "0718108973",
-  "representative_edition_key": "/books/OL7545143M"
+  "representative_edition_key": "/books/OL7545143M",
+  "cover_url_source": "https://books.google.com/books/content?id=EzVDPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:25+00:00"
 }

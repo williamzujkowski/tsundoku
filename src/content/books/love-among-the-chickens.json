@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/10222170-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/love-among-the-chickens.jpg",
   "first_published": 1908,
   "librivox_url": "https://librivox.org/love-among-the-chickens-by-p-g-wodehouse",
   "copyright_status": "public_domain",
@@ -62,5 +62,7 @@
   "editions_count": 41,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9414087M"
+  "representative_edition_key": "/books/OL9414087M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10222170-M.jpg",
+  "cover_cached_at": "2026-05-03T01:31:11+00:00"
 }

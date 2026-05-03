@@ -9,8 +9,8 @@
     "horror",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14567050-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14567050-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/nona-the-ninth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/nona-the-ninth.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26426935W",
   "first_published": 2022,
   "language": "eng",
@@ -46,7 +46,9 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
@@ -57,5 +59,14 @@
   "series": {
     "name": "Locked Tomb series",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14567050-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14567050-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:56+00:00",
+  "ddc": [
+    "808.83766"
+  ],
+  "lcc": [
+    "PN3435"
+  ]
 }

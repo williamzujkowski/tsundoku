@@ -12,8 +12,8 @@
   "first_published": 1905,
   "google_books_url": "http://books.google.com/books?id=mDqf0AEACAAJ&dq=intitle:Kipps&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8244473-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8244473-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/kipps.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kipps.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52261W",
   "pages": 292,
   "gutenberg_id": 39162,
@@ -82,5 +82,8 @@
   "wikidata_qid": "Q1249082",
   "original_title": "Kipps",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8244473-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8244473-L.jpg",
+  "cover_cached_at": "2026-05-03T01:27:30+00:00"
 }

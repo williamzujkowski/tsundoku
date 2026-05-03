@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "sea-of-poppies",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6956953-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6956953-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sea-of-poppies.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sea-of-poppies.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1054101W",
   "first_published": 2005,
   "language": "eng",
@@ -63,5 +63,8 @@
   "original_title": "La Marea Hambrienta (Emecé)",
   "first_edition_isbn": "9788495908995",
   "representative_edition_key": "/books/OL34833838M",
-  "wikidata_qid": "Q3846743"
+  "wikidata_qid": "Q3846743",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6956953-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6956953-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:24+00:00"
 }

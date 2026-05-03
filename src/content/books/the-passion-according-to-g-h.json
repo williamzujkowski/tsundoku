@@ -6,8 +6,8 @@
   "slug": "the-passion-according-to-g-h",
   "tags": [],
   "description": "\"A New Directions paperbook original\"--Back cover.",
-  "cover_url": "https://books.google.com/books/content?id=C6AJNeZ0md4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=C6AJNeZ0md4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-passion-according-to-g-h.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-passion-according-to-g-h.jpg",
   "isbn": "9780811219686",
   "first_published": 1964,
   "pages": 209,
@@ -67,5 +67,8 @@
   "original_title": "A paixão segundo G.H.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL25223653M",
-  "wikidata_qid": "Q9558465"
+  "wikidata_qid": "Q9558465",
+  "cover_url_source": "https://books.google.com/books/content?id=C6AJNeZ0md4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=C6AJNeZ0md4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:14+00:00"
 }

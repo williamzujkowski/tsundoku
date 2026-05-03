@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "eug-nie-grandet",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8237025-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8237025-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/eug-nie-grandet.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/eug-nie-grandet.jpg",
   "open_library_url": "https://openlibrary.org/works/OL85243W",
   "first_published": 1833,
   "language": "eng",
@@ -120,5 +120,8 @@
   "original_language": "fre",
   "series": {
     "name": "The Human Comedy"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8237025-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8237025-L.jpg",
+  "cover_cached_at": "2026-05-03T01:13:49+00:00"
 }

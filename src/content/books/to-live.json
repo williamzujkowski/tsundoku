@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6823968-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6823968-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/to-live.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/to-live.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15861449W",
   "first_published": 1993,
   "language": "eng",
@@ -49,5 +49,8 @@
   "representative_edition_key": "/books/OL24770141M",
   "wikidata_qid": "Q151919",
   "original_title": "To Live",
-  "original_language": "chi"
+  "original_language": "chi",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6823968-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6823968-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:26+00:00"
 }

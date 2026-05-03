@@ -8,8 +8,8 @@
     "politics"
   ],
   "description": "In \"The Liberty of Ancients Compared with that of Moderns,\" Benjamin Constant presents a profound philosophical exploration of freedom, contrasting the collective liberty of ancient republics with the individual liberties cherished in modern society. Written in a concise yet elegant prose style, Constant utilizes a rich historical context, drawing comparisons from classical political theory while wrestling with the implications of Enlightenment thought. This pivotal work dissects the essence of ...",
-  "cover_url": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-liberty-of-ancients-compared-with-that-of-moderns.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-liberty-of-ancients-compared-with-that-of-moderns.jpg",
   "first_published": 2020,
   "pages": 60,
   "language": "eng",
@@ -26,8 +26,19 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL55631635M"
+  "representative_edition_key": "/books/OL55631635M",
+  "cover_url_source": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:46+00:00",
+  "ddc": [
+    "320"
+  ],
+  "lcc": [
+    "JA"
+  ]
 }

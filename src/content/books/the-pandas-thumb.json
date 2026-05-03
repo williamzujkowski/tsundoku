@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2560404-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2560404-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-pandas-thumb.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-pandas-thumb.jpg",
   "open_library_url": "https://openlibrary.org/works/OL473563W",
   "first_published": 1980,
   "language": "eng",
@@ -66,5 +66,8 @@
   "wikidata_qid": "Q2277389",
   "original_title": "The Panda's Thumb",
   "original_language": "eng",
-  "original_publisher": "W. W. Norton & Company"
+  "original_publisher": "W. W. Norton & Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2560404-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2560404-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:14+00:00"
 }

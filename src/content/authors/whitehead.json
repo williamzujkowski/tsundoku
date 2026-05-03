@@ -2,7 +2,7 @@
   "name": "Whitehead",
   "slug": "whitehead",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/3367125-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/whitehead.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL115663A",
   "birth_year": 1861,
   "death_year": 1947,
@@ -50,5 +50,7 @@
     {
       "name": "Fellow of the British Academy"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/3367125-M.jpg",
+  "photo_cached_at": "2026-05-03T00:50:09+00:00"
 }

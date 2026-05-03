@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The latest edition of this classic is updated with new problem sets and material The Second Edition of this fundamental textbook maintains the book's tradition of clear, thought-provoking instruction. Readers are provided once again with an instructive mix of mathematics, physics, statistics, and information theory. All the essential topics in information theory are covered in detail, including entropy, data compression, channel capacity, rate distortion, network information theory, and hypothes...",
-  "cover_url": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/elements-of-information-theory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/elements-of-information-theory.jpg",
   "isbn": "9781118585771",
   "first_published": 2006,
   "pages": 788,
@@ -39,5 +39,8 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9781280517495",
-  "representative_edition_key": "/books/OL29146241M"
+  "representative_edition_key": "/books/OL29146241M",
+  "cover_url_source": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=VWq5GG6ycxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:12+00:00"
 }

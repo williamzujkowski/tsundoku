@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Astronomy is one of the oldest natural sciences. From ancient times, people have recorded methodical observations of objects in the night sky and attempted to understand the mysteries of the universe. This title provides an engaging and up-to-date presentation of fundamental astronomy facts and principles. The text clearly explains the nature of celestial bodies such as the planets, dwarf planets, stars, moons, asteroids, and comets. It also examines the tools and techniques used by today's astr",
-  "cover_url": "https://books.google.com/books/content?id=z40gBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/celestial-bodies.jpg",
   "isbn": "9781622754076",
   "first_published": 2014,
   "pages": 120,
@@ -42,5 +42,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781622754083",
-  "representative_edition_key": "/books/OL38837106M"
+  "representative_edition_key": "/books/OL38837106M",
+  "cover_url_source": "https://books.google.com/books/content?id=z40gBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:53+00:00"
 }

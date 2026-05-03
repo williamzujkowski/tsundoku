@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The fourth of the five Richard Hannay novels by John Buchan. Here we find our hero Richard Hannay living a quiet life in the countryside with a wife and young child but his past comes back to haunt him and he once more must face up to an arch-enemy.",
-  "cover_url": "https://books.google.com/books/content?id=E499CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-three-hostages.jpg",
   "isbn": "9781473373648",
   "first_published": 1924,
   "pages": 388,
@@ -69,5 +69,7 @@
   "original_publisher": "Hodder & Stoughton",
   "series": {
     "name": "Richard Hannay"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=E499CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:13+00:00"
 }

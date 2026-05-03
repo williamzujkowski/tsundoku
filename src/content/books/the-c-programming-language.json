@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Software -- Programming Languages.",
-  "cover_url": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-c-programming-language.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-c-programming-language.jpg",
   "first_published": 1978,
   "pages": 300,
   "language": "eng",
@@ -73,5 +73,8 @@
   "original_title": "Le  langage C",
   "first_edition_isbn": "2225800685",
   "representative_edition_key": "/books/OL9036293M",
-  "wikidata_qid": "Q1137974"
+  "wikidata_qid": "Q1137974",
+  "cover_url_source": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=HHhGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:17+00:00"
 }

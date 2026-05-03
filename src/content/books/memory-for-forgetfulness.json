@@ -7,8 +7,8 @@
   "tags": [
     "memoir"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/325329-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/325329-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/memory-for-forgetfulness.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/memory-for-forgetfulness.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8303278W",
   "first_published": 1995,
   "language": "eng",
@@ -49,5 +49,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9780520087682",
-  "representative_edition_key": "/books/OL7709954M"
+  "representative_edition_key": "/books/OL7709954M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/325329-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/325329-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:25+00:00"
 }

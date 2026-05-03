@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8812675-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8812675-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-diary.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-diary.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20166732W",
   "first_published": 1989,
   "description": "This edition is the first of its kind to offer a basic collection of facsimile, English language, historical articles on all aspects of the extermination of the European Jews. A total of 300 articles from 84 journals and collections allows the reader to gain an overview of this field. The edition both provides access to the immense, rich array of scholarly articles published after 1960 on the history of the Holocaust and encourages critical assessment of conflicting interpretations of these horr...",
@@ -28,10 +28,21 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9783598215605",
-  "representative_edition_key": "/books/OL37110560M"
+  "representative_edition_key": "/books/OL37110560M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8812675-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8812675-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:48+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

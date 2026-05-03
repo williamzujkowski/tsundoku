@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "It wasn't a very likely place for disappearances, at least at first glance.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/outlander.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/outlander.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780788712982",
@@ -79,7 +79,9 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 19,
   "first_published_circa": false,
@@ -92,5 +94,8 @@
   "series": {
     "name": "Outlander series",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14641676-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14641676-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:30+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4440691-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4440691-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/betrayal.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/betrayal.jpg",
   "open_library_url": "https://openlibrary.org/works/OL550880W",
   "first_published": 1978,
   "language": "eng",
@@ -42,5 +42,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL48212559M"
+  "representative_edition_key": "/books/OL48212559M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4440691-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4440691-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:11+00:00"
 }

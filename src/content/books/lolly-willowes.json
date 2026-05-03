@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Lolly Willowes, always so gentle and accommodating, suddenly announces that she is moving, alone, to the countryside. To her overbearing family in London, it is a disturbing and inexplicable act of defiance. But Lolly will not be swayed, and in the depths of the English countryside she gradually discovers not only freedom and independence, but also, unexpectedly, her true vocation.",
-  "cover_url": "https://books.google.com/books/content?id=0VZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lolly-willowes.jpg",
   "isbn": "9780369407078",
   "first_published": 1926,
   "pages": 101,
@@ -59,5 +59,7 @@
   "editions_count": 40,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28065617M"
+  "representative_edition_key": "/books/OL28065617M",
+  "cover_url_source": "https://books.google.com/books/content?id=0VZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:52+00:00"
 }

@@ -10,8 +10,8 @@
     "humor",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6940895-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6940895-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-night-in-the-lonesome-october.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-night-in-the-lonesome-october.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13956W",
   "first_published": 1993,
   "language": "eng",
@@ -62,5 +62,8 @@
   "wikidata_qid": "Q4327818",
   "original_title": "A Night in the Lonesome October",
   "original_language": "eng",
-  "original_publisher": "William Morrow"
+  "original_publisher": "William Morrow",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6940895-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6940895-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:19+00:00"
 }

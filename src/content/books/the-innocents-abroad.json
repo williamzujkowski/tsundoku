@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The book that made Mark Twain famous and introduced the world to that obnoxious and ubiquitous character: the American tourist Based on a series of letters first published in American newspapers, The Innocents Abroad is Mark Twain's hilarious and insightful account of an organized tour of Europe and the Holy Land undertaken in 1867. With his trademark blend of skepticism and sincerity, Twain casts New World eyes on the people and places of the Old World, including London, Paris, Rome, Odessa, Co",
-  "cover_url": "https://books.google.com/books/content?id=T-kcCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-innocents-abroad.jpg",
   "isbn": "9781480475304",
   "first_published": 2015,
   "pages": 551,
@@ -105,5 +105,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781480475304",
-  "representative_edition_key": "/books/OL36316231M"
+  "representative_edition_key": "/books/OL36316231M",
+  "cover_url_source": "https://books.google.com/books/content?id=T-kcCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:52+00:00"
 }

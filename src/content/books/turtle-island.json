@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Turtle Island is a book of poems and essays written by Gary Snyder and published by New Directions in 1974. The writings express Snyder's vision for humans to live in harmony with the earth and all its creatures. The book was awarded the Pulitzer Prize for Poetry in 1975. \"Turtle Island\" is a name for the continent of North America used by many Native American tribes.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Turtle_Island_-_Gary_Snyder.jpg/330px-Turtle_Island_-_Gary_Snyder.jpg",
+  "cover_url": "/tsundoku/cached/covers/turtle-island.jpg",
   "pages": 161,
   "isbn": "9780877739524",
   "ddc": [
@@ -40,5 +40,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0811205452",
-  "representative_edition_key": "/books/OL1411353M"
+  "representative_edition_key": "/books/OL1411353M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Turtle_Island_-_Gary_Snyder.jpg/330px-Turtle_Island_-_Gary_Snyder.jpg",
+  "cover_cached_at": "2026-05-03T02:22:11+00:00"
 }

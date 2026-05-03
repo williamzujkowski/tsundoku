@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/245565-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/245565-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-algorithm-design-manual.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-algorithm-design-manual.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2677499W",
   "first_published": 1998,
   "language": "eng",
@@ -45,5 +45,8 @@
   "first_edition_isbn": "0387948600",
   "representative_edition_key": "/books/OL674552M",
   "wikidata_qid": "Q93743409",
-  "original_title": "The Algorithm Design Manual"
+  "original_title": "The Algorithm Design Manual",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/245565-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/245565-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:56+00:00"
 }

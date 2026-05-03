@@ -11,9 +11,31 @@
   ],
   "reading_status": "read",
   "description": "National Avenue, originally titled The Midlander, is Booth Tarkington’s final entry in his Growth Trilogy. Like the previous entries in the series, National Avenue addresses the rapid industrialization of small-town America at the turn of the century, and the socioeconomic changes that such change brings with it. Dan Oliphant and his brother Harlan are the children of a wealthy small-town businessman. Harlan is a traditional upper-class man affecting an accent, dressing for dinner, and contempla",
-  "cover_url": "https://books.google.com/books/content?id=DIekEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/national-avenue.jpg",
   "pages": 508,
   "google_books_url": "https://play.google.com/store/books/details?id=DIekEAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "undetermined"
+  "copyright_status": "undetermined",
+  "cover_url_source": "https://books.google.com/books/content?id=DIekEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:52+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Autographs",
+    "Fiction",
+    "Indiana",
+    "Middle West -- Fiction",
+    "Real estate developers -- Fiction",
+    "Suburbs -- Fiction",
+    "Tarkington, Newton Booth, 1869-1946"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

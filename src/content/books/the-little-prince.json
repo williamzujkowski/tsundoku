@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the stranger, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers. Few stories are as widely read and as universally cherished by children and adults alike as The Little Prince, presented here in a stunning new translation with carefully restored artwork. The definitive edition of a worldwide classic, it will capture the hearts of readers of all ages.",
-  "cover_url": "https://covers.openlibrary.org/b/id/10708272-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10708272-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-little-prince.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-little-prince.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780786275380",
@@ -185,5 +185,8 @@
   "original_language": "spa",
   "original_title": "Principito",
   "representative_edition_key": "/books/OL55379646M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10708272-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10708272-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:59+00:00"
 }

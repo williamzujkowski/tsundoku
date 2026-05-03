@@ -8,8 +8,8 @@
     "biology",
     "google-play-library"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7153600-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7153600-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/origin-of-species.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/origin-of-species.jpg",
   "open_library_url": "https://openlibrary.org/works/OL515051W",
   "first_published": 1859,
   "language": "eng",
@@ -163,5 +163,8 @@
   "representative_edition_key": "/books/OL24270405M",
   "wikidata_qid": "Q20124",
   "original_title": "On the origin of species by means of natural selection, or the preservation of favored races in the struggle for life",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7153600-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7153600-L.jpg",
+  "cover_cached_at": "2026-05-03T01:38:13+00:00"
 }

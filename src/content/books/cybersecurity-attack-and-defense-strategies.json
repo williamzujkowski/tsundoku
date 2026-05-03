@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Updated edition of the bestselling guide for planning attack and defense strategies based on the current threat landscape Key FeaturesUpdated for ransomware prevention, security posture management in multi-cloud, Microsoft Defender for Cloud, MITRE ATT&CK Framework, and moreExplore the latest tools for ethical hacking, pentesting, and Red/Blue teamingIncludes recent real-world examples to illustrate the best practices to improve security postureBook Description Cybersecurity – Attack and Defense",
-  "cover_url": "https://books.google.com/books/content?id=uQuMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cybersecurity-attack-and-defense-strategies.jpg",
   "isbn": "9781803243955",
   "first_published": 2022,
   "pages": 571,
@@ -22,10 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781803243955",
-  "representative_edition_key": "/books/OL51803767M"
+  "representative_edition_key": "/books/OL51803767M",
+  "cover_url_source": "https://books.google.com/books/content?id=uQuMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:17+00:00",
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

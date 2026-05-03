@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/261388-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/261388-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/top-girls.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/top-girls.jpg",
   "open_library_url": "https://openlibrary.org/works/OL485225W",
   "first_published": 1982,
   "language": "eng",
@@ -38,9 +38,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL35533149M"
+  "representative_edition_key": "/books/OL35533149M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/261388-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/261388-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:36+00:00",
+  "ddc": [
+    "800"
+  ]
 }

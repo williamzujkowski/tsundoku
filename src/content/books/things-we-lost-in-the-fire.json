@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14435003-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14435003-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/things-we-lost-in-the-fire.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/things-we-lost-in-the-fire.jpg",
   "open_library_url": "https://openlibrary.org/works/OL34173139W",
   "first_published": 2016,
   "language": "eng",
@@ -76,5 +76,8 @@
       "name": "City of Barcelona Award",
       "year": 2017
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14435003-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14435003-L.jpg",
+  "cover_cached_at": "2026-05-03T02:19:05+00:00"
 }

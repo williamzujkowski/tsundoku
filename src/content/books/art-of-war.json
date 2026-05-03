@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4849549-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4849549-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/art-of-war.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/art-of-war.jpg",
   "open_library_url": "https://openlibrary.org/works/OL244537W",
   "first_published": -500,
   "language": "eng",
@@ -334,5 +334,8 @@
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57548033M"
+  "representative_edition_key": "/books/OL57548033M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4849549-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4849549-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:02+00:00"
 }

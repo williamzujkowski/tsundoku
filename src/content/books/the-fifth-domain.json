@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "Presents an urgent assessment of how governments, businesses, and everyday citizens can counter and prevent attacks by criminal hackers determined to create a digital war zone.",
-  "cover_url": "https://books.google.com/books/content?id=gPeiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=gPeiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-fifth-domain.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fifth-domain.jpg",
   "isbn": "9780525561965",
   "first_published": 2019,
   "pages": 354,
@@ -37,10 +37,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780525561965",
-  "representative_edition_key": "/books/OL27986775M"
+  "representative_edition_key": "/books/OL27986775M",
+  "cover_url_source": "https://books.google.com/books/content?id=gPeiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=gPeiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:04:27+00:00",
+  "ddc": [
+    "005.8"
+  ]
 }

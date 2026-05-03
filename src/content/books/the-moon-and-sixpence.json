@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A middle-aged stockbroker leaves his family to become an artist in this novel inspired by the life of Paul Gauguin from \"a notable and original writer\" ( The New York Times). From the author of The Razor's Edge and Of Human Bondage, The Moon and Sixpence tells the story of Charles Strickland, who suddenly deserts his wife and children in order to devote his life to painting. Unpleasant in manner yet strangely charismatic, he makes his way to Paris, Marseilles, and finally Tahiti, producing works",
-  "cover_url": "https://books.google.com/books/content?id=ajDgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-moon-and-sixpence.jpg",
   "isbn": "9781504062916",
   "first_published": 1919,
   "pages": 253,
@@ -92,5 +92,7 @@
   "editions_count": 397,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33797456M"
+  "representative_edition_key": "/books/OL33797456M",
+  "cover_url_source": "https://books.google.com/books/content?id=ajDgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:22+00:00"
 }

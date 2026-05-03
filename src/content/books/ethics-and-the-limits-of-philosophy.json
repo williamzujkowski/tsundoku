@@ -11,8 +11,8 @@
   "first_published": 2006,
   "language": "eng",
   "description": "In this book Bernard Williams delivers a sustained indictment of moral theory from Kant onward. His goal is nothing less than to reorient ethics toward the individual. He deals with the most thorny questions in contemporary philosophy and offers new ideas about issues such as relativism, objectivity, and the possibility of ethical knowledge.",
-  "cover_url": "https://books.google.com/books/content?id=O8fmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=O8fmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ethics-and-the-limits-of-philosophy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ethics-and-the-limits-of-philosophy.jpg",
   "isbn": "9780674257559",
   "pages": 248,
   "google_books_url": "https://play.google.com/store/books/details?id=O8fmEAAAQBAJ&source=gbs_api",
@@ -30,9 +30,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL38767215M"
+  "representative_edition_key": "/books/OL38767215M",
+  "cover_url_source": "https://books.google.com/books/content?id=O8fmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=O8fmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:13:47+00:00",
+  "ddc": [
+    "100"
+  ]
 }

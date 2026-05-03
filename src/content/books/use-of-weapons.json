@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2379038-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2379038-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/use-of-weapons.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/use-of-weapons.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8339333W",
   "first_published": 1990,
   "language": "eng",
@@ -62,5 +62,8 @@
   "series": {
     "name": "Culture series",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2379038-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2379038-L.jpg",
+  "cover_cached_at": "2026-05-03T02:23:12+00:00"
 }

@@ -8,8 +8,8 @@
     "economics",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6402116-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6402116-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/nudge-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/nudge-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3936258W",
   "first_published": 2008,
   "language": "eng",
@@ -103,5 +103,8 @@
   "wikidata_qid": "Q2004267",
   "original_title": "Nudge",
   "original_language": "eng",
-  "original_publisher": "Yale University Press"
+  "original_publisher": "Yale University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6402116-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6402116-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:44+00:00"
 }

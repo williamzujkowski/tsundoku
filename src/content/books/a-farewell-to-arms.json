@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-farewell-to-arms",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7226599-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7226599-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-farewell-to-arms.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-farewell-to-arms.jpg",
   "open_library_url": "https://openlibrary.org/works/OL63072W",
   "first_published": 1929,
   "language": "eng",
@@ -141,5 +141,8 @@
   "representative_edition_key": "/books/OL29984043M",
   "wikidata_qid": "Q235795",
   "original_title": "A Farewell to Arms",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7226599-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7226599-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:48+00:00"
 }

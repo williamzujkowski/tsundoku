@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "George Orwell set out 'to make political writing into an art', and to a wide extent this aim shaped the future of English literature – his descriptions of authoritarian regimes helped to form a new vocabulary that is fundamental to understanding totalitarianism. While 1984 and Animal Farm are amongst the most popular classic novels in the English language, this new series of Orwell's essays seeks to bring a wider selection of his writing on politics and literature to a new readership. In Politic",
-  "cover_url": "https://books.google.com/books/content?id=9dAREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/politics-and-the-english-language.jpg",
   "isbn": "9781913724276",
   "first_published": 1946,
   "pages": 48,
@@ -35,12 +35,18 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL27566001M",
   "wikidata_qid": "Q2273966",
   "original_title": "Politics and the English Language",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=9dAREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:37+00:00",
+  "ddc": [
+    "800"
+  ]
 }

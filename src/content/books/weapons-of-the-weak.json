@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/159489-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/159489-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/weapons-of-the-weak.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/weapons-of-the-weak.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2692044W",
   "first_published": 1986,
   "language": "eng",
@@ -64,5 +64,8 @@
   "representative_edition_key": "/books/OL9754362M",
   "wikidata_qid": "Q31930406",
   "original_title": "Weapons of the Weak",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/159489-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/159489-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:41+00:00"
 }

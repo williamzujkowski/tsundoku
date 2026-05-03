@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "mahabharata",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10320547-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10320547-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mahabharata.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mahabharata.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20983747W",
   "first_published": -400,
   "description": "The Mahabharata, \"What is found here, may be found elsewhere. What is not found here, will not be found elsewhere\". The ancient story of the Mahabharata casts the readers mind across spiritual and terrestrial vistas and battlefields. Through the experiences of divine incarnations and manifest demons, a great royal dynasty is fractured along fraternal lines, resulting in the greatest war of good and evil ever fought in ancient lands. This most venerable of epics remains profoundly timeless in it ...",
@@ -30,8 +30,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
-  "representative_edition_key": "/books/OL40221572M"
+  "representative_edition_key": "/books/OL40221572M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10320547-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10320547-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:31+00:00",
+  "ddc": [
+    "200"
+  ]
 }

@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/395423-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/395423-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/naming-and-necessity.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/naming-and-necessity.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6447860W",
   "first_published": 1980,
   "language": "eng",
@@ -61,5 +61,8 @@
   "wikidata_qid": "Q501747",
   "original_title": "Naming and Necessity",
   "original_language": "eng",
-  "original_publisher": "Harvard University Press"
+  "original_publisher": "Harvard University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/395423-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/395423-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:50+00:00"
 }

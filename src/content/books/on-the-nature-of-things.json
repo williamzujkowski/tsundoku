@@ -8,8 +8,8 @@
     "philosophy",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6782249-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6782249-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-the-nature-of-things.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-the-nature-of-things.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15792575W",
   "first_published": 1495,
   "language": "eng",
@@ -301,5 +301,8 @@
   "original_title": "De rerum natura",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL50969386M",
-  "wikidata_qid": "Q861986"
+  "wikidata_qid": "Q861986",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6782249-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6782249-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:59+00:00"
 }

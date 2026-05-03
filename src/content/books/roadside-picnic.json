@@ -6,8 +6,8 @@
   "slug": "roadside-picnic",
   "tags": [],
   "description": "Red Schuhart is a stalker, one of those misfits who are compelled, in spite of extreme danger, to venture illegally into the Zone to collect the mysterious artefacts that the alien visitors left scattered around. His life is dominated by the place and the thriving black market in the alien products. Even the nature of his mutant daughter has been determined by the Zone. And it is for her that he makes his last tragic foray into the hazardous and hostile territory.",
-  "cover_url": "https://books.google.com/books/content?id=4IFjmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=4IFjmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/roadside-picnic.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/roadside-picnic.jpg",
   "isbn": "1613743416",
   "first_published": 1978,
   "language": "eng",
@@ -45,5 +45,8 @@
   "first_published_circa": false,
   "first_edition_isbn": "0575024453",
   "representative_edition_key": "/books/OL25173786M",
-  "translator": "Olena Bormashenko"
+  "translator": "Olena Bormashenko",
+  "cover_url_source": "https://books.google.com/books/content?id=4IFjmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=4IFjmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:21+00:00"
 }

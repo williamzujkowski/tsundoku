@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "tree-of-smoke",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1188480-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1188480-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/tree-of-smoke.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tree-of-smoke.jpg",
   "open_library_url": "https://openlibrary.org/works/OL545415W",
   "first_published": 2007,
   "language": "eng",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q14639595",
   "original_title": "Tree of Smoke",
   "original_language": "eng",
-  "original_publisher": "Farrar, Straus and Giroux"
+  "original_publisher": "Farrar, Straus and Giroux",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1188480-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1188480-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:52+00:00"
 }

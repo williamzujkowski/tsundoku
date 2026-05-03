@@ -8,12 +8,38 @@
     "computing"
   ],
   "description": "From the dots and dashes of Morse code to the 0s and 1s of computer programming, \"Code\" describes the ingenious ways humans have adapted language systems--code--to invent the machinery of the modern age. Petzold uses everyday household objects and readily recognizable codes such as Braille and Morse to build a context for understanding how computers work.",
-  "cover_url": "https://books.google.com/books/content?id=pHcfAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=pHcfAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/code-the-hidden-language-of-computer-hardware-and-software.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/code-the-hidden-language-of-computer-hardware-and-software.jpg",
   "first_published": 1999,
   "pages": 408,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=pHcfAQAAIAAJ&dq=Code:+The+Hidden+Language+of+Computer+Hardware+and+Software+Petzold&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=pHcfAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=pHcfAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:40+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Coderingstheorie",
+    "Coding theory",
+    "Computer programming",
+    "Computers",
+    "Datenverarbeitung",
+    "Einfu hrung",
+    "Einführung",
+    "Hardware",
+    "Machine theory",
+    "Programmatuurtechniek"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

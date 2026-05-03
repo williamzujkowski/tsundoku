@@ -9,8 +9,8 @@
   "first_published": 1936,
   "language": "eng",
   "description": "Kaname's father-in-law plans to save Kaname's marriage by involving the couple in the classic traditions of Japan, especially the puppet theater",
-  "cover_url": "https://books.google.com/books/content?id=UIi0xG1TRaYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=UIi0xG1TRaYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/some-prefer-nettles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/some-prefer-nettles.jpg",
   "isbn": "0399505210",
   "pages": 228,
   "google_books_url": "http://books.google.com/books?id=UIi0xG1TRaYC&dq=Some+Prefer+Nettles+Jun%27ichir%C5%8D+Tanizaki&hl=&source=gbs_api",
@@ -62,5 +62,8 @@
   "original_language": "jpn",
   "original_title": "Tade kuu mushi",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL18346111M"
+  "representative_edition_key": "/books/OL18346111M",
+  "cover_url_source": "https://books.google.com/books/content?id=UIi0xG1TRaYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=UIi0xG1TRaYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:17+00:00"
 }

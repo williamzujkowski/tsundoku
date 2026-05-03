@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "kiss-of-the-fur-queen",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/238575-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/238575-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/kiss-of-the-fur-queen.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kiss-of-the-fur-queen.jpg",
   "open_library_url": "https://openlibrary.org/works/OL496240W",
   "first_published": 1998,
   "language": "eng",
@@ -51,5 +51,8 @@
   "first_edition_isbn": "0806132361",
   "representative_edition_key": "/books/OL22206654M",
   "wikidata_qid": "Q6417110",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/238575-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/238575-L.jpg",
+  "cover_cached_at": "2026-05-03T01:27:31+00:00"
 }

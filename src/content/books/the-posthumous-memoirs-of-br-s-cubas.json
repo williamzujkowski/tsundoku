@@ -8,12 +8,38 @@
   "open_library_url": "https://openlibrary.org/works/OL34582099W",
   "first_published": 2020,
   "description": "\"Posthumous Memoirs of Brás Cubas,\" by Machado de Assis, is a novel narrated by the deceased Brás Cubas, who revisits his life, loves, and failures with irony and sarcasm. Critiquing 19th-century society, the work challenges narrative conventions and explores human vanity and hypocrisy with humor and depth.",
-  "cover_url": "https://books.google.com/books/content?id=0G4SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=0G4SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-posthumous-memoirs-of-br-s-cubas.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-posthumous-memoirs-of-br-s-cubas.jpg",
   "isbn": "9786561332385",
   "pages": 255,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=0G4SEQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=0G4SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=0G4SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:35+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Aristocracy (Social class)",
+    "Autobiography",
+    "Continental european fiction (fictional works by one author)",
+    "Dead",
+    "Fiction",
+    "Fiction, general",
+    "Ghost stories",
+    "Romance brasileiro",
+    "Romance literature",
+    "Social life and customs"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

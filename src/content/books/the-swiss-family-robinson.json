@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The authoritative original English version of a beloved classic. One of the world's best-loved stories of shipwreck and survival, The Swiss Family Robinson portrays a family's struggle to create a new life for themselves on a strange and fantastic tropical island. Blown off course by a raging storm, the family, a Swiss pastor, his wife, their four young sons, plus two dogs and a shipload of livestock, must rely on one another in order to adapt to their needs the natural wonders of their exotic n",
-  "cover_url": "https://books.google.com/books/content?id=eagcnFKw-PYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-swiss-family-robinson.jpg",
   "isbn": "0143104993",
   "first_published": 1812,
   "pages": 500,
@@ -127,5 +127,7 @@
   "representative_edition_key": "/books/OL9476451M",
   "wikidata_qid": "Q665715",
   "original_title": "Der Schweizerische Robinson",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://books.google.com/books/content?id=eagcnFKw-PYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:24+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "The first in a series of premiere hardcover editions of Salvatore's classic dark elf tales.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/homeland.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/homeland.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780786931231",
@@ -56,11 +56,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "first_edition_isbn": "9780880389051",
   "representative_edition_key": "/books/OL32201288M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/3840px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+  "cover_cached_at": "2026-05-03T01:21:05+00:00"
 }

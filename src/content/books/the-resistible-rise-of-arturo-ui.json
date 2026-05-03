@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "This Student Edition of Brecht's classic satire on the rise of Hitler features an extensive introduction and commentary that includes a plot summary, discussion of the context, themes, characters, style and language as well as questions for further study and notes on words and phrases in the text. It is the perfect edition for students of theatre and literature. Described by Brecht as 'a gangster play that would recall certain events familiar to us all', Arturo Ui is a witty and savage satire of the rise of Hitler -- recast by Brecht into a small-time Chicago gangster's takeover of the city's greengrocery trade. Using a wide range of parody and pastiche - from Al Capone to Shakespeare's Richard III and Goethe's Faust - Brecht's compelling parable continues to have relevance wherever totalitarianism appears today. Written during the Second World War in 1941, the play was one of the Berliner Ensemble's most outstanding box-office successes in 1959, and has continued to attract a succession of major actors, including Leonard Rossiter, Christopher Plummer, Antony Sher and Al Pacino.",
-  "cover_url": "https://covers.openlibrary.org/b/id/261295-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/261295-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-resistible-rise-of-arturo-ui.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-resistible-rise-of-arturo-ui.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780413478108",
@@ -49,5 +49,8 @@
   },
   "editions_count": 6,
   "representative_edition_key": "/books/OL22479791M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/261295-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/261295-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:25+00:00"
 }

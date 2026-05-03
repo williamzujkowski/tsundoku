@@ -12,8 +12,8 @@
   "first_published": 1880,
   "google_books_url": "http://books.google.com/books?id=wPRM0AEACAAJ&dq=intitle:Heidi&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/2668686-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2668686-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/heidi.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/heidi.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1455042W",
   "description": "\"The reading of all good books is like conversation with the finest (people) of the past centuries.\" - Descartes The classic story of a little orphan girl in the Swiss Alps, with beautiful illustrations. At the age of five, little orphan Heidi is sent to live with her grandfather in the Alps. Everyone in the village is afraid of him, but Heidi is fascinated by his long beard and bushy grey eyebrows. She loves her life in the mountains, playing in the sunshine and growing up amongst the goats and...",
   "pages": 245,
@@ -176,5 +176,8 @@
   "representative_edition_key": "/books/OL11974312M",
   "wikidata_qid": "Q271697",
   "original_title": "Heidi",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2668686-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2668686-L.jpg",
+  "cover_cached_at": "2026-05-03T01:19:45+00:00"
 }

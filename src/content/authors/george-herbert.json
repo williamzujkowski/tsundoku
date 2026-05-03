@@ -3,7 +3,7 @@
   "slug": "george-herbert",
   "book_count": 1,
   "bio": "George Herbert was an English poet, orator, and priest of the Church of England. His poetry is associated with the writings of the metaphysical poets, and he is recognised as \"one of the foremost British devotional lyricists.\" He was born in Wales into an artistic and wealthy family and largely raised in England. He received a good education that led to his admission to Trinity College, Cambridge, in 1609. He enrolled intending to become a priest, but became the University's Public Orator and attracted the attention of King James I. He sat in the Parliament of England in 1624 and briefly in 1625.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/George_Herbert.jpg/400px-George_Herbert.jpg",
+  "photo_url": "/tsundoku/cached/authors/george-herbert.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Herbert",
   "open_library_url": "https://openlibrary.org/authors/OL271260A",
   "birth_year": 1593,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q317887",
   "viaf_id": "71487054",
-  "ol_author_key": "/authors/OL271260A"
+  "ol_author_key": "/authors/OL271260A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/George_Herbert.jpg/400px-George_Herbert.jpg",
+  "photo_cached_at": "2026-05-03T03:00:16+00:00"
 }

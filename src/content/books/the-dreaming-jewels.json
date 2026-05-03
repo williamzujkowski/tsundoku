@@ -9,8 +9,8 @@
   "first_published": 1971,
   "language": "eng",
   "description": "Winner of the Hugo, Nebula and World Fantasy Life Achievement Awards \"One of the masters of modern science fiction.\"—The Washington Post Book World Eight-year-old Horty Bluett has never known love. His adoptive parents are violent; his classmates are cruel. So he runs away from home and joins a carnival. Performing alongside the fireaters, snakemen and \"little people,\" Horty is accepted. But he is not safe. For when he loses three fingers in an accident and they grow back, it becomes clear that ...",
-  "cover_url": "https://books.google.com/books/content?id=_qc_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=_qc_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-dreaming-jewels.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-dreaming-jewels.jpg",
   "isbn": "9780375703737",
   "pages": 226,
   "google_books_url": "http://books.google.com/books?id=_qc_DwAAQBAJ&dq=The+Dreaming+Jewels+Theodore+Sturgeon&hl=&source=gbs_api",
@@ -51,5 +51,8 @@
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": "9780552087643",
-  "representative_edition_key": "/books/OL52591877M"
+  "representative_edition_key": "/books/OL52591877M",
+  "cover_url_source": "https://books.google.com/books/content?id=_qc_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=_qc_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:59+00:00"
 }

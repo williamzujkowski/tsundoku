@@ -3,7 +3,7 @@
   "slug": "georges-bernanos",
   "book_count": 1,
   "bio": "Louis Émile Clément Georges Bernanos was a French author, and a soldier in World War I. A Catholic with monarchist leanings, he was critical of elitist thought and was opposed to what he identified as defeatism. He believed this had led to France's defeat and eventual occupation by Germany in 1940 during World War II. His two best-known novels Sous le soleil de Satan (1926) and the Journal d'un curé de campagne (1936) both revolve around a parish priest who combats evil and despair in the world. Most of his novels have been translated into English and frequently published in both Great Britain and the United States.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Georges-Bernanos.jpg",
+  "photo_url": "/tsundoku/cached/authors/georges-bernanos.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Bernanos",
   "open_library_url": "https://openlibrary.org/authors/OL28989A",
   "birth_year": 1888,
@@ -33,5 +33,7 @@
     {
       "name": "Grand Prize for the Best Novels of the Half-Century"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/4/46/Georges-Bernanos.jpg",
+  "photo_cached_at": "2026-05-03T00:43:11+00:00"
 }

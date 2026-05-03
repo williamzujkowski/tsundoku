@@ -11,7 +11,7 @@
     "thriller"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=_rTsmfQV964C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wisdom-of-father-brown.jpg",
   "isbn": "9781610252652",
   "first_published": 1914,
   "pages": 226,
@@ -83,5 +83,7 @@
   "representative_edition_key": "/books/OL34796355M",
   "wikidata_qid": "Q74483",
   "original_title": "The Wisdom of Father Brown",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=_rTsmfQV964C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:32+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "“These two are a fierce, combined font of cocktail knowledge.” —The Skillery Written by Jon and Lindsay Yeager, the renowned husband-and-wife mixologist duo of the Tennessee cocktail creative PourTaste, this book provides a variety of innovative and experimental recipes for mixing beers and spirits together (yes, you read that right) so you can join in on the imaginative new trend of “beertails.” The experts at PourTaste, with their years of training and dedication to the art of mixology, teach ",
-  "cover_url": "https://books.google.com/books/content?id=pGeCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ultimate-guide-to-beer-cocktails.jpg",
   "isbn": "9781510729254",
   "first_published": 2018,
   "pages": 216,
@@ -29,10 +29,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781510729254",
-  "representative_edition_key": "/books/OL29807519M"
+  "representative_edition_key": "/books/OL29807519M",
+  "cover_url_source": "https://books.google.com/books/content?id=pGeCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:32+00:00",
+  "ddc": [
+    "800"
+  ]
 }

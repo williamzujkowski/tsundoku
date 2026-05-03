@@ -8,8 +8,8 @@
     "biography",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/225797-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/225797-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/speak-memory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/speak-memory.jpg",
   "open_library_url": "https://openlibrary.org/works/OL627083W",
   "first_published": 1951,
   "language": "eng",
@@ -79,5 +79,8 @@
   "wikidata_qid": "Q1952312",
   "original_title": "Speak, Memory",
   "original_language": "eng",
-  "original_publisher": "Victor Gollancz"
+  "original_publisher": "Victor Gollancz",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/225797-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/225797-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:08+00:00"
 }

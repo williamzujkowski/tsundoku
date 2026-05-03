@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "silent-spring",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/3825693-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3825693-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/silent-spring.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/silent-spring.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1884862W",
   "first_published": 1962,
   "language": "eng",
@@ -126,5 +126,8 @@
   "representative_edition_key": "/books/OL43857258M",
   "wikidata_qid": "Q591623",
   "original_title": "Silent Spring",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3825693-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3825693-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:50+00:00"
 }

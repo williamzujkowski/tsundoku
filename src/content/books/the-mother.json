@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The tragedy of a mother who realizes her dream of her son's becoming a priest only to see him yield to the temptations of the flesh.",
-  "cover_url": "https://books.google.com/books/content?id=GQwPAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mother.jpg",
   "first_published": 1923,
   "pages": 262,
   "google_books_url": "https://play.google.com/store/books/details?id=GQwPAQAAIAAJ&source=gbs_api",
@@ -43,5 +43,7 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11938288M"
+  "representative_edition_key": "/books/OL11938288M",
+  "cover_url_source": "https://books.google.com/books/content?id=GQwPAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:27+00:00"
 }

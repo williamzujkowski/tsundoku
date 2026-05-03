@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This Is A New Release Of The Original 1922 Edition.",
-  "cover_url": "https://books.google.com/books/content?id=wpWGoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/memoirs-of-a-midget.jpg",
   "isbn": "1494145464",
   "first_published": 1921,
   "pages": 432,
@@ -69,5 +69,7 @@
   },
   "editions_count": 42,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26644991M"
+  "representative_edition_key": "/books/OL26644991M",
+  "cover_url_source": "https://books.google.com/books/content?id=wpWGoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:18+00:00"
 }

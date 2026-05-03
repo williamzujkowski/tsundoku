@@ -9,7 +9,7 @@
     "philosophy"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=KMWOB-rwhIIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/she.jpg",
   "first_published": 1876,
   "pages": 446,
   "google_books_url": "https://play.google.com/store/books/details?id=KMWOB-rwhIIC&source=gbs_api",
@@ -124,5 +124,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8503513M",
   "wikidata_qid": "Q276015",
-  "original_title": "論語"
+  "original_title": "論語",
+  "cover_url_source": "https://books.google.com/books/content?id=KMWOB-rwhIIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:42+00:00"
 }

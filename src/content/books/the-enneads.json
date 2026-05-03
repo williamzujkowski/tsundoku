@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6562931-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6562931-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-enneads.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-enneads.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10411362W",
   "first_published": 1921,
   "language": "eng",
@@ -92,5 +92,8 @@
   "representative_edition_key": "/books/OL8446331M",
   "wikidata_qid": "Q1156747",
   "original_title": "Ἐννεάδες",
-  "original_language": "grc"
+  "original_language": "grc",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6562931-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6562931-L.jpg",
+  "cover_cached_at": "2026-05-03T02:03:39+00:00"
 }

@@ -9,11 +9,37 @@
   "first_published": 1992,
   "language": "eng",
   "description": "From the author of The Unbearable Lightness of Being, this is a comic vision of our anxiety about immortality.",
-  "cover_url": "https://books.google.com/books/content?id=0Tx9PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=0Tx9PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/immortality.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/immortality.jpg",
   "isbn": "0571209181",
   "pages": 387,
   "google_books_url": "http://books.google.com/books?id=0Tx9PwAACAAJ&dq=Immortality+Milan+Kundera&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=0Tx9PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=0Tx9PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:36+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Fiction",
+    "Immortality",
+    "Immortalité",
+    "Littérature tchèque",
+    "Perception de soi",
+    "Roman tchèque",
+    "Romans, nouvelles",
+    "Self-perception",
+    "Traductions françaises"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

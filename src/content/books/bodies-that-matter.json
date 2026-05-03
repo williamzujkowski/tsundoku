@@ -8,8 +8,8 @@
     "philosophy",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/268131-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/268131-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/bodies-that-matter.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bodies-that-matter.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3292644W",
   "first_published": 1993,
   "language": "eng",
@@ -94,5 +94,8 @@
   "wikidata_qid": "Q1796635",
   "original_title": "Bodies that Matter: on the Discursive Limits of Sex",
   "original_language": "eng",
-  "original_publisher": "Routledge"
+  "original_publisher": "Routledge",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/268131-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/268131-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:48+00:00"
 }

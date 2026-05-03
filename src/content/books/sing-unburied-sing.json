@@ -8,8 +8,8 @@
     "children",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8205752-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8205752-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sing-unburied-sing.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sing-unburied-sing.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17826879W",
   "first_published": 2017,
   "language": "eng",
@@ -62,5 +62,8 @@
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26955415M"
+  "representative_edition_key": "/books/OL26955415M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8205752-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8205752-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:53+00:00"
 }

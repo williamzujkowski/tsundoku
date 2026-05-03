@@ -9,8 +9,8 @@
   "first_published": 1913,
   "language": "eng",
   "description": "The definitive translation of the bestselling and best-known book of Marcel Proust's sequence Remembrance of Things Past.",
-  "cover_url": "https://books.google.com/books/content?id=MLMrAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=MLMrAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/swanns-way.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/swanns-way.jpg",
   "pages": 518,
   "google_books_url": "http://books.google.com/books?id=MLMrAAAAYAAJ&dq=Swann%27s+Way+Marcel+Proust&hl=&source=gbs_api",
   "reading_status": "want",
@@ -133,5 +133,8 @@
   "series": {
     "name": "In Search of Lost Time",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=MLMrAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=MLMrAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:37+00:00"
 }

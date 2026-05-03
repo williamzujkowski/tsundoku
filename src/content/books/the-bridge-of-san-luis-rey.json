@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A Franciscan monk, Brother Juniper, witnesses the collapse of a historic bridge, plunging five people to their deaths, and embarks on a spiritual quest to reconcile free will versus divine intervention in the victims’ lives.",
-  "cover_url": "https://books.google.com/books/content?id=vcynEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-bridge-of-san-luis-rey.jpg",
   "isbn": "9780486851761",
   "first_published": 2023,
   "pages": 99,
@@ -76,5 +76,7 @@
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL46710153M"
+  "representative_edition_key": "/books/OL46710153M",
+  "cover_url_source": "https://books.google.com/books/content?id=vcynEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:08+00:00"
 }

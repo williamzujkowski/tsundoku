@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "collapse",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12915198-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12915198-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/collapse.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/collapse.jpg",
   "open_library_url": "https://openlibrary.org/works/OL276557W",
   "first_published": 2005,
   "language": "eng",
@@ -117,5 +117,8 @@
   "representative_edition_key": "/books/OL39800280M",
   "wikidata_qid": "Q1069122",
   "original_title": "Collapse",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12915198-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12915198-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:42+00:00"
 }

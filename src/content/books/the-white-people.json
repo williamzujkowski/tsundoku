@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1803998-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1803998-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-white-people.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-white-people.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3388994W",
   "first_published": 2004,
   "language": "eng",
@@ -30,8 +30,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL26830306M"
+  "representative_edition_key": "/books/OL26830306M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1803998-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1803998-L.jpg",
+  "cover_cached_at": "2026-05-03T02:17:14+00:00",
+  "ddc": [
+    "808.8387"
+  ]
 }

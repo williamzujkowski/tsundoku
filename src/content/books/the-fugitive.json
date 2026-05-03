@@ -8,8 +8,8 @@
     "humor",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/417795-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/417795-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fugitive.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fugitive.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1190278W",
   "first_published": 1993,
   "language": "eng",
@@ -29,8 +29,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL38003915M"
+  "representative_edition_key": "/books/OL38003915M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/417795-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/417795-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:58+00:00",
+  "ddc": [
+    "800"
+  ]
 }

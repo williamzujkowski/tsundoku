@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "monday-starts-on-saturday",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10461352-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10461352-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/monday-starts-on-saturday.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/monday-starts-on-saturday.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20464646W",
   "first_published": 2005,
   "language": "eng",
@@ -20,8 +20,19 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL40138489M"
+  "representative_edition_key": "/books/OL40138489M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10461352-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10461352-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:07+00:00",
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

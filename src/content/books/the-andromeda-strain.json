@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Andromeda Strain is a 1969 novel by American writer Michael Crichton, his first novel under his own name and his sixth novel overall. It documents the outbreak of a deadly extraterrestrial microorganism in Arizona and the team of scientists investigating it. The book is presented as a report from a secret government project involving scientists, and features text-based computer imagery that illustrates the results of various tests on the organism.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Big-andromedastrain.jpg/250px-Big-andromedastrain.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-andromeda-strain.jpg",
   "pages": 295,
   "isbn": "9788440661869",
   "ddc": [
@@ -105,5 +105,7 @@
       "name": "Seiun Award for Best Translated Long Work",
       "year": 1971
     }
-  ]
+  ],
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Big-andromedastrain.jpg/250px-Big-andromedastrain.jpg",
+  "cover_cached_at": "2026-05-03T01:56:01+00:00"
 }

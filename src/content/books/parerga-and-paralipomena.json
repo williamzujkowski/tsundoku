@@ -11,8 +11,8 @@
   "first_published": 1951,
   "language": "eng",
   "description": "With the publication of the Parerga and Paralipomena in 1851, there finally came some measure of the fame that Schopenhauer thought was his due. Described by Schopenhauer himself as 'incomparably more popular than everything up till now', the Parerga is a miscellany of essays addressing themes that complement his work The World as Will and Representation, along with more divergent, speculative pieces. It includes his 'Aphorisms on the Wisdom of Life', reflections on fate and clairvoyance, trench...",
-  "cover_url": "https://books.google.com/books/content?id=3lzBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=3lzBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/parerga-and-paralipomena.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/parerga-and-paralipomena.jpg",
   "isbn": "9781107728998",
   "pages": 592,
   "google_books_url": "https://play.google.com/store/books/details?id=3lzBAgAAQBAJ&source=gbs_api",
@@ -27,10 +27,30 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL26538342M"
+  "representative_edition_key": "/books/OL26538342M",
+  "cover_url_source": "https://books.google.com/books/content?id=3lzBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=3lzBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:40:01+00:00",
+  "subject_facet": [
+    "Art and literature",
+    "Conduct of life",
+    "Esthétique",
+    "Literature",
+    "Maxims",
+    "Morale pratique",
+    "Pessimism",
+    "Philosophy",
+    "Religion",
+    "Study and teaching (Higher)"
+  ],
+  "ddc": [
+    "100"
+  ]
 }

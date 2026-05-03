@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Arduino Project Handbook is a beginner-friendly collection of electronics projects using the low-cost Arduino board. With just a handful of components, an Arduino, and a computer, you’ll learn to build and program everything from light shows to arcade games to an ultrasonic security system. First you’ll get set up with an introduction to the Arduino and valuable advice on tools and components. Then you can work through the book in order or just jump to projects that catch your eye. Each project ",
-  "cover_url": "https://books.google.com/books/content?id=Zni7DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/arduino-project-handbook.jpg",
   "isbn": "9781593276904",
   "first_published": 2016,
   "pages": 273,
@@ -37,10 +37,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593276904",
-  "representative_edition_key": "/books/OL27425873M"
+  "representative_edition_key": "/books/OL27425873M",
+  "cover_url_source": "https://books.google.com/books/content?id=Zni7DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:56:42+00:00",
+  "ddc": [
+    "005"
+  ]
 }

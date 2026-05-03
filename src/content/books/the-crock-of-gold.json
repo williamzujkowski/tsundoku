@@ -16,8 +16,8 @@
   "pages": 95,
   "google_books_url": "http://books.google.com/books?id=PyLgzgEACAAJ&dq=intitle:The+Crock+of+Gold&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/5548056-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5548056-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-crock-of-gold.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-crock-of-gold.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1154817W",
   "copyright_status": "public_domain",
   "gutenberg_id": 1605,
@@ -77,5 +77,8 @@
   "editions_count": 155,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37559724M"
+  "representative_edition_key": "/books/OL37559724M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5548056-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5548056-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:05+00:00"
 }

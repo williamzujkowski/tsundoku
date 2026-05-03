@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "We are happy to announce this classic book. Many of the books in our collection have not been published for decades and are therefore not broadly available to the readers. Our goal is to access the very large literary repository of general public books. The main contents of our entire classical books are the original works. To ensure high quality products, all the titles are chosen carefully by our staff. We hope you enjoy this classic.",
-  "cover_url": "https://books.google.com/books/content?id=uy7AzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/blue-hand.jpg",
   "isbn": "9798665177588",
   "first_published": 1927,
   "pages": 318,
@@ -47,5 +47,7 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL34307631M",
   "wikidata_qid": "Q85806594",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=uy7AzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:46+00:00"
 }

@@ -10,7 +10,7 @@
     "thriller"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=ZMidEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-clue-of-the-twisted-candle.jpg",
   "isbn": "9783368320683",
   "first_published": 1900,
   "pages": 241,
@@ -52,5 +52,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34347829M",
   "wikidata_qid": "Q85806800",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=ZMidEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:00:53+00:00"
 }

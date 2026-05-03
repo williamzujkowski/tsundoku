@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In Lady into Fox, Silvia Tebrick, the 24-year-old wife of Richard Tebrick, suddenly becomes a fox while they are out walking in the woods. Mr. Tebrick sends away all the servants in an attempt to keep Silvia's new nature a secret, although Silvia's childhood nurse returns. While Silvia initially acts human, insisting on wearing clothing and playing piquet, her behavior increasingly becomes that characteristic of a vixen, causing the husband a great deal of anguish. Eventually, Mr. Tebrick releas",
-  "cover_url": "https://books.google.com/books/content?id=BuRMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lady-into-fox.jpg",
   "first_published": 1922,
   "pages": 234,
   "google_books_url": "https://play.google.com/store/books/details?id=BuRMAAAAIAAJ&source=gbs_api",
@@ -58,5 +58,7 @@
   "editions_count": 59,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11676131M"
+  "representative_edition_key": "/books/OL11676131M",
+  "cover_url_source": "https://books.google.com/books/content?id=BuRMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:28:36+00:00"
 }

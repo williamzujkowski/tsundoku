@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/374006-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/374006-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/golden-fool.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/golden-fool.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2707234W",
   "first_published": 2002,
   "language": "eng",
@@ -52,5 +52,8 @@
   "series": {
     "name": "The Tawny Man Trilogy",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/374006-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/374006-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:26+00:00"
 }

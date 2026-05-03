@@ -3,7 +3,7 @@
   "slug": "tove-jansson",
   "book_count": 2,
   "bio": "Tove Marika Jansson was a Finland-Swedish author, novelist and comic strip author. She was also a painter and illustrator. Brought up by artistic parents, Jansson studied art from 1930 to 1938 in Helsinki, Stockholm, and Paris. She held her first solo art exhibition in 1943. Over the same period, she penned short stories and articles for publication, and subsequently drew illustrations for book covers, advertisements, and postcards. She continued her work as an artist and writer for the rest of her life.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tove_Jansson_with_flower_crown_001.tiff/lossy-page1-330px-Tove_Jansson_with_flower_crown_001.tiff.jpg",
+  "photo_url": "/tsundoku/cached/authors/tove-jansson.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tove_Jansson",
   "open_library_url": "https://openlibrary.org/authors/OL279921A",
   "birth_year": 1914,
@@ -88,5 +88,7 @@
     {
       "name": "Memorial medal of the Winter War"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tove_Jansson_with_flower_crown_001.tiff/lossy-page1-330px-Tove_Jansson_with_flower_crown_001.tiff.jpg",
+  "photo_cached_at": "2026-05-03T03:19:23+00:00"
 }

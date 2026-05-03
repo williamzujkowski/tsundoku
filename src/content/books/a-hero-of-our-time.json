@@ -9,8 +9,8 @@
   "first_published": 1900,
   "language": "eng",
   "description": "A brilliant new translation of a perennial favorite of Russian literature The first major Russian novel, A Hero of Our Time was both lauded and reviled upon publication. Its dissipated hero, twenty-five-year-old Pechorin, is a beautiful and magnetic but nihilistic young army officer, bored by life and indifferent to his many sexual conquests. Chronicling his unforgettable adventures in the Caucasus involving brigands, smugglers, soldiers, rivals, and lovers, this classic tale of alienation influ...",
-  "cover_url": "https://books.google.com/books/content?id=TaEGibFiPMkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=TaEGibFiPMkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-hero-of-our-time.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-hero-of-our-time.jpg",
   "isbn": "0143105639",
   "pages": 212,
   "google_books_url": "http://books.google.com/books?id=TaEGibFiPMkC&dq=A+Hero+of+Our+Time+Mikhail+Lermontov&hl=&source=gbs_api",
@@ -58,5 +58,8 @@
   "original_language": "fre",
   "original_title": "Un héros de notre temps ; suivi de Chtoss, Le fuyard, Le démon, Mtzyri, La mort du poète",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23165411M"
+  "representative_edition_key": "/books/OL23165411M",
+  "cover_url_source": "https://books.google.com/books/content?id=TaEGibFiPMkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=TaEGibFiPMkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:00+00:00"
 }

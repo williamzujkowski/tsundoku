@@ -3,7 +3,7 @@
   "slug": "william-blake",
   "book_count": 5,
   "bio": "William Blake was an English poet, painter and printmaker. Largely unrecognised during his life, Blake has become a seminal figure in the history of the poetry and visual art of the Romantic Age. What he called his \"prophetic works\" were said by the 20th-century critic Northrop Frye to form \"what is in proportion to its merits the least read body of poetry in the English language\". While he lived in London his entire life, except for three years spent in Felpham, he produced a diverse and symbolically rich collection of works, which embraced the imagination as \"the body of God\", or \"human existence itself\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/400px-William_Blake_by_Thomas_Phillips.jpg",
+  "photo_url": "/tsundoku/cached/authors/william-blake.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/William_Blake",
   "open_library_url": "https://openlibrary.org/authors/OL41961A",
   "birth_year": 1757,
@@ -24,5 +24,7 @@
   "movements": [
     "Romanticism",
     "fairy painting"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/400px-William_Blake_by_Thomas_Phillips.jpg",
+  "photo_cached_at": "2026-05-03T03:20:42+00:00"
 }

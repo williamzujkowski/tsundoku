@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "coolie",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/97693-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97693-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/coolie.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/coolie.jpg",
   "open_library_url": "https://openlibrary.org/works/OL354741W",
   "first_published": 1900,
   "language": "eng",
@@ -52,5 +52,8 @@
   "representative_edition_key": "/books/OL830798M",
   "wikidata_qid": "Q5167484",
   "original_title": "Coolie",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97693-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97693-L.jpg",
+  "cover_cached_at": "2026-05-03T01:04:18+00:00"
 }

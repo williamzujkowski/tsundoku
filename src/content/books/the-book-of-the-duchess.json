@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4813029-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4813029-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-the-duchess.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-the-duchess.jpg",
   "open_library_url": "https://openlibrary.org/works/OL531664W",
   "first_published": 1982,
   "language": "eng",
@@ -38,5 +38,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL46880743M"
+  "representative_edition_key": "/books/OL46880743M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4813029-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4813029-L.jpg",
+  "cover_cached_at": "2026-05-03T01:59:03+00:00"
 }

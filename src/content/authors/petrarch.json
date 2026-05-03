@@ -3,7 +3,7 @@
   "slug": "petrarch",
   "book_count": 1,
   "bio": "Francis Petrarch, born Francesco di Petracco, was a scholar from Arezzo and poet of the early Italian Renaissance, as well as one of the earliest humanists.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg/400px-Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg",
+  "photo_url": "/tsundoku/cached/authors/petrarch.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Petrarch",
   "open_library_url": "https://openlibrary.org/authors/OL77056A",
   "birth_year": 1304,
@@ -22,5 +22,7 @@
       "name": "Poet's Crown",
       "year": 1341
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg/400px-Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg",
+  "photo_cached_at": "2026-05-03T03:13:09+00:00"
 }

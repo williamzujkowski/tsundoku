@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Red Storm Rising is a war novel, written by Tom Clancy and Larry Bond, and released on August 7, 1986. Set in the mid-1980s, it features a Third World War between the North Atlantic Treaty Organization and Warsaw Pact forces, and is notable for depicting the conflict as being fought exclusively with conventional weapons, rather than escalating to the use of weapons of mass destruction or nuclear warfare. It is one of two Clancy novels, along with SSN (1996), that are not set in the Ryanverse.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Red_storm_rising.jpg/250px-Red_storm_rising.jpg",
+  "cover_url": "/tsundoku/cached/covers/red-storm-rising.jpg",
   "pages": 830,
   "isbn": "9784167275730",
   "ddc": [
@@ -69,5 +69,7 @@
   "representative_edition_key": "/books/OL20298389M",
   "wikidata_qid": "Q1581581",
   "original_title": "Red Storm Rising",
-  "original_publisher": "G. P. Putnam's Sons"
+  "original_publisher": "G. P. Putnam's Sons",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Red_storm_rising.jpg/250px-Red_storm_rising.jpg",
+  "cover_cached_at": "2026-05-03T01:47:04+00:00"
 }

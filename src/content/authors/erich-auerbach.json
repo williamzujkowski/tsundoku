@@ -3,7 +3,7 @@
   "slug": "erich-auerbach",
   "book_count": 1,
   "bio": "\nErich Auerbach was a German philologist and comparative scholar and critic of literature. His best-known work is Mimesis: The Representation of Reality in Western Literature, a history of representation in Western literature from ancient to modern times frequently cited as a classic in the study of realism in literature. Along with Leo Spitzer, Auerbach is widely recognized as one of the foundational figures of comparative literature.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/ErichAuerbach.jpg/400px-ErichAuerbach.jpg",
+  "photo_url": "/tsundoku/cached/authors/erich-auerbach.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Erich_Auerbach",
   "open_library_url": "https://openlibrary.org/authors/OL125445A",
   "birth_year": 1892,
@@ -25,5 +25,7 @@
     {
       "name": "Sterling Professor"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/ErichAuerbach.jpg/400px-ErichAuerbach.jpg",
+  "photo_cached_at": "2026-05-03T02:58:14+00:00"
 }

@@ -6,8 +6,8 @@
   "slug": "the-obscene-bird-of-night",
   "tags": [],
   "description": "Newly revised and updated by Megan McDowell, and with a new introduction by Alejandro Zambra: at last, the unabridged, centennial edition of Donoso’s terrifying masterpiece sees the light of day Deep in a maze of musty, forgotten hallways, Mudito rummages through piles of old newspapers. The mute caretaker of the crumbling former abbey, he is hounded by a coven of ancient witches who are bent on transforming him, bit by bit, into the terrifying imbunche: a twisted monster with all of its orifice...",
-  "cover_url": "https://books.google.com/books/content?id=x7ndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=x7ndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-obscene-bird-of-night.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-obscene-bird-of-night.jpg",
   "isbn": "9780811232234",
   "first_published": 2024,
   "pages": 379,
@@ -41,5 +41,8 @@
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "9780811232227",
-  "representative_edition_key": "/books/OL51622081M"
+  "representative_edition_key": "/books/OL51622081M",
+  "cover_url_source": "https://books.google.com/books/content?id=x7ndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=x7ndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:59+00:00"
 }

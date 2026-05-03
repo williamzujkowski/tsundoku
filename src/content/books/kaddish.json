@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "kaddish",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11021071-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11021071-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/kaddish.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kaddish.jpg",
   "open_library_url": "https://openlibrary.org/works/OL102467W",
   "first_published": 1961,
   "language": "eng",
@@ -46,5 +46,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54364825M"
+  "representative_edition_key": "/books/OL54364825M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11021071-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11021071-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:30+00:00"
 }

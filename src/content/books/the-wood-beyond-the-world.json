@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A groundbreaking fantasy novel, The Wood Beyond the World tells the story of a young man, Golden Walter, who finds himself in a strange and frightening world after being abandoned by his wife and lost at sea. The novel takes the form of Walter’s quest for the visionary Maid that he sees at the beginning of his journey, and takes him from his failed marriage through temptation to emotional fulfillment. Set in Morris’s imaginative recreation of a medieval world, the novel is full of vivid imagery ",
-  "cover_url": "https://books.google.com/books/content?id=VW9WAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wood-beyond-the-world.jpg",
   "isbn": "9781460404348",
   "first_published": 1894,
   "pages": 296,
@@ -78,5 +78,7 @@
   "representative_edition_key": "/books/OL34332267M",
   "wikidata_qid": "Q7775713",
   "original_language": "eng",
-  "original_publisher": "William Morris"
+  "original_publisher": "William Morris",
+  "cover_url_source": "https://books.google.com/books/content?id=VW9WAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:40+00:00"
 }

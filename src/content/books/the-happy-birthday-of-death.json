@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL13052251W",
   "first_published": 1960,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=K400r0sA6i0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=K400r0sA6i0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-happy-birthday-of-death.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-happy-birthday-of-death.jpg",
   "isbn": "0811200272",
   "pages": 102,
   "google_books_url": "https://play.google.com/store/books/details?id=K400r0sA6i0C&source=gbs_api",
@@ -39,5 +39,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL20330066M"
+  "representative_edition_key": "/books/OL20330066M",
+  "cover_url_source": "https://books.google.com/books/content?id=K400r0sA6i0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=K400r0sA6i0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:06:20+00:00"
 }

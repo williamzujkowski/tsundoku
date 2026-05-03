@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The New York Times bestselling author of the Peter and the Starcatcher and Kingdom Keepers series, Ridley Pearson, brings us the stirring digital prequel to the Lock and Key series, which reimagines the origins of the rivalry between Sherlock Holmes and James Moriarty. In The Gadwall Incident, readers get a glimpse into James’s life a mere twenty-four hours before the tipping point—before life as he knows it changes irrevocably and his childhood slips into the shadows. Readers will come to know ",
-  "cover_url": "https://books.google.com/books/content?id=GIeIDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lock-and-key-the-gadwall-incident.jpg",
   "isbn": "9780062661272",
   "first_published": 2016,
   "pages": 63,
@@ -28,10 +28,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780062661272",
-  "representative_edition_key": "/books/OL29743973M"
+  "representative_edition_key": "/books/OL29743973M",
+  "cover_url_source": "https://books.google.com/books/content?id=GIeIDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:49+00:00",
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

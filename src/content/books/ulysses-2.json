@@ -9,8 +9,8 @@
     "psychology",
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13136548-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13136548-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ulysses-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ulysses-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL86318W",
   "first_published": 1914,
   "language": "eng",
@@ -277,5 +277,8 @@
     {
       "name": "Modern Library 100 Best Novels"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13136548-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13136548-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:27+00:00"
 }

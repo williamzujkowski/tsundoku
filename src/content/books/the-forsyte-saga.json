@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "The three novels which make up The Forsyte Saga chronicle the ebbing social power of the commercial upper-middle class Forsyte family between 1886 and 1920. Soames Forsyte is the brilliantly portrayed central figure, a Victorian who outlives the age, and whose baffled passion for his beautiful but unresponsive wife Irene reverberates throughout the saga. Written with both compassion and ironic detachment, Galsworthy's masterly narrative examines not only their fortunes but also the wider develop",
-  "cover_url": "https://books.google.com/books/content?id=611SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-forsyte-saga.jpg",
   "isbn": "9785521062713",
   "first_published": 1947,
   "pages": 437,
   "google_books_url": "http://books.google.com/books?id=611SDwAAQBAJ&dq=intitle:The+Forsyte+Saga&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=611SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:04:51+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

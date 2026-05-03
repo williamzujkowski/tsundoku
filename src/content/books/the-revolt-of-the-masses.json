@@ -14,8 +14,8 @@
   "copyright_status": "public_domain",
   "description": "The Revolt of the Masses is a book by José Ortega y Gasset. It was first published as a series of articles in the newspaper El Sol in 1929, and as a book in 1930; the English translation, first published two years later, was authorized by Ortega.",
   "isbn": "9780043230114",
-  "cover_url": "https://covers.openlibrary.org/b/id/1047124-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1047124-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-revolt-of-the-masses.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-revolt-of-the-masses.jpg",
   "ddc": [
     "901",
     "901.9",
@@ -73,5 +73,8 @@
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "La rebelión de las masas",
-  "representative_edition_key": "/books/OL7452383M"
+  "representative_edition_key": "/books/OL7452383M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1047124-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1047124-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:31+00:00"
 }

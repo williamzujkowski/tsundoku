@@ -8,8 +8,8 @@
     "politics"
   ],
   "description": "From the winners of the 2024 Nobel Prize for Economics and the authors of the international bestseller Why Nations Fail \"Why is it so difficult to develop and sustain liberal democracy? The best recent work on this subject comes from a remarkable pair of scholars, Daron Acemoglu and James A. Robinson. In their latest book, The Narrow Corridor, they have answered this question with great insight.\" —Fareed Zakaria, The Washington Post In Why Nations Fail, Daron Acemoglu and James A. Robinson argue...",
-  "cover_url": "https://books.google.com/books/content?id=IHuDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=IHuDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-narrow-corridor.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-narrow-corridor.jpg",
   "isbn": "9780735224391",
   "first_published": 2019,
   "pages": 594,
@@ -21,8 +21,29 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL48123591M"
+  "representative_edition_key": "/books/OL48123591M",
+  "cover_url_source": "https://books.google.com/books/content?id=IHuDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=IHuDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:41+00:00",
+  "subject_facet": [
+    "Decentralization in government",
+    "Direct democracy",
+    "Executive power",
+    "Liberty",
+    "Power (Social sciences) -- Political aspects",
+    "State, The",
+    "Violence -- Political aspects"
+  ],
+  "ddc": [
+    "330"
+  ],
+  "lcc": [
+    "HB"
+  ]
 }

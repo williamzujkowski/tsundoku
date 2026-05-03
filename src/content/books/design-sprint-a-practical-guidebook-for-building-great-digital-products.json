@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Annotation In the world of digital products, the future is difficult to predict and success requires reducing the risk of failure. This book codifies and captures a common language and process for design sprints, making them accessible to anyone, and enabling businesses and teams to build products that are successful.",
-  "cover_url": "https://books.google.com/books/content?id=OcqhCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/design-sprint-a-practical-guidebook-for-building-great-digital-products.jpg",
   "isbn": "9781491923146",
   "first_published": 2015,
   "pages": 270,
@@ -29,10 +29,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781491923122",
-  "representative_edition_key": "/books/OL36796532M"
+  "representative_edition_key": "/books/OL36796532M",
+  "cover_url_source": "https://books.google.com/books/content?id=OcqhCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:08+00:00",
+  "ddc": [
+    "005"
+  ]
 }

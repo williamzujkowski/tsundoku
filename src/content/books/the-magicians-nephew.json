@@ -10,8 +10,8 @@
     "humor",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11756428-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11756428-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-magicians-nephew.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-magicians-nephew.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24867882W",
   "first_published": 1955,
   "description": "\"Polly's hand went out to touch one of the rings. Immediately, without a flash or a noise, she vanished\". When horrible Uncle Andrew starts experimenting with magic, Digory and Polly find themselves in another world, at the start of an adventure, as the doorway to the magical land of Narnia opens.",
@@ -94,5 +94,8 @@
   },
   "editions_count": 163,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL39220348M"
+  "representative_edition_key": "/books/OL39220348M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11756428-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11756428-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:28+00:00"
 }

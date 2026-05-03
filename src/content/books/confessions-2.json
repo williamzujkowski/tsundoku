@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "confessions-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6371045-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6371045-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/confessions-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/confessions-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL80592W",
   "first_published": 1782,
   "language": "eng",
@@ -140,5 +140,8 @@
   "original_language": "fre",
   "original_title": "Les confessions",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27579676M"
+  "representative_edition_key": "/books/OL27579676M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6371045-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6371045-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:42+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "jos-donoso",
   "book_count": 1,
   "bio": "José Manuel Donoso Yáñez, known as José Donoso, was a Chilean writer, journalist and professor. He lived most of his life in Chile, although he spent many years in self-imposed exile in Mexico, the United States and Spain. Although he stated that he had left Chile in the 1960s for personal reasons, after 1973 his exile was also a form of protest against the dictatorship of Augusto Pinochet. He returned to Chile in 1981 and lived there until his death in 1996.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Jos%C3%A9_Donoso%2C_1981.jpg/400px-Jos%C3%A9_Donoso%2C_1981.jpg",
+  "photo_url": "/tsundoku/cached/authors/jos-donoso.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Donoso",
   "open_library_url": "https://openlibrary.org/authors/OL4279328A",
   "birth_year": 1924,
@@ -46,5 +46,7 @@
     {
       "name": "Guggenheim Fellowship"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Jos%C3%A9_Donoso%2C_1981.jpg/400px-Jos%C3%A9_Donoso%2C_1981.jpg",
+  "photo_cached_at": "2026-05-03T03:05:32+00:00"
 }

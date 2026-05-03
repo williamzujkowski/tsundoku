@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "If you haven’t met a Moomin yet, you’re missing the most magical fun! Perfect for readers of all ages, join the beloved, world-famous characters of Moominvalley on an unforgettable adventure in Moominland Midwinter—includes black-and-white illustrations throughout. “Genius.” —Philip Pullman “Clever, gentle, witty, and completely engrossing.” —Jeff Smith, author of Bone Everyone knows the Moomins sleep through the winter. But this year, Moomintroll has woken up early. So while the rest of the fam",
-  "cover_url": "https://books.google.com/books/content?id=TlNABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/midwinter.jpg",
   "isbn": "9781466871601",
   "first_published": 1971,
   "pages": 159,
@@ -56,5 +56,7 @@
   "editions_count": 33,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL29702975M",
-  "translator": "Thomas Warburton"
+  "translator": "Thomas Warburton",
+  "cover_url_source": "https://books.google.com/books/content?id=TlNABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:41+00:00"
 }

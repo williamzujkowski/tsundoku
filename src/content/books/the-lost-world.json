@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"HARROWING THRILLS . . . FAST-PACED AND ENGAGING.\" --People It is now six years since the secret disaster at Jurassic Park, six years since the extraordinary dream of science and imagination came to a crashing end--the dinosaurs destroyed, the park dismantled, the island indefinitely closed to the public. There are rumors that something has survived. . . . \"ACTION-PACKED.\" --New York Daily News \"FAST AND GRIPPING.\" --The Washington Post Book World \"A VERY SCARY READ.\" --Entertainment Weekly \"AN ",
-  "cover_url": "https://books.google.com/books/content?id=Wp2Q1AMOlCIC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-lost-world.jpg",
   "isbn": "034540288X",
   "first_published": 1995,
   "pages": 452,
@@ -102,5 +102,7 @@
   "original_publisher": "Alfred A. Knopf, Sr.",
   "series": {
     "name": "Jurassic Park"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=Wp2Q1AMOlCIC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:20+00:00"
 }

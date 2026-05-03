@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-mismeasure-of-man",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6539950-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6539950-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-mismeasure-of-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-mismeasure-of-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL473565W",
   "first_published": 1981,
   "language": "eng",
@@ -85,5 +85,8 @@
   "representative_edition_key": "/books/OL16659666M",
   "wikidata_qid": "Q1473730",
   "original_title": "The Mismeasure of Man",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6539950-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6539950-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:18+00:00"
 }

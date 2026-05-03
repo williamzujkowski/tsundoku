@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=ofNQAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/children-of-memory.jpg",
   "first_published": 1983,
   "pages": 116,
   "google_books_url": "http://books.google.com/books?id=ofNQAQAAIAAJ&dq=intitle:Children+of+Memory&hl=&source=gbs_api",
@@ -37,5 +37,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0140068120",
-  "representative_edition_key": "/books/OL2956624M"
+  "representative_edition_key": "/books/OL2956624M",
+  "cover_url_source": "https://books.google.com/books/content?id=ofNQAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:07+00:00"
 }

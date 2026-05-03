@@ -8,8 +8,8 @@
     "dystopian",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7260326-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7260326-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/who-fears-death.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/who-fears-death.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15935869W",
   "first_published": 2010,
   "language": "eng",
@@ -67,5 +67,8 @@
       "name": "Imaginales award for best foreign-language novel",
       "year": 2014
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7260326-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7260326-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:52+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "victory",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/2814119-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2814119-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/victory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/victory.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38763W",
   "first_published": 1915,
   "language": "eng",
@@ -27,9 +27,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55602263M"
+  "representative_edition_key": "/books/OL55602263M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2814119-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2814119-L.jpg",
+  "cover_cached_at": "2026-05-03T02:24:12+00:00",
+  "subject_facet": [
+    "Abused women",
+    "Classic Literature",
+    "Europeans",
+    "Fiction",
+    "Literature",
+    "Open Library Staff Picks",
+    "Readers",
+    "Revenge",
+    "Sea stories",
+    "Women musicians"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

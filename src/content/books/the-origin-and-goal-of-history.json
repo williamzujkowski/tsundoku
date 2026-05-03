@@ -11,8 +11,8 @@
   "first_published": 1953,
   "language": "eng",
   "description": "First published in English in 1953, this important book from eminent philosopher Karl Jaspers deals with the philsophy of the history of mankind. More specifically, its avowed aim is to assist in heightening our awareness of the present by placing it within the framework of the long obscurity of prehistory and the boundless realm of possibilities which lie within the undecided future.This analysis is split into 3 parts: World history The present and the future The meaning of history",
-  "cover_url": "https://books.google.com/books/content?id=2htIAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=2htIAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-origin-and-goal-of-history.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-origin-and-goal-of-history.jpg",
   "isbn": "9781317832607",
   "pages": 264,
   "google_books_url": "http://books.google.com/books?id=2htIAwAAQBAJ&dq=The+Origin+and+Goal+of+History+Karl+Jaspers&hl=&source=gbs_api",
@@ -31,9 +31,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29387775M"
+  "representative_edition_key": "/books/OL29387775M",
+  "cover_url_source": "https://books.google.com/books/content?id=2htIAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=2htIAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:06+00:00",
+  "ddc": [
+    "100"
+  ]
 }

@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Bloody Rose is the second book in The Band trilogy, a fantasy series written by Nicholas Eames. The book is the sequel to Kings of the Wyld.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Bloody_Rose.jpg/250px-Bloody_Rose.jpg",
+  "cover_url": "/tsundoku/cached/covers/bloody-rose.jpg",
   "isbn": "9780356509044",
   "lcc": [
     "PR-9199.40000000.E15"
@@ -28,7 +28,8 @@
     "first_published": "wikidata_v1",
     "first_published_circa": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL27274548M",
@@ -41,5 +42,10 @@
   "series": {
     "name": "The Band",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Bloody_Rose.jpg/250px-Bloody_Rose.jpg",
+  "cover_cached_at": "2026-05-03T01:00:45+00:00",
+  "ddc": [
+    "800"
+  ]
 }

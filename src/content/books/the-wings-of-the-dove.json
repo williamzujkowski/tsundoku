@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Two poor adventurers have designs upon a dying young woman.",
-  "cover_url": "https://books.google.com/books/content?id=X2QpyxhS2SkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wings-of-the-dove.jpg",
   "isbn": "9780192838612",
   "first_published": 1902,
   "pages": 594,
@@ -95,5 +95,7 @@
   "editions_count": 60,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7384304M"
+  "representative_edition_key": "/books/OL7384304M",
+  "cover_url_source": "https://books.google.com/books/content?id=X2QpyxhS2SkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:05+00:00"
 }

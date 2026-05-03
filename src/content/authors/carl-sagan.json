@@ -3,7 +3,7 @@
   "slug": "carl-sagan",
   "book_count": 3,
   "bio": "Carl Edward Sagan was an American astronomer, planetary scientist and science communicator. Initially an assistant professor at Harvard, Sagan later moved to Cornell, where he was the David Duncan Professor of Astronomy and Space Sciences and directed the Laboratory for Planetary Studies. He played an active role in the Mariner, Viking and Voyager programs. He published more than 600 scientific papers and articles and several popular science books, starting with The Cosmic Connection. He won the Pulitzer Prize for General Nonfiction for The Dragons of Eden.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Carl_Sagan_Planetary_Society.JPG/400px-Carl_Sagan_Planetary_Society.JPG",
+  "photo_url": "/tsundoku/cached/authors/carl-sagan.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Sagan",
   "open_library_url": "https://openlibrary.org/authors/OL450295A",
   "birth_year": 1934,
@@ -98,5 +98,7 @@
       "name": "The Hillman Prize for Magazine Journalism",
       "year": 1984
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Carl_Sagan_Planetary_Society.JPG/400px-Carl_Sagan_Planetary_Society.JPG",
+  "photo_cached_at": "2026-05-03T02:54:30+00:00"
 }

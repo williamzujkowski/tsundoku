@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/477415-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/477415-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sailing-to-sarantium.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sailing-to-sarantium.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1988273W",
   "first_published": 2002,
   "description": "Guy Gavriel Kay, the international bestselling and multiple award-winning author of The Fionavar Tapestry, brings his unique storytelling imagination to an alternate Byzantine world… Sarantium is the golden city: holy to the faithful, exalted by the poets, jewel of the world and heart of an empire. Caius Crispus, known as Crispin, is a master mosaicist, creating beautiful art with colored stones and glass. Still grieving the loss of his family, he lives only for his craft—until an imperial summo...",
@@ -43,5 +43,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "014301434X",
-  "representative_edition_key": "/books/OL19130620M"
+  "representative_edition_key": "/books/OL19130620M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/477415-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/477415-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:47+00:00"
 }

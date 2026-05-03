@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "John Bellingham is a world-renowned archaeologist who goes missing. When the piercing perception of the brilliant Dr Thorndyke is brought to bear on the mystery, the search begins for a man tattooed with the Eye of Osiris in this strange, tantalisingly enigmatic tale.",
-  "cover_url": "https://books.google.com/books/content?id=C16vDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-eye-of-osiris.jpg",
   "isbn": "9780755143689",
   "first_published": 1911,
   "pages": 283,
@@ -57,5 +57,7 @@
   "editions_count": 136,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35506886M"
+  "representative_edition_key": "/books/OL35506886M",
+  "cover_url_source": "https://books.google.com/books/content?id=C16vDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:44+00:00"
 }

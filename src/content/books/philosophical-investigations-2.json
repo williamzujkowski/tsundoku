@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9319038-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9319038-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/philosophical-investigations-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/philosophical-investigations-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1410375W",
   "first_published": 1958,
   "language": "eng",
@@ -27,9 +27,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29013952M"
+  "representative_edition_key": "/books/OL29013952M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9319038-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9319038-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:41+00:00",
+  "subject_facet": [
+    "German Philosophy",
+    "Langage et langues",
+    "Language and languages",
+    "Modern Philosophy",
+    "Philosophie",
+    "Philosophie der normalen Sprache",
+    "Philosophy",
+    "Semantics (Philosophy)",
+    "Sprachphilosophie",
+    "Symbolic and mathematical Logic"
+  ],
+  "ddc": [
+    "100"
+  ]
 }

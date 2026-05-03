@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13165306-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13165306-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sabriel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sabriel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2628761W",
   "first_published": 1995,
   "language": "eng",
@@ -60,5 +60,8 @@
   },
   "editions_count": 42,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7279041M"
+  "representative_edition_key": "/books/OL7279041M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13165306-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13165306-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:43+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The popular history of William Frederick “Buffalo Bill” Cody remains more myth than anything else, yet it’s undeniable that he was a central figure in the American Old West. Pony Express rider, stagecoach driver, trapper, soldier, bison hunter, scout, showman—his résumé reads like the quintessential record of all that makes up the Old West mythology, and it’s all documented in this, his original 1879 autobiography. While The Life of Buffalo Bill is rife with the dramatic stylings of the dime nov",
-  "cover_url": "https://books.google.com/books/content?id=niDEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-life-of-buffalo-bill.jpg",
   "pages": 442,
   "google_books_url": "https://play.google.com/store/books/details?id=niDEEAAAQBAJ&source=gbs_api",
   "language": "eng",
@@ -44,5 +44,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781419169601",
-  "representative_edition_key": "/books/OL8481751M"
+  "representative_edition_key": "/books/OL8481751M",
+  "cover_url_source": "https://books.google.com/books/content?id=niDEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:52+00:00"
 }

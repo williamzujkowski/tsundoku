@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/872432-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/872432-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/macbeth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/macbeth.jpg",
   "open_library_url": "https://openlibrary.org/works/OL258902W",
   "first_published": 1508,
   "language": "eng",
@@ -514,5 +514,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7487881M"
+  "representative_edition_key": "/books/OL7487881M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/872432-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/872432-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:23+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "kurt-vonnegut",
   "book_count": 6,
   "bio": "Kurt Vonnegut was an American author known for his satirical and darkly humorous novels. His published work includes fourteen novels, three short-story collections, five plays, and five nonfiction works over fifty years; further works have been published since his death.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/400px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/kurt-vonnegut.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kurt_Vonnegut",
   "open_library_url": "https://openlibrary.org/authors/OL20187A",
   "birth_year": 1922,
@@ -65,5 +65,7 @@
       "name": "Prometheus Award - Hall of Fame",
       "year": 2019
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/400px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg",
+  "photo_cached_at": "2026-05-03T03:06:48+00:00"
 }

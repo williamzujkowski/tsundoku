@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/380054-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/380054-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mistress-of-mistresses.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mistress-of-mistresses.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3847245W",
   "first_published": 1935,
   "language": "eng",
@@ -43,5 +43,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48157544M"
+  "representative_edition_key": "/books/OL48157544M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/380054-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/380054-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:59+00:00"
 }

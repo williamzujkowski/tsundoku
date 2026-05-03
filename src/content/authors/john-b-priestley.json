@@ -3,7 +3,7 @@
   "slug": "john-b-priestley",
   "book_count": 1,
   "bio": "English playwright, novelist.",
-  "photo_url": "https://covers.openlibrary.org/a/id/14365177-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-b-priestley.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL117687A",
   "birth_year": 1894,
   "death_year": 1984,
@@ -29,5 +29,7 @@
       "name": "James Tait Black Memorial Prize",
       "year": 1929
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/14365177-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:30+00:00"
 }

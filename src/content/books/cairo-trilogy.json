@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14650260-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14650260-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cairo-trilogy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cairo-trilogy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1599697W",
   "first_published": 1989,
   "language": "eng",
@@ -70,5 +70,8 @@
   "first_published_circa": false,
   "original_language": "spa",
   "original_title": "Entre dos palacios",
-  "representative_edition_key": "/books/OL7438439M"
+  "representative_edition_key": "/books/OL7438439M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14650260-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14650260-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:24+00:00"
 }

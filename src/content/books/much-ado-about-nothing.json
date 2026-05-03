@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "much-ado-about-nothing",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8290853-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8290853-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/much-ado-about-nothing.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/much-ado-about-nothing.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362691W",
   "first_published": 1600,
   "language": "eng",
@@ -259,5 +259,8 @@
   "representative_edition_key": "/books/OL7759649M",
   "wikidata_qid": "Q130851",
   "original_title": "Much Ado About Nothing",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8290853-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8290853-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:30+00:00"
 }

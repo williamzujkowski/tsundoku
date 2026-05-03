@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "'WHAT'S it going to be then, eh?'",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/a-clockwork-orange.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-clockwork-orange.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9782221017258",
@@ -119,7 +119,9 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 136,
   "first_published_circa": false,
@@ -141,5 +143,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14121728-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14121728-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:28+00:00"
 }

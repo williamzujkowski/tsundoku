@@ -8,8 +8,8 @@
     "math",
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/147783-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/147783-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mathematical-theory-of-communication.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mathematical-theory-of-communication.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2296213W",
   "first_published": 1949,
   "language": "eng",
@@ -38,9 +38,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34066423M"
+  "representative_edition_key": "/books/OL34066423M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/147783-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/147783-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:57+00:00",
+  "ddc": [
+    "005"
+  ]
 }

@@ -133,9 +133,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 125,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL57536861M"
+  "representative_edition_key": "/books/OL57536861M",
+  "cover_url": "/tsundoku/cached/covers/khaled.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/khaled.jpg",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15162788-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15162788-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:32+00:00"
 }

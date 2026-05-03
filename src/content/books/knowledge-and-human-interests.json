@@ -8,8 +8,8 @@
     "philosophy"
   ],
   "description": "Habermas describes Knowledge and Human Interests as an attempt to reconstruct the prehistory of modern positivism with the intention of analysing the connections between knowledge and human interests. Convinced of the increasing historical and social importance of the natural and behavioural sciences, Habermas makes clear how crucial it is to understand the central meanings and justifications of these sciences. He argues that for too long the relationship between philosophy and science has been ...",
-  "cover_url": "https://books.google.com/books/content?id=smOzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=smOzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/knowledge-and-human-interests.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/knowledge-and-human-interests.jpg",
   "isbn": "9780745694177",
   "first_published": 1968,
   "pages": 332,
@@ -55,5 +55,8 @@
   "original_title": "Erkenntnis und Interesse",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL33527372M",
-  "wikidata_qid": "Q1355022"
+  "wikidata_qid": "Q1355022",
+  "cover_url_source": "https://books.google.com/books/content?id=smOzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=smOzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:27:47+00:00"
 }

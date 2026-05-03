@@ -6,8 +6,8 @@
   "slug": "ada-or-ardor",
   "tags": [],
   "description": "Published two weeks after his seventieth birthday, Ada, or Ardor is one of Nabokov's greatest masterpieces, the glorious culmination of his career as a novelist. It tells a love story troubled by incest. It is also at once a fairy tale, epic, philosophical treatise on the nature of time, parody of the history of the novel, and erotic catalogue. Ada, or Ardor is no less than the supreme work of an imagination at white heat. This is the first American edition to include the extensive and ingenious...",
-  "cover_url": "https://books.google.com/books/content?id=xbxpYMFjbIsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=xbxpYMFjbIsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ada-or-ardor.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ada-or-ardor.jpg",
   "isbn": "0679725229",
   "first_published": 1969,
   "pages": 626,
@@ -69,5 +69,8 @@
   "wikidata_qid": "Q117431",
   "original_title": "Ada or Ardor: A Family Chronicle",
   "original_language": "eng",
-  "original_publisher": "McGraw Hill Book Company"
+  "original_publisher": "McGraw Hill Book Company",
+  "cover_url_source": "https://books.google.com/books/content?id=xbxpYMFjbIsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=xbxpYMFjbIsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:13+00:00"
 }

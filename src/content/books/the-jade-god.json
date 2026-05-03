@@ -9,7 +9,7 @@
     "mystery"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=MnXWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-jade-god.jpg",
   "isbn": "9783368931407",
   "first_published": 2023,
   "pages": 138,
@@ -19,5 +19,21 @@
   "gutenberg_id": 65559,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/65559",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/65559.html.images",
-  "description": "<p>Writer Jack Derrick and his sister Edith move into a suspiciously inexpensive countryside manor. They quickly discover the reason for their luck—two years earlier an unsolved murder had taken place in the parlor. Jack is extremely sensitive and feels that both the house and the deceased former owner are communicating with him."
+  "description": "<p>Writer Jack Derrick and his sister Edith move into a suspiciously inexpensive countryside manor. They quickly discover the reason for their luck—two years earlier an unsolved murder had taken place in the parlor. Jack is extremely sensitive and feels that both the house and the deceased former owner are communicating with him.",
+  "cover_url_source": "https://books.google.com/books/content?id=MnXWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:03+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Mystery fiction"
+  ],
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

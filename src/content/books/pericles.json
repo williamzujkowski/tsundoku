@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "pericles",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7165070-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7165070-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pericles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pericles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL361665W",
   "first_published": 1609,
   "language": "eng",
@@ -150,5 +150,8 @@
     {
       "name": "Laurence Olivier Awards"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7165070-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7165070-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:44+00:00"
 }

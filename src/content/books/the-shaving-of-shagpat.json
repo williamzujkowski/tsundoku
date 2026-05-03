@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Shaving of Shagpat: An Arabian Entertainment is a fantasy novel by George Meredith. It was first published in hardcover by Chapman and Hall in 1856, and there have been numerous editions since. Its importance in the history of fantasy literature was recognized by its reissuing by Ballantine Books as the seventeenth volume of the Ballantine Adult Fantasy series in July 1970. The Ballantine edition includes an introduction by Lin Carter.The novel is a humorous oriental romance and allegory wri",
-  "cover_url": "https://books.google.com/books/content?id=_R4FzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-shaving-of-shagpat.jpg",
   "isbn": "1458330044",
   "first_published": 2017,
   "pages": 62,
@@ -33,9 +33,15 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33913370M"
+  "representative_edition_key": "/books/OL33913370M",
+  "cover_url_source": "https://books.google.com/books/content?id=_R4FzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:31+00:00",
+  "ddc": [
+    "808.83766"
+  ]
 }

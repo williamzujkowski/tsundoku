@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "reflections-in-a-golden-eye",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10274937-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10274937-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/reflections-in-a-golden-eye.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/reflections-in-a-golden-eye.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8367718W",
   "first_published": 1941,
   "language": "eng",
@@ -58,5 +58,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL29273843M",
   "wikidata_qid": "Q3658454",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10274937-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10274937-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:07+00:00"
 }

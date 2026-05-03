@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "buddenbrooks",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8244437-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8244437-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/buddenbrooks.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/buddenbrooks.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14867081W",
   "first_published": 1901,
   "language": "eng",
@@ -93,5 +93,8 @@
   "representative_edition_key": "/books/OL1082629M",
   "wikidata_qid": "Q326909",
   "original_title": "Buddenbrooks",
-  "original_publisher": "S. Fischer Verlag"
+  "original_publisher": "S. Fischer Verlag",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8244437-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8244437-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:15+00:00"
 }

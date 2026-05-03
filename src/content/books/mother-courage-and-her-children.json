@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/452048-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/452048-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mother-courage-and-her-children.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mother-courage-and-her-children.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3802453W",
   "first_published": 2007,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL24098092M"
+  "representative_edition_key": "/books/OL24098092M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/452048-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/452048-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:21+00:00"
 }

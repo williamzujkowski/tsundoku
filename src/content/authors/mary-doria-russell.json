@@ -3,7 +3,7 @@
   "slug": "mary-doria-russell",
   "book_count": 2,
   "bio": "Mary Doria Russell is a retired American novelist.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Marydoriarussell.JPG/400px-Marydoriarussell.JPG",
+  "photo_url": "/tsundoku/cached/authors/mary-doria-russell.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Doria_Russell",
   "open_library_url": "https://openlibrary.org/authors/OL400330A",
   "birth_year": 1950,
@@ -41,5 +41,7 @@
       "name": "BSFA Award for Best Novel",
       "year": 1997
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Marydoriarussell.JPG/400px-Marydoriarussell.JPG",
+  "photo_cached_at": "2026-05-03T03:09:29+00:00"
 }

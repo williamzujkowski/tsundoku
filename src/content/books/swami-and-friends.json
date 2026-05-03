@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL43323230W",
   "first_published": 2005,
   "description": "R. K. Narayan (1906—2001) witnessed nearly a century of change in his native India and captured it in fiction of uncommon warmth and vibrancy. Swami and Friends introduces us to Narayan’s beloved fictional town of Malgudi, where ten-year-old Swaminathan’s excitement about his country’s initial stirrings for independence competes with his ardor for cricket and all other things British. Written during British rule, this novel brings colonial India into intimate focus through the narrative gifts of...",
-  "cover_url": "https://books.google.com/books/content?id=w7J6i-TA4OAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=w7J6i-TA4OAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/swami-and-friends.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/swami-and-friends.jpg",
   "isbn": "9780345803795",
   "pages": 177,
   "language": "eng",
@@ -49,5 +49,8 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "1400044766",
-  "representative_edition_key": "/books/OL17207769M"
+  "representative_edition_key": "/books/OL17207769M",
+  "cover_url_source": "https://books.google.com/books/content?id=w7J6i-TA4OAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=w7J6i-TA4OAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:36+00:00"
 }

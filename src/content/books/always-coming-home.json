@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "always-coming-home",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6938605-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6938605-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/always-coming-home.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/always-coming-home.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59846W",
   "first_published": 1985,
   "language": "eng",
@@ -68,5 +68,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6938605-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6938605-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:00+00:00"
 }

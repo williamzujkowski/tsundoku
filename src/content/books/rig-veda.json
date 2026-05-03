@@ -9,5 +9,17 @@
   "reading_status": "read",
   "copyright_status": "undetermined",
   "description": "The Rigveda or Rig Veda is an ancient Indian collection of Vedic Sanskrit hymns (sūktas). It is one of the four sacred canonical Hindu texts (śruti) known as the Vedas. Only one Shakha of the many survive today, namely the Śakalya Shakha. Much of the contents contained in the remaining Shakhas are now lost or are not available in the public forum.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rigveda_MS2097.jpg/330px-Rigveda_MS2097.jpg"
+  "cover_url": "/tsundoku/cached/covers/rig-veda.jpg",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rigveda_MS2097.jpg/330px-Rigveda_MS2097.jpg",
+  "cover_cached_at": "2026-05-03T01:48:13+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "880"
+  ],
+  "lcc": [
+    "PA"
+  ]
 }

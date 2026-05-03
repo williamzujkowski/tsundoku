@@ -9,13 +9,39 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/life-a-users-manual.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/life-a-users-manual.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "",
   "pages": 0,
   "first_published": 1978,
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "_provenance": {
+    "cover_url": "wikipedia_book_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/e1/Life_A_User%27s_Manual.jpg",
+  "cover_cached_at": "2026-05-03T01:30:31+00:00",
+  "subject_facet": [
+    "Création (esthétique)",
+    "Fac-similés",
+    "Facsimile",
+    "Facsimiles",
+    "French fiction",
+    "History and criticism",
+    "Manuscrits",
+    "Notebooks, sketchbooks",
+    "Notes, esquisses",
+    "Vie mode d'emploi"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

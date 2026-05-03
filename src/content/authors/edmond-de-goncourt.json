@@ -2,7 +2,7 @@
   "name": "Edmond de Goncourt",
   "slug": "edmond-de-goncourt",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/6812891-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/edmond-de-goncourt.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL16945A",
   "birth_year": 1822,
   "death_year": 1896,
@@ -27,5 +27,7 @@
     {
       "name": "Concours général"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/6812891-M.jpg",
+  "photo_cached_at": "2026-05-03T00:42:15+00:00"
 }

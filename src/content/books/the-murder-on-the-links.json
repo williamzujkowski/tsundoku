@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Murder on the Links Agatha Christie - Two people rarely see the same thing. Agatha Christie, The Murder on the Links Experienced Belgian detective, Hercules Poirot is called in to a client but when he arrives is given notice of the mans death earlier that day. The victim lay face down in a grave located within a golf course. He was wearing his sons overcoat and a love letter within. Cause of death, a letter opener. Soon Poirots case is flipped over by the discovery of another identical corps",
-  "cover_url": "https://books.google.com/books/content?id=ph8-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-murder-on-the-links.jpg",
   "isbn": "9783985948567",
   "first_published": 1923,
   "pages": 217,
@@ -91,5 +91,7 @@
   "original_publisher": "The Bodley Head",
   "series": {
     "name": "canon of Hercule Poirot"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=ph8-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:32+00:00"
 }

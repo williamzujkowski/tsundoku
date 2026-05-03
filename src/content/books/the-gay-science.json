@@ -9,8 +9,8 @@
     "r-philosophy"
   ],
   "description": "Nietzsche wrote The Gay Science, which he later described as \"perhaps my most personal book\", when he was at the height of his intellectual powers, and the reader will find it an extensive and sophisticated treatment of the philosophical themes and views most central to Nietzsche's own thought and most influential on later thinkers. This volume presents the work in a new translation by Josefine Nauckhoff, with an introduction by Bernard Williams that elucidates the work's main themes and discuss...",
-  "cover_url": "https://books.google.com/books/content?id=ywFgQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ywFgQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-gay-science.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-gay-science.jpg",
   "isbn": "0521631599",
   "first_published": 1960,
   "pages": 308,
@@ -65,5 +65,8 @@
   },
   "editions_count": 23,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL3943772M"
+  "representative_edition_key": "/books/OL3943772M",
+  "cover_url_source": "https://books.google.com/books/content?id=ywFgQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ywFgQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:16+00:00"
 }

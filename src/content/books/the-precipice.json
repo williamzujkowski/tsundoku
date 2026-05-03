@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "In this urgent and “thrillingly written” book, there is a case and solution for humanity’s last shot at survival (Sunday Times). Humanity’s future is at risk. We face existential catastrophes, climate change, nuclear war, and more. If we do not act fast to reach a place of safety, it will soon be too late. Drawing on over a decade of research, The Precipice explores the cutting-edge science behind the risks we face. And it points the way forward, to the actions and strategies that can safeguard humanity. An Oxford philosopher, Toby Ord has advised the US National Intelligence Council, the UK Prime Minister's Office, and the World Bank on the biggest questions facing humanity. In The Precipice, he offers a startling reassessment of human history, the future we are failing to protect, and the steps we must take to ensure that our generation is not the last. \"A book that seems made for the present moment.\" —New Yorker",
-  "cover_url": "https://covers.openlibrary.org/b/id/9338949-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9338949-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-precipice.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-precipice.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781664488915",
@@ -33,10 +33,17 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL32232503M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9338949-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9338949-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:43+00:00",
+  "ddc": [
+    "100"
+  ]
 }

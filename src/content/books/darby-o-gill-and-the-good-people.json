@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Leprechauns, Banshees, Sprites. \"This history sets forth the only true account of the adventures of a daring Tipperary man named Darby O'Gill among the Fairies of Sleive-na-mon\" These leprechauns, banshees, and other little people had long been feared by the good folk of the old Sod, always frightened that some curse or come hither might lead even the best of souls unto an exile in the fairy realm . The denizens of the faerie realm have met their match in Darby, a plain spoken fellow wise to the",
-  "cover_url": "https://books.google.com/books/content?id=vr5k-fGA_84C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/darby-o-gill-and-the-good-people.jpg",
   "isbn": "9781429958714",
   "first_published": 2006,
   "pages": 228,
@@ -46,5 +46,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781429958714",
-  "representative_edition_key": "/books/OL37362722M"
+  "representative_edition_key": "/books/OL37362722M",
+  "cover_url_source": "https://books.google.com/books/content?id=vr5k-fGA_84C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:27+00:00"
 }

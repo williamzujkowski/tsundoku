@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/825714-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/825714-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/principles-of-political-economy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/principles-of-political-economy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1097148W",
   "first_published": 1817,
   "language": "eng",
@@ -56,5 +56,8 @@
   },
   "editions_count": 11,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38074898M"
+  "representative_edition_key": "/books/OL38074898M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/825714-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/825714-L.jpg",
+  "cover_cached_at": "2026-05-03T01:45:31+00:00"
 }

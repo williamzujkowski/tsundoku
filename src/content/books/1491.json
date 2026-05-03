@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "1491",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/803118-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/803118-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/1491.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/1491.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3494320W",
   "first_published": 2005,
   "language": "eng",
@@ -78,5 +78,8 @@
   "representative_edition_key": "/books/OL24286499M",
   "wikidata_qid": "Q2310343",
   "original_title": "1491",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/803118-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/803118-L.jpg",
+  "cover_cached_at": "2026-05-03T03:21:44+00:00"
 }

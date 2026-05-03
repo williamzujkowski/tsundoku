@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-story-of-a-new-name",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13518415-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13518415-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-a-new-name.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-story-of-a-new-name.jpg",
   "open_library_url": "https://openlibrary.org/works/OL34777467W",
   "first_published": 2012,
   "description": "A novel in the bestselling quartet about two very different women and their complex friendship: \"Everyone should read anything with Ferrante's name on it\" ( The Boston Globe). The follow-up to My Brilliant Friend, The Story of a New Name continues the epic New York Times–bestselling literary quartet that has inspired an HBO series, and returns us to the world of Lila and Elena, who grew up together in post-WWII Naples, Italy. In The Story of a New Name, Lila has recently married and made her ent...",
@@ -65,5 +65,8 @@
   "series": {
     "name": "Neapolitan Novels",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13518415-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13518415-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:13+00:00"
 }

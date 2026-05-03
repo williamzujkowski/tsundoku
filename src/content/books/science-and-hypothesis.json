@@ -11,8 +11,8 @@
   "first_published": 1905,
   "language": "eng",
   "description": "Nontechnical essays on hypothesis in physical theory, concept of number, magnitude, force, intuition vs. logic, more. Chapters include \"On the Nature of Mathematical Reasoning,\" \"Mathematical Magnitude and Experiment,\" and \"The Calculus of Probabilities.\"",
-  "cover_url": "https://books.google.com/books/content?id=qvHDAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=qvHDAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/science-and-hypothesis.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/science-and-hypothesis.jpg",
   "isbn": "9780486143484",
   "pages": 290,
   "google_books_url": "https://play.google.com/store/books/details?id=qvHDAgAAQBAJ&source=gbs_api",
@@ -62,5 +62,8 @@
   "editions_count": 61,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38358416M"
+  "representative_edition_key": "/books/OL38358416M",
+  "cover_url_source": "https://books.google.com/books/content?id=qvHDAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=qvHDAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:18+00:00"
 }

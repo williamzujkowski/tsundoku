@@ -8,8 +8,8 @@
     "poetry"
   ],
   "description": "Vivid new translations of Basho's popular haiku, in a selected format ideal for newcomers as well as fans long familiar with the Japanese master. Basho, the famously bohemian traveler through seventeenth-century Japan, is a poet attuned to the natural world as well as humble human doings; \"Piles of quilts/ snow on distant mountains/ I watch both,\" he writes. His work captures both the profound loneliness of one observing mind and the broad-ranging joy he finds in our connections to the larger co...",
-  "cover_url": "https://books.google.com/books/content?id=yA1PNhVxD3wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=yA1PNhVxD3wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/selected-haiku.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-haiku.jpg",
   "isbn": "9780307962003",
   "first_published": 2013,
   "pages": 129,
@@ -38,5 +38,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780307962003",
-  "representative_edition_key": "/books/OL31123745M"
+  "representative_edition_key": "/books/OL31123745M",
+  "cover_url_source": "https://books.google.com/books/content?id=yA1PNhVxD3wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=yA1PNhVxD3wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:39+00:00"
 }

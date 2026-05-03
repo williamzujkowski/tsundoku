@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Well at the World's End by William Morris is a classic fantasy novel published in 1896. It follows the journey of Ralph of Upmeads, a young knight who leaves his peaceful home in search of adventure and a legendary magical well said to grant strength and long life to those who drink from it. Along the way, Ralph encounters mystical lands, treacherous enemies, and wise allies-including a mysterious woman named Ursula. The story is rich in medieval imagery and themes of chivalry, destiny, and ",
-  "cover_url": "https://books.google.com/books/content?id=FYBf0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-well-at-the-world-s-end.jpg",
   "isbn": "9798897183968",
   "first_published": 1896,
   "google_books_url": "http://books.google.com/books?id=FYBf0QEACAAJ&dq=intitle:The+Well+at+the+World%27s+End&hl=&source=gbs_api",
@@ -65,5 +65,7 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL34347500M",
   "wikidata_qid": "Q2384134",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=FYBf0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:08+00:00"
 }

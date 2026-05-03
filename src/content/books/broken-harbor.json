@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7400650-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7400650-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/broken-harbor.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/broken-harbor.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16239870W",
   "first_published": 2012,
   "language": "eng",
@@ -51,5 +51,8 @@
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25347788M"
+  "representative_edition_key": "/books/OL25347788M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7400650-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7400650-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:11+00:00"
 }

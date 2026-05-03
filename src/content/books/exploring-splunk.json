@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "Big data has incredible business value, and Splunk is the best tool for unlocking that value. Exploring Splunk shows you how to pinpoint answers and find patterns obscured by the flood of machinegenerated data. This book uses an engaging, visual presentation style that quickly familiarizes you with how to use Splunk. You'll move from mastering Splunk basics to creatively solving real-world problems, finding the gems hidden in big data.",
-  "cover_url": "https://books.google.com/books/content?id=YXpmLwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/exploring-splunk.jpg",
   "isbn": "0982550677",
   "first_published": 2012,
   "pages": 168,
   "google_books_url": "http://books.google.com/books?id=YXpmLwEACAAJ&dq=intitle:Exploring+Splunk&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=YXpmLwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:06+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

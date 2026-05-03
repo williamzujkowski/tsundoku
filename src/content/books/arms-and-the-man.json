@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "One of Shaw's most popular comedies, deflating romantic misconceptions of love and warfare. Reprinted from an authoritative early edition, complete with Shaw's preface to Volume II of Plays: Pleasant and Unpleasant.",
-  "cover_url": "https://books.google.com/books/content?id=tzLZvdqwZLkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/arms-and-the-man.jpg",
   "isbn": "9780486111964",
   "first_published": 2012,
   "pages": 81,
@@ -72,5 +72,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780486111964",
-  "representative_edition_key": "/books/OL36304490M"
+  "representative_edition_key": "/books/OL36304490M",
+  "cover_url_source": "https://books.google.com/books/content?id=tzLZvdqwZLkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:56:48+00:00"
 }

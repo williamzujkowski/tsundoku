@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "distraction",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/368075-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/368075-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/distraction.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/distraction.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1888051W",
   "first_published": 1998,
   "language": "eng",
@@ -39,5 +39,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "0553104845",
-  "representative_edition_key": "/books/OL7829918M"
+  "representative_edition_key": "/books/OL7829918M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/368075-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/368075-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:47+00:00"
 }

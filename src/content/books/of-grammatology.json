@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "of-grammatology",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12191607-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12191607-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/of-grammatology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/of-grammatology.jpg",
   "open_library_url": "https://openlibrary.org/works/OL18455779W",
   "first_published": 1976,
   "language": "eng",
@@ -36,5 +36,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL27215942M"
+  "representative_edition_key": "/books/OL27215942M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12191607-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12191607-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:17+00:00"
 }

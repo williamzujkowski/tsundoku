@@ -6,12 +6,11 @@ walks existing src/content/authors/*.json records that are missing fields
 and tries each source in order, additive-merging in only the empty fields.
 
 Sources tried, in order:
-  1. Open Library author page (richer than search.json — includes bio, photos array)
-  2. Wikidata (description + P18 image — last-mile fallback)
-
-Wikipedia (already used by enrich-authors.py) is skipped here because the
-records being filled are the ones where Wikipedia *already failed* — usually
-disambiguation pages, multi-author entries, or cataloging-artifact names.
+  1. Wikipedia REST summary (richest bio + best-quality thumbnail when the
+     name resolves cleanly — and for "stuck" records we now retry with
+     candidate_names() variants to dodge the cataloging-artifact misses)
+  2. Open Library author page (bio + photos array)
+  3. Wikidata (description + P18 image — last-mile fallback)
 
 For each "stuck" name, we also try cleaned variants:
   - "Robert Jordan & Brandon Sanderson" → also try "Robert Jordan"
@@ -29,6 +28,7 @@ overwrites a non-empty field.
 
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -40,9 +40,12 @@ from author_sources import (
     candidate_names,
     from_open_library_author_page,
     from_wikidata,
+    from_wikipedia,
 )
 from enrichment_config import AUTHORS_DIR
 from json_merge import additive_merge, save_json
+from parallel_fetch import DEFAULT_BUCKETS, parallel_sources
+from wikidata import enwiki_title, fetch_entity, qids_by_ol_author_keys
 
 
 GAP_FIELDS = ("bio", "photo_url")  # what counts as a "gap" worth filling
@@ -53,28 +56,110 @@ def has_any_gap(doc: dict) -> bool:
     return any(not doc.get(f) for f in GAP_FIELDS)
 
 
+_WIKI_TITLE_RE = re.compile(r"/wiki/([^/?#]+)")
+
+
+def _wiki_title_from_url(url: str) -> str | None:
+    """Extract the article title from a Wikipedia URL."""
+    if not url:
+        return None
+    m = _WIKI_TITLE_RE.search(url)
+    if not m:
+        return None
+    from urllib.parse import unquote
+    return unquote(m.group(1)).replace("_", " ")
+
+
+def _qid_from_ol_key(olid: str | None) -> str | None:
+    """OL author key → Wikidata QID via P648. Cached upstream."""
+    if not olid:
+        return None
+    full_key = olid if olid.startswith("/authors/") else f"/authors/{olid}"
+    qids = qids_by_ol_author_keys([full_key])
+    return qids.get(full_key)
+
+
+def _resolve_wiki_title_from_qid(qid: str | None) -> str | None:
+    """QID → enwiki sitelink → article title."""
+    if not qid:
+        return None
+    entity = fetch_entity(qid)
+    return enwiki_title(entity, qid)
+
+
+def _wiki_then_variants(
+    name: str,
+    curated_wiki_title: str | None,
+    resolved_wiki_title: str | None,
+) -> dict:
+    """Wikipedia REST lookups in priority order:
+      1. Curated wiki URL on the record (most trusted)
+      2. OL→QID→enwiki sitelink resolved by caller (authoritative cross-walk)
+      3. Name variants (cataloging-artifact fallback — least reliable)
+    """
+    titles: list[str] = []
+    if curated_wiki_title:
+        titles.append(curated_wiki_title)
+    if resolved_wiki_title and resolved_wiki_title not in titles:
+        titles.append(resolved_wiki_title)
+    if not curated_wiki_title and not resolved_wiki_title:
+        titles.extend(candidate_names(name))
+
+    for t in titles:
+        if not t:
+            continue
+        new = from_wikipedia(name=t)
+        if new:
+            return new
+    return {}
+
+
+def _wikidata_with_variants(name: str) -> dict:
+    """Wikidata search: walk candidate name variants until one resolves."""
+    for variant in candidate_names(name):
+        new = from_wikidata(name=variant)
+        if new:
+            return new
+    return {}
+
+
 def try_sources_for(doc: dict) -> dict:
-    """Walk sources in order, returning aggregated fields to add (additive)."""
+    """Fire all sources in parallel through their per-source rate buckets,
+    then merge results in priority order. The Wikidata QID resolved via
+    OL key (P648) is the authoritative bridge — used to trust both the
+    enwiki sitelink (for Wikipedia REST) and the entity itself (for
+    description + P18 photo even when there's no Wikipedia article).
+
+    Priority: Wikipedia → OL author page → Wikidata-via-QID → Wikidata-
+    by-name. Wikidata-via-QID outranks the by-name fallback because the
+    cross-walk eliminates same-name disambiguation.
+    """
     name = doc.get("name", "")
     olid = _olid_from_url(doc.get("open_library_url", ""))
+    curated_wiki_title = _wiki_title_from_url(doc.get("wikipedia_url", ""))
+
+    # Resolve QID and the enwiki title once — both downstream sources
+    # may need them, and the SPARQL/entity calls are cached upstream
+    # so this isn't extra latency on subsequent uses.
+    qid = _qid_from_ol_key(olid)
+    resolved_wiki_title = _resolve_wiki_title_from_qid(qid)
+
+    sources = [
+        ("wikipedia", lambda: _wiki_then_variants(
+            name, curated_wiki_title, resolved_wiki_title
+        )),
+        ("open_library_author", lambda: from_open_library_author_page(
+            olid=olid, name=name if not olid else None
+        )),
+        ("wikidata_qid", lambda: from_wikidata(qid=qid) if qid else {}),
+        ("wikidata", lambda: _wikidata_with_variants(name)),
+    ]
+    results = parallel_sources(sources, buckets=DEFAULT_BUCKETS)
 
     aggregated: dict = {}
-
-    # Source 1 — Open Library author page (use cached OLID if we have one)
-    new = from_open_library_author_page(olid=olid, name=name if not olid else None)
-    if new:
-        for k, v in new.items():
+    for src in ("wikipedia", "open_library_author", "wikidata_qid", "wikidata"):
+        for k, v in (results.get(src) or {}).items():
             aggregated.setdefault(k, v)
-
-    # Source 2 — Wikidata, with name-variant fallback
-    if any(f not in aggregated and not doc.get(f) for f in GAP_FIELDS):
-        for variant in candidate_names(name):
-            new = from_wikidata(name=variant)
-            if new:
-                for k, v in new.items():
-                    aggregated.setdefault(k, v)
-                break  # took whatever the first matching variant gave us
-
     return aggregated
 
 

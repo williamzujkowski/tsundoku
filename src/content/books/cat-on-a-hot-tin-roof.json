@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10178336-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10178336-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cat-on-a-hot-tin-roof.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cat-on-a-hot-tin-roof.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30292W",
   "first_published": 1944,
   "language": "eng",
@@ -94,5 +94,8 @@
     {
       "name": "Laurence Olivier Awards"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10178336-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10178336-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:47+00:00"
 }

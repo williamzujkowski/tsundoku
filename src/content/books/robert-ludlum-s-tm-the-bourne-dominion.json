@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "New York Times bestselling author Eric Van Lustbader presents a new story about the rogue secret agent who has lost his memory created by internationally bestselling novelist Robert Ludlum Jason Bourne is searching for an elusive cadre of terrorists planning to destroy America's most strategic natural resources-and needs the help of his longtime friend, General Boris Karpov. Karpov, the newly appointed head of Russia's most feared spy agency, FSB-2, is one of the most determined, honorable, and ",
-  "cover_url": "https://books.google.com/books/content?id=N4AKg-jbcukC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/robert-ludlum-s-tm-the-bourne-dominion.jpg",
   "isbn": "9781609419165",
   "first_published": 2011,
   "pages": 378,
@@ -45,5 +45,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781609419165",
-  "representative_edition_key": "/books/OL29594993M"
+  "representative_edition_key": "/books/OL29594993M",
+  "cover_url_source": "https://books.google.com/books/content?id=N4AKg-jbcukC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:23+00:00"
 }

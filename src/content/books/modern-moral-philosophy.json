@@ -6,8 +6,8 @@
   "slug": "modern-moral-philosophy",
   "tags": [],
   "description": "Elizabeth Anscombe’s 1958 essay “Modern Moral Philosophy” is a cutting intervention in modern philosophy that shows the full power of good evaluative and analytical critical thinking skills. Though only 16 pages long, Anscombe’s paper set out to do nothing less than reform the entire field of modern moral philosophy – something that could only be done by carefully examining the existing arguments of the giants of the field. To do this, she deployed the central skills of evaluation and analysis. ...",
-  "cover_url": "https://books.google.com/books/content?id=pDQuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=pDQuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/modern-moral-philosophy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/modern-moral-philosophy.jpg",
   "isbn": "9781351352505",
   "first_published": 2017,
   "pages": 112,
@@ -21,10 +21,34 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781912281817",
-  "representative_edition_key": "/books/OL44176400M"
+  "representative_edition_key": "/books/OL44176400M",
+  "cover_url_source": "https://books.google.com/books/content?id=pDQuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=pDQuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:00+00:00",
+  "subject_facet": [
+    "Biography",
+    "Collected works",
+    "Correspondence",
+    "Correspondence, reminiscences",
+    "Ethics",
+    "French Philosophers",
+    "Philosophers",
+    "Philosophers, French",
+    "Philosophy",
+    "Psychology"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

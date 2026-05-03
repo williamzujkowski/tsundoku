@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Siegfried Sassoon's 'Memoirs of a Fox-hunting Man' presents a semi-autobiographical glimpse into the pastoral pre-war British countryside and the subsequent visceral reality of World War I. Written with an elegiac tone that both mourns and cherishes a bygone era, Sassoon masterfully employs a narrative that is both intimate and evocative. Through its lyrical prose and deft character sketches, the novel exists not only as a literary memoir but as a poignant reflection on the contrasts between the",
-  "cover_url": "https://books.google.com/books/content?id=hpmCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/memoirs-of-a-foxhunting-man.jpg",
   "first_published": 1928,
   "pages": 267,
   "google_books_url": "http://books.google.com/books?id=hpmCEAAAQBAJ&dq=intitle:Memoirs+of+a+Foxhunting+Man&hl=&source=gbs_api",
@@ -66,5 +66,7 @@
   },
   "editions_count": 69,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32421602M"
+  "representative_edition_key": "/books/OL32421602M",
+  "cover_url_source": "https://books.google.com/books/content?id=hpmCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:18+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "The course of history is determined not by battles, by sieges, or usurpations, but by the actions of the individual.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/furies-of-calderon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/furies-of-calderon.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780441011995",
@@ -47,11 +47,14 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0441011993",
   "representative_edition_key": "/books/OL7524271M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/6/6c/Furies_Of_Calderon.jpg",
+  "cover_cached_at": "2026-05-03T01:16:40+00:00"
 }

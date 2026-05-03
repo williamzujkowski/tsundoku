@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8715932-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/r-in-a-nutshell.jpg",
   "first_published": 2010,
   "copyright_status": "in_copyright",
   "description": "Presents a guide to the R computer language, covering such topics as the user interface, packages, syntax, objects, functions, object-oriented programming, data sets, lattice graphics, regression models, and bioconductor.",
@@ -43,5 +43,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780596801700",
-  "representative_edition_key": "/books/OL26027082M"
+  "representative_edition_key": "/books/OL26027082M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8715932-M.jpg",
+  "cover_cached_at": "2026-05-03T01:46:35+00:00"
 }

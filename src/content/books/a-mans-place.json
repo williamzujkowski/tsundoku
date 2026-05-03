@@ -8,13 +8,39 @@
     "biography"
   ],
   "description": "WINNER OF THE 2022 NOBEL PRIZE IN LITERATURE A New York Times Notable Book Annie Ernaux's father died exactly two months after she passed her practical examination for a teaching certificate. Barely educated and valued since childhood strictly for his labor, Ernaux's father had grown into a hard, practical man who showed his family little affection. Narrating his slow ascent towards material comfort, Ernaux's cold observation reveals the shame that haunted her father throughout his life. She scr...",
-  "cover_url": "https://books.google.com/books/content?id=6HD8If3kJuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6HD8If3kJuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-mans-place.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-mans-place.jpg",
   "isbn": "9781609802554",
   "first_published": 2012,
   "pages": 106,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=6HD8If3kJuYC&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=6HD8If3kJuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6HD8If3kJuYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:11+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Fathers and daughters",
+    "Fathers and daughters, fiction",
+    "Fiction",
+    "Fiction, general",
+    "France, fiction",
+    "General",
+    "LITERARY CRITICISM",
+    "New York Times reviewed",
+    "Pères et filles",
+    "Romans, nouvelles"
+  ],
+  "ddc": [
+    "920"
+  ],
+  "lcc": [
+    "CT"
+  ]
 }

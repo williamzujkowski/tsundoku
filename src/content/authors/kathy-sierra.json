@@ -5,7 +5,7 @@
   "open_library_url": "https://openlibrary.org/authors/OL1400543A",
   "birth_year": 1957,
   "bio": "American technology writer",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathy%20Sierra%201a.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/kathy-sierra.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -24,5 +24,7 @@
       "name": "EFF Award",
       "year": 2015
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathy%20Sierra%201a.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:06:28+00:00"
 }

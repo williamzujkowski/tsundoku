@@ -8,8 +8,8 @@
     "philosophy"
   ],
   "description": "Our competitive, service-oriented societies are taking a toll on the late-modern individual. Rather than improving life, multitasking, \"user-friendly\" technology, and the culture of convenience are producing disorders that range from depression to attention deficit disorder to borderline personality disorder. Byung-Chul Han interprets the spreading malaise as an inability to manage negative experiences in an age characterized by excessive positivity and the universal availability of people and g...",
-  "cover_url": "https://books.google.com/books/content?id=SQoNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SQoNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-burnout-society.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-burnout-society.jpg",
   "isbn": "9780804797504",
   "first_published": 2015,
   "pages": 69,
@@ -50,5 +50,8 @@
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34020285M"
+  "representative_edition_key": "/books/OL34020285M",
+  "cover_url_source": "https://books.google.com/books/content?id=SQoNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SQoNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:11+00:00"
 }

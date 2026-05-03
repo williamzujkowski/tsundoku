@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/275043-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/275043-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-interpreters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-interpreters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15125396W",
   "first_published": 1965,
   "language": "eng",
@@ -37,7 +37,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
@@ -48,5 +49,11 @@
   "original_publisher": "Heinemann",
   "series": {
     "name": "African literature"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/275043-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/275043-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:55+00:00",
+  "ddc": [
+    "800"
+  ]
 }

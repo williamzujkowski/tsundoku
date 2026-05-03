@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "Thuvia, Maid of Mars Edgar Rice Burroughs - This installment shifts focus from John Carter and Dejah Thoris, protagonists of the first three books in the series, to their son Carthoris, prince of Helium, and to Thuvia, princess of Ptarth, and follows Carthoris' efforts to win the heart of Thuvia, who will have nothing to do with him. When Thuvia is kidnapped Carthoris is presented with an opportunity -- throw in an airship battle, lost cities, savage creatures, and the fabulous phantom bowmen of",
-  "cover_url": "https://books.google.com/books/content?id=kAxHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/thuvia-maid-of-mars.jpg",
   "isbn": "9783986475567",
   "first_published": 1920,
   "pages": 150,
@@ -76,5 +76,7 @@
   "original_publisher": "A. C. McClurg",
   "series": {
     "name": "Barsoom"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=kAxHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:20:37+00:00"
 }

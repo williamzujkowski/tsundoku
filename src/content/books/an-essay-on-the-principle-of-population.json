@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "an-essay-on-the-principle-of-population",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8839830-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8839830-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/an-essay-on-the-principle-of-population.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-essay-on-the-principle-of-population.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8784929W",
   "first_published": 2006,
   "language": "eng",
@@ -41,5 +41,8 @@
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "9781584777281",
-  "representative_edition_key": "/books/OL32464251M"
+  "representative_edition_key": "/books/OL32464251M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8839830-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8839830-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:19+00:00"
 }

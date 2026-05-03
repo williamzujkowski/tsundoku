@@ -3,7 +3,7 @@
   "slug": "raymond-queneau",
   "book_count": 1,
   "bio": "Raymond Auguste Queneau was a French novelist, poet, critic, editor and co-founder and president of Oulipo, notable for his wit and cynical humour.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Raymond_Queneau_photo.jpg",
+  "photo_url": "/tsundoku/cached/authors/raymond-queneau.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_Queneau",
   "open_library_url": "https://openlibrary.org/authors/OL139769A",
   "birth_year": 1903,
@@ -34,5 +34,7 @@
       "name": "Straelen Translator’s Prize provided by Kunststiftung NRW",
       "year": 2017
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/b/bc/Raymond_Queneau_photo.jpg",
+  "photo_cached_at": "2026-05-03T00:47:31+00:00"
 }

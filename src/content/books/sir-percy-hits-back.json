@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "For young and pretty Fleurette the revolution seems far away, until an aristocratic neighbouring family is threatened. Now, the dangers are all too real, and she is also accused of being a traitor. Her father is - ironically - Armand Chauvelin. For the first time he is forced to ask his arch-enemy, the heroic 'Scarlet Pimpernel', for help.",
-  "cover_url": "https://books.google.com/books/content?id=HPr280u1W5IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/sir-percy-hits-back.jpg",
   "isbn": "9780755116676",
   "first_published": 1927,
   "pages": 299,
@@ -51,5 +51,7 @@
   },
   "editions_count": 49,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28811629M"
+  "representative_edition_key": "/books/OL28811629M",
+  "cover_url_source": "https://books.google.com/books/content?id=HPr280u1W5IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:55+00:00"
 }

@@ -8,8 +8,8 @@
     "fantasy",
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14627564-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14627564-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-two-towers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-two-towers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27479W",
   "first_published": 1955,
   "language": "eng",
@@ -145,5 +145,8 @@
   "series": {
     "name": "The Lord of the Rings",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14627564-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14627564-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:32+00:00"
 }

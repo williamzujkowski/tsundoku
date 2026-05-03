@@ -3,7 +3,7 @@
   "slug": "robert-musil",
   "book_count": 2,
   "bio": "Robert Musil was an Austrian philosophical writer. His unfinished novel, The Man Without Qualities, is generally considered to be one of the most important and influential modernist novels.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Musil.jpg/400px-Musil.jpg",
+  "photo_url": "/tsundoku/cached/authors/robert-musil.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Musil",
   "open_library_url": "https://openlibrary.org/authors/OL135531A",
   "birth_year": 1880,
@@ -30,5 +30,7 @@
       "name": "Kleist Prize",
       "year": 1923
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Musil.jpg/400px-Musil.jpg",
+  "photo_cached_at": "2026-05-03T00:47:52+00:00"
 }

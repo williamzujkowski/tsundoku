@@ -9,8 +9,8 @@
     "mystery",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14630717-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14630717-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/friday.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/friday.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59706W",
   "first_published": 1982,
   "language": "eng",
@@ -56,5 +56,8 @@
   "wikidata_qid": "Q1641639",
   "original_title": "Friday",
   "original_language": "eng",
-  "original_publisher": "Henry Holt and Company"
+  "original_publisher": "Henry Holt and Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14630717-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14630717-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:35+00:00"
 }

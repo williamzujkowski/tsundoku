@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "city-of-god",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/104325-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/104325-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/city-of-god.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/city-of-god.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7979845W",
   "first_published": 2003,
   "language": "eng",
@@ -34,10 +34,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780140448948",
-  "representative_edition_key": "/books/OL7355468M"
+  "representative_edition_key": "/books/OL7355468M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/104325-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/104325-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:19+00:00",
+  "ddc": [
+    "200"
+  ]
 }

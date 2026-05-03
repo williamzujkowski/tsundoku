@@ -3,7 +3,7 @@
   "slug": "thomas-sowell",
   "book_count": 2,
   "bio": "Thomas Sowell is an American economist, economic historian, and social theorist. \nWith widely published commentary and books—and as a guest on TV and radio—he is a well-known voice in the American conservative movement as a prominent black conservative. \nHe is a senior fellow at the Hoover Institution \nand was a recipient of the National Humanities Medal from President George W. Bush in 2002.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Thomas_Sowell_Portrait_%283x4_cropped%29.jpg/400px-Thomas_Sowell_Portrait_%283x4_cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/thomas-sowell.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Sowell",
   "open_library_url": "https://openlibrary.org/authors/OL232262A",
   "birth_year": 1930,
@@ -37,5 +37,7 @@
     {
       "name": "GetAbstract International Book Award"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Thomas_Sowell_Portrait_%283x4_cropped%29.jpg/400px-Thomas_Sowell_Portrait_%283x4_cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:18:55+00:00"
 }

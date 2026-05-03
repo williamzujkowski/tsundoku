@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/103826-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/103826-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/speaking-of-siva.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/speaking-of-siva.jpg",
   "open_library_url": "https://openlibrary.org/works/OL350763W",
   "first_published": 1973,
   "language": "eng",
@@ -41,5 +41,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL18358148M"
+  "representative_edition_key": "/books/OL18358148M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/103826-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/103826-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:09+00:00"
 }

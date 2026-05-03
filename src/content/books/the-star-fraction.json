@@ -7,8 +7,8 @@
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL31880394W",
   "description": "WINNER OF THE PROMETHEUS AWARD Britain in the 21st century is a Balkanized mess. Moh Kohn is a security mercenary unaware that he holds the key to information which could change the world. Janis Taine is a scientist who needs Mohs help. And a rogue computer program is guiding events to a breathtaking conclusion. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
-  "cover_url": "https://books.google.com/books/content?id=fERfEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=fERfEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-star-fraction.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-star-fraction.jpg",
   "isbn": "9781466843547",
   "first_published": 1995,
   "pages": 453,
@@ -45,5 +45,8 @@
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL37400095M"
+  "representative_edition_key": "/books/OL37400095M",
+  "cover_url_source": "https://books.google.com/books/content?id=fERfEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=fERfEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:06+00:00"
 }

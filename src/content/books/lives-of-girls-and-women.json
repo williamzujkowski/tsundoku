@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "lives-of-girls-and-women",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8363507-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8363507-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lives-of-girls-and-women.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lives-of-girls-and-women.jpg",
   "open_library_url": "https://openlibrary.org/works/OL931688W",
   "first_published": 1971,
   "language": "eng",
@@ -65,5 +65,8 @@
   "wikidata_qid": "Q60675668",
   "original_title": "Lives of Girls and Women",
   "original_language": "eng",
-  "original_publisher": "McGraw-Hill Ryerson"
+  "original_publisher": "McGraw-Hill Ryerson",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8363507-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8363507-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:48+00:00"
 }

@@ -10,7 +10,7 @@
     "thriller"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=k5GPAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/an-outback-marriage.jpg",
   "isbn": "1404354271",
   "first_published": 2003,
   "pages": 196,
@@ -44,5 +44,7 @@
   "editions_count": 35,
   "first_published_circa": false,
   "first_edition_isbn": "9781404354272",
-  "representative_edition_key": "/books/OL11646754M"
+  "representative_edition_key": "/books/OL11646754M",
+  "cover_url_source": "https://books.google.com/books/content?id=k5GPAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:21+00:00"
 }

@@ -8,8 +8,8 @@
     "computing",
     "espionage"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7880307-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7880307-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-cuckoos-egg.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-cuckoos-egg.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3741565W",
   "first_published": 1989,
   "language": "eng",
@@ -66,5 +66,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL51096138M"
+  "representative_edition_key": "/books/OL51096138M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7880307-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7880307-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:15+00:00"
 }

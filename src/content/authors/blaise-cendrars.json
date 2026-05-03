@@ -3,7 +3,7 @@
   "slug": "blaise-cendrars",
   "book_count": 1,
   "bio": "Frédéric-Louis Sauser, better known as Blaise Cendrars, was a Swiss-born novelist and poet who became a naturalized French citizen in 1916. He was a writer of considerable influence in the European modernist movement.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cendrars_1916.jpg/400px-Cendrars_1916.jpg",
+  "photo_url": "/tsundoku/cached/authors/blaise-cendrars.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Blaise_Cendrars",
   "open_library_url": "https://openlibrary.org/authors/OL127400A",
   "birth_year": 1887,
@@ -43,5 +43,7 @@
       "name": "Grand Prix littéraire de la Ville de Paris",
       "year": 1961
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cendrars_1916.jpg/400px-Cendrars_1916.jpg",
+  "photo_cached_at": "2026-05-03T00:40:20+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "john-bunyan",
   "book_count": 1,
   "bio": "John Bunyan was an English writer and nonconformist preacher. He is best remembered as the author of the Christian allegory The Pilgrim's Progress, which also became an influential literary model. In addition to The Pilgrim's Progress, Bunyan wrote nearly sixty titles, many of them expanded sermons.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/John_Bunyan_by_Thomas_Sadler_1684.jpg/400px-John_Bunyan_by_Thomas_Sadler_1684.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-bunyan.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Bunyan",
   "open_library_url": "https://openlibrary.org/authors/OL18112A",
   "birth_year": 1628,
@@ -19,5 +19,7 @@
     "GB"
   ],
   "viaf_id": "71388170",
-  "ol_author_key": "/authors/OL18112A"
+  "ol_author_key": "/authors/OL18112A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/John_Bunyan_by_Thomas_Sadler_1684.jpg/400px-John_Bunyan_by_Thomas_Sadler_1684.jpg",
+  "photo_cached_at": "2026-05-03T00:44:32+00:00"
 }

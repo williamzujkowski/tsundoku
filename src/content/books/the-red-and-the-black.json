@@ -9,8 +9,8 @@
   "first_published": 1830,
   "language": "eng",
   "description": "A Major New Translation The Red and the Black, Stendhal’s masterpiece, is the story of Julien Sorel, a young dreamer from the provinces, fueled by Napoleonic ideals, whose desire to make his fortune sets in motion events both mesmerizing and tragic. Sorel’s quest to find himself, and the doomed love he encounters along the way, are delineated with an unprecedented psychological depth and realism. At the same time, Stendhal weaves together the social life and fraught political intrigues of post–N...",
-  "cover_url": "https://books.google.com/books/content?id=P11KxG6qnz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=P11KxG6qnz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-red-and-the-black.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-red-and-the-black.jpg",
   "isbn": "9780812972078",
   "pages": 562,
   "google_books_url": "http://books.google.com/books?id=P11KxG6qnz4C&dq=The+Red+and+the+Black+Stendhal&hl=&source=gbs_api",
@@ -198,5 +198,8 @@
   "original_title": "Le rouge et le noir",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8021000M",
-  "wikidata_qid": "Q192649"
+  "wikidata_qid": "Q192649",
+  "cover_url_source": "https://books.google.com/books/content?id=P11KxG6qnz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=P11KxG6qnz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:19+00:00"
 }

@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=HluJ-Sq-SLkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/eminent-victorians.jpg",
   "first_published": 1918,
   "pages": 392,
   "google_books_url": "https://play.google.com/store/books/details?id=HluJ-Sq-SLkC&source=gbs_api",
@@ -90,5 +90,7 @@
   "representative_edition_key": "/books/OL7961024M",
   "wikidata_qid": "Q5372505",
   "original_title": "Eminent Victorians",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=HluJ-Sq-SLkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:56+00:00"
 }

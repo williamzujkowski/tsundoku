@@ -9,11 +9,29 @@
   ],
   "reading_status": "read",
   "description": "Bad design is everywhere, and its cost is much higher than we think. In this thought-provoking book, authors Jonathan Shariat and Cynthia Savard Saucier explain how poorly designed products can anger, sadden, exclude, and even kill people who use them. The designers responsible certainly didn’t intend harm, so what can you do to avoid making similar mistakes? Tragic Design examines real case studies that show how certain design choices adversely affected users, and includes in-depth interviews w",
-  "cover_url": "https://books.google.com/books/content?id=nAO2DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tragic-design-the-impact-of-bad-product-design-and-how-to-fix-it.jpg",
   "isbn": "9781491923566",
   "first_published": 2017,
   "pages": 200,
   "google_books_url": "https://play.google.com/store/books/details?id=nAO2DgAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=nAO2DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:44+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Product design",
+    "User-centered system design",
+    "Web sites, design"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

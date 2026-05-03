@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "This short novel of 1895 tells the story of a fallen angel who arrives in an English village one night, and faces the struggle of adapting to everyday life. His purity makes him disliked by the other villagers, but the longer he stays on earth, the more human he becomes.",
-  "cover_url": "https://books.google.com/books/content?id=Eo8aAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wonderful-visit.jpg",
   "first_published": 1895,
   "pages": 760,
   "google_books_url": "https://play.google.com/store/books/details?id=Eo8aAwAAQBAJ&source=gbs_api",
@@ -67,5 +67,7 @@
   "wikidata_qid": "Q730105",
   "original_title": "The Wonderful Visit",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://books.google.com/books/content?id=Eo8aAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:39+00:00"
 }

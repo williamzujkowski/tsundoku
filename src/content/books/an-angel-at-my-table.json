@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4270527-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4270527-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/an-angel-at-my-table.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-angel-at-my-table.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2271669W",
   "first_published": 1984,
   "language": "eng",
@@ -51,5 +51,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 25,
-  "representative_edition_key": "/books/OL33506527M"
+  "representative_edition_key": "/books/OL33506527M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4270527-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4270527-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:09+00:00"
 }

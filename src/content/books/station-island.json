@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/376646-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/376646-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/station-island.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/station-island.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1810095W",
   "first_published": 1984,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL35479203M"
+  "representative_edition_key": "/books/OL35479203M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/376646-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/376646-L.jpg",
+  "cover_cached_at": "2026-05-03T01:53:07+00:00"
 }

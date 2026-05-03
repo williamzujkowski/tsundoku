@@ -9,8 +9,8 @@
     "humor",
     "satire"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14648805-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14648805-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mort.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mort.jpg",
   "open_library_url": "https://openlibrary.org/works/OL453658W",
   "first_published": 1987,
   "language": "eng",
@@ -73,5 +73,8 @@
   "series": {
     "name": "Discworld",
     "position": 4
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14648805-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14648805-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:19+00:00"
 }

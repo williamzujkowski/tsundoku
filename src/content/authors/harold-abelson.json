@@ -5,7 +5,7 @@
   "bio": "American computer scientist",
   "open_library_url": "https://openlibrary.org/authors/OL532838A",
   "birth_year": 1947,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/HalAbelsonJI1.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/harold-abelson.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -23,5 +23,7 @@
     {
       "name": "IEEE Fellow"
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/HalAbelsonJI1.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:01:14+00:00"
 }

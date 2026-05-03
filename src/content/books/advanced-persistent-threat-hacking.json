@@ -8,13 +8,34 @@
     "computing"
   ],
   "description": "Master the tactics and tools of the advanced persistent threat hacker In this book, IT security expert Tyler Wrightson reveals the mindset, skills, and effective attack vectors needed to compromise any target of choice. Advanced Persistent Threat Hacking discusses the strategic issues that make all organizations vulnerable and provides noteworthy empirical evidence. You'll learn a proven APT Hacker Methodology for systematically targeting and infiltrating an organization and its IT systems. A un...",
-  "cover_url": "https://books.google.com/books/content?id=8aUfBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8aUfBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/advanced-persistent-threat-hacking.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/advanced-persistent-threat-hacking.jpg",
   "isbn": "9780071828376",
   "first_published": 2014,
   "pages": 463,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=8aUfBQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=8aUfBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8aUfBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:18+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Computer networks",
+    "Computer networks, security measures",
+    "Computer security",
+    "Hacking",
+    "Security measures"
+  ],
+  "ddc": [
+    "005.8"
+  ],
+  "lcc": [
+    "QA76.9"
+  ]
 }

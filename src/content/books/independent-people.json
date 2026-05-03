@@ -9,8 +9,8 @@
   "first_published": 1945,
   "language": "eng",
   "description": "A beautifully jacketed hardcover edition of the Nobel Prize-winning author's beloved epic novel about a stubbornly independent Icelandic sheep farmer and his spirited daughter. Set in the early twentieth century, Independent People recalls both Iceland's medieval epics and such classics as Sigrid Undset's Kristin Lavransdatter. If Bjartur of Summerhouses, the book's protagonist, is an ordinary sheep farmer, his flinty determination to achieve independence is genuinely heroic and, at the same tim...",
-  "cover_url": "https://books.google.com/books/content?id=A9D-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=A9D-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/independent-people.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/independent-people.jpg",
   "isbn": "9781101908273",
   "pages": 554,
   "google_books_url": "http://books.google.com/books?id=A9D-DwAAQBAJ&dq=Independent+People+Halld%C3%B3r+Laxness&hl=&source=gbs_api",
@@ -53,5 +53,8 @@
   "editions_count": 36,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29856812M"
+  "representative_edition_key": "/books/OL29856812M",
+  "cover_url_source": "https://books.google.com/books/content?id=A9D-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=A9D-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:45+00:00"
 }

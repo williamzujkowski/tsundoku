@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cancer-ward",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13623304-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13623304-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cancer-ward.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cancer-ward.jpg",
   "open_library_url": "https://openlibrary.org/works/OL29335918W",
   "first_published": 1968,
   "language": "eng",
@@ -104,5 +104,8 @@
   "original_language": "rus",
   "original_title": "Rakovyi korpus",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23093788M"
+  "representative_edition_key": "/books/OL23093788M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13623304-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13623304-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:30+00:00"
 }

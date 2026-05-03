@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13281409-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13281409-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/democracy-in-america.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/democracy-in-america.jpg",
   "open_library_url": "https://openlibrary.org/works/OL32342092W",
   "first_published": 1835,
   "language": "eng",
@@ -237,5 +237,8 @@
   "original_language": "fre",
   "original_title": "De la démocratie en Amérique",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34216111M"
+  "representative_edition_key": "/books/OL34216111M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13281409-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13281409-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:06+00:00"
 }

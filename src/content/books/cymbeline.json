@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cymbeline",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8997203-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8997203-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cymbeline.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cymbeline.jpg",
   "open_library_url": "https://openlibrary.org/works/OL258656W",
   "first_published": 1623,
   "language": "eng",
@@ -175,5 +175,8 @@
   "representative_edition_key": "/books/OL56082830M",
   "wikidata_qid": "Q730212",
   "original_title": "Cymbeline",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8997203-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8997203-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:19+00:00"
 }

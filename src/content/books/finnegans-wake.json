@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "finnegans-wake",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6609259-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6609259-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/finnegans-wake.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/finnegans-wake.jpg",
   "open_library_url": "https://openlibrary.org/works/OL86319W",
   "first_published": 1928,
   "language": "eng",
@@ -131,5 +131,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6609259-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6609259-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:33+00:00"
 }

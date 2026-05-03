@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "In 1898, as the Spanish-American War was escalating, Theodore Roosevelt assembled an improbable regiment of Ivy Leaguers, cowboys, Native Americans, African-Americans, and Western Territory land speculators. This group of men, which became known as the Rough Riders, trained for four weeks in the Texas desert and then set sail for Cuba. Over the course of the summer, Roosevelt's Rough Riders fought valiantly, and sometimes recklessly, in the Cuban foothills, incurring casualties at a far greater ",
-  "cover_url": "https://books.google.com/books/content?id=Ptz11WS82yEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-rough-riders.jpg",
   "isbn": "9780679641865",
   "first_published": 1899,
   "pages": 263,
@@ -97,5 +97,7 @@
   "editions_count": 116,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24288066M"
+  "representative_edition_key": "/books/OL24288066M",
+  "cover_url_source": "https://books.google.com/books/content?id=Ptz11WS82yEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:50+00:00"
 }

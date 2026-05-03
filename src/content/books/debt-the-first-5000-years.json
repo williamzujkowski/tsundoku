@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "Now in paperback, the updated and expanded edition: David Graeber’s “fresh . . . fascinating . . . thought-provoking . . . and exceedingly timely” (Financial Times) history of debt Here anthropologist David Graeber presents a stunning reversal of conventional wisdom: he shows that before there was money, there was debt. For more than 5,000 years, since the beginnings of the first agrarian empires, humans have used elaborate credit systems to buy and sell goods—that is, long before the invention ...",
-  "cover_url": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/debt-the-first-5000-years.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/debt-the-first-5000-years.jpg",
   "isbn": "9781612194202",
   "first_published": 2011,
   "pages": 709,
@@ -64,5 +64,8 @@
   "wikidata_qid": "Q1304168",
   "original_title": "Debt",
   "original_language": "eng",
-  "original_publisher": "Melville House Publishing"
+  "original_publisher": "Melville House Publishing",
+  "cover_url_source": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=lliTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:57+00:00"
 }

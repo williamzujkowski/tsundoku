@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12641526-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12641526-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lady-susan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lady-susan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL66614W",
   "first_published": 1925,
   "language": "eng",
@@ -74,5 +74,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54667628M"
+  "representative_edition_key": "/books/OL54667628M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12641526-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12641526-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:38+00:00"
 }

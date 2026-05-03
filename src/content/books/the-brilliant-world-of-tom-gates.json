@@ -11,8 +11,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "The top-selling U.K. series for middle-grade readers now crosses the pond! Meet Tom Gates. When his teachers don’t have their beady eyes on him, he likes to draw pictures and write about stuff, like last summer’s worst camping vacation ever (five merits!), or how much he hates sitting next to nosy Marcus Meldrew, the most annoying boy at school. All Tom really wants is to score tickets to see the best band ever, Dude3, when they come to town, and to impress Amy Porter, who is very nice and smart...",
-  "cover_url": "https://books.google.com/books/content?id=z19gAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=z19gAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-brilliant-world-of-tom-gates.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-brilliant-world-of-tom-gates.jpg",
   "isbn": "9780763675813",
   "first_published": 2012,
   "pages": 264,
@@ -63,5 +63,8 @@
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29695983M"
+  "representative_edition_key": "/books/OL29695983M",
+  "cover_url_source": "https://books.google.com/books/content?id=z19gAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=z19gAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:08+00:00"
 }

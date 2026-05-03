@@ -9,8 +9,8 @@
     "sci-fi",
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8081288-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8081288-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-first-men-in-the-moon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-first-men-in-the-moon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52260W",
   "first_published": 1901,
   "language": "eng",
@@ -85,5 +85,8 @@
   "representative_edition_key": "/books/OL51283281M",
   "wikidata_qid": "Q1218232",
   "original_title": "The First Men in the Moon",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8081288-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8081288-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:34+00:00"
 }

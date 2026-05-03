@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "gloriana",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/911239-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/911239-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gloriana.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gloriana.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2697649W",
   "first_published": 1978,
   "language": "eng",
@@ -71,5 +71,8 @@
       "name": "World Fantasy Award for Best Novel",
       "year": 1979
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/911239-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/911239-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:02+00:00"
 }

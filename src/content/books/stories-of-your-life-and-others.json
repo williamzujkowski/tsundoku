@@ -9,8 +9,8 @@
     "sci-fi",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/524046-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/524046-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/stories-of-your-life-and-others.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/stories-of-your-life-and-others.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6216050W",
   "first_published": 2002,
   "language": "eng",
@@ -97,5 +97,8 @@
       "name": "Bob Morane award for best short story",
       "year": 2007
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/524046-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/524046-L.jpg",
+  "cover_cached_at": "2026-05-03T01:53:19+00:00"
 }

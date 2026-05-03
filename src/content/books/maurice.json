@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1364882-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1364882-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/maurice.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/maurice.jpg",
   "open_library_url": "https://openlibrary.org/works/OL88877W",
   "first_published": 1971,
   "language": "eng",
@@ -60,5 +60,8 @@
   },
   "editions_count": 59,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8258173M"
+  "representative_edition_key": "/books/OL8258173M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1364882-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1364882-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:06+00:00"
 }

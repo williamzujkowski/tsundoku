@@ -11,5 +11,28 @@
   "google_books_url": "http://books.google.com/books?id=awN0mwEACAAJ&dq=Principal+Upanishads+The+Upanishads&hl=&source=gbs_api",
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
-  "description": "Principal Upanishads, also known as Mukhya Upanishads, are the most ancient and widely studied Upanishads of Hinduism. Composed between 800 BCE to the start of common era, these texts are connected to the Vedic tradition."
+  "description": "Principal Upanishads, also known as Mukhya Upanishads, are the most ancient and widely studied Upanishads of Hinduism. Composed between 800 BCE to the start of common era, these texts are connected to the Vedic tradition.",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Christentum",
+    "Christianity",
+    "Comparative studies",
+    "Criticism, interpretation",
+    "Hinduismus",
+    "Incarnation",
+    "Interfaith relations",
+    "Relations",
+    "Upanishads",
+    "Upanishads (Texts, versions, etc.)."
+  ],
+  "ddc": [
+    "181"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

@@ -8,8 +8,8 @@
     "computing",
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9378629-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9378629-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/computer-networks-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/computer-networks-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1970691W",
   "first_published": 1981,
   "language": "eng",
@@ -103,5 +103,8 @@
   "representative_edition_key": "/books/OL25560149M",
   "wikidata_qid": "Q18201424",
   "original_title": "Computer Networks",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9378629-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9378629-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:35+00:00"
 }

@@ -10,8 +10,8 @@
     "politics",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2292601-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2292601-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/social-contract.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/social-contract.jpg",
   "open_library_url": "https://openlibrary.org/works/OL80731W",
   "first_published": 1762,
   "language": "eng",
@@ -158,5 +158,8 @@
   "editions_count": 216,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35632342M"
+  "representative_edition_key": "/books/OL35632342M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2292601-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2292601-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:10+00:00"
 }

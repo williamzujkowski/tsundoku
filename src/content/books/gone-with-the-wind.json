@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Scarlett O’Hara was not beautiful, but men seldom realized it when caught by her charm as\r\nthe Tarleton twins were.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/gone-with-the-wind.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gone-with-the-wind.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9788937848940",
@@ -144,7 +144,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "cover_url": "wikidata_book_v1"
   },
   "editions_count": 244,
   "first_published_circa": false,
@@ -161,5 +162,7 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Gone%20with%20the%20Wind%20%281936%2C%20first%20edition%20cover%29.jpg?width=600",
+  "cover_cached_at": "2026-05-03T01:18:28+00:00"
 }

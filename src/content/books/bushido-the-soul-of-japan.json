@@ -9,8 +9,8 @@
   "first_published": 1907,
   "language": "eng",
   "description": "Bushido, the Soul of Japan is a fascinating exploration of the unique spirituality and philosophy that has shaped Japanese culture for centuries. Inazo Nitobe, one of Japan's most renowned scholars, offers a comprehensive guide to the principles of Bushido, which encompasses everything from martial arts to ethical behavior. The book takes readers on a journey through the history of Bushido and its influence on Japanese society. It explores the origins of Bushido in ancient times, when Samurai wa...",
-  "cover_url": "https://books.google.com/books/content?id=m5LVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=m5LVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bushido-the-soul-of-japan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bushido-the-soul-of-japan.jpg",
   "isbn": "9780369410153",
   "pages": 86,
   "google_books_url": "https://play.google.com/store/books/details?id=m5LVEAAAQBAJ&source=gbs_api",
@@ -33,10 +33,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL58220063M"
+  "representative_edition_key": "/books/OL58220063M",
+  "cover_url_source": "https://books.google.com/books/content?id=m5LVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=m5LVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:19+00:00",
+  "ddc": [
+    "950"
+  ]
 }

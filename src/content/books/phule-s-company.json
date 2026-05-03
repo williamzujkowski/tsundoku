@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Phule's Company is a comic military science fiction novel written by Robert Asprin and originally published in 1990. The book follows the comedic events as Willard J. Phule, the rich son of a millionaire arms manufacturer, reforms a group of misfits in the Space Legion, a fictional organization similar to the French Foreign Legion, into an \"elite fighting force\". The book is primarily narrated by Phule's butler Beeker.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Phule%27s_Company_by_Robert_Asprin_cover_1990.png",
+  "cover_url": "/tsundoku/cached/covers/phule-s-company.png",
   "isbn": "9781680575866",
   "subject_facet": [
     "Fiction, science fiction, general",
@@ -27,7 +27,9 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
@@ -37,5 +39,13 @@
   "original_language": "eng",
   "series": {
     "name": "Phule's Company"
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/6/67/Phule%27s_Company_by_Robert_Asprin_cover_1990.png",
+  "cover_cached_at": "2026-05-03T01:42:48+00:00",
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

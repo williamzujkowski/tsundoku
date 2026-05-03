@@ -3,7 +3,7 @@
   "slug": "samuel-beckett",
   "book_count": 4,
   "bio": "Samuel Barclay Beckett was an Irish playwright, poet, novelist, and literary critic. Writing in both English and French, his literary and theatrical works feature bleak, impersonal, and tragicomic episodes of life, coupled with black comedy and literary nonsense. Beckett is widely regarded as one of the most influential and important writers of the 20th century, credited with transforming modern theatre. As a major figure of Irish literature, he is best known for his tragicomedy play Waiting for Godot (1953). For his foundational contribution to both literature and theatre, Beckett received the 1969 Nobel Prize in Literature, \"for his writing, which—in new forms for the novel and drama—in the destitution of modern man acquires its elevation.\"",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Samuel_Beckett%2C_Pic%2C_1_%28cropped%29.jpg/400px-Samuel_Beckett%2C_Pic%2C_1_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/samuel-beckett.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Beckett",
   "open_library_url": "https://openlibrary.org/authors/OL29858A",
   "birth_year": 1906,
@@ -73,5 +73,7 @@
     {
       "name": "star on Playwrights' Sidewalk"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Samuel_Beckett%2C_Pic%2C_1_%28cropped%29.jpg/400px-Samuel_Beckett%2C_Pic%2C_1_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:15:51+00:00"
 }

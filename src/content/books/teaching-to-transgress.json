@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "teaching-to-transgress",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/3881117-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3881117-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/teaching-to-transgress.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/teaching-to-transgress.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15053159W",
   "first_published": 1994,
   "language": "eng",
@@ -80,5 +80,8 @@
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "9780415908085",
-  "representative_edition_key": "/books/OL34627665M"
+  "representative_edition_key": "/books/OL34627665M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3881117-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3881117-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:56+00:00"
 }

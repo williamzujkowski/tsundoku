@@ -8,8 +8,8 @@
     "biography",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/104061-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/104061-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-antichrist.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-antichrist.jpg",
   "open_library_url": "https://openlibrary.org/works/OL98127W",
   "first_published": 1911,
   "language": "eng",
@@ -118,5 +118,8 @@
   "editions_count": 385,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54259294M"
+  "representative_edition_key": "/books/OL54259294M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/104061-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/104061-L.jpg",
+  "cover_cached_at": "2026-05-03T01:56:02+00:00"
 }

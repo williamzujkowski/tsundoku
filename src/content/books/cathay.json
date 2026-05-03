@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "cathay",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9142409-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9142409-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cathay.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cathay.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20477610W",
   "first_published": 2010,
   "language": "eng",
@@ -37,8 +37,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL29294705M"
+  "representative_edition_key": "/books/OL29294705M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9142409-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9142409-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:49+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

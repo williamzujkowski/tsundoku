@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-making-of-the-english-working-class",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/254045-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/254045-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-making-of-the-english-working-class.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-making-of-the-english-working-class.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2761522W",
   "first_published": 1963,
   "language": "eng",
@@ -40,5 +40,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38527479M"
+  "representative_edition_key": "/books/OL38527479M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/254045-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/254045-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:35+00:00"
 }

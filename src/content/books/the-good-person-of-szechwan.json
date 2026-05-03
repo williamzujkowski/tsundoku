@@ -11,8 +11,8 @@
   "first_published": 2014,
   "language": "eng",
   "description": "Repackaged and reissued, this is Brecht's classic parable, set in an unjust society where good can only survive by means of evil. It is accompanied by Brecht's own notes and extensive commentary from John Willett and Ralph Manheim.",
-  "cover_url": "https://books.google.com/books/content?id=lw1fBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=lw1fBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-good-person-of-szechwan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-good-person-of-szechwan.jpg",
   "isbn": "9781408176764",
   "pages": 162,
   "google_books_url": "https://play.google.com/store/books/details?id=lw1fBwAAQBAJ&source=gbs_api",
@@ -35,10 +35,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9781408176764",
-  "representative_edition_key": "/books/OL48650436M"
+  "representative_edition_key": "/books/OL48650436M",
+  "cover_url_source": "https://books.google.com/books/content?id=lw1fBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=lw1fBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:47+00:00",
+  "ddc": [
+    "800"
+  ]
 }

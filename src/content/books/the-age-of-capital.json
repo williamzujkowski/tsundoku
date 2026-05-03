@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4485799-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4485799-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-age-of-capital.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-age-of-capital.jpg",
   "open_library_url": "https://openlibrary.org/works/OL495656W",
   "first_published": 1975,
   "language": "eng",
@@ -56,5 +56,8 @@
   "original_language": "fre",
   "original_title": "L' ère du capital",
   "representative_edition_key": "/books/OL8833728M",
-  "wikidata_qid": "Q10273497"
+  "wikidata_qid": "Q10273497",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4485799-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4485799-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:47+00:00"
 }

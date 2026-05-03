@@ -11,8 +11,8 @@
   "first_published": 1967,
   "language": "eng",
   "description": "In her foreword to All The Poems (2003) Muriel Spark wrote, 'Although most of my life has been devoted to fiction, I have always thought of myself as a poet. I do not write \"poetic\" prose, but feel that my outlook on life and my perceptions of events are those of a poet.' Including previously uncollected work, this new edition demonstrates her ear for the rightness of a line and her eye for the telling detail, her command of poetic forms and her ability to rise to the different challenges of fre...",
-  "cover_url": "https://books.google.com/books/content?id=-J-0rQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-J-0rQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/collected-poems-7.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/collected-poems-7.jpg",
   "isbn": "1784101249",
   "google_books_url": "http://books.google.com/books?id=-J-0rQEACAAJ&dq=Collected+Poems+Muriel+Spark&hl=&source=gbs_api",
   "reading_status": "read",
@@ -31,9 +31,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38916232M"
+  "representative_edition_key": "/books/OL38916232M",
+  "cover_url_source": "https://books.google.com/books/content?id=-J-0rQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-J-0rQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:50+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

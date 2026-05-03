@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-story-of-the-lost-child",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13518415-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13518415-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-the-lost-child.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-story-of-the-lost-child.jpg",
   "open_library_url": "https://openlibrary.org/works/OL34777467W",
   "first_published": 2014,
   "description": "The \"stunning conclusion\" to the bestselling saga of the fierce lifelong bond between two women, from a gritty Naples childhood through old age ( Publishers Weekly, starred review). One of the New York Times​'s 100 Best Books of the 21st Century The Story of the Lost Child concludes the dazzling saga of two women, the brilliant, bookish Elena and the fiery, uncontainable Lila, who first met amid the shambles of postwar Italy. In this book, life's great discoveries have been made; its vagaries an...",
@@ -70,5 +70,8 @@
   "series": {
     "name": "Neapolitan Novels",
     "position": 4
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13518415-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13518415-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:17+00:00"
 }

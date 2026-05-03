@@ -6,13 +6,39 @@
   "slug": "children-of-the-alley",
   "tags": [],
   "description": "First published in Arabic in 1959, this robust multigenerational arabesque fuses trenchant social allegory and pungent realism in a skein of stories within stories. The \"children'' of Nobel Prize-winning Egyptian novelist Mahfouz's title are beggars, peddlars, drug addicts, homeless, swindlers, cripples and ordinary people struggling to survive in a Cairo neighborhood at once modern and timeless. Their \"alley'' winds up toward a mansion owned by a capricious, secluded feudal lord who cloisters h...",
-  "cover_url": "https://books.google.com/books/content?id=ru93PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ru93PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/children-of-the-alley.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/children-of-the-alley.jpg",
   "isbn": "9774246799",
   "first_published": 2001,
   "pages": 448,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=ru93PgAACAAJ&dq=Children+of+the+Alley+Naguib+Mahfouz&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=ru93PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ru93PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:09+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Arabic fiction",
+    "English fiction",
+    "Families",
+    "Family",
+    "Fiction",
+    "Near and far eastern fiction (fictional works by one author)",
+    "New York Times reviewed",
+    "Religion",
+    "Translations from Arabic",
+    "Translations into English"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

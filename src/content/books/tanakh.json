@@ -6,8 +6,8 @@
   "slug": "tanakh",
   "tags": [],
   "description": "The Jewish Bible, Old Testamen translated according to the traditional Hebrew text.",
-  "cover_url": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tanakh.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tanakh.jpg",
   "first_published": 1956,
   "pages": 1766,
   "language": "eng",
@@ -1702,5 +1702,8 @@
   "wikidata_qid": "Q751582",
   "original_title": "Bible de Jérusalem",
   "original_language": "fre",
-  "original_publisher": "French Biblical and Archaeological School of Jerusalem"
+  "original_publisher": "French Biblical and Archaeological School of Jerusalem",
+  "cover_url_source": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=l9QkAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:45+00:00"
 }

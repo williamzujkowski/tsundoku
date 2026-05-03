@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "In \"Memoirs of Arsène Lupin\" by Maurice Leblanc, the narrative unfolds with Ralph d’Andresy, a young man of twenty, who is deeply in love with Clarice d’Etigues. Despite the disapproval of Clarice's father, Baron Godfrey d’Etigues, Ralph is determined to win her hand. The story takes a mysterious turn when Ralph discovers a secret meeting involving the Baron and his associates, who are plotting against a woman they believe to be Josephine Balsamo, the Countess of Cagliostro. This woman is accuse...",
-  "cover_url": "https://books.google.com/books/content?id=cY3OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=cY3OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/memoirs-of-ars-ne-lupin.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/memoirs-of-ars-ne-lupin.jpg",
   "isbn": "9791041802548",
   "first_published": 1925,
   "pages": 312,
@@ -52,5 +52,8 @@
   "editions_count": 36,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34347328M"
+  "representative_edition_key": "/books/OL34347328M",
+  "cover_url_source": "https://books.google.com/books/content?id=cY3OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=cY3OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:19+00:00"
 }

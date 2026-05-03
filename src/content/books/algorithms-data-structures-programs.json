@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4482007-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4482007-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/algorithms-data-structures-programs.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/algorithms-data-structures-programs.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2589587W",
   "first_published": 1976,
   "language": "eng",
@@ -56,5 +56,8 @@
   "representative_edition_key": "/books/OL5191055M",
   "wikidata_qid": "Q4724373",
   "original_title": "Algorithms + Data Structures = Programs",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4482007-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4482007-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:45+00:00"
 }

@@ -4,7 +4,7 @@
   "book_count": 1,
   "open_library_url": "https://openlibrary.org/authors/OL589806A",
   "bio": "Indian theoretical computer scientist and venture capitalist at Stanford University (1962–2009)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajeev%20Motwani%20in%202006.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/rajeev-motwani.jpg",
   "birth_year": 1962,
   "death_year": 2009,
   "_provenance": {
@@ -33,5 +33,7 @@
       "name": "ACM Fellow",
       "year": 2007
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajeev%20Motwani%20in%202006.jpg?width=400",
+  "photo_cached_at": "2026-05-03T00:47:28+00:00"
 }

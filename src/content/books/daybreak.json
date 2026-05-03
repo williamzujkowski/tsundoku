@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "daybreak",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4659403-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4659403-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/daybreak.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/daybreak.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15326086W",
   "first_published": 1881,
   "language": "eng",
@@ -48,5 +48,8 @@
   "representative_edition_key": "/books/OL7747793M",
   "wikidata_qid": "Q1947770",
   "original_title": "Morgenröthe",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4659403-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4659403-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:41+00:00"
 }

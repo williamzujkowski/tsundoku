@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "foreigner",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/503794-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/503794-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/foreigner.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/foreigner.jpg",
   "open_library_url": "https://openlibrary.org/works/OL60612W",
   "first_published": 1994,
   "language": "eng",
@@ -53,5 +53,8 @@
   "series": {
     "name": "Foreigner series",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/503794-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/503794-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:19+00:00"
 }

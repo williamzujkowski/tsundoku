@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "If you’re a security or network professional, you already know the “do’s and don’ts”: run AV software and firewalls, lock down your systems, use encryption, watch network traffic, follow best practices, hire expensive consultants . . . but it isn’t working. You’re at greater risk than ever, and even the world’s most security-focused organizations are being victimized by massive attacks. In Thinking Security, author Steven M. Bellovin provides a new way to think about security. As one of the worl...",
-  "cover_url": "https://books.google.com/books/content?id=r3seCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=r3seCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/thinking-security.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/thinking-security.jpg",
   "isbn": "9780134278230",
   "first_published": 2015,
   "pages": 468,
@@ -36,10 +36,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780134278216",
-  "representative_edition_key": "/books/OL35532709M"
+  "representative_edition_key": "/books/OL35532709M",
+  "cover_url_source": "https://books.google.com/books/content?id=r3seCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=r3seCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:19:09+00:00",
+  "ddc": [
+    "005.8"
+  ]
 }

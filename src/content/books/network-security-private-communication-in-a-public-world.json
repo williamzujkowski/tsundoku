@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The classic guide to network security—now fully updated!\"Bob and Alice are back!\" Widely regarded as the most comprehensive yet comprehensible guide to network security, the first edition of Network Security received critical acclaim for its lucid and witty explanations of the inner workings of network security protocols. In the second edition, this most distinguished of author teams draws on hard-won experience to explain the latest developments in this field that has become so critical to our ...",
-  "cover_url": "https://books.google.com/books/content?id=wxMqaz4JMb0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=wxMqaz4JMb0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/network-security-private-communication-in-a-public-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/network-security-private-communication-in-a-public-world.jpg",
   "isbn": "9780132797160",
   "first_published": 2002,
   "pages": 800,
@@ -54,5 +54,8 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9780137155880",
-  "representative_edition_key": "/books/OL35566367M"
+  "representative_edition_key": "/books/OL35566367M",
+  "cover_url_source": "https://books.google.com/books/content?id=wxMqaz4JMb0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=wxMqaz4JMb0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:10+00:00"
 }

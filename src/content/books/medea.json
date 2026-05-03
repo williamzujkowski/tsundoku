@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6537700-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6537700-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/medea.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/medea.jpg",
   "open_library_url": "https://openlibrary.org/works/OL66501W",
   "first_published": 1703,
   "language": "eng",
@@ -39,9 +39,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 9,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34006780M"
+  "representative_edition_key": "/books/OL34006780M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6537700-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6537700-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:11+00:00",
+  "ddc": [
+    "800"
+  ]
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-journal-of-the-plague-year",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11731046-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11731046-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-journal-of-the-plague-year.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-journal-of-the-plague-year.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24856150W",
   "first_published": 1895,
   "language": "eng",
@@ -41,5 +41,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46097218M"
+  "representative_edition_key": "/books/OL46097218M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11731046-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11731046-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:06+00:00"
 }

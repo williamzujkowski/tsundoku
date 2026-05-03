@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dombey-and-son",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9283920-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9283920-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dombey-and-son.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dombey-and-son.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14868861W",
   "first_published": 1800,
   "language": "eng",
@@ -139,5 +139,8 @@
   "wikidata_qid": "Q963659",
   "original_title": "Dealings with the Firm of Dombey and Son: Wholesale, Retail and for Export",
   "original_language": "eng",
-  "original_publisher": "Bradbury and Evans"
+  "original_publisher": "Bradbury and Evans",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9283920-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9283920-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:02+00:00"
 }

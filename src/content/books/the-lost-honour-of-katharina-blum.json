@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "A \"powerful image of innocence betrayed, of measureless evil oozing quietly from regulated, unimpeachable convention\" - LJ.",
-  "cover_url": "https://covers.openlibrary.org/b/id/97745-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97745-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lost-honour-of-katharina-blum.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lost-honour-of-katharina-blum.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9783462010336",
@@ -99,5 +99,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97745-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97745-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:19+00:00"
 }

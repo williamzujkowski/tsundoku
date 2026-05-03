@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/3976241-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3976241-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/doctor-faustus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/doctor-faustus.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14867080W",
   "first_published": 1947,
   "language": "eng",
@@ -80,5 +80,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7426135M",
   "wikidata_qid": "Q386431",
-  "original_publisher": "Bermann-Fischer Verlag"
+  "original_publisher": "Bermann-Fischer Verlag",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3976241-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3976241-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:55+00:00"
 }

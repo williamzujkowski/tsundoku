@@ -3,7 +3,7 @@
   "slug": "sara-paretsky",
   "book_count": 1,
   "bio": "Sara Paretsky is an American author of detective fiction, best known for her novels focused on the protagonist V. I. Warshawski.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SaraParetsky.jpg/400px-SaraParetsky.jpg",
+  "photo_url": "/tsundoku/cached/authors/sara-paretsky.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sara_Paretsky",
   "open_library_url": "https://openlibrary.org/authors/OL23374A",
   "birth_year": 1947,
@@ -45,5 +45,7 @@
       "name": "Anthony Award",
       "year": 1992
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SaraParetsky.jpg/400px-SaraParetsky.jpg",
+  "photo_cached_at": "2026-05-03T03:15:57+00:00"
 }

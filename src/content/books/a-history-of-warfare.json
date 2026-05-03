@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-history-of-warfare",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/253983-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/253983-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-history-of-warfare.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-history-of-warfare.jpg",
   "open_library_url": "https://openlibrary.org/works/OL816416W",
   "first_published": 1993,
   "language": "eng",
@@ -63,5 +63,8 @@
   "representative_edition_key": "/books/OL32105435M",
   "wikidata_qid": "Q11496123",
   "original_title": "A History of Warfare",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/253983-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/253983-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:03+00:00"
 }

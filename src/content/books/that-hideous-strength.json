@@ -13,7 +13,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "That Hideous Strength: A Modern Fairy-Tale for Grown-Ups is a 1945 novel by C. S. Lewis, the final book in Lewis's theological science fiction Space Trilogy. The events of this novel follow those of Out of the Silent Planet and Perelandra and once again feature the philologist Elwin Ransom. Yet unlike the principal events of those two novels, the story takes place on Earth rather than elsewhere in the Solar System.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/CSLewis_ThatHideousStrength.jpg/250px-CSLewis_ThatHideousStrength.jpg",
+  "cover_url": "/tsundoku/cached/covers/that-hideous-strength.jpg",
   "isbn": "9781536838503",
   "ol_work_key": "/works/OL41439228W",
   "ddc": [
@@ -71,5 +71,7 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56279345M"
+  "representative_edition_key": "/books/OL56279345M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/CSLewis_ThatHideousStrength.jpg/250px-CSLewis_ThatHideousStrength.jpg",
+  "cover_cached_at": "2026-05-03T01:55:22+00:00"
 }

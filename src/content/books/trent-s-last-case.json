@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Get to know debonair sleuth Philip Trent in the first novel in which the beloved detective ever made an appearance. In Trent's Last Case, author E.C. Bentley pulls off a remarkable feat -- a detective novel that is a sophisticated and hilarious send-up of the detective fiction genre! A must-read for die-hard fans of detective stories, or for anyone craving an entertaining whodunit.",
-  "cover_url": "https://books.google.com/books/content?id=ra8U3UMB3_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/trent-s-last-case.jpg",
   "isbn": "9781775419341",
   "first_published": 1913,
   "pages": 297,
@@ -77,5 +77,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34336496M",
   "wikidata_qid": "Q3824759",
-  "original_publisher": "Thomas Nelson and Sons Ltd"
+  "original_publisher": "Thomas Nelson and Sons Ltd",
+  "cover_url_source": "https://books.google.com/books/content?id=ra8U3UMB3_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:53+00:00"
 }

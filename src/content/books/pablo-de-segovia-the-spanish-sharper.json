@@ -11,8 +11,8 @@
   "first_published": 1892,
   "google_books_url": "http://books.google.com/books?id=JhYrzAEACAAJ&dq=intitle:Pablo+de+Segovia,+the+Spanish+Sharper&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/9556411-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9556411-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pablo-de-segovia-the-spanish-sharper.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pablo-de-segovia-the-spanish-sharper.jpg",
   "open_library_url": "https://openlibrary.org/works/OL11682667W",
   "description": "In 'Pablo de Segovia, the Spanish Sharper' by Francisco de Quevedo, readers are transported to 17th century Spain through a satirical and witty novel that delves into the deceptive and cunning world of the protagonist, Pablo de Segovia. Quevedo's work is characterized by its sharp social commentary, intricate wordplay, and nuanced exploration of human nature. Through a series of cleverly crafted situations and dialogues, Quevedo paints a vivid picture of the moral ambiguity and complexities of s...",
   "pages": 217,
@@ -29,10 +29,30 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL16201184M"
+  "representative_edition_key": "/books/OL16201184M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9556411-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9556411-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:36+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Criticism, textual",
+    "Literatura española",
+    "Novela picaresca",
+    "Novela picaresca española",
+    "Picaresque novels",
+    "Readers",
+    "Romance literature",
+    "Spanish fiction",
+    "Spanish language"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/488064-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/488064-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-stories-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-stories-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3145386W",
   "first_published": 1996,
   "language": "eng",
@@ -40,5 +40,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9780771033087",
-  "representative_edition_key": "/books/OL7961599M"
+  "representative_edition_key": "/books/OL7961599M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/488064-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/488064-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:06+00:00"
 }

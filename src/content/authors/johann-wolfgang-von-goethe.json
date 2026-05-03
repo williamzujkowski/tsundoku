@@ -3,7 +3,7 @@
   "slug": "johann-wolfgang-von-goethe",
   "book_count": 5,
   "bio": "Johann Wolfgang von Goethe was a German polymath who is widely regarded as the most influential writer in the German language. His work has had a wide-ranging influence on literary, political, christian views, and philosophical thought in the Western world from the late 18th century to the present. A poet, playwright, novelist, scientist, statesman, theatre-director, and critic, Goethe wrote a wide range of works, including plays, poetry and aesthetic criticism, as well as treatises on botany, anatomy, and colour.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/400px-Goethe_%28Stieler_1828%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/johann-wolfgang-von-goethe.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
   "open_library_url": "https://openlibrary.org/authors/OL13193A",
   "birth_year": 1749,
@@ -49,5 +49,7 @@
     {
       "name": "Grand Cross of the Legion of Honour"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/400px-Goethe_%28Stieler_1828%29.jpg",
+  "photo_cached_at": "2026-05-03T03:04:51+00:00"
 }

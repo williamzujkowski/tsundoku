@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "bloodlands",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6713085-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6713085-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/bloodlands.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bloodlands.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15688711W",
   "first_published": 2010,
   "language": "eng",
@@ -95,5 +95,8 @@
       "name": "Leipzig Book Award for European Understanding",
       "year": 2012
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6713085-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6713085-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:45+00:00"
 }

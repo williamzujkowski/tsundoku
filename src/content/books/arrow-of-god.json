@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "arrow-of-god",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7135325-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7135325-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/arrow-of-god.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/arrow-of-god.jpg",
   "open_library_url": "https://openlibrary.org/works/OL891814W",
   "first_published": 1964,
   "language": "eng",
@@ -58,5 +58,8 @@
   "editions_count": 28,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7508983M"
+  "representative_edition_key": "/books/OL7508983M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7135325-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7135325-L.jpg",
+  "cover_cached_at": "2026-05-03T00:56:50+00:00"
 }

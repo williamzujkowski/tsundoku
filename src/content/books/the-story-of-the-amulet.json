@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Bastable children travel back in time with the Psammead to find the missing half of an amulet discovered in a junk shop, and narrowly escape the fate of Atlantis in a giant tidal-wave.",
-  "cover_url": "https://books.google.com/books/content?id=K_MdAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-the-amulet.jpg",
   "first_published": 1906,
   "pages": 394,
   "google_books_url": "https://play.google.com/store/books/details?id=K_MdAQAAIAAJ&source=gbs_api",
@@ -81,5 +81,7 @@
   "wikidata_qid": "Q7766831",
   "original_title": "The Story of the Amulet",
   "original_language": "eng",
-  "original_publisher": "T. Fisher Unwin"
+  "original_publisher": "T. Fisher Unwin",
+  "cover_url_source": "https://books.google.com/books/content?id=K_MdAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:16+00:00"
 }

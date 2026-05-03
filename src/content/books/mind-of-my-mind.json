@@ -9,8 +9,8 @@
     "sci-fi",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/285330-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/285330-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mind-of-my-mind.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mind-of-my-mind.jpg",
   "open_library_url": "https://openlibrary.org/works/OL35626W",
   "first_published": 1977,
   "language": "eng",
@@ -74,5 +74,8 @@
   "series": {
     "name": "Patternist series",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/285330-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/285330-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:49+00:00"
 }

@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "Enchanting tale about a boy who can understand the speech of animals, imparting information about nature, geography, and native folklore.",
-  "cover_url": "https://books.google.com/books/content?id=cvHBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wonderful-adventures-of-nils.jpg",
   "isbn": "9780486117607",
   "first_published": 1907,
   "pages": 243,
@@ -89,5 +89,7 @@
   "editions_count": 68,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL26845422M"
+  "representative_edition_key": "/books/OL26845422M",
+  "cover_url_source": "https://books.google.com/books/content?id=cvHBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:39+00:00"
 }

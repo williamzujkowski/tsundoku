@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8346713-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8346713-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/midnights-children-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/midnights-children-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL457179W",
   "first_published": 1981,
   "language": "eng",
@@ -105,5 +105,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL43719572M"
+  "representative_edition_key": "/books/OL43719572M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8346713-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8346713-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:41+00:00"
 }

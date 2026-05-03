@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-conservationist",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/138568-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/138568-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-conservationist.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-conservationist.jpg",
   "open_library_url": "https://openlibrary.org/works/OL118280W",
   "first_published": 1974,
   "language": "eng",
@@ -52,5 +52,8 @@
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "0224010352",
-  "representative_edition_key": "/books/OL9301178M"
+  "representative_edition_key": "/books/OL9301178M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/138568-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/138568-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:16+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10510097-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10510097-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sorrows-of-young-werther.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sorrows-of-young-werther.jpg",
   "open_library_url": "https://openlibrary.org/works/OL23095535W",
   "first_published": 1774,
   "language": "eng",
@@ -127,5 +127,8 @@
   "representative_edition_key": "/books/OL9042236M",
   "wikidata_qid": "Q151883",
   "original_title": "The Sorrows of Young Werther",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10510097-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10510097-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:55+00:00"
 }

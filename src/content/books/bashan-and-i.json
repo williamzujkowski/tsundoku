@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The moving story of Thomas Mann's relationship with his spirited German short-haired pointer. \"The life of a dog is a simple and strangely marvelous thing; and that finally may be what sets Bashan and I apart: it is true to the life of a dog.\"—Gary Amdahl, Ruminator Review",
-  "cover_url": "https://books.google.com/books/content?id=CdY2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bashan-and-i.jpg",
   "isbn": "9780812218336",
   "first_published": 2002,
   "pages": 247,
@@ -50,5 +50,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0812218337",
-  "representative_edition_key": "/books/OL3567367M"
+  "representative_edition_key": "/books/OL3567367M",
+  "cover_url_source": "https://books.google.com/books/content?id=CdY2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:51+00:00"
 }

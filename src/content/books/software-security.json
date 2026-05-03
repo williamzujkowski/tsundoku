@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/136001-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/136001-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/software-security.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/software-security.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5753325W",
   "first_published": 2001,
   "language": "eng",
@@ -46,5 +46,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL3415406M"
+  "representative_edition_key": "/books/OL3415406M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/136001-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/136001-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:12+00:00"
 }

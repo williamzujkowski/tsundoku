@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "measure-theory",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/245167-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/245167-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/measure-theory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/measure-theory.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2776847W",
   "first_published": 1950,
   "language": "eng",
@@ -24,9 +24,22 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37232287M"
+  "representative_edition_key": "/books/OL37232287M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/245167-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/245167-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:09+00:00",
+  "subject_facet": [
+    "Measure theory",
+    "Qa312 .h26 1974",
+    "Topology"
+  ],
+  "ddc": [
+    "510"
+  ]
 }

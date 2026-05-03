@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "notes-of-a-native-son",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6545174-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6545174-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/notes-of-a-native-son.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/notes-of-a-native-son.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2683365W",
   "first_published": 1955,
   "language": "eng",
@@ -69,5 +69,8 @@
   "wikidata_qid": "Q7062618",
   "original_title": "Notes of a Native Son",
   "original_language": "eng",
-  "original_publisher": "Beacon Press"
+  "original_publisher": "Beacon Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6545174-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6545174-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:39+00:00"
 }

@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "On a holiday at the seashore, Bernard, Mavis, Kathleen, and Francis save a mermaid from captivity and, after an incredible magic-filled journey beneath the waves, they must race against time to avert a war and save their underwater friends.",
-  "cover_url": "https://books.google.com/books/content?id=MzgcoedNP_wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-magic-city.jpg",
   "isbn": "1587170256",
   "first_published": 1958,
   "pages": 230,
@@ -54,5 +54,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL6779973M"
+  "representative_edition_key": "/books/OL6779973M",
+  "cover_url_source": "https://books.google.com/books/content?id=MzgcoedNP_wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:23+00:00"
 }

@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12174063-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12174063-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/grimscribe.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/grimscribe.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20016684W",
   "first_published": 1991,
   "language": "eng",
@@ -41,5 +41,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781854870902",
-  "representative_edition_key": "/books/OL7657398M"
+  "representative_edition_key": "/books/OL7657398M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12174063-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12174063-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:37+00:00"
 }

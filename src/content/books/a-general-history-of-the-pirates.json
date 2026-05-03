@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In \"The History of the Pirates,\" Daniel Defoe delves into the tumultuous world of piracy during the early 18th century, chronicling the exploits and fates of infamous buccaneers such as Blackbeard and Captain Kidd. Written in a narrative style that blends factual accounts with captivating storytelling, Defoe employs a vigorous prose infused with a moralistic tone, creating a rich literary tapestry that reflects the social anxieties of his time regarding lawlessness and maritime adventure. As bot",
-  "cover_url": "https://books.google.com/books/content?id=6UjmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-general-history-of-the-pirates.jpg",
   "first_published": 2023,
   "pages": 576,
   "google_books_url": "https://play.google.com/store/books/details?id=6UjmEAAAQBAJ&source=gbs_api",
@@ -22,8 +22,31 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL36671131M"
+  "representative_edition_key": "/books/OL36671131M",
+  "cover_url_source": "https://books.google.com/books/content?id=6UjmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:54+00:00",
+  "subject_facet": [
+    "British",
+    "Children of prisoners",
+    "Criminals",
+    "English Adventure stories",
+    "English Picaresque literature",
+    "Fiction",
+    "Prostitutes",
+    "Repentance",
+    "Social life and customs",
+    "Women"
+  ],
+  "ddc": [
+    "900"
+  ],
+  "lcc": [
+    "D"
+  ]
 }

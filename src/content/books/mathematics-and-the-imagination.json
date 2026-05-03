@@ -8,8 +8,8 @@
     "math",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13260633-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13260633-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mathematics-and-the-imagination.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mathematics-and-the-imagination.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4972652W",
   "first_published": 1940,
   "language": "eng",
@@ -55,5 +55,8 @@
   "wikidata_qid": "Q6786900",
   "original_title": "Mathematics and the Imagination",
   "original_language": "eng",
-  "original_publisher": "Simon & Schuster"
+  "original_publisher": "Simon & Schuster",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13260633-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13260633-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:01+00:00"
 }

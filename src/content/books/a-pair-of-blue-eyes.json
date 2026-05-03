@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Elfride Swancourt is the daughter of the Rector of Endelstow, a remote sea-swept parish in Corwall based on St Juliot, where Hardy began A Pair of Blue Eyes during the beginning of his courtship of his first wife, Emma. Blue-eyed and high-spirited, Elfride has little experience of the worldbeyond, and becomes entangled with two men: the boyish architect, Stephen Smith, and the older literary man, Henry Knight. The former friends become rivals, and Elfride faces an agonizing choice.Written at a c",
-  "cover_url": "https://books.google.com/books/content?id=2UEeAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-pair-of-blue-eyes.jpg",
   "first_published": 1873,
   "pages": 492,
   "google_books_url": "http://books.google.com/books?id=2UEeAQAAIAAJ&dq=intitle:A+Pair+of+Blue+Eyes&hl=&source=gbs_api",
@@ -104,5 +104,7 @@
   "wikidata_qid": "Q2931240",
   "original_title": "A Pair of Blue Eyes",
   "original_language": "eng",
-  "original_publisher": "William Tinsley"
+  "original_publisher": "William Tinsley",
+  "cover_url_source": "https://books.google.com/books/content?id=2UEeAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:20+00:00"
 }

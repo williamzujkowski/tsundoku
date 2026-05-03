@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=RmoMAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/my-brilliant-career.jpg",
   "isbn": "9785874337025",
   "first_published": 1901,
   "pages": 359,
@@ -65,5 +65,7 @@
   "representative_edition_key": "/books/OL18454047M",
   "wikidata_qid": "Q1249439",
   "original_language": "eng",
-  "original_publisher": "William Blackwood"
+  "original_publisher": "William Blackwood",
+  "cover_url_source": "https://books.google.com/books/content?id=RmoMAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:36+00:00"
 }

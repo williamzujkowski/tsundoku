@@ -9,11 +9,28 @@
   ],
   "reading_status": "read",
   "description": "The “rollicking” (The Economist), “masterfully written” (The Washington Post) account of the crypto delusion, and how Sam Bankman-Fried and a cast of fellow nerds and hustlers turned useless virtual coins into trillions of dollars—hailed by Ezra Klein in The New York Times as one of the “Books That Explain Where We Are” FINALIST: the Edgar Award (Fact Crime), the Macavity Award (Nonfiction), the Porchlight Business Book Award, the SABEW Best in Business Book Award A BEST BOOK OF THE YEAR: The Ne",
-  "cover_url": "https://books.google.com/books/content?id=XHK0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/crypto.jpg",
   "isbn": "9780593443828",
   "first_published": 2023,
   "pages": 313,
   "google_books_url": "https://play.google.com/store/books/details?id=XHK0EAAAQBAJ&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=XHK0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:06:00+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Cryptocurrencies",
+    "Sam Bankman-Fried"
+  ],
+  "ddc": [
+    "330"
+  ],
+  "lcc": [
+    "HB"
+  ]
 }

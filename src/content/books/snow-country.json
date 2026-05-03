@@ -9,11 +9,32 @@
   "first_published": 1972,
   "language": "eng",
   "description": "This masterpiece from the Nobel Prize-winning author and acclaimed writer of Thousand Cranes is a powerful tale of wasted love set amid the desolate beauty of western Japan. • “Kawabata’s novels are among the most affecting and original works of our time.” —The New York Times Book Review At an isolated mountain hot spring, with snow blanketing every surface, Shimamura, a wealthy dilettante meets Komako, a lowly geisha. She gives herself to him fully and without remorse, despite knowing that thei...",
-  "cover_url": "https://books.google.com/books/content?id=SDAA_TDs83gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SDAA_TDs83gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/snow-country.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/snow-country.jpg",
   "isbn": "9780307833624",
   "pages": 193,
   "google_books_url": "https://play.google.com/store/books/details?id=SDAA_TDs83gC&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=SDAA_TDs83gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SDAA_TDs83gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:06+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Asian literature",
+    "Fiction",
+    "Fiction, general",
+    "Fiction, romance, general",
+    "Japan, fiction"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

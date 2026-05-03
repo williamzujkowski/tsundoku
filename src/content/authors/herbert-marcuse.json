@@ -3,7 +3,7 @@
   "slug": "herbert-marcuse",
   "book_count": 2,
   "bio": "Herbert Marcuse was a German–American philosopher, social critic, and political theorist, associated with the Frankfurt School of critical theory. Born in Berlin, Marcuse studied at the Friedrich Wilhelm University of Berlin and then at the University of Freiburg, where he received his PhD. He was a prominent figure in the Frankfurt-based Institute for Social Research, which later became known as the Frankfurt School. In his written works, he criticized capitalism, modern technology, Soviet Communism, and popular culture, arguing that they represent new forms of social control.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Herbert_Marcuse_in_Newton%2C_Massachusetts_1955_%28cropped%29.jpg/400px-Herbert_Marcuse_in_Newton%2C_Massachusetts_1955_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/herbert-marcuse.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Marcuse",
   "open_library_url": "https://openlibrary.org/authors/OL20162A",
   "birth_year": 1898,
@@ -25,5 +25,7 @@
   "ol_author_key": "/authors/OL20162A",
   "movements": [
     "Frankfurt School"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Herbert_Marcuse_in_Newton%2C_Massachusetts_1955_%28cropped%29.jpg/400px-Herbert_Marcuse_in_Newton%2C_Massachusetts_1955_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:01:57+00:00"
 }

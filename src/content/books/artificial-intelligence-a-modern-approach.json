@@ -8,8 +8,8 @@
     "ai"
   ],
   "description": "A highly accessible, up-to-date professional reference for programmers, software engineers, system administrators, or technical managers, this book integrates state-of-the-art AI techniques into intelligent agent designs using examples and exercises to lead the reader from simple reactive agents to full knowledge-based agents with natural language capabilities.",
-  "cover_url": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/artificial-intelligence-a-modern-approach.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/artificial-intelligence-a-modern-approach.jpg",
   "isbn": "0131038052",
   "first_published": 1995,
   "pages": 932,
@@ -87,5 +87,8 @@
   "wikidata_qid": "Q20049394",
   "original_title": "Artificial Intelligence",
   "original_language": "eng",
-  "original_publisher": "Prentice Hall"
+  "original_publisher": "Prentice Hall",
+  "cover_url_source": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:06+00:00"
 }

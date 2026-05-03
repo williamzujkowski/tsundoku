@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "ules Verne's sequel to Poe's classic The Narrative of Arthur Gordon Pym of Nantucket. ??? ?A captain seeking a lost brother. ??? ?A sailor obsessed with redemption as he hides a dark secret. ??? ?A wealthy onlooker intrigued by possibility. ??? ?Brought together by coincidence, they embark on a journey into the uncharted waters of the Antarctic. ??? ?Jules Verne weaves a story of exploration, adventure, and mystery in this exciting tale. An Antarctic Mystery is the unauthorized sequel to Edgar A",
-  "cover_url": "https://books.google.com/books/content?id=GYwpEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/an-antarctic-mystery.jpg",
   "isbn": "9781680575361",
   "first_published": 2023,
   "pages": 287,
@@ -43,5 +43,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781680575361",
-  "representative_edition_key": "/books/OL48845055M"
+  "representative_edition_key": "/books/OL48845055M",
+  "cover_url_source": "https://books.google.com/books/content?id=GYwpEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:10+00:00"
 }

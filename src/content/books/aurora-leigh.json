@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14712067-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14712067-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/aurora-leigh.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/aurora-leigh.jpg",
   "open_library_url": "https://openlibrary.org/works/OL25110925W",
   "first_published": 1999,
   "language": "eng",
@@ -50,5 +50,8 @@
   "editions_count": 52,
   "first_published_circa": false,
   "first_edition_isbn": "9780543652102",
-  "representative_edition_key": "/books/OL34037054M"
+  "representative_edition_key": "/books/OL34037054M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14712067-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14712067-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:23+00:00"
 }

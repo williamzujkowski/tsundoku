@@ -9,8 +9,8 @@
   "first_published": 1969,
   "language": "eng",
   "description": "A Haunting tale of power, corruption, and the complex search for identity Conversation in The Cathedral takes place in 1950s Peru during the dictatorship of Manuel A. Odría. Over beers and a sea of freely spoken words, the conversation flows between two individuals, Santiago and Ambrosia, who talk of their tormented lives and of the overall degradation and frustration that has slowly taken over their town. Through a complicated web of secrets and historical references, Mario Vargas Llosa analyze...",
-  "cover_url": "https://books.google.com/books/content?id=JvhCHe9ehjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=JvhCHe9ehjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/conversation-in-the-cathedral.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/conversation-in-the-cathedral.jpg",
   "isbn": "9780060732806",
   "pages": 610,
   "google_books_url": "http://books.google.com/books?id=JvhCHe9ehjAC&dq=Conversation+in+the+Cathedral+Mario+Vargas+Llosa&hl=&source=gbs_api",
@@ -56,5 +56,8 @@
   "original_title": "Conversación en la Catedral",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL3311583M",
-  "translator": "Gregory Rabassa"
+  "translator": "Gregory Rabassa",
+  "cover_url_source": "https://books.google.com/books/content?id=JvhCHe9ehjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=JvhCHe9ehjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:04:11+00:00"
 }

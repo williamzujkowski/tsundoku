@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "In \"Wonderful Adventures of Mrs. Seacole in Many Lands,\" Mary Seacole presents a captivating autobiographical narrative that explores her remarkable life as a nurse and entrepreneur during the mid-19th century. Written in an engaging and vivid prose style, the book reflects the author's rich cultural heritage and experiences, blending elements of travelogue, memoir, and social commentary. Seacole's vivid depictions of her adventures across Jamaica, the United States, and the Crimean War showcase",
-  "cover_url": "https://books.google.com/books/content?id=KoB9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/wonderful-adventures-of-mrs.jpg",
   "first_published": 1984,
   "pages": 165,
   "google_books_url": "https://play.google.com/store/books/details?id=KoB9EAAAQBAJ&source=gbs_api",
@@ -74,5 +74,7 @@
   },
   "editions_count": 62,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL48581395M"
+  "representative_edition_key": "/books/OL48581395M",
+  "cover_url_source": "https://books.google.com/books/content?id=KoB9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:19+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "confessions",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9022521-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9022521-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/confessions.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/confessions.jpg",
   "open_library_url": "https://openlibrary.org/works/OL137872W",
   "first_published": 1482,
   "language": "eng",
@@ -350,5 +350,8 @@
   "original_title": "Confessionum libri XIII",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL49616989M",
-  "wikidata_qid": "Q54643913"
+  "wikidata_qid": "Q54643913",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9022521-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9022521-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:45+00:00"
 }

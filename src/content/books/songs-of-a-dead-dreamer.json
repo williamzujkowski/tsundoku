@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6725789-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6725789-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/songs-of-a-dead-dreamer.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/songs-of-a-dead-dreamer.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3273775W",
   "first_published": 1990,
   "language": "eng",
@@ -38,5 +38,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780881845808",
-  "representative_edition_key": "/books/OL8175542M"
+  "representative_edition_key": "/books/OL8175542M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6725789-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6725789-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:38+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "romeo-and-juliet",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8257991-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8257991-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/romeo-and-juliet.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/romeo-and-juliet.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362427W",
   "first_published": 1597,
   "language": "eng",
@@ -47,5 +47,8 @@
   },
   "editions_count": 342,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57769553M"
+  "representative_edition_key": "/books/OL57769553M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8257991-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8257991-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:32+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A novella set in the hard-scrabble world of James S. A. Corey's NYT-bestselling Expanse series, Gods of Risk tells the story of Bobbie Draper following the events of Caliban's War. This story will be available in the complete Expanse story collection, Memory’s Legion. HUGO AWARD WINNER FOR BEST SERIES As tension between Mars and Earth mounts, and terrorism plagues the Martian city of Londres Nova, sixteen-year-old David Draper is fighting his own lonely war. A gifted chemist vying for a place at",
-  "cover_url": "https://books.google.com/books/content?id=_V1ZXdibLlgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/gods-of-risk.jpg",
   "isbn": "9780316217651",
   "first_published": 2012,
   "pages": 73,
@@ -22,10 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780316217651",
-  "representative_edition_key": "/books/OL26318312M"
+  "representative_edition_key": "/books/OL26318312M",
+  "cover_url_source": "https://books.google.com/books/content?id=_V1ZXdibLlgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:12+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

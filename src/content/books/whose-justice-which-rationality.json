@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4128180-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4128180-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/whose-justice-which-rationality.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/whose-justice-which-rationality.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14849412W",
   "first_published": 1988,
   "language": "eng",
@@ -68,5 +68,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "071562198X",
-  "representative_edition_key": "/books/OL17962668M"
+  "representative_edition_key": "/books/OL17962668M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4128180-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4128180-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:53+00:00"
 }

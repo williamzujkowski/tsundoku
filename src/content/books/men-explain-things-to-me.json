@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7436971-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7436971-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/men-explain-things-to-me.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/men-explain-things-to-me.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17359118W",
   "first_published": 1900,
   "language": "eng",
@@ -67,5 +67,8 @@
   "wikidata_qid": "Q18390539",
   "original_title": "Men Explain Things to Me",
   "original_language": "eng",
-  "original_publisher": "Haymarket Books"
+  "original_publisher": "Haymarket Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7436971-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7436971-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:27+00:00"
 }

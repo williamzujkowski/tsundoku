@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Algorithm Design introduces algorithms by looking at the real-world problems that motivate them. The book teaches students a range of design and analysis techniques for problems that arise in computing applications. The text encourages an understanding of the algorithm design process and an appreciation of the role of algorithms in the broader field of computer science. August 6, 2009 Author, Jon Kleinberg, was recently cited in the New York Times for his statistical analysis research in the Int...",
-  "cover_url": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/algorithm-design.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/algorithm-design.jpg",
   "isbn": "0321372913",
   "first_published": 2006,
   "pages": 838,
@@ -39,10 +39,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780321372918",
-  "representative_edition_key": "/books/OL10460760M"
+  "representative_edition_key": "/books/OL10460760M",
+  "cover_url_source": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=c57CQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:44+00:00",
+  "ddc": [
+    "510"
+  ]
 }

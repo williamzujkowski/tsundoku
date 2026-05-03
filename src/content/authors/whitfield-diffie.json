@@ -5,7 +5,7 @@
   "bio": "American cryptographer known for the Diffie–Hellman key exchange.",
   "open_library_url": "https://openlibrary.org/authors/OL400408A",
   "birth_year": 1944,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/whitfield-diffie.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -75,5 +75,7 @@
     {
       "name": "Order of the Cross of Terra Mariana, 3rd Class"
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:20:27+00:00"
 }

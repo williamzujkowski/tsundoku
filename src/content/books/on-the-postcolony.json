@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL12606199W",
   "language": "eng",
   "description": "Achille Mbembe is one of the most brilliant theorists of postcolonial studies writing today. In On the Postcolony he profoundly renews our understanding of power and subjectivity in Africa. In a series of provocative essays, Mbembe contests diehard Africanist and nativist perspectives as well as some of the key assumptions of postcolonial theory. This thought-provoking and groundbreaking collection of essays—his first book to be published in English—develops and extends debates first ignited by ...",
-  "cover_url": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/on-the-postcolony.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-the-postcolony.jpg",
   "isbn": "9780520917538",
   "first_published": 2000,
   "pages": 283,
@@ -70,5 +70,8 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL29608180M",
   "wikidata_qid": "Q28450862",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Z0HIYUlnDW4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:37:01+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "#1 New York Times Bestseller With extraordinary access to the West Wing, Michael Wolff reveals what happened behind-the-scenes in the first nine months of the most controversial presidency of our time in Fire and Fury: Inside the Trump White House. Since Donald Trump was sworn in as the 45th President of the United States, the country—and the world—has witnessed a stormy, outrageous, and absolutely mesmerizing presidential term that reflects the volatility and fierceness of the man elected Comma",
-  "cover_url": "https://books.google.com/books/content?id=E3M-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/fire-and-fury.jpg",
   "isbn": "9781250158079",
   "first_published": 2018,
   "pages": 217,
@@ -26,9 +26,28 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34044326M"
+  "representative_edition_key": "/books/OL34044326M",
+  "cover_url_source": "https://books.google.com/books/content?id=E3M-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:34+00:00",
+  "subject_facet": [
+    "New York Times bestseller",
+    "New York Times reviewed",
+    "POLITICAL SCIENCE / American Government / Executive Branch",
+    "POLITICAL SCIENCE / American Government / National",
+    "Politics and government",
+    "Presidents",
+    "Trump, donald, 1946-",
+    "United states, politics and government, 2009-2017",
+    "United states, politics and government, 2017-",
+    "nyt:hardcover-nonfiction=2018-01-21"
+  ],
+  "ddc": [
+    "900"
+  ]
 }

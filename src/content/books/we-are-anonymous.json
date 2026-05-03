@@ -11,8 +11,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nParmy Olson is a tech journalist for The Wall Street Journal. While at Forbes, she was known for her work on the hacktivist movement Anonymous. She describes herself as covering \"agitators and innovators in mobile\".",
-  "cover_url": "https://covers.openlibrary.org/b/id/10336767-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10336767-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/we-are-anonymous.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/we-are-anonymous.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16707736W",
   "first_published": 2012,
   "pages": 505,
@@ -45,5 +45,8 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29651376M"
+  "representative_edition_key": "/books/OL29651376M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10336767-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10336767-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:34+00:00"
 }

@@ -14,8 +14,8 @@
   "first_published": 1904,
   "google_books_url": "http://books.google.com/books?id=sGmt0AEACAAJ&dq=intitle:The+Sea-Wolf&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8236975-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8236975-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sea-wolf.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sea-wolf.jpg",
   "open_library_url": "https://openlibrary.org/works/OL144824W",
   "copyright_status": "public_domain",
   "gutenberg_id": 1074,
@@ -132,5 +132,8 @@
   "wikidata_qid": "Q1196857",
   "original_title": "The Sea-Wolf",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8236975-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8236975-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:11+00:00"
 }

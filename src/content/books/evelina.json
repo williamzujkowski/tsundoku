@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=vbKemDLHbhAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/evelina.jpg",
   "first_published": 1779,
   "pages": 412,
   "google_books_url": "https://play.google.com/store/books/details?id=vbKemDLHbhAC&source=gbs_api",
@@ -117,5 +117,7 @@
   "editions_count": 204,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34905076M"
+  "representative_edition_key": "/books/OL34905076M",
+  "cover_url_source": "https://books.google.com/books/content?id=vbKemDLHbhAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:13:53+00:00"
 }

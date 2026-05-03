@@ -3,7 +3,7 @@
   "slug": "rohinton-mistry",
   "book_count": 2,
   "bio": "Rohinton Mistry is an Indian-born Canadian writer. He has been the recipient of the Neustadt International Prize for Literature in 2012. Each of his three novels was shortlisted for the Booker Prize. All have been set in India, told from the perspective of Parsis, and explore themes of family life, poverty, discrimination, and the corrupting influence of society.",
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL456240A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/rohinton-mistry.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rohinton_Mistry",
   "open_library_url": "https://openlibrary.org/authors/OL456240A",
   "birth_year": 1952,
@@ -50,5 +50,7 @@
       "name": "Fellow of the Royal Society of Literature",
       "year": 2010
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL456240A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:59+00:00"
 }

@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "Examines the life of Renaissance writer Michel Eyquem de Montaigne through the questions he posed about life and the answers he explored, providing insights into his unusual childhood, sexual adventures, travels, friendships, and other topics.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/how-to-live.png",
+  "cover_url_large": "/tsundoku/cached/covers/how-to-live.png",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780701178925",
@@ -40,11 +40,18 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780701178925",
   "representative_edition_key": "/books/OL26823115M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/7/7f/How_to_Live_on_24_Hours_a_Day.png",
+  "cover_cached_at": "2026-05-03T01:21:34+00:00",
+  "ddc": [
+    "800"
+  ]
 }

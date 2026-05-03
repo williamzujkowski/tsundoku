@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "marriage-and-morals",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/262766-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/262766-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/marriage-and-morals.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/marriage-and-morals.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1088575W",
   "first_published": 1929,
   "language": "eng",
@@ -51,5 +51,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44185386M"
+  "representative_edition_key": "/books/OL44185386M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/262766-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/262766-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:49+00:00"
 }

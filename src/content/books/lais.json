@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The leading edition of the work of the earliest known French woman poet—the subject of Lauren Groff’s bestselling novel Matrix Marie de France (fl. late twelfth century) is the earliest known French woman poet and her lais—stories in verse based on Breton tales of chivalry and romance—are among the finest of the genre. Recounting the trials and tribulations of lovers, the lais inhabit a powerfully realized world where very real human protagonists act out their lives against fairy-tale elements o",
-  "cover_url": "https://books.google.com/books/content?id=bXCUKl44F3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lais.jpg",
   "isbn": "0140447598",
   "first_published": 1999,
   "pages": 182,
@@ -36,10 +36,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780140447590",
-  "representative_edition_key": "/books/OL7355405M"
+  "representative_edition_key": "/books/OL7355405M",
+  "cover_url_source": "https://books.google.com/books/content?id=bXCUKl44F3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:28:41+00:00",
+  "ddc": [
+    "800"
+  ]
 }

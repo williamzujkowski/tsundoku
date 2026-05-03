@@ -6,8 +6,8 @@
   "slug": "empire-of-the-sun",
   "tags": [],
   "description": "Jim, an eleven-year-old British schoolboy living in Shanghai in 1941, must learn to survive on his own when he is separated from his parents and sent to a Japanese prison camp",
-  "cover_url": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/empire-of-the-sun.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/empire-of-the-sun.jpg",
   "isbn": "9780743265232",
   "first_published": 1984,
   "pages": 294,
@@ -63,5 +63,8 @@
   "wikidata_qid": "Q2412167",
   "original_title": "Empire of the Sun",
   "original_language": "eng",
-  "original_publisher": "Gollancz"
+  "original_publisher": "Gollancz",
+  "cover_url_source": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:11:59+00:00"
 }

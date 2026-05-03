@@ -9,11 +9,31 @@
   "first_published": 2008,
   "language": "eng",
   "description": "On a broken ship orbiting a doomed sun, dwellers have grown complacent with their aging metal world. But when a serving girl frees a captive noblewoman, the old order is about to change.... Ariane, Princess of the House of Rule, was known to be fiercely cold-blooded. But severing an angel’s wings on the battlefield—even after she had surrendered—proved her completely without honor. Captive, the angel Perceval waits for Ariane not only to finish her off—but to devour her very memories and mind. S...",
-  "cover_url": "https://books.google.com/books/content?id=EJMRS2BiuL4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=EJMRS2BiuL4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/dust.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dust.jpg",
   "isbn": "9780553904420",
   "pages": 370,
   "google_books_url": "https://play.google.com/store/books/details?id=EJMRS2BiuL4C&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=EJMRS2BiuL4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=EJMRS2BiuL4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:10:00+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Angels",
+    "Fiction",
+    "Space colonies",
+    "Space ships"
+  ],
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

@@ -3,7 +3,7 @@
   "slug": "hermann-broch",
   "book_count": 2,
   "bio": "Hermann Broch was an Austrian writer, best known for two major works of modernist fiction: The Sleepwalkers and The Death of Virgil.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hermann_Broch_portrait_photograph%2C_1909.jpg/400px-Hermann_Broch_portrait_photograph%2C_1909.jpg",
+  "photo_url": "/tsundoku/cached/authors/hermann-broch.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hermann_Broch",
   "open_library_url": "https://openlibrary.org/authors/OL61295A",
   "birth_year": 1886,
@@ -27,5 +27,7 @@
       "name": "Guggenheim Fellowship",
       "year": 1940
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hermann_Broch_portrait_photograph%2C_1909.jpg/400px-Hermann_Broch_portrait_photograph%2C_1909.jpg",
+  "photo_cached_at": "2026-05-03T03:01:59+00:00"
 }

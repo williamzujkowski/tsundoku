@@ -10,12 +10,38 @@
   "open_library_url": "https://openlibrary.org/works/OL15097048W",
   "first_published": 1964,
   "description": "Translated with an uncanny sense for the overall point of Augustine's doctrine. In short, a very good translation. The Introduction is admirably clear.--Paul Vincent Spade, Indiana University",
-  "cover_url": "https://books.google.com/books/content?id=j8tgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=j8tgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/on-free-choice-of-the-will.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-free-choice-of-the-will.jpg",
   "isbn": "9781603846288",
   "pages": 155,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=j8tgDwAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=j8tgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=j8tgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:36:47+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Augustine, saint, bishop of hippo, 354-430",
+    "Early works to 1800",
+    "Free will and determinism",
+    "God",
+    "God (Christianity)",
+    "God, omnipotence",
+    "Good and evil",
+    "Omnipotence",
+    "Philosophy, ancient",
+    "Vrije wil"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

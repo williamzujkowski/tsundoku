@@ -9,7 +9,7 @@
     "r-philosophy"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=HJoHAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/dialogues.jpg",
   "first_published": 1891,
   "pages": 442,
   "google_books_url": "https://play.google.com/store/books/details?id=HJoHAQAAIAAJ&source=gbs_api",
@@ -27,10 +27,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL16339196M"
+  "representative_edition_key": "/books/OL16339196M",
+  "cover_url_source": "https://books.google.com/books/content?id=HJoHAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:25+00:00",
+  "subject_facet": [
+    "Imaginary conversations"
+  ],
+  "ddc": [
+    "800"
+  ]
 }

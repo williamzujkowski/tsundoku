@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "groundwork-of-the-metaphysics-of-morals-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/350500-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/350500-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/groundwork-of-the-metaphysics-of-morals-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/groundwork-of-the-metaphysics-of-morals-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL99715W",
   "first_published": 1964,
   "language": "eng",
@@ -31,9 +31,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28993885M"
+  "representative_edition_key": "/books/OL28993885M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/350500-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/350500-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:38+00:00",
+  "ddc": [
+    "100"
+  ]
 }

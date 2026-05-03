@@ -3,7 +3,7 @@
   "slug": "montesquieu",
   "book_count": 2,
   "bio": "Charles Louis de Secondat, baron de La Brède et de Montesquieu, generally referred to as simply Montesquieu, was a French judge, intellectual, historian, and political philosopher.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Charles_Montesquieu.jpg/400px-Charles_Montesquieu.jpg",
+  "photo_url": "/tsundoku/cached/authors/montesquieu.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Montesquieu",
   "open_library_url": "https://openlibrary.org/authors/OL25573A",
   "birth_year": 1689,
@@ -22,5 +22,7 @@
       "name": "Fellow of the Royal Society",
       "year": 1730
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Charles_Montesquieu.jpg/400px-Charles_Montesquieu.jpg",
+  "photo_cached_at": "2026-05-03T03:10:54+00:00"
 }

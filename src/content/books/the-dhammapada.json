@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "Passed along for centuries through oral tradition by the followers of Buddhism, \"The Dhammapada\" is a collection of sayings by Buddha which concisely presents the religion's core philosophies. Widely recognized as one of the most accessible works of all the Buddhist scriptures, the verses of the work describe events in the life of Buddha through which the wisdom of Buddha's beliefs are revealed.",
-  "cover_url": "https://covers.openlibrary.org/b/id/8866107-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8866107-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-dhammapada.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-dhammapada.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781420954241",
@@ -26,9 +26,20 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL27403895M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8866107-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8866107-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:42+00:00",
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

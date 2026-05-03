@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "consuelo",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8247706-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8247706-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/consuelo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/consuelo.jpg",
   "open_library_url": "https://openlibrary.org/works/OL982015W",
   "first_published": 1842,
   "language": "eng",
@@ -69,5 +69,8 @@
   "first_published_circa": false,
   "original_language": "fre",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9903252M"
+  "representative_edition_key": "/books/OL9903252M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8247706-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8247706-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:52+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "requiem",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/3117974-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3117974-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/requiem.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/requiem.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7973539W",
   "first_published": 1991,
   "description": "A Study Guide for Anna Akhmatova's \"Requiem,\" excerpted from Gale's acclaimed Poetry for Students. This concise study guide includes plot summary; character analysis; author biography; study questions; historical context; suggestions for further reading; and much more. For any literature project, trust Poetry for Students for all of your research needs.",
@@ -23,8 +23,20 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL61283047M"
+  "representative_edition_key": "/books/OL61283047M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3117974-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3117974-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:33+00:00",
+  "subject_facet": [
+    "Russian literature",
+    "Russian poetry"
+  ],
+  "ddc": [
+    "808.81"
+  ]
 }

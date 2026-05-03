@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8179733-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8179733-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/book-of-why.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/book-of-why.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17872278W",
   "first_published": 2019,
   "language": "eng",
@@ -48,12 +48,19 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL36335066M",
   "wikidata_qid": "Q98199430",
   "original_title": "The Book of Why",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8179733-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8179733-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:54+00:00",
+  "ddc": [
+    "100"
+  ]
 }

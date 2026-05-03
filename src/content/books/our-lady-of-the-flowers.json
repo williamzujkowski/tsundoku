@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Our Lady of the Flowers, which is often considered to be Genet's masterpiece, was written entirely in the solitude of a prison cell.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/our-lady-of-the-flowers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/our-lady-of-the-flowers.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "",
@@ -20,5 +20,31 @@
   "subjects": [
     "Le Monde 100 Books of the Century"
   ],
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "_provenance": {
+    "cover_url": "wikipedia_book_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/3/30/Notre_Dame_des_Fleurs.jpg",
+  "cover_cached_at": "2026-05-03T01:39:25+00:00",
+  "subject_facet": [
+    "Continental european fiction (fictional works by one author)",
+    "Cross-dressers",
+    "Fiction",
+    "French fiction",
+    "Gay men",
+    "Gay prisoners",
+    "Prisoners",
+    "Romance literature",
+    "Translations",
+    "Transvestites"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

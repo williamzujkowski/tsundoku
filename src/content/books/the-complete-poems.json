@@ -8,8 +8,8 @@
     "biography",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/419420-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/419420-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-complete-poems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-complete-poems.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1455194W",
   "first_published": 1994,
   "language": "eng",
@@ -41,5 +41,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0679601082",
-  "representative_edition_key": "/books/OL24274019M"
+  "representative_edition_key": "/books/OL24274019M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/419420-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/419420-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:06+00:00"
 }

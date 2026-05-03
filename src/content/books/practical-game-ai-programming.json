@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Jump into the world of Game AI development About This Book Move beyond using libraries to create smart game AI, and create your own AI projects from scratch Implement the latest algorithms for AI development and in-game interaction Customize your existing game AI and make it better and more efficient to improve your overall game performance Who This Book Is For This book is for game developers with a basic knowledge of game development techniques and some basic programming techniques in C# or C+",
-  "cover_url": "https://books.google.com/books/content?id=QHg5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-game-ai-programming.jpg",
   "isbn": "9781787129467",
   "first_published": 2017,
   "pages": 341,
@@ -31,10 +31,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781787122819",
-  "representative_edition_key": "/books/OL26834059M"
+  "representative_edition_key": "/books/OL26834059M",
+  "cover_url_source": "https://books.google.com/books/content?id=QHg5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:51+00:00",
+  "ddc": [
+    "005"
+  ]
 }

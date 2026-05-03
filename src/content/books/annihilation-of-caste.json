@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "annihilation-of-caste",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9396071-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9396071-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/annihilation-of-caste.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/annihilation-of-caste.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19988447W",
   "first_published": 1936,
   "language": "eng",
@@ -66,5 +66,8 @@
   "representative_edition_key": "/books/OL39526906M",
   "wikidata_qid": "Q16134186",
   "original_title": "Annihilation of Caste",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9396071-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9396071-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:13+00:00"
 }

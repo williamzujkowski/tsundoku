@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14658334-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14658334-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/words-of-radiance.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/words-of-radiance.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16813053W",
   "first_published": 2012,
   "language": "eng",
@@ -51,7 +51,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 22,
   "first_published_circa": false,
@@ -64,5 +65,11 @@
   "series": {
     "name": "The Stormlight Archive",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14658334-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14658334-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:23+00:00",
+  "ddc": [
+    "808.83766"
+  ]
 }

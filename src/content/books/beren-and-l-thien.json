@@ -8,8 +8,8 @@
     "fantasy",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12639912-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12639912-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/beren-and-l-thien.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/beren-and-l-thien.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17755218W",
   "first_published": 2017,
   "language": "eng",
@@ -51,5 +51,8 @@
   "editions_count": 21,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL34037476M",
-  "translator": "Christopher Tolkien"
+  "translator": "Christopher Tolkien",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12639912-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12639912-L.jpg",
+  "cover_cached_at": "2026-05-03T03:21:53+00:00"
 }

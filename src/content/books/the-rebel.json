@@ -8,8 +8,8 @@
     "biology",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14913446-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14913446-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-rebel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-rebel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43044097W",
   "first_published": 1951,
   "language": "eng",
@@ -77,5 +77,8 @@
   "original_title": "L' homme révolté",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7699992M",
-  "wikidata_qid": "Q1195789"
+  "wikidata_qid": "Q1195789",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14913446-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14913446-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:17+00:00"
 }

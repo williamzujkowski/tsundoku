@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Ghost Soldiers: The Epic Account of World War II's Greatest Rescue Mission is a non-fiction book written by Hampton Sides. It is about the World War II Allied prison camp raid at Cabanatuan in the Philippines.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Ghost_Soldiers_Cover.jpg/250px-Ghost_Soldiers_Cover.jpg",
+  "cover_url": "/tsundoku/cached/covers/ghost-soldiers.jpg",
   "isbn": "9780349117881",
   "ddc": [
     "940.5425"
@@ -61,5 +61,7 @@
   },
   "editions_count": 19,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34590246M"
+  "representative_edition_key": "/books/OL34590246M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Ghost_Soldiers_Cover.jpg/250px-Ghost_Soldiers_Cover.jpg",
+  "cover_cached_at": "2026-05-03T01:17:29+00:00"
 }

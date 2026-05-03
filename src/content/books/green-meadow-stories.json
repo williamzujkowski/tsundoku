@@ -10,11 +10,28 @@
   ],
   "reading_status": "read",
   "description": "Thornton W. Burgess was an American naturalist and the author of dozens of books for children, the most enduring of which are Old Mother West Wind and The Burgess Bird Book for Children. Burgess was a passionate twentieth-century conservationist who dedicated his life to teaching children and their families about the importance of the natural life of the northern North American forest. The Green Meadow Stories compilation is made up of four distinct but entwined tales: those of Happy Jack Squirr",
-  "cover_url": "https://books.google.com/books/content?id=IYfPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/green-meadow-stories.jpg",
   "isbn": "9791041801572",
   "first_published": 2023,
   "pages": 364,
   "google_books_url": "http://books.google.com/books?id=IYfPEAAAQBAJ&dq=intitle:Green+Meadow+Stories&hl=&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=IYfPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:35+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Forest animals -- Juvenile fiction",
+    "Squirrels -- Juvenile fiction"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

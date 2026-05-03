@@ -3,7 +3,7 @@
   "slug": "per-wahl",
   "book_count": 2,
   "bio": "Swedish writer. Together with his wife [Maj Sjöwall](/a/OL709121A), author of crime novels about detective Martin Beck, using the signature Sjöwall/Wahlöö.",
-  "photo_url": "https://covers.openlibrary.org/a/id/14556012-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/per-wahl.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1460559A",
   "birth_year": 1926,
   "death_year": 1975,
@@ -29,5 +29,7 @@
       "name": "Edgar Awards",
       "year": 1971
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/14556012-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:09+00:00"
 }

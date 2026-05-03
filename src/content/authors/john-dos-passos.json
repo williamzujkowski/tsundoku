@@ -3,7 +3,7 @@
   "slug": "john-dos-passos",
   "book_count": 2,
   "bio": "John Roderigo Dos Passos was an American novelist, most notable for his U.S.A. trilogy. He was a descendant of the Lee Family of Virginia.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/John_dos_Passos.jpg/400px-John_dos_Passos.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-dos-passos.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Dos_Passos",
   "open_library_url": "https://openlibrary.org/authors/OL123122A",
   "birth_year": 1896,
@@ -41,5 +41,7 @@
       "name": "Guggenheim Fellowship",
       "year": 1942
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/John_dos_Passos.jpg/400px-John_dos_Passos.jpg",
+  "photo_cached_at": "2026-05-03T03:04:54+00:00"
 }

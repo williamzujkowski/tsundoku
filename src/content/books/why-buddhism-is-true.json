@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "Author Robert Wright shows how Buddhist meditative practice can loosen the grip of anxiety, regret, and hatred, and deepen your appreciation of beauty and other people.\" -- Adapted from book jacket.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/why-buddhism-is-true.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/why-buddhism-is-true.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781982111601",
@@ -30,9 +30,16 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "multi_cover_v1_wikipedia",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL37846013M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/9/97/Why_Buddhism_Is_True.jpg",
+  "cover_cached_at": "2026-05-03T02:26:54+00:00",
+  "ddc": [
+    "100"
+  ]
 }

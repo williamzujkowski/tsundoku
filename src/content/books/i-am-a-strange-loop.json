@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/298651-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/298651-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/i-am-a-strange-loop.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/i-am-a-strange-loop.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8067922W",
   "first_published": 2007,
   "language": "eng",
@@ -62,5 +62,8 @@
   "wikidata_qid": "Q3616600",
   "original_title": "I Am a Strange Loop",
   "original_language": "eng",
-  "original_publisher": "Basic Books"
+  "original_publisher": "Basic Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/298651-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/298651-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:29+00:00"
 }

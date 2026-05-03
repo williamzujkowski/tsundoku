@@ -11,8 +11,8 @@
     "thriller",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/392508-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/392508-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/snow-crash.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/snow-crash.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38501W",
   "first_published": 1992,
   "language": "eng",
@@ -83,5 +83,8 @@
       "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
       "year": 1997
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/392508-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/392508-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:07+00:00"
 }

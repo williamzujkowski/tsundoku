@@ -8,8 +8,8 @@
     "children",
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1260453-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1260453-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-importance-of-being-earnest.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-importance-of-being-earnest.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27776452W",
   "first_published": 1893,
   "language": "eng",
@@ -122,5 +122,8 @@
   "representative_edition_key": "/books/OL33908743M",
   "wikidata_qid": "Q830501",
   "original_title": "The Importance of Being Earnest",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1260453-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1260453-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:46+00:00"
 }

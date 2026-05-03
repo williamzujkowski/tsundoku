@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6995610-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6995610-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/roadmarks.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/roadmarks.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13978W",
   "first_published": 1979,
   "language": "eng",
@@ -54,5 +54,8 @@
   "wikidata_qid": "Q7339610",
   "original_title": "Roadmarks",
   "original_language": "eng",
-  "original_publisher": "Del Rey Books"
+  "original_publisher": "Del Rey Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6995610-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6995610-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:20+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The real challenge of programming isn't learning a language's syntax—it's learning to creatively solve problems so you can build something great. In this one-of-a-kind text, author V. Anton Spraul breaks down the ways that programmers solve problems and teaches you what other introductory books often ignore: how to Think Like a Programmer. Each chapter tackles a single programming concept, like classes, pointers, and recursion, and open-ended exercises throughout challenge you to apply your know",
-  "cover_url": "https://books.google.com/books/content?id=r6XiBUBERG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/think-like-a-programmer.jpg",
   "isbn": "9781593274566",
   "first_published": 2012,
   "pages": 260,
@@ -53,5 +53,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593274245",
-  "representative_edition_key": "/books/OL25384322M"
+  "representative_edition_key": "/books/OL25384322M",
+  "cover_url_source": "https://books.google.com/books/content?id=r6XiBUBERG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:19:05+00:00"
 }

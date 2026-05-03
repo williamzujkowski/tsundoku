@@ -8,8 +8,8 @@
     "biography",
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/417398-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/417398-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/genius.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/genius.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15898W",
   "first_published": 1992,
   "language": "eng",
@@ -47,5 +47,8 @@
   "editions_count": 27,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL7700286M",
-  "wikidata_qid": "Q66425481"
+  "wikidata_qid": "Q66425481",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/417398-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/417398-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:52+00:00"
 }

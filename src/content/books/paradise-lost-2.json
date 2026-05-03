@@ -8,8 +8,8 @@
     "biography",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5992814-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5992814-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/paradise-lost-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/paradise-lost-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL810991W",
   "first_published": 1667,
   "language": "eng",
@@ -241,5 +241,8 @@
   "representative_edition_key": "/books/OL23668801M",
   "wikidata_qid": "Q28754",
   "original_title": "Paradise Lost",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5992814-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5992814-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:46+00:00"
 }

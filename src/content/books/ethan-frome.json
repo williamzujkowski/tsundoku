@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "American writer Edith Wharton published the novel, Ethan Frome in 1911. It takes place in the made-up Massachusetts town of Starkfield. The book was turned into a movie, Ethan Frome (1993). The book is a framed story. An unknown male narrator who is visiting the area for business spends winter in Starkfield in the frame story. Around the village, he notices a limping, silent man who nevertheless appeals to him with his bearing and behavior. This is Ethan Frome, a stalwart of the neighborhood who...",
-  "cover_url": "https://books.google.com/books/content?id=2t2qzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=2t2qzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ethan-frome.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ethan-frome.jpg",
   "isbn": "9357277811",
   "first_published": 1911,
   "google_books_url": "http://books.google.com/books?id=2t2qzwEACAAJ&dq=Ethan+Frome+Unknown&hl=&source=gbs_api",
@@ -166,5 +166,8 @@
   "representative_edition_key": "/books/OL34353170M",
   "wikidata_qid": "Q5402934",
   "original_title": "Ethan Frome",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=2t2qzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=2t2qzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:13:46+00:00"
 }

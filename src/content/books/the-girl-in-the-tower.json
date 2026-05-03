@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9200442-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9200442-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-girl-in-the-tower.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-girl-in-the-tower.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19738981W",
   "first_published": 2017,
   "language": "eng",
@@ -45,5 +45,8 @@
   },
   "editions_count": 6,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26952060M"
+  "representative_edition_key": "/books/OL26952060M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9200442-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9200442-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:21+00:00"
 }

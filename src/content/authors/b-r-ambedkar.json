@@ -3,7 +3,7 @@
   "slug": "b-r-ambedkar",
   "book_count": 1,
   "bio": "Bhimrao Ramji Ambedkar was an Indian jurist, economist, social reformer and politician who chaired the committee that drafted the Constitution of India based on the debates of the Constituent Assembly of India and the first draft of Sir Benegal Narsing Rau. Ambedkar served as Law and Justice minister in the first cabinet of Jawaharlal Nehru. He later renounced Hinduism and converted to Buddhism, inspiring the Dalit Buddhist movement.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/400px-Dr._Bhimrao_Ambedkar.jpg",
+  "photo_url": "/tsundoku/cached/authors/b-r-ambedkar.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/B._R._Ambedkar",
   "open_library_url": "https://openlibrary.org/authors/OL14043A",
   "birth_year": 1891,
@@ -42,5 +42,7 @@
       "name": "honorary doctor of Osmania University",
       "year": 1953
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/400px-Dr._Bhimrao_Ambedkar.jpg",
+  "photo_cached_at": "2026-05-03T02:53:08+00:00"
 }

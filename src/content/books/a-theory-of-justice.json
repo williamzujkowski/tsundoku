@@ -9,8 +9,8 @@
     "politics",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4516035-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4516035-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-theory-of-justice.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-theory-of-justice.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30310W",
   "first_published": 1971,
   "language": "eng",
@@ -33,8 +33,15 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29577370M"
+  "representative_edition_key": "/books/OL29577370M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4516035-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4516035-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:51+00:00",
+  "ddc": [
+    "100"
+  ]
 }

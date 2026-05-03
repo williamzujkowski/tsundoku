@@ -3,7 +3,7 @@
   "slug": "thomas-aquinas",
   "book_count": 3,
   "bio": "Thomas Aquinas was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/400px-St-thomas-aquinasFXD.jpg",
+  "photo_url": "/tsundoku/cached/authors/thomas-aquinas.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
   "open_library_url": "https://openlibrary.org/authors/OL38887A",
   "birth_year": 1225,
@@ -21,5 +21,7 @@
     "Thomism",
     "just war theory",
     "scholasticism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/400px-St-thomas-aquinasFXD.jpg",
+  "photo_cached_at": "2026-05-03T03:18:19+00:00"
 }

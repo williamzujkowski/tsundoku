@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11567409-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11567409-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/moon-witch-spider-king.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/moon-witch-spider-king.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24801712W",
   "first_published": 2022,
   "language": "eng",
@@ -56,7 +56,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
@@ -67,5 +68,11 @@
   "series": {
     "name": "The Dark Star Trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11567409-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11567409-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:12+00:00",
+  "ddc": [
+    "800"
+  ]
 }

@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10526739-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10526739-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/authority.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/authority.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17453058W",
   "first_published": 2001,
   "language": "eng",
@@ -80,5 +80,8 @@
   "series": {
     "name": "Southern Reach Series",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10526739-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10526739-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:26+00:00"
 }

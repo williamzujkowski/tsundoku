@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Oscar Wilde’s classic, alluring novel of a man so obsessed with his appearance that he sacrifices his soul for eternal youth—with an introduction by Jeffrey Eugenides Now a critically acclaimed Broadway play starring Sarah Snook! Nominated as one of America’s best-loved novels by PBS’s The Great American Read Fascinated by his own beautiful portrait, Dorian Gray makes a Faustian pact to exchange his soul for perpetual youth and beauty. Guided by Lord Henry Wotton, he embarks on a life of corrupt",
-  "cover_url": "https://books.google.com/books/content?id=u-QdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-picture-of-dorian-gray.jpg",
   "isbn": "9780375751516",
   "first_published": 1890,
   "pages": 306,
@@ -221,5 +221,7 @@
   "first_edition_isbn": "9781720393177",
   "representative_edition_key": "/books/OL60444397M",
   "wikidata_qid": "Q82464",
-  "original_publisher": "Lippincott's Monthly Magazine"
+  "original_publisher": "Lippincott's Monthly Magazine",
+  "cover_url_source": "https://books.google.com/books/content?id=u-QdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:23+00:00"
 }

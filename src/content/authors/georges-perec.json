@@ -3,7 +3,7 @@
   "slug": "georges-perec",
   "book_count": 1,
   "bio": "Georges Perec was a French novelist, filmmaker, documentalist, and essayist. He was a member of the Oulipo group. His father died as a soldier early in the Second World War and his mother was killed in the Holocaust. Many of his works deal with absence, loss, and identity, often through word play.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/7/78/Georges_Perec.jpg",
+  "photo_url": "/tsundoku/cached/authors/georges-perec.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Perec",
   "open_library_url": "https://openlibrary.org/authors/OL196360A",
   "birth_year": 1936,
@@ -30,5 +30,7 @@
       "name": "Prix Médicis",
       "year": 1978
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/7/78/Georges_Perec.jpg",
+  "photo_cached_at": "2026-05-03T00:43:11+00:00"
 }

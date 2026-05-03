@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-magic-lantern",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4037254-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4037254-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-magic-lantern.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-magic-lantern.jpg",
   "open_library_url": "https://openlibrary.org/works/OL921552W",
   "first_published": 1990,
   "language": "eng",
@@ -53,5 +53,8 @@
   "representative_edition_key": "/books/OL1743411M",
   "wikidata_qid": "Q116269810",
   "original_title": "The Magic Lantern",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4037254-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4037254-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:24+00:00"
 }

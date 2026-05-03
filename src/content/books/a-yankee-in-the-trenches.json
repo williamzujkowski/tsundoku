@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A Yankee in the Trenches is a classic world war one diary by R. Derby Holmes. I have tried as an American in writing this book to give the public a complete view of the trenches and life on the Western Front as it appeared to me, and also my impression of conditions and men as I found them. It has been a pleasure to write it, and now that I have finished I am genuinely sorry that I cannot go further. On the lecture tour I find that people ask me questions, and I have tried in this book to give i",
-  "cover_url": "https://books.google.com/books/content?id=S1Wn0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-yankee-in-the-trenches.jpg",
   "isbn": "1774417286",
   "first_published": 1918,
   "google_books_url": "http://books.google.com/books?id=S1Wn0QEACAAJ&dq=intitle:A+Yankee+in+the+Trenches&hl=&source=gbs_api",
@@ -36,10 +36,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54413689M"
+  "representative_edition_key": "/books/OL54413689M",
+  "cover_url_source": "https://books.google.com/books/content?id=S1Wn0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:05+00:00",
+  "ddc": [
+    "800"
+  ]
 }

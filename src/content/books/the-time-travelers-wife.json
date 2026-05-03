@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "A Magical love story that is as sad as it is joyous.",
-  "cover_url": "https://covers.openlibrary.org/b/id/9273734-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9273734-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-time-travelers-wife.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-time-travelers-wife.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780563504832",
@@ -126,5 +126,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9273734-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9273734-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:52+00:00"
 }

@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Four Just Men is a detective thriller published in 1905 by the British writer Edgar Wallace. The eponymous \"Just Men\" appear in several sequels",
-  "cover_url": "https://books.google.com/books/content?id=KVFnzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-four-just-men.jpg",
   "isbn": "9798736685974",
   "first_published": 1905,
   "pages": 148,
@@ -58,5 +58,7 @@
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34300431M",
-  "wikidata_qid": "Q3791208"
+  "wikidata_qid": "Q3791208",
+  "cover_url_source": "https://books.google.com/books/content?id=KVFnzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:04:53+00:00"
 }

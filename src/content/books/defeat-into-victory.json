@@ -13,8 +13,8 @@
   "open_library_url": "https://openlibrary.org/works/OL44573337W",
   "first_published": 2000,
   "description": "Field Marshal William Slim stands alongside Montgomery as the outstanding British field commander of World War II. Defeat Into Victory is his classic account of the Burma campaign: a story of retreat, attrition and final hard-fought victory over the Japanese. Told by a commander always at the centre of events, this is a narrative which captures both the high drama and the harsh reality of war.",
-  "cover_url": "https://books.google.com/books/content?id=nBRWmT7UFT0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=nBRWmT7UFT0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/defeat-into-victory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/defeat-into-victory.jpg",
   "isbn": "9781447236726",
   "pages": 676,
   "google_books_url": "http://books.google.com/books?id=nBRWmT7UFT0C&dq=Defeat+Into+Victory+Field+Marshal+Viscount+William+Slim&hl=&source=gbs_api",
@@ -27,10 +27,23 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781461660934",
-  "representative_edition_key": "/books/OL60877484M"
+  "representative_edition_key": "/books/OL60877484M",
+  "cover_url_source": "https://books.google.com/books/content?id=nBRWmT7UFT0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=nBRWmT7UFT0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:03+00:00",
+  "subject_facet": [
+    "Campaigns",
+    "World War, 1939-1945",
+    "World war, 1939-1945, campaigns, burma"
+  ],
+  "ddc": [
+    "900"
+  ]
 }

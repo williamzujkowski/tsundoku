@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Here in this third complete-in-itself novel of the Incarnations of Immortality, Piers Anthony weaves a fascinating plot as tangled as any skein of fate. This is Anthony at his most ingenious, with another gripping fantasy of the struggle of the incarnations against the machinations of Satan. When the man Niobe loved was shot, she learned that she had been the target, in a devious plot of the Devil's. Hoping for revenge. Niobe accepted a position as one of the three Aspects of Fate, only to find ",
-  "cover_url": "https://books.google.com/books/content?id=MoLdOBwGbrcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/with-a-tangled-skein.jpg",
   "isbn": "9780307549556",
   "first_published": 1985,
   "pages": 418,
@@ -54,5 +54,7 @@
   "series": {
     "name": "Incarnations of Immortality",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=MoLdOBwGbrcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:09+00:00"
 }

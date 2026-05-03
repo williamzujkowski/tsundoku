@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8292960-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8292960-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/absalom-absalom.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/absalom-absalom.jpg",
   "open_library_url": "https://openlibrary.org/works/OL82928W",
   "first_published": 1936,
   "language": "eng",
@@ -99,5 +99,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8292960-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8292960-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:09+00:00"
 }

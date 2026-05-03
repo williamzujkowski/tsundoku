@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "rise-of-the-machines",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13094784-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13094784-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/rise-of-the-machines.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/rise-of-the-machines.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20032976W",
   "first_published": 2016,
   "language": "eng",
@@ -46,5 +46,8 @@
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29728246M"
+  "representative_edition_key": "/books/OL29728246M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13094784-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13094784-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:18+00:00"
 }

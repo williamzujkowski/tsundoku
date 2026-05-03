@@ -9,8 +9,8 @@
     "psychology",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5737854-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5737854-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/villette.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/villette.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1095403W",
   "first_published": 1853,
   "language": "eng",
@@ -144,5 +144,8 @@
   "wikidata_qid": "Q2449570",
   "original_title": "Villette",
   "original_language": "eng",
-  "original_publisher": "Smith, Elder & Co."
+  "original_publisher": "Smith, Elder & Co.",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5737854-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5737854-L.jpg",
+  "cover_cached_at": "2026-05-03T02:24:30+00:00"
 }

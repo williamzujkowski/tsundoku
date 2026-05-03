@@ -8,8 +8,8 @@
     "mystery",
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7268475-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7268475-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-big-sleep.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-big-sleep.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15400582W",
   "first_published": 1939,
   "language": "eng",
@@ -75,5 +75,8 @@
   "editions_count": 116,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28469923M"
+  "representative_edition_key": "/books/OL28469923M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7268475-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7268475-L.jpg",
+  "cover_cached_at": "2026-05-03T01:57:50+00:00"
 }

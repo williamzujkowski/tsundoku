@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Many of the earliest books, particularly those dating back to the 1900s and before, are now extremely scarce and increasingly expensive. We are republishing these classic works in affordable, high quality, modern editions, using the original text and artwork.",
-  "cover_url": "https://books.google.com/books/content?id=OX6P_S6U4YsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-tangled-tale.jpg",
   "isbn": "9781446006832",
   "first_published": 2010,
   "pages": 162,
@@ -37,10 +37,28 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781446006832",
-  "representative_edition_key": "/books/OL54076808M"
+  "representative_edition_key": "/books/OL54076808M",
+  "cover_url_source": "https://books.google.com/books/content?id=OX6P_S6U4YsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:50+00:00",
+  "subject_facet": [
+    "Adventure stories",
+    "Children",
+    "Conduct of life",
+    "Fiction, short stories (single author)",
+    "Juvenile fiction",
+    "Knights and knighthood",
+    "Mathematical recreations",
+    "Ship captains",
+    "Voyages and travels"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

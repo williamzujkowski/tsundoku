@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL28766571W",
   "first_published": 1984,
   "description": "When The Unbearable Lightness of Being was first published in English, it was hailed as \"a work of the boldest mastery, originality, and richness\" by critic Elizabeth Hardwick and named one of the best books of 1984 by the New York Times Book Review. It went on to win the Los Angeles Times Book Prize for Fiction and quickly became an international bestseller. Twenty years later, the novel has established itself as a modern classic. To commemorate the anniversary of its first English-language pub...",
-  "cover_url": "https://books.google.com/books/content?id=7QpErH6s8hcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=7QpErH6s8hcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-unbearable-lightness-of-being.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-unbearable-lightness-of-being.jpg",
   "isbn": "9780060597184",
   "pages": 324,
   "language": "eng",
@@ -99,5 +99,8 @@
   "original_title": "L' insoutenable légèreté de l'être",
   "representative_edition_key": "/books/OL22145099M",
   "translator": "Michael Henry Heim",
-  "wikidata_qid": "Q917055"
+  "wikidata_qid": "Q917055",
+  "cover_url_source": "https://books.google.com/books/content?id=7QpErH6s8hcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=7QpErH6s8hcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:33+00:00"
 }

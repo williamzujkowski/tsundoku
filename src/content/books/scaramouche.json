@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Scaramouche or Scaramouch (from Italian scaramuccia, literally little skirmisher) is a stock clown character of the 16th century commedia dell'arte (comic theatrical arts of Italian literature). The role combined characteristics of the Zanni (servant) and the Capitano (masked henchman), with some assortment of villainous traits. Usually attired in black Spanish dress and burlesquing a Don, he was often beaten by Harlequin for his boasting and cowardice.",
-  "cover_url": "https://books.google.com/books/content?id=IXpjzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/scaramouche.jpg",
   "isbn": "9798727733288",
   "first_published": 1921,
   "pages": 442,
@@ -92,5 +92,7 @@
   "editions_count": 255,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34325774M"
+  "representative_edition_key": "/books/OL34325774M",
+  "cover_url_source": "https://books.google.com/books/content?id=IXpjzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:14+00:00"
 }

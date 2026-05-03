@@ -9,7 +9,7 @@
     "romance"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=d6GeLtPGAY8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/framley-parsonage.jpg",
   "isbn": "9781427079022",
   "first_published": 1861,
   "pages": 462,
@@ -97,5 +97,7 @@
   "original_publisher": "The Cornhill Magazine",
   "series": {
     "name": "Chronicles of Barsetshire"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=d6GeLtPGAY8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:30+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-cloud-of-unknowing",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9127499-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9127499-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-cloud-of-unknowing.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-cloud-of-unknowing.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20461785W",
   "first_published": 2010,
   "description": "The Cloud of Unknowing is an anonymous work of Christian mysticism written in the latter half of the 14th century. The text is a spiritual guide to contemplative prayer. \"Be willing to be blind, and give up all longing to know the why and how, for knowing will be more of a hindrance than a help.\" This 1912 edition was edited by Evelyn Underhill, and contains her introduction.",
@@ -41,5 +41,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL56502318M"
+  "representative_edition_key": "/books/OL56502318M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9127499-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9127499-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:44+00:00"
 }

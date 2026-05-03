@@ -9,8 +9,8 @@
   "first_published": 1995,
   "language": "eng",
   "description": "A chilling novel of a mysterious epidemic and a society's disintegration. What is it that makes man a social animal and where is the thin line between civilization and barbarity?",
-  "cover_url": "https://books.google.com/books/content?id=tm7KGh9_QxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=tm7KGh9_QxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/blindness.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/blindness.jpg",
   "isbn": "0151002517",
   "pages": 312,
   "google_books_url": "http://books.google.com/books?id=tm7KGh9_QxcC&dq=Blindness+Jos%C3%A9+Saramago&hl=&source=gbs_api",
@@ -71,5 +71,8 @@
   "original_title": "Ensaio Sobre a Cegueira",
   "first_edition_isbn": "9788571644953",
   "representative_edition_key": "/books/OL352517M",
-  "translator": "Giovanni Pontiero"
+  "translator": "Giovanni Pontiero",
+  "cover_url_source": "https://books.google.com/books/content?id=tm7KGh9_QxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=tm7KGh9_QxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:39+00:00"
 }

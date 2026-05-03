@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "'The old woman opened the door, and the next moment I was in the presence of Uncle Silas.' In Victorian Derbyshire, 17 year old orphan and heiress Maud Ruthyn is sent to live at the claustrophobic Bartram-Haugh house with her mysterious Uncle Silas. Silas has a reputation for gambling debts and past accusations of murder, but now lives as a reformed Christian. Sinister schemes and preternatural events unfold as Silas, his son, and a malevolent governess plot against Maud and her fortune. Uncle S",
-  "cover_url": "https://books.google.com/books/content?id=AbOiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/uncle-silas.jpg",
   "isbn": "9780192609960",
   "first_published": 1864,
   "pages": 555,
@@ -81,5 +81,7 @@
   "wikidata_qid": "Q3835925",
   "original_title": "Uncle Silas",
   "original_language": "eng",
-  "original_publisher": "Dublin University Magazine"
+  "original_publisher": "Dublin University Magazine",
+  "cover_url_source": "https://books.google.com/books/content?id=AbOiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:22:28+00:00"
 }

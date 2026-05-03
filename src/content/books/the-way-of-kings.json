@@ -8,8 +8,8 @@
     "fantasy",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14658316-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14658316-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-way-of-kings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-way-of-kings.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15358691W",
   "first_published": 2010,
   "language": "eng",
@@ -71,5 +71,8 @@
   "series": {
     "name": "The Stormlight Archive",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14658316-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14658316-L.jpg",
+  "cover_cached_at": "2026-05-03T02:17:03+00:00"
 }

@@ -14,13 +14,29 @@
   "reading_status": "want",
   "copyright_status": "in_copyright",
   "description": "Family, sometimes translated as The Family, is a semi-autobiographical novel by Chinese author Ba Jin, the pen-name of Li Feigan (1904–2005). His most famous novel, it chronicles inter-generational conflict between old ways and progressive aspirations in an upper-class family in the city of Chengdu, a prosperous but provincial city in the fertile Sichuan basin in the early 1920s following the New Culture Movement.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NCL-002573113_%E5%AE%B6.pdf/page1-330px-NCL-002573113_%E5%AE%B6.pdf.jpg",
+  "cover_url": "/tsundoku/cached/covers/family.jpg",
   "ol_work_key": "/works/OL36990570W",
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL49942557M"
+  "representative_edition_key": "/books/OL49942557M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NCL-002573113_%E5%AE%B6.pdf/page1-330px-NCL-002573113_%E5%AE%B6.pdf.jpg",
+  "cover_cached_at": "2026-05-03T01:14:13+00:00",
+  "subject_facet": [
+    "Chinese language materials",
+    "Fiction",
+    "Social life and customs"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

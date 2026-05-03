@@ -8,8 +8,8 @@
     "biography",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/465226-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/465226-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mans-search-for-meaning.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mans-search-for-meaning.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8257090W",
   "first_published": 1946,
   "language": "eng",
@@ -58,5 +58,8 @@
   "representative_edition_key": "/books/OL36705629M",
   "wikidata_qid": "Q426369",
   "original_title": "Man's Search for Meaning",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/465226-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/465226-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:44+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Innocence of Father Brown is a 1911 collection of mystery short stories by English writer G. K. Chesterton. Set in the early twentieth century, each of the stories centers around the cunning investigations of Father Brown, an amateur detective who uses his incredible intuition to solve a variety of perplexing mysteries. The stories include: - ‘The Blue Cross’ - ‘The Secret Garden’ - ‘The Queer Feet’ - ‘The Flying Stars’ - ‘The Invisible Man’ - ‘The Honour of Israel Gow’ - ‘The Wrong Shape’ -",
-  "cover_url": "https://books.google.com/books/content?id=4XR-CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-innocence-of-father-brown.jpg",
   "isbn": "9781473395718",
   "first_published": 2015,
   "pages": 183,
@@ -35,8 +35,14 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL58492782M"
+  "representative_edition_key": "/books/OL58492782M",
+  "cover_url_source": "https://books.google.com/books/content?id=4XR-CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:51+00:00",
+  "ddc": [
+    "808.83872"
+  ]
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "When Mike Mulligan and his steam shovel, Mary Ann, lose their jobs to the gasoline, electric, and diesel motor shovels, they go to a little country town where they find that one new job leads to another.",
-  "cover_url": "https://books.google.com/books/content?id=p4w4TpX5jnQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/mike.jpg",
   "isbn": "9780395861349",
   "first_published": 1939,
   "pages": 39,
@@ -73,5 +73,7 @@
   },
   "editions_count": 40,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7468265M"
+  "representative_edition_key": "/books/OL7468265M",
+  "cover_url_source": "https://books.google.com/books/content?id=p4w4TpX5jnQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:42+00:00"
 }

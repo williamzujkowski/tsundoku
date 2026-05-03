@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=iwNiRgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/american-indian-stories.jpg",
   "isbn": "1407607553",
   "first_published": 1921,
   "pages": 96,
@@ -86,5 +86,7 @@
   "editions_count": 106,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39549412M"
+  "representative_edition_key": "/books/OL39549412M",
+  "cover_url_source": "https://books.google.com/books/content?id=iwNiRgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:03+00:00"
 }

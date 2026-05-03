@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "\"One of the time bombs of all literature\" (V.S. Pritchett). Written in the 1880s and not published until 1903 after Butler's death, the semi-autobiographical story of the Pontifex family savages the bourgeois Victorian family and its values. Copyright © Libri GmbH. All rights reserved.",
-  "cover_url": "https://books.google.com/books/content?id=qYPlao2T4DQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-way-of-all-flesh.jpg",
   "isbn": "1853262285",
   "first_published": 1900,
   "pages": 356,
@@ -136,5 +136,7 @@
   "editions_count": 132,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL15552004M"
+  "representative_edition_key": "/books/OL15552004M",
+  "cover_url_source": "https://books.google.com/books/content?id=qYPlao2T4DQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:02+00:00"
 }

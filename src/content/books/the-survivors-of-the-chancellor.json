@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Survivors of the Chancellor: Diary of J. R. Kazallon, Passenger (French: Le Chancellor: Journal du passager J.-R. Kazallon) is an 1875 novel written by Jules Verne about the final voyage of a British sailing ship, the Chancellor, told from the perspective of one of its passengers (in the form of a diary).",
-  "cover_url": "https://books.google.com/books/content?id=UwBdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-survivors-of-the-chancellor.jpg",
   "isbn": "9783987448218",
   "first_published": 2022,
   "pages": 240,
@@ -32,10 +32,28 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9783987448218",
-  "representative_edition_key": "/books/OL42836011M"
+  "representative_edition_key": "/books/OL42836011M",
+  "cover_url_source": "https://books.google.com/books/content?id=UwBdEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:24+00:00",
+  "subject_facet": [
+    "Adventure stories",
+    "Chancellor (Ship)",
+    "Classic Literature",
+    "Fiction",
+    "Juvenile fiction",
+    "Ship captains",
+    "Shipwreck victims",
+    "Shipwrecks",
+    "Thriller"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

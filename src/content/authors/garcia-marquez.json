@@ -3,7 +3,7 @@
   "slug": "garcia-marquez",
   "book_count": 1,
   "bio": "Gabriel José García Márquez was a Colombian writer and journalist, known affectionately as Gabo or Gabito throughout Latin America. Considered one of the most significant authors of the 20th century, particularly in the Spanish language, he was awarded the 1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature. He pursued a self-directed education that resulted in leaving law school for a career in journalism. From early on he showed no inhibitions in his criticism of Colombian and foreign politics. In 1958, he married Mercedes Barcha Pardo; they had two sons, Rodrigo and Gonzalo.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/400px-Gabriel_Garcia_Marquez.jpg",
+  "photo_url": "/tsundoku/cached/authors/garcia-marquez.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
   "open_library_url": "https://openlibrary.org/authors/OL27363A",
   "birth_year": 1927,
@@ -65,5 +65,7 @@
       "name": "Commander of the Legion of Honour",
       "year": 1980
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/400px-Gabriel_Garcia_Marquez.jpg",
+  "photo_cached_at": "2026-05-03T02:59:55+00:00"
 }

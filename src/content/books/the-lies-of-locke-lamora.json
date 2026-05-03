@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6307636-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6307636-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-lies-of-locke-lamora.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-lies-of-locke-lamora.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8369445W",
   "first_published": 2001,
   "language": "eng",
@@ -51,10 +51,17 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
   "first_edition_isbn": "9781473216792",
-  "representative_edition_key": "/books/OL7830330M"
+  "representative_edition_key": "/books/OL7830330M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6307636-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6307636-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:47+00:00",
+  "ddc": [
+    "800"
+  ]
 }

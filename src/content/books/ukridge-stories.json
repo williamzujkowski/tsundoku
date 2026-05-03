@@ -9,7 +9,7 @@
     "humor"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=r_EDjnqB1A4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ukridge-stories.jpg",
   "first_published": 1924,
   "pages": 264,
   "google_books_url": "https://play.google.com/store/books/details?id=r_EDjnqB1A4C&source=gbs_api",
@@ -25,9 +25,19 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37044574M"
+  "representative_edition_key": "/books/OL37044574M",
+  "cover_url_source": "https://books.google.com/books/content?id=r_EDjnqB1A4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:22:26+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

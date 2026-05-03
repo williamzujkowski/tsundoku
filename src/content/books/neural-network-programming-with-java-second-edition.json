@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Create and unleash the power of neural networks by implementing professional, clean, and clear Java codeAbout This Book* Learn to build amazing projects using neural networks including forecasting the weather and pattern recognition* Explore the Java multi-platform feature to run your personal neural networks everywhere* This step-by-step guide will help you solve real-world problems and links neural network theory to their applicationWho This Book Is ForThis book is for Java developers who want",
-  "cover_url": "https://books.google.com/books/content?id=SRRQMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/neural-network-programming-with-java-second-edition.jpg",
   "isbn": "1787126056",
   "first_published": 2017,
   "pages": 269,
@@ -27,10 +27,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781787126053",
-  "representative_edition_key": "/books/OL26836520M"
+  "representative_edition_key": "/books/OL26836520M",
+  "cover_url_source": "https://books.google.com/books/content?id=SRRQMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:10+00:00",
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

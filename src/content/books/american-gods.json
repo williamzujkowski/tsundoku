@@ -9,8 +9,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8494659-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8494659-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/american-gods.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/american-gods.jpg",
   "open_library_url": "https://openlibrary.org/works/OL679360W",
   "first_published": 2001,
   "language": "eng",
@@ -129,5 +129,8 @@
   "series": {
     "name": "American Gods",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8494659-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8494659-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:02+00:00"
 }

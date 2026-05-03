@@ -11,8 +11,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "In this full-length \"Just William\" novel, William and the Outlaws decide to form the Knights of the Square Table, 'rightin' wrongs' for a minor fee. In their quest to earn enough money to become tramps, they stop at no amount of do-gooding, embarking on a plan to marry off their older brothers. William becomes a veritable Don Juan as he woos a visiting film star for his brother (much to the surprise and annoyance of his brother's girlfriend). Soon the gang have planned a midnight haunting to sca...",
-  "cover_url": "https://books.google.com/books/content?id=8AftEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8AftEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/just-william.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/just-william.jpg",
   "isbn": "9781774645789",
   "first_published": 1983,
   "pages": 280,
@@ -55,5 +55,8 @@
   "editions_count": 34,
   "first_published_circa": false,
   "first_edition_isbn": "9780333358481",
-  "representative_edition_key": "/books/OL29445689M"
+  "representative_edition_key": "/books/OL29445689M",
+  "cover_url_source": "https://books.google.com/books/content?id=8AftEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8AftEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:26:28+00:00"
 }

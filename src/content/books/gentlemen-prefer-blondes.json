@@ -12,8 +12,8 @@
   "pages": 96,
   "google_books_url": "http://books.google.com/books?id=MZbCuwAACAAJ&dq=intitle:Gentlemen+Prefer+Blondes&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/661410-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/661410-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gentlemen-prefer-blondes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gentlemen-prefer-blondes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1863474W",
   "description": "Wicked and glamorous, Lorelei Lee is the kind of girl who always gets what she wants, and these immortal diaries tell us how she does it. Traveling through Europe with her friend Dorothy, she meets everyone from the Prince of Wales to 'Dr Froyd' and 'Sinclare Lewis'. After many outrageous adventures she returns home to marry a millionaire and become a movie star.",
   "gutenberg_id": 66829,
@@ -71,5 +71,8 @@
   "representative_edition_key": "/books/OL9304378M",
   "wikidata_qid": "Q1248760",
   "original_title": "Gentlemen Prefer Blondes",
-  "original_publisher": "Boni & Liveright"
+  "original_publisher": "Boni & Liveright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/661410-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/661410-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:54+00:00"
 }

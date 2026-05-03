@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "mirror-dance",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/3943745-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3943745-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mirror-dance.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mirror-dance.jpg",
   "open_library_url": "https://openlibrary.org/works/OL56890W",
   "first_published": 1994,
   "language": "eng",
@@ -75,5 +75,8 @@
   "series": {
     "name": "The Vorkosigan Saga",
     "position": 9
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3943745-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3943745-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:53+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "on-christian-doctrine",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7125465-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7125465-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-christian-doctrine.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-christian-doctrine.jpg",
   "open_library_url": "https://openlibrary.org/works/OL137847W",
   "first_published": 1958,
   "language": "eng",
@@ -28,9 +28,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54875757M"
+  "representative_edition_key": "/books/OL54875757M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7125465-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7125465-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:46+00:00",
+  "lcc": [
+    "B"
+  ]
 }

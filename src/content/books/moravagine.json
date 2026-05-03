@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "At once truly appalling and appallingly funny, Blaise Cendrars's Moravagine bears comparison with Naked Lunch—except that it's a lot more entertaining to read. Heir to an immense aristocratic fortune, mental and physical mutant Moravagine is a monster, a man in pursuit of a theorem that will justify his every desire.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/moravagine.png",
+  "cover_url_large": "/tsundoku/cached/covers/moravagine.png",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781590170632",
@@ -50,11 +50,14 @@
     "first_published_circa": "ol_firstedition_v1",
     "original_language": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 23,
   "first_published_circa": false,
   "original_language": "fre",
   "representative_edition_key": "/books/OL8845249M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Moravagine.png",
+  "cover_cached_at": "2026-05-03T01:33:14+00:00"
 }

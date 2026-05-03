@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11365660-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11365660-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/eugene-onegin.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/eugene-onegin.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24667968W",
   "first_published": 1995,
   "language": "eng",
@@ -30,10 +30,26 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library"
   },
   "editions_count": 19,
   "first_published_circa": false,
   "first_edition_isbn": "9780191587375",
-  "representative_edition_key": "/books/OL56847263M"
+  "representative_edition_key": "/books/OL56847263M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11365660-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11365660-L.jpg",
+  "cover_cached_at": "2026-05-03T01:13:50+00:00",
+  "subject_facet": [
+    "Fiction",
+    "Man-woman relationships",
+    "Poetry",
+    "Poverty",
+    "Russian fiction",
+    "Russian literature",
+    "Russian poetry",
+    "Social life and customs",
+    "Translations from Russian",
+    "Translations into English"
+  ]
 }

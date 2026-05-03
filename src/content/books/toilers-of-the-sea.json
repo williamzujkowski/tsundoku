@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL25333122W",
   "first_published": 1800,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=-cgBAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-cgBAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/toilers-of-the-sea.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/toilers-of-the-sea.jpg",
   "pages": 350,
   "google_books_url": "https://play.google.com/store/books/details?id=-cgBAAAAQAAJ&source=gbs_api",
   "reading_status": "want",
@@ -66,5 +66,8 @@
   "editions_count": 44,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8311270M"
+  "representative_edition_key": "/books/OL8311270M",
+  "cover_url_source": "https://books.google.com/books/content?id=-cgBAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-cgBAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:29+00:00"
 }

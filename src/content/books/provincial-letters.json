@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "provincial-letters",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243201-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243201-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/provincial-letters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/provincial-letters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1262604W",
   "first_published": 1670,
   "language": "eng",
@@ -237,5 +237,8 @@
   "original_title": "Pensées de Pascal",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL55228277M",
-  "wikidata_qid": "Q17360856"
+  "wikidata_qid": "Q17360856",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243201-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243201-L.jpg",
+  "cover_cached_at": "2026-05-03T01:46:08+00:00"
 }

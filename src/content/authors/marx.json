@@ -3,7 +3,7 @@
   "slug": "marx",
   "book_count": 1,
   "bio": "German philosopher, economist, sociologist, journalist and revolutionary socialist",
-  "photo_url": "https://covers.openlibrary.org/a/id/7241988-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/marx.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL48230A",
   "birth_year": 1818,
   "death_year": 1883,
@@ -24,5 +24,7 @@
     {
       "name": "Fellow of the Royal Society of Arts"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7241988-M.jpg",
+  "photo_cached_at": "2026-05-03T00:46:02+00:00"
 }

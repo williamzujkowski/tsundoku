@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "on-tyranny",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10186935-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10186935-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-tyranny.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-tyranny.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17710110W",
   "first_published": 2017,
   "language": "eng",
@@ -68,5 +68,8 @@
   "wikidata_qid": "Q96397405",
   "original_title": "On Tyranny: Twenty Lessons from the Twentieth Century",
   "original_language": "eng",
-  "original_publisher": "Tim Duggan Books"
+  "original_publisher": "Tim Duggan Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10186935-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10186935-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:06+00:00"
 }

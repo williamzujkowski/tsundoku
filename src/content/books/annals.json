@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "annals",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6995052-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6995052-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/annals.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/annals.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16200777W",
   "first_published": 1598,
   "language": "eng",
@@ -30,9 +30,29 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 14,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56396170M"
+  "representative_edition_key": "/books/OL56396170M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6995052-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6995052-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:09+00:00",
+  "subject_facet": [
+    "20 av. J.",
+    "Ancient History",
+    "Byzantine Empire",
+    "C.",
+    "Histoire",
+    "Historia",
+    "Imperio Bizantino",
+    "Open Library Staff Picks",
+    "Rome",
+    "open_syllabus_project"
+  ],
+  "lcc": [
+    "D"
+  ]
 }

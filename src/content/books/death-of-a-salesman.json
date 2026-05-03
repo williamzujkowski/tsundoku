@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9254686-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9254686-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/death-of-a-salesman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/death-of-a-salesman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL66346W",
   "first_published": 1940,
   "language": "eng",
@@ -114,5 +114,8 @@
       "name": "Pulitzer Prize for Drama",
       "year": 1949
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9254686-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9254686-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:54+00:00"
 }

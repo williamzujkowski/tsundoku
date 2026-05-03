@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Information theory and inference, taught together in this exciting textbook, lie at the heart of many important areas of modern technology - communication, signal processing, data mining, machine learning, pattern recognition, computational neuroscience, bioinformatics and cryptography. The book introduces theory in tandem with applications. Information theory is taught alongside practical communication systems such as arithmetic coding for data compression and sparse-graph codes for error-corre...",
-  "cover_url": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/information-theory-inference-and-learning-algorithms.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/information-theory-inference-and-learning-algorithms.jpg",
   "isbn": "0521642981",
   "first_published": 2003,
   "pages": 694,
@@ -68,5 +68,8 @@
   "original_language": "und",
   "original_title": "INFORMATION THEORY, INFERENCE, AND LEARNING ALGORITHMS.",
   "first_edition_isbn": "0521642981",
-  "representative_edition_key": "/books/OL22584006M"
+  "representative_edition_key": "/books/OL22584006M",
+  "cover_url_source": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=AKuMj4PN_EMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:51+00:00"
 }

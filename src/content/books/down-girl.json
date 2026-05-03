@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/down-girl.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/down-girl.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780141990729",
@@ -49,7 +49,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
@@ -58,5 +59,7 @@
   "copyright_status": "in_copyright",
   "wikidata_qid": "Q60463681",
   "original_title": "Down Girl",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/4/48/Down_Girl_The_Logic_of_Misogyny.jpg",
+  "cover_cached_at": "2026-05-03T01:09:11+00:00"
 }

@@ -9,11 +9,23 @@
   ],
   "reading_status": "read",
   "description": "Orbit is pleased to present a selection from each of our upcoming titles for Fall 2010. Inside you'll find everything from king-stealing thieves, to zombie-hunting couples. We have the newest Iain M. Banks novel Surface Detail, Greg Bear's triumphant return to deep space SF with Hull Zero Three, new novels from urban fantasy greats like Lilith Saintcrow and Jennifer Rardin. We're especially pleased to introduce debut author, Rachel Aaron, with her three rip-roaring fantasy adventures in three mo",
-  "cover_url": "https://books.google.com/books/content?id=_LRoFxWHj7IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/scoundrels-monsters-and-special-circumstances.jpg",
   "isbn": "9780316182485",
   "first_published": 2010,
   "pages": 230,
   "google_books_url": "https://play.google.com/store/books/details?id=_LRoFxWHj7IC&source=gbs_api",
   "language": "eng",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=_LRoFxWHj7IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:21+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

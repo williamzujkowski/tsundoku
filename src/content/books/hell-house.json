@@ -8,8 +8,8 @@
     "horror",
     "humor"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/459811-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/459811-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hell-house.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hell-house.jpg",
   "open_library_url": "https://openlibrary.org/works/OL64222W",
   "first_published": 1971,
   "language": "eng",
@@ -57,5 +57,8 @@
   "representative_edition_key": "/books/OL27055392M",
   "wikidata_qid": "Q615807",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/459811-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/459811-L.jpg",
+  "cover_cached_at": "2026-05-03T01:19:55+00:00"
 }

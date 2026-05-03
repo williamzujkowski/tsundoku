@@ -9,7 +9,7 @@
     "poetry"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=xxNbAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/spoon-river-anthology.jpg",
   "first_published": 1919,
   "pages": 348,
   "google_books_url": "https://play.google.com/store/books/details?id=xxNbAAAAMAAJ&source=gbs_api",
@@ -63,5 +63,7 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54277816M"
+  "representative_edition_key": "/books/OL54277816M",
+  "cover_url_source": "https://books.google.com/books/content?id=xxNbAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:52:22+00:00"
 }

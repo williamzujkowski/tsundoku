@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12613246-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12613246-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-amber-spyglass.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-amber-spyglass.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28996W",
   "first_published": 2000,
   "language": "eng",
@@ -101,5 +101,8 @@
   "series": {
     "name": "His Dark Materials",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12613246-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12613246-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:58+00:00"
 }

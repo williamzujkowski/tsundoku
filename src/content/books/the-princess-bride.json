@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Presents the timeless love story between a farm boy named Westley and the beautiful Princess Buttercup, along with the author's comments on life and art as he attempts to edit the children's classic.",
-  "cover_url": "https://covers.openlibrary.org/b/id/9284881-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9284881-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-princess-bride.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-princess-bride.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780156035156",
@@ -75,5 +75,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9284881-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9284881-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:50+00:00"
 }

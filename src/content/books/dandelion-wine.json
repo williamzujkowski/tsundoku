@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14831327-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14831327-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dandelion-wine.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dandelion-wine.jpg",
   "open_library_url": "https://openlibrary.org/works/OL103118W",
   "first_published": 1946,
   "language": "eng",
@@ -68,5 +68,8 @@
   "wikidata_qid": "Q1810196",
   "original_title": "Dandelion Wine",
   "original_language": "eng",
-  "original_publisher": "Doubleday"
+  "original_publisher": "Doubleday",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14831327-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14831327-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:23+00:00"
 }

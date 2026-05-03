@@ -9,8 +9,8 @@
   "first_published": 1628,
   "language": "eng",
   "description": "Peter Fallon has translated Virgil's first poem - four books ostensibly about farming, which he wrote during the terrible civil war following the murder of Julius Caesar.",
-  "cover_url": "https://books.google.com/books/content?id=GwiZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=GwiZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/georgics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/georgics.jpg",
   "isbn": "1852353651",
   "pages": 127,
   "google_books_url": "http://books.google.com/books?id=GwiZzQEACAAJ&dq=Georgics+Virgil&hl=&source=gbs_api",
@@ -175,5 +175,8 @@
   "editions_count": 188,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3378465M"
+  "representative_edition_key": "/books/OL3378465M",
+  "cover_url_source": "https://books.google.com/books/content?id=GwiZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=GwiZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:55+00:00"
 }

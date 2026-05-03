@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "oryx-and-crake",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12507658-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12507658-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/oryx-and-crake.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/oryx-and-crake.jpg",
   "open_library_url": "https://openlibrary.org/works/OL675722W",
   "first_published": 2003,
   "language": "eng",
@@ -75,5 +75,8 @@
   "series": {
     "name": "MaddAddam Series",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12507658-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12507658-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:20+00:00"
 }

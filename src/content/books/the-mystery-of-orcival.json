@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Emile Gaboriau, a well-known 19th-century French author and forerunner of detective fiction, wrote the intriguing book \"The Mystery of Orcival.\" The plot, which is set in a small French village, follows renowned detective Monsieur Lecoq as he deals with a complicated murder investigation. Madame d'Orbigny, a wealthy widow, is discovered dead in her home, and her son Gaston is the main suspect. Lecoq, though, is certain of Gaston's innocence and begins his investigation. The characters come to li",
-  "cover_url": "https://books.google.com/books/content?id=Jt0PEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mystery-of-orcival.jpg",
   "isbn": "9789358595260",
   "first_published": 2023,
   "pages": 276,
@@ -20,5 +20,26 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 1651,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1651",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1651.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1651.html.images",
+  "cover_url_source": "https://books.google.com/books/content?id=Jt0PEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:35+00:00",
+  "_provenance": {
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "subject_facet": [
+    "Detective and mystery stories",
+    "Fiction",
+    "Fiction, mystery & detective, general",
+    "French fiction",
+    "Monsieur Lecoq (Fictitious character)",
+    "Translations into English"
+  ],
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
+  ]
 }

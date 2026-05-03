@@ -3,7 +3,7 @@
   "slug": "charles-baudelaire",
   "book_count": 2,
   "bio": "Charles-Pierre Baudelaire was a French poet, essayist, translator and art critic. His poems are described as exhibiting mastery of rhythm and rhyme, containing an exoticism inherited from the Romantics, and are based on observations of real life.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg/400px-%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg",
+  "photo_url": "/tsundoku/cached/authors/charles-baudelaire.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Baudelaire",
   "open_library_url": "https://openlibrary.org/authors/OL117429A",
   "birth_year": 1821,
@@ -33,5 +33,7 @@
     {
       "name": "Concours général"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg/400px-%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg",
+  "photo_cached_at": "2026-05-03T02:54:52+00:00"
 }

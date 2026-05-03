@@ -2,7 +2,7 @@
   "name": "Bourbaki",
   "slug": "bourbaki",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL145730A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/bourbaki.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL145730A",
   "bio": "From <a href=\"https://en.wikipedia.org/wiki/Nicolas_Bourbaki\">Wikipedia</a> :\r\n\r\nNicolas Bourbaki is the collective pseudonym under which a group of (mainly French) 20th-century mathematicians wrote a series of books presenting an exposition of modern advanced mathematics, beginning in 1935. With the goal of founding all of mathematics on set theory, the group strove for rigour and generality. Their work led to the discovery of several concepts and terminologies still discussed.\r\nBourbaki congress, 1938\r\n\r\nWhile there is no Nicolas Bourbaki, the Bourbaki group, officially known as the Association des collaborateurs de Nicolas Bourbaki (Association of Collaborators of Nicolas Bourbaki), has an office at the École Normale Supérieure in Paris.",
   "_provenance": {
@@ -12,5 +12,7 @@
   },
   "wikidata_qid": "Q190529",
   "viaf_id": "120155551",
-  "ol_author_key": "/authors/OL145730A"
+  "ol_author_key": "/authors/OL145730A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL145730A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:40:24+00:00"
 }
