@@ -2,7 +2,7 @@
   "name": "Jules de Goncourt",
   "slug": "jules-de-goncourt",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/6812897-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/jules-de-goncourt.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL4338792A",
   "birth_year": 1830,
   "death_year": 1870,
@@ -22,5 +22,7 @@
   "ol_author_key": "/authors/OL4338792A",
   "movements": [
     "naturalism"
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/6812897-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:54+00:00"
 }

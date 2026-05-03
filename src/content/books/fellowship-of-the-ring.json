@@ -9,8 +9,8 @@
     "young-adult",
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14627060-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/fellowship-of-the-ring.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fellowship-of-the-ring.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27513W",
   "first_published": 1954,
   "language": "eng",
@@ -139,5 +139,8 @@
       "name": "International Fantasy Award for Best Fiction",
       "year": 1957
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14627060-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:26+00:00"
 }

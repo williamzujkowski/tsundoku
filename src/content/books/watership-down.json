@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "EISNER AWARD WINNER • OHIO BOOK AWARD WINNER • A beautiful and faithful graphic novel adaptation of Richard Adams’s beloved story of a group of rabbits on an epic journey in search of home. NOMINATED FOR THE RINGO AWARD AND THE HARVEY AWARD “Every rabbit that stays behind is in great danger. We will welcome any rabbit who joins us.” Watership Down is a classic tale of survival, hope, courage, and friendship that has delighted and inspired readers around the world for more than fifty years. Masterfully adapted by award-winning author James Sturm and gorgeously illustrated by bestselling artist Joe Sutphin, this spectacular graphic novel will delight old fans and inspire new ones, bringing the joy of Watership Down to a new generation of readers.",
-  "cover_url": "https://covers.openlibrary.org/b/id/6450196-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6450196-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/watership-down.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/watership-down.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781565115866",
@@ -121,5 +121,8 @@
       "name": "California Young Reader Medal",
       "year": 1977
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6450196-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6450196-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:32+00:00"
 }

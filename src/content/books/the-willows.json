@@ -9,8 +9,8 @@
     "horror",
     "humor"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2751803-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2751803-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-willows.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-willows.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2700635W",
   "first_published": 2002,
   "language": "eng",
@@ -23,5 +23,8 @@
   "librivox_url": "https://librivox.org/the-willows-by-algernon-blackwood/",
   "gutenberg_id": 11438,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/11438",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/11438.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/11438.html.images",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2751803-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2751803-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:01+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8236884-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8236884-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-mill-on-the-floss.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-mill-on-the-floss.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20938W",
   "first_published": 1800,
   "language": "eng",
@@ -38,5 +38,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL25847086M"
+  "representative_edition_key": "/books/OL25847086M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8236884-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8236884-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:11+00:00"
 }

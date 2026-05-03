@@ -9,8 +9,8 @@
     "mystery",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8237041-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8237041-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-moonstone.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-moonstone.jpg",
   "open_library_url": "https://openlibrary.org/works/OL176092W",
   "first_published": 1800,
   "language": "eng",
@@ -198,5 +198,8 @@
   "representative_edition_key": "/books/OL60831383M",
   "wikidata_qid": "Q2362563",
   "original_title": "The Moonstone",
-  "original_publisher": "William Tinsley"
+  "original_publisher": "William Tinsley",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8237041-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8237041-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:25+00:00"
 }

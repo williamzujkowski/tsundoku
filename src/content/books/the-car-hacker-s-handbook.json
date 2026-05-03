@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Modern cars are more computerized than ever. Infotainment and navigation systems, Wi-Fi, automatic software updates, and other innovations aim to make driving more convenient. But vehicle technologies haven’t kept pace with today’s more hostile security environment, leaving millions vulnerable to attack. The Car Hacker’s Handbook will give you a deeper understanding of the computer systems and embedded software in modern vehicles. It begins by examining vulnerabilities and providing detailed exp",
-  "cover_url": "https://books.google.com/books/content?id=Ao_QCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-car-hacker-s-handbook.jpg",
   "isbn": "9781593277031",
   "first_published": 2016,
   "pages": 306,
@@ -49,5 +49,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593277031",
-  "representative_edition_key": "/books/OL27202476M"
+  "representative_edition_key": "/books/OL27202476M",
+  "cover_url_source": "https://books.google.com/books/content?id=Ao_QCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:52+00:00"
 }

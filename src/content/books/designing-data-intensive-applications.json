@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8434671-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8434671-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/designing-data-intensive-applications.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/designing-data-intensive-applications.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19293745W",
   "first_published": 2017,
   "language": "eng",
@@ -45,5 +45,8 @@
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL36737928M"
+  "representative_edition_key": "/books/OL36737928M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8434671-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8434671-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:10+00:00"
 }

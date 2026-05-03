@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Geronimo was a prominent leader and medicine man from the Bedonkohe band of the Chiricahua Apache tribe. From 1850 to 1886 Geronimo joined with members of three other Chiricahua Apache bands—the Tchihende, the Tsokanende and the Nednhi—to carry out numerous raids as well as resistance to US and Mexican military campaigns in the northern Mexico states of Chihuahua and Sonora, and in the southwestern American territories of New Mexico and Arizona. Geronimo's raids and related combat actions were a",
-  "cover_url": "https://books.google.com/books/content?id=WodjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/geronimo-s-story-of-his-life.jpg",
   "isbn": "9788026888871",
   "first_published": 1906,
   "pages": 122,
@@ -71,5 +71,7 @@
   "editions_count": 29,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7589968M"
+  "representative_edition_key": "/books/OL7589968M",
+  "cover_url_source": "https://books.google.com/books/content?id=WodjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:57+00:00"
 }

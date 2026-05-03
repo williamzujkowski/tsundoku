@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9288611-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9288611-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-economics-of-imperfect-competition.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-economics-of-imperfect-competition.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1197187W",
   "first_published": 1933,
   "language": "eng",
@@ -28,5 +28,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL46860334M"
+  "representative_edition_key": "/books/OL46860334M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9288611-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9288611-L.jpg",
+  "cover_cached_at": "2026-05-03T02:03:10+00:00"
 }

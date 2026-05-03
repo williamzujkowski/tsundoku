@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Robinson Crusoe is a novel by Daniel Defoe, first published on 25 April 1719. The first edition credited the work's protagonist Robinson Crusoe as its author, leading many readers to believe he was a real person and the book a travelogue of true incidents. It was published under the full title The Life and Strange Surprizing Adventures of Robinson Crusoe, Of York, Mariner: Who lived Eight and Twenty Years, all alone in an un-inhabited Island on the Coast of America, near the Mouth of the Great R",
-  "cover_url": "https://books.google.com/books/content?id=nq8DMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-life-and-adventures-of-robinson-crusoe.jpg",
   "isbn": "154075037X",
   "first_published": 1925,
   "pages": 260,
@@ -445,5 +445,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57547975M"
+  "representative_edition_key": "/books/OL57547975M",
+  "cover_url_source": "https://books.google.com/books/content?id=nq8DMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:48+00:00"
 }

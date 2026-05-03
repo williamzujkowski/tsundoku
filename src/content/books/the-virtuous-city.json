@@ -6,8 +6,8 @@
   "slug": "the-virtuous-city",
   "tags": [],
   "description": "The History of Islamic Political Thought offers a full description and an interpretation of political philosophy from early Islam to the current age of Fundamentalism (622 AD to 2000 AD). Antony Black takes the same approach as scholars usually do for the history of Western political thought, examining the mentality, cultural milieu, and political background of thinkers and statesmen. He covers the relationship of politics to religion, law, ethics, philosophy, and statecraft, as expressed throug...",
-  "cover_url": "https://books.google.com/books/content?id=nspmqLKPU-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=nspmqLKPU-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-virtuous-city.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-virtuous-city.jpg",
   "isbn": "0415932432",
   "first_published": 2001,
   "pages": 404,
@@ -45,5 +45,8 @@
   },
   "editions_count": 8,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7496507M"
+  "representative_edition_key": "/books/OL7496507M",
+  "cover_url_source": "https://books.google.com/books/content?id=nspmqLKPU-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=nspmqLKPU-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:47+00:00"
 }

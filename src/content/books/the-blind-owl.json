@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-blind-owl",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/568618-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/568618-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-blind-owl.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-blind-owl.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8398736W",
   "first_published": 1957,
   "language": "eng",
@@ -35,5 +35,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL61352191M"
+  "representative_edition_key": "/books/OL61352191M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/568618-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/568618-L.jpg",
+  "cover_cached_at": "2026-05-03T01:58:08+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Beautifully illustrated, here is the most comprehensive collection of classic Russian tales available in English. This comprehensive collection introduces readers to universal fairy-tale figures and to such uniquely Russian characters such as Koshchey the Deathless, Baba Yaga, the Swan Maiden, and the glorious Firebird. The more than 175 tales culled from a landmark multi-volume collection by the outstanding Russian ethnographer Aleksandr Afanas'ev reveal a rich, robust world of the imagination.",
-  "cover_url": "https://books.google.com/books/content?id=urrLKD5eFYYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/russian-folktales.jpg",
   "isbn": "9780307829764",
   "first_published": 2013,
   "pages": 673,
@@ -26,5 +26,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL46325086M"
+  "representative_edition_key": "/books/OL46325086M",
+  "cover_url_source": "https://books.google.com/books/content?id=urrLKD5eFYYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:40+00:00"
 }

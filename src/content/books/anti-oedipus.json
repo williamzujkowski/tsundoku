@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "anti-oedipus",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/263582-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/263582-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/anti-oedipus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/anti-oedipus.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8092062W",
   "first_published": 1972,
   "language": "eng",
@@ -102,5 +102,8 @@
   "original_title": "L' anti-Œdipe",
   "representative_edition_key": "/books/OL22152203M",
   "wikidata_qid": "Q1235943",
-  "original_publisher": "Les Éditions de Minuit"
+  "original_publisher": "Les Éditions de Minuit",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/263582-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/263582-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:19+00:00"
 }

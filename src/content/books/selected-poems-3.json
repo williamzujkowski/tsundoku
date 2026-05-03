@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/97635-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97635-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-poems-3.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems-3.jpg",
   "open_library_url": "https://openlibrary.org/works/OL157080W",
   "first_published": 1969,
   "language": "eng",
@@ -39,5 +39,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28445806M"
+  "representative_edition_key": "/books/OL28445806M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97635-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97635-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:53+00:00"
 }

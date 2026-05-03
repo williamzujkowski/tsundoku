@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2237620-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2237620-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/norwegian-wood.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/norwegian-wood.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2625457W",
   "first_published": 1987,
   "language": "eng",
@@ -79,5 +79,8 @@
   "original_language": "jpn",
   "original_title": "Noruwei no mori",
   "first_edition_isbn": "9784062035163",
-  "representative_edition_key": "/books/OL8626298M"
+  "representative_edition_key": "/books/OL8626298M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2237620-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2237620-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:06+00:00"
 }

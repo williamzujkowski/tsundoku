@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "satantango",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9614210-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9614210-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/satantango.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/satantango.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3428975W",
   "first_published": 1985,
   "language": "eng",
@@ -62,5 +62,8 @@
   "first_edition_isbn": "9789631403831",
   "representative_edition_key": "/books/OL39993018M",
   "wikidata_qid": "Q1315145",
-  "original_publisher": "Magvető"
+  "original_publisher": "Magvető",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9614210-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9614210-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:05+00:00"
 }

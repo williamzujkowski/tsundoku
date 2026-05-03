@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Altered Carbon is a 2002 British cyberpunk novel by the English writer Richard K. Morgan. Set in a future in which interstellar travel and relative immortality is facilitated by transferring consciousnesses between bodies (\"sleeves\"), it follows the attempt of Takeshi Kovacs, a former U.N. elite soldier turned private investigator, to investigate a rich man's death. It is followed by the sequels Broken Angels and Woken Furies.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Altered_Carbon_cover_1_%28Amazon%29.jpg/120px-Altered_Carbon_cover_1_%28Amazon%29.jpg",
+  "cover_url": "/tsundoku/cached/covers/altered-carbon.jpg",
   "isbn": "9780739432143",
   "ddc": [
     "813.6",
@@ -64,5 +64,7 @@
   },
   "editions_count": 28,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7916218M"
+  "representative_edition_key": "/books/OL7916218M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Altered_Carbon_cover_1_%28Amazon%29.jpg/120px-Altered_Carbon_cover_1_%28Amazon%29.jpg",
+  "cover_cached_at": "2026-05-03T00:53:59+00:00"
 }

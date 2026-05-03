@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "suttree",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9296908-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9296908-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/suttree.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/suttree.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40885W",
   "first_published": 1979,
   "language": "eng",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q3978367",
   "original_title": "Suttree",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9296908-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9296908-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:36+00:00"
 }

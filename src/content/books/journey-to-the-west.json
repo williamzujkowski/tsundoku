@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9656298-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9656298-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/journey-to-the-west.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/journey-to-the-west.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13262989W",
   "first_published": 1980,
   "language": "eng",
@@ -32,5 +32,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL38254817M"
+  "representative_edition_key": "/books/OL38254817M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9656298-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9656298-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:15+00:00"
 }

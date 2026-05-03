@@ -8,8 +8,8 @@
     "mystery",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/37122-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/37122-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/when-we-were-orphans.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/when-we-were-orphans.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59042W",
   "first_published": 2000,
   "language": "eng",
@@ -88,5 +88,8 @@
   "original_language": "dut",
   "original_title": "Toen wij wezen waren",
   "representative_edition_key": "/books/OL24253142M",
-  "wikidata_qid": "Q708490"
+  "wikidata_qid": "Q708490",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/37122-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/37122-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:49+00:00"
 }

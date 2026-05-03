@@ -3,7 +3,7 @@
   "slug": "thomas-e-lawrence",
   "book_count": 1,
   "bio": "Lieutenant Colonel Thomas Edward Lawrence, CB, DSO (16 August 1888 – 19 May 1935), known professionally as T. E. Lawrence, was a British Army officer renowned especially for his liaison role during the Arab Revolt against Ottoman Turkish rule of 1916–18. The extraordinary breadth and variety of his activities and associations, and his ability to describe them vividly in writing, earned him international fame as Lawrence of Arabia, a title popularised by the 1962 film based on his First World War activities. [Wikipedia]",
-  "photo_url": "https://covers.openlibrary.org/a/id/15114741-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/thomas-e-lawrence.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL70857A",
   "birth_year": 1888,
   "death_year": 1935,
@@ -43,5 +43,7 @@
       "name": "Distinguished Service Order",
       "year": 1918
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/15114741-M.jpg",
+  "photo_cached_at": "2026-05-03T00:49:34+00:00"
 }

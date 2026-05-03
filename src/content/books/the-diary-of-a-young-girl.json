@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Anne Frank was 13 years old when she and her family went into hiding in a secret room in Amsterdam in order to escape the Nazi occupation of the Netherlands. For two years they hid and Anne wrote her diary, providing us with a moving account of a Jewish life in hiding.",
-  "cover_url": "https://covers.openlibrary.org/b/id/13521319-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13521319-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-diary-of-a-young-girl.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-diary-of-a-young-girl.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780582402324",
@@ -42,5 +42,8 @@
   },
   "editions_count": 4,
   "representative_edition_key": "/books/OL7881050M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13521319-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13521319-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:46+00:00"
 }

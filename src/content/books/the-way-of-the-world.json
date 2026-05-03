@@ -14,8 +14,8 @@
   "google_books_url": "http://books.google.com/books?id=nTIJMwEACAAJ&dq=intitle:The+Way+of+the+World&hl=&source=gbs_api",
   "language": "eng",
   "description": "Everyone's in love with vampires, and if the vampire's name happens to be Edward Cullen, then readers of the wildly popular Twilight series by Stephenie Meyer can't help but be crazy about him. For all those who adore Bella Swan, Edward, and the rest of the Cullen family and can't get enough, this companion guide is a must. The Twilight series follows an unlikely couple: Bella, a teenager, and her boyfriend, Edward, a vampire who has sworn off human blood. Added to the mix is Jacob Black, a were...",
-  "cover_url": "https://books.google.com/books/content?id=lhi7paedFOEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=lhi7paedFOEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-way-of-the-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-way-of-the-world.jpg",
   "isbn": "9781429940467",
   "copyright_status": "public_domain",
   "subject_facet": [
@@ -30,5 +30,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37371387M"
+  "representative_edition_key": "/books/OL37371387M",
+  "cover_url_source": "https://books.google.com/books/content?id=lhi7paedFOEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=lhi7paedFOEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:04+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "David Harum: A story of American life is a novel that vividly portrays rural American life in central New York through the lens of a shrewd, horse-trading banker. The story follows a clever and humorous man known for his straightforward observations and philanthropic deeds, hidden beneath a gruff exterior. He decides to bring in a young assistant recommended by a friend to help with his bank, and the narrative explores their developing relationship as the assistant navigates his new responsibili",
-  "cover_url": "https://books.google.com/books/content?id=zi_G0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/david-harum.jpg",
   "isbn": "9373400940",
   "first_published": 1898,
   "google_books_url": "http://books.google.com/books?id=zi_G0QEACAAJ&dq=intitle:David+Harum&hl=&source=gbs_api",
@@ -66,5 +66,7 @@
   "editions_count": 55,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56059045M"
+  "representative_edition_key": "/books/OL56059045M",
+  "cover_url_source": "https://books.google.com/books/content?id=zi_G0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:39+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "down-and-out-in-paris-and-london",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5539329-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5539329-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/down-and-out-in-paris-and-london.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/down-and-out-in-paris-and-london.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1168030W",
   "first_published": 1933,
   "language": "eng",
@@ -93,5 +93,8 @@
   "wikidata_qid": "Q1355487",
   "original_title": "Down and Out in Paris and London",
   "original_language": "eng",
-  "original_publisher": "Gollancz"
+  "original_publisher": "Gollancz",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5539329-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5539329-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:10+00:00"
 }

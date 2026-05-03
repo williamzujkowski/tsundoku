@@ -2,7 +2,7 @@
   "name": "John Brunner",
   "slug": "john-brunner",
   "book_count": 3,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2644956A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-brunner.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2644956A",
   "birth_year": 1934,
   "death_year": 1995,
@@ -37,5 +37,7 @@
       "name": "BSFA Award for Best Novel",
       "year": 1970
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2644956A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:31+00:00"
 }

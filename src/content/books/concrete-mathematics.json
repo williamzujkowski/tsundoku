@@ -8,8 +8,8 @@
     "computing",
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/135182-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/135182-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/concrete-mathematics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/concrete-mathematics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3951639W",
   "first_published": 1989,
   "language": "eng",
@@ -81,5 +81,8 @@
   "wikidata_qid": "Q1124361",
   "original_title": "Concrete Mathematics",
   "original_language": "eng",
-  "original_publisher": "Addison-Wesley"
+  "original_publisher": "Addison-Wesley",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/135182-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/135182-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:39+00:00"
 }

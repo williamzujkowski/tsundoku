@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL29243966W",
   "first_published": 1957,
   "description": "\"Cosimo di Rondó, a young Italian nobleman of the eighteenth century, rebels against his parents by climbing into the trees and remaining there for the rest of his life. He adapts efficiently to an existence in the forest canopy he hunts, sows crops, plays games with earth-bound friends, fights forest fires, solves engineering problems, and even manages to have love affairs. From his perch in the trees, Cosimo sees the Age of Enlightenment pass by and a new century dawn. Long considered one of C...",
-  "cover_url": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-baron-in-the-trees.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-baron-in-the-trees.jpg",
   "isbn": "9780544959118",
   "pages": 319,
   "language": "eng",
@@ -84,5 +84,8 @@
   "wikidata_qid": "Q2450161",
   "series": {
     "name": "Our Ancestors"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8WM6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:57:09+00:00"
 }

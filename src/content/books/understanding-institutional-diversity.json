@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "understanding-institutional-diversity",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/443938-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/443938-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/understanding-institutional-diversity.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/understanding-institutional-diversity.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3956154W",
   "first_published": 2005,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL24922262M"
+  "representative_edition_key": "/books/OL24922262M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/443938-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/443938-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:51+00:00"
 }

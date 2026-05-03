@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "desire-in-language",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12184857-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12184857-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/desire-in-language.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/desire-in-language.jpg",
   "open_library_url": "https://openlibrary.org/works/OL71352W",
   "first_published": 1980,
   "language": "eng",
@@ -35,5 +35,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL53324623M"
+  "representative_edition_key": "/books/OL53324623M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12184857-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12184857-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:15+00:00"
 }

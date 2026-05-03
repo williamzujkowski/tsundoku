@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-view-from-nowhere",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/121400-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/121400-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-view-from-nowhere.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-view-from-nowhere.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2901921W",
   "first_published": 1986,
   "language": "eng",
@@ -52,5 +52,8 @@
   "representative_edition_key": "/books/OL7386627M",
   "wikidata_qid": "Q7928764",
   "original_title": "The View From Nowhere",
-  "original_publisher": "Oxford University Press"
+  "original_publisher": "Oxford University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/121400-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/121400-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:47+00:00"
 }

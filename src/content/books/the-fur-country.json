@@ -14,8 +14,8 @@
   "pages": 444,
   "google_books_url": "http://books.google.com/books?id=uhUbkwEACAAJ&dq=intitle:The+Fur+Country&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/2753943-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2753943-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fur-country.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fur-country.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1099989W",
   "copyright_status": "public_domain",
   "gutenberg_id": 8991,
@@ -44,5 +44,8 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "0665163339",
-  "representative_edition_key": "/books/OL11677994M"
+  "representative_edition_key": "/books/OL11677994M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2753943-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2753943-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:59+00:00"
 }

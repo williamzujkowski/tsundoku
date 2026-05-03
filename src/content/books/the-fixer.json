@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-fixer",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/225215-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/225215-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fixer.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fixer.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1937854W",
   "first_published": 1901,
   "language": "eng",
@@ -108,5 +108,8 @@
       "name": "Pulitzer Prize for Fiction",
       "year": 1967
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/225215-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/225215-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:36+00:00"
 }

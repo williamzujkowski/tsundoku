@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "outline",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9079084-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9079084-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/outline.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/outline.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17873642W",
   "first_published": 2014,
   "language": "eng",
@@ -57,5 +57,8 @@
   },
   "editions_count": 13,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27172951M"
+  "representative_edition_key": "/books/OL27172951M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9079084-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9079084-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:32+00:00"
 }

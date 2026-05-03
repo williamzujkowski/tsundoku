@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/119517-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/119517-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-waves.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-waves.jpg",
   "open_library_url": "https://openlibrary.org/works/OL39316W",
   "first_published": 1931,
   "language": "eng",
@@ -100,5 +100,8 @@
   "representative_edition_key": "/books/OL8914239M",
   "wikidata_qid": "Q1217475",
   "original_title": "The Waves",
-  "original_publisher": "Hogarth Press"
+  "original_publisher": "Hogarth Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/119517-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/119517-L.jpg",
+  "cover_cached_at": "2026-05-03T02:17:01+00:00"
 }

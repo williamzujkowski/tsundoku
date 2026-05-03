@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/650973-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/650973-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-poems-7.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems-7.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15313759W",
   "first_published": 1998,
   "description": "Li Po (A.D., 701-762) lived in T’ang Dynasty China, but his influence has spanned the centuries: the pure lyricism of his poems has awed readers in China and Japan for over a millennium, and through Ezra Pound’s translations, Li Po became central to the modernist revolution in the West. His work is suffused with Taoism and Ch’an (Zen) Buddhism, but these seem not so much spiritual influences as the inborn form of his life. There is a set-phrase in Chinese referring to the phenomenon of Li Po: “W...",
@@ -55,5 +55,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL40503739M"
+  "representative_edition_key": "/books/OL40503739M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/650973-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/650973-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:00+00:00"
 }

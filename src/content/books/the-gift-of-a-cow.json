@@ -13,7 +13,7 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "Godaan is a Hindi novel by Munshi Premchand. It was first published in 1936 and is considered one of the greatest novels of modern Indian literature. Themed around the socio-economic deprivation as well as the exploitation of the village poor, the novel was the last complete novel of Premchand. It follows the story of an old poor farmer, stuck in a debt trap, who wants to purchase a cow, but is unable to do so for lack of money.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Godaan_by_Munshi_Premchand.png/330px-Godaan_by_Munshi_Premchand.png",
+  "cover_url": "/tsundoku/cached/covers/the-gift-of-a-cow.png",
   "isbn": "9780948924071",
   "ddc": [
     "891.4336",
@@ -59,5 +59,7 @@
   "original_language": "hin",
   "original_title": "Go-dāna",
   "representative_edition_key": "/books/OL3560061M",
-  "wikidata_qid": "Q904382"
+  "wikidata_qid": "Q904382",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Godaan_by_Munshi_Premchand.png/330px-Godaan_by_Munshi_Premchand.png",
+  "cover_cached_at": "2026-05-03T02:05:20+00:00"
 }

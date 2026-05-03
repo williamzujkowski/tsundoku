@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "leaves-of-grass",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9000447-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9000447-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/leaves-of-grass.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/leaves-of-grass.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16333W",
   "first_published": 1855,
   "language": "eng",
@@ -306,5 +306,8 @@
   "representative_edition_key": "/books/OL38072384M",
   "wikidata_qid": "Q132042",
   "original_title": "Leaves of Grass",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9000447-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9000447-L.jpg",
+  "cover_cached_at": "2026-05-03T01:29:06+00:00"
 }

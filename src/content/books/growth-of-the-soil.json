@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=L7u24qjROV4C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/growth-of-the-soil.jpg",
   "isbn": "9781406838237",
   "first_published": 1917,
   "pages": 276,
@@ -68,5 +68,7 @@
   "original_title": "Markens grøde",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL11681967M",
-  "wikidata_qid": "Q2266122"
+  "wikidata_qid": "Q2266122",
+  "cover_url_source": "https://books.google.com/books/content?id=L7u24qjROV4C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:39+00:00"
 }

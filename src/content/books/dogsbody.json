@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/25497-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/25497-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dogsbody.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dogsbody.jpg",
   "open_library_url": "https://openlibrary.org/works/OL60144W",
   "first_published": 1975,
   "language": "eng",
@@ -62,5 +62,8 @@
   "representative_edition_key": "/books/OL9246625M",
   "wikidata_qid": "Q5288460",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/25497-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/25497-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:59+00:00"
 }

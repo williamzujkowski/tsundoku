@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "red-famine",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8822588-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8822588-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/red-famine.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/red-famine.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19722136W",
   "first_published": 2017,
   "language": "eng",
@@ -57,5 +57,8 @@
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27359437M"
+  "representative_edition_key": "/books/OL27359437M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8822588-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8822588-L.jpg",
+  "cover_cached_at": "2026-05-03T01:46:53+00:00"
 }

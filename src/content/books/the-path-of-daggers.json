@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Path of Daggers is a fantasy novel by American author Robert Jordan, the eighth book of his series The Wheel of Time. It was published by Tor Books and released on October 20, 1998. Upon its release, it immediately rose to the #1 position on the New York Times hardcover fiction bestseller list, making it the first Wheel of Time book to reach the #1 position on that list. It remained on the list for the next two months.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/WoT08_ThePathOfDaggers.jpg/250px-WoT08_ThePathOfDaggers.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-path-of-daggers.jpg",
   "pages": 608,
   "isbn": "9781250252098",
   "ddc": [
@@ -51,5 +51,7 @@
   },
   "editions_count": 32,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28180444M"
+  "representative_edition_key": "/books/OL28180444M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/WoT08_ThePathOfDaggers.jpg/250px-WoT08_ThePathOfDaggers.jpg",
+  "cover_cached_at": "2026-05-03T02:11:14+00:00"
 }

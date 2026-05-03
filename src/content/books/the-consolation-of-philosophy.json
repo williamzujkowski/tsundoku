@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8915879-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8915879-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-consolation-of-philosophy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-consolation-of-philosophy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20258987W",
   "first_published": 524,
   "language": "eng",
@@ -36,5 +36,8 @@
   },
   "editions_count": 45,
   "first_edition_isbn": "9780809301263",
-  "representative_edition_key": "/books/OL56532999M"
+  "representative_edition_key": "/books/OL56532999M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8915879-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8915879-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:17+00:00"
 }

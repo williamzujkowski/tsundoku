@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=W9sNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=W9sNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/huntingtower.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/huntingtower.jpg",
   "first_published": 1922,
   "pages": 480,
   "google_books_url": "https://play.google.com/store/books/details?id=W9sNAAAAMAAJ&source=gbs_api",
@@ -85,5 +85,8 @@
   "series": {
     "name": "Dickson McCunn trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=W9sNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=W9sNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:22:26+00:00"
 }

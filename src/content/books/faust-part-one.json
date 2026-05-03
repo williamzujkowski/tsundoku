@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31239088W",
   "first_published": 1963,
   "description": "Goethe's classic, enlivened by Randall Jarrell's fine translation and Peter Sis's dark, dreamy illustrations Randall Jarrell's translation of \"Faust \"is one of his most important achievements. In 1957 he inscribed Goethe's motto on the first page of his notebook--\"Ohne Hast aber ohne Rast\" (\"Without haste but without rest\")--and from then until his death in 1965 he worked on the masterpiece of his \"own favorite daemon, dear good great Goethe.\" His intent was to make the German poetry free, unrhy...",
-  "cover_url": "https://books.google.com/books/content?id=tn6r2bX8l-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=tn6r2bX8l-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/faust-part-one.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/faust-part-one.jpg",
   "isbn": "0140448233",
   "pages": 340,
   "language": "eng",
@@ -43,5 +43,8 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30085871M"
+  "representative_edition_key": "/books/OL30085871M",
+  "cover_url_source": "https://books.google.com/books/content?id=tn6r2bX8l-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=tn6r2bX8l-sC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:21+00:00"
 }

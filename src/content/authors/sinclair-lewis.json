@@ -3,7 +3,7 @@
   "slug": "sinclair-lewis",
   "book_count": 4,
   "bio": "Harry Sinclair Lewis was an American novelist, short-story writer, and playwright. In 1930, he became the first author from the United States to receive the Nobel Prize in Literature, which was awarded \"for his vigorous and graphic art of description and his ability to create, with wit and humor, new types of characters.\" Lewis wrote six popular novels: Main Street (1920), Babbitt (1922), Arrowsmith (1925), Elmer Gantry (1927), Dodsworth (1929), and It Can't Happen Here (1935).",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sinclair_Lewis_1930.jpg",
+  "photo_url": "/tsundoku/cached/authors/sinclair-lewis.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sinclair_Lewis",
   "open_library_url": "https://openlibrary.org/authors/OL19493A",
   "birth_year": 1885,
@@ -37,5 +37,7 @@
     {
       "name": "Prometheus Award - Hall of Fame"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sinclair_Lewis_1930.jpg",
+  "photo_cached_at": "2026-05-03T00:49:02+00:00"
 }

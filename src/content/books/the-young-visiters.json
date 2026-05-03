@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The \"owner of the copyright\" guarantees that \"The Young Visiters\" is the unaided effort in fiction of an authoress of nine years. \"Effort,\" however, is an absurd word to use, as you may see by studying the triumphant countenance of the child herself, which is here reproduced as frontispiece to her sublime work. This is no portrait of a writer who had to burn the oil at midnight (indeed there is documentary evidence that she was hauled off to bed every evening at six): it has an air of careless p",
-  "cover_url": "https://books.google.com/books/content?id=FwTDmwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-young-visiters.jpg",
   "isbn": "1484853032",
   "first_published": 2012,
   "pages": 54,
@@ -45,5 +45,7 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "9781477660171",
-  "representative_edition_key": "/books/OL55414506M"
+  "representative_edition_key": "/books/OL55414506M",
+  "cover_url_source": "https://books.google.com/books/content?id=FwTDmwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:51+00:00"
 }

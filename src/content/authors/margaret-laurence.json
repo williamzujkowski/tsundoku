@@ -3,7 +3,7 @@
   "slug": "margaret-laurence",
   "book_count": 1,
   "bio": "Jean Margaret Laurence was a Canadian novelist and short story writer, and is one of the major figures in Canadian literature. She was also a founder of the Writers' Trust of Canada, a non-profit literary organization that seeks to encourage Canada's writing community.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/d/de/MargaretLaurenceImage.jpg",
+  "photo_url": "/tsundoku/cached/authors/margaret-laurence.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Margaret_Laurence",
   "open_library_url": "https://openlibrary.org/authors/OL203016A",
   "birth_year": 1926,
@@ -40,5 +40,7 @@
     {
       "name": "Person of National Historic Significance"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/d/de/MargaretLaurenceImage.jpg",
+  "photo_cached_at": "2026-05-03T00:45:49+00:00"
 }

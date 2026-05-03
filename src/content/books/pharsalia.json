@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10857892-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10857892-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pharsalia.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pharsalia.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2566239W",
   "first_published": 1486,
   "language": "eng",
@@ -168,5 +168,8 @@
   "original_title": "Pharsalia.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7592747M",
-  "wikidata_qid": "Q678375"
+  "wikidata_qid": "Q678375",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10857892-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10857892-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:02+00:00"
 }

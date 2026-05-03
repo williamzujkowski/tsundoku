@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6831870-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6831870-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-dream-of-a-common-language.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-dream-of-a-common-language.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15869339W",
   "first_published": 1978,
   "language": "eng",
@@ -39,5 +39,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29717096M"
+  "representative_edition_key": "/books/OL29717096M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6831870-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6831870-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:59+00:00"
 }

@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A cipher message and a horrible murder in a Sussex village begin this dark and powerful tale as Holmes battles with the forces of the criminal mastermind, Professor Moriarty. Central to the novel lies the story of a terrorist brotherhood and the hold it acquired over an American mining valley. At the end of the investigation, which Holmes declares is making him lose his wits, it is Professor Moriarty who has the final laugh. - ;A cipher message and a horrible murder in a Sussex village begin thi",
-  "cover_url": "https://books.google.com/books/content?id=DQrkOpdimakC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-valley-of-fear.jpg",
   "isbn": "9780192823823",
   "first_published": 1915,
   "pages": 294,
@@ -104,5 +104,7 @@
   "original_publisher": "George H. Doran Company",
   "series": {
     "name": "Sherlock Holmes novels"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=DQrkOpdimakC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:38+00:00"
 }

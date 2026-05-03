@@ -6,8 +6,8 @@
   "slug": "the-book-of-disquiet",
   "tags": [],
   "description": "Sitting at his desk, Bernardo Soares imagined himself free forever of Rua dos Douradores, of his boss Vasques, of Moreira the book-keeper, of all the other employees, the errand boy, the post boy, even the cat. But if he left them all tomorrow and discarded the suit of clothes he wears, what else would he do? Because he would have to do something. And what suit would he wear? Because he would have to wear another suit. A self-deprecating reflection on the sheer distance between the loftiness of ...",
-  "cover_url": "https://books.google.com/books/content?id=9cAWkvW3vacC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=9cAWkvW3vacC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-disquiet.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-disquiet.jpg",
   "isbn": "9781847652379",
   "first_published": 1982,
   "pages": 288,
@@ -81,5 +81,8 @@
   "original_language": "por",
   "original_title": "Fernando Pessoa, Livro do desassossego",
   "representative_edition_key": "/books/OL52271821M",
-  "wikidata_qid": "Q2632627"
+  "wikidata_qid": "Q2632627",
+  "cover_url_source": "https://books.google.com/books/content?id=9cAWkvW3vacC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=9cAWkvW3vacC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:55+00:00"
 }

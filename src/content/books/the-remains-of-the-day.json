@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-remains-of-the-day",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/95742-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/95742-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-remains-of-the-day.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-remains-of-the-day.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59048W",
   "first_published": 1989,
   "language": "eng",
@@ -86,5 +86,8 @@
       "name": "Booker Prize",
       "year": 1989
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/95742-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/95742-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:23+00:00"
 }

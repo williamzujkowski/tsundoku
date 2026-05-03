@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Forensic image acquisition is an important part of postmortem incident response and evidence collection. Digital forensic investigators acquire, preserve, and manage digital evidence to support civil and criminal cases; examine organizational policy violations; resolve disputes; and analyze cyber attacks. Practical Forensic Imaging takes a detailed look at how to secure and manage digital evidence using Linux-based command line tools. This essential guide walks you through the entire forensic ac",
-  "cover_url": "https://books.google.com/books/content?id=pgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/practical-forensic-imaging.jpg",
   "isbn": "9781593278007",
   "first_published": 2016,
   "pages": 322,
@@ -37,5 +37,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781593278007",
-  "representative_edition_key": "/books/OL28888549M"
+  "representative_edition_key": "/books/OL28888549M",
+  "cover_url_source": "https://books.google.com/books/content?id=pgYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:50+00:00"
 }

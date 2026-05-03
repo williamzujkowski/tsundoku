@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-world-the-text-and-the-critic",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4275079-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4275079-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-world-the-text-and-the-critic.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-world-the-text-and-the-critic.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27397W",
   "first_published": 1983,
   "language": "eng",
@@ -45,5 +45,8 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "0674961862",
-  "representative_edition_key": "/books/OL16347704M"
+  "representative_edition_key": "/books/OL16347704M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4275079-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4275079-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:43+00:00"
 }

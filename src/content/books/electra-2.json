@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8240385-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8240385-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/electra-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/electra-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43858W",
   "first_published": 1588,
   "language": "eng",
@@ -104,5 +104,8 @@
   "original_title": "Elettra",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL1118630M",
-  "wikidata_qid": "Q733444"
+  "wikidata_qid": "Q733444",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8240385-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8240385-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:09+00:00"
 }

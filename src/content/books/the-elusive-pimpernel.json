@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Elusive Pimpernel By Baroness Orczy First published in 1908, The Elusive Pimpernel by Baroness Orczy is the 4th book in the classic adventure series about the Scarlet Pimpernel. A French-language version, translated and adapted by Charlotte and Marie-Louise Desroyses, was also produced under the title Nouveaux Exploits du Mouron Rouge. It was adapted into a silent film The Elusive Pimpernel in 1919. It is September 1793 and French Agent and chief spy-catcher Chauvelin is determined to get hi",
-  "cover_url": "https://books.google.com/books/content?id=Y3GCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-elusive-pimpernel.jpg",
   "isbn": "1496155637",
   "first_published": 2014,
   "pages": 238,
@@ -37,5 +37,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781496155634",
-  "representative_edition_key": "/books/OL56243855M"
+  "representative_edition_key": "/books/OL56243855M",
+  "cover_url_source": "https://books.google.com/books/content?id=Y3GCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:13+00:00"
 }

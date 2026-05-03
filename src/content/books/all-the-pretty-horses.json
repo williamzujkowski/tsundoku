@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "all-the-pretty-horses",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9296904-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9296904-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/all-the-pretty-horses.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/all-the-pretty-horses.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40882W",
   "first_published": 1992,
   "language": "eng",
@@ -92,5 +92,8 @@
   "series": {
     "name": "The Border Trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9296904-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9296904-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:54+00:00"
 }

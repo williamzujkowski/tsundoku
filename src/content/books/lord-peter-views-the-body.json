@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In \"Lord Peter Views the Body,\" Dorothy L. Sayers presents a collection of twelve captivating short stories featuring the astute and charming Lord Peter Wimsey. Each tale showcases his unparalleled detective skills as he navigates through a series of perplexing mysteries, from eerie disappearances to baffling murders. Sayers masterfully blends wit, intellect, and suspense, creating a rich tapestry of intrigue that keeps readers on the edge of their seats. Themes of justice, morality, and the com",
-  "cover_url": "https://books.google.com/books/content?id=K_pcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lord-peter-views-the-body.jpg",
   "isbn": "9783989733756",
   "first_published": 1928,
   "pages": 406,
@@ -72,5 +72,7 @@
   "editions_count": 63,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL52621764M"
+  "representative_edition_key": "/books/OL52621764M",
+  "cover_url_source": "https://books.google.com/books/content?id=K_pcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:04+00:00"
 }

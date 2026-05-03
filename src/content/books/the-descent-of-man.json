@@ -8,8 +8,8 @@
     "biology",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5634198-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5634198-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-descent-of-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-descent-of-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL515361W",
   "first_published": 1871,
   "language": "eng",
@@ -44,5 +44,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8014456M"
+  "representative_edition_key": "/books/OL8014456M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5634198-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5634198-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:38+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-count-of-monte-cristo",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8851690-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8851690-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-count-of-monte-cristo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-count-of-monte-cristo.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20201553W",
   "first_published": 1845,
   "language": "eng",
@@ -179,5 +179,8 @@
   "original_language": "fre",
   "original_title": "Le comte de Monte-Christo",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL47308086M"
+  "representative_edition_key": "/books/OL47308086M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8851690-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8851690-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:55+00:00"
 }

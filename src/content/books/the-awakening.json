@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/11552660-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11552660-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-awakening.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-awakening.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24791292W",
   "first_published": 2015,
   "description": "Prisoner of Infinity examines modern-day accounts of UFOs, alien abductions, and psychism to uncover a century-long program of psychological fragmentation, collective indoctrination, and covert cultural, social, and mythic engineering.Whether it is the forces of God, government, aliens from outer (or inner) space, or the incalculable effects of childhood sexual trauma on the human psyche, premature contact with these forces compels us to create \"crucial fictions.\" Such semi-coherent mythic narra...",
@@ -93,5 +93,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL38739836M"
+  "representative_edition_key": "/books/OL38739836M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11552660-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11552660-L.jpg",
+  "cover_cached_at": "2026-05-03T01:57:02+00:00"
 }

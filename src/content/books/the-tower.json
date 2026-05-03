@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-tower",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/473591-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/473591-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tower.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tower.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38748W",
   "first_published": 1928,
   "language": "eng",
@@ -35,5 +35,8 @@
   },
   "editions_count": 10,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL15033643M"
+  "representative_edition_key": "/books/OL15033643M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/473591-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/473591-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:01+00:00"
 }

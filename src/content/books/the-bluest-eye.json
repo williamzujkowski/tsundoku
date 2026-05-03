@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-bluest-eye",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/15152696-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15152696-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-bluest-eye.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-bluest-eye.jpg",
   "open_library_url": "https://openlibrary.org/works/OL50565W",
   "first_published": 1970,
   "language": "eng",
@@ -110,5 +110,8 @@
   "representative_edition_key": "/books/OL24295500M",
   "wikidata_qid": "Q1069956",
   "original_title": "The Bluest Eye",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15152696-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15152696-L.jpg",
+  "cover_cached_at": "2026-05-03T01:58:15+00:00"
 }

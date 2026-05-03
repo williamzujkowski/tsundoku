@@ -6,8 +6,8 @@
   "slug": "sociobiology",
   "tags": [],
   "description": "When this classic was first published in 1975, it created a new discipline and started a tumultuous round in the nature versus nurture debate. In the introduction to this edition, Wilson shows how research in human genetics and neuroscience over the past quarter of a century has strengthened the case for a biological understanding of human nature.",
-  "cover_url": "https://books.google.com/books/content?id=LuTkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=LuTkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/sociobiology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sociobiology.jpg",
   "isbn": "9780674744172",
   "first_published": 1975,
   "pages": 712,
@@ -57,5 +57,8 @@
   "wikidata_qid": "Q1760020",
   "original_title": "Sociobiology: The New Synthesis",
   "original_language": "eng",
-  "original_publisher": "Harvard University Press"
+  "original_publisher": "Harvard University Press",
+  "cover_url_source": "https://books.google.com/books/content?id=LuTkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=LuTkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:10+00:00"
 }

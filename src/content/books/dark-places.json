@@ -8,8 +8,8 @@
     "children",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5728115-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5728115-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dark-places.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dark-places.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5842017W",
   "first_published": 2009,
   "language": "eng",
@@ -98,5 +98,8 @@
   "wikidata_qid": "Q5223358",
   "original_title": "Dark Places",
   "original_language": "eng",
-  "original_publisher": "Crown Publishing Group"
+  "original_publisher": "Crown Publishing Group",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5728115-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5728115-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:30+00:00"
 }

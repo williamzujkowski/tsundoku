@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6311244-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6311244-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/philoctetes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/philoctetes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43856W",
   "first_published": 1553,
   "language": "eng",
@@ -79,5 +79,8 @@
   "original_title": "(Philoctetes.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8471817M",
-  "wikidata_qid": "Q1415903"
+  "wikidata_qid": "Q1415903",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6311244-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6311244-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:34+00:00"
 }

@@ -6,8 +6,8 @@
   "slug": "epic-of-gilgamesh",
   "tags": [],
   "description": "Very Short Introductions: Brilliant, Sharp, Inspiring The epic is an ancient and universal form of artistic expression. Storytellers around the globe have long told of heroes who are touched by greatness and gain lasting fame. In this Very Short Introduction, Anthony Welch places the Western epic canon alongside traditional heroic poetry from Asia, Africa, and the Near East. Tracing shared themes and practices that unite the world's epic literature, Welch examines the roles that epic poets serve...",
-  "cover_url": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/epic-of-gilgamesh.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/epic-of-gilgamesh.jpg",
   "isbn": "9780192514325",
   "first_published": -2100,
   "pages": 161,
@@ -17,5 +17,8 @@
   "copyright_status": "public_domain",
   "_provenance": {
     "first_published": "manual"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=nCEtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:12:56+00:00"
 }

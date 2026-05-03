@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "wuthering-heights",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12818862-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/wuthering-heights.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/wuthering-heights.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21177W",
   "first_published": 1847,
   "language": "eng",
@@ -368,5 +368,8 @@
   "representative_edition_key": "/books/OL57525429M",
   "wikidata_qid": "Q202975",
   "original_title": "Wuthering Heights",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12818862-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:33+00:00"
 }

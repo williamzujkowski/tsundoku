@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A complicated tale of murder, hidden identities, and buried secrets in London's fashionable neighborhood of Bayswater. Bayswater is a quiet neighborhood whose residents are successful lawyers or medical men, people of independent means, or wealthy colonials returned to their homeland. It is hardly the place to expect a brutal murder and robbery, yet that is exactly what Richard Viner finds himself caught up in when he discovers the body of a neighbor on his nightly stroll, after having spent an ",
-  "cover_url": "https://books.google.com/books/content?id=MR-DAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-middle-of-things.jpg",
   "isbn": "9781448213214",
   "first_published": 1922,
   "pages": 262,
@@ -44,5 +44,7 @@
   "editions_count": 261,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36720793M"
+  "representative_edition_key": "/books/OL36720793M",
+  "cover_url_source": "https://books.google.com/books/content?id=MR-DAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:08+00:00"
 }

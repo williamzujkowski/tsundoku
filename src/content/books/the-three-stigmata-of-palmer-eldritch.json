@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4910773-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4910773-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-three-stigmata-of-palmer-eldritch.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-three-stigmata-of-palmer-eldritch.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2172402W",
   "first_published": 1965,
   "language": "eng",
@@ -67,5 +67,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL25131489M",
   "wikidata_qid": "Q1193211",
-  "original_title": "The Three Stigmata of Palmer Eldritch"
+  "original_title": "The Three Stigmata of Palmer Eldritch",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4910773-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4910773-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:17+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Every night for three years the vengeful King Shahriyar sleeps with a different virgin, executing her the next morning. To end this brutal pattern and to save her own life, the vizier's daughter, Shahrazad, begins to tell the king stories of adventure, love, riches and wonder - tales of mystical lands peopled with princes and hunchbacks, the Angel of Death and magical spirits, tales of the voyages of Sindbad, of Ali Baba outwitting a band of forty thieves and of jinnis trapped in rings and in la",
-  "cover_url": "https://books.google.com/books/content?id=VVuuqf_8oywC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/1001-arabian-nights.jpg",
   "isbn": "9780141943503",
   "first_published": 2010,
   "pages": 1407,
@@ -39,5 +39,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780141943527",
-  "representative_edition_key": "/books/OL24302564M"
+  "representative_edition_key": "/books/OL24302564M",
+  "cover_url_source": "https://books.google.com/books/content?id=VVuuqf_8oywC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:50:33+00:00"
 }

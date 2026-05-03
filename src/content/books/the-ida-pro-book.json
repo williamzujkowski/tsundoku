@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "No source code? No problem. With IDA Pro, the interactive disassembler, you live in a source code-optional world. IDA can automatically analyze the millions of opcodes that make up an executable and present you with a disassembly. But at that point, your work is just beginning. With The IDA Pro Book, you'll learn how to turn that mountain of mnemonics into something you can actually use. Hailed by the creator of IDA Pro as \"profound, comprehensive, and accurate,\" the second edition of The IDA Pr",
-  "cover_url": "https://books.google.com/books/content?id=kOJ5G_mAbZoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ida-pro-book.jpg",
   "isbn": "9781593273958",
   "first_published": 2008,
   "pages": 676,
@@ -45,5 +45,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781593271787",
-  "representative_edition_key": "/books/OL25116364M"
+  "representative_edition_key": "/books/OL25116364M",
+  "cover_url_source": "https://books.google.com/books/content?id=kOJ5G_mAbZoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:35+00:00"
 }

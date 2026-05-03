@@ -12,8 +12,8 @@
   "pages": 403,
   "google_books_url": "http://books.google.com/books?id=P7zqtAEACAAJ&dq=intitle:Rachel+Ray&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8244499-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8244499-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/rachel-ray.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/rachel-ray.jpg",
   "open_library_url": "https://openlibrary.org/works/OL109861W",
   "isbn": "9785040564385",
   "copyright_status": "public_domain",
@@ -75,5 +75,8 @@
   "editions_count": 35,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23152211M"
+  "representative_edition_key": "/books/OL23152211M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8244499-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8244499-L.jpg",
+  "cover_cached_at": "2026-05-03T01:46:40+00:00"
 }

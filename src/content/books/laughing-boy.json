@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Laughing Boy is the name of a young Navajo man living in the American Southwest during the era when the Americans are pushing westward in earnest. He’s looking to find his way in the world and earn the respect of his tribe, when he meets a mysterious and fiery young woman, Slim Girl, at a tribal meet. Slim Girl was raised in an American Indian school, a type of boarding school designed by missionaries to “civilize” the native population. Her experiences there left her deeply resentful, and this ",
-  "cover_url": "https://books.google.com/books/content?id=keo7EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/laughing-boy.jpg",
   "first_published": 1929,
   "pages": 233,
   "google_books_url": "https://play.google.com/store/books/details?id=keo7EQAAQBAJ&source=gbs_api",
@@ -85,5 +85,7 @@
       "name": "Pulitzer Prize for the Novel",
       "year": 1930
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=keo7EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:28:47+00:00"
 }

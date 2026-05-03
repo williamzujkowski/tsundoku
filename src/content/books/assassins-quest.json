@@ -8,8 +8,8 @@
     "fantasy",
     "war"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/368112-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/368112-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/assassins-quest.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/assassins-quest.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2707231W",
   "first_published": 1997,
   "language": "eng",
@@ -70,5 +70,8 @@
   "series": {
     "name": "The Farseer Trilogy",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/368112-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/368112-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:16+00:00"
 }

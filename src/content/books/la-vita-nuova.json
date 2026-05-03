@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5856316-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5856316-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/la-vita-nuova.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/la-vita-nuova.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15207876W",
   "first_published": 1876,
   "language": "eng",
@@ -43,5 +43,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39944989M"
+  "representative_edition_key": "/books/OL39944989M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5856316-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5856316-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:33+00:00"
 }

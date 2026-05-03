@@ -10,7 +10,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=XnwEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/you-never-can-tell.jpg",
   "first_published": 1906,
   "pages": 128,
   "google_books_url": "https://play.google.com/store/books/details?id=XnwEAQAAIAAJ&source=gbs_api",
@@ -52,5 +52,7 @@
   "editions_count": 36,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32340781M"
+  "representative_edition_key": "/books/OL32340781M",
+  "cover_url_source": "https://books.google.com/books/content?id=XnwEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:37+00:00"
 }

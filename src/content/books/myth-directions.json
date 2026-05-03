@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Myth Directions is a 1982 fantasy novel by American writer Robert Asprin, the third novel in the MythAdventures series.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MythDirections.jpg/250px-MythDirections.jpg",
+  "cover_url": "/tsundoku/cached/covers/myth-directions.jpg",
   "isbn": "9780099662600",
   "ddc": [
     "813.54"
@@ -52,5 +52,7 @@
   "series": {
     "name": "MythAdventures",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MythDirections.jpg/250px-MythDirections.jpg",
+  "cover_cached_at": "2026-05-03T01:33:45+00:00"
 }

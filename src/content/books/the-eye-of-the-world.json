@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Eye of the World is a high fantasy novel by American writer Robert Jordan and the first book in The Wheel of Time series. Published by Tor Books on January 15, 1990, it was initially released as a large paperback. The original unabridged audiobook is narrated by Michael Kramer and Kate Reading, with a later unabridged edition read by Rosamund Pike.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/WoT01_TheEyeOfTheWorld.jpg/250px-WoT01_TheEyeOfTheWorld.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-eye-of-the-world.jpg",
   "pages": 782,
   "isbn": "9781250832375",
   "ddc": [
@@ -76,5 +76,7 @@
   "series": {
     "name": "The Wheel of Time",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/WoT01_TheEyeOfTheWorld.jpg/250px-WoT01_TheEyeOfTheWorld.jpg",
+  "cover_cached_at": "2026-05-03T02:03:45+00:00"
 }

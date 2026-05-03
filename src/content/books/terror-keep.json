@@ -12,8 +12,8 @@
   "reading_status": "read",
   "google_books_url": "http://books.google.com/books?id=wEsfngEACAAJ&dq=intitle:Terror+Keep&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/1789843-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1789843-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/terror-keep.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/terror-keep.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1518029W",
   "first_published": 1927,
   "description": "Terror Keep is a 1927 thriller novel by the British writer Edgar Wallace. It is part of a series featuring Wallace's detective J.G. Reeder.",
@@ -51,5 +51,8 @@
   "editions_count": 59,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34237863M"
+  "representative_edition_key": "/books/OL34237863M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1789843-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1789843-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:04+00:00"
 }

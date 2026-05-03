@@ -8,13 +8,16 @@
     "computing"
   ],
   "description": "SOLID principles are an essential part of object-oriented software development and have proven to be valuable tools for developing clean, maintainable and extensible code. In industrial automation engineering, especially in programming controllers with IEC 61131-3, it is of particular importance to develop robust and reliable systems. In this book, SOLID principles are presented in detail and explained with examples in IEC 61131-3. It also illustrates how the application of these principles impr...",
-  "cover_url": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/data-abstraction-and-hierarchy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/data-abstraction-and-hierarchy.jpg",
   "isbn": "9783757892227",
   "first_published": 2023,
   "pages": 94,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=0YbgEAAAQBAJ&dq=Data+Abstraction+and+Hierarchy+Barbara+Liskov&hl=&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=0YbgEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:35+00:00"
 }

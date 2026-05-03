@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "my-struggle-book-1",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13779214-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13779214-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/my-struggle-book-1.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/my-struggle-book-1.jpg",
   "open_library_url": "https://openlibrary.org/works/OL34952072W",
   "first_published": 2014,
   "description": "The provocative, audacious, brilliant six-volume autobiographical novel that has unquestionably been the main event of contemporary European literature. It has earned favorable comparisons to its obvious literary forebears \"A la recherche du temps perdu\" and \"Mein Kampf\"Nbut has been celebrated as the rare magnum opus that is intensely, addictively readable.",
@@ -49,5 +49,8 @@
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28047402M"
+  "representative_edition_key": "/books/OL28047402M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13779214-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13779214-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:43+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "my-name-is-red",
   "tags": [],
-  "cover_url": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/my-name-is-red.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/my-name-is-red.jpg",
   "isbn": "096504341X",
   "first_published": 1998,
   "pages": 468,
@@ -96,5 +96,8 @@
       "name": "Dublin Literary Award",
       "year": 2003
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=fElQlIT6k50C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:40+00:00"
 }

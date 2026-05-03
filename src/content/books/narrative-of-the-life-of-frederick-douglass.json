@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "narrative-of-the-life-of-frederick-douglass",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8247724-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8247724-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/narrative-of-the-life-of-frederick-douglass.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/narrative-of-the-life-of-frederick-douglass.jpg",
   "open_library_url": "https://openlibrary.org/works/OL69178W",
   "first_published": 1845,
   "language": "eng",
@@ -165,5 +165,8 @@
   "first_edition_isbn": "9781945644672",
   "representative_edition_key": "/books/OL39187699M",
   "wikidata_qid": "Q54638790",
-  "original_publisher": "Harvard University Press"
+  "original_publisher": "Harvard University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8247724-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8247724-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:52+00:00"
 }

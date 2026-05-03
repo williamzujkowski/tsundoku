@@ -9,8 +9,8 @@
     "horror",
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/846914-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/846914-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/fledgling.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fledgling.jpg",
   "open_library_url": "https://openlibrary.org/works/OL35611W",
   "first_published": 2005,
   "language": "eng",
@@ -72,5 +72,8 @@
   "wikidata_qid": "Q5458359",
   "original_title": "Fledgling",
   "original_language": "eng",
-  "original_publisher": "Seven Stories Press"
+  "original_publisher": "Seven Stories Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/846914-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/846914-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:41+00:00"
 }

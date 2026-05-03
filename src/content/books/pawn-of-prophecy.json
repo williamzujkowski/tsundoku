@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "For use in schools and libraries only. The farm boy, Garion, begins a dangerous quest to recover the magic Orb and prevent the evil Torak from seizing power over the world.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/pawn-of-prophecy.png",
+  "cover_url_large": "/tsundoku/cached/covers/pawn-of-prophecy.png",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780712602303",
@@ -54,7 +54,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 27,
   "first_published_circa": false,
@@ -66,5 +67,7 @@
   "series": {
     "name": "The Belgariad",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/6/6a/The_Belgariad_book_cover.png",
+  "cover_cached_at": "2026-05-03T01:40:31+00:00"
 }

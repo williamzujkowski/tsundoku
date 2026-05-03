@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "dark-night-of-the-soul",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4705729-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4705729-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dark-night-of-the-soul.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dark-night-of-the-soul.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8049988W",
   "first_published": 1922,
   "language": "eng",
@@ -51,5 +51,8 @@
   },
   "editions_count": 16,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22656661M"
+  "representative_edition_key": "/books/OL22656661M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4705729-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4705729-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:29+00:00"
 }

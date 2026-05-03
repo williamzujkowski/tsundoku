@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL29680545W",
   "first_published": 2018,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=7-rxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=7-rxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bouvard-and-p-cuchet.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bouvard-and-p-cuchet.jpg",
   "isbn": "9783752318524",
   "pages": 206,
   "google_books_url": "http://books.google.com/books?id=7-rxDwAAQBAJ&dq=Bouvard+and+P%C3%A9cuchet+Gustave+Flaubert&hl=&source=gbs_api",
@@ -34,5 +34,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL32081999M"
+  "representative_edition_key": "/books/OL32081999M",
+  "cover_url_source": "https://books.google.com/books/content?id=7-rxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=7-rxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:02+00:00"
 }

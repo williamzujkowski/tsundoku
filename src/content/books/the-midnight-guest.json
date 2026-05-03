@@ -14,8 +14,8 @@
   "first_published": 1907,
   "google_books_url": "http://books.google.com/books?id=bEF0swEACAAJ&dq=intitle:The+Midnight+Guest&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/2499287-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2499287-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-midnight-guest.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-midnight-guest.jpg",
   "open_library_url": "https://openlibrary.org/works/OL110763W",
   "description": "Lord Ravenspur is a brilliant, beloved lord who lives a peaceful life with his nephew Walter and adopted daughter Vera, but when Mrs. Delahay comes to him with the news of her husband’s murder, his life takes a worse turn. Worrying for his uncle’s safety after numerous incidents, Walter secretly investigates the mystery in spite of his uncle’s warning. What Walter soon discovers is not only a shocking revelation about Vera’s origin, but also a rumor that his uncle is not who he seems to be. In T...",
   "pages": 290,
@@ -45,5 +45,8 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56793440M"
+  "representative_edition_key": "/books/OL56793440M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2499287-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2499287-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:10+00:00"
 }

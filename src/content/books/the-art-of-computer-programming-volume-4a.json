@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9332657-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9332657-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-art-of-computer-programming-volume-4a.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-art-of-computer-programming-volume-4a.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20665262W",
   "first_published": 1968,
   "description": "The Art of Computer Programming is Knuth's multivolume analysis of algorithms. With the addition of this new volume, it continues to be the definitive description of classical computer science. Volume 4B, the sequel to Volume 4A, extends Knuth's exploration of combinatorial algorithms. These algorithms are of keen interest to software designers because \". . . a single good idea can save years or even centuries of computer time.\" The book begins with coverage of Backtrack Programming, together wi...",
@@ -54,5 +54,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL5547366M",
   "wikidata_qid": "Q47752444",
-  "original_title": "The Art of Computer Programming"
+  "original_title": "The Art of Computer Programming",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9332657-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9332657-L.jpg",
+  "cover_cached_at": "2026-05-03T01:56:10+00:00"
 }

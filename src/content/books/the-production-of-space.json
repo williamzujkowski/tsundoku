@@ -8,8 +8,8 @@
     "philosophy"
   ],
   "description": "Henri Lefebvre has considerable claims to be the greatest living philosopher. His work spans some sixty years and includes original work on a diverse range of subjects, from dialectical materialism to architecture, urbanism and the experience of everyday life. The Production of Space is his major philosophical work and its translation has been long awaited by scholars in many different fields. The book is a search for a reconciliation between mental space (the space of the philosophers) and real...",
-  "cover_url": "https://books.google.com/books/content?id=SIXcnIoa4MwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SIXcnIoa4MwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-production-of-space.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-production-of-space.jpg",
   "isbn": "0631181776",
   "first_published": 1991,
   "pages": 464,
@@ -44,5 +44,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0631181776",
-  "representative_edition_key": "/books/OL16406312M"
+  "representative_edition_key": "/books/OL16406312M",
+  "cover_url_source": "https://books.google.com/books/content?id=SIXcnIoa4MwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SIXcnIoa4MwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:55+00:00"
 }

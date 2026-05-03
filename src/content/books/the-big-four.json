@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=SXEuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SXEuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-big-four.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-big-four.jpg",
   "first_published": 1913,
   "pages": 500,
   "google_books_url": "https://play.google.com/store/books/details?id=SXEuAAAAIAAJ&source=gbs_api",
@@ -80,5 +80,8 @@
   "original_publisher": "William Collins, Sons",
   "series": {
     "name": "canon of Hercule Poirot"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=SXEuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SXEuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:57:49+00:00"
 }

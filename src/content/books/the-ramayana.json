@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Ramayana, also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a smriti text from ancient India, one of the two important epics of Hinduism known as the Itihasas, the other being the Mahabharata. The epic narrates the life of Rama, the seventh avatar of the Hindu deity Vishnu, who was a prince of Ayodhya in the kingdom of Kosala.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png/330px-R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png",
+  "cover_url": "/tsundoku/cached/covers/the-ramayana.png",
   "pages": 946,
   "isbn": "9788171102822",
   "lcc": [
@@ -32,5 +32,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "8171102824",
-  "representative_edition_key": "/books/OL13140824M"
+  "representative_edition_key": "/books/OL13140824M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png/330px-R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png",
+  "cover_cached_at": "2026-05-03T02:12:14+00:00"
 }

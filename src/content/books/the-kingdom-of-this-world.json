@@ -7,8 +7,8 @@
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL31376133W",
   "first_published": 1957,
-  "cover_url": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-kingdom-of-this-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-kingdom-of-this-world.jpg",
   "pages": 176,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=PSrtAAAAMAAJ&dq=The+Kingdom+of+This+World+Alejo+Carpentier&hl=&source=gbs_api",
@@ -83,5 +83,8 @@
   "editions_count": 57,
   "first_published_circa": false,
   "first_edition_isbn": "1499015518",
-  "representative_edition_key": "/books/OL26326956M"
+  "representative_edition_key": "/books/OL26326956M",
+  "cover_url_source": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=PSrtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:13+00:00"
 }

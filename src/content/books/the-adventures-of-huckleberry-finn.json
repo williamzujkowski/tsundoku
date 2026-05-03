@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Huckleberry Finn, an abused outcast, rafts with Jim, a runaway slave, down the Mississippi River, where they have a variety of experiences.",
-  "cover_url": "https://books.google.com/books/content?id=s9q60rLUbRcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-adventures-of-huckleberry-finn.jpg",
   "isbn": "1904633463",
   "first_published": 1884,
   "pages": 372,
@@ -478,5 +478,7 @@
   "original_publisher": "Chatto & Windus",
   "series": {
     "name": "Tom Sawyer books"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=s9q60rLUbRcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:55:31+00:00"
 }

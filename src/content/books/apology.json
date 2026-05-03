@@ -9,8 +9,8 @@
     "historical-fiction",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/apology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/apology.jpg",
   "open_library_url": "https://openlibrary.org/works/OL379949W",
   "first_published": -395,
   "language": "eng",
@@ -97,5 +97,8 @@
   "wikidata_qid": "Q273668",
   "series": {
     "name": "Platonic dialogue"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:37+00:00"
 }

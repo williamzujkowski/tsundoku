@@ -9,8 +9,8 @@
     "short-stories",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6717853-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6717853-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-adventures-of-sherlock-holmes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-adventures-of-sherlock-holmes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL262421W",
   "first_published": 1892,
   "language": "eng",
@@ -205,5 +205,8 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL40720450M"
+  "representative_edition_key": "/books/OL40720450M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6717853-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6717853-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:34+00:00"
 }

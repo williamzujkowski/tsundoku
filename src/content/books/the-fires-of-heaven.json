@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Fires of Heaven is a fantasy novel by American writer Robert Jordan, the fifth book in his series The Wheel of Time. It was published by Tor Books and released on October 15, 1993.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/WoT05_TheFiresOfHeaven.jpg/120px-WoT05_TheFiresOfHeaven.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fires-of-heaven.jpg",
   "pages": 894,
   "isbn": "9781429960373",
   "ddc": [
@@ -45,5 +45,7 @@
   },
   "editions_count": 36,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29360675M"
+  "representative_edition_key": "/books/OL29360675M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/WoT05_TheFiresOfHeaven.jpg/120px-WoT05_TheFiresOfHeaven.jpg",
+  "cover_cached_at": "2026-05-03T02:04:33+00:00"
 }

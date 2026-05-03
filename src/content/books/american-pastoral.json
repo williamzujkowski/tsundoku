@@ -8,8 +8,8 @@
     "historical-fiction",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9322643-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9322643-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/american-pastoral.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/american-pastoral.jpg",
   "open_library_url": "https://openlibrary.org/works/OL74666W",
   "first_published": 1997,
   "language": "eng",
@@ -83,5 +83,8 @@
   ],
   "series": {
     "name": "American trilogy"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9322643-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9322643-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:04+00:00"
 }

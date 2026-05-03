@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "madame-bovary-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12993424-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12993424-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/madame-bovary-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/madame-bovary-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL893707W",
   "first_published": 1857,
   "language": "eng",
@@ -299,5 +299,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL56832033M",
   "wikidata_qid": "Q193417",
-  "original_title": "Madame Bovary"
+  "original_title": "Madame Bovary",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12993424-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12993424-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:25+00:00"
 }

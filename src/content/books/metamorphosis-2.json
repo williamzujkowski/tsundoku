@@ -9,8 +9,8 @@
   "first_published": 1966,
   "language": "eng",
   "description": "The Metamorphosis is a novella written by Franz Kafka which was first published in 1915. One of Kafka's best-known works, The Metamorphosis tells the story of salesman Gregor Samsa who wakes one morning to find himself inexplicably transformed into a huge insect (German ungeheures Ungeziefer, literally \"monstrous vermin\"), subsequently struggling to adjust to this new condition. The novella has been widely discussed among literary critics, with differing interpretations being offered. Franz Kafk...",
-  "cover_url": "https://books.google.com/books/content?id=23ftDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=23ftDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/metamorphosis-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/metamorphosis-2.jpg",
   "pages": 67,
   "google_books_url": "http://books.google.com/books?id=23ftDwAAQBAJ&dq=Metamorphosis+Kafka&hl=&source=gbs_api",
   "reading_status": "want",
@@ -166,5 +166,8 @@
   "original_language": "spa",
   "original_title": "La metamorfosis",
   "first_edition_isbn": "8420610046",
-  "representative_edition_key": "/books/OL37991176M"
+  "representative_edition_key": "/books/OL37991176M",
+  "cover_url_source": "https://books.google.com/books/content?id=23ftDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=23ftDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:32+00:00"
 }

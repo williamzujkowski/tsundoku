@@ -8,8 +8,8 @@
     "horror",
     "humor"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/15126864-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15126864-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/fevre-dream.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fevre-dream.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1955940W",
   "first_published": 1982,
   "language": "eng",
@@ -52,5 +52,8 @@
   "representative_edition_key": "/books/OL32300575M",
   "wikidata_qid": "Q2915854",
   "original_title": "Fevre Dream",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15126864-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15126864-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:30+00:00"
 }

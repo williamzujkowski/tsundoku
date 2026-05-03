@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31613772W",
   "first_published": 1938,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=sY7uG99oSb8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=sY7uG99oSb8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/nausea.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/nausea.jpg",
   "pages": 250,
   "google_books_url": "http://books.google.com/books?id=sY7uG99oSb8C&dq=Nausea+Jean-Paul+Sartre&hl=&source=gbs_api",
   "description": "This classic Existentialist novel features a new Introduction by renowned poet, translator, and critic Richard Howard.",
@@ -101,5 +101,8 @@
   "original_title": "La Nausée",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8000086M",
-  "wikidata_qid": "Q658288"
+  "wikidata_qid": "Q658288",
+  "cover_url_source": "https://books.google.com/books/content?id=sY7uG99oSb8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=sY7uG99oSb8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:58+00:00"
 }

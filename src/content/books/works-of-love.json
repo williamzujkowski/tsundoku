@@ -11,8 +11,8 @@
   "first_published": 1962,
   "language": "eng",
   "description": "Following his acclaimed translations of Fear and Trembling and The Sickness unto Death, Bruce H. Kirmmse presents a new translation of Kierkegaard’s discourses on love. “Bruce H. Kirmmse is among the very best translators of Kierkegaard working today.” —Christopher B. Barnett A founding figure of existentialism, Søren Kierkegaard is perhaps best known for his writing on anxiety and despair, particularly in such works as Fear and Trembling, The Concept of Anxiety, and The Sickness unto Death. Yet...",
-  "cover_url": "https://books.google.com/books/content?id=RbspEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=RbspEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/works-of-love.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/works-of-love.jpg",
   "isbn": "9781324093688",
   "pages": 560,
   "google_books_url": "https://play.google.com/store/books/details?id=RbspEQAAQBAJ&source=gbs_api",
@@ -36,5 +36,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57595323M"
+  "representative_edition_key": "/books/OL57595323M",
+  "cover_url_source": "https://books.google.com/books/content?id=RbspEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=RbspEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:26+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "As a full-featured, free alternative to Adobe Photoshop, GIMP is one of the world's most popular open source projects. The latest version of GIMP (2.8) brings long-awaited improvements and powerful new tools to make graphic design and photo manipulation even easier—but it's still a notoriously challenging program to use. The Artist's Guide to GIMP teaches you how to use GIMP without a tedious list of menu paths and options. Instead, as you follow along with Michael J. Hammel's step-by-step instr",
-  "cover_url": "https://books.google.com/books/content?id=fH6LBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-artist-s-guide-to-gimp-creative-techniques-for-photographers-artists-and-designers.jpg",
   "isbn": "9781593274146",
   "first_published": 2012,
   "pages": 324,
@@ -38,5 +38,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593274146",
-  "representative_edition_key": "/books/OL27018320M"
+  "representative_edition_key": "/books/OL27018320M",
+  "cover_url_source": "https://books.google.com/books/content?id=fH6LBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:19+00:00"
 }

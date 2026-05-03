@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9415186-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9415186-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-house-of-the-dead.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-house-of-the-dead.jpg",
   "open_library_url": "https://openlibrary.org/works/OL166970W",
   "first_published": 1862,
   "language": "eng",
@@ -92,5 +92,8 @@
   "representative_edition_key": "/books/OL24311522M",
   "wikidata_qid": "Q1161171",
   "original_title": "Записки из Мёртвого дома",
-  "original_language": "rus"
+  "original_language": "rus",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9415186-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9415186-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:07+00:00"
 }

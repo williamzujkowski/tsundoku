@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Interesting Narrative of the Life of Olaudah Equiano, written in 1789, details its writer's life in slavery, his time spent serving on galleys, the eventual attainment of his own freedom and later success in business. Including a look at how slavery stood in West Africa, the book received favorable reviews and was one of the first slave narratives to be read widely.",
-  "cover_url": "https://books.google.com/books/content?id=Jr9456shUP4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-interesting-narrative-of-the-life-of-olaudah-equiano.jpg",
   "isbn": "9781775416197",
   "first_published": 1789,
   "pages": 350,
@@ -136,5 +136,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL24313923M",
   "wikidata_qid": "Q7742270",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=Jr9456shUP4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:53+00:00"
 }

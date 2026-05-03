@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9426689-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9426689-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/network-effect.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/network-effect.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20735675W",
   "first_published": 2020,
   "language": "eng",
@@ -74,5 +74,8 @@
   "series": {
     "name": "The Murderbot Diaries",
     "position": 5
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9426689-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9426689-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:05+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8294024-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8294024-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-wise-mans-fear.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wise-mans-fear.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8479869W",
   "first_published": 2011,
   "language": "eng",
@@ -77,5 +77,8 @@
   "series": {
     "name": "The Kingkiller Chronicle",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8294024-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8294024-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:33+00:00"
 }

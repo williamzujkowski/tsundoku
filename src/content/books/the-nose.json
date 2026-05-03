@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1826768-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1826768-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-nose.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-nose.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8791626W",
   "first_published": 2000,
   "language": "eng",
@@ -42,5 +42,8 @@
   "original_language": "und",
   "original_title": "O Nariz",
   "first_edition_isbn": "9788525410399",
-  "representative_edition_key": "/books/OL28796613M"
+  "representative_edition_key": "/books/OL28796613M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1826768-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1826768-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:56+00:00"
 }

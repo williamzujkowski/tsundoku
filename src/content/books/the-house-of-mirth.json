@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "An immensely popular bestseller upon its publication in 1905, The House of Mirth was Edith Wharton’s first great novel. Set among the elegant brownstones of New York City and opulent country houses like gracious Bellomont on the Hudson, the novel creates a satiric portrayal of what Wharton herself called “a society of irresponsible pleasure-seekers” with a precision comparable to that of Proust. And her brilliant and complex characterization of the doomed Lily Bart, whose stunning beauty and dep",
-  "cover_url": "https://books.google.com/books/content?id=XuiwkkjMYU0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-house-of-mirth.jpg",
   "isbn": "9781101640241",
   "first_published": 1905,
   "pages": 369,
@@ -153,5 +153,7 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=XuiwkkjMYU0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:05+00:00"
 }

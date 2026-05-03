@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Ball shows how much can be understood of human behavior when we cease to predict and analyze the behavior of individuals and instead look to the impact of individual decisions--whether in circumstances of cooperation or conflict--on our laws, institutions and customs.",
-  "cover_url": "https://books.google.com/books/content?id=G-C9k_EvVJ8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/critical-mass.jpg",
   "isbn": "0374530416",
   "first_published": 2004,
   "pages": 532,
@@ -41,5 +41,7 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7424654M"
+  "representative_edition_key": "/books/OL7424654M",
+  "cover_url_source": "https://books.google.com/books/content?id=G-C9k_EvVJ8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:05:52+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "'Woe to the rash mortal who seeks to know that of which he should remain ignorant; and to undertake that which surpasseth his power!' The Caliph Vathek is dissolute and debauched, and hungry for knowledge. When the mysterious Giaour offers him boundless treasure and unrivalled power he is willing to sacrifice his god, the lives of innocent children, and his own soul to satisfy his obsession. Vathek's extraordinary journey to the subterranean palace of Eblis, and the terrifying fate that there aw",
-  "cover_url": "https://books.google.com/books/content?id=Dn2X3Zdc3GIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/vathek.jpg",
   "isbn": "9780191645785",
   "first_published": 1912,
   "pages": 359,
@@ -52,5 +52,7 @@
   "editions_count": 12,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8654649M"
+  "representative_edition_key": "/books/OL8654649M",
+  "cover_url_source": "https://books.google.com/books/content?id=Dn2X3Zdc3GIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:24:09+00:00"
 }

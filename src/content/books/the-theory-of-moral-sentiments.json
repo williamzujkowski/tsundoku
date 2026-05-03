@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5584363-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5584363-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-theory-of-moral-sentiments.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-theory-of-moral-sentiments.jpg",
   "open_library_url": "https://openlibrary.org/works/OL76826W",
   "first_published": 1759,
   "language": "eng",
@@ -73,5 +73,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38358634M"
+  "representative_edition_key": "/books/OL38358634M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5584363-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5584363-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:05+00:00"
 }

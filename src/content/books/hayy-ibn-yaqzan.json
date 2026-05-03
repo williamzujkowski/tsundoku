@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "hayy-ibn-yaqzan",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9213117-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9213117-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hayy-ibn-yaqzan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hayy-ibn-yaqzan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL313157W",
   "first_published": 1711,
   "language": "eng",
@@ -15,5 +15,8 @@
   "pages": 281,
   "google_books_url": "https://play.google.com/store/books/details?id=EAtCCQAAQBAJ&source=gbs_api",
   "reading_status": "read",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9213117-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9213117-L.jpg",
+  "cover_cached_at": "2026-05-03T01:19:01+00:00"
 }

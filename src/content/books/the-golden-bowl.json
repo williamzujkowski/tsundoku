@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "This work is Henry James's last novel and is a symbolically complex story of two flawed marriages. The gilded crystal bowl with its largely concealed flaw is the symbolic vehicle used to reveal past misdemeanours and make the characters face the flaws in their lives.",
-  "cover_url": "https://books.google.com/books/content?id=YGi31RrustcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-golden-bowl.jpg",
   "isbn": "1840224320",
   "first_published": 1904,
   "pages": 478,
@@ -93,5 +93,7 @@
   "editions_count": 78,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8914252M"
+  "representative_edition_key": "/books/OL8914252M",
+  "cover_url_source": "https://books.google.com/books/content?id=YGi31RrustcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:41+00:00"
 }

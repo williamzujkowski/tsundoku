@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-ascent-of-mount-carmel",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10614437-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10614437-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-ascent-of-mount-carmel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-ascent-of-mount-carmel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24188263W",
   "first_published": 2017,
   "language": "eng",
@@ -31,5 +31,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL48721201M"
+  "representative_edition_key": "/books/OL48721201M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10614437-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10614437-L.jpg",
+  "cover_cached_at": "2026-05-03T01:56:25+00:00"
 }

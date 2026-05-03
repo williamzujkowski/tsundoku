@@ -14,8 +14,8 @@
   "pages": 558,
   "google_books_url": "http://books.google.com/books?id=9UTrtAEACAAJ&dq=intitle:The+Portrait+of+a+Lady&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/3352367-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3352367-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-portrait-of-a-lady.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-portrait-of-a-lady.jpg",
   "open_library_url": "https://openlibrary.org/works/OL276365W",
   "copyright_status": "public_domain",
   "gutenberg_id": 2833,
@@ -190,5 +190,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781981795260",
-  "representative_edition_key": "/books/OL55028191M"
+  "representative_edition_key": "/books/OL55028191M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3352367-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3352367-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:34+00:00"
 }

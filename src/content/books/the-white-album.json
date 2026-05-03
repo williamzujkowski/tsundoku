@@ -6,8 +6,8 @@
   "slug": "the-white-album",
   "tags": [],
   "description": "First published in 1979, Joan Didion's The White Album records indelibly the upheavals and aftermaths of the 1960s. Examining key events, figures, and trends of the era—including Charles Manson, the Black Panthers, and the shopping mall—through the lens of her own spiritual confusion, Joan Didion helped to define mass culture as we now understand it. Written with a commanding sureness of tone and linguistic precision, The White Album is a central text of American reportage and a classic of Ameri...",
-  "cover_url": "https://books.google.com/books/content?id=Mf0GEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Mf0GEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-white-album.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-white-album.jpg",
   "isbn": "9780374608798",
   "first_published": 1979,
   "pages": 189,
@@ -49,5 +49,8 @@
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL52207836M"
+  "representative_edition_key": "/books/OL52207836M",
+  "cover_url_source": "https://books.google.com/books/content?id=Mf0GEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Mf0GEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:12+00:00"
 }

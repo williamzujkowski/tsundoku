@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The bestselling author of Daemon returns with a near-future technological thriller, in which a charismatic billionaire recruits a team of adventurers to launch the first deep space mining operation--a mission that could alter the trajectory of human civilization. When itinerant cave diver James Tighe receives an invitation to billionaire Nathan Joyce's private island, he thinks it must be a mistake. But Tighe's unique skill set makes him a prime candidate for Joyce's high-risk venture to mine a ",
-  "cover_url": "https://books.google.com/books/content?id=bOeODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/delta-v.jpg",
   "isbn": "9781524742416",
   "first_published": 2019,
   "pages": 450,
@@ -36,5 +36,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781524742416",
-  "representative_edition_key": "/books/OL28702085M"
+  "representative_edition_key": "/books/OL28702085M",
+  "cover_url_source": "https://books.google.com/books/content?id=bOeODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:03+00:00"
 }

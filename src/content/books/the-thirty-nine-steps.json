@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "A Shocking Adventure Novel “I believe everything out of the common. The only thing to distrust is the normal.” ― John Buchan, The 39 Steps John Buchan's The Thirty-Nine Steps is a fast-paced adventure novel featuring Richard Hannay, a Scottish hero with a knack for getting himself into and out of trouble. The Thirty Nine Steps has been adapted many times, most notably by Alfred Hitchcock. This Xist Classics edition has been professionally formatted for e-readers with a linked table of contents. ",
-  "cover_url": "https://books.google.com/books/content?id=CdcmCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-thirty-nine-steps.jpg",
   "isbn": "9781623959913",
   "first_published": 1915,
   "pages": 110,
@@ -142,5 +142,7 @@
   "original_publisher": "Blackwood & Sons",
   "series": {
     "name": "Richard Hannay"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=CdcmCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:10+00:00"
 }

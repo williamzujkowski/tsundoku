@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-age-of-empire",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/419768-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/419768-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-age-of-empire.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-age-of-empire.jpg",
   "open_library_url": "https://openlibrary.org/works/OL495653W",
   "first_published": 1987,
   "language": "eng",
@@ -61,5 +61,8 @@
   "representative_edition_key": "/books/OL8923999M",
   "wikidata_qid": "Q7712845",
   "original_title": "The Age of Empire: 1875–1914",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/419768-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/419768-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:48+00:00"
 }

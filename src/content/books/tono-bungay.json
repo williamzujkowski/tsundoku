@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The story of an apprentice chemist whose uncle’s worthless medicine becomes a spectacular marketing success, Tono-Bungay earned H. G. Wells immediate acclaim when it appeared in 1909. It remains a sparkling chronicle of chicanery and human credulity, and is today regarded by many as Wells’s greatest novel. As Andrea Barrett observes in her Introduction, “Through its detailed, often brilliant descriptions and powerful imagery, [Tono-Bungay] slyly satirizes British imperial policy as a whole. . . ",
-  "cover_url": "https://books.google.com/books/content?id=_CmUARYR9jEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tono-bungay.jpg",
   "isbn": "9780307432827",
   "first_published": 1900,
   "pages": 402,
@@ -111,5 +111,7 @@
   "wikidata_qid": "Q1535422",
   "original_title": "Tono-Bungay",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://books.google.com/books/content?id=_CmUARYR9jEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:32+00:00"
 }

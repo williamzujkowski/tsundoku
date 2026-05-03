@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "This work has been selected by scholars as being culturally important and is part of the knowledge base of civilization as we know it. This work is in the public domain in the United States of America, and possibly other nations. Within the United States, you may freely copy and distribute this work, as no entity (individual or corporate) has a copyright on the body of the work. Scholars believe, and we concur, that this work is important enough to be preserved, reproduced, and made generally av",
-  "cover_url": "https://books.google.com/books/content?id=F4CxzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-maid-of-sker.jpg",
   "isbn": "1013623703",
   "first_published": 1872,
   "pages": 210,
@@ -53,5 +53,7 @@
   "editions_count": 41,
   "first_published_circa": false,
   "first_edition_isbn": "9781507768969",
-  "representative_edition_key": "/books/OL56072474M"
+  "representative_edition_key": "/books/OL56072474M",
+  "cover_url_source": "https://books.google.com/books/content?id=F4CxzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:30+00:00"
 }

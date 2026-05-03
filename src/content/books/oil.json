@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "This award-winning history provides a fascinating look at the Civil War era oil boom in western Pennsylvania and its devastating impact on the region. In Petrolia, Brian Black offers a geographical and social history of a region that was not only the site of America's first oil boom but was also the world's largest oil producer between 1859 and 1873. Against the background of the growing demand for petroleum throughout and immediately following the Civil War, Black describes Oil Creek Valley's d",
-  "cover_url": "https://books.google.com/books/content?id=IpIsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/oil.jpg",
   "isbn": "9780801874659",
   "first_published": 2003,
   "pages": 319,
@@ -35,5 +35,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780801874659",
-  "representative_edition_key": "/books/OL34578086M"
+  "representative_edition_key": "/books/OL34578086M",
+  "cover_url_source": "https://books.google.com/books/content?id=IpIsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:36:20+00:00"
 }

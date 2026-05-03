@@ -7,8 +7,8 @@
   "tags": [
     "astronomy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14417175-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14417175-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pale-blue-dot.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pale-blue-dot.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2950948W",
   "first_published": 1994,
   "language": "eng",
@@ -49,5 +49,8 @@
   "representative_edition_key": "/books/OL9731861M",
   "wikidata_qid": "Q5231098",
   "original_title": "Pale Blue Dot",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14417175-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14417175-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:38+00:00"
 }

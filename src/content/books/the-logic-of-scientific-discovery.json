@@ -8,8 +8,8 @@
     "philosophy",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/262763-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/262763-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-logic-of-scientific-discovery.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-logic-of-scientific-discovery.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1984582W",
   "first_published": 1934,
   "language": "eng",
@@ -109,5 +109,8 @@
   "representative_edition_key": "/books/OL7489739M",
   "wikidata_qid": "Q1868040",
   "original_title": "The logic of scientific discover",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/262763-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/262763-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:03+00:00"
 }

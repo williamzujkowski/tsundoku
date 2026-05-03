@@ -8,8 +8,8 @@
     "fantasy",
     "horror"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1726053-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1726053-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hellbound-heart.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hellbound-heart.jpg",
   "open_library_url": "https://openlibrary.org/works/OL257785W",
   "first_published": 1986,
   "language": "eng",
@@ -48,5 +48,8 @@
   "wikidata_qid": "Q3521239",
   "original_title": "The Hellbound Heart",
   "original_language": "eng",
-  "original_publisher": "HarperCollins"
+  "original_publisher": "HarperCollins",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1726053-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1726053-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:31+00:00"
 }

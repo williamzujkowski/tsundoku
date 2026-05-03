@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=56QMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/phineas-redux.jpg",
   "first_published": 1874,
   "pages": 378,
   "google_books_url": "https://play.google.com/store/books/details?id=56QMAAAAIAAJ&source=gbs_api",
@@ -93,5 +93,7 @@
   "editions_count": 77,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8993510M"
+  "representative_edition_key": "/books/OL8993510M",
+  "cover_url_source": "https://books.google.com/books/content?id=56QMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:42:47+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9378728-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9378728-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/structured-computer-organization.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/structured-computer-organization.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1970690W",
   "first_published": 1975,
   "language": "eng",
@@ -79,5 +79,8 @@
   "representative_edition_key": "/books/OL3421867M",
   "wikidata_qid": "Q116001053",
   "original_title": "Structured Computer Organization",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9378728-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9378728-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:03+00:00"
 }

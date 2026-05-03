@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "tess-of-the-durbervilles",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13109386-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13109386-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/tess-of-the-durbervilles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tess-of-the-durbervilles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL44927W",
   "first_published": 1707,
   "language": "eng",
@@ -35,5 +35,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL4074804M"
+  "representative_edition_key": "/books/OL4074804M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13109386-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13109386-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:21+00:00"
 }

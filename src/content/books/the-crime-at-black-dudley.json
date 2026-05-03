@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Murder turns a weekend house part at Black Dudley Manor into a deadly affair when the host is discovered brutally slain. Detective Albert Campion is there to sift through the motives and clues with his signature charm.",
-  "cover_url": "https://books.google.com/books/content?id=MKUFiyrFQpwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-crime-at-black-dudley.jpg",
   "isbn": "0380705753",
   "first_published": 1929,
   "pages": 228,
@@ -54,5 +54,7 @@
   "editions_count": 46,
   "first_published_circa": false,
   "first_edition_isbn": "9780891901884",
-  "representative_edition_key": "/books/OL7432515M"
+  "representative_edition_key": "/books/OL7432515M",
+  "cover_url_source": "https://books.google.com/books/content?id=MKUFiyrFQpwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:04+00:00"
 }

@@ -11,8 +11,8 @@
   "first_published": 1960,
   "language": "eng",
   "description": "THE STORY: Fearing cuckoldry above all else, Arnolphe has painstakingly trained the guileless Agnes from childhood to become his obedient and faithful wife. Although he has carefully shielded her from the outside world, romance finds her in the for",
-  "cover_url": "https://books.google.com/books/content?id=OPMLxxpAGSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=OPMLxxpAGSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-school-for-wives.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-school-for-wives.jpg",
   "isbn": "0822209993",
   "pages": 88,
   "google_books_url": "http://books.google.com/books?id=OPMLxxpAGSoC&dq=The+School+for+Wives+Moli%C3%A8re&hl=&source=gbs_api",
@@ -37,5 +37,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35346954M"
+  "representative_edition_key": "/books/OL35346954M",
+  "cover_url_source": "https://books.google.com/books/content?id=OPMLxxpAGSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=OPMLxxpAGSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:04+00:00"
 }

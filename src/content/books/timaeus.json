@@ -11,8 +11,8 @@
   "open_library_url": "https://openlibrary.org/works/OL40211013W",
   "first_published": -360,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/timaeus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/timaeus.jpg",
   "isbn": "9783566047283",
   "pages": 282,
   "google_books_url": "http://books.google.com/books?id=geaWEQAAQBAJ&dq=Timaeus+Plato&hl=&source=gbs_api",
@@ -36,5 +36,8 @@
   },
   "editions_count": 10,
   "first_edition_isbn": "9781503043299",
-  "representative_edition_key": "/books/OL55585792M"
+  "representative_edition_key": "/books/OL55585792M",
+  "cover_url_source": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=geaWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:20:57+00:00"
 }

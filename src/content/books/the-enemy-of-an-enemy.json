@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A bold explanation of how and why national leaders are able—or unable—to correctly analyze and predict the intentions of foreign rivals",
-  "cover_url": "https://books.google.com/books/content?id=nXCJAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-enemy-of-an-enemy.jpg",
   "isbn": "9780199987375",
   "first_published": 2014,
   "pages": 267,
@@ -47,5 +47,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780199987375",
-  "representative_edition_key": "/books/OL26014753M"
+  "representative_edition_key": "/books/OL26014753M",
+  "cover_url_source": "https://books.google.com/books/content?id=nXCJAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:35+00:00"
 }

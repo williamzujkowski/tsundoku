@@ -8,8 +8,8 @@
     "ai",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/284094-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/284094-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/singularity-sky.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/singularity-sky.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2465688W",
   "first_published": 2003,
   "language": "eng",
@@ -55,5 +55,8 @@
   "series": {
     "name": "Eschaton",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/284094-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/284094-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:55+00:00"
 }

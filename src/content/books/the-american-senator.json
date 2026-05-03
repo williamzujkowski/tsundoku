@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "I never could understand why anybody should ever have begun to live at Dillsborough, or why the population there should have been at any time recruited by new comers. That a man with a family should cling to a house in which he has once established himself is intelligible. The butcher who supplied Dillsborough, or the baker, or the ironmonger, though he might not drive what is called a roaring trade, nevertheless found himself probably able to live, and might well hesitate before he would encoun",
-  "cover_url": "https://books.google.com/books/content?id=PNs0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-american-senator.jpg",
   "isbn": "9781465584212",
   "first_published": 1877,
   "pages": 828,
@@ -65,5 +65,7 @@
   "editions_count": 39,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23202085M"
+  "representative_edition_key": "/books/OL23202085M",
+  "cover_url_source": "https://books.google.com/books/content?id=PNs0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:00+00:00"
 }

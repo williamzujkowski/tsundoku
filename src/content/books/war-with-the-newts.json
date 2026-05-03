@@ -13,8 +13,8 @@
   "open_library_url": "https://openlibrary.org/works/OL43754807W",
   "first_published": 1936,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=WhnuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=WhnuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/war-with-the-newts.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/war-with-the-newts.jpg",
   "pages": 262,
   "google_books_url": "http://books.google.com/books?id=WhnuAAAAMAAJ&dq=War+with+the+Newts+Karel+%C4%8Capek&hl=&source=gbs_api",
   "reading_status": "read",
@@ -95,5 +95,8 @@
   "original_title": "Válka s mloky",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL41287486M",
-  "wikidata_qid": "Q1194994"
+  "wikidata_qid": "Q1194994",
+  "cover_url_source": "https://books.google.com/books/content?id=WhnuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=WhnuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:28+00:00"
 }

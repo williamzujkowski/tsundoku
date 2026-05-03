@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "black-reconstruction-in-america",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/425993-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/425993-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/black-reconstruction-in-america.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/black-reconstruction-in-america.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28582W",
   "first_published": 1935,
   "language": "eng",
@@ -75,5 +75,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL33855265M",
   "wikidata_qid": "Q4921540",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/425993-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/425993-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:29+00:00"
 }

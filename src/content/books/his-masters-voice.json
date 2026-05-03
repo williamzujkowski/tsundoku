@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14052205-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14052205-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/his-masters-voice.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/his-masters-voice.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27714066W",
   "first_published": 1968,
   "language": "eng",
@@ -57,5 +57,8 @@
   "original_title": "Głos pana",
   "representative_edition_key": "/books/OL28099292M",
   "wikidata_qid": "Q650297",
-  "original_publisher": "Czytelnik"
+  "original_publisher": "Czytelnik",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14052205-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14052205-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:37+00:00"
 }

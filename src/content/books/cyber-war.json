@@ -8,8 +8,8 @@
     "politics"
   ],
   "description": "An essential, eye-opening book about cyberterrorism, cyber war, and the next great threat to our national security. \" Cyber War may be the most important book about national security policy in the last several years.\" – Slate Former presidential advisor and counter-terrorism expert Richard A. Clarke sounds a timely and chilling warning about America's vulnerability in a terrifying new international conflict. Cyber War is a powerful book about technology, government, and military strategy; about ...",
-  "cover_url": "https://books.google.com/books/content?id=KOtxx_eWQCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=KOtxx_eWQCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cyber-war.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cyber-war.jpg",
   "isbn": "9780061992391",
   "first_published": 2010,
   "pages": 318,
@@ -46,5 +46,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780061992391",
-  "representative_edition_key": "/books/OL24319662M"
+  "representative_edition_key": "/books/OL24319662M",
+  "cover_url_source": "https://books.google.com/books/content?id=KOtxx_eWQCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=KOtxx_eWQCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:15+00:00"
 }

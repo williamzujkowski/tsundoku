@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "A timeless Agatha Christie classic that blends light-hearted British charm with a gripping tale of murder and espionage. Part of new handsome and affordbale series of Agatha Christie hardcover editions. Set in the elegant backdrop of Chimneys, a grand English estate, what begins as a playful prank among friends quickly turns deadly when one of the guests, Gerry Wade, is found dead under mysterious circumstances. When a second death follows, Lady Eileen “Bundle” Brent, a spirited and sharp-witted",
-  "cover_url": "https://books.google.com/books/content?id=DYOOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-seven-dials-mystery.jpg",
   "isbn": "9781949846898",
   "first_published": 1929,
   "pages": 255,
@@ -74,5 +74,7 @@
   "representative_edition_key": "/books/OL57569360M",
   "wikidata_qid": "Q457252",
   "original_title": "The Seven Dials Mystery",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=DYOOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:25+00:00"
 }

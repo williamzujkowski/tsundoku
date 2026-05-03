@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "On software project management",
-  "cover_url": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mythical-man-month.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-mythical-man-month.jpg",
   "first_published": 1975,
   "pages": 338,
   "language": "eng",
@@ -60,5 +60,8 @@
   "wikidata_qid": "Q1192316",
   "original_title": "The Mythical Man-Month",
   "original_language": "eng",
-  "original_publisher": "Addison-Wesley"
+  "original_publisher": "Addison-Wesley",
+  "cover_url_source": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=fUYPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:36+00:00"
 }

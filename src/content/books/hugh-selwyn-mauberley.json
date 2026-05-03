@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "hugh-selwyn-mauberley",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5567192-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5567192-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hugh-selwyn-mauberley.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hugh-selwyn-mauberley.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7023160W",
   "first_published": 1920,
   "language": "eng",
@@ -31,5 +31,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL19550381M"
+  "representative_edition_key": "/books/OL19550381M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5567192-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5567192-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:15+00:00"
 }

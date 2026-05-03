@@ -10,8 +10,8 @@
     "satire",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14646992-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14646992-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/going-postal.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/going-postal.jpg",
   "open_library_url": "https://openlibrary.org/works/OL453733W",
   "first_published": 2004,
   "language": "eng",
@@ -81,5 +81,8 @@
   "series": {
     "name": "Discworld",
     "position": 33
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14646992-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14646992-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:13+00:00"
 }

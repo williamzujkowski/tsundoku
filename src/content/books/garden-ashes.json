@@ -9,8 +9,8 @@
   "first_published": 1965,
   "language": "eng",
   "description": "\"Let us not mince words here: Danilo Kis's Garden, Ashes is an unmitigated masterpiece, surely not just one of the best books about the Holocaust, but one of the greatest books of the past century.\" Aleksandar Hemon, from the introduction",
-  "cover_url": "https://books.google.com/books/content?id=9_vJIqXyeq4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=9_vJIqXyeq4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/garden-ashes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/garden-ashes.jpg",
   "isbn": "156478326X",
   "pages": 188,
   "google_books_url": "http://books.google.com/books?id=9_vJIqXyeq4C&dq=Garden,+Ashes+Danilo+Ki%C5%A1&hl=&source=gbs_api",
@@ -56,5 +56,8 @@
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL3688543M",
-  "wikidata_qid": "Q16981656"
+  "wikidata_qid": "Q16981656",
+  "cover_url_source": "https://books.google.com/books/content?id=9_vJIqXyeq4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=9_vJIqXyeq4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:43+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A guide to using the Ghidra software reverse engineering tool suite. The result of more than a decade of research and development within the NSA, the Ghidra platform was developed to address some of the agency's most challenging reverse-engineering problems. With the open-source release of this formerly restricted tool suite, one of the world's most capable disassemblers and intuitive decompilers is now in the hands of cybersecurity defenders everywhere -- and The Ghidra Book is the one and only",
-  "cover_url": "https://books.google.com/books/content?id=Bm_cDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ghidra-book-the-definitive-guide.jpg",
   "isbn": "9781718501034",
   "first_published": 2020,
   "pages": 610,
@@ -34,5 +34,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781718501027",
-  "representative_edition_key": "/books/OL29501130M"
+  "representative_edition_key": "/books/OL29501130M",
+  "cover_url_source": "https://books.google.com/books/content?id=Bm_cDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:19+00:00"
 }

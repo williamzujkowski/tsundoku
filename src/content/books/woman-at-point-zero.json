@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "woman-at-point-zero",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/652817-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/652817-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/woman-at-point-zero.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/woman-at-point-zero.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1602169W",
   "first_published": 1983,
   "language": "eng",
@@ -39,5 +39,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL33536940M"
+  "representative_edition_key": "/books/OL33536940M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/652817-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/652817-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:16+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Dr Strauss says I shoud rite down what I think and remembir and evrey thing that happins to me from now on.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/flowers-for-algernon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/flowers-for-algernon.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780891908753",
@@ -105,7 +105,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 79,
   "first_published_circa": false,
@@ -122,5 +123,7 @@
       "name": "Nebula Award for Best Novel",
       "year": 1967
     }
-  ]
+  ],
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/ea/FlowersForAlgernon.jpg",
+  "cover_cached_at": "2026-05-03T01:14:44+00:00"
 }

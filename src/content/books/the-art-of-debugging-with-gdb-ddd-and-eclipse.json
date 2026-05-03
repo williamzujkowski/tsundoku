@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Provides information on using three debugging tools on the Linux/Unix platforms, covering such topics as inspecting variables and data structures, understanding segmentation faults and core dumps, using catchpoints and artificial arrays, and avoiding debu",
-  "cover_url": "https://books.google.com/books/content?id=nGuP31sQHoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-art-of-debugging-with-gdb-ddd-and-eclipse.jpg",
   "isbn": "9781593271749",
   "first_published": 2008,
   "pages": 280,
@@ -50,5 +50,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781593271749",
-  "representative_edition_key": "/books/OL12381333M"
+  "representative_edition_key": "/books/OL12381333M",
+  "cover_url_source": "https://books.google.com/books/content?id=nGuP31sQHoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:11+00:00"
 }

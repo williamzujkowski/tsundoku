@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8455453-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8455453-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-city-the-city.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-city-the-city.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19341943W",
   "first_published": 2009,
   "language": "eng",
@@ -62,5 +62,8 @@
   },
   "editions_count": 24,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24056143M"
+  "representative_edition_key": "/books/OL24056143M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8455453-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8455453-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:20+00:00"
 }

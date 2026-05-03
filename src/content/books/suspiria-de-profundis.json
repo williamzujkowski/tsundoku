@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Suspiria is a collection of prose poems, or what De Quincey called “impassioned prose,” erratically written and published starting in 1854. Each Suspiria is a short essay written in reflection of the opium dreams De Quincey would experience over the course of his lifetime addiction, and they are considered by some critics to be some of the finest examples of prose poetry in all of English literature. De Quincey originally planned them as a sequel of sorts to his Confessions of an English Opi",
-  "cover_url": "https://books.google.com/books/content?id=Jj7OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/suspiria-de-profundis.jpg",
   "isbn": "9791041803972",
   "first_published": 2023,
   "pages": 222,
@@ -29,5 +29,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28914957M"
+  "representative_edition_key": "/books/OL28914957M",
+  "cover_url_source": "https://books.google.com/books/content?id=Jj7OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:35+00:00"
 }

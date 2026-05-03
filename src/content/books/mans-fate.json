@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/mans-fate.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mans-fate.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780394704791",
@@ -39,10 +39,13 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 5,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL22917701M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/4/4f/Man%27s_Fate_cover.jpg",
+  "cover_cached_at": "2026-05-03T01:31:42+00:00"
 }

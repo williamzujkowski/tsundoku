@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "\"The Middle Five: Indian Boys at School\" by Francis La Flesche is a poignant narrative that explores the experiences of Native American boys at a mission school. The story is set in the late 19th century on the Omaha reservation in Nebraska, where the protagonist, Frank, and his friends navigate the challenges of adapting to a new educational environment. The mission school, established by the Presbyterian Board of Foreign Missions, serves as a backdrop for the boys' journey of cultural change a",
-  "cover_url": "https://books.google.com/books/content?id=ABvNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-middle-five.jpg",
   "isbn": "9791041805853",
   "first_published": 1900,
   "pages": 158,
@@ -57,5 +57,7 @@
   "editions_count": 17,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54790615M"
+  "representative_edition_key": "/books/OL54790615M",
+  "cover_url_source": "https://books.google.com/books/content?id=ABvNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:08+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "\"Though not Alger's first book, Ragged Dick, published in 1867, was the beginning of his series of stories of poor boys who rose from [rags] to riches. ... Of course, little ragged Dick overcomes poverty and scorn to win success as the distinguished Richard Hunter. He, in turn, becomes the protector of Mark, the match boy, hero of the subsequent Alger novel.\"--Cover.",
-  "cover_url": "https://books.google.com/books/content?id=yeNC1mb8hosC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ragged-dick.jpg",
   "isbn": "9780020413905",
   "first_published": 1962,
   "pages": 388,
@@ -31,5 +31,7 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "0020413904",
-  "representative_edition_key": "/books/OL39227765M"
+  "representative_edition_key": "/books/OL39227765M",
+  "cover_url_source": "https://books.google.com/books/content?id=yeNC1mb8hosC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:40+00:00"
 }

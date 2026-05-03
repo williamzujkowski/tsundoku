@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/3043711-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3043711-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/aesops-fables.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/aesops-fables.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12129731W",
   "first_published": 1848,
   "language": "eng",
@@ -55,5 +55,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39581994M"
+  "representative_edition_key": "/books/OL39581994M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3043711-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3043711-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:23+00:00"
 }

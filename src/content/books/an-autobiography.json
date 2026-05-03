@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Long out of print and now brought back with a substantial and provocative feminist introduction, The Woman Within is a haunting and carefully crafted revelation of a major novelist's inner life. Placed in the context of current discussions of women's autobiography, the Ellen Glasgow who worked on The Woman Within from around 1934 until her death in 1945 speaks strongly - and surprisingly sympathetically - to readers today.",
-  "cover_url": "https://books.google.com/books/content?id=XqVv5B3bIYIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/an-autobiography.jpg",
   "isbn": "0813915635",
   "first_published": 1994,
   "pages": 368,
@@ -50,5 +50,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0813915635",
-  "representative_edition_key": "/books/OL1080168M"
+  "representative_edition_key": "/books/OL1080168M",
+  "cover_url_source": "https://books.google.com/books/content?id=XqVv5B3bIYIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:11+00:00"
 }

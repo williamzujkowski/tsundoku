@@ -9,8 +9,8 @@
     "philosophy",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/118161-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/118161-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-marriage-of-heaven-and-hell.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-marriage-of-heaven-and-hell.jpg",
   "open_library_url": "https://openlibrary.org/works/OL575441W",
   "first_published": 1793,
   "language": "eng",
@@ -85,5 +85,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL1077276M",
   "wikidata_qid": "Q1132673",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/118161-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/118161-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:53+00:00"
 }

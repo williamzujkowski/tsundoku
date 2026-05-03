@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "adam-bede",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6379692-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6379692-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/adam-bede.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/adam-bede.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20935W",
   "first_published": 1800,
   "language": "eng",
@@ -162,5 +162,8 @@
   "wikidata_qid": "Q2611046",
   "original_title": "Adam Bede",
   "original_language": "eng",
-  "original_publisher": "John Blackwood"
+  "original_publisher": "John Blackwood",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6379692-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6379692-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:14+00:00"
 }

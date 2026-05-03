@@ -12,8 +12,8 @@
   "pages": 202,
   "google_books_url": "http://books.google.com/books?id=uwKltwEACAAJ&dq=intitle:The+Footsteps+at+the+Lock&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/309842-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/309842-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-footsteps-at-the-lock.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-footsteps-at-the-lock.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1283203W",
   "description": "Urbane mystery, set in the pastoral reaches of the upper Thames, concerns the disappearance of young heir to a fortune. Insurance company investigator Miles Bredon takes on the case. Delightfully tongue-in-cheek tone, baffling clues, challenging mystery counterpointed by poetic evocation of the river and countryside. Fine novel by author of 10 celebrated \"commandments\" for writing detective fiction.",
   "isbn": "0486244938",
@@ -42,5 +42,8 @@
   },
   "editions_count": 15,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL3499598M"
+  "representative_edition_key": "/books/OL3499598M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/309842-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/309842-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:44+00:00"
 }

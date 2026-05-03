@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-monetary-history-of-the-united-states",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8486800-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8486800-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-monetary-history-of-the-united-states.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-monetary-history-of-the-united-states.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2747776W",
   "first_published": 1963,
   "language": "eng",
@@ -36,5 +36,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29015344M"
+  "representative_edition_key": "/books/OL29015344M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8486800-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8486800-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:18+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Jungle Tales of Tarzan is a collection of short stories about Tarzan’s experiences growing up in the jungle. Though each story stands on its own, together they form a loose narrative. The stories explore Tarzan’s development from a young boy into a young man and how those experiences are similar and different to the experiences of the apes he grows up with. These stories were originally published in Blue Book magazine before being collected into a book in 1919. Chronologically, these stories occ",
-  "cover_url": "https://books.google.com/books/content?id=_Oc8EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/jungle-tales-of-tarzan.jpg",
   "first_published": 1919,
   "pages": 238,
   "google_books_url": "https://play.google.com/store/books/details?id=_Oc8EQAAQBAJ&source=gbs_api",
@@ -55,5 +55,7 @@
   "editions_count": 44,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8747490M"
+  "representative_edition_key": "/books/OL8747490M",
+  "cover_url_source": "https://books.google.com/books/content?id=_Oc8EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:26:26+00:00"
 }

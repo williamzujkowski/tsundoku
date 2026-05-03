@@ -6,8 +6,8 @@
   "slug": "seiobo-there-below",
   "tags": [],
   "description": "A Japanese goddess returns to the mortal realms in search of a glimpse of perfection.",
-  "cover_url": "https://books.google.com/books/content?id=AfHWAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=AfHWAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/seiobo-there-below.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/seiobo-there-below.jpg",
   "isbn": "9780811219679",
   "first_published": 2008,
   "pages": 465,
@@ -56,5 +56,8 @@
   "representative_edition_key": "/books/OL27153462M",
   "wikidata_qid": "Q16746713",
   "original_title": "Seiobo There Below",
-  "original_language": "hun"
+  "original_language": "hun",
+  "cover_url_source": "https://books.google.com/books/content?id=AfHWAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=AfHWAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:34+00:00"
 }

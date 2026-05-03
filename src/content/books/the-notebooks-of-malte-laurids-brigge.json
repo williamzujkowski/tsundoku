@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "First published in 1910, Rilke's Notebooks of Malte Laurids Brigge is one the first great modernist novels, the account of poet-aspirant Brigge in his exploration of poetic individuality and his reflections on the experience of time as death approaches. A young man named Malte Laurids Brigge lives in a cheap room in Paris while his belongings rot in storage. Every person he sees seems to carry their death within them and with little but a library card to distinguish him from the city's untouchables, he thinks of the deaths, and ghosts, of his aristocratic family, of which he is the sole living descendant. Suffused with passages of lyrical brilliance, Rilke's semi-autobiographical novel is a moving and powerful coming-of-age story. This new translation by Burton Pike is a reaction to overly stylized previous translations, and aims to capture not only the beauty but also the strangeness, the spirit, of Rilke's German.",
-  "cover_url": "https://covers.openlibrary.org/b/id/420111-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/420111-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-notebooks-of-malte-laurids-brigge.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-notebooks-of-malte-laurids-brigge.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780679732457",
@@ -62,5 +62,8 @@
   },
   "editions_count": 30,
   "representative_edition_key": "/books/OL16796988M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/420111-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/420111-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:57+00:00"
 }

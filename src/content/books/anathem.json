@@ -12,8 +12,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6304233-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6304233-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/anathem.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/anathem.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14911626W",
   "first_published": 2008,
   "language": "eng",
@@ -79,5 +79,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6304233-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6304233-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:24+00:00"
 }

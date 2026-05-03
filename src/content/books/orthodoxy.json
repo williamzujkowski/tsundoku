@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "In the last decade, Eastern Orthodoxy has moved from being virtually unknown to Western Christians to being a significant presence on the religious scene in North America and Great Britain. In light of Orthodoxy's growing presence, this book will introduce Western Christians to the Eastern Orthodox vision of the Christian life by examining Orthodox theology and worship and will also alert readers to the cultural and historical factors that shape any interpretation of the Christian faith.",
-  "cover_url": "https://books.google.com/books/content?id=eKYM6FVxYKIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/orthodoxy.jpg",
   "isbn": "0664224970",
   "first_published": 2002,
   "pages": 228,
@@ -42,5 +42,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780664224974",
-  "representative_edition_key": "/books/OL7628177M"
+  "representative_edition_key": "/books/OL7628177M",
+  "cover_url_source": "https://books.google.com/books/content?id=eKYM6FVxYKIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:39:19+00:00"
 }

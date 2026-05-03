@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8231751-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8231751-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-clash-of-kings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-clash-of-kings.jpg",
   "open_library_url": "https://openlibrary.org/works/OL257939W",
   "first_published": 1998,
   "language": "eng",
@@ -115,5 +115,8 @@
   "series": {
     "name": "A Song of Ice and Fire",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8231751-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8231751-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:27+00:00"
 }

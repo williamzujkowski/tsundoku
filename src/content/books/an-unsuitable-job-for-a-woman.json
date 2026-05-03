@@ -6,8 +6,8 @@
   "slug": "an-unsuitable-job-for-a-woman",
   "tags": [],
   "description": "Includes a Touchstone reading group guide.",
-  "cover_url": "https://books.google.com/books/content?id=iGDEghq3ZPcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=iGDEghq3ZPcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/an-unsuitable-job-for-a-woman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-unsuitable-job-for-a-woman.jpg",
   "isbn": "9780743219556",
   "first_published": 1972,
   "pages": 256,
@@ -82,5 +82,8 @@
   "original_publisher": "Faber & Faber",
   "series": {
     "name": "Cordelia Gray"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=iGDEghq3ZPcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=iGDEghq3ZPcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:22+00:00"
 }

@@ -11,8 +11,8 @@
   "open_library_url": "https://openlibrary.org/works/OL32763905W",
   "first_published": 1870,
   "description": "Kojiki (\"Record of Ancient Matters\") is the oldest extant chronicle in Japan, dating from the early 8th century (711-2) and composed by O no Yasumaro at the request of Empress Gemmei. The Kojiki is a collection of myths concerning the origin of the four home islands of Japan, and the Kami. Along with the Nihon Shoki, the myths contained in the Kojiki are part of the inspiration behind Shinto practices and myths. O no Yasumaro (died August 15, 723) was a Japanese nobleman, bureaucrat, and chronic...",
-  "cover_url": "https://books.google.com/books/content?id=QbqEMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=QbqEMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/kojiki.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kojiki.jpg",
   "isbn": "1479326720",
   "google_books_url": "http://books.google.com/books?id=QbqEMgEACAAJ&dq=Kojiki+O+no+Yasumaro&hl=&source=gbs_api",
   "ddc": [
@@ -65,5 +65,8 @@
   "original_language": "fre",
   "original_title": "Extrait du ko-zi-ki",
   "representative_edition_key": "/books/OL27559259M",
-  "wikidata_qid": "Q813031"
+  "wikidata_qid": "Q813031",
+  "cover_url_source": "https://books.google.com/books/content?id=QbqEMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=QbqEMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:27:47+00:00"
 }

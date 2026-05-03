@@ -8,8 +8,8 @@
     "astronomy",
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5296924-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5296924-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-the-soul.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-the-soul.jpg",
   "open_library_url": "https://openlibrary.org/works/OL151597W",
   "first_published": -350,
   "language": "eng",
@@ -47,5 +47,8 @@
   "original_language": "mul",
   "original_title": "On the soul",
   "first_edition_isbn": "0434992887",
-  "representative_edition_key": "/books/OL8490276M"
+  "representative_edition_key": "/books/OL8490276M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5296924-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5296924-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:04+00:00"
 }

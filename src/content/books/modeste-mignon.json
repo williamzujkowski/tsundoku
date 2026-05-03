@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=7FwTAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/modeste-mignon.jpg",
   "first_published": 1845,
   "pages": 440,
   "google_books_url": "https://play.google.com/store/books/details?id=7FwTAAAAYAAJ&source=gbs_api",
@@ -45,5 +45,7 @@
   "first_published_circa": false,
   "original_language": "fre",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9352971M"
+  "representative_edition_key": "/books/OL9352971M",
+  "cover_url_source": "https://books.google.com/books/content?id=7FwTAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:02+00:00"
 }

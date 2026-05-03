@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Edith Nesbit wrote with supreme confidence about the lives of children and Roberta, Peter, and Phyllis, the trio in The Railway Children, reflect her faith in the resourcefulness, capacity for adventure, and instinctive heroism of the young. This edition of her most popular book restores the splendid original illustrations of C. E. Brock.",
-  "cover_url": "https://books.google.com/books/content?id=NktABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-railway-children.jpg",
   "isbn": "9780804153850",
   "first_published": 1906,
   "pages": 306,
@@ -144,5 +144,7 @@
   "representative_edition_key": "/books/OL57529136M",
   "wikidata_qid": "Q969970",
   "original_title": "The Railway Children",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=NktABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:12+00:00"
 }

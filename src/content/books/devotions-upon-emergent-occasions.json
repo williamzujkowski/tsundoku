@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "devotions-upon-emergent-occasions",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4172046-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4172046-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/devotions-upon-emergent-occasions.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/devotions-upon-emergent-occasions.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1222879W",
   "first_published": 1923,
   "language": "eng",
@@ -67,5 +67,8 @@
   "editions_count": 14,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8470577M"
+  "representative_edition_key": "/books/OL8470577M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4172046-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4172046-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:20+00:00"
 }

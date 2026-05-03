@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/8242288-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-club-of-queer-trades.jpg",
   "first_published": 1900,
   "copyright_status": "public_domain",
   "gutenberg_id": 1696,
@@ -77,5 +77,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL55505536M",
   "wikidata_qid": "Q3221512",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8242288-M.jpg",
+  "cover_cached_at": "2026-05-03T02:00:52+00:00"
 }

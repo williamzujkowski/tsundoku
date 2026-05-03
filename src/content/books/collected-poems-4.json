@@ -11,8 +11,8 @@
   "first_published": 1954,
   "language": "eng",
   "description": "An essential book for all readers of poetry, and the definitive collection from the man Harold Bloom has called “the best and most representative American poet.\" Originally published in 1954 to honor Stevens’s seventy-fifth birthday, the book was rushed into print for the occasion and contained scores of errors. These have now been corrected in one place for the first time by Stevens scholars John N. Serio and Christopher Beyers, based on original editions and manuscripts. The Collected Poems is...",
-  "cover_url": "https://books.google.com/books/content?id=WIFd5DIm7tgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=WIFd5DIm7tgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/collected-poems-4.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/collected-poems-4.jpg",
   "isbn": "9780307791870",
   "pages": 562,
   "google_books_url": "https://play.google.com/store/books/details?id=WIFd5DIm7tgC&source=gbs_api",
@@ -42,5 +42,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL21166099M"
+  "representative_edition_key": "/books/OL21166099M",
+  "cover_url_source": "https://books.google.com/books/content?id=WIFd5DIm7tgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=WIFd5DIm7tgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:46+00:00"
 }

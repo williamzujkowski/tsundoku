@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "autobiography-of-red",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/415257-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/415257-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/autobiography-of-red.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/autobiography-of-red.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8026525W",
   "first_published": 1999,
   "language": "eng",
@@ -46,5 +46,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "037570129X",
-  "representative_edition_key": "/books/OL18138278M"
+  "representative_edition_key": "/books/OL18138278M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/415257-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/415257-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:28+00:00"
 }

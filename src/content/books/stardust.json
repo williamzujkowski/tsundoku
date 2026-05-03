@@ -8,8 +8,8 @@
     "fantasy",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8216379-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8216379-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/stardust.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/stardust.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15833328W",
   "first_published": 1997,
   "language": "eng",
@@ -97,5 +97,8 @@
   },
   "editions_count": 62,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL26825567M"
+  "representative_edition_key": "/books/OL26825567M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8216379-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8216379-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:56+00:00"
 }

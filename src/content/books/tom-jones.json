@@ -8,8 +8,8 @@
     "humor",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12968864-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12968864-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/tom-jones.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tom-jones.jpg",
   "open_library_url": "https://openlibrary.org/works/OL45623W",
   "first_published": 1749,
   "language": "eng",
@@ -205,5 +205,8 @@
   "wikidata_qid": "Q248096",
   "original_title": "The History of Tom Jones, a Foundling",
   "original_language": "eng",
-  "original_publisher": "Andrew Millar"
+  "original_publisher": "Andrew Millar",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12968864-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12968864-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:31+00:00"
 }

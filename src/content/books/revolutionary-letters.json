@@ -10,8 +10,8 @@
   "language": "eng",
   "reading_status": "read",
   "copyright_status": "in_copyright",
-  "cover_url": "https://covers.openlibrary.org/b/id/13153956-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13153956-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/revolutionary-letters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/revolutionary-letters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL568720W",
   "first_published": 1971,
   "description": "This edition is the new volume of DiPrima's classic Revolutionary Letters. There are some new pieces added in and new edits on older pieces, done by the author. A new expanded edition of Loba (twice as long as the 1978 Wingbow Press edition) was published in the Penguin Poets series in August 1998. Her autobiographical memoir, Recollections of My Life as a Woman, was published by Viking in April 2001.",
@@ -39,5 +39,8 @@
   },
   "editions_count": 4,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL11058402M"
+  "representative_edition_key": "/books/OL11058402M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13153956-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13153956-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:59+00:00"
 }

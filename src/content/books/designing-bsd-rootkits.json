@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "\"Designing BSD Rootkits\" introduces the fundamentals of programming and developing rootkits under the FreeBSD operating system. Written in a friendly, accessible style and sprinkled with geek humor and pop culture references, the author favors a \"learn by example\" approach that assumes no prior kernel hacking experience.",
-  "cover_url": "https://books.google.com/books/content?id=lyY-7VEo9j8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/designing-bsd-rootkits.jpg",
   "isbn": "9781593271428",
   "first_published": 2007,
   "pages": 164,
@@ -45,5 +45,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593271428",
-  "representative_edition_key": "/books/OL8871435M"
+  "representative_edition_key": "/books/OL8871435M",
+  "cover_url_source": "https://books.google.com/books/content?id=lyY-7VEo9j8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:09+00:00"
 }

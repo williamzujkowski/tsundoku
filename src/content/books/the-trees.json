@@ -8,8 +8,8 @@
     "adventure",
     "humor"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11137872-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11137872-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-trees.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-trees.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24511712W",
   "first_published": 2021,
   "language": "eng",
@@ -40,5 +40,8 @@
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9781644451564",
-  "representative_edition_key": "/books/OL34182672M"
+  "representative_edition_key": "/books/OL34182672M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11137872-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11137872-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:05+00:00"
 }

@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL33927903W",
   "first_published": 1839,
   "description": "Written in just fifty-two days in 1839, \"The Charterhouse of Parma\" has since become known as one of Stendhal's finest works. Evidence of haste is infrequently apparent in this remarkable story, which follows the eventful life of the young Italian nobleman Fabrizio del Dongo. From his childhood in the family castle by Lake Como to the battlefields of Waterloo, Fabrizio proves himself charmingly headstrong and painfully naïve. Upon returning injured to Italy, the young man begins to recover and p...",
-  "cover_url": "https://books.google.com/books/content?id=bBAkGPFxG_EC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=bBAkGPFxG_EC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-charterhouse-of-parma.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-charterhouse-of-parma.jpg",
   "isbn": "0452008913",
   "pages": 506,
   "language": "eng",
@@ -176,5 +176,8 @@
   "original_title": "La chartreuse de Parme",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34339812M",
-  "wikidata_qid": "Q1165714"
+  "wikidata_qid": "Q1165714",
+  "cover_url_source": "https://books.google.com/books/content?id=bBAkGPFxG_EC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=bBAkGPFxG_EC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:00:07+00:00"
 }

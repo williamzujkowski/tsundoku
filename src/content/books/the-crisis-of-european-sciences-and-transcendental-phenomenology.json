@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL28606858W",
   "first_published": 1970,
   "description": "The Crisis of European Sciences and Transcendental Phenomenology, Husserl's last great work, is important both for its content and for the influence it has had on other philosophers. In this book, which remained unfinished at his death, Husserl attempts to forge a union between phenomenology and existentialism. Husserl provides not only a history of philosophy but a philosophy of history. As he says in Part I, \"The genuine spiritual struggles of European humanity as such take the form of struggl...",
-  "cover_url": "https://books.google.com/books/content?id=Ca7GDwz5lF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Ca7GDwz5lF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-crisis-of-european-sciences-and-transcendental-phenomenology.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-crisis-of-european-sciences-and-transcendental-phenomenology.jpg",
   "isbn": "081010458X",
   "pages": 452,
   "language": "eng",
@@ -42,5 +42,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780810104587",
-  "representative_edition_key": "/books/OL39224173M"
+  "representative_edition_key": "/books/OL39224173M",
+  "cover_url_source": "https://books.google.com/books/content?id=Ca7GDwz5lF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Ca7GDwz5lF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:04+00:00"
 }

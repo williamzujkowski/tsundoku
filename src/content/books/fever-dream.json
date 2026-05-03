@@ -8,8 +8,8 @@
     "horror",
     "romance"
   ],
-  "cover_url": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/fever-dream.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fever-dream.jpg",
   "isbn": "1786072386",
   "first_published": 2014,
   "pages": 192,
@@ -68,5 +68,8 @@
       "name": "Tigre Juan award",
       "year": 2015
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=osiyAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:28+00:00"
 }

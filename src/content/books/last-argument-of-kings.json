@@ -8,8 +8,8 @@
     "adventure",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6901175-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6901175-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/last-argument-of-kings.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/last-argument-of-kings.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8400952W",
   "first_published": 2008,
   "language": "eng",
@@ -72,5 +72,8 @@
   "series": {
     "name": "The First Law",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6901175-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6901175-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:45+00:00"
 }

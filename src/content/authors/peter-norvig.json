@@ -2,7 +2,7 @@
   "name": "Peter Norvig",
   "slug": "peter-norvig",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/8085718-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/peter-norvig.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL772166A",
   "bio": "American computer scientist",
   "birth_year": 1956,
@@ -28,5 +28,7 @@
       "name": "ACM Fellow",
       "year": 2006
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/8085718-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:11+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A masterful new translation of Suetonius' renowned biography of the twelve Caesars, bringing to life a portrait of the first Roman emperors in stunning detail A Penguin Classic The ancient Roman empire was the supreme arena, where emperors had no choice but to fight, to thrill, to dazzle. To rule as a Caesar was to stand as an actor upon the great stage of the world. No biographies invite us into the lives of the Caesars more vividly or intimately than those by Gaius Suetonius Tranquillus, writt",
-  "cover_url": "https://books.google.com/books/content?id=o_cNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-lives-of-the-caesars.jpg",
   "isbn": "9780698406650",
   "first_published": 2004,
   "pages": 433,
@@ -52,5 +52,7 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9781419170416",
-  "representative_edition_key": "/books/OL8501620M"
+  "representative_edition_key": "/books/OL8501620M",
+  "cover_url_source": "https://books.google.com/books/content?id=o_cNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:00+00:00"
 }

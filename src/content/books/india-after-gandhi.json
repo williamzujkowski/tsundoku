@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "india-after-gandhi",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6821235-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6821235-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/india-after-gandhi.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/india-after-gandhi.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15858520W",
   "first_published": 2007,
   "language": "eng",
@@ -57,5 +57,8 @@
       "name": "Sahitya Akademi Award",
       "year": 2011
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6821235-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6821235-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:46+00:00"
 }

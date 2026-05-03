@@ -11,8 +11,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31439176W",
   "first_published": 1966,
   "description": "First published in 1818, The World as Will and Representation contains Schopenhauer's entire philosophy, ranging through epistemology, metaphysics, philosophy of mind and action, aesthetics and philosophy of art, to ethics, the meaning of life and the philosophy of religion, in an attempt to account for the world in all its significant aspects. It gives a unique and influential account of what is and is not of value in existence, the striving and pain of the human condition and the possibility o...",
-  "cover_url": "https://books.google.com/books/content?id=qywdvi7bRAgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=qywdvi7bRAgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-world-as-will-and-representation.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-world-as-will-and-representation.jpg",
   "isbn": "9781139493437",
   "pages": 697,
   "language": "eng",
@@ -36,5 +36,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27360889M"
+  "representative_edition_key": "/books/OL27360889M",
+  "cover_url_source": "https://books.google.com/books/content?id=qywdvi7bRAgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=qywdvi7bRAgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:42+00:00"
 }

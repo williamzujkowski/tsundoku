@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Cardinal of the Kremlin is a spy thriller novel, written by Tom Clancy and released on May 20, 1988. A direct sequel to The Hunt for Red October (1984), it features CIA analyst Jack Ryan as he must extract CARDINAL, the agency's highest placed asset in the Soviet military, who is being pursued by the KGB. The novel also features the Strategic Defense Initiative (SDI), a conceptual missile-defense system developed by the United States during that time, and its Soviet counterpart.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/CardinalOfTheKremlin.JPG/250px-CardinalOfTheKremlin.JPG",
+  "cover_url": "/tsundoku/cached/covers/the-cardinal-of-the-kremlin.jpg",
   "pages": 626,
   "isbn": "9780736693455",
   "ddc": [
@@ -68,5 +68,7 @@
   "series": {
     "name": "Ryanverse",
     "position": 5
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/CardinalOfTheKremlin.JPG/250px-CardinalOfTheKremlin.JPG",
+  "cover_cached_at": "2026-05-03T01:59:52+00:00"
 }

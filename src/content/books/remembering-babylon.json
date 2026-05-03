@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/420787-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/420787-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/remembering-babylon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/remembering-babylon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL78256W",
   "first_published": 1993,
   "language": "eng",
@@ -57,5 +57,8 @@
   "wikidata_qid": "Q631460",
   "original_title": "Remembering Babylon",
   "original_language": "eng",
-  "original_publisher": "Chatto & Windus"
+  "original_publisher": "Chatto & Windus",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/420787-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/420787-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:26+00:00"
 }

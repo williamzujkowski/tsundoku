@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Keep black-hat hackers at bay with the tips and techniques in this entertaining, eye-opening book! Developers will learn how to padlock their applications throughout the entire development process—from designing secure applications to writing robust code that can withstand repeated attacks to testing applications for security flaws. Easily digested chapters reveal proven principles, strategies, and coding techniques. The authors—two battle-scarred veterans who have solved some of the industry’s ...",
-  "cover_url": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/writing-secure-code.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/writing-secure-code.jpg",
   "isbn": "9780735637405",
   "first_published": 2002,
   "pages": 800,
@@ -45,5 +45,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780735637405",
-  "representative_edition_key": "/books/OL35568207M"
+  "representative_edition_key": "/books/OL35568207M",
+  "cover_url_source": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=nZVCAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:31+00:00"
 }

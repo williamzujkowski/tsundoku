@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Savvas Learning Company Library Collection offers you over 1200 fiction, nonfiction, classic, adapted classic, illustrated classic, short stories, biographies, special anthologies, atlases, visual dictionaries, history trade, animal, sports titles and more!",
-  "cover_url": "https://books.google.com/books/content?id=hMdAl-o9brIC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-red-badge-of-courage.jpg",
   "isbn": "0835900320",
   "first_published": 1999,
   "pages": 230,
@@ -265,5 +265,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL32236448M"
+  "representative_edition_key": "/books/OL32236448M",
+  "cover_url_source": "https://books.google.com/books/content?id=hMdAl-o9brIC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:19+00:00"
 }

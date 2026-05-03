@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "To their friends’ envy, Biff and Chet plan to take a boating vacation up the coast. The joy of sending them off soon turns to anxiety as neither of them make contact with home for several days. Convinced that something’s happened to them, the Hardy boys and their friends go on a search filled with adventure and peril in hopes of retrieving their missing chums. This is the fourth book of the Hardy boys series, first published in 1928. While the author is credited to be Franklin W. Dixon, in reali",
-  "cover_url": "https://books.google.com/books/content?id=RzcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-missing-chums.jpg",
   "first_published": 1928,
   "pages": 163,
   "google_books_url": "https://play.google.com/store/books/details?id=RzcTEQAAQBAJ&source=gbs_api",
@@ -88,5 +88,7 @@
   "series": {
     "name": "The Hardy Boys",
     "position": 5
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=RzcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:18+00:00"
 }

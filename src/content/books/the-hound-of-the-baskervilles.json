@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8063264-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8063264-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hound-of-the-baskervilles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hound-of-the-baskervilles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL262454W",
   "first_published": 1900,
   "language": "eng",
@@ -238,5 +238,8 @@
   ],
   "series": {
     "name": "Sherlock Holmes novels"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8063264-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8063264-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:04+00:00"
 }

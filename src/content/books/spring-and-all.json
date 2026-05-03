@@ -12,8 +12,8 @@
   "first_published": 1923,
   "language": "eng",
   "description": "Spring and All (1923) is a book of poems by William Carlos Williams. Predominately known as a poet, Williams frequently pushed the limits of prose style throughout his works, often comprised of a seamless blend of both forms of writing. In Spring and All, the closest thing to a manifesto he wrote, Williams addresses the nature of his modern poetics which not only pursues a particularly American idiom, but attempts to capture the relationship between language and the world it describes. Part essa...",
-  "cover_url": "https://books.google.com/books/content?id=ha4W0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ha4W0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/spring-and-all.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/spring-and-all.jpg",
   "isbn": "9798888974728",
   "google_books_url": "http://books.google.com/books?id=ha4W0AEACAAJ&dq=Spring+and+All+William+Carlos+Williams&hl=&source=gbs_api",
   "reading_status": "read",
@@ -31,5 +31,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL52200055M"
+  "representative_edition_key": "/books/OL52200055M",
+  "cover_url_source": "https://books.google.com/books/content?id=ha4W0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ha4W0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:52:35+00:00"
 }

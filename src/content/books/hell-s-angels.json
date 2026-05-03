@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Hell's Angels: A Strange and Terrible Saga is a book written by Hunter S. Thompson, published in 1967 by Random House. It was widely lauded for its up-close and uncompromising look at the Hells Angels motorcycle club, during a time when the gang was highly feared and accused of numerous criminal activities. The New York Times described Thompson's portrayal as \"a world most of us would never dare encounter.\"",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hell%27s_Angels_by_Hunter_S._Thompson_%281967_1st_ed_jacket_cover%29.jpg/330px-Hell%27s_Angels_by_Hunter_S._Thompson_%281967_1st_ed_jacket_cover%29.jpg",
+  "cover_url": "/tsundoku/cached/covers/hell-s-angels.jpg",
   "isbn": "9782221090732",
   "ddc": [
     "364.1066",
@@ -52,5 +52,7 @@
   "wikidata_qid": "Q841931",
   "original_title": "Hell's Angels: The Strange and Terrible Saga of the Outlaw Motorcycle Gangs",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hell%27s_Angels_by_Hunter_S._Thompson_%281967_1st_ed_jacket_cover%29.jpg/330px-Hell%27s_Angels_by_Hunter_S._Thompson_%281967_1st_ed_jacket_cover%29.jpg",
+  "cover_cached_at": "2026-05-03T01:19:55+00:00"
 }

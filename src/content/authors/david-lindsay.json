@@ -3,7 +3,7 @@
   "slug": "david-lindsay",
   "book_count": 1,
   "bio": "Scottish author",
-  "photo_url": "https://covers.openlibrary.org/a/id/14415776-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/david-lindsay.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL756864A",
   "birth_year": 1876,
   "death_year": 1945,
@@ -18,5 +18,7 @@
     "GB"
   ],
   "viaf_id": "67278926",
-  "ol_author_key": "/authors/OL756864A"
+  "ol_author_key": "/authors/OL756864A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/14415776-M.jpg",
+  "photo_cached_at": "2026-05-03T00:41:18+00:00"
 }

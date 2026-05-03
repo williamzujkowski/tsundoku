@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Clouds of Witness by Dorothy L. Sayers is the second novel in the acclaimed Lord Peter Wimsey mystery series. Published in 1926, this novel follows the amateur detective Lord Peter Wimsey as he investigates a murder that has taken place at his family's ancestral home. Set in the idyllic English countryside, this novel is a perfect blend of a classic whodunit mystery and a social commentary on the changing landscape of the British aristocracy. The story begins with Lord Peter's brother, the Duke ",
-  "cover_url": "https://books.google.com/books/content?id=vW3_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/clouds-of-witness.jpg",
   "isbn": "9780369410887",
   "first_published": 1927,
   "pages": 246,
@@ -76,5 +76,7 @@
   "editions_count": 80,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34259245M"
+  "representative_edition_key": "/books/OL34259245M",
+  "cover_url_source": "https://books.google.com/books/content?id=vW3_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:38+00:00"
 }

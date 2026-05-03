@@ -9,8 +9,8 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "NOW at last the slowly-gathered, long-pent-up fury of the storm broke upon us.",
-  "cover_url": "https://covers.openlibrary.org/b/id/14290165-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14290165-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-gathering-storm-the-second-world-war.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-gathering-storm-the-second-world-war.jpg",
   "open_library_url": "https://openlibrary.org/works/OL9382019W",
   "first_published": 1948,
   "pages": 724,
@@ -112,5 +112,8 @@
   "wikidata_qid": "Q209788",
   "original_title": "The Second World War",
   "original_language": "eng",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14290165-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14290165-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:15+00:00"
 }

@@ -12,8 +12,8 @@
   "google_books_url": "http://books.google.com/books?id=PI5F0QEACAAJ&dq=intitle:Seven+Pillars+of+Wisdom&hl=&source=gbs_api",
   "language": "eng",
   "description": "An autobiographical account of the British soldier T. E. Lawrence (\"Lawrence of Arabia\"), while serving as a liaison officer with rebel forces during the Arab Revolt against the Ottoman Turks of 1916 to 1918.",
-  "cover_url": "https://books.google.com/books/content?id=WkCnPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=WkCnPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/seven-pillars-of-wisdom.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/seven-pillars-of-wisdom.jpg",
   "isbn": "1607960613",
   "copyright_status": "public_domain",
   "pages": 700,
@@ -133,5 +133,8 @@
   "representative_edition_key": "/books/OL34132541M",
   "wikidata_qid": "Q24323",
   "original_title": "Seven Pillars of Wisdom",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=WkCnPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=WkCnPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:21+00:00"
 }

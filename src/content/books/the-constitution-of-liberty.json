@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-constitution-of-liberty",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8151148-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8151148-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-constitution-of-liberty.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-constitution-of-liberty.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1164995W",
   "first_published": 1960,
   "language": "eng",
@@ -42,5 +42,8 @@
   "original_title": "The Constitution of Liberty",
   "original_language": "eng",
   "first_published_circa": false,
-  "original_publisher": "University of Chicago Press"
+  "original_publisher": "University of Chicago Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8151148-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8151148-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:21+00:00"
 }

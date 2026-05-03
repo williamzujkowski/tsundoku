@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/5306442-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/legends-of-vancouver.jpg",
   "first_published": 1911,
   "copyright_status": "public_domain",
   "gutenberg_id": 28483,
@@ -57,5 +57,7 @@
   "editions_count": 59,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL32279214M"
+  "representative_edition_key": "/books/OL32279214M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5306442-M.jpg",
+  "cover_cached_at": "2026-05-03T01:29:59+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "middlemarch",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/252882-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/252882-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/middlemarch.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/middlemarch.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20867W",
   "first_published": 1800,
   "language": "eng",
@@ -206,5 +206,8 @@
   "representative_edition_key": "/books/OL8978593M",
   "wikidata_qid": "Q313129",
   "original_title": "Middlemarch",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/252882-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/252882-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:39+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/150506-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/150506-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/types-and-programming-languages.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/types-and-programming-languages.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4078119W",
   "first_published": 2002,
   "language": "eng",
@@ -48,5 +48,8 @@
   "first_edition_isbn": "9780262162098",
   "representative_edition_key": "/books/OL9468435M",
   "wikidata_qid": "Q7860935",
-  "original_title": "Types and Programming Languages"
+  "original_title": "Types and Programming Languages",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/150506-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/150506-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:24+00:00"
 }

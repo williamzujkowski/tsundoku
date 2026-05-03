@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "kudos",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9171436-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9171436-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/kudos.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kudos.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20521062W",
   "first_published": 2018,
   "language": "eng",
@@ -40,5 +40,8 @@
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL28283648M"
+  "representative_edition_key": "/books/OL28283648M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9171436-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9171436-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:20+00:00"
 }

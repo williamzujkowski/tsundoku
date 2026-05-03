@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/579445-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/579445-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mason-dixon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mason-dixon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636672W",
   "first_published": 1997,
   "language": "eng",
@@ -63,5 +63,8 @@
   "wikidata_qid": "Q1536968",
   "original_title": "Mason & Dixon",
   "original_language": "eng",
-  "original_publisher": "Henry Holt and Company"
+  "original_publisher": "Henry Holt and Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/579445-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/579445-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:56+00:00"
 }

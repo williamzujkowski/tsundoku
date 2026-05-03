@@ -11,8 +11,8 @@
   "first_published": 1790,
   "language": "eng",
   "description": "Originally published: London: MacMillan and Co., 1914.",
-  "cover_url": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/critique-of-judgment.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/critique-of-judgment.jpg",
   "isbn": "9780486445434",
   "pages": 290,
   "google_books_url": "http://books.google.com/books?id=3r8sAwAAQBAJ&dq=Critique+of+Judgment+Immanuel+Kant&hl=&source=gbs_api",
@@ -101,5 +101,8 @@
   "representative_edition_key": "/books/OL12554100M",
   "wikidata_qid": "Q1056332",
   "original_title": "Kritik der Urteilskraft",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=3r8sAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:05:54+00:00"
 }

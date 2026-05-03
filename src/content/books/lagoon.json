@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8037947-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8037947-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lagoon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lagoon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17756486W",
   "first_published": 2014,
   "language": "eng",
@@ -64,5 +64,8 @@
   "representative_edition_key": "/books/OL27103569M",
   "wikidata_qid": "Q48815704",
   "original_title": "Lagoon",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8037947-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8037947-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:41+00:00"
 }

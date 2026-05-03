@@ -8,13 +8,16 @@
     "computing"
   ],
   "description": "Unlock the secrets of Linux system programming and take your coding skills to the next level Do you use Linux, but not really understand it? Have you ever wondered how ls -l knows everything it does? Could you explain to a coworker why ls and find can be external commands but cd and umask must be built into the shell? The answers to these questions, and more, are in Linux Application Development by Example, Second Edition! This book tells you exactly what you need to know--no more and no less--a...",
-  "cover_url": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/notes-on-programming-in-c.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/notes-on-programming-in-c.jpg",
   "isbn": "9780135325605",
   "first_published": 2025,
   "pages": 1090,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=6dWFEQAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6dWFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:35:40+00:00"
 }

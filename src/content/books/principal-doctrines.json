@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "principal-doctrines",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11479407-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11479407-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/principal-doctrines.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/principal-doctrines.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24740650W",
   "first_published": 2016,
   "language": "eng",
@@ -30,5 +30,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9781329869950",
-  "representative_edition_key": "/books/OL39925975M"
+  "representative_edition_key": "/books/OL39925975M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11479407-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11479407-L.jpg",
+  "cover_cached_at": "2026-05-03T01:45:20+00:00"
 }

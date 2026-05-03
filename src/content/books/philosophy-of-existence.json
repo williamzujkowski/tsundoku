@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "philosophy-of-existence",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9634477-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9634477-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/philosophy-of-existence.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/philosophy-of-existence.jpg",
   "open_library_url": "https://openlibrary.org/works/OL569975W",
   "first_published": 1971,
   "language": "eng",
@@ -33,5 +33,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780812210101",
-  "representative_edition_key": "/books/OL8004262M"
+  "representative_edition_key": "/books/OL8004262M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9634477-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9634477-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:45+00:00"
 }

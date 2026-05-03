@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=3A0OAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/trilby.jpg",
   "first_published": 1894,
   "pages": 590,
   "google_books_url": "https://play.google.com/store/books/details?id=3A0OAAAAYAAJ&source=gbs_api",
@@ -94,5 +94,7 @@
   "editions_count": 259,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL36933124M"
+  "representative_edition_key": "/books/OL36933124M",
+  "cover_url_source": "https://books.google.com/books/content?id=3A0OAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:21:53+00:00"
 }

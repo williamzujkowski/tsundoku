@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The first novel in the ‘Parade’s End’ series, ‘Some Do Not’ is widely considered to be a landmark novel surrounding the events that led to World War I. We are introduced to mathematician Christopher Tietjens, who is locked in an unhappy marriage with his wife, Sylvia. However, his relationship with a young Suffragette, Valentine, is starting to become romantic, when he is called away to fight in World War I. Both his private and professional lives will conspire to change him, forever. 'Some Do N",
-  "cover_url": "https://books.google.com/books/content?id=5IGlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/some-do-not.jpg",
   "isbn": "9788728410455",
   "first_published": 1924,
   "pages": 373,
@@ -66,5 +66,7 @@
   },
   "editions_count": 77,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34146105M"
+  "representative_edition_key": "/books/OL34146105M",
+  "cover_url_source": "https://books.google.com/books/content?id=5IGlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:16+00:00"
 }

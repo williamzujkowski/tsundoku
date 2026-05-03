@@ -7,8 +7,8 @@
   "tags": [
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/98943-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/98943-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-moons-of-jupiter.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-moons-of-jupiter.jpg",
   "open_library_url": "https://openlibrary.org/works/OL931687W",
   "first_published": 1982,
   "language": "eng",
@@ -56,5 +56,8 @@
   },
   "editions_count": 27,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL14341098M"
+  "representative_edition_key": "/books/OL14341098M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/98943-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/98943-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:24+00:00"
 }

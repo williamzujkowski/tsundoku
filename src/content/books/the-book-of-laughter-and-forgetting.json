@@ -6,8 +6,8 @@
   "slug": "the-book-of-laughter-and-forgetting",
   "tags": [],
   "description": "Rich in its stories, characters, and imaginative range, The Book of Laughter and Forgetting is the novel that brought Milan Kundera his first big international success in the late 1970s. Like all his work, it is valuable for far more than its historical implications. In seven wonderfully integrated parts, different aspects of human existence are magnified and reduced, reordered and emphasized, newly examined, analyzed, and experienced.",
-  "cover_url": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-laughter-and-forgetting.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-laughter-and-forgetting.jpg",
   "isbn": "9780060932145",
   "first_published": 1979,
   "pages": 324,
@@ -69,5 +69,8 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL9239792M",
   "wikidata_qid": "Q2723517",
-  "original_language": "cze"
+  "original_language": "cze",
+  "cover_url_source": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=hux47U4KMREC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:57+00:00"
 }

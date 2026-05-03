@@ -9,8 +9,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2000855-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2000855-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-imago-sequence.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-imago-sequence.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8999412W",
   "first_published": 2007,
   "language": "eng",
@@ -36,5 +36,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28437308M"
+  "representative_edition_key": "/books/OL28437308M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2000855-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2000855-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:44+00:00"
 }

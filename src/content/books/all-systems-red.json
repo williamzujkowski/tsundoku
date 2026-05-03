@@ -9,8 +9,8 @@
     "computing",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9157148-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9157148-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/all-systems-red.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/all-systems-red.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17914663W",
   "first_published": 2017,
   "language": "eng",
@@ -82,5 +82,8 @@
   "series": {
     "name": "The Murderbot Diaries",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9157148-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9157148-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:52+00:00"
 }

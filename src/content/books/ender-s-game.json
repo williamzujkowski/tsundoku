@@ -11,8 +11,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "From New York Times bestselling author Orson Scott Card, Ender's Game—adapted to film starring Asa Butterfield and Harrison Ford—is the classic Hugo and Nebula award-winning science fiction novel of a young boy's recruitment into the midst of an interstellar war. In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew \"Ender\" Wiggin lives with his kind but distant parents, ...",
-  "cover_url": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ender-s-game.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ender-s-game.jpg",
   "isbn": "9781429963930",
   "first_published": 1977,
   "pages": 389,
@@ -109,5 +109,8 @@
       "name": "Ignotus Award for Best Foreign Short Story",
       "year": 1994
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Ojqi8KbWuLwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:12:01+00:00"
 }

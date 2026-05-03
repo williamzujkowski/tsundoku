@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "\"A nonviolent anarchist of the 19th century, Peter Kropotkin offered a revolutionary alternative to Marxism. Although born into the nobility, he worked to subvert the class structure, promoting a philosophy of collective action. In this autobiography, Kropotkin describes his early life in the royal court, military service in Siberia, imprisonment, escape, and exile.\"--goodreads.com.",
-  "cover_url": "https://books.google.com/books/content?id=Tlh-0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/memoirs-of-a-revolutionist.jpg",
   "isbn": "0921689195",
   "first_published": 1899,
   "google_books_url": "http://books.google.com/books?id=Tlh-0QEACAAJ&dq=intitle:Memoirs+of+a+Revolutionist&hl=&source=gbs_api",
@@ -106,5 +106,7 @@
   "representative_edition_key": "/books/OL18907776M",
   "wikidata_qid": "Q21524357",
   "original_title": "Memoirs of a Revolutionist",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=Tlh-0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:18+00:00"
 }

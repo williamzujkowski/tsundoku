@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=L_IOAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-uncalled.jpg",
   "first_published": 1898,
   "pages": 280,
   "google_books_url": "https://play.google.com/store/books/details?id=L_IOAAAAIAAJ&source=gbs_api",
@@ -58,5 +58,7 @@
   "editions_count": 42,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9801332M"
+  "representative_edition_key": "/books/OL9801332M",
+  "cover_url_source": "https://books.google.com/books/content?id=L_IOAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:33+00:00"
 }

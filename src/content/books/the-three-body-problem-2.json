@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Experience Cixin Liu's award-winning and bestselling masterpiece, The Three Body Problem. A secret military group sends signals into space in hopes of establishing contact with aliens--and succeeds. Picking up their signal is an alien civilization on the brink of destruction who now readies to invade Earth. News of the coming invasion divides humanity like never before. Some want to help the superior beings take over a world they see as corrupt. Others prepare to fight the invasion at all cost. ",
-  "cover_url": "https://books.google.com/books/content?id=QxbFBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-three-body-problem-2.jpg",
   "isbn": "9780765377067",
   "first_published": 2006,
   "pages": 400,
@@ -102,5 +102,7 @@
   "series": {
     "name": "Remembrance of Earth's Past",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=QxbFBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:12+00:00"
 }

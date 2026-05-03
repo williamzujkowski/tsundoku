@@ -6,8 +6,8 @@
   "slug": "the-sacred-and-the-profane",
   "tags": [],
   "description": "Famed historian of religion Mircea Eliade observes that even moderns who proclaim themselves residents of a completely profane world are still unconsciously nourished by the memory of the sacred. Eliade traces manifestations of the sacred from primitive to modern times in terms of space, time, nature, and the cosmos. In doing so he shows how the total human experience of the religious man compares with that of the nonreligious. This book serves as an excellent introduction to the history of reli...",
-  "cover_url": "https://books.google.com/books/content?id=zBzzv977CLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=zBzzv977CLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-sacred-and-the-profane.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sacred-and-the-profane.jpg",
   "isbn": "015679201X",
   "first_published": 1959,
   "pages": 268,
@@ -60,5 +60,8 @@
   "representative_edition_key": "/books/OL19060227M",
   "wikidata_qid": "Q66738102",
   "original_title": "The Sacred and the Profane: the Nature of Religion",
-  "original_publisher": "Harcourt"
+  "original_publisher": "Harcourt",
+  "cover_url_source": "https://books.google.com/books/content?id=zBzzv977CLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=zBzzv977CLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:53+00:00"
 }

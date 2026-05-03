@@ -7,8 +7,8 @@
   "tags": [
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6630521-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6630521-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-once-and-future-king.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-once-and-future-king.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1388028W",
   "first_published": 1939,
   "language": "eng",
@@ -47,5 +47,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL1403593M"
+  "representative_edition_key": "/books/OL1403593M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6630521-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6630521-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:03+00:00"
 }

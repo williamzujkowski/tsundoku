@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "little-dorrit",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13113263-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13113263-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/little-dorrit.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/little-dorrit.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14869215W",
   "first_published": 1800,
   "language": "eng",
@@ -32,5 +32,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56373038M"
+  "representative_edition_key": "/books/OL56373038M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13113263-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13113263-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:46+00:00"
 }

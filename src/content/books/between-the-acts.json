@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "between-the-acts",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/115990-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/115990-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/between-the-acts.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/between-the-acts.jpg",
   "open_library_url": "https://openlibrary.org/works/OL39567W",
   "first_published": 1941,
   "language": "eng",
@@ -87,5 +87,8 @@
   "representative_edition_key": "/books/OL34350939M",
   "wikidata_qid": "Q2342630",
   "original_title": "Between the Acts",
-  "original_publisher": "Hogarth Press"
+  "original_publisher": "Hogarth Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/115990-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/115990-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:14+00:00"
 }

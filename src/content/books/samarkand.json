@@ -6,8 +6,8 @@
   "slug": "samarkand",
   "tags": [],
   "description": "A gripping historical novel set in 11th century Persia that imagines the life of poet and philosopher Omar Khayyam Accused of mocking the inviolate codes of Islam, the Persian poet and sage Omar Khayyam fortuitously finds sympathy with the very man who is to judge his alleged crimes. Recognising genius, the judge decides to spare him and gives him instead a small, blank book, encouraging him to confine his thoughts to it alone. Thus begins the seamless blend of fact and fiction that is Samarkand...",
-  "cover_url": "https://books.google.com/books/content?id=r3o0AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=r3o0AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/samarkand.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/samarkand.jpg",
   "isbn": "9780748131242",
   "first_published": 1988,
   "pages": 291,
@@ -62,5 +62,8 @@
   "first_published_circa": false,
   "original_language": "gre",
   "original_title": "Samarkande.",
-  "representative_edition_key": "/books/OL33414122M"
+  "representative_edition_key": "/books/OL33414122M",
+  "cover_url_source": "https://books.google.com/books/content?id=r3o0AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=r3o0AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:54+00:00"
 }

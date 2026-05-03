@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "This highly anticipated print collection gathers articles published in the much-loved International Journal of Proof-of-Concept or Get The Fuck Out. PoC||GTFO follows in the tradition of Phrack and Uninformed by publishing on the subjects of offensive security research, reverse engineering, and file format internals. Until now, the journal has only been available online or printed and distributed for free at hacker conferences worldwide. Consistent with the journal's quirky, biblical style, this",
-  "cover_url": "https://books.google.com/books/content?id=lvMxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/poc-gtfo.jpg",
   "isbn": "9781593278984",
   "first_published": 2017,
   "pages": 792,
@@ -29,5 +29,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29497511M"
+  "representative_edition_key": "/books/OL29497511M",
+  "cover_url_source": "https://books.google.com/books/content?id=lvMxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:43:24+00:00"
 }

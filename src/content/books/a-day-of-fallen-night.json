@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "a-day-of-fallen-night",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12986849-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12986849-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-day-of-fallen-night.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-day-of-fallen-night.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27820045W",
   "first_published": 2023,
   "language": "eng",
@@ -33,5 +33,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781526619761",
-  "representative_edition_key": "/books/OL45272071M"
+  "representative_edition_key": "/books/OL45272071M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12986849-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12986849-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:37+00:00"
 }

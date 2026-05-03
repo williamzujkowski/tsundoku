@@ -8,8 +8,8 @@
     "computing",
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/927862-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/927862-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-papers-on-computer-science.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-papers-on-computer-science.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14941587W",
   "first_published": 1996,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL25004783M"
+  "representative_edition_key": "/books/OL25004783M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/927862-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/927862-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:40+00:00"
 }

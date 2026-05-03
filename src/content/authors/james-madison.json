@@ -3,7 +3,7 @@
   "slug": "james-madison",
   "book_count": 1,
   "bio": "Madison was an American politician who served as the fourth President of the United States between 1809–1817.",
-  "photo_url": "https://covers.openlibrary.org/a/id/6386798-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/james-madison.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL240767A",
   "birth_year": 1751,
   "death_year": 1836,
@@ -24,5 +24,7 @@
     {
       "name": "Fellow of the American Academy of Arts and Sciences"
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/6386798-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:11+00:00"
 }

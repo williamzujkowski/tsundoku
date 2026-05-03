@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Story of the Treasure Seekers - by E. Nesbit. The Story of the Treasure Seekers is a novel by E. Nesbit. First published in 1899, it tells the story of Dora, Oswald, Dicky, Alice, Noel, and Horace Octavius (H. O.) Bastable, and their attempts to assist their widowed father and recover the fortunes of their family; its sequels are The Wouldbegoods (1899) and The New Treasure Seekers (1904). The novel's complete name is The Story of the Treasure Seekers: Being the Adventures of the Bastable Ch",
-  "cover_url": "https://books.google.com/books/content?id=8sjvsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-the-treasure-seekers.png",
   "isbn": "1514143917",
   "first_published": 1899,
   "pages": 124,
@@ -103,5 +103,7 @@
   "wikidata_qid": "Q7766848",
   "original_title": "The Story of the Treasure Seekers",
   "original_language": "eng",
-  "original_publisher": "T. Fisher Unwin"
+  "original_publisher": "T. Fisher Unwin",
+  "cover_url_source": "https://books.google.com/books/content?id=8sjvsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:17+00:00"
 }

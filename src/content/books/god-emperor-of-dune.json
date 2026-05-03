@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6711531-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6711531-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/god-emperor-of-dune.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/god-emperor-of-dune.jpg",
   "open_library_url": "https://openlibrary.org/works/OL893515W",
   "first_published": 1981,
   "language": "eng",
@@ -64,5 +64,8 @@
   "series": {
     "name": "Dune",
     "position": 4
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6711531-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6711531-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:09+00:00"
 }

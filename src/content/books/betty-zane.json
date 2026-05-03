@@ -12,8 +12,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "Show Excerpt a number of settlers, of a like spirit with himself, to accompany him to the wilderness. Believing it unsafe to take their families with them at once, they left them at Red Stone on the Monongahela river, while the men, including Colonel Zane, his brothers Silas, Andrew, Jonathan and Isaac, the Wetzels, McCollochs, Bennets, Metzars and others, pushed on ahead. The country through which they passed was one tangled, most impenetrable forest; the axe of the pioneer had never sounded in...",
-  "cover_url": "https://books.google.com/books/content?id=SZxNvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SZxNvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/betty-zane.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/betty-zane.jpg",
   "isbn": "1537247778",
   "first_published": 1903,
   "pages": 288,
@@ -93,5 +93,8 @@
   "editions_count": 189,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54846883M"
+  "representative_edition_key": "/books/OL54846883M",
+  "cover_url_source": "https://books.google.com/books/content?id=SZxNvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SZxNvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:12+00:00"
 }

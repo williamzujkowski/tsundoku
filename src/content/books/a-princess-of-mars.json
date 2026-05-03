@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Best described as early science fiction melded with an epic dose of romantic adventure, A Princess of Mars is the first adventure of John Carter, a Civil War veteran who unexpectedly find himself transplanted to the planet Mars. Yet this red planet is far more than a dusty, barren place; it's a fantasy world populated with giant green barbarians, beautiful maidens in distress, and weird flora and monstrous fauna the likes of which could only exist in the author's boundless imagination. Sheer esc",
-  "cover_url": "https://books.google.com/books/content?id=ws18cmj5ic0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-princess-of-mars.jpg",
   "first_published": 1912,
   "pages": 370,
   "google_books_url": "https://play.google.com/store/books/details?id=ws18cmj5ic0C&source=gbs_api",
@@ -105,5 +105,7 @@
   "original_language": "eng",
   "series": {
     "name": "Barsoom"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=ws18cmj5ic0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:26+00:00"
 }

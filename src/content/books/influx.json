@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "New York Times bestselling author Daniel Suarez imagines a chilling future where technological advances are held hostage by the government in this thriller that perfectly blends “nail-biting suspense with accessible science” (Publishers Weekly). Physicist Jon Grady and his team have discovered a device that can reflect gravity—a triumph that will revolutionize the field of physics and change the future. But instead of acclaim, Grady’s lab is locked down by a covert organization known as the Bure",
-  "cover_url": "https://books.google.com/books/content?id=PfQpAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/influx.jpg",
   "isbn": "9780698148536",
   "first_published": 2014,
   "pages": 400,
@@ -40,5 +40,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780698148536",
-  "representative_edition_key": "/books/OL26824977M"
+  "representative_edition_key": "/books/OL26824977M",
+  "cover_url_source": "https://books.google.com/books/content?id=PfQpAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:50+00:00"
 }

@@ -11,8 +11,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Four Non-Player Characters (NPCs) find themselves forced to pretend they're adventurers in order to save their town and loved ones.",
-  "cover_url": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/npcs-spells-swords-stealth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/npcs-spells-swords-stealth.jpg",
   "isbn": "1499307713",
   "first_published": 2014,
   "google_books_url": "http://books.google.com/books?id=X_24oAEACAAJ&dq=NPCs+(Spells+Swords+%26+Stealth)+Drew+Hayes&hl=&source=gbs_api",
@@ -34,5 +34,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781499307719",
-  "representative_edition_key": "/books/OL26783766M"
+  "representative_edition_key": "/books/OL26783766M",
+  "cover_url_source": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=X_24oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:35:43+00:00"
 }

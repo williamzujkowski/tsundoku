@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12715902-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12715902-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-grapes-of-wrath.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-grapes-of-wrath.jpg",
   "open_library_url": "https://openlibrary.org/works/OL23205W",
   "first_published": 1939,
   "language": "eng",
@@ -192,5 +192,8 @@
       "name": "Pulitzer Prize for the Novel",
       "year": 1940
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12715902-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12715902-L.jpg",
+  "cover_cached_at": "2026-05-03T02:05:49+00:00"
 }

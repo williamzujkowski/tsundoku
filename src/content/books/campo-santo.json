@@ -7,8 +7,8 @@
   "tags": [
     "essays"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/746375-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/746375-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/campo-santo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/campo-santo.jpg",
   "open_library_url": "https://openlibrary.org/works/OL46612W",
   "first_published": 2003,
   "language": "eng",
@@ -52,5 +52,8 @@
   "first_published_circa": false,
   "original_language": "ger",
   "first_edition_isbn": "3446203567",
-  "representative_edition_key": "/books/OL28432262M"
+  "representative_edition_key": "/books/OL28432262M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/746375-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/746375-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:27+00:00"
 }

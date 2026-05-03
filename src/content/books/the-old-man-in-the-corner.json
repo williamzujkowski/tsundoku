@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Old Man in the Corner by Baroness Emmuska Orczy Orczy This work is available for countries where copyright is Life+70 and in the USA. Created by Baroness Orczy, author of the famous Scarlet Pimpernel series, The Old Man In the Corner was one of the earliest armchair detectives, popping up with so many others in the wake of the huge popularity of the Sherlock Holmes stories. The Old Man relies mostly upon sensationalistic \"penny dreadful\" newspaper accounts, with the occasional courtroom visi",
-  "cover_url": "https://books.google.com/books/content?id=ls5uuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-old-man-in-the-corner.jpg",
   "isbn": "1721016015",
   "first_published": 2017,
   "pages": 232,
@@ -31,5 +31,7 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL55228046M"
+  "representative_edition_key": "/books/OL55228046M",
+  "cover_url_source": "https://books.google.com/books/content?id=ls5uuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:01+00:00"
 }

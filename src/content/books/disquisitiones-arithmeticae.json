@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "disquisitiones-arithmeticae",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8431565-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8431565-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/disquisitiones-arithmeticae.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/disquisitiones-arithmeticae.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19252462W",
   "first_published": 2009,
   "description": "Carl Friedrich Gauss’s textbook, Disquisitiones arithmeticae, published in 1801 (Latin), remains to this day a true masterpiece of mathematical examination. .",
@@ -23,5 +23,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL51663241M"
+  "representative_edition_key": "/books/OL51663241M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8431565-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8431565-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:46+00:00"
 }

@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Hunt for Red October is the debut novel by American author Tom Clancy, first published on October 1, 1984, by the Naval Institute Press. It depicts Soviet submarine captain Marko Ramius as he seemingly goes rogue with his country's cutting-edge ballistic missile submarine Red October, and marks the first appearance of Clancy's most popular fictional character, Jack Ryan, an analyst working for the Central Intelligence Agency, as he must prove his theory that Ramius plans to defect to the United States.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/HuntForRedOctober.JPG/250px-HuntForRedOctober.JPG",
+  "cover_url": "/tsundoku/cached/covers/the-hunt-for-red-october.jpg",
   "pages": 479,
   "isbn": "9780945353799",
   "ddc": [
@@ -72,5 +72,7 @@
   },
   "editions_count": 63,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8448760M"
+  "representative_edition_key": "/books/OL8448760M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/HuntForRedOctober.JPG/250px-HuntForRedOctober.JPG",
+  "cover_cached_at": "2026-05-03T02:07:12+00:00"
 }

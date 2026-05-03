@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In this collection of essays, Russell surveys the social and political consequences of his beliefs with characteristic clarity and humour. In Praise of Idleness is a tour de force that only Bertrand Russell could perform.",
-  "cover_url": "https://books.google.com/books/content?id=CnlbMP_vBmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bertrand-russell-in-praise-of-idleness.jpg",
   "isbn": "0415325064",
   "first_published": 1935,
   "pages": 202,
@@ -61,5 +61,7 @@
   "wikidata_qid": "Q2317772",
   "original_title": "In Praise of Idleness and Other Essays",
   "original_language": "eng",
-  "original_publisher": "Routledge"
+  "original_publisher": "Routledge",
+  "cover_url_source": "https://books.google.com/books/content?id=CnlbMP_vBmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:08+00:00"
 }

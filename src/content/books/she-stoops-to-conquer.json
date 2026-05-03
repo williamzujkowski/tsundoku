@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "The great nineteenth-century stage actor Edwin Booth began his long career in 1849 as a young teenager, following in his father's footsteps. This biography traces his life and career as a tragic actor, including his childhood; his early acting tours of California, Australia and Hawaii; his rise to fame as a touring star; his two marriages; his relationship with his brother John Wilkes Booth; his disastrous management of Booth's Theatre in New York City; and his death in 1891. The book includes a...",
-  "cover_url": "https://books.google.com/books/content?id=Tq2DwABwrRoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Tq2DwABwrRoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/she-stoops-to-conquer.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/she-stoops-to-conquer.jpg",
   "isbn": "9781476601465",
   "first_published": 1773,
   "pages": 1187,
@@ -103,5 +103,8 @@
   "editions_count": 294,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34245922M"
+  "representative_edition_key": "/books/OL34245922M",
+  "cover_url_source": "https://books.google.com/books/content?id=Tq2DwABwrRoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Tq2DwABwrRoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:42+00:00"
 }

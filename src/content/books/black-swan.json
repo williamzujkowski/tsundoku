@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5721840-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5721840-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/black-swan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/black-swan.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3295030W",
   "first_published": 2005,
   "language": "eng",
@@ -80,5 +80,8 @@
   "wikidata_qid": "Q2397469",
   "original_title": "The Black Swan",
   "original_language": "eng",
-  "original_publisher": "Allen Lane"
+  "original_publisher": "Allen Lane",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5721840-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5721840-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:32+00:00"
 }

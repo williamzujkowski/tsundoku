@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8605114-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8605114-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/clean-architecture.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/clean-architecture.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19809141W",
   "first_published": 2017,
   "language": "eng",
@@ -38,5 +38,8 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34758280M"
+  "representative_edition_key": "/books/OL34758280M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8605114-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8605114-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:31+00:00"
 }

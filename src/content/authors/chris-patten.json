@@ -5,7 +5,7 @@
   "open_library_url": "https://openlibrary.org/authors/OL227817A",
   "birth_year": 1944,
   "bio": "British politician and colonial administrator (born 1944)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Patten%20-2008-10-31-.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/chris-patten.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "nationality": "wikidata_v1",
@@ -45,5 +45,7 @@
       "name": "honorary doctorate from University of Grenoble-II",
       "year": 2011
     }
-  ]
+  ],
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Patten%20-2008-10-31-.jpg?width=400",
+  "photo_cached_at": "2026-05-03T00:40:54+00:00"
 }

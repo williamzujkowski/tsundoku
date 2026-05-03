@@ -3,7 +3,7 @@
   "slug": "daniel-keyes",
   "book_count": 1,
   "bio": "Daniel Keyes was an American writer best known as the author of the novel Flowers for Algernon. Keyes was given the Author Emeritus honor by the Science Fiction and Fantasy Writers of America in 2000.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/e/ee/Daniel_keyes_2.jpg",
+  "photo_url": "/tsundoku/cached/authors/daniel-keyes.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Keyes",
   "open_library_url": "https://openlibrary.org/authors/OL35895A",
   "birth_year": 1927,
@@ -33,5 +33,7 @@
     {
       "name": "Author Emeritus"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/e/ee/Daniel_keyes_2.jpg",
+  "photo_cached_at": "2026-05-03T00:41:10+00:00"
 }

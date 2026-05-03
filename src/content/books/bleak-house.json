@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "bleak-house",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9279273-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9279273-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/bleak-house.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bleak-house.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14868510W",
   "first_published": 1850,
   "language": "eng",
@@ -166,5 +166,8 @@
   "wikidata_qid": "Q883305",
   "original_title": "Bleak House",
   "original_language": "eng",
-  "original_publisher": "Chapman and Hall"
+  "original_publisher": "Chapman and Hall",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9279273-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9279273-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:38+00:00"
 }

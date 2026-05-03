@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Melmoth the Wanderer tells the story of John Melmoth, a Dublin student and a scholar who sold his soul to the devil in exchange for 150 extra years of life, and searches the world for someone who will take over the pact for him, in a manner reminiscent of the Wandering Jew.",
-  "cover_url": "https://books.google.com/books/content?id=kNGSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/melmoth-the-wanderer.jpg",
   "isbn": "9788026898238",
   "first_published": 1820,
   "pages": 520,
@@ -84,5 +84,7 @@
   "representative_edition_key": "/books/OL33932556M",
   "wikidata_qid": "Q1475956",
   "original_title": "Melmoth the Wanderer",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=kNGSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:15+00:00"
 }

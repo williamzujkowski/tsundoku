@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Kusamakura (Grass Pillow) by Natsume Sōseki is a lyrical, introspective novel that follows an artist who retreats to a remote mountain village in search of beauty and artistic inspiration. As he observes the natural landscape and interacts with the mysterious and elegant hostess, O-Nami, he reflects deeply on art, aesthetics, and the contrast between the artistic and everyday worlds. The novel blends poetry, philosophy, and painterly descriptions, embodying the idea of art as a serene refuge fro",
-  "cover_url": "https://books.google.com/books/content?id=hRlx0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/kusamakura.jpg",
   "isbn": "9798897184712",
   "first_published": 2025,
   "google_books_url": "http://books.google.com/books?id=hRlx0QEACAAJ&dq=intitle:Kusamakura&hl=&source=gbs_api",
@@ -52,5 +52,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 8,
-  "representative_edition_key": "/books/OL7861552M"
+  "representative_edition_key": "/books/OL7861552M",
+  "cover_url_source": "https://books.google.com/books/content?id=hRlx0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:28:21+00:00"
 }

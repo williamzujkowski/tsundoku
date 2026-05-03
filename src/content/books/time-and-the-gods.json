@@ -9,8 +9,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6174903-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6174903-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/time-and-the-gods.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/time-and-the-gods.jpg",
   "open_library_url": "https://openlibrary.org/works/OL83874W",
   "first_published": 1906,
   "language": "eng",
@@ -60,5 +60,8 @@
   "wikidata_qid": "Q7805269",
   "original_title": "Time and the Gods",
   "original_language": "eng",
-  "original_publisher": "Orion Publishing Group"
+  "original_publisher": "Orion Publishing Group",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6174903-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6174903-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:12+00:00"
 }

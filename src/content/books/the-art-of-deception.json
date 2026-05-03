@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The world's most infamous hacker offers an insider's view of the low-tech threats to high-tech security Kevin Mitnick's exploits as a cyber-desperado and fugitive form one of the most exhaustive FBI manhunts in history and have spawned dozens of articles, books, films, and documentaries. Since his release from federal prison, in 1998, Mitnick has turned his life around and established himself as one of the most sought-after computer security experts worldwide. Now, in The Art of Deception, the w...",
-  "cover_url": "https://books.google.com/books/content?id=OIy4F-8b_uEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=OIy4F-8b_uEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-art-of-deception.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-art-of-deception.jpg",
   "isbn": "9780764538391",
   "first_published": 2011,
   "pages": 375,
@@ -38,5 +38,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780764538391",
-  "representative_edition_key": "/books/OL28956378M"
+  "representative_edition_key": "/books/OL28956378M",
+  "cover_url_source": "https://books.google.com/books/content?id=OIy4F-8b_uEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=OIy4F-8b_uEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:56:11+00:00"
 }

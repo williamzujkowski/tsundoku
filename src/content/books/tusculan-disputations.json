@@ -10,7 +10,7 @@
     "politics"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=K5FlGoop9PIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tusculan-disputations.jpg",
   "first_published": 1894,
   "pages": 476,
   "google_books_url": "https://play.google.com/store/books/details?id=K5FlGoop9PIC&source=gbs_api",
@@ -35,5 +35,7 @@
   },
   "editions_count": 8,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35965386M"
+  "representative_edition_key": "/books/OL35965386M",
+  "cover_url_source": "https://books.google.com/books/content?id=K5FlGoop9PIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:22:11+00:00"
 }

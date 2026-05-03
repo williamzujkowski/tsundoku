@@ -8,8 +8,8 @@
     "fantasy",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9293458-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9293458-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/unfinished-tales.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/unfinished-tales.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27466W",
   "first_published": 1980,
   "language": "eng",
@@ -73,5 +73,8 @@
       "name": "Mythopoeic Fantasy Award",
       "year": 1981
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9293458-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9293458-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:59+00:00"
 }

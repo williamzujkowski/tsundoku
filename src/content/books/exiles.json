@@ -8,8 +8,8 @@
     "drama",
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243037-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243037-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/exiles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/exiles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL86340W",
   "first_published": 1918,
   "language": "eng",
@@ -85,5 +85,8 @@
   "representative_edition_key": "/books/OL41937883M",
   "wikidata_qid": "Q2297900",
   "original_title": "Exiles",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243037-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243037-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:01+00:00"
 }

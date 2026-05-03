@@ -16,8 +16,8 @@
   "pages": 236,
   "google_books_url": "http://books.google.com/books?id=h4HrzgEACAAJ&dq=intitle:The+Unpleasantness+at+the+Bellona+Club&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/43793-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/43793-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-unpleasantness-at-the-bellona-club.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-unpleasantness-at-the-bellona-club.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2234960W",
   "copyright_status": "public_domain",
   "librivox_url": "https://librivox.org/the-unpleasantness-at-the-bellona-club-by-dorothy-l-sayers/",
@@ -80,5 +80,8 @@
   "original_publisher": "Ernest Benn",
   "series": {
     "name": "Lord Peter Wimsey mysteries"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/43793-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/43793-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:37+00:00"
 }

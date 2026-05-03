@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Η ΠΡΙΓΚΙΠΙΣΣΑ ΒΑΪΟΛΕΤ ΓΥΡΙΣΕ ΞΑΦΝΙΚΑ και χαστούκισε τη Ρέιτσελ.",
-  "cover_url": "https://covers.openlibrary.org/b/id/1005963-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1005963-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/wizards-first-rule.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/wizards-first-rule.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9789603063650",
@@ -69,5 +69,8 @@
   "series": {
     "name": "The Sword of Truth",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1005963-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1005963-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:14+00:00"
 }

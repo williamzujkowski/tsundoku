@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-tenant-of-wildfell-hall",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1023552-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1023552-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tenant-of-wildfell-hall.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tenant-of-wildfell-hall.jpg",
   "open_library_url": "https://openlibrary.org/works/OL260101W",
   "first_published": 1848,
   "language": "eng",
@@ -109,5 +109,8 @@
   "representative_edition_key": "/books/OL34294713M",
   "wikidata_qid": "Q44701",
   "original_title": "The Tenant of Wildfell Hall",
-  "original_publisher": "Thomas Cautley Newby"
+  "original_publisher": "Thomas Cautley Newby",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1023552-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1023552-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:01+00:00"
 }

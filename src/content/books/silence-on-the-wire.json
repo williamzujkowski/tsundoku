@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "\"This book will be riveting reading for security professionals and students, as well as technophiles interested in learning about how computer security fits into the big picture and high-level hackers seeking to broaden their understanding of their craft.\"--BOOK JACKET.",
-  "cover_url": "https://books.google.com/books/content?id=kOQ9m38q_t8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/silence-on-the-wire.jpg",
   "isbn": "9781593270469",
   "first_published": 2005,
   "pages": 312,
@@ -41,5 +41,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781593270469",
-  "representative_edition_key": "/books/OL8871403M"
+  "representative_edition_key": "/books/OL8871403M",
+  "cover_url_source": "https://books.google.com/books/content?id=kOQ9m38q_t8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:49+00:00"
 }

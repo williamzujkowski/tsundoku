@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "night-shift",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14651337-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14651337-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/night-shift.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/night-shift.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81608W",
   "first_published": 1960,
   "language": "eng",
@@ -169,5 +169,8 @@
   "wikidata_qid": "Q262540",
   "original_title": "Night Shift",
   "original_language": "eng",
-  "original_publisher": "Doubleday"
+  "original_publisher": "Doubleday",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14651337-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14651337-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:30+00:00"
 }

@@ -8,8 +8,8 @@
     "economics"
   ],
   "description": "The winners of the Nobel Prize show how economics, when done right, can help us solve the thorniest social and political problems of our day. Figuring out how to deal with today's critical economic problems is perhaps the great challenge of our time. Much greater than space travel or perhaps even the next revolutionary medical breakthrough, what is at stake is the whole idea of the good life as we have known it. Immigration and inequality, globalization and technological disruption, slowing grow...",
-  "cover_url": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/good-economics-for-hard-times.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/good-economics-for-hard-times.jpg",
   "isbn": "9781541762879",
   "first_published": 2019,
   "pages": 414,
@@ -46,5 +46,8 @@
   "wikidata_qid": "Q85764011",
   "original_title": "Good Economics for Hard Times",
   "original_language": "eng",
-  "original_publisher": "PublicAffairs"
+  "original_publisher": "PublicAffairs",
+  "cover_url_source": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:28+00:00"
 }

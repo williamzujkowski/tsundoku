@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7884018-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7884018-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/guns-germs-and-steel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/guns-germs-and-steel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL276558W",
   "first_published": 1997,
   "language": "eng",
@@ -135,5 +135,8 @@
       "name": "Pulitzer Prize for General Nonfiction",
       "year": 1998
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7884018-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7884018-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:44+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Incident response tools and techniques for effective cyber threat response Key Features Create a solid incident response framework and manage cyber incidents effectively Learn to apply digital forensics tools and techniques to investigate cyber threats Explore the real-world threat of ransomware and apply proper incident response techniques for investigation and recovery Book DescriptionAn understanding of how digital forensics integrates with the overall response to cybersecurity incidents is k",
-  "cover_url": "https://books.google.com/books/content?id=1N-fEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/digital-forensics-and-incident-response.jpg",
   "isbn": "9781803230252",
   "first_published": 2020,
   "pages": 532,
@@ -46,5 +46,7 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9781838644086",
-  "representative_edition_key": "/books/OL51803631M"
+  "representative_edition_key": "/books/OL51803631M",
+  "cover_url_source": "https://books.google.com/books/content?id=1N-fEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:31+00:00"
 }

@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "Billy Byrne was a thug and alcoholic, but his choices have lead to a life of adventure and peril!",
-  "cover_url": "https://books.google.com/books/content?id=Xdp1ImiSqJ4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mucker.jpg",
   "isbn": "9781612105390",
   "first_published": 1921,
   "pages": 561,
@@ -62,5 +62,7 @@
   "wikidata_qid": "Q16387162",
   "original_title": "The Mucker",
   "original_language": "eng",
-  "original_publisher": "A. C. McClurg"
+  "original_publisher": "A. C. McClurg",
+  "cover_url_source": "https://books.google.com/books/content?id=Xdp1ImiSqJ4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:29+00:00"
 }

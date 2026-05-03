@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=5QpuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-my-experiments-with-truth.jpg",
   "first_published": 1927,
   "pages": 634,
   "google_books_url": "https://play.google.com/store/books/details?id=5QpuAAAAMAAJ&source=gbs_api",
@@ -140,5 +140,7 @@
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL33828514M",
-  "wikidata_qid": "Q32861733"
+  "wikidata_qid": "Q32861733",
+  "cover_url_source": "https://books.google.com/books/content?id=5QpuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:14+00:00"
 }

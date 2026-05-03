@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "home",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6935253-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6935253-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/home.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/home.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1875008W",
   "first_published": 2008,
   "language": "eng",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q13636457",
   "original_title": "Home",
   "original_language": "eng",
-  "original_publisher": "Farrar, Straus and Giroux"
+  "original_publisher": "Farrar, Straus and Giroux",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6935253-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6935253-L.jpg",
+  "cover_cached_at": "2026-05-03T01:21:03+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/39754-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/39754-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-crying-of-lot-49.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-crying-of-lot-49.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636665W",
   "first_published": 1966,
   "language": "eng",
@@ -81,5 +81,8 @@
   "representative_edition_key": "/books/OL40220585M",
   "wikidata_qid": "Q2344707",
   "original_title": "The Crying of Lot 49",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/39754-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/39754-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:12+00:00"
 }

@@ -9,8 +9,8 @@
   "first_published": 1969,
   "language": "eng",
   "description": "A ruthless Mexican tycoon surveys his past from his deathbed as he navigates between dreams, memories, and reality in this literary classic. \"With virile, honest writing in a stream of ebbing consciousness, the author of Where the Air is Clear has mastered an old theme and created a strong novel.\" — Kirkus Reviews As the novel opens, Artemio Cruz, the all-powerful newspaper magnate and land baron, lies confined to his bed and, in dreamlike flashes, recalls the pivotal episodes of his life. Carlo...",
-  "cover_url": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-death-of-artemio-cruz.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-death-of-artemio-cruz.jpg",
   "isbn": "9781466840027",
   "pages": 332,
   "google_books_url": "https://play.google.com/store/books/details?id=h8gdF8Z8RLoC&source=gbs_api",
@@ -33,5 +33,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34842000M"
+  "representative_edition_key": "/books/OL34842000M",
+  "cover_url_source": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:27+00:00"
 }

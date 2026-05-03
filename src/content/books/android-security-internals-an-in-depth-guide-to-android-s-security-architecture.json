@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "There are more than one billion Android devices in use today, each one a potential target. Unfortunately, many fundamental Android security features have been little more than a black box to all but the most elite security professionals—until now. In Android Security Internals, top Android security expert Nikolay Elenkov takes us under the hood of the Android security sys­tem. Elenkov describes Android security archi­tecture from the bottom up, delving into the imple­mentation of major security-",
-  "cover_url": "https://books.google.com/books/content?id=-QcvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/android-security-internals-an-in-depth-guide-to-android-s-security-architecture.jpg",
   "isbn": "9781593276416",
   "first_published": 2014,
   "pages": 434,
@@ -42,5 +42,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781593275815",
-  "representative_edition_key": "/books/OL26837863M"
+  "representative_edition_key": "/books/OL26837863M",
+  "cover_url_source": "https://books.google.com/books/content?id=-QcvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:31+00:00"
 }

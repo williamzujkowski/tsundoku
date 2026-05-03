@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/44117-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/44117-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/quarantine.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/quarantine.jpg",
   "open_library_url": "https://openlibrary.org/works/OL115337W",
   "first_published": 1992,
   "language": "eng",
@@ -44,5 +44,8 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL28533140M",
   "wikidata_qid": "Q2392641",
-  "original_title": "Quarantine"
+  "original_title": "Quarantine",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/44117-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/44117-L.jpg",
+  "cover_cached_at": "2026-05-03T01:46:30+00:00"
 }

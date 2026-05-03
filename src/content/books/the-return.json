@@ -9,7 +9,7 @@
     "le-monde-100"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=EP4AbZuT9asC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-return.jpg",
   "first_published": 1918,
   "pages": 460,
   "google_books_url": "https://play.google.com/store/books/details?id=EP4AbZuT9asC&source=gbs_api",
@@ -74,5 +74,7 @@
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL19490291M"
+  "representative_edition_key": "/books/OL19490291M",
+  "cover_url_source": "https://books.google.com/books/content?id=EP4AbZuT9asC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:30+00:00"
 }

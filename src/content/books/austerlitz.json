@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/227868-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/227868-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/austerlitz.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/austerlitz.jpg",
   "open_library_url": "https://openlibrary.org/works/OL46615W",
   "first_published": 2001,
   "language": "eng",
@@ -64,5 +64,8 @@
   "representative_edition_key": "/books/OL28688096M",
   "wikidata_qid": "Q473389",
   "original_title": "Austerlitz",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/227868-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/227868-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:25+00:00"
 }

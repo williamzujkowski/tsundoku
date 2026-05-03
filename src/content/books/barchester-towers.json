@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "barchester-towers",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1468666-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1468666-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/barchester-towers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/barchester-towers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL109724W",
   "first_published": 1815,
   "language": "eng",
@@ -150,5 +150,8 @@
   "original_language": "eng",
   "series": {
     "name": "Chronicles of Barsetshire"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1468666-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1468666-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:46+00:00"
 }

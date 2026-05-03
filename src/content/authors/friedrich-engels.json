@@ -3,7 +3,7 @@
   "slug": "friedrich-engels",
   "book_count": 2,
   "bio": "Friedrich Engels (German pronunciation: [ˈfʁiːdʁɪç ˈɛŋəls]; 28 November 1820 – 5 August 1895) was a German social scientist, author, political theorist, philosopher, and father of communist theory, alongside Karl Marx. Together they produced *The Communist Manifesto* in 1848. Engels also edited the second and third volumes of *Das Kapital* after Marx's death.",
-  "photo_url": "https://covers.openlibrary.org/a/id/6256623-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/friedrich-engels.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1368A",
   "birth_year": 1820,
   "death_year": 1895,
@@ -18,5 +18,7 @@
     "GB"
   ],
   "viaf_id": "68928644",
-  "ol_author_key": "/authors/OL1368A"
+  "ol_author_key": "/authors/OL1368A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/6256623-M.jpg",
+  "photo_cached_at": "2026-05-03T00:42:59+00:00"
 }

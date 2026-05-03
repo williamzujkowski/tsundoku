@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "description": "One Thousand and One Nights is a collection of Middle Eastern folktales compiled in the Arabic language during the Islamic Golden Age. It is often known in English as The Arabian Nights, from the first English-language edition, which rendered the title as The Arabian Nights' Entertainments.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/William-Strang-Sindbad-AliBaba-titlepage.JPG/330px-William-Strang-Sindbad-AliBaba-titlepage.JPG",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-one-thousand-and-one-nights.jpg",
   "pages": 1464,
   "isbn": "9780801014390",
   "ddc": [
@@ -1698,5 +1698,7 @@
   "wikidata_qid": "Q751582",
   "original_title": "Bible de Jérusalem",
   "original_language": "fre",
-  "original_publisher": "French Biblical and Archaeological School of Jerusalem"
+  "original_publisher": "French Biblical and Archaeological School of Jerusalem",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/William-Strang-Sindbad-AliBaba-titlepage.JPG/330px-William-Strang-Sindbad-AliBaba-titlepage.JPG",
+  "cover_cached_at": "2026-05-03T01:58:58+00:00"
 }

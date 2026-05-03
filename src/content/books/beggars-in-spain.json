@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/235042-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/235042-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/beggars-in-spain.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/beggars-in-spain.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1847172W",
   "first_published": 1991,
   "language": "eng",
@@ -49,5 +49,8 @@
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL27073016M"
+  "representative_edition_key": "/books/OL27073016M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/235042-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/235042-L.jpg",
+  "cover_cached_at": "2026-05-03T00:58:02+00:00"
 }

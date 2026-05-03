@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "houses-under-the-sea",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8835756-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8835756-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/houses-under-the-sea.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/houses-under-the-sea.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20187037W",
   "first_published": 2019,
   "description": "Since H.P. Lovecraft first invited colleagues such as Frank Belknap Long and Robert Bloch (among others) to join in his creation of what has come to be known as ¿The Cthulhu Mythos¿ (over Lovecraft's less invocative name of ¿Yog-Sothery¿), dozens of authors have tried their hand at adding to this vast tapestry with varying degrees of success. Some, like the then teen-aged Ramsey Campbell, used the Mythos as a starting point to his own career while still finding his own authorial voice (The Inhab...",
@@ -27,5 +27,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781596069206",
-  "representative_edition_key": "/books/OL27372568M"
+  "representative_edition_key": "/books/OL27372568M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8835756-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8835756-L.jpg",
+  "cover_cached_at": "2026-05-03T01:21:32+00:00"
 }

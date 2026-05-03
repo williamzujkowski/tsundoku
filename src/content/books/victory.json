@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "victory",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/2814119-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2814119-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/victory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/victory.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38763W",
   "first_published": 1915,
   "language": "eng",
@@ -31,5 +31,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55602263M"
+  "representative_edition_key": "/books/OL55602263M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2814119-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2814119-L.jpg",
+  "cover_cached_at": "2026-05-03T02:24:12+00:00"
 }

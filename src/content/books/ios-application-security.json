@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Eliminating security holes in iOS apps is critical for any developer who wants to protect their users from the bad guys. In iOS Application Security, mobile security expert David Thiel reveals common iOS coding mistakes that create serious security problems and shows you how to find and fix them. After a crash course on iOS application structure and Objective-C design patterns, you’ll move on to spotting bad code and plugging the holes. You’ll learn about: –The iOS security model and the limits ",
-  "cover_url": "https://books.google.com/books/content?id=iAYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ios-application-security.jpg",
   "isbn": "9781593277543",
   "first_published": 2016,
   "pages": 297,
@@ -50,5 +50,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781593277550",
-  "representative_edition_key": "/books/OL34071687M"
+  "representative_edition_key": "/books/OL34071687M",
+  "cover_url_source": "https://books.google.com/books/content?id=iAYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:25:41+00:00"
 }

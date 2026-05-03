@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "xunzi",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4693261-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4693261-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/xunzi.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/xunzi.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4983752W",
   "first_published": 1804,
   "language": "eng",
@@ -41,5 +41,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29290895M"
+  "representative_edition_key": "/books/OL29290895M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4693261-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4693261-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:34+00:00"
 }

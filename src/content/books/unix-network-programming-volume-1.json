@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "To build today's highly distributed, networked applications and services, you need deep mastery of sockets and other key networking APIs. One book delivers comprehensive, start-to-finish guidance for building robust, high-performance networked systems in any environment: UNIX Network Programming, Volume 1, Third Edition.",
-  "cover_url": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/unix-network-programming-volume-1.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/unix-network-programming-volume-1.jpg",
   "isbn": "0131411551",
   "first_published": 1998,
   "pages": 1032,
@@ -66,5 +66,8 @@
   "representative_edition_key": "/books/OL19566789M",
   "wikidata_qid": "Q113252890",
   "original_title": "UNIX Network Programming",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ptSC4LpwGA0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:23:00+00:00"
 }

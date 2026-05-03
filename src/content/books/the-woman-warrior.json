@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7893962-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7893962-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-woman-warrior.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-woman-warrior.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1822441W",
   "first_published": 1976,
   "language": "eng",
@@ -90,5 +90,8 @@
   "wikidata_qid": "Q14981259",
   "original_title": "The Woman Warrior",
   "original_language": "eng",
-  "original_publisher": "Alfred A. Knopf"
+  "original_publisher": "Alfred A. Knopf",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7893962-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7893962-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:38+00:00"
 }

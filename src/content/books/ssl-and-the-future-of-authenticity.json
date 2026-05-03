@@ -8,13 +8,16 @@
     "computing"
   ],
   "description": "This book describes the essential components of the SCION secure Internet architecture, the first architecture designed foremost for strong security and high availability. Among its core features, SCION also provides route control, explicit trust information, multipath communication, scalable quality-of-service guarantees, and efficient forwarding. The book includes functional specifications of the network elements, communication protocols among these elements, data structures, and configuration...",
-  "cover_url": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ssl-and-the-future-of-authenticity.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ssl-and-the-future-of-authenticity.jpg",
   "isbn": "9783319670805",
   "first_published": 2017,
   "pages": 438,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=Ce85DwAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Ce85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:52:37+00:00"
 }

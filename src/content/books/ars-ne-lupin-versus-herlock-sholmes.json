@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Arsène Lupin vs. Herlock Sholmes is a collection of two adventures of Arsène Lupin, written by Maurice Leblanc. These adventures feature a match of wits between Lupin and Herlock Sholmes, a transparent reference to Sherlock Holmes, the hero of Conan Doyle's detective stories. It follows the appearance of Arsène Lupin, Gentleman Burglar, in which Sherlock Holmes also makes an appearance in \"Sherlock Holmes Arrives Too Late\". The collection was translated twice into English, as Arsène Lupin versus",
-  "cover_url": "https://books.google.com/books/content?id=xLF4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ars-ne-lupin-versus-herlock-sholmes.jpg",
   "isbn": "9781387277247",
   "first_published": 2018,
   "pages": 290,
@@ -18,5 +18,7 @@
   "gutenberg_id": 40203,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/40203",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/40203.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=xLF4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:56:50+00:00"
 }

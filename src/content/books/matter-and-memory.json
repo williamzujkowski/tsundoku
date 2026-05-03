@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL39335988W",
   "first_published": 1959,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=bj4qAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=bj4qAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/matter-and-memory.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/matter-and-memory.jpg",
   "pages": 370,
   "google_books_url": "https://play.google.com/store/books/details?id=bj4qAQAAMAAJ&source=gbs_api",
   "reading_status": "read",
@@ -37,5 +37,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL57932666M"
+  "representative_edition_key": "/books/OL57932666M",
+  "cover_url_source": "https://books.google.com/books/content?id=bj4qAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=bj4qAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:03+00:00"
 }

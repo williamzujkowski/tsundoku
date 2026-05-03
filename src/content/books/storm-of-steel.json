@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "description": "Storm of Steel is the memoir of German officer Ernst Jünger's experiences on the Western Front during the First World War from December 1914 to August 1918. The book is a graphic account of trench warfare. It can be read affirmatively, neutrally, or as an anti-war book.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/InStahlgewittern.jpg/250px-InStahlgewittern.jpg",
+  "cover_url": "/tsundoku/cached/covers/storm-of-steel.jpg",
   "pages": 319,
   "isbn": "9780142437902",
   "ddc": [
@@ -66,5 +66,7 @@
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "In stahlgewittern",
-  "representative_edition_key": "/books/OL7361028M"
+  "representative_edition_key": "/books/OL7361028M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/InStahlgewittern.jpg/250px-InStahlgewittern.jpg",
+  "cover_cached_at": "2026-05-03T01:53:19+00:00"
 }

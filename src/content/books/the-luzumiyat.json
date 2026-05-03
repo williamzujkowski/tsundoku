@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "At the height of the Islamic Golden Age, in the first half of the 11th century, the Arab poet and freethinker Abu al-ʻAlaʼ al-Maʻarri touched off an entire literary scene around himself in his hometown of Maʻarra, Syria. With a religious skepticism bordering on atheism, al-Maʻarri attacked the established religious orthodoxy of his day, venturing to criticize Islamic, Christian, and Jewish doctrines alike. Calling himself “thrice-imprisoned” by his blindness, isolation, and physical embodiment, ",
-  "cover_url": "https://books.google.com/books/content?id=oKgNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-luzumiyat.jpg",
   "first_published": 2024,
   "pages": 157,
   "google_books_url": "https://play.google.com/store/books/details?id=oKgNEQAAQBAJ&source=gbs_api",
@@ -23,5 +23,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL32596534M"
+  "representative_edition_key": "/books/OL32596534M",
+  "cover_url_source": "https://books.google.com/books/content?id=oKgNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:22+00:00"
 }

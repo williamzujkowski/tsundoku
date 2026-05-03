@@ -6,8 +6,8 @@
   "slug": "the-diversity-of-life",
   "tags": [],
   "description": "This classic by the distinguished Harvard entomologist tells how life on earth evolved and became diverse, and now, how diversity and life are endangered by us, truly. While Wilson contributed a great deal to environmental ethics by calling for the preservation of whole ecosystems rather than individual species, his environmentalism appears too anthropocentric: \"We should judge every scrap of biodiversity as priceless while we learn to use it and come to understand what it means to humanity.\" An...",
-  "cover_url": "https://books.google.com/books/content?id=FzPaB_6Pw4MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=FzPaB_6Pw4MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-diversity-of-life.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-diversity-of-life.jpg",
   "isbn": "0393319407",
   "first_published": 1992,
   "pages": 468,
@@ -64,5 +64,8 @@
   },
   "editions_count": 18,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL6803447M"
+  "representative_edition_key": "/books/OL6803447M",
+  "cover_url_source": "https://books.google.com/books/content?id=FzPaB_6Pw4MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=FzPaB_6Pw4MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:49+00:00"
 }

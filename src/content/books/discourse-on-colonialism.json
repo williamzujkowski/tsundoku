@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "discourse-on-colonialism",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9316411-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9316411-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/discourse-on-colonialism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/discourse-on-colonialism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20657209W",
   "first_published": 1972,
   "language": "eng",
@@ -53,5 +53,8 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "0853452261",
-  "representative_edition_key": "/books/OL8791432M"
+  "representative_edition_key": "/books/OL8791432M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9316411-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9316411-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:34+00:00"
 }

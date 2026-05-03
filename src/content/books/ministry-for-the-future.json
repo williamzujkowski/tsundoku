@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "ministry-for-the-future",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10477770-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10477770-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ministry-for-the-future.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ministry-for-the-future.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21680947W",
   "first_published": 2020,
   "language": "eng",
@@ -66,5 +66,8 @@
       "name": "Grand Prix de l'Imaginaire for Best Foreign Novel",
       "year": 2024
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10477770-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10477770-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:52+00:00"
 }

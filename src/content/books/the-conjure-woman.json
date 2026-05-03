@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The stories in The Conjure Woman were Charles W. Chesnutt's first great literary success, and since their initial publication in 1899 they have come to be seen as some of the most remarkable works of African American literature from the Emancipation through the Harlem Renaissance. Lesser known, though, is that the The Conjure Woman, as first published by Houghton Mifflin, was not wholly Chesnutt's creation but a work shaped and selected by his editors. This edition reassembles for the first time",
-  "cover_url": "https://books.google.com/books/content?id=ZCFJ-LK_I6oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-conjure-woman.jpg",
   "isbn": "0822313871",
   "first_published": 1993,
   "pages": 220,
@@ -50,5 +50,7 @@
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "9780822377795",
-  "representative_edition_key": "/books/OL1396764M"
+  "representative_edition_key": "/books/OL1396764M",
+  "cover_url_source": "https://books.google.com/books/content?id=ZCFJ-LK_I6oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:08+00:00"
 }

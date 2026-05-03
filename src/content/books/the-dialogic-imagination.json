@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-dialogic-imagination",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5414210-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5414210-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-dialogic-imagination.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-dialogic-imagination.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2390855W",
   "first_published": 1981,
   "language": "eng",
@@ -42,5 +42,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "0292715277",
-  "representative_edition_key": "/books/OL18369409M"
+  "representative_edition_key": "/books/OL18369409M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5414210-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5414210-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:44+00:00"
 }

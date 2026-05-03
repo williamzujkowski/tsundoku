@@ -8,8 +8,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/934049-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/934049-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/shards-of-honor.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/shards-of-honor.jpg",
   "open_library_url": "https://openlibrary.org/works/OL56899W",
   "first_published": 1986,
   "language": "eng",
@@ -50,5 +50,8 @@
   "series": {
     "name": "The Vorkosigan Saga",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/934049-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/934049-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:40+00:00"
 }

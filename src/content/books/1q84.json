@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "1q84",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11153243-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11153243-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/1q84.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/1q84.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15029001W",
   "first_published": 2009,
   "language": "eng",
@@ -89,5 +89,8 @@
   "series": {
     "name": "1Q84",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11153243-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11153243-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:15+00:00"
 }

@@ -17,8 +17,8 @@
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL856767W",
   "copyright_status": "public_domain",
-  "cover_url": "https://books.google.com/books/content?id=B_kqAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=B_kqAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-oresteia-of-aeschylus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-oresteia-of-aeschylus.jpg",
   "ddc": [
     "882.1",
     "808",
@@ -175,5 +175,8 @@
   "original_language": "lat",
   "original_title": "Orestea, Agamemnon, Choephori, Eumenides.",
   "representative_edition_key": "/books/OL23223263M",
-  "wikidata_qid": "Q249769"
+  "wikidata_qid": "Q249769",
+  "cover_url_source": "https://books.google.com/books/content?id=B_kqAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=B_kqAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:05+00:00"
 }

@@ -8,8 +8,8 @@
     "children",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6955308-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6955308-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-scorpio-races.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-scorpio-races.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16221923W",
   "first_published": 2011,
   "language": "eng",
@@ -49,5 +49,8 @@
   },
   "editions_count": 16,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL44139675M"
+  "representative_edition_key": "/books/OL44139675M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6955308-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6955308-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:05+00:00"
 }

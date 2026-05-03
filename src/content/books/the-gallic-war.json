@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Gallic Wars were waged between 58 and 50 BC by the Roman general Julius Caesar against the peoples of Gaul. Gallic, Germanic, and Brittonic tribes fought to defend their homelands against an aggressive Roman campaign. The Wars culminated in the decisive Battle of Alesia in 52 BC, in which a complete Roman victory resulted in the expansion of the Roman Republic over the whole of Gaul.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg/330px-Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-gallic-war.jpg",
   "pages": 227,
   "isbn": "9781934941423",
   "ddc": [
@@ -35,5 +35,7 @@
   },
   "editions_count": 2,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL16944512M"
+  "representative_edition_key": "/books/OL16944512M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg/330px-Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg",
+  "cover_cached_at": "2026-05-03T02:05:00+00:00"
 }

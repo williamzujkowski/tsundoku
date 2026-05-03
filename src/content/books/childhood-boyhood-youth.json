@@ -9,8 +9,8 @@
   "first_published": 1905,
   "language": "eng",
   "description": "This autobiographical narrative, the second installment in Tolstoy's formative trilogy, delves into the intricate psychological landscape of adolescence, charting the protagonist's burgeoning self-awareness and his evolving perceptions of familial and social dynamics. It offers a nuanced portrayal of the transition from childhood innocence to the complexities of youth. \"Boyhood,\" known in Russian as \"Отрочество,\" was written between 1852 and 1853 and first published in 1854. This work constitute...",
-  "cover_url": "https://books.google.com/books/content?id=-ODeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-ODeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/childhood-boyhood-youth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/childhood-boyhood-youth.jpg",
   "isbn": "9783989885776",
   "pages": 262,
   "google_books_url": "https://play.google.com/store/books/details?id=-ODeEAAAQBAJ&source=gbs_api",
@@ -30,5 +30,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54911641M"
+  "representative_edition_key": "/books/OL54911641M",
+  "cover_url_source": "https://books.google.com/books/content?id=-ODeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-ODeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:02:03+00:00"
 }

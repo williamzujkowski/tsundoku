@@ -8,8 +8,8 @@
     "computing",
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1176091-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1176091-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/specifying-systems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/specifying-systems.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3950712W",
   "first_published": 2002,
   "language": "eng",
@@ -47,5 +47,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780321143068",
-  "representative_edition_key": "/books/OL9831755M"
+  "representative_edition_key": "/books/OL9831755M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1176091-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1176091-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:11+00:00"
 }

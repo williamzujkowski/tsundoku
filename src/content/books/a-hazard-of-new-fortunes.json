@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "No one can complain that in this story Mr. Howells has taken his type from the commonplace. It is a study of life in New York, and the author has brought together such a gallery of odd and strongly differentiated characters as could perhaps be found in no other city on the continent, while the conditions and phases of social life represented are not less distinctive and peculiar. The Marches, it is true, are from Boston, but they serve the purpose of external points of observation, whence to not",
-  "cover_url": "https://books.google.com/books/content?id=kF7eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-hazard-of-new-fortunes.jpg",
   "isbn": "9783849657499",
   "first_published": 1890,
   "pages": 546,
@@ -108,5 +108,7 @@
   "wikidata_qid": "Q4657268",
   "original_title": "A Hazard of New Fortunes",
   "original_language": "eng",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://books.google.com/books/content?id=kF7eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:59+00:00"
 }

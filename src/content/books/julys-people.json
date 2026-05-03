@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "julys-people",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5374535-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5374535-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/julys-people.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/julys-people.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10471901W",
   "first_published": 1981,
   "language": "eng",
@@ -29,5 +29,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28328120M"
+  "representative_edition_key": "/books/OL28328120M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5374535-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5374535-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:26+00:00"
 }

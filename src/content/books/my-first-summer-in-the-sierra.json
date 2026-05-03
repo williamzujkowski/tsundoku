@@ -11,8 +11,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "In 1869 the Sierra Nevada mountains were wild and relatively unknown territory. When Scottish naturalist John Muir visited the area that year, he kept a detailed diary of his findings. The book turned into a best-seller, tempting many to visit this beautiful area. Also, his book is a valuable document of the region's flora and fauna at the time.",
-  "cover_url": "https://books.google.com/books/content?id=aIdVzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=aIdVzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/my-first-summer-in-the-sierra.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/my-first-summer-in-the-sierra.jpg",
   "isbn": "1647989876",
   "first_published": 1911,
   "pages": 172,
@@ -80,5 +80,8 @@
   "editions_count": 93,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34086095M"
+  "representative_edition_key": "/books/OL34086095M",
+  "cover_url_source": "https://books.google.com/books/content?id=aIdVzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=aIdVzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:39+00:00"
 }

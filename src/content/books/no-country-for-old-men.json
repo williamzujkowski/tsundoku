@@ -7,8 +7,8 @@
   "tags": [
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9296899-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9296899-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/no-country-for-old-men.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/no-country-for-old-men.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40875W",
   "first_published": 1900,
   "language": "eng",
@@ -75,5 +75,8 @@
   "wikidata_qid": "Q611689",
   "original_title": "No Country for Old Men",
   "original_language": "eng",
-  "original_publisher": "Alfred A. Knopf"
+  "original_publisher": "Alfred A. Knopf",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9296899-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9296899-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:45+00:00"
 }

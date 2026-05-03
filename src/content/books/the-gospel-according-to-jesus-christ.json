@@ -9,8 +9,8 @@
   "first_published": 1994,
   "language": "eng",
   "description": "A fictional account of the life of Christ \"illuminated by ferocious wit, gentle passion, and poetry\"—from the Nobel Prize-winning author of Skylight ( Los Angeles Times Book Review). For José Saramago, the life of Jesus Christ and the story of his Passion were things of this earth: a child crying, a gust of wind, the caress of a woman half asleep, the bleat of a goat or the bark of a dog, a prayer uttered in the grayish morning light. The Holy Family reflects the real complexities of any family,...",
-  "cover_url": "https://books.google.com/books/content?id=NbDqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=NbDqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-gospel-according-to-jesus-christ.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-gospel-according-to-jesus-christ.jpg",
   "isbn": "9780547540047",
   "pages": 378,
   "google_books_url": "http://books.google.com/books?id=NbDqDwAAQBAJ&dq=The+Gospel+According+to+Jesus+Christ+Jos%C3%A9+Saramago&hl=&source=gbs_api",
@@ -32,5 +32,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781299898028",
-  "representative_edition_key": "/books/OL36191494M"
+  "representative_edition_key": "/books/OL36191494M",
+  "cover_url_source": "https://books.google.com/books/content?id=NbDqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=NbDqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:47+00:00"
 }

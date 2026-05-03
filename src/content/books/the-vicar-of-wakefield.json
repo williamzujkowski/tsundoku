@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Rich with wisdom and gentle irony, Oliver Goldsmith's only novel is a charming comedy that tells of an unworldly and generous vicar who lives contentedly with his large family until disaster strikes. When his idyllic life is brutally interrupted by bankruptcy and his daughter's abduction, he lands in prison. Yet these misfortunes fail to dampen the vicar's spirit or cause him to lose sight of Christian morality. A delightful lampoon of such literary conventions of the day as pastoral scenes, art",
-  "cover_url": "https://books.google.com/books/content?id=KAMGr7hSF2oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-vicar-of-wakefield.jpg",
   "first_published": 1766,
   "pages": 250,
   "google_books_url": "https://play.google.com/store/books/details?id=KAMGr7hSF2oC&source=gbs_api",
@@ -193,5 +193,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54922360M"
+  "representative_edition_key": "/books/OL54922360M",
+  "cover_url_source": "https://books.google.com/books/content?id=KAMGr7hSF2oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:45+00:00"
 }

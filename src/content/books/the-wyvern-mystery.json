@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "In this 1869 horror classic, a beautiful heroine marries the heir to a local estate — but what sounds like a happy ending is just the beginning of a chilling and suspenseful thriller.",
-  "cover_url": "https://books.google.com/books/content?id=VFfCRYeBlGcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-wyvern-mystery.jpg",
   "isbn": "9780486148847",
   "first_published": 1869,
   "pages": 322,
@@ -51,5 +51,7 @@
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27048763M"
+  "representative_edition_key": "/books/OL27048763M",
+  "cover_url_source": "https://books.google.com/books/content?id=VFfCRYeBlGcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:46+00:00"
 }

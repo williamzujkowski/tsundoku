@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "shahnameh-2",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1676680-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1676680-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/shahnameh-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/shahnameh-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7989947W",
   "first_published": 1993,
   "language": "eng",
@@ -29,5 +29,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL7361995M"
+  "representative_edition_key": "/books/OL7361995M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1676680-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1676680-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:32+00:00"
 }

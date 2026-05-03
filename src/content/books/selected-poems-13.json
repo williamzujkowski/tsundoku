@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6276041-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6276041-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-poems-13.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems-13.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26353W",
   "first_published": 1889,
   "language": "eng",
@@ -34,5 +34,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL15026660M"
+  "representative_edition_key": "/books/OL15026660M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6276041-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6276041-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:47+00:00"
 }

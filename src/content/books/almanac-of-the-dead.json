@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "almanac-of-the-dead",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/3965756-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3965756-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/almanac-of-the-dead.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/almanac-of-the-dead.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2004612W",
   "first_published": 1991,
   "language": "eng",
@@ -44,5 +44,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780140173192",
-  "representative_edition_key": "/books/OL9303981M"
+  "representative_edition_key": "/books/OL9303981M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3965756-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3965756-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:58+00:00"
 }

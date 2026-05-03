@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Marvelous Land of Oz: Being an Account of the Further Adventures of the Scarecrow and the Tin Woodman, commonly shortened to The Land of Oz, published in July 1904, is the second of L. Frank Baum's books set in the Land of Oz, and the sequel to The Wonderful Wizard of Oz (1900). This and the next 34 Oz books of the famous 40 were illustrated by John R. Neill. The book was made into an episode of The Shirley Temple Show in 1960, and into a Canada/Japan co-produced animated series of the same ",
-  "cover_url": "https://books.google.com/books/content?id=5_NcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-marvelous-land-of-oz.jpg",
   "isbn": "9783987442087",
   "first_published": 1904,
   "pages": 275,
@@ -116,5 +116,7 @@
   "original_publisher": "The Reilly & Britton Co.",
   "series": {
     "name": "Oz book series"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=5_NcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:56+00:00"
 }

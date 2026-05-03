@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "daniel-deronda",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8243960-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8243960-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/daniel-deronda.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/daniel-deronda.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20933W",
   "first_published": 1800,
   "language": "eng",
@@ -94,5 +94,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35518139M"
+  "representative_edition_key": "/books/OL35518139M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8243960-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8243960-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:25+00:00"
 }

@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=K8cSpoIRgf8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/no-treason.jpg",
   "first_published": 1867,
   "pages": 32,
   "google_books_url": "https://play.google.com/store/books/details?id=K8cSpoIRgf8C&source=gbs_api",
@@ -27,5 +27,7 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54348818M"
+  "representative_edition_key": "/books/OL54348818M",
+  "cover_url_source": "https://books.google.com/books/content?id=K8cSpoIRgf8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:52+00:00"
 }

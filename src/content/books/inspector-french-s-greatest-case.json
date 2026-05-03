@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "When a dead man is found in a diamond merchant's office in London, with missing jewels, the inspector in launched on a complicated case that takes him across Europe in search of the villains responsible.",
-  "cover_url": "https://books.google.com/books/content?id=AudcEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/inspector-french-s-greatest-case.jpg",
   "isbn": "9781479461400",
   "first_published": 1953,
   "pages": 283,
@@ -52,5 +52,7 @@
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL54702704M"
+  "representative_edition_key": "/books/OL54702704M",
+  "cover_url_source": "https://books.google.com/books/content?id=AudcEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:51+00:00"
 }

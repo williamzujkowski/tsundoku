@@ -11,8 +11,8 @@
   "first_published": 1924,
   "language": "eng",
   "description": "The exhilarating dystopian novel that inspired George Orwell's 1984 and foreshadowed the worst excesses of Soviet Russia Yevgeny Zamyatin's We is a powerfully inventive vision that has influenced writers from George Orwell to Ayn Rand. In a glass-enclosed city of absolute straight lines, ruled over by the all-powerful 'Benefactor', the citizens of the totalitarian society of OneState live out lives devoid of passion and creativity - until D-503, a mathematician who dreams in numbers, makes a dis...",
-  "cover_url": "https://books.google.com/books/content?id=E8u0xlN9GUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=E8u0xlN9GUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/we.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/we.jpg",
   "isbn": "9781101078242",
   "pages": 258,
   "google_books_url": "https://play.google.com/store/books/details?id=E8u0xlN9GUkC&source=gbs_api",
@@ -114,5 +114,8 @@
   },
   "editions_count": 210,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24278991M"
+  "representative_edition_key": "/books/OL24278991M",
+  "cover_url_source": "https://books.google.com/books/content?id=E8u0xlN9GUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=E8u0xlN9GUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:40+00:00"
 }

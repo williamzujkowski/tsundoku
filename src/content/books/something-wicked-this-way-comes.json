@@ -8,8 +8,8 @@
     "fantasy",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9346340-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9346340-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/something-wicked-this-way-comes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/something-wicked-this-way-comes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL103194W",
   "first_published": 1962,
   "language": "eng",
@@ -94,5 +94,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9346340-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9346340-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:24+00:00"
 }

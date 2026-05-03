@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/780215-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/780215-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/armadale.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/armadale.jpg",
   "open_library_url": "https://openlibrary.org/works/OL176085W",
   "first_published": 1866,
   "language": "eng",
@@ -73,5 +73,8 @@
   "editions_count": 261,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56616558M"
+  "representative_edition_key": "/books/OL56616558M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/780215-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/780215-L.jpg",
+  "cover_cached_at": "2026-05-03T00:56:48+00:00"
 }

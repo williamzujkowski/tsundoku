@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6968217-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6968217-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/what-is-art.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/what-is-art.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15236125W",
   "first_published": 1898,
   "language": "eng",
@@ -42,5 +42,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42599968M"
+  "representative_edition_key": "/books/OL42599968M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6968217-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6968217-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:45+00:00"
 }

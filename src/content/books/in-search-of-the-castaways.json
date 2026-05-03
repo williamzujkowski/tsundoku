@@ -13,8 +13,8 @@
   "google_books_url": "http://books.google.com/books?id=PDZn0QEACAAJ&dq=intitle:In+Search+of+the+Castaways&hl=&source=gbs_api",
   "language": "eng",
   "open_library_url": "https://openlibrary.org/works/OL40369915W",
-  "cover_url": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/in-search-of-the-castaways.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/in-search-of-the-castaways.jpg",
   "pages": 636,
   "librivox_url": "https://librivox.org/in-search-of-the-castaways-by-jules-verne/",
   "copyright_status": "public_domain",
@@ -28,5 +28,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23426478M"
+  "representative_edition_key": "/books/OL23426478M",
+  "cover_url_source": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=JXI-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:40+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A Cycle of the West rewards its readers with a sweeping saga of the American West and John G. Neihardt's exhilarating vision of frontier history. Infused with wonder, nostalgia, and a keen appreciation of epic history, A Cycle of the West provides an ideal introduction to the world of Black Elk Speaks. Unquestionably the masterpiece of the poet who has been called the \"American Homer,\" A Cycle of the West celebrates the land and legends of the Old West in five narrative poems: The Song of Three ",
-  "cover_url": "https://books.google.com/books/content?id=p7xfPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-cycle-of-the-west.jpg",
   "isbn": "080323323X",
   "first_published": 1991,
   "pages": 522,
@@ -44,5 +44,7 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9780803233232",
-  "representative_edition_key": "/books/OL7905218M"
+  "representative_edition_key": "/books/OL7905218M",
+  "cover_url_source": "https://books.google.com/books/content?id=p7xfPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:33+00:00"
 }

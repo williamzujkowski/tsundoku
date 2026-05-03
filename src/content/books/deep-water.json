@@ -8,8 +8,8 @@
     "mystery",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/93441-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/93441-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/deep-water.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/deep-water.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59432W",
   "first_published": 1957,
   "language": "eng",
@@ -60,5 +60,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL29516430M",
   "wikidata_qid": "Q5250353",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/93441-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/93441-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:02+00:00"
 }

@@ -8,8 +8,8 @@
     "horror",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12015500-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12015500-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pet-sematary.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pet-sematary.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81631W",
   "first_published": 1983,
   "language": "eng",
@@ -81,5 +81,8 @@
   "wikidata_qid": "Q742226",
   "original_title": "Pet Sematary",
   "original_language": "eng",
-  "original_publisher": "Doubleday"
+  "original_publisher": "Doubleday",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12015500-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12015500-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:55+00:00"
 }

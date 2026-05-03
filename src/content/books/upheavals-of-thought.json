@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/343985-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/343985-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/upheavals-of-thought.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/upheavals-of-thought.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8002653W",
   "first_published": 2001,
   "language": "eng",
@@ -46,5 +46,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780521462020",
-  "representative_edition_key": "/books/OL7744916M"
+  "representative_edition_key": "/books/OL7744916M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/343985-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/343985-L.jpg",
+  "cover_cached_at": "2026-05-03T02:23:09+00:00"
 }

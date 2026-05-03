@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The ultimate guide to cryptography, updated from an author team of the world's top cryptography experts. Cryptography is vital to keeping information safe, in an era when the formula to do so becomes more and more challenging. Written by a team of world-renowned cryptography experts, this essential guide is the definitive introduction to all major areas of cryptography: message security, key negotiation, and key management. You'll learn how to think like a cryptographer. You'll discover techniqu",
-  "cover_url": "https://books.google.com/books/content?id=nnqdQsrZnJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cryptography-engineering-design-principles-and-practical-applications.jpg",
   "isbn": "9781118080917",
   "first_published": 2011,
   "pages": 396,
@@ -47,5 +47,7 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29070153M"
+  "representative_edition_key": "/books/OL29070153M",
+  "cover_url_source": "https://books.google.com/books/content?id=nnqdQsrZnJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:06:02+00:00"
 }

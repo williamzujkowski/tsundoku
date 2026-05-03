@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12702407-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12702407-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/long-walk-to-freedom.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/long-walk-to-freedom.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1783377W",
   "first_published": 1994,
   "language": "eng",
@@ -92,5 +92,8 @@
   "wikidata_qid": "Q1199342",
   "original_title": "Long Walk to Freedom",
   "original_language": "eng",
-  "original_publisher": "Little, Brown and Company"
+  "original_publisher": "Little, Brown and Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12702407-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12702407-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:54+00:00"
 }

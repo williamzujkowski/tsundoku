@@ -10,8 +10,8 @@
     "utopian",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9255274-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9255274-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/frontier.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/frontier.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20639284W",
   "first_published": 2017,
   "description": "Frontier opens with the story of Liujin, a young woman heading out on her own to create her own life in Pebble Town, a somewhat surreal place at the base of Snow Mountain, where wolves roam the streets and certain enlightened individuals can enter a paradisiacal garden. Exploring life in this city through the viewpoint of a dozen different characters, Can Xue's latest novel attempts to unify the grand opposites of life - barbarism and civilization, the spiritual and the material, the mundane and...",
@@ -54,5 +54,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781940953540",
-  "representative_edition_key": "/books/OL27900420M"
+  "representative_edition_key": "/books/OL27900420M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9255274-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9255274-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:39+00:00"
 }

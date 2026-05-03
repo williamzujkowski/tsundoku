@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "What others in the trenches say about The Pragmatic Programmer... “The cool thing about this book is that it’s great for keeping the programming process fresh. The book helps you to continue to grow and clearly comes from people who have been there.” — Kent Beck, author of Extreme Programming Explained: Embrace Change “I found this book to be a great mix of solid advice and wonderful analogies!” — Martin Fowler, author of Refactoring and UML Distilled “I would buy a copy, read it twice, then tel...",
-  "cover_url": "https://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-pragmatic-programmer-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-pragmatic-programmer-2.jpg",
   "isbn": "9780132119177",
   "first_published": 1999,
   "pages": 346,
@@ -51,5 +51,8 @@
   "wikidata_qid": "Q7758002",
   "original_title": "The Pragmatic Programmer",
   "original_language": "eng",
-  "original_publisher": "The Pragmatic Programmer, LLC"
+  "original_publisher": "The Pragmatic Programmer, LLC",
+  "cover_url_source": "https://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:41+00:00"
 }

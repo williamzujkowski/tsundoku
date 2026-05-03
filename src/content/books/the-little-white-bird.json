@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Little White Bird is a British novel by J. M. Barrie, ranging in tone from fantasy and whimsy to social comedy with dark, aggressive undertones. It was published in November 1902, by Hodder & Stoughton in the UK and Scribner's in the US, although the latter had released it serially in the monthly Scribner's Magazine from August to November.The book attained prominence and longevity thanks to several chapters written in a softer tone than the rest of the book, which introduced the character a",
-  "cover_url": "https://books.google.com/books/content?id=dV0bMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-little-white-bird.jpg",
   "isbn": "1540333655",
   "first_published": 2016,
   "pages": 110,
@@ -38,5 +38,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781540333650",
-  "representative_edition_key": "/books/OL55522135M"
+  "representative_edition_key": "/books/OL55522135M",
+  "cover_url_source": "https://books.google.com/books/content?id=dV0bMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:59+00:00"
 }

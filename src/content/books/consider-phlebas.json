@@ -8,8 +8,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1009644-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1009644-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/consider-phlebas.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/consider-phlebas.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8368432W",
   "first_published": 1987,
   "language": "eng",
@@ -60,5 +60,8 @@
   "series": {
     "name": "Culture series",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1009644-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1009644-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:50+00:00"
 }

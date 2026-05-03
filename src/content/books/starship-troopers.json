@@ -9,8 +9,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14630746-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14630746-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/starship-troopers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/starship-troopers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59740W",
   "first_published": 1959,
   "language": "eng",
@@ -81,5 +81,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14630746-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14630746-L.jpg",
+  "cover_cached_at": "2026-05-03T01:52:59+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/15023290-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15023290-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-name-of-the-rose.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-name-of-the-rose.jpg",
   "open_library_url": "https://openlibrary.org/works/OL37535473W",
   "first_published": 1980,
   "language": "eng",
@@ -121,5 +121,8 @@
       "name": "Strega Prize",
       "year": 1981
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15023290-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15023290-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:38+00:00"
 }

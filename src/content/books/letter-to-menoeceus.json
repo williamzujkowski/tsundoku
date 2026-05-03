@@ -9,8 +9,8 @@
   "first_published": 2016,
   "language": "eng",
   "description": "Letter to Menoeceus - Epicurus - Translated by Robert Drew Hicks - Epicurus; 341-270 BC, was an ancient Greek philosopher as well as the founder of the school of philosophy called Epicureanism. Only a few fragments and letters of Epicurus's 300 written works remain. Much of what is known about Epicurean philosophy derives from later followers and commentators. For Epicurus, the purpose of philosophy was to attain the happy, tranquil life, characterized by ataraxia-peace and freedom from fear-and...",
-  "cover_url": "https://books.google.com/books/content?id=niE2vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=niE2vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/letter-to-menoeceus.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/letter-to-menoeceus.jpg",
   "isbn": "1537308874",
   "pages": 28,
   "google_books_url": "http://books.google.com/books?id=niE2vgAACAAJ&dq=Letter+to+Menoeceus+Epicurus&hl=&source=gbs_api",
@@ -40,5 +40,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781537308876",
-  "representative_edition_key": "/books/OL55323894M"
+  "representative_edition_key": "/books/OL55323894M",
+  "cover_url_source": "https://books.google.com/books/content?id=niE2vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=niE2vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:19+00:00"
 }

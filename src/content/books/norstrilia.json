@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "norstrilia",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/705501-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/705501-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/norstrilia.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/norstrilia.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3535591W",
   "first_published": 1975,
   "language": "eng",
@@ -50,5 +50,8 @@
       "name": "Seiun Award for Best Translated Long Work",
       "year": 1988
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/705501-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/705501-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:59+00:00"
 }

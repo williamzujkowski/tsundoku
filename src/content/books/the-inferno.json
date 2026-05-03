@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Belonging in the immortal company of the works of Homer, Virgil, Milton, and Shakespeare, Dante Alighieri’s poetic masterpiece is a visionary journey that takes readers through the torment of Hell. The first part of Dante’s Divine Comedy is many things: a moving human drama, a supreme expression of the Middle Ages, a glorification of the ways of God, and a magnificent protest against the ways in which men have thwarted the divine plan. One of the few literary works that has enjoyed a fame both i",
-  "cover_url": "https://books.google.com/books/content?id=doqPjauXF1QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-inferno.jpg",
   "isbn": "9781101078037",
   "first_published": 1785,
   "pages": 360,
@@ -20,7 +20,7 @@
   "gutenberg_id": 41537,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/41537",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/41537.html.images",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6387077-L.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-inferno.jpg",
   "open_library_url": "https://openlibrary.org/works/OL93227W",
   "ddc": [
     "851.15",
@@ -284,5 +284,8 @@
   "original_language": "fre",
   "original_title": "L' enfer",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24269488M"
+  "representative_edition_key": "/books/OL24269488M",
+  "cover_url_source": "https://books.google.com/books/content?id=doqPjauXF1QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6387077-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:48+00:00"
 }

@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "The basis for Netflix’s The Haunting of Bly Manor: One of the most disturbing ghost stories ever written, a tale of imagined danger and real dread. A young governess arrives at a secluded country estate, hired by the manor’s often-absent master to look after his orphaned niece and nephew. The young woman, a parson’s daughter, is immediately charmed by eight-year-old Flora—and Miles, two years older, seems like a perfect little gentleman when he is unexpectedly sent home from his boarding school.",
-  "cover_url": "https://books.google.com/books/content?id=jIQ5BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-turn-of-the-screw.jpg",
   "isbn": "9781497659773",
   "first_published": 1898,
   "pages": 119,
@@ -139,5 +139,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": "9781539437444",
-  "representative_edition_key": "/books/OL29702683M"
+  "representative_edition_key": "/books/OL29702683M",
+  "cover_url_source": "https://books.google.com/books/content?id=jIQ5BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:29+00:00"
 }

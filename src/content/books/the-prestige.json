@@ -7,8 +7,8 @@
   "tags": [
     "horror"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/3850762-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-prestige.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-prestige.jpg",
   "open_library_url": "https://openlibrary.org/works/OL166497W",
   "first_published": 1901,
   "language": "eng",
@@ -72,5 +72,8 @@
       "name": "World Fantasy Award for Best Novel",
       "year": 1996
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/3850762-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:45+00:00"
 }

@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "MOSES BEN MAIMON, commonly called Maimonides (1135-1204), is the leading Jewish thinker of the Middle Ages.",
-  "cover_url": "https://covers.openlibrary.org/b/id/2292521-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2292521-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-guide-of-the-perplexed.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-guide-of-the-perplexed.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9789652264763",
@@ -141,5 +141,8 @@
   },
   "editions_count": 116,
   "representative_edition_key": "/books/OL44585772M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2292521-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2292521-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:09+00:00"
 }

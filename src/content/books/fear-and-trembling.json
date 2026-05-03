@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7282015-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7282015-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/fear-and-trembling.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/fear-and-trembling.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15280012W",
   "first_published": 1941,
   "language": "eng",
@@ -35,5 +35,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48626250M"
+  "representative_edition_key": "/books/OL48626250M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7282015-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7282015-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:25+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/807397-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/807397-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hedgehog-and-the-fox.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hedgehog-and-the-fox.jpg",
   "open_library_url": "https://openlibrary.org/works/OL930405W",
   "first_published": 1901,
   "language": "eng",
@@ -65,5 +65,8 @@
   "wikidata_qid": "Q7739294",
   "original_title": "The Hedgehog And The Fox",
   "original_language": "eng",
-  "original_publisher": "Weidenfeld & Nicolson"
+  "original_publisher": "Weidenfeld & Nicolson",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/807397-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/807397-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:29+00:00"
 }

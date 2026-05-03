@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This book is part of the TREDITION CLASSICS. It contains classical literature works from over two thousand years. Most of these titles have been out of print and off the bookstore shelves for decades. The book series is intended to preserve the cultural legacy and to promote the timeless works of classical literature. Readers of a TREDITION CLASSICS book support the mission to save many of the amazing works of world literature from oblivion. With this series, tredition intends to make thousands ",
-  "cover_url": "https://books.google.com/books/content?id=NjQJlQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/wired-love.jpg",
   "isbn": "3849188655",
   "first_published": 2013,
   "pages": 172,
@@ -41,5 +41,7 @@
   "editions_count": 49,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL28642833M",
-  "wikidata_qid": "Q109266797"
+  "wikidata_qid": "Q109266797",
+  "cover_url_source": "https://books.google.com/books/content?id=NjQJlQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:06+00:00"
 }

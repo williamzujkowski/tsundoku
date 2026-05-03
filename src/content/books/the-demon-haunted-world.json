@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13129044-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13129044-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-demon-haunted-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-demon-haunted-world.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2950942W",
   "first_published": 1995,
   "language": "eng",
@@ -87,5 +87,8 @@
   "wikidata_qid": "Q2482106",
   "original_title": "The Demon-Haunted World",
   "original_language": "eng",
-  "original_publisher": "Random House"
+  "original_publisher": "Random House",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13129044-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13129044-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:37+00:00"
 }

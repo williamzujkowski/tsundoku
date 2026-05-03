@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=qzlbzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/daughter-of-the-moon-goddess.jpg",
   "isbn": "0008479305",
   "first_published": 2022,
   "google_books_url": "http://books.google.com/books?id=qzlbzgEACAAJ&dq=intitle:Daughter+of+the+Moon+Goddess&hl=&source=gbs_api",
@@ -28,5 +28,7 @@
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL36656194M"
+  "representative_edition_key": "/books/OL36656194M",
+  "cover_url_source": "https://books.google.com/books/content?id=qzlbzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:37+00:00"
 }

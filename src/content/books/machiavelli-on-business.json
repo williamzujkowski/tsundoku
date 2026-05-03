@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Business Lessons from the Renaissance Master of Gaining and Maintaining Power Generally considered the father of modern political science—and political ethics in particular—Niccolò di Bernardo dei Machiavelli was a Renaissance Italian writer, philosopher, humanist, historian, politician, and diplomat. After his career in politics had ended, Machiavelli wrote a short treatise that is often considered his masterpiece but was not published until five years after his death. The Prince contains adage",
-  "cover_url": "https://books.google.com/books/content?id=Yz6CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/machiavelli-on-business.jpg",
   "isbn": "9781629140773",
   "first_published": 2015,
   "pages": 74,
@@ -32,5 +32,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781629140773",
-  "representative_edition_key": "/books/OL34019483M"
+  "representative_edition_key": "/books/OL34019483M",
+  "cover_url_source": "https://books.google.com/books/content?id=Yz6CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:24+00:00"
 }

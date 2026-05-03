@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/192501-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/192501-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/patterns-of-enterprise-application-architecture.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/patterns-of-enterprise-application-architecture.jpg",
   "open_library_url": "https://openlibrary.org/works/OL463952W",
   "first_published": 2002,
   "language": "eng",
@@ -42,5 +42,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9780321127426",
-  "representative_edition_key": "/books/OL51275278M"
+  "representative_edition_key": "/books/OL51275278M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/192501-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/192501-L.jpg",
+  "cover_cached_at": "2026-05-03T01:40:31+00:00"
 }

@@ -11,8 +11,8 @@
   "first_published": 2016,
   "language": "eng",
   "description": "Anna Karenina (Russian: «Анна Каренина»; Russian pronunciation: [ˈanːə kɐˈrjenjɪnə])[1] is a novel by the Russian writer Leo Tolstoy, published in serial installments from 1873 to 1877 in the periodical The Russian Messenger. Tolstoy clashed with editor Mikhail Katkov over political issues that arose in the final installment (Tolstoy's unpopular views of volunteers going to Serbia); therefore, the novel's first complete appearance was in book form in 1878. Widely regarded as a pinnacle in realis...",
-  "cover_url": "https://books.google.com/books/content?id=MjLBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=MjLBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/anna-karenina-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/anna-karenina-2.jpg",
   "isbn": "9783736817296",
   "pages": 2255,
   "google_books_url": "https://play.google.com/store/books/details?id=MjLBAwAAQBAJ&source=gbs_api",
@@ -21,5 +21,8 @@
   "gutenberg_id": 1399,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1399",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1399.html.images",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=MjLBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=MjLBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:55:08+00:00"
 }

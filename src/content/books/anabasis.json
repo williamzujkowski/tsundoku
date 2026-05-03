@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL39955801W",
   "first_published": 2006,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=cbbNSBju4CQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=cbbNSBju4CQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/anabasis.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/anabasis.jpg",
   "pages": 104,
   "google_books_url": "https://play.google.com/store/books/details?id=cbbNSBju4CQC&source=gbs_api",
   "description": "When they heard these tidings, the generals were sorely distressed; so 4 too were the rest of the Hellenes when they were informed of it. Then Clearchus spoke as follows: \"Would that Cyrus were yet alive! But since he is dead, take back this answer to Ariaeus, that we, at any rate, have conquered the king; and, as you yourselves may see, there is not a man left in the field to meet us.",
@@ -39,5 +39,8 @@
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "9781425000660",
-  "representative_edition_key": "/books/OL8500905M"
+  "representative_edition_key": "/books/OL8500905M",
+  "cover_url_source": "https://books.google.com/books/content?id=cbbNSBju4CQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=cbbNSBju4CQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:54:22+00:00"
 }

@@ -11,8 +11,8 @@
   "first_published": 1939,
   "language": "eng",
   "description": "Who, if I cried out, would hear me among the angelic orders? and even if one of them pressed me suddenly to his heart: I'd be consumed in that overwhelming existence. For beauty is nothing but the beginning of terror, which we can just barely endure, and we stand in awe of it as it coolly disdains to destroy us. Every angel is terrifying. -from \"The First Elegy\" Over the last fifteen years, in his two volumes of New Poems as well as in The Book of Images and Uncollected Poems, Edward Snow has em...",
-  "cover_url": "https://books.google.com/books/content?id=mzVkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=mzVkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/duino-elegies.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/duino-elegies.jpg",
   "isbn": "9781466872622",
   "pages": 88,
   "google_books_url": "https://play.google.com/store/books/details?id=mzVkAwAAQBAJ&source=gbs_api",
@@ -27,5 +27,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37409476M"
+  "representative_edition_key": "/books/OL37409476M",
+  "cover_url_source": "https://books.google.com/books/content?id=mzVkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=mzVkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:09:49+00:00"
 }

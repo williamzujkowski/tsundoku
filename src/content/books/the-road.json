@@ -10,8 +10,8 @@
     "le-monde-100",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/198120-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/198120-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-road.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-road.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40873W",
   "first_published": 2006,
   "language": "eng",
@@ -133,5 +133,8 @@
       "name": "Tähtivaeltaja Award",
       "year": 2001
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/198120-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/198120-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:46+00:00"
 }

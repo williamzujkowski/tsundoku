@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Long ago, the wars of the ancient Evil ruined the world. In peaceful Shady Vale, half-elfin Shea Ohmsford knows little of such troubles. But the supposedly dead Warlock Lord is plotting to destroy everything in his wake.",
-  "cover_url": "https://covers.openlibrary.org/b/id/908811-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/908811-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sword-of-shannara.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sword-of-shannara.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781904233411",
@@ -60,5 +60,8 @@
   "editions_count": 39,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL8770799M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/908811-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/908811-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:26+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8259296-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8259296-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/misery.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/misery.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81634W",
   "first_published": 1978,
   "language": "eng",
@@ -89,5 +89,8 @@
       "name": "Bram Stoker Award for Novel",
       "year": 1987
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8259296-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8259296-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:56+00:00"
 }

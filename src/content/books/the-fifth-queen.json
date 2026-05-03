@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Fifth Queen trilogy is a series of connected historical novels by English novelist Ford Madox Ford. It consists of three novels, The Fifth Queen; And How She Came to Court (1906), Privy Seal (1907) and The Fifth Queen Crowned (1908), which present a highly fictionalised account of Katharine Howard's arrival at the Court of Henry VIII, her eventual marriage to the king, and her death.",
-  "cover_url": "https://books.google.com/books/content?id=MA5RvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-fifth-queen.jpg",
   "isbn": "154507156X",
   "first_published": 2016,
   "pages": 208,
@@ -55,5 +55,7 @@
   },
   "editions_count": 12,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL55578291M"
+  "representative_edition_key": "/books/OL55578291M",
+  "cover_url_source": "https://books.google.com/books/content?id=MA5RvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:04:29+00:00"
 }

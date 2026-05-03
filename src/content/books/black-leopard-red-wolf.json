@@ -8,8 +8,8 @@
     "adventure",
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10118789-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10118789-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/black-leopard-red-wolf.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/black-leopard-red-wolf.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20159625W",
   "first_published": 2019,
   "language": "eng",
@@ -82,5 +82,8 @@
   "series": {
     "name": "The Dark Star Trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10118789-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10118789-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:27+00:00"
 }

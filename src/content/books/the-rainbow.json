@@ -8,8 +8,8 @@
     "psychology",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13028918-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13028918-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-rainbow.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-rainbow.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81293W",
   "first_published": 1915,
   "language": "eng",
@@ -115,5 +115,8 @@
   "wikidata_qid": "Q3288936",
   "original_title": "The Rainbow",
   "original_language": "eng",
-  "original_publisher": "Modern Library"
+  "original_publisher": "Modern Library",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13028918-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13028918-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:13+00:00"
 }

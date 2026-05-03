@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "After the death of her father, an archaeologist, Anne Beddingfeld finds herself completely penniless. She has lived in the country all her life. Now she wants to build a new, independent existence in London. Returning from an unsuccessful job interview, she is standing on the platform of the Hyde Park Corner subway station. She faces a man, who looks over her shoulder and is so startled that he staggers, falls onto the tracks and is killed. A doctor is immediately on the scene, but can only pron",
-  "cover_url": "https://books.google.com/books/content?id=tfSnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-man-in-the-brown-suit.jpg",
   "isbn": "9783988289032",
   "first_published": 1924,
   "pages": 190,
@@ -73,5 +73,7 @@
   "wikidata_qid": "Q1167555",
   "original_title": "The Man in the Brown Suit",
   "original_language": "eng",
-  "original_publisher": "The Bodley Head"
+  "original_publisher": "The Bodley Head",
+  "cover_url_source": "https://books.google.com/books/content?id=tfSnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:37+00:00"
 }

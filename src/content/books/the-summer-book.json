@@ -6,8 +6,8 @@
   "slug": "the-summer-book",
   "tags": [],
   "description": "In The Summer Book Tove Jansson distills the essence of the summer—its sunlight and storms—into twenty-two crystalline vignettes. This brief novel tells the story of Sophia, a six-year-old girl awakening to existence, and Sophia’s grandmother, nearing the end of hers, as they spend the summer on a tiny unspoiled island in the Gulf of Finland. The grandmother is unsentimental and wise, if a little cranky; Sophia is impetuous and volatile, but she tends to her grandmother with the care of a new pa...",
-  "cover_url": "https://books.google.com/books/content?id=l9Ir0hHhrAwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=l9Ir0hHhrAwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-summer-book.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-summer-book.jpg",
   "isbn": "9781590172681",
   "first_published": 1972,
   "pages": 186,
@@ -57,5 +57,8 @@
   "original_language": "swe",
   "original_title": "Sommarboken",
   "first_edition_isbn": "9100379034",
-  "representative_edition_key": "/books/OL18008921M"
+  "representative_edition_key": "/books/OL18008921M",
+  "cover_url_source": "https://books.google.com/books/content?id=l9Ir0hHhrAwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=l9Ir0hHhrAwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:14:23+00:00"
 }

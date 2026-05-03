@@ -10,7 +10,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=R5nXzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/five-children-and-it.jpg",
   "isbn": "9357277846",
   "first_published": 1902,
   "google_books_url": "http://books.google.com/books?id=R5nXzwEACAAJ&dq=intitle:Five+Children+and+It&hl=&source=gbs_api",
@@ -120,5 +120,7 @@
   "wikidata_qid": "Q651866",
   "original_title": "Five Children and It",
   "original_language": "eng",
-  "original_publisher": "T. Fisher Unwin"
+  "original_publisher": "T. Fisher Unwin",
+  "cover_url_source": "https://books.google.com/books/content?id=R5nXzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:14:36+00:00"
 }

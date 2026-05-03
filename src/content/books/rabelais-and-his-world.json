@@ -9,8 +9,8 @@
   "first_published": 1968,
   "language": "eng",
   "description": "This classic work by the Russian philosopher and literary theorist Mikhail Bakhtin (1895-1975) examines popular humor and folk culture in the Middle Ages and the Renaissance. One of the essential texts of a theorist who is rapidly becoming a major reference in contemporary thought, Rabelais and His World is essential reading for anyone interested in problems of language and text and in cultural interpretation.",
-  "cover_url": "https://books.google.com/books/content?id=SkswFyhqRIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SkswFyhqRIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/rabelais-and-his-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/rabelais-and-his-world.jpg",
   "isbn": "0253203414",
   "pages": 520,
   "google_books_url": "http://books.google.com/books?id=SkswFyhqRIMC&dq=Rabelais+and+His+World+Mikhail+Bakhtin&hl=&source=gbs_api",
@@ -55,5 +55,8 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL2868817M"
+  "representative_edition_key": "/books/OL2868817M",
+  "cover_url_source": "https://books.google.com/books/content?id=SkswFyhqRIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SkswFyhqRIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:37+00:00"
 }

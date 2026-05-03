@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14578138-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14578138-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/five-little-pigs.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/five-little-pigs.jpg",
   "open_library_url": "https://openlibrary.org/works/OL471666W",
   "first_published": 1942,
   "language": "eng",
@@ -61,5 +61,8 @@
   "editions_count": 110,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8756710M"
+  "representative_edition_key": "/books/OL8756710M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14578138-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14578138-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:38+00:00"
 }

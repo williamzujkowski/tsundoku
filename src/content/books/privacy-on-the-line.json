@@ -8,8 +8,8 @@
     "politics"
   ],
   "description": "A penetrating and insightful study of privacy and security in telecommunications for a post-9/11, post-Patriot Act world. Telecommunication has never been perfectly secure. The Cold War culture of recording devices in telephone receivers and bugged embassy offices has been succeeded by a post-9/11 world of NSA wiretaps and demands for data retention. Although the 1990s battle for individual and commercial freedom to use cryptography was won, growth in the use of cryptography has been slow. Meanw...",
-  "cover_url": "https://books.google.com/books/content?id=Z9MMQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Z9MMQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/privacy-on-the-line.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/privacy-on-the-line.jpg",
   "isbn": "0262514001",
   "first_published": 1998,
   "language": "eng",
@@ -93,5 +93,8 @@
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "0262041677",
-  "representative_edition_key": "/books/OL29076315M"
+  "representative_edition_key": "/books/OL29076315M",
+  "cover_url_source": "https://books.google.com/books/content?id=Z9MMQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Z9MMQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:38+00:00"
 }

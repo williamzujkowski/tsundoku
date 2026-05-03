@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8246133-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8246133-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/agricola.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/agricola.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15668640W",
   "first_published": 98,
   "language": "eng",
@@ -114,5 +114,8 @@
   "original_title": "La vita di Giulio Agricola scritta sincerissimamente. Da Cornelio Tacito suo genero. Et messa in volgare da Giouan. Maria Manelli",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL24003436M",
-  "wikidata_qid": "Q1244446"
+  "wikidata_qid": "Q1244446",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8246133-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8246133-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:35+00:00"
 }

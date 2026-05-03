@@ -9,8 +9,8 @@
   "first_published": 2000,
   "language": "eng",
   "description": "\"During the course of a single night, Father Sebastian Urrutia Lacroix, a Chilean priest who is a member of Opus Dei, a literary critic and a mediocre poet, relives some of the crucial events of his life. He believes he is dying, and in his feverish delirium various characters, both real and imaginary, appear to him as icy monsters, as if in sequences from a horror film. Among them are the great poet Pablo Neruda, the German novelist Ernst Junger, and General Augusto Pinochet - whom Father Lacro...",
-  "cover_url": "https://books.google.com/books/content?id=rrb3dPL54pYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=rrb3dPL54pYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/by-night-in-chile.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/by-night-in-chile.jpg",
   "isbn": "9780811215473",
   "pages": 129,
   "google_books_url": "http://books.google.com/books?id=rrb3dPL54pYC&dq=By+Night+in+Chile+Roberto+Bola%C3%B1o&hl=&source=gbs_api",
@@ -69,5 +69,8 @@
   "original_language": "spa",
   "original_title": "Nocturno De Chile (Narrativas Hispanicas, 293)",
   "first_edition_isbn": "9788433924643",
-  "representative_edition_key": "/books/OL34506005M"
+  "representative_edition_key": "/books/OL34506005M",
+  "cover_url_source": "https://books.google.com/books/content?id=rrb3dPL54pYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=rrb3dPL54pYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:20+00:00"
 }

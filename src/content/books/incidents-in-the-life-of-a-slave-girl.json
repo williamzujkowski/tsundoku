@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This enlarged edition of the most significant and celebrated slave narrative completes the Jacobs family saga, surely one of the most memorable in all of American history. John S. Jacobs’s short slave narrative, A True Tale of Slavery, published in London in 1861, adds a brother's perspective to Harriet A. Jacobs’s autobiography.",
-  "cover_url": "https://books.google.com/books/content?id=BL_8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/incidents-in-the-life-of-a-slave-girl.jpg",
   "isbn": "9780674254695",
   "first_published": 1861,
   "pages": 497,
@@ -130,5 +130,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL57531865M",
   "wikidata_qid": "Q6014663",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=BL_8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:44+00:00"
 }

@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/doing-good-better.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/doing-good-better.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "",
@@ -39,12 +39,15 @@
     "first_published_circa": "wikidata_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL28598892M",
   "copyright_status": "in_copyright",
   "wikidata_qid": "Q20736124",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/Doing_Good_Better.jpg",
+  "cover_cached_at": "2026-05-03T01:09:00+00:00"
 }

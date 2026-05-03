@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-shipping-news",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10522593-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10522593-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-shipping-news.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-shipping-news.jpg",
   "open_library_url": "https://openlibrary.org/works/OL456089W",
   "first_published": 1993,
   "language": "eng",
@@ -90,5 +90,8 @@
       "name": "Pulitzer Prize for Fiction",
       "year": 1994
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10522593-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10522593-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:36+00:00"
 }

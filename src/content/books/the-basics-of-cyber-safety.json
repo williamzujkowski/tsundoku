@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "The Basics of Cyber Safety: Computer and Mobile Device Safety Made Easy presents modern tactics on how to secure computer and mobile devices, including what behaviors are safe while surfing, searching, and interacting with others in the virtual world. The book's author, Professor John Sammons, who teaches information security at Marshall University, introduces readers to the basic concepts of protecting their computer, mobile devices, and data during a time that is described as the most connecte...",
-  "cover_url": "https://books.google.com/books/content?id=vLNZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=vLNZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-basics-of-cyber-safety.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-basics-of-cyber-safety.jpg",
   "isbn": "9780124166394",
   "first_published": 2016,
   "pages": 255,
@@ -38,5 +38,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780124166394",
-  "representative_edition_key": "/books/OL33480748M"
+  "representative_edition_key": "/books/OL33480748M",
+  "cover_url_source": "https://books.google.com/books/content?id=vLNZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=vLNZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:57:11+00:00"
 }

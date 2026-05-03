@@ -9,7 +9,7 @@
     "poetry"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=LPO-MYhU2x8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/beowulf.jpg",
   "pages": 132,
   "google_books_url": "http://books.google.com/books?id=LPO-MYhU2x8C&dq=intitle:Beowulf&hl=&source=gbs_api",
   "language": "eng",
@@ -48,5 +48,7 @@
   },
   "editions_count": 2,
   "first_edition_isbn": "9780520008816",
-  "representative_edition_key": "/books/OL7708122M"
+  "representative_edition_key": "/books/OL7708122M",
+  "cover_url_source": "https://books.google.com/books/content?id=LPO-MYhU2x8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:59:36+00:00"
 }

@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL33743154W",
   "first_published": 1972,
   "description": "“A pioneering work of science.”—Business Insider “[This book] helped launch modern environmental computer modeling and began our current globally focused environmental debate . . . . a scientifically rigorous and credible warning.”—The Nation In 1972, three scientists from MIT created a computer model that analyzed global resource consumption and production. Their results shocked the world and created stirring conversation about global ‘overshoot,’ or resource use beyond the carrying capacity of...",
-  "cover_url": "https://books.google.com/books/content?id=_8xSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=_8xSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/limits-to-growth.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/limits-to-growth.jpg",
   "isbn": "9781603581554",
   "pages": 252,
   "language": "eng",
@@ -32,5 +32,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL37366675M"
+  "representative_edition_key": "/books/OL37366675M",
+  "cover_url_source": "https://books.google.com/books/content?id=_8xSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=_8xSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:38+00:00"
 }

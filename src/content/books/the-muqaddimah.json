@@ -9,8 +9,8 @@
     "philosophy",
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/440215-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/440215-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-muqaddimah.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-muqaddimah.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1597257W",
   "first_published": 1858,
   "language": "eng",
@@ -132,5 +132,8 @@
   "original_title": "Muqaddimat Ibn Khaldûn",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7758938M",
-  "wikidata_qid": "Q1259616"
+  "wikidata_qid": "Q1259616",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/440215-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/440215-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:31+00:00"
 }

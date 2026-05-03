@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Read this Murder Mystery Novel set in an English Country House “Of course it's very hampering being a detective, when you don't know anything about detecting, and when nobody knows that you're doing detection, and you can't have people up to cross-examine them, and you have neither the energy nor the means to make proper inquiries; and, in short, when you're doing the whole thing in a thoroughly amateur, haphazard way.” ― A.A. Milne, The Red House Mystery A house party in the county turns into a",
-  "cover_url": "https://books.google.com/books/content?id=89smCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-red-house-mystery.jpg",
   "isbn": "9781681950600",
   "first_published": 2015,
   "pages": 209,
@@ -59,5 +59,7 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9781522882459",
-  "representative_edition_key": "/books/OL46098122M"
+  "representative_edition_key": "/books/OL46098122M",
+  "cover_url_source": "https://books.google.com/books/content?id=89smCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:12:20+00:00"
 }

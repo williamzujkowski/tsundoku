@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12816870-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12816870-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-year-of-the-flood.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-year-of-the-flood.jpg",
   "open_library_url": "https://openlibrary.org/works/OL675774W",
   "first_published": 2009,
   "language": "eng",
@@ -84,5 +84,8 @@
   "series": {
     "name": "MaddAddam Series",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12816870-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12816870-L.jpg",
+  "cover_cached_at": "2026-05-03T02:18:49+00:00"
 }

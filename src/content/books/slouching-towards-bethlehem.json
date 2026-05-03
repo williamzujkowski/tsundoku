@@ -7,8 +7,8 @@
   "tags": [
     "essays"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/419596-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/419596-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/slouching-towards-bethlehem.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/slouching-towards-bethlehem.jpg",
   "open_library_url": "https://openlibrary.org/works/OL500164W",
   "first_published": 1968,
   "language": "eng",
@@ -65,5 +65,8 @@
   "wikidata_qid": "Q7541455",
   "original_title": "Slouching Towards Bethlehem",
   "original_language": "eng",
-  "original_publisher": "Farrar, Straus and Giroux"
+  "original_publisher": "Farrar, Straus and Giroux",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/419596-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/419596-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:04+00:00"
 }

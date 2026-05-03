@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1003279-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1003279-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ice-candy-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ice-candy-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3935997W",
   "first_published": 1988,
   "language": "eng",
@@ -42,5 +42,8 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34531552M"
+  "representative_edition_key": "/books/OL34531552M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1003279-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1003279-L.jpg",
+  "cover_cached_at": "2026-05-03T01:23:06+00:00"
 }

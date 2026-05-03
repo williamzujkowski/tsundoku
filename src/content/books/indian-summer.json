@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "One of the most charming and memorable romantic comedies in American literature, William Dean Howells's Indian Summer tells of a season in the life of Theodore Colville. Colville, just turned forty, has spent years as a successful midwestern newspaper publisher. Now he sells his business and heads for Italy, where as a young man he had dreamed of a career as an architect and fallen hopelessly in love. In Florence, Colville runs into Lina Bowen, sometime best friend of the woman who jilted him an",
-  "cover_url": "https://books.google.com/books/content?id=uAWkCMmu0MMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/indian-summer.jpg",
   "isbn": "1590171098",
   "first_published": 1885,
   "pages": 340,
@@ -63,5 +63,7 @@
   "editions_count": 113,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3294963M"
+  "representative_edition_key": "/books/OL3294963M",
+  "cover_url_source": "https://books.google.com/books/content?id=uAWkCMmu0MMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:23:47+00:00"
 }

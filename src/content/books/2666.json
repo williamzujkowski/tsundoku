@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "2666",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1047310-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1047310-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/2666.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/2666.jpg",
   "open_library_url": "https://openlibrary.org/works/OL712025W",
   "first_published": 2004,
   "language": "eng",
@@ -70,5 +70,8 @@
   "original_language": "spa",
   "first_edition_isbn": "9788467209068",
   "representative_edition_key": "/books/OL23060125M",
-  "translator": "Natasha Wimmer"
+  "translator": "Natasha Wimmer",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1047310-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1047310-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:20+00:00"
 }

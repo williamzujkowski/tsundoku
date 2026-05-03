@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "hellenica",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8241347-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8241347-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hellenica.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hellenica.jpg",
   "open_library_url": "https://openlibrary.org/works/OL687222W",
   "first_published": 1700,
   "language": "eng",
@@ -72,5 +72,8 @@
   "original_language": "grc",
   "original_title": "Xenophontos Hellēnikōn historiōn biblia Z'.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11678129M"
+  "representative_edition_key": "/books/OL11678129M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8241347-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8241347-L.jpg",
+  "cover_cached_at": "2026-05-03T01:19:57+00:00"
 }

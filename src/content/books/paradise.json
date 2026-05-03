@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "paradise",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9317237-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9317237-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/paradise.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/paradise.jpg",
   "open_library_url": "https://openlibrary.org/works/OL50561W",
   "first_published": 1997,
   "language": "eng",
@@ -94,5 +94,8 @@
   "wikidata_qid": "Q7134233",
   "original_title": "Paradise",
   "original_language": "eng",
-  "original_publisher": "Alfred A. Knopf"
+  "original_publisher": "Alfred A. Knopf",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9317237-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9317237-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:49+00:00"
 }

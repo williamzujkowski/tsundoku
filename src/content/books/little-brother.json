@@ -9,8 +9,8 @@
     "computing",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5728633-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5728633-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/little-brother.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/little-brother.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5734718W",
   "first_published": 2008,
   "language": "eng",
@@ -113,5 +113,8 @@
   "series": {
     "name": "Little Brother",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5728633-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5728633-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:44+00:00"
 }

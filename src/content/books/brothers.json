@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10074719-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10074719-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/brothers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/brothers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3240262W",
   "first_published": 2009,
   "language": "eng",
@@ -49,5 +49,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780375424991",
-  "representative_edition_key": "/books/OL24252245M"
+  "representative_edition_key": "/books/OL24252245M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10074719-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10074719-L.jpg",
+  "cover_cached_at": "2026-05-03T01:01:13+00:00"
 }

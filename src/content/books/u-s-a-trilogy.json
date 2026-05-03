@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL31583875W",
   "first_published": 1960,
   "description": "Contains American author John Dos Passo's epic \"U.S.A.\" trilogy which provides a collective portrait of America following dozens of characters from the Spanish-American War to the beginning of the Depression",
-  "cover_url": "https://books.google.com/books/content?id=4ThaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=4ThaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/u-s-a-trilogy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/u-s-a-trilogy.jpg",
   "pages": 1304,
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=4ThaAAAAYAAJ&dq=U.S.A.+Trilogy+John+Dos+Passos&hl=&source=gbs_api",
@@ -58,5 +58,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29187901M"
+  "representative_edition_key": "/books/OL29187901M",
+  "cover_url_source": "https://books.google.com/books/content?id=4ThaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=4ThaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:22:24+00:00"
 }

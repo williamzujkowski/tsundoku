@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "termination-shock",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11412286-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11412286-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/termination-shock.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/termination-shock.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24697326W",
   "first_published": 2021,
   "language": "eng",
@@ -48,5 +48,8 @@
   "representative_edition_key": "/books/OL35078792M",
   "wikidata_qid": "Q109284514",
   "original_title": "Termination Shock",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11412286-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11412286-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:01+00:00"
 }

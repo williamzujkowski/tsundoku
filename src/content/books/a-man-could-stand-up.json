@@ -14,8 +14,8 @@
   "pages": 145,
   "google_books_url": "http://books.google.com/books?id=IY7fzgEACAAJ&dq=intitle:A+Man+Could+Stand+Up%E2%80%94&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/1787889-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1787889-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-man-could-stand-up.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-man-could-stand-up.jpg",
   "open_library_url": "https://openlibrary.org/works/OL510013W",
   "oclc_id": "30298178",
   "worldcat_url": "https://www.worldcat.org/oclc/30298178",
@@ -53,5 +53,8 @@
   },
   "editions_count": 80,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL37559493M"
+  "representative_edition_key": "/books/OL37559493M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1787889-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1787889-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:09+00:00"
 }

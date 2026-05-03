@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Under the Sun of Satan, Bernanos's powerful debut novel, dives into the mystery of evil and drama of salvation. Saturated with dramatic intensity and marked with Bernanos's inimitable fitful style, the novel follows Fr. Donissan, fervent in faith but limited in intelligence, striving to serve the Lord in his rural ministry.",
-  "cover_url": "https://covers.openlibrary.org/b/id/12553078-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12553078-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/under-the-sun-of-satan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/under-the-sun-of-satan.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781944418557",
@@ -26,5 +26,8 @@
   },
   "editions_count": 2,
   "representative_edition_key": "/books/OL36663114M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12553078-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12553078-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:36+00:00"
 }

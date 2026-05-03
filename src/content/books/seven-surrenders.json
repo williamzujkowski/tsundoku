@@ -8,8 +8,8 @@
     "sci-fi",
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8429595-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8429595-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/seven-surrenders.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/seven-surrenders.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19213555W",
   "first_published": 2017,
   "language": "eng",
@@ -54,5 +54,8 @@
   "series": {
     "name": "Terra Ignota",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8429595-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8429595-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:22+00:00"
 }

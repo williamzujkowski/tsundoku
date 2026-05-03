@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8242787-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8242787-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-treatise-of-human-nature.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-treatise-of-human-nature.jpg",
   "open_library_url": "https://openlibrary.org/works/OL93569W",
   "first_published": 1739,
   "language": "eng",
@@ -68,5 +68,8 @@
   },
   "editions_count": 9,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38642868M"
+  "representative_edition_key": "/books/OL38642868M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8242787-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8242787-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:56+00:00"
 }

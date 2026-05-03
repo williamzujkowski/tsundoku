@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Nathalie Sarraute's stunning debut—vignettes of \"inner movements\"—foreshadowed the rise of the nouveau roman. Hailed as a masterpiece by Jean Genet, Marguerite Duras, and Jean-Paul Sartre, Tropisms is considered one of the defining texts of the nouveau roman movement. Nathalie Sarraute has defined her work as the “movements that are hidden under the commonplace, harmless instances of our everyday lives.” Like figures in a grainy photograph, Sarraute’s characters are blurred and shadowy, while her narrative never develops beyond a stressed moment. Instead, Sarraute brilliantly finds and elaborates subtle details—when a relationship changes, when we fall slightly deeper into love, or when something innocent tilts to the smallest degree toward suspicion.",
-  "cover_url": "https://covers.openlibrary.org/b/id/10524540-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10524540-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/tropisms.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tropisms.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9782759310982",
@@ -40,5 +40,8 @@
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL31488497M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10524540-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10524540-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:57+00:00"
 }

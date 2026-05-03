@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-stone-angel",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7009394-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7009394-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-stone-angel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-stone-angel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL10612116W",
   "first_published": 1900,
   "language": "eng",
@@ -68,5 +68,8 @@
   "representative_edition_key": "/books/OL36289016M",
   "wikidata_qid": "Q17096633",
   "original_language": "eng",
-  "original_publisher": "McClelland & Stewart"
+  "original_publisher": "McClelland & Stewart",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7009394-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7009394-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:10+00:00"
 }

@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "This companion to Frank Herbert's six original Dune novels--Dune, Dune Messiah, Children of Dune, God Emperor of Dune, Heretics of Dune and Chapterhouse: Dune--provides an encyclopedia of characters, locations, terms and other elements, and highlights the series' underrated aesthetic integrity. An extensive introduction discusses the theme of ecology, chaos theory concepts and structures, and Joseph Campbell's monomyth in Herbert's narratives.",
-  "cover_url": "https://books.google.com/books/content?id=-ExnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-ExnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/heretics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/heretics.jpg",
   "isbn": "9781476633299",
   "first_published": 2018,
   "pages": 198,
@@ -82,5 +82,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781476633299",
-  "representative_edition_key": "/books/OL26800211M"
+  "representative_edition_key": "/books/OL26800211M",
+  "cover_url_source": "https://books.google.com/books/content?id=-ExnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-ExnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:20:27+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "monologion",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/2143463-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2143463-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/monologion.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/monologion.jpg",
   "open_library_url": "https://openlibrary.org/works/OL707172W",
   "first_published": 1929,
   "language": "eng",
@@ -49,5 +49,8 @@
   "original_language": "lat",
   "original_title": "Cantuariensis archiepiscopi liber Monologion",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL810424M"
+  "representative_edition_key": "/books/OL810424M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2143463-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2143463-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:09+00:00"
 }

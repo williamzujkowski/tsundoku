@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/228311-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/228311-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-moving-target.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-moving-target.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2460950W",
   "first_published": 1950,
   "language": "eng",
@@ -55,5 +55,8 @@
   "original_language": "swe",
   "original_title": "Rörligt mål",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL699641M"
+  "representative_edition_key": "/books/OL699641M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/228311-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/228311-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:29+00:00"
 }

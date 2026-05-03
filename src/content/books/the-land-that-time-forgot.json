@@ -15,8 +15,8 @@
   "pages": 81,
   "google_books_url": "http://books.google.com/books?id=3BDUswEACAAJ&dq=intitle:The+Land+That+Time+Forgot&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/605906-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/605906-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-land-that-time-forgot.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-land-that-time-forgot.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1418232W",
   "copyright_status": "public_domain",
   "gutenberg_id": 551,
@@ -59,5 +59,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781521899595",
-  "representative_edition_key": "/books/OL40556389M"
+  "representative_edition_key": "/books/OL40556389M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/605906-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/605906-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:22+00:00"
 }

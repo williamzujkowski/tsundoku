@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/234744-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/234744-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hand-of-oberon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hand-of-oberon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13952W",
   "first_published": 1976,
   "language": "eng",
@@ -58,5 +58,8 @@
   },
   "editions_count": 21,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL6778613M"
+  "representative_edition_key": "/books/OL6778613M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/234744-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/234744-L.jpg",
+  "cover_cached_at": "2026-05-03T02:06:19+00:00"
 }

@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Books Four to Six in the shared-world series \"where characters created by some of the best fantasy writers of the generation crossed paths and shared adventures\" ( Black Gate). Invasion, war, and rebellion roil the city of Sanctuary in this three-book collection compiled by the New York Times–bestselling author of the Myth series, as well as the Phule's Company series. The shared-world series comes alive with stories by Lynn Abbey, Robert Lynn Asprin, Robin W. Bailey, C. J. Cherryh, David Drake,",
-  "cover_url": "https://books.google.com/books/content?id=reXEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/thieves-world-volume-two.jpg",
   "isbn": "9781504060462",
   "first_published": 2020,
   "pages": 684,
@@ -44,5 +44,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781504060462",
-  "representative_edition_key": "/books/OL35848060M"
+  "representative_edition_key": "/books/OL35848060M",
+  "cover_url_source": "https://books.google.com/books/content?id=reXEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:19:02+00:00"
 }

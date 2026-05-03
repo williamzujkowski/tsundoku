@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "krapps-last-tape",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12666681-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12666681-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/krapps-last-tape.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/krapps-last-tape.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15210978W",
   "first_published": 1959,
   "language": "eng",
@@ -49,5 +49,8 @@
   "original_language": "fre",
   "original_title": "La dernière bande, suivi de Cendres",
   "first_edition_isbn": "2707301779",
-  "representative_edition_key": "/books/OL8913202M"
+  "representative_edition_key": "/books/OL8913202M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12666681-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12666681-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:17+00:00"
 }

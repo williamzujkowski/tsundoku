@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The adventures of Tom, a sooty little chimney sweep with a great longing to be clean, who is stolen by fairies and turned into a water baby.",
-  "cover_url": "https://books.google.com/books/content?id=wTAnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-water-babies.jpg",
   "isbn": "9781606601136",
   "first_published": 1863,
   "pages": 276,
@@ -55,5 +55,7 @@
   "representative_edition_key": "/books/OL28642851M",
   "wikidata_qid": "Q14914646",
   "original_title": "The Water-Babies, A Fairy Tale for a Land Baby",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=wTAnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:00+00:00"
 }

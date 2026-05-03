@@ -8,8 +8,8 @@
     "poetry",
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13642179-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13642179-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/twenty-love-poems-and-a-song-of-despair.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/twenty-love-poems-and-a-song-of-despair.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30526511W",
   "first_published": 1924,
   "language": "eng",
@@ -87,5 +87,8 @@
   "original_language": "spa",
   "original_title": "20 poemas de amor y una canción desesperada.",
   "representative_edition_key": "/books/OL14412527M",
-  "wikidata_qid": "Q5219975"
+  "wikidata_qid": "Q5219975",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13642179-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13642179-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:14+00:00"
 }

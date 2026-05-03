@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Freddie Threepwood and his uncle are in difficulties. Freddie wants a thousand pounds to start a bookmaker’s business and to marry Eve, while his uncle wants to raise three thousand pounds, unbeknown to his wife, to help a runaway daughter. Freddie persuades his uncle to steal his wife’s necklace and sees Psmith’s advertisement in a daily paper. Freddie enlists the services of Psmith to steal the necklace. There are plots and counterplots. Psmith is not successful in stealing the necklace but su",
-  "cover_url": "https://books.google.com/books/content?id=Gq8gEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/leave-it-to-psmith.jpg",
   "isbn": "9781649741271",
   "first_published": 2019,
   "pages": 356,
@@ -46,5 +46,7 @@
   },
   "editions_count": 14,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL36361044M"
+  "representative_edition_key": "/books/OL36361044M",
+  "cover_url_source": "https://books.google.com/books/content?id=Gq8gEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:29:04+00:00"
 }

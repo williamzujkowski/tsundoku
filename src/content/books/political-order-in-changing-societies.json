@@ -14,7 +14,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nWith his famous book Political Order in Changing Societies, published in 1968, the American political scientist and Harvard professor Samuel P. Huntington is considered to be one of the ”Founding Fathers” of neo-institutionalism, the historical institutionalism. The book is dealing with the role of political institutions in changing political systems.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Political_Order_in_Changing_Societies.jpg/250px-Political_Order_in_Changing_Societies.jpg",
+  "cover_url": "/tsundoku/cached/covers/political-order-in-changing-societies.jpg",
   "ddc": [
     "320"
   ],
@@ -37,5 +37,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL21208027M"
+  "representative_edition_key": "/books/OL21208027M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Political_Order_in_Changing_Societies.jpg/250px-Political_Order_in_Changing_Societies.jpg",
+  "cover_cached_at": "2026-05-03T01:44:34+00:00"
 }

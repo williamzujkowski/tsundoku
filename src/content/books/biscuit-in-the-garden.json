@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Biscuit the puppy is eager to see the plants and make friends with the animals in the garden.",
-  "cover_url": "https://books.google.com/books/content?id=MKQHnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/biscuit-in-the-garden.jpg",
   "isbn": "0061935042",
   "first_published": 2013,
   "pages": 32,
@@ -52,5 +52,7 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL53332360M"
+  "representative_edition_key": "/books/OL53332360M",
+  "cover_url_source": "https://books.google.com/books/content?id=MKQHnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:23+00:00"
 }

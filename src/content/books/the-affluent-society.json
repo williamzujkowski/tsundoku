@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12703619-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12703619-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-affluent-society.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-affluent-society.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12581W",
   "first_published": 1958,
   "language": "eng",
@@ -100,5 +100,8 @@
   "wikidata_qid": "Q331797",
   "original_title": "The Affluent Society",
   "original_language": "eng",
-  "original_publisher": "Houghton Mifflin Harcourt"
+  "original_publisher": "Houghton Mifflin Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12703619-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12703619-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:41+00:00"
 }

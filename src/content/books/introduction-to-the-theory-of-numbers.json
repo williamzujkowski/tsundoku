@@ -9,8 +9,8 @@
     "philosophy",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4375002-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4375002-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/introduction-to-the-theory-of-numbers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/introduction-to-the-theory-of-numbers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14856220W",
   "first_published": 1938,
   "language": "eng",
@@ -54,5 +54,8 @@
   "representative_edition_key": "/books/OL27978501M",
   "wikidata_qid": "Q4750104",
   "original_title": "An Introduction to the Theory of Numbers",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4375002-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4375002-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:22+00:00"
 }

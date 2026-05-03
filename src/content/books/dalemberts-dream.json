@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "dalemberts-dream",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/15048231-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15048231-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dalemberts-dream.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dalemberts-dream.jpg",
   "open_library_url": "https://openlibrary.org/works/OL36779843W",
   "first_published": 1966,
   "language": "eng",
@@ -32,5 +32,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38640685M"
+  "representative_edition_key": "/books/OL38640685M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15048231-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15048231-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:22+00:00"
 }

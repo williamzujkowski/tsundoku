@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8348310-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8348310-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-fine-balance.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-fine-balance.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2980902W",
   "first_published": 1995,
   "language": "eng",
@@ -74,5 +74,8 @@
   },
   "editions_count": 35,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL3559091M"
+  "representative_edition_key": "/books/OL3559091M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8348310-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8348310-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:51+00:00"
 }

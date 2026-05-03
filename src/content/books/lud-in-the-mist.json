@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/911085-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/911085-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lud-in-the-mist.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lud-in-the-mist.jpg",
   "open_library_url": "https://openlibrary.org/works/OL6945563W",
   "first_published": 1926,
   "language": "eng",
@@ -56,5 +56,8 @@
   "wikidata_qid": "Q6698664",
   "original_title": "Lud-in-the-Mist",
   "original_language": "eng",
-  "original_publisher": "William Collins, Sons"
+  "original_publisher": "William Collins, Sons",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/911085-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/911085-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:17+00:00"
 }

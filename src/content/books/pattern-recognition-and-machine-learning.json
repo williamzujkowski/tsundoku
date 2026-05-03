@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "pattern-recognition-and-machine-learning",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/245089-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/245089-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pattern-recognition-and-machine-learning.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pattern-recognition-and-machine-learning.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2963587W",
   "first_published": 2008,
   "language": "eng",
@@ -29,5 +29,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL28032754M"
+  "representative_edition_key": "/books/OL28032754M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/245089-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/245089-L.jpg",
+  "cover_cached_at": "2026-05-03T01:40:28+00:00"
 }

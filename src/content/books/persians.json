@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12473095-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12473095-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/persians.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/persians.jpg",
   "open_library_url": "https://openlibrary.org/works/OL856879W",
   "first_published": 1818,
   "language": "eng",
@@ -94,5 +94,8 @@
   "original_title": "Persai.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL17005196M",
-  "wikidata_qid": "Q788458"
+  "wikidata_qid": "Q788458",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12473095-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12473095-L.jpg",
+  "cover_cached_at": "2026-05-03T01:41:51+00:00"
 }

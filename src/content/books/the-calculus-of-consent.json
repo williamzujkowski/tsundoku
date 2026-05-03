@@ -11,8 +11,8 @@
   "first_published": 1962,
   "language": "eng",
   "description": "The Calculus of Consent, the second volume of Liberty Fund's The Selected Works of Gordon Tullock, is a reprint edition of the ground-breaking economic classic written by two of the world's preeminent economists--Gordon Tullock and Nobel Laureate James M. Buchanan. This book is a unique blend of economics and political science that helped create significant new subfields in each discipline respectively, namely, the public choice school and constitutional political economy. Charles K. Rowley, Dun...",
-  "cover_url": "https://books.google.com/books/content?id=DngXAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=DngXAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-calculus-of-consent.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-calculus-of-consent.jpg",
   "pages": 388,
   "google_books_url": "http://books.google.com/books?id=DngXAAAAIAAJ&dq=The+Calculus+of+Consent+Buchanan+%26+Tullock&hl=&source=gbs_api",
   "reading_status": "read",
@@ -36,5 +36,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL58737691M"
+  "representative_edition_key": "/books/OL58737691M",
+  "cover_url_source": "https://books.google.com/books/content?id=DngXAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=DngXAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:59:18+00:00"
 }

@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL36779528W",
   "first_published": 2010,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=iVXxAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=iVXxAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-imaginary-invalid.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-imaginary-invalid.jpg",
   "pages": 68,
   "google_books_url": "https://play.google.com/store/books/details?id=iVXxAAAAMAAJ&source=gbs_api",
   "reading_status": "want",
@@ -37,5 +37,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781407651293",
-  "representative_edition_key": "/books/OL49669975M"
+  "representative_edition_key": "/books/OL49669975M",
+  "cover_url_source": "https://books.google.com/books/content?id=iVXxAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=iVXxAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:43+00:00"
 }

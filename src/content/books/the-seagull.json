@@ -11,8 +11,8 @@
   "first_published": 1954,
   "language": "eng",
   "description": "Idea for a story. A beautiful young girl lives by a lake all her life. She loves this lake. She's happy and free, like that bird was once. Then a man comes along and for no reason at all ...what do you think he does? - He destroys her. A story about how we make stories, a story about unrequited love, The Seagull is one of the great plays of the modern era. Chekhov explores emotion and creativity with the clarity of a doctor and the heart of a poet. John Donnelly's version of Anton Chekhov's The ...",
-  "cover_url": "https://books.google.com/books/content?id=hYB1mQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=hYB1mQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-seagull.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-seagull.jpg",
   "isbn": "057130723X",
   "google_books_url": "http://books.google.com/books?id=hYB1mQEACAAJ&dq=The+Seagull+Anton+Chekhov&hl=&source=gbs_api",
   "reading_status": "read",
@@ -31,5 +31,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28505983M"
+  "representative_edition_key": "/books/OL28505983M",
+  "cover_url_source": "https://books.google.com/books/content?id=hYB1mQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=hYB1mQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:11+00:00"
 }

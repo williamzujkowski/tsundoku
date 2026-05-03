@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-rhetoric-of-fiction",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/139866-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/139866-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-rhetoric-of-fiction.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-rhetoric-of-fiction.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1974015W",
   "first_published": 1961,
   "language": "eng",
@@ -31,5 +31,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38278793M"
+  "representative_edition_key": "/books/OL38278793M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/139866-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/139866-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:34+00:00"
 }

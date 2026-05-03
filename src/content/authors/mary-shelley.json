@@ -3,7 +3,7 @@
   "slug": "mary-shelley",
   "book_count": 3,
   "bio": "Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and women's rights advocate Mary Wollstonecraft.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Mary_Wollstonecraft_Shelley_Rothwell.tif/lossy-page1-330px-Mary_Wollstonecraft_Shelley_Rothwell.tif.jpg",
+  "photo_url": "/tsundoku/cached/authors/mary-shelley.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Shelley",
   "open_library_url": "https://openlibrary.org/authors/OL25342A",
   "birth_year": 1797,
@@ -30,5 +30,7 @@
       "name": "Science Fiction and Fantasy Hall of Fame",
       "year": 2004
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Mary_Wollstonecraft_Shelley_Rothwell.tif/lossy-page1-330px-Mary_Wollstonecraft_Shelley_Rothwell.tif.jpg",
+  "photo_cached_at": "2026-05-03T00:46:05+00:00"
 }

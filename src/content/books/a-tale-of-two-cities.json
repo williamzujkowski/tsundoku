@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "a-tale-of-two-cities",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13301713-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-tale-of-two-cities.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-tale-of-two-cities.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193465W",
   "first_published": 1800,
   "language": "eng",
@@ -286,5 +286,8 @@
   "wikidata_qid": "Q308918",
   "original_title": "دۄن شَہَرن ہِنٛز دٔلیٖل",
   "original_language": "eng",
-  "original_publisher": "Chapman and Hall"
+  "original_publisher": "Chapman and Hall",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13301713-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:49+00:00"
 }

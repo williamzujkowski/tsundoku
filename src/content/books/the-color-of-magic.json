@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Terry Pratchett's profoundly irreverent novels are consistent number one bestsellers in England, where they have garnered him a revered position in the halls of parody next to Mark Twain, Kurt Vonnegut, Douglas Adams, and Carl Hiaasen. The Color of Magic is Terry Pratchett's maiden voyage through the now-legendary land of Discworld. This is where it all begins--with the tourist Twoflower and his wizard guide, Rincewind.",
-  "cover_url": "https://books.google.com/books/content?id=Ba9JP76UxpQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-color-of-magic.jpg",
   "isbn": "9780061020711",
   "first_published": 1983,
   "pages": 244,
@@ -88,5 +88,7 @@
   "series": {
     "name": "Discworld",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=Ba9JP76UxpQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:00:57+00:00"
 }

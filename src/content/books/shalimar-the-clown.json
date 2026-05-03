@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "shalimar-the-clown",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10236439-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10236439-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/shalimar-the-clown.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/shalimar-the-clown.jpg",
   "open_library_url": "https://openlibrary.org/works/OL457176W",
   "first_published": 1998,
   "language": "eng",
@@ -84,5 +84,8 @@
   "wikidata_qid": "Q3090602",
   "original_title": "Shalimar the Clown",
   "original_language": "eng",
-  "original_publisher": "Jonathan Cape"
+  "original_publisher": "Jonathan Cape",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10236439-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10236439-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:39+00:00"
 }

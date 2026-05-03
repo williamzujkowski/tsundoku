@@ -2,7 +2,7 @@
   "name": "Peter Watts",
   "slug": "peter-watts",
   "book_count": 5,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2850261A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/peter-watts.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2850261A",
   "birth_year": 1958,
   "bio": "Peter Watts is a Canadian science fiction author and marine-mammal biologist.",
@@ -28,5 +28,7 @@
       "name": "Shirley Jackson Award",
       "year": 2010
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2850261A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:47:13+00:00"
 }

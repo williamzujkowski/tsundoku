@@ -9,8 +9,8 @@
     "security",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10129079-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10129079-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/attack-surface.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/attack-surface.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20825335W",
   "first_published": 2020,
   "language": "eng",
@@ -55,5 +55,8 @@
   "series": {
     "name": "Little Brother",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10129079-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10129079-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:19+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6870460-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6870460-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/orpheus-descending.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/orpheus-descending.jpg",
   "open_library_url": "https://openlibrary.org/works/OL12981924W",
   "first_published": 1958,
   "language": "eng",
@@ -43,5 +43,8 @@
   "editions_count": 15,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL21555535M"
+  "representative_edition_key": "/books/OL21555535M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6870460-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6870460-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:19+00:00"
 }

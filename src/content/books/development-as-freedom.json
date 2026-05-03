@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/120233-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/120233-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/development-as-freedom.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/development-as-freedom.jpg",
   "open_library_url": "https://openlibrary.org/works/OL116534W",
   "first_published": 1999,
   "language": "eng",
@@ -84,5 +84,8 @@
   "representative_edition_key": "/books/OL3968250M",
   "wikidata_qid": "Q5266729",
   "original_title": "Development as Freedom",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/120233-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/120233-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:18+00:00"
 }

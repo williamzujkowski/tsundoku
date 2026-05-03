@@ -2,7 +2,7 @@
   "name": "McGraw",
   "slug": "mcgraw",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/15121834-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/mcgraw.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2624612A",
   "bio": "family name",
   "_provenance": {
@@ -12,5 +12,7 @@
   },
   "wikidata_qid": "Q868587",
   "viaf_id": "26147121725826391675",
-  "ol_author_key": "/authors/OL2624612A"
+  "ol_author_key": "/authors/OL2624612A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/15121834-M.jpg",
+  "photo_cached_at": "2026-05-03T00:46:12+00:00"
 }

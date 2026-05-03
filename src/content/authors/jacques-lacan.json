@@ -3,7 +3,7 @@
   "slug": "jacques-lacan",
   "book_count": 1,
   "bio": "Jacques Marie Émile Lacan was a French psychoanalyst and psychiatrist. Described as \"the most controversial psycho-analyst since Freud\", Lacan gave annual seminars in Paris from 1952 to 1980 and published papers that were later collected in the book Écrits. Transcriptions of the seminars 1953–1980 were published. His work made a significant impact on continental philosophy and cultural theory in areas such as post-structuralism, critical theory, feminist theory and film theory, as well as on the practice of psychoanalysis itself.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Jacques_Lacan_during_an_interview_1969.jpg",
+  "photo_url": "/tsundoku/cached/authors/jacques-lacan.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jacques_Lacan",
   "open_library_url": "https://openlibrary.org/authors/OL265227A",
   "birth_year": 1901,
@@ -24,5 +24,7 @@
   "movements": [
     "psychoanalysis",
     "structuralism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Jacques_Lacan_during_an_interview_1969.jpg",
+  "photo_cached_at": "2026-05-03T00:44:04+00:00"
 }

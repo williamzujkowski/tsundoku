@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Phoenix and the Carpet is a fantasy novel for children, written by E. Nesbit and first published in 1904. It is the second in a trilogy of novels that begins with Five Children and It (1902), and follows the adventures of the same five children: Cyril, Anthea, Robert, Jane and the Lamb. Their mother buys the children a new carpet to replace one from the nursery that they have destroyed in an accidental fire. The children find an egg in the carpet, which hatches into a talking Phoenix. The Ph",
-  "cover_url": "https://books.google.com/books/content?id=SfQhtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-phoenix-and-the-carpet.jpg",
   "isbn": "1976559383",
   "first_published": 1904,
   "pages": 222,
@@ -86,5 +86,7 @@
   "wikidata_qid": "Q3795974",
   "original_title": "The Phoenix and the Carpet",
   "original_language": "eng",
-  "original_publisher": "Newnes"
+  "original_publisher": "Newnes",
+  "cover_url_source": "https://books.google.com/books/content?id=SfQhtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:20+00:00"
 }

@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "'The Hill of Dreams' follows the story of the introverted rector's son Lucian Taylor. He stumbles upon an odd Roman hill fort in his Welsh hometown which possesses his mind with supernatural visions and pagan erotic imagery. Compelled by the strange desires stirring in his soul, he moves to London to become a writer. But his hopes that the change of scenery would restore his sanity prove futile as his darkest hallucinations begin to assume a very tangible form. 'The Hill of Dreams' is a moving s",
-  "cover_url": "https://books.google.com/books/content?id=h0ljEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-hill-of-dreams.jpg",
   "isbn": "9788726615319",
   "first_published": 1907,
   "pages": 189,
@@ -66,5 +66,7 @@
   "representative_edition_key": "/books/OL34209107M",
   "wikidata_qid": "Q1394147",
   "original_title": "The Hill of Dreams",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=h0ljEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:06:33+00:00"
 }

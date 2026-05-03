@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "young-t-rless",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/107909-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/107909-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/young-t-rless.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/young-t-rless.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1330179W",
   "description": "Set in a boarding school in a remote area of the Habsburg Empire at the turn of the last century, The Confusions of Young Torless is an intense study of an adolescent's psychological development as he struggles to come to terms with his conflicting emotions. Through his relationship with two other boys Torless is led into sadistic and sexual encounters with a third pupil which both repel and fascinate him. Estranged from everyday life, Torless gradually learns to accept his experiences and descr...",
   "isbn": "9780199669400",
@@ -88,5 +88,8 @@
   "translator": "Mike Mitchell",
   "wikidata_qid": "Q1112285",
   "original_title": "The confusions of young Törless",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/107909-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/107909-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:38+00:00"
 }

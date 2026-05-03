@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-magicians",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6294573-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6294573-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-magicians.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-magicians.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2679341W",
   "first_published": 2009,
   "language": "eng",
@@ -75,5 +75,8 @@
   "wikidata_qid": "Q7749544",
   "original_title": "The Magicians",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6294573-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6294573-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:29+00:00"
 }

@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL265757W",
   "first_published": 1968,
   "description": "A young girl spends her summer vacation in a country house where a tiger roams . . . A man reading a mystery finds out too late that he is the murderer’s intended victim . . . Originally published in hardcover as End of the Game and Other Stories, the fifteen stories collected here—including “Blow-Up,” which was the basis for Michelangelo Antonioni’s film of the same name—shows Julio Cortázar's nimble capacity to explore the shadowy realm where the everyday meets the mysterious, perhaps even the...",
-  "cover_url": "https://books.google.com/books/content?id=WfYCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=WfYCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/blow-up-and-other-stories.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/blow-up-and-other-stories.jpg",
   "isbn": "9780804153249",
   "pages": 285,
   "language": "eng",
@@ -25,5 +25,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48218965M"
+  "representative_edition_key": "/books/OL48218965M",
+  "cover_url_source": "https://books.google.com/books/content?id=WfYCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=WfYCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:45+00:00"
 }

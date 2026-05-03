@@ -5,8 +5,8 @@
   "priority": 3,
   "slug": "transformation",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/294980-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/294980-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/transformation.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/transformation.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5804796W",
   "first_published": 1956,
   "language": "eng",
@@ -1703,5 +1703,8 @@
   "wikidata_qid": "Q751582",
   "original_title": "Bible de Jérusalem",
   "original_language": "fre",
-  "original_publisher": "French Biblical and Archaeological School of Jerusalem"
+  "original_publisher": "French Biblical and Archaeological School of Jerusalem",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/294980-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/294980-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:48+00:00"
 }

@@ -8,8 +8,8 @@
     "mystery"
   ],
   "description": "First published in Spanish in 1998, The Savage Detectives was immediately hailed as a critical success, wining the Herralde Prize and the Rómulo Gallegos Prize. But with the 2007 English-language translation the book became more than a bestseller - it began the global sensation of Bolañomania. New Year's Eve 1975, Mexico City. Two hunted men leave town in a hurry, on the desert-bound trail of a vanished poet. Spanning two decades and crossing continents, this remarkable quest is a journey told a...",
-  "cover_url": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-savage-detectives.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-savage-detectives.jpg",
   "isbn": "1447202856",
   "first_published": 1998,
   "pages": 591,
@@ -90,5 +90,8 @@
       "name": "Rómulo Gallegos Prize",
       "year": 1999
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Okf0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:00+00:00"
 }

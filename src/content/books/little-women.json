@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in 19th century New England.\"--Provided by publisher.",
-  "cover_url": "https://books.google.com/books/content?id=WkwrttiByLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/little-women.jpg",
   "isbn": "0671086278",
   "first_published": 1861,
   "pages": 210,
@@ -288,5 +288,7 @@
   "series": {
     "name": "March Trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=WkwrttiByLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:30:46+00:00"
 }

@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12621988-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12621988-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-iliad.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-iliad.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27292338W",
   "first_published": -750,
   "language": "eng",
@@ -549,5 +549,8 @@
   "original_title": "Ὀδύσσεια",
   "series": {
     "name": "Epic Cycle"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12621988-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12621988-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:41+00:00"
 }

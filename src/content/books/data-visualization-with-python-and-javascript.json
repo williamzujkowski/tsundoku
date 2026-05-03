@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Python and Javascript are the perfect complement for turning data into rich, interactive web visualizations, in a world that increasingly expects more than a pre-rendered, static image. Developers need to know how to turn raw, unprocessed data, often \"dirty\" or malformed, into dynamic, interactive web visualizations. Author Kyran Dale teaches you how to leverage the power of best-of-breed Python and Javascript libraries to do so, using engaging examples and stressing hard-earned best-practice. Y",
-  "cover_url": "https://books.google.com/books/content?id=nGQBswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/data-visualization-with-python-and-javascript.png",
   "isbn": "1491920513",
   "first_published": 2016,
   "pages": 300,
@@ -52,5 +52,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781491920510",
-  "representative_edition_key": "/books/OL27211001M"
+  "representative_edition_key": "/books/OL27211001M",
+  "cover_url_source": "https://books.google.com/books/content?id=nGQBswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:37+00:00"
 }

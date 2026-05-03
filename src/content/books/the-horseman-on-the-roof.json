@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "The Horseman on the Roof is a 1951 adventure novel written by Jean Giono. It tells the story of Angelo Pardi, a young Italian carbonaro colonel of hussars, caught up in the 1832 cholera epidemic in Provence.",
-  "cover_url": "https://covers.openlibrary.org/b/id/12690473-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12690473-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-horseman-on-the-roof.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-horseman-on-the-roof.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781846553639",
@@ -37,5 +37,8 @@
   },
   "editions_count": 2,
   "representative_edition_key": "/books/OL28441008M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12690473-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12690473-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:03+00:00"
 }

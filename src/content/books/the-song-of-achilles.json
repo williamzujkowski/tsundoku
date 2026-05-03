@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-song-of-achilles",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7098465-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7098465-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-song-of-achilles.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-song-of-achilles.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16509148W",
   "first_published": 2011,
   "language": "eng",
@@ -76,5 +76,8 @@
       "name": "Women's Prize for Fiction",
       "year": 2012
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7098465-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7098465-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:52+00:00"
 }

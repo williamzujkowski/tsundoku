@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "One of Huxley's masterpieces-one of the Modern Library's \"100 Best Works of the Century.\"",
-  "cover_url": "https://books.google.com/books/content?id=j-VGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/point-counter-point.jpg",
   "first_published": 1928,
   "pages": 620,
   "google_books_url": "https://play.google.com/store/books/details?id=j-VGAAAAYAAJ&source=gbs_api",
@@ -78,5 +78,7 @@
   "wikidata_qid": "Q119246",
   "original_title": "Point Counter Point",
   "original_language": "eng",
-  "original_publisher": "Chatto & Windus"
+  "original_publisher": "Chatto & Windus",
+  "cover_url_source": "https://books.google.com/books/content?id=j-VGAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:15+00:00"
 }

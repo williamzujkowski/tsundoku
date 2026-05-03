@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Concerning application layer DDoS attacks, Bureau 121, camfecting, cyber attack threat trends, ECHELON, Fifth Dimension Operations, Intervasion of the UK, Military-digital complex, PLA Unit 61398, Stuxnet, and more",
-  "cover_url": "https://books.google.com/books/content?id=riH5CQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=riH5CQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/how-to-become-a-hacker.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/how-to-become-a-hacker.jpg",
   "isbn": "9781329063945",
   "first_published": 2015,
   "pages": 312,
@@ -28,5 +28,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781329063945",
-  "representative_edition_key": "/books/OL28345967M"
+  "representative_edition_key": "/books/OL28345967M",
+  "cover_url_source": "https://books.google.com/books/content?id=riH5CQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=riH5CQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:21:33+00:00"
 }

@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "The first novel which appeared in Georges Simenon's famous Maigret series, in a gripping new translation by David Bellos. Not that he looked like a cartoon policeman. He didn't have a moustache and he didn't wear heavy boots. His clothes were well cut and made of fairly light worsted. He shaved every day and looked after his hands. But his frame was proletarian. He was a big, bony man. His firm muscles filled out his jacket and quickly pulled all his trousers out of shape. He had a way of imposing himself just by standing there. His assertive presence had often irked many of his own colleagues. In Simenon's first novel featuring Maigret, the laconic detective is taken from grimy bars to luxury hotels as he traces the true identity of Pietr the Latvian. This novel has been published in previous translations as The Case of Peter the Lett and Maigret and the Enigmatic Lett. 'Compelling, remorseless, brilliant' John Gray 'One of the greatest writers of the twentieth century' Guardian",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/the-strange-case-of-peter-the-lett.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-strange-case-of-peter-the-lett.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780141976570",
@@ -55,7 +55,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "cover_url": "multi_cover_v1_wikipedia"
   },
   "editions_count": 38,
   "first_published_circa": false,
@@ -73,5 +74,7 @@
   ],
   "series": {
     "name": "Jules Maigret"
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/3/35/PietrLeLetton.jpg",
+  "cover_cached_at": "2026-05-03T02:14:18+00:00"
 }

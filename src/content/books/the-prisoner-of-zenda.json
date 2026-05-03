@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Five times made into film versions since its original publication in 1894, The Prisoner of Zenda is a perennially popular adventure and romance story. Hope's swashbuckling romance transports his English gentleman hero, Rudolf Rassendyll, from a comfortable life in London to fast-paced adventures in Ruritania, a mythical land steeped in political intrigue. Rassendyll must impersonate the rightful king in order to rescue him from the castle Zenda, all the while facing tests of honor with the beaut",
-  "cover_url": "https://books.google.com/books/content?id=o88dc4BpcGwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-prisoner-of-zenda.jpg",
   "isbn": "9781425001902",
   "first_published": 1896,
   "pages": 346,
@@ -132,5 +132,7 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9789651M"
+  "representative_edition_key": "/books/OL9789651M",
+  "cover_url_source": "https://books.google.com/books/content?id=o88dc4BpcGwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:53+00:00"
 }

@@ -9,8 +9,8 @@
   "first_published": 1788,
   "language": "eng",
   "description": "E ighty-five articles and essays by Alexander Hamilton, John Jay, and James Madison that interpret and promote the US Constitution. Three of America's Founding Fathers—Alexander Hamilton, General George Washington's chief of staff and first secretary of the treasury; John Jay, the first chief justice of the United States; and James Madison, father of the Constitution, author of the Bill of Rights, and fourth president of the United States—embarked on an anonymous public relations campaign to pro...",
-  "cover_url": "https://books.google.com/books/content?id=Za_SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Za_SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-federalist-papers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-federalist-papers.jpg",
   "isbn": "9781504060998",
   "pages": 593,
   "google_books_url": "https://play.google.com/store/books/details?id=Za_SDwAAQBAJ&source=gbs_api",
@@ -160,5 +160,8 @@
   "editions_count": 349,
   "first_published_circa": false,
   "first_edition_isbn": "9781542925099",
-  "representative_edition_key": "/books/OL35838814M"
+  "representative_edition_key": "/books/OL35838814M",
+  "cover_url_source": "https://books.google.com/books/content?id=Za_SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Za_SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:54+00:00"
 }

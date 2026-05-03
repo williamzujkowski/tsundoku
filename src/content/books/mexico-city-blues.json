@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "mexico-city-blues",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/568546-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/568546-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mexico-city-blues.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mexico-city-blues.jpg",
   "open_library_url": "https://openlibrary.org/works/OL65927W",
   "first_published": 1959,
   "language": "eng",
@@ -46,5 +46,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL48212109M"
+  "representative_edition_key": "/books/OL48212109M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/568546-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/568546-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:35+00:00"
 }

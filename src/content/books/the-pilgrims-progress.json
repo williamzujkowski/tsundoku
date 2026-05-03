@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8229224-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8229224-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-pilgrims-progress.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-pilgrims-progress.jpg",
   "open_library_url": "https://openlibrary.org/works/OL107195W",
   "first_published": 1678,
   "language": "eng",
@@ -355,5 +355,8 @@
   "first_edition_isbn": "9780231939522",
   "representative_edition_key": "/books/OL34245481M",
   "wikidata_qid": "Q20566823",
-  "original_title": "Taith y pererin i'r teulu"
+  "original_title": "Taith y pererin i'r teulu",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8229224-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8229224-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:24+00:00"
 }

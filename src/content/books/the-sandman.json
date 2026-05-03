@@ -7,8 +7,8 @@
   "tags": [
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11297872-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11297872-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sandman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sandman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24623081W",
   "first_published": 2017,
   "description": "The Sand-man and Other Stories brings together some of E.T.A. Hoffmann's most influential tales, where the fantastic and the uncanny intersect with psychological depth. The central story, The Sandman, follows Nathanael, a young man haunted since childhood by a terrifying figure associated with the legend of the Sandman. As an adult, he becomes obsessed with the mysterious Coppola, a lens-seller whom he believes to be the same menacing figure. His fascination with the automaton Olympia, whom he m...",
@@ -17,5 +17,8 @@
   "google_books_url": "https://play.google.com/store/books/details?id=qZuIEQAAQBAJ&source=gbs_api",
   "language": "eng",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11297872-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11297872-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:58+00:00"
 }

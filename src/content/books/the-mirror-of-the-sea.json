@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This collection of literature attempts to compile many of the classic works that have stood the test of time and offer them at a reduced, affordable price, in an attractive volume so that everyone can enjoy them.",
-  "cover_url": "https://books.google.com/books/content?id=P0tKrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mirror-of-the-sea.jpg",
   "isbn": "1511594403",
   "first_published": 2015,
   "pages": 76,
@@ -65,5 +65,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781511594400",
-  "representative_edition_key": "/books/OL55067974M"
+  "representative_edition_key": "/books/OL55067974M",
+  "cover_url_source": "https://books.google.com/books/content?id=P0tKrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:14+00:00"
 }

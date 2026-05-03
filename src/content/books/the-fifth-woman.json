@@ -8,8 +8,8 @@
     "mystery",
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10837394-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10837394-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fifth-woman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fifth-woman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24319173W",
   "first_published": 2011,
   "description": "In an Algerian convent, four nuns and an unidentified fifth woman are found with their throats slit. In Sweden, a birdwatcher is skewered to death in a pit of carefully sharpened bamboo poles. How are the deaths connected? It's up to Inspector Kurt Wallander to find out.",
@@ -30,5 +30,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780307946669",
-  "representative_edition_key": "/books/OL32181781M"
+  "representative_edition_key": "/books/OL32181781M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10837394-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10837394-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:31+00:00"
 }

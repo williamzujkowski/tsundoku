@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "beloved",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8261367-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8261367-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/beloved.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/beloved.jpg",
   "open_library_url": "https://openlibrary.org/works/OL50548W",
   "first_published": 1987,
   "language": "eng",
@@ -129,5 +129,8 @@
       "name": "Pulitzer Prize for Fiction",
       "year": 1988
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8261367-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8261367-L.jpg",
+  "cover_cached_at": "2026-05-03T00:59:35+00:00"
 }

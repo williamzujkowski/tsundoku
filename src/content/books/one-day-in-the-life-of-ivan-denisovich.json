@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "one-day-in-the-life-of-ivan-denisovich",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13669266-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13669266-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/one-day-in-the-life-of-ivan-denisovich.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/one-day-in-the-life-of-ivan-denisovich.jpg",
   "open_library_url": "https://openlibrary.org/works/OL29334387W",
   "first_published": 1962,
   "language": "eng",
@@ -142,5 +142,8 @@
   "original_language": "rus",
   "original_title": "Odin denʹ Ivana Denisovicha",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24215803M"
+  "representative_edition_key": "/books/OL24215803M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13669266-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13669266-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:08+00:00"
 }

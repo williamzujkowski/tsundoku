@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "essays",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7989823-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7989823-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/essays.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/essays.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1168020W",
   "first_published": 1968,
   "language": "eng",
@@ -39,5 +39,8 @@
   },
   "editions_count": 5,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7358936M"
+  "representative_edition_key": "/books/OL7358936M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7989823-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7989823-L.jpg",
+  "cover_cached_at": "2026-05-03T01:13:46+00:00"
 }

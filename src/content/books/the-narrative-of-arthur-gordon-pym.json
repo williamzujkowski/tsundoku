@@ -8,8 +8,8 @@
     "adventure",
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7160877-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7160877-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-narrative-of-arthur-gordon-pym.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-narrative-of-arthur-gordon-pym.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40962W",
   "first_published": 1838,
   "language": "eng",
@@ -116,5 +116,8 @@
   "wikidata_qid": "Q615383",
   "original_title": "The Narrative of Arthur Gordon Pym of Nantucket",
   "original_language": "eng",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7160877-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7160877-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:41+00:00"
 }

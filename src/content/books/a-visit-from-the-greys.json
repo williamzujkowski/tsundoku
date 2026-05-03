@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The summer of 1963 hung over the Kansas farmland like a suffocating blanket, thick with humidity and the promise of storms that never came. Ten-year-old Billy Matthews had always been drawn to the mysteries that lurked beyond the familiar boundaries of his father's property—the way shadows moved differently in the cornfield at dusk, the strange sounds that echoed from the old well after midnight, and most of all, the lights that danced in the sky when the moon was dark. But it wasn't until June ",
-  "cover_url": "https://books.google.com/books/content?id=5wFTFIGi15gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-visit-from-the-greys.jpg",
   "isbn": "9781465762467",
   "first_published": 2011,
   "pages": 10,
@@ -27,5 +27,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781465762467",
-  "representative_edition_key": "/books/OL54230120M"
+  "representative_edition_key": "/books/OL54230120M",
+  "cover_url_source": "https://books.google.com/books/content?id=5wFTFIGi15gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:52:59+00:00"
 }

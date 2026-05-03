@@ -15,7 +15,7 @@
   "language": "eng",
   "copyright_status": "in_copyright",
   "description": "Penguin Island is a satirical fictional history by French author Anatole France.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Penguin_Island_%28novel%29.jpg/120px-Penguin_Island_%28novel%29.jpg",
+  "cover_url": "/tsundoku/cached/covers/penguin-island.jpg",
   "ddc": [
     "919.4110463"
   ],
@@ -35,5 +35,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780730969716",
-  "representative_edition_key": "/books/OL32093920M"
+  "representative_edition_key": "/books/OL32093920M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Penguin_Island_%28novel%29.jpg/120px-Penguin_Island_%28novel%29.jpg",
+  "cover_cached_at": "2026-05-03T01:41:08+00:00"
 }

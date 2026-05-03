@@ -12,7 +12,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Restaurant at the End of the Universe is the second book in the Hitchhiker's Guide to the Galaxy science fiction comedy hexalogy, named a \"trilogy\" by Douglas Adams. It was originally published by Pan Books as a paperback in 1980. Like the preceding novel, it was adapted from Adams' radio series, and became a critically acclaimed cult classic.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-restaurant-at-the-end-of-the-universe.jpg",
   "pages": 224,
   "isbn": "9780297786566",
   "ddc": [
@@ -74,5 +74,7 @@
   "series": {
     "name": "The Hitchhiker's Guide to the Galaxy",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
+  "cover_cached_at": "2026-05-03T02:12:25+00:00"
 }

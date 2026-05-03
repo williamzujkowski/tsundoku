@@ -9,8 +9,8 @@
     "war",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12727001-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/slaughterhouse-five.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/slaughterhouse-five.jpg",
   "open_library_url": "https://openlibrary.org/works/OL98459W",
   "first_published": 1969,
   "language": "eng",
@@ -125,5 +125,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12727001-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:02+00:00"
 }

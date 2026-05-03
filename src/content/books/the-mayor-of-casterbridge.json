@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-mayor-of-casterbridge",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1260617-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1260617-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-mayor-of-casterbridge.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-mayor-of-casterbridge.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8193406W",
   "first_published": 1800,
   "language": "eng",
@@ -205,5 +205,8 @@
   "wikidata_qid": "Q2343169",
   "original_title": "The Mayor of Casterbridge: The Life and Death of a Man of Character",
   "original_language": "eng",
-  "original_publisher": "Smith, Elder & Co."
+  "original_publisher": "Smith, Elder & Co.",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1260617-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1260617-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:01+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/425398-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/425398-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/john-adams.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/john-adams.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2820749W",
   "first_published": 2001,
   "language": "eng",
@@ -57,5 +57,8 @@
   "wikidata_qid": "Q2160347",
   "original_title": "John Adams",
   "original_language": "eng",
-  "original_publisher": "Simon & Schuster"
+  "original_publisher": "Simon & Schuster",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/425398-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/425398-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:09+00:00"
 }

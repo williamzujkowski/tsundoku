@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/656166-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/656166-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/riprap.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/riprap.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13832W",
   "first_published": 1959,
   "language": "eng",
@@ -44,5 +44,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33986469M"
+  "representative_edition_key": "/books/OL33986469M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/656166-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/656166-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:17+00:00"
 }

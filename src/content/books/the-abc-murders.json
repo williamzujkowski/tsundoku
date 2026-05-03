@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14573514-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14573514-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-abc-murders.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-abc-murders.jpg",
   "open_library_url": "https://openlibrary.org/works/OL471509W",
   "first_published": 1936,
   "language": "eng",
@@ -101,5 +101,8 @@
   "series": {
     "name": "canon of Hercule Poirot",
     "position": 13
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14573514-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14573514-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:23+00:00"
 }

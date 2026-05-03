@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "tao-te-ching",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/662232-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/662232-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/tao-te-ching.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/tao-te-ching.jpg",
   "open_library_url": "https://openlibrary.org/works/OL45499W",
   "first_published": -400,
   "language": "eng",
@@ -317,5 +317,8 @@
   },
   "editions_count": 400,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL52559900M"
+  "representative_edition_key": "/books/OL52559900M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/662232-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/662232-L.jpg",
+  "cover_cached_at": "2026-05-03T01:54:46+00:00"
 }

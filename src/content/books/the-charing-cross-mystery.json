@@ -13,7 +13,7 @@
   "first_published": 1923,
   "pages": 312,
   "google_books_url": "http://books.google.com/books?id=MXeazQEACAAJ&dq=The+Charing+Cross+Mystery+Unknown&hl=&source=gbs_api",
-  "cover_url": "https://covers.openlibrary.org/b/id/2889295-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-charing-cross-mystery.jpg",
   "copyright_status": "public_domain",
   "gutenberg_id": 59893,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/59893",
@@ -47,5 +47,7 @@
   "editions_count": 35,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL41446473M"
+  "representative_edition_key": "/books/OL41446473M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2889295-M.jpg",
+  "cover_cached_at": "2026-05-03T02:00:07+00:00"
 }

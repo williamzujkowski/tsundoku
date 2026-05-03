@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "elective-affinities",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14951958-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14951958-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/elective-affinities.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/elective-affinities.jpg",
   "open_library_url": "https://openlibrary.org/works/OL31655409W",
   "first_published": 1962,
   "language": "eng",
@@ -38,5 +38,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44911942M"
+  "representative_edition_key": "/books/OL44911942M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14951958-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14951958-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:08+00:00"
 }

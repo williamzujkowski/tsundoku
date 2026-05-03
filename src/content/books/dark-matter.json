@@ -9,8 +9,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Uwielbiam czwartkowe wieczory.",
-  "cover_url": "https://covers.openlibrary.org/b/id/7436634-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7436634-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dark-matter.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dark-matter.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17358795W",
   "first_published": 2016,
   "isbn": "9788416858217",
@@ -52,5 +52,8 @@
   "representative_edition_key": "/books/OL26375511M",
   "wikidata_qid": "Q107920499",
   "original_title": "Dark Matter",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7436634-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7436634-L.jpg",
+  "cover_cached_at": "2026-05-03T01:07:28+00:00"
 }

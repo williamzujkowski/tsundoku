@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "With a gorgeously redesigned cover and the original black and white interior illustrations by Ernest Shepard, this beautiful edition of the beloved childhood classic Winnie-the-Pooh by A. A. Milne is sure to delight new and old fans alike! Explore the Hundred Acre Wood with everyone’s favorite bear-of-little-brain, Winnie-the-Pooh! In this children’s classic that has captured imaginations for the past century, meet Pooh, Christopher Robin, and the other residents of the forest, including timid P",
-  "cover_url": "https://books.google.com/books/content?id=sxndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/winnie-the-pooh.jpg",
   "isbn": "9781665947695",
   "first_published": 2024,
   "pages": 176,
@@ -37,5 +37,7 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL51614944M"
+  "representative_edition_key": "/books/OL51614944M",
+  "cover_url_source": "https://books.google.com/books/content?id=sxndEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:06+00:00"
 }

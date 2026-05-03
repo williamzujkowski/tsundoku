@@ -12,8 +12,8 @@
   "first_published": 1949,
   "language": "eng",
   "description": "Vintage Feminism: classic feminist texts in short form WITH AN INTRODUCTION BY NATALIE HAYNES When this book was first published in 1949 it was to outrage and scandal. Never before had the case for female liberty been so forcefully and successfully argued. De Beauvoir’s belief that ‘One is not born, but rather becomes, woman’ switched on light bulbs in the heads of a generation of women and began a fight for greater equality and economic independence. These pages contain the key passages of the ...",
-  "cover_url": "https://books.google.com/books/content?id=KuMtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=KuMtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-second-sex.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-second-sex.jpg",
   "isbn": "9781473521919",
   "pages": 123,
   "google_books_url": "http://books.google.com/books?id=KuMtBQAAQBAJ&dq=The+Second+Sex+Simone+de+Beauvoir&hl=&source=gbs_api",
@@ -100,5 +100,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL33533593M",
   "wikidata_qid": "Q470098",
-  "original_publisher": "Éditions Gallimard"
+  "original_publisher": "Éditions Gallimard",
+  "cover_url_source": "https://books.google.com/books/content?id=KuMtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=KuMtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:12+00:00"
 }

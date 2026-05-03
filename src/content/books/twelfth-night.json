@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9119932-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9119932-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/twelfth-night.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/twelfth-night.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362694W",
   "first_published": 1734,
   "language": "eng",
@@ -62,5 +62,8 @@
   },
   "editions_count": 245,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34331781M"
+  "representative_edition_key": "/books/OL34331781M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9119932-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9119932-L.jpg",
+  "cover_cached_at": "2026-05-03T02:22:13+00:00"
 }

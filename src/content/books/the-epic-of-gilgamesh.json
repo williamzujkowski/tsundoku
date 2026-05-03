@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "public_domain",
   "description": "The Epic of Gilgamesh is an epic from ancient Mesopotamia. The literary history of Gilgamesh begins with five Sumerian poems about Gilgamesh, king of Uruk, some of which may date back to the Third Dynasty of Ur. These independent stories were later used as source material for a combined epic in Akkadian. The first surviving version of this combined epic, known as the \"Old Babylonian\" version, dates back to the 18th century BCE and is titled after its incipit, Shūtur eli sharrī.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-epic-of-gilgamesh.jpg",
   "pages": 122,
   "isbn": "9781623959418",
   "subject_facet": [
@@ -26,5 +26,7 @@
   },
   "editions_count": 1,
   "first_edition_isbn": "9781623959418",
-  "representative_edition_key": "/books/OL34878989M"
+  "representative_edition_key": "/books/OL34878989M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg",
+  "cover_cached_at": "2026-05-03T02:03:40+00:00"
 }

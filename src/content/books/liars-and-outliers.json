@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "liars-and-outliers",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7263283-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7263283-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/liars-and-outliers.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/liars-and-outliers.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16626501W",
   "first_published": 2012,
   "language": "eng",
@@ -33,5 +33,8 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29091001M"
+  "representative_edition_key": "/books/OL29091001M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7263283-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7263283-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:26+00:00"
 }

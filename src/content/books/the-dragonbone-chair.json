@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/77960-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/77960-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-dragonbone-chair.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-dragonbone-chair.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2250813W",
   "first_published": 1988,
   "language": "eng",
@@ -74,5 +74,8 @@
   "series": {
     "name": "Memory, Sorrow, and Thorn",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/77960-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/77960-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:57+00:00"
 }

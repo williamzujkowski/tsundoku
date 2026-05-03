@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "eichmann-in-jerusalem",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/97789-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97789-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/eichmann-in-jerusalem.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/eichmann-in-jerusalem.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1386647W",
   "first_published": 1963,
   "language": "eng",
@@ -89,5 +89,8 @@
   "wikidata_qid": "Q480743",
   "original_title": "Eichmann in Jerusalem",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97789-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97789-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:02+00:00"
 }

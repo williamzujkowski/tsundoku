@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A horse in nineteenth-century England recounts his experiences with both good and bad masters.",
-  "cover_url": "https://books.google.com/books/content?id=fBdLX-vh1z0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/black-beauty.jpg",
   "isbn": "0140366849",
   "first_published": 1994,
   "pages": 276,
@@ -54,5 +54,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780140366846",
-  "representative_edition_key": "/books/OL7354011M"
+  "representative_edition_key": "/books/OL7354011M",
+  "cover_url_source": "https://books.google.com/books/content?id=fBdLX-vh1z0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:23+00:00"
 }

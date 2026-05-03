@@ -10,8 +10,8 @@
   "open_library_url": "https://openlibrary.org/works/OL41512569W",
   "first_published": 2017,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=O4MVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=O4MVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ozymandias-and-other-poems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ozymandias-and-other-poems.jpg",
   "pages": 518,
   "subjects": [
     "English poetry"
@@ -32,5 +32,8 @@
   "first_published_circa": false,
   "first_edition_isbn": "9781979338356",
   "representative_edition_key": "/books/OL56376379M",
-  "description": "Having trouble finding scholarly sources for your research paper?This Squid Ink Classic includes the full text of the work plus MLA style citations for secondary sources, peer-reviewed journal articles and critical essays for when your teacher requires extra resources in MLA format for your research paper.Why spend more time looking for your sources than writing your paper? Work smarter not harder with Squid Ink Classics. The smart way to do homework."
+  "description": "Having trouble finding scholarly sources for your research paper?This Squid Ink Classic includes the full text of the work plus MLA style citations for secondary sources, peer-reviewed journal articles and critical essays for when your teacher requires extra resources in MLA format for your research paper.Why spend more time looking for your sources than writing your paper? Work smarter not harder with Squid Ink Classics. The smart way to do homework.",
+  "cover_url_source": "https://books.google.com/books/content?id=O4MVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=O4MVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:39:34+00:00"
 }

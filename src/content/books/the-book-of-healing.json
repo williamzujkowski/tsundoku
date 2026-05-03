@@ -8,8 +8,8 @@
     "philosophy"
   ],
   "description": "This book offers a new edition, with English translation and commentary, of the Kitāb al-Madḫal, which opens Avicenna’s (d. 1037) most comprehensive summa of Peripatetic philosophy, namely the Kitāb al-Šifāʾ. For the first time, the text is established together with a stemma codicum showing the genealogical relations among 34 manuscripts, the twelfth-century Latin translation, and the literal quotations by Avicenna’s first and second-generation students. In this book, Avicenna’s reappraisal of P...",
-  "cover_url": "https://books.google.com/books/content?id=lo49EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=lo49EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-healing.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-healing.jpg",
   "isbn": "9783110726565",
   "first_published": 2021,
   "pages": 598,
@@ -34,5 +34,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9783110726688",
-  "representative_edition_key": "/books/OL34771003M"
+  "representative_edition_key": "/books/OL34771003M",
+  "cover_url_source": "https://books.google.com/books/content?id=lo49EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=lo49EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:56+00:00"
 }

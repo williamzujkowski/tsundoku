@@ -11,8 +11,8 @@
   "first_published": 1999,
   "language": "eng",
   "description": "'A groundbreaking work of economic analysis. It is also a literary masterpice' Francis Wheen, Guardian One of the most notorious and influential works of modern times, Capital is an incisive critique of private property and the social relations it generates. Living in exile in England, where this work was largely written, Marx drew on a wide-ranging knowledge of its society to support his analysis. Arguing that capitalism would cause an ever-increasing division in wealth and welfare, he predicte...",
-  "cover_url": "https://books.google.com/books/content?id=1weaJso-O9IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=1weaJso-O9IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/capital-vol-1-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/capital-vol-1-2.jpg",
   "isbn": "9780141920603",
   "pages": 1037,
   "google_books_url": "https://play.google.com/store/books/details?id=1weaJso-O9IC&source=gbs_api",
@@ -27,5 +27,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL38651517M"
+  "representative_edition_key": "/books/OL38651517M",
+  "cover_url_source": "https://books.google.com/books/content?id=1weaJso-O9IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=1weaJso-O9IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:36+00:00"
 }

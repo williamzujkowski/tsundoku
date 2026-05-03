@@ -9,8 +9,8 @@
     "children",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8747028-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8747028-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/northern-lights.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/northern-lights.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28988W",
   "first_published": 1995,
   "language": "eng",
@@ -175,5 +175,8 @@
   "series": {
     "name": "His Dark Materials",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8747028-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8747028-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:05+00:00"
 }

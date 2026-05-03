@@ -13,7 +13,7 @@
     "thriller"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=rLOZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/nightmare-abbey.jpg",
   "isbn": "9785041728632",
   "first_published": 1818,
   "pages": 129,
@@ -84,5 +84,7 @@
   "representative_edition_key": "/books/OL34185538M",
   "wikidata_qid": "Q4054406",
   "original_title": "Nightmare Abbey",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=rLOZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:34+00:00"
 }

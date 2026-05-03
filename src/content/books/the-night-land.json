@@ -9,8 +9,8 @@
     "horror",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2839933-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2839933-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-night-land.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-night-land.jpg",
   "open_library_url": "https://openlibrary.org/works/OL810400W",
   "first_published": 1976,
   "language": "eng",
@@ -33,5 +33,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 21,
-  "representative_edition_key": "/books/OL55933661M"
+  "representative_edition_key": "/books/OL55933661M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2839933-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2839933-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:53+00:00"
 }

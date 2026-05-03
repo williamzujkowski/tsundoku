@@ -11,8 +11,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\"Cyber security expert Jeff Aiken knows that no computer system is secure. When he's called to investigate a possible breach of the New York Stock Exchange, he discovers that not only has their system been infiltrated but that those in charge knew about it. Yet for some reason, they allowed the hackers to steal millions of dollars from accounts without trying to stop the theft. When Jeff uncovers the crime, they suddenly turn on him.",
-  "cover_url": "https://covers.openlibrary.org/b/id/11477150-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11477150-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/rogue-code.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/rogue-code.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21795174W",
   "first_published": 2014,
   "pages": 387,
@@ -42,5 +42,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781250035370",
-  "representative_edition_key": "/books/OL27157460M"
+  "representative_edition_key": "/books/OL27157460M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11477150-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11477150-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:28+00:00"
 }

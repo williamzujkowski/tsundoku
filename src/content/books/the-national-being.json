@@ -10,7 +10,7 @@
     "philosophy"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=jtBaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-national-being.jpg",
   "isbn": "9783732668595",
   "first_published": 1916,
   "pages": 106,
@@ -48,5 +48,7 @@
   "editions_count": 15,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8471580M"
+  "representative_edition_key": "/books/OL8471580M",
+  "cover_url_source": "https://books.google.com/books/content?id=jtBaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:42+00:00"
 }

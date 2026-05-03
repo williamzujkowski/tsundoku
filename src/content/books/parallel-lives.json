@@ -9,8 +9,8 @@
   "first_published": 100,
   "language": "eng",
   "description": "Plutarch, also known as Lucius Mestrius Plutarchus (46-120 A.D.) was a Greek historian and biographer best known for his parallel lives comparisons of famous Greeks and Romans. Plutarch also wrote biographies on many famous people of his day.",
-  "cover_url": "https://books.google.com/books/content?id=7zbsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=7zbsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/parallel-lives.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/parallel-lives.jpg",
   "isbn": "9781625584885",
   "pages": 2065,
   "google_books_url": "https://play.google.com/store/books/details?id=7zbsAgAAQBAJ&source=gbs_api",
@@ -29,5 +29,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL36787355M"
+  "representative_edition_key": "/books/OL36787355M",
+  "cover_url_source": "https://books.google.com/books/content?id=7zbsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=7zbsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:40:01+00:00"
 }

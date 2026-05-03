@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Frank and Joe Hardy are investigating a mysterious old house high on the cliffs above Barmet Bay when they are frightened off by a scream. The boys return to the apparently haunted house when they make a connection between the place and a smuggling case their father is working on. When their father goes missing, they have to investigate the caves beneath the house and confront the smugglers.",
-  "cover_url": "https://books.google.com/books/content?id=-GzTXI-CnNMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-house-on-the-cliff.jpg",
   "isbn": "9781440673160",
   "first_published": 1927,
   "pages": 193,
@@ -74,5 +74,7 @@
   "series": {
     "name": "The Hardy Boys",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=-GzTXI-CnNMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:09+00:00"
 }

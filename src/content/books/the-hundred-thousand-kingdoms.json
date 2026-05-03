@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7716902-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7716902-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-hundred-thousand-kingdoms.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-hundred-thousand-kingdoms.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13731150W",
   "first_published": 2010,
   "language": "eng",
@@ -64,5 +64,8 @@
   "series": {
     "name": "The Inheritance Trilogy",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7716902-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7716902-L.jpg",
+  "cover_cached_at": "2026-05-03T02:07:12+00:00"
 }

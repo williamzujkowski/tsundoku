@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/379968-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/379968-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/schilds-ladder.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/schilds-ladder.jpg",
   "open_library_url": "https://openlibrary.org/works/OL115338W",
   "first_published": 2002,
   "language": "eng",
@@ -40,5 +40,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL46592530M"
+  "representative_edition_key": "/books/OL46592530M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/379968-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/379968-L.jpg",
+  "cover_cached_at": "2026-05-03T01:49:16+00:00"
 }

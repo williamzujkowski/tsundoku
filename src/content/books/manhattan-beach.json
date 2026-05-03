@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "manhattan-beach",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8284482-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8284482-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/manhattan-beach.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/manhattan-beach.jpg",
   "open_library_url": "https://openlibrary.org/works/OL18013215W",
   "first_published": 2017,
   "language": "eng",
@@ -64,5 +64,8 @@
   },
   "editions_count": 17,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29762184M"
+  "representative_edition_key": "/books/OL29762184M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8284482-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8284482-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:41+00:00"
 }

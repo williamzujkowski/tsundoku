@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "arthashastra",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14441574-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14441574-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/arthashastra.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/arthashastra.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28821056W",
   "first_published": 1923,
   "language": "eng",
@@ -75,5 +75,8 @@
   "original_language": "tel",
   "original_title": "Kauṭilīyārthaśāstramu",
   "representative_edition_key": "/books/OL56416793M",
-  "wikidata_qid": "Q323133"
+  "wikidata_qid": "Q323133",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14441574-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14441574-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:03+00:00"
 }

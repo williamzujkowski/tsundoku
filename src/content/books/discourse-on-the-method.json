@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/662305-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/662305-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/discourse-on-the-method.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/discourse-on-the-method.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1151365W",
   "first_published": 1998,
   "language": "eng",
@@ -55,5 +55,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL9438974M"
+  "representative_edition_key": "/books/OL9438974M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/662305-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/662305-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:38+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4689844-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4689844-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/selected-poems.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems.jpg",
   "open_library_url": "https://openlibrary.org/works/OL847188W",
   "first_published": 1971,
   "language": "eng",
@@ -42,5 +42,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 5,
-  "representative_edition_key": "/books/OL35768959M"
+  "representative_edition_key": "/books/OL35768959M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4689844-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4689844-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:04+00:00"
 }

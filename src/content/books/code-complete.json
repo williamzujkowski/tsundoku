@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/461500-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/461500-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/code-complete.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/code-complete.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2722063W",
   "first_published": 1993,
   "language": "eng",
@@ -70,5 +70,8 @@
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "1556154844",
-  "representative_edition_key": "/books/OL35478710M"
+  "representative_edition_key": "/books/OL35478710M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/461500-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/461500-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:39+00:00"
 }

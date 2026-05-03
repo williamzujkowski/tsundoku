@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A middle-aged American retires and he and his wife go to Europe where they find a new set of values and relationships.",
-  "cover_url": "https://books.google.com/books/content?id=cukzAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/dodsworth.jpg",
   "first_published": 1929,
   "pages": 392,
   "google_books_url": "https://play.google.com/store/books/details?id=cukzAAAAMAAJ&source=gbs_api",
@@ -51,5 +51,7 @@
   "editions_count": 91,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42683047M"
+  "representative_edition_key": "/books/OL42683047M",
+  "cover_url_source": "https://books.google.com/books/content?id=cukzAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:57+00:00"
 }

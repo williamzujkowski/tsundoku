@@ -8,8 +8,8 @@
     "essays",
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9824476-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9824476-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-princeton-companion-to-mathematics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-princeton-companion-to-mathematics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16802291W",
   "first_published": 2008,
   "language": "eng",
@@ -54,5 +54,8 @@
   "wikidata_qid": "Q7758345",
   "original_title": "The Princeton Companion to Mathematics",
   "original_language": "eng",
-  "original_publisher": "Princeton University Press"
+  "original_publisher": "Princeton University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9824476-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9824476-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:51+00:00"
 }

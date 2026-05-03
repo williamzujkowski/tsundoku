@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "main-street",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8244638-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8244638-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/main-street.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/main-street.jpg",
   "open_library_url": "https://openlibrary.org/works/OL51117W",
   "first_published": 1634,
   "language": "eng",
@@ -109,5 +109,8 @@
   "wikidata_qid": "Q6736091",
   "original_title": "Main Street",
   "original_language": "eng",
-  "original_publisher": "Harcourt"
+  "original_publisher": "Harcourt",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8244638-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8244638-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:32+00:00"
 }

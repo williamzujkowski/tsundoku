@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "men-of-maize",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4903014-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4903014-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/men-of-maize.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/men-of-maize.jpg",
   "open_library_url": "https://openlibrary.org/works/OL938594W",
   "first_published": 1949,
   "language": "eng",
@@ -57,5 +57,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL50869935M"
+  "representative_edition_key": "/books/OL50869935M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4903014-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4903014-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:28+00:00"
 }

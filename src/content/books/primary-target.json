@@ -13,8 +13,11 @@
   "google_books_url": "http://books.google.com/books?id=Q8SAzwEACAAJ&dq=intitle:Primary+Target&hl=&source=gbs_api",
   "language": "eng",
   "description": "Thirty years after The Beatles split up, the music of Lennon, McCartney, Harrrison and Starkey lives on. What exactly were the magical ingredients of those legendary songs? Why are they still so influential for today's bands? This ground-breaking book sets out to explore The Beatles' songwriting techniques in a clear and readable style. It is aimed not only at musicians but anyone who has ever enjoyed the work of one of the most productive and successful songwriting parterships of the 20th Centu...",
-  "cover_url": "https://books.google.com/books/content?id=O8w1cyT65ZIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=O8w1cyT65ZIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/primary-target.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/primary-target.jpg",
   "pages": 713,
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=O8w1cyT65ZIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=O8w1cyT65ZIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:18+00:00"
 }

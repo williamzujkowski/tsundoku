@@ -6,8 +6,8 @@
   "slug": "the-unwomanly-face-of-war",
   "tags": [],
   "description": "\"Originally published in Russian as U voiny--ne zhenskoe lietiso by Mastatskaya Litaratura, Minsk, in 1985. Originally published in English as War's unwomanly face by Progress Publishers, Moscow, in 1988\"--Title page verso.",
-  "cover_url": "https://books.google.com/books/content?id=H1wpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=H1wpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-unwomanly-face-of-war.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-unwomanly-face-of-war.jpg",
   "isbn": "9780399588723",
   "first_published": 1985,
   "pages": 385,
@@ -130,5 +130,8 @@
   ],
   "series": {
     "name": "Voices of Utopia"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=H1wpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=H1wpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:37+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "The storm had broken. Pug danced along the edge of the rocks, his feet finding scant purchase as he made his way among the tide pools.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/magician-apprentice.png",
+  "cover_url_large": "/tsundoku/cached/covers/magician-apprentice.png",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780007939381",
@@ -49,9 +49,12 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL37290851M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/6/68/Feist_-_Magician_Coverart.png",
+  "cover_cached_at": "2026-05-03T01:31:29+00:00"
 }

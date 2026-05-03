@@ -8,8 +8,8 @@
     "drama",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8222096-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8222096-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/antony-and-cleopatra.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/antony-and-cleopatra.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362695W",
   "first_published": 1623,
   "language": "eng",
@@ -280,5 +280,8 @@
   "wikidata_qid": "Q606830",
   "original_title": "Antony and Cleopatra",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8222096-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8222096-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:36+00:00"
 }

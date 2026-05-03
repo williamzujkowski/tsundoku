@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2134818-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2134818-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/paradiso-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/paradiso-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL44237703W",
   "first_published": 1966,
   "language": "eng",
@@ -62,5 +62,8 @@
   "original_language": "spa",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL18283896M",
-  "translator": "Gregory Rabassa"
+  "translator": "Gregory Rabassa",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2134818-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2134818-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:50+00:00"
 }

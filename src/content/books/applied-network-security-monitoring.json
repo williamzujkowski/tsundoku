@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7566597-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7566597-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/applied-network-security-monitoring.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/applied-network-security-monitoring.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17432132W",
   "first_published": 2014,
   "description": "Applied Network Security Monitoring is the essential guide to becoming an NSM analyst from the ground up. This book takes a fundamental approach to NSM, complete with dozens of real-world examples that teach you the key concepts of NSM. Network security monitoring is based on the principle that prevention eventually fails. In the current threat landscape, no matter how much you try, motivated attackers will eventually find their way into your network. At that point, it is your ability to detect ...",
@@ -36,5 +36,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780124172166",
-  "representative_edition_key": "/books/OL34608253M"
+  "representative_edition_key": "/books/OL34608253M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7566597-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7566597-L.jpg",
+  "cover_cached_at": "2026-05-03T00:56:11+00:00"
 }

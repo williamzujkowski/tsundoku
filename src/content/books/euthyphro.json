@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "euthyphro",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6497816-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6497816-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/euthyphro.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/euthyphro.jpg",
   "open_library_url": "https://openlibrary.org/works/OL51780W",
   "first_published": 1948,
   "language": "eng",
@@ -19,5 +19,8 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1642",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1642.html.images",
   "librivox_url": "https://librivox.org/euthyphro-by-plato/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6497816-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6497816-L.jpg",
+  "cover_cached_at": "2026-05-03T01:13:53+00:00"
 }

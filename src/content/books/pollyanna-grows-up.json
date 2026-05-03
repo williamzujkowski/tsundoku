@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Oringinally published in 1915, this book contains the classic novel 'Pollyanna Grows Up', the sequel to the 1912 novel 'Pollyanna', and will prove a itself a delightful read for any romantic. Many of the earliest books, particularly those dating back to the 1900s and before, are now extremely scarce and increasingly expensive. We are republishing these classic works in affordable, high quality, modern editions, using the original text and artwork.",
-  "cover_url": "https://books.google.com/books/content?id=g6V8CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/pollyanna-grows-up.jpg",
   "isbn": "9781447483687",
   "first_published": 1915,
   "pages": 247,
@@ -76,5 +76,7 @@
   "representative_edition_key": "/books/OL53377803M",
   "wikidata_qid": "Q3280873",
   "original_title": "Pollyanna Grows Up",
-  "original_publisher": "Louis Coues Page"
+  "original_publisher": "Louis Coues Page",
+  "cover_url_source": "https://books.google.com/books/content?id=g6V8CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:39+00:00"
 }

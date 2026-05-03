@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Perhaps the most famous of all E. Phillips Oppenheim novels, ‘The Great Impersonation’ is a daring tale of daring, disguise, and espionage set just prior to the outbreak of WWI. Two men meet in Africa – a German man Leopold von Ragastein, and Englishman Everard Dominey. Startlingly alike in looks, Leopold intends to murder Everard and assume his identity in order to spy on the British. The book was so popular it was adapted for film three times, most recently in 1942 starring the American actor ",
-  "cover_url": "https://books.google.com/books/content?id=6XRFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-great-impersonation.jpg",
   "isbn": "9788726924190",
   "first_published": 1920,
   "pages": 276,
@@ -65,5 +65,7 @@
   "first_published_circa": false,
   "representative_edition_key": "/books/OL60855874M",
   "wikidata_qid": "Q7737805",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=6XRFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:06:01+00:00"
 }

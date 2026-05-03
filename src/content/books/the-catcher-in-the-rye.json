@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9273490-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-catcher-in-the-rye.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-catcher-in-the-rye.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3335245W",
   "first_published": 1945,
   "language": "eng",
@@ -134,5 +134,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9273490-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+  "cover_cached_at": "2026-05-03T02:00:00+00:00"
 }

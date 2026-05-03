@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7153082-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7153082-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-prelude.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-prelude.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26384W",
   "first_published": 1815,
   "language": "eng",
@@ -190,5 +190,8 @@
   "editions_count": 372,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11729104M"
+  "representative_edition_key": "/books/OL11729104M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7153082-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7153082-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:44+00:00"
 }

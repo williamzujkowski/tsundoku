@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5758927-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5758927-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/agamemnon.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/agamemnon.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15464873W",
   "first_published": 1816,
   "language": "eng",
@@ -118,5 +118,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51917102M"
+  "representative_edition_key": "/books/OL51917102M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5758927-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5758927-L.jpg",
+  "cover_cached_at": "2026-05-03T00:53:31+00:00"
 }

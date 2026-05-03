@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "After twenty-three years, Orson Scott Card returns to his acclaimed best-selling series with the first true, direct sequel to the classic Ender's Game. In Ender's Game, the world's most gifted children were taken from their families and sent to an elite training school. At Battle School, they learned combat, strategy, and secret intelligence to fight a dangerous war on behalf of those left on Earth. But they also learned some important and less definable lessons about life. After the life-changi",
-  "cover_url": "https://books.google.com/books/content?id=Oa8W1lM7dp0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ender-in-exile.jpg",
   "isbn": "9781429955706",
   "first_published": 2008,
   "pages": 479,
@@ -69,5 +69,7 @@
   "series": {
     "name": "Ender's Game hexalogy",
     "position": 6
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=Oa8W1lM7dp0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:12:01+00:00"
 }

@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "An account of the decade-long conflict between humankind and hordes of the predatory undead is told from the perspective of dozens of survivors who describe in their own words the epic human battle for survival, in a novel that is the basis for the June 2013 film starring Brad Pitt. Reissue. Movie Tie-In.",
-  "cover_url": "https://covers.openlibrary.org/b/id/168106-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/168106-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/world-war-z.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/world-war-z.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780770437404",
@@ -86,5 +86,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/168106-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/168106-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:29+00:00"
 }

@@ -10,8 +10,8 @@
     "utopian",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10843559-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10843559-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-modest-proposal.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-modest-proposal.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24324023W",
   "first_published": 2008,
   "description": "Juvenalian satirical essay written and published anonymously by Jonathan Swift in 1729. Swift suggests that the impoverished Irish might ease their economic troubles by selling their children as food for rich gentlemen and ladies.[2] This satirical hyperbole mocks heartless attitudes towards the poor, as well as Irish policy in general.",
@@ -42,5 +42,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 2,
-  "representative_edition_key": "/books/OL36784944M"
+  "representative_edition_key": "/books/OL36784944M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10843559-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10843559-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:17+00:00"
 }

@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "American heiress Miss Blandish is kidnapped and held by an organized gang led by the sadist Slim Grisson. Slim becomes obsessed with his hostage, lashing out at anyone who attempts to wrestle Miss Blandish from his charge. Then Private detective Dave Fenner is hired to rescue her; Fenner is no stranger to the criminal underworld. If corruption and violence are necessary, Fenner will do what it takes to get the job done.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/no-orchids-for-miss-blandish.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/no-orchids-for-miss-blandish.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781471207211",
@@ -52,10 +52,15 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "ol_editions_v1",
+    "cover_url_large": "ol_editions_v1"
   },
   "editions_count": 42,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL35511194M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15217323-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15217323-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:51+00:00"
 }

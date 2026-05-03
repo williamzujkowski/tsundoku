@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "A man stows away aboard a whaling ship and gets caught up in shipwreck, mutiny, cannibalism and, finally, utter weirdness. Edgar Allen Poe’s only novel, \"The Narrative of Arthur Gordon Pym of Nantucket\" (1838) recounts the grim, violent and often bizarre story of Pym and his companions as they set adrift at sea and gradually descent from terror to absolute horror. The novel makes for a riveting and gruesome tale that influenced writers such as Jules Verne and Herman Melville, and even H. P. Love",
-  "cover_url": "https://books.google.com/books/content?id=nas0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-narrative-of-arthur-gordon-pym-of-nantucket.jpg",
   "isbn": "9788726644135",
   "first_published": 1998,
   "pages": 224,
@@ -74,5 +74,7 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": "9780199209781",
-  "representative_edition_key": "/books/OL22529324M"
+  "representative_edition_key": "/books/OL22529324M",
+  "cover_url_source": "https://books.google.com/books/content?id=nas0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:40+00:00"
 }

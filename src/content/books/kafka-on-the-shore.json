@@ -6,8 +6,8 @@
   "slug": "kafka-on-the-shore",
   "tags": [],
   "description": "NATIONAL BESTSELLER • From the acclaimed author of The Wind-Up Bird Chronicle and one of the world’s greatest storytellers comes “an insistently metaphysical mind-bender” (The New Yorker) about a teenager on the run and a deceptively simple old man. Now with a new introduction by the author. Here we meet fifteen-year-old runaway Kafka Tamura and the elderly Nakata, who is drawn to Kafka for reasons that he cannot fathom. As their paths converge, acclaimed author Haruki Murakami enfolds readers i...",
-  "cover_url": "https://books.google.com/books/content?id=ypQHO-JWFKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ypQHO-JWFKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/kafka-on-the-shore.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kafka-on-the-shore.jpg",
   "isbn": "9781400044818",
   "first_published": 2002,
   "pages": 450,
@@ -77,5 +77,8 @@
   "first_published_circa": false,
   "original_language": "jpn",
   "original_title": "Umibe no Kafuka",
-  "representative_edition_key": "/books/OL24277007M"
+  "representative_edition_key": "/books/OL24277007M",
+  "cover_url_source": "https://books.google.com/books/content?id=ypQHO-JWFKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ypQHO-JWFKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:26:30+00:00"
 }

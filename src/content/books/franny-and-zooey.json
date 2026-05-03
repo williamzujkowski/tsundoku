@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "franny-and-zooey",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6501579-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6501579-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/franny-and-zooey.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/franny-and-zooey.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3335291W",
   "first_published": 1961,
   "language": "eng",
@@ -63,5 +63,8 @@
   "editions_count": 65,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL44278362M"
+  "representative_edition_key": "/books/OL44278362M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6501579-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6501579-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:33+00:00"
 }

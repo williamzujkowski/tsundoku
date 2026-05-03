@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "THE #1 NEW YORK TIMES BESTSELLER FROM THE AUTHOR OF THE MARTIAN • Soon to be a major motion picture starring Ryan Gosling, directed by Phil Lord and Christopher Miller, with a screenplay by Drew Goddard A lone astronaut must save the earth from disaster in this “propulsive” (Entertainment Weekly), cinematic thriller full of suspense, humor, and fascinating science. HUGO AWARD FINALIST • ONE OF THE YEAR’S BEST BOOKS: Bill Gates, GatesNotes, New York Public Library, Parade, Newsweek, Polygon, Shel",
-  "cover_url": "https://books.google.com/books/content?id=-Ff2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/project-hail-mary.jpg",
   "isbn": "9780593135211",
   "first_published": 2021,
   "pages": 497,
@@ -78,5 +78,7 @@
     {
       "name": "Audie Award for Audiobook of the Year"
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=-Ff2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:45:47+00:00"
 }

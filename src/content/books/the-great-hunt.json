@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Great Hunt is a fantasy novel by American author Robert Jordan, the second book of The Wheel of Time series. It was published by Tor Books and released on November 15, 1990. The Great Hunt consists of a prologue and 50 chapters. In 2004 The Great Hunt was re-released as two separate books, The Hunt Begins and New Threads in the Pattern.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/WoT02_TheGreatHunt.jpg/120px-WoT02_TheGreatHunt.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-great-hunt.jpg",
   "pages": 672,
   "isbn": "9780812517729",
   "ddc": [
@@ -62,5 +62,7 @@
   },
   "editions_count": 46,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL9368501M"
+  "representative_edition_key": "/books/OL9368501M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/WoT02_TheGreatHunt.jpg/120px-WoT02_TheGreatHunt.jpg",
+  "cover_cached_at": "2026-05-03T02:06:01+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Presented in their complete text and updated for easier reading, each story in the Great Stories Collection is truly unique. Each has been rigorously critiqued and selected for the quality of its Christian content, the value in its message, and its ability to bring and bind a family together. In-depth introductions detail both the authors and the times in which they lived. Many books feature original woodcut illustrations. Complete with thought-provoking questions, these books are keepsakes to b",
-  "cover_url": "https://books.google.com/books/content?id=mZEXAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ben-hur.jpg",
   "first_published": 1880,
   "pages": 568,
   "google_books_url": "https://play.google.com/store/books/details?id=mZEXAAAAYAAJ&source=gbs_api",
@@ -153,5 +153,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL10383646M",
   "wikidata_qid": "Q4885157",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=mZEXAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:59:36+00:00"
 }

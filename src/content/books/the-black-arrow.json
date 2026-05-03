@@ -13,7 +13,7 @@
   ],
   "reading_status": "read",
   "description": "The Black Arrow: A Tale of the Two Roses is an 1888 novel by Robert Louis Stevenson. It is both an historical adventure novel and a romance novel. It first appeared as a serial in 1883 with the subtitle \"A Tale of Tunstall Forest\" beginning in Young Folks; A Boys' and Girls' Paper of Instructive and Entertaining Literature, vol. XXII, no. 656 (Saturday, 30 June 1883) and ending in the issue for Saturday, 20 October 1883 -Stevenson had finished writing it by the end of summer. It was printed unde",
-  "cover_url": "https://books.google.com/books/content?id=dxfYuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-black-arrow.jpg",
   "isbn": "1720664196",
   "first_published": 2018,
   "pages": 204,
@@ -42,5 +42,7 @@
   "editions_count": 15,
   "first_published_circa": false,
   "first_edition_isbn": "9781720664192",
-  "representative_edition_key": "/books/OL54933997M"
+  "representative_edition_key": "/books/OL54933997M",
+  "cover_url_source": "https://books.google.com/books/content?id=dxfYuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:57:57+00:00"
 }

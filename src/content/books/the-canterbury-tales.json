@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-canterbury-tales",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5767180-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5767180-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-canterbury-tales.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-canterbury-tales.jpg",
   "open_library_url": "https://openlibrary.org/works/OL531767W",
   "first_published": 1387,
   "language": "eng",
@@ -342,5 +342,8 @@
   "representative_edition_key": "/books/OL33794704M",
   "wikidata_qid": "Q191663",
   "original_title": "The Canterbury Tales",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5767180-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5767180-L.jpg",
+  "cover_cached_at": "2026-05-03T01:59:49+00:00"
 }

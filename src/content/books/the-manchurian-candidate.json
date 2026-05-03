@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "The Manchurian Candidate (1959), by Richard Condon, is a political thriller about the son of a prominent U.S. political family who is brainwashed into being an unwitting assassin for a Communist conspiracy. The Manchurian Candidate novel has twice been adapted into a feature film; the first is The Manchurian Candidate (1962), which deals with anti-communist hysteria in U.S. politics, and the second is The Manchurian Candidate (2004), which deals with corporate interference in the U.S.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/ManchurianCandidate.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-manchurian-candidate.jpg",
   "pages": 316,
   "isbn": "9781562870201",
   "ddc": [
@@ -60,5 +60,7 @@
   },
   "editions_count": 27,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL24703896M"
+  "representative_edition_key": "/books/OL24703896M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/c/cc/ManchurianCandidate.jpg",
+  "cover_cached_at": "2026-05-03T02:09:48+00:00"
 }

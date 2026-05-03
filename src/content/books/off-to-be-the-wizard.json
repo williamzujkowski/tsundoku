@@ -9,8 +9,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Martin Banks is just a normal guy who has made an abnormal discovery: he can manipulate reality, thanks to reality being nothing more than a computer program. With every use of this ability, though, Martin finds his little \"tweaks\" have not escaped notice. Rather than face prosecution, he decides instead to travel back in time to the Middle Ages and pose as a wizard.",
-  "cover_url": "https://covers.openlibrary.org/b/id/10880285-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10880285-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/off-to-be-the-wizard.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/off-to-be-the-wizard.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20058930W",
   "first_published": 2013,
   "isbn": "9781491592199",
@@ -42,5 +42,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781612184715",
-  "representative_edition_key": "/books/OL32250228M"
+  "representative_edition_key": "/books/OL32250228M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10880285-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10880285-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:20+00:00"
 }

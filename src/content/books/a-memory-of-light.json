@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "A Memory of Light is the 14th and final book of the fantasy series The Wheel of Time, written by American authors Robert Jordan and Brandon Sanderson, and published by Tor Books. Originally expected to have been published around March 2012, the book was delayed several times, and the hardcover edition was eventually released on January 8, 2013. The book reached No. 1 on several bestsellers lists.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/WoT14_AMemoryOfLight.jpg/250px-WoT14_AMemoryOfLight.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-memory-of-light.jpg",
   "isbn": "9780765325952",
   "lcc": [
     "PS-3560.00000000.O7617",
@@ -62,5 +62,7 @@
   "series": {
     "name": "The Wheel of Time",
     "position": 14
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/WoT14_AMemoryOfLight.jpg/250px-WoT14_AMemoryOfLight.jpg",
+  "cover_cached_at": "2026-05-03T00:52:14+00:00"
 }

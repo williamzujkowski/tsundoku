@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Uncle Tom’s Cabin tells the story of Uncle Tom, an enslaved person, depicted as saintly and dignified, noble and steadfast in his beliefs. While being transported by boat to auction in New Orleans, Tom saves the life of Little Eva, an angelic and forgiving young girl, whose grateful father then purchases Tom. Eva and Tom soon become great friends. Always frail, Eva’s health begins to decline rapidly, and on her deathbed she asks her father to free all his enslaved people. He makes plans to do so",
-  "cover_url": "https://books.google.com/books/content?id=v4llEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/uncle-tom-s-cabin.jpg",
   "isbn": "9791191943542",
   "first_published": 1852,
   "pages": 785,
@@ -250,5 +250,7 @@
   "representative_edition_key": "/books/OL34349860M",
   "wikidata_qid": "Q2222",
   "original_title": "Uncle Tom's Cabin; or, Life Among the Lowly",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=v4llEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:22:28+00:00"
 }

@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "A penetrating investigation into moral and ethical questions raised by war, drawing on examples from antiquity to the present Just and Unjust Wars has forever changed how we think about the ethics of conflict. In this modern classic, political philosopher Michael Walzer examines the moral issues that arise before, during, and after the wars we fight.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/just-and-unjust-wars.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/just-and-unjust-wars.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780465052714",
@@ -71,7 +71,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
@@ -80,5 +81,7 @@
   "copyright_status": "in_copyright",
   "wikidata_qid": "Q2743198",
   "original_title": "Just and Unjust Wars",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/2/24/Just_and_Unjust_Wars.jpg",
+  "cover_cached_at": "2026-05-03T01:26:27+00:00"
 }

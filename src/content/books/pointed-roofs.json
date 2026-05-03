@@ -15,8 +15,8 @@
   "pages": 230,
   "google_books_url": "http://books.google.com/books?id=-F0JzgEACAAJ&dq=intitle:Pointed+Roofs&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/1760199-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1760199-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pointed-roofs.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pointed-roofs.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3045976W",
   "copyright_status": "public_domain",
   "gutenberg_id": 3019,
@@ -60,5 +60,8 @@
   "editions_count": 42,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42180966M"
+  "representative_edition_key": "/books/OL42180966M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1760199-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1760199-L.jpg",
+  "cover_cached_at": "2026-05-03T01:44:31+00:00"
 }

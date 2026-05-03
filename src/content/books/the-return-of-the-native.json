@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-return-of-the-native",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8162989-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8162989-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-return-of-the-native.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-return-of-the-native.jpg",
   "open_library_url": "https://openlibrary.org/works/OL44994W",
   "first_published": 1878,
   "language": "eng",
@@ -189,5 +189,8 @@
   "wikidata_qid": "Q141568",
   "original_title": "The Return of the Native",
   "original_language": "eng",
-  "original_publisher": "Belgravia"
+  "original_publisher": "Belgravia",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8162989-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8162989-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:30+00:00"
 }

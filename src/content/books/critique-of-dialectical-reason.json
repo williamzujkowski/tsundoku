@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "critique-of-dialectical-reason",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/913871-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/913871-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/critique-of-dialectical-reason.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/critique-of-dialectical-reason.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4488944W",
   "first_published": 2004,
   "language": "eng",
@@ -35,5 +35,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL8956186M"
+  "representative_edition_key": "/books/OL8956186M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/913871-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/913871-L.jpg",
+  "cover_cached_at": "2026-05-03T01:05:53+00:00"
 }

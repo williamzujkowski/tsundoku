@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "elmer-gantry",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/990857-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/990857-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/elmer-gantry.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/elmer-gantry.jpg",
   "open_library_url": "https://openlibrary.org/works/OL51144W",
   "first_published": 1927,
   "language": "eng",
@@ -72,5 +72,8 @@
   "representative_edition_key": "/books/OL56718439M",
   "wikidata_qid": "Q1247044",
   "original_title": "Elmer Gantry",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/990857-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/990857-L.jpg",
+  "cover_cached_at": "2026-05-03T01:11:45+00:00"
 }

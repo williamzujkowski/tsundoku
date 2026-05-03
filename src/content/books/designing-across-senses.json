@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Today we have the ability to connect speech, touch, haptic, and gestural interfaces into products that engage several human senses at once. This practical book explores examples from current designers and devices to describe how these products blend multiple interface modes together into a cohesive user experience. Authors Christine Park and John Alderman explain the basic principles behind multimodal interaction and introduce the tools you need to root your design in the ways our senses shape e",
-  "cover_url": "https://books.google.com/books/content?id=GZVUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/designing-across-senses.jpg",
   "isbn": "9781491954195",
   "first_published": 2018,
   "pages": 232,
@@ -38,5 +38,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781491954249",
-  "representative_edition_key": "/books/OL26833675M"
+  "representative_edition_key": "/books/OL26833675M",
+  "cover_url_source": "https://books.google.com/books/content?id=GZVUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:08+00:00"
 }

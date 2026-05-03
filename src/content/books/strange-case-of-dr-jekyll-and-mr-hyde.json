@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "strange-case-of-dr-jekyll-and-mr-hyde",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/295773-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/295773-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/strange-case-of-dr-jekyll-and-mr-hyde.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/strange-case-of-dr-jekyll-and-mr-hyde.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24156W",
   "first_published": 1875,
   "language": "eng",
@@ -54,5 +54,8 @@
   },
   "editions_count": 8,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL3823452M"
+  "representative_edition_key": "/books/OL3823452M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/295773-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/295773-L.jpg",
+  "cover_cached_at": "2026-05-03T01:53:25+00:00"
 }

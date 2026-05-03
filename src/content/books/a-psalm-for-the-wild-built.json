@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "a-psalm-for-the-wild-built",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10476616-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10476616-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-psalm-for-the-wild-built.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-psalm-for-the-wild-built.jpg",
   "open_library_url": "https://openlibrary.org/works/OL22561871W",
   "first_published": 2021,
   "language": "eng",
@@ -64,5 +64,8 @@
   "series": {
     "name": "Monk and Robot",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10476616-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10476616-L.jpg",
+  "cover_cached_at": "2026-05-03T00:52:28+00:00"
 }

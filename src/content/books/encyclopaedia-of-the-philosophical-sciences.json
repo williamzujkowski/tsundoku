@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL43265992W",
   "first_published": 1963,
   "language": "eng",
-  "cover_url": "https://books.google.com/books/content?id=xZv3NwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=xZv3NwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/encyclopaedia-of-the-philosophical-sciences.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/encyclopaedia-of-the-philosophical-sciences.jpg",
   "isbn": "0980542812",
   "pages": 396,
   "google_books_url": "http://books.google.com/books?id=xZv3NwAACAAJ&dq=Encyclopaedia+of+the+Philosophical+Sciences+G.W.F.+Hegel&hl=&source=gbs_api",
@@ -31,5 +31,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL49280953M"
+  "representative_edition_key": "/books/OL49280953M",
+  "cover_url_source": "https://books.google.com/books/content?id=xZv3NwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=xZv3NwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:12:01+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8231834-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8231834-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/le-morte-darthur.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/le-morte-darthur.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15450151W",
   "first_published": 1557,
   "language": "eng",
@@ -33,5 +33,8 @@
   },
   "editions_count": 22,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56784008M"
+  "representative_edition_key": "/books/OL56784008M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8231834-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8231834-L.jpg",
+  "cover_cached_at": "2026-05-03T01:29:04+00:00"
 }

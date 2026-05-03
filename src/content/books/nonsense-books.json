@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "Since 1975, Dr. Kenneth Swaiman's classic text has been the reference of choice for authoritative guidance in pediatric neurology, and the 6th Edition continues this tradition of excellence with thorough revisions that bring you fully up to date with all that's new in the field. Five new sections, 62 new chapters, 4 new editors, and a reconfigured format make this a comprehensive and clearly-written resource for the experienced clinician as well as the physician-in-training. - Nearly 3,000 line ...",
-  "cover_url": "https://books.google.com/books/content?id=PJ9tDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=PJ9tDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/nonsense-books.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/nonsense-books.jpg",
   "isbn": "9780323374811",
   "first_published": 1888,
   "pages": 2955,
@@ -46,5 +46,8 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL9684785M"
+  "representative_edition_key": "/books/OL9684785M",
+  "cover_url_source": "https://books.google.com/books/content?id=PJ9tDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=PJ9tDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:34:57+00:00"
 }

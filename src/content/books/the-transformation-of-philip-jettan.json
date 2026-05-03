@@ -14,8 +14,8 @@
   "google_books_url": "http://books.google.com/books?id=pkiXMgEACAAJ&dq=intitle:The+Transformation+of+Philip+Jettan&hl=&source=gbs_api",
   "language": "eng",
   "description": "Philip Jettan, a handsome and sturdy but tongue-tied youth, is rejected by his true love because he is not foppish enough. He resolves to improve himself and travels to Paris, where he becomes a sensation. Once he returns, however, he is a completely different man...",
-  "cover_url": "https://books.google.com/books/content?id=SNZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=SNZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-transformation-of-philip-jettan.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-transformation-of-philip-jettan.jpg",
   "copyright_status": "public_domain",
   "gutenberg_id": 60776,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/60776",
@@ -73,5 +73,8 @@
   "wikidata_qid": "Q7236007",
   "original_title": "Powder and Patch",
   "original_language": "eng",
-  "original_publisher": "Heinemann"
+  "original_publisher": "Heinemann",
+  "cover_url_source": "https://books.google.com/books/content?id=SNZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=SNZhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:03+00:00"
 }

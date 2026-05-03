@@ -2,7 +2,7 @@
   "name": "Owen Johnson",
   "slug": "owen-johnson",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/15150132-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/owen-johnson.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1181455A",
   "birth_year": 1878,
   "death_year": 1952,
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "7761459",
-  "ol_author_key": "/authors/OL2597166A"
+  "ol_author_key": "/authors/OL2597166A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/15150132-M.jpg",
+  "photo_cached_at": "2026-05-03T00:46:59+00:00"
 }

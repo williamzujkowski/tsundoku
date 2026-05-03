@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The Iron Heel is a dystopian novel by American writer Jack London, first published in 1908. The novel is based on the (fictional) \"Everhard Manuscript\" written by Avis Everhard which she hid and which was subsequently found centuries later. In addition, this novel has an introduction and series of (often lengthy) footnotes written from the perspective of scholar Anthony Meredith. Meredith writes from around 2600 AD or 419 B.O.M. (the Brotherhood of Man). Jack London writes at two levels, often h",
-  "cover_url": "https://books.google.com/books/content?id=gYFBMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-iron-heel.jpg",
   "isbn": "1542761735",
   "first_published": 2017,
   "pages": 162,
@@ -84,5 +84,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781542761734",
-  "representative_edition_key": "/books/OL54995475M"
+  "representative_edition_key": "/books/OL54995475M",
+  "cover_url_source": "https://books.google.com/books/content?id=gYFBMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:01+00:00"
 }

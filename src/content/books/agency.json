@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "This new work provides a useful and accessible reminder of the principles of agency law for experienced practitioners, as well as an invaluable guide for students looking for an approachable text on this topic.",
-  "cover_url": "https://books.google.com/books/content?id=c9Z5IyYB818C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/agency.jpg",
   "isbn": "9780199230372",
   "first_published": 2010,
   "pages": 409,
@@ -39,5 +39,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780199230372",
-  "representative_edition_key": "/books/OL23929435M"
+  "representative_edition_key": "/books/OL23929435M",
+  "cover_url_source": "https://books.google.com/books/content?id=c9Z5IyYB818C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:32+00:00"
 }

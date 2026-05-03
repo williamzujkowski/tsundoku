@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "In this book it explores science and technology, makes connections between these epistemic, cultural, and political trends, and develops profound insights into the nature of our postmodernity.",
-  "cover_url": "https://covers.openlibrary.org/b/id/983820-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/983820-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-postmodern-condition.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-postmodern-condition.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780719014505",
@@ -70,5 +70,8 @@
   "first_edition_isbn": "2707302767",
   "representative_edition_key": "/books/OL24869812M",
   "copyright_status": "in_copyright",
-  "wikidata_qid": "Q2186033"
+  "wikidata_qid": "Q2186033",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/983820-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/983820-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:37+00:00"
 }

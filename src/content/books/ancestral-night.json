@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "ancestral-night",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10376936-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10376936-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ancestral-night.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ancestral-night.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21359712W",
   "first_published": 2019,
   "language": "eng",
@@ -30,5 +30,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781473208742",
-  "representative_edition_key": "/books/OL28932732M"
+  "representative_edition_key": "/books/OL28932732M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10376936-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10376936-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:27+00:00"
 }

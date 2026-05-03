@@ -8,8 +8,8 @@
     "philosophy",
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1215075-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1215075-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-the-political.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-the-political.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3069850W",
   "first_published": 2005,
   "language": "eng",
@@ -38,5 +38,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 7,
-  "representative_edition_key": "/books/OL38754578M"
+  "representative_edition_key": "/books/OL38754578M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1215075-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1215075-L.jpg",
+  "cover_cached_at": "2026-05-03T01:37:01+00:00"
 }

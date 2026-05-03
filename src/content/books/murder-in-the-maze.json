@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "'A really first-rate detective story' T. S. Eliot When twin brothers Roger and Neville Shandon are murdered by poisoned darts in Whistlefield's famous hedge maze, Sir Clinton Driffield arrives to restore order. He finds two terrified witnesses - visitors to the estate - and clues aplenty in this brilliantly conceived and meticulously realized country-house mystery.",
-  "cover_url": "https://books.google.com/books/content?id=6qY4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/murder-in-the-maze.jpg",
   "isbn": "9781471905926",
   "first_published": 2012,
   "pages": 267,
@@ -39,5 +39,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781471905926",
-  "representative_edition_key": "/books/OL48150823M"
+  "representative_edition_key": "/books/OL48150823M",
+  "cover_url_source": "https://books.google.com/books/content?id=6qY4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:33:34+00:00"
 }

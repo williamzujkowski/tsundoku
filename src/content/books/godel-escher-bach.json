@@ -8,8 +8,8 @@
     "ai",
     "math"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14368453-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14368453-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/godel-escher-bach.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/godel-escher-bach.jpg",
   "open_library_url": "https://openlibrary.org/works/OL716850W",
   "first_published": 1979,
   "language": "eng",
@@ -93,5 +93,8 @@
   "wikidata_qid": "Q831517",
   "original_title": "Gödel, Escher, Bach: an Eternal Golden Braid",
   "original_language": "eng",
-  "original_publisher": "Basic Books"
+  "original_publisher": "Basic Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14368453-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14368453-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:12+00:00"
 }

@@ -8,8 +8,8 @@
     "children",
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7339581-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7339581-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/henry-iv-part-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/henry-iv-part-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362697W",
   "first_published": 1600,
   "language": "eng",
@@ -148,5 +148,8 @@
   "editions_count": 400,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34297680M"
+  "representative_edition_key": "/books/OL34297680M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7339581-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7339581-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:05+00:00"
 }

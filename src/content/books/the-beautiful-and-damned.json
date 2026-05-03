@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-beautiful-and-damned",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7152019-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7152019-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-beautiful-and-damned.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-beautiful-and-damned.jpg",
   "open_library_url": "https://openlibrary.org/works/OL468362W",
   "first_published": 1920,
   "language": "eng",
@@ -129,5 +129,8 @@
   "wikidata_qid": "Q2531205",
   "original_title": "The Beautiful and Damned",
   "original_language": "eng",
-  "original_publisher": "Charles Scribner's Sons"
+  "original_publisher": "Charles Scribner's Sons",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7152019-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7152019-L.jpg",
+  "cover_cached_at": "2026-05-03T01:57:13+00:00"
 }

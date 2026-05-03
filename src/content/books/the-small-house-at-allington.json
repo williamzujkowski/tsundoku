@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "In \"The Small House at Allington,\" Anthony Trollope weaves a richly textured narrative that observes the intricacies of love, class, and social obligation within the framework of Victorian England. Ostensibly a tale of two sisters, the novel intricately juxtaposes the aspirations of the genteel yet financially modest dwellers of the Small House against the backdrop of the larger, more affluent Allington Hall. Trollope's literary style balances detailed character sketches and sharp social comment",
-  "cover_url": "https://books.google.com/books/content?id=mEeVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-small-house-at-allington.jpg",
   "first_published": 1868,
   "pages": 773,
   "google_books_url": "https://play.google.com/store/books/details?id=mEeVEAAAQBAJ&source=gbs_api",
@@ -77,5 +77,7 @@
   "editions_count": 73,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL10601472M"
+  "representative_edition_key": "/books/OL10601472M",
+  "cover_url_source": "https://books.google.com/books/content?id=mEeVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:50+00:00"
 }

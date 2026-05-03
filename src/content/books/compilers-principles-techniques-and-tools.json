@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/134087-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/134087-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/compilers-principles-techniques-and-tools.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/compilers-principles-techniques-and-tools.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3509433W",
   "first_published": 1986,
   "language": "eng",
@@ -72,5 +72,8 @@
   "original_title": "Compilers Principles, Techniques, and Tools",
   "representative_edition_key": "/books/OL29007283M",
   "wikidata_qid": "Q2994788",
-  "original_publisher": "Pearson Education"
+  "original_publisher": "Pearson Education",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/134087-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/134087-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:56+00:00"
 }

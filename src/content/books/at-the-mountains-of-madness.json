@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "at-the-mountains-of-madness",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6610039-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6610039-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/at-the-mountains-of-madness.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/at-the-mountains-of-madness.jpg",
   "open_library_url": "https://openlibrary.org/works/OL152268W",
   "first_published": 1968,
   "language": "eng",
@@ -61,5 +61,8 @@
   "editions_count": 19,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL26873422M"
+  "representative_edition_key": "/books/OL26873422M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6610039-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6610039-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:18+00:00"
 }

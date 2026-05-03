@@ -11,7 +11,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Towers of Midnight is a fantasy novel by Robert Jordan and Brandon Sanderson. It is the sequel to the novel The Gathering Storm, and the 13th book in the Wheel of Time series.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/WoT13_TowersOfMidnight.jpg/120px-WoT13_TowersOfMidnight.jpg",
+  "cover_url": "/tsundoku/cached/covers/towers-of-midnight.jpg",
   "pages": 944,
   "isbn": "9783492707237",
   "ddc": [
@@ -62,5 +62,7 @@
   "series": {
     "name": "The Wheel of Time",
     "position": 13
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/WoT13_TowersOfMidnight.jpg/120px-WoT13_TowersOfMidnight.jpg",
+  "cover_cached_at": "2026-05-03T02:21:40+00:00"
 }

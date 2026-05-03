@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-master-of-go",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14015730-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14015730-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-master-of-go.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-master-of-go.jpg",
   "open_library_url": "https://openlibrary.org/works/OL29311208W",
   "first_published": 1974,
   "language": "eng",
@@ -32,5 +32,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL7700707M"
+  "representative_edition_key": "/books/OL7700707M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14015730-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14015730-L.jpg",
+  "cover_cached_at": "2026-05-03T02:09:59+00:00"
 }

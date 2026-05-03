@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "gua-viva",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7433819-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7433819-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gua-viva.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gua-viva.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1002156W",
   "first_published": 1973,
   "language": "eng",
@@ -51,5 +51,8 @@
   "first_published_circa": false,
   "original_language": "por",
   "original_title": "Agua viva",
-  "representative_edition_key": "/books/OL28519939M"
+  "representative_edition_key": "/books/OL28519939M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7433819-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7433819-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:39+00:00"
 }

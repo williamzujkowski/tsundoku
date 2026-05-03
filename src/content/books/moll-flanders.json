@@ -8,8 +8,8 @@
     "adventure",
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12997559-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12997559-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/moll-flanders.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/moll-flanders.jpg",
   "open_library_url": "https://openlibrary.org/works/OL45139W",
   "first_published": 1722,
   "language": "eng",
@@ -251,5 +251,8 @@
   "original_title": "Moll Flanders",
   "original_language": "eng",
   "first_published_circa": false,
-  "original_publisher": "William Rufus Chetwood"
+  "original_publisher": "William Rufus Chetwood",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12997559-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12997559-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:03+00:00"
 }

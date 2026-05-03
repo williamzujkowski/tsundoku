@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Country of Pointed Firs, Sarah Orne Jewett's masterpiece, established her among the consummate stylists of nineteenth-century American fiction. Composed in a series of beautiful web-like sketches, the novel is narrated by a young woman writer who leaves the city to work one summer in the Maine seaport of Dunnet Landing, and stays with the herbalist Mrs Almira Todd. She writes a New England idyll rooted in friendship, particularly female friendship, weaving stories and conversations, imagery ",
-  "cover_url": "https://books.google.com/books/content?id=yEpSBWuxmLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-country-of-the-pointed-firs.jpg",
   "isbn": "9780141922157",
   "first_published": 1995,
   "pages": 370,
@@ -86,5 +86,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780141922157",
-  "representative_edition_key": "/books/OL38808095M"
+  "representative_edition_key": "/books/OL38808095M",
+  "cover_url_source": "https://books.google.com/books/content?id=yEpSBWuxmLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:59+00:00"
 }

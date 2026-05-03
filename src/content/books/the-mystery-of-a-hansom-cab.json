@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=uXsJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mystery-of-a-hansom-cab.jpg",
   "isbn": "9785873935994",
   "first_published": 1885,
   "pages": 241,
@@ -32,5 +32,7 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33998917M"
+  "representative_edition_key": "/books/OL33998917M",
+  "cover_url_source": "https://books.google.com/books/content?id=uXsJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:34+00:00"
 }

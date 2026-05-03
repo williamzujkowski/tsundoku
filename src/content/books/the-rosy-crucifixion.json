@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "The first novel of Miller's frank, autobiographical trilogy uses dream, fantasy, and burlesque to portray the life of a struggling writer in pre-World War I New York.",
-  "cover_url": "https://covers.openlibrary.org/b/id/13106915-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13106915-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-rosy-crucifixion.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-rosy-crucifixion.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9783499146121",
@@ -64,5 +64,8 @@
   "original_language": "eng",
   "series": {
     "name": "The Rosy Crucifixion"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13106915-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13106915-L.jpg",
+  "cover_cached_at": "2026-05-03T02:12:49+00:00"
 }

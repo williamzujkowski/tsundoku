@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "labyrinths",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10831408-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10831408-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/labyrinths.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/labyrinths.jpg",
   "open_library_url": "https://openlibrary.org/works/OL110959W",
   "first_published": 1962,
   "language": "eng",
@@ -153,5 +153,8 @@
   "wikidata_qid": "Q6467743",
   "original_title": "Labyrinths",
   "original_language": "eng",
-  "original_publisher": "New Directions Publishing"
+  "original_publisher": "New Directions Publishing",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10831408-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10831408-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:34+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12983362-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12983362-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lady-chatterleys-lover.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lady-chatterleys-lover.jpg",
   "open_library_url": "https://openlibrary.org/works/OL81180W",
   "first_published": 1900,
   "language": "eng",
@@ -180,5 +180,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12983362-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12983362-L.jpg",
+  "cover_cached_at": "2026-05-03T01:28:36+00:00"
 }

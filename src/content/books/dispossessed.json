@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dispossessed",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6979680-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dispossessed.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dispossessed.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59863W",
   "first_published": 1974,
   "language": "eng",
@@ -116,5 +116,8 @@
   "series": {
     "name": "Hainish Cycle",
     "position": 5
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6979680-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:44+00:00"
 }

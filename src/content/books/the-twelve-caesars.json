@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9025365-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9025365-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-twelve-caesars.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-twelve-caesars.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20358651W",
   "first_published": 1574,
   "language": "eng",
@@ -114,5 +114,8 @@
   "original_title": "C. Suetonii Tranquilli XII. Caesares",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL3701476M",
-  "wikidata_qid": "Q1229963"
+  "wikidata_qid": "Q1229963",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9025365-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9025365-L.jpg",
+  "cover_cached_at": "2026-05-03T02:16:30+00:00"
 }

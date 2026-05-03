@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "An astonishingly rich re-creation of the land of Oz, this book retells the story of Elphaba, the Wicked Witch of the West, who wasn't so wicked after all. Taking readers past the yellow brick road and into a phantasmagoric world rich with imagination and allegory, Gregory Maguire just might change the reputation of one of the most sinister characters in literature.",
-  "cover_url": "https://covers.openlibrary.org/b/id/38706-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/38706-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/wicked.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/wicked.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780060876326",
@@ -76,5 +76,8 @@
   "editions_count": 54,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL7283349M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/38706-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/38706-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:58+00:00"
 }

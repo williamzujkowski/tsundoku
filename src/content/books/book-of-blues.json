@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/973608-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/973608-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/book-of-blues.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/book-of-blues.jpg",
   "open_library_url": "https://openlibrary.org/works/OL65894W",
   "first_published": 1995,
   "language": "eng",
@@ -47,5 +47,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "0140587004",
-  "representative_edition_key": "/books/OL1119600M"
+  "representative_edition_key": "/books/OL1119600M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/973608-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/973608-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:51+00:00"
 }

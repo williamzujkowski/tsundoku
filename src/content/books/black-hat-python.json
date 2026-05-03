@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Fully-updated for Python 3, the second edition of this worldwide bestseller (over 100,000 copies sold) explores the stealthier side of programming and brings you all new strategies for your hacking projects. When it comes to creating powerful and effective hacking tools, Python is the language of choice for most security analysts. In this second edition of the bestselling Black Hat Python, you’ll explore the darker side of Python’s capabilities: everything from writing network sniffers, stealing",
-  "cover_url": "https://books.google.com/books/content?id=WjsiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/black-hat-python.jpg",
   "isbn": "9781718501126",
   "first_published": 2021,
   "pages": 216,
@@ -44,5 +44,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781718501126",
-  "representative_edition_key": "/books/OL32434771M"
+  "representative_edition_key": "/books/OL32434771M",
+  "cover_url_source": "https://books.google.com/books/content?id=WjsiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:26+00:00"
 }

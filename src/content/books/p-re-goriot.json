@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "p-re-goriot",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8237944-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8237944-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/p-re-goriot.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/p-re-goriot.jpg",
   "open_library_url": "https://openlibrary.org/works/OL85047W",
   "first_published": 1800,
   "language": "eng",
@@ -160,5 +160,8 @@
   "original_language": "fre",
   "series": {
     "name": "The Human Comedy"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8237944-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8237944-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:35+00:00"
 }

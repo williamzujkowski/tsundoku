@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13171361-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13171361-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-abolition-of-man.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-abolition-of-man.jpg",
   "open_library_url": "https://openlibrary.org/works/OL31687623W",
   "first_published": 1943,
   "description": "C. S. Lewis sets out to persuade his audience of the importance and relevance of universal values such as courage and honor in contemporary society.",
@@ -63,5 +63,8 @@
   "wikidata_qid": "Q841640",
   "original_title": "The Abolition of Man or Reflections on Education with Special Reference to the Teaching of English in the Upper Forms of Schools",
   "original_language": "eng",
-  "original_publisher": "Oxford University Press"
+  "original_publisher": "Oxford University Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13171361-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13171361-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:25+00:00"
 }

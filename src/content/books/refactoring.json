@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7087623-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7087623-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/refactoring.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/refactoring.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16551230W",
   "first_published": 1999,
   "description": "As the application of object technology--particularly the Java programming language--has become commonplace, a new problem has emerged to confront the software development community. Significant numbers of poorly designed programs have been created by less-experienced developers, resulting in applications that are inefficient and hard to maintain and extend. Increasingly, software system professionals are discovering just how difficult it is to work with these inherited, \"non-optimal\" applicatio...",
@@ -33,5 +33,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 6,
-  "representative_edition_key": "/books/OL35568095M"
+  "representative_edition_key": "/books/OL35568095M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7087623-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7087623-L.jpg",
+  "cover_cached_at": "2026-05-03T01:47:05+00:00"
 }

@@ -10,7 +10,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=BpySElV909IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/up-from-slavery.jpg",
   "isbn": "9781427051929",
   "first_published": 1900,
   "pages": 350,
@@ -139,5 +139,7 @@
   "representative_edition_key": "/books/OL34220151M",
   "wikidata_qid": "Q1568126",
   "original_title": "Up from Slavery",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=BpySElV909IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:23:08+00:00"
 }

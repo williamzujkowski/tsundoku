@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11465692-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11465692-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/time-is-a-mother.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/time-is-a-mother.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24732105W",
   "first_published": 2022,
   "language": "eng",
@@ -40,5 +40,8 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL33950426M"
+  "representative_edition_key": "/books/OL33950426M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11465692-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11465692-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:14+00:00"
 }

@@ -9,8 +9,8 @@
   "first_published": 1941,
   "language": "eng",
   "description": "A new translation of Concluding Unscientific Postscript, with an introduction that sets the work in its philosophical and historical contexts.",
-  "cover_url": "https://books.google.com/books/content?id=RHZG2cD0uJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=RHZG2cD0uJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/concluding-unscientific-postscript.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/concluding-unscientific-postscript.jpg",
   "isbn": "9780521882477",
   "pages": 583,
   "google_books_url": "http://books.google.com/books?id=RHZG2cD0uJgC&dq=Concluding+Unscientific+Postscript+S%C3%B8ren+Kierkegaard&hl=&source=gbs_api",
@@ -39,5 +39,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23170267M"
+  "representative_edition_key": "/books/OL23170267M",
+  "cover_url_source": "https://books.google.com/books/content?id=RHZG2cD0uJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=RHZG2cD0uJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:03:37+00:00"
 }

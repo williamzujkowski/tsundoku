@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A Novel About Love And Marriage About Why We Fall In Love And Why We Marry; About Why We Stay And Why We Go. Harry Silver Returns To Face Life In The 'Blended Family'. This Wonderful New Novel About Modern Times Can Be Read As A Sequel To The Million-Selling Man And Boy Or Completely On Its Own. Harry Silver Is A Man Coming To Terms With A Divorce And A New Marriage. He Has To Juggle With Time And Relationships, With His Wife And His Ex-Wife, His Son And His Stepdaughter, His Own Work And His Wi",
-  "cover_url": "https://books.google.com/books/content?id=ja767JyXzxgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/man-and-wife.jpg",
   "isbn": "0006514820",
   "first_published": 2002,
   "pages": 308,
@@ -50,5 +50,7 @@
   },
   "editions_count": 10,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7259650M"
+  "representative_edition_key": "/books/OL7259650M",
+  "cover_url_source": "https://books.google.com/books/content?id=ja767JyXzxgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:38+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dream-of-the-red-chamber",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/10458623-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10458623-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dream-of-the-red-chamber.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dream-of-the-red-chamber.jpg",
   "open_library_url": "https://openlibrary.org/works/OL22427641W",
   "first_published": 2011,
   "language": "eng",
@@ -37,5 +37,8 @@
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "9781462902477",
-  "representative_edition_key": "/books/OL55705606M"
+  "representative_edition_key": "/books/OL55705606M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10458623-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10458623-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:16+00:00"
 }

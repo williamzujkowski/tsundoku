@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "`With searching eyes he studied the beautiful purple, barren waste of sage. Here was the unknown and the perilous.' The novel that set the pattern for the modern Western, Riders of the Purple Sage was first published in 1912, immediately selling over a million copies. In the remote border country of South Utah, a man is about to be whipped by the Mormons in order to pressure Jane Withersteen into marrying against her will. The punishment is halted by the arrival of the hero, Lassiter, a gunman i",
-  "cover_url": "https://books.google.com/books/content?id=ChGILE-45fsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/riders-of-the-purple-sage.jpg",
   "isbn": "9780191605352",
   "first_published": 1912,
   "pages": 438,
@@ -133,5 +133,7 @@
   "wikidata_qid": "Q3398694",
   "original_title": "Riders of the Purple Sage",
   "original_language": "eng",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://books.google.com/books/content?id=ChGILE-45fsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:13+00:00"
 }

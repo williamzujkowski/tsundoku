@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "The Cords of Vanity: A Comedy of Shirking By James Branch Cabell",
-  "cover_url": "https://books.google.com/books/content?id=8praswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-cords-of-vanity.jpg",
   "isbn": "1545415803",
   "first_published": 2017,
   "pages": 222,
@@ -49,5 +49,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9781545415801",
-  "representative_edition_key": "/books/OL55995091M"
+  "representative_edition_key": "/books/OL55995091M",
+  "cover_url_source": "https://books.google.com/books/content?id=8praswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:23+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"Robbery Under Arms\" from Thomas Alexander Browne. Author, who sometimes published under the pseudonym Rolf Boldrewood (1826-1915).",
-  "cover_url": "https://books.google.com/books/content?id=LUc3rgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/robbery-under-arms.png",
   "isbn": "1511743832",
   "first_published": 2015,
   "pages": 380,
@@ -57,5 +57,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781511743839",
-  "representative_edition_key": "/books/OL54778950M"
+  "representative_edition_key": "/books/OL54778950M",
+  "cover_url_source": "https://books.google.com/books/content?id=LUc3rgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:23+00:00"
 }

@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Purchase one of 1st World Library's Classic Books and help support our free internet library of downloadable eBooks. Visit us online at www.1stWorldLibrary.ORG - - It is the fate of sequels to disappoint those who have waited for them; and my David, having been left to kick his heels for more than a lustre in the British Linen Company's office, must expect his late re-appearance to be greeted with hoots, if not with missiles. Yet, when I remember the days of our explo-rations, I am not without h",
-  "cover_url": "https://books.google.com/books/content?id=EKS5BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/catriona.jpg",
   "isbn": "9781595405036",
   "first_published": 1892,
   "pages": 386,
@@ -88,5 +88,7 @@
   "editions_count": 280,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL12438662M"
+  "representative_edition_key": "/books/OL12438662M",
+  "cover_url_source": "https://books.google.com/books/content?id=EKS5BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:50+00:00"
 }

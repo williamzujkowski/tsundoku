@@ -11,8 +11,8 @@
   "first_published": 1968,
   "language": "eng",
   "description": "From the author of \"Nietzsche and Philosophy\", \"Kant's Critical Philosophy\", \"Cinema I\" and \"Cinema II\", and \"Logic of Sense\", this book provides an exposition of the critique of identity, and discusses two central concepts - pure difference and complex repetition.",
-  "cover_url": "https://books.google.com/books/content?id=80msAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=80msAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/difference-and-repetition.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/difference-and-repetition.jpg",
   "isbn": "9780231081580",
   "pages": 378,
   "google_books_url": "http://books.google.com/books?id=80msAgAAQBAJ&dq=Difference+and+Repetition+Gilles+Deleuze&hl=&source=gbs_api",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q1451094",
   "original_title": "Différence et répétition",
   "original_language": "fre",
-  "original_publisher": "Presses universitaires de France"
+  "original_publisher": "Presses universitaires de France",
+  "cover_url_source": "https://books.google.com/books/content?id=80msAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=80msAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:29+00:00"
 }

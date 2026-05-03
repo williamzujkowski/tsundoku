@@ -9,8 +9,8 @@
     "historical-fiction",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/525391-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/525391-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/jonathan-strange-mr-norrell.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/jonathan-strange-mr-norrell.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5703422W",
   "first_published": 2001,
   "language": "eng",
@@ -101,5 +101,8 @@
       "name": "Mythopoeic Fantasy Award for Adult Literature",
       "year": 2005
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/525391-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/525391-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:11+00:00"
 }

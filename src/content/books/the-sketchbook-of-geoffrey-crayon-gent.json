@@ -11,7 +11,7 @@
     "short-stories"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=S-1cDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-sketchbook-of-geoffrey-crayon-gent.jpg",
   "isbn": "9783732690367",
   "first_published": 2018,
   "pages": 350,
@@ -29,5 +29,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 2,
-  "representative_edition_key": "/books/OL60430992M"
+  "representative_edition_key": "/books/OL60430992M",
+  "cover_url_source": "https://books.google.com/books/content?id=S-1cDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:47+00:00"
 }

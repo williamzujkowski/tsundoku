@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Reprint of the original, first published in 1877. The Antigonos publishing house specialises in the publication of reprints of historical books. We make sure that these works are made available to the public in good condition in order to preserve their cultural heritage.",
-  "cover_url": "https://books.google.com/books/content?id=wZ11EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/blackbirds.jpg",
   "isbn": "9783563383933",
   "first_published": 2025,
   "pages": 606,
@@ -20,5 +20,7 @@
   "lccn": "58060425",
   "hathitrust_url": "https://babel.hathitrust.org/cgi/pt?id=uc1.31822009036351",
   "hathitrust_rights": "Limited (search-only)",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=wZ11EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:00:33+00:00"
 }

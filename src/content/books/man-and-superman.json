@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8288031-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8288031-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/man-and-superman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/man-and-superman.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1066526W",
   "first_published": 1903,
   "language": "eng",
@@ -67,5 +67,8 @@
   "representative_edition_key": "/books/OL11985047M",
   "wikidata_qid": "Q725409",
   "original_title": "Man and Superman",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8288031-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8288031-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:37+00:00"
 }

@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A NEW YORK TIMES BESTSELLER Chosen as a BEST BOOK OF THE YEAR by NPR, the New York Public Library, Amazon, the Seattle Times, the Washington Independent Review of Books, PopSugar, the Minneapolis Star Tribune, BookBrowse, the Spectator, and the Times of London Winner of the Plutarch Award for Best Biography “Excellent…This book is as riveting as any thriller, and as hard to put down.” -- The New York Times Book Review \"A compelling biography of a masterful spy, and a reminder of what can be done",
-  "cover_url": "https://books.google.com/books/content?id=qcrSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-woman-of-no-importance.jpg",
   "isbn": "9780735225312",
   "first_published": 2019,
   "pages": 385,
@@ -55,5 +55,7 @@
   },
   "editions_count": 9,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30196232M"
+  "representative_edition_key": "/books/OL30196232M",
+  "cover_url_source": "https://books.google.com/books/content?id=qcrSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:03+00:00"
 }

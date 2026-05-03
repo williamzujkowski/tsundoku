@@ -9,8 +9,8 @@
   ],
   "open_library_url": "https://openlibrary.org/works/OL23763491M",
   "first_published": 1967,
-  "cover_url": "https://books.google.com/books/content?id=agExuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=agExuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/rosencrantz-and-guildenstern-are-dead.png",
+  "cover_url_large": "/tsundoku/cached/covers/rosencrantz-and-guildenstern-are-dead.png",
   "isbn": "1531182895",
   "language": "eng",
   "google_books_url": "http://books.google.com/books?id=agExuwEACAAJ&dq=Rosencrantz+and+Guildenstern+Are+Dead+Tom+Stoppard&hl=&source=gbs_api",
@@ -66,5 +66,8 @@
   "editions_count": 55,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL28614172M"
+  "representative_edition_key": "/books/OL28614172M",
+  "cover_url_source": "https://books.google.com/books/content?id=agExuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=agExuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:48:34+00:00"
 }

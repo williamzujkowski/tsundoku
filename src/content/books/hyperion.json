@@ -9,8 +9,8 @@
     "poetry",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6763414-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6763414-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/hyperion.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hyperion.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1455243W",
   "first_published": 1899,
   "language": "eng",
@@ -40,5 +40,8 @@
   "original_language": "ger",
   "original_title": "Hyperion.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22456360M"
+  "representative_edition_key": "/books/OL22456360M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6763414-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6763414-L.jpg",
+  "cover_cached_at": "2026-05-03T01:22:28+00:00"
 }

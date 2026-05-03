@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "High-level overview of the information security field. Covers key concepts like confidentiality, integrity, and availability, then dives into practical applications of these ideas in the areas of operational, physical, network, application, and operating system security. In this high-level survey of the information security field, best-selling author Jason Andress covers the basics of a wide variety of topics, from authentication and authorization to maintaining confidentiality and performing pe",
-  "cover_url": "https://books.google.com/books/content?id=rFmSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/foundations-of-information-security-a-straightforward-introduction.jpg",
   "isbn": "9781718500051",
   "first_published": 2019,
   "pages": 249,
@@ -35,5 +35,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781718500044",
-  "representative_edition_key": "/books/OL28730387M"
+  "representative_edition_key": "/books/OL28730387M",
+  "cover_url_source": "https://books.google.com/books/content?id=rFmSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:27+00:00"
 }

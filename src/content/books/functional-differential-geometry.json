@@ -8,8 +8,8 @@
     "math"
   ],
   "description": "An explanation of the mathematics needed as a foundation for a deep understanding of general relativity or quantum field theory. Physics is naturally expressed in mathematical language. Students new to the subject must simultaneously learn an idiomatic mathematical language and the content that is expressed in that language. It is as if they were asked to read Les Misérables while struggling with French grammar. This book offers an innovative way to learn the differential geometry needed as a fo...",
-  "cover_url": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/functional-differential-geometry.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/functional-differential-geometry.jpg",
   "isbn": "9780262052894",
   "first_published": 2013,
   "pages": 249,
@@ -43,5 +43,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780262315593",
-  "representative_edition_key": "/books/OL29753689M"
+  "representative_edition_key": "/books/OL29753689M",
+  "cover_url_source": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=ZulZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:16:40+00:00"
 }

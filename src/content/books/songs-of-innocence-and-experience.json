@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/441955-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/441955-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/songs-of-innocence-and-experience.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/songs-of-innocence-and-experience.jpg",
   "open_library_url": "https://openlibrary.org/works/OL575442W",
   "first_published": 1794,
   "language": "eng",
@@ -90,5 +90,8 @@
   "representative_edition_key": "/books/OL19970885M",
   "wikidata_qid": "Q630530",
   "original_title": "Songs of Innocence and of Experience",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/441955-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/441955-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:39+00:00"
 }

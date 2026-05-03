@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "Science fiction-roman.",
-  "cover_url": "https://covers.openlibrary.org/b/id/408133-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/408133-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-mote-in-gods-eye.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-mote-in-gods-eye.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780860079064",
@@ -68,5 +68,8 @@
   ],
   "series": {
     "name": "CoDominium"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/408133-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/408133-L.jpg",
+  "cover_cached_at": "2026-05-03T02:10:26+00:00"
 }

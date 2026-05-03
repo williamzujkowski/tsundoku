@@ -9,8 +9,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "An exhilarating thrill-ride through the underbelly of cyber espionage in the vein of David Ignatius’s The Director and the television series Leverage, CSI: Cyber, and Person of Interest, which follows five iconoclastic hackers who are coerced into serving the U.S. government. An Anonymous-style rabble rouser, an Arab spring hactivist, a black-hat hacker, an old-school cipherpunk, and an online troll are each offered a choice: go to prison or help protect the United States, putting their brains a...",
-  "cover_url": "https://books.google.com/books/content?id=IOhRswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=IOhRswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/zer0es.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/zer0es.jpg",
   "isbn": "0062351559",
   "first_published": 2015,
   "pages": 432,
@@ -38,5 +38,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780062351555",
-  "representative_edition_key": "/books/OL27006770M"
+  "representative_edition_key": "/books/OL27006770M",
+  "cover_url_source": "https://books.google.com/books/content?id=IOhRswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=IOhRswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:41+00:00"
 }

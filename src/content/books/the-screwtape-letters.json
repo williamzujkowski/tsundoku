@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-screwtape-letters",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/14496183-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14496183-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-screwtape-letters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-screwtape-letters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL36875696W",
   "first_published": 2003,
   "language": "eng",
@@ -64,5 +64,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 400,
-  "representative_edition_key": "/books/OL38413515M"
+  "representative_edition_key": "/books/OL38413515M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14496183-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14496183-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:06+00:00"
 }

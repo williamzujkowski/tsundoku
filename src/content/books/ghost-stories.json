@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "A world of horror—bewitching tales of ghosts, spirits, and spooks Gather 'round for ominous tales of the paranormal that'll have you looking over your shoulder to make sure you're actually alone. The World's Favorite Ghost Stories is a carefully curated collection of hair-raising ghost stories from around the world meant to thrill and ensnare you. Crack open this book for unsettling ghost stories that'll get under your skin. These peculiar tales from different corners of the world (including the",
-  "cover_url": "https://books.google.com/books/content?id=wm7jEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ghost-stories.jpg",
   "isbn": "9781641529075",
   "first_published": 1919,
   "pages": 248,
@@ -45,5 +45,7 @@
   "editions_count": 17,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL11986379M"
+  "representative_edition_key": "/books/OL11986379M",
+  "cover_url_source": "https://books.google.com/books/content?id=wm7jEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:17:30+00:00"
 }

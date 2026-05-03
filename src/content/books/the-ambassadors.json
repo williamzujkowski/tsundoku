@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "This complex tale of self-discovery -- considered by the author to be his best work -- traces the path of an aging idealist, Lambert Strether. Arriving in Paris with the intention of persuading his young charge to abandon an obsession with a French woman and return home, Strether reaches unexpected conclusions.",
-  "cover_url": "https://books.google.com/books/content?id=2IWXeXVRD34C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-ambassadors.jpg",
   "isbn": "0395051371",
   "first_published": 1903,
   "pages": 420,
@@ -125,5 +125,7 @@
   "editions_count": 231,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7465464M"
+  "representative_edition_key": "/books/OL7465464M",
+  "cover_url_source": "https://books.google.com/books/content?id=2IWXeXVRD34C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:55:57+00:00"
 }

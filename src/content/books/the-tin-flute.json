@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-tin-flute",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6971662-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6971662-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tin-flute.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tin-flute.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16050765W",
   "description": "A family in the Saint-Henri slums of Montreal struggles to overcome poverty and ignorance while searching for love.",
   "pages": 396,
@@ -70,5 +70,8 @@
   },
   "editions_count": 59,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8076426M"
+  "representative_edition_key": "/books/OL8076426M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6971662-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6971662-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:53+00:00"
 }

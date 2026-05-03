@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Shell scripts are an efficient way to interact with your machine and manage your files and system operations. With just a few lines of code, your computer will do exactly what you want it to do. But you can also use shell scripts for many other essential (and not-so-essential) tasks. This second edition of Wicked Cool Shell Scripts offers a collection of useful, customizable, and fun shell scripts for solving common problems and personalizing your computing environment. Each chapter contains rea",
-  "cover_url": "https://books.google.com/books/content?id=nAYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/wicked-cool-shell-scripts.jpg",
   "isbn": "9781593277833",
   "first_published": 2016,
   "pages": 402,
@@ -37,5 +37,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL17920502M"
+  "representative_edition_key": "/books/OL17920502M",
+  "cover_url_source": "https://books.google.com/books/content?id=nAYvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:57+00:00"
 }

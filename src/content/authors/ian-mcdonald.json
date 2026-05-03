@@ -2,7 +2,7 @@
   "name": "Ian McDonald",
   "slug": "ian-mcdonald",
   "book_count": 2,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL446486A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/ian-mcdonald.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL446486A",
   "birth_year": 1960,
   "bio": "British science fiction author. Born in Manchester.",
@@ -91,5 +91,7 @@
       "name": "Imaginales award for best foreign-language novel",
       "year": 2009
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL446486A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:43:51+00:00"
 }

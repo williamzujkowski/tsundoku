@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "likely_public_domain",
   "description": "Naked Lunch is a 1959 novel by American author William S. Burroughs. The novel does not follow a clear linear plot, but is instead structured as a series of non-chronological \"routines\". Many of these routines follow William Lee, an opioid addict who travels to the surreal city of Interzone and begins working for the organization \"Islam Inc.\"",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/NakedLunch1stedition.jpg/120px-NakedLunch1stedition.jpg",
+  "cover_url": "/tsundoku/cached/covers/naked-lunch.jpg",
   "isbn": "9780802133175",
   "ddc": [
     "813",
@@ -91,5 +91,7 @@
   "wikidata_qid": "Q379286",
   "original_title": "Naked Lunch",
   "original_language": "eng",
-  "original_publisher": "Olympia Press"
+  "original_publisher": "Olympia Press",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/NakedLunch1stedition.jpg/120px-NakedLunch1stedition.jpg",
+  "cover_cached_at": "2026-05-03T01:33:49+00:00"
 }

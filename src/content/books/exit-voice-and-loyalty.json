@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "exit-voice-and-loyalty",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4422589-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4422589-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/exit-voice-and-loyalty.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/exit-voice-and-loyalty.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2745855W",
   "first_published": 1970,
   "language": "eng",
@@ -59,5 +59,8 @@
   "first_published_circa": false,
   "first_edition_isbn": "0674276507",
   "representative_edition_key": "/books/OL7692476M",
-  "wikidata_qid": "Q54642725"
+  "wikidata_qid": "Q54642725",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4422589-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4422589-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:04+00:00"
 }

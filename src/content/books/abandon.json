@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "From #1 New York Times bestselling author Meg Cabot, a dark, fantastical story about this world . . . and the underworld. Pierce knows what it's like to die, because she's done it before. Though she tries returning to the life she knew before the accident, Pierce can't help but feel at once a part of this world, and apart from it. Yet she's never alone . . . because someone is always watching her.Now she's moved to a new town, but even here, he finds her. Pierce knows he's no guardian angel, and",
-  "cover_url": "https://books.google.com/books/content?id=6kBPIjenIYQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/abandon.jpg",
   "isbn": "9780545387699",
   "first_published": 2011,
   "pages": 322,
@@ -88,5 +88,7 @@
   },
   "editions_count": 11,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL44249087M"
+  "representative_edition_key": "/books/OL44249087M",
+  "cover_url_source": "https://books.google.com/books/content?id=6kBPIjenIYQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:53:06+00:00"
 }

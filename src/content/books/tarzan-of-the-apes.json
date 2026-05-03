@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "Tarzan of the Apes is a novel written by Edgar Rice Burroughs, the first in a series of books about the title character Tarzan. It was first published in the pulp magazine All-Story Magazine in October 1912. So popular was the character that Burroughs continued the series into the 1940s with two dozen sequels. For the novel's centennial anniversary, Library of America published a hardcover edition based on the original book in April 2012 with an introduction by Thomas Mallon.The novel tells the ",
-  "cover_url": "https://books.google.com/books/content?id=ng7AzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tarzan-of-the-apes.jpg",
   "isbn": "9798674831518",
   "first_published": 1914,
   "pages": 384,
@@ -96,5 +96,7 @@
   "editions_count": 226,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37687554M"
+  "representative_edition_key": "/books/OL37687554M",
+  "cover_url_source": "https://books.google.com/books/content?id=ng7AzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:52+00:00"
 }

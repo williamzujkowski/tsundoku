@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "The Golden Triangle region that joins Burma, Thailand, and Laos is one of the global centers of opiate and methamphetamine production. Opportunistic Chinese businessmen and leaders of various armed groups are largely responsible for the manufacture of these drugs. The region is defined by the apparently conflicting parallel strands of criminality and efforts at state building, a tension embodied by a group of individuals who are simultaneously local political leaders, drug entrepreneurs, and mem",
-  "cover_url": "https://books.google.com/books/content?id=_zDJdkWs8cYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-golden-triangle.jpg",
   "isbn": "9780801457197",
   "first_published": 2011,
   "pages": 295,
@@ -37,5 +37,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL39824878M"
+  "representative_edition_key": "/books/OL39824878M",
+  "cover_url_source": "https://books.google.com/books/content?id=_zDJdkWs8cYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:05:41+00:00"
 }

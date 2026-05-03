@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL37811706W",
   "first_published": 1999,
   "description": "\"Treasured by Buddhists of all traditions, Shantideva's Way of the Bodhisattva is a guide for anyone seeking to cultivate the mind of enlightenment and the qualities of love, compassion, patience, and generosity.\"--Container.",
-  "cover_url": "https://books.google.com/books/content?id=VGQVfqJwT-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=VGQVfqJwT-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-way-of-the-bodhisattva.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-way-of-the-bodhisattva.jpg",
   "isbn": "9781590304785",
   "pages": 66,
   "language": "eng",
@@ -41,5 +41,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL8846096M"
+  "representative_edition_key": "/books/OL8846096M",
+  "cover_url_source": "https://books.google.com/books/content?id=VGQVfqJwT-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=VGQVfqJwT-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:17:03+00:00"
 }

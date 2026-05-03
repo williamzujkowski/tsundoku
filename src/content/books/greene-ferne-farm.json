@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "John Richard Jefferies (6 November 1848 - 14 August 1887) was an English nature writer, noted for his depiction of English rural life in essays, books of natural history, and novels. His childhood on a small Wiltshire farm had a great influence on him and provides the background to all his major works of fiction.Jefferies's corpus of writings includes a diversity of genres and topics, including Bevis (1882), a classic children's book, and After London (1885), an early work of science fiction. Fo",
-  "cover_url": "https://books.google.com/books/content?id=yjMxtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/greene-ferne-farm.jpg",
   "isbn": "1981508198",
   "first_published": 1880,
   "pages": 102,
@@ -42,5 +42,7 @@
   "editions_count": 24,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56852793M"
+  "representative_edition_key": "/books/OL56852793M",
+  "cover_url_source": "https://books.google.com/books/content?id=yjMxtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:18:36+00:00"
 }

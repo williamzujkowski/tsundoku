@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "paterson",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/598153-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/598153-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/paterson.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/paterson.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1836051W",
   "first_published": 1946,
   "language": "eng",
@@ -53,5 +53,8 @@
   "first_published_circa": false,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL7999935M",
-  "wikidata_qid": "Q7017378"
+  "wikidata_qid": "Q7017378",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/598153-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/598153-L.jpg",
+  "cover_cached_at": "2026-05-03T01:40:26+00:00"
 }

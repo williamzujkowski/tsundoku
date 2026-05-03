@@ -8,8 +8,8 @@
     "children",
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12474938-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12474938-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/odyssey.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/odyssey.jpg",
   "open_library_url": "https://openlibrary.org/works/OL26446888W",
   "first_published": -700,
   "language": "eng",
@@ -54,5 +54,8 @@
   },
   "editions_count": 5,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL17112269M"
+  "representative_edition_key": "/books/OL17112269M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12474938-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12474938-L.jpg",
+  "cover_cached_at": "2026-05-03T01:35:53+00:00"
 }

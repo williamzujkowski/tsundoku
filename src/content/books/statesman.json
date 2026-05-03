@@ -11,8 +11,8 @@
   "first_published": 2014,
   "language": "eng",
   "description": "This is the second of a projected trilogy of dialogues, in which an unnamed stranger sets out to satisfy Socrates' desire for an account of sophist, statesman, and philosopher. (The third was never written.) Focus Philosohpical Library’s Statesman includes a faithful, clear, and consistent translation to English, with notes. It also includes an exploratory essay, glossary of crucial Greek terms, supplemental diagrams illustrating diairesis (\"The Divisions of the Statesman\"), and an appendix on t...",
-  "cover_url": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/statesman.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/statesman.jpg",
   "isbn": "9781585105090",
   "pages": 178,
   "google_books_url": "https://play.google.com/store/books/details?id=UTfBBQAAQBAJ&source=gbs_api",
@@ -34,5 +34,8 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL56240954M"
+  "representative_edition_key": "/books/OL56240954M",
+  "cover_url_source": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=UTfBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:53:00+00:00"
 }

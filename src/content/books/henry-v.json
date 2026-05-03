@@ -8,8 +8,8 @@
     "drama",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7420215-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7420215-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/henry-v.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/henry-v.jpg",
   "open_library_url": "https://openlibrary.org/works/OL361466W",
   "first_published": 1600,
   "language": "eng",
@@ -53,5 +53,8 @@
   },
   "editions_count": 94,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL46204618M"
+  "representative_edition_key": "/books/OL46204618M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7420215-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7420215-L.jpg",
+  "cover_cached_at": "2026-05-03T01:20:08+00:00"
 }

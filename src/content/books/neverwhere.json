@@ -9,8 +9,8 @@
     "horror",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/1008998-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1008998-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/neverwhere.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/neverwhere.jpg",
   "open_library_url": "https://openlibrary.org/works/OL679333W",
   "first_published": 1996,
   "language": "eng",
@@ -80,5 +80,8 @@
   },
   "editions_count": 46,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30056866M"
+  "representative_edition_key": "/books/OL30056866M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1008998-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1008998-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:14+00:00"
 }

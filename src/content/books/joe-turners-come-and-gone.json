@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/296170-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/296170-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/joe-turners-come-and-gone.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/joe-turners-come-and-gone.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2983757W",
   "first_published": 1988,
   "language": "eng",
@@ -79,5 +79,8 @@
   "editions_count": 11,
   "first_published_circa": false,
   "first_edition_isbn": "0452260094",
-  "representative_edition_key": "/books/OL35616227M"
+  "representative_edition_key": "/books/OL35616227M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/296170-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/296170-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:08+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "conjectures-and-refutations",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/267020-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/267020-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/conjectures-and-refutations.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/conjectures-and-refutations.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1984581W",
   "first_published": 1963,
   "language": "eng",
@@ -73,5 +73,8 @@
   "representative_edition_key": "/books/OL3568077M",
   "wikidata_qid": "Q2909277",
   "original_title": "Conjectures and Refutations",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/267020-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/267020-L.jpg",
+  "cover_cached_at": "2026-05-03T01:03:46+00:00"
 }

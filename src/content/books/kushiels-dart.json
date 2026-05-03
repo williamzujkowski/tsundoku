@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "A nation born of angels, vast and intricate and surrounded by danger... a woman born to servitude, unknowingly given access to the secrets of the realm... Born with a scarlet mote in her left eye, Phédre nó Delaunay is sold into indentured servitude as a child. When her bond is purchased by an enigmatic nobleman, she is trained in history, theology, politics, foreign languages, the arts of pleasure. And above all, the ability to observe, remember, and analyze.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/kushiels-dart.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/kushiels-dart.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780312872380",
@@ -48,10 +48,13 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 12,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL8053851M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/7/79/Jacqueline_Carey_%28novelist_born_1964%29.jpg",
+  "cover_cached_at": "2026-05-03T01:28:21+00:00"
 }

@@ -9,8 +9,8 @@
   "first_published": 2007,
   "language": "eng",
   "description": "A strange protest triggers a descent into paranoia and chaos in this \"illuminating parable\"—a sequel to the Nobel Prize-winning author's Blindness (Ursula K. Le Guin, The Guardian, UK). On election day in the capital, it is raining so hard that no one has bothered to come out to vote. The politicians are growing jittery. Should they reschedule the elections for another day? Around three o'clock, the rain finally stops. Voters promptly rush to the polling stations, as if they had been ordered to ...",
-  "cover_url": "https://books.google.com/books/content?id=X7DqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=X7DqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/seeing.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/seeing.jpg",
   "isbn": "9780547544717",
   "pages": 327,
   "google_books_url": "http://books.google.com/books?id=X7DqDwAAQBAJ&dq=Seeing+Jos%C3%A9+Saramago&hl=&source=gbs_api",
@@ -33,5 +33,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781299898530",
-  "representative_edition_key": "/books/OL36191496M"
+  "representative_edition_key": "/books/OL36191496M",
+  "cover_url_source": "https://books.google.com/books/content?id=X7DqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=X7DqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:34+00:00"
 }

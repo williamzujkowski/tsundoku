@@ -12,7 +12,7 @@
     "young-adult"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=OYqq-V_MAHcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-voyages-of-doctor-dolittle.jpg",
   "isbn": "9781442933194",
   "first_published": 1922,
   "pages": 442,
@@ -103,5 +103,7 @@
   ],
   "series": {
     "name": "Doctor Dolittle"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=OYqq-V_MAHcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:51+00:00"
 }

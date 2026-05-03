@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Tor Classics are affordably-priced editions designed to attract the young reader. Original dynamic cover art enthusiastically represents the excitement of each story. Appropriate \"reader friendly\" type sizes have been chosen for each title—offering clear, accurate, and readable text. All editions are complete and unabridged, and feature Introductions and Afterwords. This edition of Anne of Green Gables includes a Foreward and Afterword by T.A. Barron. Arriving on the train from the orphanage, An",
-  "cover_url": "https://books.google.com/books/content?id=2xqg7uEPCx0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/anne-of-green-gables.jpg",
   "isbn": "9781466803589",
   "first_published": 1995,
   "pages": 322,
@@ -179,5 +179,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781466803589",
-  "representative_edition_key": "/books/OL37389860M"
+  "representative_edition_key": "/books/OL37389860M",
+  "cover_url_source": "https://books.google.com/books/content?id=2xqg7uEPCx0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:55:10+00:00"
 }

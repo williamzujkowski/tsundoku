@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "disgrace",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/11434870-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11434870-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/disgrace.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/disgrace.jpg",
   "open_library_url": "https://openlibrary.org/works/OL500451W",
   "first_published": 1999,
   "language": "eng",
@@ -97,5 +97,8 @@
       "name": "Booker Prize",
       "year": 1999
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11434870-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11434870-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:43+00:00"
 }

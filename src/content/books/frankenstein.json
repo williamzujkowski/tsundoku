@@ -8,8 +8,8 @@
     "horror",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12356249-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12356249-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/frankenstein.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/frankenstein.jpg",
   "open_library_url": "https://openlibrary.org/works/OL450063W",
   "first_published": 1818,
   "language": "eng",
@@ -374,5 +374,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12356249-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12356249-L.jpg",
+  "cover_cached_at": "2026-05-03T01:16:31+00:00"
 }

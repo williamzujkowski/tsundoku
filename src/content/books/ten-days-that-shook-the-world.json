@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "\"This book is a slice of intensified history—history as I saw it.” So begins John Reed’s first-hand account of the Bolshevik Revolution of 1917. Much anticipated when it was published in 1919, Reed’s narrative remains as riveting today as when the events he describes were still reverberating throughout the world. Reed was hardly a disinterested observer, and his involvement in the Communist labor movement lends urgency and passion to his classic account. He vividly describes events in Petrograd ",
-  "cover_url": "https://books.google.com/books/content?id=32SCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/ten-days-that-shook-the-world.jpg",
   "isbn": "9781510716797",
   "first_published": 1919,
   "pages": 434,
@@ -81,5 +81,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34077703M",
   "wikidata_qid": "Q30925",
-  "original_publisher": "Boni & Liveright"
+  "original_publisher": "Boni & Liveright",
+  "cover_url_source": "https://books.google.com/books/content?id=32SCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:58+00:00"
 }

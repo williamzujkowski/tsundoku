@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Claude Wheeler is a young man who was born after the American frontier has vanished. The son of a successful farmer and an intensely pious mother, Wheeler is guaranteed a comfortable livelihood. Nevertheless, Wheeler views himself as a victim of his father's success and his own inexplicable malaise.Thus, devoid of parental and spousal love, Wheeler finds a new purpose to his life in France, a faraway country that only existed for him in maps before the First World War. Will Wheeler ever succeed ",
-  "cover_url": "https://books.google.com/books/content?id=-hViEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/one-of-ours.jpg",
   "first_published": 1922,
   "pages": 335,
   "google_books_url": "https://play.google.com/store/books/details?id=-hViEAAAQBAJ&source=gbs_api",
@@ -96,5 +96,7 @@
       "name": "Pulitzer Prize for the Novel",
       "year": 1923
     }
-  ]
+  ],
+  "cover_url_source": "https://books.google.com/books/content?id=-hViEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:37:11+00:00"
 }

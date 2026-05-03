@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "wise-blood",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/376601-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/376601-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/wise-blood.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/wise-blood.jpg",
   "open_library_url": "https://openlibrary.org/works/OL65295W",
   "first_published": 1952,
   "language": "eng",
@@ -67,5 +67,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/376601-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/376601-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:08+00:00"
 }

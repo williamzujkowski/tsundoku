@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9255895-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9255895-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/lost-children-archive.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/lost-children-archive.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19865299W",
   "first_published": 2019,
   "language": "eng",
@@ -74,5 +74,8 @@
   "representative_edition_key": "/books/OL30191657M",
   "wikidata_qid": "Q129118466",
   "original_title": "Desierto sonoro",
-  "original_language": "spa"
+  "original_language": "spa",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9255895-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9255895-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:06+00:00"
 }

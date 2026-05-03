@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A Gentleman of Leisure P. G. Wodehouse - P.G. Wodehouse's classic novel of humor and capers. American Jimmy Pitt falls in love while traveling on a transatlantic ocean liner. Pitt also makes the acquaintance of a burglar, and lands into some sticky situations. Detectives, impersonators, and meddling relatives become involved.",
-  "cover_url": "https://books.google.com/books/content?id=O9w7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-gentleman-of-leisure.jpg",
   "isbn": "9783985944392",
   "first_published": 2021,
   "pages": 212,
@@ -19,5 +19,7 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/65172",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/65172.html.images",
   "librivox_url": "https://librivox.org/a-gentleman-of-leisure-by-p-g-wodehouse/",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://books.google.com/books/content?id=O9w7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:55+00:00"
 }

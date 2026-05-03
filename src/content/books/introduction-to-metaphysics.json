@@ -7,8 +7,8 @@
   "tags": [
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/159314-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/159314-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/introduction-to-metaphysics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/introduction-to-metaphysics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL77595W",
   "first_published": 1953,
   "language": "eng",
@@ -70,5 +70,8 @@
   "original_title": "Einführung in die Metaphysik.",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8837122M",
-  "wikidata_qid": "Q931696"
+  "wikidata_qid": "Q931696",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/159314-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/159314-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:16+00:00"
 }

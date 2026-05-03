@@ -6,8 +6,8 @@
   "slug": "malgudi-days",
   "tags": [],
   "description": "Four gems, with new introductions, mark acclaimed Indian writer R. K. Narayan's centennial Introducing this collection of stories, R. K. Narayan describes how in India \"the writer has only to look out of the window to pick up a character and thereby a story.\" Composed of powerful, magical portraits of all kinds of people, and comprising stories written over almost forty years, Malgudi Days presents Narayan's imaginary city in full color, revealing the essence of India and of human experience. Th...",
-  "cover_url": "https://books.google.com/books/content?id=dqRETZRkGCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=dqRETZRkGCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/malgudi-days.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/malgudi-days.jpg",
   "isbn": "0143039652",
   "first_published": 1982,
   "pages": 292,
@@ -55,5 +55,8 @@
   "editions_count": 9,
   "first_published_circa": false,
   "first_edition_isbn": "0434450286",
-  "representative_edition_key": "/books/OL17924000M"
+  "representative_edition_key": "/books/OL17924000M",
+  "cover_url_source": "https://books.google.com/books/content?id=dqRETZRkGCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=dqRETZRkGCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:34+00:00"
 }

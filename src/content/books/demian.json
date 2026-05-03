@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "demian",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12569297-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12569297-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/demian.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/demian.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30457295W",
   "first_published": 1919,
   "language": "eng",
@@ -105,5 +105,8 @@
   "first_published_circa": false,
   "original_language": "ger",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35921342M"
+  "representative_edition_key": "/books/OL35921342M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12569297-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12569297-L.jpg",
+  "cover_cached_at": "2026-05-03T01:08:04+00:00"
 }

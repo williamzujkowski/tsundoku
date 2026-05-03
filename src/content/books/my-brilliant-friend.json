@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/13772133-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13772133-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/my-brilliant-friend.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/my-brilliant-friend.jpg",
   "open_library_url": "https://openlibrary.org/works/OL34947113W",
   "first_published": 2012,
   "description": "Named the #1 Book of the 21st Century by the New York Times: The “enduring classic” about the lifelong friendship of two women from Naples (The Atlantic). Beginning in the 1950s in a poor but vibrant neighborhood on the outskirts of Naples, Elena Ferrante’s four-volume story spans almost sixty years, as its main characters, the fiery and unforgettable Lila and the bookish narrator, Elena, become women, wives, mothers, and leaders, all the while maintaining a complex and at times conflicted frien...",
@@ -80,5 +80,8 @@
   },
   "editions_count": 38,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL32903537M"
+  "representative_edition_key": "/books/OL32903537M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13772133-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13772133-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:38+00:00"
 }

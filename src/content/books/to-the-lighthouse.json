@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8231846-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8231846-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/to-the-lighthouse.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/to-the-lighthouse.jpg",
   "open_library_url": "https://openlibrary.org/works/OL39396W",
   "first_published": 1927,
   "language": "eng",
@@ -173,5 +173,8 @@
     {
       "name": "20th Century's Greatest Hits: 100 English-Language Books of Fiction"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8231846-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8231846-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:29+00:00"
 }

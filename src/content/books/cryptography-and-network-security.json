@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14561629-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14561629-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cryptography-and-network-security.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cryptography-and-network-security.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21381347W",
   "first_published": 2002,
   "language": "eng",
@@ -43,5 +43,8 @@
   "editions_count": 8,
   "first_published_circa": false,
   "first_edition_isbn": "9780131115026",
-  "representative_edition_key": "/books/OL29403690M"
+  "representative_edition_key": "/books/OL29403690M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14561629-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14561629-L.jpg",
+  "cover_cached_at": "2026-05-03T01:06:01+00:00"
 }

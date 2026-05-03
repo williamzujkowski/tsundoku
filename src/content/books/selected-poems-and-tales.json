@@ -7,8 +7,8 @@
   "tags": [],
   "open_library_url": "https://openlibrary.org/works/OL33801491W",
   "first_published": 1943,
-  "cover_url": "https://books.google.com/books/content?id=_Gs3vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=_Gs3vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/selected-poems-and-tales.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-poems-and-tales.jpg",
   "isbn": "1371895430",
   "pages": 182,
   "language": "eng",
@@ -91,5 +91,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL6451766M"
+  "representative_edition_key": "/books/OL6451766M",
+  "cover_url_source": "https://books.google.com/books/content?id=_Gs3vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=_Gs3vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:02+00:00"
 }

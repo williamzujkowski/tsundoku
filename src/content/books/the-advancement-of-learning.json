@@ -10,8 +10,8 @@
   ],
   "reading_status": "read",
   "description": "\"The Advancement of Learning\" by Francis Bacon is a cornerstone of humanist thought and the philosophy of science. This seminal work explores the landscape of knowledge, advocating for reason and a systematic approach to learning and education. Bacon meticulously examines the existing state of scholarship, identifying deficiencies and proposing methods for its advancement. A powerful statement on the importance of education and the pursuit of knowledge, this book remains relevant to anyone interested in the history of science and the development of modern thought. Explore Bacon's enduring insights into the process of learning and his vision for a future driven by intellectual progress. This meticulously prepared print edition preserves the integrity of the original text, allowing readers to engage directly with Bacon's profound observations on the nature of knowledge and the means by which humanity can attain it. This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work is in the public domain in the United States of America, and possibly other nations. Within the United States, you may freely copy and distribute this work, as no entity (individual or corporate) has a copyright on the body of the work. Scholars believe, and we concur, that this work is important enough to be preserved, reproduced, and made generally available to the public. We appreciate your support of the preservation process, and thank you for being an important part of keeping this knowledge alive and relevant.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/the-advancement-of-learning.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-advancement-of-learning.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780368272493",
@@ -78,9 +78,12 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 12,
   "representative_edition_key": "/books/OL51878650M",
-  "copyright_status": "public_domain"
+  "copyright_status": "public_domain",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/1/18/Advancement_of_learning.jpg",
+  "cover_cached_at": "2026-05-03T01:55:29+00:00"
 }

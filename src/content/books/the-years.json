@@ -8,13 +8,16 @@
     "biography"
   ],
   "description": "WINNER OF THE 2022 NOBEL PRIZE IN LITERATURE One of the New York Times’s 100 Best Books of the 21st Century Shortlisted for the 2019 Man Booker International Prize Considered by many to be the iconic French memoirist's defining work and a breakout bestseller when published in France in 2008 The Years is a personal narrative of the period 1941 to 2006 told through the lens of memory, impressions past and present—even projections into the future—photos, books, songs, radio, television and decades ...",
-  "cover_url": "https://books.google.com/books/content?id=v_EtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=v_EtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-years.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-years.jpg",
   "isbn": "9781609807887",
   "first_published": 2017,
   "pages": 174,
   "language": "eng",
   "google_books_url": "https://play.google.com/store/books/details?id=v_EtDwAAQBAJ&source=gbs_api",
   "reading_status": "want",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://books.google.com/books/content?id=v_EtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=v_EtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:18:51+00:00"
 }

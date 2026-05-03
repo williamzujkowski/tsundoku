@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Confessions of Arsène Lupin is the sixth book in the Arsene Lupin series by Maurice Leblanc. A collection of ten short stories including Two Hundred Thousand Francs Reward!; The Wedding-Ring; The Sign of the Shadow; The Infernal Trap; The Red Silk Scarf; Shadowed by Death; A Tragedy in the Forest of Morgues; Lupin's Marriage; The Invisible Prisoner; and, Edith Swan-Neck.",
-  "cover_url": "https://books.google.com/books/content?id=6gx_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-confessions-of-ars-ne-lupin.jpg",
   "isbn": "9782322418831",
   "first_published": 2022,
   "pages": 163,
@@ -20,5 +20,7 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 28093,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/28093",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28093.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/28093.html.images",
+  "cover_url_source": "https://books.google.com/books/content?id=6gx_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:01:08+00:00"
 }

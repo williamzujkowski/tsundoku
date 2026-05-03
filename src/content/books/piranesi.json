@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10226290-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10226290-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/piranesi.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/piranesi.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20893680W",
   "first_published": 2020,
   "language": "eng",
@@ -61,5 +61,8 @@
       "name": "Women's Prize for Fiction",
       "year": 2021
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10226290-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10226290-L.jpg",
+  "cover_cached_at": "2026-05-03T01:43:15+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "thriller"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/167973-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/167973-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sharp-objects.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sharp-objects.jpg",
   "open_library_url": "https://openlibrary.org/works/OL5842018W",
   "first_published": 2006,
   "language": "eng",
@@ -74,5 +74,8 @@
   "original_language": "dut",
   "original_title": "Teerbemind",
   "representative_edition_key": "/books/OL9644182M",
-  "wikidata_qid": "Q16961985"
+  "wikidata_qid": "Q16961985",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/167973-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/167973-L.jpg",
+  "cover_cached_at": "2026-05-03T01:50:41+00:00"
 }

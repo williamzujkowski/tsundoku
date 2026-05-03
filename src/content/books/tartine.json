@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A comprehensive cookbook with 200 recipes for the way people want to eat and bake at home today, with gluten-free options, from James Beard Award-winning and best-selling author Elisabeth Prueitt, cofounder of San Francisco's acclaimed Tartine Bakery. Tartine All Day is Tartine cofounder Elisabeth Prueitt’s gift to home cooks everywhere who crave an all-in-one repertoire of wholesome, straight-forward recipes for the way they want to eat morning, noon, and night. As the family cook in her own ho",
-  "cover_url": "https://books.google.com/books/content?id=AfKmDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tartine.jpg",
   "isbn": "9780399578830",
   "first_published": 2017,
   "pages": 386,
@@ -36,5 +36,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 4,
-  "representative_edition_key": "/books/OL28722433M"
+  "representative_edition_key": "/books/OL28722433M",
+  "cover_url_source": "https://books.google.com/books/content?id=AfKmDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:48+00:00"
 }

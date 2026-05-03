@@ -4,7 +4,7 @@
   "book_count": 1,
   "bio": "Allen Benjamin Downey is an American computer scientist who is currently working as a Principal Data Scientist at PyMC Labs. He is a former Professor of Computer Science at the Franklin W. Olin College of Engineering.",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_B._Downey",
-  "photo_url": "https://covers.openlibrary.org/a/id/7363359-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/allen-downey.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL6815485A",
   "birth_year": 1967,
   "_provenance": {
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "17156773",
-  "ol_author_key": "/authors/OL6815485A"
+  "ol_author_key": "/authors/OL6815485A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7363359-M.jpg",
+  "photo_cached_at": "2026-05-03T00:39:32+00:00"
 }

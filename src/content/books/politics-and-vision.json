@@ -8,8 +8,8 @@
     "philosophy",
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/444237-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/444237-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/politics-and-vision.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/politics-and-vision.jpg",
   "open_library_url": "https://openlibrary.org/works/OL4772697W",
   "first_published": 1960,
   "language": "eng",
@@ -40,5 +40,8 @@
   },
   "editions_count": 5,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29740605M"
+  "representative_edition_key": "/books/OL29740605M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/444237-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/444237-L.jpg",
+  "cover_cached_at": "2026-05-03T01:44:39+00:00"
 }

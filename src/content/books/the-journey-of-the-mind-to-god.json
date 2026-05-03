@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "the-journey-of-the-mind-to-god",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1619693-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1619693-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-journey-of-the-mind-to-god.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-journey-of-the-mind-to-god.jpg",
   "open_library_url": "https://openlibrary.org/works/OL771401W",
   "first_published": 1993,
   "language": "eng",
@@ -52,5 +52,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "0872202011",
-  "representative_edition_key": "/books/OL1414728M"
+  "representative_edition_key": "/books/OL1414728M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1619693-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1619693-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:07+00:00"
 }

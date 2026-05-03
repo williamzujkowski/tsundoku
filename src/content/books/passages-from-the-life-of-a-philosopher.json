@@ -20,8 +20,8 @@
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/57532.html.images",
   "librivox_url": "https://librivox.org/passages-from-the-life-of-a-philosopher-by-charles-babbage/",
   "description": "Impression from a woodcut of a small portion of Mr. Babbage’s Difference\r\nEngine No. 1, the property of Government, at present deposited in the Museum\r\nat South Kensington. “I now gave my mind to philosophy: the great object of my ambition\r\nwas to make out a complete system of the universe, including and\r\ncomprehending the origin, causes, consequences, and termination of all\r\nthings.",
-  "cover_url": "https://books.google.com/books/content?id=-Mod6ePT28kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-Mod6ePT28kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/passages-from-the-life-of-a-philosopher.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/passages-from-the-life-of-a-philosopher.jpg",
   "pages": 520,
   "isbn": "9781444648881",
   "ol_work_key": "/works/OL39623773W",
@@ -65,5 +65,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL53906162M"
+  "representative_edition_key": "/books/OL53906162M",
+  "cover_url_source": "https://books.google.com/books/content?id=-Mod6ePT28kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-Mod6ePT28kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:40:22+00:00"
 }

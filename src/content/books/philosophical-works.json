@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This selection of George Berkeley's most important philosophical works contains--Essay Towards a New Theory of Vision; Principles of Human Knowledge; Three Dialogues between Hylas and Philonous; Theory of Vision Vindicated and Explained; De Motu (in translation); Philosophical Correspondence between Berkeley and Samuel Johnson, 1729-30; and Philosophical Commentaries.",
-  "cover_url": "https://books.google.com/books/content?id=1Y1-QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/philosophical-works.jpg",
   "isbn": "0460873431",
   "first_published": 1980,
   "pages": 436,
@@ -44,5 +44,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780460114837",
-  "representative_edition_key": "/books/OL22456157M"
+  "representative_edition_key": "/books/OL22456157M",
+  "cover_url_source": "https://books.google.com/books/content?id=1Y1-QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:42:41+00:00"
 }

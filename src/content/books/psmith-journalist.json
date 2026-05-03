@@ -9,7 +9,7 @@
     "humor"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=UkwDEqd7E6kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/psmith-journalist.jpg",
   "isbn": "9781442932579",
   "first_published": 1931,
   "pages": 290,
@@ -51,5 +51,7 @@
   },
   "editions_count": 60,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL29863514M"
+  "representative_edition_key": "/books/OL29863514M",
+  "cover_url_source": "https://books.google.com/books/content?id=UkwDEqd7E6kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:46:13+00:00"
 }

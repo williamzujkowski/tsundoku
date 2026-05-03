@@ -8,8 +8,8 @@
     "biography",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/crito.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/crito.jpg",
   "open_library_url": "https://openlibrary.org/works/OL379949W",
   "first_published": -360,
   "language": "eng",
@@ -27,5 +27,8 @@
   "copyright_status": "public_domain",
   "_provenance": {
     "first_published": "manual"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
+  "cover_cached_at": "2026-05-03T01:05:57+00:00"
 }

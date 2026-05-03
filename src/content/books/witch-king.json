@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "witch-king",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13773363-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13773363-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/witch-king.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/witch-king.jpg",
   "open_library_url": "https://openlibrary.org/works/OL28764208W",
   "first_published": 2023,
   "language": "eng",
@@ -40,5 +40,8 @@
       "name": "Locus Award for Best Fantasy Novel",
       "year": 2024
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13773363-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13773363-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:09+00:00"
 }

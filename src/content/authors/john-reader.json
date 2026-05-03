@@ -2,7 +2,9 @@
   "name": "John Reader",
   "slug": "john-reader",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL359849A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-reader.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL359849A",
-  "birth_year": 1953
+  "birth_year": 1953,
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL359849A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:41+00:00"
 }

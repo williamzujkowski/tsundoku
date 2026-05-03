@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8246159-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8246159-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/an-enemy-of-the-people.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-enemy-of-the-people.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15111351W",
   "first_published": 1906,
   "language": "eng",
@@ -77,5 +77,8 @@
   "original_language": "yid",
   "original_title": "Der folks faynd",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22504640M"
+  "representative_edition_key": "/books/OL22504640M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8246159-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8246159-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:13+00:00"
 }

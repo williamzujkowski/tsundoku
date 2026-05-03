@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "men-and-women",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5813975-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5813975-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/men-and-women.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/men-and-women.jpg",
   "open_library_url": "https://openlibrary.org/works/OL634471W",
   "first_published": 1855,
   "language": "eng",
@@ -45,5 +45,8 @@
   "editions_count": 13,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL5340195M"
+  "representative_edition_key": "/books/OL5340195M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5813975-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5813975-L.jpg",
+  "cover_cached_at": "2026-05-03T01:32:26+00:00"
 }

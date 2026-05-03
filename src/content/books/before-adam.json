@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "With dramatic and detailed first person narration, Jack London’s Before Adam follows the dreams of a young boy who has a genetically imprinted memory and knowledge of an ancestor who lived in prehistoric times. Big Tooth is a pre-human ape and is the protagonist of the young boy’s dreams. He lives in a tribe that rests in the middle of two extremes. In the surrounding area, there are tribes of differing levels of development. One is primitive and stays in the vast forest, while the more advanced",
-  "cover_url": "https://books.google.com/books/content?id=-3MqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/before-adam.jpg",
   "isbn": "9781513275246",
   "first_published": 1907,
   "pages": 85,
@@ -73,5 +73,7 @@
   "editions_count": 192,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30335251M"
+  "representative_edition_key": "/books/OL30335251M",
+  "cover_url_source": "https://books.google.com/books/content?id=-3MqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:54+00:00"
 }

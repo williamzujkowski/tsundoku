@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "This book describes the UNIX? programming environment and philosophy.",
-  "cover_url": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-unix-programming-environment.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-unix-programming-environment.jpg",
   "first_published": 1984,
   "pages": 376,
   "language": "eng",
@@ -47,5 +47,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "0139376992",
-  "representative_edition_key": "/books/OL3191213M"
+  "representative_edition_key": "/books/OL3191213M",
+  "cover_url_source": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=poFQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:35+00:00"
 }

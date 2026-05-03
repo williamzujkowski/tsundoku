@@ -15,8 +15,8 @@
   "pages": 338,
   "google_books_url": "http://books.google.com/books?id=joirugEACAAJ&dq=intitle:The+Story+of+Ivy&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/14634086-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14634086-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-story-of-ivy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-story-of-ivy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1172093W",
   "copyright_status": "in_copyright",
   "ol_work_key": "/works/OL41810647W",
@@ -40,5 +40,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781724700599",
-  "representative_edition_key": "/books/OL56772712M"
+  "representative_edition_key": "/books/OL56772712M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14634086-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14634086-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:14+00:00"
 }

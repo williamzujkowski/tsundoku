@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Panchatantra is an ancient Indian collection of interrelated animal fables in Sanskrit verse and prose, arranged within a frame story. The text's author is unknown, but it has been attributed to Vishnu Sharma in some recensions and Vasubhaga in others, both of which may be fictitious pen names. It is likely a Hindu text, and based on older oral traditions with \"animal fables that are as old as we are able to imagine\".",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Panchatantra_page.jpg/330px-Panchatantra_page.jpg",
+  "cover_url": "/tsundoku/cached/covers/panchatantra.jpg",
   "isbn": "9781980937777",
   "ol_work_key": "/works/OL29714332W",
   "first_published": 2018,
@@ -23,5 +23,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781980937777",
-  "representative_edition_key": "/books/OL40873684M"
+  "representative_edition_key": "/books/OL40873684M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Panchatantra_page.jpg/330px-Panchatantra_page.jpg",
+  "cover_cached_at": "2026-05-03T01:39:42+00:00"
 }

@@ -8,8 +8,8 @@
     "biology",
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/585091-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/585091-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mother.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mother.jpg",
   "open_library_url": "https://openlibrary.org/works/OL288846W",
   "first_published": 1907,
   "language": "eng",
@@ -54,5 +54,8 @@
   "editions_count": 90,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL42417432M"
+  "representative_edition_key": "/books/OL42417432M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/585091-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/585091-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:25+00:00"
 }

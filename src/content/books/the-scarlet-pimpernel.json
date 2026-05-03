@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "In 1792, while aristocrats were being mowed down in France by the guillotine, a courageous Englishman hid his identity under the guise of \"The Scarlet Pimpernel,\" and led a band of twenty noblemen in an attempt to save as many of the French aristocracy as possible.",
-  "cover_url": "https://books.google.com/books/content?id=mJnRoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-scarlet-pimpernel.jpg",
   "isbn": "1500556203",
   "first_published": 2014,
   "pages": 254,
@@ -37,5 +37,7 @@
   "editions_count": 6,
   "first_published_circa": false,
   "first_edition_isbn": "9781502823175",
-  "representative_edition_key": "/books/OL55843455M"
+  "representative_edition_key": "/books/OL55843455M",
+  "cover_url_source": "https://books.google.com/books/content?id=mJnRoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:02+00:00"
 }

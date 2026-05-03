@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10526598-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10526598-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-three-body-problem.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-three-body-problem.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16314245W",
   "first_published": 2006,
   "language": "eng",
@@ -103,5 +103,8 @@
   "series": {
     "name": "Remembrance of Earth's Past",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10526598-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10526598-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:13+00:00"
 }

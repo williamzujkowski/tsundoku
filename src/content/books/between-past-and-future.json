@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9307077-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9307077-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/between-past-and-future.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/between-past-and-future.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1386646W",
   "first_published": 1961,
   "language": "eng",
@@ -68,5 +68,8 @@
   "representative_edition_key": "/books/OL7361984M",
   "wikidata_qid": "Q743797",
   "original_title": "Between Past and Future",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9307077-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9307077-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:13+00:00"
 }

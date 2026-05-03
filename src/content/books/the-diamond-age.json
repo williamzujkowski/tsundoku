@@ -9,8 +9,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8598269-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8598269-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-diamond-age.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-diamond-age.jpg",
   "open_library_url": "https://openlibrary.org/works/OL38499W",
   "first_published": 1995,
   "language": "eng",
@@ -75,5 +75,8 @@
     {
       "name": "NPR Top 100 Science Fiction and Fantasy Books"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8598269-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8598269-L.jpg",
+  "cover_cached_at": "2026-05-03T02:02:45+00:00"
 }

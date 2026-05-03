@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/235432-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/235432-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/stations-of-the-tide.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/stations-of-the-tide.jpg",
   "open_library_url": "https://openlibrary.org/works/OL549274W",
   "first_published": 1991,
   "language": "eng",
@@ -60,5 +60,8 @@
       "name": "Nebula Award for Best Novel",
       "year": 1992
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/235432-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/235432-L.jpg",
+  "cover_cached_at": "2026-05-03T01:53:09+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "biology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/411444-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/411444-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-law-of-peoples.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-law-of-peoples.jpg",
   "open_library_url": "https://openlibrary.org/works/OL30305W",
   "first_published": 1999,
   "language": "eng",
@@ -46,5 +46,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "067400079X",
-  "representative_edition_key": "/books/OL7670516M"
+  "representative_edition_key": "/books/OL7670516M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/411444-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/411444-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:43+00:00"
 }

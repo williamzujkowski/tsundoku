@@ -8,8 +8,8 @@
     "horror",
     "short-stories"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/271223-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/271223-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/books-of-blood.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/books-of-blood.jpg",
   "open_library_url": "https://openlibrary.org/works/OL457864W",
   "first_published": 1985,
   "language": "eng",
@@ -50,5 +50,8 @@
   },
   "editions_count": 16,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL8830698M"
+  "representative_edition_key": "/books/OL8830698M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/271223-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/271223-L.jpg",
+  "cover_cached_at": "2026-05-03T01:00:55+00:00"
 }

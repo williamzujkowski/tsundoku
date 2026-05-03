@@ -10,8 +10,8 @@
     "drama",
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7425787-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7425787-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/aurora.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/aurora.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17346803W",
   "first_published": 2015,
   "language": "eng",
@@ -66,5 +66,8 @@
   "representative_edition_key": "/books/OL51328810M",
   "wikidata_qid": "Q20856830",
   "original_title": "Aurora",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7425787-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7425787-L.jpg",
+  "cover_cached_at": "2026-05-03T00:57:24+00:00"
 }

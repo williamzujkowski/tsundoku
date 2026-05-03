@@ -2,7 +2,7 @@
   "name": "Adam Shostack",
   "slug": "adam-shostack",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL3437819A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/adam-shostack.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL3437819A",
   "bio": "American computer scientist",
   "birth_year": 1975,
@@ -17,5 +17,7 @@
     "US"
   ],
   "viaf_id": "46221101",
-  "ol_author_key": "/authors/OL3437819A"
+  "ol_author_key": "/authors/OL3437819A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL3437819A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:39:13+00:00"
 }

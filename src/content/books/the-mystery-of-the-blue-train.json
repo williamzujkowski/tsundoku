@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The Mystery of the Blue Train revolves around a set of fabulous rubies, said to have been worn by Catherine the Great, now purchased by an American millionaire as a gift to his daughter. When she takes them with her on a luxury train to the Riviera, she is unaware that among her fellow passengers are her unfaithful husband, his not-so-secret mistress, a quiet Englishwoman who believes that nothing exciting ever happens to her—and the famous retired detective Hercule Poirot. And, possibly, a murd",
-  "cover_url": "https://books.google.com/books/content?id=WTcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mystery-of-the-blue-train.jpg",
   "first_published": 1928,
   "pages": 278,
   "google_books_url": "https://play.google.com/store/books/details?id=WTcTEQAAQBAJ&source=gbs_api",
@@ -95,5 +95,7 @@
   "editions_count": 124,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL24256552M"
+  "representative_edition_key": "/books/OL24256552M",
+  "cover_url_source": "https://books.google.com/books/content?id=WTcTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:35+00:00"
 }

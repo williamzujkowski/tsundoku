@@ -7,8 +7,8 @@
   "tags": [
     "fantasy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8804476-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8804476-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/sixteen-ways-to-defend-a-walled-city.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/sixteen-ways-to-defend-a-walled-city.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20159258W",
   "first_published": 2019,
   "language": "eng",
@@ -35,5 +35,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780316270809",
-  "representative_edition_key": "/books/OL29787032M"
+  "representative_edition_key": "/books/OL29787032M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8804476-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8804476-L.jpg",
+  "cover_cached_at": "2026-05-03T01:51:01+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8594162-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8594162-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-wild-duck.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wild-duck.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19787688W",
   "first_published": 1889,
   "description": "An idealistic outsider’s volunteers past secrets and destroys a family.",
@@ -100,5 +100,8 @@
   "editions_count": 255,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL38474044M"
+  "representative_edition_key": "/books/OL38474044M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8594162-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8594162-L.jpg",
+  "cover_cached_at": "2026-05-03T02:17:16+00:00"
 }

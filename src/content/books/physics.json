@@ -9,8 +9,8 @@
     "physics",
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/7145464-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7145464-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/physics.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/physics.jpg",
   "open_library_url": "https://openlibrary.org/works/OL151632W",
   "first_published": 1472,
   "language": "eng",
@@ -115,5 +115,8 @@
   "original_language": "lat",
   "original_title": "Physica.",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8490272M"
+  "representative_edition_key": "/books/OL8490272M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7145464-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7145464-L.jpg",
+  "cover_cached_at": "2026-05-03T01:42:49+00:00"
 }

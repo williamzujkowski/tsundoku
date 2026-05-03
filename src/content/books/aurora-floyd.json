@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=bO9CY6fjdLsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/aurora-floyd.jpg",
   "first_published": 1863,
   "pages": 328,
   "google_books_url": "https://play.google.com/store/books/details?id=bO9CY6fjdLsC&source=gbs_api",
@@ -54,5 +54,7 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL799266M"
+  "representative_edition_key": "/books/OL799266M",
+  "cover_url_source": "https://books.google.com/books/content?id=bO9CY6fjdLsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:22+00:00"
 }

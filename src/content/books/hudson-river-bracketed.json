@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"Problems of a midwestern writer in the East.\" Cf. Hanna, A. Mirror for the nation",
-  "cover_url": "https://books.google.com/books/content?id=jz4FAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/hudson-river-bracketed.jpg",
   "first_published": 1929,
   "pages": 582,
   "google_books_url": "https://play.google.com/store/books/details?id=jz4FAQAAIAAJ&source=gbs_api",
@@ -44,5 +44,7 @@
   "editions_count": 26,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL27655975M"
+  "representative_edition_key": "/books/OL27655975M",
+  "cover_url_source": "https://books.google.com/books/content?id=jz4FAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:22:14+00:00"
 }

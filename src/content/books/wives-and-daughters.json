@@ -7,8 +7,8 @@
   "tags": [
     "children"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/103011-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/103011-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/wives-and-daughters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/wives-and-daughters.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1103200W",
   "first_published": 1866,
   "language": "eng",
@@ -85,5 +85,8 @@
   },
   "editions_count": 3,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL51094663M"
+  "representative_edition_key": "/books/OL51094663M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/103011-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/103011-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:11+00:00"
 }

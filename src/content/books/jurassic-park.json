@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Jurassic Park is a 1993 American science fiction film directed by Steven Spielberg and written by Michael Crichton and David Koepp, based on Crichton's 1990 novel. Starring Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Bob Peck, Martin Ferrero, BD Wong, Samuel L.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jurassic_Park_poster.jpg/120px-Jurassic_Park_poster.jpg",
+  "cover_url": "/tsundoku/cached/covers/jurassic-park.jpg",
   "isbn": "9780833589347",
   "ddc": [
     "[Fic]",
@@ -98,5 +98,7 @@
   "original_publisher": "Alfred A. Knopf",
   "series": {
     "name": "Jurassic Park"
-  }
+  },
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jurassic_Park_poster.jpg/120px-Jurassic_Park_poster.jpg",
+  "cover_cached_at": "2026-05-03T01:26:26+00:00"
 }

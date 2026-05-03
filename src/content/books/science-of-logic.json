@@ -11,8 +11,8 @@
   "first_published": 1843,
   "language": "eng",
   "description": "Georg Wilhelm Friedrich Hegel's \"Science of Logic\" is a profound exploration of the nature and development of logic as a dialectical process. Written in the early 19th century, the text reflects Hegel's philosophical project to reconcile ideas of contradiction and unity, where he meticulously dissects traditional logical structures. Employing a dense, yet methodical style, Hegel transforms logic from a mere tool for scientific inquiry into an organic system that captures the dynamic and evolving...",
-  "cover_url": "https://books.google.com/books/content?id=2y6cEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=2y6cEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/science-of-logic.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/science-of-logic.jpg",
   "pages": 430,
   "google_books_url": "https://play.google.com/store/books/details?id=2y6cEAAAQBAJ&source=gbs_api",
   "reading_status": "want",
@@ -105,5 +105,8 @@
   "first_published_circa": false,
   "original_language": "ger",
   "original_title": "Hegel's Philosophie in wörtlichen Auszügen",
-  "representative_edition_key": "/books/OL7308482M"
+  "representative_edition_key": "/books/OL7308482M",
+  "cover_url_source": "https://books.google.com/books/content?id=2y6cEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=2y6cEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:19+00:00"
 }

@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "The story of a soft-spoken cowboy who lived and worked in Wyoming in the late 1800s.",
-  "cover_url": "https://books.google.com/books/content?id=T_qHX91UrqYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-virginian.jpg",
   "isbn": "9780743238021",
   "first_published": 1902,
   "pages": 353,
@@ -108,5 +108,7 @@
   "wikidata_qid": "Q7772831",
   "original_title": "The Virginian",
   "original_language": "eng",
-  "original_publisher": "Macmillan Publishers"
+  "original_publisher": "Macmillan Publishers",
+  "cover_url_source": "https://books.google.com/books/content?id=T_qHX91UrqYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:47+00:00"
 }

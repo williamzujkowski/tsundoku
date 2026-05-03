@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Henry Morgan is a young boy growing up in a small town in Wales. One day, a sailor returns to regale Henry with tales of the West Indies, and the glory that awaits those adventuresome enough to go. Henry, dazzled, quickly finds a place aboard a ship heading to the islands, thus setting himself on the path to becoming the brutal and fearsome pirate Captain Morgan. Cup of Gold, Steinbeck’s first novel, is the fictionalized story of the real Sir Henry Morgan. Morgan’s early life is mostly obscure, ",
-  "cover_url": "https://books.google.com/books/content?id=m-o7EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cup-of-gold.jpg",
   "first_published": 1929,
   "pages": 225,
   "google_books_url": "https://play.google.com/store/books/details?id=m-o7EQAAQBAJ&source=gbs_api",
@@ -69,5 +69,7 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL57566612M",
   "wikidata_qid": "Q3207868",
-  "original_title": "Cup of Gold"
+  "original_title": "Cup of Gold",
+  "cover_url_source": "https://books.google.com/books/content?id=m-o7EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:06:22+00:00"
 }

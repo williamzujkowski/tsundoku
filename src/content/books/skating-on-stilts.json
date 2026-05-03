@@ -11,8 +11,8 @@
   "first_published": 2010,
   "language": "eng",
   "description": "Stewart A. Baker examines the technologies we love–jet travel, computer networks, and biotech–and finds that they are likely to empower new forms of terrorism unless we change our current course a few degrees and overcome resistance to change from business, foreign governments, and privacy advocates. He draws on his Homeland Security experience to show how that was done in the case of jet travel and border security but concludes that heading off disasters in computer networks and biotech will re...",
-  "cover_url": "https://books.google.com/books/content?id=7g-BswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=7g-BswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/skating-on-stilts.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/skating-on-stilts.jpg",
   "isbn": "0817911545",
   "pages": 370,
   "google_books_url": "http://books.google.com/books?id=7g-BswEACAAJ&dq=Skating+on+Stilts+Stewart+Baker&hl=&source=gbs_api",
@@ -43,5 +43,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780817911546",
-  "representative_edition_key": "/books/OL24523914M"
+  "representative_edition_key": "/books/OL24523914M",
+  "cover_url_source": "https://books.google.com/books/content?id=7g-BswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=7g-BswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:51:01+00:00"
 }

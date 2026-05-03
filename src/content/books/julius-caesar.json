@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "julius-caesar",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7901303-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7901303-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/julius-caesar.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/julius-caesar.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362702W",
   "first_published": 1656,
   "language": "eng",
@@ -424,5 +424,8 @@
   "representative_edition_key": "/books/OL57779671M",
   "wikidata_qid": "Q215750",
   "original_title": "The Tragedie of Ivlivs Ceasar",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7901303-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7901303-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:17+00:00"
 }

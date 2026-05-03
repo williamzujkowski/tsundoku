@@ -2,7 +2,7 @@
   "name": "Shannon Hale",
   "slug": "shannon-hale",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/id/7284372-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/shannon-hale.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1394989A",
   "birth_year": 1974,
   "bio": "American author of young adult fantasy and adult fiction",
@@ -28,5 +28,7 @@
       "name": "Whitney Awards",
       "year": 2007
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7284372-M.jpg",
+  "photo_cached_at": "2026-05-03T00:48:54+00:00"
 }

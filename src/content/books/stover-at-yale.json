@@ -8,7 +8,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=ginuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/stover-at-yale.jpg",
   "first_published": 1912,
   "pages": 412,
   "google_books_url": "http://books.google.com/books?id=ginuAAAAMAAJ&dq=intitle:Stover+at+Yale&hl=&source=gbs_api",
@@ -49,5 +49,7 @@
   "editions_count": 28,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL55389975M"
+  "representative_edition_key": "/books/OL55389975M",
+  "cover_url_source": "https://books.google.com/books/content?id=ginuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:53:24+00:00"
 }

@@ -10,7 +10,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=e__YEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/tarzan-and-the-ant-men.jpg",
   "isbn": "9783387080902",
   "first_published": 1924,
   "pages": 357,
@@ -45,5 +45,7 @@
   "editions_count": 51,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30220992M"
+  "representative_edition_key": "/books/OL30220992M",
+  "cover_url_source": "https://books.google.com/books/content?id=e__YEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:54:50+00:00"
 }

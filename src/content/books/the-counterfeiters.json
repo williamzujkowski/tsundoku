@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "André Paul Guillaume Gide (1869-1951), known as André Gide, was a renowned French writer. Nobel Prize winner in Literature in 1947 and founder of the prestigious Gallimard Publishing House, André Gide is one of the most prominent figures in French cultural life of this century. His works present many autobiographical aspects and expose moral and religious conflicts that do not disregard his homosexual tendencies. With the experimental novel \"The Counterfeiters,\" written in 1925, André Gide reached the peak of his writing career. It is a novel with a complex and multiple plot, continuously interrupted by reflections from the novelist Edouard. \"The Counterfeiters\" is currently considered a masterpiece of French literature.",
-  "cover_url": "https://covers.openlibrary.org/b/id/9932626-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9932626-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-counterfeiters.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-counterfeiters.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9782070102211",
@@ -82,5 +82,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9932626-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9932626-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:56+00:00"
 }

@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Like Sun Tzu's Art of War for Modern Business, this book uses ancient ninja scrolls as the foundation for teaching readers about cyber-warfare, espionage and security. Cyberjutsu is a practical cybersecurity field guide based on the techniques, tactics, and procedures of the ancient ninja. Cyber warfare specialist Ben McCarty’s analysis of declassified Japanese scrolls will show how you can apply ninja methods to combat today’s security challenges like information warfare, deceptive infiltration",
-  "cover_url": "https://books.google.com/books/content?id=IHwmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/cyberjutsu.jpg",
   "isbn": "9781718500549",
   "first_published": 2021,
   "pages": 266,
@@ -42,5 +42,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781718500549",
-  "representative_edition_key": "/books/OL29501131M"
+  "representative_edition_key": "/books/OL29501131M",
+  "cover_url_source": "https://books.google.com/books/content?id=IHwmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:07:15+00:00"
 }

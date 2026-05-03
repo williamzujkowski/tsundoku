@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "mythologies",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4490230-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4490230-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mythologies.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mythologies.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1375089W",
   "first_published": 1957,
   "language": "eng",
@@ -63,5 +63,8 @@
   "representative_edition_key": "/books/OL9444500M",
   "wikidata_qid": "Q1396027",
   "original_title": "Mythologies",
-  "original_publisher": "Éditions du Seuil"
+  "original_publisher": "Éditions du Seuil",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4490230-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4490230-L.jpg",
+  "cover_cached_at": "2026-05-03T01:33:48+00:00"
 }

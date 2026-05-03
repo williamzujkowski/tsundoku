@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Purchase of this book includes free trial access to www.million-books.com where you can read more than a million books for free. This is an OCR edition with typos. Excerpt from book: CHAPTER III. A few days later, the Lieutenant and his retinue were marching with quick pace towards Lubni. When they had forded the Dnieper, they marched along the broad highway across the steppes which connects Chigrin with Lubni, winding through Juki, Semimogil and Khorol. Similar roads led from the capital of the",
-  "cover_url": "https://books.google.com/books/content?id=zBFDQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/with-fire-and-sword.jpg",
   "isbn": "1458950425",
   "first_published": 2012,
   "pages": 556,
@@ -38,5 +38,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781493548033",
-  "representative_edition_key": "/books/OL54331032M"
+  "representative_edition_key": "/books/OL54331032M",
+  "cover_url_source": "https://books.google.com/books/content?id=zBFDQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:10+00:00"
 }

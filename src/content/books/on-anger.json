@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "on-anger",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/15140671-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/15140671-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/on-anger.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/on-anger.jpg",
   "open_library_url": "https://openlibrary.org/works/OL29436084W",
   "first_published": 2017,
   "language": "eng",
@@ -23,5 +23,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL48318004M"
+  "representative_edition_key": "/books/OL48318004M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/15140671-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/15140671-L.jpg",
+  "cover_cached_at": "2026-05-03T01:36:38+00:00"
 }

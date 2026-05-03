@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "annals",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/6995052-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6995052-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/annals.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/annals.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16200777W",
   "first_published": 1598,
   "language": "eng",
@@ -34,5 +34,8 @@
   },
   "editions_count": 14,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56396170M"
+  "representative_edition_key": "/books/OL56396170M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6995052-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6995052-L.jpg",
+  "cover_cached_at": "2026-05-03T00:55:09+00:00"
 }

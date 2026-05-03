@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "collected-poems-6",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9452407-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9452407-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/collected-poems-6.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/collected-poems-6.jpg",
   "open_library_url": "https://openlibrary.org/works/OL18466944W",
   "first_published": 1952,
   "language": "eng",
@@ -41,5 +41,8 @@
   "original_language": "fre",
   "original_title": "De la nécessité d'une linguistique appliquée",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL20426919M"
+  "representative_edition_key": "/books/OL20426919M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9452407-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9452407-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:50+00:00"
 }

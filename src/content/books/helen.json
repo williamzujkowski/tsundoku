@@ -7,8 +7,8 @@
   "tags": [
     "drama"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/4361332-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4361332-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/helen.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/helen.jpg",
   "open_library_url": "https://openlibrary.org/works/OL66486W",
   "first_published": 1837,
   "language": "eng",
@@ -78,5 +78,8 @@
   "original_title": "Euripidis Helena",
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL21812920M",
-  "wikidata_qid": "Q1248812"
+  "wikidata_qid": "Q1248812",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4361332-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4361332-L.jpg",
+  "cover_cached_at": "2026-05-03T01:19:54+00:00"
 }

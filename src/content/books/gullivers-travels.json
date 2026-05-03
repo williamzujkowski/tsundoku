@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "gullivers-travels",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12717083-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12717083-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gullivers-travels.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gullivers-travels.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20600W",
   "first_published": 1726,
   "language": "eng",
@@ -544,5 +544,8 @@
   "original_title": "Travels into Several Remote Nations of the World, in Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of several Ships",
   "original_language": "eng",
   "first_published_circa": false,
-  "original_publisher": "Benjamin Motte"
+  "original_publisher": "Benjamin Motte",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12717083-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12717083-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:43+00:00"
 }

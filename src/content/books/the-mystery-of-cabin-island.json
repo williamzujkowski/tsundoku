@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "\"The Mystery of Cabin Island\" by Franklin W. Dixon is an enthralling tale that follows the daring adventures of the Hardy Boys, Frank and Joe, as they investigate a puzzling mystery on Cabin Island. The story begins when the Hardy Boys receive an urgent message from their friend, Chet Morton. Chet's family owns a cabin on Cabin Island, a secluded and mysterious place in the wilderness. Chet informs the brothers that their cabin has been ransacked, and valuable belongings have been stolen. Intrig",
-  "cover_url": "https://books.google.com/books/content?id=g_XMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mystery-of-cabin-island.jpg",
   "isbn": "9791041828210",
   "first_published": 1929,
   "pages": 124,
@@ -71,5 +71,7 @@
   "original_language": "eng",
   "series": {
     "name": "The Hardy Boys"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=g_XMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:35+00:00"
 }

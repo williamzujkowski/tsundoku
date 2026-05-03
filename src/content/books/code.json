@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/460968-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/460968-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/code.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/code.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1972516W",
   "first_published": 1999,
   "language": "eng",
@@ -50,5 +50,8 @@
   },
   "editions_count": 7,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL45224660M"
+  "representative_edition_key": "/books/OL45224660M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/460968-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/460968-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:41+00:00"
 }

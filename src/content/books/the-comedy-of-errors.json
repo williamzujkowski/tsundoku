@@ -9,8 +9,8 @@
     "drama",
     "young-adult"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5561040-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5561040-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-comedy-of-errors.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-comedy-of-errors.jpg",
   "open_library_url": "https://openlibrary.org/works/OL362679W",
   "first_published": 1734,
   "language": "eng",
@@ -211,5 +211,8 @@
   "representative_edition_key": "/books/OL60465972M",
   "wikidata_qid": "Q506505",
   "original_title": "The Comedy of Errors",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5561040-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5561040-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:02+00:00"
 }

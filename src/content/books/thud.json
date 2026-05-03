@@ -8,8 +8,8 @@
     "fantasy",
     "humor"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14645706-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14645706-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/thud.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/thud.jpg",
   "open_library_url": "https://openlibrary.org/works/OL453852W",
   "first_published": 2005,
   "language": "eng",
@@ -65,5 +65,8 @@
   "series": {
     "name": "Discworld",
     "position": 34
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14645706-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14645706-L.jpg",
+  "cover_cached_at": "2026-05-03T02:20:27+00:00"
 }

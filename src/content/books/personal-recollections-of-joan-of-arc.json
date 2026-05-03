@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "This historical novel purportedly written by Joan's longtime friend -- Sieur Louis de Conte -- discloses Twain's unrestrained admiration for the French heroine's nobility of character.",
-  "cover_url": "https://books.google.com/books/content?id=RCr_SE1DNoUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/personal-recollections-of-joan-of-arc.jpg",
   "isbn": "9780898702682",
   "first_published": 1896,
   "pages": 524,
@@ -81,5 +81,7 @@
   "wikidata_qid": "Q1582679",
   "original_title": "Personal Recollections of Joan of Arc",
   "original_language": "eng",
-  "original_publisher": "Harper"
+  "original_publisher": "Harper",
+  "cover_url_source": "https://books.google.com/books/content?id=RCr_SE1DNoUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:41:53+00:00"
 }

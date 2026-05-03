@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "CORPORATE CYBERSECURITY An insider’s guide showing companies how to spot and remedy vulnerabilities in their security programs A bug bounty program is offered by organizations for people to receive recognition and compensation for reporting bugs, especially those pertaining to security exploits and vulnerabilities. Corporate Cybersecurity gives cyber and application security engineers (who may have little or no experience with a bounty program) a hands-on guide for creating or managing an effect...",
-  "cover_url": "https://books.google.com/books/content?id=wsVFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=wsVFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/web-security-essentials.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/web-security-essentials.jpg",
   "isbn": "9781119782520",
   "first_published": 2021,
   "pages": 228,
@@ -29,5 +29,8 @@
   },
   "editions_count": 4,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL34757380M"
+  "representative_edition_key": "/books/OL34757380M",
+  "cover_url_source": "https://books.google.com/books/content?id=wsVFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=wsVFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:26:43+00:00"
 }

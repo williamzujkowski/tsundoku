@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "A graphic novel in which Rorschach, an aging superhero, digs up the past in his search for answers about the death of one of his former colleagues.",
-  "cover_url": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7774899-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/watchmen.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/watchmen.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9788467473261",
@@ -97,5 +97,8 @@
       "name": "Eisner Award for Best Limited Series",
       "year": 1988
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7774899-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:30+00:00"
 }

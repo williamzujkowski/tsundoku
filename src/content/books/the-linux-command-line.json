@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "You've experienced the shiny, point-and-click surface of your Linux computer—now dive below and explore its depths with the power of the command line. The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expres",
-  "cover_url": "https://books.google.com/books/content?id=OCFKdl3wEDIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-linux-command-line.jpg",
   "isbn": "9781593273897",
   "first_published": 2012,
   "pages": 482,
@@ -52,5 +52,7 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781593273897",
-  "representative_edition_key": "/books/OL25004747M"
+  "representative_edition_key": "/books/OL25004747M",
+  "cover_url_source": "https://books.google.com/books/content?id=OCFKdl3wEDIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:55+00:00"
 }

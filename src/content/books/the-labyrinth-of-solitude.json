@@ -7,8 +7,8 @@
   "tags": [
     "essays"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/569554-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/569554-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-labyrinth-of-solitude.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-labyrinth-of-solitude.jpg",
   "open_library_url": "https://openlibrary.org/works/OL743252W",
   "first_published": 1961,
   "language": "eng",
@@ -58,5 +58,8 @@
   "editions_count": 14,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL7875215M"
+  "representative_edition_key": "/books/OL7875215M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/569554-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/569554-L.jpg",
+  "cover_cached_at": "2026-05-03T02:08:15+00:00"
 }

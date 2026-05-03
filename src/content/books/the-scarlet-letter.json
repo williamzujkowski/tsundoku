@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "In the puritan atmosphere of colonial New England, Hester Prynne is forced to wear a scarlet A (for adultery) for giving birth to an illegitimate daughter. The child's father, the minister Arthur Dimmesdale, knows peace only after he has been shamed into confessing. Hester, however, acknowledging no sin, cannot find such peace. Here is a masterful account of religious and sexual oppression, hypocrisy, and intrigue by one of the giants of American fiction.",
-  "cover_url": "https://books.google.com/books/content?id=aH37TV1M2H0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-scarlet-letter.jpg",
   "isbn": "0871299216",
   "first_published": 1850,
   "pages": 116,
@@ -403,5 +403,7 @@
   "representative_edition_key": "/books/OL34306445M",
   "wikidata_qid": "Q907568",
   "original_title": "Masturbation",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=aH37TV1M2H0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:13:02+00:00"
 }

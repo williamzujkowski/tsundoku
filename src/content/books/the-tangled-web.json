@@ -12,8 +12,8 @@
   "pages": 252,
   "google_books_url": "http://books.google.com/books?id=sn1ExAEACAAJ&dq=intitle:The+Tangled+Web&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/9650251-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9650251-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tangled-web.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tangled-web.jpg",
   "open_library_url": "https://openlibrary.org/works/OL15546753W",
   "copyright_status": "in_copyright",
   "description": "It had all started with a phone call, an urgent message that sent Nicole Barrett racing off to save her kid sister. Suddenly Nicole was trapped in a plot to protect her sister from the wrath of one of San Francisco's wealthiest businessmen, Flint Lockridge.\r\n\r\nThe web of deception become hopelessly tangled when Nicole discovered that Flint was a dangerous man whose kind efforts were undermining all her plans. The man she was trying to deceive was nobody's fool...",
@@ -29,5 +29,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "0671536532",
-  "representative_edition_key": "/books/OL24502922M"
+  "representative_edition_key": "/books/OL24502922M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9650251-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9650251-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:33+00:00"
 }

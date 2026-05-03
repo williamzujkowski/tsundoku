@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "climbing-mount-improbable",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/247000-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/247000-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/climbing-mount-improbable.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/climbing-mount-improbable.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1966483W",
   "first_published": 1996,
   "language": "eng",
@@ -68,5 +68,8 @@
   },
   "editions_count": 15,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL29324516M"
+  "representative_edition_key": "/books/OL29324516M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/247000-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/247000-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:34+00:00"
 }

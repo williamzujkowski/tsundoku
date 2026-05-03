@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "an-artist-of-the-floating-world",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4342830-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4342830-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/an-artist-of-the-floating-world.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/an-artist-of-the-floating-world.jpg",
   "open_library_url": "https://openlibrary.org/works/OL59041W",
   "first_published": 1986,
   "language": "eng",
@@ -98,5 +98,8 @@
       "name": "Costa Book Awards",
       "year": 1986
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4342830-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4342830-L.jpg",
+  "cover_cached_at": "2026-05-03T00:54:11+00:00"
 }

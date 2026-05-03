@@ -13,7 +13,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "The Day of the Jackal is a 1971 political thriller novel by English author Frederick Forsyth about a professional assassin who is contracted by the OAS, a French dissident paramilitary organisation, to kill Charles de Gaulle, the president of France.",
-  "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/FrederickForsyth_TheDayOfTheJackal.jpg/250px-FrederickForsyth_TheDayOfTheJackal.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-day-of-the-jackal.jpg",
   "pages": 416,
   "isbn": "9780553255225",
   "ddc": [
@@ -81,5 +81,7 @@
   },
   "editions_count": 68,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL7822591M"
+  "representative_edition_key": "/books/OL7822591M",
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/FrederickForsyth_TheDayOfTheJackal.jpg/250px-FrederickForsyth_TheDayOfTheJackal.jpg",
+  "cover_cached_at": "2026-05-03T02:02:25+00:00"
 }

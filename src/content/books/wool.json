@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The thrilling e-book blockbuster that grew into a \"New York Times\"-bestseller. What would happen if the world outside was deadly, and the air could kill? This is Jules's story. This is the world of \"Wool.\"",
-  "cover_url": "https://books.google.com/books/content?id=oCpYuc1dfPAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/wool.jpg",
   "isbn": "9781476733951",
   "first_published": 2012,
   "pages": 507,
@@ -59,5 +59,7 @@
   },
   "editions_count": 25,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL25443357M"
+  "representative_edition_key": "/books/OL25443357M",
+  "cover_url_source": "https://books.google.com/books/content?id=oCpYuc1dfPAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:21+00:00"
 }

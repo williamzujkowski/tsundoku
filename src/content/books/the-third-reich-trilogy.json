@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-third-reich-trilogy",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9371115-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9371115-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-third-reich-trilogy.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-third-reich-trilogy.jpg",
   "open_library_url": "https://openlibrary.org/works/OL20695739W",
   "first_published": 2005,
   "description": "The definitive account of Hitler's rise to power and the collapse of civilization in Nazi Germany, from the author of The Third Reich in Power, The Third Reich at War, and Hitler's People \"The clearest and most gripping account I've read of German life before and during the rise of the Nazis.\" —A. S Byatt, Times Literary Supplement \"Impressive in its command of an immense literature, perceptive in analysis, fluent in style, and humane in judgment, this work could only have been produced by a mas...",
@@ -59,5 +59,8 @@
   "editions_count": 7,
   "first_published_circa": false,
   "first_edition_isbn": "0143034693",
-  "representative_edition_key": "/books/OL24266178M"
+  "representative_edition_key": "/books/OL24266178M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9371115-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9371115-L.jpg",
+  "cover_cached_at": "2026-05-03T02:15:10+00:00"
 }

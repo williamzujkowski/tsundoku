@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Robert Langdon menerima telepon misterius yang mengundangnya ke Museum Louvre Paris pada tengah malam. Sesampai di sana, yang ditemui Langdon adalah mayat telanjang sang kurator museum dengan posisi dan tato aneh di perutnya. Langdon terkejut ketika menyadari bahwa teka-teki itu mengarah ke misteri terbesar sepanjang sejarah yang petunjuknya tersembunyi dalam karya-karya Da Vinci. Misteri tentang persaudaraan rahasia yang melibatkan nama-nama besar. Persaudaraan yang menjaga sebuah fakta sejarah",
-  "cover_url": "https://books.google.com/books/content?id=6-pmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-da-vinci-code.jpg",
   "isbn": "9786022911845",
   "first_published": 2003,
   "pages": 681,
@@ -126,5 +126,7 @@
   },
   "editions_count": 203,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL38222668M"
+  "representative_edition_key": "/books/OL38222668M",
+  "cover_url_source": "https://books.google.com/books/content?id=6-pmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:18+00:00"
 }

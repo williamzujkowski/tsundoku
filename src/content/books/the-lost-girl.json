@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "\"Thorndike Press Large Print Middle Reader.\"",
-  "cover_url": "https://books.google.com/books/content?id=sxLFywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-lost-girl.jpg",
   "isbn": "1432876937",
   "first_published": 2019,
   "google_books_url": "http://books.google.com/books?id=sxLFywEACAAJ&dq=intitle:The+Lost+Girl&hl=&source=gbs_api",
@@ -38,5 +38,7 @@
   },
   "editions_count": 5,
   "first_published_circa": false,
-  "representative_edition_key": "/books/OL30195628M"
+  "representative_edition_key": "/books/OL30195628M",
+  "cover_url_source": "https://books.google.com/books/content?id=sxLFywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:18+00:00"
 }

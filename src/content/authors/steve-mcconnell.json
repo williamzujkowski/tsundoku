@@ -3,7 +3,7 @@
   "slug": "steve-mcconnell",
   "book_count": 2,
   "bio": "Steven C. McConnell is an author of software engineering textbooks such as Code Complete, Rapid Development, and Software Estimation. He is cited as an expert in software engineering and project management.",
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL398460A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/steve-mcconnell.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_McConnell",
   "open_library_url": "https://openlibrary.org/authors/OL398460A",
   "_provenance": {
@@ -17,5 +17,7 @@
     "US"
   ],
   "viaf_id": "85467151",
-  "ol_author_key": "/authors/OL398460A"
+  "ol_author_key": "/authors/OL398460A",
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL398460A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:49:10+00:00"
 }

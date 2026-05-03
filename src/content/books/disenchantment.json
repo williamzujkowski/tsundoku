@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "This study of the early human sciences and their deep connections to spiritualism dispenses with the myth that separates magic and modernity. Many theorists contend that the defining feature of modernity is our collective loss of faith in spirits, myths, and magic. But in The Myth of Disenchantment, Jason A. Josephson-Storm argues against this narrative, showing that attempts to suppress magic have failed more often than not. Even the human sciences have been more enchanted than is commonly supp",
-  "cover_url": "https://books.google.com/books/content?id=xZ5yDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/disenchantment.jpg",
   "isbn": "9780226403533",
   "first_published": 2017,
   "pages": 428,
@@ -38,5 +38,7 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780226403229",
-  "representative_edition_key": "/books/OL46055995M"
+  "representative_edition_key": "/books/OL46055995M",
+  "cover_url_source": "https://books.google.com/books/content?id=xZ5yDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:08:41+00:00"
 }

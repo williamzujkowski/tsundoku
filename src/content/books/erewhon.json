@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "A satirical account of a traveller's discovery of Erewhon, land of paradoxical laws and frightening contradictions, from which he eventually makes his escape in a balloon.",
-  "cover_url": "https://books.google.com/books/content?id=gxBWAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/erewhon.jpg",
   "first_published": 1872,
   "pages": 264,
   "google_books_url": "https://play.google.com/store/books/details?id=gxBWAAAAcAAJ&source=gbs_api",
@@ -102,5 +102,7 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL53815313M"
+  "representative_edition_key": "/books/OL53815313M",
+  "cover_url_source": "https://books.google.com/books/content?id=gxBWAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:13:02+00:00"
 }

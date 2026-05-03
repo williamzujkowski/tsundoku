@@ -7,8 +7,8 @@
   "tags": [
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/119092-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/119092-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/rudin.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/rudin.jpg",
   "open_library_url": "https://openlibrary.org/works/OL43365W",
   "first_published": 1856,
   "language": "eng",
@@ -70,5 +70,8 @@
   "wikidata_qid": "Q1094891",
   "original_title": "Рудин",
   "original_language": "rus",
-  "original_publisher": "Sovremennik"
+  "original_publisher": "Sovremennik",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/119092-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/119092-L.jpg",
+  "cover_cached_at": "2026-05-03T01:48:37+00:00"
 }

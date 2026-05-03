@@ -10,8 +10,8 @@
   "reading_status": "read",
   "language": "eng",
   "description": "In an evolving universe, Gods dreams are covering Resurrection Valley, and there is no escape from the human legends. Three men find themselves in the midst of an amazing world emerging all around them. Hazar wants to be free from the vicious cycle that has monopolized his young life. Accompanied by Elem the Drifter and Atilla the Warrior of God, Hazar embarks on a dangerous and frightening journey through the Resurrection Valley. With the goal of curing his pain, Hazar begins a search for the A...",
-  "cover_url": "https://books.google.com/books/content?id=EmhQI6SGNZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=EmhQI6SGNZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-created-legend.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-created-legend.jpg",
   "isbn": "9781450278904",
   "first_published": 2011,
   "pages": 337,
@@ -27,5 +27,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL60585596M"
+  "representative_edition_key": "/books/OL60585596M",
+  "cover_url_source": "https://books.google.com/books/content?id=EmhQI6SGNZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=EmhQI6SGNZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:02:03+00:00"
 }

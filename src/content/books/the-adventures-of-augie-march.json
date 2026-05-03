@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-adventures-of-augie-march",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/400376-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/400376-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-adventures-of-augie-march.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-adventures-of-augie-march.jpg",
   "open_library_url": "https://openlibrary.org/works/OL506116W",
   "first_published": 1953,
   "language": "eng",
@@ -84,5 +84,8 @@
       "name": "National Book Award for Fiction",
       "year": 1954
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/400376-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/400376-L.jpg",
+  "cover_cached_at": "2026-05-03T01:55:30+00:00"
 }

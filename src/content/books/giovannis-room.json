@@ -7,8 +7,8 @@
   "tags": [
     "psychology"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/97395-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/97395-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/giovannis-room.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/giovannis-room.jpg",
   "open_library_url": "https://openlibrary.org/works/OL228702W",
   "first_published": 1956,
   "language": "eng",
@@ -107,5 +107,8 @@
   "wikidata_qid": "Q5563645",
   "original_title": "Giovanni's Room",
   "original_language": "eng",
-  "original_publisher": "Dial Press"
+  "original_publisher": "Dial Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/97395-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/97395-L.jpg",
+  "cover_cached_at": "2026-05-03T01:17:48+00:00"
 }

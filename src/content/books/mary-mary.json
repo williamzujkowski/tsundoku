@@ -10,8 +10,8 @@
   "reading_status": "read",
   "google_books_url": "http://books.google.com/books?id=HnVk0QEACAAJ&dq=intitle:Mary,+Mary&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/7267770-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7267770-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mary-mary.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mary-mary.jpg",
   "open_library_url": "https://openlibrary.org/works/OL25595002W",
   "first_published": 1818,
   "copyright_status": "public_domain",
@@ -33,5 +33,8 @@
   },
   "editions_count": 4,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL35899948M"
+  "representative_edition_key": "/books/OL35899948M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7267770-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7267770-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:53+00:00"
 }

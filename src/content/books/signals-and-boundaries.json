@@ -11,8 +11,8 @@
   "first_published": 2012,
   "language": "eng",
   "description": "An overarching framework for comparing and steering complex adaptive systems is developed through understanding the mechanisms that generate their intricate signal/boundary hierarchies. Complex adaptive systems (cas), including ecosystems, governments, biological cells, and markets, are characterized by intricate hierarchical arrangements of boundaries and signals. In ecosystems, for example, niches act as semi-permeable boundaries, and smells and visual patterns serve as signals; governments ha...",
-  "cover_url": "https://books.google.com/books/content?id=jUy9AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=jUy9AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/signals-and-boundaries.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/signals-and-boundaries.jpg",
   "isbn": "9780262304979",
   "pages": 317,
   "google_books_url": "https://play.google.com/store/books/details?id=jUy9AAAAQBAJ&source=gbs_api",
@@ -39,5 +39,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780262306812",
-  "representative_edition_key": "/books/OL29141707M"
+  "representative_edition_key": "/books/OL29141707M",
+  "cover_url_source": "https://books.google.com/books/content?id=jUy9AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=jUy9AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:46+00:00"
 }

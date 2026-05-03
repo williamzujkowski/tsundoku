@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "pamela",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/13006535-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/13006535-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/pamela.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/pamela.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1150772W",
   "first_published": 1740,
   "language": "eng",
@@ -105,5 +105,8 @@
   "representative_edition_key": "/books/OL7465620M",
   "wikidata_qid": "Q2048624",
   "original_title": "Pamela; or, Virtue Rewarded",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/13006535-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/13006535-L.jpg",
+  "cover_cached_at": "2026-05-03T01:39:41+00:00"
 }

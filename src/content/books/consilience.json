@@ -6,8 +6,8 @@
   "slug": "consilience",
   "tags": [],
   "description": "NATIONAL BESTSELLER • \"A dazzling journey across the sciences and humanities in search of deep laws to unite them.\" —The Wall Street Journal One of our greatest scientists—and the winner of two Pulitzer Prizes for On Human Nature and The Ants—gives us a work of visionary importance that may be the crowning achievement of his career. In Consilience (a word that originally meant \"jumping together\"), Edward O. Wilson renews the Enlightenment's search for a unified theory of knowledge in disciplines...",
-  "cover_url": "https://books.google.com/books/content?id=-YsWNfTXU7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=-YsWNfTXU7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/consilience.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/consilience.jpg",
   "isbn": "9780679768678",
   "first_published": 1999,
   "pages": 385,
@@ -50,5 +50,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9780679768678",
-  "representative_edition_key": "/books/OL7700946M"
+  "representative_edition_key": "/books/OL7700946M",
+  "cover_url_source": "https://books.google.com/books/content?id=-YsWNfTXU7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=-YsWNfTXU7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:03:51+00:00"
 }

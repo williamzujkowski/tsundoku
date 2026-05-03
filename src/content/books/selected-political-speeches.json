@@ -11,8 +11,8 @@
   "description": "\"As the Roman Republic lurched to its close, amid corruption, ruthless power struggles and gross inequality, Cicero produced some of the most stirring and eloquent speeches ever written. Whether he is quashing the Catiline conspiracy, defending the poet Archais or railing against Mark Anthony in the Philippics--The magnificent speeches in defense of liberty that cost him his life--cicero vividly evokes for us the cut and thrust of the Roman assembly, Senate and court rooms.\"--Provided by publisher.",
   "open_library_url": "https://openlibrary.org/works/OL10434598W",
   "first_published": 1550,
-  "cover_url": "https://books.google.com/books/content?id=bOScKMCjxn0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=bOScKMCjxn0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/selected-political-speeches.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/selected-political-speeches.jpg",
   "isbn": "9780140442144",
   "pages": 492,
   "google_books_url": "http://books.google.com/books?id=bOScKMCjxn0C&dq=Selected+Political+Speeches+Marcus+Tullius+Cicero&hl=&source=gbs_api",
@@ -152,5 +152,8 @@
   "first_published_circa": false,
   "original_language": "lat",
   "original_title": "Orationum M.T. Ciceronis volumen III.",
-  "representative_edition_key": "/books/OL10507401M"
+  "representative_edition_key": "/books/OL10507401M",
+  "cover_url_source": "https://books.google.com/books/content?id=bOScKMCjxn0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=bOScKMCjxn0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:05+00:00"
 }

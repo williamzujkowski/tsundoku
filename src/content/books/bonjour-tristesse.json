@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Bonjour Tristesse is a novel by Françoise Sagan. Published in 1954, when the author was only 18, it was an overnight sensation. The title is derived from a poem by Paul Éluard, \"À peine défigurée\", which begins with the lines \"Adieu tristesse/Bonjour tristesse...\" An English-language film adaptation was released in 1958, directed by Otto Preminger.",
-  "cover_url": "",
-  "cover_url_large": "",
+  "cover_url": "/tsundoku/cached/covers/bonjour-tristesse.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/bonjour-tristesse.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9782266195584",
@@ -80,7 +80,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "description": "fix_non_english_v1_wikipedia"
+    "description": "fix_non_english_v1_wikipedia",
+    "cover_url": "wikipedia_book_v1"
   },
   "editions_count": 96,
   "first_published_circa": false,
@@ -99,5 +100,7 @@
       "name": "Prix des Critiques",
       "year": 1954
     }
-  ]
+  ],
+  "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/e4/BonjourTristesse.jpg",
+  "cover_cached_at": "2026-05-03T01:00:50+00:00"
 }

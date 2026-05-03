@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "gypsy-ballads",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/651184-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/651184-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/gypsy-ballads.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/gypsy-ballads.jpg",
   "open_library_url": "https://openlibrary.org/works/OL722516W",
   "first_published": 1953,
   "language": "eng",
@@ -33,5 +33,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL37796687M"
+  "representative_edition_key": "/books/OL37796687M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/651184-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/651184-L.jpg",
+  "cover_cached_at": "2026-05-03T01:18:45+00:00"
 }

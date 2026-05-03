@@ -14,7 +14,7 @@
   ],
   "reading_status": "read",
   "description": "\"The Three Impostors\" is a controversial work that has sparked debate over its existence and authorship. The text is often attributed to various historical figures, including Frederick II, Pierre des Vignes, and others, but its true origins remain shrouded in mystery. The treatise is divided into six chapters, each addressing different aspects of theology and philosophy. It critiques the traditional notions of God, the reasons behind religious belief, and the establishment of religions by politi",
-  "cover_url": "https://books.google.com/books/content?id=S87MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-three-impostors.jpg",
   "isbn": "9791041806836",
   "first_published": 1895,
   "pages": 198,
@@ -66,5 +66,7 @@
   "editions_count": 71,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL33935123M"
+  "representative_edition_key": "/books/OL33935123M",
+  "cover_url_source": "https://books.google.com/books/content?id=S87MEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:14+00:00"
 }

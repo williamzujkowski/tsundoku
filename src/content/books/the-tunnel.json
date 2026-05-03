@@ -15,7 +15,7 @@
   "first_published": 1955,
   "google_books_url": "http://books.google.com/books?id=7vBCzwEACAAJ&dq=intitle:The+Tunnel&hl=&source=gbs_api",
   "language": "eng",
-  "cover_url": "https://covers.openlibrary.org/b/id/14630892-M.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tunnel.jpg",
   "copyright_status": "likely_public_domain",
   "pages": 272,
   "isbn": "9780345332127",
@@ -73,5 +73,7 @@
   "original_publisher": "Charles Scribner's Sons",
   "series": {
     "name": "Heinlein juveniles"
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14630892-M.jpg",
+  "cover_cached_at": "2026-05-03T02:16:27+00:00"
 }

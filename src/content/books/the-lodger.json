@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Somewhere in London a madman was at large. And then one night there came a knock at the door of a quiet lodging house in the Marylebone Road. . . . This novel, based on the Jack the Ripper murders, was made into a film by Alfred Hitchcock. \"One of the best suspense novels ever written.\" - The New York Times \"This is a beautifully wrought novel of psychological suspense that should have a place on any mystery buff's shelf of classics.\" - Chicago Sun-Times \"The Ripper murders still arouse exciteme",
-  "cover_url": "https://books.google.com/books/content?id=dc2CnQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-lodger.jpg",
   "isbn": "1542850371",
   "first_published": 1913,
   "pages": 140,
@@ -78,5 +78,7 @@
   "editions_count": 163,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34346632M"
+  "representative_edition_key": "/books/OL34346632M",
+  "cover_url_source": "https://books.google.com/books/content?id=dc2CnQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:09:00+00:00"
 }

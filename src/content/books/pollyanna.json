@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Pollyanna is a best-selling 1913 novel by Eleanor H. Porter that is now considered a classic of children's literature, with the title character's name becoming a popular term for someone with the same optimistic outlook.",
-  "cover_url": "https://books.google.com/books/content?id=TDlFAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/pollyanna.jpg",
   "isbn": "9781627937528",
   "first_published": 1913,
   "pages": 308,
@@ -115,5 +115,7 @@
   "representative_edition_key": "/books/OL36795265M",
   "wikidata_qid": "Q2348190",
   "original_title": "Pollyanna",
-  "original_publisher": "Louis Coues Page"
+  "original_publisher": "Louis Coues Page",
+  "cover_url_source": "https://books.google.com/books/content?id=TDlFAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:40+00:00"
 }

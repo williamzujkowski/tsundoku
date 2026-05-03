@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Terry Pratchett's profoundly irreverent novels are consistent number one bestsellers in England, where they have garnered him a revered position in the halls of parody next to Mark Twain, Kurt Vonnegut, Douglas Adams, and Carl Hiaasen. In The Light Fantastic only one individual can save the world from a disastrous collision. Unfortunately, the hero happens to be the singularly inept wizard Rincewind, who was last seen falling off the edge of the world...",
-  "cover_url": "https://books.google.com/books/content?id=fAU6uoSrTJEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-light-fantastic.jpg",
   "isbn": "9780061020704",
   "first_published": 1986,
   "pages": 276,
@@ -66,5 +66,7 @@
   "series": {
     "name": "Discworld",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=fAU6uoSrTJEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:53+00:00"
 }

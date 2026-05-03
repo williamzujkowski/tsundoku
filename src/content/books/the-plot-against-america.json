@@ -7,8 +7,8 @@
   "tags": [
     "historical-fiction"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8349176-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8349176-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-plot-against-america.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-plot-against-america.jpg",
   "open_library_url": "https://openlibrary.org/works/OL74664W",
   "first_published": 2004,
   "language": "eng",
@@ -101,5 +101,8 @@
       "name": "Sidewise Award for Alternate History",
       "year": 2004
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8349176-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8349176-L.jpg",
+  "cover_cached_at": "2026-05-03T02:11:30+00:00"
 }

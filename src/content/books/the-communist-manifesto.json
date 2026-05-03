@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/14837538-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/14837538-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-communist-manifesto.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-communist-manifesto.jpg",
   "open_library_url": "https://openlibrary.org/works/OL37986498W",
   "first_published": 1848,
   "language": "eng",
@@ -224,5 +224,8 @@
   "representative_edition_key": "/books/OL33815972M",
   "wikidata_qid": "Q40591",
   "original_title": "Das Kommunistische Manifest",
-  "original_language": "ger"
+  "original_language": "ger",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/14837538-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/14837538-L.jpg",
+  "cover_cached_at": "2026-05-03T02:01:04+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "romance"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/313084-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/313084-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-tale-of-genji.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-tale-of-genji.jpg",
   "open_library_url": "https://openlibrary.org/works/OL7910145W",
   "first_published": 1925,
   "language": "eng",
@@ -168,5 +168,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL24246901M",
   "wikidata_qid": "Q8269",
-  "original_title": "源氏物語"
+  "original_title": "源氏物語",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/313084-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/313084-L.jpg",
+  "cover_cached_at": "2026-05-03T02:14:29+00:00"
 }

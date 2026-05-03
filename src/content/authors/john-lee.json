@@ -2,9 +2,11 @@
   "name": "John Lee",
   "slug": "john-lee",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL426697A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-lee.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL426697A",
   "death_year": 1781,
   "bio": "American mathematician (born 1950)",
-  "birth_year": 1950
+  "birth_year": 1950,
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL426697A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:44:38+00:00"
 }

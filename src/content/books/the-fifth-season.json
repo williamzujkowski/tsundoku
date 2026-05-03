@@ -9,8 +9,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8133598-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8133598-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-fifth-season.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-fifth-season.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17363125W",
   "first_published": 2015,
   "language": "eng",
@@ -87,5 +87,8 @@
   "series": {
     "name": "The Broken Earth",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8133598-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8133598-L.jpg",
+  "cover_cached_at": "2026-05-03T02:04:30+00:00"
 }

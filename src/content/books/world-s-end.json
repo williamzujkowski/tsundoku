@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A classic science fiction tale originally published in Galaxy Magazine. A surprise nuclear war may cause the End of the World, but not the way anyone could have imagined. __________ Edmond Moore Hamilton was a popular author of science fiction stories and novels throughout the mid-twentieth century.",
-  "cover_url": "https://books.google.com/books/content?id=ydJ4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/world-s-end.jpg",
   "isbn": "9783962555030",
   "first_published": 2007,
   "pages": 187,
@@ -40,5 +40,7 @@
   "editions_count": 10,
   "first_published_circa": false,
   "first_edition_isbn": "9781434485663",
-  "representative_edition_key": "/books/OL11974025M"
+  "representative_edition_key": "/books/OL11974025M",
+  "cover_url_source": "https://books.google.com/books/content?id=ydJ4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:27+00:00"
 }

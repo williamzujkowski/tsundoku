@@ -11,8 +11,8 @@
   "first_published": 2017,
   "language": "eng",
   "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work. This work is in the public domain in the United States of ...",
-  "cover_url": "https://books.google.com/books/content?id=xKY7jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=xKY7jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-father.png",
+  "cover_url_large": "/tsundoku/cached/covers/the-father.png",
   "isbn": "1297567048",
   "pages": 118,
   "google_books_url": "http://books.google.com/books?id=xKY7jgEACAAJ&dq=The+Father+August+Strindberg&hl=&source=gbs_api",
@@ -21,5 +21,8 @@
   "gutenberg_id": 8499,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/8499",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/8499.html.images",
-  "librivox_url": "https://librivox.org/the-father-by-august-strindberg/"
+  "librivox_url": "https://librivox.org/the-father-by-august-strindberg/",
+  "cover_url_source": "https://books.google.com/books/content?id=xKY7jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=xKY7jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:03:54+00:00"
 }

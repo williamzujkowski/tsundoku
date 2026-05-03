@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "stoner",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/8310729-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8310729-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/stoner.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/stoner.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3511459W",
   "first_published": 1965,
   "language": "eng",
@@ -79,5 +79,8 @@
   "wikidata_qid": "Q7619282",
   "original_title": "Stoner",
   "original_language": "eng",
-  "original_publisher": "Viking Press"
+  "original_publisher": "Viking Press",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8310729-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8310729-L.jpg",
+  "cover_cached_at": "2026-05-03T01:53:15+00:00"
 }

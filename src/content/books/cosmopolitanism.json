@@ -7,8 +7,8 @@
   "tags": [
     "politics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/251269-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/251269-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cosmopolitanism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cosmopolitanism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8002523W",
   "first_published": 2007,
   "language": "eng",
@@ -36,5 +36,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL29592590M"
+  "representative_edition_key": "/books/OL29592590M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/251269-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/251269-L.jpg",
+  "cover_cached_at": "2026-05-03T01:04:29+00:00"
 }

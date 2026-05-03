@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "new-hampshire",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5899190-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5899190-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/new-hampshire.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/new-hampshire.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1108072W",
   "first_published": 1923,
   "language": "eng",
@@ -37,5 +37,8 @@
   "editions_count": 4,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23007300M"
+  "representative_edition_key": "/books/OL23007300M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5899190-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5899190-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:16+00:00"
 }

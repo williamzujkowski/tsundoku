@@ -9,7 +9,7 @@
     "historical-fiction"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=zRvhgk7HkNQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lavengro.jpg",
   "first_published": 1851,
   "pages": 584,
   "google_books_url": "https://play.google.com/store/books/details?id=zRvhgk7HkNQC&source=gbs_api",
@@ -95,5 +95,7 @@
   "wikidata_qid": "Q6502555",
   "original_title": "Lavengro",
   "original_language": "eng",
-  "original_publisher": "John Murray"
+  "original_publisher": "John Murray",
+  "cover_url_source": "https://books.google.com/books/content?id=zRvhgk7HkNQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:28:47+00:00"
 }

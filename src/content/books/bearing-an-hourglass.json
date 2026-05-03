@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Like On a Pale Horse, this second, complete-in-itself novel of the Incarnations of Immortality is a richly imagined and always fascinating story. And again, Piers Anthony adds to his gripping plot a serious, though-provoking study of good and evil. When life seemed pointless to Norton, he accepted the position as the Incarnation of Time, even though it meant living backward from present to past. The other seemily all-powerful Incarnates of Immortality—Death, Fate, War, and Nature—made him welcom",
-  "cover_url": "https://books.google.com/books/content?id=71tXFfvYO0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/bearing-an-hourglass.jpg",
   "isbn": "9780307815620",
   "first_published": 1984,
   "pages": 381,
@@ -55,5 +55,7 @@
   "series": {
     "name": "Incarnations of Immortality",
     "position": 2
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=71tXFfvYO0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:53+00:00"
 }

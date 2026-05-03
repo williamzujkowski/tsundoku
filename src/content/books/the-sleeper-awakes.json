@@ -8,8 +8,8 @@
     "fantasy",
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/574886-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/574886-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-sleeper-awakes.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-sleeper-awakes.jpg",
   "open_library_url": "https://openlibrary.org/works/OL52151W",
   "first_published": 1899,
   "language": "eng",
@@ -91,5 +91,8 @@
   "representative_edition_key": "/books/OL34211941M",
   "wikidata_qid": "Q650949",
   "original_title": "When The Sleeper Wakes",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/574886-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/574886-L.jpg",
+  "cover_cached_at": "2026-05-03T02:13:49+00:00"
 }

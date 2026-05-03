@@ -7,8 +7,8 @@
   "tags": [
     "biography"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5071195-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5071195-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/a-distant-mirror.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/a-distant-mirror.jpg",
   "open_library_url": "https://openlibrary.org/works/OL3378547W",
   "first_published": 1600,
   "language": "eng",
@@ -83,5 +83,8 @@
   "wikidata_qid": "Q2234406",
   "original_title": "A Distant Mirror",
   "original_language": "eng",
-  "original_publisher": "Ballantine Books"
+  "original_publisher": "Ballantine Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5071195-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5071195-L.jpg",
+  "cover_cached_at": "2026-05-03T00:51:44+00:00"
 }

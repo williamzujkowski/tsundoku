@@ -8,8 +8,8 @@
     "sci-fi",
     "utopian"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/8600692-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8600692-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/too-like-the-lightning.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/too-like-the-lightning.jpg",
   "open_library_url": "https://openlibrary.org/works/OL19800093W",
   "first_published": 2016,
   "language": "eng",
@@ -61,5 +61,8 @@
   "series": {
     "name": "Terra Ignota",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8600692-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8600692-L.jpg",
+  "cover_cached_at": "2026-05-03T02:21:33+00:00"
 }

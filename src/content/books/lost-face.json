@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Lost Face is a collection of seven short stories by Jack London. It takes its name from the first short story in the book, about a European adventurer in the Yukon who outwits his Indian captors' plans to torture him. The book includes London's best-known short story, \"To Build a Fire",
-  "cover_url": "https://books.google.com/books/content?id=WvJizgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/lost-face.jpg",
   "isbn": "9798728149347",
   "first_published": 1910,
   "pages": 138,
@@ -58,5 +58,7 @@
   "wikidata_qid": "Q4552609",
   "original_title": "Lost Face",
   "original_language": "eng",
-  "original_publisher": "Macmillan Inc."
+  "original_publisher": "Macmillan Inc.",
+  "cover_url_source": "https://books.google.com/books/content?id=WvJizgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:07+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "water-margin",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/7997578-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/7997578-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/water-margin.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/water-margin.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8599313W",
   "first_published": 1963,
   "language": "eng",
@@ -38,5 +38,8 @@
   },
   "editions_count": 1,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL26109454M"
+  "representative_edition_key": "/books/OL26109454M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/7997578-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/7997578-L.jpg",
+  "cover_cached_at": "2026-05-03T02:26:31+00:00"
 }

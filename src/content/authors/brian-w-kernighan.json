@@ -2,7 +2,7 @@
   "name": "Brian W. Kernighan",
   "slug": "brian-w-kernighan",
   "book_count": 3,
-  "photo_url": "https://covers.openlibrary.org/a/id/13130500-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/brian-w-kernighan.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL946967A",
   "birth_year": 1942,
   "bio": "Canadian computer scientist, co-inventor of the Unix operating system",
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "108136058",
-  "ol_author_key": "/authors/OL946967A"
+  "ol_author_key": "/authors/OL946967A",
+  "photo_url_source": "https://covers.openlibrary.org/a/id/13130500-M.jpg",
+  "photo_cached_at": "2026-05-03T00:40:27+00:00"
 }

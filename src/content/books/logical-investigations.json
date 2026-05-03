@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "logical-investigations",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/266239-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/266239-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/logical-investigations.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/logical-investigations.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1304034W",
   "first_published": 1900,
   "language": "eng",
@@ -74,5 +74,8 @@
   "original_language": "ger",
   "original_title": "Logische Untersuchungen",
   "first_edition_isbn": "9024725178",
-  "representative_edition_key": "/books/OL18730665M"
+  "representative_edition_key": "/books/OL18730665M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/266239-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/266239-L.jpg",
+  "cover_cached_at": "2026-05-03T01:30:51+00:00"
 }

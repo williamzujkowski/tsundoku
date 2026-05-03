@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "Agatha Christie’s first Hercule Poirot detective novel, The Mysterious Affair at Styles, is now available in a fine exclusive collector’s edition featuring beautiful cover art from artist Laci Fowler and distinctive interior treatments, making it ideal for fiction lovers and book collectors alike. Each collectible volume will be the perfect addition to any well-appointed library. The Harper Muse Classics: Painted Edition of The Mysterious Affair at Styles is perfect for special-edition book coll",
-  "cover_url": "https://books.google.com/books/content?id=91hzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-mysterious-affair-at-styles.jpg",
   "isbn": "9780785294757",
   "first_published": 1920,
   "pages": 220,
@@ -123,5 +123,7 @@
   "original_publisher": "John Lane",
   "series": {
     "name": "canon of Hercule Poirot"
-  }
+  },
+  "cover_url_source": "https://books.google.com/books/content?id=91hzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:10:33+00:00"
 }

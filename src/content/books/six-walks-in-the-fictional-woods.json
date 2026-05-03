@@ -9,8 +9,8 @@
   "first_published": 1994,
   "language": "eng",
   "description": "In this exhilarating book, we accompany Eco as he explores the intricacies of fictional form and method. Using examples from fairy tales and Flaubert, Poe and Mickey Spillane, Eco draws us in with a novelist’s techniques, making us his collaborators in the creation of his text and in the investigation of some of fiction's most basic mechanisms.",
-  "cover_url": "https://books.google.com/books/content?id=OVlc7GZWvB8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=OVlc7GZWvB8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/six-walks-in-the-fictional-woods.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/six-walks-in-the-fictional-woods.jpg",
   "isbn": "0674810503",
   "pages": 172,
   "google_books_url": "http://books.google.com/books?id=OVlc7GZWvB8C&dq=Six+Walks+in+the+Fictional+Woods+Umberto+Eco&hl=&source=gbs_api",
@@ -55,5 +55,8 @@
   "first_published_circa": false,
   "original_language": "rus",
   "original_title": "Shestʹ progulok v literaturnykh lesakh",
-  "representative_edition_key": "/books/OL1423153M"
+  "representative_edition_key": "/books/OL1423153M",
+  "cover_url_source": "https://books.google.com/books/content?id=OVlc7GZWvB8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=OVlc7GZWvB8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:50:59+00:00"
 }

@@ -8,8 +8,8 @@
     "computing"
   ],
   "description": "Processing simple forms of data - Processing arbitrarily large data - More on processing arbitrarily large data - Abstracting designs - Generative recursion - Changing the state of variables - Changing compound values.",
-  "cover_url": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/how-to-design-programs.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/how-to-design-programs.jpg",
   "isbn": "0262062186",
   "first_published": 2001,
   "pages": 728,
@@ -59,5 +59,8 @@
   "wikidata_qid": "Q5918555",
   "original_title": "How to Design Programs",
   "original_language": "eng",
-  "original_publisher": "The MIT Press"
+  "original_publisher": "The MIT Press",
+  "cover_url_source": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:21:33+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "r-philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/11376912-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/11376912-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ion.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ion.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24675372W",
   "first_published": 1767,
   "language": "eng",
@@ -21,5 +21,8 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/1635",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/1635.html.images",
   "copyright_status": "public_domain",
-  "librivox_url": "https://librivox.org/ion-by-plato/"
+  "librivox_url": "https://librivox.org/ion-by-plato/",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/11376912-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/11376912-L.jpg",
+  "cover_cached_at": "2026-05-03T01:25:40+00:00"
 }

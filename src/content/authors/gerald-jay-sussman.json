@@ -2,7 +2,7 @@
   "name": "Gerald Jay Sussman",
   "slug": "gerald-jay-sussman",
   "book_count": 2,
-  "photo_url": "https://covers.openlibrary.org/a/id/7243870-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/gerald-jay-sussman.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL1963807A",
   "birth_year": 1947,
   "bio": "American computer scientist",
@@ -38,5 +38,7 @@
       "name": "AAAI Fellow",
       "year": 1990
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/id/7243870-M.jpg",
+  "photo_cached_at": "2026-05-03T00:43:13+00:00"
 }

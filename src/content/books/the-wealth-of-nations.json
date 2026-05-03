@@ -7,8 +7,8 @@
   "tags": [
     "economics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12816911-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12816911-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-wealth-of-nations.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-wealth-of-nations.jpg",
   "open_library_url": "https://openlibrary.org/works/OL76827W",
   "first_published": 1776,
   "language": "eng",
@@ -138,5 +138,8 @@
   "wikidata_qid": "Q233562",
   "original_title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
   "original_language": "eng",
-  "original_publisher": "William Strahan"
+  "original_publisher": "William Strahan",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12816911-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12816911-L.jpg",
+  "cover_cached_at": "2026-05-03T02:17:06+00:00"
 }

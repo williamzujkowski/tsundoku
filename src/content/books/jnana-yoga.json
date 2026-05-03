@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "jnana-yoga",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/1859014-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/1859014-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/jnana-yoga.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/jnana-yoga.jpg",
   "open_library_url": "https://openlibrary.org/works/OL8399095W",
   "first_published": 1899,
   "language": "eng",
@@ -38,5 +38,8 @@
   "representative_edition_key": "/books/OL9701173M",
   "wikidata_qid": "Q6203929",
   "original_title": "Jnana Yoga",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/1859014-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/1859014-L.jpg",
+  "cover_cached_at": "2026-05-03T01:26:07+00:00"
 }

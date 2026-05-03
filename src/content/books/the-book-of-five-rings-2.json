@@ -11,8 +11,8 @@
   "first_published": 1642,
   "language": "eng",
   "description": "The Book of Five Rings by Miyamoto Musashi from Coterie Classics All Coterie Classics have been formatted for ereaders and devices and include a bonus link to the free audio book. “Think lightly of yourself and deeply of the world” ― Miyamoto Musashi, A Book of Five Rings The Book of Five Rings is a classic collection of wisdom and strategy.",
-  "cover_url": "https://books.google.com/books/content?id=CZs6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=CZs6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-book-of-five-rings-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-book-of-five-rings-2.jpg",
   "isbn": "9781681958996",
   "pages": 77,
   "google_books_url": "https://play.google.com/store/books/details?id=CZs6DAAAQBAJ&source=gbs_api",
@@ -116,5 +116,8 @@
   "original_language": "jpn",
   "original_title": "Gorin no sho",
   "representative_edition_key": "/books/OL46095954M",
-  "wikidata_qid": "Q572180"
+  "wikidata_qid": "Q572180",
+  "cover_url_source": "https://books.google.com/books/content?id=CZs6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=CZs6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:58:55+00:00"
 }

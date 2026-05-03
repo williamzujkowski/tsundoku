@@ -8,8 +8,8 @@
     "math",
     "philosophy"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/121528-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/121528-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/mathematical-thought-from-ancient-to-modern-times.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mathematical-thought-from-ancient-to-modern-times.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1947921W",
   "first_published": 1972,
   "language": "eng",
@@ -37,5 +37,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL25563024M"
+  "representative_edition_key": "/books/OL25563024M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/121528-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/121528-L.jpg",
+  "cover_cached_at": "2026-05-03T01:31:58+00:00"
 }

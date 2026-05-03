@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/134954-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/134954-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-art-of-computer-programming-volume-1.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-art-of-computer-programming-volume-1.jpg",
   "open_library_url": "https://openlibrary.org/works/OL14941572W",
   "first_published": 1968,
   "language": "eng",
@@ -54,5 +54,8 @@
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL3420932M",
   "wikidata_qid": "Q47752444",
-  "original_title": "The Art of Computer Programming"
+  "original_title": "The Art of Computer Programming",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/134954-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/134954-L.jpg",
+  "cover_cached_at": "2026-05-03T01:56:07+00:00"
 }

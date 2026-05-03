@@ -2,7 +2,7 @@
   "name": "David Kahn",
   "slug": "david-kahn",
   "book_count": 1,
-  "photo_url": "https://covers.openlibrary.org/a/olid/OL2625289A-M.jpg",
+  "photo_url": "/tsundoku/cached/authors/david-kahn.jpg",
   "open_library_url": "https://openlibrary.org/authors/OL2625289A",
   "birth_year": 1930,
   "bio": "American historian, journalist and writer (1930-2024)",
@@ -25,5 +25,7 @@
       "name": "IACR Fellow",
       "year": 2011
     }
-  ]
+  ],
+  "photo_url_source": "https://covers.openlibrary.org/a/olid/OL2625289A-M.jpg",
+  "photo_cached_at": "2026-05-03T00:41:16+00:00"
 }

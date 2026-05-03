@@ -11,8 +11,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "A clear-eyed account of learning how to lead in a chaotic world, by General Jim Mattis—the former Secretary of Defense and one of the most formidable strategic thinkers of our time—and Bing West, a former assistant secretary of defense and combat Marine.\r\n\r\nCall Sign Chaos is the account of Jim Mattis’s storied career, from wide-ranging leadership roles in three wars to ultimately commanding a quarter of a million troops across the Middle East.",
-  "cover_url": "https://books.google.com/books/content?id=4i6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=4i6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/call-sign-chaos-learning-to-lead.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/call-sign-chaos-learning-to-lead.jpg",
   "isbn": "9780812996845",
   "first_published": 2019,
   "pages": 337,
@@ -63,5 +63,8 @@
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780812996845",
-  "representative_edition_key": "/books/OL27853952M"
+  "representative_edition_key": "/books/OL27853952M",
+  "cover_url_source": "https://books.google.com/books/content?id=4i6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=4i6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:26+00:00"
 }

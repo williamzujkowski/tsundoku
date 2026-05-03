@@ -8,8 +8,8 @@
     "astronomy",
     "physics"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/5807154-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5807154-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/parts-of-animals.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/parts-of-animals.jpg",
   "open_library_url": "https://openlibrary.org/works/OL151628W",
   "first_published": 1853,
   "language": "eng",
@@ -45,5 +45,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL8500916M"
+  "representative_edition_key": "/books/OL8500916M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5807154-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5807154-L.jpg",
+  "cover_cached_at": "2026-05-03T01:40:22+00:00"
 }

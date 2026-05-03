@@ -8,8 +8,8 @@
     "math"
   ],
   "description": "Category Theory has developed rapidly. This book aims to present those ideas and methods which can now be effectively used by Mathe maticians working in a variety of other fields of Mathematical research. This occurs at several levels. On the first level, categories provide a convenient conceptual language, based on the notions of category, functor, natural transformation, contravariance, and functor category. These notions are presented, with appropriate examples, in Chapters I and II. Next com...",
-  "cover_url": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/category-theory-for-the-working-mathematician.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/category-theory-for-the-working-mathematician.jpg",
   "isbn": "9781461298397",
   "first_published": 2013,
   "pages": 265,
@@ -28,5 +28,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781461298397",
-  "representative_edition_key": "/books/OL37233804M"
+  "representative_edition_key": "/books/OL37233804M",
+  "cover_url_source": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=6KPSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:01:48+00:00"
 }

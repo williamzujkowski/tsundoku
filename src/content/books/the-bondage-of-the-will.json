@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "the-bondage-of-the-will",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/9965058-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9965058-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/the-bondage-of-the-will.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-bondage-of-the-will.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16824694W",
   "first_published": 1823,
   "language": "eng",
@@ -31,5 +31,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL34004217M"
+  "representative_edition_key": "/books/OL34004217M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9965058-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9965058-L.jpg",
+  "cover_cached_at": "2026-05-03T01:58:17+00:00"
 }

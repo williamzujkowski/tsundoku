@@ -7,8 +7,8 @@
   "tags": [
     "sci-fi"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10069547-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10069547-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/flatland.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/flatland.jpg",
   "open_library_url": "https://openlibrary.org/works/OL118388W",
   "first_published": 1884,
   "language": "eng",
@@ -130,5 +130,8 @@
   "representative_edition_key": "/books/OL34286543M",
   "wikidata_qid": "Q728312",
   "original_title": "Flatland",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10069547-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10069547-L.jpg",
+  "cover_cached_at": "2026-05-03T01:14:40+00:00"
 }

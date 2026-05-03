@@ -12,7 +12,7 @@
   ],
   "reading_status": "read",
   "description": "If you like a villain to be a proper villain then Oberzhon is the genuine article. What a villain! What an adventure! There are crimes for which no punishment is adequate, offences that the written law cannot efface. When conventional justice fails The Three Just Men employ their great intellect and cunning. They use their own methods, carry out their own verdicts. There can be no compromise.",
-  "cover_url": "https://books.google.com/books/content?id=L8FU5aS_Fp4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-three-just-men.jpg",
   "isbn": "9780755115198",
   "first_published": 1982,
   "pages": 299,
@@ -51,5 +51,7 @@
   "original_language": "ger",
   "original_title": "Die drei Gerechten",
   "first_edition_isbn": "9783442011704",
-  "representative_edition_key": "/books/OL28761590M"
+  "representative_edition_key": "/books/OL28761590M",
+  "cover_url_source": "https://books.google.com/books/content?id=L8FU5aS_Fp4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:15:14+00:00"
 }

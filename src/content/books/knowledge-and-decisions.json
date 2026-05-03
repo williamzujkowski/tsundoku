@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "knowledge-and-decisions",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/298729-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/298729-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/knowledge-and-decisions.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/knowledge-and-decisions.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1935779W",
   "first_published": 1980,
   "language": "eng",
@@ -50,5 +50,8 @@
   "representative_edition_key": "/books/OL609837M",
   "wikidata_qid": "Q6423341",
   "original_title": "Knowledge and Decisions",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/298729-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/298729-L.jpg",
+  "cover_cached_at": "2026-05-03T01:27:46+00:00"
 }

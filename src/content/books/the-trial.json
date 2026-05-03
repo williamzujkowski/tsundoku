@@ -11,8 +11,8 @@
   "open_library_url": "https://openlibrary.org/works/OL498691W",
   "first_published": 1983,
   "description": "In Kafka's powerful and disturbing novel, an innocent man is arrested and repeatedly interrogated for a crime that is never ever explained. Part of the Macmillan Collector’s Library, a series of stunning, clothbound, pocket-sized classics with gold-foiled edges and ribbon markers. These beautiful books make perfect gifts or a treat for any book lover. This edition is translated from German by Douglas Scott and Chris Waller, and features an afterword by David Stuart Davies. On the morning of his ...",
-  "cover_url": "https://books.google.com/books/content?id=jA_ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=jA_ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-trial.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/the-trial.jpg",
   "isbn": "9781529036060",
   "pages": 236,
   "language": "eng",
@@ -21,5 +21,8 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 7849,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/7849",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7849.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/7849.html.images",
+  "cover_url_source": "https://books.google.com/books/content?id=jA_ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=jA_ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:06+00:00"
 }

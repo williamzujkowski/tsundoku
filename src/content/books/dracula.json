@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "dracula",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/12216503-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12216503-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/dracula.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/dracula.jpg",
   "open_library_url": "https://openlibrary.org/works/OL85892W",
   "first_published": 1897,
   "language": "eng",
@@ -240,5 +240,8 @@
   "wikidata_qid": "Q41542",
   "original_title": "Dracula",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12216503-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12216503-L.jpg",
+  "cover_cached_at": "2026-05-03T01:09:13+00:00"
 }

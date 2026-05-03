@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "Ernst Theodor Amadeus Hoffmann was a contemporary of Ludwig von Beethoven: a composer himself, a music critic, and a late-German-Romantic-movement writer of novels and numerous short stories. His incisive wit and poetic imagery allow the reader to peer into the foibles of society and the follies of human psychology. (In fact, Hoffmann’s wit may have gotten him into a bit of legal trouble, as parts of Master Flea were censored and had to be reworked when authorities disliked certain satirical cri",
-  "cover_url": "https://books.google.com/books/content?id=fhwZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/master-flea.jpg",
   "first_published": 2017,
   "pages": 151,
   "google_books_url": "https://play.google.com/store/books/details?id=fhwZEAAAQBAJ&source=gbs_api",
@@ -18,5 +18,7 @@
   "copyright_status": "public_domain",
   "gutenberg_id": 32223,
   "gutenberg_url": "https://www.gutenberg.org/ebooks/32223",
-  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32223.html.images"
+  "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32223.html.images",
+  "cover_url_source": "https://books.google.com/books/content?id=fhwZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:31:56+00:00"
 }

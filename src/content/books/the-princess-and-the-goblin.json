@@ -12,7 +12,7 @@
     "young-adult"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=e749AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-princess-and-the-goblin.jpg",
   "first_published": 1872,
   "pages": 228,
   "google_books_url": "https://play.google.com/store/books/details?id=e749AAAAYAAJ&source=gbs_api",
@@ -112,5 +112,7 @@
   "wikidata_qid": "Q466505",
   "original_title": "The Princess and the Goblin",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://books.google.com/books/content?id=e749AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:11:49+00:00"
 }

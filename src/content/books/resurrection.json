@@ -9,8 +9,8 @@
   "first_published": 1899,
   "language": "eng",
   "description": "Tolstoy's novel of spiritual regeneration recounts the sins of a young Russian nobleman and his attempts in later life to redress those transgressions. A panoramic view of Russian social life at the end of the 19th century, Resurrection pointedly articulates the author's contempt for the social injustices of the world in which he lived.",
-  "cover_url": "https://books.google.com/books/content?id=mPomDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=mPomDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/resurrection.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/resurrection.jpg",
   "isbn": "9780486432168",
   "pages": 417,
   "google_books_url": "http://books.google.com/books?id=mPomDwAAQBAJ&dq=Resurrection+Leo+Tolstoy&hl=&source=gbs_api",
@@ -120,5 +120,8 @@
   "representative_edition_key": "/books/OL30249152M",
   "wikidata_qid": "Q146866",
   "original_title": "Воскресение",
-  "original_language": "rus"
+  "original_language": "rus",
+  "cover_url_source": "https://books.google.com/books/content?id=mPomDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=mPomDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:47:33+00:00"
 }

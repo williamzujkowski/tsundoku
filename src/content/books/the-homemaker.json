@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "\"What is to become of the family? What is to become of the home, which has been the foundation of society for centuries? Will it disintegrate - or can it be refounded in a new way? In recent years the role of homemaking has been derided and diminished, particularly in relation to careers outside the home. Rather than being encouraged to nurture home and family, parents are urged to return to the workplace as quickly as possible following childbirth. Their place is taken by growing numbers of day",
-  "cover_url": "https://books.google.com/books/content?id=W3lOQ1XUZ_gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-homemaker.jpg",
   "isbn": "9780904693843",
   "first_published": 1996,
   "pages": 49,
@@ -27,5 +27,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL8290703M"
+  "representative_edition_key": "/books/OL8290703M",
+  "cover_url_source": "https://books.google.com/books/content?id=W3lOQ1XUZ_gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:06:57+00:00"
 }

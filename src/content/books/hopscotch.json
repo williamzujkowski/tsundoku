@@ -9,8 +9,8 @@
   "first_published": 2014,
   "language": "eng",
   "description": "When La Maga, his mistress, disappears, Horacio Oliveira, an Argentinian writer living in Paris, decides to return home to Buenos Aires.",
-  "cover_url": "https://books.google.com/books/content?id=JKxpAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=JKxpAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/hopscotch.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/hopscotch.jpg",
   "pages": 580,
   "google_books_url": "http://books.google.com/books?id=JKxpAAAAMAAJ&dq=Hopscotch+Julio+Cort%C3%A1zar&hl=&source=gbs_api",
   "reading_status": "want",
@@ -33,5 +33,8 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9781841593647",
-  "representative_edition_key": "/books/OL33297485M"
+  "representative_edition_key": "/books/OL33297485M",
+  "cover_url_source": "https://books.google.com/books/content?id=JKxpAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=JKxpAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:21:09+00:00"
 }

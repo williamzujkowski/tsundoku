@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Dreamy youth in a bustling midwestern city discovers his latent powers and becomes successful businessman.",
-  "cover_url": "https://books.google.com/books/content?id=FmsRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-turmoil.jpg",
   "first_published": 1915,
   "pages": 388,
   "google_books_url": "https://play.google.com/store/books/details?id=FmsRAAAAYAAJ&source=gbs_api",
@@ -82,5 +82,7 @@
   "representative_edition_key": "/books/OL56439975M",
   "wikidata_qid": "Q30901576",
   "original_title": "The Turmoil",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://books.google.com/books/content?id=FmsRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:16:28+00:00"
 }

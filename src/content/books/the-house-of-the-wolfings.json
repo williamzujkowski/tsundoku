@@ -9,7 +9,7 @@
     "google-play-library"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=H9ygEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-house-of-the-wolfings.jpg",
   "isbn": "9783368323905",
   "first_published": 1889,
   "pages": 342,
@@ -62,5 +62,7 @@
   "editions_count": 156,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL56816991M"
+  "representative_edition_key": "/books/OL56816991M",
+  "cover_url_source": "https://books.google.com/books/content?id=H9ygEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:07:07+00:00"
 }

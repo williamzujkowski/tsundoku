@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "A collection of six classic Jeeves stories.",
-  "cover_url": "https://books.google.com/books/content?id=CqVGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/jeeves-stories.jpg",
   "isbn": "9780486433615",
   "first_published": 2013,
   "pages": 209,
@@ -42,5 +42,7 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 1,
-  "representative_edition_key": "/books/OL3691903M"
+  "representative_edition_key": "/books/OL3691903M",
+  "cover_url_source": "https://books.google.com/books/content?id=CqVGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:26:04+00:00"
 }

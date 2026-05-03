@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "#1 NEW YORK TIMES BESTSELLER • A panoramic experience that tells the story of Beastie Boys, a book as unique as the band itself—by band members ADROCK and Mike D, with contributions from Amy Poehler, Colson Whitehead, Wes Anderson, Luc Sante, and more. The inspiration for the Emmy-nominated Apple TV+ “live documentary” Beastie Boys Story, directed by Spike Jonze NAMED ONE OF THE BEST BOOKS OF THE YEAR BY Rolling Stone • The Guardian • Paste Formed as a New York City hardcore band in 1981, Beasti",
-  "cover_url": "https://books.google.com/books/content?id=TyxyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/beastie-boys-book.jpg",
   "isbn": "9780812995541",
   "first_published": 2018,
   "pages": 592,
@@ -47,5 +47,7 @@
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780812995541",
-  "representative_edition_key": "/books/OL26976358M"
+  "representative_edition_key": "/books/OL26976358M",
+  "cover_url_source": "https://books.google.com/books/content?id=TyxyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:57:54+00:00"
 }

@@ -9,7 +9,7 @@
   ],
   "reading_status": "read",
   "description": "William Tully is an unremarkable English clerk, passing his mundane and well-ordered life by doing what others tell him and trying to live up to their expectations. But when his mother passes away suddenly, William finally decides to take control of his own life and discover his purpose in the world. Inspired by a coworker’s advice, William becomes immersed in political activism and eventually meets Griselda Watkins, a young suffragette. The two fall in love and get married, and decide to spend ",
-  "cover_url": "https://books.google.com/books/content?id=AJhSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/william-an-englishman.jpg",
   "first_published": 1920,
   "pages": 201,
   "google_books_url": "https://play.google.com/store/books/details?id=AJhSEQAAQBAJ&source=gbs_api",
@@ -40,5 +40,7 @@
   "editions_count": 15,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL39027919M"
+  "representative_edition_key": "/books/OL39027919M",
+  "cover_url_source": "https://books.google.com/books/content?id=AJhSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:27:00+00:00"
 }

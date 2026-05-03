@@ -8,8 +8,8 @@
   "open_library_url": "https://openlibrary.org/works/OL42816007W",
   "first_published": 1980,
   "description": "Powers of Horror is an excellent introduction to an aspect of contemporary French literature which has been allowed to become somewhat neglected in the current emphasis on para-philosophical modes of discourse.\"",
-  "cover_url": "https://books.google.com/books/content?id=g-NdglUBHSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=g-NdglUBHSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/powers-of-horror.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/powers-of-horror.jpg",
   "isbn": "0231053479",
   "pages": 236,
   "language": "eng",
@@ -61,5 +61,8 @@
   "wikidata_qid": "Q7236827",
   "original_title": "Pouvoirs de l'horreur",
   "original_language": "fre",
-  "original_publisher": "Éditions du Seuil"
+  "original_publisher": "Éditions du Seuil",
+  "cover_url_source": "https://books.google.com/books/content?id=g-NdglUBHSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=g-NdglUBHSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:44:48+00:00"
 }

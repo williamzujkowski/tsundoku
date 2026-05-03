@@ -9,8 +9,8 @@
     "sci-fi",
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/210200-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/210200-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/childhoods-end.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/childhoods-end.jpg",
   "open_library_url": "https://openlibrary.org/works/OL17415W",
   "first_published": 1953,
   "language": "eng",
@@ -87,5 +87,8 @@
       "name": "NPR Top 100 Science Fiction and Fantasy Books",
       "year": 2011
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/210200-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/210200-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:04+00:00"
 }

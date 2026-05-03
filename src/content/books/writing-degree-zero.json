@@ -9,8 +9,8 @@
   ],
   "reading_status": "read",
   "description": "Defines the nature of writing, as well as the historical, political and personal forces responsbile for the formal changes in writing from the classical period to the present. Ranging far beyond the confines of most literary criticism, this is an incisive analysis of language and speech, tone and style.",
-  "cover_url": "https://covers.openlibrary.org/b/id/224746-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/224746-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/writing-degree-zero.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/writing-degree-zero.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780809098651",
@@ -47,5 +47,8 @@
   },
   "editions_count": 7,
   "representative_edition_key": "/books/OL9583588M",
-  "copyright_status": "likely_public_domain"
+  "copyright_status": "likely_public_domain",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/224746-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/224746-L.jpg",
+  "cover_cached_at": "2026-05-03T02:27:31+00:00"
 }

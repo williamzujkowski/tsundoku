@@ -10,7 +10,7 @@
   ],
   "reading_status": "read",
   "description": "Strange things are happening at Belpher Castle as the Earl's sister tries to pair off her stepson and niece. Her niece has other plans in mind, though. For she is more interested in Geoffrey Raymond and must get the unacceptable composer George Bevan off her back.",
-  "cover_url": "https://books.google.com/books/content?id=kllyOAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/a-damsel-in-distress.jpg",
   "isbn": "1600962653",
   "first_published": 1919,
   "pages": 308,
@@ -68,5 +68,7 @@
   "wikidata_qid": "Q253451",
   "original_title": "A Damsel in Distress",
   "original_language": "eng",
-  "original_publisher": "George H. Doran Company"
+  "original_publisher": "George H. Doran Company",
+  "cover_url_source": "https://books.google.com/books/content?id=kllyOAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T00:51:33+00:00"
 }

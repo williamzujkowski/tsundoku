@@ -7,8 +7,8 @@
   "tags": [
     "adventure"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/9158767-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/9158767-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cities-of-the-plain.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cities-of-the-plain.jpg",
   "open_library_url": "https://openlibrary.org/works/OL40869W",
   "first_published": 1998,
   "language": "eng",
@@ -65,5 +65,8 @@
   "series": {
     "name": "The Border Trilogy",
     "position": 3
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/9158767-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/9158767-L.jpg",
+  "cover_cached_at": "2026-05-03T01:02:17+00:00"
 }

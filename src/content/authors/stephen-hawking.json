@@ -3,7 +3,7 @@
   "slug": "stephen-hawking",
   "book_count": 1,
   "bio": "Stephen William Hawking was an English theoretical astrophysicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. Between 1979 and 2009, he was the Lucasian Professor of Mathematics at Cambridge, widely viewed as one of the most prestigious academic posts in the world.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
+  "photo_url": "/tsundoku/cached/authors/stephen-hawking.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
   "open_library_url": "https://openlibrary.org/authors/OL2675573A",
   "birth_year": 1942,
@@ -192,5 +192,7 @@
     {
       "name": "Order of the Companions of Honour"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
+  "photo_cached_at": "2026-05-03T00:49:07+00:00"
 }

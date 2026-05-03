@@ -7,8 +7,8 @@
   "tags": [
     "npr-top-100-sff"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/535139-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/535139-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/nine-princes-in-amber.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/nine-princes-in-amber.jpg",
   "open_library_url": "https://openlibrary.org/works/OL13977W",
   "first_published": 1970,
   "language": "eng",
@@ -63,5 +63,8 @@
   "series": {
     "name": "The Chronicles of Amber",
     "position": 1
-  }
+  },
+  "cover_url_source": "https://covers.openlibrary.org/b/id/535139-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/535139-L.jpg",
+  "cover_cached_at": "2026-05-03T01:34:36+00:00"
 }

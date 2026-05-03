@@ -14,8 +14,8 @@
   "google_books_url": "http://books.google.com/books?id=n9RwYgEACAAJ&dq=intitle:School+Stories&hl=&source=gbs_api",
   "language": "eng",
   "description": "A wonderful selection of stories ranging from an uproarious class trip to the Safari Park to a strange new classmate who can see into the future. These are ideal stories for school children to enjoy.",
-  "cover_url": "https://books.google.com/books/content?id=hBZmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=hBZmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/school-stories.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/school-stories.jpg",
   "isbn": "0552527386",
   "copyright_status": "public_domain",
   "ddc": [
@@ -33,5 +33,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL22542282M"
+  "representative_edition_key": "/books/OL22542282M",
+  "cover_url_source": "https://books.google.com/books/content?id=hBZmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=hBZmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:49:17+00:00"
 }

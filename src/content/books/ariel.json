@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "ariel",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/33279-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/33279-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/ariel.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/ariel.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1865549W",
   "first_published": 1965,
   "language": "eng",
@@ -60,5 +60,8 @@
   "editions_count": 5,
   "first_published_circa": false,
   "first_edition_isbn": "9780060133580",
-  "representative_edition_key": "/books/OL35952522M"
+  "representative_edition_key": "/books/OL35952522M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/33279-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/33279-L.jpg",
+  "cover_cached_at": "2026-05-03T00:56:47+00:00"
 }

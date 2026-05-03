@@ -11,7 +11,7 @@
   ],
   "reading_status": "read",
   "description": "The first adventure of this NEW YORK TIMES best-selling porcine wonder is now available as an e-book. (Ages 6 - 8) Features an audio read-along! To Mr. and Mrs. Watson, Mercy is not just a pig – she's a porcine wonder. And to the portly and good-natured Mercy, the Watsons are an excellent source of buttered toast, not to mention that buttery-toasty feeling she gets when she snuggles into bed with them. This is not, however, so good for the Watsons' bed. BOOM! CRACK! As the bed and its occupants ",
-  "cover_url": "https://books.google.com/books/content?id=wyn9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/mercy-watson-to-the-rescue.jpg",
   "isbn": "9780763668174",
   "first_published": 2005,
   "pages": 79,
@@ -56,5 +56,7 @@
   "editions_count": 13,
   "first_published_circa": false,
   "first_edition_isbn": "9780763622701",
-  "representative_edition_key": "/books/OL29678805M"
+  "representative_edition_key": "/books/OL29678805M",
+  "cover_url_source": "https://books.google.com/books/content?id=wyn9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:30+00:00"
 }

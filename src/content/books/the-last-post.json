@@ -10,7 +10,7 @@
     "sci-fi"
   ],
   "reading_status": "read",
-  "cover_url": "https://books.google.com/books/content?id=KKZQAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/the-last-post.jpg",
   "first_published": 1826,
   "pages": 1158,
   "google_books_url": "https://play.google.com/store/books/details?id=KKZQAQAAIAAJ&source=gbs_api",
@@ -77,5 +77,7 @@
   "wikidata_qid": "Q2323961",
   "original_title": "The Last Man",
   "original_language": "eng",
-  "first_published_circa": false
+  "first_published_circa": false,
+  "cover_url_source": "https://books.google.com/books/content?id=KKZQAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T02:08:30+00:00"
 }

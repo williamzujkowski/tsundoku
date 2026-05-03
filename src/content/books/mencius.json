@@ -11,8 +11,8 @@
   "first_published": 1963,
   "language": "eng",
   "description": "Known throughout East Asia as Mengzi, or \"Master Meng,\" Mencius (391-308 B.C.E.) was a Chinese philosopher of the late Zhou dynasty, an instrumental figure in the spread of the Confucian tradition, and a brilliant illuminator of its ideas. Mencius was active during the Warring States Period (403-221 B.C.E.), in which competing powers sought to control the declining Zhou empire. Like Confucius, Mencius journeyed to one feudal court after another, searching for a proper lord who could put his teac...",
-  "cover_url": "https://books.google.com/books/content?id=8airAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_url_large": "https://books.google.com/books/content?id=8airAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url": "/tsundoku/cached/covers/mencius.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/mencius.jpg",
   "isbn": "9780231122047",
   "pages": 210,
   "google_books_url": "http://books.google.com/books?id=8airAgAAQBAJ&dq=Mencius+Mencius&hl=&source=gbs_api",
@@ -66,5 +66,8 @@
   "editions_count": 22,
   "first_published_circa": false,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL23059085M"
+  "representative_edition_key": "/books/OL23059085M",
+  "cover_url_source": "https://books.google.com/books/content?id=8airAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_url_large_source": "https://books.google.com/books/content?id=8airAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "cover_cached_at": "2026-05-03T01:32:28+00:00"
 }
