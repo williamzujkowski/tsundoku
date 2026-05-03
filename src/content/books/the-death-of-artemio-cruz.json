@@ -29,12 +29,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL34842000M",
   "cover_url_source": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=h8gdF8Z8RLoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:02:27+00:00"
+  "cover_cached_at": "2026-05-03T02:02:27+00:00",
+  "ddc": [
+    "800"
+  ]
 }

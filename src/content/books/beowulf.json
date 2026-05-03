@@ -44,11 +44,15 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_edition_isbn": "9780520008816",
   "representative_edition_key": "/books/OL7708122M",
   "cover_url_source": "https://books.google.com/books/content?id=LPO-MYhU2x8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:59:36+00:00"
+  "cover_cached_at": "2026-05-03T00:59:36+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

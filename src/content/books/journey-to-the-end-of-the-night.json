@@ -30,11 +30,15 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL47703388M",
   "copyright_status": "likely_public_domain",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/f/ff/Journey_to_the_End_of_the_Night_cover.jpg",
-  "cover_cached_at": "2026-05-03T01:26:14+00:00"
+  "cover_cached_at": "2026-05-03T01:26:14+00:00",
+  "ddc": [
+    "800"
+  ]
 }

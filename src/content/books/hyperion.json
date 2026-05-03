@@ -33,7 +33,8 @@
     "original_language": "ol_firstedition_v1",
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -43,5 +44,8 @@
   "representative_edition_key": "/books/OL22456360M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6763414-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6763414-L.jpg",
-  "cover_cached_at": "2026-05-03T01:22:28+00:00"
+  "cover_cached_at": "2026-05-03T01:22:28+00:00",
+  "ddc": [
+    "808.81"
+  ]
 }

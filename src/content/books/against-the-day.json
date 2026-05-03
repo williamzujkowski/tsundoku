@@ -47,7 +47,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 10,
   "first_published_circa": false,
@@ -58,5 +59,8 @@
   "original_publisher": "Penguin Group",
   "cover_url_source": "https://covers.openlibrary.org/b/id/872335-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/872335-L.jpg",
-  "cover_cached_at": "2026-05-03T00:53:29+00:00"
+  "cover_cached_at": "2026-05-03T00:53:29+00:00",
+  "ddc": [
+    "800"
+  ]
 }

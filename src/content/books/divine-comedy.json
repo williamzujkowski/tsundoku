@@ -42,12 +42,16 @@
     "first_published": "manual",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 11,
   "first_edition_isbn": "9781627936552",
   "representative_edition_key": "/books/OL29266266M",
   "cover_url_source": "https://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:08:50+00:00"
+  "cover_cached_at": "2026-05-03T01:08:50+00:00",
+  "ddc": [
+    "800"
+  ]
 }

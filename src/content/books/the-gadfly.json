@@ -17,8 +17,16 @@
   "copyright_status": "in_copyright",
   "isbn": "9781310789182",
   "_provenance": {
-    "description": "fix_non_english_v1_wikipedia"
+    "description": "fix_non_english_v1_wikipedia",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "cover_url_source": "https://books.google.com/books/content?id=3BULEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:05:00+00:00"
+  "cover_cached_at": "2026-05-03T02:05:00+00:00",
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

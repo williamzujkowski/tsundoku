@@ -40,11 +40,15 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 11,
   "representative_edition_key": "/books/OL38562463M",
   "copyright_status": "public_domain",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mawangdui_LaoTsu_Ms2.JPG",
-  "cover_cached_at": "2026-05-03T01:07:25+00:00"
+  "cover_cached_at": "2026-05-03T01:07:25+00:00",
+  "ddc": [
+    "200"
+  ]
 }

@@ -22,12 +22,20 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/3079603-L.jpg",
   "cover_cached_at": "2026-05-03T03:22:15+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Act (Philosophy)",
     "Analysis (philosophy)",
     "Intention (Logic)",
     "Intentionality (Philosophy)"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
   ]
 }

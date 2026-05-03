@@ -40,7 +40,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -49,5 +50,8 @@
   "wikidata_qid": "Q20736124",
   "original_language": "eng",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/Doing_Good_Better.jpg",
-  "cover_cached_at": "2026-05-03T01:09:00+00:00"
+  "cover_cached_at": "2026-05-03T01:09:00+00:00",
+  "ddc": [
+    "100"
+  ]
 }

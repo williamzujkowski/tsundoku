@@ -20,7 +20,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=0Tx9PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_cached_at": "2026-05-03T01:23:36+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Continental european fiction (fictional works by one author)",
@@ -33,5 +35,11 @@
     "Romans, nouvelles",
     "Self-perception",
     "Traductions françaises"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

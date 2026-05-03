@@ -31,12 +31,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL8501324M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6013868-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6013868-L.jpg",
-  "cover_cached_at": "2026-05-03T01:36:44+00:00"
+  "cover_cached_at": "2026-05-03T01:36:44+00:00",
+  "lcc": [
+    "B"
+  ]
 }

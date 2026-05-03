@@ -49,12 +49,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780140366846",
   "representative_edition_key": "/books/OL7354011M",
   "cover_url_source": "https://books.google.com/books/content?id=fBdLX-vh1z0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:00:23+00:00"
+  "cover_cached_at": "2026-05-03T01:00:23+00:00",
+  "ddc": [
+    "320"
+  ]
 }

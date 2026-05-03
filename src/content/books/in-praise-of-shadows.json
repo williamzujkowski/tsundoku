@@ -20,5 +20,15 @@
   "ol_work_key": "/works/OL26509025W",
   "cover_url_source": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=xaOBAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:23:39+00:00"
+  "cover_cached_at": "2026-05-03T01:23:39+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

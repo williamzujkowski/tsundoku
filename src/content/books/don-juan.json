@@ -27,7 +27,8 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_edition_isbn": null,
@@ -44,5 +45,8 @@
     "Poetry",
     "Poetry (poetic works by one author)",
     "Pr4359 .a1 2004"
+  ],
+  "lcc": [
+    "PN"
   ]
 }

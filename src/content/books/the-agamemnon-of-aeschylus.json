@@ -26,7 +26,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "lcc": "derived_v1"
   },
   "editions_count": 6,
   "first_published_circa": false,
@@ -44,5 +45,8 @@
     "Translations into Icelandic",
     "Translations into Italian",
     "Translations into Spanish"
+  ],
+  "lcc": [
+    "PN"
   ]
 }

@@ -17,5 +17,15 @@
   "description": "The Sea of Fertility  is a tetralogy of novels written by the Japanese author Yukio Mishima. The four novels are Spring Snow (1969), Runaway Horses (1969), The Temple of Dawn (1970), and The Decay of the Angel (1971). The series, which Mishima began writing in 1964 and which was his final work, is usually thought of as his masterpiece. Its title refers to the Mare Fecunditatis, a lunar mare. The first English translated editions by Alfred A. Knopf and the Charles E.",
   "cover_url_source": "https://books.google.com/books/content?id=hzu1rZpYrjEC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=hzu1rZpYrjEC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:49:22+00:00"
+  "cover_cached_at": "2026-05-03T01:49:22+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

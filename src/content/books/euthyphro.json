@@ -22,5 +22,15 @@
   "copyright_status": "public_domain",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6497816-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6497816-L.jpg",
-  "cover_cached_at": "2026-05-03T01:13:53+00:00"
+  "cover_cached_at": "2026-05-03T01:13:53+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

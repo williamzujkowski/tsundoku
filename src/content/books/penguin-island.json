@@ -30,12 +30,16 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
   "first_edition_isbn": "9780730969716",
   "representative_edition_key": "/books/OL32093920M",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Penguin_Island_%28novel%29.jpg/120px-Penguin_Island_%28novel%29.jpg",
-  "cover_cached_at": "2026-05-03T01:41:08+00:00"
+  "cover_cached_at": "2026-05-03T01:41:08+00:00",
+  "lcc": [
+    "D"
+  ]
 }

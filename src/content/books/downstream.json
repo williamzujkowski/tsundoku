@@ -22,12 +22,20 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
   "first_edition_isbn": "9780309204286",
   "representative_edition_key": "/books/OL40568012M",
   "cover_url_source": "https://books.google.com/books/content?id=9-imccf10tkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:09:12+00:00"
+  "cover_cached_at": "2026-05-03T01:09:12+00:00",
+  "ddc": [
+    "500"
+  ],
+  "lcc": [
+    "Q"
+  ]
 }

@@ -18,5 +18,15 @@
   "copyright_status": "public_domain",
   "cover_url_source": "https://covers.openlibrary.org/b/id/11466368-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/11466368-L.jpg",
-  "cover_cached_at": "2026-05-03T01:47:38+00:00"
+  "cover_cached_at": "2026-05-03T01:47:38+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
+  ]
 }

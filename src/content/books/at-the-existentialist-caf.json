@@ -54,7 +54,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
@@ -64,5 +65,8 @@
   "original_title": "At the Existentialist Cafe",
   "original_language": "eng",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/4/4b/TheExistentialistCafe.jpg",
-  "cover_cached_at": "2026-05-03T00:57:16+00:00"
+  "cover_cached_at": "2026-05-03T00:57:16+00:00",
+  "ddc": [
+    "100"
+  ]
 }

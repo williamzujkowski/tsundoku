@@ -24,7 +24,9 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/15013644-L.jpg",
   "cover_cached_at": "2026-05-03T02:09:57+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Alienation",
@@ -37,5 +39,11 @@
     "magicians",
     "political fiction",
     "satire"
+  ],
+  "ddc": [
+    "808.83766"
+  ],
+  "lcc": [
+    "PN3435"
   ]
 }

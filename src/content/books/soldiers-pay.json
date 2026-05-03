@@ -16,5 +16,15 @@
   "description": "Soldiers' Pay is the first novel published by the American author William Faulkner. It was originally published by Boni & Liveright on February 25, 1926. It is unclear if Soldiers' Pay is the first novel written by Faulkner. It is however the first novel published by the author. Faulkner was working on two manuscripts while finishing Soldiers' Pay.",
   "cover_url": "/tsundoku/cached/covers/soldiers-pay.jpg",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/SoldiersPay.jpg/120px-SoldiersPay.jpg",
-  "cover_cached_at": "2026-05-03T01:51:15+00:00"
+  "cover_cached_at": "2026-05-03T01:51:15+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

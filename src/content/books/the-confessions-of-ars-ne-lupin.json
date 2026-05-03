@@ -24,7 +24,9 @@
   "cover_url_source": "https://books.google.com/books/content?id=6gx_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_cached_at": "2026-05-03T02:01:08+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Adventure and adventurers",
@@ -37,5 +39,11 @@
     "Fiction, mystery & detective, general",
     "French Adventure stories",
     "Translations into English"
+  ],
+  "ddc": [
+    "808.83872"
+  ],
+  "lcc": [
+    "PN3448"
   ]
 }

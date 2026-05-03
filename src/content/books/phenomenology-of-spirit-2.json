@@ -37,7 +37,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
@@ -45,5 +46,8 @@
   "representative_edition_key": "/books/OL9070259M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/4884275-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/4884275-L.jpg",
-  "cover_cached_at": "2026-05-03T01:42:05+00:00"
+  "cover_cached_at": "2026-05-03T01:42:05+00:00",
+  "lcc": [
+    "B"
+  ]
 }

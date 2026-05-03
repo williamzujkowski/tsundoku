@@ -23,7 +23,9 @@
   "copyright_status": "likely_public_domain",
   "_provenance": {
     "cover_url": "wikipedia_book_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/3/30/Notre_Dame_des_Fleurs.jpg",
   "cover_cached_at": "2026-05-03T01:39:25+00:00",
@@ -38,5 +40,11 @@
     "Romance literature",
     "Translations",
     "Transvestites"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

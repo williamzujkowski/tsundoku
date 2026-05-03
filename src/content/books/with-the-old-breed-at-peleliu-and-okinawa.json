@@ -51,7 +51,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
@@ -62,5 +63,8 @@
   "original_language": "eng",
   "original_publisher": "Ballantine Books",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/5/50/With_the_Old_Breed_%28Eugene_B._Sledge_book_-_cover_art%29.jpg",
-  "cover_cached_at": "2026-05-03T02:27:10+00:00"
+  "cover_cached_at": "2026-05-03T02:27:10+00:00",
+  "ddc": [
+    "900"
+  ]
 }

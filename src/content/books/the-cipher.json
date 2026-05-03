@@ -32,7 +32,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
@@ -53,5 +54,8 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/9437902-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9437902-L.jpg",
-  "cover_cached_at": "2026-05-03T02:00:15+00:00"
+  "cover_cached_at": "2026-05-03T02:00:15+00:00",
+  "ddc": [
+    "808.8387"
+  ]
 }

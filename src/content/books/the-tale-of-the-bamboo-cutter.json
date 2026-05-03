@@ -13,5 +13,15 @@
   "pages": 71,
   "isbn": "9786558944850",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Japanese_Fairy_Book_-_Ozaki_-_P118.png/330px-Japanese_Fairy_Book_-_Ozaki_-_P118.png",
-  "cover_cached_at": "2026-05-03T02:14:29+00:00"
+  "cover_cached_at": "2026-05-03T02:14:29+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "895"
+  ],
+  "lcc": [
+    "PL"
+  ]
 }

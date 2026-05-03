@@ -20,5 +20,15 @@
   "gutenberg_url": "https://www.gutenberg.org/ebooks/32223",
   "gutenberg_read_url": "https://www.gutenberg.org/ebooks/32223.html.images",
   "cover_url_source": "https://books.google.com/books/content?id=fhwZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:31:56+00:00"
+  "cover_cached_at": "2026-05-03T01:31:56+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

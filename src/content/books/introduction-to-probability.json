@@ -52,7 +52,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "first_published_circa": false,
@@ -64,5 +65,8 @@
   "description": "An intuitive, yet precise introduction to probability theory, stochastic processes, statistical inference, and probabilistic models used in science, engineering, economics, and related fields. This is the currently used textbook for an introductory probability course at the Massachusetts Institute of Technology, attended by a large number of undergraduate and graduate students, and for a leading online class on the subject.",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8104980-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8104980-L.jpg",
-  "cover_cached_at": "2026-05-03T01:25:18+00:00"
+  "cover_cached_at": "2026-05-03T01:25:18+00:00",
+  "ddc": [
+    "510"
+  ]
 }

@@ -25,11 +25,19 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 3,
   "representative_edition_key": "/books/OL27757739M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/4827851-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/4827851-L.jpg",
-  "cover_cached_at": "2026-05-03T01:53:13+00:00"
+  "cover_cached_at": "2026-05-03T01:53:13+00:00",
+  "ddc": [
+    "808.81"
+  ],
+  "lcc": [
+    "PN"
+  ]
 }

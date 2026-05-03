@@ -28,7 +28,8 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL59822727M",
@@ -41,5 +42,8 @@
     "Fiction, short stories (single author)",
     "Publishers' advertisements",
     "Short stories"
+  ],
+  "ddc": [
+    "800"
   ]
 }

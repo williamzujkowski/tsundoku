@@ -25,7 +25,9 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 5,
   "representative_edition_key": "/books/OL38651517M",
@@ -43,5 +45,11 @@
     "Scientific socialism",
     "Socialism",
     "Économie politique"
+  ],
+  "ddc": [
+    "320"
+  ],
+  "lcc": [
+    "JA"
   ]
 }

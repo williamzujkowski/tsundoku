@@ -38,7 +38,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 9,
   "first_published_circa": false,
@@ -49,5 +50,8 @@
   "original_publisher": "PublicAffairs",
   "cover_url_source": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=uJGLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:18:28+00:00"
+  "cover_cached_at": "2026-05-03T01:18:28+00:00",
+  "ddc": [
+    "330"
+  ]
 }

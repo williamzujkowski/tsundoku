@@ -20,5 +20,15 @@
   "copyright_status": "in_copyright",
   "description": "Seventeen year old Marcus and his friends are in the wrong place at the wrong time during a major terrorist attack on San Francisco. They are held be the Department of Homland Security for days before being release only to discover that their city has turned into surveillance society police state.",
   "cover_url_source": "https://books.google.com/books/content?id=PZvusgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:04:20+00:00"
+  "cover_cached_at": "2026-05-03T01:04:20+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

@@ -15,7 +15,9 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Christian church history",
@@ -28,5 +30,11 @@
     "Religions",
     "Religions, history",
     "Religious thought, history"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
   ]
 }

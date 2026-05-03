@@ -20,10 +20,18 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9213117-L.jpg",
   "cover_cached_at": "2026-05-03T01:19:01+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Early works to 1800",
     "Islamic philosophy"
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
   ]
 }

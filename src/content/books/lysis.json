@@ -30,7 +30,8 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14401485-L.jpg",
   "cover_cached_at": "2026-05-03T01:31:20+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1"
   },
   "subject_facet": [
     "184 s 177/.62",
@@ -40,5 +41,8 @@
     "Early works to 1800",
     "Friendship",
     "Plato"
+  ],
+  "ddc": [
+    "100"
   ]
 }

@@ -47,7 +47,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
@@ -59,5 +60,8 @@
   "original_publisher": "Cambridge University Press",
   "cover_url_source": "https://covers.openlibrary.org/b/id/339199-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/339199-L.jpg",
-  "cover_cached_at": "2026-05-03T01:44:50+00:00"
+  "cover_cached_at": "2026-05-03T01:44:50+00:00",
+  "ddc": [
+    "100"
+  ]
 }

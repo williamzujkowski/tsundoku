@@ -22,7 +22,9 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 4,
   "first_edition_isbn": null,
@@ -31,5 +33,11 @@
   "cover_cached_at": "2026-05-03T01:54:42+00:00",
   "subject_facet": [
     "Table-talk"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

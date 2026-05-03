@@ -20,7 +20,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=X8yYYwh37oYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_cached_at": "2026-05-03T01:28:46+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Computerized typesetting",
@@ -30,5 +32,11 @@
     "Latex (computerprogramma)",
     "Printing",
     "Publishing"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
   ]
 }

@@ -22,7 +22,9 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9412633-L.jpg",
   "cover_cached_at": "2026-05-03T02:05:12+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Compulsive gamblers",
@@ -35,5 +37,11 @@
     "Germany, fiction",
     "Psychological fiction",
     "Translations into English"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

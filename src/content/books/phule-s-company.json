@@ -27,7 +27,9 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 11,
   "first_published_circa": false,
@@ -39,5 +41,11 @@
     "name": "Phule's Company"
   },
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/6/67/Phule%27s_Company_by_Robert_Asprin_cover_1990.png",
-  "cover_cached_at": "2026-05-03T01:42:48+00:00"
+  "cover_cached_at": "2026-05-03T01:42:48+00:00",
+  "ddc": [
+    "808.83876"
+  ],
+  "lcc": [
+    "PN3433"
+  ]
 }

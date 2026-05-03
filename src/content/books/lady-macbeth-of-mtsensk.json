@@ -20,9 +20,17 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/15133630-L.jpg",
   "cover_cached_at": "2026-05-03T01:28:37+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Fiction, general"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

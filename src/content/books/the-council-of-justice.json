@@ -36,7 +36,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 91,
   "first_edition_isbn": null,
@@ -45,5 +46,8 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/890195-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/890195-L.jpg",
-  "cover_cached_at": "2026-05-03T03:22:29+00:00"
+  "cover_cached_at": "2026-05-03T03:22:29+00:00",
+  "lcc": [
+    "P"
+  ]
 }

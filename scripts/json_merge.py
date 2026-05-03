@@ -61,6 +61,13 @@ SOURCE_RANK = {
     # so we keep it lower than structured-KB sources.
     "wikipedia_v1": 30,
 
+    # Coarse derivation from existing fields — e.g., reverse-mapping the
+    # `category` bucket to a baseline DDC/LCC for records where every
+    # external source has nothing. Intentionally low so any real
+    # classification source (manual, ol_classification_v2, wikidata_v1)
+    # overwrites when fields_overwritable includes the relevant key.
+    "derived_v1": 5,
+
     # Anything in book/author records before provenance was tracked. Any
     # tagged source can correct these.
     "legacy": 0,

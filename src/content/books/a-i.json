@@ -17,5 +17,15 @@
   "language": "eng",
   "copyright_status": "in_copyright",
   "cover_url_source": "https://books.google.com/books/content?id=K05TEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:52:04+00:00"
+  "cover_cached_at": "2026-05-03T00:52:04+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

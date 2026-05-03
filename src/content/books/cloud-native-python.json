@@ -20,10 +20,18 @@
   "cover_url_source": "https://books.google.com/books/content?id=GedDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_cached_at": "2026-05-03T01:02:36+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Electronic data processing",
     "Python (computer program language)"
+  ],
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
   ]
 }

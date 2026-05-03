@@ -26,11 +26,19 @@
   "_provenance": {
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "editions_count": 1,
   "representative_edition_key": "/books/OL55631635M",
   "cover_url_source": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=XF4OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:08:46+00:00"
+  "cover_cached_at": "2026-05-03T02:08:46+00:00",
+  "ddc": [
+    "320"
+  ],
+  "lcc": [
+    "JA"
+  ]
 }

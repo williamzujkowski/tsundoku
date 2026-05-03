@@ -11,5 +11,15 @@
   "description": "The Nāṭya Shāstra is a Sanskrit treatise on the performing arts. The text is attributed to sage Bharata, and its first complete compilation is dated to between 200 BCE and 200 CE, but estimates vary between 500 BCE and 500 CE.",
   "cover_url": "/tsundoku/cached/covers/natya-shastra.jpg",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/330px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg",
-  "cover_cached_at": "2026-05-03T01:33:58+00:00"
+  "cover_cached_at": "2026-05-03T01:33:58+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "880"
+  ],
+  "lcc": [
+    "PA"
+  ]
 }

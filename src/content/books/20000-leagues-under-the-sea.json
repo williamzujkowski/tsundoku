@@ -37,11 +37,15 @@
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 12,
   "representative_edition_key": "/books/OL28458681M",
   "copyright_status": "public_domain",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Houghton_FC8_V5946_869ve_-_Verne%2C_frontispiece.jpg",
-  "cover_cached_at": "2026-05-03T00:51:16+00:00"
+  "cover_cached_at": "2026-05-03T00:51:16+00:00",
+  "ddc": [
+    "800"
+  ]
 }

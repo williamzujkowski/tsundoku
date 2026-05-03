@@ -27,7 +27,9 @@
   "copyright_status": "public_domain",
   "_provenance": {
     "first_published": "manual",
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/14390312-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14390312-L.jpg",
@@ -43,5 +45,11 @@
     "Religion",
     "Socrates",
     "Socrates."
+  ],
+  "ddc": [
+    "100"
+  ],
+  "lcc": [
+    "B"
   ]
 }

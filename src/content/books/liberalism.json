@@ -23,7 +23,9 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10913902-L.jpg",
   "cover_cached_at": "2026-05-03T01:30:29+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Ethnic relations",
@@ -35,5 +37,11 @@
     "Relations raciales",
     "Stereotypes (Social psychology)",
     "Stéréotypes"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

@@ -19,7 +19,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=ru93PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_cached_at": "2026-05-03T01:02:09+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Arabic fiction",
@@ -32,5 +34,11 @@
     "Religion",
     "Translations from Arabic",
     "Translations into English"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }

@@ -19,7 +19,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=elG0HvDkIesC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_cached_at": "2026-05-03T01:53:26+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Elderly men",
@@ -32,5 +34,11 @@
     "Middle-aged women",
     "Older men",
     "Teachers"
+  ],
+  "ddc": [
+    "895"
+  ],
+  "lcc": [
+    "PL"
   ]
 }

@@ -17,5 +17,15 @@
   "language": "eng",
   "copyright_status": "in_copyright",
   "cover_url_source": "https://books.google.com/books/content?id=mQjcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:26:10+00:00"
+  "cover_cached_at": "2026-05-03T01:26:10+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
+  ]
 }

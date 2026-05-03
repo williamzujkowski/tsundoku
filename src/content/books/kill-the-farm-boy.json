@@ -26,7 +26,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_published_circa": false,
@@ -35,5 +36,8 @@
   "description": "In an irreverent series in the tradition of Monty Python, the bestselling authors of the Iron Druid Chronicles and Star Wars: Phasma reinvent fantasy, fairy tales, and floridly written feast scenes. “Ranks among the best of Christopher Moore and Terry Pratchett.”—Chuck Wendig “When you put two authors of this high caliber together, expect fireworks. Or at least laughs. What a hoot!”—Terry Brooks Once upon a time, in a faraway kingdom, a hero, the Chosen One, was born . . .",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8534040-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8534040-L.jpg",
-  "cover_cached_at": "2026-05-03T01:26:36+00:00"
+  "cover_cached_at": "2026-05-03T01:26:36+00:00",
+  "ddc": [
+    "800"
+  ]
 }

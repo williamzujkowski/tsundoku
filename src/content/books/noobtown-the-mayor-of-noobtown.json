@@ -17,5 +17,15 @@
   "google_books_url": "https://play.google.com/store/books/details?id=H1zCEQAAQBAJ&source=gbs_api",
   "cover_url_source": "https://books.google.com/books/content?id=H1zCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=H1zCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:34:58+00:00"
+  "cover_cached_at": "2026-05-03T01:34:58+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "808.83766"
+  ],
+  "lcc": [
+    "PN3435"
+  ]
 }

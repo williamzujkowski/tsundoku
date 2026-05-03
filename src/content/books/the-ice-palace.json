@@ -32,7 +32,8 @@
     "first_published": "ol_firstedition_v1",
     "first_published_circa": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 7,
   "first_published_circa": false,
@@ -40,5 +41,8 @@
   "representative_edition_key": "/books/OL30175431M",
   "cover_url_source": "https://books.google.com/books/content?id=3hMCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=3hMCBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:07:14+00:00"
+  "cover_cached_at": "2026-05-03T02:07:14+00:00",
+  "ddc": [
+    "800"
+  ]
 }

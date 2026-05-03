@@ -18,5 +18,15 @@
   "copyright_status": "in_copyright",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9210697-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9210697-L.jpg",
-  "cover_cached_at": "2026-05-03T02:02:24+00:00"
+  "cover_cached_at": "2026-05-03T02:02:24+00:00",
+  "_provenance": {
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
+  },
+  "ddc": [
+    "005"
+  ],
+  "lcc": [
+    "QA76"
+  ]
 }

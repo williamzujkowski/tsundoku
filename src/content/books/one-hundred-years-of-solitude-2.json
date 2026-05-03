@@ -34,12 +34,16 @@
     "editions_count": "ol_firstedition_v1",
     "first_published": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
-    "representative_edition_key": "ol_firstedition_v1"
+    "representative_edition_key": "ol_firstedition_v1",
+    "ddc": "derived_v1"
   },
   "editions_count": 2,
   "first_edition_isbn": null,
   "representative_edition_key": "/books/OL40355682M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/15093420-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/15093420-L.jpg",
-  "cover_cached_at": "2026-05-03T01:37:10+00:00"
+  "cover_cached_at": "2026-05-03T01:37:10+00:00",
+  "ddc": [
+    "800"
+  ]
 }

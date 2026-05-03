@@ -21,7 +21,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=v_EtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_cached_at": "2026-05-03T02:18:51+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Authors, biography",
@@ -34,5 +36,11 @@
     "Women authors",
     "nyt:paperback-nonfiction=2022-10-23",
     "Écrivains français"
+  ],
+  "ddc": [
+    "920"
+  ],
+  "lcc": [
+    "CT"
   ]
 }

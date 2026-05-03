@@ -20,7 +20,9 @@
   "cover_url_large_source": "https://books.google.com/books/content?id=PTKSAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "cover_cached_at": "2026-05-03T00:53:04+00:00",
   "_provenance": {
-    "subject_facet": "open_library"
+    "subject_facet": "open_library",
+    "ddc": "derived_v1",
+    "lcc": "derived_v1"
   },
   "subject_facet": [
     "Alzheimer's disease",
@@ -33,5 +35,11 @@
     "French Authors",
     "Mothers",
     "Mothers and daughters"
+  ],
+  "ddc": [
+    "800"
+  ],
+  "lcc": [
+    "P"
   ]
 }
