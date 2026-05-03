@@ -7,32 +7,16 @@ Functions return {} on miss / network error — never raise.
 All HTTP goes through `http_cache.cached_fetch` (#91) so re-runs are cheap.
 """
 
-import json
 import re
 import sys
 from pathlib import Path
 from typing import Optional
-from urllib.error import HTTPError, URLError
 from urllib.parse import quote, quote_plus
-from urllib.request import urlopen, Request
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from enrichment_config import USER_AGENT
 from http_cache import cached_fetch
-
-
-HTTP_TIMEOUT = 15
-
-
-def _fetch_json(url: str) -> Optional[dict]:
-    """One-shot JSON GET with the standard User-Agent. Returns None on any failure."""
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
-            return json.loads(resp.read())
-    except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError):
-        return None
+from http_retry import fetch_json as _fetch_json  # noqa: F401 — re-exported for tests
 
 
 # ---------------------------------------------------------------------------

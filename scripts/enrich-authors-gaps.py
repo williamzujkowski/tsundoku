@@ -44,6 +44,7 @@ from author_sources import (
 )
 from enrichment_config import AUTHORS_DIR
 from json_merge import additive_merge, save_json
+from parallel_fetch import DEFAULT_BUCKETS, parallel_sources
 
 
 GAP_FIELDS = ("bio", "photo_url")  # what counts as a "gap" worth filling
@@ -52,10 +53,6 @@ RATE_LIMIT_S = 0.5  # be polite to OL + Wikidata
 
 def has_any_gap(doc: dict) -> bool:
     return any(not doc.get(f) for f in GAP_FIELDS)
-
-
-def _still_missing(doc: dict, aggregated: dict) -> bool:
-    return any(f not in aggregated and not doc.get(f) for f in GAP_FIELDS)
 
 
 _WIKI_TITLE_RE = re.compile(r"/wiki/([^/?#]+)")
@@ -72,46 +69,50 @@ def _wiki_title_from_url(url: str) -> str | None:
     return unquote(m.group(1)).replace("_", " ")
 
 
+def _wiki_then_variants(name: str, curated_wiki_title: str | None) -> dict:
+    """Wikipedia REST: trust a curated wiki URL when present, else walk variants."""
+    titles = [curated_wiki_title] if curated_wiki_title else candidate_names(name)
+    for t in titles:
+        if not t:
+            continue
+        new = from_wikipedia(name=t)
+        if new:
+            return new
+    return {}
+
+
+def _wikidata_with_variants(name: str) -> dict:
+    """Wikidata search: walk candidate name variants until one resolves."""
+    for variant in candidate_names(name):
+        new = from_wikidata(name=variant)
+        if new:
+            return new
+    return {}
+
+
 def try_sources_for(doc: dict) -> dict:
-    """Walk sources in order, returning aggregated fields to add (additive)."""
+    """Fire all sources in parallel through their per-source rate buckets,
+    then merge results in priority order: Wikipedia first (richest bio +
+    photo when it resolves), then OL author page, then Wikidata."""
     name = doc.get("name", "")
     olid = _olid_from_url(doc.get("open_library_url", ""))
     curated_wiki_title = _wiki_title_from_url(doc.get("wikipedia_url", ""))
 
+    sources = [
+        ("wikipedia", lambda: _wiki_then_variants(name, curated_wiki_title)),
+        ("open_library_author", lambda: from_open_library_author_page(
+            olid=olid, name=name if not olid else None
+        )),
+        ("wikidata", lambda: _wikidata_with_variants(name)),
+    ]
+    results = parallel_sources(sources, buckets=DEFAULT_BUCKETS)
+
     aggregated: dict = {}
-
-    # Source 1 — Wikipedia REST summary. If the record has an existing
-    # wikipedia_url (from a prior enrich-authors.py run), trust that
-    # title over a by-name lookup — this avoids same-name collisions
-    # like security-author Michael Howard vs UK politician Lord Howard.
-    # Fall through to candidate_names variants only when there's no
-    # curated link.
-    wiki_lookups = [curated_wiki_title] if curated_wiki_title else candidate_names(name)
-    for variant in wiki_lookups:
-        if not variant:
-            continue
-        new = from_wikipedia(name=variant)
-        if new:
-            for k, v in new.items():
-                aggregated.setdefault(k, v)
-            break
-
-    # Source 2 — Open Library author page (use cached OLID if we have one)
-    if _still_missing(doc, aggregated):
-        new = from_open_library_author_page(olid=olid, name=name if not olid else None)
-        if new:
-            for k, v in new.items():
-                aggregated.setdefault(k, v)
-
-    # Source 3 — Wikidata, with name-variant fallback
-    if _still_missing(doc, aggregated):
-        for variant in candidate_names(name):
-            new = from_wikidata(name=variant)
-            if new:
-                for k, v in new.items():
-                    aggregated.setdefault(k, v)
-                break
-
+    # Priority: Wikipedia → OL → Wikidata. setdefault preserves the highest-
+    # priority value when multiple sources contribute the same field.
+    for src in ("wikipedia", "open_library_author", "wikidata"):
+        for k, v in (results.get(src) or {}).items():
+            aggregated.setdefault(k, v)
     return aggregated
 
 

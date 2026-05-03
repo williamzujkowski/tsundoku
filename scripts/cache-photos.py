@@ -31,8 +31,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import HTTPError, URLError
-from urllib.request import urlopen, Request
+from http_retry import fetch_with_retry
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -79,15 +78,18 @@ def ext_from_response(content_type: str | None, url: str) -> str:
 
 
 def download(url: str) -> tuple[bytes, str] | None:
-    """Fetch image bytes + extension, or None on failure."""
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=DOWNLOAD_TIMEOUT) as resp:
-            data = resp.read()
-            ext = ext_from_response(resp.headers.get("Content-Type"), url)
-            return data, ext
-    except (HTTPError, URLError, TimeoutError, OSError):
+    """Fetch image bytes + extension, or None on failure.
+
+    Goes through fetch_with_retry so 429/503 from Wikimedia and other
+    rate-limiting CDNs auto-back-off and retry rather than dropping the
+    record. Per a prior session, ~24% of cache-photos downloads were
+    lost to silently-swallowed 429s.
+    """
+    body, status, headers = fetch_with_retry(url, timeout=DOWNLOAD_TIMEOUT)
+    if body is None:
         return None
+    ext = ext_from_response(headers.get("Content-Type"), url)
+    return body, ext
 
 
 def cache_one(

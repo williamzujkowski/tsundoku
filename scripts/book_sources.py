@@ -8,31 +8,15 @@ return {} on miss / network error — never raise.
 All HTTP goes through `http_cache.cached_fetch` (#91) so re-runs are cheap.
 """
 
-import json
-import re
 import sys
 from pathlib import Path
 from typing import Optional
-from urllib.error import HTTPError, URLError
 from urllib.parse import quote, quote_plus
-from urllib.request import urlopen, Request
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from enrichment_config import USER_AGENT
 from http_cache import cached_fetch
-
-
-HTTP_TIMEOUT = 20
-
-
-def _fetch_json(url: str) -> Optional[dict]:
-    req = Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
-            return json.loads(resp.read())
-    except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError):
-        return None
+from http_retry import fetch_json as _fetch_json  # noqa: F401 — re-exported for tests
 
 
 # ---------------------------------------------------------------------------
@@ -143,34 +127,59 @@ def from_google_books(*, isbn: Optional[str] = None, title: Optional[str] = None
 # Multi-source orchestrator (used by enrich-gaps.py)
 # ---------------------------------------------------------------------------
 
+# Source priority — earlier wins in tie-breaking (richer / more authoritative)
+_COVER_PRIORITY = (
+    "wikidata_book_v1",
+    "wikipedia_book_v1",
+    "ol_editions_v1",
+    "google_books_v1",
+)
+
+
 def cover_via_chain(book: dict) -> tuple[dict, Optional[str]]:
-    """Walk the full source priority chain for a missing cover.
+    """Fire all available cover sources concurrently through their per-source
+    rate buckets, then return the highest-priority non-empty result.
 
     Returns (fields_to_merge, source_label). Empty dict + None on total miss.
     Caller is responsible for additive_merge + provenance tagging.
     """
+    # Lazy import — keeps the module loadable for callers that test the
+    # source helpers in isolation without pulling in the parallel infra.
+    from parallel_fetch import DEFAULT_BUCKETS, parallel_sources
+
     qid = book.get("wikidata_qid")
-    if qid:
-        new = from_wikidata_book(qid=qid)
-        if new:
-            return new, "wikidata_book_v1"
-
     title = book.get("title") or ""
-    if title:
-        new = from_wikipedia_book(title=title)
-        if new:
-            return new, "wikipedia_book_v1"
-
     work_key = book.get("ol_work_key") or book.get("representative_work_key")
-    if work_key:
-        new = from_open_library_editions(work_key=work_key)
-        if new:
-            return new, "ol_editions_v1"
-
     isbn = book.get("isbn")
     author = book.get("author") or ""
-    new = from_google_books(isbn=isbn, title=title, author=author)
-    if new:
-        return new, "google_books_v1"
+
+    sources: list[tuple[str, callable]] = []
+    if qid:
+        sources.append(("wikidata", lambda: from_wikidata_book(qid=qid)))
+    if title:
+        sources.append(("wikipedia", lambda: from_wikipedia_book(title=title)))
+    if work_key:
+        sources.append(("open_library_editions",
+                        lambda: from_open_library_editions(work_key=work_key)))
+    if isbn or (title and author):
+        sources.append(("google_books",
+                        lambda: from_google_books(isbn=isbn, title=title, author=author)))
+
+    if not sources:
+        return {}, None
+
+    results = parallel_sources(sources, buckets=DEFAULT_BUCKETS)
+
+    # Walk priority order, return first non-empty result
+    src_to_label = {
+        "wikidata": "wikidata_book_v1",
+        "wikipedia": "wikipedia_book_v1",
+        "open_library_editions": "ol_editions_v1",
+        "google_books": "google_books_v1",
+    }
+    for label in _COVER_PRIORITY:
+        for src, lab in src_to_label.items():
+            if lab == label and results.get(src):
+                return results[src], label
 
     return {}, None
