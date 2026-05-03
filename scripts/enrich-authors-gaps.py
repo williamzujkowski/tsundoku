@@ -45,6 +45,7 @@ from author_sources import (
 from enrichment_config import AUTHORS_DIR
 from json_merge import additive_merge, save_json
 from parallel_fetch import DEFAULT_BUCKETS, parallel_sources
+from wikidata import enwiki_title, fetch_entity, qids_by_ol_author_keys
 
 
 GAP_FIELDS = ("bio", "photo_url")  # what counts as a "gap" worth filling
@@ -69,9 +70,43 @@ def _wiki_title_from_url(url: str) -> str | None:
     return unquote(m.group(1)).replace("_", " ")
 
 
-def _wiki_then_variants(name: str, curated_wiki_title: str | None) -> dict:
-    """Wikipedia REST: trust a curated wiki URL when present, else walk variants."""
-    titles = [curated_wiki_title] if curated_wiki_title else candidate_names(name)
+def _resolve_wiki_title_from_ol_key(olid: str | None) -> str | None:
+    """OL author key → Wikidata QID (via P648) → enwiki sitelink → article title.
+
+    For records that only have an OL key (most of the residual gap set),
+    this gives us a curated Wikipedia article title to feed into the REST
+    summary lookup, bypassing the unreliable by-name fallback.
+    """
+    if not olid:
+        return None
+    full_key = olid if olid.startswith("/authors/") else f"/authors/{olid}"
+    qids = qids_by_ol_author_keys([full_key])
+    qid = qids.get(full_key)
+    if not qid:
+        return None
+    entity = fetch_entity(qid)
+    return enwiki_title(entity, qid)
+
+
+def _wiki_then_variants(
+    name: str,
+    curated_wiki_title: str | None,
+    olid: str | None,
+) -> dict:
+    """Wikipedia REST lookups in priority order:
+      1. Curated wiki URL on the record (most trusted)
+      2. OL key → Wikidata QID → enwiki sitelink (authoritative cross-walk)
+      3. Name variants (cataloging-artifact fallback — least reliable)
+    """
+    titles: list[str] = []
+    if curated_wiki_title:
+        titles.append(curated_wiki_title)
+    resolved = _resolve_wiki_title_from_ol_key(olid)
+    if resolved and resolved not in titles:
+        titles.append(resolved)
+    if not curated_wiki_title and not resolved:
+        titles.extend(candidate_names(name))
+
     for t in titles:
         if not t:
             continue
@@ -99,7 +134,7 @@ def try_sources_for(doc: dict) -> dict:
     curated_wiki_title = _wiki_title_from_url(doc.get("wikipedia_url", ""))
 
     sources = [
-        ("wikipedia", lambda: _wiki_then_variants(name, curated_wiki_title)),
+        ("wikipedia", lambda: _wiki_then_variants(name, curated_wiki_title, olid)),
         ("open_library_author", lambda: from_open_library_author_page(
             olid=olid, name=name if not olid else None
         )),

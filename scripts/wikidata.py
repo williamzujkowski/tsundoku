@@ -152,6 +152,22 @@ def qids_by_ol_author_keys(keys: Iterable[str]) -> dict[str, str]:
     return _qids_by_p648(list(set(cleaned)), olid_path_prefix="/authors/")
 
 
+def enwiki_title(entity: dict | None, qid: str) -> str | None:
+    """Return the English Wikipedia article title for an entity, or None.
+
+    Used to bridge from a Wikidata QID (resolved via P648 from OL author
+    keys) back to a curated Wikipedia article — letting downstream
+    enrichers fetch the REST summary by exact title rather than gambling
+    on a by-name search.
+    """
+    if not entity or not qid:
+        return None
+    sitelinks = (((entity.get("entities") or {}).get(qid) or {}).get("sitelinks")) or {}
+    enwiki = sitelinks.get("enwiki") or {}
+    title = enwiki.get("title")
+    return title if isinstance(title, str) and title else None
+
+
 def fetch_entity(qid: str) -> dict | None:
     """Fetch a Wikidata entity by QID. Cached."""
     if not qid or not qid.startswith("Q"):
