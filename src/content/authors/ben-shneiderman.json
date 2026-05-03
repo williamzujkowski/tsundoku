@@ -3,7 +3,7 @@
   "slug": "ben-shneiderman",
   "book_count": 1,
   "bio": "Ben Shneiderman is an American computer scientist, a Distinguished University Professor in the University of Maryland Department of Computer Science, which is part of the University of Maryland College of Computer, Mathematical, and Natural Sciences at the University of Maryland, College Park, and the founding director (1983-2000) of the University of Maryland Human-Computer Interaction Lab. He conducted fundamental research in the field of human–computer interaction, developing new ideas, methods, and tools such as the direct manipulation interface, and his eight rules of design.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ben_Shneiderman_at_UNCC_%283x4_cropped%29.jpg/400px-Ben_Shneiderman_at_UNCC_%283x4_cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/ben-shneiderman.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Shneiderman",
   "open_library_url": "https://openlibrary.org/authors/OL540395A",
   "birth_year": 1947,
@@ -50,5 +50,7 @@
       "name": "honorary doctorate",
       "year": 1995
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ben_Shneiderman_at_UNCC_%283x4_cropped%29.jpg/400px-Ben_Shneiderman_at_UNCC_%283x4_cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:53:28+00:00"
 }

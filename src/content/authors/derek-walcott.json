@@ -3,7 +3,7 @@
   "slug": "derek-walcott",
   "book_count": 2,
   "bio": "Sir Derek Alton Walcott OM was a Saint Lucian poet and playwright.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Derek_Walcott.jpg/400px-Derek_Walcott.jpg",
+  "photo_url": "/tsundoku/cached/authors/derek-walcott.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Derek_Walcott",
   "open_library_url": "https://openlibrary.org/authors/OL32247A",
   "birth_year": 1930,
@@ -70,5 +70,7 @@
     {
       "name": "star on Playwrights' Sidewalk"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Derek_Walcott.jpg/400px-Derek_Walcott.jpg",
+  "photo_cached_at": "2026-05-03T02:56:42+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "teresa-of-vila",
   "book_count": 2,
   "bio": "Teresa of Ávila, also called Saint Teresa of Jesus, was a Carmelite nun and prominent Spanish mystic and religious reformer.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Santa_Teresa_de_Jes%C3%BAs_%28Museo_del_Prado%29.jpg/400px-Santa_Teresa_de_Jes%C3%BAs_%28Museo_del_Prado%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/teresa-of-vila.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila",
   "open_library_url": "https://openlibrary.org/authors/OL2250A",
   "birth_year": 1515,
@@ -19,5 +19,7 @@
     "ES"
   ],
   "viaf_id": "95217173",
-  "ol_author_key": "/authors/OL2250A"
+  "ol_author_key": "/authors/OL2250A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Santa_Teresa_de_Jes%C3%BAs_%28Museo_del_Prado%29.jpg/400px-Santa_Teresa_de_Jes%C3%BAs_%28Museo_del_Prado%29.jpg",
+  "photo_cached_at": "2026-05-03T03:17:57+00:00"
 }

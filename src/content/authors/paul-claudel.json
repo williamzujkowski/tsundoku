@@ -3,7 +3,7 @@
   "slug": "paul-claudel",
   "book_count": 1,
   "bio": "Paul Claudel was a French poet, dramatist and diplomat, and the younger brother of the sculptor Camille Claudel. He was most famous for his verse dramas, which often convey his devout Catholicism.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Paul_Claudel_cph.3b31258.jpg/400px-Paul_Claudel_cph.3b31258.jpg",
+  "photo_url": "/tsundoku/cached/authors/paul-claudel.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Claudel",
   "open_library_url": "https://openlibrary.org/authors/OL113600A",
   "birth_year": 1868,
@@ -40,5 +40,7 @@
     {
       "name": "Grand Cross of the Order of Isabella the Catholic"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Paul_Claudel_cph.3b31258.jpg/400px-Paul_Claudel_cph.3b31258.jpg",
+  "photo_cached_at": "2026-05-03T03:13:00+00:00"
 }

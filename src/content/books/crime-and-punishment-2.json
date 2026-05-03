@@ -7,8 +7,8 @@
   "tags": [
     "mystery"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/12246767-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/12246767-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/crime-and-punishment-2.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/crime-and-punishment-2.jpg",
   "open_library_url": "https://openlibrary.org/works/OL21974112W",
   "first_published": 1911,
   "language": "eng",
@@ -50,5 +50,8 @@
   },
   "editions_count": 2,
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL30347939M"
+  "representative_edition_key": "/books/OL30347939M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/12246767-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/12246767-L.jpg",
+  "cover_cached_at": "2026-05-03T03:21:58+00:00"
 }

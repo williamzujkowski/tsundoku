@@ -3,7 +3,7 @@
   "slug": "sylvia-plath",
   "book_count": 3,
   "bio": "Sylvia Plath was an American poet and author. She is credited with advancing the genre of confessional poetry and is best known for The Colossus and Other Poems (1960), Ariel (1965), and The Bell Jar (1963), a semi-autobiographical novel published one month before her suicide. The Collected Poems was published in 1981, which included previously unpublished works. For this collection Plath was awarded a Pulitzer Prize for Poetry in 1982, making her the fourth person to receive this honor posthumously.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sylvia_Plath.jpg/400px-Sylvia_Plath.jpg",
+  "photo_url": "/tsundoku/cached/authors/sylvia-plath.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sylvia_Plath",
   "open_library_url": "https://openlibrary.org/authors/OL4327652A",
   "birth_year": 1932,
@@ -37,5 +37,7 @@
     {
       "name": "Fulbright Scholarship"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sylvia_Plath.jpg/400px-Sylvia_Plath.jpg",
+  "photo_cached_at": "2026-05-03T03:17:21+00:00"
 }

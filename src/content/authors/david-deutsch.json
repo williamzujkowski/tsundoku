@@ -3,7 +3,7 @@
   "slug": "david-deutsch",
   "book_count": 1,
   "bio": "David Elieser Deutsch is a British physicist at the University of Oxford who is often described as the \"father of quantum computing\". He is a visiting professor in the Department of Atomic and Laser Physics at the Centre for Quantum Computation (CQC) in the Clarendon Laboratory of the University of Oxford. He pioneered the field of quantum computation by formulating a description for a quantum Turing machine, as well as specifying an algorithm designed to run on a quantum computer. He is a proponent of the many-worlds interpretation of quantum mechanics.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/David_Deutsch.jpg/400px-David_Deutsch.jpg",
+  "photo_url": "/tsundoku/cached/authors/david-deutsch.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/David_Deutsch",
   "open_library_url": "https://openlibrary.org/authors/OL6019119A",
   "birth_year": 1756,
@@ -19,5 +19,7 @@
     "HU"
   ],
   "viaf_id": "170005734",
-  "ol_author_key": "/authors/OL6367873A"
+  "ol_author_key": "/authors/OL6367873A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/David_Deutsch.jpg/400px-David_Deutsch.jpg",
+  "photo_cached_at": "2026-05-03T02:56:23+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "gwendolyn-brooks",
   "book_count": 2,
   "bio": "Gwendolyn Elizabeth Brooks was an American poet, author, and teacher. Her work often dealt with the personal celebrations and struggles of ordinary people in her community. She won the Pulitzer Prize for Poetry on May 1, 1950, for Annie Allen, making her the first African American to receive a Pulitzer Prize.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gwendolyn_Brooks_ACME_1950.jpg/400px-Gwendolyn_Brooks_ACME_1950.jpg",
+  "photo_url": "/tsundoku/cached/authors/gwendolyn-brooks.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gwendolyn_Brooks",
   "open_library_url": "https://openlibrary.org/authors/OL241940A",
   "birth_year": 1917,
@@ -87,5 +87,7 @@
     {
       "name": "Order of Lincoln"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gwendolyn_Brooks_ACME_1950.jpg/400px-Gwendolyn_Brooks_ACME_1950.jpg",
+  "photo_cached_at": "2026-05-03T03:00:54+00:00"
 }

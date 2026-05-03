@@ -3,7 +3,7 @@
   "slug": "kent-beck",
   "book_count": 2,
   "bio": "Kent Beck is an American software engineer and the creator of extreme programming, a software development methodology that eschews rigid formal specification for a collaborative and iterative design process. Beck was one of the 17 original signatories of the Agile Manifesto, the founding document for agile software development. Extreme and Agile methods are closely associated with Test-Driven Development (TDD), of which Beck is perhaps the leading proponent.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg/400px-Kent_Beck_no_Workshop_Mapping_XP.jpg",
+  "photo_url": "/tsundoku/cached/authors/kent-beck.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kent_Beck",
   "open_library_url": "https://openlibrary.org/authors/OL235459A",
   "_provenance": {
@@ -17,5 +17,7 @@
     "US"
   ],
   "viaf_id": "39529441",
-  "ol_author_key": "/authors/OL235459A"
+  "ol_author_key": "/authors/OL235459A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg/400px-Kent_Beck_no_Workshop_Mapping_XP.jpg",
+  "photo_cached_at": "2026-05-03T03:06:30+00:00"
 }

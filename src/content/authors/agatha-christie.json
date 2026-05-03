@@ -3,7 +3,7 @@
   "slug": "agatha-christie",
   "book_count": 7,
   "bio": "Dame Agatha Mary Clarissa Mallowan, Lady Mallowan, usually known by her first married name, Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple. She is widely regarded as one of the greatest writers, particularly in the mystery genre.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg/400px-Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/agatha-christie.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Agatha_Christie",
   "open_library_url": "https://openlibrary.org/authors/OL27695A",
   "birth_year": 1890,
@@ -52,5 +52,7 @@
     {
       "name": "Order of the British Empire"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg/400px-Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:50:27+00:00"
 }

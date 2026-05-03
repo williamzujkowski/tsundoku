@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "orientalism",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/254331-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/254331-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/orientalism.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/orientalism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL27405W",
   "first_published": 1978,
   "language": "eng",
@@ -98,5 +98,8 @@
   "wikidata_qid": "Q1574967",
   "original_title": "Orientalism",
   "original_language": "eng",
-  "original_publisher": "Vintage Books"
+  "original_publisher": "Vintage Books",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/254331-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/254331-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:20+00:00"
 }

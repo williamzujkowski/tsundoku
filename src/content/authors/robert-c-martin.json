@@ -3,7 +3,7 @@
   "slug": "robert-c-martin",
   "book_count": 2,
   "bio": "Robert Cecil Martin, colloquially called \"Uncle Bob\", is an American software engineer, instructor, and author. He is most recognized for promoting many software design principles and for being an author and signatory of the influential Agile Manifesto.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Robert_C._Martin_surrounded_by_computers_%28cropped%29.jpg/400px-Robert_C._Martin_surrounded_by_computers_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/robert-c-martin.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_C._Martin",
   "open_library_url": "https://openlibrary.org/authors/OL2653686A",
   "birth_year": 1952,
@@ -18,5 +18,7 @@
     "US"
   ],
   "viaf_id": "85276018",
-  "ol_author_key": "/authors/OL2653686A"
+  "ol_author_key": "/authors/OL2653686A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Robert_C._Martin_surrounded_by_computers_%28cropped%29.jpg/400px-Robert_C._Martin_surrounded_by_computers_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:14:54+00:00"
 }

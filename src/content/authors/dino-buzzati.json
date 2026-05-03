@@ -3,7 +3,7 @@
   "slug": "dino-buzzati",
   "book_count": 1,
   "bio": "Dino Buzzati-Traverso was an Italian novelist, short story writer, painter and poet, as well as a journalist for Corriere della Sera. His worldwide fame is mostly due to his novel The Tartar Steppe, although he is also known for his well-received collections of short stories.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dino_Buzzati.jpg",
+  "photo_url": "/tsundoku/cached/authors/dino-buzzati.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dino_Buzzati",
   "open_library_url": "https://openlibrary.org/authors/OL150257A",
   "birth_year": 1906,
@@ -30,5 +30,7 @@
       "name": "Napoli Prize",
       "year": 1954
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dino_Buzzati.jpg",
+  "photo_cached_at": "2026-05-03T02:56:48+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "john-milton",
   "book_count": 4,
   "bio": "John Milton was an English poet, polemicist, and civil servant. His 1667 epic poem Paradise Lost was written in blank verse and included 12 books, written in a time of immense religious flux and political upheaval. It addressed the fall of man, including the temptation of Adam and Eve by the fallen angel Satan, and God's expulsion of them from the Garden of Eden. Paradise Lost elevated Milton's reputation as one of history's greatest poets. He also served as a civil servant for the Commonwealth of England under its Council of State and later under Oliver Cromwell.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/400px-John_Milton_Christ%27s_College.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-milton.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Milton",
   "open_library_url": "https://openlibrary.org/authors/OL68333A",
   "birth_year": 1608,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q79759",
   "viaf_id": "17226855",
-  "ol_author_key": "/authors/OL68333A"
+  "ol_author_key": "/authors/OL68333A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/400px-John_Milton_Christ%27s_College.jpg",
+  "photo_cached_at": "2026-05-03T03:05:13+00:00"
 }

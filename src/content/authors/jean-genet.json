@@ -3,7 +3,7 @@
   "slug": "jean-genet",
   "book_count": 2,
   "bio": "Jean Genet was a French novelist, playwright, poet, essayist, and political activist. In his early life he was a vagabond and petty criminal, but he later became a writer and playwright. His major works include the novels The Thief's Journal and Our Lady of the Flowers and the plays The Balcony, The Maids and The Screens.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/JeanGenet-HansKoechler1983-cropped.jpg/400px-JeanGenet-HansKoechler1983-cropped.jpg",
+  "photo_url": "/tsundoku/cached/authors/jean-genet.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Genet",
   "open_library_url": "https://openlibrary.org/authors/OL129758A",
   "birth_year": 1910,
@@ -33,5 +33,7 @@
       "name": "Pleiades Prize",
       "year": 1947
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/JeanGenet-HansKoechler1983-cropped.jpg/400px-JeanGenet-HansKoechler1983-cropped.jpg",
+  "photo_cached_at": "2026-05-03T03:04:12+00:00"
 }

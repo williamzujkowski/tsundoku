@@ -3,7 +3,7 @@
   "slug": "michel-de-montaigne",
   "book_count": 1,
   "bio": "Michel Eyquem, Seigneur de Montaigne, commonly known as just Michel de Montaigne, was one of the most significant philosophers of the French Renaissance. He is known for popularising the essay as a literary genre. His work is noted for its merging of casual anecdotes and autobiography with intellectual insight. Montaigne had a direct influence on numerous writers of Western literature; his Essais contain some of the most influential essays ever written.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg/400px-Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg",
+  "photo_url": "/tsundoku/cached/authors/michel-de-montaigne.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michel_de_Montaigne",
   "open_library_url": "https://openlibrary.org/authors/OL112816A",
   "birth_year": 1533,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q41568",
   "viaf_id": "95153547",
-  "ol_author_key": "/authors/OL6899172A"
+  "ol_author_key": "/authors/OL6899172A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg/400px-Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg",
+  "photo_cached_at": "2026-05-03T03:10:29+00:00"
 }

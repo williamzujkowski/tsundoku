@@ -3,7 +3,7 @@
   "slug": "ivan-turgenev",
   "book_count": 5,
   "bio": "Ivan Sergeyevich Turgenev was a Russian novelist, short story writer, poet, playwright, translator and popularizer of Russian literature in the West.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Turgenev_by_Repin.jpg/400px-Turgenev_by_Repin.jpg",
+  "photo_url": "/tsundoku/cached/authors/ivan-turgenev.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ivan_Turgenev",
   "open_library_url": "https://openlibrary.org/authors/OL10240A",
   "birth_year": 1818,
@@ -37,5 +37,7 @@
   "ol_author_key": "/authors/OL10240A",
   "movements": [
     "literary realism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Turgenev_by_Repin.jpg/400px-Turgenev_by_Repin.jpg",
+  "photo_cached_at": "2026-05-03T03:02:59+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "gottfried-wilhelm-leibniz",
   "book_count": 4,
   "bio": "Gottfried Wilhelm Leibniz was a German polymath active as a mathematician, philosopher, scientist, and diplomat who is credited, alongside Isaac Newton, with the creation of calculus in addition to many other branches of mathematics, such as binary arithmetic and statistics. Leibniz has been called the \"last universal genius\" due to his vast expertise across fields, which became a rarity after his lifetime with the coming of the Industrial Revolution and the spread of specialized labour. He is a prominent figure in both the history of philosophy and the history of mathematics. He wrote works on philosophy, theology, ethics, politics, law, history, philology, games, music, and other studies. Leibniz also made major contributions to physics and technology, and anticipated notions that surfaced much later in probability theory, biology, medicine, geology, psychology, linguistics and computer science.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/400px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/gottfried-wilhelm-leibniz.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
   "open_library_url": "https://openlibrary.org/authors/OL116444A",
   "birth_year": 1646,
@@ -26,5 +26,7 @@
       "name": "Fellow of the Royal Society",
       "year": 1673
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/400px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+  "photo_cached_at": "2026-05-03T03:00:37+00:00"
 }

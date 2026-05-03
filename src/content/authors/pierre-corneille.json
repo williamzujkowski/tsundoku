@@ -3,7 +3,7 @@
   "slug": "pierre-corneille",
   "book_count": 1,
   "bio": "Pierre Corneille was a French tragedian. He is generally considered one of the three great 17th-century French dramatists, along with Molière and Racine.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pierre_Corneille_2.jpg/400px-Pierre_Corneille_2.jpg",
+  "photo_url": "/tsundoku/cached/authors/pierre-corneille.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Pierre_Corneille",
   "open_library_url": "https://openlibrary.org/authors/OL130779A",
   "birth_year": 1606,
@@ -19,5 +19,7 @@
   "ol_author_key": "/authors/OL130779A",
   "movements": [
     "Neoclassicism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pierre_Corneille_2.jpg/400px-Pierre_Corneille_2.jpg",
+  "photo_cached_at": "2026-05-03T03:13:27+00:00"
 }

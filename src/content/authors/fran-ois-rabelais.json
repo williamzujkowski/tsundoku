@@ -3,7 +3,7 @@
   "slug": "fran-ois-rabelais",
   "book_count": 1,
   "bio": "François Rabelais was a French writer who has been called the first great French prose author. A humanist of the French Renaissance and Greek scholar, he attracted opposition from both Protestant theologian John Calvin and from the hierarchy of the Catholic Church. Though in his day he was best known as a physician, scholar, diplomat, and Catholic priest, later he became better known as a satirist for his depictions of the grotesque, and for his larger-than-life characters.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Francois_Rabelais_-_Portrait.jpg/400px-Francois_Rabelais_-_Portrait.jpg",
+  "photo_url": "/tsundoku/cached/authors/fran-ois-rabelais.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais",
   "open_library_url": "https://openlibrary.org/authors/OL4280600A",
   "birth_year": 1494,
@@ -31,5 +31,7 @@
   "movements": [
     "freethought",
     "renaissance humanism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Francois_Rabelais_-_Portrait.jpg/400px-Francois_Rabelais_-_Portrait.jpg",
+  "photo_cached_at": "2026-05-03T02:59:11+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/6879597-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/6879597-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/waiting-for-god.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/waiting-for-god.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16047765W",
   "first_published": 1973,
   "language": "eng",
@@ -28,5 +28,8 @@
     "representative_edition_key": "ol_firstedition_v1"
   },
   "editions_count": 3,
-  "representative_edition_key": "/books/OL53967009M"
+  "representative_edition_key": "/books/OL53967009M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/6879597-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/6879597-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:40+00:00"
 }

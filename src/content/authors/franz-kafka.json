@@ -3,7 +3,7 @@
   "slug": "franz-kafka",
   "book_count": 5,
   "bio": "Franz Kafka was a German-language Jewish Czech writer and novelist born in Prague, in the Austro-Hungarian Empire. Widely regarded as a major figure of 20th-century literature, his works fuse elements of realism and the fantastique, and typically feature isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio-bureaucratic powers. The term Kafkaesque has entered the lexicon to describe situations like those depicted in his writings. His best-known works include the novella The Metamorphosis (1915) and the novels The Trial (1924) and The Castle (1926). He is also celebrated for his brief fables and aphorisms, which frequently incorporated comedic elements alongside the darker themes of his longer works. His work has widely influenced artists, philosophers, composers, filmmakers, literary historians, religious scholars, and cultural theorists, and his writings have been seen as prophetic or premonitory of a totalitarian future.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/400px-Franz_Kafka%2C_1923.jpg",
+  "photo_url": "/tsundoku/cached/authors/franz-kafka.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Franz_Kafka",
   "open_library_url": "https://openlibrary.org/authors/OL33146A",
   "birth_year": 1883,
@@ -20,5 +20,7 @@
   "movements": [
     "modernist literature",
     "existentialism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/400px-Franz_Kafka%2C_1923.jpg",
+  "photo_cached_at": "2026-05-03T02:59:33+00:00"
 }

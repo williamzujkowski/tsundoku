@@ -3,7 +3,7 @@
   "slug": "george-berkeley",
   "book_count": 2,
   "bio": "George Berkeley, known as Bishop Berkeley, was an Anglo-Irish philosopher, writer, and clergyman who is regarded as the founder of immaterialism, a philosophical theory he developed which later came to be known as subjective idealism. He has also been called \"the father of idealism\" by German philosopher Arthur Schopenhauer. Berkeley played a leading role in the empiricism movement and was one of its pioneers. He was among the most cited philosophers of 18th-century Europe, and his works deeply influenced later thinkers such as Immanuel Kant and David Hume.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/George_Berkeley_by_John_Smibert.jpg/400px-George_Berkeley_by_John_Smibert.jpg",
+  "photo_url": "/tsundoku/cached/authors/george-berkeley.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Berkeley",
   "open_library_url": "https://openlibrary.org/authors/OL108000A",
   "birth_year": 1685,
@@ -20,5 +20,7 @@
   "movements": [
     "empiricism",
     "Immaterialism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/George_Berkeley_by_John_Smibert.jpg/400px-George_Berkeley_by_John_Smibert.jpg",
+  "photo_cached_at": "2026-05-03T02:59:59+00:00"
 }

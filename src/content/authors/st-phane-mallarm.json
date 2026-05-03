@@ -3,7 +3,7 @@
   "slug": "st-phane-mallarm",
   "book_count": 1,
   "bio": "Étienne Mallarmé, known professionally as Stéphane Mallarmé, was a French poet and critic. He was a major French Symbolist poet, and his work anticipated and inspired several revolutionary artistic schools of the early 20th century, such as Cubism, Futurism, Dadaism, and Surrealism.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mallarm%C3%A9_Nadar.jpg/400px-Mallarm%C3%A9_Nadar.jpg",
+  "photo_url": "/tsundoku/cached/authors/st-phane-mallarm.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/St%C3%A9phane_Mallarm%C3%A9",
   "open_library_url": "https://openlibrary.org/authors/OL41913A",
   "birth_year": 1842,
@@ -25,5 +25,7 @@
     {
       "name": "Taylorian Lecture"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mallarm%C3%A9_Nadar.jpg/400px-Mallarm%C3%A9_Nadar.jpg",
+  "photo_cached_at": "2026-05-03T03:16:43+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "rachel-carson",
   "book_count": 2,
   "bio": "Rachel Louise Carson was an American marine biologist, writer, and conservationist whose sea trilogy (1941–1955) and book Silent Spring (1962) are credited with advancing marine conservation and the global environmental movement.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rachel-Carson.jpg/400px-Rachel-Carson.jpg",
+  "photo_url": "/tsundoku/cached/authors/rachel-carson.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Carson",
   "open_library_url": "https://openlibrary.org/authors/OL225621A",
   "birth_year": 1907,
@@ -58,5 +58,7 @@
       "name": "Maryland Women's Hall of Fame",
       "year": 1985
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rachel-Carson.jpg/400px-Rachel-Carson.jpg",
+  "photo_cached_at": "2026-05-03T03:13:50+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "aristotle",
   "book_count": 14,
   "bio": "Aristotle was an ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/400px-Aristotle_Altemps_Inv8575.jpg",
+  "photo_url": "/tsundoku/cached/authors/aristotle.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Aristotle",
   "open_library_url": "https://openlibrary.org/authors/OL22105A",
   "_provenance": {
@@ -17,5 +17,7 @@
   "ol_author_key": "/authors/OL6856645A",
   "movements": [
     "peripatetic school"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/400px-Aristotle_Altemps_Inv8575.jpg",
+  "photo_cached_at": "2026-05-03T02:52:32+00:00"
 }

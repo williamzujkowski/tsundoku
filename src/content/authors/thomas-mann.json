@@ -3,7 +3,7 @@
   "slug": "thomas-mann",
   "book_count": 6,
   "bio": "Paul Thomas Mann was a German novelist, short story writer, social critic, philanthropist, essayist, and the 1929 Nobel Prize in Literature laureate. His highly symbolic and ironic epic novels and novellas are noted for their insight into the psychology of the artist and the intellectual. His analysis and critique of the European and German soul used modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Thomas_Mann_1929.jpg/400px-Thomas_Mann_1929.jpg",
+  "photo_url": "/tsundoku/cached/authors/thomas-mann.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Mann",
   "open_library_url": "https://openlibrary.org/authors/OL22973A",
   "birth_year": 1875,
@@ -96,5 +96,7 @@
     {
       "name": "Taylorian Lecture"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Thomas_Mann_1929.jpg/400px-Thomas_Mann_1929.jpg",
+  "photo_cached_at": "2026-05-03T03:18:38+00:00"
 }

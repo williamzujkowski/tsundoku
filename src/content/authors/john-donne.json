@@ -3,7 +3,7 @@
   "slug": "john-donne",
   "book_count": 3,
   "bio": "John Donne was an English poet, scholar, soldier and secretary born into a recusant family, who later became a cleric in the Church of England. Under royal patronage, he was made Dean of St Paul's Cathedral in London (1621–1631). He is considered the preeminent representative of the metaphysical poets. His poetical works are noted for their metaphorical and sensual style and include sonnets, love poems, religious poems, Latin translations, epigrams, elegies, songs and satires. He is also known for his sermons.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/400px-John_Donne_by_Isaac_Oliver.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-donne.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Donne",
   "open_library_url": "https://openlibrary.org/authors/OL123428A",
   "birth_year": 1572,
@@ -15,5 +15,7 @@
   },
   "wikidata_qid": "Q140412",
   "viaf_id": "73852666",
-  "ol_author_key": "/authors/OL123428A"
+  "ol_author_key": "/authors/OL123428A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/400px-John_Donne_by_Isaac_Oliver.jpg",
+  "photo_cached_at": "2026-05-03T03:04:54+00:00"
 }

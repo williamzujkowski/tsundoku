@@ -3,7 +3,7 @@
   "slug": "emily-dickinson",
   "book_count": 1,
   "bio": "Emily Elizabeth Dickinson was an American poet. Largely unpublished and unknown during her lifetime, her work is now widely regarded as canonical. Her poems have a unique style, piercing intelligence and wit.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/400px-Black-white_photograph_of_Emily_Dickinson2.png",
+  "photo_url": "/tsundoku/cached/authors/emily-dickinson.png",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Emily_Dickinson",
   "open_library_url": "https://openlibrary.org/authors/OL19512A",
   "birth_year": 1830,
@@ -26,5 +26,7 @@
       "name": "National Women's Hall of Fame",
       "year": 1973
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/400px-Black-white_photograph_of_Emily_Dickinson2.png",
+  "photo_cached_at": "2026-05-03T02:57:55+00:00"
 }

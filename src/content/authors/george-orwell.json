@@ -3,7 +3,7 @@
   "slug": "george-orwell",
   "book_count": 5,
   "bio": "Eric Arthur Blair was an English novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of democratic socialism.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/400px-George_Orwell_press_photo.jpg",
+  "photo_url": "/tsundoku/cached/authors/george-orwell.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/George_Orwell",
   "open_library_url": "https://openlibrary.org/authors/OL118077A",
   "birth_year": 1903,
@@ -39,5 +39,7 @@
       "name": "Retro Hugo Award for Best Novella",
       "year": 1996
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/400px-George_Orwell_press_photo.jpg",
+  "photo_cached_at": "2026-05-03T03:00:18+00:00"
 }

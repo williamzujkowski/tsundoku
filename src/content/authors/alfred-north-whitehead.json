@@ -3,7 +3,7 @@
   "slug": "alfred-north-whitehead",
   "book_count": 3,
   "bio": "Alfred North Whitehead was an English mathematician and philosopher. He created the philosophical school known as process philosophy, which has been applied in a wide variety of disciplines, including ecology, theology, education, physics, biology, economics, and psychology.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ANWhitehead.jpg/400px-ANWhitehead.jpg",
+  "photo_url": "/tsundoku/cached/authors/alfred-north-whitehead.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
   "open_library_url": "https://openlibrary.org/authors/OL115663A",
   "birth_year": 1861,
@@ -51,5 +51,7 @@
     {
       "name": "Fellow of the British Academy"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ANWhitehead.jpg/400px-ANWhitehead.jpg",
+  "photo_cached_at": "2026-05-03T02:51:04+00:00"
 }

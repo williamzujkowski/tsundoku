@@ -3,7 +3,7 @@
   "slug": "barbara-tuchman",
   "book_count": 2,
   "bio": "Barbara Wertheim Tuchman was an American historian, journalist and author. She won the Pulitzer Prize twice, for The Guns of August (1962), a best-selling history of the prelude to and the first month of World War I, and Stilwell and the American Experience in China (1971), a biography of General Joseph Stilwell.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Barbara_W._Tuchman.JPG/400px-Barbara_W._Tuchman.JPG",
+  "photo_url": "/tsundoku/cached/authors/barbara-tuchman.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_W._Tuchman",
   "open_library_url": "https://openlibrary.org/authors/OL551291A",
   "birth_year": 1912,
@@ -45,5 +45,7 @@
     {
       "name": "Fellow of the American Academy of Arts and Sciences"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Barbara_W._Tuchman.JPG/400px-Barbara_W._Tuchman.JPG",
+  "photo_cached_at": "2026-05-03T02:53:12+00:00"
 }

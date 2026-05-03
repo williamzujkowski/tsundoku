@@ -3,7 +3,7 @@
   "slug": "alice-walker",
   "book_count": 2,
   "bio": "Alice Malsenior Tallulah-Kate Walker is an American novelist, short story writer, poet, and social activist. In 1982, she became the first African-American woman to win the Pulitzer Prize for Fiction, which she was awarded for her novel The Color Purple. Over the span of her career, Walker has published seventeen novels and short story collections, twelve non-fiction works, and collections of essays and poetry.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Alice_Walker.jpg/400px-Alice_Walker.jpg",
+  "photo_url": "/tsundoku/cached/authors/alice-walker.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Walker",
   "open_library_url": "https://openlibrary.org/authors/OL217774A",
   "birth_year": 1944,
@@ -69,5 +69,7 @@
       "name": "National Book Award",
       "year": 1983
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Alice_Walker.jpg/400px-Alice_Walker.jpg",
+  "photo_cached_at": "2026-05-03T02:51:06+00:00"
 }

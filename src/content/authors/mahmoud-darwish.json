@@ -3,7 +3,7 @@
   "slug": "mahmoud-darwish",
   "book_count": 2,
   "bio": "Mahmoud Darwish was a Palestinian poet and author who was regarded as Palestine's national poet.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MahmoudDarwish.jpg/400px-MahmoudDarwish.jpg",
+  "photo_url": "/tsundoku/cached/authors/mahmoud-darwish.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mahmoud_Darwish",
   "open_library_url": "https://openlibrary.org/authors/OL2758657A",
   "birth_year": 1941,
@@ -45,5 +45,7 @@
     {
       "name": "International Nazim Hikmet Poetry Award"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MahmoudDarwish.jpg/400px-MahmoudDarwish.jpg",
+  "photo_cached_at": "2026-05-03T03:08:30+00:00"
 }

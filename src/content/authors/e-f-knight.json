@@ -6,7 +6,7 @@
   "open_library_url": "https://openlibrary.org/authors/OL1183571A",
   "birth_year": 1852,
   "death_year": 1925,
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Frederick%20Knight.png?width=400",
+  "photo_url": "/tsundoku/cached/authors/e-f-knight.jpg",
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "viaf_id": "wikidata_v1",
@@ -14,5 +14,7 @@
   },
   "wikidata_qid": "Q5343007",
   "viaf_id": "71505488",
-  "ol_author_key": "/authors/OL2597359A"
+  "ol_author_key": "/authors/OL2597359A",
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Frederick%20Knight.png?width=400",
+  "photo_cached_at": "2026-05-03T02:57:07+00:00"
 }

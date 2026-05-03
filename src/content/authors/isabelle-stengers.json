@@ -4,7 +4,7 @@
   "book_count": 1,
   "open_library_url": "https://openlibrary.org/authors/OL195464A",
   "bio": "Belgian philosopher of science and scientist (born 1949)",
-  "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isabelle-stengers.jpg?width=400",
+  "photo_url": "/tsundoku/cached/authors/isabelle-stengers.jpg",
   "birth_year": 1949,
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
@@ -17,5 +17,7 @@
     "BE"
   ],
   "viaf_id": "108549044",
-  "ol_author_key": "/authors/OL195464A"
+  "ol_author_key": "/authors/OL195464A",
+  "photo_url_source": "https://commons.wikimedia.org/wiki/Special:FilePath/Isabelle-stengers.jpg?width=400",
+  "photo_cached_at": "2026-05-03T03:02:57+00:00"
 }

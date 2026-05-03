@@ -3,7 +3,7 @@
   "slug": "boris-vian",
   "book_count": 1,
   "bio": "Boris Vian was a French polymath who is primarily remembered for his novels. Those published under the pseudonym Vernon Sullivan were bizarre parodies of criminal fiction, highly controversial at the time of their release owing to their unconventional outlook.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Boris_Vian.jpg/400px-Boris_Vian.jpg",
+  "photo_url": "/tsundoku/cached/authors/boris-vian.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Boris_Vian",
   "open_library_url": "https://openlibrary.org/authors/OL56353A",
   "birth_year": 1920,
@@ -60,5 +60,7 @@
     {
       "name": "Ordre de la Grande Gidouille"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Boris_Vian.jpg/400px-Boris_Vian.jpg",
+  "photo_cached_at": "2026-05-03T02:54:05+00:00"
 }

@@ -5,8 +5,8 @@
   "priority": 1,
   "slug": "vineland",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/5273728-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/5273728-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/vineland.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/vineland.jpg",
   "open_library_url": "https://openlibrary.org/works/OL2636662W",
   "first_published": 1990,
   "language": "eng",
@@ -48,5 +48,8 @@
   "wikidata_qid": "Q2738674",
   "original_title": "Vineland",
   "original_language": "eng",
-  "original_publisher": "Little, Brown and Company"
+  "original_publisher": "Little, Brown and Company",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/5273728-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/5273728-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:38+00:00"
 }

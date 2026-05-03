@@ -7,8 +7,8 @@
   "tags": [
     "le-monde-100"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2560810-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2560810-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/for-whom-the-bell-tolls.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/for-whom-the-bell-tolls.jpg",
   "open_library_url": "https://openlibrary.org/works/OL63009W",
   "first_published": 1940,
   "language": "eng",
@@ -131,5 +131,8 @@
     {
       "name": "Le Monde's 100 Books of the Century"
     }
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2560810-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2560810-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:08+00:00"
 }

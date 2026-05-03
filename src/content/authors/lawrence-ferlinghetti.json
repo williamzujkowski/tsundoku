@@ -3,7 +3,7 @@
   "slug": "lawrence-ferlinghetti",
   "book_count": 1,
   "bio": "Lawrence Monsanto Ferlinghetti was an American poet, painter, social activist, and co-founder of City Lights Booksellers & Publishers. An author of poetry, translations, fiction, theatre, art criticism, and film narration, Ferlinghetti was best known for his second collection of poems, A Coney Island of the Mind (1958), which has been translated into nine languages and sold over a million copies. When Ferlinghetti turned 100 in March 2019, the city of San Francisco turned his birthday, March 24, into \"Lawrence Ferlinghetti Day\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lawrence-ferlinghetti-by-elsa-dorfman_%28cropped%29.jpg/400px-Lawrence-ferlinghetti-by-elsa-dorfman_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/lawrence-ferlinghetti.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lawrence_Ferlinghetti",
   "open_library_url": "https://openlibrary.org/authors/OL86982A",
   "birth_year": 1919,
@@ -51,5 +51,7 @@
     {
       "name": "Commandeur des Arts et des Lettres"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lawrence-ferlinghetti-by-elsa-dorfman_%28cropped%29.jpg/400px-Lawrence-ferlinghetti-by-elsa-dorfman_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:07:10+00:00"
 }

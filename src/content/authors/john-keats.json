@@ -3,7 +3,7 @@
   "slug": "john-keats",
   "book_count": 4,
   "bio": "John Keats was an English poet of the second generation of Romantic poets, along with Lord Byron and Percy Bysshe Shelley. His poems had been in publication for less than four years when he died of tuberculosis at the age of 25. They were indifferently received in his lifetime, but his fame grew rapidly after his death. By the end of the century, he was placed in the canon of English literature, strongly influencing many writers of the Pre-Raphaelite Brotherhood; the Encyclopædia Britannica of 1888 described his \"Ode to a Nightingale\" as \"one of the final masterpieces\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/400px-John_Keats_by_William_Hilton_circa_1822_02.jpg",
+  "photo_url": "/tsundoku/cached/authors/john-keats.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/John_Keats",
   "open_library_url": "https://openlibrary.org/authors/OL153488A",
   "birth_year": 1795,
@@ -19,5 +19,7 @@
   "ol_author_key": "/authors/OL153488A",
   "movements": [
     "Romanticism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/400px-John_Keats_by_William_Hilton_circa_1822_02.jpg",
+  "photo_cached_at": "2026-05-03T03:05:08+00:00"
 }

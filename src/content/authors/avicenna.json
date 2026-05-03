@@ -3,7 +3,7 @@
   "slug": "avicenna",
   "book_count": 1,
   "bio": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg/400px-Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/avicenna.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Avicenna",
   "open_library_url": "https://openlibrary.org/authors/OL16461A",
   "death_year": 1037,
@@ -14,5 +14,7 @@
   },
   "wikidata_qid": "Q8011",
   "viaf_id": "89770781",
-  "ol_author_key": "/authors/OL16461A"
+  "ol_author_key": "/authors/OL16461A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg/400px-Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:52:57+00:00"
 }

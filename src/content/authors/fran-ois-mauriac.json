@@ -3,7 +3,7 @@
   "slug": "fran-ois-mauriac",
   "book_count": 1,
   "bio": "François Charles Mauriac was a French novelist, dramatist, critic, poet, and journalist, a member of the Académie française, and laureate of the Nobel Prize in Literature (1952). He was awarded the Grand Cross of the Légion d'honneur in 1958.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Fran%C3%A7ois_Mauriac_redux.jpg/400px-Fran%C3%A7ois_Mauriac_redux.jpg",
+  "photo_url": "/tsundoku/cached/authors/fran-ois-mauriac.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mauriac",
   "open_library_url": "https://openlibrary.org/authors/OL4280625A",
   "birth_year": 1885,
@@ -46,5 +46,7 @@
     {
       "name": "Grand Prize for the Best Novels of the Half-Century"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Fran%C3%A7ois_Mauriac_redux.jpg/400px-Fran%C3%A7ois_Mauriac_redux.jpg",
+  "photo_cached_at": "2026-05-03T02:59:11+00:00"
 }

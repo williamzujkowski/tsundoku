@@ -3,7 +3,7 @@
   "slug": "august-strindberg",
   "book_count": 3,
   "bio": "Johan August Strindberg was a Swedish playwright, novelist, poet, essayist, and painter. A prolific writer who often drew directly on his personal experience, Strindberg wrote more than 60 plays and more than 30 works of fiction, autobiography, history, cultural analysis, and politics during his career, which spanned four decades. A bold experimenter and iconoclast throughout his life, he explored a wide range of dramatic methods and purposes, from naturalistic tragedy, monodrama, and historical plays to his anticipations of expressionist and surrealist dramatic techniques. From his earliest work, Strindberg developed innovative forms of dramatic action, language, and visual composition. He is considered the \"father\" of modern Swedish literature and his The Red Room (1879) has frequently been described as the first modern Swedish novel. In Sweden, Strindberg is known as an essayist, painter, poet, and especially novelist and playwright, but in other countries he is known mostly as a playwright.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AugustStrindberg.jpg/400px-AugustStrindberg.jpg",
+  "photo_url": "/tsundoku/cached/authors/august-strindberg.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/August_Strindberg",
   "open_library_url": "https://openlibrary.org/authors/OL65966A",
   "birth_year": 1849,
@@ -28,5 +28,7 @@
   "movements": [
     "naturalism",
     "Symbolism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AugustStrindberg.jpg/400px-AugustStrindberg.jpg",
+  "photo_cached_at": "2026-05-03T02:52:53+00:00"
 }

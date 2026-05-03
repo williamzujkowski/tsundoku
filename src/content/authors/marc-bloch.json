@@ -3,7 +3,7 @@
   "slug": "marc-bloch",
   "book_count": 2,
   "bio": "Marc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Marc_Bloch.jpg/400px-Marc_Bloch.jpg",
+  "photo_url": "/tsundoku/cached/authors/marc-bloch.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Bloch",
   "open_library_url": "https://openlibrary.org/authors/OL119624A",
   "birth_year": 1886,
@@ -48,5 +48,7 @@
       "name": "Resistance Medal",
       "year": 1946
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Marc_Bloch.jpg/400px-Marc_Bloch.jpg",
+  "photo_cached_at": "2026-05-03T03:08:35+00:00"
 }

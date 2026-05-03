@@ -3,7 +3,7 @@
   "slug": "edmund-burke",
   "book_count": 1,
   "bio": "Edmund Burke was an Anglo-Irish writer, philosopher, and politician who is widely credited as the founder of the cultural and political philosophy of conservatism. Regarded as one of the most influential conservative thinkers and political writers of the 18th century, Burke spent the majority of his career in Great Britain and was elected as a member of Parliament (MP) from 1766 to 1794 in the House of Commons of Great Britain with the Whig Party. His writings played a significant role in influencing public views and opinions in both Great Britain and France following the French Revolution in 1789, and he remains a major figure in modern conservative circles.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sir_Joshua_Reynolds_-_Edmund_Burke%2C_1729_-_1797._Statesman%2C_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland.jpg/400px-Sir_Joshua_Reynolds_-_Edmund_Burke%2C_1729_-_1797._Statesman%2C_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland.jpg",
+  "photo_url": "/tsundoku/cached/authors/edmund-burke.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Edmund_Burke",
   "open_library_url": "https://openlibrary.org/authors/OL2658712A",
   "birth_year": 1729,
@@ -20,5 +20,7 @@
   "movements": [
     "liberal conservatism",
     "counter-revolutionary"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sir_Joshua_Reynolds_-_Edmund_Burke%2C_1729_-_1797._Statesman%2C_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland.jpg/400px-Sir_Joshua_Reynolds_-_Edmund_Burke%2C_1729_-_1797._Statesman%2C_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland.jpg",
+  "photo_cached_at": "2026-05-03T02:57:31+00:00"
 }

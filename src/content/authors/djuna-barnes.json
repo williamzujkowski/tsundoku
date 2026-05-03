@@ -3,7 +3,7 @@
   "slug": "djuna-barnes",
   "book_count": 1,
   "bio": "Djuna Barnes was an American artist, illustrator, journalist, and writer who is perhaps best known for her novel Nightwood (1936), a cult classic of lesbian fiction and an important work of modernist literature.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Djunabarnes.jpg/400px-Djunabarnes.jpg",
+  "photo_url": "/tsundoku/cached/authors/djuna-barnes.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Djuna_Barnes",
   "open_library_url": "https://openlibrary.org/authors/OL33580A",
   "birth_year": 1892,
@@ -27,5 +27,7 @@
   "ol_author_key": "/authors/OL4380944A",
   "movements": [
     "modernist literature"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Djunabarnes.jpg/400px-Djunabarnes.jpg",
+  "photo_cached_at": "2026-05-03T02:56:49+00:00"
 }

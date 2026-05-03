@@ -7,8 +7,8 @@
   "tags": [
     "poetry"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/2760839-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/2760839-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/drum-taps.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/drum-taps.jpg",
   "open_library_url": "https://openlibrary.org/works/OL16420W",
   "first_published": 1865,
   "language": "eng",
@@ -60,5 +60,8 @@
   "representative_edition_key": "/books/OL41054617M",
   "wikidata_qid": "Q5309034",
   "original_title": "Drum-Taps",
-  "original_language": "eng"
+  "original_language": "eng",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/2760839-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/2760839-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:01+00:00"
 }

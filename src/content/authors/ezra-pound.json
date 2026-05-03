@@ -3,7 +3,7 @@
   "slug": "ezra-pound",
   "book_count": 3,
   "bio": "Ezra Weston Loomis Pound was an American poet and critic, a major figure in the early modernist poetry movement, and a collaborator in Fascist Italy and the Salò Republic during World War II. His works include Ripostes (1912), Hugh Selwyn Mauberley (1920), and The Cantos.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg/400px-Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg",
+  "photo_url": "/tsundoku/cached/authors/ezra-pound.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ezra_Pound",
   "open_library_url": "https://openlibrary.org/authors/OL1966702A",
   "birth_year": 1885,
@@ -30,5 +30,7 @@
       "name": "Fellowship of the Academy of American Poets",
       "year": 1963
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg/400px-Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg",
+  "photo_cached_at": "2026-05-03T02:58:50+00:00"
 }

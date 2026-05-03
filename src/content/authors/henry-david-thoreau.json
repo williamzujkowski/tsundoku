@@ -3,7 +3,7 @@
   "slug": "henry-david-thoreau",
   "book_count": 2,
   "bio": "Henry David Thoreau was an American naturalist, essayist, poet, and philosopher. A leading transcendentalist, he is best known for his book Walden, a reflection upon simple living in natural surroundings, and his essay \"Civil Disobedience\", an argument in favor of citizen disobedience against an unjust state.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/400px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
+  "photo_url": "/tsundoku/cached/authors/henry-david-thoreau.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_David_Thoreau",
   "open_library_url": "https://openlibrary.org/authors/OL19690A",
   "birth_year": 1817,
@@ -30,5 +30,7 @@
       "name": "Hall of Fame for Great Americans",
       "year": 1960
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/400px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
+  "photo_cached_at": "2026-05-03T03:01:37+00:00"
 }

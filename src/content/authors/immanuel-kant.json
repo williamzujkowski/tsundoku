@@ -3,7 +3,7 @@
   "slug": "immanuel-kant",
   "book_count": 7,
   "bio": "Immanuel Kant was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, ethics, and aesthetics have made him one of the most influential and highly discussed figures in modern Western philosophy.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/400px-Immanuel_Kant_-_Gemaelde_1.jpg",
+  "photo_url": "/tsundoku/cached/authors/immanuel-kant.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
   "open_library_url": "https://openlibrary.org/authors/OL18074A",
   "birth_year": 1724,
@@ -20,5 +20,7 @@
   "movements": [
     "German idealism",
     "Age of Enlightenment"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/400px-Immanuel_Kant_-_Gemaelde_1.jpg",
+  "photo_cached_at": "2026-05-03T03:02:41+00:00"
 }

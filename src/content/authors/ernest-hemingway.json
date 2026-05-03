@@ -3,7 +3,7 @@
   "slug": "ernest-hemingway",
   "book_count": 5,
   "bio": "Ernest Miller Hemingway was an American novelist, short-story writer and journalist. Known for an economical, understated style that influenced later 20th-century writers, he has been romanticized for his adventurous lifestyle and outspoken, blunt public image. Some of his seven novels, six short-story collections and two non-fiction works have become classics of American literature, and he was awarded the 1954 Nobel Prize in Literature.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/400px-ErnestHemingway.jpg",
+  "photo_url": "/tsundoku/cached/authors/ernest-hemingway.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
   "open_library_url": "https://openlibrary.org/authors/OL13640A",
   "birth_year": 1899,
@@ -53,5 +53,7 @@
       "name": "Bancarella Literary Prize",
       "year": 1953
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/400px-ErnestHemingway.jpg",
+  "photo_cached_at": "2026-05-03T02:58:29+00:00"
 }

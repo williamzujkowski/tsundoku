@@ -3,7 +3,7 @@
   "slug": "robert-louis-stevenson",
   "book_count": 1,
   "bio": "Robert Louis Stevenson was a Scottish novelist, essayist, poet and travel writer. He is best known for the novels Treasure Island (1883), Strange Case of Dr Jekyll and Mr Hyde (1886), and Kidnapped (1886) and for the poetry collection A Child's Garden of Verses (1885).",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg/400px-Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg",
+  "photo_url": "/tsundoku/cached/authors/robert-louis-stevenson.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Louis_Stevenson",
   "open_library_url": "https://openlibrary.org/authors/OL25963A",
   "birth_year": 1850,
@@ -19,5 +19,7 @@
     "GB"
   ],
   "viaf_id": "95207986",
-  "ol_author_key": "/authors/OL25963A"
+  "ol_author_key": "/authors/OL25963A",
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg/400px-Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg",
+  "photo_cached_at": "2026-05-03T03:15:00+00:00"
 }

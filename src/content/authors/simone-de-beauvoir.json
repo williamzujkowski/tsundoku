@@ -3,7 +3,7 @@
   "slug": "simone-de-beauvoir",
   "book_count": 3,
   "bio": "Simone Lucie Ernestine Marie Bertrand de Beauvoir was a French existentialist philosopher, writer, social theorist, and feminist activist. Though she did not consider herself a philosopher, nor was she considered one at the time of her death, she had a significant influence on both feminist existentialism and feminist theory.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Simone_De_Beauvoir_%28cropped%29.jpg/400px-Simone_De_Beauvoir_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/simone-de-beauvoir.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
   "open_library_url": "https://openlibrary.org/authors/OL63285A",
   "birth_year": 1908,
@@ -47,5 +47,7 @@
     {
       "name": "honorary doctorate of Concordia University"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Simone_De_Beauvoir_%28cropped%29.jpg/400px-Simone_De_Beauvoir_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T03:16:23+00:00"
 }

@@ -7,8 +7,8 @@
   "tags": [
     "computing"
   ],
-  "cover_url": "https://covers.openlibrary.org/b/id/10595574-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/10595574-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/this-is-how-they-tell-me-the-world-ends.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/this-is-how-they-tell-me-the-world-ends.jpg",
   "open_library_url": "https://openlibrary.org/works/OL24175346W",
   "first_published": 2021,
   "language": "eng",
@@ -39,5 +39,8 @@
   "editions_count": 2,
   "first_published_circa": false,
   "first_edition_isbn": "9781635576054",
-  "representative_edition_key": "/books/OL35866440M"
+  "representative_edition_key": "/books/OL35866440M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/10595574-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/10595574-L.jpg",
+  "cover_cached_at": "2026-05-03T03:22:34+00:00"
 }

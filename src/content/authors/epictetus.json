@@ -3,7 +3,7 @@
   "slug": "epictetus",
   "book_count": 2,
   "bio": "Epictetus was a Greek Stoic philosopher. He was born into slavery at Hierapolis, Phrygia and lived in Rome until his banishment, after which he spent the rest of his life in Nicopolis in northwestern Greece.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg/400px-Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/epictetus.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Epictetus",
   "open_library_url": "https://openlibrary.org/authors/OL22801A",
   "_provenance": {
@@ -17,5 +17,7 @@
   "ol_author_key": "/authors/OL22801A",
   "movements": [
     "stoicism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg/400px-Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg",
+  "photo_cached_at": "2026-05-03T02:58:10+00:00"
 }

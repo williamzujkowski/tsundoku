@@ -3,7 +3,7 @@
   "slug": "jean-jacques-rousseau",
   "book_count": 5,
   "bio": "Jean-Jacques Rousseau was a Genevan philosopher, philosophe, writer, and composer. His political philosophy influenced the progress of the Age of Enlightenment throughout Europe, as well as aspects of the French Revolution and the development of modern political, economic, and educational thought.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/400px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/jean-jacques-rousseau.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
   "open_library_url": "https://openlibrary.org/authors/OL29048A",
   "birth_year": 1712,
@@ -24,5 +24,7 @@
   "movements": [
     "Enlightenment philosophy",
     "Baroque music"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/400px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
+  "photo_cached_at": "2026-05-03T03:04:14+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "h-p-lovecraft",
   "book_count": 5,
   "bio": "Howard Phillips Lovecraft was an American writer of weird, horror, fantasy, and science fiction. He is best known for his creation of the Cthulhu Mythos, but his legacy is also apparent in terms like \"Lovecraftian horror\" and an enduring fandom.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/H._P._Lovecraft%2C_June_1934.jpg/400px-H._P._Lovecraft%2C_June_1934.jpg",
+  "photo_url": "/tsundoku/cached/authors/h-p-lovecraft.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/H._P._Lovecraft",
   "open_library_url": "https://openlibrary.org/authors/OL22161A",
   "birth_year": 1890,
@@ -34,5 +34,7 @@
       "name": "Retro Hugo Award for Best Series",
       "year": 2020
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/H._P._Lovecraft%2C_June_1934.jpg/400px-H._P._Lovecraft%2C_June_1934.jpg",
+  "photo_cached_at": "2026-05-03T03:00:56+00:00"
 }

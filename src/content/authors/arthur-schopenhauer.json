@@ -3,7 +3,7 @@
   "slug": "arthur-schopenhauer",
   "book_count": 3,
   "bio": "Arthur Schopenhauer was a German philosopher. He is known for his 1818 work The World as Will and Representation, which characterizes the phenomenal world as the manifestation of a blind and irrational noumenal will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/400px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+  "photo_url": "/tsundoku/cached/authors/arthur-schopenhauer.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
   "open_library_url": "https://openlibrary.org/authors/OL119580A",
   "birth_year": 1788,
@@ -19,5 +19,7 @@
   "ol_author_key": "/authors/OL119580A",
   "movements": [
     "irrationalism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/400px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+  "photo_cached_at": "2026-05-03T02:52:48+00:00"
 }

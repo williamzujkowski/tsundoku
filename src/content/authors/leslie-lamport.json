@@ -3,7 +3,7 @@
   "slug": "leslie-lamport",
   "book_count": 2,
   "bio": "Leslie Barry Lamport is an American computer scientist and mathematician. Lamport is best known for his seminal work in distributed systems, and as the initial developer of the document preparation system LaTeX and the author of its first manual.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Leslie_Lamport.jpg/400px-Leslie_Lamport.jpg",
+  "photo_url": "/tsundoku/cached/authors/leslie-lamport.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leslie_Lamport",
   "open_library_url": "https://openlibrary.org/authors/OL720767A",
   "_provenance": {
@@ -67,5 +67,7 @@
       "name": "honorary doctorate",
       "year": 2007
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Leslie_Lamport.jpg/400px-Leslie_Lamport.jpg",
+  "photo_cached_at": "2026-05-03T03:07:24+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "martin-luther",
   "book_count": 3,
   "bio": "Martin Luther was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformation, and his theological beliefs form the basis of Lutheranism. He is widely regarded as one of the most influential figures in Western and Christian history.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/400px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+  "photo_url": "/tsundoku/cached/authors/martin-luther.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Luther",
   "open_library_url": "https://openlibrary.org/authors/OL66601A",
   "birth_year": 1483,
@@ -21,5 +21,7 @@
     "German Renaissance",
     "Protestant Reformation",
     "Protestantism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/400px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+  "photo_cached_at": "2026-05-03T03:09:26+00:00"
 }

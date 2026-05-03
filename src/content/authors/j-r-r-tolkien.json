@@ -3,7 +3,7 @@
   "slug": "j-r-r-tolkien",
   "book_count": 10,
   "bio": "John Ronald Reuel Tolkien was an English writer and philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–55).",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/400px-J._R._R._Tolkien%2C_ca._1925.jpg",
+  "photo_url": "/tsundoku/cached/authors/j-r-r-tolkien.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
   "open_library_url": "https://openlibrary.org/authors/OL26320A",
   "birth_year": 1892,
@@ -90,5 +90,7 @@
       "name": "Mythopoeic Fantasy Award",
       "year": 1981
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/400px-J._R._R._Tolkien%2C_ca._1925.jpg",
+  "photo_cached_at": "2026-05-03T03:03:04+00:00"
 }

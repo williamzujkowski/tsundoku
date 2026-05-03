@@ -3,7 +3,7 @@
   "slug": "ralph-waldo-emerson",
   "book_count": 2,
   "bio": "Ralph Waldo Emerson, who went by his middle name Waldo, was an American essayist, lecturer, philosopher, minister, abolitionist, and poet who led the Transcendentalist movement of the mid-19th century. He was seen as a champion of individualism and critical thinking, as well as a prescient critic of the countervailing pressures of society and conformity. Friedrich Nietzsche thought he was \"the most gifted of the Americans,\" and Walt Whitman called Emerson his \"master\".",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg/400px-Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg",
+  "photo_url": "/tsundoku/cached/authors/ralph-waldo-emerson.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson",
   "open_library_url": "https://openlibrary.org/authors/OL18405A",
   "birth_year": 1803,
@@ -29,5 +29,7 @@
     {
       "name": "Fellow of the American Academy of Arts and Sciences"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg/400px-Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg",
+  "photo_cached_at": "2026-05-03T03:14:07+00:00"
 }

@@ -3,7 +3,7 @@
   "slug": "carl-von-clausewitz",
   "book_count": 1,
   "bio": "Carl Philipp Gottlieb von Clausewitz was a Prussian army officer and military theorist who stressed the \"moral\" and political aspects of waging war. His most notable work, Vom Kriege, though unfinished at his death, is considered a seminal treatise on military strategy and science.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Clausewitz.jpg/400px-Clausewitz.jpg",
+  "photo_url": "/tsundoku/cached/authors/carl-von-clausewitz.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_von_Clausewitz",
   "open_library_url": "https://openlibrary.org/authors/OL18447A",
   "birth_year": 1780,
@@ -45,5 +45,7 @@
     {
       "name": "Iron Cross 2nd Class"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Clausewitz.jpg/400px-Clausewitz.jpg",
+  "photo_cached_at": "2026-05-03T02:54:43+00:00"
 }

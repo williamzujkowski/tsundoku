@@ -5,8 +5,8 @@
   "priority": 2,
   "slug": "cur-deus-homo",
   "tags": [],
-  "cover_url": "https://covers.openlibrary.org/b/id/4987659-M.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/4987659-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cur-deus-homo.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cur-deus-homo.jpg",
   "open_library_url": "https://openlibrary.org/works/OL707175W",
   "first_published": 1474,
   "language": "eng",
@@ -66,5 +66,8 @@
   "original_language": "lat",
   "original_title": "Liber Cur deus homo",
   "first_edition_isbn": null,
-  "representative_edition_key": "/books/OL21645489M"
+  "representative_edition_key": "/books/OL21645489M",
+  "cover_url_source": "https://covers.openlibrary.org/b/id/4987659-M.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/4987659-L.jpg",
+  "cover_cached_at": "2026-05-03T03:21:59+00:00"
 }

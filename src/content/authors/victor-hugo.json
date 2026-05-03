@@ -3,7 +3,7 @@
   "slug": "victor-hugo",
   "book_count": 5,
   "bio": "Victor-Marie Hugo, vicomte Hugo was a French Romantic author, poet, essayist, playwright, journalist, human rights activist and politician.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/400px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+  "photo_url": "/tsundoku/cached/authors/victor-hugo.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Hugo",
   "open_library_url": "https://openlibrary.org/authors/OL107571A",
   "birth_year": 1802,
@@ -37,5 +37,7 @@
       "name": "Knight of the Legion of Honour",
       "year": 1825
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/400px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+  "photo_cached_at": "2026-05-03T03:19:48+00:00"
 }

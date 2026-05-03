@@ -3,7 +3,7 @@
   "slug": "orhan-pamuk",
   "book_count": 4,
   "bio": "Ferit Orhan Pamuk is a Turkish novelist, screenwriter, academic, and recipient of the 2006 Nobel Prize in Literature. One of Turkey's most prominent novelists, he has sold over 13 million books in 63 languages, making him the country's best-selling writer.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Orhan_Pamuk_2009_Shankbone.jpg/400px-Orhan_Pamuk_2009_Shankbone.jpg",
+  "photo_url": "/tsundoku/cached/authors/orhan-pamuk.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Orhan_Pamuk",
   "open_library_url": "https://openlibrary.org/authors/OL96984A",
   "birth_year": 1952,
@@ -114,5 +114,7 @@
     {
       "name": "honorary doctor of Saint Petersburg State University"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Orhan_Pamuk_2009_Shankbone.jpg/400px-Orhan_Pamuk_2009_Shankbone.jpg",
+  "photo_cached_at": "2026-05-03T03:12:25+00:00"
 }

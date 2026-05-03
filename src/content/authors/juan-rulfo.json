@@ -3,7 +3,7 @@
   "slug": "juan-rulfo",
   "book_count": 2,
   "bio": "Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno, best known as Juan Rulfo, was a Mexican writer, screenwriter, and photographer. He is best known for two literary works, the 1955 novel Pedro Páramo, and the collection of short stories El Llano en llamas. In spite of Rulfo's slim literary production, he is considered one of the greatest Mexican and Latin American writers of the twentieth century who has influenced many subsequent writers including the Nobel laureate Gabriel García Márquez.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rulfo_por_Lyon.jpg/400px-Rulfo_por_Lyon.jpg",
+  "photo_url": "/tsundoku/cached/authors/juan-rulfo.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Rulfo",
   "open_library_url": "https://openlibrary.org/authors/OL199285A",
   "birth_year": 1917,
@@ -43,5 +43,7 @@
       "name": "Xavier Villaurrutia Award",
       "year": 1955
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rulfo_por_Lyon.jpg/400px-Rulfo_por_Lyon.jpg",
+  "photo_cached_at": "2026-05-03T03:05:50+00:00"
 }

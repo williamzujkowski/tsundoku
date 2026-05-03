@@ -3,7 +3,7 @@
   "slug": "roland-barthes",
   "book_count": 5,
   "bio": "Roland Gérard Barthes was a French literary theorist, essayist, philosopher, critic, and semiotician. His work engaged in the analysis of a variety of sign systems, mainly derived from Western popular culture. His ideas explored a diverse range of fields, including structuralism, anthropology, literary theory, and post-structuralism, and influenced the development of multiple schools of theory.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Roland_Barthes_Vertical.jpg/400px-Roland_Barthes_Vertical.jpg",
+  "photo_url": "/tsundoku/cached/authors/roland-barthes.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Roland_Barthes",
   "open_library_url": "https://openlibrary.org/authors/OL2645171A",
   "birth_year": 1915,
@@ -23,5 +23,7 @@
   "ol_author_key": "/authors/OL2645171A",
   "movements": [
     "structuralism"
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Roland_Barthes_Vertical.jpg/400px-Roland_Barthes_Vertical.jpg",
+  "photo_cached_at": "2026-05-03T03:15:19+00:00"
 }

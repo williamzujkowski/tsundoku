@@ -3,7 +3,7 @@
   "slug": "northrop-frye",
   "book_count": 2,
   "bio": "Herman Northrop Frye was a Canadian literary critic and literary theorist, considered one of the most influential of the 20th century.",
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Northrop_Frye_sitting_on_a_bench_at_the_University_of_Toronto.jpg/400px-Northrop_Frye_sitting_on_a_bench_at_the_University_of_Toronto.jpg",
+  "photo_url": "/tsundoku/cached/authors/northrop-frye.jpg",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Northrop_Frye",
   "open_library_url": "https://openlibrary.org/authors/OL4328370A",
   "birth_year": 1912,
@@ -43,5 +43,7 @@
     {
       "name": "Person of National Historic Significance"
     }
-  ]
+  ],
+  "photo_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Northrop_Frye_sitting_on_a_bench_at_the_University_of_Toronto.jpg/400px-Northrop_Frye_sitting_on_a_bench_at_the_University_of_Toronto.jpg",
+  "photo_cached_at": "2026-05-03T03:12:06+00:00"
 }
