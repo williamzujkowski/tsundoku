@@ -189,6 +189,40 @@ class TestProcessAuthors:
         assert result["bio"] == "philosopher"
         assert result["book_count"] == 21
 
+    def test_limit_counts_downloads_not_iterations(self, tmp_path, monkeypatch):
+        """`--limit N` must cap on downloads, not records seen.
+
+        Regression: the chunked CI run was getting starved because the
+        first ~200 alphabetical author records were already cached and
+        bumped the iterator's `total` count to the limit before any
+        actual download happened. After the fix, a build with 5 missing
+        photos but limit=2 should download exactly 2 — even when 100
+        already-cached records sit between them.
+        """
+        authors = tmp_path / "authors"
+        authors.mkdir()
+        # 5 records: 2 already cached (alpha-first), 3 needing download.
+        for i, (slug, url) in enumerate([
+            ("a-already", "/tsundoku/cached/authors/a-already.jpg"),
+            ("b-already", "/tsundoku/cached/authors/b-already.jpg"),
+            ("c-need", "https://up.example/c.jpg"),
+            ("d-need", "https://up.example/d.jpg"),
+            ("e-need", "https://up.example/e.jpg"),
+        ]):
+            (authors / f"{slug}.json").write_text(
+                json.dumps({"name": slug, "slug": slug, "book_count": 1, "photo_url": url})
+            )
+
+        monkeypatch.setattr(mod, "AUTHORS_DIR", authors)
+        monkeypatch.setattr(mod, "PUBLIC_CACHED", tmp_path / "public" / "cached")
+        monkeypatch.setattr(mod, "download", lambda u: (b"x", "jpg"))
+
+        counts = mod.process_authors(limit=2, dry_run=False, rate_limit_s=0)
+
+        assert counts["cached_already"] == 2
+        assert counts["downloaded"] == 2  # capped at limit, not 3
+        # The 3rd missing record was never reached because limit was hit.
+
     def test_dry_run_does_not_modify_files(self, tmp_path, monkeypatch):
         authors = tmp_path / "authors"
         authors.mkdir()

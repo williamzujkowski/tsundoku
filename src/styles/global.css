@@ -828,6 +828,13 @@ a:hover { color: var(--pop-pink); }
   border: 2px solid var(--border);
   box-shadow: 2px 2px 0 var(--shadow-color);
 }
+/* Compact variant used in the long alphabetical "All Authors" list. */
+.author-avatar.author-avatar-sm,
+.author-avatar-placeholder.author-avatar-sm {
+  width: 1.75rem; height: 1.75rem;
+  border-width: 1px;
+  box-shadow: 1px 1px 0 var(--shadow-color);
+}
 .author-header {
   display: flex; gap: 1.5rem; flex-wrap: wrap;
   margin-bottom: 2rem;

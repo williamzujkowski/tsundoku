@@ -128,12 +128,17 @@ def cache_one(
 
 
 def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
-    """Walk every author file, download photo if needed, rewrite JSON."""
+    """Walk every author file, download photo if needed, rewrite JSON.
+
+    `limit` counts *new downloads*, not records seen — so a build with only
+    the first ~200 alphabetical records cached cannot stop short before
+    reaching the missing ones at zzz.
+    """
     out_dir = PUBLIC_CACHED / "authors"
     counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0}
 
     for path in sorted(AUTHORS_DIR.glob("*.json")):
-        if limit and counts["total"] >= limit:
+        if limit and counts["downloaded"] >= limit:
             break
         doc = json.loads(path.read_text(encoding="utf-8"))
         url = doc.get("photo_url")
@@ -182,7 +187,7 @@ def process_books(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
     counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0}
 
     for path in sorted(BOOKS_DIR.glob("*.json")):
-        if limit and counts["total"] >= limit:
+        if limit and counts["downloaded"] >= limit:
             break
         doc = json.loads(path.read_text(encoding="utf-8"))
         # Prefer the largest-resolution upstream URL.
