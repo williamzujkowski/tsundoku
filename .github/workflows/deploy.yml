@@ -74,7 +74,7 @@ jobs:
       # don't re-download every Wikimedia thumb on every build. See #94.
       - name: Restore photo cache
         id: photo-cache-restore
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: public/cached
           key: photo-cache-v1-${{ github.run_id }}
@@ -98,7 +98,7 @@ jobs:
       # and save lets us "always save" — the default cache action only saves on
       # cache miss for the exact key.
       - name: Save photo cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: always()
         with:
           path: public/cached
