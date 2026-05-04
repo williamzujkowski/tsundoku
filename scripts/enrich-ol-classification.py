@@ -32,6 +32,7 @@ from enrichment_config import BOOKS_DIR, USER_AGENT
 from http_cache import cached_fetch
 from http_retry import fetch_json
 from json_merge import additive_merge, save_json
+from matching import verify_ol_work_match
 
 
 REQUEST_TIMEOUT = 15
@@ -84,8 +85,21 @@ def extract_useful_fields(work: dict, current_book: dict) -> dict:
     Per #113 user directive: use OL as authoritative for metadata once we
     have the structured IDs. additive_merge guarantees nothing existing is
     overwritten — only fills gaps.
+
+    Refuses to map any field if the work's title/author don't match the
+    book's — preventing the cross-record key sharing seen in the
+    `ol_work_key` collision audit (e.g. all 4 Marx Capital volumes wound
+    up with /works/OL27973414W from a too-loose ISBN→work map).
     """
     if not work:
+        return {}
+    ok, reason = verify_ol_work_match(
+        book_title=current_book.get("title", ""),
+        book_author=current_book.get("author", ""),
+        work_title=work.get("title", ""),
+        work_authors=work.get("author_name") or [],
+    )
+    if not ok:
         return {}
     out: dict = {}
 

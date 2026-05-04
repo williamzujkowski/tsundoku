@@ -44,3 +44,6 @@ data/http-cache.sqlite-shm
 
 # Photo / cover cache (build-time download; persisted across CI runs via actions/cache)
 public/cached/
+
+# Nexus-agents orchestration run artifacts (local-only)
+runs/

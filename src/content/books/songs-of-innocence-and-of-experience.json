@@ -4,7 +4,10 @@
   "category": "Poetry",
   "priority": 1,
   "slug": "songs-of-innocence-and-of-experience",
-  "tags": [],
+  "tags": [
+    "children",
+    "poetry"
+  ],
   "cover_url": "/tsundoku/cached/covers/songs-of-innocence-and-of-experience.jpg",
   "cover_url_large": "/tsundoku/cached/covers/songs-of-innocence-and-of-experience.jpg",
   "open_library_url": "https://openlibrary.org/works/OL575442W",
@@ -89,5 +92,6 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/441955-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/441955-L.jpg",
-  "cover_cached_at": "2026-05-03T01:51:57+00:00"
+  "cover_cached_at": "2026-05-03T01:51:57+00:00",
+  "librivox_url": "https://librivox.org/songs-of-innocence-and-experience-by-william-blake/"
 }

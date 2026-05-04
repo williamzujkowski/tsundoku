@@ -76,6 +76,14 @@ CATEGORY_PATTERNS = {
 }
 
 
+# Matches "Author_Name_-_Title" filename patterns (with optional .epub/.pdf
+# extension). Two or more underscore-joined TitleCase tokens before "_-_"
+# is the cue that we're looking at an export filename, not a real title.
+_FILENAME_AUTHOR_TITLE = re.compile(
+    r"^([A-Z][A-Za-z']*(?:_[A-Z][A-Za-z']*)+)_-_(.+?)(?:\.[a-zA-Z0-9]{2,5})?$"
+)
+
+
 def clean_title(title: str) -> str:
     """Normalize a title string."""
     # Fix smart quotes and dashes
@@ -84,6 +92,10 @@ def clean_title(title: str) -> str:
     title = title.replace("\u201c", '"').replace("\u201d", '"')
     title = title.replace("\u00e9", "é").replace("\u00e8", "è")
     title = title.strip().strip('"').strip()
+    # Strip "Author_Name_-_Title.epub" filename pattern
+    m = _FILENAME_AUTHOR_TITLE.match(title)
+    if m:
+        title = m.group(2).replace("_", " ").strip()
     return title
 
 

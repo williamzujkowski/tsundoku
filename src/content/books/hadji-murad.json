@@ -31,7 +31,7 @@
     "lcc": "derived_v1"
   },
   "editions_count": 2,
-  "first_edition_isbn": null,
+  "first_edition_isbn": "9781449551421",
   "representative_edition_key": "/books/OL54072445M",
   "cover_url_source": "https://covers.openlibrary.org/b/id/3812916-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/3812916-L.jpg",
@@ -50,5 +50,6 @@
   ],
   "lcc": [
     "D"
-  ]
+  ],
+  "first_published_circa": false
 }
