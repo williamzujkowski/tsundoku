@@ -82,6 +82,39 @@ class TestBookIntegrity:
         for f, b in load_all_books():
             assert b["slug"], f"{Path(f).name} has empty slug"
 
+    def test_ol_work_key_unique_per_record(self):
+        """Each ol_work_key should map to at most one book record.
+
+        Regression guard for the May 2026 audit (data/duplicate-records-audit.md):
+        the loose OL matcher had assigned one work key (e.g. /works/OL27973414W)
+        to all four Marx *Capital* volumes, /works/OL257263W to all four TAOCP
+        volumes, /works/OL17732W to *Tanakh* + *Transformation* + *1001 Nights*,
+        etc. The matcher now requires title+author verification (see
+        `matching.verify_ol_work_match`); this invariant locks in the result.
+        """
+        from collections import defaultdict
+        groups = defaultdict(list)
+        for f, b in load_all_books():
+            key = b.get("ol_work_key")
+            if key:
+                groups[key].append(Path(f).name)
+        collisions = {k: v for k, v in groups.items() if len(v) > 1}
+        assert not collisions, (
+            f"ol_work_key shared by ≥2 records (cross-record contamination): "
+            f"{collisions}"
+        )
+
+    def test_isbn_unique_per_record(self):
+        """Each ISBN should map to at most one book record."""
+        from collections import defaultdict
+        groups = defaultdict(list)
+        for f, b in load_all_books():
+            isbn = (b.get("isbn") or "").strip()
+            if isbn and len(isbn) >= 10:
+                groups[isbn].append(Path(f).name)
+        collisions = {k: v for k, v in groups.items() if len(v) > 1}
+        assert not collisions, f"ISBN shared by ≥2 records: {collisions}"
+
     def test_descriptions_are_english(self):
         # Regression for the Spanish-Tractatus issue: enrichment passes
         # occasionally pulled localised descriptions from OL/Google Books.

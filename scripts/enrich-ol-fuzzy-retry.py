@@ -39,6 +39,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from enrichment_config import BOOKS_DIR, USER_AGENT
 from http_cache import cached_fetch
 from json_merge import additive_merge, save_json
+from matching import verify_ol_work_match
 
 
 REQUEST_TIMEOUT = 15
@@ -173,6 +174,17 @@ def best_match(book: dict) -> dict | None:
 # ---------------------------------------------------------------------------
 
 def extract_fields(work: dict, current: dict) -> dict:
+    """Extract enrichable fields, but only when the OL work passes a
+    title+author verification gate. Stops cross-record key contamination
+    (see `data/duplicate-records-audit.md`)."""
+    ok, _reason = verify_ol_work_match(
+        book_title=current.get("title", ""),
+        book_author=current.get("author", ""),
+        work_title=work.get("title", ""),
+        work_authors=work.get("author_name") or [],
+    )
+    if not ok:
+        return {}
     out: dict = {}
     if work.get("ddc"):
         out["ddc"] = work["ddc"]

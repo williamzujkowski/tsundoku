@@ -1,33 +1,33 @@
 {
-  "total_books": 3619,
+  "total_books": 3591,
   "total_categories": 28,
-  "total_authors": 1661,
+  "total_authors": 1649,
   "priorities": {
-    "must_read": 1727,
-    "recommended": 1858,
+    "must_read": 1708,
+    "recommended": 1849,
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3556,
-    "covers_pct": 98.3,
-    "descriptions": 3577,
+    "covers": 3581,
+    "covers_pct": 99.7,
+    "descriptions": 3549,
     "descriptions_pct": 98.8,
-    "isbns": 3553,
-    "isbns_pct": 98.2,
-    "pages": 3495,
-    "pages_pct": 96.6,
-    "years": 3609,
-    "subject_facet": 3243,
-    "ddc": 2754,
-    "lcc": 3222,
-    "wikidata": 1330,
-    "original_language": 1368,
-    "original_publisher": 623,
-    "awards": 316,
-    "series": 338
+    "isbns": 3518,
+    "isbns_pct": 98.0,
+    "pages": 3467,
+    "pages_pct": 96.5,
+    "years": 3581,
+    "subject_facet": 3453,
+    "ddc": 3591,
+    "lcc": 3591,
+    "wikidata": 1316,
+    "original_language": 1352,
+    "original_publisher": 619,
+    "awards": 313,
+    "series": 335
   },
   "author_enrichment": {
-    "total_authors": 1931,
+    "total_authors": 1933,
     "wikidata": 886,
     "nationality": 714,
     "alternate_names": 157,
@@ -42,11 +42,11 @@
     },
     {
       "code": "GB",
-      "count": 364
+      "count": 360
     },
     {
       "code": "FR",
-      "count": 181
+      "count": 178
     },
     {
       "code": "CA",
@@ -54,7 +54,7 @@
     },
     {
       "code": "DE",
-      "count": 43
+      "count": 42
     },
     {
       "code": "RU",
@@ -62,7 +62,7 @@
     },
     {
       "code": "JP",
-      "count": 24
+      "count": 23
     },
     {
       "code": "IT",
@@ -73,12 +73,12 @@
       "count": 17
     },
     {
-      "code": "CN",
-      "count": 15
-    },
-    {
       "code": "AU",
       "count": 14
+    },
+    {
+      "code": "CN",
+      "count": 13
     },
     {
       "code": "NO",
@@ -192,7 +192,7 @@
     },
     {
       "decade": 1320,
-      "count": 2
+      "count": 1
     },
     {
       "decade": 1380,
@@ -224,7 +224,7 @@
     },
     {
       "decade": 1520,
-      "count": 4
+      "count": 3
     },
     {
       "decade": 1530,
@@ -236,7 +236,7 @@
     },
     {
       "decade": 1570,
-      "count": 4
+      "count": 3
     },
     {
       "decade": 1580,
@@ -264,7 +264,7 @@
     },
     {
       "decade": 1640,
-      "count": 6
+      "count": 5
     },
     {
       "decade": 1650,
@@ -304,7 +304,7 @@
     },
     {
       "decade": 1740,
-      "count": 12
+      "count": 11
     },
     {
       "decade": 1750,
@@ -324,7 +324,7 @@
     },
     {
       "decade": 1790,
-      "count": 16
+      "count": 15
     },
     {
       "decade": 1800,
@@ -336,7 +336,7 @@
     },
     {
       "decade": 1820,
-      "count": 14
+      "count": 13
     },
     {
       "decade": 1830,
@@ -344,11 +344,11 @@
     },
     {
       "decade": 1840,
-      "count": 31
+      "count": 30
     },
     {
       "decade": 1850,
-      "count": 40
+      "count": 39
     },
     {
       "decade": 1860,
@@ -364,7 +364,7 @@
     },
     {
       "decade": 1890,
-      "count": 84
+      "count": 82
     },
     {
       "decade": 1900,
@@ -372,7 +372,7 @@
     },
     {
       "decade": 1910,
-      "count": 125
+      "count": 123
     },
     {
       "decade": 1920,
@@ -384,35 +384,35 @@
     },
     {
       "decade": 1940,
-      "count": 118
+      "count": 117
     },
     {
       "decade": 1950,
-      "count": 190
+      "count": 189
     },
     {
       "decade": 1960,
-      "count": 238
+      "count": 237
     },
     {
       "decade": 1970,
-      "count": 219
+      "count": 218
     },
     {
       "decade": 1980,
-      "count": 251
+      "count": 249
     },
     {
       "decade": 1990,
-      "count": 309
+      "count": 304
     },
     {
       "decade": 2000,
-      "count": 367
+      "count": 365
     },
     {
       "decade": 2010,
-      "count": 561
+      "count": 559
     },
     {
       "decade": 2020,
@@ -481,58 +481,58 @@
       "count": 12
     },
     {
-      "name": "Donald E. Knuth",
-      "count": 12
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "count": 12
-    },
-    {
-      "name": "Terry Pratchett",
-      "count": 12
-    },
-    {
-      "name": "Arthur Conan Doyle",
+      "name": "Octavia E. Butler",
       "count": 11
     },
     {
-      "name": "Octavia E. Butler",
+      "name": "Donald E. Knuth",
+      "count": 11
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "count": 11
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "count": 11
+    },
+    {
+      "name": "Robert A. Heinlein",
       "count": 11
     }
   ],
   "categories": [
     {
       "name": "Literature",
-      "count": 1520
+      "count": 1514
     },
     {
       "name": "Philosophy",
-      "count": 367
+      "count": 362
     },
     {
       "name": "Science Fiction",
-      "count": 306
+      "count": 304
     },
     {
       "name": "Fantasy",
-      "count": 236
+      "count": 235
     },
     {
       "name": "History",
-      "count": 183
+      "count": 182
     },
     {
       "name": "Poetry",
-      "count": 174
+      "count": 170
     },
     {
       "name": "Mathematics",
-      "count": 108
+      "count": 106
     },
     {
       "name": "Computer Science",
-      "count": 105
+      "count": 103
     },
     {
       "name": "Mystery",
@@ -552,7 +552,7 @@
     },
     {
       "name": "Political Theory",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Security",
@@ -560,11 +560,11 @@
     },
     {
       "name": "Science",
-      "count": 46
+      "count": 44
     },
     {
       "name": "Drama",
-      "count": 42
+      "count": 41
     },
     {
       "name": "Religion",
@@ -599,11 +599,11 @@
       "count": 5
     },
     {
-      "name": "Non-Western History",
-      "count": 4
+      "name": "Global History",
+      "count": 3
     },
     {
-      "name": "Global History",
+      "name": "Non-Western History",
       "count": 3
     },
     {
@@ -616,31 +616,31 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 235,
-    "1800_1899": 410,
-    "1900_1949": 701,
-    "1950_1999": 1207,
-    "2000_plus": 1056
+    "before_1800": 229,
+    "1800_1899": 405,
+    "1900_1949": 698,
+    "1950_1999": 1197,
+    "2000_plus": 1052
   },
   "reading_progress": {
-    "read": 3210,
+    "read": 3185,
     "reading": 0,
-    "want": 409,
+    "want": 406,
     "unread": 0
   },
   "links": {
-    "gutenberg": 976,
-    "librivox": 704,
+    "gutenberg": 971,
+    "librivox": 702,
     "hathitrust": 127,
     "worldcat": 478
   },
   "oldest_year": -2100,
   "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1292916,
-    "estimated_reading_hours": 21549,
-    "shelf_meters": 90.5,
-    "books_with_pages": 3495
+    "total_pages": 1279751,
+    "estimated_reading_hours": 21329,
+    "shelf_meters": 89.8,
+    "books_with_pages": 3467
   },
-  "generated_at": "2026-05-02T16:01:17.241040"
+  "generated_at": "2026-05-04T14:15:32.159888"
 }
