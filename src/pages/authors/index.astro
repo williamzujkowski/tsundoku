@@ -42,7 +42,7 @@ const allAuthors = [...authorMap.entries()]
 
 const mostProlific = [...allAuthors]
   .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
-  .slice(0, 12);
+  .slice(0, 30);
 ---
 
 <Layout title="Authors" description={`${allAuthors.length} authors — read, unread, and somewhere in between`}>
@@ -112,6 +112,15 @@ const mostProlific = [...allAuthors]
           data-author-name={author.name.toLowerCase()}
           aria-disabled={!author.hasDetailPage}
         >
+          {author.photo_url ? (
+            <img src={author.photo_url} alt="" class="author-avatar author-avatar-sm" loading="lazy" />
+          ) : (
+            <div class="author-avatar-placeholder author-avatar-sm" aria-hidden="true">
+              <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+              </svg>
+            </div>
+          )}
           <span class="text-sm truncate">{author.name}</span>
           <span class="ml-auto text-xs text-dim text-mono">{author.count}</span>
         </a>
