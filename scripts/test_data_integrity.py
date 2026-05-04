@@ -115,6 +115,56 @@ class TestBookIntegrity:
         collisions = {k: v for k, v in groups.items() if len(v) > 1}
         assert not collisions, f"ISBN shared by ≥2 records: {collisions}"
 
+    def test_no_article_only_title_duplicates(self):
+        """No two records should share (author surname, title signature).
+
+        Catches article-only and format-only dupes the original ol_work_key
+        / isbn audit missed once those identifiers were cleared as part of
+        cross-key cleanup. Examples this guards against:
+          * "Art of Computer Programming Vol1" / "The Art of Computer
+             Programming, Volume 1" — Knuth, same volume, "Vol1" vs "Volume 1".
+          * "City of God" / "The City of God" — Augustine, article only.
+          * "Capital: Volume 1" / "Capital, Volume I" — Marx, arabic vs Roman.
+        """
+        import unicodedata, re
+        from collections import defaultdict
+
+        STOPS = frozenset({
+            "a","an","the","of","and","or","in","on","at","to","for","with",
+            "by","from","is","as","de","la","le",
+            # Volume / edition markers — keep the *number* tokens after them.
+            "vol","volume","edition","ed","part","no","num","number","book","books",
+        })
+        ROMAN = {"i":"1","ii":"2","iii":"3","iv":"4","v":"5","vi":"6",
+                 "vii":"7","viii":"8","ix":"9","x":"10"}
+
+        def author_key(name: str) -> str:
+            s = re.sub(r"[^a-z ]+", " ", (name or "").lower())
+            toks = [t for t in s.split() if len(t) >= 3]
+            return min(toks) if toks else ""
+
+        def title_sig(title: str) -> frozenset[str]:
+            t = unicodedata.normalize("NFKD", title or "")
+            t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+            t = re.sub(r"[^a-z0-9 ]+", " ", t)
+            t = re.sub(r"([a-z])(\d)", r"\1 \2", t)  # vol1 → vol 1
+            t = re.sub(r"(\d)([a-z])", r"\1 \2", t)  # 4a → 4 a
+            t = re.sub(r"\s+", " ", t).strip()
+            return frozenset(ROMAN.get(tok, tok) for tok in t.split() if tok not in STOPS)
+
+        groups = defaultdict(list)
+        for f, b in load_all_books():
+            ak = author_key(b.get("author", ""))
+            sig = title_sig(b.get("title", ""))
+            if not ak or not sig:
+                continue
+            groups[(ak, frozenset(sig))].append(Path(f).name)
+        dupes = {k: v for k, v in groups.items() if len(v) > 1}
+        assert not dupes, (
+            "Article/format-only duplicate book records found "
+            f"(author_key, title_signature): {dict(list(dupes.items())[:5])}"
+        )
+
     def test_descriptions_are_english(self):
         # Regression for the Spanish-Tractatus issue: enrichment passes
         # occasionally pulled localised descriptions from OL/Google Books.

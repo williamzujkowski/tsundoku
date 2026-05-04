@@ -4,7 +4,10 @@
   "category": "Philosophy",
   "priority": 1,
   "slug": "existentialism-is-a-humanism",
-  "tags": [],
+  "tags": [
+    "philosophy",
+    "r-philosophy"
+  ],
   "cover_url": "/tsundoku/cached/covers/existentialism-is-a-humanism.jpg",
   "cover_url_large": "/tsundoku/cached/covers/existentialism-is-a-humanism.jpg",
   "open_library_url": "https://openlibrary.org/works/OL1161181W",
@@ -41,5 +44,8 @@
   "cover_cached_at": "2026-05-03T01:14:03+00:00",
   "ddc": [
     "100"
+  ],
+  "subjects": [
+    "r/philosophy Reading List"
   ]
 }
