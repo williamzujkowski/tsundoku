@@ -1,0 +1,155 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { toSlug, isJointAlias } from '../../utils/formatting';
+
+const base = import.meta.env.BASE_URL;
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  const enrichedAuthors = await getCollection('authors');
+
+  const enrichedMap = new Map<string, { slug: string; photo_url?: string }>();
+  for (const a of enrichedAuthors) {
+    enrichedMap.set(a.data.name, {
+      slug: a.data.slug,
+      photo_url: a.data.photo_url,
+    });
+  }
+
+  const authorMap = new Map<string, number>();
+  for (const book of books) {
+    authorMap.set(book.data.author, (authorMap.get(book.data.author) ?? 0) + 1);
+  }
+
+  // Hide joint-name aliases — each component appears via its own record (#108).
+  const knownAuthorNames = new Set(enrichedAuthors.map(a => a.data.name));
+
+  const allAuthors = [...authorMap.entries()]
+    .filter(([name]) => !isJointAlias(name, knownAuthorNames))
+    .map(([name, count]) => {
+      const enriched = enrichedMap.get(name);
+      return {
+        name,
+        count,
+        slug: enriched?.slug ?? toSlug(name),
+        photo_url: enriched?.photo_url,
+        hasDetailPage: enrichedMap.has(name),
+      };
+    });
+
+  const groups = new Map<string, typeof allAuthors>();
+  for (const a of allAuthors) {
+    const lc = a.name[0].toLowerCase();
+    const key = /[a-z]/.test(lc) ? lc : 'other';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key)!.push(a);
+  }
+
+  const allLetters = [...groups.keys()].sort();
+
+  return [...groups.entries()].map(([letter, authors]) => ({
+    params: { letter },
+    props: {
+      authors: authors.sort((a, b) => a.name.localeCompare(b.name)),
+      allLetters,
+    },
+  }));
+}
+
+const { letter } = Astro.params;
+const { authors, allLetters } = Astro.props;
+const displayLetter = letter === 'other' ? '#' : (letter ?? '').toUpperCase();
+---
+
+<Layout title={`Authors — ${displayLetter}`} description={`${authors.length} authors with names starting with ${displayLetter}`}>
+  <nav class="breadcrumb">
+    <a href={base}>Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href={`${base}authors/`}>Authors</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{displayLetter}</span>
+  </nav>
+
+  <h1 class="heading-xl mb-2">{displayLetter}</h1>
+  <p class="text-muted text-sm mb-6">
+    {authors.length.toLocaleString()} {authors.length === 1 ? 'author' : 'authors'} starting with <strong>{displayLetter}</strong>.
+  </p>
+
+  <!-- Cross-letter ribbon -->
+  <nav aria-label="Jump to another letter" class="flex flex-wrap gap-2 mb-6">
+    {allLetters.map(l => {
+      const isCurrent = l === letter;
+      const label = l === 'other' ? '#' : l.toUpperCase();
+      return isCurrent ? (
+        <span class="letter-nav-link letter-nav-current" aria-current="page">{label}</span>
+      ) : (
+        <a href={`${base}authors/${l}/`} class="letter-nav-link">{label}</a>
+      );
+    })}
+  </nav>
+
+  <!-- Inline filter, scoped to this letter -->
+  <div class="search-wrapper mb-6">
+    <input
+      type="search"
+      placeholder={`Filter ${displayLetter} authors...`}
+      class="search-input"
+      data-author-filter
+      aria-label={`Filter authors starting with ${displayLetter}`}
+    />
+    <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+    </svg>
+  </div>
+
+  <div class="grid sm-grid-2 md-grid-3 gap-2" data-author-list>
+    {authors.map(author => {
+      const inner = (
+        <>
+          {author.photo_url ? (
+            <img src={author.photo_url} alt="" class="author-avatar author-avatar-sm" loading="lazy" transition:name={`author-${author.slug}`} />
+          ) : (
+            <div class="author-avatar-placeholder author-avatar-sm" aria-hidden="true">
+              <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+            </div>
+          )}
+          <span class="text-sm truncate">{author.name}</span>
+          <span class="ml-auto text-xs text-dim text-mono">{author.count}</span>
+        </>
+      );
+      return author.hasDetailPage ? (
+        <a href={`${base}authors/${author.slug}/`} class="list-item author-row" data-author-name={author.name.toLowerCase()}>{inner}</a>
+      ) : (
+        <div class="list-item author-row author-row-stub" data-author-name={author.name.toLowerCase()}>{inner}</div>
+      );
+    })}
+  </div>
+  <p class="text-dim text-sm mt-4" data-author-empty hidden>No authors match that filter.</p>
+
+  <hr class="section-divider" />
+  <a href={`${base}authors/`} class="ext-link text-sm">← Back to all letters</a>
+
+  <script is:inline>
+    (function () {
+      const input = document.querySelector('[data-author-filter]');
+      const list = document.querySelector('[data-author-list]');
+      const empty = document.querySelector('[data-author-empty]');
+      if (!input || !list || !empty) return;
+      const rows = Array.from(list.querySelectorAll('[data-author-name]'));
+      input.addEventListener('input', function () {
+        const q = input.value.trim().toLowerCase();
+        let visible = 0;
+        for (const r of rows) {
+          const name = r.getAttribute('data-author-name') || '';
+          const match = q === '' || name.includes(q);
+          r.hidden = !match;
+          if (match) visible++;
+        }
+        empty.hidden = visible !== 0;
+      });
+    })();
+  </script>
+</Layout>
