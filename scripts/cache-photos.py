@@ -127,12 +127,25 @@ def cache_one(
     return f"{ASTRO_BASE}cached/{out_dir.name}/{slug}.{ext}", ext
 
 
+def _resolve_local_path(local_url: str, out_dir: Path) -> Path | None:
+    """Map a /tsundoku/cached/<dir>/<slug>.<ext> URL to its local Path."""
+    if not local_url:
+        return None
+    name = local_url.rsplit("/", 1)[-1]
+    return out_dir / name
+
+
 def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
     """Walk every author file, download photo if needed, rewrite JSON.
 
-    `limit` counts *new downloads*, not records seen — so a build with only
-    the first ~200 alphabetical records cached cannot stop short before
-    reaching the missing ones at zzz.
+    `limit` counts *new downloads*, not records seen.
+
+    "Already cached" requires both (a) photo_url points at /cached/ AND
+    (b) the file actually exists on disk. The CI cache restore can be
+    incomplete (the saved cache plateaued at ~40% of files), so the
+    URL-only heuristic was reporting "cached" while leaving 404s for
+    Pages to serve. When the file is missing, we fall back to the
+    upstream `photo_url_source` for re-download.
     """
     out_dir = PUBLIC_CACHED / "authors"
     counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0}
@@ -147,8 +160,17 @@ def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
         counts["total"] += 1
 
         if is_already_local(url):
-            counts["cached_already"] += 1
-            continue
+            local_path = _resolve_local_path(url, out_dir)
+            if local_path and local_path.exists():
+                counts["cached_already"] += 1
+                continue
+            # Cache miss: file is gone but JSON insists it's local.
+            # Recover via the upstream attribution URL.
+            recovery_url = doc.get("photo_url_source")
+            if not recovery_url:
+                counts["skipped"] += 1
+                continue
+            url = recovery_url
 
         slug = doc.get("slug") or path.stem
 
@@ -197,8 +219,17 @@ def process_books(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
         counts["total"] += 1
 
         if is_already_local(url):
-            counts["cached_already"] += 1
-            continue
+            local_path = _resolve_local_path(url, out_dir)
+            if local_path and local_path.exists():
+                counts["cached_already"] += 1
+                continue
+            # Cache restore was incomplete; fall back to upstream source
+            # captured the first time we cached. See process_authors().
+            recovery_url = doc.get("cover_url_large_source") or doc.get("cover_url_source")
+            if not recovery_url:
+                counts["skipped"] += 1
+                continue
+            url = recovery_url
 
         slug = doc.get("slug") or path.stem
 

@@ -201,6 +201,11 @@ class TestProcessAuthors:
         """
         authors = tmp_path / "authors"
         authors.mkdir()
+        cached_dir = tmp_path / "public" / "cached" / "authors"
+        cached_dir.mkdir(parents=True)
+        # Materialise the cached jpgs so the disk-existence check passes.
+        for slug in ("a-already", "b-already"):
+            (cached_dir / f"{slug}.jpg").write_bytes(b"x")
         # 5 records: 2 already cached (alpha-first), 3 needing download.
         for i, (slug, url) in enumerate([
             ("a-already", "/tsundoku/cached/authors/a-already.jpg"),
@@ -222,6 +227,60 @@ class TestProcessAuthors:
         assert counts["cached_already"] == 2
         assert counts["downloaded"] == 2  # capped at limit, not 3
         # The 3rd missing record was never reached because limit was hit.
+
+    def test_recovers_from_missing_cached_file(self, tmp_path, monkeypatch):
+        """When JSON says cached but the file is gone (incomplete restore
+        from actions/cache), we MUST refetch from photo_url_source rather
+        than declaring "cached_already" and serving a 404."""
+        authors = tmp_path / "authors"
+        authors.mkdir()
+        # JSON says cached but no file on disk. Has photo_url_source.
+        author_file = authors / "missing.json"
+        author_file.write_text(json.dumps({
+            "name": "Missing",
+            "slug": "missing",
+            "book_count": 1,
+            "photo_url": "/tsundoku/cached/authors/missing.jpg",
+            "photo_url_source": "https://upstream.example/missing.jpg",
+        }))
+
+        monkeypatch.setattr(mod, "AUTHORS_DIR", authors)
+        monkeypatch.setattr(mod, "PUBLIC_CACHED", tmp_path / "public" / "cached")
+        # download() must be called with the recovery URL
+        seen = []
+        def fake_download(url):
+            seen.append(url)
+            return b"recovered bytes", "jpg"
+        monkeypatch.setattr(mod, "download", fake_download)
+
+        counts = mod.process_authors(limit=0, dry_run=False, rate_limit_s=0)
+
+        assert counts["cached_already"] == 0
+        assert counts["downloaded"] == 1
+        assert seen == ["https://upstream.example/missing.jpg"]
+        # File is now on disk
+        assert (tmp_path / "public" / "cached" / "authors" / "missing.jpg").exists()
+
+    def test_skips_when_cache_miss_has_no_recovery_url(self, tmp_path, monkeypatch):
+        """If the file is missing AND no photo_url_source is recorded
+        (legacy records), skip rather than error — the runtime broken-image
+        fallback handles the visual."""
+        authors = tmp_path / "authors"
+        authors.mkdir()
+        (authors / "stranded.json").write_text(json.dumps({
+            "name": "Stranded",
+            "slug": "stranded",
+            "book_count": 1,
+            "photo_url": "/tsundoku/cached/authors/stranded.jpg",
+            # no photo_url_source
+        }))
+        monkeypatch.setattr(mod, "AUTHORS_DIR", authors)
+        monkeypatch.setattr(mod, "PUBLIC_CACHED", tmp_path / "public" / "cached")
+        monkeypatch.setattr(mod, "download", lambda u: pytest.fail("unexpected download"))
+
+        counts = mod.process_authors(limit=0, dry_run=False, rate_limit_s=0)
+        assert counts["downloaded"] == 0
+        assert counts["skipped"] == 1
 
     def test_dry_run_does_not_modify_files(self, tmp_path, monkeypatch):
         authors = tmp_path / "authors"
@@ -283,6 +342,10 @@ class TestProcessBooks:
         """Re-running on a record whose cover_url is already local does nothing."""
         books = tmp_path / "books"
         books.mkdir()
+        cached_dir = tmp_path / "public" / "cached" / "covers"
+        cached_dir.mkdir(parents=True)
+        (cached_dir / "x.jpg").write_bytes(b"x")  # the disk file the JSON points at
+
         book_file = books / "x.json"
         original = {
             "title": "X",
