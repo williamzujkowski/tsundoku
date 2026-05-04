@@ -13,7 +13,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  # Scope by event so a PR's quality-only run cannot cancel an in-flight
+  # main-branch deploy. The `pages` group must remain singleton for the
+  # actual Pages publish, but PRs don't reach that step.
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
   cancel-in-progress: true
 
 jobs:
