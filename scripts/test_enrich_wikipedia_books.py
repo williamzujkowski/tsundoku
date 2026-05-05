@@ -110,3 +110,60 @@ def test_album_rejected(enricher):
     }
     book = {"title": "Cryptonomicon", "author": "Neal Stephenson"}
     assert enricher.search(book) is None
+
+
+def test_rejects_war_article_with_author_in_extract(enricher):
+    """Regression: 'The Gallic War' returns the Wikipedia article about
+    the 58–50 BC conflict, not the book. The extract trivially mentions
+    'Caesar' (author last name) but the description is about the war,
+    so the heuristic should reject."""
+    enricher._fake_response = {
+        "type": "standard",
+        "title": "The Gallic War",
+        "description": "58–50 BC conflict between Rome and Gallic tribes",
+        "extract": ("The Gallic Wars were a series of military "
+                    "campaigns waged by the Roman proconsul Julius "
+                    "Caesar against several Gallic tribes."),
+        "thumbnail": {"source": "https://upload/painting.jpg",
+                      "width": 330, "height": 220},
+    }
+    book = {"title": "The Gallic War", "author": "Julius Caesar"}
+    assert enricher.search(book) is None
+
+
+def test_rejects_subject_illustration_thumbnail(enricher):
+    """The article passes the is_book check but the lead image is a
+    landscape painting/manuscript photo, not a cover. Description and
+    extract are accepted; the thumbnail must still be rejected."""
+    enricher._fake_response = {
+        "type": "standard",
+        "title": "Maxims of Ptahhotep",
+        "description": "ancient Egyptian wisdom literature",
+        "extract": ("The Maxims of Ptahhotep is a literary work of the "
+                    "Ancient Egyptian wisdom genre, attributed to "
+                    "Ptahhotep, vizier of Pharaoh Djedkare Isesi..."),
+        "thumbnail": {"source": "https://upload/Papyrus_Prisse_187.jpg",
+                      "width": 330, "height": 123},
+    }
+    book = {"title": "The Maxims of Ptahhotep", "author": "Ptahhotep"}
+    out = enricher.search(book)
+    assert out is not None
+    assert "description" in out
+    # Thumbnail rejected — aspect 2.68 is way past book-portrait range.
+    assert "cover_url" not in out
+
+
+def test_accepts_portrait_thumbnail(enricher):
+    enricher._fake_response = {
+        "type": "standard",
+        "title": "Dune (novel)",
+        "description": "1965 science fiction novel by Frank Herbert",
+        "extract": "Dune is a 1965 epic science fiction novel by Herbert...",
+        "thumbnail": {"source": "https://upload/Dune-Frank_Herbert_(1965)_First_edition.jpg",
+                      "width": 200, "height": 304},  # aspect 0.66
+    }
+    book = {"title": "Dune", "author": "Frank Herbert"}
+    out = enricher.search(book)
+    assert out is not None
+    assert out.get("cover_url") == \
+        "https://upload/Dune-Frank_Herbert_(1965)_First_edition.jpg"

@@ -69,9 +69,14 @@ class WikipediaBookEnricher(EnrichmentScript):
                 if NON_BOOK_DESC.search(desc) or NON_BOOK_DESC.search(extract[:300]):
                     continue
 
-                # Accept only on an *explicit* book/literary marker.
-                # "published" and "story" are too weak — they appear in
-                # video-game and film extracts too.
+                # Accept only on an *explicit* book/literary marker IN
+                # the description (Wikipedia's tight categorisation),
+                # the description naming the author, or the extract
+                # naming both a literary marker AND the author. Without
+                # the description-side anchor, articles about the
+                # subject (e.g. "The Gallic War" → 58–50 BC conflict)
+                # leak in: their extracts trivially contain the
+                # author's last name without describing the book.
                 BOOK_MARKERS = (
                     "novel", "novella", "book", "poem", "epic poem",
                     "play", "memoir", "essay", "essays", "treatise",
@@ -79,12 +84,15 @@ class WikipediaBookEnricher(EnrichmentScript):
                     "anthology", "collection of", "short story",
                     "biography", "autobiography",
                 )
-                last_name = author.split()[-1].lower()
-                haystack = desc + " " + extract[:300]
-                is_book = (
-                    any(kw in haystack for kw in BOOK_MARKERS)
-                    or last_name in haystack
+                last_name = author.split()[-1].lower() if author else ""
+                desc_has_marker = any(kw in desc for kw in BOOK_MARKERS)
+                desc_has_author = bool(last_name) and last_name in desc
+                extract_head = extract[:300]
+                extract_supports = (
+                    any(kw in extract_head for kw in BOOK_MARKERS)
+                    and (not last_name or last_name in extract_head)
                 )
+                is_book = desc_has_marker or desc_has_author or extract_supports
 
                 if is_book and len(result.get("extract", "")) > 50:
                     fields: dict = {}
@@ -98,11 +106,25 @@ class WikipediaBookEnricher(EnrichmentScript):
                             extract_text = extract_text[:cut + 1]
                     fields["description"] = extract_text
 
-                    # Use thumbnail as cover if book has none
+                    # Use thumbnail as cover if book has none AND the
+                    # thumbnail is portrait-shaped — Wikipedia article
+                    # leads are often illustrative photos (manuscript
+                    # pages, museum artefacts, paintings depicting the
+                    # subject) which are landscape and definitely not
+                    # book covers. See the regression where The Gallic
+                    # War's thumbnail was a 19th-century painting of
+                    # Vercingetorix surrendering, 330x220 (aspect 1.50).
                     if not book.get("cover_url"):
-                        thumb = result.get("thumbnail", {}).get("source")
-                        if thumb:
-                            fields["cover_url"] = thumb
+                        thumb_obj = result.get("thumbnail") or {}
+                        thumb = thumb_obj.get("source")
+                        tw, th = thumb_obj.get("width"), thumb_obj.get("height")
+                        if thumb and tw and th and th > 0:
+                            aspect = tw / th
+                            # Books are typically 0.55–0.78 aspect; allow
+                            # up to 0.85 for square-ish reprints. Reject
+                            # anything wider — that's not a cover.
+                            if aspect <= 0.85:
+                                fields["cover_url"] = thumb
 
                     return fields
 
