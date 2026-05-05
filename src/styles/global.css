@@ -425,20 +425,25 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Grid System ===== */
 .grid { display: grid; gap: 1rem; }
-.grid-2 { grid-template-columns: repeat(2, 1fr); }
-.grid-3 { grid-template-columns: repeat(3, 1fr); }
-.grid-4 { grid-template-columns: repeat(4, 1fr); }
+/* `minmax(0, 1fr)` instead of `1fr` so a grid item's intrinsic min-content
+ * (long unbreakable titles, author lists, etc.) cannot blow out a column
+ * past its fractional share. Without this the rightmost cell extends past
+ * the page's `.site-main` and gets silently clipped by `overflow-x: hidden`
+ * — see the regression on /categories/computer-science/. */
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (min-width: 640px) {
-  .sm-grid-2 { grid-template-columns: repeat(2, 1fr); }
-  .sm-grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .sm-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sm-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (min-width: 768px) {
-  .md-grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .md-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (min-width: 1024px) {
-  .lg-grid-4 { grid-template-columns: repeat(4, 1fr); }
-  .lg-grid-6 { grid-template-columns: repeat(6, 1fr); }
-  .lg-grid-8 { grid-template-columns: repeat(8, 1fr); }
+  .lg-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .lg-grid-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .lg-grid-8 { grid-template-columns: repeat(8, minmax(0, 1fr)); }
 }
 
 /* ===== Utility ===== */
