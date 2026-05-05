@@ -525,19 +525,21 @@
 
   @media (min-width: 640px) {
     .book-cards-grid {
-      grid-template-columns: repeat(2, 1fr);
+      /* See note in src/styles/global.css — minmax(0, 1fr) prevents long
+       * unbreakable titles/authors from blowing out a column. */
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
   @media (min-width: 1024px) {
     .book-cards-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
   @media (min-width: 1280px) {
     .book-cards-grid {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 
