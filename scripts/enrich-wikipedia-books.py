@@ -38,20 +38,53 @@ class WikipediaBookEnricher(EnrichmentScript):
             f"{title} (play)",                        # Drama
         ]
 
+        # Wikipedia summaries with these category markers describe
+        # something other than the book — even if the rest of the extract
+        # mentions "published" or "story". Outright reject; otherwise the
+        # 1996 video game *MissionForce: CyberStorm* leaks into Matthew
+        # Mather's 2013 novel, which is exactly the kind of regression
+        # this enricher exists to avoid.
+        NON_BOOK_DESC = re.compile(
+            r"\b(video game|computer game|board game|tabletop game|"
+            r"first-person shooter|real-time strategy|turn-based strategy|"
+            r"role-playing game|MMORPG|platform(?:er)?|fighting game|"
+            r"film|movie|television series|TV series|miniseries|"
+            r"studio album|debut album|live album|EP|single|song|musical|"
+            r"comic series|graphic novel series|"
+            r"programming language|operating system|software library|"
+            r"website|web framework)\b",
+            re.I,
+        )
+
         for wiki_title in candidates:
             result = self._fetch_summary(wiki_title)
             if result:
-                # Verify it's about the right book/work (not a film, song, etc.)
                 extract = result.get("extract", "").lower()
                 desc = result.get("description", "").lower()
 
-                # Accept if description mentions book/literary terms
-                is_book = any(kw in desc + " " + extract[:200] for kw in [
-                    "novel", "book", "poem", "play", "epic", "story", "work",
-                    "collection", "memoir", "essay", "treatise", "written",
-                    "published", "author", "literary", "fiction", "tale",
-                    author.split()[-1].lower(),  # Author last name in text
-                ])
+                # Hard reject: Wikipedia's short `description` field is a
+                # tight categorization like "1996 video game" or "2013
+                # novel by Matthew Mather". If it names a non-book medium,
+                # this is the wrong page no matter what the extract says.
+                if NON_BOOK_DESC.search(desc) or NON_BOOK_DESC.search(extract[:300]):
+                    continue
+
+                # Accept only on an *explicit* book/literary marker.
+                # "published" and "story" are too weak — they appear in
+                # video-game and film extracts too.
+                BOOK_MARKERS = (
+                    "novel", "novella", "book", "poem", "epic poem",
+                    "play", "memoir", "essay", "essays", "treatise",
+                    "literary", "fiction", "non-fiction", "nonfiction",
+                    "anthology", "collection of", "short story",
+                    "biography", "autobiography",
+                )
+                last_name = author.split()[-1].lower()
+                haystack = desc + " " + extract[:300]
+                is_book = (
+                    any(kw in haystack for kw in BOOK_MARKERS)
+                    or last_name in haystack
+                )
 
                 if is_book and len(result.get("extract", "")) > 50:
                     fields: dict = {}
