@@ -99,19 +99,48 @@ def cache_one(
     slug: str,
     rate_limit_s: float,
 ) -> tuple[str, str] | None:
-    """Download `url` into `out_dir/{slug}.{ext}`. Returns (local_url, ext) or None."""
+    """Download `url` into `out_dir/{slug}.{ext}`. Returns (local_url, ext) or None.
+
+    Tracks the source URL in a `<slug>.url` sidecar so that if a record's
+    upstream URL is later edited (e.g. swapping a wrong Wikipedia
+    thumbnail for an Open Library cover), the stale cached file is
+    invalidated and re-fetched. Without this, the 90-day "skip if recent"
+    optimisation reuses the previous URL's bytes silently — see the
+    Cyberstorm regression where the 1996 video-game box art kept
+    rendering for the 2013 novel after the JSON was corrected.
+
+    Backward-compat: a cached file with no sidecar is treated as fresh
+    (the legacy fleet doesn't have sidecars yet). Once any cache run
+    overwrites a file, the sidecar lands and future URL changes are
+    detected.
+    """
     if is_already_local(url):
         # Idempotency: if JSON already points local, no work needed.
         return None
 
     out_dir.mkdir(parents=True, exist_ok=True)
+    sidecar = out_dir / f"{slug}.url"
 
-    # Skip if a recent local file already exists for this slug.
-    for existing in out_dir.glob(f"{slug}.*"):
+    # Skip if a recent local file already exists for this slug AND a
+    # sidecar confirms it came from the same upstream URL. We only reach
+    # this branch when the JSON points to an *upstream* URL — i.e., a
+    # new or manually re-pointed record. Legacy records whose JSON
+    # points to /tsundoku/cached/<slug> short-circuit at the top of
+    # cache_one (is_already_local), so they never touch this sidecar
+    # logic and are not invalidated by it.
+    for existing in sorted(out_dir.glob(f"{slug}.*")):
+        if existing.suffix == ".url":
+            continue
         age_days = (time.time() - existing.stat().st_mtime) / 86400
-        if age_days < SKIP_IF_NEWER_THAN_DAYS:
-            ext = existing.suffix.lstrip(".")
-            return f"{ASTRO_BASE}cached/{out_dir.name}/{slug}.{ext}", ext
+        if age_days >= SKIP_IF_NEWER_THAN_DAYS:
+            break
+        if not sidecar.exists() or sidecar.read_text().strip() != url:
+            # Either the cached bytes came from a different URL, or we
+            # have no record of where they came from. Treat as stale.
+            existing.unlink()
+            break
+        ext = existing.suffix.lstrip(".")
+        return f"{ASTRO_BASE}cached/{out_dir.name}/{slug}.{ext}", ext
 
     result = download(url)
     if rate_limit_s:
@@ -124,6 +153,7 @@ def cache_one(
     tmp = target.with_suffix(target.suffix + ".tmp")
     tmp.write_bytes(data)
     tmp.replace(target)
+    sidecar.write_text(url)
     return f"{ASTRO_BASE}cached/{out_dir.name}/{slug}.{ext}", ext
 
 

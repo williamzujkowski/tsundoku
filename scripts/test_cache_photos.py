@@ -64,13 +64,14 @@ class TestCacheOne:
         )
         assert result is None  # nothing to do
 
-    def test_uses_existing_recent_file_without_redownload(self, tmp_path, monkeypatch):
+    def test_uses_existing_recent_file_when_sidecar_matches(self, tmp_path, monkeypatch):
+        """A recent cached file PLUS a sidecar URL matching the request
+        is reused without re-downloading. This is the steady-state path."""
         out_dir = tmp_path / "authors"
         out_dir.mkdir()
-        # Existing recent file (mtime = now)
         (out_dir / "plato.png").write_bytes(b"fake png bytes")
+        (out_dir / "plato.url").write_text("https://example.com/plato.png")
 
-        # If download() were called, it would fail noisily — make sure it isn't.
         def boom(url):
             raise AssertionError(f"download() should not be called; got {url}")
 
@@ -85,6 +86,51 @@ class TestCacheOne:
         local_url, ext = result
         assert ext == "png"
         assert local_url.endswith("/cached/authors/plato.png")
+
+    def test_invalidates_stale_cache_when_sidecar_url_differs(self, tmp_path, monkeypatch):
+        """Regression for the Cyberstorm bug: JSON's cover_url was
+        re-pointed at a new upstream (OL cover) but the cached bytes were
+        the old game-cover wikimedia file. The 90-day skip silently
+        reused the old bytes. Sidecar mismatch must now trigger a
+        re-download instead."""
+        out_dir = tmp_path / "covers"
+        out_dir.mkdir()
+        (out_dir / "cyberstorm.jpg").write_bytes(b"old game cover bytes")
+        (out_dir / "cyberstorm.url").write_text("https://wikimedia/old.jpg")
+
+        monkeypatch.setattr(mod, "download", lambda u: (b"new novel cover", "jpg"))
+        result = mod.cache_one(
+            url="https://covers.openlibrary.org/b/id/8541860-L.jpg",
+            out_dir=out_dir,
+            slug="cyberstorm",
+            rate_limit_s=0,
+        )
+        assert result is not None
+        # File overwritten with fresh bytes
+        assert (out_dir / "cyberstorm.jpg").read_bytes() == b"new novel cover"
+        # Sidecar updated to the new URL
+        assert (out_dir / "cyberstorm.url").read_text() == \
+            "https://covers.openlibrary.org/b/id/8541860-L.jpg"
+
+    def test_invalidates_stale_cache_when_no_sidecar(self, tmp_path, monkeypatch):
+        """Same shape as Cyberstorm before the sidecar feature shipped:
+        a cached file exists with no sidecar. We have no record of which
+        URL it came from, so it must be re-fetched, not silently reused."""
+        out_dir = tmp_path / "covers"
+        out_dir.mkdir()
+        (out_dir / "cyberstorm.jpg").write_bytes(b"unknown-source bytes")
+        # NO sidecar
+
+        monkeypatch.setattr(mod, "download", lambda u: (b"fresh bytes", "jpg"))
+        result = mod.cache_one(
+            url="https://covers.openlibrary.org/b/id/8541860-L.jpg",
+            out_dir=out_dir,
+            slug="cyberstorm",
+            rate_limit_s=0,
+        )
+        assert result is not None
+        assert (out_dir / "cyberstorm.jpg").read_bytes() == b"fresh bytes"
+        assert (out_dir / "cyberstorm.url").exists()
 
     def test_redownloads_if_existing_file_is_old(self, tmp_path, monkeypatch):
         out_dir = tmp_path / "authors"
