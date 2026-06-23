@@ -1,39 +1,39 @@
 {
-  "total_books": 3591,
+  "total_books": 3584,
   "total_categories": 28,
   "total_authors": 1649,
   "priorities": {
-    "must_read": 1708,
-    "recommended": 1849,
+    "must_read": 1702,
+    "recommended": 1848,
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3581,
-    "covers_pct": 99.7,
-    "descriptions": 3549,
-    "descriptions_pct": 98.8,
-    "isbns": 3518,
+    "covers": 3569,
+    "covers_pct": 99.6,
+    "descriptions": 3543,
+    "descriptions_pct": 98.9,
+    "isbns": 3513,
     "isbns_pct": 98.0,
-    "pages": 3467,
-    "pages_pct": 96.5,
-    "years": 3581,
-    "subject_facet": 3453,
-    "ddc": 3591,
-    "lcc": 3591,
-    "wikidata": 1316,
+    "pages": 3463,
+    "pages_pct": 96.6,
+    "years": 3574,
+    "subject_facet": 3446,
+    "ddc": 3584,
+    "lcc": 3584,
+    "wikidata": 1315,
     "original_language": 1352,
     "original_publisher": 619,
     "awards": 313,
     "series": 335
   },
   "author_enrichment": {
-    "total_authors": 1933,
-    "wikidata": 886,
-    "nationality": 714,
-    "alternate_names": 157,
-    "movements": 183,
-    "awards": 592,
-    "viaf": 883
+    "total_authors": 1899,
+    "wikidata": 875,
+    "nationality": 704,
+    "alternate_names": 155,
+    "movements": 182,
+    "awards": 584,
+    "viaf": 872
   },
   "nationality_distribution": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "code": "FR",
-      "count": 178
+      "count": 177
     },
     {
       "code": "CA",
@@ -180,10 +180,6 @@
     },
     {
       "decade": 1000,
-      "count": 1
-    },
-    {
-      "decade": 1190,
       "count": 1
     },
     {
@@ -352,7 +348,7 @@
     },
     {
       "decade": 1860,
-      "count": 52
+      "count": 51
     },
     {
       "decade": 1870,
@@ -368,7 +364,7 @@
     },
     {
       "decade": 1900,
-      "count": 137
+      "count": 136
     },
     {
       "decade": 1910,
@@ -384,7 +380,7 @@
     },
     {
       "decade": 1940,
-      "count": 117
+      "count": 116
     },
     {
       "decade": 1950,
@@ -392,7 +388,7 @@
     },
     {
       "decade": 1960,
-      "count": 237
+      "count": 236
     },
     {
       "decade": 1970,
@@ -404,11 +400,11 @@
     },
     {
       "decade": 1990,
-      "count": 304
+      "count": 303
     },
     {
       "decade": 2000,
-      "count": 365
+      "count": 364
     },
     {
       "decade": 2010,
@@ -485,10 +481,6 @@
       "count": 11
     },
     {
-      "name": "Donald E. Knuth",
-      "count": 11
-    },
-    {
       "name": "J.R.R. Tolkien",
       "count": 11
     },
@@ -499,6 +491,10 @@
     {
       "name": "Robert A. Heinlein",
       "count": 11
+    },
+    {
+      "name": "Terry Pratchett",
+      "count": 11
     }
   ],
   "categories": [
@@ -508,7 +504,7 @@
     },
     {
       "name": "Philosophy",
-      "count": 362
+      "count": 359
     },
     {
       "name": "Science Fiction",
@@ -532,7 +528,7 @@
     },
     {
       "name": "Computer Science",
-      "count": 103
+      "count": 101
     },
     {
       "name": "Mystery",
@@ -568,7 +564,7 @@
     },
     {
       "name": "Religion",
-      "count": 41
+      "count": 39
     },
     {
       "name": "Literary Criticism",
@@ -616,14 +612,14 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 229,
-    "1800_1899": 405,
-    "1900_1949": 698,
-    "1950_1999": 1197,
-    "2000_plus": 1052
+    "before_1800": 228,
+    "1800_1899": 404,
+    "1900_1949": 696,
+    "1950_1999": 1195,
+    "2000_plus": 1051
   },
   "reading_progress": {
-    "read": 3185,
+    "read": 3178,
     "reading": 0,
     "want": 406,
     "unread": 0
@@ -637,10 +633,10 @@
   "oldest_year": -2100,
   "newest_year": 2026,
   "bookshelf": {
-    "total_pages": 1279751,
-    "estimated_reading_hours": 21329,
-    "shelf_meters": 89.8,
-    "books_with_pages": 3467
+    "total_pages": 1276756,
+    "estimated_reading_hours": 21279,
+    "shelf_meters": 89.6,
+    "books_with_pages": 3463
   },
-  "generated_at": "2026-05-04T16:18:16.691520"
+  "generated_at": "2026-06-23T00:56:24.615578"
 }
