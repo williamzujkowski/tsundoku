@@ -15,7 +15,37 @@ from http_retry import (
     fetch_bytes,
     fetch_json,
     fetch_with_retry,
+    is_fetchable_url,
 )
+
+
+class TestSchemeAllowlist:
+    @pytest.mark.parametrize("url", [
+        "http://example.com/a.jpg",
+        "https://example.com/a.jpg",
+        "HTTPS://EXAMPLE.COM/a.jpg",
+    ])
+    def test_allows_http_https(self, url):
+        assert is_fetchable_url(url) is True
+
+    @pytest.mark.parametrize("url", [
+        "file:///etc/passwd",
+        "ftp://example.com/x",
+        "data:text/plain,hi",
+        "javascript:alert(1)",
+        "",
+        "not a url",
+    ])
+    def test_rejects_other_schemes(self, url):
+        assert is_fetchable_url(url) is False
+
+    def test_fetch_with_retry_refuses_non_http(self, monkeypatch):
+        # urlopen must never be reached for a file:// URL.
+        def _boom(*a, **k):
+            raise AssertionError("urlopen called for non-http(s) URL")
+        monkeypatch.setattr("http_retry.urlopen", _boom)
+        body, status, headers = fetch_with_retry("file:///etc/passwd")
+        assert body is None and status == 0 and headers == {}
 
 
 class _FakeHeaders(dict):

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear } from '../../utils/formatting';
+import { safeJsonLd } from '../../utils/jsonld';
 import ShareButton from '../../components/ShareButton.svelte';
 
 export async function getStaticPaths() {
@@ -102,7 +103,7 @@ if (currentLcc) {
 ---
 
 <Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={book.cover_url_large || book.cover_url}>
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={safeJsonLd({
     "@context": "https://schema.org",
     "@type": "Book",
     "name": book.title,

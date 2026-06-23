@@ -30,6 +30,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Optional, Tuple
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -39,8 +40,23 @@ from enrichment_config import USER_AGENT
 DEFAULT_TIMEOUT = 20
 DEFAULT_MAX_ATTEMPTS = 3
 RETRYABLE_STATUSES = frozenset({429, 502, 503, 504})
+ALLOWED_SCHEMES = frozenset({"http", "https"})
 
 log = logging.getLogger(__name__)
+
+
+def is_fetchable_url(url: str) -> bool:
+    """True only for http(s) URLs.
+
+    `urllib.urlopen` also honors `file://`, `ftp://`, and `data:`. Cover/photo
+    URLs are stored verbatim from upstream API JSON, so a poisoned upstream
+    value (e.g. ``file:///etc/passwd``) must never be dereferenced on the CI
+    or dev machine. Reject anything that isn't http(s).
+    """
+    try:
+        return urlsplit(url).scheme.lower() in ALLOWED_SCHEMES
+    except ValueError:
+        return False
 
 
 def _retry_after_seconds(headers) -> Optional[float]:
@@ -87,6 +103,10 @@ def fetch_with_retry(
     On 404 returns (None, 404, {}) immediately — no retry, the resource
     just doesn't exist.
     """
+    if not is_fetchable_url(url):
+        log.warning("Refusing non-http(s) URL: %s", url)
+        return None, 0, {}
+
     headers = {"User-Agent": user_agent}
     if extra_headers:
         headers.update(extra_headers)
