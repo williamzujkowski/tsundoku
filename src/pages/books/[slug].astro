@@ -85,6 +85,20 @@ if (book.series?.name && book.series.position) {
   }
 }
 
+// Human-readable label for an adaptation medium (#184). Kept inline to avoid
+// touching src/utils/formatting.ts (parseAuthors change in flight there).
+const ADAPTATION_TYPE_LABELS: Record<string, string> = {
+  film: 'Film',
+  tv: 'TV',
+  stage: 'Stage',
+  radio: 'Radio',
+  opera: 'Opera',
+  other: 'Adaptation',
+};
+function adaptationTypeLabel(type: string): string {
+  return ADAPTATION_TYPE_LABELS[type] ?? 'Adaptation';
+}
+
 const currentLcc = book.lcc?.[0] ?? null;
 let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; lcc: string }> = [];
 if (currentLcc) {
@@ -174,6 +188,10 @@ if (currentLcc) {
           ));
         })()}</p>
 
+        {book.translator && (
+          <p class="text-dim text-sm mb-4">translated by {book.translator}</p>
+        )}
+
         <div class="flex flex-wrap items-center gap-2 mb-4">
           {book.reading_status && (
             <span class={statusClass(book.reading_status)}>
@@ -193,11 +211,22 @@ if (currentLcc) {
           )}
         </div>
 
-        {book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase() && (
+        {/* Original publication — consolidated work-level provenance. Only
+            renders when there's something to say beyond the edition we link to:
+            an original title, original-language publisher, or both. The hero
+            already shows the publication year as a meta-tag below. */}
+        {((book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase()) || book.original_publisher) && (
           <p class="text-dim text-sm mb-3">
-            Originally <i lang={book.original_language || undefined}>{book.original_title}</i>
-            {book.original_language && book.original_language !== 'eng' && (
-              <span> · {languageLabel(book.original_language)}</span>
+            {book.original_title && book.original_title.toLowerCase() !== book.title.toLowerCase() ? (
+              <>
+                Originally published as <i lang={book.original_language || undefined}>«{book.original_title}»</i>
+                {book.original_language && book.original_language !== 'eng' && (
+                  <span> ({languageLabel(book.original_language)})</span>
+                )}
+                {book.original_publisher && <span>, {book.original_publisher}</span>}
+              </>
+            ) : (
+              <>Originally published by {book.original_publisher}</>
             )}
           </p>
         )}
@@ -211,9 +240,6 @@ if (currentLcc) {
             <span class="meta-tag">
               First published {formatYear(book.first_published, book.first_published_circa)}
             </span>
-          )}
-          {book.original_publisher && (
-            <span class="meta-tag">{book.original_publisher}</span>
           )}
           {book.pages && (
             <span class="meta-tag">{book.pages} pages</span>
@@ -275,7 +301,7 @@ if (currentLcc) {
 
       {/* This edition — what the user is actually reading. Distinct from
           the work-level metadata above (year, original title). */}
-      {(book.isbn || book.language || book.translator || (book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn)) && (
+      {(book.isbn || book.language || (book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn)) && (
         <div class="detail-section">
           <dt class="text-dim text-sm mb-2">This edition</dt>
           <dd class="flex flex-wrap gap-3 text-xs items-center">
@@ -284,9 +310,6 @@ if (currentLcc) {
             )}
             {book.language && (
               <span>{languageLabel(book.language)}</span>
-            )}
-            {book.translator && (
-              <span>Translated by {book.translator}</span>
             )}
             {book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn && (
               <span class="text-dim text-mono">First-edition ISBN: {book.first_edition_isbn}</span>
@@ -384,6 +407,28 @@ if (currentLcc) {
           )}
         </a>
       </nav>
+    )}
+
+    <!-- Adaptations (#184) — curated film/TV/stage/etc. derived from this work -->
+    {book.adaptations && book.adaptations.length > 0 && (
+      <section class="mb-8">
+        <h2 class="heading-md mb-2">Adaptations</h2>
+        <p class="text-dim text-sm mb-4">
+          Works adapted from <i>{book.title}</i>.
+        </p>
+        <ul class="adaptation-list">
+          {book.adaptations
+            .slice()
+            .sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999))
+            .map(a => (
+              <li class="adaptation-item">
+                <span class="meta-tag text-xs">{adaptationTypeLabel(a.type)}</span>
+                <span class="adaptation-title">{a.title}</span>
+                {a.year !== undefined && <span class="text-dim text-sm"> ({a.year})</span>}
+              </li>
+            ))}
+        </ul>
+      </section>
     )}
 
     <!-- On the Same Shelf — LCC-adjacent neighbors -->
