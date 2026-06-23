@@ -57,7 +57,6 @@ const books = defineCollection({
     original_title: z.string().optional(),
     original_language: z.string().optional(),         // ISO 639-3 code
     original_publisher: z.string().optional(),
-    original_pages: z.number().optional(),
     first_edition_isbn: z.string().nullable().optional(),  // explicit null for pre-ISBN works
     first_published_circa: z.boolean().optional(),    // for "ca. 1850" / "[1900?]"
     translator: z.string().optional(),                // when original_language differs from language
