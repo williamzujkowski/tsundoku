@@ -50,6 +50,16 @@
       .slice(0, 12);
   });
 
+  // Persistent live-region text. Lives at the component root (always in the
+  // DOM) so screen readers reliably announce result-count changes — a live
+  // region must already exist before its text mutates (#203).
+  let announcement = $derived(() => {
+    if (!open || !loaded || query.length < 2) return '';
+    const n = results().length;
+    if (n === 0) return 'No results';
+    return `${n} ${n === 1 ? 'result' : 'results'}`;
+  });
+
   async function loadIndex() {
     if (loaded) return;
     loadError = false;
@@ -126,6 +136,10 @@
   </svg>
 </button>
 
+<!-- Persistent live region: always in the DOM so SR announcements fire
+     reliably when its text changes (#203 M2). -->
+<span class="sr-only" aria-live="polite" role="status">{announcement()}</span>
+
 {#if open}
   <div
     class="overlay"
@@ -156,6 +170,16 @@
           onkeydown={handleResultKeydown}
         />
         <kbd class="kbd-hint">ESC</kbd>
+        <button
+          type="button"
+          class="modal-close"
+          aria-label="Close search"
+          onclick={close}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
       </div>
 
       <div id="search-results" class="results-list" role="listbox">
@@ -203,7 +227,9 @@
           <span><kbd class="kbd">esc</kbd> close</span>
         </div>
         {#if loaded && query.length >= 2}
-          <span class="results-count" aria-live="polite">{results().length} {results().length === 1 ? 'result' : 'results'}</span>
+          <!-- Visible count only; announcements come from the persistent
+               sr-only live region above to avoid double-announcing (#203 M2). -->
+          <span class="results-count">{results().length} {results().length === 1 ? 'result' : 'results'}</span>
         {/if}
       </div>
     </div>
@@ -296,6 +322,28 @@
     .kbd-hint {
       display: inline;
     }
+  }
+
+  .modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0.375rem;
+    color: var(--text-dim);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 80ms ease;
+  }
+
+  .modal-close:hover {
+    color: var(--text);
+  }
+
+  .modal-close svg {
+    width: 1.125rem;
+    height: 1.125rem;
   }
 
   /* --- Results list --- */

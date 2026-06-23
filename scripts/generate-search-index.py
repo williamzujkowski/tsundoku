@@ -12,6 +12,9 @@ from pathlib import Path
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 OUTPUT = Path(__file__).parent.parent / "public" / "search-index.json"
+# Tiny companion index: just the book URL paths, so RandomBook.svelte can
+# pick a random book without downloading the full ~1MB search index (#203).
+RANDOM_SLUGS_OUTPUT = Path(__file__).parent.parent / "public" / "random-slugs.json"
 
 
 def main() -> None:
@@ -68,6 +71,14 @@ def main() -> None:
     OUTPUT.write_text(json.dumps(items, separators=(",", ":")))
 
     print(f"Search index: {len(items)} items ({OUTPUT.stat().st_size // 1024}KB)")
+
+    # Companion random-slugs index: book URL paths only.
+    book_urls = [item["u"] for item in items if item["y"] == "book"]
+    RANDOM_SLUGS_OUTPUT.write_text(json.dumps(book_urls, separators=(",", ":")))
+    print(
+        f"Random slugs: {len(book_urls)} books "
+        f"({RANDOM_SLUGS_OUTPUT.stat().st_size // 1024}KB)"
+    )
 
 
 if __name__ == "__main__":

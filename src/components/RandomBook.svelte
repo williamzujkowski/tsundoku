@@ -3,13 +3,13 @@
 
   async function goToRandom() {
     try {
-      const res = await fetch(`${baseUrl}search-index.json`);
+      // Tiny dedicated index (KB, not the ~1MB search index) of book URL paths.
+      const res = await fetch(`${baseUrl}random-slugs.json`);
       if (!res.ok) return;
-      const items: { u: string; y: string }[] = await res.json();
-      const books = items.filter(i => i.y === 'book');
-      if (books.length === 0) return;
-      const idx = Math.floor(Math.random() * books.length);
-      window.location.href = `${baseUrl}${books[idx].u}`;
+      const slugs: string[] = await res.json();
+      if (slugs.length === 0) return;
+      const idx = Math.floor(Math.random() * slugs.length);
+      window.location.href = `${baseUrl}${slugs[idx]}`;
     } catch {
       // Silently fail — button just doesn't navigate
     }
