@@ -35,6 +35,7 @@ data/enrichment-deadletter.jsonl
 
 # Generated at build time
 public/search-index.json
+public/random-slugs.json
 public/browse-data.json
 data/.~lock.*
 
