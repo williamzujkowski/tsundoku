@@ -9,15 +9,53 @@ import json
 import csv
 import glob
 import re
+import sys
 import importlib.util
 from pathlib import Path
 from collections import Counter
+from urllib.parse import urlsplit
 
 import pytest
+
+sys.path.insert(0, str(Path(__file__).parent))
+from http_retry import is_fetchable_url
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 CSV_PATH = Path(__file__).parent.parent / "data" / "reading-status.csv"
+
+# Closed enums mirrored from src/content.config.ts. If the schema gains a value,
+# update both. Kept literal here so the test fails loudly on schema drift rather
+# than silently importing whatever the TS file happens to declare.
+VALID_COPYRIGHT_STATUSES = frozenset(
+    {"public_domain", "likely_public_domain", "in_copyright", "undetermined"}
+)
+VALID_READING_STATUSES = frozenset({"want", "reading", "read"})
+
+
+def is_valid_asset_url(value: str) -> bool:
+    """True for a well-formed cover/photo URL.
+
+    Two acceptable shapes:
+      * Site-relative cached path — starts with "/" (e.g. "/cached/abc.jpg",
+        written by cache-photos.py, see #94).
+      * Absolute http(s) URL with a host — mirrors http_retry.is_fetchable_url
+        (rejects file:/ftp:/data: and other non-dereferenceable schemes) and
+        additionally requires a non-empty netloc so "http://" alone fails.
+
+    Empty strings and non-string values are rejected: the schema makes these
+    fields optional, so "no asset" must be expressed by omitting the key, never
+    by storing "".
+    """
+    if not isinstance(value, str) or not value:
+        return False
+    if value.startswith("/"):
+        return True
+    try:
+        host = urlsplit(value).netloc
+    except ValueError:
+        return False
+    return is_fetchable_url(value) and bool(host)
 
 # Reuse the pipeline's author-splitting logic rather than duplicating it, so the
 # book_count invariant tracks generate-author-stubs.py exactly. Module name has
@@ -201,6 +239,61 @@ class TestBookIntegrity:
                 bad.append(f"{Path(f).name}: {desc[:80]}")
         assert len(bad) == 0, f"Non-English descriptions:\n" + "\n".join(bad[:10])
 
+    def test_language_is_english(self):
+        """Every book must declare language 'eng' (CLAUDE.md hard rule).
+
+        When the field is present it must be exactly "eng"; the collection is
+        English-only by policy. A book carrying e.g. "fre"/"spa" is a data bug.
+        """
+        bad = []
+        for f, b in load_all_books():
+            lang = b.get("language")
+            if lang is not None and lang != "eng":
+                bad.append(f"{Path(f).name}: language={lang!r}")
+        assert not bad, "Non-English language values:\n" + "\n".join(bad[:10])
+
+    def test_valid_copyright_status(self):
+        """copyright_status, when present, is one of the 4 enum values.
+
+        Mirrors the z.enum in src/content.config.ts and the enum produced by
+        enrich-copyright.compute_copyright_status.
+        """
+        bad = []
+        for f, b in load_all_books():
+            status = b.get("copyright_status")
+            if status is not None and status not in VALID_COPYRIGHT_STATUSES:
+                bad.append(f"{Path(f).name}: copyright_status={status!r}")
+        assert not bad, "Invalid copyright_status values:\n" + "\n".join(bad[:10])
+
+    def test_valid_book_reading_status(self):
+        """reading_status on the book JSON, when present, is want/reading/read.
+
+        The CSV side is covered by TestCSVIntegrity.test_valid_reading_status;
+        this guards the value baked into the content files by
+        apply-reading-status.py.
+        """
+        bad = []
+        for f, b in load_all_books():
+            status = b.get("reading_status")
+            if status is not None and status not in VALID_READING_STATUSES:
+                bad.append(f"{Path(f).name}: reading_status={status!r}")
+        assert not bad, "Invalid book reading_status values:\n" + "\n".join(bad[:10])
+
+    def test_cover_urls_well_formed(self):
+        """cover_url / cover_url_large, when present, are well-formed.
+
+        Either a site-relative cached path (starts with "/") or an http(s) URL
+        with a host. Empty strings, bare schemes, and file:/ftp:/data: URLs are
+        rejected — see is_valid_asset_url.
+        """
+        bad = []
+        for f, b in load_all_books():
+            for key in ("cover_url", "cover_url_large"):
+                v = b.get(key)
+                if v is not None and not is_valid_asset_url(v):
+                    bad.append(f"{Path(f).name}: {key}={v!r}")
+        assert not bad, "Malformed cover URLs:\n" + "\n".join(bad[:10])
+
 
 class TestStatsIntegrity:
     def test_stats_has_required_keys(self):
@@ -251,6 +344,20 @@ class TestAuthorIntegrity:
             assert a.get("name"), f"{Path(f).name}: missing name"
             assert a.get("slug"), f"{Path(f).name}: missing slug"
             assert "book_count" in a, f"{Path(f).name}: missing book_count"
+
+    def test_photo_urls_well_formed(self):
+        """photo_url, when present, is a well-formed cached path or http(s) URL.
+
+        Same well-formedness contract as book cover URLs (is_valid_asset_url):
+        rejects empty strings and non-dereferenceable schemes (file:/ftp:/data:)
+        so a poisoned upstream value never lands in the content files.
+        """
+        bad = []
+        for f, a in load_all_authors():
+            v = a.get("photo_url")
+            if v is not None and not is_valid_asset_url(v):
+                bad.append(f"{Path(f).name}: photo_url={v!r}")
+        assert not bad, "Malformed author photo URLs:\n" + "\n".join(bad[:10])
 
     def test_book_count_matches_attribution(self):
         """Every author's book_count equals its attributable book count.
