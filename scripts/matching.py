@@ -39,9 +39,16 @@ def titles_match(query_title: str, result_title: str, threshold: float = 0.6) ->
 
     Returns True if either title contains the other, or if the
     word overlap ratio exceeds the given threshold.
+
+    An empty title never matches: `"" in anything` is always True, so
+    without this guard a result with a missing/blank title field would
+    pass the title gate and leave only the author check guarding against
+    a false enrichment link.
     """
-    a = query_title.lower()
-    b = result_title.lower()
+    a = query_title.lower().strip()
+    b = result_title.lower().strip()
+    if not a or not b:
+        return False
     return a in b or b in a or title_similarity(a, b) > threshold
 
 

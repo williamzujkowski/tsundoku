@@ -105,6 +105,15 @@ class TestTitlesMatch:
     def test_case_insensitive(self):
         assert titles_match("DRACULA", "dracula")
 
+    def test_empty_result_title_never_matches(self):
+        # "" in anything is True; an empty/blank result title must not
+        # pass the title gate (regression: #178).
+        assert not titles_match("Dune", "")
+        assert not titles_match("Dune", "   ")
+
+    def test_empty_query_title_never_matches(self):
+        assert not titles_match("", "Dune")
+
 
 class TestAuthorsMatch:
     def test_exact_last_name(self):
