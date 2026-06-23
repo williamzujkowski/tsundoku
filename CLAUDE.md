@@ -15,7 +15,7 @@ python3 scripts/run-all-enrichments.py           # Auto-scan all sources to comp
 python3 scripts/run-all-enrichments.py --status  # Show scan progress
 python3 scripts/enrich-gaps.py --report          # Show data gap report
 python3 scripts/enrich-copyright.py --report     # Show copyright distribution
-python3 scripts/enrich-categories.py --report    # Show category distribution
+python3 scripts/recategorize.py --report         # Show category distribution
 
 # Python tests
 cd scripts && python3 -m pytest -q
@@ -95,7 +95,7 @@ Safety: max 20 iterations, 10s inter-batch delays. State persisted in `data/enri
 After enrichment scans, always run:
 ```bash
 python3 scripts/enrich-copyright.py --apply    # Recompute copyright status
-python3 scripts/enrich-categories.py           # Check for category suggestions
+python3 scripts/recategorize.py                # Check for category suggestions
 python3 scripts/generate-stats.py              # Update stats
 python3 scripts/generate-search-index.py       # Update search index
 ```
@@ -155,7 +155,6 @@ Computed from existing metadata (no API calls):
 | **Additive JSON merge** | `scripts/json_merge.py` (never overwrites non-empty fields — see #90) |
 | **HTTP response cache** | `scripts/http_cache.py` + `data/http-cache.sqlite` (gitignored — see #91) |
 | **Photo / cover cache** | `scripts/cache-photos.py` + `public/cached/` (gitignored — see #94) |
-| **HTTP response cache** | `scripts/http_cache.py` + `data/http-cache.sqlite` (gitignored — see #91) |
 | **Enrichment runner** | `scripts/run-all-enrichments.py` |
 | **Data integrity tests** | `scripts/test_data_integrity.py` |
 | **CI workflow** | `.github/workflows/deploy.yml` |
@@ -181,7 +180,7 @@ cat data/enrichment-errors.jsonl | python3 -m json.tool
 ## Build Pipeline
 
 ```
-apply-reading-status.py → generate-author-stubs.py → generate-stats.py → generate-search-index.py → astro build
+apply-reading-status.py → generate-author-stubs.py → generate-stats.py → generate-search-index.py → generate-browse-data.py → astro build
 ```
 
 ## CI/CD

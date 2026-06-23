@@ -34,9 +34,12 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | Script | Purpose |
 |---|---|
 | `apply-reading-status.py` | Merges `data/reading-status.csv` into book JSON files |
-| `generate-author-stubs.py` | Creates minimal author pages for any author without one |
+| `generate-author-stubs.py` | Creates minimal author pages for any author without one; refreshes `book_count` on every existing record (#179) |
 | `generate-stats.py` | Generates `src/data/stats.json` with collection statistics |
 | `generate-search-index.py` | Generates `public/search-index.json` for client-side search |
+| `generate-browse-data.py` | Generates the browse-page data fetched on hydrate (#99) |
+
+`build-world-map-svg.py` is a standalone asset generator (run manually, not part of `prebuild`): it regenerates `src/data/world-map.svg`, which `src/pages/stats.astro` renders.
 
 ## Data Import (one-time use)
 
@@ -69,15 +72,22 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 
 ## Tests
 
+All `scripts/test_*.py` are auto-discovered by `pytest` (CI runs `cd scripts && python3 -m pytest -q`). Run the full suite before committing pipeline changes. Highlights:
+
 | File | Tests |
 |---|---|
-| `test_matching.py` | 27 tests for title similarity, slug generation, author matching |
-| `test_enrichment.py` | 8 tests for state tracking, config validation |
-| `test_json_merge.py` | 18 tests for additive merge invariants |
-| `test_http_cache.py` | 12 tests for hit/miss/expire/negative-cache/persistence |
-| `test_validate_photo_urls.py` | 7 tests for HEAD-probe classification + apply mode |
-| `test_cache_photos.py` | 19 tests for content-type → ext, idempotency, JSON rewrite |
-| `test_author_sources.py` | 20 tests for Open Library author page + Wikidata + name variants |
+| `test_matching.py` | title similarity, slug generation, author matching (incl. empty-title guard) |
+| `test_enrichment.py` | state tracking, config validation |
+| `test_json_merge.py` | additive merge invariants |
+| `test_http_cache.py` | hit/miss/expire/negative-cache/persistence |
+| `test_http_retry.py` | backoff, Retry-After parsing, http(s)-only scheme allowlist |
+| `test_validate_photo_urls.py` | HEAD-probe classification + apply mode |
+| `test_cache_photos.py` | content-type → ext, idempotency, JSON rewrite |
+| `test_author_sources.py` | Open Library author page + Wikidata + name variants |
+| `test_enrich_copyright.py` | copyright-status rule precedence (platform > HathiTrust > year) |
+| `test_data_integrity.py` | content invariants (slugs, required fields, author book_count, ...) |
+
+…plus `test_book_sources`, `test_edition_date`, `test_parallel_fetch`, `test_wikidata`, `test_dedupe_books`, `test_enrich_ol_firstedition`, `test_enrich_wikipedia_books`, `test_merge_google_library`, `test_recategorize_classification`.
 
 ## Usage
 

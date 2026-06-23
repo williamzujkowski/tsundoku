@@ -30,6 +30,8 @@ def generate_stats() -> dict:
 
     # Basic counts
     total = len(books)
+    # Guard every percentage below against an empty corpus.
+    pct_base = total or 1
     categories = Counter(b["category"] for b in books)
     authors = Counter(b["author"] for b in books)
     priorities = Counter(b["priority"] for b in books)
@@ -141,13 +143,13 @@ def generate_stats() -> dict:
         },
         "enrichment": {
             "covers": has_cover,
-            "covers_pct": round(100 * has_cover / total, 1),
+            "covers_pct": round(100 * has_cover / pct_base, 1),
             "descriptions": has_desc,
-            "descriptions_pct": round(100 * has_desc / total, 1),
+            "descriptions_pct": round(100 * has_desc / pct_base, 1),
             "isbns": has_isbn,
-            "isbns_pct": round(100 * has_isbn / total, 1),
+            "isbns_pct": round(100 * has_isbn / pct_base, 1),
             "pages": has_pages,
-            "pages_pct": round(100 * has_pages / total, 1),
+            "pages_pct": round(100 * has_pages / pct_base, 1),
             "years": has_year,
             "subject_facet": has_subject_facet,
             "ddc": has_ddc,
