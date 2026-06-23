@@ -389,6 +389,92 @@ class TestAuthorIntegrity:
             + "\n".join(mismatches[:15])
         )
 
+    def test_no_orphan_author_pages(self):
+        """No author record may have zero attributable books unless it is an
+        allowed special case (issue #181).
+
+        `test_every_book_author_has_page` guards books→authors; this guards the
+        reverse. A record whose `name` is attributed by ZERO books is a dead
+        page (regenerable stub) UNLESS it is one of:
+
+          1. A **joint alias** — its name splits into 2+ components that each
+             have their own author record (e.g. "Marx & Engels"). The component
+             pages carry the books; the alias exists for URL back-compat. Reuses
+             the pipeline's split_authors() rather than re-implementing it, so it
+             tracks generate-author-stubs.py exactly.
+          2. An **organizational** byline (committee / corporate / editorial),
+             mirroring isOrganizationalAuthorName() in src/utils/formatting.ts.
+             These long institutional bylines don't decompose to a person.
+          3. A name on KNOWN_SPLIT_GAP — a genuine author whose 0-count is a
+             *known limitation* of the byline splitter, not a dead page. The
+             splitter can't cleanly decompose mixed "A, B, and C" / slash bylines
+             (e.g. the Federalist Papers' "Alexander Hamilton, James Madison, and
+             John Jay" splits to ["Alexander Hamilton, James Madison,", "John
+             Jay"]), so the standalone person pages — which are real, with bios
+             and photos — get no attribution. Deleting them would HIDE the
+             attribution gap, so we keep them and document the gap here.
+             TODO(#181): improve split_authors() to handle mixed comma/`and`
+             bylines, then these should attribute correctly and drop off this list.
+        """
+        # Organizational-name pattern — keep in sync with
+        # isOrganizationalAuthorName() / ORG_NAME_PATTERN in formatting.ts.
+        ORG_NAME_PATTERN = re.compile(
+            r"(\bInc\.?\b|\bLLC\b|\bLtd\.?\b|\bCorp\.?\b|\bStaff\b|\bCommittee\b"
+            r"|\bCommission\b|\bEditors?\b|\bCouncil\b|\bSociety\b|\bAssociation\b"
+            r"|\bFoundation\b|\bInstitute\b|\bBoard\b|^Various\b|\(Various\))",
+            re.IGNORECASE,
+        )
+
+        # Real authors whose 0-count is a known byline-splitter limitation, not a
+        # dead page. See the docstring + PR for #181. Each appears only inside a
+        # long mixed "A, B, and C ... / Org" byline the splitter can't decompose.
+        KNOWN_SPLIT_GAP = {
+            # Federalist Papers — "Alexander Hamilton, James Madison, and John Jay"
+            "Alexander Hamilton",
+            "James Madison",
+            # Cookbook byline — "Robin Asbell, Susie Middleton, Karen Morgan,
+            # Joseph Shuldiner, Melissa's / World Variety Produce, Inc."
+            "Robin Asbell",
+            "Susie Middleton",
+            "Karen Morgan",
+            "Joseph Shuldiner",
+            "World Variety Produce",  # loses its "Inc." suffix during the split
+        }
+
+        # Attribution counts, computed exactly as the generator does.
+        counts = Counter()
+        for _, b in load_all_books():
+            author_str = b["author"]
+            names = {author_str, *_author_stubs.split_authors(author_str)}
+            for n in names:
+                counts[n] += 1
+
+        known_names = {a["name"] for _, a in load_all_authors()}
+
+        def is_joint_alias(name: str) -> bool:
+            parts = _author_stubs.split_authors(name)
+            return len(parts) >= 2 and all(p in known_names for p in parts)
+
+        orphans = []
+        for f, a in load_all_authors():
+            name = a["name"]
+            if counts.get(name, 0) != 0:
+                continue
+            if is_joint_alias(name):
+                continue
+            if ORG_NAME_PATTERN.search(name):
+                continue
+            if name in KNOWN_SPLIT_GAP:
+                continue
+            orphans.append(f"{Path(f).name}: '{name}' (book_count={a.get('book_count')})")
+
+        assert not orphans, (
+            "Orphan author page(s) — author records attributable to zero books "
+            "that are not joint aliases, organizational, or known split-gaps. "
+            "Delete the dead stub or fix the attribution mismatch (see #181):\n"
+            + "\n".join(orphans[:20])
+        )
+
 
 class TestCSVIntegrity:
     def test_csv_entries_match_books(self):
