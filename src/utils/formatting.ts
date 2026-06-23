@@ -143,6 +143,52 @@ export function isJointAlias(name: string, knownAuthorNames: Set<string>): boole
 }
 
 /**
+ * Organizational / non-person name patterns. These are corporate, editorial,
+ * or committee bylines rather than individual authors:
+ *   "BookCaps Study Guides Staff", "World Variety Produce, Inc.",
+ *   "Commission on Geosciences", "Committee on Grand Canyon Monitoring",
+ *   "Ohio State Board of Commerce", "Various (Arabic ...)".
+ * Anchored on whole-word boundaries to avoid catching surnames (e.g. a person
+ * named "Board" is unlikely; "Inc"/"Staff"/"Committee" never appear as a real
+ * given/family name in this catalog).
+ */
+const ORG_NAME_PATTERN =
+  /(\bInc\.?\b|\bLLC\b|\bLtd\.?\b|\bCorp\.?\b|\bStaff\b|\bCommittee\b|\bCommission\b|\bEditors?\b|\bCouncil\b|\bSociety\b|\bAssociation\b|\bFoundation\b|\bInstitute\b|\bBoard\b|^Various\b|\(Various\))/i;
+
+/**
+ * True when an author NAME looks organizational / non-person (committee,
+ * corporate byline, editorial staff, "Various ..."), rather than an individual.
+ */
+export function isOrganizationalAuthorName(name: string): boolean {
+  return ORG_NAME_PATTERN.test(name);
+}
+
+/**
+ * A "suppressed author stub" is an intentionally-empty, non-person record that
+ * adds noise to the author index without offering any real content. We hide it
+ * from the letter index and the index counts (see #112, path A) — but ONLY when
+ * it is BOTH content-empty (no bio AND no photo) AND matches an
+ * organizational / joint-alias pattern.
+ *
+ * A plain person who merely lacks a bio/photo is NOT suppressed: those records
+ * still link out (e.g. to Open Library) and represent real authors.
+ *
+ * `knownAuthorNames` is the set of author-record names, used to confirm a
+ * joint-string byline's components have their own pages.
+ */
+export function isSuppressedAuthorStub(
+  author: { name: string; bio?: string; photo_url?: string },
+  knownAuthorNames: Set<string>,
+): boolean {
+  const hasBio = !!(author.bio && author.bio.trim());
+  const hasPhoto = !!(author.photo_url && author.photo_url.trim());
+  if (hasBio || hasPhoto) return false; // real content → always keep
+  if (isOrganizationalAuthorName(author.name)) return true;
+  if (isJointAlias(author.name, knownAuthorNames)) return true;
+  return false;
+}
+
+/**
  * ISO 639-3 language code → human-readable English name.
  * We only enumerate languages that actually appear in the catalog;
  * unknown codes pass through uppercased so the UI is never blank.

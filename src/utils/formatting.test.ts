@@ -12,6 +12,8 @@ import {
   parseAuthors,
   authorMatches,
   isJointAlias,
+  isOrganizationalAuthorName,
+  isSuppressedAuthorStub,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -298,5 +300,75 @@ describe('isJointAlias', () => {
 
   it('false when not a joint name', () => {
     expect(isJointAlias('A.A. Milne', new Set(['A.A. Milne']))).toBe(false);
+  });
+});
+
+describe('isOrganizationalAuthorName', () => {
+  it('matches corporate / committee / staff bylines', () => {
+    expect(isOrganizationalAuthorName('BookCaps Study Guides Staff')).toBe(true);
+    expect(isOrganizationalAuthorName('World Variety Produce, Inc.')).toBe(true);
+    expect(isOrganizationalAuthorName('Commission on Geosciences')).toBe(true);
+    expect(isOrganizationalAuthorName('Committee on Grand Canyon Monitoring')).toBe(true);
+    expect(isOrganizationalAuthorName('Ohio State Board of Commerce')).toBe(true);
+    expect(isOrganizationalAuthorName('Various (Arabic Sources)')).toBe(true);
+  });
+
+  it('does not match ordinary personal names', () => {
+    expect(isOrganizationalAuthorName('Plato')).toBe(false);
+    expect(isOrganizationalAuthorName('Erich Gamma')).toBe(false);
+    expect(isOrganizationalAuthorName('F.W. Hume')).toBe(false);
+    expect(isOrganizationalAuthorName('Ursula K. Le Guin')).toBe(false);
+  });
+});
+
+describe('isSuppressedAuthorStub', () => {
+  const known = new Set<string>();
+
+  it('suppresses an organizational record with no bio and no photo', () => {
+    expect(
+      isSuppressedAuthorStub({ name: 'Commission on Geosciences' }, known),
+    ).toBe(true);
+  });
+
+  it('suppresses a joint-string alias whose components have records', () => {
+    const componentSet = new Set(['Alex Matrosov', 'Eugene Rodionov', 'Sergey Bratus']);
+    expect(
+      isSuppressedAuthorStub(
+        { name: 'Alex Matrosov, Eugene Rodionov, Sergey Bratus' },
+        componentSet,
+      ),
+    ).toBe(true);
+  });
+
+  it('does NOT suppress a plain person missing both bio and photo', () => {
+    expect(isSuppressedAuthorStub({ name: 'F.W. Hume' }, known)).toBe(false);
+    expect(isSuppressedAuthorStub({ name: 'Goldie Lieberman' }, known)).toBe(false);
+  });
+
+  it('does NOT suppress a normal author who has a bio', () => {
+    expect(
+      isSuppressedAuthorStub(
+        { name: 'Commission on Geosciences', bio: 'A real bio here.' },
+        known,
+      ),
+    ).toBe(false);
+  });
+
+  it('does NOT suppress an organizational name that has a photo', () => {
+    expect(
+      isSuppressedAuthorStub(
+        { name: 'World Variety Produce, Inc.', photo_url: '/cached/x.jpg' },
+        known,
+      ),
+    ).toBe(false);
+  });
+
+  it('treats whitespace-only bio/photo as empty', () => {
+    expect(
+      isSuppressedAuthorStub(
+        { name: 'BookCaps Study Guides Staff', bio: '   ', photo_url: '' },
+        known,
+      ),
+    ).toBe(true);
   });
 });

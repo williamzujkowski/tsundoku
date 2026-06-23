@@ -1,17 +1,18 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { toSlug, isJointAlias } from '../../utils/formatting';
+import { toSlug, isSuppressedAuthorStub } from '../../utils/formatting';
 
 const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');
 const base = import.meta.env.BASE_URL;
 
-const enrichedMap = new Map<string, { slug: string; photo_url?: string }>();
+const enrichedMap = new Map<string, { slug: string; photo_url?: string; bio?: string }>();
 for (const a of enrichedAuthors) {
   enrichedMap.set(a.data.name, {
     slug: a.data.slug,
     photo_url: a.data.photo_url,
+    bio: a.data.bio,
   });
 }
 
@@ -21,12 +22,19 @@ for (const book of books) {
   authorMap.set(author, (authorMap.get(author) ?? 0) + 1);
 }
 
-// Hide joint-name aliases (e.g. "Robert Jordan & Brandon Sanderson") from
-// listings — each component has its own record per the splitting in #108.
+// Suppress intentionally-empty, non-person stubs (joint-name aliases and
+// organizational records with no bio AND no photo) from listings and counts —
+// see #112. Legitimate authors merely lacking a bio/photo stay visible.
 const knownAuthorNames = new Set(enrichedAuthors.map(a => a.data.name));
 
 const allAuthors = [...authorMap.entries()]
-  .filter(([name]) => !isJointAlias(name, knownAuthorNames))
+  .filter(([name]) => {
+    const enriched = enrichedMap.get(name);
+    return !isSuppressedAuthorStub(
+      { name, bio: enriched?.bio, photo_url: enriched?.photo_url },
+      knownAuthorNames,
+    );
+  })
   .map(([name, count]) => {
     const enriched = enrichedMap.get(name);
     return {
