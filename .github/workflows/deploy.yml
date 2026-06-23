@@ -51,9 +51,11 @@ jobs:
 
   build:
     needs: quality
-    # Build + deploy only run on push to main (and manual dispatch); PRs
-    # gate at the quality job and stop there.
-    if: github.event_name != 'pull_request'
+    # Runs on PRs too, so a build/bundler break (e.g. a dependency bump that
+    # changes the bundler) is caught before merge — `astro check` does not
+    # exercise the bundler. On PRs the slow photo-download + cache-save +
+    # artifact-upload steps are skipped (see per-step conditions); only the
+    # actual `astro build` runs. The deploy job stays push-only. See #189.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v6
@@ -87,6 +89,9 @@ jobs:
       # towards convergence rather than getting stuck on the alphabetically-
       # early entries.
       - name: Download missing photos (chunked)
+        # Skip on PRs — we only need to validate that the site *compiles*,
+        # not populate covers. Keeps the PR build fast (~1-2 min).
+        if: github.event_name != 'pull_request'
         run: python3 scripts/cache-photos.py --limit 1000
         timeout-minutes: 10
         # cache-photos.py is fault-tolerant — failures leave upstream URLs in
@@ -101,12 +106,13 @@ jobs:
       # cache miss for the exact key.
       - name: Save photo cache
         uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae  # v5
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         with:
           path: public/cached
           key: photo-cache-v1-${{ github.run_id }}
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:
           path: dist/
