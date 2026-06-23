@@ -1016,6 +1016,26 @@ a:hover { color: var(--pop-pink); }
 .series-nav-label { font-size: 0.7rem; color: var(--text-dim); letter-spacing: 0.02em; text-transform: uppercase; }
 .series-nav-title { font-size: 0.95rem; font-weight: 600; line-height: 1.2; }
 
+/* Adaptations list (#184) — curated film/TV/stage works derived from a book */
+.adaptation-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+.adaptation-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: var(--border-width) solid var(--border);
+  background: var(--bg-surface);
+}
+.adaptation-title { font-weight: 600; }
+
 /* Book detail page layout */
 .book-detail-layout {
   display: flex; flex-wrap: wrap; gap: 1.5rem;
