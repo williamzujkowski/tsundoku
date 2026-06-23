@@ -13,6 +13,7 @@ BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 DATA_DIR = Path(__file__).parent.parent / "data"
 ERROR_LOG = DATA_DIR / "enrichment-errors.jsonl"
+DEADLETTER_LOG = DATA_DIR / "enrichment-deadletter.jsonl"
 
 # HTTP
 USER_AGENT = "Tsundoku/1.0 (https://github.com/williamzujkowski/tsundoku)"
