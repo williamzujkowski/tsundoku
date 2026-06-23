@@ -1173,4 +1173,13 @@ body::before {
     animation-duration: 0.01ms !important;
     animation-delay: 0ms !important;
   }
+
+  /* Astro view transitions animate on the ::view-transition-* pseudo tree,
+     which the universal selector above does NOT match. Disable the
+     cross-fade/slide and named cover/author morphs explicitly. See #202. */
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }

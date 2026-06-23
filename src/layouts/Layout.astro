@@ -15,6 +15,11 @@ interface Props {
 const { title, description = `${stats.total_books.toLocaleString()} books cataloged, ${Math.round(100 * stats.reading_progress.read / stats.total_books)}% actually read — the rest are aspirational`, image } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
+// og:image / twitter:image must be absolute URLs. Cover/photo values are
+// root-relative cached paths (e.g. /tsundoku/cached/covers/x.jpg); resolve
+// them against the site origin. Already-absolute upstream URLs pass through
+// unchanged. See #201.
+const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image || undefined);
 ---
 
 <!doctype html>
@@ -27,8 +32,11 @@ const siteUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : '';
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     {siteUrl && <meta property="og:url" content={siteUrl} />}
-    {image && <meta property="og:image" content={image} />}
-    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
+    <meta name="twitter:title" content={`${title} — Tsundoku`} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
     {siteUrl && <link rel="canonical" href={siteUrl} />}
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
 
