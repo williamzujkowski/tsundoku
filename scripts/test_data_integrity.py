@@ -9,6 +9,7 @@ import json
 import csv
 import glob
 import re
+import importlib.util
 from pathlib import Path
 from collections import Counter
 
@@ -17,6 +18,15 @@ import pytest
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 CSV_PATH = Path(__file__).parent.parent / "data" / "reading-status.csv"
+
+# Reuse the pipeline's author-splitting logic rather than duplicating it, so the
+# book_count invariant tracks generate-author-stubs.py exactly. Module name has
+# a hyphen, so import via spec.
+_stub_spec = importlib.util.spec_from_file_location(
+    "generate_author_stubs", Path(__file__).parent / "generate-author-stubs.py"
+)
+_author_stubs = importlib.util.module_from_spec(_stub_spec)
+_stub_spec.loader.exec_module(_author_stubs)
 
 REQUIRED_BOOK_FIELDS = ["title", "author", "category", "priority", "slug", "language"]
 
@@ -241,6 +251,36 @@ class TestAuthorIntegrity:
             assert a.get("name"), f"{Path(f).name}: missing name"
             assert a.get("slug"), f"{Path(f).name}: missing slug"
             assert "book_count" in a, f"{Path(f).name}: missing book_count"
+
+    def test_book_count_matches_attribution(self):
+        """Every author's book_count equals its attributable book count.
+
+        Regression guard for issue #179: generate-author-stubs.py only created
+        missing stubs and never refreshed book_count on existing records, so
+        counts went stale as books were added/removed. The generator now
+        authoritatively rewrites book_count on every run; this invariant keeps
+        the content files honest. Attribution mirrors the generator: each book
+        counts toward its full author string AND each split component name.
+        """
+        # Freshly compute attributable counts, exactly as the generator does.
+        counts = Counter()
+        for _, b in load_all_books():
+            author_str = b["author"]
+            names = {author_str, *_author_stubs.split_authors(author_str)}
+            for n in names:
+                counts[n] += 1
+
+        mismatches = []
+        for f, a in load_all_authors():
+            expected = counts.get(a["name"], 0)
+            if a.get("book_count") != expected:
+                mismatches.append(
+                    f"{Path(f).name}: book_count={a.get('book_count')} != {expected}"
+                )
+        assert not mismatches, (
+            "Stale author book_count(s) — re-run generate-author-stubs.py:\n"
+            + "\n".join(mismatches[:15])
+        )
 
 
 class TestCSVIntegrity:
