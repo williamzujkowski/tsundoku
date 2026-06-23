@@ -87,8 +87,10 @@ python3 scripts/run-all-enrichments.py           # Scan all sources until comple
 python3 scripts/run-all-enrichments.py --status   # Show scan positions
 ```
 
-The runner loops subjects → gutenberg → librivox → hathitrust in batches of 500.
+The runner loops subjects → gutenberg → librivox → hathitrust → wikipedia_books → descriptions in batches of 500.
 Safety: max 20 iterations, 10s inter-batch delays. State persisted in `data/enrichment-state.json` (gitignored).
+
+**Description filling:** `enrich-descriptions.py` (source `descriptions`) is the canonical multi-strategy description path (OL work → OL editions → Google Books → OL first_sentence → Gutenberg full-text). It runs after `enrich-wikipedia-books.py`, which stays in the loop because it uniquely also supplies a missing `cover_url`. Additive JSON merge means the two never overwrite each other.
 
 ### Post-enrichment
 

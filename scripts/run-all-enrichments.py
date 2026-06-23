@@ -47,7 +47,21 @@ ENRICHMENT_SOURCES = {
     "wikipedia_books": {
         "script": "enrich-wikipedia-books.py",
         "args": [],
-        "description": "Wikipedia descriptions for books missing them",
+        # Wikipedia is a narrow first pass: it uniquely also supplies a
+        # cover_url when one is missing. enrich-descriptions.py (below) is
+        # the canonical multi-strategy description filler that runs after
+        # it; the additive JSON merge means the two never overwrite each
+        # other — Wikipedia just gets first crack at the easy hits.
+        "description": "Wikipedia descriptions (+ covers) for books missing them",
+    },
+    "descriptions": {
+        "script": "enrich-descriptions.py",
+        "args": [],
+        # Canonical description path (issue #184): consolidated 5-strategy
+        # fallback (OL work → OL editions → Google Books → OL first_sentence
+        # → Gutenberg full-text). Runs last so it only touches descriptions
+        # still missing after every other source.
+        "description": "Consolidated 5-strategy description fallback",
     },
 }
 
