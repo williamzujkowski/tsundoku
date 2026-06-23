@@ -50,6 +50,20 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `dedupe-books.py` | Find and merge duplicate books (article/edition variants) |
 | `update-readme-stats.py` | Inject current stats from stats.json into README.md |
 
+## Completed migrations (spent — do not re-run blindly)
+
+These ran once; their effects are already baked into the content. They have
+zero inbound references and are kept for reference only. Several embed
+hand-curated tables or heuristics — re-running without a fresh audit can
+corrupt data. Treat as historical.
+
+| Script | What it did |
+|---|---|
+| `dedupe-authors-by-diacritic.py` | One-time merge of 5 near-duplicate author pairs differing only by diacritics |
+| `fix-ancient-work-years.py` | Hand-audited `first_published` years for ancient works (uses a hardcoded table) |
+| `fix-non-english-descriptions.py` | One-time cleanup of ~17 non-English descriptions |
+| `derive-classification.py` | One-time DDC/LCC classification backfill (tagged with `derived_v1` provenance) |
+
 ## Shared Modules
 
 | Module | Purpose |

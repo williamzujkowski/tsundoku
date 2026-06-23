@@ -14,7 +14,6 @@ year by parsing each edition's `publish_date`, and writes:
                               the work's original language
   • original_language       — ISO 639-3 of the earliest non-translation edition
   • original_publisher      — publishers[0] of that edition
-  • original_pages          — number_of_pages of that edition (if known)
   • first_edition_isbn      — ISBN-13 of that edition; explicit `null` for
                               works whose first edition pre-dates ISBNs
                               (we mark this when first_published < 1970)
@@ -65,8 +64,8 @@ ISBN_INTRODUCTION_YEAR = 1970  # before this, first_edition_isbn is null
 # Quality gate: when many editions claim the first-publication year, OL
 # tagging has been smeared across reprints (e.g. Signet paperbacks dated
 # 1949 alongside the actual 1949 Secker & Warburg first). Only derive
-# original_publisher / original_pages / original_title / original_language
-# when the matching set is small enough to be trustworthy.
+# original_publisher / original_title / original_language when the
+# matching set is small enough to be trustworthy.
 MAX_MATCHING_FOR_TRUST = 3
 
 SOURCE = "ol_firstedition_v1"
@@ -314,9 +313,9 @@ def derive_fields(work_editions: list[dict], book: dict) -> dict:
         out["first_published"] = target_year
 
     # Conservative: OL editions are too noisy to derive original_publisher
-    # and original_pages reliably (mis-dated reprints corrupt the picked
-    # first-edition record for famous works). Phase B (Wikidata) is the
-    # canonical source for those — Wikidata has structured P123/P1104.
+    # reliably (mis-dated reprints corrupt the picked first-edition record
+    # for famous works). Phase B (Wikidata) is the canonical source —
+    # Wikidata has structured P123.
     #
     # We DO derive:
     #   * first_published_circa from picked first edition
