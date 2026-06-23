@@ -26,8 +26,8 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `enrich-gaps.py` | Open Library + Google Books | Multi-source gap filler — fills missing fields with fallback |
 | `enrich-copyright.py` | Internal (metadata) | Computes copyright_status from existing fields (no API calls) |
 | `enrich-tags.py` | Internal (subjects) | Maps Open Library subjects to normalized genre tags (35 genres) |
-| `enrich-wikipedia-books.py` | Wikipedia | Descriptions + covers for books missing them |
-| `enrich-descriptions.py` | OL works + editions, Google Books, Gutenberg | Consolidated five-strategy fallback for missing descriptions |
+| `enrich-wikipedia-books.py` | Wikipedia | Narrow first description pass; uniquely also fills a missing cover_url. Runs in `run-all` before `enrich-descriptions.py` |
+| `enrich-descriptions.py` | OL works + editions, Google Books, OL first_sentence, Gutenberg | **Canonical description path** (#184) — consolidated five-strategy fallback, wired into `run-all-enrichments.py` as the last description pass |
 
 ## Build Pipeline (run automatically by `npm run build`)
 
@@ -113,7 +113,7 @@ python3 scripts/run-all-enrichments.py
 python3 scripts/run-all-enrichments.py --status
 
 # The runner automatically executes this full pipeline:
-# Phase 1 (API): subjects → gutenberg → librivox → hathitrust
+# Phase 1 (API): subjects → gutenberg → librivox → hathitrust → wikipedia_books → descriptions
 # Phase 2 (post): tags → copyright → categories → dedupe → stubs → stats → index
 ```
 
