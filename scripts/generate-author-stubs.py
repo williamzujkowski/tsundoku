@@ -25,9 +25,37 @@ from pathlib import Path
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
 
-# Mirror src/utils/formatting.ts — keep in sync.
+# Mirror src/utils/formatting.ts parseAuthors() — keep in sync.
+# Strong separators always indicate joint authorship — split unconditionally.
 STRONG_SEPARATORS = re.compile(r"\s*(?:&| and | with |/)\s*", re.IGNORECASE)
 COMMA_SEPARATOR = re.compile(r"\s*,\s*")
+# A comma immediately followed by a corporate suffix belongs to an organization
+# name ("World Variety Produce, Inc."), not an author separator. Mask it with a
+# sentinel (\x00, never present in real names) before splitting so the comma
+# splitter ignores it, then restore.
+_COMMA_SENTINEL = "\x00"
+ORG_SUFFIX_COMMA = re.compile(
+    r",(\s*(?:Inc|LLC|Ltd|Corp|Co|GmbH|PLC|LP|LLP)\.?\b)", re.IGNORECASE
+)
+# Organizational / non-person byline pattern — keep in sync with
+# isOrganizationalAuthorName() / ORG_NAME_PATTERN in src/utils/formatting.ts.
+# An institutional byline (committee/council/"Various ...") does not decompose
+# into people, so it is treated as a single indivisible entity (see #198: the
+# "National Research Council, Division ... and ... Committee ..." byline must NOT
+# split on the `and`s buried inside its division names).
+ORG_NAME_PATTERN = re.compile(
+    r"(\bInc\.?\b|\bLLC\b|\bLtd\.?\b|\bCorp\.?\b|\bStaff\b|\bCommittee\b"
+    r"|\bCommission\b|\bEditors?\b|\bCouncil\b|\bSociety\b|\bAssociation\b"
+    r"|\bFoundation\b|\bInstitute\b|\bBoard\b|^Various\b|\(Various\))",
+    re.IGNORECASE,
+)
+# Parenthetical groups, e.g. "(Arabic/Persian)" — separators inside them are part
+# of the name, never author boundaries.
+_PARENS = re.compile(r"\([^)]*\)")
+# Lowercase connector words appear in org division names ("Division on Earth and
+# Life Studies", "Environment and Resources") but never inside a person's name —
+# used to tell a person from an institutional sub-unit.
+_CONNECTORS = {"on", "of", "the", "and", "for", "in", "de", "la"}
 
 
 def to_slug(text: str) -> str:
@@ -35,15 +63,68 @@ def to_slug(text: str) -> str:
     return re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", text.lower()))
 
 
+def _looks_like_person(part: str) -> bool:
+    """Heuristic: a comma-part that reads as a personal name (not an org unit)."""
+    toks = part.split()
+    if not (2 <= len(toks) <= 4):
+        return False
+    if ORG_NAME_PATTERN.search(part):
+        return False
+    return not any(t.lower() in _CONNECTORS for t in toks)
+
+
+def _is_indivisible_org(name: str) -> bool:
+    """True for an organizational byline that should NOT be split into people.
+
+    Three signals must all hold (#198):
+      * the byline matches the organizational pattern;
+      * it has no slash OUTSIDE parentheses — a slash is a deliberate contributor
+        separator (the cookbook byline "... / World Variety Produce, Inc."), and
+        a slash inside parens ("Various (Arabic/Persian)") is part of the name;
+      * fewer than 2 comma-parts look like personal names — so a byline that is an
+        org PREFIX followed by real people ("Calm Publications Staff, Kevin Crane,
+        Carolyn Thomson, Peter Dans") still splits, while a pure institutional
+        byline ("National Research Council, Division ... and ... Committee ...")
+        stays one entity.
+    """
+    if not ORG_NAME_PATTERN.search(name):
+        return False
+    if "/" in _PARENS.sub("", name):
+        return False
+    parts = [p.strip() for p in COMMA_SEPARATOR.split(name) if p.strip()]
+    person_like = sum(1 for p in parts if _looks_like_person(p))
+    return person_like < 2
+
+
+def _comma_sub_split(segment: str) -> list[str]:
+    """Comma-sub-split one strong segment, honoring the 2-token + org guards."""
+    masked = ORG_SUFFIX_COMMA.sub(_COMMA_SENTINEL + r"\1", segment)
+    raw = [
+        p.replace(_COMMA_SENTINEL, ",").strip()
+        for p in COMMA_SEPARATOR.split(masked)
+        if p.replace(_COMMA_SENTINEL, ",").strip()
+    ]
+    multi_token = [p for p in raw if len(p.split()) >= 2]
+    # Only treat commas as author separators when there's clear evidence of a
+    # "First Last, First Last" list: 2+ sub-parts carry 2+ tokens. Otherwise the
+    # commas belong to a single name (catalog notation, org suffix, initials).
+    return raw if len(multi_token) >= 2 else [segment.strip()]
+
+
 def split_authors(name: str) -> list[str]:
-    """Split a multi-author byline into component names. Returns [name] if not joint."""
+    """Split a multi-author byline into component names. Returns [name] if not joint.
+
+    Two-phase: split on STRONG separators (kept unconditionally), then
+    comma-sub-split each segment when 2+ sub-parts have 2+ tokens. Handles mixed
+    "A, B, and C" / "A, B / Org, Inc." bylines (#198). Mirrors parseAuthors().
+    """
+    if _is_indivisible_org(name):
+        return [name]
     strong = [p.strip() for p in STRONG_SEPARATORS.split(name) if p.strip()]
-    if len(strong) >= 2:
-        return strong
-    # Comma is ambiguous; only split when each part has 2+ tokens.
-    comma = [p.strip() for p in COMMA_SEPARATOR.split(name) if p.strip() and len(p.split()) >= 2]
-    if len(comma) >= 2:
-        return comma
+    segments = strong if len(strong) >= 2 else [name]
+    parts = [p for seg in segments for p in _comma_sub_split(seg)]
+    if len(parts) >= 2:
+        return parts
     return [name]
 
 

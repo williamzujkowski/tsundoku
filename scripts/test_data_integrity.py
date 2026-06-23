@@ -405,16 +405,15 @@ class TestAuthorIntegrity:
           2. An **organizational** byline (committee / corporate / editorial),
              mirroring isOrganizationalAuthorName() in src/utils/formatting.ts.
              These long institutional bylines don't decompose to a person.
-          3. A name on KNOWN_SPLIT_GAP — a genuine author whose 0-count is a
-             *known limitation* of the byline splitter, not a dead page. The
-             splitter can't cleanly decompose mixed "A, B, and C" / slash bylines
-             (e.g. the Federalist Papers' "Alexander Hamilton, James Madison, and
-             John Jay" splits to ["Alexander Hamilton, James Madison,", "John
-             Jay"]), so the standalone person pages — which are real, with bios
-             and photos — get no attribution. Deleting them would HIDE the
-             attribution gap, so we keep them and document the gap here.
-             TODO(#181): improve split_authors() to handle mixed comma/`and`
-             bylines, then these should attribute correctly and drop off this list.
+          3. A name on KNOWN_SPLIT_GAP — a genuine author whose 0-count would be
+             a *known limitation* of the byline splitter, not a dead page.
+
+        As of #198 the splitter handles mixed comma + `and`/`&` + slash bylines
+        (e.g. the Federalist Papers' "Alexander Hamilton, James Madison, and John
+        Jay" → ["Alexander Hamilton", "James Madison", "John Jay"]), so the
+        previously-listed split-gap authors now attribute correctly and the
+        allow-list is empty. It is retained as an extension point should a new
+        un-decomposable byline appear.
         """
         # Organizational-name pattern — keep in sync with
         # isOrganizationalAuthorName() / ORG_NAME_PATTERN in formatting.ts.
@@ -425,21 +424,12 @@ class TestAuthorIntegrity:
             re.IGNORECASE,
         )
 
-        # Real authors whose 0-count is a known byline-splitter limitation, not a
-        # dead page. See the docstring + PR for #181. Each appears only inside a
-        # long mixed "A, B, and C ... / Org" byline the splitter can't decompose.
-        KNOWN_SPLIT_GAP = {
-            # Federalist Papers — "Alexander Hamilton, James Madison, and John Jay"
-            "Alexander Hamilton",
-            "James Madison",
-            # Cookbook byline — "Robin Asbell, Susie Middleton, Karen Morgan,
-            # Joseph Shuldiner, Melissa's / World Variety Produce, Inc."
-            "Robin Asbell",
-            "Susie Middleton",
-            "Karen Morgan",
-            "Joseph Shuldiner",
-            "World Variety Produce",  # loses its "Inc." suffix during the split
-        }
+        # Real authors whose 0-count would be a known byline-splitter limitation,
+        # not a dead page. Empty since #198 taught split_authors() to decompose
+        # mixed "A, B, and C ... / Org, Inc." bylines (the Federalist Papers and
+        # the cookbook contributors now attribute correctly). Kept as an
+        # extension point for any future un-decomposable byline.
+        KNOWN_SPLIT_GAP: set[str] = set()
 
         # Attribution counts, computed exactly as the generator does.
         counts = Counter()
