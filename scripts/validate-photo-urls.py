@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from enrichment_config import AUTHORS_DIR, BOOKS_DIR, USER_AGENT
 from http_cache import cached_fetch
+from http_retry import is_fetchable_url
 from json_merge import save_json
 
 
@@ -41,6 +42,9 @@ def head_probe(url: str) -> dict | None:
     Definitive 4xx (404, 410, 401, 403) → ok=False (clear the URL).
     Transient (429, 5xx) → None (don't draw any conclusion).
     """
+    if not is_fetchable_url(url):
+        # Non-http(s) URL (file://, ftp://, data:) — never dereference.
+        return {"status": 0, "ok": False}
     req = Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=HEAD_TIMEOUT) as resp:

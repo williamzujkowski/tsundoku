@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches, toSlug } from '../../utils/formatting';
+import { safeJsonLd } from '../../utils/jsonld';
 
 // ISO 3166-1 alpha-2 → human-readable nationality. Subset matches what
 // the wikidata enricher emits.
@@ -57,7 +58,7 @@ const nationalityLine = (author.nationality ?? [])
 ---
 
 <Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={author.photo_url}>
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={safeJsonLd({
     "@context": "https://schema.org",
     "@type": "Person",
     "name": author.name,

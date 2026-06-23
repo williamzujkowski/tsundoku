@@ -27,6 +27,7 @@ actions/cache@v4 persists it across CI runs.
 
 import argparse
 import json
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -42,6 +43,12 @@ from json_merge import save_json
 REPO_ROOT = Path(__file__).parent.parent
 PUBLIC_CACHED = REPO_ROOT / "public" / "cached"
 ASTRO_BASE = "/tsundoku/"  # matches astro.config.mjs base — keep in sync
+
+# Cached files are written to out_dir/{slug}.{ext}. Slugs are toSlug-generated
+# (lowercase, hyphenated) everywhere, but the value is attacker-influenceable
+# in principle (it flows from content JSON). Reject anything that could escape
+# the cache directory before it reaches a filesystem path.
+SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 DOWNLOAD_TIMEOUT = 30  # seconds — covers can be a few hundred KB
 SKIP_IF_NEWER_THAN_DAYS = 90  # don't re-download files newer than this
@@ -116,6 +123,12 @@ def cache_one(
     """
     if is_already_local(url):
         # Idempotency: if JSON already points local, no work needed.
+        return None
+
+    if not SLUG_RE.match(slug):
+        # Defense-in-depth: never let a malformed slug (e.g. "../secrets")
+        # escape the cache directory when building the output path.
+        print(f"  ⚠ skipping unsafe slug: {slug!r}", file=sys.stderr)
         return None
 
     out_dir.mkdir(parents=True, exist_ok=True)
