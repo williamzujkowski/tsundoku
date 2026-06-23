@@ -20,12 +20,12 @@ import time
 import datetime
 from abc import ABC, abstractmethod
 from pathlib import Path
-from urllib.error import HTTPError, URLError
-from urllib.request import urlopen, Request
 
 from enrichment_config import BOOKS_DIR, USER_AGENT, DEFAULT_TIMEOUT, RATE_LIMITS, ERROR_LOG
 from enrichment_state import EnrichmentState
 from http_cache import cached_fetch
+from http_retry import fetch_with_retry
+from deadletter import write_deadletter
 
 
 class EnrichmentScript(ABC):
@@ -76,26 +76,57 @@ class EnrichmentScript(ABC):
         return cached_fetch(self.source_name, key, lambda: self._raw_request(url), url=url)
 
     def _raw_request(self, url: str) -> dict | None:
-        """Underlying HTTP+JSON fetch. Same error semantics as before."""
-        req = Request(url, headers={"User-Agent": USER_AGENT})
-        try:
-            with urlopen(req, timeout=DEFAULT_TIMEOUT) as resp:
-                return json.loads(resp.read())
-        except HTTPError as e:
-            if e.code == 404:
-                return None  # Not found — permanent, don't retry
-            elif e.code == 429:
-                self._log_error("rate_limited", url, str(e))
-                return None  # Rate limited — skip for now
-            else:
-                self._log_error("http_error", url, f"HTTP {e.code}")
+        """Underlying HTTP+JSON fetch with 429/502/503/504 backoff + retry.
+
+        Routes through ``http_retry.fetch_with_retry``, which honors
+        ``Retry-After`` and applies exponential backoff with jitter on
+        transient statuses instead of silently swallowing them.
+
+        Return contract is unchanged for callers: a parsed JSON object
+        (the truthy payload they index into) on success, or ``None`` on any
+        failure — 404, non-retryable 4xx, retries exhausted, network error,
+        or unparseable body. Permanent failures are recorded both to the
+        legacy error log and to the dead-letter log so a re-run can target
+        the lost set.
+        """
+        body, status, _headers = fetch_with_retry(
+            url,
+            user_agent=USER_AGENT,
+            timeout=DEFAULT_TIMEOUT,
+        )
+
+        if body is not None:
+            try:
+                return json.loads(body)
+            except (json.JSONDecodeError, ValueError) as e:
+                self._log_error("parse_error", url, str(e))
+                self._deadletter(url, status, "parse_error", str(e))
                 return None
-        except URLError as e:
-            self._log_error("connection_error", url, str(e))
-            return None
-        except (json.JSONDecodeError, OSError) as e:
-            self._log_error("parse_error", url, str(e))
-            return None
+
+        # body is None -> permanent failure of some kind. Classify by status.
+        if status == 404:
+            error_type = "not_found"
+        elif status == 0:
+            error_type = "connection_error"
+        elif status in (429, 502, 503, 504):
+            # Transient class, but fetch_with_retry exhausted its budget.
+            error_type = "rate_limited" if status == 429 else "http_error"
+        else:
+            error_type = "http_error"
+
+        self._log_error(error_type, url, f"HTTP {status}" if status else "no response")
+        self._deadletter(url, status, error_type, f"HTTP {status}" if status else "no response")
+        return None
+
+    def _deadletter(self, url: str, status: int, error_type: str, message: str) -> None:
+        """Record a permanently-failed request to the dead-letter log."""
+        write_deadletter(
+            source=self.source_name,
+            url=url,
+            status=status,
+            error_type=error_type,
+            message=message,
+        )
 
     def save_book(self, book_path: Path, book: dict, new_fields: dict) -> bool:
         """Update book JSON with new fields. Only fills missing/empty fields.
