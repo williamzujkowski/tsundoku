@@ -111,22 +111,31 @@ const oldestLine = stats.oldest_year < 0
         The full damage: timeline &amp; nationalities map →
       </a>
     </div>
-    <a href={`${base}stats/`} class="stats-teaser-link" aria-label="See the full publication timeline and nationalities map on the stats page">
-      <div class="card stats-teaser">
-        <div class="stats-sparkline" aria-hidden="true">
-          {teaserDecades.map(t => (
-            <span
-              class="stats-sparkline-bar"
-              style={`height: ${Math.max((t.count / teaserMax) * 100, 3)}%`}
-              title={`${t.decade}s: ${t.count} ${t.count === 1 ? 'book' : 'books'}`}
-            ></span>
-          ))}
-        </div>
-        <p class="text-xs text-dim text-mono mt-3">
-          Each bar is a decade, 1700s–2020s · oldest work {oldestLine} · authors from {nationalityCount} nationalities
-        </p>
+    <div class="card stats-teaser">
+      <div class="flex justify-between items-baseline mb-2 gap-2">
+        <span class="text-xs text-dim text-mono">books by first-edition decade</span>
+        <span id="sparkline-readout" class="text-xs text-mono text-muted" aria-live="polite">hover a decade →</span>
       </div>
-    </a>
+      <div class="stats-sparkline" id="home-sparkline">
+        {teaserDecades.map(t => (
+          <span
+            class="stats-sparkline-bar"
+            data-decade={t.decade}
+            data-count={t.count}
+            style={`height: ${Math.max((t.count / teaserMax) * 100, 3)}%`}
+            title={`${t.decade}s: ${t.count} ${t.count === 1 ? 'book' : 'books'}`}
+          ></span>
+        ))}
+      </div>
+      <div class="stats-sparkline-axis" aria-hidden="true">
+        <span>1700s</span>
+        <span>2020s</span>
+      </div>
+      <p class="text-xs text-dim mt-3">
+        Oldest work {oldestLine} · authors from {nationalityCount} nationalities ·
+        <a href={`${base}stats/`} class="ext-link" style="text-decoration: underline">see the full breakdown →</a>
+      </p>
+    </div>
   </section>
 
   <!-- Featured Must-Reads -->
@@ -166,19 +175,7 @@ const oldestLine = stats.oldest_year < 0
 </Layout>
 
 <style>
-  .stats-teaser-link {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-  }
-  .stats-teaser {
-    padding: 1rem 1.25rem;
-    transition: border-color 200ms ease, transform 200ms ease;
-  }
-  .stats-teaser-link:hover .stats-teaser,
-  .stats-teaser-link:focus-visible .stats-teaser {
-    border-color: var(--border-strong);
-  }
+  .stats-teaser { padding: 1rem 1.25rem; }
   /* Compact decade sparkline — bars share width, height encodes book count. */
   .stats-sparkline {
     display: flex;
@@ -191,8 +188,41 @@ const oldestLine = stats.oldest_year < 0
     min-width: 2px;
     background: var(--pop-purple);
     border-radius: 1px 1px 0 0;
+    opacity: 0.85;
+    transition: opacity 120ms ease, background-color 120ms ease;
+    cursor: default;
+  }
+  .stats-sparkline-bar:hover {
+    opacity: 1;
+    background: var(--pop-cyan);
+  }
+  .stats-sparkline-axis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 0.7rem;
+    font-family: var(--font-mono);
+    color: var(--text-dim);
   }
   @media (prefers-reduced-motion: reduce) {
-    .stats-teaser { transition: none; }
+    .stats-sparkline-bar { transition: none; }
   }
 </style>
+
+<script is:inline>
+  // Home sparkline: live decade readout on hover (view-transition-safe).
+  document.addEventListener('astro:page-load', () => {
+    const spark = document.getElementById('home-sparkline');
+    const readout = document.getElementById('sparkline-readout');
+    if (!spark || !readout) return;
+    const prompt = 'hover a decade →';
+    readout.textContent = prompt;
+    spark.addEventListener('pointerover', (e) => {
+      const bar = e.target.closest('.stats-sparkline-bar');
+      if (!bar) return;
+      const n = Number(bar.dataset.count);
+      readout.textContent = `${bar.dataset.decade}s — ${n.toLocaleString()} ${n === 1 ? 'book' : 'books'}`;
+    });
+    spark.addEventListener('pointerleave', () => { readout.textContent = prompt; });
+  });
+</script>

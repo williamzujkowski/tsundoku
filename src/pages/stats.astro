@@ -57,6 +57,17 @@ for (const b of allBooks) {
 }
 const mapMax = Math.max(1, ...Object.values(countryBookCounts));
 
+// Per-country author counts (distinct authors with that primary nationality)
+// for the map hover tooltip, alongside the book counts the fill encodes.
+const countryAuthorCounts: Record<string, number> = {};
+for (const code of authorPrimaryNat.values()) {
+  countryAuthorCounts[code] = (countryAuthorCounts[code] ?? 0) + 1;
+}
+const mapTooltipData: Record<string, { label: string; books: number; authors: number }> = {};
+for (const [code, books] of Object.entries(countryBookCounts)) {
+  mapTooltipData[code] = { label: nationalityLabel(code), books, authors: countryAuthorCounts[code] ?? 0 };
+}
+
 const worldMapSvg = await fs.readFile(
   path.resolve(process.cwd(), 'src/data/world-map.svg'),
   'utf-8',
@@ -168,6 +179,10 @@ ${mapFillRules}
       <div class="card card-padded-lg mb-4">
         <Fragment set:html={worldMapSvg} />
       </div>
+      <p class="text-xs text-dim mb-4">Hover a highlighted country for its counts. Shading is by book count (√-scaled).</p>
+
+      <script type="application/json" id="map-data" set:html={JSON.stringify(mapTooltipData)}></script>
+      <div id="map-tooltip" class="map-tooltip" role="status" aria-live="polite" hidden></div>
 
       <div class="card card-padded-lg">
         {stats.nationality_distribution.map(n => (
@@ -338,3 +353,49 @@ ${mapFillRules}
     Snapshot as of {new Date(stats.generated_at).toLocaleDateString()}. The pile has probably grown since then.
   </p>
 </Layout>
+
+<style>
+  .world-map path[data-country] { cursor: default; }
+  .map-tooltip {
+    position: fixed;
+    z-index: 50;
+    pointer-events: none;
+    padding: 0.35rem 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text);
+    background: var(--bg-elevated);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: 4px;
+    box-shadow: var(--shadow-2);
+    white-space: nowrap;
+    transform: translate(12px, 12px);
+  }
+  .map-tooltip[hidden] { display: none; }
+</style>
+
+<script is:inline>
+  // World-map hover tooltip: country label + book/author counts, following the
+  // cursor. Re-binds on every view-transition navigation (astro:page-load).
+  document.addEventListener('astro:page-load', () => {
+    const dataEl = document.getElementById('map-data');
+    const tip = document.getElementById('map-tooltip');
+    const svg = document.querySelector('.world-map');
+    if (!dataEl || !tip || !svg) return;
+    let data = {};
+    try { data = JSON.parse(dataEl.textContent || '{}'); } catch (_) { return; }
+
+    svg.addEventListener('pointermove', (e) => {
+      const path = e.target.closest('path[data-country]');
+      const d = path && data[path.getAttribute('data-country')];
+      if (!d) { tip.hidden = true; return; }
+      const books = d.books.toLocaleString();
+      const authors = d.authors.toLocaleString();
+      tip.textContent = `${d.label} — ${books} ${d.books === 1 ? 'book' : 'books'} · ${authors} ${d.authors === 1 ? 'author' : 'authors'}`;
+      tip.hidden = false;
+      tip.style.left = e.clientX + 'px';
+      tip.style.top = e.clientY + 'px';
+    });
+    svg.addEventListener('pointerleave', () => { tip.hidden = true; });
+  });
+</script>
