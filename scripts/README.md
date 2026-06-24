@@ -18,6 +18,7 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 | `enrich-ol-firstedition.py` | Open Library | First-edition anchor: editions consensus, original_*, representative_edition |
 | `enrich-wikidata-book.py` | Wikidata SPARQL | Year corrections, original_publisher, awards, series via P648 |
 | `enrich-wikidata-author.py` | Wikidata SPARQL | Nationality, alternate names, movements, awards, VIAF via P648 |
+| `enrich-adaptations.py` | Wikidata SPARQL | `adaptations` (film/tv/stage/radio/opera/other) via P144 "based on" — batched, resumable (#184) |
 | `recategorize.py` | Internal (DDC/LCC + tags) | Computes category from DDC/LCC primary, falls back to tag heuristics |
 | `enrich-gutenberg.py` | Project Gutenberg (Gutendex) | Free reading links for public domain books |
 | `enrich-librivox.py` | LibriVox | Free audiobook links for public domain books |

@@ -85,7 +85,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
@@ -101,5 +102,32 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/8422967-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8422967-L.jpg",
-  "cover_cached_at": "2026-05-03T00:52:46+00:00"
+  "cover_cached_at": "2026-05-03T00:52:46+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "A Streetcar Named Desire",
+      "year": 1951
+    },
+    {
+      "type": "film",
+      "title": "Linje Lusta",
+      "year": 1981
+    },
+    {
+      "type": "film",
+      "title": "The Prey",
+      "year": 1986
+    },
+    {
+      "type": "other",
+      "title": "A Streetcar Named Desire",
+      "year": 2000
+    },
+    {
+      "type": "film",
+      "title": "The Desire",
+      "year": 2002
+    }
+  ]
 }

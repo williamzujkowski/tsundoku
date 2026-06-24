@@ -121,7 +121,8 @@
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
     "cover_url": "ol_editions_v1",
-    "cover_url_large": "ol_editions_v1"
+    "cover_url_large": "ol_editions_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 136,
   "first_published_circa": false,
@@ -146,5 +147,27 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/14121728-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14121728-L.jpg",
-  "cover_cached_at": "2026-05-03T00:51:28+00:00"
+  "cover_cached_at": "2026-05-03T00:51:28+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Vinyl",
+      "year": 1965
+    },
+    {
+      "type": "film",
+      "title": "A Clockwork Orange",
+      "year": 1971
+    },
+    {
+      "type": "other",
+      "title": "A Clockwork Orange: A Play with Music",
+      "year": 1987
+    },
+    {
+      "type": "other",
+      "title": "A-Lex",
+      "year": 2009
+    }
+  ]
 }
