@@ -46,8 +46,9 @@ PARITY_CASES: dict[str, list[str]] = {
         "Carolyn Thomson",
         "Peter Dans",
     ],
-    # single-token last-name list stays intact (no 2-token evidence)
-    "Aho, Lam, Sethi, and Ullman": ["Aho, Lam, Sethi,", "Ullman"],
+    # single-token last-name list stays intact (no 2-token evidence);
+    # trailing comma stripped (#210)
+    "Aho, Lam, Sethi, and Ullman": ["Aho, Lam, Sethi", "Ullman"],
     # --- #198 regressions: mixed comma + and/& + slash ---
     "Alexander Hamilton, James Madison, and John Jay": [
         "Alexander Hamilton",
