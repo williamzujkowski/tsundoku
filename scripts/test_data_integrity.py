@@ -104,6 +104,26 @@ class TestBookIntegrity:
                     nulls.append(f"{Path(f).name}: {k} is null")
         assert len(nulls) == 0, f"Null values found:\n" + "\n".join(nulls[:10])
 
+    def test_no_legacy_subjects_field(self):
+        """No book JSON may carry the legacy `subjects` field (epic #124).
+
+        `subjects` was never part of the content schema (only `subject_facet`
+        is — see src/content.config.ts), so Astro already stripped it. The 34
+        files that still carried it were migrated: the 2 without a curated
+        `subject_facet` had their values promoted into it, the other 32 had the
+        redundant key dropped. Enrich-tags.py and recategorize.py read
+        `subject_facet`, so the legacy field has no remaining reader. This guard
+        keeps it from creeping back in.
+        """
+        offenders = []
+        for f, b in load_all_books():
+            if "subjects" in b:
+                offenders.append(Path(f).name)
+        assert not offenders, (
+            "Legacy `subjects` key found — migrate to `subject_facet` (#124):\n"
+            + "\n".join(offenders[:10])
+        )
+
     def test_valid_priority(self):
         bad = []
         for f, b in load_all_books():
