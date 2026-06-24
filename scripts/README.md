@@ -12,7 +12,6 @@ Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md
 
 | Script | Source | What it adds |
 |---|---|---|
-| `enrich.py` | Open Library + Google Books | Covers, descriptions, ISBNs, page counts, subjects, first published year |
 | `enrich-ol-classification.py` | Open Library | DDC, LCC, ISBN, subject_facet, language, pages, first_published year (work-level) |
 | `enrich-ol-fuzzy-retry.py` | Open Library | Multi-strategy fuzzy retry for books missing classification |
 | `enrich-ol-firstedition.py` | Open Library | First-edition anchor: editions consensus, original_*, representative_edition |
