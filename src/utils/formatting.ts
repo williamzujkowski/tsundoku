@@ -81,13 +81,24 @@ function dayOfYear(): number {
 
 /**
  * Split a multi-author byline ("Robert Jordan & Brandon Sanderson") into
- * its component author names. Handles `&`, ` and `, ` with `, `, `, `/`.
+ * its component author names. Handles `&`, ` and `, ` with `, `/`, and `, `,
+ * including mixed bylines like "A, B, and C" or "A, B / Org, Inc." (#198).
  *
- * Each part must be at least two whitespace-separated tokens — this avoids
- * splitting initials like "L., M.", or single-name pen names with commas.
+ * Two-phase split, applied in order:
+ *   1. STRONG separators (`&`, ` and `, ` with `, `/`) always indicate joint
+ *      authorship and split unconditionally — single-token parts are kept
+ *      (e.g. "Marx & Engels" → ["Marx", "Engels"]).
+ *   2. Each strong segment is then comma-sub-split, but ONLY when ≥2 of the
+ *      resulting sub-parts have 2+ whitespace tokens. This distinguishes a
+ *      real "First Last, First Last" list from "Last, First" catalog notation
+ *      ("Smith, John") or single-token last-name lists ("Aho, Lam, Sethi"),
+ *      which are left intact. A comma immediately before a corporate suffix
+ *      ("World Variety Produce, Inc.") is masked so the org name stays one part.
  *
  * Returns `parts: [originalString]` and `isJoint: false` when no split applies,
  * so callers can iterate `parts` uniformly.
+ *
+ * Keep in sync with split_authors() in scripts/generate-author-stubs.py.
  */
 export interface AuthorParts {
   original: string;
@@ -97,21 +108,72 @@ export interface AuthorParts {
 
 // Strong separators always indicate joint authorship — split unconditionally.
 const STRONG_SEPARATORS = /\s*(?:&| and | with |\/)\s*/i;
-// Comma is ambiguous: "Smith, John" is "Last, First" notation, not joint authors.
-// Only treat comma as a separator when each part has 2+ whitespace-separated tokens.
 const COMMA_SEPARATOR = /\s*,\s*/;
+// A comma immediately followed by a corporate suffix belongs to an organization
+// name ("World Variety Produce, Inc."), not an author separator. Mask it with a
+// sentinel (\x00, never present in real names) before splitting so the comma
+// splitter ignores it, then restore.
+const COMMA_SENTINEL = '\x00';
+const ORG_SUFFIX_COMMA = /,(\s*(?:Inc|LLC|Ltd|Corp|Co|GmbH|PLC|LP|LLP)\.?\b)/gi;
+// Parenthetical groups, e.g. "(Arabic/Persian)" — separators inside them are
+// part of the name, never author boundaries.
+const PARENS = /\([^)]*\)/g;
+// Lowercase connector words appear in org division names ("Division on Earth and
+// Life Studies") but never inside a person's name — used to tell a person from
+// an institutional sub-unit.
+const CONNECTORS = new Set(['on', 'of', 'the', 'and', 'for', 'in', 'de', 'la']);
+
+/** Heuristic: a comma-part that reads as a personal name (not an org unit). */
+function looksLikePerson(part: string): boolean {
+  const toks = part.split(/\s+/);
+  if (toks.length < 2 || toks.length > 4) return false;
+  if (isOrganizationalAuthorName(part)) return false;
+  return !toks.some((t) => CONNECTORS.has(t.toLowerCase()));
+}
+
+/**
+ * True for an organizational byline that should NOT be split into people.
+ * Three signals must all hold (#198):
+ *   - the byline matches the organizational pattern;
+ *   - it has no slash OUTSIDE parentheses — a slash is a deliberate contributor
+ *     separator (the cookbook byline "... / World Variety Produce, Inc."), and a
+ *     slash inside parens ("Various (Arabic/Persian)") is part of the name;
+ *   - fewer than 2 comma-parts look like personal names — so an org PREFIX
+ *     followed by real people ("Calm Publications Staff, Kevin Crane, Carolyn
+ *     Thomson, Peter Dans") still splits, while a pure institutional byline
+ *     ("National Research Council, Division ... and ... Committee ...") stays
+ *     one entity.
+ */
+function isIndivisibleOrg(name: string): boolean {
+  if (!isOrganizationalAuthorName(name)) return false;
+  if (name.replace(PARENS, '').includes('/')) return false;
+  const parts = name.split(COMMA_SEPARATOR).map((p) => p.trim()).filter((p) => p.length > 0);
+  const personLike = parts.filter(looksLikePerson).length;
+  return personLike < 2;
+}
+
+/** Comma-sub-split one strong segment, honoring the 2-token + org-suffix guards. */
+function commaSubSplit(segment: string): string[] {
+  const masked = segment.replace(ORG_SUFFIX_COMMA, `${COMMA_SENTINEL}$1`);
+  const raw = masked
+    .split(COMMA_SEPARATOR)
+    .map((p) => p.replace(new RegExp(COMMA_SENTINEL, 'g'), ',').trim())
+    .filter((p) => p.length > 0);
+  const multiToken = raw.filter((p) => p.split(/\s+/).length >= 2);
+  // Only treat commas as author separators when there's clear evidence of a
+  // "First Last, First Last" list: ≥2 sub-parts carry 2+ tokens. Otherwise the
+  // commas belong to a single name (catalog notation, org suffix, initials).
+  return multiToken.length >= 2 ? raw : [segment.trim()];
+}
 
 export function parseAuthors(name: string): AuthorParts {
-  const strong = name.split(STRONG_SEPARATORS).map((p) => p.trim()).filter((p) => p.length > 0);
-  if (strong.length >= 2) {
-    return { original: name, parts: strong, isJoint: true };
+  if (isIndivisibleOrg(name)) {
+    return { original: name, parts: [name], isJoint: false };
   }
-  const commaSplit = name
-    .split(COMMA_SEPARATOR)
-    .map((p) => p.trim())
-    .filter((p) => p.length > 0 && p.split(/\s+/).length >= 2);
-  if (commaSplit.length >= 2) {
-    return { original: name, parts: commaSplit, isJoint: true };
+  const strong = name.split(STRONG_SEPARATORS).map((p) => p.trim()).filter((p) => p.length > 0);
+  const parts = (strong.length >= 2 ? strong : [name]).flatMap(commaSubSplit);
+  if (parts.length >= 2) {
+    return { original: name, parts, isJoint: true };
   }
   return { original: name, parts: [name], isJoint: false };
 }

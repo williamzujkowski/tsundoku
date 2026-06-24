@@ -238,6 +238,124 @@ describe('parseAuthors', () => {
     expect(r.isJoint).toBe(false);
     expect(r.parts).toEqual(['Smith, John']);
   });
+
+  // --- #198: mixed comma + and/& + slash bylines ---
+  it('splits "A, B, and C" person lists (#198 Federalist Papers)', () => {
+    const r = parseAuthors('Alexander Hamilton, James Madison, and John Jay');
+    expect(r.isJoint).toBe(true);
+    expect(r.parts).toEqual(['Alexander Hamilton', 'James Madison', 'John Jay']);
+  });
+
+  it('splits mixed comma/slash byline keeping the org suffix (#198 cookbook)', () => {
+    const r = parseAuthors(
+      "Robin Asbell, Susie Middleton, Karen Morgan, Joseph Shuldiner, Melissa's / World Variety Produce, Inc.",
+    );
+    expect(r.parts).toEqual([
+      'Robin Asbell',
+      'Susie Middleton',
+      'Karen Morgan',
+      'Joseph Shuldiner',
+      "Melissa's",
+      'World Variety Produce, Inc.',
+    ]);
+  });
+
+  it('keeps an org suffix attached after another separator', () => {
+    expect(parseAuthors('Jane Roe / Acme Corp, Inc.').parts).toEqual([
+      'Jane Roe',
+      'Acme Corp, Inc.',
+    ]);
+  });
+
+  it('still splits an org PREFIX followed by real people', () => {
+    const r = parseAuthors('Calm Publications Staff, Kevin Crane, Carolyn Thomson, Peter Dans');
+    expect(r.parts).toEqual([
+      'Calm Publications Staff',
+      'Kevin Crane',
+      'Carolyn Thomson',
+      'Peter Dans',
+    ]);
+  });
+
+  it('keeps a purely institutional byline as one entity (buried "and"s)', () => {
+    const byline =
+      'National Research Council, Division on Earth and Life Studies, ' +
+      'Commission on Geosciences, Environment and Resources, ' +
+      'Committee on Grand Canyon Monitoring and Research';
+    const r = parseAuthors(byline);
+    expect(r.isJoint).toBe(false);
+    expect(r.parts).toEqual([byline]);
+  });
+
+  it('treats a slash inside parentheses as part of the name', () => {
+    const r = parseAuthors('Various (Arabic/Persian)');
+    expect(r.isJoint).toBe(false);
+    expect(r.parts).toEqual(['Various (Arabic/Persian)']);
+  });
+
+  it('leaves single-token last-name lists intact', () => {
+    // No 2-token evidence → "Aho, Lam, Sethi" is not a "First Last" list.
+    const r = parseAuthors('Aho, Lam, Sethi, and Ullman');
+    expect(r.parts).toEqual(['Aho, Lam, Sethi,', 'Ullman']);
+  });
+});
+
+/**
+ * Parity contract with split_authors() in scripts/generate-author-stubs.py.
+ * The byline → parts pairs below are mirrored verbatim from PARITY_CASES in
+ * scripts/test_author_split.py. If a byline is added/changed in one place,
+ * update the other so the two implementations cannot silently diverge (#198).
+ */
+describe('parseAuthors / split_authors parity contract (#198)', () => {
+  const PARITY_CASES: Array<[string, string[]]> = [
+    ['Plato', ['Plato']],
+    ['Robert Jordan & Brandon Sanderson', ['Robert Jordan', 'Brandon Sanderson']],
+    ['Brian W. Kernighan and Rob Pike', ['Brian W. Kernighan', 'Rob Pike']],
+    ['Niccolò Machiavelli, Stephen Brennan', ['Niccolò Machiavelli', 'Stephen Brennan']],
+    ['A.A. Milne', ['A.A. Milne']],
+    ['Karl Marx and Friedrich Engels', ['Karl Marx', 'Friedrich Engels']],
+    [
+      'Abraham Silberschatz, Peter Galvin, Greg Gagne',
+      ['Abraham Silberschatz', 'Peter Galvin', 'Greg Gagne'],
+    ],
+    ['Marx & Engels', ['Marx', 'Engels']],
+    ['Smith, John', ['Smith, John']],
+    [
+      'Calm Publications Staff, Kevin Crane, Carolyn Thomson, Peter Dans',
+      ['Calm Publications Staff', 'Kevin Crane', 'Carolyn Thomson', 'Peter Dans'],
+    ],
+    ['Aho, Lam, Sethi, and Ullman', ['Aho, Lam, Sethi,', 'Ullman']],
+    [
+      'Alexander Hamilton, James Madison, and John Jay',
+      ['Alexander Hamilton', 'James Madison', 'John Jay'],
+    ],
+    [
+      "Robin Asbell, Susie Middleton, Karen Morgan, Joseph Shuldiner, Melissa's / World Variety Produce, Inc.",
+      [
+        'Robin Asbell',
+        'Susie Middleton',
+        'Karen Morgan',
+        'Joseph Shuldiner',
+        "Melissa's",
+        'World Variety Produce, Inc.',
+      ],
+    ],
+    [
+      'National Research Council, Division on Earth and Life Studies, ' +
+        'Commission on Geosciences, Environment and Resources, ' +
+        'Committee on Grand Canyon Monitoring and Research',
+      [
+        'National Research Council, Division on Earth and Life Studies, ' +
+          'Commission on Geosciences, Environment and Resources, ' +
+          'Committee on Grand Canyon Monitoring and Research',
+      ],
+    ],
+    ['Various (Arabic/Persian)', ['Various (Arabic/Persian)']],
+  ];
+
+  it.each(PARITY_CASES)('%s', (byline, expected) => {
+    expect(parseAuthors(byline).parts).toEqual(expected);
+  });
 });
 
 describe('authorMatches', () => {

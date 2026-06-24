@@ -27,13 +27,13 @@
     "series": 335
   },
   "author_enrichment": {
-    "total_authors": 1899,
-    "wikidata": 875,
+    "total_authors": 1891,
+    "wikidata": 874,
     "nationality": 704,
     "alternate_names": 155,
     "movements": 182,
     "awards": 584,
-    "viaf": 872
+    "viaf": 871
   },
   "nationality_distribution": [
     {
@@ -638,5 +638,5 @@
     "shelf_meters": 89.6,
     "books_with_pages": 3463
   },
-  "generated_at": "2026-06-23T00:56:24.615578"
+  "generated_at": "2026-06-23T09:08:03.343658"
 }
