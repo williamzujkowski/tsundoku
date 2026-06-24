@@ -108,7 +108,9 @@ def _comma_sub_split(segment: str) -> list[str]:
     # Only treat commas as author separators when there's clear evidence of a
     # "First Last, First Last" list: 2+ sub-parts carry 2+ tokens. Otherwise the
     # commas belong to a single name (catalog notation, org suffix, initials).
-    return raw if len(multi_token) >= 2 else [segment.strip()]
+    # Strip a trailing comma left by an upstream strong-separator split
+    # ("Aho, Lam, Sethi, and Ullman" → segment "Aho, Lam, Sethi,") — #210.
+    return raw if len(multi_token) >= 2 else [segment.strip().rstrip(",").strip()]
 
 
 def split_authors(name: str) -> list[str]:

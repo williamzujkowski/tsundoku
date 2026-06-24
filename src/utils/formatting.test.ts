@@ -295,8 +295,9 @@ describe('parseAuthors', () => {
 
   it('leaves single-token last-name lists intact', () => {
     // No 2-token evidence → "Aho, Lam, Sethi" is not a "First Last" list.
+    // Trailing comma stripped (#210).
     const r = parseAuthors('Aho, Lam, Sethi, and Ullman');
-    expect(r.parts).toEqual(['Aho, Lam, Sethi,', 'Ullman']);
+    expect(r.parts).toEqual(['Aho, Lam, Sethi', 'Ullman']);
   });
 });
 
@@ -324,7 +325,7 @@ describe('parseAuthors / split_authors parity contract (#198)', () => {
       'Calm Publications Staff, Kevin Crane, Carolyn Thomson, Peter Dans',
       ['Calm Publications Staff', 'Kevin Crane', 'Carolyn Thomson', 'Peter Dans'],
     ],
-    ['Aho, Lam, Sethi, and Ullman', ['Aho, Lam, Sethi,', 'Ullman']],
+    ['Aho, Lam, Sethi, and Ullman', ['Aho, Lam, Sethi', 'Ullman']],
     [
       'Alexander Hamilton, James Madison, and John Jay',
       ['Alexander Hamilton', 'James Madison', 'John Jay'],
