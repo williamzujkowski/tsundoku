@@ -172,7 +172,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -182,5 +183,46 @@
   "original_title": "A Connecticut Yankee in King Arthur's Court",
   "original_language": "eng",
   "cover_url_source": "https://books.google.com/books/content?id=yTXKP6sCic8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:51:32+00:00"
+  "cover_cached_at": "2026-05-03T00:51:32+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "A Connecticut Yankee in King Arthur's Court",
+      "year": 1921
+    },
+    {
+      "type": "film",
+      "title": "A Connecticut Yankee",
+      "year": 1931
+    },
+    {
+      "type": "film",
+      "title": "A Connecticut Yankee in King Arthur's Court",
+      "year": 1949
+    },
+    {
+      "type": "tv",
+      "title": "A Connecticut Yankee in King Arthur's Court",
+      "year": 1978
+    },
+    {
+      "type": "film",
+      "title": "Unidentified Flying Oddball",
+      "year": 1979
+    },
+    {
+      "type": "film",
+      "title": "New Adventures of a Yankee in King Arthur's Court",
+      "year": 1988
+    },
+    {
+      "type": "tv",
+      "title": "A Knight in Camelot",
+      "year": 1998
+    },
+    {
+      "type": "other",
+      "title": "A Connecticut Yankee"
+    }
+  ]
 }

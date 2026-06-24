@@ -278,7 +278,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -289,5 +290,63 @@
   "original_publisher": "Chapman and Hall",
   "cover_url_source": "https://covers.openlibrary.org/b/id/13301713-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
-  "cover_cached_at": "2026-05-03T00:52:49+00:00"
+  "cover_cached_at": "2026-05-03T00:52:49+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1907
+    },
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1911
+    },
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1922
+    },
+    {
+      "type": "film",
+      "title": "The Only Way",
+      "year": 1927
+    },
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1935
+    },
+    {
+      "type": "film",
+      "title": "A Tale of Two Cities",
+      "year": 1958
+    },
+    {
+      "type": "tv",
+      "title": "A Tale of Two Cities",
+      "year": 1980
+    },
+    {
+      "type": "other",
+      "title": "A Tale of Two Cities"
+    },
+    {
+      "type": "tv",
+      "title": "A Tale of Two Cities"
+    },
+    {
+      "type": "other",
+      "title": "The Only Way"
+    },
+    {
+      "type": "other",
+      "title": "Two Cities"
+    }
+  ]
 }

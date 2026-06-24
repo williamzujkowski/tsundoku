@@ -36,7 +36,8 @@ from urllib.request import urlopen, Request
 sys.path.insert(0, str(Path(__file__).parent))
 
 from enrichment_config import USER_AGENT
-from http_cache import cached_fetch
+from http_cache import cached_fetch, invalidate as cache_invalidate
+from http_retry import fetch_with_retry
 
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
@@ -66,42 +67,54 @@ def _pace() -> None:
     _last_call_ts = _time.monotonic()
 
 
+# How many times to retry a 429 before giving up. WDQS occasionally enters
+# an aggressive "1 request / minute" mode during outages; a few patient
+# retries that honor Retry-After let a batch eventually succeed instead of
+# being skipped (and re-queried only on a later run).
+SPARQL_MAX_429_RETRIES = 5
+
+
 def _sparql(query: str) -> dict | None:
     """Execute a SPARQL query, return parsed JSON or None on error.
 
-    Respects 2 RPS limit and the Retry-After header on 429.
+    Routes the request through ``http_retry.fetch_with_retry`` so it always
+    has a bounded socket timeout (``REQUEST_TIMEOUT``) and honors Retry-After
+    / exponential backoff on 429/503 — a slow or non-responding WDQS endpoint
+    returns ``None`` instead of blocking forever (the raw ``urlopen`` path
+    could stall indefinitely on a trickled response body, hanging the scan).
+
+    Respects the inter-call pacing. ``fetch_with_retry`` does its own
+    429-aware retries; we leave SPARQL_MAX_429_RETRIES for the dedicated
+    minute-backoff outage path below as a final, capped fallback. Non-429
+    errors and parse failures return None.
     """
-    _pace()
     url = f"{SPARQL_URL}?query={quote_plus(query)}&format=json"
-    req = Request(
-        url,
-        headers={
-            "User-Agent": WIKIDATA_UA,
-            "Accept": "application/sparql-results+json",
-        },
-    )
-    try:
-        with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-            return json.loads(resp.read())
-    except HTTPError as e:
-        if e.code == 429:
-            retry = e.headers.get("Retry-After")
-            wait_s = SPARQL_BACKOFF_429_S
+    headers = {
+        "User-Agent": WIKIDATA_UA,
+        "Accept": "application/sparql-results+json",
+    }
+    for attempt in range(SPARQL_MAX_429_RETRIES + 1):
+        _pace()
+        body, status, _resp_headers = fetch_with_retry(
+            url,
+            user_agent=WIKIDATA_UA,
+            timeout=REQUEST_TIMEOUT,
+            extra_headers=headers,
+        )
+        if body is not None:
             try:
-                wait_s = max(wait_s, int(retry)) if retry else wait_s
-            except (TypeError, ValueError):
-                pass
-            _time.sleep(wait_s)
-            # One retry after the backoff
-            _pace()
-            try:
-                with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-                    return json.loads(resp.read())
-            except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError):
+                return json.loads(body)
+            except (json.JSONDecodeError, ValueError):
                 return None
+        # body is None → permanent/exhausted failure. For a sustained-outage
+        # 429 (status 429 after fetch_with_retry burned its budget), do a
+        # capped minute-level backoff and retry the whole request; otherwise
+        # give up immediately.
+        if status == 429 and attempt < SPARQL_MAX_429_RETRIES:
+            _time.sleep(SPARQL_BACKOFF_429_S)
+            continue
         return None
-    except (URLError, TimeoutError, OSError, json.JSONDecodeError):
-        return None
+    return None
 
 
 def _qids_by_p648(keys: list[str], olid_path_prefix: str) -> dict[str, str]:
@@ -483,6 +496,207 @@ def fields_for_author(qid: str, entity: dict) -> dict:
             break
 
     return out
+
+
+# ---------------------------------------------------------------------------
+# Adaptations (P144 "based on") — issue #184
+# ---------------------------------------------------------------------------
+
+# The book schema enum is {film, tv, stage, radio, opera, other}. We classify
+# the adaptation's P31 (instance-of) QID into one of those buckets. An
+# unmapped P31 (or no P31) maps to 'other' so we never emit an out-of-enum
+# value the content collection would reject. Conflicts are resolved by the
+# fixed priority in _classify_adaptation_types (tv > film > opera > stage >
+# radio) — e.g. a "television film" lands deterministically on 'tv'.
+P31_TYPE_MAP: dict[str, str] = {
+    # film
+    "Q11424": "film", "Q24862": "film", "Q202866": "film", "Q24869": "film",
+    "Q229390": "film", "Q18011172": "film", "Q130232": "film",
+    "Q1054574": "film", "Q959790": "film", "Q1361932": "film",  # comedy film
+    "Q645928": "film",  # epic film
+    # tv (television films map to tv)
+    "Q5398426": "tv", "Q1259759": "tv", "Q581714": "tv", "Q63952888": "tv",
+    "Q1107": "tv", "Q117467246": "tv", "Q15416": "tv", "Q21191270": "tv",
+    "Q526877": "tv", "Q1366112": "tv", "Q220898": "tv", "Q93204": "tv",
+    "Q506240": "tv", "Q5398427": "tv",  # television drama series
+    # stage
+    "Q25379": "stage", "Q2743": "stage", "Q43099500": "stage", "Q11635": "stage",
+    "Q188451": "stage", "Q5398472": "stage", "Q7777573": "stage", "Q7777570": "stage",
+    "Q7777577": "stage",  # theatrical adaptation variants
+    # radio
+    "Q2635894": "radio", "Q1320047": "radio", "Q14406742": "radio", "Q3736046": "radio",
+    # opera
+    "Q1344": "opera", "Q1278123": "opera",
+}
+
+# Bucket for any P31 not in the map but which is still clearly a creative work
+# we want to keep. Currently we keep everything (unmapped → 'other'); the cap
+# and dedup keep volume sane.
+MAX_ADAPTATIONS_PER_BOOK = 12
+
+# Books per P144 SPARQL request. Kept small (20) so a single batch's query
+# stays cheap and well under the 60s endpoint timeout even during WDQS load —
+# a heavy 40-book fan-out across P144/P31/P577 was a hang risk.
+ADAPTATIONS_BATCH_SIZE = 20
+
+
+def _classify_adaptation_types(p31_qids: list[str]) -> str:
+    """Pick a schema type from a work's instance-of QIDs.
+
+    A work can be instance-of several classes (e.g. both 'film' and 'drama
+    film'). We prefer the most specific recognizable medium, with a fixed
+    priority so a "television film" lands on 'tv' deterministically. Unknown
+    or empty → 'other'.
+    """
+    matched = [P31_TYPE_MAP[q] for q in p31_qids if q in P31_TYPE_MAP]
+    if not matched:
+        return "other"
+    # Priority order when a work is tagged with multiple media classes.
+    for pref in ("tv", "film", "opera", "stage", "radio"):
+        if pref in matched:
+            return pref
+    return "other"
+
+
+def adaptations_for_books(qids: Iterable[str]) -> dict[str, list[dict]]:
+    """Map book QIDs → list of {type, title, year?} adaptations via P144.
+
+    For each adaptation work `?w` where `?w wdt:P144 wd:<book>`, we pull:
+      * its English label (title)
+      * a year from P577 (publication date) or, failing that, P571 (inception)
+      * its P31 instance-of QIDs, classified into the schema type enum
+
+    Queries are batched with a VALUES ?book clause (~40 books/request) to
+    stay well under the 60s SPARQL timeout and be rate-limit friendly.
+    Results are cached via http_cache. Each book's list is deduped by
+    (type, title, year), sorted by year (None last), and capped.
+    """
+    cleaned = sorted({q for q in qids if q and q.startswith("Q")})
+    if not cleaned:
+        return {}
+
+    out: dict[str, list[dict]] = {}
+    batch_size = ADAPTATIONS_BATCH_SIZE
+    for start in range(0, len(cleaned), batch_size):
+        batch = cleaned[start:start + batch_size]
+        batch_result = adaptations_for_batch(batch)
+        if batch_result is None:
+            continue  # transient failure for this batch — skip its books
+        out.update(batch_result)
+    return out
+
+
+def adaptations_for_batch(batch: list[str]) -> dict[str, list[dict]] | None:
+    """Query one batch of book QIDs for P144 adaptations.
+
+    Returns a dict {book_qid: [{type, title, year?}, ...]} for the books in
+    `batch` that have adaptations (books with none are simply absent), or
+    ``None`` when the query failed transiently (timeout / network / 429 after
+    backoff). The None signal lets the caller leave those books un-scanned so
+    a resumed run re-queries them, instead of recording them as "no data".
+    """
+    batch = [q for q in batch if q and q.startswith("Q")]
+    if not batch:
+        return {}
+
+    values = " ".join(f"wd:{q}" for q in batch)
+    # One row per (work, P31). We fetch the English label with a direct
+    # rdfs:label + LANG() filter rather than the wikibase:label SERVICE:
+    # the SERVICE combined with GROUP BY makes this query 100x+ slower
+    # (it can blow the 60s endpoint timeout for a 40-book batch). We
+    # aggregate the multiple-P31 rows back into one work in Python below.
+    query = f"""
+    SELECT ?book ?work ?workLabel ?date ?inception ?p31 WHERE {{
+      VALUES ?book {{ {values} }}
+      ?work wdt:P144 ?book .
+      OPTIONAL {{ ?work wdt:P31 ?p31 . }}
+      OPTIONAL {{ ?work wdt:P577 ?date . }}
+      OPTIONAL {{ ?work wdt:P571 ?inception . }}
+      ?work rdfs:label ?workLabel . FILTER(LANG(?workLabel) = "en")
+    }}
+    """
+    cache_key = f"adaptations:{','.join(sorted(batch))}"
+    data = cached_fetch(
+        "wikidata_adaptations_v1",
+        cache_key,
+        lambda q=query: _sparql(q),
+    )
+    if data is None:
+        # _sparql returns None only on a transient failure (timeout, network,
+        # or 429 after backoff) — never for a genuine empty result (that's a
+        # truthy {results:{bindings:[]}}). Don't let the negative get cached
+        # as a false "no adaptations": invalidate so a resumed run re-queries.
+        cache_invalidate("wikidata_adaptations_v1", cache_key)
+        return None
+
+    # Accumulate raw rows per book: {book_qid: {work_qid: {title, year, p31s}}}
+    raw: dict[str, dict[str, dict]] = {}
+    for b in (data.get("results", {}) or {}).get("bindings", []) or []:
+        book_qid = b.get("book", {}).get("value", "").rsplit("/", 1)[-1]
+        work_qid = b.get("work", {}).get("value", "").rsplit("/", 1)[-1]
+        if not book_qid or not work_qid:
+            continue
+        label = b.get("workLabel", {}).get("value")
+        # No English label → can't form a usable title; skip the row.
+        if not label or label == work_qid:
+            continue
+        year = _year_from_iso(b.get("date", {}).get("value")) \
+            or _year_from_iso(b.get("inception", {}).get("value"))
+        p31 = b.get("p31", {}).get("value", "")
+        p31_qid = p31.rsplit("/", 1)[-1] if p31 else None
+
+        book_bucket = raw.setdefault(book_qid, {})
+        existing = book_bucket.get(work_qid)
+        if existing is None:
+            book_bucket[work_qid] = {
+                "title": label,
+                "year": year,
+                "p31s": [p31_qid] if p31_qid else [],
+            }
+        else:
+            # Another P31 row for the same work — accumulate P31s and
+            # fill a missing year if this row carries one.
+            if p31_qid and p31_qid not in existing["p31s"]:
+                existing["p31s"].append(p31_qid)
+            if existing.get("year") is None and year is not None:
+                existing["year"] = year
+
+    # Reduce raw rows to clean, deduped, sorted, capped adaptation lists.
+    out: dict[str, list[dict]] = {}
+    for book_qid, works in raw.items():
+        adaptations = []
+        seen: set[tuple] = set()
+        for work in works.values():
+            entry: dict = {
+                "type": _classify_adaptation_types(work["p31s"]),
+                "title": work["title"],
+            }
+            if work.get("year") is not None:
+                entry["year"] = work["year"]
+            key = (entry["type"], entry["title"], entry.get("year"))
+            if key in seen:
+                continue
+            seen.add(key)
+            adaptations.append(entry)
+        # Sort by year (None last), then title for stability.
+        adaptations.sort(key=lambda a: (a.get("year") is None, a.get("year") or 0, a["title"]))
+        if adaptations:
+            out[book_qid] = adaptations[:MAX_ADAPTATIONS_PER_BOOK]
+    return out
+
+
+def _year_from_iso(value: str | None) -> int | None:
+    """Extract a year int from a SPARQL xsd:dateTime literal like
+    '1965-08-01T00:00:00Z' or '-0428-...'. Returns None when unparseable."""
+    if not value or not isinstance(value, str):
+        return None
+    sign = -1 if value.startswith("-") else 1
+    body = value.lstrip("+-")
+    year_str = body.split("-", 1)[0]
+    try:
+        return int(year_str) * sign
+    except ValueError:
+        return None
 
 
 def resolve_qid_labels(qids: Iterable[str], lang: str = "en") -> dict[str, str]:

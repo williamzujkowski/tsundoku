@@ -79,7 +79,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 174,
   "first_published_circa": false,
@@ -95,5 +96,12 @@
     }
   ],
   "cover_url_source": "https://books.google.com/books/content?id=hn5LAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:53:47+00:00"
+  "cover_cached_at": "2026-05-03T00:53:47+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Alice Adams",
+      "year": 1935
+    }
+  ]
 }

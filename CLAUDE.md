@@ -119,10 +119,11 @@ Computed from existing metadata (no API calls):
 2. **Open Library** — covers, year, subjects, OCLC, page counts
 3. **Google Books** — descriptions, ISBNs, categories
 4. **Wikipedia** — author bios and photos
-5. **Project Gutenberg** (Gutendex) — free reading links (public domain only)
-6. **LibriVox** — free audiobook links (public domain only)
-7. **HathiTrust** — digitized full texts + rights metadata
-8. **WorldCat** — library catalog links (via OCLC ID)
+5. **Wikidata** — structured metadata via P648 (year/publisher/awards/series) and **adaptations via P144 "based on"** (`scripts/enrich-adaptations.py`)
+6. **Project Gutenberg** (Gutendex) — free reading links (public domain only)
+7. **LibriVox** — free audiobook links (public domain only)
+8. **HathiTrust** — digitized full texts + rights metadata
+9. **WorldCat** — library catalog links (via OCLC ID)
 
 ## Key Patterns
 

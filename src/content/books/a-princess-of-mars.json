@@ -94,7 +94,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -107,5 +108,17 @@
     "name": "Barsoom"
   },
   "cover_url_source": "https://books.google.com/books/content?id=ws18cmj5ic0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:52:26+00:00"
+  "cover_cached_at": "2026-05-03T00:52:26+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Princess of Mars",
+      "year": 2009
+    },
+    {
+      "type": "film",
+      "title": "John Carter",
+      "year": 2012
+    }
+  ]
 }

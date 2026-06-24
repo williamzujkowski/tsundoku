@@ -63,6 +63,14 @@ ENRICHMENT_SOURCES = {
         # still missing after every other source.
         "description": "Consolidated 5-strategy description fallback",
     },
+    "adaptations": {
+        "script": "enrich-adaptations.py",
+        "args": [],
+        # Wikidata P144 "based on": film/TV/stage/radio/opera adaptations for
+        # books carrying a wikidata_qid. Batched SPARQL (~40 books/request),
+        # cached, resumable. Only touches books with no adaptations yet.
+        "description": "Book adaptations from Wikidata P144 (#184)",
+    },
 }
 
 # Safety limits

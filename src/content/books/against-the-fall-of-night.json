@@ -41,7 +41,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 8,
   "first_published_circa": false,
@@ -53,5 +54,17 @@
   "original_publisher": "Gnome Press",
   "cover_url_source": "https://covers.openlibrary.org/b/id/5541403-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/5541403-L.jpg",
-  "cover_cached_at": "2026-05-03T00:53:30+00:00"
+  "cover_cached_at": "2026-05-03T00:53:30+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The City and the Stars",
+      "year": 1956
+    },
+    {
+      "type": "other",
+      "title": "Beyond the Fall of Night",
+      "year": 1990
+    }
+  ]
 }

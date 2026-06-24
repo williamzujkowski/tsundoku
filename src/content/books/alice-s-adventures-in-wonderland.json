@@ -492,7 +492,8 @@
     "original_title": "wikidata_v1",
     "first_published_circa": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -508,5 +509,67 @@
     }
   ],
   "cover_url_source": "https://books.google.com/books/content?id=btIQAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:53:47+00:00"
+  "cover_cached_at": "2026-05-03T00:53:47+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Nursery \"Alice\"",
+      "year": 1890
+    },
+    {
+      "type": "other",
+      "title": "A New Alice in the Old Wonderland",
+      "year": 1895
+    },
+    {
+      "type": "other",
+      "title": "Alice's Adventures in Wonderland retold in words of one syllable",
+      "year": 1905
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "Alice in Wonderland",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "Alice in Wonderland",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1933
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1949
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1951
+    },
+    {
+      "type": "other",
+      "title": "White Rabbit",
+      "year": 1967
+    },
+    {
+      "type": "other",
+      "title": "Curious Alice",
+      "year": 1971
+    },
+    {
+      "type": "film",
+      "title": "Alice's Adventures in Wonderland",
+      "year": 1972
+    }
+  ]
 }
