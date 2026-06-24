@@ -49,8 +49,10 @@ SOURCE_RANK = {
     # scripts/enrich-ol-classification.py. DDC, LCC, subject_facet, ISBN.
     "ol_classification_v2": 60,
 
-    # Open Library data from the original enrich.py monolithic pass.
-    # Mostly superseded but kept for provenance-trail completeness.
+    # Open Library data from the original enrich.py monolithic pass (the
+    # script itself was removed once its work was decomposed into the
+    # source-specific enrichers — see #124). This rank is retained because
+    # existing content still carries `ol_search_v1` provenance tags.
     "ol_search_v1": 40,
 
     # Google Books — descriptions and ISBNs. Less authoritative than OL for
