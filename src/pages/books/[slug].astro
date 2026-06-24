@@ -281,20 +281,49 @@ if (currentLcc) {
         )}
       </dl>
 
-      {/* Classification — DDC + LCC + curated subject_facet */}
+      {/* Classification (#124 DISPLAY-CLASS) — surfaces the library
+          classification data we collect but never showed: Dewey (DDC) and
+          Library of Congress (LCC) call numbers plus faceted subjects. LCC is
+          formatted via the shared lccDisplay() helper used by the spine label
+          and virtual shelf (OL stores it sort-padded). Subjects render as
+          plain tags — there is no /subjects/ index page to link to. The whole
+          section is omitted unless at least one field is present. */}
       {((book.ddc && book.ddc.length > 0) || (book.lcc && book.lcc.length > 0) || (book.subject_facet && book.subject_facet.length > 0)) && (
         <div class="detail-section">
           <dt class="text-dim text-sm mb-2">Classification</dt>
-          <dd class="flex flex-wrap gap-2 text-xs">
-            {book.ddc && book.ddc.length > 0 && (
-              <span class="meta-tag text-mono" title="Dewey Decimal">DDC {book.ddc[0]}</span>
+          <dd>
+            <dl class="grid grid-2 gap-4 text-xs">
+              {book.ddc && book.ddc.length > 0 && (
+                <div>
+                  <dt class="text-dim mb-2">Dewey (DDC)</dt>
+                  <dd class="flex flex-wrap gap-2">
+                    {[...new Set(book.ddc)].slice(0, 4).map(d => (
+                      <span class="meta-tag text-mono" title="Dewey Decimal call number">{d}</span>
+                    ))}
+                  </dd>
+                </div>
+              )}
+              {book.lcc && book.lcc.length > 0 && (
+                <div>
+                  <dt class="text-dim mb-2">Library of Congress (LCC)</dt>
+                  <dd class="flex flex-wrap gap-2">
+                    {[...new Set(book.lcc.map(l => lccDisplay(l)))].slice(0, 4).map(l => (
+                      <span class="meta-tag text-mono" title="Library of Congress call number">{l}</span>
+                    ))}
+                  </dd>
+                </div>
+              )}
+            </dl>
+            {book.subject_facet && book.subject_facet.length > 0 && (
+              <div class="mt-4">
+                <dt class="text-dim mb-2 text-xs">Subjects</dt>
+                <dd class="flex flex-wrap gap-2 text-xs">
+                  {book.subject_facet.slice(0, 12).map(s => (
+                    <span class="meta-tag">{s}</span>
+                  ))}
+                </dd>
+              </div>
             )}
-            {book.lcc && book.lcc.length > 0 && (
-              <span class="meta-tag text-mono" title="Library of Congress">LCC {book.lcc[0]}</span>
-            )}
-            {book.subject_facet && book.subject_facet.slice(0, 8).map(s => (
-              <span class="meta-tag">{s}</span>
-            ))}
           </dd>
         </div>
       )}
