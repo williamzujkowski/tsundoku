@@ -105,7 +105,7 @@ jobs:
       # and save lets us "always save" — the default cache action only saves on
       # cache miss for the exact key.
       - name: Save photo cache
-        uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae  # v5
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v5
         if: always() && github.event_name != 'pull_request'
         with:
           path: public/cached
