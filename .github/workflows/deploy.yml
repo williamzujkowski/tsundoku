@@ -60,7 +60,7 @@ jobs:
   # published to npm yet (it lands with a future remarque-tokens
   # release), so `remarque-ref` pins this call to the feature branch
   # that adds it (williamzujkowski/remarque#71). Once that release
-  # ships, drop `remarque-ref` and repoint `@feat/drift-detection` at a
+  # ships, drop `remarque-ref` and repoint `@main` at a
   # released tag — no other change needed.
   #
   # This site documents its (palette-tier-only) deviations in
@@ -69,11 +69,11 @@ jobs:
   token-drift:
     permissions:
       contents: read
-    uses: williamzujkowski/remarque/.github/workflows/token-drift.yml@feat/drift-detection
+    uses: williamzujkowski/remarque/.github/workflows/token-drift.yml@main
     with:
       css-file: src/styles/tokens-site.css
       package-dir: .
-      remarque-ref: feat/drift-detection
+      remarque-ref: main
 
   build:
     needs: quality
