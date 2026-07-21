@@ -3,7 +3,6 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear } from '../../utils/formatting';
 import { safeJsonLd } from '../../utils/jsonld';
-import ShareButton from '../../components/ShareButton.svelte';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -390,7 +389,6 @@ if (currentLcc) {
       )}
 
       <div class="detail-section flex flex-wrap gap-3 items-center">
-        <ShareButton client:idle title={`${book.title} by ${book.author}`} url={Astro.site ? new URL(`${base}books/${book.slug}/`, Astro.site).href : ''} />
         {book.gutenberg_url && <a href={book.gutenberg_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Project Gutenberg</a>}
         {book.open_library_url && <a href={book.open_library_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Open Library</a>}
         {book.google_books_url && <a href={book.google_books_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Google Books</a>}

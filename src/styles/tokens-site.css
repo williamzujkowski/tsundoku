@@ -140,7 +140,7 @@
       etc. (the prior design system's names) -- in inline style="..."
       attributes (stats.astro, about.astro, index.astro) as well as
       component-scoped <style> blocks (BookGrid, SearchModal, ThemeToggle,
-      RandomBook, ShareButton). Re-pointing those names at the new Remarque
+      RandomBook). Re-pointing those names at the new Remarque
       tokens means the ENTIRE site re-themes without touching a single
       template -- only the token values changed, not the markup. Each
       alias is a var() reference (not a captured literal), so it stays

@@ -113,7 +113,7 @@ for anyone doing a similar retrofit: `tokens-site.css` defines the entire
 prior design system's custom-property names (`--bg`, `--text`,
 `--text-muted`, `--border`, `--shadow*`, `--pop-pink`, etc.) as `var()`
 aliases pointing at the new Remarque tokens, rather than hunting down every
-`var(--old-name)` reference across ~30 Astro pages and 5 Svelte islands.
+`var(--old-name)` reference across ~30 Astro pages and 4 Svelte islands.
 Because CSS custom properties resolve `var()` chains at used-value time
 (not at declaration time), a single alias declared once at `:root` stays
 theme-reactive automatically — no per-theme duplication needed for the
@@ -157,14 +157,21 @@ fix upstream:
   0.16→0.12 orange) until in-gamut; hue and lightness unchanged, so the
   category-color identity is preserved.
 
+## Owner follow-up: `ShareButton.svelte` removed
+
+The initial version of this PR kept `ShareButton.svelte` — restyled quietly
+rather than removed — since Remarque's Disallowed Patterns list calls out
+"social share buttons in content areas" and the component was existing,
+tested functionality. The owner reviewed this as an open question and
+decided to remove it rather than keep the deviation: the component, its
+import, and its render in the book-detail page's link row (`[slug].astro`)
+have been deleted. The other resource links in that row (Project
+Gutenberg, Open Library, Google Books, Goodreads, WorldCat, HathiTrust,
+LibriVox) are unaffected. **Tsundoku is now fully conforming on this rule
+— there is no remaining share/social-widget deviation from Remarque.**
+
 ## Consciously left un-restyled / out of scope
 
-- `ShareButton.svelte` — Remarque's Disallowed Patterns list calls out
-  "social share buttons in content areas." We kept it: it's existing,
-  tested functionality (native `navigator.share` with a clipboard
-  fallback) and removing it wasn't part of this task's brief ("read on
-  Gutenberg" / "Open Library" / etc. links sit in the same row already).
-  Restyled quietly (bordered, no shadow, no lift) rather than removed.
 - The emoji glyphs used as inline status/type icons (📖 for "reading",
   📋 for "want", the broken-image-fallback glyphs, search-result type
   icons) were left as-is — they're small semantic/content glyphs, not
