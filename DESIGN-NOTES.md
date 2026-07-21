@@ -110,6 +110,50 @@ status colors, unchanged since the base restyle) — the border simply
 follows whatever color the shared class sets, so no new color token was
 needed to make the stamp's border match its text.
 
+A second, shared (non-Svelte-scoped) copy of `.status-stamp` was added to
+`global.css` as part of Device 5 below, since Device 5 also needed the
+stamp treatment on a plain Astro page and `BookGrid.svelte`'s Svelte-scoped
+copy can't be reused outside that component. The two copies are
+intentionally independent (not deduplicated into one shared import) so
+either device can be reverted without breaking the other, per the panel's
+"independently revertable" condition.
+
+### Device 5 — Checkout-pocket book page
+
+The book-detail page's metadata card (`src/pages/books/[slug].astro`) now
+opens with the same catalog-card anatomy as Device 1, at dossier scale:
+a mono DDC call number (`.dossier-call-number`, the same shared
+`formatCallNumber(book.ddc)`) followed by a hairline rule
+(`.dossier-rule`) before the existing category/priority/author-works/
+editions grid. The header is omitted entirely when there's no valid call
+number — no empty header, no rule with nothing to close off.
+
+The former "library card pocket" reading-status box is now a **date-due
+slip** (`.due-slip`) — the classic due-date card glued inside a library
+book's back cover: a "DATE DUE" label over a hairline rule, then mono
+date rows on dashed hand-ruled dividers. Real data only, and deliberately
+**not** a fabricated reading-history log — the data model has no
+per-book reading-date log (only a current `reading_status`), so
+inventing one would violate "real data only." Instead the slip is built
+from whatever real chronological facts a given book actually has:
+
+- `first_published` (+ the `first_published_circa` "c." flag, via the
+  existing `formatYear()`)
+- Each award with a known year (`book.awards[].year`) — real Wikidata-
+  sourced data already shown elsewhere on the page
+- Each adaptation with a known year (`book.adaptations[].year`) —
+  likewise already-real data (Device page's own "Adaptations" section)
+- The current reading status, as a final row using the same
+  `statusStamp()`/`.status-stamp` as Device 3
+
+Rows are sorted chronologically so the slip reads top-to-bottom like a
+real one. The whole section is omitted when a book has none of the above
+(no dated facts and no reading status) — "skip empty sections cleanly."
+Verified against a real book (Dune): DDC "813" header, then "First
+published 1965 / Nebula Award for Best Novel 1966 / Hugo Award for Best
+Novel 1966 / Seiun Award for Best Translated Long Work 1974 / Status:
+READ" — every row a real, already-collected fact.
+
 Every Remarque site should have one thing a reader remembers it by — spend
 all the boldness there, keep everything else disciplined. This site's
 signature device is the word **積ん読** itself, set in **tategaki**

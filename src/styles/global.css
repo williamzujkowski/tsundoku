@@ -831,29 +831,26 @@ a:hover { color: var(--color-accent); }
   border-style: dashed;
 }
 
-/* Library card pocket — reading-status affordance on book detail.
-   Sits inside the metadata card. Dashed bottom edge mimics the corner
-   of a library card pocket; monospace label reads as a date stamp. */
-.library-pocket {
-  margin-top: var(--space-4);
-  padding: var(--space-3) var(--space-4);
-  background: var(--bg-elevated);
-  border: var(--border-width) solid var(--border);
-  border-bottom: var(--border-width) dashed var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 0.125rem;
-  max-width: 18rem;
-}
-.library-pocket-label {
+/* Reading-status stamp (library card-catalog identity layer, Device 3 —
+   this is the shared/global copy; BookGrid.svelte's Device 3 commit has
+   its own Svelte-scoped copy for the /browse grid, kept independent so
+   each device stays independently revertable per the design-review
+   panel's condition). Boxed mono uppercase, axis-aligned — no rotation
+   (unanimously rejected: legibility, nondeterministic rendering, kitsch).
+   Color comes from the EXISTING .status-read/.status-reading/.status-want
+   classes above via currentColor — no new color token. */
+.status-stamp {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0.0625rem 0.375rem;
   font-family: var(--font-mono);
   font-size: var(--text-micro);
-  letter-spacing: var(--tracking-meta);
-  color: var(--text-dim);
-}
-.library-pocket-status {
-  font-size: var(--text-body);
-  color: var(--text);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: var(--border-width) solid currentColor;
+  line-height: 1.3;
 }
 
 /* Series sequential navigation — appears between book detail header
