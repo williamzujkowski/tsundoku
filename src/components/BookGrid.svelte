@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { thumbnailUrl, formatCallNumber, invertAuthorName } from '../utils/formatting';
+  import { thumbnailUrl, formatCallNumber, invertAuthorName, statusStamp } from '../utils/formatting';
 
   interface Book {
     title: string;
@@ -328,10 +328,11 @@
               <div class="catalog-rule" aria-hidden="true"></div>
               <div class="book-footer">
                 <p class="book-category">{book.category}</p>
-                {#if book.reading_status}
-                  <span class="status-indicator status-{book.reading_status}">
-                    {book.reading_status === 'read' ? '✓' : book.reading_status === 'reading' ? '📖' : '📋'}
-                  </span>
+                {#if statusStamp(book.reading_status)}
+                  {@const stamp = statusStamp(book.reading_status)}
+                  {#if stamp}
+                    <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span>
+                  {/if}
                 {/if}
               </div>
             </div>
@@ -719,21 +720,26 @@
     white-space: nowrap;
   }
 
-  .status-indicator {
-    font-size: 0.8125rem;
+  /* Device 3 (library card-catalog identity layer): reading-status stamp
+     — boxed mono uppercase, axis-aligned. No rotation: unanimously
+     rejected by the design-review panel (legibility, nondeterministic
+     rendering across engines, kitsch). Color comes from the EXISTING
+     .status-read/.status-reading/.status-want classes (defined globally,
+     already the site's semantic status colors) via currentColor — no new
+     color tokens, the border simply follows whichever text color the
+     shared class sets. */
+  .status-stamp {
+    display: inline-flex;
+    align-items: center;
     flex-shrink: 0;
-  }
-
-  .status-indicator.status-read {
-    color: var(--pop-green);
-  }
-
-  .status-indicator.status-reading {
-    color: var(--pop-yellow);
-  }
-
-  .status-indicator.status-want {
-    color: var(--pop-blue);
+    padding: 0.0625rem 0.375rem;
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: var(--border-width) solid currentColor;
+    line-height: 1.3;
   }
 
   /* --- Load more --- */

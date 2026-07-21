@@ -95,6 +95,21 @@ sticker affixed to the corner rather than a floating badge), `--font-mono`,
 `--text-micro` (13px, the smallest sanctioned text size), `--text-dim`.
 No new color or shape tokens.
 
+### Device 3 — Reading-status stamps
+
+The `/browse` grid's per-card reading-status indicator (previously an
+emoji: ✓/📖/📋) is now a boxed mono uppercase "stamp" — `.status-stamp` in
+`BookGrid.svelte`, driven by `statusStamp(book.reading_status)`: `read` →
+"READ", `reading` → "READING", `want` → "NOT YET". **No rotation** —
+unanimously rejected by the panel (hurts legibility, renders
+nondeterministically across text-rendering engines, reads as kitsch
+rather than restraint). Axis-aligned, crisp, `border: 1px solid
+currentColor` combined with the *existing* `.status-read`/
+`.status-reading`/`.status-want` classes (already the site's semantic
+status colors, unchanged since the base restyle) — the border simply
+follows whatever color the shared class sets, so no new color token was
+needed to make the stamp's border match its text.
+
 Every Remarque site should have one thing a reader remembers it by — spend
 all the boldness there, keep everything else disciplined. This site's
 signature device is the word **積ん読** itself, set in **tategaki**
