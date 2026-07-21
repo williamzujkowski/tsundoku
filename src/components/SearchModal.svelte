@@ -8,6 +8,15 @@
     k?: string; // hidden keyword bag — original_title, series, translator, subject_facet, alt names
   }
 
+  // Device 7 (library card-catalog identity layer): drawer-label voice
+  // for the per-result type tag — typography/label only, per the
+  // design-review panel's constraint. The underlying item.y value
+  // ('book' | 'author') and every behavior that reads it (icon choice,
+  // filtering, sort) are untouched; this only changes what's displayed.
+  function drawerLabel(type: string): string {
+    return type === 'book' ? 'Title card' : 'Author card';
+  }
+
   let { baseUrl = '/' }: { baseUrl?: string } = $props();
 
   let open = $state(false);
@@ -162,7 +171,7 @@
           bind:this={inputEl}
           bind:value={query}
           type="search"
-          placeholder="Search books and authors..."
+          placeholder="Search the card catalog…"
           class="modal-search-input"
           aria-label="Search query"
           aria-controls="search-results"
@@ -214,7 +223,7 @@
                 <p class="result-title">{item.t}</p>
                 <p class="result-subtitle">{item.s}</p>
               </div>
-              <span class="result-type">{item.y}</span>
+              <span class="result-type">{drawerLabel(item.y)}</span>
             </a>
           {/each}
         {/if}
@@ -308,8 +317,18 @@
     outline: none;
   }
 
+  /* Device 7 (library card-catalog identity layer): mono drawer-label
+     voice for the placeholder only — the pseudo-element can carry its
+     own font/case independent of the typed query text, so the input
+     stays comfortable to type in while still reading as a drawer label
+     when empty. Typography only: no structural or behavioral change,
+     focus/keyboard handling above is untouched. */
   .modal-search-input::placeholder {
     color: var(--text-dim);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.8125rem;
   }
 
   .kbd-hint {
@@ -439,11 +458,17 @@
     white-space: nowrap;
   }
 
+  /* Device 7: drawer-label voice for the per-result type tag — "Title
+     card" / "Author card" in place of the raw "book"/"author" value,
+     set uppercase+tracked like a library drawer's typed label. Label
+     text only (drawerLabel() in the script); item.y and everything that
+     reads it (icon choice, filtering) are untouched. */
   .result-type {
     font-family: var(--font-mono);
     font-size: 0.8125rem;
     color: var(--text-dim);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     flex-shrink: 0;
     align-self: center;
   }

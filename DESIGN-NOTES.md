@@ -154,6 +154,36 @@ published 1965 / Nebula Award for Best Novel 1966 / Hugo Award for Best
 Novel 1966 / Seiun Award for Best Translated Long Work 1974 / Status:
 READ" — every row a real, already-collected fact.
 
+### Device 7 — Card-catalog drawer framing (Cmd-K search)
+
+Typography/labels only, per the panel's explicit constraint — nothing
+structural or behavioral changed in `SearchModal.svelte`: `trapTab()`,
+`handleKeydown()`, `handleResultKeydown()`, `toggle()`/`close()`, and
+every `aria-*` attribute are untouched, so keyboard nav (⌘K to open,
+↑/↓ to move, Enter to select, Esc to close, focus trap, focus restore)
+behaves identically to before this device.
+
+Two label changes:
+
+- The input's placeholder reads "Search the card catalog…" and is styled
+  in mono, uppercase, tracked — via `::placeholder`, which can carry its
+  own font/case independent of the *typed* text, so the input stays
+  comfortable to type an ordinary query into while still reading as a
+  drawer label when empty.
+- Each result row's type tag now reads "Title card" / "Author card"
+  (`drawerLabel()`, a pure display mapping) instead of the raw "book"/
+  "author" value, set uppercase+tracked like a typed library-drawer
+  label. The underlying `item.y` value and everything that reads it
+  (icon choice, `aria-label`s, filtering) are unchanged — only what's
+  displayed changed.
+
+No result-grouping was added (the brief's "AUTHOR CARDS"/"TITLE CARDS"
+phrasing suggested literal section headers, but grouping the flat,
+relevance-ordered result list by type would be a structural change the
+panel explicitly ruled out) — the per-row singular label ("Title card")
+delivers the same drawer-catalog voice without touching how results are
+ordered or rendered.
+
 Every Remarque site should have one thing a reader remembers it by — spend
 all the boldness there, keep everything else disciplined. This site's
 signature device is the word **積ん読** itself, set in **tategaki**
