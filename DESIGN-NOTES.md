@@ -663,3 +663,74 @@ flag will likely still fire (the toolbar's heuristic checks for `<Image>`/
 optimized formats specifically, not just CLS-safe attributes) — that's
 expected and tracked by #231, not a regression this PR could have fixed
 without the unverified build-time change above.
+
+## Issue #231 resolved: `astro:assets <Image>` conversion is not viable — closed, not converted
+
+The prior triage above left two open questions: whether the installed
+Astro version's `<Image>`/`getImage()` actually accepts a bare
+`public/`-relative string path (needed for the ~99.9% of covers/photos
+that are locally cached), and whether it was worth budgeting the ~37-
+minute build twice (cold + warm cache) to measure the conversion's
+cost/benefit. Both are now answered, without needing a build at all.
+
+**`<Image>` rejects local `public/` string paths outright — confirmed
+from the installed Astro 7.0.0 source, not assumed.**
+`node_modules/astro/dist/core/errors/errors-data.js` defines
+`LocalImageUsedWrongly`:
+
+> `` `Image`'s and `getImage`'s `src` parameter must be an imported
+> image or a URL, it cannot be a string filepath. ``
+
+Every one of the 18 `<img>` call sites in `.astro` templates receives
+its `src` as a plain string read off content JSON at render time
+(`book.cover_url`, `author.photo_url`) — never a static
+`import ... from '../assets/x.jpg'`. Astro's asset pipeline can only
+transform images it discovers via ESM imports (or genuine remote URLs
+under `image.domains`/`image.remotePatterns`); `public/` is explicitly
+outside Vite's module graph and copied byte-for-byte. Passing any of
+these 3,569 book-cover or 1,538 local author-photo strings to `<Image>`
+throws this error at build time — a hard failure, not a missed
+optimization.
+
+**The remaining non-local candidates don't help either.** Re-checked
+current data directly (`src/content/books/*.json`,
+`src/content/authors/*.json`): book covers are **3,569/3,569 (100%)
+local** as of the #229 merge. Only **4 author photos** remain
+non-local (Anne McCaffrey, Terry Pratchett, Hafez, Malcolm Lowry) — and
+a fresh `curl -I` against all four Wikimedia URLs confirms all four are
+genuinely dead (404/400), not merely uncached. `<Image>`'s remote path
+fetches the URL itself; pointing it at a dead link fails the build the
+same way a local string does. **There are zero remaining call sites
+where `<Image>` can validly replace `<img>` in this codebase, today.**
+
+**Why not just move `public/cached/` under `src/` to unlock real
+processing?** This was the other option on the table, and it's
+feasible for the `.astro`-template half of the problem but not for the
+whole pipeline: `public/browse-data.json` (built by
+`scripts/generate-browse-data.py`, consumed client-side by the
+`BookGrid`/`SearchModal` Svelte islands via `fetch()`) needs `cover_url`
+to be a plain, browser-fetchable URL string *at runtime* — there is no
+client-side equivalent of an ESM/`astro:assets` import for a path
+that's only known from JSON data, so the islands have a hard
+requirement on a real `public/`-served file existing at a stable path.
+Moving the source images to `src/` without also solving that would
+either break the islands or require dual-writing every cached image to
+both `src/` (for `<Image>` in templates) and `public/` (for the
+islands' JSON contract) — doubling on-disk storage, the CI
+`actions/cache` payload, and the cache-photos.py write path for a
+component (`<Image>`) that, per the point above, has no valid local
+target left to apply to regardless. That's new, permanent pipeline
+complexity purchased for zero present benefit.
+
+**Decision: do not convert. Closed #231 as won't-fix**, with this
+section as the recorded rationale (supersedes the "genuinely viable,
+just unverified" framing above — it turned out not to be viable, and
+that only needed reading the installed error catalog and the current
+data, not a 37-minute build). The 18 call sites stay exactly as
+attribute-hardened `<img>` from the prior triage; the dev-toolbar flag
+is expected to keep firing indefinitely and should not be treated as
+actionable. If the underlying facts change in the future — e.g. Astro
+adds first-class support for optimizing `public/`-relative paths, or
+the site drops the Svelte-island client-fetch architecture in favor of
+fully server-rendered pages — this is worth revisiting from scratch,
+not resuming from this conclusion.
