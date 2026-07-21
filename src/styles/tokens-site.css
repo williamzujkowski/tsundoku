@@ -183,10 +183,26 @@
   --max-width: var(--content-wide); /* gallery/grid pages need more than content-standard's 72rem */
   --gutter: clamp(1rem, 3vw, 2rem);
 
-  /* --- category color-coding (7 hues; pink is the sanctioned accent,
-         see header comment -- categories that were pink-coded now share
-         the interactive accent, which still reads fine since categories
-         are never links themselves). Light values, in-gamut. --- */
+  /* --- Modal/dialog scrim. Not part of the sanctioned token set, but
+         "never pure black/white backgrounds" is the spirit of the Color
+         rules even for a full-viewport dimming layer, so this replaces a
+         literal rgba(0,0,0,0.6) in SearchModal.svelte with a warm-neutral
+         equivalent, theme-invariant (a scrim dims the whole viewport, it
+         isn't a surface color). --- */
+  --color-overlay: oklch(0.12 0.01 80 / 0.6);
+
+  /* --- category color-coding (7 DISTINCT hues, none of them
+         --color-accent). This is content taxonomy ONLY: it exists solely
+         for the .cat-* mapping below and the status-badge/priority-badge
+         read/reading/want semantics. It is NOT a general-purpose accent
+         palette — nothing else (hover states, chart fills, rank numbers,
+         decorative card borders) may use these tokens. That confusion is
+         exactly the bug fixed in the dark-mode sweep: --pop-pink used to
+         leak into interactive hover/focus states in BookGrid.svelte and
+         SearchModal.svelte, and --pop-purple/--pop-cyan/etc. leaked into
+         stats.astro/index.astro chart fills and a rainbow rank-number
+         list — all now moved to --color-accent. See DESIGN-NOTES.md.
+         Light values, in-gamut. --- */
   --pop-blue:   oklch(0.48 0.13 254.8);
   --pop-green:  oklch(0.50 0.12 122.9);
   --pop-yellow: oklch(0.55 0.11 85.8);
@@ -194,10 +210,12 @@
   --pop-purple: oklch(0.50 0.16 349.8);
   --pop-red:    oklch(0.50 0.17 27.8);
   --pop-cyan:   oklch(0.55 0.09 186.7);
-  --pop-pink:   oklch(0.50 0.16 350); /* .cat-literature / .cat-art / .cat-music only */
+  --pop-pink:   oklch(0.50 0.16 350); /* .cat-literature / .cat-art / .cat-music / .cat-memoir only */
 
   /* World-map gradient endpoints (stats.astro color-mixes between these
-     in OKLCH per-country -- theme-aware without rebuilding the page). */
+     in OKLCH per-country -- theme-aware without rebuilding the page).
+     This IS a sanctioned data-viz exception: a single-hue choropleth
+     ramp between a neutral and the accent, not a rainbow. */
   --map-low: var(--color-border-bold);
   --map-high: var(--color-accent);
 }

@@ -372,7 +372,7 @@
 
   .search-input:focus {
     outline: none;
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
   }
 
   .search-icon {
@@ -415,7 +415,7 @@
 
   .filter-select:focus {
     outline: none;
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
   }
 
   /* --- Results bar --- */
@@ -439,7 +439,7 @@
     font-family: var(--font-mono);
     font-size: 0.875rem;
     font-weight: 500;
-    color: var(--pop-pink);
+    color: var(--color-accent);
     background: none;
     border: none;
     text-decoration: underline;
@@ -497,8 +497,8 @@
   }
 
   .btn-clear-all:hover {
-    border-color: var(--pop-pink);
-    color: var(--pop-pink);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
   }
 
   /* --- Book card grid --- */
@@ -540,7 +540,7 @@
   }
 
   .book-card:hover {
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
     color: var(--text);
   }
 
@@ -566,7 +566,7 @@
   }
 
   .book-card:hover .book-thumb {
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
   }
 
   .book-thumb-placeholder {
@@ -614,7 +614,7 @@
   }
 
   .book-card:hover .book-title {
-    color: var(--pop-pink);
+    color: var(--color-accent);
   }
 
   .book-author {
@@ -694,7 +694,7 @@
   }
 
   .btn-load-more:hover {
-    border-color: var(--pop-pink);
-    color: var(--pop-pink);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
   }
 </style>

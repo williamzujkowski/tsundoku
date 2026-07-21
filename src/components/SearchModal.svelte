@@ -264,7 +264,7 @@
     position: fixed;
     inset: 0;
     z-index: 60;
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--color-overlay);
     backdrop-filter: blur(4px);
   }
 
@@ -393,7 +393,7 @@
   .result-item:hover,
   .result-item.result-active {
     background: var(--bg-elevated);
-    border-left-color: var(--pop-pink);
+    border-left-color: var(--color-accent);
     color: var(--text);
   }
 

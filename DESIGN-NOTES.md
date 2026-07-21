@@ -81,30 +81,36 @@ formal.
 REMARQUE.md's Color rules say the accent is used for "exactly two things:
 inline links and one interactive element per viewport." This site has a
 pre-existing content-taxonomy feature — 30 book categories, each assigned
-one of 7 hues (`--pop-blue` / `--pop-green` / `--pop-yellow` / `--pop-orange`
-/ `--pop-purple` / `--pop-red` / `--pop-cyan`, plus `--pop-pink` shared with
-the sanctioned `--color-accent` role) via the `.cat-*` classes in
+one of **8 hues, all distinct from `--color-accent`** (`--pop-pink` /
+`--pop-blue` / `--pop-green` / `--pop-yellow` / `--pop-orange` /
+`--pop-purple` / `--pop-red` / `--pop-cyan`) via the `.cat-*` classes in
 `tokens-site.css`. We kept this system, deliberately separate from
 `--color-accent`:
 
-- `--color-accent` (the terracotta hue) is the *only* color used for link
-  and interactive-hover semantics — every hover/focus rule in the system
-  references it, never a `--pop-*` value.
-- The 7 `--pop-*` hues are pure content taxonomy: they appear only as a
-  category tile's border-accent, a category-scoped `--cat-accent`, or a
-  status/priority color (read=green, reading=yellow, want=blue) — never as
-  a generic "this is clickable" signal.
+- `--color-accent` (the terracotta hue, H35) is the *only* color used for
+  link and interactive-hover semantics — every hover/focus/active rule in
+  the system references it, never a `--pop-*` value. **This rule was
+  violated in the first cut of this restyle and had to be corrected — see
+  "Dark-mode sweep" below.**
+- The 8 `--pop-*` hues are pure content taxonomy and semantic state, never
+  a generic "this is clickable" signal: a category tile's border-accent, a
+  category-scoped `--cat-accent`, a status color (`status-read` = green,
+  `status-reading` = yellow, `status-want` = blue), a priority-adjacent
+  resource-identity color (Gutenberg = green, HathiTrust = blue, LibriVox
+  = yellow — matching `.resource-btn-*` everywhere it appears), or a
+  `results-error` state (red). None of them encode rank, decorative
+  variety, or "look at this."
 
 This is the single largest intentional deviation from "accent used
 sparingly, one hue only." We think it's justified because the categories
-are data the reader is meant to scan and recognize at a glance across
-thousands of items, which is a different job than "signal interactivity."
-A future spec amendment might carve out an explicit "content taxonomy
-color" allowance, distinct from the interactive accent, with its own
-contrast rules (we held all 7 hues to roughly the same lightness/contrast
-discipline as the original site's already-audited pop-art palette, but
-they are *not* run through `remarque-audit`'s CHECKS array, which only
-inspects the sanctioned `--color-*` names).
+and statuses are data the reader is meant to scan and recognize at a
+glance across thousands of items, which is a different job than "signal
+interactivity." A future spec amendment might carve out an explicit
+"content taxonomy color" allowance, distinct from the interactive accent,
+with its own contrast rules (we held all 8 hues to roughly the same
+lightness/contrast discipline as the original site's already-audited
+pop-art palette, but they are *not* run through `remarque-audit`'s CHECKS
+array, which only inspects the sanctioned `--color-*` names).
 
 ### 4. Legacy variable aliasing as a migration technique
 
@@ -156,6 +162,123 @@ fix upstream:
   checker. Reduced chroma slightly (0.13→0.12 green, 0.13→0.11 yellow,
   0.16→0.12 orange) until in-gamut; hue and lightness unchanged, so the
   category-color identity is preserved.
+
+## Owner follow-up: dark-mode / data-viz sweep
+
+The owner reviewed the live dev server and flagged that the restyle was
+**not uniform**: light theme looked correct everywhere checked (home,
+About, Authors, Stats), but dark theme and the data-viz-heavy `/stats/`
+page still showed the legacy neo-brutalist palette — teal/cyan progress
+bars, purple decade-histogram bars, a rainbow-cycling rank-number list on
+"Most Represented Authors," and a modal backdrop that compounded with the
+dark background to read as near-black.
+
+**Root cause, confirmed.** `npx remarque-audit --palette
+src/styles/tokens-site.css --src src/styles` (the command wired into CI)
+only scans `src/styles/` — it never sees `<style>` blocks inside
+`.astro`/`.svelte` files elsewhere in `src/`, and it only flags *syntactic*
+violations (hardcoded hex/rgb/oklch) — a `var(--pop-purple)` reference is
+syntactically a token reference, so the audit is blind to it being the
+*semantically wrong* token. Two categories of bug slipped through on that
+basis:
+
+1. **Interactive-state leakage.** `BookGrid.svelte` and `SearchModal.svelte`
+   were edited during the initial restyle for shadows/motion/touch-targets,
+   but their hover/focus/active states were left referencing
+   `var(--pop-pink)` — a literal rose hue (H350) from the *category* color
+   system, not `var(--color-accent)` (the terracotta H35 accent). In dark
+   mode `--pop-pink`'s value (`oklch(0.74 0.13 350)`) is considerably more
+   saturated/different from the accent than in light mode, which is why it
+   read as "still the legacy palette" specifically in dark theme. Fixed:
+   every non-semantic `--pop-pink` reference in both files now reads
+   `var(--color-accent)` (search input/filter-select focus rings, book-card
+   hover, load-more/clear-filters hover, search-result active/hover state).
+   The genuinely semantic uses (`.status-indicator.status-read` = green,
+   `.results-error` = red) were left untouched.
+2. **Decorative chart-fill leakage.** `stats.astro`, `index.astro`, and
+   `about.astro` had several data-viz elements and decorative card accents
+   still hardwired to specific `--pop-*` hues with no semantic meaning —
+   a holdover from the old design, where the 8 pop colors were just "the
+   accent palette," not a taxonomy system. Fixed:
+   - `stats.astro`: the decade-timeline bar fill, the nationality-distribution
+     bar fill, the "Book/Author Data Coverage" progress-bar fills, the
+     "Publication Era" bar fill, and the "Must-Read" priority-breakdown bar
+     all moved from assorted `--pop-*` values to `var(--color-accent)` —
+     each is a single-series bar chart, which is exactly the "one accent,
+     used sparingly" case, not a taxonomy.
+   - `stats.astro`'s "Most Represented Authors" rank list no longer cycles
+     through all 8 `--pop-*` hues per rank (`colors[i % colors.length]`) —
+     rank position is not a category, so the rainbow was pure decoration.
+     Rank numbers are now plain `text-dim`, and the list-item's left-border
+     accent falls back to the default `--color-accent` uniformly.
+   - `index.astro`'s home-page sparkline: resting bars moved from
+     `--pop-purple` to the neutral `--color-border-bold`; the hover state
+     (exactly one bar highighted at a time) legitimately keeps a single
+     accent color, now `--color-accent` instead of `--pop-cyan`.
+   - `about.astro`'s "How It's Built" tech-stack cards and "Stages of
+     Tsundoku" list both cycled through 5–6 `--pop-*` hues with no semantic
+     mapping (Astro isn't "cyan," Svelte isn't "orange" in any documented
+     sense) — both now fall back to the uniform `--color-accent` via
+     `.card-accent-top`/`.card-accent-left`'s default. The **"Free
+     Reading" cards were left alone** (Gutenberg = green, LibriVox =
+     yellow, HathiTrust = blue) — that mapping is a legitimate,
+     already-documented resource-identity system matching
+     `.resource-btn-gutenberg`/`.resource-btn-librivox`/`.resource-btn-hathitrust`
+     everywhere else in the app, not decoration.
+   - `SearchModal.svelte`'s full-viewport overlay was `rgba(0, 0, 0, 0.6)`
+     — a literal, pure-black, non-tokenized color, which is what compounded
+     with the already-dark dark-theme background to read as near-black
+     when the modal was open. Replaced with a new `--color-overlay` token
+     (`oklch(0.12 0.01 80 / 0.6)`, theme-invariant — a dimming scrim isn't
+     a themed surface) in `tokens-site.css`.
+
+**Wider audit, before/after.** `npx remarque-audit --palette
+src/styles/tokens-site.css --src src` (whole `src/`, used here only as a
+diagnostic — the CI command stays scoped to `src/styles`, see below):
+before this sweep, 8 findings; after, 7. The one resolved finding was the
+`rgba(0,0,0,0.6)` overlay. **The remaining 7 are not real violations**
+(triaged below) — they're two known limitations of the audit's simple
+regex scanner, not detectable by the mechanical audit at all, which is why
+this sweep had to be done by hand (`grep` + reading every match in
+context) rather than by re-running the tool with a wider `--src`:
+
+- 4 false positives: `SearchModal.svelte:140,231` and
+  `[slug].astro:439`/`index.astro:105` all trip the hex-color regex on
+  GitHub issue references inside **HTML** `<!-- -->` comments (`#203`,
+  `#184`, `#124`) — the audit only strips CSS `/* */` comments before
+  scanning, not HTML comments, so `#203` reads as a 3-digit hex triplet.
+  No color bug; a parser limitation worth reporting upstream.
+- 3 flagged-but-sanctioned: `Layout.astro`'s critical inline `<style
+  is:inline>` block (the FOUC-prevention CSS that sets `background`/`color`
+  before any stylesheet — including the token file itself — has loaded)
+  necessarily duplicates literal `oklch()` values matching
+  `tokens-site.css`'s `--color-bg`/`--color-fg`. This can't be a `var()`
+  reference: at the point this inline `<style>` executes, no external CSS
+  (tokens included) has been fetched yet, which is the entire reason it
+  exists. Documented here as a **sanctioned exception** — if
+  `tokens-site.css`'s bg/fg values ever change, this block must be updated
+  to match (there's no way to keep them in sync automatically without
+  reintroducing the FOUC this block exists to prevent).
+
+The CI audit step (`.github/workflows/deploy.yml`) intentionally keeps
+`--src src/styles`, matching the task brief — a `--src src` run in CI
+would perma-fail on the 4 HTML-comment false positives above, and doesn't
+belong in a mechanical gate without fixing the audit's comment-stripping
+upstream first. The wider sweep is a one-time manual pass, documented here
+so it doesn't have to be redone from scratch next time.
+
+**Documented, sanctioned data-viz/decoration exceptions after this sweep:**
+
+- The world-map choropleth (`stats.astro`'s `mapFillRules`, `--map-low` /
+  `--map-high`) — a single-hue ramp from `--color-border-bold` to
+  `--color-accent`, not a rainbow. Legitimate.
+- `.status-indicator`/`.status-badge` (read/reading/want) and
+  `.priority-badge` — content-state semantics, not decoration.
+- `.resource-btn-*` and the About-page "Free Reading" cards — resource
+  source-identity, consistent across the whole site.
+- `--color-overlay` (new) — the modal scrim; not a themed surface, so it's
+  intentionally *not* split light/dark.
+- The 8-hue `.cat-*` category-coding system (section 3 above).
 
 ## Owner follow-up: `ShareButton.svelte` removed
 
