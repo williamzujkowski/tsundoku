@@ -90,7 +90,7 @@ const mostProlific = [...allAuthors]
         const inner = (
           <>
             {author.photo_url ? (
-              <img src={author.photo_url} alt="" class="author-avatar" loading="lazy" />
+              <img src={author.photo_url} alt="" width="44" height="44" class="author-avatar" loading="lazy" decoding="async" />
             ) : (
               <div class="author-avatar-placeholder" aria-hidden="true">
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

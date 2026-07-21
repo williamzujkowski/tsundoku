@@ -1,9 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear } from '../../utils/formatting';
+import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear, formatCallNumber, statusStamp } from '../../utils/formatting';
 import { safeJsonLd } from '../../utils/jsonld';
-import ShareButton from '../../components/ShareButton.svelte';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -99,6 +98,39 @@ function adaptationTypeLabel(type: string): string {
   return ADAPTATION_TYPE_LABELS[type] ?? 'Adaptation';
 }
 
+// Device 5 (library card-catalog identity layer): the metadata dossier's
+// catalog-card header. Same shared formatCallNumber() as Devices 1/2 —
+// strictly validated, renders nothing if missing/malformed.
+const callNumber = formatCallNumber(book.ddc);
+
+// Device 5's "date-due slip" — a due-date-card treatment for the card's
+// footer, built ONLY from real chronological data this book actually has
+// (there is no per-book reading-date log in the data model, so this is
+// not a fabricated history): first-published year, award years,
+// adaptation years, each a real, already-collected field. Sorted
+// chronologically so the slip reads top-to-bottom like a real one.
+interface SlipRow { label: string; year: number; display: string }
+const slipRows: SlipRow[] = [];
+if (book.first_published !== undefined) {
+  slipRows.push({
+    label: 'First published',
+    year: book.first_published,
+    display: formatYear(book.first_published, book.first_published_circa),
+  });
+}
+for (const a of book.awards ?? []) {
+  if (a.year !== undefined) {
+    slipRows.push({ label: a.name, year: a.year, display: String(a.year) });
+  }
+}
+for (const a of book.adaptations ?? []) {
+  if (a.year !== undefined) {
+    slipRows.push({ label: `${adaptationTypeLabel(a.type)} adaptation`, year: a.year, display: String(a.year) });
+  }
+}
+slipRows.sort((a, b) => a.year - b.year);
+const readingStamp = statusStamp(book.reading_status);
+
 const currentLcc = book.lcc?.[0] ?? null;
 let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; lcc: string }> = [];
 if (currentLcc) {
@@ -154,8 +186,12 @@ if (currentLcc) {
           <img
             src={book.cover_url_large || book.cover_url}
             alt={`Cover of ${book.title}`}
+            width="144"
+            height="216"
             class="book-detail-cover"
             loading="eager"
+            decoding="async"
+            fetchpriority="high"
             transition:name={`cover-${book.slug}`}
           />
           {currentLcc && (
@@ -258,8 +294,20 @@ if (currentLcc) {
       </div>
     </div>
 
-    <!-- Metadata card -->
-    <div class="card card-padded-lg mb-8">
+    <!-- Metadata card — restyled as the lined catalog card (library
+         card-catalog identity layer, Device 5): same anatomy as the
+         /browse grid's Device 1 catalog cards, at dossier scale. The
+         call number is the one shared, unit-tested formatCallNumber()
+         from Devices 1/2 — omitted cleanly when missing/malformed. -->
+    <div class="card card-padded-lg mb-8 dossier-card">
+      {callNumber && (
+        <>
+          <div class="dossier-header">
+            <span class="dossier-call-number">{callNumber}</span>
+          </div>
+          <div class="dossier-rule" aria-hidden="true"></div>
+        </>
+      )}
       <dl class="grid grid-2 md-grid-3 gap-4 text-sm">
         <div>
           <dt class="text-dim mb-2">Category</dt>
@@ -347,12 +395,27 @@ if (currentLcc) {
         </div>
       )}
 
-      {book.reading_status && (
-        <div class="library-pocket" aria-label="Reading status — library card pocket">
-          <span class="library-pocket-label">FROM THE STACKS</span>
-          <span class="library-pocket-status">
-            {book.reading_status === 'read' ? 'Returned · Read' : book.reading_status === 'reading' ? 'Currently checked out' : 'On hold · waiting'}
-          </span>
+      {/* Date-due slip (Device 5) — a due-date-card treatment built ONLY
+          from real chronological data this book has (first-published
+          year, award years, adaptation years — all already-collected
+          fields; there is no per-book reading-date log to draw a
+          fabricated history from). The whole section is omitted when
+          there's neither a dated fact nor a reading status to show. */}
+      {(slipRows.length > 0 || readingStamp) && (
+        <div class="due-slip" aria-label="Dates on record for this book">
+          <span class="due-slip-label">DATE DUE</span>
+          {slipRows.map(row => (
+            <div class="due-slip-row">
+              <span class="due-slip-desc">{row.label}</span>
+              <span class="due-slip-date">{row.display}</span>
+            </div>
+          ))}
+          {readingStamp && (
+            <div class="due-slip-row">
+              <span class="due-slip-desc">Status</span>
+              <span class={`status-stamp ${readingStamp.className}`}>{readingStamp.label}</span>
+            </div>
+          )}
         </div>
       )}
 
@@ -390,7 +453,6 @@ if (currentLcc) {
       )}
 
       <div class="detail-section flex flex-wrap gap-3 items-center">
-        <ShareButton client:idle title={`${book.title} by ${book.author}`} url={Astro.site ? new URL(`${base}books/${book.slug}/`, Astro.site).href : ''} />
         {book.gutenberg_url && <a href={book.gutenberg_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Project Gutenberg</a>}
         {book.open_library_url && <a href={book.open_library_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Open Library</a>}
         {book.google_books_url && <a href={book.google_books_url} target="_blank" rel="noopener noreferrer" class="ext-link text-sm">Google Books</a>}
@@ -471,7 +533,7 @@ if (currentLcc) {
           {shelfNeighbors.map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -494,7 +556,7 @@ if (currentLcc) {
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -518,7 +580,7 @@ if (currentLcc) {
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -541,3 +603,77 @@ if (currentLcc) {
     <a href={`${base}browse/`} class="ext-link text-sm text-muted">← Back to browse</a>
   </article>
 </Layout>
+
+<style>
+  /* Device 5 (library card-catalog identity layer): the metadata
+     dossier's catalog-card header — same anatomy as the /browse grid's
+     Device 1 cards (mono call number + hairline rule), at dossier scale.
+     Existing tokens only. */
+  .dossier-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .dossier-call-number {
+    font-family: var(--font-mono);
+    font-size: var(--text-body-lg);
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    letter-spacing: 0.02em;
+  }
+
+  .dossier-rule {
+    border-top: var(--border-width) solid var(--border);
+    margin-block: var(--space-3);
+  }
+
+  /* Date-due slip — the classic due-date card glued inside a library
+     book's back cover, built only from real chronological data (see the
+     slipRows computation above). Dashed row dividers read as
+     hand-ruled lines; dates are right-aligned mono like a real slip. */
+  .due-slip {
+    margin-top: var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-elevated);
+    border: var(--border-width) solid var(--border);
+    max-width: 24rem;
+  }
+
+  .due-slip-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-2);
+    border-bottom: var(--border-width) solid var(--border);
+  }
+
+  .due-slip-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding-block: 0.25rem;
+    border-bottom: var(--border-width) dashed var(--border);
+  }
+
+  .due-slip-row:last-child {
+    border-bottom: none;
+  }
+
+  .due-slip-desc {
+    font-size: var(--text-meta);
+    color: var(--text-muted);
+  }
+
+  .due-slip-date {
+    font-family: var(--font-mono);
+    font-size: var(--text-meta);
+    color: var(--text);
+    font-variant-numeric: tabular-nums lining-nums;
+    flex-shrink: 0;
+  }
+</style>

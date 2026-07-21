@@ -1,0 +1,53 @@
+/* ===== Self-hosted Fonts (Remarque three-slot system) =====
+   Copied from remarque-tokens/fonts/ into public/fonts/ so they ship as
+   static GitHub Pages assets under the site's base path. The package's own
+   fonts.css uses paths relative to node_modules, which don't survive the
+   /tsundoku/ base — hence this local copy per REMARQUE.md / AGENT_RULES.md
+   pitfall #5 (GitHub Pages base path).
+
+   Preload the three roman faces from Layout.astro's <head>:
+     <link rel="preload" href="/tsundoku/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+     <link rel="preload" href="/tsundoku/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+     <link rel="preload" href="/tsundoku/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+   (Italic faces load on demand — not preloaded.)
+*/
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url("/tsundoku/fonts/inter-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url("/tsundoku/fonts/inter-italic-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url("/tsundoku/fonts/newsreader-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Newsreader";
+  font-style: italic;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url("/tsundoku/fonts/newsreader-italic-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 300 500;
+  font-display: swap;
+  src: url("/tsundoku/fonts/jetbrains-mono-latin.woff2") format("woff2");
+}

@@ -39,6 +39,9 @@ jobs:
       - name: Run JS tests
         run: npm test
 
+      - name: Remarque design-token audit
+        run: npx remarque-audit --palette src/styles/tokens-site.css --src src/styles
+
       - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6
         with:
           python-version: '3.12'

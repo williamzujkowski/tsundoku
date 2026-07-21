@@ -1,201 +1,72 @@
-/* ===== Neo-Brutalist Pop Art Design System ===== */
+/* ===== Tsundoku on the Remarque Design System =====
+   Typography-first restyle (feat/remarque-design-system). Replaces the
+   prior neo-brutalist pop-art system (hard shadows, translate-lift hovers,
+   filled CTA buttons, stagger-reveal animations) with Remarque's quieter,
+   editorial vocabulary — while keeping every selector this codebase's
+   Astro pages and Svelte islands already reference, so no template or
+   component markup had to change for the visual overhaul to take effect.
 
-/* ===== Design Tokens — Dark (default) =====
-   Theme: Kanagawa Paper Ink (oklch-terminal-themes, AAA contrast 11.3:1).
-   The "ink on aged paper" palette pairs a warm-beige fg with cool-indigo
-   bg — designed for prose reading, not terminal UI. Gives the catalog
-   library gravity without going clinical. See feat/library-dark-theme.
+   Import order per remarque-tokens' AGENT_RULES.md ("Build Order" + Pitfall
+   #6/#7): fonts, then the tokens aggregator, then site styles — all as
+   *string-form* imports (Pitfall #6: `@import url(...)` gets silently
+   dropped for local files) and *unlayered* (Pitfall #7: never wrap the
+   tokens in `@layer`).
+
+   Token tiers (see REMARQUE.md "Token Tiers"):
+     - tokens-core.css (imported below) is NEVER overridden — type scale,
+       spacing, radius ceiling, motion durations, prose machinery.
+     - The --color-* / --font-* / --content-reading palette tier, the
+       legacy-name aliases, and the category color-coding extension all
+       live in ./tokens-site.css (imported below), kept in its own
+       import-free file so `npx remarque-audit --palette
+       src/styles/tokens-site.css --src src/styles` can read it literally
+       — the audit script text-scans the file it's pointed at, it does
+       not follow @import chains, and its parser mis-reads a file whose
+       first rule is preceded by multiple @import statements. See that
+       file's header comment for the full palette rationale.
 */
-:root {
-  color-scheme: dark;
 
-  /* Base palette — Kanagawa Paper Ink */
-  --bg: oklch(0.243 0.017 285.1);          /* ink */
-  --bg-surface: oklch(0.285 0.018 285.1);  /* +L for cards */
-  --bg-elevated: oklch(0.325 0.019 285.1); /* +L for popovers */
-  --text: oklch(0.876 0.039 99.1);         /* aged paper */
-  --text-muted: oklch(0.760 0.030 99.1);   /* ≈7.4:1 — AAA */
-  --text-dim: oklch(0.665 0.025 99.1);     /* ≈5.6:1 — AA, large-text safe */
+@import './fonts.css';
+@import 'remarque-tokens/core';
+@import './tokens-site.css';
+@import 'remarque-tokens/prose';
 
-  /* Structural lines — passes WCAG 1.4.11 (3:1 vs bg) */
-  --border: oklch(0.420 0.015 285.1);
-  --border-strong: oklch(0.760 0.030 99.1);
-  --border-width: 2px;
-  --shadow-color: oklch(0 0 0 / 0.55);
-  --shadow: 4px 4px 0 var(--shadow-color);
-  --shadow-sm: 2px 2px 0 var(--shadow-color);
-  /* Soft elevation scale — for cards/sections that don't need brutalist offset */
-  --shadow-1: 0 1px 2px oklch(0 0 0 / 0.4);
-  --shadow-2: 0 4px 12px oklch(0 0 0 / 0.4);
-  --shadow-3: 0 12px 32px oklch(0 0 0 / 0.45);
-
-  /* Aliases consumed by component-specific styles — kept here so the
-     stats world-map default-country fill, etc. don't fall through to a
-     hardcoded light fallback in dark mode. */
-  --card-bg: var(--bg-surface);
-
-  /* World-map gradient endpoints. The stats page color-mixes between
-     these in OKLCH for per-country fills, so the gradient adapts to the
-     active theme automatically. Dark: muted slate → saturated purple. */
-  --map-low: oklch(0.32 0.02 305);
-  --map-high: oklch(0.74 0.16 305);
-
-  /* Color used for text on filled accent backgrounds (e.g. .btn on pop-pink) */
-  --on-accent: oklch(0.243 0.017 285.1);
-
-  /* Accent palette — chroma capped at 0.14 in dark mode to prevent
-     vibration against the warm-beige fg. Hue identity preserved so
-     category recognition (pink≈literature, blue≈sci-fi, …) still works. */
-  --pop-pink: oklch(0.74 0.13 350);
-  --pop-blue: oklch(0.72 0.12 250);
-  --pop-green: oklch(0.78 0.12 145);
-  --pop-yellow: oklch(0.86 0.11 90);
-  --pop-orange: oklch(0.78 0.13 55);
-  --pop-purple: oklch(0.74 0.12 300);
-  --pop-red: oklch(0.72 0.13 25);
-  --pop-cyan: oklch(0.78 0.10 200);
-
-  /* Focus ring — distinct from accents so it pops on tinted surfaces */
-  --ring: oklch(0.78 0.10 200 / 0.6);
-
-  /* Typography */
-  --font-body: system-ui, -apple-system, sans-serif;
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
-
-  /* Spacing */
-  --max-width: 80rem;
-  --gutter: clamp(1rem, 3vw, 2rem);
-}
-
-/* ===== Design Tokens — Light =====
-   Theme: Flexoki Light (oklch-terminal-themes, AAA contrast 18.6:1).
-   Designed by Steph Ango as "an inky color scheme for prose and code";
-   warm-cream bg with warm near-black ink fg. The bg hue (H≈95) sits in
-   the same family as Kanagawa Paper Ink's fg (H=99) — the two themes
-   are reading-room-light and reading-room-dim of the same world.
-
-   Applied either by system preference (when user has not chosen) or
-   explicit data-theme="light". The two blocks must stay in sync.
-*/
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    color-scheme: light;
-    --bg: oklch(0.99 0.016 95.2);          /* warm cream paper */
-    --bg-surface: oklch(0.972 0.014 95.2); /* slightly recessed for cards */
-    --bg-elevated: oklch(0.946 0.012 95.2);/* deeper recess for popovers */
-    --text: oklch(0.17 0.002 17.3);        /* warm near-black ink */
-    --text-muted: oklch(0.36 0.008 95.2);  /* ≈9.4:1 — AAA */
-    --text-dim: oklch(0.50 0.010 95.2);    /* ≈5.5:1 — AA, large-text safe */
-    --border: oklch(0.78 0.012 96.5);      /* ≈3.1:1 — clears 1.4.11 */
-    --border-strong: oklch(0.17 0.002 17.3);
-    --shadow-color: oklch(0 0 0 / 0.15);
-    --card-bg: var(--bg-surface);
-    --on-accent: oklch(0.99 0.016 95.2);
-    --ring: oklch(0.55 0.18 230 / 0.6);
-    --map-low: oklch(0.94 0.018 95);
-    --map-high: oklch(0.50 0.20 305);
-    /* Light-mode accents — chroma stays high (~0.13–0.18) for visibility
-       on warm-cream surfaces. Hue alignment with Flexoki accents. */
-    --pop-pink:   oklch(0.50 0.16 350);
-    --pop-blue:   oklch(0.48 0.13 254.8);
-    --pop-green:  oklch(0.50 0.13 122.9);
-    --pop-yellow: oklch(0.55 0.13 85.8);
-    --pop-orange: oklch(0.55 0.16 55);
-    --pop-purple: oklch(0.50 0.16 349.8);
-    --pop-red:    oklch(0.50 0.17 27.8);
-    --pop-cyan:   oklch(0.55 0.09 186.7);
-  }
-}
-:root[data-theme="light"] {
-  color-scheme: light;
-  --bg: oklch(0.99 0.016 95.2);
-  --bg-surface: oklch(0.972 0.014 95.2);
-  --bg-elevated: oklch(0.946 0.012 95.2);
-  --text: oklch(0.17 0.002 17.3);
-  --text-muted: oklch(0.36 0.008 95.2);
-  --text-dim: oklch(0.50 0.010 95.2);
-  --border: oklch(0.78 0.012 96.5);
-  --border-strong: oklch(0.17 0.002 17.3);
-  --shadow-color: oklch(0 0 0 / 0.15);
-  --card-bg: var(--bg-surface);
-  --on-accent: oklch(0.99 0.016 95.2);
-  --ring: oklch(0.55 0.18 230 / 0.6);
-  --map-low: oklch(0.94 0.018 95);
-  --map-high: oklch(0.50 0.20 305);
-  --pop-pink:   oklch(0.50 0.16 350);
-  --pop-blue:   oklch(0.48 0.13 254.8);
-  --pop-green:  oklch(0.50 0.13 122.9);
-  --pop-yellow: oklch(0.55 0.13 85.8);
-  --pop-orange: oklch(0.55 0.16 55);
-  --pop-purple: oklch(0.50 0.16 349.8);
-  --pop-red:    oklch(0.50 0.17 27.8);
-  --pop-cyan:   oklch(0.55 0.09 186.7);
-}
-
-/* ===== Category Colors (static allowlist — 30 categories) ===== */
-.cat-philosophy { --cat-accent: var(--pop-purple); }
-.cat-literature { --cat-accent: var(--pop-pink); }
-.cat-science-fiction-fantasy { --cat-accent: var(--pop-blue); }
-.cat-history { --cat-accent: var(--pop-orange); }
-.cat-science { --cat-accent: var(--pop-cyan); }
-.cat-politics { --cat-accent: var(--pop-red); }
-.cat-psychology { --cat-accent: var(--pop-green); }
-.cat-economics { --cat-accent: var(--pop-yellow); }
-.cat-mathematics { --cat-accent: var(--pop-blue); }
-.cat-technology { --cat-accent: var(--pop-cyan); }
-.cat-religion { --cat-accent: var(--pop-purple); }
-.cat-sociology { --cat-accent: var(--pop-orange); }
-.cat-art { --cat-accent: var(--pop-pink); }
-.cat-music { --cat-accent: var(--pop-pink); }
-.cat-military-history { --cat-accent: var(--pop-red); }
-.cat-global-history { --cat-accent: var(--pop-orange); }
-.cat-ecology { --cat-accent: var(--pop-green); }
-.cat-linguistics { --cat-accent: var(--pop-yellow); }
-.cat-anthropology { --cat-accent: var(--pop-orange); }
-.cat-memoir { --cat-accent: var(--pop-pink); }
-.cat-journalism { --cat-accent: var(--pop-red); }
-.cat-law { --cat-accent: var(--pop-purple); }
-.cat-education { --cat-accent: var(--pop-green); }
-.cat-business { --cat-accent: var(--pop-yellow); }
-.cat-security { --cat-accent: var(--pop-red); }
-.cat-computer-science { --cat-accent: var(--pop-cyan); }
-.cat-medicine { --cat-accent: var(--pop-green); }
-.cat-architecture { --cat-accent: var(--pop-orange); }
-.cat-sports { --cat-accent: var(--pop-blue); }
-.cat-governance { --cat-accent: var(--pop-purple); }
-.cat-default { --cat-accent: var(--pop-blue); }
-
-/* ===== Reset & Base ===== */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* ===== Reset & Base =====
+   tokens-core.css (imported above) already sets html { font-family,
+   line-height: 1.75, color, background-color }. Only what's specific to
+   this site's shell goes here. */
+*, *::before, *::after { margin: 0; padding: 0; }
 
 body {
-  background-color: var(--bg);
-  color: var(--text);
-  font-family: var(--font-body);
-  font-size: 1.0625rem; /* 17px — library-readable without overshooting */
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  font-size: var(--text-body); /* 17px floor */
 }
 
 img, svg { max-width: 100%; height: auto; display: block; }
 a { color: var(--text); text-decoration: none; }
-a:hover { color: var(--pop-pink); }
+a:hover { color: var(--color-accent); }
 
-/* ===== Focus (WCAG) ===== */
+/* ===== Focus (WCAG) =====
+   tokens-core.css already defines :focus-visible using --color-focus-ring;
+   this only restores the outline:none reset for the non-visible case. */
 *:focus { outline: none; }
-*:focus-visible { outline: 3px solid var(--ring, var(--pop-yellow)); outline-offset: 2px; }
 
-/* ===== Skip Link ===== */
+/* ===== Skip Link =====
+   The one sanctioned filled-accent surface on the site (see --color-on-accent
+   comment above) — visible only on keyboard focus. */
 .skip-link {
   position: absolute; left: -9999px; z-index: 999;
-  padding: 0.75rem 1rem; background: var(--pop-yellow); color: var(--on-accent);
-  font-weight: 700; text-decoration: none;
+  padding: 0.75rem 1rem; background: var(--color-accent); color: var(--on-accent);
+  font-weight: 600; text-decoration: none;
+  min-height: 2.75rem; display: inline-flex; align-items: center;
 }
 .skip-link:focus { left: 0.5rem; top: 0.5rem; }
 
-/* ===== Layout Shell ===== */
+/* ===== Layout Shell =====
+   Single centered column per AGENT_RULES.md "Layout": the shell
+   constrains to --max-width (aliased to --content-wide, 88rem — this is
+   a cover-grid/gallery site, wider than the essay-only --content-standard)
+   and individual sections narrow further with .prose-container /
+   .content-reading where they're prose. */
 .site-nav {
   position: sticky; top: 0; z-index: 50;
   border-bottom: var(--border-width) solid var(--border);
@@ -215,12 +86,13 @@ a:hover { color: var(--pop-pink); }
 .nav-brand {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: 1.2rem; font-weight: 700;
-  letter-spacing: -0.01em;
+  font-size: 1.2rem; font-weight: 600;
+  letter-spacing: var(--tracking-title);
   color: var(--text);
   text-decoration: none;
+  display: inline-flex; align-items: center; min-height: 2.75rem;
 }
-.nav-brand:hover { color: var(--pop-pink); }
+.nav-brand:hover { color: var(--color-accent); }
 .nav-brand span { display: none; }
 @media (min-width: 640px) { .nav-brand span { display: inline; } }
 
@@ -229,104 +101,117 @@ a:hover { color: var(--pop-pink); }
 @media (min-width: 640px) { .nav-links { display: flex; } }
 
 .nav-link {
-  font-size: 0.85rem; font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta); font-weight: 500;
   color: var(--text-muted); text-decoration: none;
-  text-transform: uppercase; letter-spacing: 0.05em;
+  letter-spacing: var(--tracking-meta);
+  display: inline-flex; align-items: center; min-height: 2.75rem;
+  transition: color var(--motion-fast) var(--motion-easing);
 }
-.nav-link:hover { color: var(--text); }
+.nav-link:hover { color: var(--color-accent); }
 
 /* Utility cluster (search, random, theme, mobile toggle) — single instance, visible at all breakpoints */
 .nav-utility { display: flex; align-items: center; gap: 0.25rem; }
 
 .mobile-toggle {
-  padding: 0.5rem; background: none; border: none;
+  min-width: 2.75rem; min-height: 2.75rem;
+  background: none; border: none;
   color: var(--text-muted); cursor: pointer;
   display: inline-flex; align-items: center; justify-content: center;
+  transition: color var(--motion-fast) var(--motion-easing);
 }
-.mobile-toggle:hover { color: var(--text); }
+.mobile-toggle:hover { color: var(--color-accent); }
 @media (min-width: 640px) { .mobile-toggle { display: none; } }
 
 .mobile-menu {
   display: none; padding-bottom: 0.75rem;
-  border-top: 1px solid var(--border); margin-top: 0.5rem; padding-top: 0.75rem;
+  border-top: var(--border-width) solid var(--border); margin-top: 0.5rem; padding-top: 0.75rem;
 }
 .mobile-menu.open { display: flex; flex-direction: column; gap: 0.25rem; }
 @media (min-width: 640px) { .mobile-menu { display: none !important; } }
 
 .mobile-nav-link {
-  display: block; padding: 0.5rem 0.75rem;
+  display: flex; align-items: center; min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
   color: var(--text-muted); text-decoration: none;
-  font-weight: 600; font-size: 0.9rem;
+  font-family: var(--font-mono);
+  font-weight: 500; font-size: var(--text-meta);
+  transition: color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
 }
-.mobile-nav-link:hover { color: var(--text); background: var(--bg-elevated); }
+.mobile-nav-link:hover { color: var(--color-accent); background: var(--bg-elevated); }
 
 .site-main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 1.5rem var(--gutter) 2rem;
+  padding: var(--space-6) var(--gutter) var(--space-8);
   overflow-x: hidden;
 }
 
 .site-footer {
   border-top: var(--border-width) solid var(--border);
-  padding: 1.5rem var(--gutter);
+  padding: var(--space-5) var(--gutter);
   text-align: center;
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
   color: var(--text-dim);
   max-width: var(--max-width);
   margin: 0 auto;
 }
 .site-footer a { color: var(--text-muted); }
-.site-footer a:hover { color: var(--pop-pink); }
+.site-footer a:hover { color: var(--color-accent); }
 
 /* ===== Typography =====
-   Reading-room scale per #129 Sub-epic A. Headings use Fraunces
-   (display serif) for the Tsundoku brand voice. Sizes pulled in from
-   the prior poster scale (h1 was 4.25rem) to a calmer catalog scale
-   that lets content keep priority on long browse pages.
-   1.25 modular scale: h1=3rem, h2=2rem, h3=1.5rem at desktop.
-*/
+   Display/title text is Newsreader (--font-display) at Remarque's type
+   scale; body/UI stays Inter; mono metadata (dates, counts, ISBNs, call
+   numbers) uses JetBrains Mono via .text-mono, applied throughout instead
+   of pill badges. */
 .heading-xl {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
-  font-weight: 800; letter-spacing: -0.02em; line-height: 1.05;
+  font-size: var(--text-title);
+  /* --weight-display (remarque-tokens 0.6.0): 400 in light, 500 in dark —
+     compensates the optically-thin serif hairlines light-on-dark text
+     produces at display sizes. Falls back to --weight-regular so this
+     stays inert if a future token bump ever drops the var. */
+  font-weight: var(--weight-display, var(--weight-regular)); letter-spacing: var(--tracking-title); line-height: var(--leading-title);
 }
 .heading-lg {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(1.5rem, 1.3rem + 1vw, 2rem);
-  font-weight: 700; letter-spacing: -0.012em; line-height: 1.15;
+  font-size: var(--text-section);
+  font-weight: var(--weight-medium); letter-spacing: var(--tracking-title); line-height: var(--leading-section);
 }
 .heading-md {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
-  font-weight: 700; line-height: 1.25;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-semibold); line-height: var(--leading-title);
 }
 .text-mono {
   font-family: var(--font-mono); font-size: 0.85em;
+  letter-spacing: var(--tracking-meta);
 }
 .text-muted { color: var(--text-muted); }
 .text-muted strong { color: var(--text); }
 .text-dim { color: var(--text-dim); }
-.text-sm { font-size: 0.85rem; }
-.text-xs { font-size: 0.75rem; }
+.text-sm { font-size: var(--text-meta); }
+.text-xs { font-size: var(--text-meta); }
 .text-center { text-align: center; }
-.font-bold { font-weight: 700; }
-.font-black { font-weight: 900; }
+.font-bold { font-weight: var(--weight-semibold); }
+.font-black { font-weight: 700; }
 
-/* Long-form prose (descriptions, bios). Caps line length at the
-   readability sweet spot (~65ch), bumps body to 17px, opens line-height
-   to 1.65 for sustained reading. Old-style numerals when present. */
+/* Long-form prose (descriptions, bios). Caps line length at the reading
+   measure, uses the body-lg size + generous line-height. Old-style
+   numerals when present. */
 .prose, .prose-text {
-  font-size: 1.0625rem;
-  line-height: 1.65;
-  max-width: 65ch;
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  max-width: var(--content-reading);
   font-variant-numeric: oldstyle-nums proportional-nums;
 }
 .prose p + p { margin-top: 1em; }
-.prose a { color: var(--pop-blue); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.prose a { color: var(--color-link); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.prose a:hover { color: var(--color-link-hover); }
 
 /* Tabular numerals on places that read like a table or call number —
    stats grids, classification cards, ISBN runs, page counts. */
@@ -337,49 +222,44 @@ a:hover { color: var(--pop-pink); }
 }
 
 /* ===== Cards =====
-   Toned from 3px brutalist to 2px + soft elevation per #129 Sub-epic A.
-   The brand brutalism (4px hard-offset shadow) is reserved for stat
-   badges and an explicit `.card-brutalist` modifier so it can be applied
-   to specific home-page callouts only.
-*/
+   Quiet, bordered, no shadow, no lift-on-hover — only a border/color
+   change at --motion-fast. */
 .card {
-  border: 2px solid var(--border);
+  border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
-  box-shadow: var(--shadow-1);
+  border-radius: var(--radius-none);
   text-decoration: none;
   color: var(--text);
-  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
 .card:hover {
-  transform: translate(-1px, -2px);
-  box-shadow: var(--shadow-2);
-  border-color: var(--pop-pink);
+  border-color: var(--color-border-bold);
+  color: var(--text);
 }
 
-/* Brutalist signature — opt-in. Apply to one home-page callout
-   (currently-reading / featured) so the original 4px-offset hard
-   shadow stays as brand identity without dominating long-list
-   browsing surfaces. */
+/* Formerly the "brutalist" hard-offset-shadow variant; Remarque forbids
+   drop shadows outright, so this modifier now reads as a slightly
+   stronger border only (kept as a class — unused in current templates,
+   left in case a future "one callout per page" case wants it). */
 .card-brutalist {
-  border-width: 3px;
-  box-shadow: var(--shadow);
+  border-width: var(--border-width);
+  border-color: var(--color-border-bold);
 }
 .card-brutalist:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--shadow-color);
+  border-color: var(--color-accent);
 }
 
 .card-accent {
   border-color: var(--cat-accent, var(--border));
-  border-left-width: 4px;
+  border-left-width: 3px;
 }
-.card-accent-left { border-left: 4px solid var(--accent-color, var(--pop-pink)); }
-.card-accent-top { border-top: 3px solid var(--accent-color, var(--pop-pink)); }
+.card-accent-left { border-left: 3px solid var(--accent-color, var(--color-accent)); }
+.card-accent-top { border-top: 3px solid var(--accent-color, var(--color-accent)); }
 
 /* ===== Stage / Step Number ===== */
 .step-number {
   font-family: var(--font-mono);
-  font-size: 1.25rem; font-weight: 900;
+  font-size: var(--text-body-lg); font-weight: 700;
   width: 1.5rem; flex-shrink: 0;
   line-height: 1;
 }
@@ -387,44 +267,47 @@ a:hover { color: var(--pop-pink); }
 /* ===== Hero Subtitle ===== */
 .hero-subtitle {
   font-family: var(--font-mono);
-  color: var(--pop-pink);
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+  color: var(--color-accent);
+  font-size: var(--text-body-lg);
+  letter-spacing: var(--tracking-meta);
+  margin-bottom: var(--space-3);
 }
 
-/* ===== Neo-Brutalist Stat Badges ===== */
+/* ===== Stat Badges =====
+   Numbers stay large + mono (a call-number/ledger feel); the "badge"
+   itself is no longer a filled/shadowed box — a bordered block. */
 .stat-badge {
   display: inline-block;
-  border: 3px solid var(--text);
-  padding: 0.75rem 1.25rem;
-  background: var(--bg);
-  box-shadow: var(--shadow);
+  border: var(--border-width) solid var(--border);
+  padding: var(--space-3) var(--space-5);
+  background: var(--bg-surface);
+  border-radius: var(--radius-none);
   text-align: center;
 }
 .stat-badge-number {
   font-family: var(--font-mono);
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  font-weight: 900;
+  font-size: var(--text-section);
+  font-weight: 600;
   line-height: 1;
   color: var(--text);
 }
 .stat-badge-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: 500;
+  letter-spacing: var(--tracking-meta);
   color: var(--text-muted);
-  margin-top: 0.25rem;
+  margin-top: var(--space-1);
 }
 .stat-badge-pop {
-  border-color: var(--pop-pink);
+  border-color: var(--color-accent);
 }
 .stat-badge-pop .stat-badge-number {
-  color: var(--pop-pink);
+  color: var(--color-accent);
 }
 
 /* ===== Grid System ===== */
-.grid { display: grid; gap: 1rem; }
+.grid { display: grid; gap: var(--space-4); }
 /* `minmax(0, 1fr)` instead of `1fr` so a grid item's intrinsic min-content
  * (long unbreakable titles, author lists, etc.) cannot blow out a column
  * past its fractional share. Without this the rightmost cell extends past
@@ -439,6 +322,7 @@ a:hover { color: var(--pop-pink); }
 }
 @media (min-width: 768px) {
   .md-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (min-width: 1024px) {
   .lg-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -451,22 +335,30 @@ a:hover { color: var(--pop-pink); }
 .flex-col { flex-direction: column; }
 .flex-wrap { flex-wrap: wrap; }
 .items-center { align-items: center; }
+.items-baseline { align-items: baseline; }
 .justify-between { justify-content: space-between; }
 .justify-center { justify-content: center; }
-.gap-1 { gap: 0.25rem; }
-.gap-2 { gap: 0.5rem; }
-.gap-3 { gap: 0.75rem; }
-.gap-4 { gap: 1rem; }
-.gap-6 { gap: 1.5rem; }
+.gap-1 { gap: var(--space-1); }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+.gap-4 { gap: var(--space-4); }
+.gap-6 { gap: var(--space-5); }
 .mx-auto { margin-inline: auto; }
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-4 { margin-bottom: 1rem; }
-.mb-6 { margin-bottom: 1.5rem; }
-.mb-8 { margin-bottom: 2rem; }
-.mt-2 { margin-top: 0.5rem; }
-.py-8 { padding-block: 2rem; }
-.py-12 { padding-block: 3rem; }
-.px-4 { padding-inline: 1rem; }
+.ml-2 { margin-left: var(--space-2); }
+.mb-1 { margin-bottom: var(--space-1); }
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-3 { margin-bottom: var(--space-3); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mb-6 { margin-bottom: var(--space-5); }
+.mb-8 { margin-bottom: var(--space-6); }
+.mt-1 { margin-top: var(--space-1); }
+.mt-2 { margin-top: var(--space-2); }
+.mt-3 { margin-top: var(--space-3); }
+.mt-4 { margin-top: var(--space-4); }
+.mt-6 { margin-top: var(--space-5); }
+.py-8 { padding-block: var(--space-6); }
+.py-12 { padding-block: var(--space-7); }
+.px-4 { padding-inline: var(--space-4); }
 .max-w-xl { max-width: 36rem; }
 .max-w-2xl { max-width: 42rem; }
 .max-w-3xl { max-width: 48rem; }
@@ -478,27 +370,35 @@ a:hover { color: var(--pop-pink); }
   clip: rect(0, 0, 0, 0); border: 0;
 }
 .truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.line-clamp-1 {
+  display: -webkit-box; -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical; overflow: hidden;
+}
 .line-clamp-2 {
   display: -webkit-box; -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; overflow: hidden;
 }
 
-/* ===== Book Cover ===== */
+/* ===== Book Cover =====
+   Cover art is content, not decoration (see DESIGN-NOTES.md "plate"
+   treatment): 1px border, no shadow, no rounding, quiet hover — a
+   border-color shift only, never scale/lift. */
 .book-cover {
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-none);
 }
 .book-cover-group { text-decoration: none; }
 .book-cover-group:hover .book-cover {
-  border-color: var(--pop-pink);
+  border-color: var(--color-accent);
 }
 
 /* ===== Progress Bar ===== */
 .progress-bar {
   height: 0.5rem;
   background: var(--bg-elevated);
-  border: 1px solid var(--border);
+  border: var(--border-width) solid var(--border);
   overflow: hidden;
   display: flex;
 }
@@ -508,60 +408,55 @@ a:hover { color: var(--pop-pink); }
 /* ===== Category Tile ===== */
 .cat-tile {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 0.75rem 1rem;
+  min-height: 2.75rem;
+  padding: var(--space-3) var(--space-4);
   border: var(--border-width) solid var(--border);
-  border-left: 4px solid var(--cat-accent, var(--pop-pink));
+  border-left: 3px solid var(--cat-accent, var(--color-accent));
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
-  font-weight: 600; font-size: 0.9rem;
-  box-shadow: var(--shadow-sm);
-  transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease;
+  font-weight: 500; font-size: var(--text-meta);
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
 .cat-tile:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 4px 4px 0 var(--shadow-color);
-  border-color: var(--cat-accent, var(--pop-pink));
-  color: var(--cat-accent, var(--pop-pink));
+  border-color: var(--cat-accent, var(--color-accent));
+  color: var(--cat-accent, var(--color-accent));
 }
 .cat-tile-count {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 900;
+  font-size: var(--text-meta);
+  font-weight: 600;
   color: var(--cat-accent, var(--text-muted));
 }
 @media (min-width: 640px) {
   .cat-tile {
     flex-direction: column; text-align: center;
-    padding: 1rem;
+    padding: var(--space-4);
     border-left: var(--border-width) solid var(--border);
-    border-top: 4px solid var(--cat-accent, var(--pop-pink));
+    border-top: 3px solid var(--cat-accent, var(--color-accent));
   }
-  .cat-tile-count { margin-top: 0.25rem; }
+  .cat-tile-count { margin-top: var(--space-1); }
 }
 
-/* ===== Buttons ===== */
+/* ===== Buttons =====
+   Quiet: text/bordered, never filled/solid (AGENT_RULES.md "Components").
+   Sized to the 44px touch-target floor via min-height. */
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
-  padding: 0.75rem 1.5rem;
-  font-weight: 800; font-size: 0.9rem;
-  text-transform: uppercase; letter-spacing: 0.05em;
+  min-height: 2.75rem;
+  padding: var(--space-3) var(--space-5);
+  font-weight: 500; font-size: var(--text-body);
   text-decoration: none;
-  border: 3px solid var(--text);
-  background: var(--pop-pink);
-  color: var(--on-accent);
-  box-shadow: var(--shadow);
+  border: var(--border-width) solid var(--color-border-bold);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text);
   cursor: pointer;
-  transition: transform 80ms ease, box-shadow 80ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
 }
 .btn:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--shadow-color);
-  color: var(--on-accent);
-}
-.btn:active {
-  transform: translate(0, 0);
-  box-shadow: 0 0 0 var(--shadow-color);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 .btn-outline {
   background: transparent;
@@ -569,132 +464,110 @@ a:hover { color: var(--pop-pink); }
   border-color: var(--border);
 }
 .btn-outline:hover {
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
-/* ===== Priority Badges ===== */
+/* ===== Priority / Status "badges" =====
+   Rendered as plain mono text, not pill badges, per REMARQUE.md ("tags
+   render as plain mono text, NO pill badges") — the classes stay so the
+   Astro templates (formatting.ts's priorityClass/statusClass) don't need
+   to change, only their box/border/background styling is removed. */
 .priority-badge {
   display: inline-block;
-  font-size: 0.7rem;
-  padding: 0.125rem 0.5rem;
-  border: 2px solid var(--border);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: 500;
+  letter-spacing: var(--tracking-meta);
 }
-.priority-must-read {
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
-  background: transparent;
-}
-.priority-recommended {
-  border-color: var(--border);
-  color: var(--text-muted);
-  background: transparent;
-}
-.priority-supplementary {
-  border-color: var(--border);
-  color: var(--text-dim);
-  background: transparent;
-}
+.priority-must-read { color: var(--color-accent); }
+.priority-recommended { color: var(--text-muted); }
+.priority-supplementary { color: var(--text-dim); }
 
-/* ===== Status Badges ===== */
 .status-badge {
   display: inline-block;
-  font-size: 0.75rem;
-  padding: 0.25rem 0.625rem;
-  border: 2px solid var(--border);
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: 500;
+  letter-spacing: var(--tracking-meta);
 }
-.status-read {
-  border-color: var(--pop-green);
-  color: var(--pop-green);
-}
-.status-reading {
-  border-color: var(--pop-yellow);
-  color: var(--pop-yellow);
-}
-.status-want {
-  border-color: var(--pop-blue);
-  color: var(--pop-blue);
-}
+.status-read { color: var(--pop-green); }
+.status-reading { color: var(--pop-yellow); }
+.status-want { color: var(--pop-blue); }
 
 /* ===== Breadcrumb ===== */
 .breadcrumb {
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
   color: var(--text-dim);
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-5);
 }
 .breadcrumb a { color: var(--text-dim); text-decoration: none; }
-.breadcrumb a:hover { color: var(--text); }
-.breadcrumb-sep { margin-inline: 0.25rem; }
+.breadcrumb a:hover { color: var(--color-accent); }
+.breadcrumb-sep { margin-inline: var(--space-1); }
 .breadcrumb-current { color: var(--text-muted); }
 
-/* ===== Author/Book List Item ===== */
+/* ===== Author/Book List Item =====
+   The library-catalog row: 1px border, quiet hover, no shadow/lift. */
 .list-item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.625rem 1rem;
+  gap: var(--space-3);
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-4);
   border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
-  box-shadow: var(--shadow-sm);
-  transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing);
   min-width: 0;
   overflow: hidden;
 }
 .list-item:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0 var(--shadow-color);
-  border-color: var(--pop-pink);
+  border-color: var(--color-accent);
   color: var(--text);
 }
 
-/* ===== Metadata Tag ===== */
+/* ===== Metadata Tag =====
+   Plain mono text (no border/background box) per the spec's "no pill
+   badges" rule — used for subjects, awards, ISBN/page-count chips. */
 .meta-tag {
   display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.625rem;
-  border: 2px solid var(--border);
-  background: var(--bg-elevated);
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: 500;
+  letter-spacing: var(--tracking-meta);
   color: var(--text-muted);
   text-decoration: none;
 }
 .meta-tag:hover {
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
+  color: var(--color-accent);
 }
 
 /* ===== External Link ===== */
 .ext-link {
-  font-size: 0.85rem;
-  color: var(--pop-pink);
+  font-size: var(--text-meta);
+  color: var(--color-link);
   text-decoration: none;
 }
-.ext-link:hover { color: var(--text); }
+.ext-link:hover { color: var(--color-link-hover); }
 
 /* ===== Free Resource Buttons ===== */
 .resource-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--border);
+  gap: var(--space-2);
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-4);
+  border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: var(--text-meta);
+  font-weight: 500;
   color: var(--text);
   text-decoration: none;
-  box-shadow: var(--shadow-sm);
-  transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
 .resource-btn:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0 var(--shadow-color);
   color: var(--text);
 }
 .resource-btn-gutenberg { border-color: var(--pop-green); }
@@ -706,26 +579,27 @@ a:hover { color: var(--pop-pink); }
 
 /* ===== Letter Nav ===== */
 .letter-nav-link {
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
   color: var(--text-muted);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: 500;
   text-decoration: none;
-  transition: border-color 80ms ease, color 80ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
 .letter-nav-link:hover {
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 .letter-nav-current {
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
   background: var(--bg-elevated);
 }
 
@@ -734,12 +608,12 @@ a:hover { color: var(--pop-pink); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: var(--space-3);
   flex-wrap: wrap;
 }
 .pagination-pages {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: var(--text-meta);
   color: var(--text-muted);
 }
 .pagination-disabled {
@@ -751,8 +625,8 @@ a:hover { color: var(--pop-pink); }
 /* ===== Letter Tiles (authors index landing) ===== */
 .letter-tile-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
-  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(2.75rem, 1fr));
+  gap: var(--space-2);
 }
 .letter-tile {
   display: flex;
@@ -760,50 +634,49 @@ a:hover { color: var(--pop-pink); }
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
+  min-height: 2.75rem;
   border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
-  box-shadow: var(--shadow-sm);
-  transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease, color 80ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
 .letter-tile:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 4px 4px 0 var(--shadow-color);
-  border-color: var(--pop-pink);
-  color: var(--pop-pink);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 .letter-tile-letter {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: -0.015em;
+  font-size: var(--text-body-lg);
+  font-weight: 600;
+  letter-spacing: var(--tracking-title);
   line-height: 1;
 }
 .letter-tile-count {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: var(--text-meta);
   color: var(--text-dim);
-  margin-top: 0.25rem;
+  margin-top: var(--space-1);
 }
-.letter-tile:hover .letter-tile-count { color: var(--pop-pink); }
+.letter-tile:hover .letter-tile-count { color: var(--color-accent); }
 
 /* ===== Section Divider ===== */
 .section-divider {
   border: none;
   border-top: var(--border-width) solid var(--border);
-  margin-block: 2rem;
+  margin-block: var(--space-6);
 }
 
 /* ===== Prose Container ===== */
-.prose-container { max-width: 48rem; margin-inline: auto; }
+.prose-container { max-width: var(--content-reading); margin-inline: auto; }
 
 /* ===== Stat Badge Sub-text ===== */
 .stat-badge-sub {
-  font-size: 0.65rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
   color: var(--text-dim);
-  margin-top: 0.25rem;
+  margin-top: var(--space-1);
 }
 
 /* ===== Sticky Letter Heading ===== */
@@ -811,65 +684,59 @@ a:hover { color: var(--pop-pink); }
   position: sticky;
   top: 3.5rem;
   background: var(--bg);
-  padding-block: 0.75rem;
+  padding-block: var(--space-3);
   z-index: 10;
-  border-bottom: 3px solid var(--pop-pink);
-  color: var(--pop-pink);
+  border-bottom: 2px solid var(--color-accent);
+  color: var(--color-accent);
   font-family: var(--font-mono);
 }
 
 /* ===== Author Pages ===== */
 .author-avatar {
-  width: 2.5rem; height: 2.5rem;
+  width: 2.75rem; height: 2.75rem;
   object-fit: cover; flex-shrink: 0;
-  border: 2px solid var(--border);
-  box-shadow: 2px 2px 0 var(--shadow-color);
+  border: var(--border-width) solid var(--border);
 }
 .author-avatar-placeholder {
-  width: 2.5rem; height: 2.5rem;
+  width: 2.75rem; height: 2.75rem;
   background: var(--bg-elevated); flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
   color: var(--text-dim);
-  border: 2px solid var(--border);
-  box-shadow: 2px 2px 0 var(--shadow-color);
+  border: var(--border-width) solid var(--border);
 }
 /* Compact variant used in the long alphabetical "All Authors" list. */
 .author-avatar.author-avatar-sm,
 .author-avatar-placeholder.author-avatar-sm {
   width: 1.75rem; height: 1.75rem;
-  border-width: 1px;
-  box-shadow: 1px 1px 0 var(--shadow-color);
 }
 .author-header {
-  display: flex; gap: 1.5rem; flex-wrap: wrap;
-  margin-bottom: 2rem;
+  display: flex; gap: var(--space-5); flex-wrap: wrap;
+  margin-bottom: var(--space-6);
 }
 .author-photo {
   width: clamp(6rem, 15vw, 10rem);
   height: clamp(6rem, 15vw, 10rem);
   object-fit: cover; flex-shrink: 0;
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow);
 }
 .author-photo-placeholder {
   width: clamp(6rem, 15vw, 10rem);
   height: clamp(6rem, 15vw, 10rem);
   background: var(--bg-elevated); flex-shrink: 0;
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center;
   color: var(--text-dim);
 }
 .author-info { flex: 1; min-width: 0; }
 .author-bio {
-  line-height: 1.7;
-  max-width: 60ch;
+  line-height: var(--leading-body);
+  max-width: var(--content-reading);
 }
 
 /* Book Card Compact (used in author/category detail) */
 .book-card-compact {
-  display: flex; gap: 0.75rem;
-  padding: 0.75rem;
+  display: flex; gap: var(--space-3);
+  padding: var(--space-3);
   text-decoration: none;
   color: var(--text);
 }
@@ -890,12 +757,12 @@ a:hover { color: var(--pop-pink); }
 /* ===== Content Components ===== */
 
 /* Prose text blocks (about page, descriptions) */
-.prose-text { line-height: 1.7; margin-bottom: 1rem; }
+.prose-text { line-height: var(--leading-body); margin-bottom: var(--space-4); }
 .prose-text strong { color: var(--text); }
 
 /* Card with standard padding */
-.card-padded { padding: 1.25rem; }
-.card-padded-lg { padding: 1.5rem; }
+.card-padded { padding: var(--space-5); }
+.card-padded-lg { padding: var(--space-5) var(--space-6); }
 
 /* Stat badge color variants */
 .stat-badge-green { border-color: var(--pop-green); }
@@ -906,12 +773,22 @@ a:hover { color: var(--pop-pink); }
 
 /* Large stat number for definition lists */
 .stat-number {
-  font-size: 1.5rem; font-weight: 900;
+  font-family: var(--font-mono);
+  font-size: var(--text-section); font-weight: 600;
+}
+
+/* Inline coverage-percentage figure (stats.astro cards) — mono/tabular,
+   not the display serif (numbers read as a ledger, not a headline). */
+.stat-pct {
+  font-family: var(--font-mono);
+  font-size: var(--text-body-lg);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 /* Detail section divider (within cards) */
 .detail-section {
-  margin-top: 1rem; padding-top: 1rem;
+  margin-top: var(--space-4); padding-top: var(--space-4);
   border-top: var(--border-width) solid var(--border);
 }
 
@@ -921,22 +798,22 @@ a:hover { color: var(--pop-pink); }
 .search-wrapper { position: relative; }
 .search-wrapper .search-input {
   width: 100%;
+  min-height: 2.75rem;
   background: var(--bg-surface);
-  border: 2px solid var(--border);
+  border: var(--border-width) solid var(--color-border-bold);
+  border-radius: var(--radius-sm);
   color: var(--text);
-  padding: 0.625rem 1rem 0.625rem 2.5rem;
-  font-size: 1rem;
-  font-family: var(--font-mono);
-  font-weight: 600;
-  box-shadow: var(--shadow-1);
+  padding: var(--space-3) var(--space-4) var(--space-3) 2.5rem;
+  font-size: var(--text-body);
+  font-family: var(--font-body);
 }
 .search-wrapper .search-input:focus {
   outline: none;
-  border-color: var(--pop-pink);
+  border-color: var(--color-accent);
 }
 .search-wrapper .search-icon {
   position: absolute;
-  left: 0.75rem;
+  left: var(--space-3);
   top: 50%;
   transform: translateY(-50%);
   width: 1rem; height: 1rem;
@@ -947,36 +824,33 @@ a:hover { color: var(--pop-pink); }
 /* Author row in the all-authors filter list. Stub authors (no detail
    page) render a softer treatment so users don't bounce off a dead
    link. */
-.author-row { transition: border-color 100ms ease; }
+.author-row { transition: border-color var(--motion-fast) var(--motion-easing); }
 .author-row-stub {
   pointer-events: none;
   opacity: 0.7;
   border-style: dashed;
 }
 
-/* Library card pocket — reading-status affordance on book detail.
-   Sits inside the metadata card. Dashed bottom edge mimics the corner
-   of a library card pocket; monospace label reads as a date stamp. */
-.library-pocket {
-  margin-top: 1rem;
-  padding: 0.625rem 0.875rem;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-bottom: 1px dashed var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 0.125rem;
-  max-width: 18rem;
-}
-.library-pocket-label {
+/* Reading-status stamp (library card-catalog identity layer, Device 3 —
+   this is the shared/global copy; BookGrid.svelte's Device 3 commit has
+   its own Svelte-scoped copy for the /browse grid, kept independent so
+   each device stays independently revertable per the design-review
+   panel's condition). Boxed mono uppercase, axis-aligned — no rotation
+   (unanimously rejected: legibility, nondeterministic rendering, kitsch).
+   Color comes from the EXISTING .status-read/.status-reading/.status-want
+   classes above via currentColor — no new color token. */
+.status-stamp {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0.0625rem 0.375rem;
   font-family: var(--font-mono);
-  font-size: 0.625rem;
-  letter-spacing: 0.1em;
-  color: var(--text-dim);
-}
-.library-pocket-status {
-  font-size: 0.95rem;
-  color: var(--text);
+  font-size: var(--text-micro);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: var(--border-width) solid currentColor;
+  line-height: 1.3;
 }
 
 /* Series sequential navigation — appears between book detail header
@@ -985,27 +859,27 @@ a:hover { color: var(--pop-pink); }
 .series-nav {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.5rem;
+  gap: var(--space-2);
 }
 @media (min-width: 720px) {
-  .series-nav { grid-template-columns: 1fr auto 1fr; gap: 0.75rem; }
+  .series-nav { grid-template-columns: 1fr auto 1fr; gap: var(--space-3); }
 }
 .series-nav-link {
   display: flex; flex-direction: column; gap: 0.125rem;
-  padding: 0.625rem 0.875rem;
+  padding: var(--space-3) var(--space-4);
   border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
   text-decoration: none;
   color: var(--text);
-  transition: border-color 120ms ease, color 120ms ease;
+  transition: border-color var(--motion-fast) var(--motion-easing);
 }
-.series-nav-link:hover { border-color: var(--pop-pink); color: var(--text); }
+.series-nav-link:hover { border-color: var(--color-accent); color: var(--text); }
 .series-nav-prev { text-align: left; }
 .series-nav-mid {
   text-align: center;
-  border-color: var(--pop-blue);
+  border-color: var(--color-border-bold);
 }
-.series-nav-mid:hover { border-color: var(--pop-pink); }
+.series-nav-mid:hover { border-color: var(--color-accent); }
 .series-nav-next { text-align: right; }
 .series-nav-disabled {
   pointer-events: none;
@@ -1013,15 +887,15 @@ a:hover { color: var(--pop-pink); }
   background: transparent;
   border-style: dashed;
 }
-.series-nav-label { font-size: 0.7rem; color: var(--text-dim); letter-spacing: 0.02em; text-transform: uppercase; }
-.series-nav-title { font-size: 0.95rem; font-weight: 600; line-height: 1.2; }
+.series-nav-label { font-family: var(--font-mono); font-size: var(--text-meta); color: var(--text-dim); letter-spacing: var(--tracking-meta); }
+.series-nav-title { font-size: var(--text-body); font-weight: 600; line-height: 1.2; }
 
 /* Adaptations list (#184) — curated film/TV/stage works derived from a book */
 .adaptation-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: var(--space-2);
   margin: 0;
   padding: 0;
 }
@@ -1029,8 +903,8 @@ a:hover { color: var(--pop-pink); }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
   border: var(--border-width) solid var(--border);
   background: var(--bg-surface);
 }
@@ -1038,8 +912,8 @@ a:hover { color: var(--pop-pink); }
 
 /* Book detail page layout */
 .book-detail-layout {
-  display: flex; flex-wrap: wrap; gap: 1.5rem;
-  margin-bottom: 2rem;
+  display: flex; flex-wrap: wrap; gap: var(--space-5);
+  margin-bottom: var(--space-6);
 }
 .book-detail-cover-wrap {
   position: relative;
@@ -1048,13 +922,11 @@ a:hover { color: var(--pop-pink); }
 .book-detail-cover {
   width: 9rem; flex-shrink: 0;
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow-2);
 }
 .book-detail-cover-placeholder {
   width: 9rem; height: 13.5rem; flex-shrink: 0;
   background: var(--bg-elevated);
   border: var(--border-width) solid var(--border);
-  box-shadow: var(--shadow-2);
   display: flex; align-items: center; justify-content: center;
   font-size: 2.5rem; color: var(--text-dim);
 }
@@ -1063,17 +935,16 @@ a:hover { color: var(--pop-pink); }
    spine. Sits in the page flow as an absolutely-positioned overlay so
    the cover image stays at its natural size. */
 .book-spine-label {
-  position: absolute; top: 0.5rem; left: -0.5rem;
+  position: absolute; top: var(--space-2); left: -0.5rem;
   background: var(--bg);
   color: var(--text);
-  border: 1px solid var(--border);
-  padding: 0.25rem 0.5rem;
+  border: var(--border-width) solid var(--border);
+  padding: 0.25rem var(--space-2);
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: var(--text-micro);
   font-variant-numeric: tabular-nums lining-nums;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--tracking-meta);
   white-space: nowrap;
-  box-shadow: var(--shadow-1);
   max-width: 9.5rem;
   overflow: hidden; text-overflow: ellipsis;
 }
@@ -1084,13 +955,13 @@ a:hover { color: var(--pop-pink); }
 
 /* Related book mini-card */
 .related-book {
-  display: flex; gap: 0.75rem; align-items: flex-start;
-  padding: 1rem; text-decoration: none; color: var(--text);
+  display: flex; gap: var(--space-3); align-items: flex-start;
+  padding: var(--space-4); text-decoration: none; color: var(--text);
 }
 .related-book-cover {
   width: 2.5rem; height: 3.5rem;
   object-fit: cover; flex-shrink: 0;
-  border: 1px solid var(--border);
+  border: var(--border-width) solid var(--border);
 }
 
 /* Rank number */
@@ -1105,22 +976,22 @@ a:hover { color: var(--pop-pink); }
 .ml-auto { margin-left: auto; flex-shrink: 0; }
 
 /* Stat number color variants (text-only, no border) */
-.stat-number-pink { color: var(--pop-pink); }
+.stat-number-pink { color: var(--color-accent); }
 
 /* Featured book grid */
 .featured-title {
-  font-size: 0.75rem; font-weight: 600;
-  margin-top: 0.5rem; color: var(--text);
+  font-size: var(--text-meta); font-weight: 500;
+  margin-top: var(--space-2); color: var(--text);
   display: -webkit-box; -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; overflow: hidden;
 }
 .featured-author {
-  font-size: 0.65rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 640px) {
-  .heading-xl { font-size: 2.5rem; }
   .book-detail-layout { flex-direction: column; align-items: flex-start; }
 }
 
@@ -1128,75 +999,30 @@ a:hover { color: var(--pop-pink); }
 .section-heading {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-  color: var(--pop-pink);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--tracking-title);
+  color: var(--color-accent);
 }
 
-/* ===== Brutalist micro-details ===== */
+/* ===== Micro-details ===== */
 
-/* Pop selection — text selection feels stamped, not subtle */
 ::selection {
-  background: var(--pop-pink);
-  color: var(--on-accent);
-  text-shadow: none;
+  background: var(--color-selection-bg);
+  color: var(--color-selection-fg);
 }
 
-/* Subtle paper grain — fixed overlay across the whole viewport. ~3% strength.
-   The blend mode makes it darken light surfaces and lighten dark ones, reading
-   as paper texture in light mode and as soft static in dark mode. */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 200;
-  opacity: 0.04;
-  mix-blend-mode: difference;
-  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-}
+/* No paper-grain overlay, no stagger-reveal entrance animation on grids —
+   both removed: Remarque explicitly disallows entrance/staggered/
+   scroll-triggered motion ("Motion Rules" + Enforcement Checklist). The
+   only sanctioned motion here is the hover/focus/theme-transition set,
+   already wired above via --motion-fast/--motion-normal. */
 
-/* ===== Stagger Reveal (grids) =====
-   Snappy slide-up + fade for the first ~12 items in a list. Anything past
-   that just animates without delay so users don't wait on long pages.
-   Honors prefers-reduced-motion via the global override below. */
-@keyframes reveal-up {
-  from { opacity: 0; transform: translate(0, 6px); }
-  to   { opacity: 1; transform: translate(0, 0); }
-}
-
-.book-cards-grid > a,
-.cat-tile,
-.list-item,
-.book-cover-group,
-.author-card {
-  animation: reveal-up 320ms cubic-bezier(0.2, 0.85, 0.3, 1.05) backwards;
-}
-
-.book-cards-grid > a:nth-child(1),  .cat-tile:nth-child(1),  .list-item:nth-child(1)  { animation-delay: 0ms; }
-.book-cards-grid > a:nth-child(2),  .cat-tile:nth-child(2),  .list-item:nth-child(2)  { animation-delay: 25ms; }
-.book-cards-grid > a:nth-child(3),  .cat-tile:nth-child(3),  .list-item:nth-child(3)  { animation-delay: 50ms; }
-.book-cards-grid > a:nth-child(4),  .cat-tile:nth-child(4),  .list-item:nth-child(4)  { animation-delay: 75ms; }
-.book-cards-grid > a:nth-child(5),  .cat-tile:nth-child(5),  .list-item:nth-child(5)  { animation-delay: 100ms; }
-.book-cards-grid > a:nth-child(6),  .cat-tile:nth-child(6),  .list-item:nth-child(6)  { animation-delay: 125ms; }
-.book-cards-grid > a:nth-child(7),  .cat-tile:nth-child(7),  .list-item:nth-child(7)  { animation-delay: 150ms; }
-.book-cards-grid > a:nth-child(8),  .cat-tile:nth-child(8),  .list-item:nth-child(8)  { animation-delay: 175ms; }
-.book-cards-grid > a:nth-child(9),  .cat-tile:nth-child(9),  .list-item:nth-child(9)  { animation-delay: 200ms; }
-.book-cards-grid > a:nth-child(10), .cat-tile:nth-child(10), .list-item:nth-child(10) { animation-delay: 225ms; }
-.book-cards-grid > a:nth-child(11), .cat-tile:nth-child(11), .list-item:nth-child(11) { animation-delay: 250ms; }
-.book-cards-grid > a:nth-child(12), .cat-tile:nth-child(12), .list-item:nth-child(12) { animation-delay: 275ms; }
-
-/* ===== Reduced Motion ===== */
+/* ===== Reduced Motion =====
+   tokens-core.css already zeroes --motion-fast/--motion-normal under
+   prefers-reduced-motion, which covers every transition authored with
+   those tokens. This only handles the two things that don't go through
+   custom properties: Astro's view-transition pseudo-elements. */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
-    animation-delay: 0ms !important;
-  }
-
-  /* Astro view transitions animate on the ::view-transition-* pseudo tree,
-     which the universal selector above does NOT match. Disable the
-     cross-fade/slide and named cover/author morphs explicitly. See #202. */
   ::view-transition-group(*),
   ::view-transition-old(*),
   ::view-transition-new(*) {

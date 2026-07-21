@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { thumbnailUrl } from '../utils/formatting';
+  import { thumbnailUrl, formatCallNumber, invertAuthorName, statusStamp } from '../utils/formatting';
 
   interface Book {
     title: string;
@@ -13,6 +13,7 @@
     reading_status?: 'want' | 'reading' | 'read';
     tags?: string[];
     lcc?: string;
+    ddc?: string;
     original_language?: string;
     nationality?: string;
   }
@@ -21,16 +22,9 @@
   interface WireBook {
     t: string; a: string; s: string; p: number; cat: string;
     co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; lc?: string;
-    ol?: string; n?: string;
+    dd?: string; ol?: string; n?: string;
   }
 
-  function lccDisplay(lcc: string): string {
-    return lcc
-      .replace(/^([A-Z]+)-+(\d)/, '$1$2')
-      .replace(/\.0+(?=\D|$)/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
   interface BrowseData {
     books: WireBook[];
     categories: string[];
@@ -101,6 +95,7 @@
         reading_status: b.rs,
         tags: b.g,
         lcc: b.lc,
+        ddc: b.dd,
         original_language: b.ol,
         nationality: b.n,
       }));
@@ -271,12 +266,9 @@
       <p class="empty-subtitle">Something went wrong loading <code>browse-data.json</code>. Try refreshing.</p>
     </div>
   {:else if !loaded}
-    <!-- Loading skeleton — empty placeholder boxes that fade out when data arrives -->
-    <div class="book-cards-grid" aria-hidden="true">
-      {#each Array(12) as _}
-        <div class="book-card book-card-skeleton"></div>
-      {/each}
-    </div>
+    <!-- Loading state — plain text, no skeleton screen (Remarque disallows
+         skeleton loading animations; "use a simple spinner or nothing"). -->
+    <p class="loading-message" role="status">Loading books…</p>
   {:else if sortedBooks.length === 0}
     <!-- Empty state -->
     <div class="empty-state">
@@ -292,31 +284,55 @@
       {#each sortedBooks.slice(0, showCount) as book (book.slug)}
         <a href="{baseUrl}books/{book.slug}/" class="book-card">
           <div class="book-card-inner">
-            {#if book.cover_url}
-              <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" style:view-transition-name={`cover-${book.slug}`} />
-            {:else}
-              <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
-            {/if}
-            <div class="book-info">
-              <div class="book-meta-row">
-                <span class={priorityClass(book.priority)}>
-                  {priorityLabel(book.priority)}
-                </span>
-                {#if book.first_published}
-                  <span class="book-year">{book.first_published}</span>
-                {/if}
-              </div>
-              {#if book.lcc}
-                <span class="book-call-number" title="Library of Congress call number">{lccDisplay(book.lcc)}</span>
+            <!-- Device 2 (library card-catalog identity layer): a small
+                 mono spine-label chip, bottom-left of the cover, echoing
+                 the same real DDC call number the catalog-card anatomy
+                 shows in text below — aria-hidden since it's a decorative
+                 duplicate, not a second source of information. Built on
+                 the SAME formatCallNumber() as Device 1 (panel condition:
+                 one shared formatter for both devices). -->
+            <div class="book-cover-wrap">
+              {#if book.cover_url}
+                <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" style:view-transition-name={`cover-${book.slug}`} />
+              {:else}
+                <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               {/if}
-              <h3 class="book-title">{book.title}</h3>
-              <p class="book-author">{book.author}</p>
+              {#if formatCallNumber(book.ddc)}
+                <span class="cover-spine-chip" aria-hidden="true">{formatCallNumber(book.ddc)}</span>
+              {/if}
+            </div>
+            <!-- Catalog-card anatomy (library card-catalog identity layer,
+                 Device 1): mono DDC call number top-left (real data —
+                 formatCallNumber validates strictly, omits if missing/
+                 malformed, never renders raw markup), surname-first author
+                 line, serif title, hairline rules aligned to the text
+                 baselines they carry — evoking printed card stock rather
+                 than floating as decoration. -->
+            <div class="book-info catalog-card-body">
+              <div class="catalog-card-row">
+                {#if formatCallNumber(book.ddc)}
+                  <span class="catalog-call-number">{formatCallNumber(book.ddc)}</span>
+                {/if}
+                <span class="catalog-card-row-right">
+                  <span class={priorityClass(book.priority)}>
+                    {priorityLabel(book.priority)}
+                  </span>
+                  {#if book.first_published}
+                    <span class="book-year">{book.first_published}</span>
+                  {/if}
+                </span>
+              </div>
+              <div class="catalog-rule" aria-hidden="true"></div>
+              <p class="catalog-author">{invertAuthorName(book.author)}</p>
+              <h3 class="catalog-title">{book.title}</h3>
+              <div class="catalog-rule" aria-hidden="true"></div>
               <div class="book-footer">
                 <p class="book-category">{book.category}</p>
-                {#if book.reading_status}
-                  <span class="status-indicator status-{book.reading_status}">
-                    {book.reading_status === 'read' ? '✓' : book.reading_status === 'reading' ? '📖' : '📋'}
-                  </span>
+                {#if statusStamp(book.reading_status)}
+                  {@const stamp = statusStamp(book.reading_status)}
+                  {#if stamp}
+                    <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span>
+                  {/if}
                 {/if}
               </div>
             </div>
@@ -363,26 +379,19 @@
 
   .search-input {
     width: 100%;
+    min-height: 2.75rem;
     background: var(--bg-surface);
-    border: 3px solid var(--border);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     color: var(--text);
     padding: 0.625rem 1rem 0.625rem 2.5rem;
     font-size: 1rem;
-    font-family: var(--font-mono);
-    font-weight: 600;
-    box-shadow: var(--shadow-sm);
-  }
-
-  @media (min-width: 640px) {
-    .search-input {
-      font-size: 0.875rem;
-    }
+    font-family: var(--font-body);
   }
 
   .search-input:focus {
     outline: none;
-    border-color: var(--pop-pink);
-    box-shadow: var(--shadow-sm);
+    border-color: var(--color-accent);
   }
 
   .search-icon {
@@ -404,17 +413,17 @@
   .filter-select {
     flex: 1 1 8rem;
     min-width: 8rem;
+    min-height: 2.75rem;
     background: var(--bg-surface);
-    border: 2px solid var(--border);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     color: var(--text);
     padding: 0.5rem 0.625rem;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-family: var(--font-body);
-    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    box-shadow: var(--shadow-1);
   }
 
   @media (min-width: 640px) {
@@ -425,7 +434,7 @@
 
   .filter-select:focus {
     outline: none;
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
   }
 
   /* --- Results bar --- */
@@ -443,22 +452,24 @@
   }
 
   .clear-filters-link {
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--pop-pink);
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-accent);
     background: none;
-    border: 2px solid var(--pop-pink);
-    padding: 0.25rem 0.75rem;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding-inline: 0.25rem;
     cursor: pointer;
-    font-family: var(--font-body);
-    transition: background 80ms ease, color 80ms ease;
+    transition: color 120ms ease;
   }
 
   .clear-filters-link:hover {
-    background: var(--pop-pink);
-    color: var(--on-accent);
+    color: var(--text);
   }
 
   /* --- Empty state --- */
@@ -467,7 +478,6 @@
     background: var(--bg-surface);
     padding: 2rem;
     text-align: center;
-    box-shadow: var(--shadow);
   }
 
   @media (min-width: 640px) {
@@ -492,28 +502,22 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--pop-pink);
-    color: var(--on-accent);
-    font-weight: 700;
+    min-height: 2.75rem;
+    background: transparent;
+    color: var(--text);
+    font-weight: 500;
     padding: 0.625rem 1.5rem;
-    font-size: 0.875rem;
-    border: 3px solid var(--text);
-    box-shadow: var(--shadow-sm);
+    font-size: 0.9375rem;
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     cursor: pointer;
     font-family: var(--font-body);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    transition: transform 80ms ease, box-shadow 80ms ease;
+    transition: border-color 120ms ease, color 120ms ease;
   }
 
   .btn-clear-all:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0 var(--shadow-color);
-  }
-
-  .btn-clear-all:active {
-    transform: translate(0, 0);
-    box-shadow: 0 0 0 var(--shadow-color);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
   }
 
   /* --- Book card grid --- */
@@ -546,42 +550,35 @@
   /* --- Book card --- */
   .book-card {
     display: block;
-    border: 3px solid var(--border);
+    border: var(--border-width) solid var(--border);
     background: var(--bg-surface);
     padding: 0.75rem;
-    box-shadow: var(--shadow);
     text-decoration: none;
     color: var(--text);
-    transition: transform 100ms ease, box-shadow 100ms ease, border-color 100ms ease;
+    transition: border-color 120ms ease;
   }
 
   .book-card:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 var(--shadow-color);
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
     color: var(--text);
   }
 
-  /* Skeleton placeholder while browse-data.json is loading. Same dimensions as a
-     real card so the layout doesn't shift when data arrives. */
-  .book-card-skeleton {
-    height: 6rem;
-    background: var(--bg-elevated);
-    opacity: 0.5;
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .book-card-skeleton {
-      animation: skeleton-pulse 1.4s ease-in-out infinite;
-    }
-  }
-  @keyframes skeleton-pulse {
-    0%, 100% { opacity: 0.4; }
-    50% { opacity: 0.7; }
+  .loading-message {
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
+    color: var(--text-dim);
+    padding: 2rem 0;
+    text-align: center;
   }
 
   .book-card-inner {
     display: flex;
     gap: 0.75rem;
+  }
+
+  .book-cover-wrap {
+    position: relative;
+    flex-shrink: 0;
   }
 
   .book-thumb {
@@ -593,7 +590,27 @@
   }
 
   .book-card:hover .book-thumb {
-    border-color: var(--pop-pink);
+    border-color: var(--color-accent);
+  }
+
+  /* Device 2: spine-label chip, existing tokens only. Card-stock
+     background + top/right hairline only, so it reads as a sticker
+     affixed to the cover's own bottom-left corner rather than a floating
+     badge — the cover's own edges already close off the other two sides. */
+  .cover-spine-chip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.0625rem 0.25rem;
+    background: var(--bg-surface);
+    border-top: var(--border-width) solid var(--border);
+    border-right: var(--border-width) solid var(--border);
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    line-height: 1.2;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    pointer-events: none;
   }
 
   .book-thumb-placeholder {
@@ -614,52 +631,77 @@
     flex: 1;
   }
 
-  .book-meta-row {
+  /* Catalog-card anatomy (Device 1). Text-only rhythm modeled on a
+     printed library catalog card: a mono classification row, a hairline
+     rule, the surname-first author line, the serif title, a second
+     hairline rule, then the existing footer row. Rules sit directly under
+     the text they close off (margin, not padding, on each side) so they
+     read as ruled card stock, not a floating decoration. */
+  .catalog-card-body {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .catalog-card-row {
+    display: flex;
+    align-items: baseline;
     justify-content: space-between;
-    gap: 0.25rem;
-    margin-bottom: 0.25rem;
+    gap: 0.5rem;
+  }
+
+  .catalog-card-row-right {
+    display: flex;
+    align-items: baseline;
+    gap: 0.375rem;
+    flex-shrink: 0;
+  }
+
+  .catalog-call-number {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .book-year {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
   }
 
-  .book-title {
+  .catalog-rule {
+    border-top: var(--border-width) solid var(--border);
+    margin-block: 0.375rem;
+  }
+
+  .catalog-author {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.02em;
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .catalog-title {
+    font-family: var(--font-display);
+    font-weight: var(--weight-display, var(--weight-regular));
     color: var(--text);
-    font-weight: 700;
-    font-size: 0.875rem;
-    margin-bottom: 0.125rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 0.125rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  .book-card:hover .book-title {
-    color: var(--pop-pink);
-  }
-
-  .book-author {
-    color: var(--text-dim);
-    font-size: 0.75rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .book-call-number {
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.625rem;
-    color: var(--text-dim);
-    font-variant-numeric: tabular-nums lining-nums;
-    margin-bottom: 0.125rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  .book-card:hover .catalog-title {
+    color: var(--color-accent);
   }
 
   .book-footer {
@@ -670,28 +712,34 @@
   }
 
   .book-category {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
-  .status-indicator {
-    font-size: 0.625rem;
+  /* Device 3 (library card-catalog identity layer): reading-status stamp
+     — boxed mono uppercase, axis-aligned. No rotation: unanimously
+     rejected by the design-review panel (legibility, nondeterministic
+     rendering across engines, kitsch). Color comes from the EXISTING
+     .status-read/.status-reading/.status-want classes (defined globally,
+     already the site's semantic status colors) via currentColor — no new
+     color tokens, the border simply follows whichever text color the
+     shared class sets. */
+  .status-stamp {
+    display: inline-flex;
+    align-items: center;
     flex-shrink: 0;
-  }
-
-  .status-indicator.status-read {
-    color: var(--pop-green);
-  }
-
-  .status-indicator.status-reading {
-    color: var(--pop-yellow);
-  }
-
-  .status-indicator.status-want {
-    color: var(--pop-blue);
+    padding: 0.0625rem 0.375rem;
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: var(--border-width) solid currentColor;
+    line-height: 1.3;
   }
 
   /* --- Load more --- */
@@ -704,29 +752,21 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid var(--border);
+    min-height: 2.75rem;
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     background: transparent;
     color: var(--text-muted);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-weight: 500;
     padding: 0.625rem 1.5rem;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     cursor: pointer;
     font-family: var(--font-body);
-    box-shadow: var(--shadow-sm);
-    transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease, color 80ms ease;
+    transition: border-color 120ms ease, color 120ms ease;
   }
 
   .btn-load-more:hover {
-    border-color: var(--pop-pink);
-    color: var(--text);
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 var(--shadow-color);
-  }
-
-  .btn-load-more:active {
-    transform: translate(0, 0);
-    box-shadow: 0 0 0 var(--shadow-color);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
   }
 </style>

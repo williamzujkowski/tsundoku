@@ -8,6 +8,15 @@
     k?: string; // hidden keyword bag — original_title, series, translator, subject_facet, alt names
   }
 
+  // Device 7 (library card-catalog identity layer): drawer-label voice
+  // for the per-result type tag — typography/label only, per the
+  // design-review panel's constraint. The underlying item.y value
+  // ('book' | 'author') and every behavior that reads it (icon choice,
+  // filtering, sort) are untouched; this only changes what's displayed.
+  function drawerLabel(type: string): string {
+    return type === 'book' ? 'Title card' : 'Author card';
+  }
+
   let { baseUrl = '/' }: { baseUrl?: string } = $props();
 
   let open = $state(false);
@@ -162,7 +171,7 @@
           bind:this={inputEl}
           bind:value={query}
           type="search"
-          placeholder="Search books and authors..."
+          placeholder="Search the card catalog…"
           class="modal-search-input"
           aria-label="Search query"
           aria-controls="search-results"
@@ -214,7 +223,7 @@
                 <p class="result-title">{item.t}</p>
                 <p class="result-subtitle">{item.s}</p>
               </div>
-              <span class="result-type">{item.y}</span>
+              <span class="result-type">{drawerLabel(item.y)}</span>
             </a>
           {/each}
         {/if}
@@ -238,11 +247,16 @@
 
 <style>
   .search-toggle {
-    padding: 0.5rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-muted);
     background: none;
     border: none;
     cursor: pointer;
+    transition: color 120ms ease;
   }
 
   .search-toggle:hover {
@@ -259,7 +273,7 @@
     position: fixed;
     inset: 0;
     z-index: 60;
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--color-overlay);
     backdrop-filter: blur(4px);
   }
 
@@ -272,8 +286,7 @@
     max-width: 36rem;
     margin: 12vh auto 0;
     background: var(--bg-elevated);
-    border: var(--border-width) solid var(--border);
-    box-shadow: var(--shadow-3);
+    border: var(--border-width) solid var(--border-strong);
     overflow: hidden;
   }
 
@@ -304,13 +317,23 @@
     outline: none;
   }
 
+  /* Device 7 (library card-catalog identity layer): mono drawer-label
+     voice for the placeholder only — the pseudo-element can carry its
+     own font/case independent of the typed query text, so the input
+     stays comfortable to type in while still reading as a drawer label
+     when empty. Typography only: no structural or behavioral change,
+     focus/keyboard handling above is untouched. */
   .modal-search-input::placeholder {
     color: var(--text-dim);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.8125rem;
   }
 
   .kbd-hint {
     display: none;
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
     background: var(--bg-elevated);
     padding: 0.125rem 0.375rem;
@@ -329,12 +352,13 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    padding: 0.375rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
     color: var(--text-dim);
     background: none;
     border: none;
     cursor: pointer;
-    transition: color 80ms ease;
+    transition: color 120ms ease;
   }
 
   .modal-close:hover {
@@ -374,20 +398,21 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    min-height: 2.75rem;
     padding: 0.625rem 1rem;
     text-decoration: none;
     color: var(--text);
     border-left: 3px solid transparent;
     border-bottom: 1px solid var(--border);
     background: var(--bg-surface);
-    transition: border-color 80ms ease, background 80ms ease;
+    transition: border-color 120ms ease, background 120ms ease;
   }
   .result-item:last-child { border-bottom: none; }
 
   .result-item:hover,
   .result-item.result-active {
     background: var(--bg-elevated);
-    border-left-color: var(--pop-pink);
+    border-left-color: var(--color-accent);
     color: var(--text);
   }
 
@@ -408,7 +433,7 @@
     align-items: center;
     justify-content: center;
     color: var(--text-dim);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     border: 1px solid var(--border);
   }
 
@@ -418,7 +443,7 @@
   }
 
   .result-title {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     color: var(--text);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -426,21 +451,24 @@
   }
 
   .result-subtitle {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
+  /* Device 7: drawer-label voice for the per-result type tag — "Title
+     card" / "Author card" in place of the raw "book"/"author" value,
+     set uppercase+tracked like a library drawer's typed label. Label
+     text only (drawerLabel() in the script); item.y and everything that
+     reads it (icon choice, filtering) are untouched. */
   .result-type {
     font-family: var(--font-mono);
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border: 1px solid var(--border);
-    padding: 0.125rem 0.375rem;
     flex-shrink: 0;
     align-self: center;
   }
@@ -455,7 +483,8 @@
   }
 
   .keyboard-hints {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
     display: flex;
     gap: 1rem;
@@ -469,7 +498,8 @@
   }
 
   .results-count {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
   }
 </style>

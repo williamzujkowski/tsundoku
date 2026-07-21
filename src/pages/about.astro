@@ -19,18 +19,26 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
   <article>
     <h1 class="heading-xl mb-8">About</h1>
 
-    <!-- What is Tsundoku -->
-    <section class="mb-8 prose-container">
-      <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
-      <p class="prose-text">
-        <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
-      </p>
-      <p class="text-muted prose-text">
-        It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
-      </p>
-      <p class="text-muted prose-text">
-        This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
-      </p>
+    <!-- What is Tsundoku — signature device (see DESIGN-NOTES.md "Signature
+         element"): 積ん読 set in tategaki (vertical writing, right-to-left
+         columns, upright glyphs), the way the word's own script would
+         traditionally run down a spine or margin label. Decorative echo
+         of the visible heading text, so it's aria-hidden; hidden below
+         the width where it would otherwise crowd the prose column. -->
+    <section class="mb-8 tsundoku-mark-row">
+      <span class="tategaki-mark" lang="ja" aria-hidden="true">積ん読</span>
+      <div class="prose-container tsundoku-mark-prose">
+        <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
+        <p class="prose-text">
+          <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
+        </p>
+        <p class="text-muted prose-text">
+          It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
+        </p>
+        <p class="text-muted prose-text">
+          This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
+        </p>
+      </div>
     </section>
 
     <!-- Origin Story -->
@@ -114,27 +122,27 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
         This is a fully static site — no server, no database, no JavaScript frameworks fighting for your CPU. Just HTML, CSS, and a few Svelte islands for search and filtering. The same person who built enrichment pipelines for their unread books also went to great lengths to avoid a server bill.
       </p>
       <div class="grid grid-2 md-grid-3 gap-3">
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-cyan);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">Astro</span>
           <span class="text-dim text-xs block">Static site generator</span>
         </div>
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-orange);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">Svelte 5</span>
           <span class="text-dim text-xs block">Interactive islands</span>
         </div>
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-pink);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">Custom CSS</span>
-          <span class="text-dim text-xs block">Neo-brutalist design</span>
+          <span class="text-dim text-xs block">Remarque design system</span>
         </div>
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-green);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">Open Library</span>
           <span class="text-dim text-xs block">Covers &amp; metadata</span>
         </div>
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-purple);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">Wikipedia</span>
           <span class="text-dim text-xs block">Descriptions &amp; bios</span>
         </div>
-        <div class="card card-padded card-accent-top" style="--accent-color: var(--pop-blue);">
+        <div class="card card-padded card-accent-top">
           <span class="font-bold">GitHub Pages</span>
           <span class="text-dim text-xs block">Hosting</span>
         </div>
@@ -146,28 +154,33 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
     <section class="mb-8">
       <h2 class="heading-lg mb-6 section-heading">Stages of Tsundoku</h2>
       <div class="grid gap-3">
-        <div class="list-item card-accent-left" style="--accent-color: var(--pop-green);">
+        <div class="list-item card-accent-left">
           <span class="step-number">1</span>
           <span class="text-muted text-sm"><strong>Denial</strong> — "I don't have a problem. I just appreciate good literature."</span>
         </div>
-        <div class="list-item card-accent-left" style="--accent-color: var(--pop-yellow);">
+        <div class="list-item card-accent-left">
           <span class="step-number">2</span>
           <span class="text-muted text-sm"><strong>Bargaining</strong> — "If I read two books a week, I'll finish by... 2029."</span>
         </div>
-        <div class="list-item card-accent-left" style="--accent-color: var(--pop-blue);">
+        <div class="list-item card-accent-left">
           <span class="step-number">3</span>
           <span class="text-muted text-sm"><strong>Cataloging</strong> — "I should organize these into a database. With enrichment pipelines."</span>
         </div>
-        <div class="list-item card-accent-left" style="--accent-color: var(--pop-purple);">
+        <div class="list-item card-accent-left">
           <span class="step-number">4</span>
           <span class="text-muted text-sm"><strong>Acceptance</strong> — "I built a website for my unread books. This is who I am now."</span>
         </div>
-        <div class="list-item card-accent-left" style="--accent-color: var(--pop-pink);">
+        <div class="list-item card-accent-left">
           <span class="step-number">5</span>
           <span class="text-muted text-sm"><strong>Relapse</strong> — "Oh, that looks interesting..." <em>*adds 50 more books*</em></span>
         </div>
       </div>
     </section>
+
+    <!-- remarque-tokens 0.6.0's endmark — a quiet fleuron closing the
+         essay-like narrative content of this page (About reads as prose
+         even though it isn't wrapped in .remarque-prose). -->
+    <div class="remarque-endmark" aria-hidden="true"></div>
 
     <hr class="section-divider" />
     <div class="text-center">
@@ -175,3 +188,45 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
     </div>
   </article>
 </Layout>
+
+<style>
+  /* Signature device: 積ん読 in tategaki (vertical writing, columns flow
+     right-to-left, glyphs upright — the traditional way this exact word
+     would run down a book spine or margin label in Japanese typesetting).
+     A real layout column, not an absolutely-positioned overlay, so it
+     never overlaps the prose; it just steps out of the way below the
+     width where there's no honest margin left to put it in. */
+  .tsundoku-mark-row {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-6);
+  }
+
+  .tsundoku-mark-prose {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .tategaki-mark {
+    flex-shrink: 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: var(--font-display);
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    /* --color-border-bold, not --color-accent: this is typographic
+       texture, not the page's one interactive accent. */
+    color: var(--color-border-bold);
+    padding-top: 0.25rem;
+  }
+
+  @media (max-width: 900px) {
+    /* No honest margin left at this width to set the mark in without
+       crowding the reading column — quiet means it disappears rather
+       than compresses. */
+    .tategaki-mark {
+      display: none;
+    }
+  }
+</style>

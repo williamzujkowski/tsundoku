@@ -92,7 +92,7 @@ const mapStyleBlock = `<style>
 .world-map path:hover { stroke-width: 1.2; stroke: var(--text-muted); }
 .timeline-bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 4px; align-items: end; min-height: 160px; }
 .timeline-bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-.timeline-bar-fill { width: 100%; background: var(--pop-purple); min-height: 2px; }
+.timeline-bar-fill { width: 100%; background: var(--color-accent); min-height: 2px; }
 ${mapFillRules}
 </style>`;
 ---
@@ -192,7 +192,7 @@ ${mapFillRules}
               <span class="text-dim text-mono">{n.count}</span>
             </div>
             <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * n.count / nationalityMax)} aria-valuemin="0" aria-valuemax="100" aria-label={`${nationalityLabel(n.code)}: ${n.count} books`}>
-              <div style={`width: ${100 * n.count / nationalityMax}%; background: var(--pop-cyan);`}></div>
+              <div style={`width: ${100 * n.count / nationalityMax}%; background: var(--color-accent);`}></div>
             </div>
           </div>
         ))}
@@ -228,7 +228,7 @@ ${mapFillRules}
     <h2 class="heading-md mb-4">Priority Breakdown</h2>
     <div class="card card-padded-lg">
       {[
-        { label: 'Must-Read', count: stats.priorities.must_read, color: 'var(--pop-pink)' },
+        { label: 'Must-Read', count: stats.priorities.must_read, color: 'var(--color-accent)' },
         { label: 'Recommended', count: stats.priorities.recommended, color: 'var(--text-muted)' },
         { label: 'Eventually', count: stats.priorities.supplementary, color: 'var(--text-dim)' },
       ].map(p => (
@@ -263,10 +263,10 @@ ${mapFillRules}
         <div class="card card-padded">
           <div class="flex items-center justify-between mb-2">
             <span class="text-sm text-muted">{e.label}</span>
-            <span class="font-bold heading-md">{e.pct}%</span>
+            <span class="stat-pct">{e.pct}%</span>
           </div>
           <div class="progress-bar" role="progressbar" aria-valuenow={e.pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${e.pct}%`}>
-            <div style={`width: ${e.pct}%; background: var(--pop-pink);`}></div>
+            <div style={`width: ${e.pct}%; background: var(--color-accent);`}></div>
           </div>
           <p class="text-xs text-dim mt-2">{e.count.toLocaleString()} of {stats.total_books.toLocaleString()}</p>
         </div>
@@ -292,10 +292,10 @@ ${mapFillRules}
             <div class="card card-padded">
               <div class="flex items-center justify-between mb-2">
                 <span class="text-sm text-muted">{e.label}</span>
-                <span class="font-bold heading-md">{pct}%</span>
+                <span class="stat-pct">{pct}%</span>
               </div>
               <div class="progress-bar" role="progressbar" aria-valuenow={pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${pct}%`}>
-                <div style={`width: ${pct}%; background: var(--pop-cyan);`}></div>
+                <div style={`width: ${pct}%; background: var(--color-accent);`}></div>
               </div>
               <p class="text-xs text-dim mt-2">{e.count.toLocaleString()} of {stats.author_enrichment.total_authors.toLocaleString()}</p>
             </div>
@@ -323,7 +323,7 @@ ${mapFillRules}
             <span class="text-dim">{era.count}</span>
           </div>
           <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * era.count / stats.total_books)} aria-valuemin="0" aria-valuemax="100" aria-label={`${era.label}: ${era.count} books`}>
-            <div style={`width: ${100 * era.count / stats.total_books}%; background: var(--pop-purple);`}></div>
+            <div style={`width: ${100 * era.count / stats.total_books}%; background: var(--color-accent);`}></div>
           </div>
         </div>
       ))}
@@ -334,18 +334,13 @@ ${mapFillRules}
   <section class="mb-8">
     <h2 class="heading-md mb-4">Most Represented Authors</h2>
     <div class="grid sm-grid-2 gap-2">
-      {stats.top_authors.map((a: {name: string; count: number}, i: number) => {
-        const colors = ['var(--pop-pink)', 'var(--pop-blue)', 'var(--pop-green)', 'var(--pop-orange)', 'var(--pop-purple)', 'var(--pop-cyan)', 'var(--pop-yellow)', 'var(--pop-red)'];
-        const color = colors[i % colors.length];
-        return (
-          <a href={`${base}authors/${toSlug(a.name)}/`}
-             class="list-item card-accent-left" style={`--accent-color: ${color};`}>
-            <span class="step-number" style={`color: ${color};`}>{i + 1}</span>
-            <span class="text-sm font-bold">{a.name}</span>
-            <span class="text-xs text-mono ml-auto" style={`color: ${color};`}>{a.count}</span>
-          </a>
-        );
-      })}
+      {stats.top_authors.map((a: {name: string; count: number}, i: number) => (
+        <a href={`${base}authors/${toSlug(a.name)}/`} class="list-item card-accent-left">
+          <span class="step-number text-dim">{i + 1}</span>
+          <span class="text-sm font-bold">{a.name}</span>
+          <span class="text-xs text-mono text-dim ml-auto">{a.count}</span>
+        </a>
+      ))}
     </div>
   </section>
 
@@ -362,12 +357,11 @@ ${mapFillRules}
     pointer-events: none;
     padding: 0.35rem 0.6rem;
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text);
     background: var(--bg-elevated);
     border: var(--border-width) solid var(--border-strong);
-    border-radius: 4px;
-    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-sm);
     white-space: nowrap;
     transform: translate(12px, 12px);
   }

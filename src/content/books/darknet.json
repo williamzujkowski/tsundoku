@@ -9,7 +9,7 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "\nA darknet or dark net is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization, and often uses a unique customized communication protocol. Two typical darknet types are social networks, and anonymity proxy networks such as Tor via an anonymized series of connections.",
-  "cover_url": "https://covers.openlibrary.org/b/isbn/9781987942002-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/darknet.jpg",
   "isbn": "9781987942002",
   "ol_work_key": "/works/OL22016422W",
   "first_published": 2015,
@@ -33,5 +33,8 @@
   "lcc": [
     "PN3448"
   ],
-  "cover_url_large": "https://covers.openlibrary.org/b/isbn/9781987942002-L.jpg"
+  "cover_url_large": "/tsundoku/cached/covers/darknet.jpg",
+  "cover_url_source": "https://covers.openlibrary.org/b/isbn/9781987942002-L.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/isbn/9781987942002-L.jpg",
+  "cover_cached_at": "2026-07-21T04:31:18+00:00"
 }

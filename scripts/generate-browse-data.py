@@ -56,6 +56,14 @@ def main() -> None:
         lcc = d.get("lcc") or []
         if lcc:
             entry["lc"] = lcc[0]
+        # DDC (Dewey) call number — powers the library card-catalog identity
+        # layer's catalog-card anatomy and cover-thumbnail spine-label chip.
+        # Wire carries the raw first value; formatCallNumber() in
+        # src/utils/formatting.ts validates/formats it client-side (single
+        # shared source per the design-review panel's binding condition).
+        ddc = d.get("ddc") or []
+        if ddc:
+            entry["dd"] = ddc[0]
         tags = d.get("tags") or []
         if tags:
             entry["g"] = tags

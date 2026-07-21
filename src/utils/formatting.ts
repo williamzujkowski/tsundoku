@@ -41,6 +41,87 @@ export function statusClass(status: ReadingStatus): string {
   return 'status-badge status-want';
 }
 
+/**
+ * Catalog-card call-number formatter — the SINGLE shared source for the
+ * library card-catalog identity layer's Device 1 (catalog-card anatomy)
+ * and Device 2 (DDC spine-label chip on cover thumbnails). Per the
+ * design-review panel's binding condition: one formatter, unit-tested,
+ * strict validation — malformed or missing DDC data must render as
+ * omitted, never as raw/partial markup.
+ *
+ * Only the first DDC value is used (book pages already treat ddc[0] as
+ * the primary call number elsewhere — see the Classification section on
+ * the book detail page). Accepts either the content collection's
+ * `string[]` shape or the browse-data wire format's single-string `dd`
+ * field, so BookGrid.svelte (wire data) and the .astro pages (content
+ * collection) can share one implementation. Returns null (never an empty
+ * string or partial match) for anything that doesn't strictly match a
+ * Dewey Decimal number.
+ */
+const DDC_PATTERN = /^[0-9]{1,3}(\.[0-9]+)?$/;
+
+export function formatCallNumber(ddc: string | string[] | undefined | null): string | null {
+  if (!ddc) return null;
+  const first = Array.isArray(ddc) ? ddc[0] : ddc;
+  if (typeof first !== 'string') return null;
+  const trimmed = first.trim();
+  if (!DDC_PATTERN.test(trimmed)) return null;
+  return trimmed;
+}
+
+/**
+ * Invert "First Last" to catalog-card "Last, First" order (Device 1 and
+ * Device 5's card anatomy). Joint bylines (via parseAuthors) invert each
+ * component and join with "; ". Organizational names, already-comma'd
+ * names, and single-token names pass through unchanged — there's no
+ * surname to invert without guessing wrong.
+ */
+// Lowercase surname particles that fuse with the following token into one
+// surname unit ("Le Guin", "Van Gogh", "de la Cruz") rather than being
+// treated as a middle name. Heuristic, not a name database — covers the
+// common Western multi-word-surname cases without over-fitting.
+const SURNAME_PARTICLES = new Set([
+  'de', 'del', 'della', 'der', 'di', 'da', 'van', 'von', 'le', 'la', 'du', 'dos', 'das',
+]);
+
+export function invertAuthorName(author: string): string {
+  if (!author || author === 'Unknown') return author;
+
+  const invertOne = (name: string): string => {
+    if (isOrganizationalAuthorName(name)) return name;
+    if (name.includes(',')) return name; // already "Last, First" or similar
+    const tokens = name.trim().split(/\s+/);
+    if (tokens.length < 2) return name;
+    let splitIndex = tokens.length - 1;
+    while (splitIndex > 0 && SURNAME_PARTICLES.has(tokens[splitIndex - 1].toLowerCase())) {
+      splitIndex--;
+    }
+    const surname = tokens.slice(splitIndex).join(' ');
+    const given = tokens.slice(0, splitIndex).join(' ');
+    return `${surname}, ${given}`;
+  };
+
+  const { parts, isJoint } = parseAuthors(author);
+  if (isJoint) return parts.map(invertOne).join('; ');
+  return invertOne(author);
+}
+
+/** Reading-status -> catalog stamp (Device 3). Uppercase, boxed, no rotation
+ *  (unanimously rejected by the panel — legibility, nondeterministic
+ *  rendering, kitsch). Reuses the EXISTING status-badge/status-* semantic
+ *  colors — no new tokens. */
+export interface StatusStamp {
+  label: string;
+  className: string;
+}
+
+export function statusStamp(status: ReadingStatus | undefined | null): StatusStamp | null {
+  if (!status) return null;
+  if (status === 'read') return { label: 'READ', className: 'status-read' };
+  if (status === 'reading') return { label: 'READING', className: 'status-reading' };
+  return { label: 'NOT YET', className: 'status-want' };
+}
+
 export function pluralize(count: number, singular: string, plural?: string): string {
   return count === 1 ? singular : (plural ?? singular + 's');
 }

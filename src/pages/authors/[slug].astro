@@ -84,8 +84,12 @@ const nationalityLine = (author.nationality ?? [])
       <img
         src={author.photo_url}
         alt={author.name}
+        width="160"
+        height="160"
         class="author-photo"
         loading="eager"
+        decoding="async"
+        fetchpriority="high"
         transition:name={`author-${author.slug}`}
       />
     ) : (

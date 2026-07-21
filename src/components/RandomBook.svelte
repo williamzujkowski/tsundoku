@@ -29,11 +29,16 @@
 
 <style>
   .random-btn {
-    padding: 0.5rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-muted);
     background: none;
     border: none;
     cursor: pointer;
+    transition: color 120ms ease;
   }
 
   .random-btn:hover {

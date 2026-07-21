@@ -116,7 +116,7 @@ const displayLetter = letter === 'other' ? '#' : (letter ?? '').toUpperCase();
       const inner = (
         <>
           {author.photo_url ? (
-            <img src={author.photo_url} alt="" class="author-avatar author-avatar-sm" loading="lazy" transition:name={`author-${author.slug}`} />
+            <img src={author.photo_url} alt="" width="28" height="28" class="author-avatar author-avatar-sm" loading="lazy" decoding="async" transition:name={`author-${author.slug}`} />
           ) : (
             <div class="author-avatar-placeholder author-avatar-sm" aria-hidden="true">
               <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
