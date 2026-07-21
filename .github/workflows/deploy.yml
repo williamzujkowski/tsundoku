@@ -52,6 +52,29 @@ jobs:
       - name: Run Python tests
         run: cd scripts && python -m pytest -q
 
+  # Token-drift check against the installed remarque-tokens package
+  # (remarque#47/#48 — consensus-armed now that 2+ sites consume the
+  # package from npm; the flagship williamzujkowski.github.io is #1,
+  # this site is #2). Calls remarque's reusable workflow directly rather
+  # than a plain `npx remarque-drift` step: remarque-drift isn't
+  # published to npm yet (it lands with a future remarque-tokens
+  # release), so `remarque-ref` pins this call to the feature branch
+  # that adds it (williamzujkowski/remarque#71). Once that release
+  # ships, drop `remarque-ref` and repoint `@feat/drift-detection` at a
+  # released tag — no other change needed.
+  #
+  # This site documents its (palette-tier-only) deviations in
+  # DESIGN-NOTES.md rather than DESIGN-DEVIATIONS.md; the engine's
+  # deviation-doc lookup accepts either filename.
+  token-drift:
+    permissions:
+      contents: read
+    uses: williamzujkowski/remarque/.github/workflows/token-drift.yml@feat/drift-detection
+    with:
+      css-file: src/styles/tokens-site.css
+      package-dir: .
+      remarque-ref: feat/drift-detection
+
   build:
     needs: quality
     # Runs on PRs too, so a build/bundler break (e.g. a dependency bump that
