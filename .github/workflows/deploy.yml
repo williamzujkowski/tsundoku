@@ -98,13 +98,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Restore the photo / cover cache from the previous successful run so we
-      # don't re-download every Wikimedia thumb on every build. See #94.
+      # Restore the COVER cache from the previous successful run so we don't
+      # re-download every Open Library cover on every build. See #94.
+      #
+      # Author photos are no longer part of this cache (#234): 1,538/1,542
+      # were git-committed directly to public/cached/authors/ once bulk
+      # re-fetching them turned out to be structurally impossible (see that
+      # issue — most of the stored Wikimedia URLs use a thumbnail format the
+      # CDN now permanently rejects with HTTP 400, so no amount of chunked
+      # CI re-attempts would ever converge). `git checkout` already puts
+      # those files on disk before this step runs, so there's nothing left
+      # for an actions/cache round-trip to buy for authors.
       - name: Restore photo cache
         id: photo-cache-restore
         uses: actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae  # v5
         with:
-          path: public/cached
+          path: public/cached/covers
           key: photo-cache-v1-${{ github.run_id }}
           restore-keys: |
             photo-cache-v1-
@@ -127,14 +136,15 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
-      # Save the (possibly enlarged) cache for the next run. Splitting restore
-      # and save lets us "always save" — the default cache action only saves on
-      # cache miss for the exact key.
+      # Save the (possibly enlarged) COVER cache for the next run. Splitting
+      # restore and save lets us "always save" — the default cache action
+      # only saves on cache miss for the exact key. Authors aren't cached
+      # here anymore — see the restore step above.
       - name: Save photo cache
         uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae  # v5
         if: always() && github.event_name != 'pull_request'
         with:
-          path: public/cached
+          path: public/cached/covers
           key: photo-cache-v1-${{ github.run_id }}
 
       - name: Upload artifact

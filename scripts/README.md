@@ -81,7 +81,7 @@ corrupt data. Treat as historical.
 | Script | Purpose |
 |---|---|
 | `validate-photo-urls.py` | HEAD-probe `photo_url` / `cover_url` and clear confirmed-dead ones (issue #93). Default is dry-run; pass `--apply` to actually clear. |
-| `cache-photos.py` | Download author photos / book covers to `public/cached/` and rewrite source JSON URLs to local paths. Originals preserved in `*_source` fields (issue #94). |
+| `cache-photos.py` | Download book covers to `public/cached/covers/` (gitignored, restored via CI's `actions/cache`) and rewrite source JSON URLs to local paths; originals preserved in `*_source` fields (issue #94). Author photos are handled differently since #234: `public/cached/authors/` is committed directly to the repo (bulk re-fetching turned out to be structurally impossible — most stored Wikimedia URLs use a now-permanently-rejected thumbnail format — and photos don't change), so this script's author path only runs for newly-added authors without a pre-committed photo; `KNOWN_UNFETCHABLE_AUTHOR_SLUGS` skips the 4 confirmed-dead-upstream authors outright. |
 | `enrich-authors-gaps.py` | Fill missing bio / photo on existing authors via multi-source fallback (Open Library author page → Wikidata). Additive — never overwrites (issue #105). |
 
 ## Tests

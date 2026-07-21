@@ -10,8 +10,9 @@ After this script:
 
 If a download fails (404, network error), the original upstream URL is
 LEFT IN PLACE — never blanked, never broken-by-this-script. Combined
-with the runtime broken-image fallback in Layout.astro, the site is
-"belt + suspenders" resilient to upstream rot.
+with the runtime broken-image fallback in Layout.astro AND the build-time
+existence guard (src/utils/imageGuard.ts / scripts/image_guard.py, #234's
+companion fix), the site is "belt + suspenders" resilient to upstream rot.
 
 Usage:
   python scripts/cache-photos.py                   # download all
@@ -21,8 +22,24 @@ Usage:
   python scripts/cache-photos.py --dry-run         # plan only, no writes
 
 CI integration: this script runs in the prebuild step between content
-sync and astro build. The public/cached/ directory is gitignored —
-actions/cache@v4 persists it across CI runs.
+sync and astro build. `public/cached/covers/` is gitignored —
+actions/cache@v4 persists it across CI runs. `public/cached/authors/` is
+DIFFERENT (#234): it's committed directly to the repo. Bulk re-fetching
+author photos turned out to be structurally impossible for most of the
+catalog — 1,092 of 1,542 stored Wikimedia URLs use a thumbnail format the
+CDN now permanently rejects with HTTP 400, so no amount of CI
+re-attempts would ever converge — while the photos themselves genuinely
+never change once fetched. Since 1,538/1,542 were already downloaded (in
+a prior session, before that Wikimedia policy took effect), committing
+them outright is simpler and deterministic: `git checkout` puts them on
+disk before this script even runs, `is_already_local()` + the existence
+check below correctly report them as already-cached, and no network
+round-trip happens for them ever again. This script's author path still
+exists for: the ~349 authors with no known photo URL at all (a data gap,
+not a caching one — nothing to do), the 4 in
+KNOWN_UNFETCHABLE_AUTHOR_SLUGS below (skipped outright — see that
+constant), and any newly-added author who doesn't yet have a
+pre-committed photo.
 """
 
 import argparse
@@ -62,6 +79,25 @@ CONTENT_TYPE_EXT = {
     "image/gif": "gif",
     "image/svg+xml": "svg",
 }
+
+# Known-unfetchable author photos, confirmed via #234's investigation:
+# genuinely-dead or permanently-rejected upstream URLs that no amount of
+# retrying will ever fix. Documented here (with the reason) rather than
+# silently skipped, so re-attempting them doesn't waste CI time forever,
+# and so a future contributor who tracks down a replacement photo knows
+# exactly which slugs to retire from this list once photo_url_source is
+# fixed. All four remain in KNOWN_UNFETCHABLE_AUTHOR_SLUGS as of #234;
+# most of the OTHER ~1,088 formerly-broken authors didn't need this list
+# at all — they were simply committed to public/cached/authors/ directly
+# (see #234), since the underlying photos were already downloaded (in a
+# prior session, before Wikimedia's thumbnail-format change) and photos
+# don't change, so re-fetching them was never actually necessary.
+KNOWN_UNFETCHABLE_AUTHOR_SLUGS = frozenset({
+    "anne-mccaffrey",   # HTTP 404 — upstream Wikimedia file no longer exists
+    "terry-pratchett",  # HTTP 400 — old-style thumbnail URL, rejected by Wikimedia's CDN
+    "hafez",            # HTTP 404 — upstream Wikimedia file no longer exists
+    "malcolm-lowry",    # HTTP 404 — upstream Wikimedia file no longer exists
+})
 
 
 def is_already_local(url: str) -> bool:
@@ -226,6 +262,11 @@ def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
         if not url:
             continue
         counts["total"] += 1
+        slug = doc.get("slug") or path.stem
+
+        if slug in KNOWN_UNFETCHABLE_AUTHOR_SLUGS:
+            counts["skipped"] += 1
+            continue
 
         if is_already_local(url):
             local_path = _resolve_local_path(url, out_dir)
@@ -239,8 +280,6 @@ def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
                 counts["skipped"] += 1
                 continue
             url = recovery_url
-
-        slug = doc.get("slug") or path.stem
 
         if dry_run:
             print(f"  WOULD CACHE {slug}: {url[:80]}")
