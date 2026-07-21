@@ -14,6 +14,9 @@ import {
   isJointAlias,
   isOrganizationalAuthorName,
   isSuppressedAuthorStub,
+  formatCallNumber,
+  invertAuthorName,
+  statusStamp,
 } from './formatting.js';
 
 describe('toSlug', () => {
@@ -489,5 +492,130 @@ describe('isSuppressedAuthorStub', () => {
         known,
       ),
     ).toBe(true);
+  });
+});
+
+// Library card-catalog identity layer (design-review epic) — Devices 1/2/3/5
+// share these formatters; panel condition requires unit tests for all three.
+describe('formatCallNumber', () => {
+  it('returns a plain integer-looking DDC number unchanged', () => {
+    expect(formatCallNumber(['813'])).toBe('813');
+  });
+
+  it('returns a DDC number with a decimal fraction unchanged', () => {
+    expect(formatCallNumber(['813.54'])).toBe('813.54');
+  });
+
+  it('accepts 1- and 2-digit DDC classes', () => {
+    expect(formatCallNumber(['5'])).toBe('5');
+    expect(formatCallNumber(['52'])).toBe('52');
+  });
+
+  it('only ever reads the first DDC value', () => {
+    expect(formatCallNumber(['813.54', '820'])).toBe('813.54');
+  });
+
+  it('trims incidental whitespace', () => {
+    expect(formatCallNumber([' 813.54 '])).toBe('813.54');
+  });
+
+  it('returns null for undefined', () => {
+    expect(formatCallNumber(undefined)).toBeNull();
+  });
+
+  it('returns null for null', () => {
+    expect(formatCallNumber(null)).toBeNull();
+  });
+
+  it('returns null for an empty array', () => {
+    expect(formatCallNumber([])).toBeNull();
+  });
+
+  it('returns null for OL sort-padded LCC-style strings, not DDC', () => {
+    expect(formatCallNumber(['PR6029.00000000.R8 Ni2'])).toBeNull();
+  });
+
+  it('returns null for a malformed/partial number', () => {
+    expect(formatCallNumber(['813.'])).toBeNull();
+    expect(formatCallNumber(['.54'])).toBeNull();
+    expect(formatCallNumber(['813a'])).toBeNull();
+  });
+
+  it('returns null for a non-numeric string', () => {
+    expect(formatCallNumber(['Fiction'])).toBeNull();
+  });
+
+  it('returns null for more than 3 leading digits', () => {
+    expect(formatCallNumber(['8130.5'])).toBeNull();
+  });
+
+  it('never throws on garbage input, and never renders raw markup', () => {
+    expect(formatCallNumber(['<script>alert(1)</script>'])).toBeNull();
+  });
+
+  it('accepts the browse-data wire format (a single string, not an array)', () => {
+    expect(formatCallNumber('813.6')).toBe('813.6');
+  });
+
+  it('returns null for an empty wire string', () => {
+    expect(formatCallNumber('')).toBeNull();
+  });
+});
+
+describe('invertAuthorName', () => {
+  it('inverts a plain "First Last" name', () => {
+    expect(invertAuthorName('Frank Herbert')).toBe('Herbert, Frank');
+  });
+
+  it('inverts a "First Middle Last" name using only the last token as surname', () => {
+    expect(invertAuthorName('Ursula K. Le Guin')).toBe('Le Guin, Ursula K.');
+  });
+
+  it('leaves a single-token name unchanged', () => {
+    expect(invertAuthorName('Voltaire')).toBe('Voltaire');
+  });
+
+  it('leaves "Unknown" unchanged', () => {
+    expect(invertAuthorName('Unknown')).toBe('Unknown');
+  });
+
+  it('leaves an already-comma-form name unchanged', () => {
+    expect(invertAuthorName('Smith, John')).toBe('Smith, John');
+  });
+
+  it('leaves an organizational byline unchanged', () => {
+    expect(invertAuthorName('World Variety Produce, Inc.')).toBe('World Variety Produce, Inc.');
+  });
+
+  it('inverts each component of a joint byline and joins with "; "', () => {
+    expect(invertAuthorName('Robert Jordan & Brandon Sanderson')).toBe(
+      'Jordan, Robert; Sanderson, Brandon',
+    );
+  });
+
+  it('handles empty string without throwing', () => {
+    expect(invertAuthorName('')).toBe('');
+  });
+});
+
+describe('statusStamp', () => {
+  it('maps read -> READ with the existing status-read class', () => {
+    expect(statusStamp('read')).toEqual({ label: 'READ', className: 'status-read' });
+  });
+
+  it('maps reading -> READING with the existing status-reading class', () => {
+    expect(statusStamp('reading')).toEqual({ label: 'READING', className: 'status-reading' });
+  });
+
+  it('maps want -> NOT YET with the existing status-want class', () => {
+    expect(statusStamp('want')).toEqual({ label: 'NOT YET', className: 'status-want' });
+  });
+
+  it('returns null for undefined (book has no reading_status)', () => {
+    expect(statusStamp(undefined)).toBeNull();
+  });
+
+  it('returns null for null', () => {
+    expect(statusStamp(null)).toBeNull();
   });
 });

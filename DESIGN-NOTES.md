@@ -9,7 +9,75 @@ answer for a cover-grid / bookshelf catalog site, and this project needed
 one immediately. Everything below is a deliberate, documented departure —
 not a drift.
 
-## Signature element: 積ん読 set in tategaki
+## Library card-catalog identity layer (epic, design-review ratified 3-0, CORE+)
+
+Tracking issue: williamzujkowski/tsundoku#230. Owner's explicit request
+("book cards look more like library cards and other touches that make
+this feel much more interesting") is the owner-override this identity
+layer runs under for card styling specifically — everything else in this
+PR still follows Remarque's rules unmodified.
+
+**Rejected by the panel** (data-free skeuomorphism/kitsch, no real data
+behind them): a rod hole through the card (pure ornament from the
+physical card-drawer metaphor), an ex-libris bookplate (no per-book
+ownership/provenance data on this site to hang one on), and rotating the
+reading-status stamp a few degrees for a "hand-stamped" look (hurts
+legibility, renders nondeterministically across engines/fonts, reads as
+kitsch rather than restraint — this device stays crisp and axis-aligned).
+
+Binding panel conditions, applied throughout: existing tokens only (no new
+color/shape tokens); Devices 1 and 2 share one call-number formatter
+(`formatCallNumber` in `src/utils/formatting.ts`), unit-tested; DDC values
+are validated against `^[0-9]{1,3}(\.[0-9]+)?$` and anything malformed or
+missing renders as *omitted*, never as raw/partial markup; no `set:html`
+anywhere in the card-anatomy code path (Astro's default escaping only);
+motion via duration tokens only; 44px targets and heading order intact;
+both audit scopes stay green with no new findings.
+
+### Device 1 — Catalog-card anatomy (`BookGrid.svelte`, the `/browse` grid)
+
+Each book card is now modeled on a printed library catalog card:
+
+- **Mono DDC call number, top-left** (`.catalog-call-number`) — real data:
+  the catalog has DDC coverage on effectively every book. Built on
+  `formatCallNumber(book.ddc)`, which strictly validates the wire value
+  against the DDC pattern and returns `null` for anything malformed or
+  absent; the template only renders the `<span>` when a value comes back,
+  so there is never an empty or garbled call-number box.
+- **Author, surname-first** (`.catalog-author`, e.g. "Herbert, Frank") —
+  `invertAuthorName()` reuses the existing `parseAuthors()` joint-byline
+  splitter (so "Robert Jordan & Brandon Sanderson" becomes "Jordan,
+  Robert; Sanderson, Brandon"), skips organizational/already-comma'd
+  names, and handles common multi-word surnames via a small particle list
+  (de/van/von/le/la/di/da/…) so "Ursula K. Le Guin" inverts to "Le Guin,
+  Ursula K." rather than "Guin, Ursula K. Le." This is a heuristic, not a
+  name database — documented as a known limitation.
+- **Serif title line** (`.catalog-title`) — `--font-display`
+  (Newsreader) at `font-weight: var(--weight-display, var(--weight-regular))`,
+  the same dark-mode-compensated weight chain as `.heading-xl`.
+- **Hairline rules** (`.catalog-rule`, `border-top: 1px solid
+  var(--color-border)`) bracket the author/title block above and below,
+  positioned with `margin-block` directly against the text they close
+  off — they sit at the baselines they carry, not as a floating divider
+  mid-card.
+- Card stock is unchanged from the base restyle: `--color-surface`
+  background, 1px `--color-border`, no `border-radius` (square corners —
+  "catalog cards are square-cornered" per the brief, and this was already
+  the site's chosen radius identity, see "Radius choice" below).
+- The priority badge and publication year moved to the right side of the
+  same top row as the call number (`.catalog-card-row-right`) — DDC now
+  owns the anatomically-correct top-left position a catalog card's
+  classification line occupies.
+- The former LCC-based `.book-call-number` line was removed from this
+  card (DDC now fills that anatomical role); LCC stays prominent on the
+  book detail page (spine label + Classification section, Device 5).
+
+`browse-data.json`'s wire format gained a `dd` field (`scripts/
+generate-browse-data.py`) carrying the book's primary DDC value, alongside
+a comment pointing back at `formatCallNumber` as the single validating
+consumer.
+
+### Device 2 — DDC spine-label chip on cover thumbnails
 
 Every Remarque site should have one thing a reader remembers it by — spend
 all the boldness there, keep everything else disciplined. This site's

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { thumbnailUrl } from '../utils/formatting';
+  import { thumbnailUrl, formatCallNumber, invertAuthorName } from '../utils/formatting';
 
   interface Book {
     title: string;
@@ -13,6 +13,7 @@
     reading_status?: 'want' | 'reading' | 'read';
     tags?: string[];
     lcc?: string;
+    ddc?: string;
     original_language?: string;
     nationality?: string;
   }
@@ -21,16 +22,9 @@
   interface WireBook {
     t: string; a: string; s: string; p: number; cat: string;
     co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; lc?: string;
-    ol?: string; n?: string;
+    dd?: string; ol?: string; n?: string;
   }
 
-  function lccDisplay(lcc: string): string {
-    return lcc
-      .replace(/^([A-Z]+)-+(\d)/, '$1$2')
-      .replace(/\.0+(?=\D|$)/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
   interface BrowseData {
     books: WireBook[];
     categories: string[];
@@ -101,6 +95,7 @@
         reading_status: b.rs,
         tags: b.g,
         lcc: b.lc,
+        ddc: b.dd,
         original_language: b.ol,
         nationality: b.n,
       }));
@@ -294,20 +289,31 @@
             {:else}
               <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
             {/if}
-            <div class="book-info">
-              <div class="book-meta-row">
-                <span class={priorityClass(book.priority)}>
-                  {priorityLabel(book.priority)}
-                </span>
-                {#if book.first_published}
-                  <span class="book-year">{book.first_published}</span>
+            <!-- Catalog-card anatomy (library card-catalog identity layer,
+                 Device 1): mono DDC call number top-left (real data —
+                 formatCallNumber validates strictly, omits if missing/
+                 malformed, never renders raw markup), surname-first author
+                 line, serif title, hairline rules aligned to the text
+                 baselines they carry — evoking printed card stock rather
+                 than floating as decoration. -->
+            <div class="book-info catalog-card-body">
+              <div class="catalog-card-row">
+                {#if formatCallNumber(book.ddc)}
+                  <span class="catalog-call-number">{formatCallNumber(book.ddc)}</span>
                 {/if}
+                <span class="catalog-card-row-right">
+                  <span class={priorityClass(book.priority)}>
+                    {priorityLabel(book.priority)}
+                  </span>
+                  {#if book.first_published}
+                    <span class="book-year">{book.first_published}</span>
+                  {/if}
+                </span>
               </div>
-              {#if book.lcc}
-                <span class="book-call-number" title="Library of Congress call number">{lccDisplay(book.lcc)}</span>
-              {/if}
-              <h3 class="book-title">{book.title}</h3>
-              <p class="book-author">{book.author}</p>
+              <div class="catalog-rule" aria-hidden="true"></div>
+              <p class="catalog-author">{invertAuthorName(book.author)}</p>
+              <h3 class="catalog-title">{book.title}</h3>
+              <div class="catalog-rule" aria-hidden="true"></div>
               <div class="book-footer">
                 <p class="book-category">{book.category}</p>
                 {#if book.reading_status}
@@ -587,12 +593,39 @@
     flex: 1;
   }
 
-  .book-meta-row {
+  /* Catalog-card anatomy (Device 1). Text-only rhythm modeled on a
+     printed library catalog card: a mono classification row, a hairline
+     rule, the surname-first author line, the serif title, a second
+     hairline rule, then the existing footer row. Rules sit directly under
+     the text they close off (margin, not padding, on each side) so they
+     read as ruled card stock, not a floating decoration. */
+  .catalog-card-body {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .catalog-card-row {
+    display: flex;
+    align-items: baseline;
     justify-content: space-between;
-    gap: 0.25rem;
-    margin-bottom: 0.25rem;
+    gap: 0.5rem;
+  }
+
+  .catalog-card-row-right {
+    display: flex;
+    align-items: baseline;
+    gap: 0.375rem;
+    flex-shrink: 0;
+  }
+
+  .catalog-call-number {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .book-year {
@@ -601,40 +634,36 @@
     color: var(--text-dim);
   }
 
-  .book-title {
-    font-family: var(--font-body);
+  .catalog-rule {
+    border-top: var(--border-width) solid var(--border);
+    margin-block: 0.375rem;
+  }
+
+  .catalog-author {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.02em;
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .catalog-title {
+    font-family: var(--font-display);
+    font-weight: var(--weight-display, var(--weight-regular));
     color: var(--text);
-    font-weight: 600;
-    font-size: 0.9375rem;
-    margin-bottom: 0.125rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 0.125rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  .book-card:hover .book-title {
+  .book-card:hover .catalog-title {
     color: var(--color-accent);
-  }
-
-  .book-author {
-    color: var(--text-dim);
-    font-size: 0.8125rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .book-call-number {
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.8125rem;
-    color: var(--text-dim);
-    font-variant-numeric: tabular-nums lining-nums;
-    margin-bottom: 0.125rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .book-footer {
