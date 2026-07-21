@@ -186,8 +186,12 @@ if (currentLcc) {
           <img
             src={book.cover_url_large || book.cover_url}
             alt={`Cover of ${book.title}`}
+            width="144"
+            height="216"
             class="book-detail-cover"
             loading="eager"
+            decoding="async"
+            fetchpriority="high"
             transition:name={`cover-${book.slug}`}
           />
           {currentLcc && (
@@ -529,7 +533,7 @@ if (currentLcc) {
           {shelfNeighbors.map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -552,7 +556,7 @@ if (currentLcc) {
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -576,7 +580,7 @@ if (currentLcc) {
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
               {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" transition:name={`cover-${b.slug}`} />
+                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}

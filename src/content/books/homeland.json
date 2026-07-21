@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "The first in a series of premiere hardcover editions of Salvatore's classic dark elf tales.",
-  "cover_url": "https://covers.openlibrary.org/b/olid/OL32201288M-L.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/olid/OL32201288M-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/homeland.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/homeland.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9780786931231",
@@ -59,5 +59,8 @@
   "first_published_circa": false,
   "first_edition_isbn": "9780880389051",
   "representative_edition_key": "/books/OL32201288M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/olid/OL32201288M-L.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/olid/OL32201288M-L.jpg",
+  "cover_cached_at": "2026-07-21T04:31:21+00:00"
 }

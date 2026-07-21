@@ -573,3 +573,93 @@ LibriVox) are unaffected. **Tsundoku is now fully conforming on this rule
   (color-mix fills, thin borders, no shadow-heavy treatments) and don't
   fall inside the `remarque-audit --src src/styles` scan scope, so they
   were lower priority under time constraints.
+
+## Image triage (Astro dev-toolbar "use the Image component" flag)
+
+The dev toolbar flags every `<img>` on this site, which invited a
+blanket-conversion temptation the brief explicitly ruled out. Actual
+inventory: 18 call sites (`grep -rn "<img" src/`) — zero are imported
+local assets (no `import x from '../assets/*.jpg'` anywhere in the repo;
+no `astro:assets` usage predates this triage). Every image is a
+book-cover or author-photo URL sourced from content JSON.
+
+**Reality check on "local vs remote" (owner course-correction: he expected
+these to already be cached, and was right to expect that):**
+`scripts/cache-photos.py` is a mature, pre-existing, non-vestigial
+pipeline — idempotent (skips files newer than 90 days), downloads to the
+gitignored `public/cached/` directory, rewrites `cover_url`/
+`cover_url_large`/`photo_url` to local `/tsundoku/cached/...` paths,
+preserves the original upstream URL in a `*_source` field, and never
+blanks a URL on failure (leaves the upstream link in place, caught at
+runtime by `Layout.astro`'s broken-image → placeholder-icon fallback).
+It's wired into CI (`.github/workflows/deploy.yml`'s "Download missing
+photos" step) with an `actions/cache` save/restore pair already keyed on
+`public/cached` — the "don't re-download the world every build" problem
+was already solved before this PR existed.
+
+Measured before fixing anything: 3,558/3,569 book covers (99.7%) and
+1,538/1,542 author photos (99.7%) were already local. Ran
+`cache-photos.py` for real (not `--dry-run`) to close the gap: **13/13**
+remaining book covers downloaded and cached successfully (source JSON
+rewritten, e.g. `cyberstorm.json`'s `cover_url` now
+`/tsundoku/cached/covers/cyberstorm.jpg` with `cover_url_source` +
+`cover_cached_at` recording the provenance) — books are now **100%**
+local. The 4 remaining author photos (Anne McCaffrey, Terry Pratchett,
+Hafez, Malcolm Lowry) could **not** be closed: their Wikimedia URLs
+return a genuine 404 (confirmed via `curl -I`, not a sandbox network
+restriction) — pre-existing dead links in the author enrichment data,
+a data-quality issue distinct from a caching gap. Left as-is; the
+runtime fallback already handles them gracefully.
+
+Attribution: Open Library ("Covers & metadata") and Wikipedia
+("Descriptions & bios") are already credited on the About page's "How
+It's Built" section — predates this triage, no new UI needed.
+
+**Given images are ~100%/99.7% local, `astro:assets <Image>` is now
+genuinely viable** for `.astro` templates (Sharp processes local files —
+disk + CPU only, no network fetch penalty like the ~15 residual
+true-remote URLs would incur). It was **not** converted in this PR:
+verifying it requires a full `npm run build` (already ~37 minutes) to
+confirm the image-cache behavior and measure any first-build/warm-build
+delta, and the local-`public/`-path `<Image>` behavior needed checking
+against the installed Astro version rather than assuming from memory.
+Shipping an unverified change to the slowest step in CI was worse than
+not shipping it. Filed as williamzujkowski/tsundoku#231 with the full
+call-site inventory and a required verification checklist (two full
+builds: cold + warm cache).
+
+**What shipped now instead** — attribute-hardening on every `<img>`,
+split by role:
+
+- **Above-the-fold hero images** (`book-detail-cover` on the book page,
+  `author-photo` on the author page): kept `loading="eager"` (already
+  correct), added `width`/`height` (144×216 and 160×160 — matching each
+  class's existing CSS-driven display size, so the browser reserves the
+  right box before the image loads even though native file dimensions
+  vary per cover/photo), `decoding="async"`, and `fetchpriority="high"`
+  (these are the page's LCP candidate).
+- **Below-the-fold thumbnails** (`related-book-cover`, `author-avatar`,
+  `author-avatar-sm`, `result-thumb` in the search modal): added
+  `width`/`height` matching each class's fixed CSS pixel size (40×56,
+  44×44, 28×28, 32×44 respectively) + `decoding="async"`; `loading="lazy"`
+  was already present everywhere it should be. `book-thumb` (browse/
+  category/author-detail compact lists) already had correct `width=48
+  height=72` + lazy loading — no change needed there.
+- **`BookGrid.svelte` / `SearchModal.svelte`** (Svelte islands — `<Image>`
+  isn't available outside `.astro` files): same attribute-hardening
+  treatment as the equivalent `.astro` thumbnails; `BookGrid`'s cover
+  thumb already had `width`/`height`/`loading="lazy"` from the catalog-
+  card-anatomy work, `SearchModal`'s `result-thumb` gained `width="32"
+  height="44"` + `decoding="async"`.
+- `alt` text was reviewed at every site while making these changes: cover
+  images use `` `Cover of ${title}` `` (meaningful), author photos use
+  `author.name` for the hero (meaningful) and `alt=""` for list-row
+  avatars (correct — the author's name is already visible as adjacent
+  text, so an avatar alt would be redundant screen-reader noise). No
+  changes needed; already correct.
+
+Expected dev-toolbar result after this PR: the "use the Image component"
+flag will likely still fire (the toolbar's heuristic checks for `<Image>`/
+optimized formats specifically, not just CLS-safe attributes) — that's
+expected and tracked by #231, not a regression this PR could have fixed
+without the unverified build-time change above.

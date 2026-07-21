@@ -49,7 +49,7 @@ const base = import.meta.env.BASE_URL;
     {entries.map(b => (
       <a href={`${base}books/${b.slug}/`} class="card related-book">
         {b.cover_url ? (
-          <img src={b.cover_url} alt={`Cover of ${b.title}`} class="related-book-cover" loading="lazy" />
+          <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
         ) : (
           <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
         )}

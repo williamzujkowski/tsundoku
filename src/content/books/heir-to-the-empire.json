@@ -11,8 +11,8 @@
   ],
   "reading_status": "read",
   "description": "The Thrawn trilogy, also known as the Heir to the Empire trilogy, is a trilogy of novels set in the Star Wars universe, written by Timothy Zahn between 1991 and 1993. The first book marked the end of a notable drought of new Star Wars material over a four-year period, between the 10th anniversary of the original 1977 film's release and the release of Heir to the Empire (1991).",
-  "cover_url": "https://covers.openlibrary.org/b/isbn/9780553296129-L.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/isbn/9780553296129-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/heir-to-the-empire.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/heir-to-the-empire.jpg",
   "open_library_url": "",
   "google_books_url": "",
   "isbn": "9781529150384",
@@ -61,5 +61,8 @@
   "editions_count": 34,
   "first_published_circa": false,
   "representative_edition_key": "/books/OL33925756M",
-  "copyright_status": "in_copyright"
+  "copyright_status": "in_copyright",
+  "cover_url_source": "https://covers.openlibrary.org/b/isbn/9780553296129-L.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/isbn/9780553296129-L.jpg",
+  "cover_cached_at": "2026-07-21T04:31:20+00:00"
 }

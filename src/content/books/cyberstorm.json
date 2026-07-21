@@ -9,8 +9,8 @@
   "reading_status": "read",
   "copyright_status": "in_copyright",
   "description": "Mike Mitchell, an average New Yorker already struggling to keep his family together, suddenly finds himself fighting just to keep them alive when an increasingly bizarre string of disasters starts appearing on the world's news networks. As both the real world and the cyberworld come crashing down, bending perception and reality, a monster snowstorm cuts New York off from the world, turning it into a wintry tomb where nothing is what it seems.",
-  "cover_url": "https://covers.openlibrary.org/b/id/8541860-L.jpg",
-  "cover_url_large": "https://covers.openlibrary.org/b/id/8541860-L.jpg",
+  "cover_url": "/tsundoku/cached/covers/cyberstorm.jpg",
+  "cover_url_large": "/tsundoku/cached/covers/cyberstorm.jpg",
   "isbn": "9780991677191",
   "lcc": [
     "PS-3613.00000000.A82844 C93 2013",
@@ -44,5 +44,8 @@
   "original_language": "eng",
   "ddc": [
     "800"
-  ]
+  ],
+  "cover_url_source": "https://covers.openlibrary.org/b/id/8541860-L.jpg",
+  "cover_url_large_source": "https://covers.openlibrary.org/b/id/8541860-L.jpg",
+  "cover_cached_at": "2026-07-21T04:31:17+00:00"
 }
