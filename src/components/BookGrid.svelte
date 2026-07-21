@@ -284,11 +284,23 @@
       {#each sortedBooks.slice(0, showCount) as book (book.slug)}
         <a href="{baseUrl}books/{book.slug}/" class="book-card">
           <div class="book-card-inner">
-            {#if book.cover_url}
-              <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" style:view-transition-name={`cover-${book.slug}`} />
-            {:else}
-              <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
-            {/if}
+            <!-- Device 2 (library card-catalog identity layer): a small
+                 mono spine-label chip, bottom-left of the cover, echoing
+                 the same real DDC call number the catalog-card anatomy
+                 shows in text below — aria-hidden since it's a decorative
+                 duplicate, not a second source of information. Built on
+                 the SAME formatCallNumber() as Device 1 (panel condition:
+                 one shared formatter for both devices). -->
+            <div class="book-cover-wrap">
+              {#if book.cover_url}
+                <img src={thumbnailUrl(book.cover_url)} alt="" width="48" height="72" class="book-thumb" loading="lazy" style:view-transition-name={`cover-${book.slug}`} />
+              {:else}
+                <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
+              {/if}
+              {#if formatCallNumber(book.ddc)}
+                <span class="cover-spine-chip" aria-hidden="true">{formatCallNumber(book.ddc)}</span>
+              {/if}
+            </div>
             <!-- Catalog-card anatomy (library card-catalog identity layer,
                  Device 1): mono DDC call number top-left (real data —
                  formatCallNumber validates strictly, omits if missing/
@@ -563,6 +575,11 @@
     gap: 0.75rem;
   }
 
+  .book-cover-wrap {
+    position: relative;
+    flex-shrink: 0;
+  }
+
   .book-thumb {
     width: 3rem;
     height: 4.5rem;
@@ -573,6 +590,26 @@
 
   .book-card:hover .book-thumb {
     border-color: var(--color-accent);
+  }
+
+  /* Device 2: spine-label chip, existing tokens only. Card-stock
+     background + top/right hairline only, so it reads as a sticker
+     affixed to the cover's own bottom-left corner rather than a floating
+     badge — the cover's own edges already close off the other two sides. */
+  .cover-spine-chip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.0625rem 0.25rem;
+    background: var(--bg-surface);
+    border-top: var(--border-width) solid var(--border);
+    border-right: var(--border-width) solid var(--border);
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    line-height: 1.2;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums lining-nums;
+    pointer-events: none;
   }
 
   .book-thumb-placeholder {

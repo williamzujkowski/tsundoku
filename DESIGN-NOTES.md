@@ -79,6 +79,22 @@ consumer.
 
 ### Device 2 — DDC spine-label chip on cover thumbnails
 
+A small mono chip, bottom-left of each cover thumbnail in the `/browse`
+grid (`.cover-spine-chip` in `BookGrid.svelte`), showing the same DDC
+value Device 1 shows as text — built from the exact same
+`formatCallNumber(book.ddc)` call, per the panel's binding condition that
+Devices 1 and 2 share one formatter. It's `aria-hidden="true"`: the real,
+accessible copy of the call number is the visible text in the catalog-card
+body (Device 1), so the chip is a decorative echo, not a second source of
+information a screen reader needs to announce.
+
+Existing tokens only: `--bg-surface` (chip background, matching card
+stock), `--color-border` (top + right hairline only — the cover image's
+own edges already close off the other two sides, so the chip reads as a
+sticker affixed to the corner rather than a floating badge), `--font-mono`,
+`--text-micro` (13px, the smallest sanctioned text size), `--text-dim`.
+No new color or shape tokens.
+
 Every Remarque site should have one thing a reader remembers it by — spend
 all the boldness there, keep everything else disciplined. This site's
 signature device is the word **積ん読** itself, set in **tategaki**
