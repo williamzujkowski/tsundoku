@@ -44,8 +44,18 @@ data/http-cache.sqlite
 data/http-cache.sqlite-wal
 data/http-cache.sqlite-shm
 
-# Photo / cover cache (build-time download; persisted across CI runs via actions/cache)
-public/cached/
+# Cover cache (build-time download; persisted across CI runs via actions/cache).
+# Author photos are NOT ignored (see #234): they're committed directly to
+# public/cached/authors/ — bulk re-fetching them turned out to be
+# structurally impossible (most stored Wikimedia URLs use a thumbnail
+# format the CDN now permanently rejects), and the photos themselves
+# genuinely never change, so a repo-tracked copy is simpler and
+# deterministic than perpetually re-attempting a broken download.
+public/cached/covers/
+# .url sidecars are cache-invalidation bookkeeping for cache-photos.py's
+# downloader (see is_already_local()'s cache_one() staleness check) — not
+# meaningful for a git-committed, intentionally-permanent photo set.
+public/cached/authors/*.url
 
 # Nexus-agents orchestration run artifacts (local-only)
 runs/

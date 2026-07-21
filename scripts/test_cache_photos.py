@@ -343,6 +343,40 @@ class TestProcessAuthors:
         # JSON untouched
         assert author_file.read_text() == original
 
+    def test_known_unfetchable_slug_is_skipped_without_a_network_call(self, tmp_path, monkeypatch):
+        """#234: authors in KNOWN_UNFETCHABLE_AUTHOR_SLUGS (confirmed
+        permanently-dead or permanently-rejected upstream URLs) must never
+        even attempt a download — every CI run would otherwise waste time
+        re-failing the exact same request forever."""
+        authors = tmp_path / "authors"
+        authors.mkdir()
+        (authors / "terry-pratchett.json").write_text(json.dumps({
+            "name": "Terry Pratchett",
+            "slug": "terry-pratchett",
+            "book_count": 1,
+            "photo_url": "https://upload.wikimedia.org/dead-thumbnail-format.jpg",
+        }))
+
+        monkeypatch.setattr(mod, "AUTHORS_DIR", authors)
+        monkeypatch.setattr(mod, "PUBLIC_CACHED", tmp_path / "public" / "cached")
+        monkeypatch.setattr(mod, "download", lambda u: pytest.fail("unexpected download"))
+
+        counts = mod.process_authors(limit=0, dry_run=False, rate_limit_s=0)
+
+        assert counts["skipped"] == 1
+        assert counts["downloaded"] == 0
+        assert counts["failed"] == 0
+
+    def test_known_unfetchable_slugs_are_exactly_the_documented_four(self):
+        """Pin the exact membership so the list can only change via a
+        deliberate edit (and its comment) — not silent drift."""
+        assert mod.KNOWN_UNFETCHABLE_AUTHOR_SLUGS == frozenset({
+            "anne-mccaffrey",
+            "terry-pratchett",
+            "hafez",
+            "malcolm-lowry",
+        })
+
 
 class TestProcessBooks:
     def test_caches_largest_url_and_rewrites_both_fields(self, tmp_path, monkeypatch):
