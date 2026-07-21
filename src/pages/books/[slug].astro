@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityClass, toSlug, statusLabel, statusClass, parseAuthors, languageLabel, formatYear, formatCallNumber, statusStamp } from '../../utils/formatting';
 import { safeJsonLd } from '../../utils/jsonld';
+import { resolveImageSrc } from '../../utils/imageGuard';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -131,13 +132,23 @@ for (const a of book.adaptations ?? []) {
 slipRows.sort((a, b) => a.year - b.year);
 const readingStamp = statusStamp(book.reading_status);
 
+// Guard against a /cached/ cover URL whose file doesn't actually exist in
+// THIS build (see src/utils/imageGuard.ts's docstring — the
+// william-shakespeare production 404). Computed once and reused for the
+// OG-image Layout prop, the JSON-LD "image" field, and the hero <img>,
+// so all three agree on the same (possibly-fallen-back) URL.
+const bookCoverSrc = resolveImageSrc(
+  book.cover_url_large || book.cover_url,
+  book.cover_url_large_source || book.cover_url_source,
+);
+
 const currentLcc = book.lcc?.[0] ?? null;
-let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; lcc: string }> = [];
+let shelfNeighbors: Array<{ slug: string; title: string; author: string; cover_url?: string; cover_url_source?: string; lcc: string }> = [];
 if (currentLcc) {
   const shelf = allBooks
     .map(b => b.data)
     .filter(b => b.lcc && b.lcc[0])
-    .map(b => ({ slug: b.slug, title: b.title, author: b.author, cover_url: b.cover_url, lcc: b.lcc![0] }))
+    .map(b => ({ slug: b.slug, title: b.title, author: b.author, cover_url: b.cover_url, cover_url_source: b.cover_url_source, lcc: b.lcc![0] }))
     .sort((a, b) => compareLcc(a.lcc, b.lcc));
   const idx = shelf.findIndex(b => b.slug === book.slug);
   if (idx >= 0) {
@@ -148,14 +159,14 @@ if (currentLcc) {
 }
 ---
 
-<Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={book.cover_url_large || book.cover_url}>
+<Layout title={book.title} description={book.description || `${book.title} by ${book.author} — ${book.category}`} image={bookCoverSrc}>
   <script is:inline type="application/ld+json" set:html={safeJsonLd({
     "@context": "https://schema.org",
     "@type": "Book",
     "name": book.title,
     "author": { "@type": "Person", "name": book.author },
     ...(book.description ? { "description": book.description } : {}),
-    ...(book.cover_url ? { "image": book.cover_url_large || book.cover_url } : {}),
+    ...(bookCoverSrc ? { "image": bookCoverSrc } : {}),
     ...(book.isbn ? { "isbn": book.isbn } : {}),
     ...(book.pages ? { "numberOfPages": book.pages } : {}),
     ...(book.language ? { "inLanguage": book.language } : {}),
@@ -181,10 +192,10 @@ if (currentLcc) {
   <article>
     <!-- Hero: cover + title -->
     <div class="book-detail-layout">
-      {book.cover_url ? (
+      {bookCoverSrc ? (
         <div class="book-detail-cover-wrap">
           <img
-            src={book.cover_url_large || book.cover_url}
+            src={bookCoverSrc}
             alt={`Cover of ${book.title}`}
             width="144"
             height="216"
@@ -535,8 +546,8 @@ if (currentLcc) {
         <div class="grid sm-grid-2 md-grid-4 gap-3">
           {shelfNeighbors.map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
-              {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
+              {resolveImageSrc(b.cover_url, b.cover_url_source) ? (
+                <img src={resolveImageSrc(b.cover_url, b.cover_url_source)} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -558,8 +569,8 @@ if (currentLcc) {
         <div class="grid sm-grid-2 md-grid-3 gap-3">
           {sameAuthor.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
-              {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
+              {resolveImageSrc(b.cover_url, b.cover_url_source) ? (
+                <img src={resolveImageSrc(b.cover_url, b.cover_url_source)} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}
@@ -582,8 +593,8 @@ if (currentLcc) {
         <div class="grid sm-grid-2 md-grid-3 gap-3">
           {sameCategory.slice(0, 6).map(b => (
             <a href={`${base}books/${b.slug}/`} class="card related-book">
-              {b.cover_url ? (
-                <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
+              {resolveImageSrc(b.cover_url, b.cover_url_source) ? (
+                <img src={resolveImageSrc(b.cover_url, b.cover_url_source)} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" transition:name={`cover-${b.slug}`} />
               ) : (
                 <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
               )}

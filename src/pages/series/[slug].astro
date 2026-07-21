@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { resolveImageSrc } from '../../utils/imageGuard';
 import { getCollection } from 'astro:content';
 import { toSlug, priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
 
@@ -54,8 +55,8 @@ const base = import.meta.env.BASE_URL;
   <div class="grid sm-grid-2 md-grid-3 gap-3">
     {books.map(b => (
       <a href={`${base}books/${b.slug}/`} class="card related-book">
-        {b.cover_url ? (
-          <img src={b.cover_url} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
+        {resolveImageSrc(b.cover_url, b.cover_url_source) ? (
+          <img src={resolveImageSrc(b.cover_url, b.cover_url_source)} alt={`Cover of ${b.title}`} width="40" height="56" class="related-book-cover" loading="lazy" decoding="async" />
         ) : (
           <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
         )}

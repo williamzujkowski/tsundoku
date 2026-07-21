@@ -7,7 +7,11 @@ SearchModal fetches on demand when opened.
 """
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from image_guard import resolve_image_url
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
@@ -36,12 +40,18 @@ def main() -> None:
         # First subject_facet entry is often a recognizable theme tag
         for s in (d.get("subject_facet") or [])[:3]:
             keywords.append(s)
+        # Guard against a /cached/ URL whose file doesn't actually exist in
+        # THIS build (see image_guard.py's docstring — the
+        # william-shakespeare production 404). Falls back to the
+        # preserved upstream source, or "" (the search modal already
+        # treats a falsy `c` as "show the placeholder glyph").
+        cover_src = resolve_image_url(d.get("cover_url"), d.get("cover_url_source")) or ""
         entry = {
             "t": d["title"],
             "s": f'{d.get("author", "")} — {d.get("category", "")}',
             "u": f"books/{d['slug']}/",
             "y": "book",
-            "c": d.get("cover_url", ""),
+            "c": cover_src,
         }
         if keywords:
             entry["k"] = " ".join(keywords)
@@ -56,12 +66,13 @@ def main() -> None:
             for n in (d.get("alternate_names") or []):
                 if n and n.lower() != d["name"].lower():
                     keywords.append(n)
+            photo_src = resolve_image_url(d.get("photo_url"), d.get("photo_url_source")) or ""
             entry = {
                 "t": d["name"],
                 "s": f'{d.get("book_count", 0)} books',
                 "u": f"authors/{d['slug']}/",
                 "y": "author",
-                "c": d.get("photo_url", ""),
+                "c": photo_src,
             }
             if keywords:
                 entry["k"] = " ".join(keywords)

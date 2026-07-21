@@ -2,16 +2,18 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { toSlug, isSuppressedAuthorStub } from '../../utils/formatting';
+import { resolveImageSrc } from '../../utils/imageGuard';
 
 const books = await getCollection('books');
 const enrichedAuthors = await getCollection('authors');
 const base = import.meta.env.BASE_URL;
 
-const enrichedMap = new Map<string, { slug: string; photo_url?: string; bio?: string }>();
+const enrichedMap = new Map<string, { slug: string; photo_url?: string; photo_url_source?: string; bio?: string }>();
 for (const a of enrichedAuthors) {
   enrichedMap.set(a.data.name, {
     slug: a.data.slug,
     photo_url: a.data.photo_url,
+    photo_url_source: a.data.photo_url_source,
     bio: a.data.bio,
   });
 }
@@ -42,6 +44,7 @@ const allAuthors = [...authorMap.entries()]
       count,
       slug: enriched?.slug ?? toSlug(name),
       photo_url: enriched?.photo_url,
+      photo_url_source: enriched?.photo_url_source,
       hasDetailPage: enrichedMap.has(name),
     };
   });
@@ -89,8 +92,8 @@ const mostProlific = [...allAuthors]
       {mostProlific.map(author => {
         const inner = (
           <>
-            {author.photo_url ? (
-              <img src={author.photo_url} alt="" width="44" height="44" class="author-avatar" loading="lazy" decoding="async" />
+            {resolveImageSrc(author.photo_url, author.photo_url_source) ? (
+              <img src={resolveImageSrc(author.photo_url, author.photo_url_source)} alt="" width="44" height="44" class="author-avatar" loading="lazy" decoding="async" />
             ) : (
               <div class="author-avatar-placeholder" aria-hidden="true">
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

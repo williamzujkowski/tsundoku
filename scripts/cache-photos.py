@@ -84,6 +84,18 @@ def ext_from_response(content_type: str | None, url: str) -> str:
     return "jpg"  # safe default
 
 
+# Records the most recent download() failure's HTTP status (0 = network
+# error / no HTTP response at all) for the FAIL logs and the per-status
+# summary breakdown below. A module-level side-channel rather than
+# threading a new value through cache_one()'s existing (str, str) | None
+# contract — safe because this script is single-threaded/sequential, so
+# there's no concurrency hazard reading it immediately after each call.
+# Added after the #234 incident investigation: cache-photos.py's FAIL
+# lines previously gave no reason at all, which hid the actual root
+# cause (see below) behind what looked like generic rate-limiting.
+_last_fail_status: int = 0
+
+
 def download(url: str) -> tuple[bytes, str] | None:
     """Fetch image bytes + extension, or None on failure.
 
@@ -91,9 +103,22 @@ def download(url: str) -> tuple[bytes, str] | None:
     rate-limiting CDNs auto-back-off and retry rather than dropping the
     record. Per a prior session, ~24% of cache-photos downloads were
     lost to silently-swallowed 429s.
+
+    A large, distinct failure class discovered investigating #234: many
+    stored Wikimedia URLs use the older path-based thumbnail form
+    (".../thumb/x/xx/File.jpg/400px-File.jpg"), which Wikimedia's CDN now
+    rejects outright with HTTP 400 ("Use thumbnail sizes listed on
+    https://w.wiki/GHai") — regardless of retries, since the URL itself
+    is permanently invalid, not rate-limited. The newer
+    "Special:FilePath/File.jpg?width=400" form still works. That's a data
+    fix (regenerating ~1,092 author photo URLs), tracked separately; this
+    function's job is only to make the failure reason visible so it
+    isn't mistaken for transient rate-limiting again.
     """
+    global _last_fail_status
     body, status, headers = fetch_with_retry(url, timeout=DOWNLOAD_TIMEOUT)
     if body is None:
+        _last_fail_status = status
         return None
     ext = ext_from_response(headers.get("Content-Type"), url)
     return body, ext
@@ -191,7 +216,7 @@ def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
     upstream `photo_url_source` for re-download.
     """
     out_dir = PUBLIC_CACHED / "authors"
-    counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0}
+    counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0, "failed_by_status": {}}
 
     for path in sorted(AUTHORS_DIR.glob("*.json")):
         if limit and counts["downloaded"] >= limit:
@@ -225,7 +250,9 @@ def process_authors(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
         result = cache_one(url=url, out_dir=out_dir, slug=slug, rate_limit_s=rate_limit_s)
         if result is None:
             counts["failed"] += 1
-            print(f"  FAIL {slug}: {url[:80]}")
+            status_key = str(_last_fail_status) if _last_fail_status else "network-error"
+            counts["failed_by_status"][status_key] = counts["failed_by_status"].get(status_key, 0) + 1
+            print(f"  FAIL {slug}: [{status_key}] {url[:80]}")
             continue
 
         local_url, _ext = result
@@ -249,7 +276,7 @@ def process_books(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
     point to the same local URL — saving disk and bandwidth.
     """
     out_dir = PUBLIC_CACHED / "covers"
-    counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0}
+    counts = {"total": 0, "cached_already": 0, "downloaded": 0, "failed": 0, "skipped": 0, "failed_by_status": {}}
 
     for path in sorted(BOOKS_DIR.glob("*.json")):
         if limit and counts["downloaded"] >= limit:
@@ -284,7 +311,9 @@ def process_books(limit: int, dry_run: bool, rate_limit_s: float) -> dict:
         result = cache_one(url=url, out_dir=out_dir, slug=slug, rate_limit_s=rate_limit_s)
         if result is None:
             counts["failed"] += 1
-            print(f"  FAIL {slug}: {url[:80]}")
+            status_key = str(_last_fail_status) if _last_fail_status else "network-error"
+            counts["failed_by_status"][status_key] = counts["failed_by_status"].get(status_key, 0) + 1
+            print(f"  FAIL {slug}: [{status_key}] {url[:80]}")
             continue
 
         local_url, _ext = result
@@ -335,8 +364,20 @@ def main() -> int:
             f"  {kind:8s}  total={c['total']:5d}  "
             f"already-cached={c['cached_already']:5d}  "
             f"downloaded={c['downloaded']:5d}  "
-            f"failed={c['failed']:4d}"
+            f"failed={c['failed']:4d}  "
+            f"skipped={c['skipped']:4d}"
         )
+        # Failure-reason breakdown — added after #234: the previous summary
+        # gave a bare "failed" count with no way to tell "transiently
+        # rate-limited, will likely succeed on the next run" apart from
+        # "permanently invalid URL, will NEVER succeed no matter how many
+        # runs happen" (e.g. HTTP 400 from Wikimedia's now-rejected
+        # path-based thumbnail URLs — see download()'s docstring). Sorted
+        # by count descending so the dominant failure mode is first.
+        by_status = c.get("failed_by_status") or {}
+        for status_key, n in sorted(by_status.items(), key=lambda kv: -kv[1]):
+            label = "network error (no HTTP response)" if status_key == "network-error" else f"HTTP {status_key}"
+            print(f"    - {label}: {n}")
     return 0
 
 
