@@ -271,11 +271,14 @@ if (currentLcc) {
           <p class="text-muted text-sm mb-4 prose-text">{book.description}</p>
         )}
 
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap items-center gap-2">
           {book.first_published !== undefined && (
             <span class="meta-tag">
               First published {formatYear(book.first_published, book.first_published_circa)}
             </span>
+          )}
+          {book.first_published !== undefined && book.pages && (
+            <span class="text-dim" aria-hidden="true">·</span>
           )}
           {book.pages && (
             <span class="meta-tag">{book.pages} pages</span>
