@@ -169,7 +169,11 @@ a:hover { color: var(--color-accent); }
   font-family: var(--font-display);
   font-optical-sizing: auto;
   font-size: var(--text-title);
-  font-weight: var(--weight-regular); letter-spacing: var(--tracking-title); line-height: var(--leading-title);
+  /* --weight-display (remarque-tokens 0.6.0): 400 in light, 500 in dark —
+     compensates the optically-thin serif hairlines light-on-dark text
+     produces at display sizes. Falls back to --weight-regular so this
+     stays inert if a future token bump ever drops the var. */
+  font-weight: var(--weight-display, var(--weight-regular)); letter-spacing: var(--tracking-title); line-height: var(--leading-title);
 }
 .heading-lg {
   font-family: var(--font-display);

@@ -19,18 +19,26 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
   <article>
     <h1 class="heading-xl mb-8">About</h1>
 
-    <!-- What is Tsundoku -->
-    <section class="mb-8 prose-container">
-      <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
-      <p class="prose-text">
-        <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
-      </p>
-      <p class="text-muted prose-text">
-        It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
-      </p>
-      <p class="text-muted prose-text">
-        This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
-      </p>
+    <!-- What is Tsundoku — signature device (see DESIGN-NOTES.md "Signature
+         element"): 積ん読 set in tategaki (vertical writing, right-to-left
+         columns, upright glyphs), the way the word's own script would
+         traditionally run down a spine or margin label. Decorative echo
+         of the visible heading text, so it's aria-hidden; hidden below
+         the width where it would otherwise crowd the prose column. -->
+    <section class="mb-8 tsundoku-mark-row">
+      <span class="tategaki-mark" lang="ja" aria-hidden="true">積ん読</span>
+      <div class="prose-container tsundoku-mark-prose">
+        <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
+        <p class="prose-text">
+          <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
+        </p>
+        <p class="text-muted prose-text">
+          It's not hoarding. It's <em>aspirational collecting</em>. Every unread book is a promise to your future self — a future self who apparently has unlimited free time and zero interest in sleep.
+        </p>
+        <p class="text-muted prose-text">
+          This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
+        </p>
+      </div>
     </section>
 
     <!-- Origin Story -->
@@ -169,9 +177,56 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
       </div>
     </section>
 
+    <!-- remarque-tokens 0.6.0's endmark — a quiet fleuron closing the
+         essay-like narrative content of this page (About reads as prose
+         even though it isn't wrapped in .remarque-prose). -->
+    <div class="remarque-endmark" aria-hidden="true"></div>
+
     <hr class="section-divider" />
     <div class="text-center">
       <a href={`${base}`} class="btn btn-outline">Back to the pile</a>
     </div>
   </article>
 </Layout>
+
+<style>
+  /* Signature device: 積ん読 in tategaki (vertical writing, columns flow
+     right-to-left, glyphs upright — the traditional way this exact word
+     would run down a book spine or margin label in Japanese typesetting).
+     A real layout column, not an absolutely-positioned overlay, so it
+     never overlaps the prose; it just steps out of the way below the
+     width where there's no honest margin left to put it in. */
+  .tsundoku-mark-row {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-6);
+  }
+
+  .tsundoku-mark-prose {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .tategaki-mark {
+    flex-shrink: 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: var(--font-display);
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    /* --color-border-bold, not --color-accent: this is typographic
+       texture, not the page's one interactive accent. */
+    color: var(--color-border-bold);
+    padding-top: 0.25rem;
+  }
+
+  @media (max-width: 900px) {
+    /* No honest margin left at this width to set the mark in without
+       crowding the reading column — quiet means it disappears rather
+       than compresses. */
+    .tategaki-mark {
+      display: none;
+    }
+  }
+</style>

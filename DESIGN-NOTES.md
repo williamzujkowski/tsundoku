@@ -9,6 +9,99 @@ answer for a cover-grid / bookshelf catalog site, and this project needed
 one immediately. Everything below is a deliberate, documented departure —
 not a drift.
 
+## Signature element: 積ん読 set in tategaki
+
+Every Remarque site should have one thing a reader remembers it by — spend
+all the boldness there, keep everything else disciplined. This site's
+signature device is the word **積ん読** itself, set in **tategaki**
+(縦書き, vertical writing: columns run top-to-bottom, flowing right to
+left, CJK glyphs upright) as a quiet margin mark beside the "積ん読 —
+Tsundoku" heading on the About page (`src/pages/about.astro`,
+`.tategaki-mark`).
+
+**Why this, and not something else.** The brief offered three directions;
+here's the case for picking tategaki over the other two, and why it beats
+inventing a fourth:
+
+- *(Rejected) Spine-edge treatment on every cover thumbnail.* This is a
+  real, well-observed detail (shelved books show a shadow line at the
+  spine) and it's consistent with the site's "cover art is content"
+  stance. But it fails the brief's first instruction — "spend **all** the
+  boldness in **one** place" — because a spine-edge would necessarily
+  apply to every one of the thousands of cover images across the whole
+  site. That's not a signature moment, it's a systemic micro-texture; it
+  would read as a subtle rendering detail, not a thing anyone points at
+  and says "that's the Tsundoku site." It also risks *decorating* rather
+  than *encoding* — the darker edge doesn't say anything true that the
+  cover image + 1px border doesn't already say.
+- *(Rejected) An "unread pile" stack motif on the stats Not-yet count.*
+  This is the most literally on-the-nose reading of 積ん読 ("pile up
+  unread"), but executing it honestly without inventing new visual
+  furniture (a stack of rectangles, a bar-chart-adjacent shape) risks
+  becoming exactly the kind of illustrative decoration Remarque's Visual
+  Rules warn against ("no decorative gradients," "components exist to
+  support content, not embellish it"). A typographic stack built only from
+  existing tokens (borders, mono numerals) would be indistinguishable from
+  an ordinary stat card — there's no way to make it *distinctly* a stack
+  without adding shape/color that isn't already sanctioned.
+- *(Chosen) Tategaki.* This is the only one of the three that is
+  *literally true* about the content rather than a metaphor for it:
+  積ん読 is a real word in a real writing system that traditionally *is*
+  set vertically — on book spines, on shop-window kanban signs, in
+  vertical-format Japanese books (which is the entire etymological context
+  the word describes: books piling up on a shelf). Rendering the site's
+  own name in the direction Japanese books are actually labeled is not a
+  decoration bolted onto the content; it *is* the content's own script
+  doing what it does. It's also the quietest of the three to execute:
+  pure typography, one CSS `writing-mode` property, no new visual
+  vocabulary, no color beyond `--color-border-bold` (deliberately *not*
+  `--color-accent` — this is texture, not the page's one interactive
+  element), and it naturally disappears below the width where there's no
+  honest margin to put it in (`@media (max-width: 900px)`) rather than
+  fighting for space on mobile.
+
+**Implementation notes:**
+
+- `.tsundoku-mark-row` is a real flex layout (mark + prose column), not an
+  absolutely-positioned overlay — it can never overlap or clip the prose,
+  at any viewport width down to where it's hidden outright.
+- The mark is `aria-hidden="true"` (it's a decorative echo of the visible,
+  already-accessible `<h2>` text) with `lang="ja"` kept for correctness.
+- Color is `--color-border-bold` (the same token used for functional
+  borders/`WCAG 1.4.11`), not `--color-accent` — this keeps faith with
+  "accent used for exactly two things," now enforced site-wide after the
+  dark-mode sweep above.
+- Appears exactly once, on one page. No other page gets a tategaki
+  treatment — that's the "one signature place" discipline the brief asks
+  for, not a pattern to reuse elsewhere.
+
+## remarque-tokens 0.6.0
+
+Bumped from `^0.5.1`. Two things landed for free, both verified:
+
+- **`--weight-display`** (dark-mode display-weight compensation): added to
+  `tokens-site.css` in all four theme blocks (light default, dark media
+  query, `[data-theme="dark"]`, `[data-theme="light"]`) at 400/500 per the
+  package default. `.heading-xl` in `global.css` (the app's only
+  `--text-title`-sized heading — the "display tier" per Font Slots) now
+  reads `font-weight: var(--weight-display, var(--weight-regular))`,
+  matching the core tier's own `.text-title`/`.text-display` convention
+  exactly. `.heading-lg`/`.heading-md` (section/subsection sizes) are
+  intentionally left alone — the package doesn't apply the compensation
+  there either, and thinner hairlines aren't a problem at those sizes.
+  Verified in the served dev-mode CSS: `--weight-display: 400`/`500` are
+  both present in `tokens-site.css`'s light/dark blocks, and the
+  `font-weight:var(--weight-display, var(--weight-regular))` chain is
+  present on `.heading-xl`.
+- **`.remarque-endmark`**: applied once, at the natural end of the
+  About page's narrative content — after the "Stages of Tsundoku" list
+  (the page's emotional/narrative closing beat) and before the closing
+  divider + "Back to the pile" CTA. About isn't wrapped in
+  `.remarque-prose` (it's stat-badge-heavy, not a pure essay), but the
+  endmark's CSS doesn't require that wrapper to render, and the fleuron
+  reads correctly as "the story part of this page just ended, here's a
+  nav link" — the fit the brief asked to confirm before applying it.
+
 ## Summary of the base restyle
 
 - Fonts: self-hosted Newsreader (display) / Inter (body+UI) / JetBrains
