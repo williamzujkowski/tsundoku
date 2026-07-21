@@ -271,12 +271,9 @@
       <p class="empty-subtitle">Something went wrong loading <code>browse-data.json</code>. Try refreshing.</p>
     </div>
   {:else if !loaded}
-    <!-- Loading skeleton — empty placeholder boxes that fade out when data arrives -->
-    <div class="book-cards-grid" aria-hidden="true">
-      {#each Array(12) as _}
-        <div class="book-card book-card-skeleton"></div>
-      {/each}
-    </div>
+    <!-- Loading state — plain text, no skeleton screen (Remarque disallows
+         skeleton loading animations; "use a simple spinner or nothing"). -->
+    <p class="loading-message" role="status">Loading books…</p>
   {:else if sortedBooks.length === 0}
     <!-- Empty state -->
     <div class="empty-state">
@@ -363,26 +360,19 @@
 
   .search-input {
     width: 100%;
+    min-height: 2.75rem;
     background: var(--bg-surface);
-    border: 3px solid var(--border);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     color: var(--text);
     padding: 0.625rem 1rem 0.625rem 2.5rem;
     font-size: 1rem;
-    font-family: var(--font-mono);
-    font-weight: 600;
-    box-shadow: var(--shadow-sm);
-  }
-
-  @media (min-width: 640px) {
-    .search-input {
-      font-size: 0.875rem;
-    }
+    font-family: var(--font-body);
   }
 
   .search-input:focus {
     outline: none;
     border-color: var(--pop-pink);
-    box-shadow: var(--shadow-sm);
   }
 
   .search-icon {
@@ -404,17 +394,17 @@
   .filter-select {
     flex: 1 1 8rem;
     min-width: 8rem;
+    min-height: 2.75rem;
     background: var(--bg-surface);
-    border: 2px solid var(--border);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     color: var(--text);
     padding: 0.5rem 0.625rem;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-family: var(--font-body);
-    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    box-shadow: var(--shadow-1);
   }
 
   @media (min-width: 640px) {
@@ -443,22 +433,24 @@
   }
 
   .clear-filters-link {
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    font-weight: 500;
     color: var(--pop-pink);
     background: none;
-    border: 2px solid var(--pop-pink);
-    padding: 0.25rem 0.75rem;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding-inline: 0.25rem;
     cursor: pointer;
-    font-family: var(--font-body);
-    transition: background 80ms ease, color 80ms ease;
+    transition: color 120ms ease;
   }
 
   .clear-filters-link:hover {
-    background: var(--pop-pink);
-    color: var(--on-accent);
+    color: var(--text);
   }
 
   /* --- Empty state --- */
@@ -467,7 +459,6 @@
     background: var(--bg-surface);
     padding: 2rem;
     text-align: center;
-    box-shadow: var(--shadow);
   }
 
   @media (min-width: 640px) {
@@ -492,28 +483,22 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--pop-pink);
-    color: var(--on-accent);
-    font-weight: 700;
+    min-height: 2.75rem;
+    background: transparent;
+    color: var(--text);
+    font-weight: 500;
     padding: 0.625rem 1.5rem;
-    font-size: 0.875rem;
-    border: 3px solid var(--text);
-    box-shadow: var(--shadow-sm);
+    font-size: 0.9375rem;
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     cursor: pointer;
     font-family: var(--font-body);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    transition: transform 80ms ease, box-shadow 80ms ease;
+    transition: border-color 120ms ease, color 120ms ease;
   }
 
   .btn-clear-all:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0 var(--shadow-color);
-  }
-
-  .btn-clear-all:active {
-    transform: translate(0, 0);
-    box-shadow: 0 0 0 var(--shadow-color);
+    border-color: var(--pop-pink);
+    color: var(--pop-pink);
   }
 
   /* --- Book card grid --- */
@@ -546,37 +531,25 @@
   /* --- Book card --- */
   .book-card {
     display: block;
-    border: 3px solid var(--border);
+    border: var(--border-width) solid var(--border);
     background: var(--bg-surface);
     padding: 0.75rem;
-    box-shadow: var(--shadow);
     text-decoration: none;
     color: var(--text);
-    transition: transform 100ms ease, box-shadow 100ms ease, border-color 100ms ease;
+    transition: border-color 120ms ease;
   }
 
   .book-card:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 var(--shadow-color);
     border-color: var(--pop-pink);
     color: var(--text);
   }
 
-  /* Skeleton placeholder while browse-data.json is loading. Same dimensions as a
-     real card so the layout doesn't shift when data arrives. */
-  .book-card-skeleton {
-    height: 6rem;
-    background: var(--bg-elevated);
-    opacity: 0.5;
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .book-card-skeleton {
-      animation: skeleton-pulse 1.4s ease-in-out infinite;
-    }
-  }
-  @keyframes skeleton-pulse {
-    0%, 100% { opacity: 0.4; }
-    50% { opacity: 0.7; }
+  .loading-message {
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
+    color: var(--text-dim);
+    padding: 2rem 0;
+    text-align: center;
   }
 
   .book-card-inner {
@@ -623,14 +596,16 @@
   }
 
   .book-year {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
   }
 
   .book-title {
+    font-family: var(--font-body);
     color: var(--text);
-    font-weight: 700;
-    font-size: 0.875rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
     margin-bottom: 0.125rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -644,7 +619,7 @@
 
   .book-author {
     color: var(--text-dim);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -653,7 +628,7 @@
   .book-call-number {
     display: block;
     font-family: var(--font-mono);
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
     font-variant-numeric: tabular-nums lining-nums;
     margin-bottom: 0.125rem;
@@ -670,7 +645,8 @@
   }
 
   .book-category {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -678,7 +654,7 @@
   }
 
   .status-indicator {
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     flex-shrink: 0;
   }
 
@@ -704,29 +680,21 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid var(--border);
+    min-height: 2.75rem;
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     background: transparent;
     color: var(--text-muted);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-weight: 500;
     padding: 0.625rem 1.5rem;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     cursor: pointer;
     font-family: var(--font-body);
-    box-shadow: var(--shadow-sm);
-    transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease, color 80ms ease;
+    transition: border-color 120ms ease, color 120ms ease;
   }
 
   .btn-load-more:hover {
     border-color: var(--pop-pink);
-    color: var(--text);
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 var(--shadow-color);
-  }
-
-  .btn-load-more:active {
-    transform: translate(0, 0);
-    box-shadow: 0 0 0 var(--shadow-color);
+    color: var(--pop-pink);
   }
 </style>

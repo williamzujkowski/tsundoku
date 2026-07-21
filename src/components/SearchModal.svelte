@@ -238,11 +238,16 @@
 
 <style>
   .search-toggle {
-    padding: 0.5rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-muted);
     background: none;
     border: none;
     cursor: pointer;
+    transition: color 120ms ease;
   }
 
   .search-toggle:hover {
@@ -272,8 +277,7 @@
     max-width: 36rem;
     margin: 12vh auto 0;
     background: var(--bg-elevated);
-    border: var(--border-width) solid var(--border);
-    box-shadow: var(--shadow-3);
+    border: var(--border-width) solid var(--border-strong);
     overflow: hidden;
   }
 
@@ -310,7 +314,7 @@
 
   .kbd-hint {
     display: none;
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
     background: var(--bg-elevated);
     padding: 0.125rem 0.375rem;
@@ -329,12 +333,13 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    padding: 0.375rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
     color: var(--text-dim);
     background: none;
     border: none;
     cursor: pointer;
-    transition: color 80ms ease;
+    transition: color 120ms ease;
   }
 
   .modal-close:hover {
@@ -374,13 +379,14 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    min-height: 2.75rem;
     padding: 0.625rem 1rem;
     text-decoration: none;
     color: var(--text);
     border-left: 3px solid transparent;
     border-bottom: 1px solid var(--border);
     background: var(--bg-surface);
-    transition: border-color 80ms ease, background 80ms ease;
+    transition: border-color 120ms ease, background 120ms ease;
   }
   .result-item:last-child { border-bottom: none; }
 
@@ -408,7 +414,7 @@
     align-items: center;
     justify-content: center;
     color: var(--text-dim);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     border: 1px solid var(--border);
   }
 
@@ -418,7 +424,7 @@
   }
 
   .result-title {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     color: var(--text);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -426,7 +432,7 @@
   }
 
   .result-subtitle {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -435,12 +441,9 @@
 
   .result-type {
     font-family: var(--font-mono);
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border: 1px solid var(--border);
-    padding: 0.125rem 0.375rem;
+    letter-spacing: 0.02em;
     flex-shrink: 0;
     align-self: center;
   }
@@ -455,7 +458,8 @@
   }
 
   .keyboard-hints {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
     display: flex;
     gap: 1rem;
@@ -469,7 +473,8 @@
   }
 
   .results-count {
-    font-size: 0.625rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     color: var(--text-dim);
   }
 </style>

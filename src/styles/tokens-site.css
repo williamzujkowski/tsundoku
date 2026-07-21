@@ -1,0 +1,269 @@
+/* ============================================================
+   REMARQUE PALETTE TIER — authored here, not via the package default,
+   so `npx remarque-audit --palette src/styles/tokens-site.css --src
+   src/styles` can read it literally (the audit script text-scans the
+   file it's pointed at — it does not follow @import chains). This file
+   is deliberately import-free: remarque-tokens' own audit parser gets
+   confused by leading `@import` statements sharing a file with the
+   first brace block, so imports live in global.css and this file is
+   pure declarations.
+
+   Font slots keep the package defaults (Newsreader/Inter/JetBrains Mono,
+   self-hosted via fonts.css). Colors keep the package's neutral warm-gray
+   base but re-derive the accent at a custom "book cloth / library
+   binding" hue (H35, terracotta-oxblood) instead of the default blue,
+   per REMARQUE.md's "Changing the Accent Hue" recipe: same lightness
+   steps as the reference palette (0.50/0.42/0.95 light, 0.68/0.75/0.22
+   dark), chroma reduced until in-gamut. Verified via
+   `npx remarque-audit --palette src/styles/tokens-site.css --src src/styles`
+   in both themes (see DESIGN-NOTES.md).
+
+   Convention: LIGHT is the unconditional default (canonical Remarque
+   direction), with dark applied via `@media (prefers-color-scheme: dark)`
+   and the canonical `[data-theme]` attribute for the manual toggle.
+   ============================================================ */
+
+:root {
+  /* Font slots -- package defaults, self-hosted via fonts.css */
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code", monospace;
+
+  /* Reading measure -- 46rem is about 70 characters per line at 17px Inter */
+  --content-reading: 46rem;
+
+  color-scheme: light;
+
+  --color-bg:          oklch(0.975 0.005 80);
+  --color-bg-subtle:   oklch(0.955 0.005 80);
+  --color-fg:          oklch(0.18 0.01 80);
+  --color-fg-muted:    oklch(0.43 0.015 80);
+  --color-muted:       oklch(0.54 0.01 80);
+  --color-border:      oklch(0.88 0.005 80);
+  --color-border-bold: oklch(0.62 0.01 80);
+  --color-surface:     oklch(0.965 0.005 80);
+
+  --color-accent:        oklch(0.50 0.11 35);
+  --color-accent-hover:  oklch(0.42 0.10 35);
+  --color-accent-subtle: oklch(0.95 0.02 35);
+
+  --color-link:        var(--color-accent);
+  --color-link-hover:  var(--color-accent-hover);
+  --color-focus-ring:  var(--color-accent);
+  --color-selection-bg: oklch(0.92 0.035 35);
+  --color-selection-fg: var(--color-fg);
+  --color-code-bg:     oklch(0.945 0.005 80);
+  --color-code-fg:     var(--color-fg);
+
+  /* Text color for the rare small filled-accent surface (skip link only --
+     see "Buttons are quiet" rule; nothing else in this site fills with
+     accent). Not part of the sanctioned token set; kept minimal. */
+  --color-on-accent: oklch(0.98 0.01 80);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-bg:          oklch(0.16 0.01 80);
+    --color-bg-subtle:   oklch(0.19 0.01 80);
+    --color-fg:          oklch(0.90 0.005 80);
+    --color-fg-muted:    oklch(0.70 0.01 80);
+    --color-muted:       oklch(0.60 0.01 80);
+    --color-border:      oklch(0.25 0.005 80);
+    --color-border-bold: oklch(0.50 0.01 80);
+    --color-surface:     oklch(0.19 0.01 80);
+
+    --color-accent:        oklch(0.68 0.11 35);
+    --color-accent-hover:  oklch(0.75 0.11 35);
+    --color-accent-subtle: oklch(0.22 0.04 35);
+
+    --color-selection-bg: oklch(0.30 0.06 35);
+    --color-selection-fg: oklch(0.92 0.005 80);
+    --color-code-bg:     oklch(0.20 0.005 80);
+    --color-code-fg:     oklch(0.88 0.005 80);
+    --color-on-accent: oklch(0.16 0.01 80);
+  }
+}
+
+/* Manual toggle -- canonical [data-theme] convention (ThemeToggle.svelte +
+   the pre-paint script in Layout.astro set this attribute explicitly). */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg:          oklch(0.16 0.01 80);
+  --color-bg-subtle:   oklch(0.19 0.01 80);
+  --color-fg:          oklch(0.90 0.005 80);
+  --color-fg-muted:    oklch(0.70 0.01 80);
+  --color-muted:       oklch(0.60 0.01 80);
+  --color-border:      oklch(0.25 0.005 80);
+  --color-border-bold: oklch(0.50 0.01 80);
+  --color-surface:     oklch(0.19 0.01 80);
+
+  --color-accent:        oklch(0.68 0.11 35);
+  --color-accent-hover:  oklch(0.75 0.11 35);
+  --color-accent-subtle: oklch(0.22 0.04 35);
+
+  --color-selection-bg: oklch(0.30 0.06 35);
+  --color-selection-fg: oklch(0.92 0.005 80);
+  --color-code-bg:     oklch(0.20 0.005 80);
+  --color-code-fg:     oklch(0.88 0.005 80);
+  --color-on-accent: oklch(0.16 0.01 80);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --color-bg:          oklch(0.975 0.005 80);
+  --color-bg-subtle:   oklch(0.955 0.005 80);
+  --color-fg:          oklch(0.18 0.01 80);
+  --color-fg-muted:    oklch(0.43 0.015 80);
+  --color-muted:       oklch(0.54 0.01 80);
+  --color-border:      oklch(0.88 0.005 80);
+  --color-border-bold: oklch(0.62 0.01 80);
+  --color-surface:     oklch(0.965 0.005 80);
+
+  --color-accent:        oklch(0.50 0.11 35);
+  --color-accent-hover:  oklch(0.42 0.10 35);
+  --color-accent-subtle: oklch(0.95 0.02 35);
+
+  --color-selection-bg: oklch(0.92 0.035 35);
+  --color-selection-fg: var(--color-fg);
+  --color-code-bg:     oklch(0.945 0.005 80);
+  --color-code-fg:     var(--color-fg);
+  --color-on-accent: oklch(0.98 0.01 80);
+}
+
+/* ============================================================
+   SITE EXTENSIONS -- beyond the sanctioned palette tier.
+   These are documented "invented patterns" (see DESIGN-NOTES.md):
+
+   1. Legacy variable ALIASES. Every Astro page and Svelte island in this
+      codebase already reads var(--bg), var(--text), var(--pop-pink),
+      etc. (the prior design system's names) -- in inline style="..."
+      attributes (stats.astro, about.astro, index.astro) as well as
+      component-scoped <style> blocks (BookGrid, SearchModal, ThemeToggle,
+      RandomBook, ShareButton). Re-pointing those names at the new Remarque
+      tokens means the ENTIRE site re-themes without touching a single
+      template -- only the token values changed, not the markup. Each
+      alias is a var() reference (not a captured literal), so it stays
+      theme-reactive automatically.
+
+   2. Category color-coding. A 7-hue accent-adjacent palette used ONLY to
+      color-code the 30 book categories (.cat-philosophy, .cat-literature,
+      etc.) -- orthogonal to the single sanctioned --color-accent, which
+      remains reserved for links + one interactive element per the spec.
+      This is content taxonomy, not decoration; contrast-checked but not
+      part of the audited required-token set.
+   ============================================================ */
+
+:root {
+  /* --- legacy aliases: backgrounds / text / borders --- */
+  --bg: var(--color-bg);
+  --bg-surface: var(--color-surface);
+  --bg-elevated: var(--color-bg-subtle);
+  --card-bg: var(--color-surface);
+  --text: var(--color-fg);
+  --text-muted: var(--color-fg-muted);
+  --text-dim: var(--color-muted);
+  --border: var(--color-border);
+  --border-strong: var(--color-border-bold);
+  --ring: var(--color-focus-ring);
+  --on-accent: var(--color-on-accent);
+
+  /* --- legacy aliases: shadows neutralized (Remarque: borders, never
+         drop shadows). Left defined (not removed) so every existing
+         box-shadow: var(--shadow-*) declaration site-wide resolves to
+         nothing, instead of requiring per-rule edits everywhere. --- */
+  --shadow-color: transparent;
+  --shadow: none;
+  --shadow-sm: none;
+  --shadow-1: none;
+  --shadow-2: none;
+  --shadow-3: none;
+
+  /* --- legacy aliases: layout --- */
+  --max-width: var(--content-wide); /* gallery/grid pages need more than content-standard's 72rem */
+  --gutter: clamp(1rem, 3vw, 2rem);
+
+  /* --- category color-coding (7 hues; pink is the sanctioned accent,
+         see header comment -- categories that were pink-coded now share
+         the interactive accent, which still reads fine since categories
+         are never links themselves). Light values, in-gamut. --- */
+  --pop-blue:   oklch(0.48 0.13 254.8);
+  --pop-green:  oklch(0.50 0.12 122.9);
+  --pop-yellow: oklch(0.55 0.11 85.8);
+  --pop-orange: oklch(0.55 0.12 55);
+  --pop-purple: oklch(0.50 0.16 349.8);
+  --pop-red:    oklch(0.50 0.17 27.8);
+  --pop-cyan:   oklch(0.55 0.09 186.7);
+  --pop-pink:   oklch(0.50 0.16 350); /* .cat-literature / .cat-art / .cat-music only */
+
+  /* World-map gradient endpoints (stats.astro color-mixes between these
+     in OKLCH per-country -- theme-aware without rebuilding the page). */
+  --map-low: var(--color-border-bold);
+  --map-high: var(--color-accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pop-blue:   oklch(0.72 0.12 250);
+    --pop-green:  oklch(0.78 0.12 145);
+    --pop-yellow: oklch(0.86 0.11 90);
+    --pop-orange: oklch(0.78 0.13 55);
+    --pop-purple: oklch(0.74 0.12 300);
+    --pop-red:    oklch(0.72 0.13 25);
+    --pop-cyan:   oklch(0.78 0.10 200);
+    --pop-pink:   oklch(0.74 0.13 350);
+  }
+}
+[data-theme="dark"] {
+  --pop-blue:   oklch(0.72 0.12 250);
+  --pop-green:  oklch(0.78 0.12 145);
+  --pop-yellow: oklch(0.86 0.11 90);
+  --pop-orange: oklch(0.78 0.13 55);
+  --pop-purple: oklch(0.74 0.12 300);
+  --pop-red:    oklch(0.72 0.13 25);
+  --pop-cyan:   oklch(0.78 0.10 200);
+  --pop-pink:   oklch(0.74 0.13 350);
+}
+[data-theme="light"] {
+  --pop-blue:   oklch(0.48 0.13 254.8);
+  --pop-green:  oklch(0.50 0.12 122.9);
+  --pop-yellow: oklch(0.55 0.11 85.8);
+  --pop-orange: oklch(0.55 0.12 55);
+  --pop-purple: oklch(0.50 0.16 349.8);
+  --pop-red:    oklch(0.50 0.17 27.8);
+  --pop-cyan:   oklch(0.55 0.09 186.7);
+  --pop-pink:   oklch(0.50 0.16 350);
+}
+
+/* ===== Category -> accent mapping (static allowlist -- 30 categories) ===== */
+.cat-philosophy { --cat-accent: var(--pop-purple); }
+.cat-literature { --cat-accent: var(--pop-pink); }
+.cat-science-fiction-fantasy { --cat-accent: var(--pop-blue); }
+.cat-history { --cat-accent: var(--pop-orange); }
+.cat-science { --cat-accent: var(--pop-cyan); }
+.cat-politics { --cat-accent: var(--pop-red); }
+.cat-psychology { --cat-accent: var(--pop-green); }
+.cat-economics { --cat-accent: var(--pop-yellow); }
+.cat-mathematics { --cat-accent: var(--pop-blue); }
+.cat-technology { --cat-accent: var(--pop-cyan); }
+.cat-religion { --cat-accent: var(--pop-purple); }
+.cat-sociology { --cat-accent: var(--pop-orange); }
+.cat-art { --cat-accent: var(--pop-pink); }
+.cat-music { --cat-accent: var(--pop-pink); }
+.cat-military-history { --cat-accent: var(--pop-red); }
+.cat-global-history { --cat-accent: var(--pop-orange); }
+.cat-ecology { --cat-accent: var(--pop-green); }
+.cat-linguistics { --cat-accent: var(--pop-yellow); }
+.cat-anthropology { --cat-accent: var(--pop-orange); }
+.cat-memoir { --cat-accent: var(--pop-pink); }
+.cat-journalism { --cat-accent: var(--pop-red); }
+.cat-law { --cat-accent: var(--pop-purple); }
+.cat-education { --cat-accent: var(--pop-green); }
+.cat-business { --cat-accent: var(--pop-yellow); }
+.cat-security { --cat-accent: var(--pop-red); }
+.cat-computer-science { --cat-accent: var(--pop-cyan); }
+.cat-medicine { --cat-accent: var(--pop-green); }
+.cat-architecture { --cat-accent: var(--pop-orange); }
+.cat-sports { --cat-accent: var(--pop-blue); }
+.cat-governance { --cat-accent: var(--pop-purple); }
+.cat-default { --cat-accent: var(--pop-blue); }

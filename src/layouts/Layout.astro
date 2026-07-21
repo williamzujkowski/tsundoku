@@ -44,27 +44,30 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
         background fill). Browsers honor this BEFORE any CSS loads, so
         the painting surface starts in the right mode. The pre-paint
         script below upgrades it to the user's explicit choice. */}
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
 
     {/* Critical CSS — sets the body background + text color per active
         theme so the very first paint is correct. Without this, the
         browser paints a default white surface for ~100-300ms while
         global.css is still loading (especially over slow networks),
-        producing a visible flash before the themed background applies. */}
+        producing a visible flash before the themed background applies.
+        Values mirror src/styles/tokens-site.css's --color-bg/--color-fg
+        (light default, dark via media query + explicit [data-theme]). */}
     <style is:inline>
-      :root { color-scheme: dark; background: oklch(0.243 0.017 285.1); color: oklch(0.876 0.039 99.1); }
-      :root[data-theme="light"] { color-scheme: light; background: oklch(0.99 0.016 95.2); color: oklch(0.17 0.002 17.3); }
-      @media (prefers-color-scheme: light) {
-        :root:not([data-theme="dark"]) { color-scheme: light; background: oklch(0.99 0.016 95.2); color: oklch(0.17 0.002 17.3); }
+      :root { color-scheme: light; background: oklch(0.975 0.005 80); color: oklch(0.18 0.01 80); }
+      [data-theme="dark"] { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
       }
       body { background: inherit; color: inherit; margin: 0; }
     </style>
 
-    {/* Fraunces — variable display serif (opsz + weight axes). Body stays system-ui.
-        font-display: swap on the URL avoids blocking text paint while it loads. */}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..900&display=swap" />
+    {/* Self-hosted three-font system (Newsreader/Inter/JetBrains Mono) —
+        see src/styles/fonts.css for the @font-face rules. Preload the
+        three roman faces used above the fold; italics load on demand. */}
+    <link rel="preload" href={`${base}fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={`${base}fonts/newsreader-latin.woff2`} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={`${base}fonts/jetbrains-mono-latin.woff2`} as="font" type="font/woff2" crossorigin />
     <title>{title} — Tsundoku</title>
 
     {/* Pre-paint theme application — runs before body to prevent FOUC.

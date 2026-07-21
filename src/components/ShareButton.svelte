@@ -48,27 +48,21 @@
     display: inline-flex;
     align-items: center;
     gap: 0.375rem;
-    font-size: 0.75rem;
-    padding: 0.375rem 0.75rem;
-    background: var(--bg-elevated);
+    min-height: 2.75rem;
+    font-size: 0.875rem;
+    padding: 0.375rem 0.875rem;
+    background: transparent;
     color: var(--text-muted);
-    border: var(--border-width) solid var(--border);
+    border: var(--border-width) solid var(--border-strong);
+    border-radius: var(--radius-sm);
     cursor: pointer;
     font-family: var(--font-body);
-    box-shadow: var(--shadow-sm);
-    transition: transform 80ms ease, box-shadow 80ms ease, border-color 80ms ease, color 80ms ease;
+    transition: border-color 120ms ease, color 120ms ease;
   }
 
   .share-btn:hover {
     border-color: var(--pop-pink);
-    color: var(--text);
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 var(--shadow-color);
-  }
-
-  .share-btn:active {
-    transform: translate(0, 0);
-    box-shadow: 0 0 0 var(--shadow-color);
+    color: var(--pop-pink);
   }
 
   .share-icon {

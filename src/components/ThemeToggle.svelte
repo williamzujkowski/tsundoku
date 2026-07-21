@@ -55,7 +55,8 @@
 
 <style>
   .theme-toggle {
-    padding: 0.5rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
     color: var(--text-muted);
     background: none;
     border: none;
@@ -63,6 +64,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: color var(--motion-normal, 180ms) ease;
   }
 
   .theme-toggle:hover {
@@ -72,13 +74,15 @@
   .theme-icon {
     width: 1.25rem;
     height: 1.25rem;
-    animation: theme-pop 220ms cubic-bezier(0.2, 0.85, 0.3, 1.05);
+    animation: theme-fade var(--motion-normal, 180ms) ease;
   }
 
-  @keyframes theme-pop {
-    0%   { opacity: 0; transform: rotate(-45deg) scale(0.6); }
-    60%  { opacity: 1; transform: rotate(8deg) scale(1.08); }
-    100% { transform: rotate(0) scale(1); }
+  /* Theme transition — a plain crossfade, not a rotate/scale flourish
+     (Remarque: motion is permitted on theme transitions, but should stay
+     understated). */
+  @keyframes theme-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
   @media (prefers-reduced-motion: reduce) {

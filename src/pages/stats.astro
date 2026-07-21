@@ -263,7 +263,7 @@ ${mapFillRules}
         <div class="card card-padded">
           <div class="flex items-center justify-between mb-2">
             <span class="text-sm text-muted">{e.label}</span>
-            <span class="font-bold heading-md">{e.pct}%</span>
+            <span class="stat-pct">{e.pct}%</span>
           </div>
           <div class="progress-bar" role="progressbar" aria-valuenow={e.pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${e.pct}%`}>
             <div style={`width: ${e.pct}%; background: var(--pop-pink);`}></div>
@@ -292,7 +292,7 @@ ${mapFillRules}
             <div class="card card-padded">
               <div class="flex items-center justify-between mb-2">
                 <span class="text-sm text-muted">{e.label}</span>
-                <span class="font-bold heading-md">{pct}%</span>
+                <span class="stat-pct">{pct}%</span>
               </div>
               <div class="progress-bar" role="progressbar" aria-valuenow={pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${e.label} coverage: ${pct}%`}>
                 <div style={`width: ${pct}%; background: var(--pop-cyan);`}></div>
@@ -362,12 +362,11 @@ ${mapFillRules}
     pointer-events: none;
     padding: 0.35rem 0.6rem;
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text);
     background: var(--bg-elevated);
     border: var(--border-width) solid var(--border-strong);
-    border-radius: 4px;
-    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-sm);
     white-space: nowrap;
     transform: translate(12px, 12px);
   }
