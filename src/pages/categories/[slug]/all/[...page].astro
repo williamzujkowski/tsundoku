@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
+import { resolveImageSrc } from '../../../../utils/imageGuard';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityBadgeClass, toSlug, thumbnailUrl } from '../../../../utils/formatting';
 import type { GetStaticPathsOptions } from 'astro';
@@ -86,8 +87,8 @@ const endIdx = Math.min(page.currentPage * PAGE_SIZE, page.total);
   <div class="grid sm-grid-2 lg-grid-4 gap-3">
     {page.data.map(book => (
       <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
-        {book.data.cover_url ? (
-          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
+        {resolveImageSrc(book.data.cover_url, book.data.cover_url_source) ? (
+          <img src={thumbnailUrl(resolveImageSrc(book.data.cover_url, book.data.cover_url_source) ?? '')} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
         ) : (
           <div class="book-thumb-placeholder" aria-hidden="true">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

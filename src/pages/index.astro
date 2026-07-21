@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
 import { seededShuffle } from '../utils/formatting';
+import { resolveImageSrc } from '../utils/imageGuard';
 
 const base = import.meta.env.BASE_URL;
 const books = await getCollection('books');
@@ -140,7 +141,16 @@ const oldestLine = stats.oldest_year < 0
 
   <!-- Featured Must-Reads -->
   {(() => {
-    const mustReads = books.filter(b => b.data.priority === 1 && b.data.cover_url);
+    // Guard against a /cached/ cover URL whose file doesn't actually exist
+    // in THIS build (see src/utils/imageGuard.ts's docstring — the
+    // william-shakespeare production 404). Resolved once here so a book
+    // whose cover can't be resolved (missing file AND no upstream source)
+    // simply doesn't enter the featured pool, rather than rendering a
+    // guaranteed-broken <img>.
+    const mustReads = books
+      .filter(b => b.data.priority === 1 && b.data.cover_url)
+      .map(b => ({ book: b, coverSrc: resolveImageSrc(b.data.cover_url_large || b.data.cover_url, b.data.cover_url_large_source || b.data.cover_url_source) }))
+      .filter((entry): entry is { book: typeof books[number]; coverSrc: string } => Boolean(entry.coverSrc));
     const featured = seededShuffle(mustReads).slice(0, 8);
     return featured.length > 0 ? (
       <>
@@ -153,10 +163,10 @@ const oldestLine = stats.oldest_year < 0
             </a>
           </div>
           <div class="grid grid-2 sm-grid-4 lg-grid-8 gap-4">
-            {featured.map(b => (
+            {featured.map(({ book: b, coverSrc }) => (
               <a href={`${base}books/${b.data.slug}/`} class="book-cover-group">
-                <img src={b.data.cover_url_large || b.data.cover_url} alt={`Cover of ${b.data.title}`}
-                  class="book-cover" loading="lazy" />
+                <img src={coverSrc} alt={`Cover of ${b.data.title}`}
+                  width="200" height="300" class="book-cover" loading="lazy" decoding="async" />
                 <p class="featured-title">{b.data.title}</p>
                 <p class="featured-author truncate text-dim">{b.data.author}</p>
               </a>

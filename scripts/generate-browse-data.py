@@ -10,7 +10,11 @@ internal type when consuming.
 """
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from image_guard import resolve_image_url
 
 BOOKS_DIR = Path(__file__).parent.parent / "src" / "content" / "books"
 AUTHORS_DIR = Path(__file__).parent.parent / "src" / "content" / "authors"
@@ -45,8 +49,14 @@ def main() -> None:
             "cat": d.get("category", ""),
         }
         # Only include optional fields when set — fewer null bytes on the wire.
-        if d.get("cover_url"):
-            entry["co"] = d["cover_url"]
+        # Guard against a /cached/ URL whose file doesn't actually exist in
+        # THIS build (see image_guard.py's docstring — the
+        # william-shakespeare production 404); falls back to the
+        # preserved upstream source, or omits "co" entirely (BookGrid
+        # already renders the placeholder glyph when cover_url is unset).
+        cover_src = resolve_image_url(d.get("cover_url"), d.get("cover_url_source"))
+        if cover_src:
+            entry["co"] = cover_src
         if d.get("first_published") is not None:
             entry["y"] = d["first_published"]
             decade = (d["first_published"] // 10) * 10

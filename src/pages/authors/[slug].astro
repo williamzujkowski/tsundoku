@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches, toSlug } from '../../utils/formatting';
 import { safeJsonLd } from '../../utils/jsonld';
+import { resolveImageSrc } from '../../utils/imageGuard';
 
 // ISO 3166-1 alpha-2 → human-readable nationality. Subset matches what
 // the wikidata enricher emits.
@@ -55,16 +56,22 @@ const altNames = (author.alternate_names ?? [])
 const nationalityLine = (author.nationality ?? [])
   .map(nationalityLabel)
   .join(' / ');
+
+// Guard against a /cached/ photo URL whose file doesn't actually exist in
+// THIS build (see src/utils/imageGuard.ts's docstring — the
+// william-shakespeare production 404). Computed once and reused for the
+// OG-image Layout prop, the JSON-LD "image" field, and the hero <img>.
+const authorPhotoSrc = resolveImageSrc(author.photo_url, author.photo_url_source);
 ---
 
-<Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={author.photo_url}>
+<Layout title={author.name} description={`${books.length} books by ${author.name} in the tsundoku collection`} image={authorPhotoSrc}>
   <script is:inline type="application/ld+json" set:html={safeJsonLd({
     "@context": "https://schema.org",
     "@type": "Person",
     "name": author.name,
     ...(altNames.length > 0 ? { "alternateName": altNames } : {}),
     ...(author.bio ? { "description": author.bio } : {}),
-    ...(author.photo_url ? { "image": author.photo_url } : {}),
+    ...(authorPhotoSrc ? { "image": authorPhotoSrc } : {}),
     ...(author.wikipedia_url ? { "sameAs": [author.wikipedia_url, ...(author.viaf_id ? [`https://viaf.org/viaf/${author.viaf_id}`] : [])] } : (author.viaf_id ? { "sameAs": [`https://viaf.org/viaf/${author.viaf_id}`] } : {})),
     ...(author.birth_year ? { "birthDate": String(author.birth_year) } : {}),
     ...(author.death_year ? { "deathDate": String(author.death_year) } : {}),
@@ -80,9 +87,9 @@ const nationalityLine = (author.nationality ?? [])
 
   <!-- Author header -->
   <div class="author-header">
-    {author.photo_url ? (
+    {authorPhotoSrc ? (
       <img
-        src={author.photo_url}
+        src={authorPhotoSrc}
         alt={author.name}
         width="160"
         height="160"
@@ -166,8 +173,8 @@ const nationalityLine = (author.nationality ?? [])
   <div class="grid sm-grid-2 lg-grid-4 gap-3">
     {books.map(book => (
       <a href={`${base}books/${book.data.slug}/`} class="card book-cover-group book-card-compact">
-        {book.data.cover_url ? (
-          <img src={thumbnailUrl(book.data.cover_url)} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
+        {resolveImageSrc(book.data.cover_url, book.data.cover_url_source) ? (
+          <img src={thumbnailUrl(resolveImageSrc(book.data.cover_url, book.data.cover_url_source) ?? '')} alt="" width="48" height="72" class="book-cover book-thumb" loading="lazy" transition:name={`cover-${book.data.slug}`} />
         ) : (
           <div class="book-thumb-placeholder" aria-hidden="true">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

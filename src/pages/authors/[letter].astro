@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { toSlug, isSuppressedAuthorStub } from '../../utils/formatting';
+import { resolveImageSrc } from '../../utils/imageGuard';
 
 const base = import.meta.env.BASE_URL;
 
@@ -9,11 +10,12 @@ export async function getStaticPaths() {
   const books = await getCollection('books');
   const enrichedAuthors = await getCollection('authors');
 
-  const enrichedMap = new Map<string, { slug: string; photo_url?: string; bio?: string }>();
+  const enrichedMap = new Map<string, { slug: string; photo_url?: string; photo_url_source?: string; bio?: string }>();
   for (const a of enrichedAuthors) {
     enrichedMap.set(a.data.name, {
       slug: a.data.slug,
       photo_url: a.data.photo_url,
+      photo_url_source: a.data.photo_url_source,
       bio: a.data.bio,
     });
   }
@@ -42,6 +44,7 @@ export async function getStaticPaths() {
         count,
         slug: enriched?.slug ?? toSlug(name),
         photo_url: enriched?.photo_url,
+        photo_url_source: enriched?.photo_url_source,
         hasDetailPage: enrichedMap.has(name),
       };
     });
@@ -115,8 +118,8 @@ const displayLetter = letter === 'other' ? '#' : (letter ?? '').toUpperCase();
     {authors.map(author => {
       const inner = (
         <>
-          {author.photo_url ? (
-            <img src={author.photo_url} alt="" width="28" height="28" class="author-avatar author-avatar-sm" loading="lazy" decoding="async" transition:name={`author-${author.slug}`} />
+          {resolveImageSrc(author.photo_url, author.photo_url_source) ? (
+            <img src={resolveImageSrc(author.photo_url, author.photo_url_source)} alt="" width="28" height="28" class="author-avatar author-avatar-sm" loading="lazy" decoding="async" transition:name={`author-${author.slug}`} />
           ) : (
             <div class="author-avatar-placeholder author-avatar-sm" aria-hidden="true">
               <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
