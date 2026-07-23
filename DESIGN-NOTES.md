@@ -366,6 +366,134 @@ INFO line of its own. This is exactly the expected palette-tier behavior
 for a site that only personalizes its accent hue: the divergence is
 already known and already documented, not a new one introduced here.
 
+## remarque-tokens 0.24.0
+
+Bumped from `^0.17.0` (through 0.18.0–0.23.0, which added nothing this
+site's audit requires — palette deck module, `--json` output modes, a
+markup-contract registry — until 0.21.0/0.22.0/0.24.0 below).
+
+**0.22.0 — 6 `--color-viz-1..6` dataviz categorical tokens, now
+audit-required at ≥3:1 vs `--color-bg`.** Added to all four theme blocks
+in `tokens-site.css` (`:root`, `@media (prefers-color-scheme: dark)`,
+`[data-theme="dark"]`, `[data-theme="light"]`), same pattern as every
+other bump: since this palette's `--color-bg` is numerically identical to
+the package default in both themes, the package's own solved values carry
+over verbatim and clear the same ratios the package's CHANGELOG documents.
+
+**Hue collision found and fixed.** The package's dataviz ramp is derived
+independently per theme from an upstream dataset tuned around a *blue*
+accent (the package default, H250) — it doesn't know this site re-derived
+its accent to terracotta (H35). Checked all 6 hues per theme against H35
+and found one real collision each side, not just a near-miss:
+
+- **Light `--color-viz-3`**: package default `oklch(0.524 0.12 24.6)` —
+  H24.6 is 10.4° from the accent (H35) and **0.4° from `--color-error`
+  (H25)** — visually indistinguishable from the error-red already in this
+  palette. A chart category rendered in this color reads as "an error
+  state," not "category 3."
+- **Dark `--color-viz-4`**: package default `oklch(0.725 0.129 25.4)` —
+  H25.4, same problem against dark `--color-error` (H26) and the dark
+  accent (still H35).
+- The other 4 slots (blue H250, gold H85, green H145, purple H310, cyan
+  H196 — one hue is "spare" per theme since only one slot collides) sit
+  50°+ from H35 in both themes; kept as package defaults verbatim.
+
+**Fix: rotate the colliding slot's hue to H350** (a rose-red, distinct
+from both accent-orange and error-red) independently in each theme,
+re-solving lightness for the same contrast band the package's own slots
+hit (~5:1 light, ~7.5:1 dark) rather than just checking the 3:1 floor.
+Verified with a small OKLCH→sRGB→WCAG-contrast script (Björn Ottosson's
+published conversion matrices; cross-checked against the package's own
+stated ratios for the untouched slots — matched to two decimal places):
+
+| Slot | Light (was → now) | Light contrast | Dark (was → now) | Dark contrast |
+|---|---|---|---|---|
+| viz-3 | H24.6 → **H350** `oklch(0.527 0.12 350)` | 5.35:1 → 5.30:1 | H310.2 (unchanged) | 7.55:1 |
+| viz-4 | H144.8 (unchanged) | 5.32:1 | H25.4 → **H350** `oklch(0.727 0.129 350)` | 7.55:1 → 7.53:1 |
+
+Both adjusted values re-verified ≥3:1 (the audit floor) with wide margin,
+and cross-checked against `--color-accent`/`--color-error` in both themes
+to confirm H350 is comfortably separated from both (≥35° in every
+pairing). `--color-viz-3` (dark, purple H310.2) and `--color-viz-4`
+(light, green H144.8) were left as package defaults since only one side
+of each slot actually collided — consistent with the package's own stance
+that a slot's light and dark hues are independently tuned, not a matched
+pair.
+
+**0.21.0 — forced-colors / `prefers-contrast: more` support, shipped in
+the package's own module CSS** (`essay.css`, `broadsheet.css`, `forms.css`,
+`tokens-core.css`). This site doesn't currently consume any of those
+modules directly (no essay/broadsheet archetype pages, no `<form>`
+elements beyond the search input), so there is nothing to wire up this
+round — but the *tokens* half of that release (`prefers-contrast: more`
+bumping `--color-border-bold`/`--color-fg-muted` in `tokens-palette.css`)
+does NOT apply here either, since this site's `tokens-site.css` fully
+re-declares its own values rather than importing the package's palette
+tier. Per the task scope, no site-local `forced-colors`/`prefers-contrast`
+rules were added this round. **Flagging one color-only affordance noticed
+while reviewing this area**: `stats.astro`'s world-map hover state
+(`.world-map path:hover`) changes only `stroke`/`stroke-width` — no
+non-color cue — and the nationality-distribution country rows already
+carry the same information as text, so this is low-severity, but it's the
+kind of thing the package's own forced-colors audit would flag if this
+site ever adopts a module that ships one. Worth a follow-up pass if/when
+this site's own audit scope grows to cover `forced-colors`.
+
+**0.24.0 — `light-dark()` + `color-scheme` palette migration**, purely an
+authoring-form change upstream (ΔE2000 = 0.000 against 0.23.0's values,
+per the package's own golden gate). `tokens-site.css` deliberately stays
+in the pre-0.24.0 conventional form (a full `:root` block + a full
+`@media (prefers-color-scheme: dark)` block + full `[data-theme]` blocks,
+each re-listing every value) rather than adopting `light-dark()` —
+this file is authored standalone specifically so `remarque-audit`'s
+brace-aware parser can read it literally without following an `@import`
+chain (see the file's own header comment), and the audit's parser
+(`scripts/lib/css-tokens.mjs`, per the 0.24.0 CHANGELOG) explicitly
+supports both forms with identical results, so there's no functional or
+audit-conformance reason to migrate. Noted here as a considered-and-
+declined option, not an oversight.
+
+**Full audit + drift, both themes:** see the "Local gate" note below for
+the actual run output at the time of this bump.
+
+### Stats-page chart-color adoption: evaluated, declined this round
+
+Checked whether any of `stats.astro`'s existing chart colors (moved from
+`--pop-*` to `--color-accent`/neutrals in the earlier dark-mode sweep, see
+above) could now adopt the new `--color-viz-*` categorical tokens instead.
+
+- **Decade timeline, nationality-distribution bars, both coverage-grid
+  progress bars, publication-era bars**: each is a **single-series** bar
+  chart (one color repeated across N bars, differentiated by length/
+  position, not hue) — there's no second category to give a second color
+  to. `--color-viz-*` is a categorical (nominal) ramp; applying it here
+  would mean picking one arbitrary slot per chart with no semantic reason
+  to prefer viz-1 over viz-4, which is worse than the current uniform
+  accent, not better. Left alone.
+- **Priority Breakdown** (Must-Read / Recommended / Eventually) was the
+  one real candidate — three colors in one chart. But the three
+  priorities are **ordinal** (high → low), not nominal categories, and
+  the current treatment (`--color-accent` → `--text-muted` → `--text-dim`)
+  is already the semantically-correct choice for ordinal data: a
+  monotonic emphasis ramp, not a qualitative hue split. This exact
+  three-bar chart is also the one the earlier dark-mode sweep explicitly
+  moved *away* from a `--pop-*` rainbow treatment (see "Owner follow-up:
+  dark-mode / data-viz sweep" above) — reintroducing 3 distinct
+  categorical hues here would reverse that fix and change the chart's
+  visual character noticeably (a saturated multi-hue legend where there
+  is currently a quiet light-to-dark gradient), which is exactly the
+  "changes the look noticeably" case the task brief said to hold back on.
+- **World-map choropleth**: already correctly a single-hue sequential
+  ramp (`--map-low` → `--map-high`), not a categorical case at all — no
+  change considered.
+
+**Decision: no `stats.astro` code changes this round.** The
+`--color-viz-*` tokens are now available in the palette for the first
+genuinely nominal multi-series chart this site adds (e.g. a
+category-breakdown chart segmented by the 30 book categories would be a
+legitimate future use — filed as a follow-up idea, not an issue, since no
+such chart exists yet).
+
 ## Summary of the base restyle
 
 - Fonts: self-hosted Newsreader (display) / Inter (body+UI) / JetBrains
