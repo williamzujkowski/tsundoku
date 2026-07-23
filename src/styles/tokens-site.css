@@ -60,6 +60,42 @@
   --color-code-bg:     oklch(0.945 0.005 80);
   --color-code-fg:     var(--color-fg);
 
+  /* remarque-tokens 0.17.0: syntax highlighting slots (audit-required as
+     of 0.13.0, this site had none before this bump -- no code blocks
+     exist on the site today, see DESIGN-NOTES.md). --color-bg/-surface/
+     -code-bg are numerically IDENTICAL to the package defaults (this
+     palette never touched the neutral ramp, only re-derived the accent
+     hue), so every bare-color syntax slot below is the package default
+     verbatim -- the ratios in the package's own comments already hold
+     exactly for this palette. Only --color-syntax-link differs, because
+     it aliases --color-accent (terracotta H35 here, not the default
+     blue H250); verified separately below and in DESIGN-NOTES.md. */
+  --color-syntax-keyword:     oklch(0.51 0.12 250);   /* package default -- 4.88:1 on code-bg (identical bg/code-bg here) */
+  --color-syntax-string:      oklch(0.50 0.12 145);   /* package default -- 4.85:1 */
+  --color-syntax-constant:    oklch(0.51 0.105 85);   /* package default -- 4.94:1 */
+  --color-syntax-comment:     oklch(0.52 0.01 80);    /* package default -- 4.69:1 */
+  --color-syntax-function:    oklch(0.52 0.12 310);   /* package default -- 4.96:1 */
+  --color-syntax-type:        oklch(0.50 0.085 196);  /* package default -- 4.90:1 */
+  --color-syntax-punctuation: oklch(0.52 0.01 80);    /* package default -- 4.69:1 */
+  --color-syntax-variable:    oklch(0.26 0.01 80);    /* package default -- 13.23:1 */
+  --color-syntax-link:        var(--color-accent);   /* THIS site's terracotta accent -- 5.37:1 on code-bg light / 6.01:1 dark, verified via remarque-audit (see DESIGN-NOTES.md) */
+
+  /* remarque-tokens 0.17.0: semantic state colors (form validation, status
+     banners, disabled controls -- never decoration). error/success/warning
+     hues (25/145/85) are universal ANSI-derived semantics, kept as package
+     defaults per the upstream rationale; --color-bg/-surface are identical
+     to the package defaults here too, so these values clear the same
+     ratios verbatim. --color-disabled aliases this site's own
+     --color-muted, matching the package's "muted family, not ANSI-derived"
+     convention exactly. */
+  --color-error:          oklch(0.52 0.12  25);   /* package default -- 5.44:1 bg / 5.28:1 surface */
+  --color-error-subtle:   oklch(0.95 0.02  25);
+  --color-success:        oklch(0.51 0.12  145);  /* package default -- 5.08:1 bg / 4.93:1 surface */
+  --color-success-subtle: oklch(0.95 0.02  145);
+  --color-warning:        oklch(0.52 0.105 85);   /* package default -- 5.17:1 bg / 5.02:1 surface */
+  --color-warning-subtle: oklch(0.95 0.02  85);
+  --color-disabled:       var(--color-muted);
+
   /* Text color for the rare small filled-accent surface (skip link only --
      see "Buttons are quiet" rule; nothing else in this site fills with
      accent). Not part of the sanctioned token set; kept minimal. */
@@ -87,6 +123,29 @@
     --color-selection-fg: oklch(0.92 0.005 80);
     --color-code-bg:     oklch(0.20 0.005 80);
     --color-code-fg:     oklch(0.88 0.005 80);
+
+    /* remarque-tokens 0.17.0 -- see the light :root block above for the
+       full rationale. Package defaults verbatim (identical bg/surface/
+       code-bg), except --color-syntax-link (this site's terracotta
+       accent). */
+    --color-syntax-keyword:     oklch(0.61 0.11 250);
+    --color-syntax-string:      oklch(0.60 0.11 145);
+    --color-syntax-constant:    oklch(0.61 0.11 84);
+    --color-syntax-comment:     oklch(0.60 0.005 80);
+    --color-syntax-function:    oklch(0.62 0.11 310);
+    --color-syntax-type:        oklch(0.60 0.10 195);
+    --color-syntax-punctuation: oklch(0.60 0.005 80);
+    --color-syntax-variable:    oklch(0.82 0.005 80);
+    --color-syntax-link:        var(--color-accent);
+
+    --color-error:          oklch(0.62 0.11 26);
+    --color-error-subtle:   oklch(0.22 0.04 25);
+    --color-success:        oklch(0.61 0.11 145);
+    --color-success-subtle: oklch(0.22 0.04 145);
+    --color-warning:        oklch(0.62 0.11 85);
+    --color-warning-subtle: oklch(0.22 0.04 85);
+    --color-disabled:       var(--color-muted);
+
     --color-on-accent: oklch(0.16 0.01 80);
   }
 }
@@ -113,6 +172,27 @@
   --color-selection-fg: oklch(0.92 0.005 80);
   --color-code-bg:     oklch(0.20 0.005 80);
   --color-code-fg:     oklch(0.88 0.005 80);
+
+  /* remarque-tokens 0.17.0 -- see the light :root block above for the
+     full rationale. */
+  --color-syntax-keyword:     oklch(0.61 0.11 250);
+  --color-syntax-string:      oklch(0.60 0.11 145);
+  --color-syntax-constant:    oklch(0.61 0.11 84);
+  --color-syntax-comment:     oklch(0.60 0.005 80);
+  --color-syntax-function:    oklch(0.62 0.11 310);
+  --color-syntax-type:        oklch(0.60 0.10 195);
+  --color-syntax-punctuation: oklch(0.60 0.005 80);
+  --color-syntax-variable:    oklch(0.82 0.005 80);
+  --color-syntax-link:        var(--color-accent);
+
+  --color-error:          oklch(0.62 0.11 26);
+  --color-error-subtle:   oklch(0.22 0.04 25);
+  --color-success:        oklch(0.61 0.11 145);
+  --color-success-subtle: oklch(0.22 0.04 145);
+  --color-warning:        oklch(0.62 0.11 85);
+  --color-warning-subtle: oklch(0.22 0.04 85);
+  --color-disabled:       var(--color-muted);
+
   --color-on-accent: oklch(0.16 0.01 80);
 }
 
@@ -136,6 +216,26 @@
   --color-selection-fg: var(--color-fg);
   --color-code-bg:     oklch(0.945 0.005 80);
   --color-code-fg:     var(--color-fg);
+
+  /* remarque-tokens 0.17.0 -- see the top-level :root block for rationale. */
+  --color-syntax-keyword:     oklch(0.51 0.12 250);
+  --color-syntax-string:      oklch(0.50 0.12 145);
+  --color-syntax-constant:    oklch(0.51 0.105 85);
+  --color-syntax-comment:     oklch(0.52 0.01 80);
+  --color-syntax-function:    oklch(0.52 0.12 310);
+  --color-syntax-type:        oklch(0.50 0.085 196);
+  --color-syntax-punctuation: oklch(0.52 0.01 80);
+  --color-syntax-variable:    oklch(0.26 0.01 80);
+  --color-syntax-link:        var(--color-accent);
+
+  --color-error:          oklch(0.52 0.12  25);
+  --color-error-subtle:   oklch(0.95 0.02  25);
+  --color-success:        oklch(0.51 0.12  145);
+  --color-success-subtle: oklch(0.95 0.02  145);
+  --color-warning:        oklch(0.52 0.105 85);
+  --color-warning-subtle: oklch(0.95 0.02  85);
+  --color-disabled:       var(--color-muted);
+
   --color-on-accent: oklch(0.98 0.01 80);
 }
 

@@ -275,6 +275,97 @@ Bumped from `^0.5.1`. Two things landed for free, both verified:
   reads correctly as "the story part of this page just ended, here's a
   nav link" — the fit the brief asked to confirm before applying it.
 
+## remarque-tokens 0.17.0
+
+Bumped from `^0.6.0` (through 0.7.0–0.16.0, none of which added any
+audit-required tokens this site was missing — 0.13.0 added the 9
+`--color-syntax-*` slots and 0.17.0 adds the 7 semantic state-color slots,
+both now hard-required by `scripts/audit.mjs`'s `CHECKS` array whenever it
+runs against a palette. This site had neither before this bump.
+
+**No code blocks exist anywhere on this site** (`grep -rn '\`\`\`\|<pre\|<code'
+src/` and a scan of `src/content/{books,authors}` and `astro.config.mjs`
+turn up nothing — no Markdown/MDX collections, no syntax-highlighting
+integration). The 9 syntax tokens added below are therefore pure
+audit-conformance + future-proofing, not something a reader will ever see
+rendered as highlighted code. The 7 state tokens are more immediately
+useful (form validation states, status banners) even though the current
+UI doesn't yet have a dedicated error/success/warning banner component —
+they're now available for one without another token-tier bump.
+
+**Token values chosen: package defaults, verbatim, for every bare-color
+slot.** This palette's neutral ramp (`--color-bg`, `--color-bg-subtle`,
+`--color-fg`, `--color-fg-muted`, `--color-muted`, `--color-border`,
+`--color-border-bold`, `--color-surface`, `--color-code-bg`,
+`--color-code-fg`) was never touched when this site re-derived its accent
+to H35 terracotta — every one of those tokens is numerically identical
+(same L/C/H) to `remarque-tokens`' own defaults, in both themes. Because
+every syntax slot is checked against `--color-code-bg` and every state
+slot is checked against `--color-bg`/`--color-surface`, and all three of
+those backgrounds are identical between this palette and the package
+default, the package's own solved values clear the *exact same ratios*
+here that the package's own comments/CHANGELOG document — there was
+nothing to re-solve. Copied in as-is:
+
+- `--color-syntax-keyword` (ANSI blue H250), `-string` (green H145),
+  `-constant` (yellow H85), `-comment`/`-punctuation` (muted neutral H80),
+  `-function` (purple H310), `-type` (cyan H196/195), `-variable`
+  (fg-adjacent neutral). None of these hues clash with the terracotta
+  accent (H35) — they're a code-block-scoped micro-palette that's never
+  visible alongside prose accent color in the same viewport, so
+  "harmonious with the page's hue" isn't really in tension here; kept the
+  package's own ANSI-derived defaults per the task brief's guidance to
+  only deviate if there's a real clash.
+- `--color-error` (H25), `--color-success` (H145), `--color-warning`
+  (H85), and their `-subtle` companions — the package's own comment calls
+  these "universal ANSI-derived semantics," which this site has no reason
+  to second-guess (there's no existing red/green/yellow anywhere else in
+  this palette they'd collide with — the closest hue-adjacent tokens are
+  the unrelated `--pop-*` category-taxonomy hues, a completely separate
+  system per "Category color-coding as a second, orthogonal color system"
+  above, and none of them sit close enough in hue+role to be confused
+  with a form-validation state).
+- `--color-disabled`: aliased to this site's own `--color-muted` (not a
+  literal), matching the package's "muted family, not ANSI-derived"
+  convention exactly — this was already correct by construction since
+  `--color-muted` itself was unchanged from the package default.
+
+**The one token that genuinely differs from the package default:**
+`--color-syntax-link`, which (per the package's own convention) aliases
+`var(--color-accent)` rather than a literal — so it automatically became
+this site's terracotta H35 instead of the package's blue H250 the moment
+the token was added, no separate authoring needed. Verified via
+`npx remarque-audit`, not assumed: **5.37:1 on `--color-code-bg` in light
+theme, 6.01:1 in dark theme** — both clear the required 4.5:1 with
+comfortable margin in both themes.
+
+**Full audit output, both themes, all 16 new pairings green:**
+`npx remarque-audit --palette src/styles/tokens-site.css --src src/styles`
+passes with zero failures — 9 syntax pairings + 11 state pairings (error/
+success/warning × bg/surface, disabled × bg/surface, fg-on-subtle × 3) in
+each theme, all ≥4.5:1 (border/link checks use their own established
+thresholds, unaffected by this bump). Gamut check also passes for all 16
+new tokens in both themes (no clipping).
+
+**Token-drift note.** The repo's CI runs `williamzujkowski/remarque`'s
+reusable `token-drift.yml` workflow against this palette (`node
+node_modules/remarque-tokens/scripts/drift-check.mjs --css-file
+src/styles/tokens-site.css --package-dir .`, run locally to confirm before
+opening the PR). Result: **0 FAIL, 0 WARN, 4 INFO** — and all 4 INFO lines
+are pre-existing, unrelated to this bump: `--color-accent`,
+`--color-accent-hover`, `--color-accent-subtle`, and `--color-selection-bg`
+(light + dark each), which have differed from the package's default blue
+(H250) since this site re-derived its terracotta accent (H35) long before
+this release. None of the 16 tokens added in this PR drift at all: the 15
+bare-color slots are declared byte-identical to the package defaults, and
+`--color-syntax-link` is declared as the literal text `var(--color-accent)`
+in both this file and the package's own `tokens-palette.css` — the drift
+checker compares raw declared text, not resolved values, so an aliased
+token that points at an already-diverged token doesn't generate a second
+INFO line of its own. This is exactly the expected palette-tier behavior
+for a site that only personalizes its accent hue: the divergence is
+already known and already documented, not a new one introduced here.
+
 ## Summary of the base restyle
 
 - Fonts: self-hosted Newsreader (display) / Inter (body+UI) / JetBrains
