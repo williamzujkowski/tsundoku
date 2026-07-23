@@ -96,6 +96,29 @@
   --color-warning-subtle: oklch(0.95 0.02  85);
   --color-disabled:       var(--color-muted);
 
+  /* remarque-tokens 0.24.0: dataviz categorical ramp (6 slots, audit-required
+     at >=3:1 on --color-bg -- Carbon's mark-on-background line, not text's
+     4.5:1). --color-bg is numerically identical to the package default here
+     (same as every other bare-color slot above), so 4 of the 6 package
+     values carry over verbatim. --color-viz-3 (light) and --color-viz-4
+     (dark) are the two exceptions: the package's own hand-authored "red"
+     hue for those slots (~H25) sits almost on top of BOTH this site's
+     terracotta accent (H35) and --color-error (H25 light / H26 dark) --
+     using it as-is would make a chart category read as "the accent" or
+     "an error state" depending on theme. Rotated that hue to H350 (a
+     rose-red distinct from both) in each theme independently, re-solving
+     lightness for the same ~5:1/~7.5:1 contrast the package's own slots
+     hit; verified via the OKLCH->sRGB contrast math in DESIGN-NOTES.md.
+     See "remarque-tokens 0.24.0" in DESIGN-NOTES.md for the full rationale
+     and the values considered. Non-color redundancy (shape/pattern/label)
+     still required wherever these are used, per REMARQUE.md. */
+  --color-viz-1: oklch(0.538 0.121 250.5);  /* blue -- 4.74:1, package default */
+  --color-viz-2: oklch(0.541 0.111 85.5);   /* gold -- 4.71:1, package default */
+  --color-viz-3: oklch(0.527 0.12  350);    /* rose-red -- 5.30:1, site-adjusted hue (was H24.6, collided w/ accent H35 + error H25) */
+  --color-viz-4: oklch(0.499 0.12  144.8);  /* green -- 5.31:1, package default */
+  --color-viz-5: oklch(0.524 0.121 309.6);  /* purple -- 5.31:1, package default */
+  --color-viz-6: oklch(0.528 0.09  195.8);  /* cyan -- 4.72:1, package default */
+
   /* Text color for the rare small filled-accent surface (skip link only --
      see "Buttons are quiet" rule; nothing else in this site fills with
      accent). Not part of the sanctioned token set; kept minimal. */
@@ -146,6 +169,18 @@
     --color-warning-subtle: oklch(0.22 0.04 85);
     --color-disabled:       var(--color-muted);
 
+    /* remarque-tokens 0.24.0 -- see the light :root block above for the
+       full rationale. --color-viz-4 (dark) is the rotated slot here (was
+       H25.4, collided w/ accent H35 + error H26); --color-viz-3 (dark)
+       keeps the package's purple default since only the light side of
+       that slot collided. */
+    --color-viz-1: oklch(0.708 0.129 249.5);  /* blue -- 7.52:1, package default */
+    --color-viz-2: oklch(0.712 0.13  85.3);   /* gold -- 7.53:1, package default */
+    --color-viz-3: oklch(0.724 0.129 310.2);  /* purple -- 7.55:1, package default */
+    --color-viz-4: oklch(0.727 0.129 350);    /* rose-red -- 7.53:1, site-adjusted hue */
+    --color-viz-5: oklch(0.696 0.129 144.9);  /* green -- 7.51:1, package default */
+    --color-viz-6: oklch(0.697 0.119 194.8);  /* cyan -- 7.56:1, package default */
+
     --color-on-accent: oklch(0.16 0.01 80);
   }
 }
@@ -193,6 +228,15 @@
   --color-warning-subtle: oklch(0.22 0.04 85);
   --color-disabled:       var(--color-muted);
 
+  /* remarque-tokens 0.24.0 -- see the light :root block above for the
+     full rationale. */
+  --color-viz-1: oklch(0.708 0.129 249.5);  /* blue -- 7.52:1, package default */
+  --color-viz-2: oklch(0.712 0.13  85.3);   /* gold -- 7.53:1, package default */
+  --color-viz-3: oklch(0.724 0.129 310.2);  /* purple -- 7.55:1, package default */
+  --color-viz-4: oklch(0.727 0.129 350);    /* rose-red -- 7.53:1, site-adjusted hue */
+  --color-viz-5: oklch(0.696 0.129 144.9);  /* green -- 7.51:1, package default */
+  --color-viz-6: oklch(0.697 0.119 194.8);  /* cyan -- 7.56:1, package default */
+
   --color-on-accent: oklch(0.16 0.01 80);
 }
 
@@ -235,6 +279,14 @@
   --color-warning:        oklch(0.52 0.105 85);
   --color-warning-subtle: oklch(0.95 0.02  85);
   --color-disabled:       var(--color-muted);
+
+  /* remarque-tokens 0.24.0 -- see the top-level :root block for rationale. */
+  --color-viz-1: oklch(0.538 0.121 250.5);  /* blue -- 4.74:1, package default */
+  --color-viz-2: oklch(0.541 0.111 85.5);   /* gold -- 4.71:1, package default */
+  --color-viz-3: oklch(0.527 0.12  350);    /* rose-red -- 5.30:1, site-adjusted hue */
+  --color-viz-4: oklch(0.499 0.12  144.8);  /* green -- 5.31:1, package default */
+  --color-viz-5: oklch(0.524 0.121 309.6);  /* purple -- 5.31:1, package default */
+  --color-viz-6: oklch(0.528 0.09  195.8);  /* cyan -- 4.72:1, package default */
 
   --color-on-accent: oklch(0.98 0.01 80);
 }
