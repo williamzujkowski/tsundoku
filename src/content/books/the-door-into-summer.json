@@ -64,7 +64,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 49,
   "first_published_circa": false,
@@ -76,5 +77,12 @@
   "original_publisher": "Doubleday",
   "cover_url_source": "https://covers.openlibrary.org/b/id/10118264-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10118264-L.jpg",
-  "cover_cached_at": "2026-05-03T02:02:51+00:00"
+  "cover_cached_at": "2026-05-03T02:02:51+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Door into Summer",
+      "year": 2021
+    }
+  ]
 }

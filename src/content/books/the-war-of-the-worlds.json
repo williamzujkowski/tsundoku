@@ -167,7 +167,8 @@
     "original_language": "wikidata_v1",
     "first_published": "wikidata_v1",
     "first_published_circa": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "representative_edition_key": "/books/OL59048283M",
@@ -186,5 +187,67 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/36314-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/36314-L.jpg",
-  "cover_cached_at": "2026-05-03T02:16:54+00:00"
+  "cover_cached_at": "2026-05-03T02:16:54+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The War of the Worlds",
+      "year": 1953
+    },
+    {
+      "type": "other",
+      "title": "Jeff Wayne's Musical Version of The War of the Worlds",
+      "year": 1975
+    },
+    {
+      "type": "film",
+      "title": "The War of the Worlds: Next Century",
+      "year": 1981
+    },
+    {
+      "type": "other",
+      "title": "Jeff Wayne's The War of the Worlds",
+      "year": 1998
+    },
+    {
+      "type": "other",
+      "title": "Jeff Wayne's The War of the Worlds",
+      "year": 1999
+    },
+    {
+      "type": "film",
+      "title": "H. G. Wells' The War of the Worlds",
+      "year": 2005
+    },
+    {
+      "type": "film",
+      "title": "H. G. Wells' War of the Worlds",
+      "year": 2005
+    },
+    {
+      "type": "film",
+      "title": "War of the Worlds",
+      "year": 2005
+    },
+    {
+      "type": "other",
+      "title": "H. G. Wells' The War of the Worlds",
+      "year": 2006
+    },
+    {
+      "type": "film",
+      "title": "War of the Servers",
+      "year": 2007
+    },
+    {
+      "type": "film",
+      "title": "War of the Worlds 2: The Next Wave",
+      "year": 2008
+    },
+    {
+      "type": "other",
+      "title": "Jeff Wayne's Musical Version of The War of the Worlds – The New Generation",
+      "year": 2012
+    }
+  ]
 }

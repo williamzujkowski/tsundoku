@@ -216,7 +216,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -227,5 +228,16 @@
   "original_language": "ger",
   "cover_url_source": "https://covers.openlibrary.org/b/isbn/9780140447576-L.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/isbn/9780140447576-L.jpg",
-  "cover_cached_at": "2026-07-21T04:31:27+00:00"
+  "cover_cached_at": "2026-07-21T04:31:27+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Communist International Manifesto",
+      "year": 1919
+    },
+    {
+      "type": "other",
+      "title": "Workers of the world, unite!"
+    }
+  ]
 }

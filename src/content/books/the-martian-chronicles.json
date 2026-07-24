@@ -71,7 +71,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 138,
   "first_published_circa": false,
@@ -91,5 +92,26 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/9346537-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9346537-L.jpg",
-  "cover_cached_at": "2026-05-03T02:09:56+00:00"
+  "cover_cached_at": "2026-05-03T02:09:56+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "The Martian Chronicles",
+      "year": 1980
+    },
+    {
+      "type": "film",
+      "title": "The Veldt",
+      "year": 1987
+    },
+    {
+      "type": "film",
+      "title": "The 13th Apostle",
+      "year": 1988
+    },
+    {
+      "type": "radio",
+      "title": "The Martian Chronicles"
+    }
+  ]
 }

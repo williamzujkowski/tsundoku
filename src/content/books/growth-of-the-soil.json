@@ -60,7 +60,8 @@
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "wikidata_qid": "wikidata_v1"
+    "wikidata_qid": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 114,
   "first_published_circa": false,
@@ -70,5 +71,12 @@
   "representative_edition_key": "/books/OL11681967M",
   "wikidata_qid": "Q2266122",
   "cover_url_source": "https://books.google.com/books/content?id=L7u24qjROV4C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:18:39+00:00"
+  "cover_cached_at": "2026-05-03T01:18:39+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Growth of the Soil",
+      "year": 1921
+    }
+  ]
 }

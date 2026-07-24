@@ -111,7 +111,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 215,
   "first_published_circa": false,
@@ -127,5 +128,25 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/78741-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/78741-L.jpg",
-  "cover_cached_at": "2026-05-03T01:54:19+00:00"
+  "cover_cached_at": "2026-05-03T01:54:19+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Sun Also Rises",
+      "year": 1957
+    },
+    {
+      "type": "tv",
+      "title": "The Sun Also Rises",
+      "year": 1984
+    },
+    {
+      "type": "other",
+      "title": "The Select"
+    },
+    {
+      "type": "other",
+      "title": "The Sun Also Rises"
+    }
+  ]
 }

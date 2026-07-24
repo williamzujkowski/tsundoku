@@ -243,7 +243,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -254,5 +255,67 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9020720-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9020720-L.jpg",
-  "cover_cached_at": "2026-05-03T01:48:03+00:00"
+  "cover_cached_at": "2026-05-03T01:48:03+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Richard der Dritte",
+      "year": 1759
+    },
+    {
+      "type": "film",
+      "title": "Richard III",
+      "year": 1908
+    },
+    {
+      "type": "film",
+      "title": "Richard III",
+      "year": 1912
+    },
+    {
+      "type": "film",
+      "title": "Richard III",
+      "year": 1955
+    },
+    {
+      "type": "tv",
+      "title": "Richard III",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "Shakespeare: The Animated Tales",
+      "year": 1992
+    },
+    {
+      "type": "film",
+      "title": "Richard III",
+      "year": 1995
+    },
+    {
+      "type": "film",
+      "title": "Looking for Richard",
+      "year": 1996
+    },
+    {
+      "type": "film",
+      "title": "Richard III",
+      "year": 2008
+    },
+    {
+      "type": "other",
+      "title": "The Hollow Crown",
+      "year": 2012
+    },
+    {
+      "type": "tv",
+      "title": "Richard III",
+      "year": 2016
+    },
+    {
+      "type": "film",
+      "title": "No Beast. So Fierce",
+      "year": 2025
+    }
+  ]
 }

@@ -55,7 +55,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 28,
   "first_published_circa": false,
@@ -66,5 +67,12 @@
   "original_publisher": "Gollancz",
   "cover_url_source": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=Nn16PW04GEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:11:59+00:00"
+  "cover_cached_at": "2026-05-03T01:11:59+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Empire of the Sun",
+      "year": 1987
+    }
+  ]
 }

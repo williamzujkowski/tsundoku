@@ -73,7 +73,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 237,
   "first_published_circa": false,
@@ -83,5 +84,59 @@
   "original_title": "The Fall of the House of Usher",
   "original_language": "eng",
   "cover_url_source": "https://books.google.com/books/content?id=maZEAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:03:50+00:00"
+  "cover_cached_at": "2026-05-03T02:03:50+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Fall of the House of Usher",
+      "year": 1928
+    },
+    {
+      "type": "film",
+      "title": "The Fall of the House of Usher",
+      "year": 1950
+    },
+    {
+      "type": "film",
+      "title": "House of Usher",
+      "year": 1960
+    },
+    {
+      "type": "film",
+      "title": "The Fall of the House of Usher",
+      "year": 1979
+    },
+    {
+      "type": "film",
+      "title": "The Fall of the Louse of Usher",
+      "year": 2002
+    },
+    {
+      "type": "film",
+      "title": "The House of Usher",
+      "year": 2006
+    },
+    {
+      "type": "other",
+      "title": "Shadow of the Raven",
+      "year": 2007
+    },
+    {
+      "type": "film",
+      "title": "House of Usher",
+      "year": 2008
+    },
+    {
+      "type": "other",
+      "title": "The Fall of the House of Usher"
+    },
+    {
+      "type": "tv",
+      "title": "The Fall of the House of Usher"
+    },
+    {
+      "type": "other",
+      "title": "Usher House"
+    }
+  ]
 }

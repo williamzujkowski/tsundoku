@@ -55,7 +55,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 60,
   "first_published_circa": false,
@@ -68,5 +69,12 @@
     "position": 2
   },
   "cover_url_source": "https://books.google.com/books/content?id=fAU6uoSrTJEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:08:53+00:00"
+  "cover_cached_at": "2026-05-03T02:08:53+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Terry Pratchett's The Colour of Magic",
+      "year": 2008
+    }
+  ]
 }

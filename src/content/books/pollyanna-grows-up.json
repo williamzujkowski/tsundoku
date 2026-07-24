@@ -68,7 +68,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 298,
   "first_published_circa": false,
@@ -78,5 +79,11 @@
   "original_title": "Pollyanna Grows Up",
   "original_publisher": "Louis Coues Page",
   "cover_url_source": "https://books.google.com/books/content?id=g6V8CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:44:39+00:00"
+  "cover_cached_at": "2026-05-03T01:44:39+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Poliana Moça"
+    }
+  ]
 }

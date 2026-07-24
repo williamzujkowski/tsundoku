@@ -92,7 +92,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 67,
   "first_published_circa": false,
@@ -107,5 +108,16 @@
     }
   ],
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Big-andromedastrain.jpg/250px-Big-andromedastrain.jpg",
-  "cover_cached_at": "2026-05-03T01:56:01+00:00"
+  "cover_cached_at": "2026-05-03T01:56:01+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Andromeda Strain",
+      "year": 1971
+    },
+    {
+      "type": "tv",
+      "title": "The Andromeda Strain"
+    }
+  ]
 }

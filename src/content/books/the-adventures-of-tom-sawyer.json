@@ -345,7 +345,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -358,5 +359,67 @@
     "name": "Tom Sawyer books"
   },
   "cover_url_source": "https://books.google.com/books/content?id=t5yFTpIJYhcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:55:35+00:00"
+  "cover_cached_at": "2026-05-03T01:55:35+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Tom Sawyer",
+      "year": 1907
+    },
+    {
+      "type": "film",
+      "title": "Tom Sawyer",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "Huck and Tom",
+      "year": 1918
+    },
+    {
+      "type": "film",
+      "title": "Tom Sawyer",
+      "year": 1930
+    },
+    {
+      "type": "other",
+      "title": "The adventures of Tom Sawyer",
+      "year": 1934
+    },
+    {
+      "type": "film",
+      "title": "Tom Sawyer (1936 film)",
+      "year": 1936
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Tom Sawyer",
+      "year": 1938
+    },
+    {
+      "type": "tv",
+      "title": "Tom Sawyer",
+      "year": 1973
+    },
+    {
+      "type": "film",
+      "title": "Páni kluci",
+      "year": 1976
+    },
+    {
+      "type": "tv",
+      "title": "The Adventures of Tom Sawyer and Huckleberry Finn",
+      "year": 1981
+    },
+    {
+      "type": "other",
+      "title": "The Adventures of Tom Sawyer",
+      "year": 1989
+    },
+    {
+      "type": "film",
+      "title": "Tom and Huck",
+      "year": 1995
+    }
+  ]
 }

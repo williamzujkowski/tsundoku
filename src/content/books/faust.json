@@ -273,7 +273,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -284,5 +285,67 @@
   "original_language": "ger",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6499459-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6499459-L.jpg",
-  "cover_cached_at": "2026-05-03T01:14:24+00:00"
+  "cover_cached_at": "2026-05-03T01:14:24+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Faust (Radziwiłł)",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Faust and Marguerite",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "La damnation de Faust",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Mefistofele",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Faust",
+      "year": 1859
+    },
+    {
+      "type": "other",
+      "title": "Got, menṭsh un Ṭayvel",
+      "year": 1903
+    },
+    {
+      "type": "other",
+      "title": "The woman without a shadow",
+      "year": 1919
+    },
+    {
+      "type": "film",
+      "title": "Faustina",
+      "year": 1957
+    },
+    {
+      "type": "film",
+      "title": "Phantom of the Paradise",
+      "year": 1974
+    },
+    {
+      "type": "other",
+      "title": "Putzi",
+      "year": 2010
+    },
+    {
+      "type": "film",
+      "title": "Faust (2011 film)",
+      "year": 2011
+    },
+    {
+      "type": "other",
+      "title": "Frau Faust",
+      "year": 2014
+    }
+  ]
 }

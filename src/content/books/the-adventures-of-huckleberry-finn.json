@@ -466,7 +466,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -480,5 +481,67 @@
     "name": "Tom Sawyer books"
   },
   "cover_url_source": "https://books.google.com/books/content?id=s9q60rLUbRcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:55:31+00:00"
+  "cover_cached_at": "2026-05-03T01:55:31+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Huck and Tom",
+      "year": 1918
+    },
+    {
+      "type": "film",
+      "title": "Huckleberry Finn",
+      "year": 1920
+    },
+    {
+      "type": "film",
+      "title": "Huckleberry Finn",
+      "year": 1931
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Huckleberry Finn",
+      "year": 1939
+    },
+    {
+      "type": "tv",
+      "title": "The Adventures of Huckleberry Finn",
+      "year": 1955
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Huckleberry Finn",
+      "year": 1960
+    },
+    {
+      "type": "film",
+      "title": "Hopelessly Lost",
+      "year": 1973
+    },
+    {
+      "type": "film",
+      "title": "Huckleberry Finn",
+      "year": 1974
+    },
+    {
+      "type": "film",
+      "title": "Huckleberry Finn",
+      "year": 1975
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Huck Finn",
+      "year": 1993
+    },
+    {
+      "type": "film",
+      "title": "Mud",
+      "year": 2012
+    },
+    {
+      "type": "film",
+      "title": "Band of Robbers",
+      "year": 2015
+    }
+  ]
 }

@@ -79,7 +79,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 34,
   "first_published_circa": false,
@@ -100,5 +101,44 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/7774899-L.jpg",
-  "cover_cached_at": "2026-05-03T02:26:30+00:00"
+  "cover_cached_at": "2026-05-03T02:26:30+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Watchmen: Motion Comic",
+      "year": 2008
+    },
+    {
+      "type": "film",
+      "title": "Watchmen",
+      "year": 2009
+    },
+    {
+      "type": "other",
+      "title": "Watchmen: End is Nigh Part 2",
+      "year": 2009
+    },
+    {
+      "type": "other",
+      "title": "Watchmen: The End Is Nigh",
+      "year": 2009
+    },
+    {
+      "type": "film",
+      "title": "Watchmen Chapter 1",
+      "year": 2024
+    },
+    {
+      "type": "radio",
+      "title": "Before Watchmen"
+    },
+    {
+      "type": "tv",
+      "title": "Watchmen"
+    },
+    {
+      "type": "other",
+      "title": "Watchmensch"
+    }
+  ]
 }

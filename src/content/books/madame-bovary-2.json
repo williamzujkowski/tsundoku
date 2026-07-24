@@ -291,7 +291,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_title": "wikidata_v1"
+    "original_title": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -302,5 +303,67 @@
   "original_title": "Madame Bovary",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12993424-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12993424-L.jpg",
-  "cover_cached_at": "2026-05-03T01:31:25+00:00"
+  "cover_cached_at": "2026-05-03T01:31:25+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Unholy Love",
+      "year": 1932
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1934
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1937
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1947
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1949
+    },
+    {
+      "type": "film",
+      "title": "Anuradha",
+      "year": 1960
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1969
+    },
+    {
+      "type": "film",
+      "title": "Ryan's Daughter",
+      "year": 1970
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 1991
+    },
+    {
+      "type": "film",
+      "title": "Maya Memsaab",
+      "year": 1993
+    },
+    {
+      "type": "other",
+      "title": "Gemma Bovery",
+      "year": 2000
+    },
+    {
+      "type": "film",
+      "title": "Madame Bovary",
+      "year": 2000
+    }
+  ]
 }

@@ -115,7 +115,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 352,
   "first_published_circa": false,
@@ -130,5 +131,26 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/9283961-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9283961-L.jpg",
-  "cover_cached_at": "2026-05-03T00:57:49+00:00"
+  "cover_cached_at": "2026-05-03T00:57:49+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Barnaby Budge",
+      "year": 1841
+    },
+    {
+      "type": "other",
+      "title": "Barnaby Rudge",
+      "year": 1841
+    },
+    {
+      "type": "film",
+      "title": "Barnaby Rudge",
+      "year": 1915
+    },
+    {
+      "type": "tv",
+      "title": "Barnaby Rudge"
+    }
+  ]
 }

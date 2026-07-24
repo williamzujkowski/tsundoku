@@ -245,7 +245,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -263,5 +264,50 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/10590366-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10590366-L.jpg",
-  "cover_cached_at": "2026-05-03T02:05:59+00:00"
+  "cover_cached_at": "2026-05-03T02:05:59+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Great Gatsby",
+      "year": 1926
+    },
+    {
+      "type": "film",
+      "title": "The Great Gatsby",
+      "year": 1949
+    },
+    {
+      "type": "film",
+      "title": "The Great Gatsby",
+      "year": 1974
+    },
+    {
+      "type": "tv",
+      "title": "The Great Gatsby",
+      "year": 2000
+    },
+    {
+      "type": "film",
+      "title": "The Great Gatsby",
+      "year": 2013
+    },
+    {
+      "type": "other",
+      "title": "The Great Phatsby",
+      "year": 2017
+    },
+    {
+      "type": "other",
+      "title": "Nick",
+      "year": 2021
+    },
+    {
+      "type": "other",
+      "title": "The Great Gatsby"
+    },
+    {
+      "type": "tv",
+      "title": "The Great Gatsby"
+    }
+  ]
 }

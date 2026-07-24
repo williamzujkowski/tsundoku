@@ -233,7 +233,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 396,
   "first_published_circa": false,
@@ -244,5 +245,40 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/5992814-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/5992814-L.jpg",
-  "cover_cached_at": "2026-05-03T01:39:46+00:00"
+  "cover_cached_at": "2026-05-03T01:39:46+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Creation",
+      "year": 1798
+    },
+    {
+      "type": "other",
+      "title": "The Rout of the Rebel Angels",
+      "year": 1807
+    },
+    {
+      "type": "other",
+      "title": "Pandemonium",
+      "year": 1841
+    },
+    {
+      "type": "other",
+      "title": "Satan falling from heaven",
+      "year": 1866
+    },
+    {
+      "type": "film",
+      "title": "Satan",
+      "year": 1912
+    },
+    {
+      "type": "other",
+      "title": "Pandæmonium"
+    },
+    {
+      "type": "other",
+      "title": "Paradise lost"
+    }
+  ]
 }

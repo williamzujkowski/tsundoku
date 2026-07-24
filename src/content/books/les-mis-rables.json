@@ -232,7 +232,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -243,5 +244,67 @@
   "original_language": "fre",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12721865-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
-  "cover_cached_at": "2026-05-03T01:30:02+00:00"
+  "cover_cached_at": "2026-05-03T01:30:02+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1909
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1913
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1926
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1933
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1935
+    },
+    {
+      "type": "film",
+      "title": "Gavroche",
+      "year": 1937
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1944
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1948
+    },
+    {
+      "type": "film",
+      "title": "Bakti",
+      "year": 1950
+    },
+    {
+      "type": "film",
+      "title": "Les Misérables",
+      "year": 1952
+    },
+    {
+      "type": "film",
+      "title": "Kundan",
+      "year": 1955
+    }
+  ]
 }

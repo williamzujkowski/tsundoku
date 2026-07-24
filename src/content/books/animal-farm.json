@@ -138,7 +138,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -166,5 +167,36 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/11261770-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/11261770-L.jpg",
-  "cover_cached_at": "2026-05-03T00:55:04+00:00"
+  "cover_cached_at": "2026-05-03T00:55:04+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Animal Farm",
+      "year": 1954
+    },
+    {
+      "type": "tv",
+      "title": "Animal Farm",
+      "year": 1999
+    },
+    {
+      "type": "other",
+      "title": "Orwell's Animal Farm",
+      "year": 2020
+    },
+    {
+      "type": "other",
+      "title": "Animal Farm",
+      "year": 2023
+    },
+    {
+      "type": "film",
+      "title": "Animal Farm",
+      "year": 2025
+    },
+    {
+      "type": "other",
+      "title": "Poshu Khamar"
+    }
+  ]
 }

@@ -77,7 +77,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 114,
   "first_published_circa": false,
@@ -88,5 +89,27 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8081288-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8081288-L.jpg",
-  "cover_cached_at": "2026-05-03T02:04:34+00:00"
+  "cover_cached_at": "2026-05-03T02:04:34+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "A Trip to the Moon",
+      "year": 1902
+    },
+    {
+      "type": "film",
+      "title": "The First Men in the Moon",
+      "year": 1919
+    },
+    {
+      "type": "film",
+      "title": "First Men in the Moon",
+      "year": 1964
+    },
+    {
+      "type": "tv",
+      "title": "The First Men in the Moon",
+      "year": 2010
+    }
+  ]
 }

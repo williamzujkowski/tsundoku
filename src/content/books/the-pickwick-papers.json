@@ -176,7 +176,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -188,5 +189,48 @@
   "original_publisher": "Chapman and Hall",
   "cover_url_source": "https://covers.openlibrary.org/b/id/10904408-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10904408-L.jpg",
-  "cover_cached_at": "2026-05-03T02:11:22+00:00"
+  "cover_cached_at": "2026-05-03T02:11:22+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Posthumous Papers of the Cadgers' Club",
+      "year": 1838
+    },
+    {
+      "type": "film",
+      "title": "The Pickwick Papers",
+      "year": 1913
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Mr. Pickwick",
+      "year": 1921
+    },
+    {
+      "type": "film",
+      "title": "The Pickwick Papers",
+      "year": 1952
+    },
+    {
+      "type": "film",
+      "title": "The Pickwick Papers",
+      "year": 1985
+    },
+    {
+      "type": "other",
+      "title": "Pickwick"
+    },
+    {
+      "type": "other",
+      "title": "Pickwick in America!"
+    },
+    {
+      "type": "other",
+      "title": "Posthumous Papers of the Wonderful Discovery Club"
+    },
+    {
+      "type": "tv",
+      "title": "The Pickwick Papers"
+    }
+  ]
 }

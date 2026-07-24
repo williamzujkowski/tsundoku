@@ -150,7 +150,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -163,5 +164,32 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/8237944-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8237944-L.jpg",
-  "cover_cached_at": "2026-05-03T01:39:35+00:00"
+  "cover_cached_at": "2026-05-03T01:39:35+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Père Goriot",
+      "year": 1915
+    },
+    {
+      "type": "film",
+      "title": "Father Goriot",
+      "year": 1921
+    },
+    {
+      "type": "film",
+      "title": "Paris at Midnight",
+      "year": 1926
+    },
+    {
+      "type": "film",
+      "title": "Father Goriot",
+      "year": 1945
+    },
+    {
+      "type": "tv",
+      "title": "Old Goriot",
+      "year": 2004
+    }
+  ]
 }

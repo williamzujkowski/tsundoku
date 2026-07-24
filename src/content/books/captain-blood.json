@@ -82,7 +82,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 36,
   "first_published_circa": false,
@@ -93,5 +94,27 @@
   "original_language": "eng",
   "original_publisher": "Houghton Mifflin Harcourt",
   "cover_url_source": "https://books.google.com/books/content?id=zWKbngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:01:41+00:00"
+  "cover_cached_at": "2026-05-03T01:01:41+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Captain Blood",
+      "year": 1924
+    },
+    {
+      "type": "film",
+      "title": "Captain Blood",
+      "year": 1935
+    },
+    {
+      "type": "film",
+      "title": "Captain Blood: His Odyssey",
+      "year": 1991
+    },
+    {
+      "type": "other",
+      "title": "Captain Blood",
+      "year": 2025
+    }
+  ]
 }

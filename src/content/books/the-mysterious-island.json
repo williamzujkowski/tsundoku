@@ -109,7 +109,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 83,
   "first_published_circa": false,
@@ -125,5 +126,61 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/7883120-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/7883120-L.jpg",
-  "cover_cached_at": "2026-05-03T02:10:34+00:00"
+  "cover_cached_at": "2026-05-03T02:10:34+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "20,000 Leagues Under the Sea",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "The Mysterious Island",
+      "year": 1929
+    },
+    {
+      "type": "film",
+      "title": "Mysterious Island",
+      "year": 1941
+    },
+    {
+      "type": "film",
+      "title": "Mysterious Island",
+      "year": 1951
+    },
+    {
+      "type": "film",
+      "title": "Mysterious Island",
+      "year": 1961
+    },
+    {
+      "type": "film",
+      "title": "La Isla misteriosa y el capitán Nemo",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "The Mysterious Island",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "Mysterious Island",
+      "year": 2005
+    },
+    {
+      "type": "tv",
+      "title": "Jules Verne's Mysterious Island",
+      "year": 2010
+    },
+    {
+      "type": "film",
+      "title": "Journey 2: The Mysterious Island",
+      "year": 2012
+    },
+    {
+      "type": "tv",
+      "title": "Mysterious Island"
+    }
+  ]
 }

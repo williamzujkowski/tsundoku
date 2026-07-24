@@ -129,7 +129,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 104,
   "first_published_circa": false,
@@ -141,5 +142,21 @@
   "original_publisher": "Viking Press",
   "cover_url_source": "https://covers.openlibrary.org/b/id/11386937-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/11386937-L.jpg",
-  "cover_cached_at": "2026-05-03T01:10:24+00:00"
+  "cover_cached_at": "2026-05-03T01:10:24+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "East of Eden",
+      "year": 1955
+    },
+    {
+      "type": "tv",
+      "title": "East of Eden",
+      "year": 1981
+    },
+    {
+      "type": "tv",
+      "title": "East of Eden"
+    }
+  ]
 }

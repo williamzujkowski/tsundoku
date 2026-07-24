@@ -52,7 +52,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "ddc": "derived_v1"
+    "ddc": "derived_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 3,
   "first_published_circa": false,
@@ -66,5 +67,11 @@
   "cover_cached_at": "2026-05-03T02:27:10+00:00",
   "ddc": [
     "900"
+  ],
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "The Pacific"
+    }
   ]
 }

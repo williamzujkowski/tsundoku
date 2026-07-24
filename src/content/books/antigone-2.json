@@ -59,7 +59,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 75,
   "first_edition_isbn": null,
@@ -68,5 +69,11 @@
   "original_language": "fre",
   "cover_url_source": "https://covers.openlibrary.org/b/id/116843-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/116843-L.jpg",
-  "cover_cached_at": "2026-05-03T00:55:33+00:00"
+  "cover_cached_at": "2026-05-03T00:55:33+00:00",
+  "adaptations": [
+    {
+      "type": "stage",
+      "title": "Antigone. Tragödie"
+    }
+  ]
 }

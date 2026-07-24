@@ -197,7 +197,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -209,5 +210,55 @@
   "original_publisher": "The Russian Messenger",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12621906-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
-  "cover_cached_at": "2026-05-03T02:26:28+00:00"
+  "cover_cached_at": "2026-05-03T02:26:28+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "War and Peace",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "War and Peace",
+      "year": 1946
+    },
+    {
+      "type": "film",
+      "title": "War and Peace",
+      "year": 1956
+    },
+    {
+      "type": "film",
+      "title": "War and Peace",
+      "year": 1965
+    },
+    {
+      "type": "tv",
+      "title": "War and Peace",
+      "year": 1972
+    },
+    {
+      "type": "other",
+      "title": "War and Peace (Dramatisation of the Novel by Lev Tolstoy)",
+      "year": 1986
+    },
+    {
+      "type": "tv",
+      "title": "War and Peace",
+      "year": 2007
+    },
+    {
+      "type": "tv",
+      "title": "War and Peace",
+      "year": 2016
+    },
+    {
+      "type": "other",
+      "title": "Natasha, Pierre and the Great Comet of 1812"
+    },
+    {
+      "type": "stage",
+      "title": "War and Peace"
+    }
+  ]
 }

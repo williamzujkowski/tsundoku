@@ -84,7 +84,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 95,
   "first_published_circa": false,
@@ -100,5 +101,35 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/8569284-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8569284-L.jpg",
-  "cover_cached_at": "2026-05-03T01:25:49+00:00"
+  "cover_cached_at": "2026-05-03T01:25:49+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "It",
+      "year": 1990
+    },
+    {
+      "type": "film",
+      "title": "It",
+      "year": 2017
+    },
+    {
+      "type": "film",
+      "title": "It: Chapter Two",
+      "year": 2019
+    },
+    {
+      "type": "tv",
+      "title": "The Great Swirling Apparatus of Our Planet's Function",
+      "year": 2025
+    },
+    {
+      "type": "tv",
+      "title": "It: Welcome to Derry"
+    },
+    {
+      "type": "tv",
+      "title": "Woh"
+    }
+  ]
 }

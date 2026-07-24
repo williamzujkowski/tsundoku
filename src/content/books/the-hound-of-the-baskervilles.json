@@ -222,7 +222,8 @@
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -241,5 +242,67 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/8063264-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8063264-L.jpg",
-  "cover_cached_at": "2026-05-03T02:07:04+00:00"
+  "cover_cached_at": "2026-05-03T02:07:04+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Der Hund von Baskerville",
+      "year": 1914
+    },
+    {
+      "type": "film",
+      "title": "The Hound of the Baskervilles",
+      "year": 1921
+    },
+    {
+      "type": "film",
+      "title": "Der Hund von Baskerville",
+      "year": 1929
+    },
+    {
+      "type": "film",
+      "title": "The Hound of the Baskervilles",
+      "year": 1932
+    },
+    {
+      "type": "film",
+      "title": "The Hound of the Baskervilles",
+      "year": 1937
+    },
+    {
+      "type": "film",
+      "title": "The Hound of the Baskervilles",
+      "year": 1939
+    },
+    {
+      "type": "film",
+      "title": "Jighansa",
+      "year": 1951
+    },
+    {
+      "type": "tv",
+      "title": "Hound of the Baskervilles",
+      "year": 1955
+    },
+    {
+      "type": "film",
+      "title": "The Hound of the Baskervilles",
+      "year": 1959
+    },
+    {
+      "type": "film",
+      "title": "The Hound of Blackwood Castle",
+      "year": 1968
+    },
+    {
+      "type": "tv",
+      "title": "The Hound of the Baskervilles (1971 film)",
+      "year": 1971
+    },
+    {
+      "type": "tv",
+      "title": "Sherlock Holmes and the Baskerville Curse",
+      "year": 1983
+    }
+  ]
 }

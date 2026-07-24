@@ -207,7 +207,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -218,5 +219,67 @@
   "original_language": "eng",
   "original_publisher": "Macmillan Publishers",
   "cover_url_source": "https://books.google.com/books/content?id=sRO94JTt3OUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:20:26+00:00"
+  "cover_cached_at": "2026-05-03T02:20:26+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Alice in Wonderland",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "Through the Looking Glass",
+      "year": 1923
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1933
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1951
+    },
+    {
+      "type": "tv",
+      "title": "Alice Through the Looking Glass",
+      "year": 1966
+    },
+    {
+      "type": "film",
+      "title": "Alice's Adventures in Wonderland",
+      "year": 1972
+    },
+    {
+      "type": "film",
+      "title": "Alice in the Land in the Other Side of the Mirror",
+      "year": 1981
+    },
+    {
+      "type": "tv",
+      "title": "Alice in Wonderland",
+      "year": 1985
+    },
+    {
+      "type": "tv",
+      "title": "Alice Through the Looking Glass",
+      "year": 1987
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 1995
+    },
+    {
+      "type": "film",
+      "title": "Alice in Wonderland",
+      "year": 2010
+    },
+    {
+      "type": "film",
+      "title": "Alice Through the Looking Glass",
+      "year": 2016
+    }
+  ]
 }

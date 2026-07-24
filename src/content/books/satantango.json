@@ -53,7 +53,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 14,
   "first_published_circa": false,
@@ -65,5 +66,12 @@
   "original_publisher": "Magvető",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9614210-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9614210-L.jpg",
-  "cover_cached_at": "2026-05-03T01:49:05+00:00"
+  "cover_cached_at": "2026-05-03T01:49:05+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Sátántangó",
+      "year": 1994
+    }
+  ]
 }
