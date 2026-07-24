@@ -114,7 +114,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 371,
   "first_published_circa": false,
@@ -129,5 +130,67 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/12481427-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12481427-L.jpg",
-  "cover_cached_at": "2026-05-03T01:19:44+00:00"
+  "cover_cached_at": "2026-05-03T01:19:44+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Hedda Gabler",
+      "year": 1917
+    },
+    {
+      "type": "other",
+      "title": "Hedda Gabler",
+      "year": 1920
+    },
+    {
+      "type": "film",
+      "title": "Hedda Gabler",
+      "year": 1925
+    },
+    {
+      "type": "tv",
+      "title": "Hedda Gabler",
+      "year": 1963
+    },
+    {
+      "type": "tv",
+      "title": "Hedda Gabler",
+      "year": 1967
+    },
+    {
+      "type": "film",
+      "title": "Hedda",
+      "year": 1975
+    },
+    {
+      "type": "film",
+      "title": "Hedda Gabler",
+      "year": 1976
+    },
+    {
+      "type": "tv",
+      "title": "Hedda Gabler",
+      "year": 1980
+    },
+    {
+      "type": "tv",
+      "title": "Hedda Gabler",
+      "year": 1993
+    },
+    {
+      "type": "film",
+      "title": "Hedda Gabler",
+      "year": 2004
+    },
+    {
+      "type": "tv",
+      "title": "Hedda",
+      "year": 2016
+    },
+    {
+      "type": "film",
+      "title": "Hedda Gabler",
+      "year": 2016
+    }
+  ]
 }

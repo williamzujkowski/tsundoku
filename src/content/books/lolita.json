@@ -152,7 +152,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 228,
   "first_published_circa": false,
@@ -172,5 +173,46 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/12984540-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12984540-L.jpg",
-  "cover_cached_at": "2026-05-03T01:30:52+00:00"
+  "cover_cached_at": "2026-05-03T01:30:52+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Lolita",
+      "year": 1962
+    },
+    {
+      "type": "other",
+      "title": "Lolita",
+      "year": 1994
+    },
+    {
+      "type": "other",
+      "title": "Lo's Diary",
+      "year": 1995
+    },
+    {
+      "type": "film",
+      "title": "Lolita",
+      "year": 1997
+    },
+    {
+      "type": "other",
+      "title": "Roger Fishbite",
+      "year": 1999
+    },
+    {
+      "type": "film",
+      "title": "Russian Lolita",
+      "year": 2002
+    },
+    {
+      "type": "other",
+      "title": "Lolito",
+      "year": 2013
+    },
+    {
+      "type": "other",
+      "title": "Lolita"
+    }
+  ]
 }

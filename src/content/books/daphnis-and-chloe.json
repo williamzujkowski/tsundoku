@@ -118,7 +118,8 @@
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "wikidata_qid": "wikidata_v1"
+    "wikidata_qid": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 119,
   "first_published_circa": false,
@@ -129,5 +130,31 @@
   "wikidata_qid": "Q318333",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8246251-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8246251-L.jpg",
-  "cover_cached_at": "2026-05-03T01:07:27+00:00"
+  "cover_cached_at": "2026-05-03T01:07:27+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Daphnis et Chloé",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "The Storm",
+      "year": 1880
+    },
+    {
+      "type": "other",
+      "title": "Daphnis et Chloé",
+      "year": 1912
+    },
+    {
+      "type": "film",
+      "title": "Daphnis and Chloe",
+      "year": 1930
+    },
+    {
+      "type": "other",
+      "title": "Daphnis and Chloe"
+    }
+  ]
 }

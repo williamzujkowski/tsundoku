@@ -124,7 +124,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -135,5 +136,32 @@
   "original_language": "eng",
   "original_publisher": "Harper",
   "cover_url_source": "https://books.google.com/books/content?id=ChGILE-45fsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:48:13+00:00"
+  "cover_cached_at": "2026-05-03T01:48:13+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Riders of the Purple Sage",
+      "year": 1918
+    },
+    {
+      "type": "film",
+      "title": "Riders of the Purple Sage",
+      "year": 1925
+    },
+    {
+      "type": "film",
+      "title": "Riders of the Purple Sage",
+      "year": 1931
+    },
+    {
+      "type": "film",
+      "title": "Riders of the Purple Sage",
+      "year": 1941
+    },
+    {
+      "type": "tv",
+      "title": "Riders of the Purple Sage",
+      "year": 1996
+    }
+  ]
 }

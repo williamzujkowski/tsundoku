@@ -130,7 +130,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 326,
   "first_published_circa": false,
@@ -142,5 +143,30 @@
   "original_publisher": "Bradbury and Evans",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9283920-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9283920-L.jpg",
-  "cover_cached_at": "2026-05-03T01:09:02+00:00"
+  "cover_cached_at": "2026-05-03T01:09:02+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Dombey and Son",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "Rich Man's Folly",
+      "year": 1931
+    },
+    {
+      "type": "tv",
+      "title": "Dombey and Son",
+      "year": 1969
+    },
+    {
+      "type": "other",
+      "title": "Dombey and Daughter"
+    },
+    {
+      "type": "tv",
+      "title": "Dombey and Son"
+    }
+  ]
 }

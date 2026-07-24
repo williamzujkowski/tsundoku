@@ -119,7 +119,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 212,
   "first_published_circa": false,
@@ -130,5 +131,67 @@
   "original_language": "ger",
   "cover_url_source": "https://covers.openlibrary.org/b/id/10510097-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10510097-L.jpg",
-  "cover_cached_at": "2026-05-03T02:13:55+00:00"
+  "cover_cached_at": "2026-05-03T02:13:55+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Werther",
+      "year": 1778
+    },
+    {
+      "type": "other",
+      "title": "Charlotte et Werther",
+      "year": 1792
+    },
+    {
+      "type": "other",
+      "title": "Werther",
+      "year": 1796
+    },
+    {
+      "type": "other",
+      "title": "Werter e Carlotta",
+      "year": 1802
+    },
+    {
+      "type": "other",
+      "title": "Werther",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Werther",
+      "year": 1903
+    },
+    {
+      "type": "film",
+      "title": "The Novel of Werther",
+      "year": 1938
+    },
+    {
+      "type": "film",
+      "title": "Encounter with Werther",
+      "year": 1949
+    },
+    {
+      "type": "film",
+      "title": "The Sorrows of Young Werther",
+      "year": 1976
+    },
+    {
+      "type": "film",
+      "title": "Werther",
+      "year": 1986
+    },
+    {
+      "type": "film",
+      "title": "Werther",
+      "year": 1990
+    },
+    {
+      "type": "film",
+      "title": "Young Werther",
+      "year": 1993
+    }
+  ]
 }

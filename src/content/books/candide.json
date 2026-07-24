@@ -287,7 +287,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -297,5 +298,35 @@
   "original_language": "fre",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12736044-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
-  "cover_cached_at": "2026-05-03T01:01:31+00:00"
+  "cover_cached_at": "2026-05-03T01:01:31+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Candide, or the Optimist of the Twentieth Century",
+      "year": 1960
+    },
+    {
+      "type": "film",
+      "title": "Mondo candido",
+      "year": 1975
+    },
+    {
+      "type": "other",
+      "title": "Candide",
+      "year": 2000
+    },
+    {
+      "type": "other",
+      "title": "Candy",
+      "year": 2005
+    },
+    {
+      "type": "tv",
+      "title": "Êta Mundo Bom!"
+    },
+    {
+      "type": "tv",
+      "title": "Êta Mundo Melhor!"
+    }
+  ]
 }

@@ -525,7 +525,8 @@
   "_provenance": {
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -537,5 +538,67 @@
   },
   "cover_url_source": "https://books.google.com/books/content?id=S5gmRFRtcoEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=S5gmRFRtcoEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:12:54+00:00"
+  "cover_cached_at": "2026-05-03T02:12:54+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Situla of the Pania",
+      "year": -700
+    },
+    {
+      "type": "other",
+      "title": "Odysseus blinding Polyphemus",
+      "year": 1
+    },
+    {
+      "type": "other",
+      "title": "Odysseus and Nausicaa",
+      "year": 1570
+    },
+    {
+      "type": "other",
+      "title": "Odysseus and Calypso",
+      "year": 1680
+    },
+    {
+      "type": "other",
+      "title": "Polifemo",
+      "year": 1735
+    },
+    {
+      "type": "other",
+      "title": "The Odyssey of Homer",
+      "year": 1793
+    },
+    {
+      "type": "other",
+      "title": "Ulysses and the Sirens",
+      "year": 1891
+    },
+    {
+      "type": "film",
+      "title": "The Mysterious Island",
+      "year": 1905
+    },
+    {
+      "type": "other",
+      "title": "Ulysses and the Sirens",
+      "year": 1909
+    },
+    {
+      "type": "other",
+      "title": "Odysseus and Nausicaa",
+      "year": 1910
+    },
+    {
+      "type": "other",
+      "title": "Nausicaa",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "Ulysses",
+      "year": 1922
+    }
+  ]
 }

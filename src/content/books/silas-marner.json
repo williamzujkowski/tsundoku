@@ -241,7 +241,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -252,5 +253,17 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/9286405-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9286405-L.jpg",
-  "cover_cached_at": "2026-05-03T01:50:47+00:00"
+  "cover_cached_at": "2026-05-03T01:50:47+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Silas Marner",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "Silas Marner",
+      "year": 1922
+    }
+  ]
 }

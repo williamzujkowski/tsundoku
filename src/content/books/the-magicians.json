@@ -67,7 +67,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
@@ -78,5 +79,11 @@
   "original_publisher": "Viking Press",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6294573-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6294573-L.jpg",
-  "cover_cached_at": "2026-05-03T02:09:29+00:00"
+  "cover_cached_at": "2026-05-03T02:09:29+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "The Magicians"
+    }
+  ]
 }

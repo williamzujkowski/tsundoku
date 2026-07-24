@@ -276,7 +276,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -290,5 +291,66 @@
     "position": 1
   },
   "cover_url_source": "https://books.google.com/books/content?id=WkwrttiByLgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:30:46+00:00"
+  "cover_cached_at": "2026-05-03T01:30:46+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 1918
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 1933
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 1949
+    },
+    {
+      "type": "tv",
+      "title": "Little Women",
+      "year": 1950
+    },
+    {
+      "type": "tv",
+      "title": "Little Women",
+      "year": 1958
+    },
+    {
+      "type": "tv",
+      "title": "Little Women",
+      "year": 1970
+    },
+    {
+      "type": "tv",
+      "title": "Little Women",
+      "year": 1978
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 1994
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 2018
+    },
+    {
+      "type": "film",
+      "title": "Little Women",
+      "year": 2019
+    },
+    {
+      "type": "tv",
+      "title": "Little Women"
+    }
+  ]
 }

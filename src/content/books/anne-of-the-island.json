@@ -87,7 +87,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -98,5 +99,26 @@
   "original_language": "eng",
   "original_publisher": "L. C. Page & Co.",
   "cover_url_source": "https://books.google.com/books/content?id=CfAdtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T00:55:11+00:00"
+  "cover_cached_at": "2026-05-03T00:55:11+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Drömmens uppfyllelse",
+      "year": 1916
+    },
+    {
+      "type": "tv",
+      "title": "Anne of Avonlea",
+      "year": 1975
+    },
+    {
+      "type": "tv",
+      "title": "Anne of Green Gables: The Sequel",
+      "year": 1987
+    },
+    {
+      "type": "tv",
+      "title": "Anne Shirley"
+    }
+  ]
 }

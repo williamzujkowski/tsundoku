@@ -283,7 +283,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -295,5 +296,51 @@
   "original_publisher": "Macmillan Inc.",
   "cover_url_source": "https://books.google.com/books/content?id=j0oYi3O_tvgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=j0oYi3O_tvgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:59:19+00:00"
+  "cover_cached_at": "2026-05-03T01:59:19+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Call of the Wild",
+      "year": 1923
+    },
+    {
+      "type": "film",
+      "title": "The Call of the Wild",
+      "year": 1935
+    },
+    {
+      "type": "film",
+      "title": "The Call of the Wild",
+      "year": 1972
+    },
+    {
+      "type": "tv",
+      "title": "The Call of the Wild",
+      "year": 1976
+    },
+    {
+      "type": "tv",
+      "title": "Call of the Wild",
+      "year": 1993
+    },
+    {
+      "type": "tv",
+      "title": "The Call of the Wild: Dog of the Yukon",
+      "year": 1997
+    },
+    {
+      "type": "film",
+      "title": "Call of the Wild",
+      "year": 2009
+    },
+    {
+      "type": "film",
+      "title": "The Call of the Wild",
+      "year": 2020
+    },
+    {
+      "type": "tv",
+      "title": "Call of the Wild"
+    }
+  ]
 }

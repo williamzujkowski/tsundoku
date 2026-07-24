@@ -134,7 +134,8 @@
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "wikidata_qid": "wikidata_v1"
+    "wikidata_qid": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 265,
   "first_published_circa": false,
@@ -145,5 +146,67 @@
   "wikidata_qid": "Q191380",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8015311-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8015311-L.jpg",
-  "cover_cached_at": "2026-05-03T02:07:11+00:00"
+  "cover_cached_at": "2026-05-03T02:07:11+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Quasimodo Saving Esmeralda from the Hands of Her Executioners",
+      "year": 1832
+    },
+    {
+      "type": "other",
+      "title": "La Esmeralda",
+      "year": 1850
+    },
+    {
+      "type": "film",
+      "title": "Esmeralda",
+      "year": 1905
+    },
+    {
+      "type": "film",
+      "title": "The Hunchback of Notre Dame",
+      "year": 1911
+    },
+    {
+      "type": "film",
+      "title": "The Darling of Paris",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "Esmeralda",
+      "year": 1922
+    },
+    {
+      "type": "film",
+      "title": "The Hunchback of Notre Dame",
+      "year": 1923
+    },
+    {
+      "type": "film",
+      "title": "The Hunchback of Notre Dame",
+      "year": 1939
+    },
+    {
+      "type": "film",
+      "title": "The Hunchback of Notre Dame",
+      "year": 1956
+    },
+    {
+      "type": "film",
+      "title": "Phantom of the Paradise",
+      "year": 1974
+    },
+    {
+      "type": "tv",
+      "title": "The Hunchback of Notre Dame",
+      "year": 1977
+    },
+    {
+      "type": "tv",
+      "title": "The Hunchback of Notre-Dame",
+      "year": 1982
+    }
+  ]
 }

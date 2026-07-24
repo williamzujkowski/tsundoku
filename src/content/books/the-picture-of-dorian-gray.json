@@ -212,7 +212,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -223,5 +224,67 @@
   "wikidata_qid": "Q82464",
   "original_publisher": "Lippincott's Monthly Magazine",
   "cover_url_source": "https://books.google.com/books/content?id=u-QdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:11:23+00:00"
+  "cover_cached_at": "2026-05-03T02:11:23+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Happy Hypocrite",
+      "year": 1896
+    },
+    {
+      "type": "film",
+      "title": "The Picture of Dorian Gray",
+      "year": 1910
+    },
+    {
+      "type": "film",
+      "title": "The Picture of Dorian Grey",
+      "year": 1915
+    },
+    {
+      "type": "film",
+      "title": "The Picture of Dorian Gray",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "The Picture of Dorian Gray",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "The Picture of Dorian Gray",
+      "year": 1945
+    },
+    {
+      "type": "film",
+      "title": "Dorian Gray",
+      "year": 1970
+    },
+    {
+      "type": "tv",
+      "title": "The Picture of Dorian Gray",
+      "year": 1973
+    },
+    {
+      "type": "film",
+      "title": "Phantom of the Paradise",
+      "year": 1974
+    },
+    {
+      "type": "tv",
+      "title": "The Picture of Dorian Gray",
+      "year": 1976
+    },
+    {
+      "type": "film",
+      "title": "Pact with the Devil",
+      "year": 2002
+    },
+    {
+      "type": "film",
+      "title": "Dorian Gray",
+      "year": 2009
+    }
+  ]
 }

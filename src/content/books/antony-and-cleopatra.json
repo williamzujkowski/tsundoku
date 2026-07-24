@@ -272,7 +272,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "first_published_circa": "wikidata_v1"
+    "first_published_circa": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_edition_isbn": null,
@@ -283,5 +284,49 @@
   "first_published_circa": false,
   "cover_url_source": "https://covers.openlibrary.org/b/id/8222096-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8222096-L.jpg",
-  "cover_cached_at": "2026-05-03T00:55:36+00:00"
+  "cover_cached_at": "2026-05-03T00:55:36+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Cleopatra",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Antony and Cleopatra",
+      "year": 1883
+    },
+    {
+      "type": "film",
+      "title": "Antony and Cleopatra",
+      "year": 1908
+    },
+    {
+      "type": "film",
+      "title": "Antony and Cleopatra",
+      "year": 1913
+    },
+    {
+      "type": "film",
+      "title": "Antony and Cleopatra",
+      "year": 1972
+    },
+    {
+      "type": "other",
+      "title": "Antony and Cleopatra",
+      "year": 2022
+    },
+    {
+      "type": "other",
+      "title": "Antony and Cleopatra"
+    },
+    {
+      "type": "film",
+      "title": "Antony and Cleopatra"
+    },
+    {
+      "type": "stage",
+      "title": "Antony and Cleopatra (1949-1950)"
+    }
+  ]
 }

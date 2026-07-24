@@ -183,7 +183,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -194,5 +195,67 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/14627509-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14627509-L.jpg",
-  "cover_cached_at": "2026-05-03T01:20:43+00:00"
+  "cover_cached_at": "2026-05-03T01:20:43+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Hobbit",
+      "year": 1977
+    },
+    {
+      "type": "other",
+      "title": "LORD",
+      "year": 1981
+    },
+    {
+      "type": "other",
+      "title": "The Hobbit",
+      "year": 1982
+    },
+    {
+      "type": "tv",
+      "title": "The Hobbit",
+      "year": 1985
+    },
+    {
+      "type": "other",
+      "title": "Middle-Earth Strategy Battle Game",
+      "year": 2001
+    },
+    {
+      "type": "other",
+      "title": "The Hobbit",
+      "year": 2003
+    },
+    {
+      "type": "other",
+      "title": "The Hobbit trilogy",
+      "year": 2012
+    },
+    {
+      "type": "film",
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012
+    },
+    {
+      "type": "film",
+      "title": "The Hobbit: The Desolation of Smaug",
+      "year": 2013
+    },
+    {
+      "type": "other",
+      "title": "Middle-earth: Shadow of Mordor",
+      "year": 2014
+    },
+    {
+      "type": "film",
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "year": 2014
+    },
+    {
+      "type": "other",
+      "title": "Middle-earth: Shadow of War",
+      "year": 2017
+    }
+  ]
 }

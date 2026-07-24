@@ -121,7 +121,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -137,5 +138,50 @@
   "cover_url_source": "https://covers.openlibrary.org/b/id/9247987-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9247987-L.jpg",
   "cover_cached_at": "2026-05-03T02:13:42+00:00",
-  "librivox_url": "https://librivox.org/the-sign-of-the-four-by-sir-arthur-conan-doyle"
+  "librivox_url": "https://librivox.org/the-sign-of-the-four-by-sir-arthur-conan-doyle",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Adventures of Sherlock Holmes; or, Held for Ransom",
+      "year": 1905
+    },
+    {
+      "type": "film",
+      "title": "The Sign of Four",
+      "year": 1923
+    },
+    {
+      "type": "film",
+      "title": "The Sign of Four",
+      "year": 1932
+    },
+    {
+      "type": "film",
+      "title": "Sherlock Holmes and the Sign of Four",
+      "year": 1983
+    },
+    {
+      "type": "tv",
+      "title": "The Sign of Four",
+      "year": 1983
+    },
+    {
+      "type": "tv",
+      "title": "The Sign of Four",
+      "year": 1987
+    },
+    {
+      "type": "tv",
+      "title": "The Sign of Four",
+      "year": 2001
+    },
+    {
+      "type": "other",
+      "title": "The Crucifer of Blood"
+    },
+    {
+      "type": "tv",
+      "title": "The Treasures of Agra"
+    }
+  ]
 }

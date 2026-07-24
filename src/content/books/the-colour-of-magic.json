@@ -72,7 +72,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 92,
   "first_published_circa": false,
@@ -92,5 +93,17 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/14647238-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14647238-L.jpg",
-  "cover_cached_at": "2026-05-03T02:01:00+00:00"
+  "cover_cached_at": "2026-05-03T02:01:00+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Colour of Magic",
+      "year": 1986
+    },
+    {
+      "type": "tv",
+      "title": "Terry Pratchett's The Colour of Magic",
+      "year": 2008
+    }
+  ]
 }

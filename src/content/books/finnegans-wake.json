@@ -117,7 +117,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 128,
   "first_published_circa": false,
@@ -134,5 +135,31 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/6609259-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6609259-L.jpg",
-  "cover_cached_at": "2026-05-03T01:14:33+00:00"
+  "cover_cached_at": "2026-05-03T01:14:33+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Wonderful Widow of Eighteen Springs",
+      "year": 1942
+    },
+    {
+      "type": "film",
+      "title": "Passages from James Joyce's Finnegans Wake",
+      "year": 1966
+    },
+    {
+      "type": "other",
+      "title": "War and Peace in the Global Village",
+      "year": 1968
+    },
+    {
+      "type": "other",
+      "title": "FinWakeIndraNet",
+      "year": 2009
+    },
+    {
+      "type": "other",
+      "title": "Anna Livia Plurabelle"
+    }
+  ]
 }

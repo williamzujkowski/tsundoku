@@ -85,7 +85,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 168,
   "first_published_circa": false,
@@ -101,5 +102,32 @@
     }
   ],
   "cover_url_source": "https://books.google.com/books/content?id=UbYxAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:31:51+00:00"
+  "cover_cached_at": "2026-05-03T01:31:51+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Martin Eden",
+      "year": 1914
+    },
+    {
+      "type": "film",
+      "title": "The Adventures of Martin Eden",
+      "year": 1942
+    },
+    {
+      "type": "tv",
+      "title": "Martin Eden",
+      "year": 1976
+    },
+    {
+      "type": "other",
+      "title": "Martin Eden",
+      "year": 1979
+    },
+    {
+      "type": "film",
+      "title": "Martin Eden",
+      "year": 2019
+    }
+  ]
 }

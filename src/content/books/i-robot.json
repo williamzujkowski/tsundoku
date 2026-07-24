@@ -87,7 +87,8 @@
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 98,
   "first_published_circa": false,
@@ -107,5 +108,12 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/6517784-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6517784-L.jpg",
-  "cover_cached_at": "2026-05-03T01:22:53+00:00"
+  "cover_cached_at": "2026-05-03T01:22:53+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "I, Robot",
+      "year": 2004
+    }
+  ]
 }

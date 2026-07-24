@@ -68,7 +68,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -82,5 +83,16 @@
     "name": "Oz book series"
   },
   "cover_url_source": "https://books.google.com/books/content?id=KRSvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:39:33+00:00"
+  "cover_cached_at": "2026-05-03T01:39:33+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Return to Oz",
+      "year": 1985
+    },
+    {
+      "type": "other",
+      "title": "Ozma"
+    }
+  ]
 }

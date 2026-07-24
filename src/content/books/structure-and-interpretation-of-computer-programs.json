@@ -64,7 +64,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 16,
   "first_published_circa": false,
@@ -76,5 +77,11 @@
   "original_publisher": "The MIT Press",
   "cover_url_source": "https://covers.openlibrary.org/b/id/149338-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/149338-L.jpg",
-  "cover_cached_at": "2026-05-03T01:54:00+00:00"
+  "cover_cached_at": "2026-05-03T01:54:00+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Structure and Interpretation of Computer Programs, JavaScript Edition"
+    }
+  ]
 }

@@ -109,7 +109,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 261,
   "first_published_circa": false,
@@ -123,5 +124,37 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/8237025-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8237025-L.jpg",
-  "cover_cached_at": "2026-05-03T01:13:49+00:00"
+  "cover_cached_at": "2026-05-03T01:13:49+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Eugénie Grandet",
+      "year": 1910
+    },
+    {
+      "type": "film",
+      "title": "The Conquering Power",
+      "year": 1921
+    },
+    {
+      "type": "film",
+      "title": "Eugenia Grandet",
+      "year": 1947
+    },
+    {
+      "type": "tv",
+      "title": "Cross of Gold",
+      "year": 1965
+    },
+    {
+      "type": "tv",
+      "title": "Eugénie Grandet",
+      "year": 1994
+    },
+    {
+      "type": "film",
+      "title": "Eugénie Grandet",
+      "year": 2021
+    }
+  ]
 }

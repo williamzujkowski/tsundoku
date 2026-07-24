@@ -97,7 +97,8 @@
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 122,
   "first_published_circa": false,
@@ -116,5 +117,21 @@
     "position": 1
   },
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/H2G2_UK_front_cover.jpg/120px-H2G2_UK_front_cover.jpg",
-  "cover_cached_at": "2026-05-03T02:06:53+00:00"
+  "cover_cached_at": "2026-05-03T02:06:53+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "year": 1984
+    },
+    {
+      "type": "film",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "year": 2005
+    },
+    {
+      "type": "other",
+      "title": "The Hitchhiker's Guide to the Galaxy"
+    }
+  ]
 }

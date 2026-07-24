@@ -72,7 +72,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 214,
   "first_published_circa": false,
@@ -83,5 +84,12 @@
   "original_language": "eng",
   "original_publisher": "Dublin University Magazine",
   "cover_url_source": "https://books.google.com/books/content?id=AbOiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:22:28+00:00"
+  "cover_cached_at": "2026-05-03T02:22:28+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Lies We Tell",
+      "year": 2023
+    }
+  ]
 }

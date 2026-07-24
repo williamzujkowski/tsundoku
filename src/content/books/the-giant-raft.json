@@ -138,7 +138,8 @@
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 205,
   "first_published_circa": false,
@@ -158,5 +159,67 @@
     "position": 3
   },
   "cover_url_source": "https://books.google.com/books/content?id=BNYZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:05:20+00:00"
+  "cover_cached_at": "2026-05-03T02:05:20+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Inside the Earth",
+      "year": 1910
+    },
+    {
+      "type": "film",
+      "title": "Journey to the Center of the Earth",
+      "year": 1959
+    },
+    {
+      "type": "other",
+      "title": "Journey to the Centre of the Earth",
+      "year": 1974
+    },
+    {
+      "type": "film",
+      "title": "A Journey to the Center of the Earth",
+      "year": 1977
+    },
+    {
+      "type": "film",
+      "title": "Journey to the Centre of the Earth",
+      "year": 1978
+    },
+    {
+      "type": "film",
+      "title": "Journey to the Center of the Earth",
+      "year": 1989
+    },
+    {
+      "type": "tv",
+      "title": "Journey to the Center of the Earth",
+      "year": 1993
+    },
+    {
+      "type": "tv",
+      "title": "Journey to the Center of the Earth",
+      "year": 1999
+    },
+    {
+      "type": "other",
+      "title": "Journey to the Center of the Earth",
+      "year": 2004
+    },
+    {
+      "type": "film",
+      "title": "Journey to the Center of the Earth",
+      "year": 2008
+    },
+    {
+      "type": "tv",
+      "title": "Journey to the Center of the Earth",
+      "year": 2008
+    },
+    {
+      "type": "other",
+      "title": "Journey to the Center of the Earth",
+      "year": 2008
+    }
+  ]
 }

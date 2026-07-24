@@ -110,7 +110,8 @@
     "translator": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 171,
   "first_published_circa": false,
@@ -122,5 +123,38 @@
   "original_language": "rus",
   "cover_url_source": "https://books.google.com/books/content?id=T4yg7qgwgtsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=T4yg7qgwgtsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:08:07+00:00"
+  "cover_cached_at": "2026-05-03T01:08:07+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Die Dämonen",
+      "year": 1977
+    },
+    {
+      "type": "film",
+      "title": "The Possessed",
+      "year": 1988
+    },
+    {
+      "type": "film",
+      "title": "Besy",
+      "year": 1992
+    },
+    {
+      "type": "other",
+      "title": "Běsi"
+    },
+    {
+      "type": "tv",
+      "title": "Demons"
+    },
+    {
+      "type": "tv",
+      "title": "Possessed"
+    },
+    {
+      "type": "other",
+      "title": "The Possessed"
+    }
+  ]
 }

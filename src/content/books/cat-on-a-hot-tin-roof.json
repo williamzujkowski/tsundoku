@@ -78,7 +78,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 69,
   "first_published_circa": false,
@@ -97,5 +98,17 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/10178336-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/10178336-L.jpg",
-  "cover_cached_at": "2026-05-03T01:01:47+00:00"
+  "cover_cached_at": "2026-05-03T01:01:47+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Cat on a Hot Tin Roof",
+      "year": 1958
+    },
+    {
+      "type": "tv",
+      "title": "Cat on a Hot Tin Roof",
+      "year": 1984
+    }
+  ]
 }

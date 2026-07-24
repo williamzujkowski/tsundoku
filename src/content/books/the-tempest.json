@@ -365,7 +365,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -377,5 +378,67 @@
   "original_publisher": "Edward Blunt",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8155661-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8155661-L.jpg",
-  "cover_cached_at": "2026-05-03T02:14:38+00:00"
+  "cover_cached_at": "2026-05-03T02:14:38+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Scene from Shakespeare's The Tempest",
+      "year": 1736
+    },
+    {
+      "type": "other",
+      "title": "Die Geisterinsel",
+      "year": 1797
+    },
+    {
+      "type": "other",
+      "title": "The Tempest",
+      "year": 1807
+    },
+    {
+      "type": "other",
+      "title": "Miranda playing chess with Ferdinand",
+      "year": 1822
+    },
+    {
+      "type": "other",
+      "title": "The Tempest",
+      "year": 1871
+    },
+    {
+      "type": "other",
+      "title": "The Tempest",
+      "year": 1873
+    },
+    {
+      "type": "other",
+      "title": "The Tempest",
+      "year": 1893
+    },
+    {
+      "type": "film",
+      "title": "The Tempest",
+      "year": 1908
+    },
+    {
+      "type": "other",
+      "title": "Miranda",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "Forbidden Planet",
+      "year": 1956
+    },
+    {
+      "type": "film",
+      "title": "Tempest",
+      "year": 1982
+    },
+    {
+      "type": "film",
+      "title": "Voyage to Melonia",
+      "year": 1989
+    }
+  ]
 }

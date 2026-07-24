@@ -112,7 +112,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 251,
   "first_published_circa": false,
@@ -142,5 +143,67 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14627060-L.jpg",
-  "cover_cached_at": "2026-05-03T01:14:26+00:00"
+  "cover_cached_at": "2026-05-03T01:14:26+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Lord of the Rings",
+      "year": 1955
+    },
+    {
+      "type": "other",
+      "title": "Bored of the Rings",
+      "year": 1969
+    },
+    {
+      "type": "film",
+      "title": "The Lord of the Rings",
+      "year": 1978
+    },
+    {
+      "type": "other",
+      "title": "LORD",
+      "year": 1981
+    },
+    {
+      "type": "other",
+      "title": "Middle-Earth Role Playing",
+      "year": 1984
+    },
+    {
+      "type": "other",
+      "title": "Symphony No. 1 \"The Lord of the Rings\"",
+      "year": 1988
+    },
+    {
+      "type": "tv",
+      "title": "Khraniteli",
+      "year": 1991
+    },
+    {
+      "type": "other",
+      "title": "The Last Ringbearer",
+      "year": 1999
+    },
+    {
+      "type": "other",
+      "title": "Lord of the Rings",
+      "year": 2000
+    },
+    {
+      "type": "other",
+      "title": "Middle-Earth Strategy Battle Game",
+      "year": 2001
+    },
+    {
+      "type": "other",
+      "title": "The Lord of the Rings",
+      "year": 2001
+    },
+    {
+      "type": "other",
+      "title": "The Lord of the Rings Roleplaying Game",
+      "year": 2002
+    }
+  ]
 }

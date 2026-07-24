@@ -87,7 +87,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 93,
   "first_published_circa": false,
@@ -100,5 +101,12 @@
     "name": "Jurassic Park"
   },
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jurassic_Park_poster.jpg/120px-Jurassic_Park_poster.jpg",
-  "cover_cached_at": "2026-05-03T01:26:26+00:00"
+  "cover_cached_at": "2026-05-03T01:26:26+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Jurassic Park",
+      "year": 1993
+    }
+  ]
 }

@@ -396,7 +396,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -405,5 +406,62 @@
   "original_title": "Masturbation",
   "original_language": "eng",
   "cover_url_source": "https://books.google.com/books/content?id=aH37TV1M2H0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:13:02+00:00"
+  "cover_cached_at": "2026-05-03T02:13:02+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1908
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1911
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1913
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1917
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1922
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1926
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1934
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "The Scarlet Letter",
+      "year": 1974
+    },
+    {
+      "type": "film",
+      "title": "The Scarlet Letter",
+      "year": 1995
+    },
+    {
+      "type": "other",
+      "title": "The Scarlet Letter",
+      "year": 2008
+    }
+  ]
 }

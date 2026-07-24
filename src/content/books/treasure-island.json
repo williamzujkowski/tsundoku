@@ -461,7 +461,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -471,5 +472,67 @@
   "original_title": "Treasure Island",
   "original_language": "eng",
   "cover_url_source": "https://books.google.com/books/content?id=G0KJzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:21:51+00:00"
+  "cover_cached_at": "2026-05-03T02:21:51+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Treasure Island",
+      "year": 1915
+    },
+    {
+      "type": "other",
+      "title": "Treasure Island",
+      "year": 1916
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1918
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1920
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1934
+    },
+    {
+      "type": "film",
+      "title": "The Secret of Treasure Island",
+      "year": 1938
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1938
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1950
+    },
+    {
+      "type": "film",
+      "title": "Dōbutsu Takarajima",
+      "year": 1971
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1972
+    },
+    {
+      "type": "film",
+      "title": "Treasure Island",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "Treasure Island",
+      "year": 1977
+    }
+  ]
 }

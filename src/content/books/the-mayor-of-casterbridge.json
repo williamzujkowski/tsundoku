@@ -196,7 +196,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -208,5 +209,32 @@
   "original_publisher": "Smith, Elder & Co.",
   "cover_url_source": "https://covers.openlibrary.org/b/id/1260617-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/1260617-L.jpg",
-  "cover_cached_at": "2026-05-03T02:10:01+00:00"
+  "cover_cached_at": "2026-05-03T02:10:01+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Mayor of Casterbridge",
+      "year": 1921
+    },
+    {
+      "type": "other",
+      "title": "The Mayor of Casterbridge",
+      "year": 1951
+    },
+    {
+      "type": "tv",
+      "title": "The Mayor of Casterbridge",
+      "year": 1978
+    },
+    {
+      "type": "film",
+      "title": "The Claim",
+      "year": 2000
+    },
+    {
+      "type": "tv",
+      "title": "The Mayor of Casterbridge",
+      "year": 2003
+    }
+  ]
 }

@@ -81,7 +81,8 @@
     "original_publisher": "wikidata_v1",
     "awards": "wikidata_v1",
     "description": "fix_non_english_v1_wikipedia",
-    "cover_url": "wikipedia_book_v1"
+    "cover_url": "wikipedia_book_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 96,
   "first_published_circa": false,
@@ -102,5 +103,17 @@
     }
   ],
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/en/e/e4/BonjourTristesse.jpg",
-  "cover_cached_at": "2026-05-03T01:00:50+00:00"
+  "cover_cached_at": "2026-05-03T01:00:50+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Bonjour Tristesse",
+      "year": 1958
+    },
+    {
+      "type": "film",
+      "title": "Bonjour Tristesse",
+      "year": 2024
+    }
+  ]
 }

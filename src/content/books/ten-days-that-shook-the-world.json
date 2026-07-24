@@ -72,7 +72,8 @@
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 192,
   "first_published_circa": false,
@@ -83,5 +84,11 @@
   "wikidata_qid": "Q30925",
   "original_publisher": "Boni & Liveright",
   "cover_url_source": "https://books.google.com/books/content?id=32SCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:54:58+00:00"
+  "cover_cached_at": "2026-05-03T01:54:58+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Ten Days That Shook the World"
+    }
+  ]
 }

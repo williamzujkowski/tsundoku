@@ -361,7 +361,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -377,5 +378,67 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/12356249-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12356249-L.jpg",
-  "cover_cached_at": "2026-05-03T01:16:31+00:00"
+  "cover_cached_at": "2026-05-03T01:16:31+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Frankenstein",
+      "year": 1910
+    },
+    {
+      "type": "film",
+      "title": "Life Without Soul",
+      "year": 1915
+    },
+    {
+      "type": "film",
+      "title": "The Monster of Frankenstein",
+      "year": 1920
+    },
+    {
+      "type": "film",
+      "title": "Frankenstein",
+      "year": 1931
+    },
+    {
+      "type": "film",
+      "title": "Son of Frankenstein",
+      "year": 1939
+    },
+    {
+      "type": "film",
+      "title": "The Curse of Frankenstein",
+      "year": 1957
+    },
+    {
+      "type": "film",
+      "title": "Frankenstein Conquers the World",
+      "year": 1965
+    },
+    {
+      "type": "film",
+      "title": "Frankenstein Must Be Destroyed",
+      "year": 1969
+    },
+    {
+      "type": "film",
+      "title": "Flesh for Frankenstein",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "Frankenstein",
+      "year": 1973
+    },
+    {
+      "type": "tv",
+      "title": "Frankenstein: The True Story",
+      "year": 1973
+    },
+    {
+      "type": "film",
+      "title": "Young Frankenstein",
+      "year": 1974
+    }
+  ]
 }

@@ -48,7 +48,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 22,
   "first_published_circa": false,
@@ -60,5 +61,12 @@
   "original_publisher": "Wydawnictwo Ministerstwa Obrony Narodowej",
   "cover_url_source": "https://books.google.com/books/content?id=12PMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=12PMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T02:07:58+00:00"
+  "cover_cached_at": "2026-05-03T02:07:58+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Invincible",
+      "year": 2023
+    }
+  ]
 }

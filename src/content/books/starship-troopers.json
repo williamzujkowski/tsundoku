@@ -63,7 +63,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 60,
   "first_published_circa": false,
@@ -84,5 +85,44 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/14630746-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14630746-L.jpg",
-  "cover_cached_at": "2026-05-03T01:52:59+00:00"
+  "cover_cached_at": "2026-05-03T01:52:59+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Starship Troopers",
+      "year": 1976
+    },
+    {
+      "type": "film",
+      "title": "Starship Troopers",
+      "year": 1997
+    },
+    {
+      "type": "other",
+      "title": "Starship Troopers: Terran Ascendancy",
+      "year": 2000
+    },
+    {
+      "type": "film",
+      "title": "Starship Troopers: Invasion",
+      "year": 2012
+    },
+    {
+      "type": "film",
+      "title": "Starship Troopers: Traitor of Mars",
+      "year": 2017
+    },
+    {
+      "type": "tv",
+      "title": "Roughnecks: Starship Troopers Chronicles"
+    },
+    {
+      "type": "film",
+      "title": "Starship Troopers"
+    },
+    {
+      "type": "other",
+      "title": "Starship Troopers"
+    }
+  ]
 }

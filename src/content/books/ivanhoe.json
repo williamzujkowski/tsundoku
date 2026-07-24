@@ -199,7 +199,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -215,5 +216,66 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/314235-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/314235-L.jpg",
-  "cover_cached_at": "2026-05-03T01:25:52+00:00"
+  "cover_cached_at": "2026-05-03T01:25:52+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Rebecca and Brian de Bois-Guilbert",
+      "year": 1828
+    },
+    {
+      "type": "other",
+      "title": "The Hebrew Maiden; or, the lost diamond",
+      "year": 1841
+    },
+    {
+      "type": "other",
+      "title": "Der Templer und die Jüdin",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "Ivanhoé",
+      "year": 1850
+    },
+    {
+      "type": "other",
+      "title": "The Abduction of Rebecca",
+      "year": 1858
+    },
+    {
+      "type": "film",
+      "title": "Ivanhoe",
+      "year": 1913
+    },
+    {
+      "type": "film",
+      "title": "Ivanhoe",
+      "year": 1952
+    },
+    {
+      "type": "tv",
+      "title": "Ivanhoe",
+      "year": 1982
+    },
+    {
+      "type": "film",
+      "title": "The Ballad of the Valiant Knight Ivanhoe",
+      "year": 1983
+    },
+    {
+      "type": "film",
+      "title": "Ivanhoe",
+      "year": 1986
+    },
+    {
+      "type": "tv",
+      "title": "Young Ivanhoe",
+      "year": 1999
+    },
+    {
+      "type": "tv",
+      "title": "Dark Knight"
+    }
+  ]
 }

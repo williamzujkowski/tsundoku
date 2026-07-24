@@ -168,7 +168,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 180,
   "first_published_circa": false,
@@ -179,5 +180,67 @@
   "original_language": "ger",
   "cover_url_source": "https://covers.openlibrary.org/b/id/2668686-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/2668686-L.jpg",
-  "cover_cached_at": "2026-05-03T01:19:45+00:00"
+  "cover_cached_at": "2026-05-03T01:19:45+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Heidi",
+      "year": 1920
+    },
+    {
+      "type": "film",
+      "title": "Heidi",
+      "year": 1937
+    },
+    {
+      "type": "film",
+      "title": "Heidi",
+      "year": 1952
+    },
+    {
+      "type": "film",
+      "title": "Heidi and Peter",
+      "year": 1955
+    },
+    {
+      "type": "film",
+      "title": "Do Phool",
+      "year": 1958
+    },
+    {
+      "type": "film",
+      "title": "Heidi",
+      "year": 1965
+    },
+    {
+      "type": "tv",
+      "title": "Heidi",
+      "year": 1968
+    },
+    {
+      "type": "tv",
+      "title": "The New Adventures of Heidi",
+      "year": 1978
+    },
+    {
+      "type": "film",
+      "title": "Heidi's Song",
+      "year": 1982
+    },
+    {
+      "type": "film",
+      "title": "Courage Mountain",
+      "year": 1990
+    },
+    {
+      "type": "tv",
+      "title": "Heidi",
+      "year": 1993
+    },
+    {
+      "type": "film",
+      "title": "Heidi",
+      "year": 1995
+    }
+  ]
 }

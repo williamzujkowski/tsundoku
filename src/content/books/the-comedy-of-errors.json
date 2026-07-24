@@ -203,7 +203,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
-    "original_language": "wikidata_v1"
+    "original_language": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -214,5 +215,42 @@
   "original_language": "eng",
   "cover_url_source": "https://covers.openlibrary.org/b/id/5561040-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/5561040-L.jpg",
-  "cover_cached_at": "2026-05-03T02:01:02+00:00"
+  "cover_cached_at": "2026-05-03T02:01:02+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "The Comedy of Errors",
+      "year": 1807
+    },
+    {
+      "type": "other",
+      "title": "Bhranti Bilas",
+      "year": 1869
+    },
+    {
+      "type": "other",
+      "title": "Pancharanta",
+      "year": 1919
+    },
+    {
+      "type": "other",
+      "title": "Gli equivoci"
+    },
+    {
+      "type": "other",
+      "title": "Gli equivoci - Qual confusion d'idee m'intorbida la mente"
+    },
+    {
+      "type": "other",
+      "title": "Pozdvižení v Efesu"
+    },
+    {
+      "type": "other",
+      "title": "The Bomb-itty of Errors"
+    },
+    {
+      "type": "other",
+      "title": "The Boys from Syracuse"
+    }
+  ]
 }

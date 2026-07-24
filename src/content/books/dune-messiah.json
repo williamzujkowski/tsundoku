@@ -65,7 +65,8 @@
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
     "original_publisher": "wikidata_v1",
-    "series": "wikidata_v1"
+    "series": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 70,
   "first_published_circa": false,
@@ -81,5 +82,17 @@
   },
   "cover_url_source": "https://covers.openlibrary.org/b/id/2421405-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/2421405-L.jpg",
-  "cover_cached_at": "2026-05-03T01:09:57+00:00"
+  "cover_cached_at": "2026-05-03T01:09:57+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Frank Herbert's Children of Dune",
+      "year": 2003
+    },
+    {
+      "type": "film",
+      "title": "Dune: Part Three",
+      "year": 2026
+    }
+  ]
 }

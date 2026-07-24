@@ -137,7 +137,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -149,5 +150,20 @@
   "original_publisher": "Edward Arnold Publishers",
   "cover_url_source": "https://covers.openlibrary.org/b/id/8235207-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/8235207-L.jpg",
-  "cover_cached_at": "2026-05-03T01:22:10+00:00"
+  "cover_cached_at": "2026-05-03T01:22:10+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Howards End",
+      "year": 1992
+    },
+    {
+      "type": "tv",
+      "title": "Howards End"
+    },
+    {
+      "type": "other",
+      "title": "The Inheritance"
+    }
+  ]
 }

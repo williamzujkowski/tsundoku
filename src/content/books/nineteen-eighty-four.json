@@ -198,7 +198,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -220,5 +221,67 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/9267242-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/9267242-L.jpg",
-  "cover_cached_at": "2026-05-03T01:34:40+00:00"
+  "cover_cached_at": "2026-05-03T01:34:40+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Neo-Sovietism",
+      "year": 1948
+    },
+    {
+      "type": "tv",
+      "title": "1984",
+      "year": 1953
+    },
+    {
+      "type": "tv",
+      "title": "Nineteen Eighty-Four",
+      "year": 1954
+    },
+    {
+      "type": "film",
+      "title": "1984",
+      "year": 1956
+    },
+    {
+      "type": "other",
+      "title": "1985",
+      "year": 1982
+    },
+    {
+      "type": "film",
+      "title": "1984",
+      "year": 1984
+    },
+    {
+      "type": "other",
+      "title": "1984 (For the Love of Big Brother)",
+      "year": 1984
+    },
+    {
+      "type": "film",
+      "title": "Nineteen Eighty-Four",
+      "year": 1984
+    },
+    {
+      "type": "other",
+      "title": "1984",
+      "year": 2010
+    },
+    {
+      "type": "other",
+      "title": "Nineteen Eighty-Nine",
+      "year": 2021
+    },
+    {
+      "type": "other",
+      "title": "Project 2025",
+      "year": 2022
+    },
+    {
+      "type": "film",
+      "title": "1984",
+      "year": 2023
+    }
+  ]
 }

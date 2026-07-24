@@ -75,7 +75,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 75,
   "first_published_circa": false,
@@ -87,5 +88,12 @@
   "original_publisher": "Harcourt",
   "cover_url_source": "https://covers.openlibrary.org/b/id/224558-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/224558-L.jpg",
-  "cover_cached_at": "2026-05-03T02:10:45+00:00"
+  "cover_cached_at": "2026-05-03T02:10:45+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "The Natural",
+      "year": 1984
+    }
+  ]
 }

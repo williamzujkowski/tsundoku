@@ -61,7 +61,8 @@
     "representative_edition_key": "ol_firstedition_v1",
     "translator": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_title": "wikidata_v1"
+    "original_title": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 76,
   "first_published_circa": false,
@@ -73,5 +74,36 @@
   "original_title": "Solaris",
   "cover_url_source": "https://covers.openlibrary.org/b/id/12313764-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12313764-L.jpg",
-  "cover_cached_at": "2026-05-03T01:51:13+00:00"
+  "cover_cached_at": "2026-05-03T01:51:13+00:00",
+  "adaptations": [
+    {
+      "type": "tv",
+      "title": "Solaris",
+      "year": 1968
+    },
+    {
+      "type": "film",
+      "title": "Solaris",
+      "year": 1972
+    },
+    {
+      "type": "film",
+      "title": "Solaris",
+      "year": 2002
+    },
+    {
+      "type": "opera",
+      "title": "Solaris",
+      "year": 2008
+    },
+    {
+      "type": "other",
+      "title": "Solaris",
+      "year": 2010
+    },
+    {
+      "type": "other",
+      "title": "Solaris"
+    }
+  ]
 }

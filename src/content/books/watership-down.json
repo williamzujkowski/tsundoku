@@ -96,7 +96,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "awards": "wikidata_v1"
+    "awards": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 97,
   "first_published_circa": false,
@@ -124,5 +125,16 @@
   ],
   "cover_url_source": "https://covers.openlibrary.org/b/id/6450196-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6450196-L.jpg",
-  "cover_cached_at": "2026-05-03T02:26:32+00:00"
+  "cover_cached_at": "2026-05-03T02:26:32+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Watership Down",
+      "year": 1978
+    },
+    {
+      "type": "tv",
+      "title": "Watership Down"
+    }
+  ]
 }

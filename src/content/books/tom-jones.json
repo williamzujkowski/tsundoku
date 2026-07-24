@@ -196,7 +196,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 400,
   "first_published_circa": false,
@@ -210,5 +211,39 @@
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/12968864-L.jpg",
   "cover_cached_at": "2026-05-03T02:21:31+00:00",
   "google_books_url": "https://play.google.com/store/books/details?id=MhAGAAAAQAAJ&source=gbs_api",
-  "librivox_url": "https://librivox.org/history-of-tom-jones-by-henry-fielding/"
+  "librivox_url": "https://librivox.org/history-of-tom-jones-by-henry-fielding/",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Tom Jones",
+      "year": 1917
+    },
+    {
+      "type": "tv",
+      "title": "Tom Jones",
+      "year": 1960
+    },
+    {
+      "type": "film",
+      "title": "Tom Jones",
+      "year": 1963
+    },
+    {
+      "type": "film",
+      "title": "The Bawdy Adventures of Tom Jones",
+      "year": 1976
+    },
+    {
+      "type": "tv",
+      "title": "The History of Tom Jones: a Foundling"
+    },
+    {
+      "type": "other",
+      "title": "Tom Jones"
+    },
+    {
+      "type": "tv",
+      "title": "Tom Jones"
+    }
+  ]
 }

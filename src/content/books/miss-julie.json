@@ -85,7 +85,8 @@
     "wikidata_qid": "wikidata_v1",
     "original_title": "wikidata_v1",
     "original_language": "wikidata_v1",
-    "first_published_circa": "wikidata_v1"
+    "first_published_circa": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 109,
   "first_edition_isbn": null,
@@ -96,5 +97,40 @@
   "first_published_circa": false,
   "cover_url_source": "https://books.google.com/books/content?id=VcyQ2ToJw6QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   "cover_url_large_source": "https://books.google.com/books/content?id=VcyQ2ToJw6QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-  "cover_cached_at": "2026-05-03T01:32:56+00:00"
+  "cover_cached_at": "2026-05-03T01:32:56+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "Miss Julie",
+      "year": 1912
+    },
+    {
+      "type": "film",
+      "title": "Plebeian",
+      "year": 1915
+    },
+    {
+      "type": "film",
+      "title": "Miss Julie",
+      "year": 1951
+    },
+    {
+      "type": "film",
+      "title": "Miss Julie",
+      "year": 1969
+    },
+    {
+      "type": "film",
+      "title": "Miss Julie",
+      "year": 2014
+    },
+    {
+      "type": "other",
+      "title": "Freule Julie"
+    },
+    {
+      "type": "other",
+      "title": "Miss Julie"
+    }
+  ]
 }

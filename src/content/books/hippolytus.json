@@ -132,7 +132,8 @@
     "original_title": "ol_firstedition_v1",
     "first_edition_isbn": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
-    "wikidata_qid": "wikidata_v1"
+    "wikidata_qid": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 105,
   "first_published_circa": false,
@@ -143,5 +144,30 @@
   "wikidata_qid": "Q375786",
   "cover_url_source": "https://covers.openlibrary.org/b/id/6496522-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/6496522-L.jpg",
-  "cover_cached_at": "2026-05-03T01:20:35+00:00"
+  "cover_cached_at": "2026-05-03T01:20:35+00:00",
+  "adaptations": [
+    {
+      "type": "other",
+      "title": "Phèdre",
+      "year": 1677
+    },
+    {
+      "type": "film",
+      "title": "Phaedra",
+      "year": 1962
+    },
+    {
+      "type": "other",
+      "title": "Phaedra",
+      "year": 2010
+    },
+    {
+      "type": "stage",
+      "title": "Hippolytos"
+    },
+    {
+      "type": "other",
+      "title": "Phaedra"
+    }
+  ]
 }

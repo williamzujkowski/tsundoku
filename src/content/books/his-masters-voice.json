@@ -49,7 +49,8 @@
     "original_title": "ol_firstedition_v1",
     "representative_edition_key": "ol_firstedition_v1",
     "wikidata_qid": "wikidata_v1",
-    "original_publisher": "wikidata_v1"
+    "original_publisher": "wikidata_v1",
+    "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 21,
   "first_published_circa": false,
@@ -60,5 +61,12 @@
   "original_publisher": "Czytelnik",
   "cover_url_source": "https://covers.openlibrary.org/b/id/14052205-M.jpg",
   "cover_url_large_source": "https://covers.openlibrary.org/b/id/14052205-L.jpg",
-  "cover_cached_at": "2026-05-03T01:20:37+00:00"
+  "cover_cached_at": "2026-05-03T01:20:37+00:00",
+  "adaptations": [
+    {
+      "type": "film",
+      "title": "His Master's Voice",
+      "year": 2018
+    }
+  ]
 }
