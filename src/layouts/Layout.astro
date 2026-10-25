@@ -159,6 +159,7 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
           <div class="nav-utility">
             <SearchModal client:idle baseUrl={base} />
             <RandomBook client:idle baseUrl={base} />
+            <PalettePicker />
             <ThemeToggle client:idle />
             <button
               id="mobile-menu-btn"
@@ -192,7 +193,6 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
       <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer">
         Source on GitHub
       </a>
-      <PalettePicker />
     </footer>
 
     <script is:inline>
