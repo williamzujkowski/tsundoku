@@ -201,13 +201,14 @@ a:hover { color: var(--color-accent); }
 .font-black { font-weight: 700; }
 
 /* Long-form prose (descriptions, bios). Caps line length at the reading
-   measure, uses the body-lg size + generous line-height. Old-style
-   numerals when present. */
+   measure, uses the body-lg size + generous line-height. Proportional
+   figures only: Inter has no onum, so oldstyle-nums was a silent no-op
+   (remarque-audit font-feature gate, 0.28). */
 .prose, .prose-text {
   font-size: var(--text-body);
   line-height: var(--leading-body);
   max-width: var(--content-reading);
-  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-variant-numeric: proportional-nums;
 }
 .prose p + p { margin-top: 1em; }
 .prose a { color: var(--color-link); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
