@@ -2,6 +2,9 @@
 dist/
 .astro/
 
+# Palette Deck assets copied from remarque-tokens at prebuild
+public/palettes/
+
 # Dependencies
 node_modules/
 

@@ -4,6 +4,7 @@ import { ClientRouter } from 'astro:transitions';
 import SearchModal from '../components/SearchModal.svelte';
 import RandomBook from '../components/RandomBook.svelte';
 import ThemeToggle from '../components/ThemeToggle.svelte';
+import PalettePicker from '../components/PalettePicker.astro';
 import stats from '../data/stats.json';
 
 interface Props {
@@ -52,12 +53,14 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
         global.css is still loading (especially over slow networks),
         producing a visible flash before the themed background applies.
         Values mirror src/styles/tokens-site.css's --color-bg/--color-fg
-        (light default, dark via media query + explicit [data-theme]). */}
+        (light default, dark via media query + explicit [data-theme]). Skipped
+        when a Palette Deck palette is active ([data-palette]): its literal
+        colors would otherwise outrank the palette's var(--color-bg). */}
     <style is:inline>
-      :root { color-scheme: light; background: oklch(0.975 0.005 80); color: oklch(0.18 0.01 80); }
-      [data-theme="dark"] { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
+      :root:not([data-palette]) { color-scheme: light; background: oklch(0.975 0.005 80); color: oklch(0.18 0.01 80); }
+      [data-theme="dark"]:not([data-palette]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
       @media (prefers-color-scheme: dark) {
-        :root:not([data-theme="light"]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
+        :root:not([data-theme="light"]):not([data-palette]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
       }
       body { background: inherit; color: inherit; margin: 0; }
     </style>
@@ -110,10 +113,30 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
             html.removeAttribute('data-theme');
             html.style.colorScheme = '';
           }
+          // Same for the Palette Deck choice.
+          var palette = document.documentElement.getAttribute('data-palette');
+          if (palette) html.setAttribute('data-palette', palette);
+          else html.removeAttribute('data-palette');
         } catch (_) {
           // ignore — pre-paint inline script will catch it post-swap
         }
       });
+    </script>
+    {/* Palette Deck (remarque-tokens/deck): 15 curated terminal themes in one
+        stylesheet, copied to public/palettes/ at prebuild. Each palette is
+        inert until [data-palette] is set; the site's own palette stays the
+        default. */}
+    <link rel="stylesheet" href={`${base}palettes/deck.css`} />
+    {/* Palette restore BEFORE first paint: synchronous classic script (a
+        module script would defer past first paint). Re-runs on every
+        client-side navigation, like the theme script above. */}
+    <script is:inline data-astro-rerun>
+      (function () {
+        try {
+          var p = localStorage.getItem('remarque-palette');
+          if (p) document.documentElement.setAttribute('data-palette', p);
+        } catch (e) {}
+      })();
     </script>
     <ClientRouter />
   </head>
@@ -169,6 +192,7 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
       <a href="https://github.com/williamzujkowski/tsundoku" target="_blank" rel="noopener noreferrer">
         Source on GitHub
       </a>
+      <PalettePicker />
     </footer>
 
     <script is:inline>
