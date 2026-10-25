@@ -314,6 +314,17 @@
       part of the audited required-token set.
    ============================================================ */
 
+/* Palette Deck: swatches for the site's OWN palette ("Tsundoku" option in
+   the footer picker). Literal values mirror --color-bg / --color-fg /
+   --color-accent above, as light-dark() so they follow color-scheme.
+   Higher specificity than the package's deck.css default-swatch block so
+   it wins regardless of stylesheet order. */
+:root [data-palette-swatch="default"] {
+  --swatch-bg: light-dark(oklch(0.975 0.005 80), oklch(0.16 0.01 80));
+  --swatch-fg: light-dark(oklch(0.18 0.01 80), oklch(0.90 0.005 80));
+  --swatch-accent: light-dark(oklch(0.50 0.11 35), oklch(0.68 0.11 35));
+}
+
 :root {
   /* --- legacy aliases: backgrounds / text / borders --- */
   --bg: var(--color-bg);

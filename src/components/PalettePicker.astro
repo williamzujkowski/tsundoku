@@ -1,0 +1,53 @@
+---
+/**
+ * Palette picker (remarque-tokens/deck + chrome, 0.31): the reader's choice
+ * of color theme. The site's own palette stays the default (value=""). Options
+ * come from the deck manifest; swatches come from deck.css (and the site's own
+ * from tokens-site.css). Native radios, so keyboard operation needs no script.
+ */
+import manifest from 'remarque-tokens/deck.json';
+
+const palettes: { name: string; label: string }[] = manifest.palettes;
+---
+
+<details class="remarque-deck-picker" id="palette-picker">
+  <summary>Theme: <span data-deck-current>Tsundoku</span></summary>
+  <fieldset>
+    <legend class="remarque-sr-only">Color theme</legend>
+    <label class="remarque-deck-option">
+      <input type="radio" name="remarque-palette" value="" checked />
+      <span class="remarque-deck-swatches" data-palette-swatch="default" aria-hidden="true"><span></span><span></span><span></span></span>
+      Tsundoku
+    </label>
+    {palettes.map((p) => (
+      <label class="remarque-deck-option">
+        <input type="radio" name="remarque-palette" value={p.name} />
+        <span class="remarque-deck-swatches" data-palette-swatch={p.name} aria-hidden="true"><span></span><span></span><span></span></span>
+        {p.label}
+      </label>
+    ))}
+  </fieldset>
+</details>
+
+<script define:vars={{ labels: Object.fromEntries(palettes.map((p) => [p.name, p.label])) }}>
+  window.__remarqueDeckLabels = labels;
+</script>
+<script>
+  import { createDeck, bindPicker } from 'remarque-tokens/deck';
+  import manifest from 'remarque-tokens/deck.json';
+
+  // The footer is re-rendered on every client-side navigation, so bind on
+  // each astro:page-load (module scripts run once).
+  function init() {
+    const picker = document.getElementById('palette-picker');
+    if (!picker) return;
+    const labels: Record<string, string> = (window as any).__remarqueDeckLabels ?? {};
+    const current = picker.querySelector('[data-deck-current]');
+    const deck = createDeck(manifest.palettes.map((p: { name: string }) => p.name));
+    deck.restore();
+    bindPicker(deck, picker, {
+      onChange: (name) => { if (current) current.textContent = name ? (labels[name] ?? name) : 'Tsundoku'; },
+    });
+  }
+  document.addEventListener('astro:page-load', init);
+</script>

@@ -30,6 +30,8 @@
 @import 'remarque-tokens/core';
 @import './tokens-site.css';
 @import 'remarque-tokens/prose';
+/* Palette picker styles (.remarque-deck-*) live in the chrome module. */
+@import 'remarque-tokens/chrome';
 
 /* ===== Reset & Base =====
    tokens-core.css (imported above) already sets html { font-family,
