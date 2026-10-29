@@ -482,8 +482,8 @@ a:hover { color: var(--color-accent); }
   overflow: hidden;
   display: flex;
 }
-.progress-fill-read { background: var(--pop-green); }
-.progress-fill-reading { background: var(--pop-yellow); }
+.progress-fill-read { background: var(--color-success); }
+.progress-fill-reading { background: var(--color-warning); }
 
 /* ===== Category Tile ===== */
 .cat-tile {
@@ -571,9 +571,9 @@ a:hover { color: var(--color-accent); }
   font-weight: 500;
   letter-spacing: var(--tracking-meta);
 }
-.status-read { color: var(--pop-green); }
-.status-reading { color: var(--pop-yellow); }
-.status-want { color: var(--pop-blue); }
+.status-read { color: var(--color-success); }
+.status-reading { color: var(--color-warning); }
+.status-want { color: var(--color-accent); }
 
 /* ===== Breadcrumb ===== */
 .breadcrumb {
@@ -650,12 +650,12 @@ a:hover { color: var(--color-accent); }
 .resource-btn:hover {
   color: var(--text);
 }
-.resource-btn-gutenberg { border-color: var(--pop-green); }
-.resource-btn-gutenberg:hover { color: var(--pop-green); }
-.resource-btn-hathitrust { border-color: var(--pop-blue); }
-.resource-btn-hathitrust:hover { color: var(--pop-blue); }
-.resource-btn-librivox { border-color: var(--pop-yellow); }
-.resource-btn-librivox:hover { color: var(--pop-yellow); }
+.resource-btn-gutenberg { border-color: var(--color-success); }
+.resource-btn-gutenberg:hover { color: var(--color-success); }
+.resource-btn-hathitrust { border-color: var(--color-viz-1); }
+.resource-btn-hathitrust:hover { color: var(--color-viz-1); }
+.resource-btn-librivox { border-color: var(--color-warning); }
+.resource-btn-librivox:hover { color: var(--color-warning); }
 
 /* ===== Letter Nav ===== */
 .letter-nav-link {
@@ -845,10 +845,10 @@ a:hover { color: var(--color-accent); }
 .card-padded-lg { padding: var(--space-5) var(--space-6); }
 
 /* Stat badge color variants */
-.stat-badge-green { border-color: var(--pop-green); }
-.stat-badge-green .stat-badge-number { color: var(--pop-green); }
-.stat-badge-blue { border-color: var(--pop-blue); }
-.stat-badge-blue .stat-badge-number { color: var(--pop-blue); }
+.stat-badge-green { border-color: var(--color-success); }
+.stat-badge-green .stat-badge-number { color: var(--color-success); }
+.stat-badge-blue { border-color: var(--color-viz-1); }
+.stat-badge-blue .stat-badge-number { color: var(--color-viz-1); }
 .stat-badge-dim .stat-badge-number { color: var(--text-dim); }
 
 /* Large stat number for definition lists */

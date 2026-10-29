@@ -552,7 +552,7 @@
 
   .view-toggle-btn.active {
     background: var(--color-accent);
-    color: var(--on-accent, #fff);
+    color: var(--on-accent, var(--color-bg));
   }
 
   /* Compact list view */
