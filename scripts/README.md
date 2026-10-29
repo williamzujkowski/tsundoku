@@ -1,6 +1,6 @@
 # Scripts
 
-Canonical inventory of all Python scripts. Referenced by CLAUDE.md and README.md.
+Canonical inventory of all Python scripts. Referenced by AGENTS.md and README.md.
 
 ## Enrichment Runner
 

@@ -27,7 +27,7 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
          the width where it would otherwise crowd the prose column. -->
     <section class="mb-8 tsundoku-mark-row">
       <span class="tategaki-mark" lang="ja" aria-hidden="true">積ん読</span>
-      <div class="prose-container tsundoku-mark-prose">
+      <div class="prose-container tsundoku-mark-prose remarque-prose remarque-prose--dropcap">
         <h2 class="heading-lg mb-4 section-heading">積ん読 — Tsundoku</h2>
         <p class="prose-text">
           <strong>Tsundoku</strong> (積ん読) is a beautiful Japanese word for the act of acquiring books and letting them pile up without reading them. It combines <em>tsunde-oku</em> (to pile things up) with <em>doku</em> (to read).
@@ -38,6 +38,7 @@ const hathitrustCount = books.filter(b => b.data.hathitrust_url).length;
         <p class="text-muted prose-text">
           This site is a monument to that optimism: {stats.total_books.toLocaleString()} books cataloged, {readPct}% read, and roughly {yearsToFinish} years of nonstop reading to finish the rest. But who's counting?
         </p>
+        <div class="remarque-endmark" aria-hidden="true"></div>
       </div>
     </section>
 

@@ -260,7 +260,7 @@ class TestBookIntegrity:
         assert len(bad) == 0, f"Non-English descriptions:\n" + "\n".join(bad[:10])
 
     def test_language_is_english(self):
-        """Every book must declare language 'eng' (CLAUDE.md hard rule).
+        """Every book must declare language 'eng' (AGENTS.md hard rule).
 
         When the field is present it must be exactly "eng"; the collection is
         English-only by policy. A book carrying e.g. "fre"/"spa" is a data bug.

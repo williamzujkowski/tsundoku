@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { ddcClassOf } from '../../utils/formatting';
 
 const DDC_MAIN_CLASSES: Array<{ code: string; name: string; description: string }> = [
   { code: '000', name: 'General works', description: 'Computer science, information, libraries, journalism' },
@@ -20,15 +21,6 @@ const books = await getCollection('books');
 // Bucket each book by the first digit of its first DDC entry. Books
 // without DDC don't appear here — they're still reachable via /browse/
 // and /categories/.
-function ddcClassOf(ddcs: string[] | undefined): string | null {
-  if (!ddcs || ddcs.length === 0) return null;
-  const first = ddcs[0];
-  for (const ch of first) {
-    if (ch >= '0' && ch <= '9') return ch + '00';
-  }
-  return null;
-}
-
 const counts = new Map<string, number>();
 for (const b of books) {
   const cls = ddcClassOf(b.data.ddc);

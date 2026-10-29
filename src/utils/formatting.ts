@@ -70,6 +70,19 @@ export function formatCallNumber(ddc: string | string[] | undefined | null): str
 }
 
 /**
+ * Extract the 3-digit Dewey main class (000–900) from a DDC call number.
+ * Returns e.g. "800" for "813.54", "000" for "005.1", or null if invalid.
+ */
+export function ddcClassOf(ddc: string | string[] | undefined | null): string | null {
+  const formatted = formatCallNumber(ddc);
+  if (!formatted) return null;
+  for (const ch of formatted) {
+    if (ch >= '0' && ch <= '9') return ch + '00';
+  }
+  return null;
+}
+
+/**
  * Invert "First Last" to catalog-card "Last, First" order (Device 1 and
  * Device 5's card anatomy). Joint bylines (via parseAuthors) invert each
  * component and join with "; ". Organizational names, already-comma'd

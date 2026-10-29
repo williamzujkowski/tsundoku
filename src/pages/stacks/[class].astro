@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { resolveImageSrc } from '../../utils/imageGuard';
 import { getCollection } from 'astro:content';
-import { priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
+import { priorityClass, priorityLabel, formatYear, statusStamp } from '../../utils/formatting';
 
 const DDC_LABELS: Record<string, string> = {
   '000': 'General works', '100': 'Philosophy & psychology', '200': 'Religion',
@@ -50,15 +50,6 @@ const DDC_DIVISION_LABELS: Record<string, string> = {
   '930': 'Ancient world', '940': 'Europe', '950': 'Asia', '960': 'Africa',
   '970': 'North America', '980': 'South America', '990': 'Other parts of the world',
 };
-
-function ddcClassOf(ddcs: string[] | undefined): string | null {
-  if (!ddcs || ddcs.length === 0) return null;
-  const first = ddcs[0];
-  for (const ch of first) {
-    if (ch >= '0' && ch <= '9') return ch + '00';
-  }
-  return null;
-}
 
 function ddcDivisionOf(ddc: string): string {
   // Pull two leading digits (e.g. "813" → "810", "823.912" → "820").
@@ -145,7 +136,13 @@ const base = import.meta.env.BASE_URL;
               {b.first_published && (
                 <p class="text-xs text-dim">{formatYear(b.first_published, b.first_published_circa)}</p>
               )}
-              <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+              <div class="flex items-center justify-between gap-2 mt-2">
+                <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+                {(() => {
+                  const stamp = statusStamp(b.reading_status);
+                  return stamp ? <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span> : null;
+                })()}
+              </div>
             </div>
           </a>
         ))}
