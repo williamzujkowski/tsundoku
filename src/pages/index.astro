@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import CatalogSearch from '../components/CatalogSearch.svelte';
 import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
 import { ddcClassOf, formatCallNumber, toSlug, formatYear } from '../utils/formatting';
@@ -196,20 +197,7 @@ const CHRONOLOGICAL_ERAS = [
     </p>
 
     <!-- Library Quick Search Box -->
-    <div class="catalog-search-wrap">
-      <button
-        type="button"
-        class="catalog-search-trigger"
-        onclick="window.dispatchEvent(new CustomEvent('open-search'))"
-        aria-label="Open library catalog search"
-      >
-        <svg class="search-icon" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-        </svg>
-        <span class="search-placeholder">Search 3,584 volumes by title, author, subject, or call number...</span>
-        <kbd class="search-shortcut">⌘K</kbd>
-      </button>
-    </div>
+    <CatalogSearch client:load baseUrl={base} totalBooks={stats.total_books} />
 
     <!-- Accessions Ledger (The High-Density Facts Strip) -->
     <div class="accessions-ledger" aria-label="Library collection summary">
@@ -540,53 +528,6 @@ const CHRONOLOGICAL_ERAS = [
     max-width: 44rem;
   }
 
-  /* Catalog Search Trigger Wrap */
-  .catalog-search-wrap {
-    max-width: 38rem;
-    margin-inline: auto;
-    margin-bottom: var(--space-6);
-  }
-  .catalog-search-trigger {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    padding: 0.75rem 1.1rem;
-    background: var(--bg-surface);
-    border: var(--border-width) solid var(--color-border-bold);
-    border-radius: var(--radius-sm, 3px);
-    color: var(--text-muted);
-    cursor: pointer;
-    font-family: var(--font-body);
-    font-size: var(--text-sm);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-    transition: border-color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
-  }
-  .catalog-search-trigger:hover {
-    border-color: var(--color-accent);
-    background: var(--bg-elevated);
-    color: var(--text);
-  }
-  .search-icon {
-    flex-shrink: 0;
-    color: var(--color-accent);
-  }
-  .search-placeholder {
-    flex: 1;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .search-shortcut {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    background: var(--bg-elevated);
-    border: var(--border-width) solid var(--border);
-    padding: 0.15rem 0.45rem;
-    border-radius: 2px;
-    color: var(--text-dim);
-  }
 
   /* Accessions Ledger Strip */
   .accessions-ledger {
