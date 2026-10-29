@@ -1,6 +1,6 @@
 {
   "total_books": 3584,
-  "total_categories": 28,
+  "total_categories": 34,
   "total_authors": 1649,
   "priorities": {
     "must_read": 1702,
@@ -500,7 +500,7 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1167
+      "count": 977
     },
     {
       "name": "Philosophy",
@@ -508,7 +508,7 @@
     },
     {
       "name": "Science Fiction",
-      "count": 364
+      "count": 363
     },
     {
       "name": "Fantasy",
@@ -524,7 +524,7 @@
     },
     {
       "name": "Mystery",
-      "count": 161
+      "count": 160
     },
     {
       "name": "Drama",
@@ -551,12 +551,20 @@
       "count": 66
     },
     {
+      "name": "Historical Fiction",
+      "count": 63
+    },
+    {
       "name": "Political Theory",
       "count": 58
     },
     {
       "name": "Classics",
       "count": 57
+    },
+    {
+      "name": "Children's Literature",
+      "count": 54
     },
     {
       "name": "Security",
@@ -571,6 +579,10 @@
       "count": 39
     },
     {
+      "name": "Adventure",
+      "count": 35
+    },
+    {
       "name": "Literary Criticism",
       "count": 34
     },
@@ -583,12 +595,24 @@
       "count": 21
     },
     {
+      "name": "Short Stories",
+      "count": 19
+    },
+    {
+      "name": "Humor & Satire",
+      "count": 14
+    },
+    {
       "name": "Essays",
       "count": 11
     },
     {
       "name": "Complex Systems",
       "count": 10
+    },
+    {
+      "name": "Thriller & Espionage",
+      "count": 7
     },
     {
       "name": "Medieval Philosophy & Theology",
@@ -638,5 +662,5 @@
     "shelf_meters": 89.6,
     "books_with_pages": 3463
   },
-  "generated_at": "2026-10-29T02:27:02.498274"
+  "generated_at": "2026-10-29T09:26:54.846879"
 }

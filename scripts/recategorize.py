@@ -51,6 +51,16 @@ NEEDS_SUBJECT_TAGS = {
     "politics": "Political Theory",
     "political-theory": "Political Theory",
     "philosophy": "Philosophy",
+    # Extended library categories
+    "historical-fiction": "Historical Fiction",
+    "children": "Children's Literature",
+    "young-adult": "Children's Literature",
+    "adventure": "Adventure",
+    "short-stories": "Short Stories",
+    "espionage": "Thriller & Espionage",
+    "thriller": "Thriller & Espionage",
+    "humor": "Humor & Satire",
+    "satire": "Humor & Satire",
 }
 
 # Subjects from Open Library (LCSH) — must contain one of these phrases.
@@ -159,6 +169,67 @@ SUBJECT_KEYWORDS = {
         "anarchism",
         "state, the",
     ],
+    "Historical Fiction": [
+        "historical fiction",
+        "historical, general",
+        "historical novels",
+    ],
+    "Children's Literature": [
+        "children's stories",
+        "children's fiction",
+        "juvenile fiction",
+        "fairy tales",
+        "children's literature",
+    ],
+    "Adventure": [
+        "adventure stories",
+        "action & adventure",
+        "adventure and adventurers",
+        "sea stories",
+    ],
+    "Short Stories": [
+        "short stories (single author)",
+        "short stories, general",
+    ],
+    "Thriller & Espionage": [
+        "spy stories",
+        "espionage -- fiction",
+        "suspense fiction",
+        "political thrillers",
+    ],
+    "Humor & Satire": [
+        "humorous stories",
+        "comic fiction",
+        "satirical fiction",
+    ],
+}
+
+# New canonical library categories to expand the catalog shelves
+CANONICAL_CATEGORIES = {
+    "Historical Fiction",
+    "Children's Literature",
+    "Adventure",
+    "Short Stories",
+    "Thriller & Espionage",
+    "Humor & Satire",
+}
+
+# Foundational literary classics that belong in core Literature regardless of genre overlap
+CANONICAL_LITERATURE_TITLES = {
+    "don quixote",
+    "infinite jest",
+    "a christmas carol",
+    "ulysses",
+    "moby dick",
+    "the great gatsby",
+    "war and peace",
+    "in search of lost time",
+    "middlemarch",
+    "death in venice",
+    "american pastoral",
+    "absalom, absalom!",
+    "east of eden",
+    "sing, unburied, sing",
 }
 
 SCI_FI_KEYWORDS = [
@@ -172,12 +243,12 @@ FANTASY_KEYWORDS = [
 
 
 def existing_categories() -> set[str]:
-    """Discover what categories actually exist in the data, lower-cased for matching."""
+    """Discover what categories actually exist in the data, plus new canonical library shelves."""
     cats = set()
     for f in BOOKS_DIR.glob("*.json"):
         d = json.loads(f.read_text())
         cats.add(d.get("category", ""))
-    return cats
+    return cats | CANONICAL_CATEGORIES
 
 
 def _keyword_matches(keyword: str, text: str) -> bool:
@@ -333,6 +404,10 @@ def proposed_category(book: dict, existing: set[str]) -> str | None:
       3. Two or more Open Library subjects agree on the same category.
     AND the proposal must differ from the current category and exist in the catalog.
     """
+    # Core literary canon works belong in Literature regardless of genre overlap
+    if book.get("title", "").strip().lower() in CANONICAL_LITERATURE_TITLES:
+        return None
+
     current = book.get("category", "")
     tags = set(book.get("tags") or [])
     subjects = [s.lower() for s in (book.get("subject_facet") or [])]

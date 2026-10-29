@@ -19,27 +19,142 @@ const categories = [...categoryMap.entries()]
     slug: toSlug(name),
   }));
 const base = import.meta.env.BASE_URL;
+
+interface LibraryWing {
+  id: string;
+  name: string;
+  callRange: string;
+  description: string;
+  categoryNames: string[];
+}
+
+const LIBRARY_WINGS: LibraryWing[] = [
+  {
+    id: 'belles-lettres',
+    name: 'Belles-Lettres & Prose Salon',
+    callRange: 'DDC 800–899 · LCC P / PR / PS / PQ',
+    description: 'Novels, masterworks of narrative, novellas, satire, and literary discourse.',
+    categoryNames: ['Literature', 'Historical Fiction', 'Short Stories', 'Humor & Satire', 'Essays', 'Literary Criticism', 'Non-Western Literature'],
+  },
+  {
+    id: 'speculative',
+    name: 'The Speculative & Fantastic Wing',
+    callRange: 'DDC 813.087 · LCC PZ / PS',
+    description: 'Visions of the machine age, space opera, secondary worlds, mythos, and the gothic.',
+    categoryNames: ['Science Fiction', 'Fantasy', 'Horror', 'Science Fiction & Fantasy'],
+  },
+  {
+    id: 'detective',
+    name: 'The Detective & Noir Bureau',
+    callRange: 'DDC 813.0872 / 823.0872',
+    description: 'Police procedurals, classic whodunits, hardboiled private eyes, and cold war espionage.',
+    categoryNames: ['Mystery', 'Thriller & Espionage'],
+  },
+  {
+    id: 'classical-drama',
+    name: 'The Classical & Dramatic Gallery',
+    callRange: 'DDC 811/821 (Poetry) · 812/822 (Drama) · LCC PA',
+    description: 'The ancient Greco-Roman canon, poetic verse, and theatrical stagecraft.',
+    categoryNames: ['Drama', 'Classics', 'Poetry'],
+  },
+  {
+    id: 'philosophy',
+    name: 'The Hall of Philosophy & Social Thought',
+    callRange: 'DDC 100–199 (Phil) · 320–339 (Pol/Econ) · 200–299 (Rel)',
+    description: 'Epistemology, ethics, political philosophy, economics, theology, and governance.',
+    categoryNames: ['Philosophy', 'Political Theory', 'Economics', 'Religion', 'Non-Western Philosophy', 'Medieval Philosophy & Theology', 'Governance'],
+  },
+  {
+    id: 'sciences',
+    name: 'The Scientific & Computational Stacks',
+    callRange: 'DDC 004–006 (CS) · 510–599 (Math & Sci) · LCC QA / Q',
+    description: 'Computer systems, cryptography, algorithms, pure mathematics, and natural sciences.',
+    categoryNames: ['Computer Science', 'Security', 'Mathematics', 'Science', 'Complex Systems'],
+  },
+  {
+    id: 'history',
+    name: 'The Historical & Biographical Archive',
+    callRange: 'DDC 900–999 · LCC D / E / F',
+    description: 'Chronicles of civilizations, wars, memoirs, correspondence, and global history.',
+    categoryNames: ['History', 'Biography/Memoir', 'Global History', 'Non-Western History'],
+  },
+  {
+    id: 'youth-adventure',
+    name: 'The Youth & Adventure Alcove',
+    callRange: 'DDC 813 / 823 · Action & Juvenile',
+    description: 'Voyages of exploration, maritime survival, young-adult journeys, and children’s classics.',
+    categoryNames: ['Children\'s Literature', 'Adventure'],
+  },
+];
 ---
 
 <Layout title="Categories">
-  <h1 class="heading-xl mb-2">Categories</h1>
-  <p class="text-muted text-sm mb-2">{categories.length} categories — the primary classification, mostly aligned with library Dewey/LC.</p>
-  <p class="text-dim text-sm mb-8">
-    Genre cuts across categories. To browse <a href={`${base}tags/`} class="ext-link" style="text-decoration: underline">by tag</a> instead — sci-fi, fantasy, mystery, etc.
-  </p>
-
-  <div class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-3 mb-8">
-    {categories.map(cat => (
-      <a href={`${base}categories/${cat.slug}/`}
-         class={`cat-tile cat-${cat.slug}`}>
-        <span>{cat.name}</span>
-        <span class="cat-tile-count">{cat.count} {pluralize(cat.count, 'book')}</span>
-      </a>
-    ))}
+  <div class="mb-6">
+    <div class="dossier-archive-label mb-1">TSUNDOKU CARD CATALOG · CLASSIFIED SHELVES</div>
+    <h1 class="heading-xl mb-2">Library Categories &amp; Wings</h1>
+    <p class="text-muted text-sm max-w-2xl mb-2">
+      {categories.length} departmental shelves organized into 8 reading wings, classifying all {books.length.toLocaleString()} volumes in the library.
+    </p>
+    <p class="text-dim text-xs text-mono">
+      Looking for genre cross-cuts? Browse <a href={`${base}tags/`} class="ext-link" style="text-decoration: underline">by genre tag</a> or <a href={`${base}stacks/`} class="ext-link" style="text-decoration: underline">by Dewey stack</a>.
+    </p>
   </div>
 
+  <!-- Library Wings Section -->
+  <section class="mb-10">
+    <h2 class="heading-md mb-4 flex items-center justify-between">
+      <span>Departments &amp; Reading Wings</span>
+      <span class="text-xs text-dim text-mono font-normal">8 Wings · 34 Shelves</span>
+    </h2>
+
+    <div class="grid grid-1 md-grid-2 gap-4 mb-8">
+      {LIBRARY_WINGS.map(wing => {
+        const wingCats = wing.categoryNames
+          .map(name => categories.find(c => c.name === name))
+          .filter((c): c is typeof categories[number] => Boolean(c));
+        const totalWingBooks = wingCats.reduce((acc, c) => acc + c.count, 0);
+
+        return (
+          <div class="card card-padded wing-card">
+            <div class="flex items-baseline justify-between mb-1 gap-2 flex-wrap">
+              <h3 class="font-bold text-base">{wing.name}</h3>
+              <span class="text-xs text-mono text-dim">{totalWingBooks.toLocaleString()} volumes</span>
+            </div>
+            <div class="text-mono text-xs text-dim mb-2">{wing.callRange}</div>
+            <p class="text-xs text-muted mb-3">{wing.description}</p>
+            <div class="flex flex-wrap gap-1.5">
+              {wingCats.map(cat => (
+                <a href={`${base}categories/${cat.slug}/`}
+                   class={`cat-tile cat-tile-sm cat-${cat.slug}`}>
+                  <span>{cat.name}</span>
+                  <span class="cat-tile-count text-dim">({cat.count})</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Complete Alphabetical Index -->
   <hr class="section-divider" />
-  <h2 class="heading-md mb-4">Other ways to browse</h2>
+  <section class="py-6">
+    <h2 class="heading-md mb-4">Complete Alphabetical Index (A–Z)</h2>
+    <div class="grid sm-grid-2 md-grid-3 lg-grid-4 gap-3 mb-8">
+      {categories.map(cat => (
+        <a href={`${base}categories/${cat.slug}/`}
+           class={`cat-tile cat-${cat.slug}`}>
+          <span>{cat.name}</span>
+          <span class="cat-tile-count">{cat.count} {pluralize(cat.count, 'book')}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Other ways to browse -->
+  <hr class="section-divider" />
+  <h2 class="heading-md mb-4">Other Ways to Browse</h2>
   <div class="grid sm-grid-2 md-grid-3 gap-3">
     <a href={`${base}stacks/`} class="card card-padded">
       <h3 class="font-bold mb-1">The Stacks (DDC)</h3>
@@ -63,3 +178,18 @@ const base = import.meta.env.BASE_URL;
     </a>
   </div>
 </Layout>
+
+<style>
+  .wing-card {
+    border-top: 3px solid var(--color-border-bold);
+    background: var(--bg-surface);
+  }
+  .wing-card:hover {
+    border-top-color: var(--color-accent);
+  }
+  .cat-tile-sm {
+    padding: 0.25rem 0.6rem;
+    font-size: var(--text-xs);
+    gap: 0.35rem;
+  }
+</style>
