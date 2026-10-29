@@ -78,6 +78,7 @@
   let selectedDecade = $state(-1); // -1 = any
   let selectedLanguage = $state(''); // original_language
   let selectedNationality = $state(''); // author primary nationality
+  let sortBy = $state<'title' | 'title-desc' | 'year-desc' | 'year-asc' | 'priority'>('title');
   let showCount = $state(100);
   let viewMode = $state<'card' | 'compact'>('card');
 
@@ -98,6 +99,12 @@
       if (params.has('tag')) selectedTag = params.get('tag') || '';
       if (params.has('language')) selectedLanguage = params.get('language') || '';
       if (params.has('q')) search = params.get('q') || '';
+      if (params.has('sort')) {
+        const s = params.get('sort');
+        if (s === 'title-desc' || s === 'year-desc' || s === 'year-asc' || s === 'priority') {
+          sortBy = s;
+        }
+      }
       if (params.get('view') === 'compact' || params.get('view') === 'card') {
         viewMode = params.get('view') as 'card' | 'compact';
       }
@@ -154,7 +161,43 @@
     })
   );
 
-  let sortedBooks = $derived([...filtered].sort((a, b) => a.title.localeCompare(b.title)));
+  let sortedBooks = $derived(
+    [...filtered].sort((a, b) => {
+      if (sortBy === 'title-desc') {
+        return b.title.localeCompare(a.title);
+      }
+      if (sortBy === 'year-desc') {
+        const yA = a.first_published ?? -99999;
+        const yB = b.first_published ?? -99999;
+        if (yA !== yB) return yB - yA;
+        return a.title.localeCompare(b.title);
+      }
+      if (sortBy === 'year-asc') {
+        const yA = a.first_published ?? 99999;
+        const yB = b.first_published ?? 99999;
+        if (yA !== yB) return yA - yB;
+        return a.title.localeCompare(b.title);
+      }
+      if (sortBy === 'priority') {
+        if (a.priority !== b.priority) return a.priority - b.priority;
+        return a.title.localeCompare(b.title);
+      }
+      return a.title.localeCompare(b.title);
+    })
+  );
+
+  let hasActiveFilters = $derived(
+    Boolean(
+      search.trim() ||
+      selectedCategory ||
+      selectedPriority !== 0 ||
+      selectedStatus ||
+      selectedTag ||
+      selectedDecade !== -1 ||
+      selectedNationality ||
+      selectedLanguage
+    )
+  );
 
   function priorityLabel(p: number): string {
     if (p === 1) return 'Must-Read';
@@ -177,6 +220,7 @@
     selectedDecade = -1;
     selectedLanguage = '';
     selectedNationality = '';
+    sortBy = 'title';
     if (typeof window !== 'undefined' && window.location.search) {
       window.history.replaceState({}, '', window.location.pathname);
     }
@@ -193,6 +237,7 @@
     if (selectedTag) params.set('tag', selectedTag);
     if (selectedLanguage) params.set('language', selectedLanguage);
     if (search.trim()) params.set('q', search.trim());
+    if (sortBy !== 'title') params.set('sort', sortBy);
     if (viewMode === 'compact') params.set('view', 'compact');
 
     const qs = params.toString();
@@ -335,7 +380,70 @@
           {/each}
         </select>
       {/if}
+      <select bind:value={sortBy}
+        aria-label="Sort books"
+        class="filter-select filter-sort">
+        <option value="title">Sort: Title (A–Z)</option>
+        <option value="title-desc">Sort: Title (Z–A)</option>
+        <option value="year-desc">Sort: Year (Newest)</option>
+        <option value="year-asc">Sort: Year (Oldest)</option>
+        <option value="priority">Sort: Priority</option>
+      </select>
     </div>
+    {#if hasActiveFilters}
+      <div class="active-chips" role="region" aria-label="Active filters">
+        <span class="chips-label">Filters:</span>
+        {#if search.trim()}
+          <span class="filter-chip">
+            <span class="chip-text">"{search.trim()}"</span>
+            <button type="button" class="chip-remove" onclick={() => search = ''} aria-label="Remove search filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedCategory}
+          <span class="filter-chip">
+            <span class="chip-text">{selectedCategory}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedCategory = ''} aria-label="Remove category filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedPriority !== 0}
+          <span class="filter-chip">
+            <span class="chip-text">{priorityLabel(selectedPriority)}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedPriority = 0} aria-label="Remove priority filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedStatus}
+          <span class="filter-chip">
+            <span class="chip-text">{selectedStatus === 'read' ? 'Read' : selectedStatus === 'reading' ? 'Reading' : 'Want to Read'}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedStatus = ''} aria-label="Remove status filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedTag}
+          <span class="filter-chip">
+            <span class="chip-text">{selectedTag}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedTag = ''} aria-label="Remove genre filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedDecade !== -1}
+          <span class="filter-chip">
+            <span class="chip-text">{selectedDecade < 0 ? `${Math.abs(selectedDecade)}s BCE` : `${selectedDecade}s`}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedDecade = -1} aria-label="Remove decade filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedNationality}
+          <span class="filter-chip">
+            <span class="chip-text">{natLabel(selectedNationality)}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedNationality = ''} aria-label="Remove nationality filter">✕</button>
+          </span>
+        {/if}
+        {#if selectedLanguage}
+          <span class="filter-chip">
+            <span class="chip-text">{langLabel(selectedLanguage)}</span>
+            <button type="button" class="chip-remove" onclick={() => selectedLanguage = ''} aria-label="Remove language filter">✕</button>
+          </span>
+        {/if}
+        <button type="button" class="chip-clear-all" onclick={clearFilters}>Reset all</button>
+      </div>
+    {/if}
   </div>
 
   <!-- Results bar -->
@@ -349,7 +457,7 @@
         {sortedBooks.length.toLocaleString()} of {books.length.toLocaleString()} books
       {/if}
     </p>
-    {#if search !== '' || selectedCategory !== '' || selectedPriority !== 0 || selectedStatus !== '' || selectedTag !== '' || selectedDecade !== -1 || selectedLanguage !== '' || selectedNationality !== ''}
+    {#if hasActiveFilters || sortBy !== 'title'}
       <button onclick={clearFilters} class="clear-filters-link">
         Clear filters
       </button>
@@ -705,6 +813,85 @@
   .filter-select:focus {
     outline: none;
     border-color: var(--color-accent);
+  }
+
+  .filter-sort {
+    border-color: var(--color-border-bold, var(--border-strong));
+    font-weight: 500;
+  }
+
+  .active-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.375rem;
+    padding-top: 0.25rem;
+  }
+
+  .chips-label {
+    font-family: var(--font-mono);
+    font-size: var(--text-meta, 0.75rem);
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 0.25rem;
+  }
+
+  .filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--radius-sm, 2px);
+    padding: 0.2rem 0.5rem;
+    font-family: var(--font-mono);
+    font-size: var(--text-meta, 0.8125rem);
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  .chip-text {
+    max-width: 14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .chip-remove {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 0.125rem 0.25rem;
+    border-radius: var(--radius-sm, 2px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color var(--motion-fast) ease, background var(--motion-fast) ease;
+  }
+
+  .chip-remove:hover {
+    color: var(--color-accent);
+    background: var(--bg-hover, rgba(0, 0, 0, 0.05));
+  }
+
+  .chip-clear-all {
+    background: none;
+    border: none;
+    font-family: var(--font-mono);
+    font-size: var(--text-meta, 0.75rem);
+    color: var(--color-accent);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .chip-clear-all:hover {
+    color: var(--text);
   }
 
   /* --- Results bar --- */

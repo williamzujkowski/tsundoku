@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "description": "Popol Vuh is a text recounting the mythology and history of the Kʼicheʼ people of Guatemala, one of the Maya peoples who also inhabit the Mexican states of Chiapas, Campeche, Yucatan and Quintana Roo, as well as areas of Belize, Honduras and El Salvador.",
   "cover_url": "/tsundoku/cached/covers/popol-vuh.jpg",
   "cover_url_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Popol_vuh.jpg/330px-Popol_vuh.jpg",
@@ -21,5 +21,7 @@
   ],
   "lcc": [
     "PL"
-  ]
+  ],
+  "first_published": 1554,
+  "worldcat_url": "https://www.worldcat.org/search?q=Popol%20Vuh%20Anonymous%20%28Mayan%29"
 }

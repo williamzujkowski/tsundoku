@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "description": "The Tale of the Bamboo Cutter  is a monogatari containing elements of Japanese folklore. Written by an unknown author in the late 9th or early 10th century during the Heian period, it is considered the oldest surviving work in the monogatari form.",
   "cover_url": "/tsundoku/cached/covers/the-tale-of-the-bamboo-cutter.png",
   "pages": 71,
@@ -23,5 +23,7 @@
   ],
   "lcc": [
     "PL"
-  ]
+  ],
+  "first_published": 900,
+  "worldcat_url": "https://www.worldcat.org/isbn/9786558944850"
 }

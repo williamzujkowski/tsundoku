@@ -8,15 +8,15 @@
     "supplementary": 34
   },
   "enrichment": {
-    "covers": 3569,
-    "covers_pct": 99.6,
-    "descriptions": 3543,
-    "descriptions_pct": 98.9,
+    "covers": 3584,
+    "covers_pct": 100.0,
+    "descriptions": 3584,
+    "descriptions_pct": 100.0,
     "isbns": 3513,
     "isbns_pct": 98.0,
     "pages": 3463,
     "pages_pct": 96.6,
-    "years": 3574,
+    "years": 3584,
     "subject_facet": 3448,
     "ddc": 3584,
     "lcc": 3584,
@@ -91,12 +91,20 @@
       "count": 2
     },
     {
+      "decade": -1500,
+      "count": 1
+    },
+    {
+      "decade": -1000,
+      "count": 1
+    },
+    {
       "decade": -750,
       "count": 1
     },
     {
       "decade": -700,
-      "count": 3
+      "count": 4
     },
     {
       "decade": -500,
@@ -151,6 +159,10 @@
       "count": 1
     },
     {
+      "decade": -200,
+      "count": 1
+    },
+    {
       "decade": -30,
       "count": 1
     },
@@ -179,6 +191,10 @@
       "count": 1
     },
     {
+      "decade": 900,
+      "count": 1
+    },
+    {
       "decade": 1000,
       "count": 1
     },
@@ -188,7 +204,7 @@
     },
     {
       "decade": 1320,
-      "count": 1
+      "count": 2
     },
     {
       "decade": 1380,
@@ -228,7 +244,7 @@
     },
     {
       "decade": 1550,
-      "count": 4
+      "count": 5
     },
     {
       "decade": 1570,
@@ -364,7 +380,7 @@
     },
     {
       "decade": 1900,
-      "count": 136
+      "count": 137
     },
     {
       "decade": 1910,
@@ -372,7 +388,7 @@
     },
     {
       "decade": 1920,
-      "count": 229
+      "count": 230
     },
     {
       "decade": 1930,
@@ -408,7 +424,7 @@
     },
     {
       "decade": 2010,
-      "count": 559
+      "count": 560
     },
     {
       "decade": 2020,
@@ -636,11 +652,11 @@
     }
   ],
   "year_distribution": {
-    "before_1800": 228,
+    "before_1800": 235,
     "1800_1899": 404,
-    "1900_1949": 696,
+    "1900_1949": 698,
     "1950_1999": 1195,
-    "2000_plus": 1051
+    "2000_plus": 1052
   },
   "reading_progress": {
     "read": 3178,
@@ -652,7 +668,7 @@
     "gutenberg": 971,
     "librivox": 702,
     "hathitrust": 127,
-    "worldcat": 478
+    "worldcat": 3584
   },
   "oldest_year": -2100,
   "newest_year": 2026,
@@ -662,5 +678,5 @@
     "shelf_meters": 89.6,
     "books_with_pages": 3463
   },
-  "generated_at": "2026-10-29T09:26:54.846879"
+  "generated_at": "2026-10-29T15:15:55.980684"
 }
