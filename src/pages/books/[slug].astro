@@ -279,7 +279,10 @@ if (currentLcc) {
         )}
 
         {book.description && (
-          <p class="text-muted text-sm mb-4 prose-text">{book.description}</p>
+          <div class="remarque-prose remarque-prose--dropcap mb-6">
+            <p>{book.description}</p>
+            <div class="remarque-endmark" aria-hidden="true"></div>
+          </div>
         )}
 
         <div class="flex flex-wrap items-center gap-2">

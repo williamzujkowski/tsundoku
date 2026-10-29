@@ -153,6 +153,32 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
             <a href={`${base}browse/`} class="nav-link">Browse</a>
             <a href={`${base}categories/`} class="nav-link">Categories</a>
             <a href={`${base}authors/`} class="nav-link">Authors</a>
+            <details class="nav-dropdown" id="explore-dropdown">
+              <summary class="nav-link nav-dropdown-toggle">
+                <span>Explore</span>
+                <svg class="dropdown-chevron" width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m3 4.5 3 3 3-3" />
+                </svg>
+              </summary>
+              <div class="nav-dropdown-menu">
+                <a href={`${base}stacks/`} class="nav-dropdown-item">
+                  <span class="dropdown-item-title">Dewey Stacks</span>
+                  <span class="dropdown-item-desc">Browse by decimal classification</span>
+                </a>
+                <a href={`${base}awards/`} class="nav-dropdown-item">
+                  <span class="dropdown-item-title">Literary Awards</span>
+                  <span class="dropdown-item-desc">Pulitzer, Hugo, Nobel & more</span>
+                </a>
+                <a href={`${base}series/`} class="nav-dropdown-item">
+                  <span class="dropdown-item-title">Book Series</span>
+                  <span class="dropdown-item-desc">Multi-volume chronicles</span>
+                </a>
+                <a href={`${base}movements/`} class="nav-dropdown-item">
+                  <span class="dropdown-item-title">Literary Movements</span>
+                  <span class="dropdown-item-desc">Romanticism to Postmodernism</span>
+                </a>
+              </div>
+            </details>
             <a href={`${base}stats/`} class="nav-link">Stats</a>
             <a href={`${base}about/`} class="nav-link">About</a>
           </div>
@@ -179,6 +205,13 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
         <a href={`${base}browse/`} class="mobile-nav-link">Browse</a>
         <a href={`${base}categories/`} class="mobile-nav-link">Categories</a>
         <a href={`${base}authors/`} class="mobile-nav-link">Authors</a>
+        <div class="mobile-nav-divider"></div>
+        <div class="mobile-nav-section-title">Explore</div>
+        <a href={`${base}stacks/`} class="mobile-nav-link">Dewey Stacks</a>
+        <a href={`${base}awards/`} class="mobile-nav-link">Literary Awards</a>
+        <a href={`${base}series/`} class="mobile-nav-link">Book Series</a>
+        <a href={`${base}movements/`} class="mobile-nav-link">Literary Movements</a>
+        <div class="mobile-nav-divider"></div>
         <a href={`${base}stats/`} class="mobile-nav-link">Stats</a>
         <a href={`${base}about/`} class="mobile-nav-link">About</a>
       </div>
@@ -210,6 +243,22 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
               menu.classList.remove('open');
               btn.setAttribute('aria-expanded', 'false');
             });
+          });
+        }
+
+        // Close Explore dropdown on outside click or Esc
+        const exploreDropdown = document.getElementById('explore-dropdown');
+        if (exploreDropdown) {
+          document.addEventListener('click', (e) => {
+            if (!exploreDropdown.contains(e.target)) {
+              exploreDropdown.removeAttribute('open');
+            }
+          });
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && exploreDropdown.hasAttribute('open')) {
+              exploreDropdown.removeAttribute('open');
+              exploreDropdown.querySelector('summary')?.focus();
+            }
           });
         }
       });

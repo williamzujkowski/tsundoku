@@ -78,6 +78,7 @@
   let selectedLanguage = $state(''); // original_language
   let selectedNationality = $state(''); // author primary nationality
   let showCount = $state(100);
+  let viewMode = $state<'card' | 'compact'>('card');
 
   onMount(async () => {
     try {
@@ -162,6 +163,54 @@
 <div class="book-grid-wrapper">
   <!-- Search and filters -->
   <div class="filters-bar">
+    <div class="filter-top-row">
+      <div class="status-pills" role="radiogroup" aria-label="Filter by reading status">
+        <button
+          type="button"
+          class="status-pill {selectedStatus === '' ? 'active' : ''}"
+          onclick={() => selectedStatus = ''}
+        >All Books</button>
+        <button
+          type="button"
+          class="status-pill status-pill-read {selectedStatus === 'read' ? 'active' : ''}"
+          onclick={() => selectedStatus = 'read'}
+        >✓ Read</button>
+        <button
+          type="button"
+          class="status-pill status-pill-reading {selectedStatus === 'reading' ? 'active' : ''}"
+          onclick={() => selectedStatus = 'reading'}
+        >📖 Reading</button>
+        <button
+          type="button"
+          class="status-pill status-pill-want {selectedStatus === 'want' ? 'active' : ''}"
+          onclick={() => selectedStatus = 'want'}
+        >📋 Want to Read</button>
+      </div>
+      <div class="view-toggle" role="group" aria-label="Catalog layout mode">
+        <button
+          type="button"
+          class="view-toggle-btn {viewMode === 'card' ? 'active' : ''}"
+          onclick={() => viewMode = 'card'}
+          title="Catalog Cards"
+          aria-label="Catalog Cards"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" />
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="view-toggle-btn {viewMode === 'compact' ? 'active' : ''}"
+          onclick={() => viewMode = 'compact'}
+          title="Compact List"
+          aria-label="Compact List"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
     <div class="search-wrapper">
       <input
         type="search"
@@ -278,6 +327,27 @@
         Clear all filters
       </button>
     </div>
+  {:else if viewMode === 'compact'}
+    <!-- Compact list view -->
+    <div class="book-compact-list" role="list">
+      {#each sortedBooks.slice(0, showCount) as book (book.slug)}
+        <a href="{baseUrl}books/{book.slug}/" class="compact-row" role="listitem">
+          <span class="compact-call">{formatCallNumber(book.ddc) || '—'}</span>
+          <span class="compact-title">{book.title}</span>
+          <span class="compact-author">{invertAuthorName(book.author)}</span>
+          <span class="compact-cat">{book.category}</span>
+          <span class="compact-year">{book.first_published || '—'}</span>
+          <span class="compact-status">
+            {#if statusStamp(book.reading_status)}
+              {@const stamp = statusStamp(book.reading_status)}
+              {#if stamp}
+                <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span>
+              {/if}
+            {/if}
+          </span>
+        </a>
+      {/each}
+    </div>
   {:else}
     <!-- Book grid -->
     <div class="book-cards-grid">
@@ -365,7 +435,164 @@
   .filters-bar {
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .filter-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 0.5rem;
+  }
+
+  .status-pills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .status-pill {
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--color-border);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: var(--text-meta);
+    padding: 0.35rem 0.65rem;
+    min-height: 2rem;
+    cursor: pointer;
+    border-radius: var(--radius-sm, 2px);
+    transition: color var(--motion-fast) var(--motion-easing),
+                background var(--motion-fast) var(--motion-easing),
+                border-color var(--motion-fast) var(--motion-easing);
+  }
+
+  .status-pill:hover {
+    color: var(--color-accent);
+    border-color: var(--color-border-bold);
+  }
+
+  .status-pill.active {
+    background: var(--bg-subtle, var(--bg-elevated));
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .view-toggle {
+    display: flex;
+    align-items: center;
+    border: var(--border-width) solid var(--color-border);
+    background: var(--bg-surface);
+    border-radius: var(--radius-sm, 2px);
+    overflow: hidden;
+  }
+
+  .view-toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    padding: 0.4rem 0.6rem;
+    min-height: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--motion-fast) var(--motion-easing),
+                color var(--motion-fast) var(--motion-easing);
+  }
+
+  .view-toggle-btn:hover {
+    color: var(--text);
+  }
+
+  .view-toggle-btn.active {
+    background: var(--color-accent);
+    color: var(--on-accent, #fff);
+  }
+
+  /* Compact list view */
+  .book-compact-list {
+    display: flex;
+    flex-direction: column;
+    border-top: var(--border-width) solid var(--color-border);
+  }
+
+  .compact-row {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr auto;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.5rem;
+    border-bottom: var(--border-width) solid var(--color-border);
+    text-decoration: none;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: var(--text-meta);
+    transition: background var(--motion-fast) ease;
+  }
+
+  @media (min-width: 640px) {
+    .compact-row {
+      grid-template-columns: 5rem 2fr 1.5fr 1fr 3.5rem 5rem;
+    }
+  }
+
+  .compact-call {
+    font-family: var(--font-mono);
+    font-size: var(--text-meta);
+    color: var(--text-dim);
+  }
+
+  .compact-title {
+    font-family: var(--font-display);
+    font-size: var(--text-body);
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .compact-author {
+    color: var(--text-muted);
+    font-size: var(--text-meta);
+    display: none;
+  }
+  @media (min-width: 640px) {
+    .compact-author {
+      display: block;
+    }
+  }
+
+  .compact-cat {
+    color: var(--text-dim);
+    font-size: var(--text-meta);
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .compact-cat {
+      display: block;
+    }
+  }
+
+  .compact-year {
+    font-family: var(--font-mono);
+    font-size: var(--text-meta);
+    color: var(--text-dim);
+    text-align: right;
+    display: none;
+  }
+  @media (min-width: 640px) {
+    .compact-year {
+      display: block;
+    }
+  }
+
+  .compact-row:hover {
+    background: var(--bg-surface);
+  }
+
+  .compact-row:hover .compact-title {
+    color: var(--color-accent);
   }
 
   /* search-wrapper is now always full-width above the wrapping filters

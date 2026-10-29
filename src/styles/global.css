@@ -30,6 +30,8 @@
 @import 'remarque-tokens/core';
 @import './tokens-site.css';
 @import 'remarque-tokens/prose';
+@import 'remarque-tokens/broadsheet';
+@import 'remarque-tokens/forms';
 /* Palette picker styles (.remarque-deck-*) live in the chrome module. */
 @import 'remarque-tokens/chrome';
 
@@ -111,6 +113,81 @@ a:hover { color: var(--color-accent); }
   transition: color var(--motion-fast) var(--motion-easing);
 }
 .nav-link:hover { color: var(--color-accent); }
+
+/* Navigation Dropdown (Explore menu) */
+.nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-dropdown-toggle {
+  cursor: pointer;
+  list-style: none;
+  gap: 0.35rem;
+  user-select: none;
+}
+.nav-dropdown-toggle::-webkit-details-marker { display: none; }
+.dropdown-chevron {
+  transition: transform var(--motion-fast) var(--motion-easing);
+}
+.nav-dropdown[open] .dropdown-chevron {
+  transform: rotate(180deg);
+}
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  min-width: 16rem;
+  background: var(--bg-surface);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 0 8px 24px oklch(0 0 0 / 0.12);
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem 0;
+  z-index: 100;
+}
+.nav-dropdown-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem 0.85rem;
+  text-decoration: none;
+  color: var(--text);
+  border-left: 2px solid transparent;
+  transition: background var(--motion-fast) var(--motion-easing), border-color var(--motion-fast) var(--motion-easing);
+}
+.nav-dropdown-item:hover {
+  background: var(--bg-subtle, var(--bg-elevated));
+  border-left-color: var(--color-accent);
+}
+.dropdown-item-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.nav-dropdown-item:hover .dropdown-item-title {
+  color: var(--color-accent);
+}
+.dropdown-item-desc {
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  color: var(--text-dim);
+  margin-top: 0.1rem;
+}
+
+.mobile-nav-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0.35rem 0.5rem;
+}
+.mobile-nav-section-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  padding: 0.25rem 0.75rem 0.1rem;
+}
 
 /* Utility cluster (search, random, theme, mobile toggle) — single instance, visible at all breakpoints */
 .nav-utility { display: flex; align-items: center; gap: 0.25rem; }
@@ -1005,6 +1082,35 @@ a:hover { color: var(--color-accent); }
   font-weight: var(--weight-medium);
   letter-spacing: var(--tracking-title);
   color: var(--color-accent);
+}
+
+/* ===== Stacks Teaser Cards (Homepage) ===== */
+.stack-teaser-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-left: 2px solid var(--color-border);
+  transition: border-color var(--motion-fast) var(--motion-easing),
+              background var(--motion-fast) var(--motion-easing);
+}
+.stack-teaser-card:hover {
+  border-left-color: var(--color-accent);
+  background: var(--bg-surface);
+}
+.stack-teaser-name {
+  font-family: var(--font-display);
+  font-size: var(--text-body);
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+  margin: 0.25rem 0 0.15rem;
+}
+.stack-teaser-card:hover .stack-teaser-name {
+  color: var(--color-accent);
+}
+.stack-teaser-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
 }
 
 /* ===== Micro-details ===== */

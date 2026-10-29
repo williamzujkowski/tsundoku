@@ -22,6 +22,32 @@ const nationalityCount = stats.nationality_distribution.length;
 const oldestLine = stats.oldest_year < 0
   ? `${Math.abs(stats.oldest_year)} BC`
   : String(stats.oldest_year);
+
+const DDC_PREVIEWS = [
+  { code: '000', name: 'General & Tech' },
+  { code: '100', name: 'Philosophy' },
+  { code: '200', name: 'Religion' },
+  { code: '300', name: 'Social Sciences' },
+  { code: '400', name: 'Language' },
+  { code: '500', name: 'Science' },
+  { code: '600', name: 'Applied Tech' },
+  { code: '700', name: 'Arts & Music' },
+  { code: '800', name: 'Literature' },
+  { code: '900', name: 'History & Geo' },
+];
+function ddcClassOf(ddcs: string[] | undefined): string | null {
+  if (!ddcs || ddcs.length === 0) return null;
+  const first = ddcs[0];
+  for (const ch of first) {
+    if (ch >= '0' && ch <= '9') return ch + '00';
+  }
+  return null;
+}
+const ddcCounts = new Map<string, number>();
+for (const b of books) {
+  const cls = ddcClassOf(b.data.ddc);
+  if (cls) ddcCounts.set(cls, (ddcCounts.get(cls) ?? 0) + 1);
+}
 ---
 
 <Layout title="Home">
@@ -100,6 +126,32 @@ const oldestLine = stats.oldest_year < 0
         <div class="stat-badge-label">Want to Read</div>
         <div class="stat-badge-sub">the pile grows</div>
       </div>
+    </div>
+  </section>
+
+  <!-- The Stacks at a Glance -->
+  <hr class="section-divider" />
+  <section class="py-8">
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
+      <div>
+        <h2 class="heading-md">The Stacks at a Glance</h2>
+        <p class="text-dim text-sm">Classified by Dewey Decimal main classes 000–900</p>
+      </div>
+      <a href={`${base}stacks/`} class="ext-link text-sm" style="text-decoration: underline">
+        Explore all 10 stacks →
+      </a>
+    </div>
+    <div class="grid grid-2 sm-grid-5 gap-3">
+      {DDC_PREVIEWS.map(c => {
+        const count = ddcCounts.get(c.code) ?? 0;
+        return (
+          <a href={`${base}stacks/${c.code}/`} class="card card-padded stack-teaser-card">
+            <span class="text-mono text-sm text-dim">{c.code}</span>
+            <div class="stack-teaser-name">{c.name}</div>
+            <div class="stack-teaser-count text-dim">{count.toLocaleString()} books</div>
+          </a>
+        );
+      })}
     </div>
   </section>
 
