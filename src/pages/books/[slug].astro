@@ -105,32 +105,41 @@ function adaptationTypeLabel(type: string): string {
 const callNumber = formatCallNumber(book.ddc);
 const ddcClass = ddcClassOf(book.ddc);
 
-// Device 5's "date-due slip" — a due-date-card treatment for the card's
-// footer, built ONLY from real chronological data this book actually has
-// (there is no per-book reading-date log in the data model, so this is
-// not a fabricated history): first-published year, award years,
-// adaptation years, each a real, already-collected field. Sorted
-// chronologically so the slip reads top-to-bottom like a real one.
-interface SlipRow { label: string; year: number; display: string }
+// Device 5's "date-due slip" — an authentic library circulation treatment
+// recording accession and publication facts without duplicating the awards
+// or adaptation sections displayed elsewhere on this page.
+interface SlipRow { label: string; display: string }
 const slipRows: SlipRow[] = [];
 if (book.first_published !== undefined) {
   slipRows.push({
     label: 'First published',
-    year: book.first_published,
     display: formatYear(book.first_published, book.first_published_circa),
   });
 }
-for (const a of book.awards ?? []) {
-  if (a.year !== undefined) {
-    slipRows.push({ label: a.name, year: a.year, display: String(a.year) });
-  }
+if (book.series) {
+  slipRows.push({
+    label: 'Series entry',
+    display: `${book.series.name}${book.series.position ? ` #${book.series.position}` : ''}`,
+  });
 }
-for (const a of book.adaptations ?? []) {
-  if (a.year !== undefined) {
-    slipRows.push({ label: `${adaptationTypeLabel(a.type)} adaptation`, year: a.year, display: String(a.year) });
-  }
+if (book.pages) {
+  slipRows.push({
+    label: 'Extent',
+    display: `${book.pages} pages`,
+  });
 }
-slipRows.sort((a, b) => a.year - b.year);
+if (book.editions_count) {
+  slipRows.push({
+    label: 'Known editions',
+    display: `${book.editions_count} cataloged`,
+  });
+}
+if (book.language) {
+  slipRows.push({
+    label: 'Language',
+    display: languageLabel(book.language),
+  });
+}
 const readingStamp = statusStamp(book.reading_status);
 
 const worldcatUrl = book.worldcat_url || (book.isbn ? `https://www.worldcat.org/isbn/${book.isbn}` : `https://www.worldcat.org/search?q=${encodeURIComponent(book.title + ' ' + book.author)}`);
@@ -410,146 +419,143 @@ if (currentLcc) {
       </div>
     </div>
 
-    <!-- Metadata card — restyled as the lined catalog card (library
-         card-catalog identity layer, Device 5): same anatomy as the
-         /browse grid's Device 1 catalog cards, at dossier scale. The
-         call number is the one shared, unit-tested formatCallNumber()
-         from Devices 1/2 — omitted cleanly when missing/malformed. -->
-    <div class="card card-padded-lg mb-8 dossier-card">
-      {callNumber && (
-        <>
-          <div class="dossier-header">
-            {ddcClass ? (
+    <!-- Library Dossier: Consolidated Bibliographic Catalog Card & Circulation Due Slip -->
+    <section class="card card-padded-lg mb-8 dossier-card" aria-label="Library catalog card and circulation record">
+      <div class="dossier-header">
+        <div class="dossier-header-left">
+          {callNumber ? (
+            ddcClass ? (
               <a href={`${base}stacks/${ddcClass}/`} class="dossier-call-number" title={`Explore Dewey ${ddcClass} Stack`}>
-                {callNumber} <span class="text-xs text-dim">({ddcClass} stack →)</span>
+                {callNumber} <span class="dossier-stack-hint">({ddcClass} stack →)</span>
               </a>
             ) : (
               <span class="dossier-call-number">{callNumber}</span>
-            )}
-          </div>
-          <div class="dossier-rule" aria-hidden="true"></div>
-        </>
-      )}
-      <dl class="grid grid-2 md-grid-3 gap-4 text-sm">
-        <div>
-          <dt class="text-dim mb-2">Category</dt>
-          <dd><a href={`${base}categories/${categorySlug}/`} class="ext-link">{book.category}</a></dd>
+            )
+          ) : (
+            <span class="dossier-call-number text-dim">CATALOG RECORD</span>
+          )}
         </div>
-        <div>
-          <dt class="text-dim mb-2">Priority</dt>
-          <dd>{priorityLabel(book.priority)}</dd>
+        <div class="dossier-header-right">
+          <span class="dossier-archive-label">TSUNDOKU CARD CATALOG · MAIN STACKS</span>
         </div>
-        <div>
-          <dt class="text-dim mb-2">Author works</dt>
-          <dd>{sameAuthor.length + 1}</dd>
-        </div>
-        {book.editions_count && (
-          <div>
-            <dt class="text-dim mb-2">Editions known</dt>
-            <dd>{book.editions_count}</dd>
-          </div>
-        )}
-      </dl>
+      </div>
+      <div class="dossier-rule" aria-hidden="true"></div>
 
-      {/* Classification (#124 DISPLAY-CLASS) — surfaces the library
-          classification data we collect but never showed: Dewey (DDC) and
-          Library of Congress (LCC) call numbers plus faceted subjects. LCC is
-          formatted via the local lccDisplay() helper also used by the spine
-          label and virtual shelf (OL stores it sort-padded). Subjects render as
-          plain tags — there is no /subjects/ index page to link to. The whole
-          section is omitted unless at least one field is present. */}
-      {((book.ddc && book.ddc.length > 0) || (book.lcc && book.lcc.length > 0) || (book.subject_facet && book.subject_facet.length > 0)) && (
-        <div class="detail-section">
-          <dt class="text-dim text-sm mb-2">Classification</dt>
-          <dd>
-            <dl class="grid grid-2 gap-4 text-xs">
-              {book.ddc && book.ddc.length > 0 && (
-                <div>
-                  <dt class="text-dim mb-2">Dewey (DDC)</dt>
-                  <dd class="flex flex-wrap gap-2">
-                    {[...new Set(book.ddc)].slice(0, 4).map(d => {
-                      const cls = ddcClassOf(d);
-                      return cls ? (
-                        <a href={`${base}stacks/${cls}/`} class="meta-tag text-mono" title={`Dewey ${d} (Stack ${cls})`}>
-                          {d} →
-                        </a>
-                      ) : (
-                        <span class="meta-tag text-mono" title="Dewey Decimal call number">{d}</span>
-                      );
-                    })}
-                  </dd>
-                </div>
-              )}
-              {book.lcc && book.lcc.length > 0 && (
-                <div>
-                  <dt class="text-dim mb-2">Library of Congress (LCC)</dt>
-                  <dd class="flex flex-wrap gap-2">
-                    {[...new Set(book.lcc.map(l => lccDisplay(l)))].slice(0, 4).map(l => (
-                      <span class="meta-tag text-mono" title="Library of Congress call number">{l}</span>
-                    ))}
-                  </dd>
-                </div>
-              )}
-            </dl>
-            {book.subject_facet && book.subject_facet.length > 0 && (
-              <div class="mt-4">
-                <dt class="text-dim mb-2 text-xs">Subjects</dt>
-                <dd class="flex flex-wrap gap-2 text-xs">
-                  {book.subject_facet.slice(0, 12).map(s => (
-                    <span class="meta-tag">{s}</span>
+      <div class="dossier-body-grid">
+        <!-- Left Column: Bibliographic & Classification Record -->
+        <div class="dossier-catalog-col">
+          <div class="dossier-section-title">Classification &amp; Library Identifiers</div>
+          <dl class="dossier-meta-dl">
+            {book.ddc && book.ddc.length > 0 && (
+              <div class="dossier-meta-row">
+                <dt class="dossier-meta-dt">Dewey Decimal</dt>
+                <dd class="dossier-meta-dd flex flex-wrap gap-1.5">
+                  {[...new Set(book.ddc)].slice(0, 4).map(d => {
+                    const cls = ddcClassOf(d);
+                    return cls ? (
+                      <a href={`${base}stacks/${cls}/`} class="meta-tag text-mono" title={`Dewey ${d} (Stack ${cls})`}>
+                        {d} →
+                      </a>
+                    ) : (
+                      <span class="meta-tag text-mono" title="Dewey Decimal call number">{d}</span>
+                    );
+                  })}
+                </dd>
+              </div>
+            )}
+            {book.lcc && book.lcc.length > 0 && (
+              <div class="dossier-meta-row">
+                <dt class="dossier-meta-dt">Library of Congress</dt>
+                <dd class="dossier-meta-dd flex flex-wrap gap-1.5">
+                  {[...new Set(book.lcc.map(l => lccDisplay(l)))].slice(0, 4).map(l => (
+                    <span class="meta-tag text-mono" title="Library of Congress call number">{l}</span>
                   ))}
                 </dd>
               </div>
             )}
-          </dd>
-        </div>
-      )}
+            {(book.isbn || book.first_edition_isbn) && (
+              <div class="dossier-meta-row">
+                <dt class="dossier-meta-dt">ISBN / Catalog</dt>
+                <dd class="dossier-meta-dd flex flex-wrap gap-3 items-center text-xs">
+                  {book.isbn && (
+                    <a href={worldcatUrl} target="_blank" rel="noopener noreferrer" class="ext-link text-mono" title="Look up this edition in libraries worldwide via WorldCat">
+                      ISBN {book.isbn} ↗
+                    </a>
+                  )}
+                  {book.first_edition_isbn && book.first_edition_isbn !== book.isbn && (
+                    <span class="text-dim text-mono" title="Earliest known first-edition ISBN">
+                      First ed: {book.first_edition_isbn}
+                    </span>
+                  )}
+                </dd>
+              </div>
+            )}
+            {(book.oclc_id || book.lccn) && (
+              <div class="dossier-meta-row">
+                <dt class="dossier-meta-dt">Holdings Control</dt>
+                <dd class="dossier-meta-dd flex flex-wrap gap-3 text-xs text-mono text-dim">
+                  {book.oclc_id && <span>OCLC #{book.oclc_id}</span>}
+                  {book.lccn && <span>LCCN {book.lccn}</span>}
+                </dd>
+              </div>
+            )}
+            {(book.language || book.original_language) && (
+              <div class="dossier-meta-row">
+                <dt class="dossier-meta-dt">Language</dt>
+                <dd class="dossier-meta-dd text-xs">
+                  <span>{book.language ? languageLabel(book.language) : 'English'}</span>
+                  {book.original_language && book.original_language !== book.language && (
+                    <span class="text-dim"> (original: {languageLabel(book.original_language)})</span>
+                  )}
+                </dd>
+              </div>
+            )}
+          </dl>
 
-      {/* This edition — what the user is actually reading. Distinct from
-          the work-level metadata above (year, original title). */}
-      {(book.isbn || book.language || (book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn)) && (
-        <div class="detail-section">
-          <dt class="text-dim text-sm mb-2">This edition</dt>
-          <dd class="flex flex-wrap gap-3 text-xs items-center">
-            {book.isbn && (
-              <a href={worldcatUrl} target="_blank" rel="noopener noreferrer" class="ext-link text-mono" title="Look up this edition in libraries via WorldCat">
-                ISBN {book.isbn} ↗
-              </a>
-            )}
-            {book.language && (
-              <span>{languageLabel(book.language)}</span>
-            )}
-            {book.first_edition_isbn !== undefined && book.first_edition_isbn !== null && book.first_edition_isbn !== book.isbn && (
-              <span class="text-dim text-mono">First-edition ISBN: {book.first_edition_isbn}</span>
-            )}
-          </dd>
-        </div>
-      )}
-
-      {/* Date-due slip (Device 5) — a due-date-card treatment built ONLY
-          from real chronological data this book has (first-published
-          year, award years, adaptation years — all already-collected
-          fields; there is no per-book reading-date log to draw a
-          fabricated history from). The whole section is omitted when
-          there's neither a dated fact nor a reading status to show. */}
-      {(slipRows.length > 0 || readingStamp) && (
-        <div class="due-slip" aria-label="Dates on record for this book">
-          <span class="due-slip-label">DATE DUE</span>
-          {slipRows.map(row => (
-            <div class="due-slip-row">
-              <span class="due-slip-desc">{row.label}</span>
-              <span class="due-slip-date">{row.display}</span>
-            </div>
-          ))}
-          {readingStamp && (
-            <div class="due-slip-row">
-              <span class="due-slip-desc">Status</span>
-              <span class={`status-stamp ${readingStamp.className}`}>{readingStamp.label}</span>
+          {book.subject_facet && book.subject_facet.length > 0 && (
+            <div class="dossier-subjects">
+              <div class="dossier-section-title">Subject Headings (LCSH)</div>
+              <div class="flex flex-wrap gap-1.5 text-xs">
+                {book.subject_facet.slice(0, 10).map(s => (
+                  <span class="meta-tag">{s}</span>
+                ))}
+              </div>
             </div>
           )}
         </div>
-      )}
-    </div>
+
+        <!-- Right Column: Integrated Circulation Due Slip -->
+        <div class="dossier-circulation-col">
+          <div class="due-slip" aria-label="Dates on record for this book">
+            <div class="due-slip-header">
+              <span class="due-slip-title">DATE DUE</span>
+              <span class="due-slip-subtitle">CIRCULATION RECORD</span>
+            </div>
+
+            <div class="due-slip-ledger">
+              {slipRows.map(row => (
+                <div class="due-slip-row">
+                  <span class="due-slip-desc">{row.label}</span>
+                  <span class="due-slip-date">{row.display}</span>
+                </div>
+              ))}
+            </div>
+
+            {readingStamp && (
+              <div class="due-slip-stamp-container">
+                <div class={`circ-stamp circ-stamp--${readingStamp.className}`}>
+                  <span class="circ-stamp-library">TSUNDOKU PUBLIC LIBRARY</span>
+                  <span class={`status-stamp circ-stamp-status ${readingStamp.className}`}>{readingStamp.label}</span>
+                  <span class="circ-stamp-shelf">
+                    {book.reading_status === 'read' ? 'SHELVED IN STACKS' : book.reading_status === 'reading' ? 'CURRENTLY ON LOAN' : 'WAITING LIST RESERVE'}
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Series sequential — prev/next in series. Highest-priority
          cross-reference per the architecture-expert IA review. -->
@@ -696,10 +702,18 @@ if (currentLcc) {
      dossier's catalog-card header — same anatomy as the /browse grid's
      Device 1 cards (mono call number + hairline rule), at dossier scale.
      Existing tokens only. */
+  /* Consolidated Library Bureau Dossier & Circulation Record */
+  .dossier-card {
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--border);
+  }
+
   .dossier-header {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
+    gap: var(--space-2);
   }
 
   .dossier-call-number {
@@ -715,40 +729,134 @@ if (currentLcc) {
     color: var(--color-accent);
   }
 
-  .dossier-rule {
-    border-top: var(--border-width) solid var(--border);
-    margin-block: var(--space-3);
+  .dossier-stack-hint {
+    font-size: var(--text-xs);
+    color: var(--text-dim);
   }
 
-  /* Date-due slip — the classic due-date card glued inside a library
-     book's back cover, built only from real chronological data (see the
-     slipRows computation above). Dashed row dividers read as
-     hand-ruled lines; dates are right-aligned mono like a real slip. */
-  .due-slip {
-    margin-top: var(--space-4);
-    padding: var(--space-3) var(--space-4);
-    background: var(--bg-elevated);
-    border: var(--border-width) solid var(--border);
-    max-width: 24rem;
-  }
-
-  .due-slip-label {
-    display: block;
+  .dossier-archive-label {
     font-family: var(--font-mono);
     font-size: var(--text-micro);
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     color: var(--text-dim);
-    padding-bottom: var(--space-2);
+    text-transform: uppercase;
+  }
+
+  /* Library Bureau index card terracotta/red hairline rule */
+  .dossier-rule {
+    border-top: var(--border-width) solid color-mix(in oklch, var(--color-accent) 40%, var(--border));
+    margin-block: var(--space-3) var(--space-5);
+  }
+
+  .dossier-body-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  @media (min-width: 860px) {
+    .dossier-body-grid {
+      grid-template-columns: 1fr 280px;
+      gap: var(--space-7);
+      align-items: start;
+    }
+  }
+
+  .dossier-catalog-col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .dossier-section-title {
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
     margin-bottom: var(--space-2);
-    border-bottom: var(--border-width) solid var(--border);
+  }
+
+  .dossier-meta-dl {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .dossier-meta-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: var(--space-3);
+    align-items: baseline;
+    font-size: var(--text-sm);
+  }
+
+  @media (max-width: 600px) {
+    .dossier-meta-row {
+      grid-template-columns: 1fr;
+      gap: var(--space-1);
+    }
+  }
+
+  .dossier-meta-dt {
+    font-size: var(--text-xs);
+    color: var(--text-dim);
+  }
+
+  .dossier-meta-dd {
+    color: var(--text);
+  }
+
+  .dossier-subjects {
+    margin-top: var(--space-2);
+    padding-top: var(--space-3);
+    border-top: var(--border-width) solid var(--border);
+  }
+
+  /* Right column: Integrated Circulation Due Slip */
+  .due-slip {
+    background: var(--bg-elevated);
+    border: var(--border-width) solid var(--border);
+    padding: var(--space-4);
+    border-radius: var(--radius-sm, 2px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .due-slip-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-3);
+    border-bottom: 2px solid var(--border-strong);
+  }
+
+  .due-slip-title {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: var(--text-xs);
+    letter-spacing: 0.12em;
+    color: var(--text);
+  }
+
+  .due-slip-subtitle {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+  }
+
+  .due-slip-ledger {
+    display: flex;
+    flex-direction: column;
   }
 
   .due-slip-row {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    gap: var(--space-3);
-    padding-block: 0.25rem;
+    gap: var(--space-2);
+    padding-block: 0.35rem;
     border-bottom: var(--border-width) dashed var(--border);
   }
 
@@ -757,16 +865,86 @@ if (currentLcc) {
   }
 
   .due-slip-desc {
-    font-size: var(--text-meta);
+    font-size: var(--text-xs);
     color: var(--text-muted);
   }
 
   .due-slip-date {
     font-family: var(--font-mono);
-    font-size: var(--text-meta);
+    font-size: var(--text-xs);
     color: var(--text);
     font-variant-numeric: tabular-nums lining-nums;
     flex-shrink: 0;
+  }
+
+  .due-slip-stamp-container {
+    margin-top: var(--space-4);
+    padding-top: var(--space-3);
+    border-top: 1px dashed var(--border);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Archival Rubber Ink Stamp */
+  .circ-stamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 0.45rem 1rem;
+    border: 2px solid;
+    border-radius: var(--radius-sm, 3px);
+    text-align: center;
+    font-family: var(--font-mono);
+    transform: rotate(-1.5deg);
+    transition: transform 150ms ease;
+  }
+  .circ-stamp:hover {
+    transform: rotate(0deg) scale(1.02);
+  }
+
+  .circ-stamp--status-read {
+    color: #1b6338;
+    border-color: #1b6338;
+    background: color-mix(in oklch, #1b6338 6%, transparent);
+  }
+  :global(.dark) .circ-stamp--status-read {
+    color: var(--color-success);
+    border-color: var(--color-success);
+    background: color-mix(in oklch, var(--color-success) 10%, transparent);
+  }
+
+  .circ-stamp--status-reading {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background: color-mix(in oklch, var(--color-accent) 6%, transparent);
+  }
+
+  .circ-stamp--status-want {
+    color: var(--text-dim);
+    border-color: var(--border-strong);
+    background: color-mix(in oklch, var(--bg-surface) 50%, transparent);
+  }
+
+  .circ-stamp-library {
+    font-size: 0.5625rem;
+    letter-spacing: 0.12em;
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+
+  .circ-stamp-status {
+    font-size: 1.125rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    line-height: 1.1;
+  }
+
+  .circ-stamp-shelf {
+    font-size: 0.5625rem;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    text-transform: uppercase;
   }
 
   /* Access Toolbar: Elevated read/listen and catalog discovery chips */
