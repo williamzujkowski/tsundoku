@@ -404,10 +404,33 @@
 /* ===== Category -> accent mapping (static allowlist -- 30 categories) ===== */
 .cat-philosophy { --cat-accent: var(--pop-purple); }
 .cat-literature { --cat-accent: var(--pop-pink); }
+.cat-science-fiction { --cat-accent: var(--pop-cyan); }
 .cat-science-fiction-fantasy { --cat-accent: var(--pop-blue); }
+.cat-fantasy { --cat-accent: var(--pop-purple); }
+.cat-mystery { --cat-accent: var(--pop-blue); }
+.cat-drama { --cat-accent: var(--pop-purple); }
+.cat-poetry { --cat-accent: var(--pop-pink); }
+.cat-horror { --cat-accent: var(--pop-red); }
+.cat-classics { --cat-accent: var(--pop-yellow); }
+.cat-biography-memoir { --cat-accent: var(--pop-orange); }
+.cat-historical-fiction { --cat-accent: var(--pop-orange); }
+.cat-children-s-literature,
+.cat-childrens-literature { --cat-accent: var(--pop-yellow); }
+.cat-adventure { --cat-accent: var(--pop-green); }
+.cat-short-stories { --cat-accent: var(--pop-cyan); }
+.cat-thriller-espionage { --cat-accent: var(--pop-red); }
+.cat-humor-satire { --cat-accent: var(--pop-yellow); }
+.cat-essays { --cat-accent: var(--pop-purple); }
+.cat-complex-systems { --cat-accent: var(--pop-cyan); }
+.cat-literary-criticism { --cat-accent: var(--pop-pink); }
+.cat-non-western-literature { --cat-accent: var(--pop-pink); }
+.cat-non-western-philosophy { --cat-accent: var(--pop-purple); }
+.cat-non-western-history { --cat-accent: var(--pop-orange); }
+.cat-medieval-philosophy-theology { --cat-accent: var(--pop-purple); }
 .cat-history { --cat-accent: var(--pop-orange); }
 .cat-science { --cat-accent: var(--pop-cyan); }
 .cat-politics { --cat-accent: var(--pop-red); }
+.cat-political-theory { --cat-accent: var(--pop-red); }
 .cat-psychology { --cat-accent: var(--pop-green); }
 .cat-economics { --cat-accent: var(--pop-yellow); }
 .cat-mathematics { --cat-accent: var(--pop-blue); }

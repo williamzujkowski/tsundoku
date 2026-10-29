@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import stats from '../data/stats.json';
-import { seededShuffle, ddcClassOf } from '../utils/formatting';
+import { ddcClassOf, formatCallNumber, toSlug, formatYear } from '../utils/formatting';
 import { resolveImageSrc } from '../utils/imageGuard';
 
 const base = import.meta.env.BASE_URL;
@@ -12,10 +12,7 @@ const readPct = Math.round(100 * stats.reading_progress.read / stats.total_books
 const yearsToFinish = Math.round(stats.bookshelf.estimated_reading_hours / 8 / 365 * 10) / 10;
 const yearSpan = stats.newest_year - stats.oldest_year;
 
-// Compact "when the books are from" sparkline — a teaser for the full
-// timeline + nationalities map on /stats (#124 STATS-REDESIGN). Post-1700
-// decades only (pre-1700 is a sparse long tail that flattens the bars);
-// the full breakdown incl. ancient works lives on the stats page.
+// Compact decade sparkline
 const teaserDecades = stats.timeline.filter(t => t.decade >= 1700);
 const teaserMax = Math.max(1, ...teaserDecades.map(t => t.count));
 const nationalityCount = stats.nationality_distribution.length;
@@ -24,141 +21,402 @@ const oldestLine = stats.oldest_year < 0
   : String(stats.oldest_year);
 
 const DDC_PREVIEWS = [
-  { code: '000', name: 'General & Tech' },
-  { code: '100', name: 'Philosophy' },
-  { code: '200', name: 'Religion' },
-  { code: '300', name: 'Social Sciences' },
-  { code: '400', name: 'Language' },
-  { code: '500', name: 'Science' },
-  { code: '600', name: 'Applied Tech' },
-  { code: '700', name: 'Arts & Music' },
-  { code: '800', name: 'Literature' },
-  { code: '900', name: 'History & Geo' },
+  { code: '000', name: 'General & Tech', desc: 'Computer science, systems & information' },
+  { code: '100', name: 'Philosophy', desc: 'Metaphysics, logic, ethics & psychology' },
+  { code: '200', name: 'Religion', desc: 'Theology, myth & comparative beliefs' },
+  { code: '300', name: 'Social Sciences', desc: 'Economics, political theory & law' },
+  { code: '400', name: 'Language', desc: 'Linguistics & philology' },
+  { code: '500', name: 'Science', desc: 'Mathematics, physics, chemistry & biology' },
+  { code: '600', name: 'Applied Tech', desc: 'Engineering, medicine & operations' },
+  { code: '700', name: 'Arts & Music', desc: 'Architecture, art & recreation' },
+  { code: '800', name: 'Literature', desc: 'Poetry, drama, fiction & essays' },
+  { code: '900', name: 'History & Geo', desc: 'Civilizations, geography & biography' },
 ];
+
 const ddcCounts = new Map<string, number>();
 for (const b of books) {
   const cls = ddcClassOf(b.data.ddc);
   if (cls) ddcCounts.set(cls, (ddcCounts.get(cls) ?? 0) + 1);
 }
+
+// 8 Grand Library Wings classifying all 34 shelves
+interface LibraryWing {
+  id: string;
+  name: string;
+  callRange: string;
+  icon: string;
+  description: string;
+  categoryNames: string[];
+}
+
+const LIBRARY_WINGS: LibraryWing[] = [
+  {
+    id: 'belles-lettres',
+    name: 'Belles-Lettres & Prose Salon',
+    callRange: 'DDC 800–899 · LCC P / PR / PS',
+    icon: '🏛️',
+    description: 'Masterworks of narrative fiction, novellas, satire, and literary discourse.',
+    categoryNames: ['Literature', 'Historical Fiction', 'Short Stories', 'Humor & Satire', 'Essays', 'Literary Criticism', 'Non-Western Literature'],
+  },
+  {
+    id: 'speculative',
+    name: 'The Speculative & Fantastic Wing',
+    callRange: 'DDC 813.087 · LCC PZ / PS',
+    icon: '🔭',
+    description: 'Visions of the cosmos, secondary realms, cybernetics, and dark wonders.',
+    categoryNames: ['Science Fiction', 'Fantasy', 'Horror', 'Science Fiction & Fantasy'],
+  },
+  {
+    id: 'detective',
+    name: 'The Detective & Noir Bureau',
+    callRange: 'DDC 813.0872 / 823.0872',
+    icon: '🔍',
+    description: 'Whodunits, procedural investigations, hardboiled crime, and cold war espionage.',
+    categoryNames: ['Mystery', 'Thriller & Espionage'],
+  },
+  {
+    id: 'classical-drama',
+    name: 'The Classical & Dramatic Gallery',
+    callRange: 'DDC 811/821 · 812/822 · LCC PA',
+    icon: '🎭',
+    description: 'Ancient Greek and Roman canon, theatrical stage plays, and poetic verse.',
+    categoryNames: ['Drama', 'Classics', 'Poetry'],
+  },
+  {
+    id: 'philosophy',
+    name: 'The Hall of Philosophy & Social Thought',
+    callRange: 'DDC 100–199 · 320–339 · 200–299',
+    icon: '📜',
+    description: 'Metaphysics, ethics, political philosophy, economics, and theological inquiry.',
+    categoryNames: ['Philosophy', 'Political Theory', 'Economics', 'Religion', 'Non-Western Philosophy', 'Medieval Philosophy & Theology', 'Governance'],
+  },
+  {
+    id: 'sciences',
+    name: 'The Scientific & Computational Stacks',
+    callRange: 'DDC 004–006 · 510–599 · LCC QA / Q',
+    icon: '🔬',
+    description: 'Algorithms, cryptography, operating systems, mathematics, and natural sciences.',
+    categoryNames: ['Computer Science', 'Security', 'Mathematics', 'Science', 'Complex Systems'],
+  },
+  {
+    id: 'history',
+    name: 'The Historical & Biographical Archive',
+    callRange: 'DDC 900–999 · LCC D / E / F',
+    icon: '⏳',
+    description: 'Chronicles of human civilization, military campaigns, personal diaries, and memoirs.',
+    categoryNames: ['History', 'Biography/Memoir', 'Global History', 'Non-Western History'],
+  },
+  {
+    id: 'youth-adventure',
+    name: 'The Youth & Adventure Alcove',
+    callRange: 'DDC 813 / 823 · Action & Juvenile',
+    icon: '🗝️',
+    description: 'Voyages of exploration, maritime survival, young-adult journeys, and children’s classics.',
+    categoryNames: ['Children\'s Literature', 'Adventure'],
+  },
+];
+
+// Pre-calculate counts per category
+const categoryCounts = new Map<string, number>();
+for (const b of books) {
+  const cat = b.data.category;
+  categoryCounts.set(cat, (categoryCounts.get(cat) ?? 0) + 1);
+}
+
+// Curated Reading Room Vitrines
+const VITRINE_SLUGS = {
+  philosophy: ['a-history-of-western-philosophy', 'apology', 'beyond-good-and-evil-2', 'meditations'],
+  scifi: ['2001-a-space-odyssey', 'a-scanner-darkly', 'a-wizard-of-earthsea', 'dune'],
+  mystery: ['a-study-in-scarlet', 'and-then-there-were-none', 'the-big-sleep', 'the-maltese-falcon'],
+  classics: ['a-midsummer-nights-dream', 'aeneid', 'hamlet', 'odyssey'],
+};
+
+interface VitrineExhibit {
+  id: string;
+  title: string;
+  curatorNote: string;
+  slugs: string[];
+}
+
+const VITRINE_EXHIBITS: VitrineExhibit[] = [
+  {
+    id: 'philosophy',
+    title: 'Exhibition I: Foundations of Reason & Antiquity',
+    curatorNote: 'Dialectics from Athens to the European Enlightenment: examining justice, consciousness, and the examined life.',
+    slugs: VITRINE_SLUGS.philosophy,
+  },
+  {
+    id: 'scifi',
+    title: 'Exhibition II: Visions of the Machine Age & Cosmos',
+    curatorNote: 'From cybernetic dystopias to deep interstellar voyages: speculative blueprints of human destiny.',
+    slugs: VITRINE_SLUGS.scifi,
+  },
+  {
+    id: 'mystery',
+    title: 'Exhibition III: The Noir Bureau & Foggy Alleys',
+    curatorNote: 'Golden Age locked-room puzzles, gaslit London streets, and hardboiled California mid-century crimes.',
+    slugs: VITRINE_SLUGS.mystery,
+  },
+  {
+    id: 'classics',
+    title: 'Exhibition IV: Masterworks of Drama & Ancient Epic',
+    curatorNote: 'The foundations of Western theatrical dialogue and Mediterranean verse preserved through millennia.',
+    slugs: VITRINE_SLUGS.classics,
+  },
+];
+
+const booksBySlug = new Map(books.map(b => [b.data.slug, b]));
+
+// Chronological Eras for quick timeline filtering
+const CHRONOLOGICAL_ERAS = [
+  { label: 'Classical Antiquity', range: 'Pre-500 AD', decade: -500 },
+  { label: 'Medieval & Renaissance', range: '500–1699', decade: 1500 },
+  { label: 'Enlightenment & 18th C.', range: '1700–1799', decade: 1750 },
+  { label: '19th Century Romanticism', range: '1800–1899', decade: 1850 },
+  { label: '20th Century Modernism', range: '1900–1949', decade: 1920 },
+  { label: 'Post-War & Machine Age', range: '1950–1999', decade: 1970 },
+  { label: '21st Century Contemporary', range: '2000–Present', decade: 2010 },
+];
 ---
 
 <Layout title="Home">
-  <!-- Hero -->
-  <section class="py-12 text-center">
-    <h1 class="heading-xl mb-2"><span lang="ja">積ん読</span><span class="sr-only">Tsundoku</span></h1>
-    <p class="hero-subtitle text-mono" aria-hidden="true">TSUNDOKU</p>
-    <p class="text-muted mb-4 max-w-xl mx-auto">
-      Everything I've read or want to read. Not meticulously curated — just a lifelong habit of
-      accumulating books faster than I can finish them.
-    </p>
-    <p class="text-dim text-xs text-mono mb-8 max-w-xl mx-auto">
-      {stats.total_books.toLocaleString()} books · {stats.total_authors.toLocaleString()} authors ·
-      {yearSpan.toLocaleString()} years of human thought, mostly unread
-    </p>
-
-    <!-- Stat Badges -->
-    <div class="grid grid-2 sm-grid-4 gap-4 max-w-2xl mx-auto mb-8">
-      <div class="stat-badge">
-        <div class="stat-badge-number">{stats.total_books.toLocaleString()}</div>
-        <div class="stat-badge-label">Books</div>
-      </div>
-      <div class="stat-badge">
-        <div class="stat-badge-number">{stats.total_categories}</div>
-        <div class="stat-badge-label">Categories</div>
-      </div>
-      <div class="stat-badge">
-        <div class="stat-badge-number">{stats.total_authors.toLocaleString()}</div>
-        <div class="stat-badge-label">Authors</div>
-      </div>
-      <div class="stat-badge stat-badge-pop">
-        <div class="stat-badge-number">{stats.reading_progress.read.toLocaleString()}</div>
-        <div class="stat-badge-label">Read</div>
-      </div>
+  <!-- The Athenaeum Masthead & Vestibule -->
+  <section class="athenaeum-hero">
+    <div class="athenaeum-insignia">
+      <span class="insignia-pill">TSUNDOKU ATHENAEUM · MAIN READING ROOM &amp; OPEN STACKS</span>
     </div>
 
-    <!-- Progress -->
-    {stats.reading_progress.read > 0 && (
-      <div class="max-w-xl mx-auto mb-8">
-        <div class="progress-bar" role="progressbar" aria-valuenow={readPct} aria-valuemin="0" aria-valuemax="100" aria-label={`${readPct}% of books read`}>
-          <div class="progress-fill-read" style={`width: ${readPct}%`}></div>
-          <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
-        </div>
-        <p class="text-xs text-dim text-mono mt-2">
-          {readPct}% read · {stats.reading_progress.want} on the pile ·
-          {yearsToFinish} years to finish at this pace
-        </p>
-      </div>
-    )}
+    <h1 class="athenaeum-title">
+      <span class="kanji-glyph" lang="ja">積ん読</span>
+      <span class="english-title">The Tsundoku Athenaeum</span>
+    </h1>
 
-    <a href={`${base}browse/`} class="btn">Browse the Pile</a>
-  </section>
+    <p class="athenaeum-epigraph">
+      “A private library is not an ego-trip; it is an open inquiry. The unread volumes stand guard over all that remains to be discovered.”
+    </p>
 
-  <!-- By the Numbers -->
-  <hr class="section-divider" />
-  <section class="py-8">
-    <h2 class="heading-md mb-6">By the Numbers</h2>
-    <div class="grid grid-2 sm-grid-4 gap-4">
-      <div class="stat-badge">
-        <div class="stat-badge-number">{(stats.bookshelf.total_pages / 1000000).toFixed(1)}M</div>
-        <div class="stat-badge-label">Total Pages</div>
-        <div class="stat-badge-sub">{Math.round(stats.bookshelf.shelf_meters)}m of shelf</div>
+    <!-- Library Quick Search Box -->
+    <div class="catalog-search-wrap">
+      <button
+        type="button"
+        class="catalog-search-trigger"
+        onclick="window.dispatchEvent(new CustomEvent('open-search'))"
+        aria-label="Open library catalog search"
+      >
+        <svg class="search-icon" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+        <span class="search-placeholder">Search 3,584 volumes by title, author, subject, or call number...</span>
+        <kbd class="search-shortcut">⌘K</kbd>
+      </button>
+    </div>
+
+    <!-- Accessions Ledger (The High-Density Facts Strip) -->
+    <div class="accessions-ledger" aria-label="Library collection summary">
+      <div class="ledger-item">
+        <span class="ledger-value">{stats.total_books.toLocaleString()}</span>
+        <span class="ledger-label">Volumes Cataloged</span>
       </div>
-      <div class="stat-badge">
-        <div class="stat-badge-number">{stats.bookshelf.estimated_reading_hours.toLocaleString()}</div>
-        <div class="stat-badge-label">Reading Hours</div>
-        <div class="stat-badge-sub">{(stats.bookshelf.estimated_reading_hours / 24 / 365).toFixed(1)} years nonstop</div>
+      <div class="ledger-divider" aria-hidden="true"></div>
+      <div class="ledger-item">
+        <span class="ledger-value">{stats.total_categories}</span>
+        <span class="ledger-label">Classified Shelves</span>
       </div>
-      <div class="stat-badge">
-        <div class="stat-badge-number">{Math.abs(stats.oldest_year)} BC</div>
-        <div class="stat-badge-label">Oldest Work</div>
-        <div class="stat-badge-sub">{yearSpan.toLocaleString()} year range</div>
+      <div class="ledger-divider" aria-hidden="true"></div>
+      <div class="ledger-item">
+        <span class="ledger-value">{stats.total_authors.toLocaleString()}</span>
+        <span class="ledger-label">Authors on Record</span>
       </div>
-      <div class="stat-badge stat-badge-pop">
-        <div class="stat-badge-number">{stats.reading_progress.want}</div>
-        <div class="stat-badge-label">Want to Read</div>
-        <div class="stat-badge-sub">the pile grows</div>
+      <div class="ledger-divider" aria-hidden="true"></div>
+      <div class="ledger-item">
+        <span class="ledger-value">{yearSpan.toLocaleString()} Yrs</span>
+        <span class="ledger-label">Chronicle Range</span>
+      </div>
+      <div class="ledger-divider" aria-hidden="true"></div>
+      <div class="ledger-item ledger-item-read">
+        <span class="ledger-value">{readPct}%</span>
+        <span class="ledger-label">Consulted &amp; Read</span>
       </div>
     </div>
   </section>
 
-  <!-- The Stacks at a Glance -->
-  <hr class="section-divider" />
+  <!-- The Grand Card Catalog: 8 Reading Wings -->
   <section class="py-8">
-    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
+    <div class="section-header-row mb-6">
       <div>
-        <h2 class="heading-md">The Stacks at a Glance</h2>
-        <p class="text-dim text-sm">Classified by Dewey Decimal main classes 000–900</p>
+        <div class="dossier-archive-label mb-1">DEPARTMENTAL DIRECTORY · CARD CATALOG BUREAU</div>
+        <h2 class="heading-lg">The Library Wings &amp; Reading Rooms</h2>
+        <p class="text-sm text-muted">Browse the 34 classified shelves across 8 thematic library wings.</p>
       </div>
-      <a href={`${base}stacks/`} class="ext-link text-sm" style="text-decoration: underline">
-        Explore all 10 stacks →
+      <a href={`${base}categories/`} class="ext-link text-sm font-bold" style="text-decoration: underline">
+        Full Classification Index (A–Z) →
       </a>
     </div>
+
+    <div class="grid grid-1 md-grid-2 lg-grid-4 gap-4">
+      {LIBRARY_WINGS.map(wing => {
+        const wingBooksCount = wing.categoryNames.reduce((acc, cat) => acc + (categoryCounts.get(cat) ?? 0), 0);
+        return (
+          <div class="card card-padded library-wing-card">
+            <div class="wing-card-header">
+              <span class="wing-icon" aria-hidden="true">{wing.icon}</span>
+              <span class="wing-call-code text-mono text-xs">{wing.callRange.split('·')[0]}</span>
+            </div>
+            <h3 class="wing-title">{wing.name}</h3>
+            <p class="wing-desc">{wing.description}</p>
+            <div class="wing-shelves-list">
+              {wing.categoryNames.slice(0, 4).map(cat => {
+                const count = categoryCounts.get(cat) ?? 0;
+                return (
+                  <a href={`${base}categories/${toSlug(cat)}/`} class="wing-shelf-link">
+                    <span class="wing-shelf-name">{cat}</span>
+                    <span class="wing-shelf-count text-mono">{count}</span>
+                  </a>
+                );
+              })}
+            </div>
+            <div class="wing-card-footer">
+              <span class="text-mono text-xs text-dim">{wingBooksCount.toLocaleString()} volumes</span>
+              <a href={`${base}categories/`} class="wing-explore-link">Explore wing →</a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Reading Room Exhibition Tables (Curated Vitrines) -->
+  <hr class="section-divider" />
+  <section class="py-8">
+    <div class="section-header-row mb-6">
+      <div>
+        <div class="dossier-archive-label mb-1">MAIN READING ROOM · SPECIAL EXHIBITION VITRINES</div>
+        <h2 class="heading-lg">Curated Exhibition Cases</h2>
+        <p class="text-sm text-muted">Selected landmark editions on display from the permanent stacks.</p>
+      </div>
+      <a href={`${base}browse/`} class="ext-link text-sm font-bold" style="text-decoration: underline">
+        Browse All Must-Reads →
+      </a>
+    </div>
+
+    <div class="grid grid-1 lg-grid-2 gap-6">
+      {VITRINE_EXHIBITS.map(exhibit => {
+        const exhibitBooks = exhibit.slugs
+          .map(slug => booksBySlug.get(slug))
+          .filter((b): b is typeof books[number] => Boolean(b));
+
+        return (
+          <div class="card card-padded vitrine-card">
+            <div class="vitrine-header">
+              <span class="vitrine-tag">EXHIBITION PLACARD</span>
+              <h3 class="vitrine-title">{exhibit.title}</h3>
+              <p class="vitrine-note">{exhibit.curatorNote}</p>
+            </div>
+
+            <div class="grid grid-2 sm-grid-4 gap-3">
+              {exhibitBooks.map(b => {
+                const coverSrc = resolveImageSrc(
+                  b.data.cover_url_large || b.data.cover_url,
+                  b.data.cover_url_large_source || b.data.cover_url_source
+                );
+                const callNum = formatCallNumber(b.data.ddc) || b.data.lcc?.[0] || null;
+
+                return (
+                  <a href={`${base}books/${b.data.slug}/`} class="vitrine-book-card group">
+                    <div class="vitrine-cover-wrap">
+                      {coverSrc ? (
+                        <img
+                          src={coverSrc}
+                          alt={`Cover of ${b.data.title}`}
+                          width="120"
+                          height="180"
+                          class="vitrine-cover"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <div class="vitrine-placeholder">📖</div>
+                      )}
+                      {callNum && (
+                        <span class="vitrine-call-chip text-mono">{callNum}</span>
+                      )}
+                    </div>
+                    <div class="vitrine-book-info">
+                      <p class="vitrine-book-title truncate">{b.data.title}</p>
+                      <p class="vitrine-book-author truncate">{b.data.author}</p>
+                      {b.data.first_published && (
+                        <span class="vitrine-book-year text-mono">{formatYear(b.data.first_published, b.data.first_published_circa)}</span>
+                      )}
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- The Open Stacks (Dewey Decimal Classification 000–900) -->
+  <hr class="section-divider" />
+  <section class="py-8">
+    <div class="section-header-row mb-6">
+      <div>
+        <div class="dossier-archive-label mb-1">DEWEY CLASSIFICATION SYSTEM · OPEN STACKS BAY 000–900</div>
+        <h2 class="heading-lg">The Open Stacks at a Glance</h2>
+        <p class="text-sm text-muted">Navigate the library's physical stack arrangement across the 10 decimal classes.</p>
+      </div>
+      <a href={`${base}stacks/`} class="ext-link text-sm font-bold" style="text-decoration: underline">
+        Enter the Stacks Directory →
+      </a>
+    </div>
+
     <div class="grid grid-2 sm-grid-5 gap-3">
       {DDC_PREVIEWS.map(c => {
         const count = ddcCounts.get(c.code) ?? 0;
         return (
-          <a href={`${base}stacks/${c.code}/`} class="card card-padded stack-teaser-card">
-            <span class="text-mono text-sm text-dim">{c.code}</span>
+          <a href={`${base}stacks/${c.code}/`} class="card card-padded stack-teaser-card group">
+            <div class="stack-badge-head">
+              <span class="stack-code text-mono">{c.code}</span>
+              <span class="stack-arrow">→</span>
+            </div>
             <div class="stack-teaser-name">{c.name}</div>
-            <div class="stack-teaser-count text-dim">{count.toLocaleString()} books</div>
+            <p class="stack-teaser-desc">{c.desc}</p>
+            <div class="stack-teaser-count text-mono">{count.toLocaleString()} volumes</div>
           </a>
         );
       })}
     </div>
   </section>
 
-  <!-- When the Books Are From — compact timeline teaser → /stats (#124) -->
+  <!-- The Chronological Shelf & Century Sparkline -->
   <hr class="section-divider" />
   <section class="py-8">
-    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
-      <h2 class="heading-md">When the Books Are From</h2>
-      <a href={`${base}stats/`} class="ext-link text-sm" style="text-decoration: underline">
-        The full damage: timeline &amp; nationalities map →
+    <div class="section-header-row mb-4">
+      <div>
+        <div class="dossier-archive-label mb-1">CHRONOLOGICAL ARCHIVE · FOUR MILLENNIA OF HUMAN THOUGHT</div>
+        <h2 class="heading-lg">When the Books Are From</h2>
+        <p class="text-sm text-muted">First-edition chronology from classical antiquity through the modern age.</p>
+      </div>
+      <a href={`${base}stats/`} class="ext-link text-sm font-bold" style="text-decoration: underline">
+        Full Timeline &amp; Statistics →
       </a>
     </div>
+
+    <!-- Chronological Era Pills -->
+    <div class="flex flex-wrap gap-2 mb-4">
+      {CHRONOLOGICAL_ERAS.map(era => (
+        <a href={`${base}browse/?decade=${era.decade}`} class="era-chip" title={`Browse books from ${era.label} (${era.range})`}>
+          <span class="era-chip-name">{era.label}</span>
+          <span class="era-chip-range text-mono">{era.range}</span>
+        </a>
+      ))}
+    </div>
+
     <div class="card stats-teaser">
       <div class="flex justify-between items-baseline mb-2 gap-2">
-        <span class="text-xs text-dim text-mono">books by first-edition decade</span>
+        <span class="text-xs text-dim text-mono">volume frequency by first-edition decade</span>
         <span id="sparkline-readout" class="text-xs text-mono text-muted" aria-live="polite">hover a decade →</span>
       </div>
       <div class="stats-sparkline" id="home-sparkline">
@@ -167,75 +425,466 @@ for (const b of books) {
             class="stats-sparkline-bar"
             data-decade={t.decade}
             data-count={t.count}
-            style={`height: ${Math.max((t.count / teaserMax) * 100, 3)}%`}
+            style={`height: ${Math.max((t.count / teaserMax) * 100, 4)}%`}
             title={`${t.decade}s: ${t.count} ${t.count === 1 ? 'book' : 'books'}`}
           ></span>
         ))}
       </div>
       <div class="stats-sparkline-axis" aria-hidden="true">
-        <span>1700s</span>
-        <span>2020s</span>
+        <span>1700s (Enlightenment)</span>
+        <span>1800s (Industrial Era)</span>
+        <span>1900s (Modernism)</span>
+        <span>2020s (Contemporary)</span>
       </div>
       <p class="text-xs text-dim mt-3">
-        Oldest work {oldestLine} · authors from {nationalityCount} nationalities ·
-        <a href={`${base}stats/`} class="ext-link" style="text-decoration: underline">see the full breakdown →</a>
+        Earliest cataloged manuscript: {oldestLine} · authors representing {nationalityCount} nationalities ·
+        <a href={`${base}stats/`} class="ext-link" style="text-decoration: underline">Explore the complete library analytics →</a>
       </p>
     </div>
   </section>
 
-  <!-- Featured Must-Reads -->
-  {(() => {
-    // Guard against a /cached/ cover URL whose file doesn't actually exist
-    // in THIS build (see src/utils/imageGuard.ts's docstring — the
-    // william-shakespeare production 404). Resolved once here so a book
-    // whose cover can't be resolved (missing file AND no upstream source)
-    // simply doesn't enter the featured pool, rather than rendering a
-    // guaranteed-broken <img>.
-    const mustReads = books
-      .filter(b => b.data.priority === 1 && b.data.cover_url)
-      .map(b => ({ book: b, coverSrc: resolveImageSrc(b.data.cover_url_large || b.data.cover_url, b.data.cover_url_large_source || b.data.cover_url_source) }))
-      .filter((entry): entry is { book: typeof books[number]; coverSrc: string } => Boolean(entry.coverSrc));
-    const featured = seededShuffle(mustReads).slice(0, 8);
-    return featured.length > 0 ? (
-      <>
-        <hr class="section-divider" />
-        <section class="py-8">
-          <div class="flex items-center justify-between mb-6 flex-wrap gap-2">
-            <h2 class="heading-md">Must-Reads (Allegedly)</h2>
-            <a href={`${base}browse/`} class="ext-link text-sm" style="text-decoration: underline">
-              See all {mustReads.length.toLocaleString()} must-reads →
-            </a>
-          </div>
-          <div class="grid grid-2 sm-grid-4 lg-grid-8 gap-4">
-            {featured.map(({ book: b, coverSrc }) => (
-              <a href={`${base}books/${b.data.slug}/`} class="book-cover-group">
-                <img src={coverSrc} alt={`Cover of ${b.data.title}`}
-                  width="200" height="300" class="book-cover" loading="lazy" decoding="async" />
-                <p class="featured-title">{b.data.title}</p>
-                <p class="featured-author truncate text-dim">{b.data.author}</p>
-              </a>
-            ))}
-          </div>
-        </section>
-      </>
-    ) : null;
-  })()}
-
-  <!-- Quick links -->
+  <!-- Library Circulation Desk & Date-Due Ledger -->
   <hr class="section-divider" />
-  <section class="py-8 text-center">
-    <a href={`${base}categories/`} class="btn btn-outline">Explore Categories</a>
+  <section class="py-8">
+    <div class="card card-padded circulation-desk-card">
+      <div class="circulation-desk-grid">
+        <div class="circulation-col-left">
+          <div class="dossier-archive-label mb-1">CIRCULATION BUREAU · LOAN &amp; SHELVING STATUS</div>
+          <h2 class="heading-md mb-2">The Circulation Ledger</h2>
+          <p class="text-sm text-muted mb-4">
+            Physical stack extent: {Math.round(stats.bookshelf.shelf_meters)} meters of shelving across {(stats.bookshelf.total_pages / 1000000).toFixed(1)}M pages. At an estimated {stats.bookshelf.estimated_reading_hours.toLocaleString()} reading hours, the remaining reserve requires ~{yearsToFinish} years to complete.
+          </p>
+
+          <div class="progress-bar mb-3" role="progressbar" aria-valuenow={readPct} aria-valuemin="0" aria-valuemax="100" aria-label={`${readPct}% of catalog read`}>
+            <div class="progress-fill-read" style={`width: ${readPct}%`}></div>
+            <div class="progress-fill-reading" style={`width: ${100 * stats.reading_progress.reading / stats.total_books}%`}></div>
+          </div>
+          <div class="flex justify-between text-xs text-mono text-dim">
+            <span>✓ {stats.reading_progress.read.toLocaleString()} Shelved &amp; Read ({readPct}%)</span>
+            <span>⌛ {stats.reading_progress.want.toLocaleString()} On Reserve ({100 - readPct}%)</span>
+          </div>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href={`${base}browse/?status=read`} class="btn btn-outline text-xs">Browse Read Books ({stats.reading_progress.read})</a>
+            <a href={`${base}browse/?status=want`} class="btn btn-outline text-xs">Browse the Pile ({stats.reading_progress.want})</a>
+            <a href={`${base}browse/`} class="btn text-xs">Open the Full Catalog →</a>
+          </div>
+        </div>
+
+        <div class="circulation-col-right">
+          <!-- Archival Date-Due Stamp -->
+          <div class="circ-desk-stamp-box">
+            <div class="circ-stamp circ-stamp--read">
+              <span class="circ-stamp-library">TSUNDOKU ATHENAEUM</span>
+              <span class="circ-stamp-status status-read">SHELVED &amp; CONSULTED</span>
+              <span class="circ-stamp-shelf">OFFICIAL REPOSITORIUM</span>
+              <span class="text-mono text-xs mt-1" style="font-size: 0.65rem; opacity: 0.85">ACCESSION NO. 003584</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </Layout>
 
 <style>
+  /* Athenaeum Masthead & Vestibule */
+  .athenaeum-hero {
+    padding-block: var(--space-8) var(--space-6);
+    text-align: center;
+    max-width: 52rem;
+    margin-inline: auto;
+  }
+  .athenaeum-insignia {
+    margin-bottom: var(--space-3);
+  }
+  .insignia-pill {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.12em;
+    color: var(--color-accent);
+    background: var(--color-accent-subtle, var(--bg-elevated));
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm, 2px);
+    border: var(--border-width) solid var(--border);
+    display: inline-block;
+  }
+  .athenaeum-title {
+    margin-bottom: var(--space-3);
+  }
+  .kanji-glyph {
+    display: block;
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.08em;
+    color: var(--text);
+  }
+  .english-title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+  .athenaeum-epigraph {
+    font-family: var(--font-display);
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
+    line-height: 1.6;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-inline: auto;
+    margin-bottom: var(--space-6);
+    max-width: 44rem;
+  }
+
+  /* Catalog Search Trigger Wrap */
+  .catalog-search-wrap {
+    max-width: 38rem;
+    margin-inline: auto;
+    margin-bottom: var(--space-6);
+  }
+  .catalog-search-trigger {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: 0.75rem 1.1rem;
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--color-border-bold);
+    border-radius: var(--radius-sm, 3px);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    transition: border-color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
+  }
+  .catalog-search-trigger:hover {
+    border-color: var(--color-accent);
+    background: var(--bg-elevated);
+    color: var(--text);
+  }
+  .search-icon {
+    flex-shrink: 0;
+    color: var(--color-accent);
+  }
+  .search-placeholder {
+    flex: 1;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .search-shortcut {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    background: var(--bg-elevated);
+    border: var(--border-width) solid var(--border);
+    padding: 0.15rem 0.45rem;
+    border-radius: 2px;
+    color: var(--text-dim);
+  }
+
+  /* Accessions Ledger Strip */
+  .accessions-ledger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-4);
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--border);
+    padding: var(--space-3) var(--space-5);
+    border-radius: var(--radius-sm, 2px);
+  }
+  .ledger-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ledger-value {
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--text);
+    font-variant-numeric: tabular-nums lining-nums;
+    line-height: 1.2;
+  }
+  .ledger-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+  }
+  .ledger-divider {
+    width: 1px;
+    height: 28px;
+    background: var(--border);
+  }
+  @media (max-width: 640px) {
+    .ledger-divider { display: none; }
+    .accessions-ledger { gap: var(--space-3) var(--space-6); }
+  }
+
+  /* Section Header Row */
+  .section-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  /* Library Wing Cards */
+  .library-wing-card {
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid var(--color-border-bold);
+    background: var(--bg-surface);
+    transition: border-color var(--motion-fast) var(--motion-easing), transform var(--motion-fast) var(--motion-easing);
+  }
+  .library-wing-card:hover {
+    border-top-color: var(--color-accent);
+  }
+  .wing-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: var(--space-1);
+  }
+  .wing-icon {
+    font-size: 1.25rem;
+  }
+  .wing-call-code {
+    color: var(--text-dim);
+  }
+  .wing-title {
+    font-family: var(--font-display);
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: var(--space-1);
+  }
+  .wing-desc {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    line-height: 1.4;
+    margin-bottom: var(--space-3);
+    flex-grow: 1;
+  }
+  .wing-shelves-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-bottom: var(--space-3);
+    border-top: 1px dashed var(--border);
+    padding-top: var(--space-2);
+  }
+  .wing-shelf-link {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding-block: 0.15rem;
+  }
+  .wing-shelf-link:hover {
+    color: var(--color-accent);
+  }
+  .wing-shelf-count {
+    color: var(--text-dim);
+  }
+  .wing-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: var(--border-width) solid var(--border);
+    padding-top: var(--space-2);
+    margin-top: auto;
+  }
+  .wing-explore-link {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+
+  /* Vitrine Cards (Curated Exhibition Cases) */
+  .vitrine-card {
+    background: var(--bg-surface);
+    border-left: 3px solid var(--color-accent);
+  }
+  .vitrine-header {
+    margin-bottom: var(--space-4);
+    border-bottom: var(--border-width) solid var(--border);
+    padding-bottom: var(--space-3);
+  }
+  .vitrine-tag {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: var(--space-1);
+  }
+  .vitrine-title {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+  .vitrine-note {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+  .vitrine-book-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .vitrine-cover-wrap {
+    position: relative;
+    aspect-ratio: 2 / 3;
+    background: var(--bg-elevated);
+    border: var(--border-width) solid var(--border);
+    border-radius: var(--radius-sm, 2px);
+    overflow: hidden;
+    margin-bottom: var(--space-1);
+  }
+  .vitrine-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--motion-fast) var(--motion-easing);
+  }
+  .vitrine-book-card:hover .vitrine-cover {
+    transform: scale(1.03);
+  }
+  .vitrine-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .vitrine-call-chip {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    font-size: 0.625rem;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 2px;
+    max-width: calc(100% - 8px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .vitrine-book-title {
+    font-family: var(--font-display);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+  .vitrine-book-author {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+  .vitrine-book-year {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+  }
+
+  /* Open Stacks Bay Tiles */
+  .stack-teaser-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-surface);
+    transition: border-color var(--motion-fast) var(--motion-easing);
+  }
+  .stack-badge-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.25rem;
+  }
+  .stack-code {
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--color-accent);
+  }
+  .stack-arrow {
+    font-size: var(--text-xs);
+    color: var(--text-dim);
+    transition: transform var(--motion-fast) var(--motion-easing);
+  }
+  .stack-teaser-card:hover .stack-arrow {
+    transform: translateX(3px);
+    color: var(--color-accent);
+  }
+  .stack-teaser-name {
+    font-weight: 600;
+    font-size: var(--text-sm);
+    margin-bottom: 0.25rem;
+  }
+  .stack-teaser-desc {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    line-height: 1.3;
+    margin-bottom: var(--space-2);
+    flex-grow: 1;
+  }
+  .stack-teaser-count {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    border-top: 1px dashed var(--border);
+    padding-top: var(--space-1);
+  }
+
+  /* Era Chips */
+  .era-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.35rem 0.65rem;
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--border);
+    border-radius: var(--radius-sm, 3px);
+    text-decoration: none;
+    font-size: var(--text-xs);
+    color: var(--text);
+    transition: border-color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
+  }
+  .era-chip:hover {
+    border-color: var(--color-accent);
+    background: var(--bg-elevated);
+  }
+  .era-chip-name {
+    font-weight: 500;
+  }
+  .era-chip-range {
+    color: var(--text-dim);
+    font-size: 0.6875rem;
+  }
+
+  /* Decade Sparkline */
   .stats-teaser { padding: 1rem 1.25rem; }
-  /* Compact decade sparkline — bars share width, height encodes book count. */
   .stats-sparkline {
     display: flex;
     align-items: flex-end;
     gap: 2px;
-    height: 64px;
+    height: 72px;
   }
   .stats-sparkline-bar {
     flex: 1 1 0;
@@ -253,13 +902,70 @@ for (const b of books) {
   .stats-sparkline-axis {
     display: flex;
     justify-content: space-between;
-    margin-top: 4px;
-    font-size: 0.8125rem;
+    margin-top: 6px;
+    font-size: 0.75rem;
     font-family: var(--font-mono);
     color: var(--text-dim);
   }
+
+  /* Circulation Desk Ledger Card */
+  .circulation-desk-card {
+    background: var(--bg-surface);
+    border: var(--border-width) solid var(--border);
+  }
+  .circulation-desk-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .circulation-desk-grid {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  .circ-desk-stamp-box {
+    display: flex;
+    justify-content: center;
+    padding: var(--space-4);
+    background: var(--bg-elevated);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius-sm, 2px);
+  }
+  .circ-stamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid;
+    border-radius: var(--radius-sm, 3px);
+    text-align: center;
+    font-family: var(--font-mono);
+    transform: rotate(-1.5deg);
+  }
+  .circ-stamp--read {
+    border-color: var(--color-success);
+    color: var(--color-success);
+  }
+  .circ-stamp-library {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+  }
+  .circ-stamp-status {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+  .circ-stamp-shelf {
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .stats-sparkline-bar { transition: none; }
+    .vitrine-cover { transition: none; }
   }
 </style>
 
