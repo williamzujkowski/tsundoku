@@ -79,6 +79,9 @@ def main() -> None:
             entry["g"] = tags
             for t in tags:
                 tag_counts[t] = tag_counts.get(t, 0) + 1
+        sub = d.get("subject_facet") or []
+        if sub:
+            entry["sub"] = sub[:4]
         # Original language (when set, indicates a non-English work)
         if d.get("original_language"):
             entry["ol"] = d["original_language"]

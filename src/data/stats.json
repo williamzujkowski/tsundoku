@@ -500,27 +500,35 @@
   "categories": [
     {
       "name": "Literature",
-      "count": 1514
+      "count": 1167
     },
     {
       "name": "Philosophy",
-      "count": 359
+      "count": 366
     },
     {
       "name": "Science Fiction",
-      "count": 304
+      "count": 364
     },
     {
       "name": "Fantasy",
-      "count": 235
+      "count": 275
+    },
+    {
+      "name": "Poetry",
+      "count": 186
     },
     {
       "name": "History",
       "count": 182
     },
     {
-      "name": "Poetry",
-      "count": 170
+      "name": "Mystery",
+      "count": 161
+    },
+    {
+      "name": "Drama",
+      "count": 107
     },
     {
       "name": "Mathematics",
@@ -531,8 +539,8 @@
       "count": 101
     },
     {
-      "name": "Mystery",
-      "count": 70
+      "name": "Biography/Memoir",
+      "count": 67
     },
     {
       "name": "Economics",
@@ -540,27 +548,23 @@
     },
     {
       "name": "Horror",
-      "count": 59
+      "count": 66
+    },
+    {
+      "name": "Political Theory",
+      "count": 58
     },
     {
       "name": "Classics",
       "count": 57
     },
     {
-      "name": "Political Theory",
-      "count": 52
-    },
-    {
       "name": "Security",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Science",
       "count": 44
-    },
-    {
-      "name": "Drama",
-      "count": 41
     },
     {
       "name": "Religion",
@@ -577,10 +581,6 @@
     {
       "name": "Non-Western Philosophy",
       "count": 21
-    },
-    {
-      "name": "Biography/Memoir",
-      "count": 14
     },
     {
       "name": "Essays",
@@ -638,5 +638,5 @@
     "shelf_meters": 89.6,
     "books_with_pages": 3463
   },
-  "generated_at": "2026-10-29T01:13:12.512294"
+  "generated_at": "2026-10-29T02:27:02.498274"
 }

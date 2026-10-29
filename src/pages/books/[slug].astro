@@ -108,18 +108,21 @@ const ddcClass = ddcClassOf(book.ddc);
 // Device 5's "date-due slip" — an authentic library circulation treatment
 // recording accession and publication facts without duplicating the awards
 // or adaptation sections displayed elsewhere on this page.
-interface SlipRow { label: string; display: string }
+interface SlipRow { label: string; display: string; href?: string }
 const slipRows: SlipRow[] = [];
 if (book.first_published !== undefined) {
+  const pubDecade = Math.floor(book.first_published / 10) * 10;
   slipRows.push({
     label: 'First published',
     display: formatYear(book.first_published, book.first_published_circa),
+    href: `${base}browse/?decade=${pubDecade}`,
   });
 }
 if (book.series) {
   slipRows.push({
     label: 'Series entry',
     display: `${book.series.name}${book.series.position ? ` #${book.series.position}` : ''}`,
+    href: `${base}series/${toSlug(book.series.name)}/`,
   });
 }
 if (book.pages) {
@@ -138,6 +141,7 @@ if (book.language) {
   slipRows.push({
     label: 'Language',
     display: languageLabel(book.language),
+    href: `${base}browse/?language=${encodeURIComponent(book.language)}`,
   });
 }
 const readingStamp = statusStamp(book.reading_status);
@@ -233,9 +237,9 @@ if (currentLcc) {
       )}
 
       <div class="book-detail-info">
-        <span class={`${priorityClass(book.priority)} mb-4`}>
+        <a href={`${base}browse/?priority=${book.priority}`} class={`${priorityClass(book.priority)} mb-4 inline-block hover:opacity-80 transition-opacity`} title={`Browse ${priorityLabel(book.priority)} books`}>
           {priorityLabel(book.priority)}
-        </span>
+        </a>
         <h1 class="heading-xl mb-2">{book.title}</h1>
         <p class="text-muted mb-4">by {book.author === 'Unknown' ? (
           <span class="text-dim">{book.author}</span>
@@ -258,9 +262,9 @@ if (currentLcc) {
 
         <div class="flex flex-wrap items-center gap-2 mb-4">
           {book.reading_status && (
-            <span class={statusClass(book.reading_status)}>
+            <a href={`${base}browse/?status=${book.reading_status}`} class={`${statusClass(book.reading_status)} hover:opacity-85 transition-opacity`} title={`Browse books marked ${statusLabel(book.reading_status)}`}>
               {statusLabel(book.reading_status)}
-            </span>
+            </a>
           )}
           {book.copyright_status === 'public_domain' && (
             <span class="status-badge status-read">Public Domain</span>
@@ -503,9 +507,15 @@ if (currentLcc) {
               <div class="dossier-meta-row">
                 <dt class="dossier-meta-dt">Language</dt>
                 <dd class="dossier-meta-dd text-xs">
-                  <span>{book.language ? languageLabel(book.language) : 'English'}</span>
+                  {book.language ? (
+                    <a href={`${base}browse/?language=${encodeURIComponent(book.language)}`} class="ext-link" title={`Browse books in ${languageLabel(book.language)}`}>
+                      {languageLabel(book.language)}
+                    </a>
+                  ) : (
+                    <span>English</span>
+                  )}
                   {book.original_language && book.original_language !== book.language && (
-                    <span class="text-dim"> (original: {languageLabel(book.original_language)})</span>
+                    <span class="text-dim"> (original: <a href={`${base}browse/?language=${encodeURIComponent(book.original_language)}`} class="ext-link" title={`Browse books originally in ${languageLabel(book.original_language)}`}>{languageLabel(book.original_language)}</a>)</span>
                   )}
                 </dd>
               </div>
@@ -517,7 +527,9 @@ if (currentLcc) {
               <div class="dossier-section-title">Subject Headings (LCSH)</div>
               <div class="flex flex-wrap gap-1.5 text-xs">
                 {book.subject_facet.slice(0, 10).map(s => (
-                  <span class="meta-tag">{s}</span>
+                  <a href={`${base}browse/?q=${encodeURIComponent(s)}`} class="meta-tag tag-chip" title={`Browse books matching subject "${s}"`}>
+                    {s}
+                  </a>
                 ))}
               </div>
             </div>
@@ -536,7 +548,13 @@ if (currentLcc) {
               {slipRows.map(row => (
                 <div class="due-slip-row">
                   <span class="due-slip-desc">{row.label}</span>
-                  <span class="due-slip-date">{row.display}</span>
+                  {row.href ? (
+                    <a href={row.href} class="due-slip-date due-slip-link" title={`Filter library by ${row.label}: ${row.display}`}>
+                      {row.display}
+                    </a>
+                  ) : (
+                    <span class="due-slip-date">{row.display}</span>
+                  )}
                 </div>
               ))}
             </div>
@@ -875,6 +893,17 @@ if (currentLcc) {
     color: var(--text);
     font-variant-numeric: tabular-nums lining-nums;
     flex-shrink: 0;
+  }
+
+  .due-slip-link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    color: var(--color-primary);
+    transition: opacity 150ms ease;
+  }
+  .due-slip-link:hover {
+    opacity: 0.8;
   }
 
   .due-slip-stamp-container {
