@@ -1,7 +1,7 @@
 {
   "title": "Antigone",
   "author": "Jean Anouilh",
-  "category": "Literature",
+  "category": "Drama",
   "priority": 2,
   "slug": "antigone-2",
   "tags": [],
@@ -16,7 +16,7 @@
   "oclc_id": "61112377",
   "worldcat_url": "https://www.worldcat.org/oclc/61112377",
   "lccn": "47026852",
-  "copyright_status": "public_domain",
+  "copyright_status": "likely_public_domain",
   "isbn": "9780573628191",
   "ddc": [
     "848",
@@ -63,7 +63,6 @@
     "adaptations": "wikidata_adaptations_v1"
   },
   "editions_count": 75,
-  "first_edition_isbn": null,
   "representative_edition_key": "/books/OL28954293M",
   "wikidata_qid": "Q1823045",
   "original_language": "fre",

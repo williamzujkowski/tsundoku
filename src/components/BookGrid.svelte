@@ -12,6 +12,7 @@
     first_published?: number;
     reading_status?: 'want' | 'reading' | 'read';
     tags?: string[];
+    subjects?: string[];
     lcc?: string;
     ddc?: string;
     original_language?: string;
@@ -21,7 +22,7 @@
   // Compact wire format from /browse-data.json — keep keys short to shrink payload.
   interface WireBook {
     t: string; a: string; s: string; p: number; cat: string;
-    co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; lc?: string;
+    co?: string; y?: number; rs?: 'want' | 'reading' | 'read'; g?: string[]; sub?: string[]; lc?: string;
     dd?: string; ol?: string; n?: string;
   }
 
@@ -115,6 +116,7 @@
         first_published: b.y,
         reading_status: b.rs,
         tags: b.g,
+        subjects: b.sub,
         lcc: b.lc,
         ddc: b.dd,
         original_language: b.ol,
@@ -136,7 +138,9 @@
       const q = search.toLowerCase();
       const matchesSearch = q === '' ||
         b.title.toLowerCase().includes(q) ||
-        b.author.toLowerCase().includes(q);
+        b.author.toLowerCase().includes(q) ||
+        (b.tags && b.tags.some(t => t.toLowerCase().includes(q))) ||
+        (b.subjects && b.subjects.some(s => s.toLowerCase().includes(q)));
       const matchesCategory = selectedCategory === '' || b.category === selectedCategory;
       const matchesPriority = selectedPriority === 0 || b.priority === selectedPriority;
       const matchesStatus = selectedStatus === '' || b.reading_status === selectedStatus;

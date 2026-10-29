@@ -24,40 +24,151 @@ from json_merge import save_json
 
 
 # High-confidence tag → category mapping. These tags are reliable indicators.
-# Tags that don't appear here ("drama", "biography", "mystery", "thriller")
-# need the subject signal too — the labels are too noisy on their own.
 HIGH_CONFIDENCE_TAGS = {
     "poetry": "Poetry",
     "fantasy": "Fantasy",
     "sci-fi": "Science Fiction",
     "science-fiction": "Science Fiction",
     "horror": "Horror",
-    "philosophy": "Philosophy",
     "memoir": "Biography/Memoir",
+    "computer-science": "Computer Science",
+    "programming": "Computer Science",
+    "security": "Security",
+    "cryptography": "Security",
 }
 
-# Lower-confidence tags are intentionally NOT auto-mapped — even with subject
-# corroboration they produce false positives:
-#  - "drama" tag is applied to novels with dramatic content (Anna Karenina,
-#    A Christmas Carol) not just plays
-#  - "biography" tag covers both autobiographies (correct) and novels with
-#    biographical themes (Wilde's "A Woman of No Importance" is a play)
-#  - "mystery" / "thriller" labels are loose and atmospheric
-# These need manual or LLM-assisted review — see #113.
-NEEDS_SUBJECT_TAGS: dict[str, str] = {}
+# Tags that need subject corroboration to avoid false positives:
+# e.g., "mystery", "drama", "biography", "politics", "philosophy"
+NEEDS_SUBJECT_TAGS = {
+    "mystery": "Mystery",
+    "detective": "Mystery",
+    "crime": "Mystery",
+    "drama": "Drama",
+    "play": "Drama",
+    "plays": "Drama",
+    "biography": "Biography/Memoir",
+    "autobiography": "Biography/Memoir",
+    "politics": "Political Theory",
+    "political-theory": "Political Theory",
+    "philosophy": "Philosophy",
+}
 
-# Subjects from Open Library — must contain one of these phrases. Subjects
-# are typically more curated than free-form tags, so they're a stronger signal.
+# Subjects from Open Library (LCSH) — must contain one of these phrases.
+# Subjects are typically curated, so they provide high-fidelity corroboration.
 SUBJECT_KEYWORDS = {
-    "Poetry": ["poetry", "verse", "poems"],
-    "Drama": ["drama", "plays (theater)", "tragedy"],
-    "Mystery": ["detective and mystery", "crime fiction", "whodunit", "mystery fiction"],
-    "Fantasy": ["fantasy fiction", "epic fantasy"],
-    "Science Fiction": ["science fiction"],
-    "Horror": ["horror fiction", "ghost stories", "gothic fiction"],
-    "Biography/Memoir": ["biography", "memoir", "autobiography"],
-    "Philosophy": ["philosophy"],
+    "Poetry": ["poetry", "verse", "poems", "sonnets", "ballads", "poetic works"],
+    "Drama": [
+        "drama (dramatic works by one author)",
+        "plays (theater)",
+        "tragedies",
+        "comedies",
+        "theatre",
+        "english drama",
+        "american drama",
+        "french drama",
+        "greek drama",
+        "one-act plays",
+        "historical drama",
+        "dramatic works",
+        "theatrical productions",
+    ],
+    "Mystery": [
+        "detective and mystery",
+        "detective stories",
+        "mystery fiction",
+        "crime fiction",
+        "whodunit",
+        "police procedural",
+        "private investigators",
+        "murder -- fiction",
+        "mystery and detective stories",
+    ],
+    "Fantasy": [
+        "fantasy fiction",
+        "epic fantasy",
+        "magic in fiction",
+        "wizards in fiction",
+        "dragons in fiction",
+        "high fantasy",
+        "urban fantasy",
+        "sword and sorcery",
+        "imaginary places",
+        "elves in fiction",
+    ],
+    "Science Fiction": [
+        "science fiction",
+        "space warfare",
+        "interplanetary voyages",
+        "dystopias",
+        "cyberpunk",
+        "time travel in fiction",
+        "artificial intelligence -- fiction",
+        "alien civilizations",
+        "space colonies",
+        "life on other planets",
+    ],
+    "Horror": [
+        "horror fiction",
+        "ghost stories",
+        "gothic fiction",
+        "vampires",
+        "supernatural in fiction",
+        "haunted houses in fiction",
+        "horror tales",
+    ],
+    "Biography/Memoir": [
+        "biography",
+        "memoir",
+        "autobiography",
+        "diaries",
+        "personal narratives",
+    ],
+    "Philosophy": [
+        "philosophy",
+        "ethics",
+        "metaphysics",
+        "epistemology",
+        "logic",
+        "existentialism",
+        "political philosophy",
+        "phenomenology",
+    ],
+    "Computer Science": [
+        "computer programming",
+        "algorithms",
+        "data structures",
+        "software engineering",
+        "operating systems (computers)",
+        "computer networks",
+        "programming languages (electronic computers)",
+    ],
+    "Security": [
+        "cryptography",
+        "computer security",
+        "data encryption",
+        "network security",
+        "cybersecurity",
+        "ciphers",
+    ],
+    "Political Theory": [
+        "political science",
+        "political theory",
+        "totalitarianism",
+        "democracy",
+        "socialism",
+        "anarchism",
+        "state, the",
+    ],
 }
+
+SCI_FI_KEYWORDS = [
+    "space", "alien", "starship", "galaxy", "future", "robot", "cyberpunk",
+    "time travel", "interplanetary", "dystopia", "artificial intelligence",
+]
+FANTASY_KEYWORDS = [
+    "magic", "wizard", "dragon", "spell", "witch", "sorcery", "elf",
+    "kingdom", "mythical", "epic fantasy", "faerie", "quest",
+]
 
 
 def existing_categories() -> set[str]:
@@ -69,8 +180,15 @@ def existing_categories() -> set[str]:
     return cats
 
 
+def _keyword_matches(keyword: str, text: str) -> bool:
+    """Check if keyword matches in text, using word boundaries for single words."""
+    if " " not in keyword and "-" not in keyword:
+        return bool(_re.search(r"\b" + _re.escape(keyword) + r"\b", text))
+    return keyword in text
+
+
 def _subject_match(subjects: list[str], keywords: list[str]) -> bool:
-    return any(any(k in sub for k in keywords) for sub in subjects)
+    return any(any(_keyword_matches(k, sub) for k in keywords) for sub in subjects)
 
 
 # --- Library classification → category mapping ----------------------------
@@ -90,6 +208,10 @@ def category_from_ddc(ddc_list: list[str]) -> str | None:
     """Best-guess category from a DDC array. Returns None if no clean match."""
     if not ddc_list:
         return None
+    # Special case: 822.33 is William Shakespeare
+    for raw in ddc_list:
+        if raw and "822.33" in raw:
+            return "Drama"
     # Take the first numeric DDC and parse the integer prefix (3 digits).
     for raw in ddc_list:
         m = _re.match(r"(\d{3})", raw or "")
@@ -98,7 +220,6 @@ def category_from_ddc(ddc_list: list[str]) -> str | None:
         n = int(m.group(1))
         # Literature subdivisions — prefer specific over generic
         if 800 <= n <= 899:
-            tens = n // 10
             # 808/809 = literary criticism / general literature
             if n in (808, 809):
                 return "Literary Criticism"
@@ -124,8 +245,12 @@ def category_from_ddc(ddc_list: list[str]) -> str | None:
         if 520 <= n <= 599:
             return "Science"
         if 900 <= n <= 999:
+            if n == 920:
+                return "Biography/Memoir"
             return "History"
         if n < 100:  # 0XX = computing / information
+            if "005.8" in (raw or ""):
+                return "Security"
             return "Computer Science"
     return None
 
@@ -211,33 +336,89 @@ def proposed_category(book: dict, existing: set[str]) -> str | None:
     current = book.get("category", "")
     tags = set(book.get("tags") or [])
     subjects = [s.lower() for s in (book.get("subject_facet") or [])]
+    desc = (book.get("description") or "").lower()
 
     # Step 1 — collect candidates with confidence scores
     candidates: Counter[str] = Counter()
 
+    # Curated category inertia: non-Literature categories have strong baseline
+    # inertia (+12) so established books (especially Classics, History, Philosophy)
+    # aren't casually bounced around.
+    if current and current != "Literature":
+        candidates[current] += 12
+
     # High-confidence tag signal — weight 5
     for tag in tags:
         target = HIGH_CONFIDENCE_TAGS.get(tag)
-        if target and target != current and target in existing:
+        if target and target in existing:
             candidates[target] += 5
 
     # Low-confidence tag — only counts if subject also matches
     for tag in tags:
         target = NEEDS_SUBJECT_TAGS.get(tag)
-        if not target or target == current or target not in existing:
+        if not target or target not in existing:
             continue
         if _subject_match(subjects, SUBJECT_KEYWORDS.get(target, [])):
-            candidates[target] += 4  # tag + subject = strong
+            candidates[target] += 5  # tag + subject = strong
 
-    # Subject-only signal — weight 2 per matching subject (cap at 2 per category)
+    # Subject-only signal — weight 4 if at least 2 subjects match
     for cat, keywords in SUBJECT_KEYWORDS.items():
-        if cat == current or cat not in existing:
+        if cat not in existing:
             continue
         match_count = sum(
-            1 for sub in subjects if any(k in sub for k in keywords)
+            1 for sub in subjects if any(_keyword_matches(k, sub) for k in keywords)
         )
         if match_count >= 2:
-            candidates[cat] += 2  # multi-subject match adds weight
+            candidates[cat] += 4
+
+    # DDC classification signal (weight 3)
+    ddc_cat = category_from_ddc(book.get("ddc") or [])
+    if ddc_cat and ddc_cat in existing:
+        candidates[ddc_cat] += 3
+
+    # Non-fiction & Drama safeguards:
+    # If a book has "fictional works by one author" (LCSH standard for novels),
+    # it must NOT be moved into non-fiction shelves (Philosophy, Political Theory, Security)
+    # or into Drama (unless explicitly tagged play/plays or Shakespeare DDC 822.33).
+    has_fictional_works = any("fictional works by one author" in s for s in subjects)
+    if has_fictional_works:
+        candidates["Philosophy"] = 0
+        candidates["Political Theory"] = 0
+        candidates["Security"] = 0
+        has_play_tag = bool({"play", "plays"} & tags)
+        is_shakespeare = any("822.33" in str(d) for d in (book.get("ddc") or []))
+        if not has_play_tag and not is_shakespeare:
+            candidates["Drama"] = 0
+
+    # Horror safeguard: Christmas/festive stories, casual ghost stories, or satire
+    # (e.g. Northanger Abbey) shouldn't become Horror unless explicitly tagged horror.
+    if candidates["Horror"] > 0 and "horror" not in tags:
+        has_satire_or_parody = any(any(_keyword_matches(k, s) for k in ["satire", "parody"]) for s in subjects)
+        has_real_horror_subject = any(
+            any(_keyword_matches(k, s) for k in ["horror fiction", "gothic fiction", "vampires", "horror tales"])
+            for s in subjects
+        )
+        if has_satire_or_parody or not has_real_horror_subject:
+            candidates["Horror"] = 0
+
+    # Poetry safeguard: prose short story collections or novels must not move to Poetry
+    # unless explicitly tagged poetry.
+    if candidates["Poetry"] > 0 and "poetry" not in tags:
+        has_prose_signal = bool({"short-stories"} & tags) or any(
+            any(_keyword_matches(k, s) for k in ["short stories", "fictional works by one author"])
+            for s in subjects
+        )
+        if has_prose_signal:
+            candidates["Poetry"] = 0
+
+    # Speculative fiction tie-breaker between Science Fiction and Fantasy
+    if candidates["Science Fiction"] > 0 and candidates["Fantasy"] > 0 and candidates["Science Fiction"] == candidates["Fantasy"]:
+        scifi_matches = sum(1 for s in subjects if any(k in s for k in SCI_FI_KEYWORDS)) + sum(1 for k in SCI_FI_KEYWORDS if k in desc)
+        fantasy_matches = sum(1 for s in subjects if any(k in s for k in FANTASY_KEYWORDS)) + sum(1 for k in FANTASY_KEYWORDS if k in desc)
+        if scifi_matches > fantasy_matches:
+            candidates["Science Fiction"] += 1
+        elif fantasy_matches > scifi_matches:
+            candidates["Fantasy"] += 1
 
     if not candidates:
         return None
@@ -246,12 +427,13 @@ def proposed_category(book: dict, existing: set[str]) -> str | None:
     top_cat, top_score = most_common[0]
     runner_up_score = most_common[1][1] if len(most_common) > 1 else 0
 
-    # Need 4+ to commit — meaning: one high-confidence tag, OR low-conf tag + subject,
-    # OR two or more subject matches.
+    # Need 4+ to commit
     if top_score < 4:
         return None
     if runner_up_score >= top_score:
         return None  # tied
+    if top_cat == current:
+        return None
     return top_cat
 
 
