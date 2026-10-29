@@ -62,3 +62,4 @@ public/cached/authors/*.url
 
 # Nexus-agents orchestration run artifacts (local-only)
 runs/
+.nexus-agents/
