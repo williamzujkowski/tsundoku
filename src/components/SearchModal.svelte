@@ -384,7 +384,7 @@
   }
 
   .results-error {
-    color: var(--pop-red);
+    color: var(--color-error);
   }
 
   .results-empty {

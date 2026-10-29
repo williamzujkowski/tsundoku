@@ -9,16 +9,21 @@
     if (typeof document === 'undefined') return 'dark';
     const attr = document.documentElement.getAttribute('data-theme');
     if (attr === 'light' || attr === 'dark') return attr;
+    const styleScheme = document.documentElement.style.colorScheme;
+    if (styleScheme === 'light' || styleScheme === 'dark') return styleScheme as Theme;
     return window.matchMedia?.('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
   }
 
   function applyTheme(next: Theme) {
     document.documentElement.setAttribute('data-theme', next);
+    document.documentElement.style.colorScheme = next;
+    document.documentElement.classList.toggle('dark', next === 'dark');
     try {
       localStorage.setItem('theme', next);
     } catch {
       // localStorage may be unavailable (private mode); fall through
     }
+    window.dispatchEvent(new CustomEvent('theme-change', { detail: { theme: next } }));
     theme = next;
   }
 

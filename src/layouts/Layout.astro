@@ -57,10 +57,13 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
         when a Palette Deck palette is active ([data-palette]): its literal
         colors would otherwise outrank the palette's var(--color-bg). */}
     <style is:inline>
-      :root:not([data-palette]) { color-scheme: light; background: oklch(0.975 0.005 80); color: oklch(0.18 0.01 80); }
-      [data-theme="dark"]:not([data-palette]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
+      :root { color-scheme: light; }
+      :root:not([data-palette]) { background: oklch(0.975 0.005 80); color: oklch(0.18 0.01 80); }
+      [data-theme="dark"] { color-scheme: dark; }
+      [data-theme="dark"]:not([data-palette]) { background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
       @media (prefers-color-scheme: dark) {
-        :root:not([data-theme="light"]):not([data-palette]) { color-scheme: dark; background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
+        :root:not([data-theme="light"]) { color-scheme: dark; }
+        :root:not([data-theme="light"]):not([data-palette]) { background: oklch(0.16 0.01 80); color: oklch(0.90 0.005 80); }
       }
       body { background: inherit; color: inherit; margin: 0; }
     </style>
@@ -85,10 +88,14 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
       (function () {
         try {
           var stored = localStorage.getItem('theme');
+          var html = document.documentElement;
           if (stored === 'light' || stored === 'dark') {
-            var html = document.documentElement;
             html.setAttribute('data-theme', stored);
             html.style.colorScheme = stored;
+            html.classList.toggle('dark', stored === 'dark');
+          } else {
+            var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            html.classList.toggle('dark', isDark);
           }
         } catch (e) {
           // localStorage unavailable — system preference handles it via @media
@@ -109,9 +116,12 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
           if (apply === 'light' || apply === 'dark') {
             html.setAttribute('data-theme', apply);
             html.style.colorScheme = apply;
+            html.classList.toggle('dark', apply === 'dark');
           } else {
             html.removeAttribute('data-theme');
             html.style.colorScheme = '';
+            var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            html.classList.toggle('dark', isDark);
           }
           // Same for the Palette Deck choice.
           var palette = document.documentElement.getAttribute('data-palette');

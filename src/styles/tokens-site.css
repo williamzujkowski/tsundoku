@@ -326,18 +326,36 @@
 }
 
 :root {
-  /* --- legacy aliases: backgrounds / text / borders --- */
+  /* --- OpenDesign & legacy aliases: backgrounds / text / borders --- */
   --bg: var(--color-bg);
   --bg-surface: var(--color-surface);
   --bg-elevated: var(--color-bg-subtle);
+  --surface: var(--color-surface);
+  --surface-warm: var(--color-surface);
   --card-bg: var(--color-surface);
   --text: var(--color-fg);
   --text-muted: var(--color-fg-muted);
   --text-dim: var(--color-muted);
+  --fg: var(--color-fg);
+  --fg-2: var(--color-fg-muted);
+  --muted: var(--color-muted);
+  --meta: var(--color-muted);
   --border: var(--color-border);
+  --border-soft: var(--color-border);
   --border-strong: var(--color-border-bold);
   --ring: var(--color-focus-ring);
+  --accent: var(--color-accent);
+  --accent-on: var(--color-on-accent);
+  --accent-hover: var(--color-accent-hover);
+  --accent-active: var(--color-accent-hover);
+  --accent-subtle: var(--color-accent-subtle);
   --on-accent: var(--color-on-accent);
+  --success: var(--color-success);
+  --success-subtle: var(--color-success-subtle);
+  --warn: var(--color-warning);
+  --warn-subtle: var(--color-warning-subtle);
+  --danger: var(--color-error);
+  --danger-subtle: var(--color-error-subtle);
 
   /* --- legacy aliases: shadows neutralized (Remarque: borders, never
          drop shadows). Left defined (not removed) so every existing
@@ -362,26 +380,18 @@
          isn't a surface color). --- */
   --color-overlay: oklch(0.12 0.01 80 / 0.6);
 
-  /* --- category color-coding (7 DISTINCT hues, none of them
-         --color-accent). This is content taxonomy ONLY: it exists solely
-         for the .cat-* mapping below and the status-badge/priority-badge
-         read/reading/want semantics. It is NOT a general-purpose accent
-         palette — nothing else (hover states, chart fills, rank numbers,
-         decorative card borders) may use these tokens. That confusion is
-         exactly the bug fixed in the dark-mode sweep: --pop-pink used to
-         leak into interactive hover/focus states in BookGrid.svelte and
-         SearchModal.svelte, and --pop-purple/--pop-cyan/etc. leaked into
-         stats.astro/index.astro chart fills and a rainbow rank-number
-         list — all now moved to --color-accent. See DESIGN-NOTES.md.
-         Light values, in-gamut. --- */
-  --pop-blue:   oklch(0.48 0.13 254.8);
-  --pop-green:  oklch(0.50 0.12 122.9);
-  --pop-yellow: oklch(0.55 0.11 85.8);
-  --pop-orange: oklch(0.55 0.12 55);
-  --pop-purple: oklch(0.50 0.16 349.8);
-  --pop-red:    oklch(0.50 0.17 27.8);
-  --pop-cyan:   oklch(0.55 0.09 186.7);
-  --pop-pink:   oklch(0.50 0.16 350); /* .cat-literature / .cat-art / .cat-music / .cat-memoir only */
+  /* --- category color-coding (mapped to active theme's categorical
+         viz & semantic slots so terminal themes recolor them dynamically).
+         This is content taxonomy ONLY: it exists solely for the .cat-*
+         mapping below and reading/priority badge semantics. --- */
+  --pop-blue:   var(--color-viz-1);
+  --pop-yellow: var(--color-viz-2);
+  --pop-pink:   var(--color-viz-3);
+  --pop-green:  var(--color-viz-4);
+  --pop-purple: var(--color-viz-5);
+  --pop-cyan:   var(--color-viz-6);
+  --pop-orange: var(--color-warning);
+  --pop-red:    var(--color-error);
 
   /* World-map gradient endpoints (stats.astro color-mixes between these
      in OKLCH per-country -- theme-aware without rebuilding the page).
@@ -389,39 +399,6 @@
      ramp between a neutral and the accent, not a rainbow. */
   --map-low: var(--color-border-bold);
   --map-high: var(--color-accent);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --pop-blue:   oklch(0.72 0.12 250);
-    --pop-green:  oklch(0.78 0.12 145);
-    --pop-yellow: oklch(0.86 0.11 90);
-    --pop-orange: oklch(0.78 0.13 55);
-    --pop-purple: oklch(0.74 0.12 300);
-    --pop-red:    oklch(0.72 0.13 25);
-    --pop-cyan:   oklch(0.78 0.10 200);
-    --pop-pink:   oklch(0.74 0.13 350);
-  }
-}
-[data-theme="dark"] {
-  --pop-blue:   oklch(0.72 0.12 250);
-  --pop-green:  oklch(0.78 0.12 145);
-  --pop-yellow: oklch(0.86 0.11 90);
-  --pop-orange: oklch(0.78 0.13 55);
-  --pop-purple: oklch(0.74 0.12 300);
-  --pop-red:    oklch(0.72 0.13 25);
-  --pop-cyan:   oklch(0.78 0.10 200);
-  --pop-pink:   oklch(0.74 0.13 350);
-}
-[data-theme="light"] {
-  --pop-blue:   oklch(0.48 0.13 254.8);
-  --pop-green:  oklch(0.50 0.12 122.9);
-  --pop-yellow: oklch(0.55 0.11 85.8);
-  --pop-orange: oklch(0.55 0.12 55);
-  --pop-purple: oklch(0.50 0.16 349.8);
-  --pop-red:    oklch(0.50 0.17 27.8);
-  --pop-cyan:   oklch(0.55 0.09 186.7);
-  --pop-pink:   oklch(0.50 0.16 350);
 }
 
 /* ===== Category -> accent mapping (static allowlist -- 30 categories) ===== */
