@@ -4,7 +4,7 @@ import path from 'node:path';
 import Layout from '../layouts/Layout.astro';
 import stats from '../data/stats.json';
 import { getCollection } from 'astro:content';
-import { toSlug } from '../utils/formatting';
+import { toSlug, ddcClassOf } from '../utils/formatting';
 
 const base = import.meta.env.BASE_URL;
 
@@ -68,6 +68,35 @@ for (const [code, books] of Object.entries(countryBookCounts)) {
   mapTooltipData[code] = { label: nationalityLabel(code), books, authors: countryAuthorCounts[code] ?? 0 };
 }
 
+// DDC Stacks breakdown across the 10 main classes
+const DDC_MAIN_CLASSES = [
+  { code: '000', name: 'General works & Tech' },
+  { code: '100', name: 'Philosophy & Psychology' },
+  { code: '200', name: 'Religion' },
+  { code: '300', name: 'Social Sciences' },
+  { code: '400', name: 'Language & Linguistics' },
+  { code: '500', name: 'Pure Science' },
+  { code: '600', name: 'Technology & Applied Science' },
+  { code: '700', name: 'Arts & Recreation' },
+  { code: '800', name: 'Literature' },
+  { code: '900', name: 'History & Geography' },
+];
+
+const ddcStackCounts = new Map<string, number>();
+let totalClassified = 0;
+for (const b of allBooks) {
+  const cls = ddcClassOf(b.data.ddc);
+  if (cls) {
+    ddcStackCounts.set(cls, (ddcStackCounts.get(cls) ?? 0) + 1);
+    totalClassified++;
+  }
+}
+const ddcStackEntries = DDC_MAIN_CLASSES.map(c => ({
+  ...c,
+  count: ddcStackCounts.get(c.code) ?? 0,
+})).sort((a, b) => b.count - a.count);
+const ddcMax = Math.max(1, ...ddcStackEntries.map(e => e.count));
+
 const worldMapSvg = await fs.readFile(
   path.resolve(process.cwd(), 'src/data/world-map.svg'),
   'utf-8',
@@ -85,13 +114,21 @@ const mapFillRules = Object.entries(countryBookCounts)
   .map(([code, count]) => `.world-map path[data-country="${code}"] { fill: color-mix(in oklch, var(--map-low), var(--map-high) ${mixPercent(count)}%); }`)
   .join('\n');
 
+const mapPointerRules = Object.keys(countryBookCounts)
+  .map(code => `.world-map path[data-country="${code}"] { cursor: pointer; }`)
+  .join('\n');
+
 // Wrap the dynamic CSS in a <style> tag for set:html injection.
 const mapStyleBlock = `<style>
 .world-map { width: 100%; height: auto; max-width: 900px; margin: 0 auto; display: block; }
+.world-map rect { pointer-events: none; }
 .world-map path { fill: var(--bg-elevated); stroke: var(--border); stroke-width: 0.4; transition: fill 200ms ease; }
 .world-map path:hover { stroke-width: 1.2; stroke: var(--text-muted); }
-.timeline-bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 4px; align-items: end; min-height: 160px; }
-.timeline-bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.world-map path[data-country] { cursor: default; }
+${mapPointerRules}
+.timeline-bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(44px, 1fr)); gap: 4px; align-items: end; min-height: 160px; }
+.timeline-bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; border-radius: var(--radius-sm, 2px); transition: background-color 120ms ease; }
+.timeline-bar-wrap:hover .timeline-bar-fill { opacity: 0.85; filter: brightness(1.25); }
 .timeline-bar-fill { width: 100%; background: var(--color-accent); min-height: 2px; }
 ${mapFillRules}
 </style>`;
@@ -145,26 +182,37 @@ ${mapFillRules}
 
   <!-- Decade timeline — every 10-year slice with at least one book -->
   <section class="mb-8">
-    <h2 class="heading-md mb-4">When the Books Are From</h2>
+    <div class="flex items-baseline justify-between mb-2 flex-wrap gap-2">
+      <h2 class="heading-md">When the Books Are From</h2>
+      <span id="stats-decade-readout" class="text-xs text-mono text-dim" aria-live="polite">hover a decade · click to browse →</span>
+    </div>
     <p class="text-sm text-muted mb-4">By first-edition decade. {oldestYearLine} Pre-1700 entries omitted from the chart for legibility — see the era table below.</p>
     <div class="card card-padded-lg">
-      <div class="timeline-bars">
+      <div class="timeline-bars" id="stats-timeline-bars">
         {timelineEntries.map(t => {
           const heightPct = (t.count / timelineMax) * 100;
+          const isCentury = t.decade % 100 === 0;
+          const label = isCentury ? String(t.decade) : `'${String(t.decade).slice(-2)}`;
           return (
-            <div class="timeline-bar-wrap" title={`${t.decade}s: ${t.count} books`}>
+            <a
+              href={`${base}browse/?decade=${t.decade}`}
+              class="timeline-bar-wrap"
+              data-decade={t.decade}
+              data-count={t.count}
+              title={`${t.decade}s: ${t.count} ${t.count === 1 ? 'book' : 'books'} (click to browse)`}
+            >
               <span class="text-xs text-dim text-mono">{t.count}</span>
               <div
                 class="timeline-bar-fill"
                 style={`height: ${Math.max(heightPct, 2)}%`}
                 aria-hidden="true">
               </div>
-              <span class="text-xs text-dim text-mono">{String(t.decade).slice(-2)}</span>
-            </div>
+              <span class={`text-xs text-mono ${isCentury ? 'text-muted font-bold' : 'text-dim'}`}>{label}</span>
+            </a>
           );
         })}
       </div>
-      <p class="text-xs text-dim mt-3">Each bar is a decade; the two-digit label is the decade's tens digit (e.g. "49" = 1940s).</p>
+      <p class="text-xs text-dim mt-3">Each bar is a decade; centuries are marked with full 4-digit years (e.g. 1900). Click any bar to browse that decade.</p>
     </div>
   </section>
 
@@ -176,25 +224,27 @@ ${mapFillRules}
 
       <Fragment set:html={mapStyleBlock} />
 
-      <div class="card card-padded-lg mb-4">
+      <div id="world-map-card" class="card card-padded-lg mb-4" data-base-url={base}>
         <Fragment set:html={worldMapSvg} />
       </div>
-      <p class="text-xs text-dim mb-4">Hover a highlighted country for its counts. Shading is by book count (√-scaled).</p>
+      <p class="text-xs text-dim mb-4">Click a highlighted country or list entry below to browse its books. Shading is by book count (√-scaled).</p>
 
       <script type="application/json" id="map-data" set:html={JSON.stringify(mapTooltipData)}></script>
       <div id="map-tooltip" class="map-tooltip" role="status" aria-live="polite" hidden></div>
 
       <div class="card card-padded-lg">
         {stats.nationality_distribution.map(n => (
-          <div class="mb-2">
-            <div class="flex justify-between text-sm mb-2">
-              <span class="text-muted">{nationalityLabel(n.code)}</span>
+          <a href={`${base}browse/?nationality=${n.code}`} class="block mb-3 group" title={`Browse ${nationalityLabel(n.code)} books`}>
+            <div class="flex justify-between text-sm mb-1">
+              <span class="text-muted group-hover:text-accent transition-colors">
+                {nationalityLabel(n.code)} <span class="text-xs text-dim text-mono font-normal">({n.code}) →</span>
+              </span>
               <span class="text-dim text-mono">{n.count}</span>
             </div>
             <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * n.count / nationalityMax)} aria-valuemin="0" aria-valuemax="100" aria-label={`${nationalityLabel(n.code)}: ${n.count} books`}>
               <div style={`width: ${100 * n.count / nationalityMax}%; background: var(--color-accent);`}></div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
@@ -241,6 +291,35 @@ ${mapFillRules}
             <div style={`width: ${100 * p.count / stats.total_books}%; background: ${p.color};`}></div>
           </div>
         </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- The Stacks (Dewey Decimal Classification) -->
+  <section class="mb-8">
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
+      <div>
+        <h2 class="heading-md">The Stacks (Dewey Classification)</h2>
+        <p class="text-sm text-muted">{totalClassified.toLocaleString()} of {stats.total_books.toLocaleString()} books classified across the 10 main classes</p>
+      </div>
+      <a href={`${base}stacks/`} class="ext-link text-sm" style="text-decoration: underline">
+        Explore all 10 stacks →
+      </a>
+    </div>
+    <div class="card card-padded-lg">
+      {ddcStackEntries.map(c => (
+        <a href={`${base}stacks/${c.code}/`} class="block mb-3 group" title={`Explore Stack ${c.code} (${c.name})`}>
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-muted group-hover:text-accent transition-colors">
+              <span class="text-mono text-dim font-bold mr-2">{c.code}</span>
+              {c.name} <span class="text-xs text-dim">→</span>
+            </span>
+            <span class="text-dim text-mono">{c.count.toLocaleString()} ({Math.round(100 * c.count / stats.total_books)}%)</span>
+          </div>
+          <div class="progress-bar" role="progressbar" aria-valuenow={Math.round(100 * c.count / ddcMax)} aria-valuemin="0" aria-valuemax="100" aria-label={`${c.name}: ${c.count} books`}>
+            <div style={`width: ${100 * c.count / ddcMax}%; background: var(--color-accent);`}></div>
+          </div>
+        </a>
       ))}
     </div>
   </section>
@@ -347,49 +426,78 @@ ${mapFillRules}
   <p class="text-xs text-dim mt-2">
     Snapshot as of {new Date(stats.generated_at).toLocaleDateString()}. The pile has probably grown since then.
   </p>
+  <style>
+    .world-map path[data-country] { cursor: default; }
+    .map-tooltip {
+      position: fixed;
+      z-index: 50;
+      pointer-events: none;
+      padding: 0.35rem 0.6rem;
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+      color: var(--text);
+      background: var(--bg-elevated);
+      border: var(--border-width) solid var(--border-strong);
+      border-radius: var(--radius-sm);
+      white-space: nowrap;
+      transform: translate(12px, 12px);
+    }
+    .map-tooltip[hidden] { display: none; }
+  </style>
+
+  <script>
+    function setupStats() {
+      const dataEl = document.getElementById('map-data');
+      const tip = document.getElementById('map-tooltip');
+      const svg = document.querySelector('.world-map');
+      const mapCard = document.getElementById('world-map-card');
+      const baseUrl = mapCard?.getAttribute('data-base-url') || '/';
+
+      if (dataEl && tip && svg) {
+        let data: Record<string, { label: string; books: number; authors: number }> = {};
+        try { data = JSON.parse(dataEl.textContent || '{}'); } catch (_) { return; }
+
+        svg.addEventListener('pointermove', (e) => {
+          const path = (e.target as Element | null)?.closest?.('path[data-country]');
+          const code = path?.getAttribute('data-country');
+          const d = code ? data[code] : null;
+          if (!d) { tip.hidden = true; return; }
+          const books = d.books.toLocaleString();
+          const authors = d.authors.toLocaleString();
+          tip.textContent = `${d.label} — ${books} ${d.books === 1 ? 'book' : 'books'} · ${authors} ${d.authors === 1 ? 'author' : 'authors'} (click to browse)`;
+          tip.hidden = false;
+          tip.style.left = (e as MouseEvent).clientX + 'px';
+          tip.style.top = (e as MouseEvent).clientY + 'px';
+        });
+        svg.addEventListener('pointerleave', () => { tip.hidden = true; });
+
+        svg.addEventListener('click', (e) => {
+          const path = (e.target as Element | null)?.closest?.('path[data-country]');
+          const code = path?.getAttribute('data-country');
+          if (code && data[code] && data[code].books > 0) {
+            window.location.href = `${baseUrl}browse/?nationality=${code}`;
+          }
+        });
+      }
+
+      // Decade timeline hover readout
+      const timeline = document.getElementById('stats-timeline-bars');
+      const readout = document.getElementById('stats-decade-readout');
+      if (timeline && readout) {
+        const defaultPrompt = 'hover a decade · click to browse →';
+        timeline.addEventListener('pointerover', (e) => {
+          const bar = (e.target as Element | null)?.closest?.('.timeline-bar-wrap') as HTMLElement | null;
+          if (!bar) return;
+          const n = Number(bar.dataset.count);
+          readout.textContent = `${bar.dataset.decade}s — ${n.toLocaleString()} ${n === 1 ? 'book' : 'books'} (click to browse)`;
+        });
+        timeline.addEventListener('pointerleave', () => { readout.textContent = defaultPrompt; });
+      }
+    }
+
+    document.addEventListener('astro:page-load', setupStats);
+    if (document.readyState !== 'loading') {
+      setupStats();
+    }
+  </script>
 </Layout>
-
-<style>
-  .world-map path[data-country] { cursor: default; }
-  .map-tooltip {
-    position: fixed;
-    z-index: 50;
-    pointer-events: none;
-    padding: 0.35rem 0.6rem;
-    font-family: var(--font-mono);
-    font-size: 0.8125rem;
-    color: var(--text);
-    background: var(--bg-elevated);
-    border: var(--border-width) solid var(--border-strong);
-    border-radius: var(--radius-sm);
-    white-space: nowrap;
-    transform: translate(12px, 12px);
-  }
-  .map-tooltip[hidden] { display: none; }
-</style>
-
-<script is:inline>
-  // World-map hover tooltip: country label + book/author counts, following the
-  // cursor. Re-binds on every view-transition navigation (astro:page-load).
-  document.addEventListener('astro:page-load', () => {
-    const dataEl = document.getElementById('map-data');
-    const tip = document.getElementById('map-tooltip');
-    const svg = document.querySelector('.world-map');
-    if (!dataEl || !tip || !svg) return;
-    let data = {};
-    try { data = JSON.parse(dataEl.textContent || '{}'); } catch (_) { return; }
-
-    svg.addEventListener('pointermove', (e) => {
-      const path = e.target.closest('path[data-country]');
-      const d = path && data[path.getAttribute('data-country')];
-      if (!d) { tip.hidden = true; return; }
-      const books = d.books.toLocaleString();
-      const authors = d.authors.toLocaleString();
-      tip.textContent = `${d.label} — ${books} ${d.books === 1 ? 'book' : 'books'} · ${authors} ${d.authors === 1 ? 'author' : 'authors'}`;
-      tip.hidden = false;
-      tip.style.left = e.clientX + 'px';
-      tip.style.top = e.clientY + 'px';
-    });
-    svg.addEventListener('pointerleave', () => { tip.hidden = true; });
-  });
-</script>

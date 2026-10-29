@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { resolveImageSrc } from '../../utils/imageGuard';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, toSlug, pluralize, thumbnailUrl } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, toSlug, pluralize, thumbnailUrl, statusStamp } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   const books = await getCollection('books');
@@ -75,7 +75,13 @@ const hasOverflow = totalCount > topLimit;
           </div>
           <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
           <p class="text-xs text-dim truncate">{book.data.author}</p>
-          <p class="text-xs text-dim truncate mt-1">{book.data.category}</p>
+          <div class="flex items-center justify-between gap-2 mt-auto">
+            <p class="text-xs text-dim truncate">{book.data.category}</p>
+            {(() => {
+              const stamp = statusStamp(book.data.reading_status);
+              return stamp ? <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span> : null;
+            })()}
+          </div>
         </div>
       </a>
     ))}

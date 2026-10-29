@@ -15,6 +15,7 @@ import {
   isOrganizationalAuthorName,
   isSuppressedAuthorStub,
   formatCallNumber,
+  ddcClassOf,
   invertAuthorName,
   statusStamp,
 } from './formatting.js';
@@ -559,6 +560,25 @@ describe('formatCallNumber', () => {
 
   it('returns null for an empty wire string', () => {
     expect(formatCallNumber('')).toBeNull();
+  });
+});
+
+describe('ddcClassOf', () => {
+  it('extracts the main class from valid DDC numbers', () => {
+    expect(ddcClassOf('813.54')).toBe('800');
+    expect(ddcClassOf(['813.54'])).toBe('800');
+    expect(ddcClassOf('005.1')).toBe('000');
+    expect(ddcClassOf(['520'])).toBe('500');
+    expect(ddcClassOf('300')).toBe('300');
+    expect(ddcClassOf('9')).toBe('900');
+  });
+
+  it('returns null for invalid or missing DDC values', () => {
+    expect(ddcClassOf(undefined)).toBeNull();
+    expect(ddcClassOf(null)).toBeNull();
+    expect(ddcClassOf([])).toBeNull();
+    expect(ddcClassOf('')).toBeNull();
+    expect(ddcClassOf('Fiction')).toBeNull();
   });
 });
 

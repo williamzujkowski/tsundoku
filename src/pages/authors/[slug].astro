@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches, toSlug } from '../../utils/formatting';
+import { priorityLabel, priorityBadgeClass, pluralize, thumbnailUrl, authorMatches, toSlug, statusStamp } from '../../utils/formatting';
 import { safeJsonLd } from '../../utils/jsonld';
 import { resolveImageSrc } from '../../utils/imageGuard';
 
@@ -195,7 +195,13 @@ const authorPhotoSrc = resolveImageSrc(author.photo_url, author.photo_url_source
             )}
           </div>
           <h3 class="text-sm font-bold line-clamp-2 mb-1">{book.data.title}</h3>
-          <p class="text-xs text-dim truncate">{book.data.category}</p>
+          <div class="flex items-center justify-between gap-2 mt-auto">
+            <p class="text-xs text-dim truncate">{book.data.category}</p>
+            {(() => {
+              const stamp = statusStamp(book.data.reading_status);
+              return stamp ? <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span> : null;
+            })()}
+          </div>
         </div>
       </a>
     ))}

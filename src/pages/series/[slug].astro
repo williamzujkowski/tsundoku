@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { resolveImageSrc } from '../../utils/imageGuard';
 import { getCollection } from 'astro:content';
-import { toSlug, priorityClass, priorityLabel, formatYear } from '../../utils/formatting';
+import { toSlug, priorityClass, priorityLabel, formatYear, statusStamp } from '../../utils/formatting';
 
 export async function getStaticPaths() {
   // Astro runs getStaticPaths in an isolated scope — module-level
@@ -61,11 +61,17 @@ const base = import.meta.env.BASE_URL;
           <div class="book-thumb-placeholder" aria-hidden="true">📖</div>
         )}
         <div class="book-card-body">
-          <div class="flex items-center gap-2 mb-1">
-            {b.series?.position && (
-              <span class="text-xs text-mono text-dim">#{b.series.position}</span>
-            )}
-            <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+          <div class="flex items-center justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2">
+              {b.series?.position && (
+                <span class="text-xs text-mono text-dim">#{b.series.position}</span>
+              )}
+              <span class={priorityClass(b.priority)}>{priorityLabel(b.priority)}</span>
+            </div>
+            {(() => {
+              const stamp = statusStamp(b.reading_status);
+              return stamp ? <span class={`status-stamp ${stamp.className}`}>{stamp.label}</span> : null;
+            })()}
           </div>
           <h3 class="text-sm font-bold line-clamp-2 mb-1">{b.title}</h3>
           <p class="text-xs text-dim line-clamp-1">{b.author}</p>

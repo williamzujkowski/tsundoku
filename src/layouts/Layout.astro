@@ -177,6 +177,10 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
                   <span class="dropdown-item-title">Literary Movements</span>
                   <span class="dropdown-item-desc">Romanticism to Postmodernism</span>
                 </a>
+                <a href={`${base}tags/`} class="nav-dropdown-item">
+                  <span class="dropdown-item-title">Genre Tags</span>
+                  <span class="dropdown-item-desc">Sci-fi, fantasy, philosophy &amp; more</span>
+                </a>
               </div>
             </details>
             <a href={`${base}stats/`} class="nav-link">Stats</a>
@@ -211,6 +215,7 @@ const ogImage = image && Astro.site ? new URL(image, Astro.site).href : (image |
         <a href={`${base}awards/`} class="mobile-nav-link">Literary Awards</a>
         <a href={`${base}series/`} class="mobile-nav-link">Book Series</a>
         <a href={`${base}movements/`} class="mobile-nav-link">Literary Movements</a>
+        <a href={`${base}tags/`} class="mobile-nav-link">Genre Tags</a>
         <div class="mobile-nav-divider"></div>
         <a href={`${base}stats/`} class="mobile-nav-link">Stats</a>
         <a href={`${base}about/`} class="mobile-nav-link">About</a>

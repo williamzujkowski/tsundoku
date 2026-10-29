@@ -81,6 +81,26 @@
   let viewMode = $state<'card' | 'compact'>('card');
 
   onMount(async () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('nationality')) selectedNationality = params.get('nationality') || '';
+      if (params.has('decade')) {
+        const d = parseInt(params.get('decade') || '', 10);
+        if (!isNaN(d)) selectedDecade = d;
+      }
+      if (params.has('category')) selectedCategory = params.get('category') || '';
+      if (params.has('status')) selectedStatus = params.get('status') || '';
+      if (params.has('priority')) {
+        const p = parseInt(params.get('priority') || '', 10);
+        if (!isNaN(p)) selectedPriority = p;
+      }
+      if (params.has('tag')) selectedTag = params.get('tag') || '';
+      if (params.has('language')) selectedLanguage = params.get('language') || '';
+      if (params.has('q')) search = params.get('q') || '';
+      if (params.get('view') === 'compact' || params.get('view') === 'card') {
+        viewMode = params.get('view') as 'card' | 'compact';
+      }
+    }
     try {
       const res = await fetch(`${baseUrl}browse-data.json`);
       if (!res.ok) { loadError = true; return; }
@@ -153,7 +173,30 @@
     selectedDecade = -1;
     selectedLanguage = '';
     selectedNationality = '';
+    if (typeof window !== 'undefined' && window.location.search) {
+      window.history.replaceState({}, '', window.location.pathname);
+    }
   }
+
+  $effect(() => {
+    if (!loaded || typeof window === 'undefined') return;
+    const params = new URLSearchParams();
+    if (selectedNationality) params.set('nationality', selectedNationality);
+    if (selectedDecade !== -1) params.set('decade', String(selectedDecade));
+    if (selectedCategory) params.set('category', selectedCategory);
+    if (selectedStatus) params.set('status', selectedStatus);
+    if (selectedPriority !== 0) params.set('priority', String(selectedPriority));
+    if (selectedTag) params.set('tag', selectedTag);
+    if (selectedLanguage) params.set('language', selectedLanguage);
+    if (search.trim()) params.set('q', search.trim());
+    if (viewMode === 'compact') params.set('view', 'compact');
+
+    const qs = params.toString();
+    const target = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    if (window.location.search !== (qs ? `?${qs}` : '')) {
+      window.history.replaceState({}, '', target);
+    }
+  });
 
   function loadMore() {
     showCount += 100;
