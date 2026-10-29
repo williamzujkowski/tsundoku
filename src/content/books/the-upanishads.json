@@ -9,7 +9,7 @@
   ],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "description": "The antecedents for this book are both ancient and modern going back over 5000 years of oral and written philosophy such as the Upanishads of India and the various native Gods in mythology.",
   "cover_url": "/tsundoku/cached/covers/the-upanishads.jpg",
   "cover_url_large": "/tsundoku/cached/covers/the-upanishads.jpg",
@@ -28,5 +28,7 @@
   ],
   "lcc": [
     "B"
-  ]
+  ],
+  "first_published": -700,
+  "worldcat_url": "https://www.worldcat.org/isbn/9789352531325"
 }

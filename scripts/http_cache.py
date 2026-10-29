@@ -70,7 +70,7 @@ class Cache:
     def __init__(self, db_path: Path | str = DEFAULT_DB_PATH):
         self.db_path = Path(db_path)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
-        self.conn = sqlite3.connect(str(self.db_path))
+        self.conn = sqlite3.connect(str(self.db_path), check_same_thread=False)
         # WAL allows concurrent reads while a write is in flight — useful when
         # multiple enrichment scripts run in parallel.
         self.conn.execute("PRAGMA journal_mode=WAL")

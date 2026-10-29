@@ -48,7 +48,7 @@ from parallel_fetch import DEFAULT_BUCKETS, parallel_sources
 from wikidata import enwiki_title, fetch_entity, qids_by_ol_author_keys
 
 
-GAP_FIELDS = ("bio", "photo_url")  # what counts as a "gap" worth filling
+GAP_FIELDS = ("bio", "photo_url", "birth_year")  # what counts as a "gap" worth filling
 RATE_LIMIT_S = 0.5  # be polite to OL + Wikidata
 
 

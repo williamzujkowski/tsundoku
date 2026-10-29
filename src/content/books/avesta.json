@@ -7,7 +7,7 @@
   "tags": [],
   "language": "eng",
   "reading_status": "read",
-  "copyright_status": "undetermined",
+  "copyright_status": "public_domain",
   "description": "The Avesta is the text corpus of religious literature of Zoroastrianism. All its texts are composed in the Avestan language and written in the Avestan alphabet. It represents the largest literature of the Old Iranian period and contains the oldest texts in any Iranian language.",
   "_provenance": {
     "ddc": "derived_v1",
@@ -18,5 +18,8 @@
   ],
   "lcc": [
     "B"
-  ]
+  ],
+  "first_published": -1000,
+  "cover_url": "https://covers.openlibrary.org/b/id/6681685-M.jpg",
+  "worldcat_url": "https://www.worldcat.org/search?q=Avesta%20Zoroaster%20%28attributed%29"
 }
